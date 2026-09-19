@@ -567,3 +567,21 @@ portfolio:
   # There is no pricing non-AI variant: use pricing_ai or fall back to generalist.
   default_when_ambiguous: generalist
   ref_pattern: "{portfolio}/ref/{company-slug}"
+
+# ---------------------------------------------------------------- google sheets
+#
+# Curated public job lists read by nightly-gsheet.mjs (zero tokens) and merged
+# into the feed each discover run. Rows get ", India" appended to their location
+# so the shortlist routes them to the india track.
+#
+# ADDED 2026-09-18: India Growth / Founder's Office / Chief of Staff tracker.
+# The free sheet is refreshed about every 15 days, so its newest rows are
+# already 2-3 weeks old: max_age_days is wider than caps.feed_since_days.
+
+sheets_out_file: data/sheet-feed.tsv
+sheets:
+  - name: india-growth-cos
+    url: https://docs.google.com/spreadsheets/d/1o-_UUD09R9mz6W_QEhJXXw-GF5vD4tl3hQK7QJnK0P0/edit?gid=0
+    region_suffix: India
+    max_age_days: 45
+    min_ctc_lpa: 35          # the India comp floor; rows with no CTC stated are kept

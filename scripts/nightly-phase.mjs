@@ -755,6 +755,15 @@ function main() {
         'data/job-feed.tsv', 'data/websearch-feed.tsv'], { optional: true });
     }
 
+    // Curated Google Sheet job lists (config/nightly.yml -> sheets), ADDED
+    // 2026-09-18 for the India track. Optional: an unreachable sheet must not
+    // fail the night.
+    if (Array.isArray(cfg.sheets) && cfg.sheets.length) {
+      nodeStep('Google Sheet feeds', ['nightly-gsheet.mjs'], { optional: true });
+      nodeStep('Merge sheet feeds into feed', ['scripts/merge-feeds.mjs',
+        'data/job-feed.tsv', cfg.sheets_out_file || 'data/sheet-feed.tsv'], { optional: true });
+    }
+
     nodeStep('Seen-jobs filter', ['nightly-seen.mjs', '--filter', 'data/job-feed.tsv']);
     nodeStep('Shortlist', ['nightly-shortlist.mjs', '--out', 'data/shortlist.tsv',
       '--dropped-out', 'data/terminal-drops.tsv',
