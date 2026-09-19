@@ -14,7 +14,7 @@ Portfolio: routed per JD across 6 sites, see `modes/nightly-rules.md` section 6
 | Track | Geography | Roles | Level |
 |---|---|---|---|
 | **US** | San Francisco Bay Area + Remote-US | Marketing (product / strategic / growth), Pricing & Monetization, RevOps, Product Management, Market Strategy / Competitive Intelligence | Mid-level; drop reqs asking 7+ yrs |
-| **India** | Any Indian metro or remote | **Chief of Staff**, **Head of Growth** | Head-of / CoS in band; drop VP and 9+ yrs |
+| **India** | Any Indian metro or remote | **Chief of Staff**, **Head of Growth**, **Founder's Office**, **CEO / CXO Office**, **Entrepreneur in Residence** | Head-of / CoS in band; drop VP, trainee and 9+ yrs; public salary check, floor 35 LPA |
 
 A US-track title in India, or an India-track title in the US, is off target.
 Config: `config/profile.yml -> tracks`, `config/nightly.yml -> tracks`.

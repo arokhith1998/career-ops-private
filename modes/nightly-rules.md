@@ -84,7 +84,11 @@ Every shortlisted row carries `track` and `visa_gate`.
 - Not walls: silence about sponsorship; a generic "must be authorized to work".
 
 ### India track (`track = india`, `visa_gate = not-applicable`)
-- India, any metro or remote. **Chief of Staff** and **Head of Growth** only.
+- India, any metro or remote. **Chief of Staff**, **Head of Growth**, **Founder's Office**,
+  **CEO / CXO Office** and **Entrepreneur in Residence**.
+- **Salary check before scoring:** stated CTC, else public data for that role at that
+  company (AmbitionBox, Glassdoor India, Levels.fyi, 6figr). Top of the credible range
+  below **35 LPA** = drop. Salary estimates never appear in candidate-facing artifacts.
 - Head-of and Chief of Staff titles are IN band on this track. Drop VP-titled
   roles and reqs demanding 9+ years.
 - **No US visa gate.** Never look up H-1B / LCA / E-Verify for these rows, never

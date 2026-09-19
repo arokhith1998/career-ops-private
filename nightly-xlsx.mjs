@@ -304,7 +304,7 @@ function main() {
         columns: ['#', 'date', 'company', 'role', 'score', 'status', 'pdf', 'report', 'notes'],
         rows: applications },
       { name: 'Build Queue',
-        columns: ['company', 'title', 'track', 'score', 'band', 'visa_verdict', 'portfolio_url', 'url', 'jd_path'],
+        columns: ['company', 'title', 'track', 'score', 'band', 'comp_estimate', 'comp_source', 'visa_verdict', 'portfolio_url', 'url', 'jd_path'],
         rows: queue },
       { name: 'Built',
         columns: ['first_seen', 'company', 'title', 'verdict', 'last_seen', 'url'],

@@ -32,6 +32,11 @@ tracks:
     roles:
       - "Chief of Staff"
       - "Head of Growth"
+      - "Founder's Office"
+      - "CEO / CXO Office"
+      - "Entrepreneur in Residence"
+    # Every India role gets a public salary check before scoring; below the
+    # 35 LPA floor (top of the credible range) it is dropped.
     seniority: "Head-of and Chief of Staff titles allowed on this track; drop VP titles and reqs asking 9+ yrs"
     work_authorization_gate: false     # US visa gate does not apply to India roles
 

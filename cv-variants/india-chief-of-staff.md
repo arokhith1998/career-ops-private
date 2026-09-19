@@ -1,7 +1,9 @@
 # Profile: India - Chief of Staff
 
-**Route here when:** Chief of Staff to the CEO / founder / business head, founder's
-office, strategy & special projects lead in an India-based company.
+**Route here when:** Chief of Staff to the CEO / founder / business head, Founder's
+Office, CEO / CXO Office, Entrepreneur in Residence, strategy & special projects
+lead in an India-based company. For a Founder's Office role with a named function
+(Growth, GTM, Strategy), borrow that function's bullets from the matching US profile.
 **Portfolio:** generalist https://adhithyabhaskar.vercel.app (product-ai if the company is AI-native).
 
 ## Title line

@@ -21,7 +21,7 @@ the JD asks for something `cv.md` does not have, show the closest real analog.
 | US | [us-product-management.md](us-product-management.md) | Product manager, growth PM, roadmap, discovery, PRDs |
 | US | [us-market-strategy.md](us-market-strategy.md) | Market strategy, market/competitive intelligence, market research, sizing, strategy & ops |
 | US | [us-growth.md](us-growth.md) | Growth / performance / demand gen / lifecycle marketing (secondary track) |
-| India | [india-chief-of-staff.md](india-chief-of-staff.md) | Chief of Staff (to CEO / founder / business head) |
+| India | [india-chief-of-staff.md](india-chief-of-staff.md) | Chief of Staff, Founder's Office, CEO / CXO Office, Entrepreneur in Residence |
 | India | [india-head-of-growth.md](india-head-of-growth.md) | Head of Growth, Growth Head |
 
 ## Rules that apply to every profile

@@ -8,7 +8,8 @@
 # Two independent searches, set 2026-09-18:
 #   us     Bay Area + Remote-US: Marketing, Pricing, RevOps, Product Management,
 #          Market Strategy. Mid-level (5 yrs experience; drop reqs asking 7+).
-#   india  India (any metro or remote): Chief of Staff, Head of Growth.
+#   india  India (any metro or remote): Chief of Staff, Head of Growth,
+#          Founder's Office, CEO/CXO Office, Entrepreneur in Residence.
 #
 # nightly-shortlist.mjs resolves every posting to ONE track: region first
 # (India is detected by city/country before the US check), then that region's
@@ -146,6 +147,9 @@ tracks:
       - '\bvp\b'
       - '\bvice president\b'
       - '\bintern\b'
+      - '\btrainee\b'
+      - '\bfresher'
+      - '\bapprentice'
     websearch_hint: '(India OR Bengaluru OR Bangalore OR Mumbai OR Gurugram OR Delhi OR Hyderabad OR Pune)'
     role_families:
       chief_of_staff:
@@ -159,6 +163,32 @@ tracks:
           - "growth head"
           - "head - growth"
           - "head, growth"
+      # ADDED 2026-09-18 (candidate): India's CoS-style families. Apostrophe
+      # variants are listed because titles arrive with ', ’ or none at all.
+      founders_office:
+        weight: 0.95
+        titles:
+          - "founder's office"
+          - "founder’s office"
+          - "founders office"
+          - "founders' office"
+          - "founder office"
+      ceo_office:
+        weight: 0.95
+        titles:
+          - "ceo's office"
+          - "ceo’s office"
+          - "ceo office"
+          - "office of the ceo"
+          - "cxo's office"
+          - "cxo office"
+          - "office of the cxo"
+      entrepreneur_in_residence:
+        weight: 0.9
+        titles:
+          - "entrepreneur in residence"
+          - "entrepreneur-in-residence"
+          - "(eir)"
 
 # ---------------------------------------------------------------- build policy
 #
@@ -420,6 +450,9 @@ linkedin:
       terms:
         - "Chief of Staff"
         - "Head of Growth"
+        - "Founder's Office"
+        - "CEO Office"
+        - "Entrepreneur in Residence"
 
 # ---------------------------------------------------------------- models and timeouts
 #
@@ -518,6 +551,11 @@ caps:
   # the filter fixes on 2026-09-11 took that to 0%, so 50 accurate rows now carry
   # more real candidates than 120 did then.
   shortlist_to_evaluate: 50   # postings that reach the visa gate, per DISCOVER run
+  # ADDED 2026-09-18: minimum rows per track in each run's shortlist, so fresh
+  # US postings cannot crowd out the India sheet (its rows are weeks old and
+  # rank lower on freshness). Filled only when that many exist.
+  min_per_track:
+    india: 15
   # RAISED 8 -> 20 and 4 -> 16 on 2026-09-12 to clear the 36-row queue in one
   # pass. Safe to raise because builds are STRICTLY SERIAL and each is verified
   # and logged before the next starts, so the run degrades by building fewer

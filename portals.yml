@@ -68,6 +68,11 @@ title_filter:
     - "Chief of Staff"
     - "Head of Growth"
     - "Growth Head"
+    - "Founder's Office"
+    - "Founders Office"
+    - "CEO's Office"
+    - "CEO Office"
+    - "Entrepreneur in Residence"
   negative:
     - "Intern"
     - "Director"

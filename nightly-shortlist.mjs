@@ -706,6 +706,29 @@ export function rotateUnexaminedFirst(kept, ledgerText) {
   return { rows: unexamined.concat(examined), unexamined: unexamined.length, examined: examined.length };
 }
 
+/**
+ * Take `limit` rows in their existing (rotation) order, but first reserve up to
+ * floors[track] rows for each track that has them. ADDED 2026-09-18: the India
+ * sheet's rows are weeks old, rank low on freshness, and would otherwise never
+ * reach the agents while fresh US postings keep arriving. Order is preserved.
+ */
+export function takeWithTrackFloor(rows, limit, floors = {}) {
+  if (!(limit > 0) || rows.length <= limit) return rows.slice(0, limit > 0 ? limit : rows.length);
+  const picked = new Set();
+  for (const [track, n] of Object.entries(floors)) {
+    let want = Math.min(Number(n) || 0, limit - picked.size);
+    for (const r of rows) {
+      if (want <= 0) break;
+      if (r.track === track && !picked.has(r)) { picked.add(r); want--; }
+    }
+  }
+  for (const r of rows) {
+    if (picked.size >= limit) break;
+    picked.add(r);
+  }
+  return rows.filter((r) => picked.has(r));
+}
+
 function safeRead(p) {
   try { return existsSync(p) ? readFileSync(p, 'utf8') : ''; } catch { return ''; }
 }
@@ -1124,6 +1147,10 @@ function selfTest() {
   eq('track: India title_block still applies', treason.T9, 'seniority-out-of-band');
   eq('track: India rows skip the visa gate', tres.kept.find((k) => k.company === 'T4').visa_gate, 'not-applicable');
   eq('track: US rows keep the visa gate', tres.kept.find((k) => k.company === 'T1').visa_gate, 'required');
+  const mix = [...Array(6)].map((_, i) => ({ id: 'u' + i, track: 'us' })).concat([{ id: 'i0', track: 'india' }, { id: 'i1', track: 'india' }]);
+  eq('floor reserves india rows', takeWithTrackFloor(mix, 4, { india: 2 }).map((r) => r.id), ['u0', 'u1', 'i0', 'i1']);
+  eq('floor never exceeds what exists', takeWithTrackFloor(mix, 4, { india: 5 }).map((r) => r.id), ['u0', 'u1', 'i0', 'i1']);
+  eq('no floors is a plain slice', takeWithTrackFloor(mix, 3, {}).map((r) => r.id), ['u0', 'u1', 'u2']);
 
   console.log(pass + ' passed, ' + fail + ' failed');
   return fail === 0 ? 0 : 1;
@@ -1186,7 +1213,7 @@ function main() {
   const rotation = rotateUnexaminedFirst(kept);
   kept = rotation.rows;
 
-  if (args.limit > 0) kept = kept.slice(0, args.limit);
+  if (args.limit > 0) kept = takeWithTrackFloor(kept, args.limit, (ctx.cfg.caps || {}).min_per_track || {});
 
   const byReason = {};
   for (const d of dropped) byReason[d.drop_reason] = (byReason[d.drop_reason] || 0) + 1;
