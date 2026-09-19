@@ -1,0 +1,24 @@
+Subject: Platform PM, Schema Layer - Adhithya Bhaskar
+
+Hi {Recruiter, Product Platform},
+
+I don't normally reach out before applying, but this req's framing, a schema and data model layer other product teams and AI agents build on, matches a problem I've already solved.
+
+Straight to the number: at Sensata I owned the shared backlog other engineering teams built their sprints against, cutting time-to-market 20%.
+
+More that maps to this role:
+- Ran 30+ interviews with OEM and distributor engineers, the technical buyers integrating against whatever we shipped
+- Turned data from 50K+ connected devices into SQL and GA4 frameworks that set backlog priority, lifting adoption 18%
+- Automate analysis with Claude AI agents at Applied Materials, so the AI-agent half of this role is not new
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/benchling
+
+15 minutes this week to hear how Platform is scoping this layer? If it is not your req, a nudge toward whoever owns it helps just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+arokhith@gmail.com
++1-929-563-9974
+GitHub: https://github.com/arokhith1998

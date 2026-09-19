@@ -1,0 +1,24 @@
+Subject: Platform PM, Benchling - Adhithya Bhaskar
+
+Hi {Hiring Manager, Product Manager Platform},
+
+I don't normally cold-email a hiring manager, but "a schema and data model layer that other product teams and AI features build on" describes almost exactly what I owned at Sensata, and I wanted you to hear it directly.
+
+The proof point I would lead with: I ran 30+ structured interviews with OEM and distributor engineers, the technical buyers who had to integrate against whatever we shipped, and used what I learned to reset backlog priority before it became someone else's integration problem.
+
+More that maps to this role:
+- Owned a 100+ feature backlog that engineering across 3 regions built their sprints against, cutting time-to-market 20%
+- Built cross-functional forecasting models at Applied Materials that turn field input into one shared schema other teams plan against
+- Shipped SwipeHire, an AI job-matching product, zero-to-one to 50+ users, so I have owned the AI-agent side of a platform too
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/benchling
+
+15 minutes to hear how the team is scoping this layer? If it is already staffed, no worries at all.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+arokhith@gmail.com
++1-929-563-9974
+GitHub: https://github.com/arokhith1998
