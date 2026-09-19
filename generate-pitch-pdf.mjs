@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 // One-off: landscape 11x8.5 pitch-deck PDF via Playwright.
 // Usage: node generate-pitch-pdf.mjs <input.html> <output.pdf>
-import { chromium } from 'playwright';
 import { resolve, dirname } from 'path';
 import { readFile, writeFile } from 'fs/promises';
 import { fileURLToPath } from 'url';
+import { launchChromium } from './lib/chromium-launch.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const [inRel, outRel] = process.argv.slice(2);
@@ -20,7 +20,7 @@ html = html
   .replace(/[“”„‟]/g, '"').replace(/[‘’‚‛]/g, "'")
   .replace(/…/g, '...').replace(/[​‌‍⁠﻿]/g, '').replace(/ /g, ' ');
 
-const browser = await chromium.launch({ headless: true });
+const browser = await launchChromium({ headless: true });
 const page = await browser.newPage();
 await page.setContent(html, { waitUntil: 'networkidle', baseURL: `file://${dirname(inputPath)}/` });
 await page.evaluate(() => document.fonts.ready);

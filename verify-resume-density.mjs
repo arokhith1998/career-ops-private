@@ -16,9 +16,9 @@
  *   1  One or more checks fail (resume is sparse — fix before shipping)
  */
 
-import { chromium } from 'playwright';
 import { readFileSync } from 'fs';
 import { resolve } from 'path';
+import { launchChromium } from './lib/chromium-launch.mjs';
 
 const file = process.argv[2];
 if (!file) {
@@ -73,7 +73,7 @@ if (patSentences < 2) warns.push(`Patent has ~${patSentences} sentences — shou
 // 4. Render with Playwright + measure content height vs page height
 console.log(`\n  Rendering with Playwright to measure content height...`);
 
-const browser = await chromium.launch({ headless: true });
+const browser = await launchChromium({ headless: true });
 const page = await browser.newPage();
 await page.setContent(html, { waitUntil: 'load' });
 await page.emulateMedia({ media: 'print' });

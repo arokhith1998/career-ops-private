@@ -18,10 +18,10 @@
 //   OK          10.80-10.95 target fill band
 //   UNDERFILLED < 10.80     white space at the bottom of the page
 
-import { chromium } from 'playwright';
 import { readFileSync } from 'fs';
 import { resolve, relative } from 'path';
 import { globSync } from 'fs';
+import { launchChromium } from './lib/chromium-launch.mjs';
 
 const PAGE_IN = 11;
 const BAND_LO = 10.8;
@@ -45,7 +45,7 @@ if (!files.length) {
   process.exit(1);
 }
 
-const browser = await chromium.launch({ headless: true });
+const browser = await launchChromium({ headless: true });
 const page = await browser.newPage({ viewport: { width: 816, height: 1056 } });
 
 const rows = [];
