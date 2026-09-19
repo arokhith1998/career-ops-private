@@ -1,5 +1,5 @@
 {
-  "cursor": 4,
+  "cursor": 12,
   "runs": [
     {
       "at": "2026-09-19T06:03:46.194Z",
@@ -28,6 +28,22 @@
         "us:Pricing Manager",
         "us:Pricing Strategy",
         "us:Revenue Operations"
+      ],
+      "queries": 28,
+      "rows": 0,
+      "health": "BLOCKED: no query returned HTTP 200 - treat as UNKNOWN, not as zero jobs"
+    },
+    {
+      "at": "2026-09-19T18:46:45.584Z",
+      "terms": [
+        "us:Product Manager",
+        "us:Strategic Marketing",
+        "us:Market Strategy",
+        "us:Competitive Intelligence",
+        "us:Growth Marketing Manager",
+        "us:Deal Desk",
+        "india:Chief of Staff",
+        "india:Head of Growth"
       ],
       "queries": 28,
       "rows": 0,

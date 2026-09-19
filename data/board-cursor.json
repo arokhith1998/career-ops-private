@@ -1,6 +1,6 @@
 {
   "cursor": 0,
-  "sweep": 3,
+  "sweep": 4,
   "universe_rows": 173,
   "runs": [
     {
@@ -18,6 +18,16 @@
       "from": 0,
       "to": 0,
       "sweep": 2,
+      "considered": 173,
+      "probed": 45,
+      "resolved": 0,
+      "emitted": 128
+    },
+    {
+      "at": "2026-09-19T18:46:10.493Z",
+      "from": 0,
+      "to": 0,
+      "sweep": 3,
       "considered": 173,
       "probed": 45,
       "resolved": 0,

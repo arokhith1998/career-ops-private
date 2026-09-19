@@ -1,0 +1,20 @@
+# Head of Growth — Coral Academy
+
+**URL:** https://www.instahyre.com/job-390874-head-of-growth-at-coral-academy-work-from-home/
+**Location:** Remote, India
+**Track:** india | **Extracted:** 2026-09-19
+**Legal entity:** Coral Academy (brand; legal entity not confirmed)
+
+**Extraction method:** This cloud session's network egress proxy blocks direct WebFetch to job-board domains (confirmed EGRESS_BLOCKED on greenhouse, lever, ashby, instahyre, cutshort, wellfound, startup.jobs). Reconstructed from `WebSearch` result snippets only. Not verbatim; treat as unconfirmed pending a direct look.
+
+## Description (from indexed snippets)
+Head of Growth at Coral Academy, work from home (India).
+
+## Experience
+3-5 years of experience required in Brand Management, Marketing Communication.
+
+## Work authorization
+No work-authorization language found (India-based role).
+
+## Comp
+Not stated.
