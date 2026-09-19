@@ -1,0 +1,23 @@
+Subject: Fitting into the pod behind your largest program
+
+Hi {Hiring Manager / Staff PM, Associate PM team},
+
+I don't normally reach out before applying, but the shape of this role, one Staff PM's largest and most operationally complex program, a pod of engineers plus ops and data teammates, triaging what shows up in Datadog and Linear day to day, is a week I have already worked.
+
+A few reps that map:
+- Ran KPI frameworks in SQL and GA4 across 50K+ connected devices to flag adoption anomalies and cohort drop-off before they turned into support tickets
+- Sat inside Agile sprints across 3 regions and kept the changelog and competitive notes current enough that other teams reused the work instead of re-litigating it
+- Ran 30+ interviews with OEMs and distributors to confirm what the data was actually saying before I trusted it
+- Built and shipped SwipeHire solo, defining my own acceptance criteria and triaging bug reports as the only person watching it
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/tint
+
+Would 15 minutes work to see where I would plug in fastest? No worries if the pod is already staffed.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+arokhith@gmail.com
++1-929-563-9974
+GitHub: https://github.com/arokhith1998

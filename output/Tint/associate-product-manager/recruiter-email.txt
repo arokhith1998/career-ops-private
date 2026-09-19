@@ -1,0 +1,22 @@
+Subject: Associate PM, anomaly tracking on your largest program
+
+Hi {Recruiter, Product},
+
+I don't normally reach out before applying, but the line about tracking product data for anomalies and QA'ing engineering work against acceptance criteria on Tint's largest program made me. Embedded insurance only holds up if the data behind the plug-and-play promise is clean, and that is the loop I have lived in.
+
+What maps directly:
+- Built a dashboard tracking 1,200 pricing opportunities against a $627M target across 3 regions, flagging anomalies before they hit a customer quote
+- Owned a 100+ feature backlog and would not sign off until a release matched agreed acceptance criteria, part of why time-to-market fell 20%
+- Shipped SwipeHire solo, wrote my own QA criteria, and ran the analytics that caught issues before 50+ users had to report them
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/tint
+
+Worth 15 minutes to see if this maps to the req. No worries if it is not yours.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+arokhith@gmail.com
++1-929-563-9974
+GitHub: https://github.com/arokhith1998
