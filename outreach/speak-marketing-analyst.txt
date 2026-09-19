@@ -1,0 +1,138 @@
+ROLE: Speak (usespeak.com) — Marketing Analyst (SF, confirmed)
+================================================================
+Tracker entry: #60
+URL: https://jobs.ashbyhq.com/speak/30cfddbe-31c2-4ddb-a4eb-7696022271c2
+LOCATION: San Francisco (confirmed by user)
+
+COMPANY:
+- AI-powered language tutor app, YC W17, $1B unicorn
+- Series C $78M Dec 2024, led by Accel
+- Backers: OpenAI Startup Fund, Khosla Ventures, Founders Fund, Y Combinator, Matrix Partners
+- ~275 employees as of Feb 2026
+- SF HQ (Jackson Square penthouse) + Seoul, Tokyo, Taipei, Ljubljana
+- Founders: Connor Zwick (CEO) + Andrew Hsu (CTO)
+
+
+HIRING MANAGER (verified):
+Alexandra Osborn-Jones (Alexandra O.) — Head of Growth, Speak (since May 2025)
+LinkedIn: https://www.linkedin.com/in/alexandraosbornjones/
+Background:
+- Previously VP Growth at AppLovin (Sep 2018 - Apr 2025) — led 20-person team that drove $1.44B in revenue for first-party apps
+- Pre-AppLovin: AlphaSights (consulting / PE-adjacent)
+- BA, History of Medicine & Science, Yale University
+- Based in San Francisco
+
+WHY SHE MATTERS:
+- Alexandra came from AppLovin, one of the most sophisticated mobile UA / first-party-app revenue operations on the planet. Her bar for marketing analytics is set at AppLovin scale (LTV, payback, cohort, holdout-validated UA, AppDiscovery-grade attribution rigor). Speak hired her in May 2025 specifically because the company is scaling its consumer-subscription growth machine.
+- Marketing Analyst will likely report into Alexandra's Growth org. She is the decision-maker.
+
+ADJACENT LEADERS (warm second touches if needed):
+- Connor Zwick — Co-Founder & CEO, Speak
+  LinkedIn: https://www.linkedin.com/in/connorzwick/
+- Andrew Hsu — Co-Founder & CTO, Speak
+  LinkedIn: https://www.linkedin.com/in/adhsu
+- Colton Gyulay — COO (and Head of B2B Sales), Speak
+  LinkedIn: https://www.linkedin.com/in/cgyulay/
+
+DO NOT contact CEO/CTO directly for an analyst-level role. Alexandra is the right channel.
+
+
+RECRUITER #1 (verified):
+Sameen Fatemi — Senior Business Recruiter, Speak
+LinkedIn: https://www.linkedin.com/in/sameen-fatemi/
+Based: San Francisco Bay Area
+Background: ex-Vouch Insurance recruiter, Founding Member of Syelo Ventures (in-house TA network)
+
+RECRUITER #2 (user found - replace with name + LinkedIn):
+{Name} — {Title}, Speak
+LinkedIn: {URL}
+Notes: {add context user provides}
+
+Email format at Speak: first@usespeak.com (per LeadIQ research).
+- Alexandra: alexandra@usespeak.com (verify)
+- Sameen: sameen@usespeak.com (verify)
+- Recruiter #2: {first}@usespeak.com (verify)
+
+
+ATTACHMENT FOR ALL THREE EMAILS:
+output/Speak_Marketing_Analyst_Sample_Work_Adhithya.pdf
+A 2-page pitch document mapping the JD's four core responsibilities (analyses + dashboards + reporting; cross-functional spend reporting with finance/product; attribution + media mix + LTV models; incrementality testing) to specific past work at Sensata, Plug Power, Pixis, GenY, and SwipeHire. Includes Amplitude, R-based regression (MMM-adjacent), holdout incrementality test from Pixis (3x ROAS validated), $627M Sensata Power BI. Designed to read like a deliverable, not a CV.
+
+
+----- HM LINKEDIN NOTE (Alexandra Osborn-Jones) -----
+Hi Alexandra, applying for the Marketing Analyst role. Aggregate ROAS hides creative fatigue — diagnosed two churn-risk clients at Pixis via session-level data after dashboards looked fine. Plus shipped SwipeHire on OpenAI API + 4 Claude certs + Plug Power closed-loop attribution rebuild. Worth 15 min?
+
+
+----- HM EMAIL (Alexandra Osborn-Jones) -----
+Subject: Marketing Analyst — sample-work doc mapping the JD line-by-line
+
+Hi Alexandra,
+
+Applying for the Marketing Analyst role on your team.
+
+I built a two-page sample-work document that maps your four JD responsibilities (dashboards and reporting, cross-functional spend reporting, attribution / media-mix / LTV models, incrementality testing) to specific past work I have shipped. Attaching it because describing the work is less useful than showing it.
+
+Three quick highlights from the doc.
+
+On dashboards and reporting, I designed and present the $627M margin-recovery executive Power BI at Sensata that tracks 1,200 opportunities across 3 regions, 4 product families, 20 product lines. Senior leadership reads it weekly. The dashboard is the strategy artifact, the weekly review is the operating rhythm.
+
+On attribution, I rebuilt closed-loop attribution from ad click to SQL at Plug Power on Salesforce, Adobe Analytics, GA4, and GTM. UTM spec from scratch, GTM containers rebuilt, lead routing validated through Salesforce campaign attribution. CPA dropped 25%. The plumbing was the unlock.
+
+On incrementality, I validated 3x ROAS lift at Pixis via holdout testing for a fashion D2C partner and reconciled the lift against creative-variant diagnostics that aggregate ROAS would have hidden. Two enterprise clients on the 8-client portfolio looked fine in aggregate, but the top 5% of sessions were carrying the average.
+
+The Speak-specific angle is the AI stack. SwipeHire shipped on OpenAI API. Four Anthropic Claude certifications come from running prompt-based iteration as my actual workflow. Plus Amplitude for product-side cohort and funnel work, R-based regression for demand elasticity (econometric muscle adjacent to MMM), and an MS Marketing Analytics from Simon Business School.
+
+Boston-based today, SF works. Resume and the sample-work doc attached.
+
+Portfolio: https://adhi-growth-ai.vercel.app/ref/speak
+
+15 minutes next week?
+
+Adhithya | Boston, MA | (929) 563-9974
+
+
+----- RECRUITER LINKEDIN NOTE (Sameen Fatemi) -----
+Hi Sameen, applied for the Marketing Analyst role on Alexandra O.'s team. Plug Power closed-loop attribution rebuild + Pixis holdout incrementality (3x ROAS validated) + SwipeHire OpenAI API + 4 Claude certs + Simon MS Marketing Analytics. SF works. Available for a screen.
+
+
+----- RECRUITER EMAIL (Sameen Fatemi) -----
+TO: sameen@usespeak.com (verify on LinkedIn before sending)
+SUBJECT: Application — Marketing Analyst (Alexandra O.'s team)
+
+Hi Sameen,
+
+Submitted for the Marketing Analyst role on Alexandra's team earlier this week. Attaching a 2-page sample-work doc that maps the JD line-by-line to specific past work, plus my resume.
+
+Quick fit summary on measurement substance: Plug Power closed-loop attribution rebuild on Salesforce + Adobe + GA4 + GTM (-25% CPA, +20% conversion), Pixis holdout incrementality testing (3x ROAS validated for a fashion partner), Sensata $627M Power BI exec dashboard tracking 1,200 records, Optimal Pricing R regression for demand elasticity. SQL, Python, R, Amplitude, Tableau, Power BI, GA4, GTM fluent.
+
+AI-native fit: 4 Anthropic Claude certifications + SwipeHire shipped end-to-end on Python, OpenAI API, React (50+ users, +25% activation, weekly retention cohort).
+
+MS Marketing Analytics, Simon Business School (Pricing + Data Management coursework). 4+ years total.
+
+SF works. Boston-based today. Available for a screen this week.
+
+Resume + sample work attached.
+Portfolio: https://adhi-growth-ai.vercel.app/ref/speak
+
+Adhithya | (929) 563-9974
+
+
+----- RECRUITER #2 EMAIL (user-found, customize) -----
+TO: {first}@usespeak.com (verify on LinkedIn)
+SUBJECT: Application — Marketing Analyst (Alexandra O.'s team)
+
+Hi {First},
+
+Submitted for the Marketing Analyst role on Alexandra Osborn-Jones's team. I am especially excited about this role because the four JD responsibilities (dashboards + reporting, cross-functional spend reporting with finance and product, attribution + media-mix + LTV models, incrementality testing) line up cleanly with what I have spent the last four years doing. I have attached a 2-page sample-work doc that maps each JD line to specific past work, alongside my resume.
+
+Highlights: $627M Sensata Power BI exec dashboard tracking 1,200 opportunities across 3 regions; closed-loop attribution rebuild at Plug Power (-25% CPA); holdout incrementality testing at Pixis (3x ROAS validated for a fashion D2C partner); R-based demand-elasticity regression model (MMM-adjacent econometric muscle); SwipeHire AI product shipped on OpenAI API with Amplitude + GA4 instrumentation, +25% activation. 4 Anthropic Claude certifications. MS Marketing Analytics, Simon Business School.
+
+SF works. Boston-based today. Available for a screen this week.
+
+Portfolio: https://adhi-growth-ai.vercel.app/ref/speak
+
+Adhithya | (929) 563-9974
+
+
+----- RECRUITER #2 LINKEDIN NOTE (user-found, customize) -----
+Hi {First}, applied for the Marketing Analyst role on Alexandra O.'s team. Built a 2-page sample-work doc mapping the JD line-by-line to past work (Sensata $627M Power BI, Plug Power closed-loop attribution, Pixis holdout incrementality, Amplitude cohort, R-based MMM-adjacent regression). SF works. Open to a screen.

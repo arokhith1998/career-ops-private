@@ -1,0 +1,65 @@
+ROLE: HPE — Product Marketing Manager, Private Cloud AI (1205895)
+=================================================================
+Tracker entry: #42
+URL: https://hpe.wd5.myworkdayjobs.com/acjobsite/job/spring-texas-united-states-of-america/product-marketing-manager---private-cloud-ai_1205895
+
+HIRING MANAGER (verified via LinkedIn title match):
+Michael Corrado — Manager, World Wide Product Marketing: HPE Private Cloud and AI
+LinkedIn: https://www.linkedin.com/in/michaelcorrado1/
+
+ADJACENT TEAM CONTACT (consider as warm second outreach):
+Courtney Fitzpatrick — WW Product Marketing, HPE (Private Cloud)
+LinkedIn: https://www.linkedin.com/in/courtneyrosefitzpatrick/
+
+CMO (for context):
+Jim Jackson — Chief Marketing Officer, HPE
+HPE bio: https://www.hpe.com/us/en/leadership-bios/jim-jackson.html
+
+RECRUITER:
+TBD. After applying via Workday, check the candidate portal for the assigned recruiter. If not visible, search LinkedIn for "HPE Recruiter Marketing" or "HPE TA Marketing".
+
+
+----- HM LINKEDIN NOTE -----
+Hi Michael, applying for PMM Private Cloud AI. The buyer is the IT leader who wants AI value without the egress bill. Shipped an AI product end-to-end (SwipeHire on OpenAI API), trained 8 enterprise marketers on AI bidding at Pixis. PMM-for-AI proof. 15 min?
+
+
+----- HM EMAIL -----
+Subject: PMM Private Cloud AI — the buyer's egress-bill question
+
+Hi Michael,
+
+I'm applying for the PMM Private Cloud AI role and wanted to lead with the part of the buyer's question that does not show up in the AI hype cycle.
+
+The CIO who is going to buy HPE Private Cloud AI is not deciding between you and OpenAI's API. They are deciding whether AI value can show up inside their existing data and security perimeter without an egress bill that eats the ROI. That is a positioning problem before it is a tech problem, and the way HPE has framed the portfolio (AI workloads where your data already lives) is a positioning answer rather than a feature list.
+
+I have done two things very few PMM candidates have done together. I shipped an AI product end-to-end. SwipeHire is built on Python, OpenAI API, and React, with positioning, instrumentation, and 8+ A/B tests delivering +25% activation across 50+ users. And I worked PMM-adjacent inside an AI marketing platform at Pixis, training 8 enterprise marketers on AI bidding and creative tools across a $1.4M, 8-client B2B SaaS book.
+
+On B2B GTM at scale, Sensata gave me $2M+ first-year revenue across NA and EU on a new sensing-product launch with 50+ reps enabled and +30% sales-rep win rate.
+
+CV and portfolio: https://adhi-product-ai.vercel.app/ref/hpe-pcai
+
+Worth 15 min?
+
+Adhithya | Boston, MA | (929) 563-9974
+
+
+----- RECRUITER LINKEDIN NOTE -----
+Hi {Recruiter}, applied for PMM Private Cloud AI (1205895). Shipped an AI product end-to-end + Pixis AI marketing platform tenure + Sensata $2M+ B2B GTM. Remote works. 4 Claude certs. Worth 30 min screen?
+
+
+----- RECRUITER EMAIL -----
+Subject: Application — PMM Private Cloud AI (1205895)
+
+Hi {Recruiter},
+
+Submitting for the PMM Private Cloud AI role. The combination is unusual: PMM scope at Sensata ($2M+ first-year GTM, 50+ reps enabled, +30% win rate), AI-product-shipped at SwipeHire (Python, OpenAI API, React, +25% activation), and AI-marketing-platform tenure at Pixis (8-client B2B SaaS, $1.4M).
+
+Plus 4 Claude certifications (101, Code 101, Cowork, Building with Claude API) from running prompt-based iteration as my actual workflow.
+
+Remote works. Boston-based. 4+ years total tenure. MS Marketing Analytics from Simon (U Rochester) and BE Mech from BITS Pilani.
+
+Resume: https://adhi-product-ai.vercel.app/ref/hpe-pcai
+
+Available for a screen this week.
+
+Adhithya | (929) 563-9974

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>{{TITLE}}</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  @page { size: letter; margin: 0; }
+  body { font-family: Calibri, Arial, Helvetica, sans-serif; font-size: 10.5pt; line-height: 1.42; color: #111; width: 8.5in; min-height: 11in; max-height: 11in; overflow: hidden; margin: 0 auto; padding: 0.6in 0.7in; background: #fff; }
+  .hdr { border-bottom: 1.2pt solid #1a56db; padding-bottom: 8pt; margin-bottom: 16pt; }
+  .hdr h1 { font-size: 17pt; font-weight: 700; letter-spacing: 0.3pt; margin-bottom: 3pt; color: #0a0a0a; }
+  .hdr .ct { font-size: 9.5pt; color: #444; }
+  .hdr a { color: #1a56db; text-decoration: none; }
+  .sep { margin: 0 4pt; color: #bbb; }
+  .meta { font-size: 9.5pt; color: #555; margin-bottom: 14pt; }
+  .meta strong { color: #111; font-weight: 700; }
+  .greeting { font-size: 10.5pt; margin-bottom: 11pt; font-weight: 600; color: #0a0a0a; }
+  p { margin-bottom: 9pt; }
+  strong { color: #0a0a0a; font-weight: 700; }
+  ul { margin: 4pt 0 10pt 0; padding-left: 18pt; }
+  li { margin-bottom: 4pt; }
+  .sig { margin-top: 14pt; font-size: 10.5pt; }
+  .sig .name { font-weight: 700; color: #0a0a0a; }
+  .sig .contact { font-size: 9.5pt; color: #555; margin-top: 2pt; }
+</style>
+</head>
+<body>
+<div class="hdr">
+  <h1>ADHITHYA ROKHITH BHASKAR</h1>
+  <div class="ct">
+    Boston, MA &middot; +1 (929) 563-9974 &middot;
+    <a href="mailto:arokhith@gmail.com">arokhith@gmail.com</a>
+    <span class="sep">&middot;</span>
+    <a href="https://www.linkedin.com/in/adhithyarokhith/">LinkedIn</a>
+    <span class="sep">&middot;</span>
+    <a href="{{PORTFOLIO_URL}}">Portfolio</a>
+  </div>
+</div>
+
+<div class="meta"><strong>To:</strong> Hiring Team, {{COMPANY}} &nbsp;&middot;&nbsp; <strong>Role:</strong> {{ROLE}} &nbsp;&middot;&nbsp; <strong>Date:</strong> {{DATE}}</div>
+
+<div class="greeting">Hiring Team, {{COMPANY}},</div>
+
+{{BODY}}
+
+<div class="sig">
+  <p>Looking forward to talking.</p>
+  <div class="name">Adhithya Rokhith Bhaskar</div>
+  <div class="contact">arokhith@gmail.com &middot; +1 (929) 563-9974 &middot; linkedin.com/in/adhithyarokhith</div>
+</div>
+
+</body>
+</html>

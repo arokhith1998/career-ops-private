@@ -1,0 +1,34 @@
+TO: [Hiring Manager Name], Director / VP, Insights Center of Excellence (JPMC)
+PLATFORM: Email
+ROLE: Market Research Senior Associate (Job ID 210736924), Insights COE
+---
+
+Subject: 210736924, why most market research investments fail in the brief
+
+Hi [Name],
+
+I applied for the Market Research Senior Associate role on the Insights COE and wanted to share the POV that pulled me into the JD.
+
+Most market research investments fail in the brief, not the fieldwork. By the time the data comes back from the vendor, the team has already moved on, or three stakeholders quietly meant three different things by "purchase intent," or the original decision the research was meant to inform got made in a hallway six weeks ago. The interesting craft of a senior researcher is forcing the alignment conversation upfront, naming what decision the research is going to drive, and refusing to start fieldwork until the answer to that question is unambiguous.
+
+I have done this work for stakeholder-heavy enterprise environments and have measured it.
+
+At Sensata I ran 30+ structured interviews with OEMs and distributors across NA and EU plus a separate competitive analysis of 10+ industrial-sensor players. The hard part was not the interviewing. It was getting product, sales, pricing, and 3 regional GMs to agree on what specifically we were trying to answer before I drafted a single guide. I spent the first three weeks running pre-research alignment workshops. The interviews then went smoothly because everyone already knew what would and would not move. CSAT lifted 22%, market share lifted 8%, and recommendations got implemented without re-debate.
+
+Three other things from the JD that line up directly:
+
+1. Mixed-method synthesis at scale. The Bleeders and Leakers project I built is a 4-page Power BI dashboard analyzing 1,200 pricing opportunities ($627M) across 3 regions and 20 product lines. Exposed $433M in margin gaps and informed leadership prioritization down to the salesperson level.
+
+2. Stakeholder management for senior leadership. Built 3-scenario pricing models with sensitivity analysis for Sensata's AP26 planning cycle and presented to senior executives. Executives do not want data, they want a decision framed by data. I lead with the recommendation, walk back to the evidence.
+
+3. Project ownership in ambiguity. Led a 5-person Simon consulting team for Safran (B2B aerospace and defense): TAM and SAM across 170 facilities, 4-vertical persona development, positioning for 3 product lines, presented to Safran leadership. The brief was loose. We tightened it ourselves before doing any analysis.
+
+Honest gap: I have not worked in financial services. Closest analogs are industrial B2B (Sensata) and AI SaaS (Pixis), both stakeholder-heavy enterprise environments. I would expect the first 30 days to be deep on JPMC's research stack and consumer segments before I propose anything new.
+
+Boston-based, open to relocation. Resume, cover letter, and portfolio: https://adhithyabhaskar.vercel.app/ref/jpmc
+
+Would love 15 to 20 minutes to hear what the team's hardest "we briefed it wrong" project looks like right now.
+
+Best,
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com | (929) 563-9974

@@ -1,0 +1,32 @@
+TO: [Hiring Manager Name] -- Director/Sr Manager, Marketing Analytics (Amazon WWGS)
+PLATFORM: Email
+ROLE: Manager, Marketing Analytics (Job ID 10389899) -- Whole Foods + Amazon Fresh
+---
+
+Subject: JR 10389899 -- The part of this role I actually want to work on
+
+Hi [Name],
+
+I applied for the Manager, Marketing Analytics role on your team and wanted to share something that won't come through in a resume: the reason this role caught my eye is a specific part of the problem I don't see most marketing analytics orgs get right.
+
+Grocery cadence is baked in. People buy every week whether marketing speaks to them or not. So the interesting question isn't "did the email convert" -- it's "how much of what they'd have bought anyway did marketing actually cause." That's an incrementality problem, and it requires a measurement framework built for it from the start, not retrofitted from attribution tooling. Most orgs get to that realization too late, after the dashboards are already calcified.
+
+That's the framework-first instinct I'd bring. Two proof points:
+
+At Sensata, I built the SQL + GA4 measurement system for a multi-$100M industrial BU from a pile of one-off reports. Defined the KPI taxonomy, instrumented cohorts, automated dashboards. Feature adoption lifted 18%. The bigger win was that leadership stopped debating numbers in meetings. Framework discipline has a compounding effect that nobody writes on a JD.
+
+At Pixis, I ran the leadership half of this job: 8-person team, $1.4M budgets, portfolio of global D2C and e-commerce clients. Weekly exec dashboards on ROAS, iROAS, holdout incrementality. Churn dropped 50%. I learned that managing analysts is mostly clear priorities and protecting deep-work time from meeting churn.
+
+Two honest notes on the JD:
+
+- Marketing mix modeling: I've run the adjacent work (full-funnel attribution at Plug Power delivering -25% CPA, iROAS holdouts at Pixis, incrementality-aware A/B tests at Sensata) but haven't built a production MMM. I understand the tradeoffs and why grocery probably wants MMM for upper-funnel + MTA for digital. I'd ramp fast, wouldn't fake it.
+
+- Whole Foods vs Fresh: shared spend-efficiency metrics, split buyer-journey layer. I'd push that separation from day one so neither BU forces its framework on the other.
+
+Resume and portfolio attached: https://adhithyabhaskar.vercel.app/ref/amazon
+
+Would genuinely value 15 minutes to learn how the analytics team is structured today and what the biggest measurement gap is right now.
+
+Best,
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com | (929) 563-9974

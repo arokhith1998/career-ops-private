@@ -1,0 +1,27 @@
+TO: [Hiring Manager Name], Senior Manager of Growth Marketing @ Mirakl
+PLATFORM: Email
+ROLE: Digital Marketing Manager (Boston hybrid)
+NOTE: JD states the role reports to the Senior Manager of Growth Marketing. Specific name not surfaced publicly; manual LinkedIn search recommended on "Mirakl Senior Manager Growth Marketing Boston".
+---
+
+Subject: Digital Marketing Manager - Boston hybrid, B2B SaaS, HubSpot home
+
+Hi [Name],
+
+Mirakl's Digital Marketing Manager role runs the full multi-channel paid engine (LinkedIn, 6sense Display, Google, Reddit, Meta) on a HubSpot + Salesforce stack with explicit AI tooling in the workflow. I have been building toward exactly that shape of work for four years, and I am Boston-based so the 4+1 hybrid is zero-friction.
+
+Applied for the role. Quick proof:
+
+- Plug Power: rebuilt full B2B MarTech stack from scratch (Salesforce + HubSpot + Adobe + AAM + GA + GTM). Closed-loop attribution ad-click to SQL. Ran every channel the JD lists (LinkedIn + SA360 + Google + Meta + email) for named hydrogen-energy accounts. -25% CPA, +20% conversion.
+- Pixis: 8-client enterprise AI SaaS book, $1.4M shared budget. 3x ROAS fashion in 30 days, -50% churn. Measurement-skeptical enterprise CMO archetype = Mirakl buyer pattern.
+- SwipeHire (founder): production AI product on OpenAI API + React. 50+ users, +25% activation via 8+ A/B tests. Solo full-funnel.
+- 4 Anthropic Claude certs (incl. Building with the Claude API). Claude draft-and-critique pipeline for 8x ad-copy variant velocity. Direct match for the JD's "proven history of using AI to optimize and launch campaigns" line.
+- HubSpot daily. Salesforce direct. 6Sense is a 1-2 week ramp (Salesforce-integrated).
+
+Would welcome 20 minutes on the current channel priorities and where the biggest pipeline-generation gap is across the stack. If this sits with someone else, a pointer is amazing.
+
+Resume, cover letter, portfolio: https://adhithyabhaskar.vercel.app/ref/mirakl
+
+Best,
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com | (929) 563-9974

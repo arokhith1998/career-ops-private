@@ -1,0 +1,85 @@
+ROLE: Skimmer - Product Marketing Manager
+================================================================
+Tracker entry: #72
+URL: https://jobs.ashbyhq.com/skimmer/e39cfb02-00a6-4177-8944-65d92db188a0
+
+COMPANY:
+- Skimmer (getskimmer.com). Vertical B2B SaaS for pool and spa service industry.
+- All-in-one platform: routing, scheduling, invoicing, customer comms.
+- Growth signals (per Joe's post): Inc. 5000, Deloitte Fast 500, Built In Austin's Best Startups, 7,000+ customers.
+- 30,000+ pool professionals, ~700,000 pools served, NPS 68.
+- Founded 2017. HQ Austin TX. ~52 employees.
+- Funding: $84M total. Series C $74M led by Mainsail Partners (Oct 2024). Earlier Unbundled Capital.
+- Leadership: Jack Nelson (CEO), Ron Hash (Founder).
+
+LOCATION: Austin or Remote (over half team fully-remote per Built In Austin).
+SALARY: Not disclosed. Austin Series-C vertical SaaS PMM typical $130K-$170K + bonus/equity. Ask $150K + meaningful equity, floor $125K.
+YEARS: PMM at Series C with vertical SaaS preferred typically 3-7 yrs. User at 4+ fits.
+
+
+PRIMARY CONTACT (verified via LinkedIn post):
+**Joe Shiraz** - Director, Product Marketing at Skimmer (the role reports to him).
+LinkedIn: search "Joe Shiraz Skimmer" - posted publicly about this role.
+Public post excerpt: "Looking to hire another PMM at Skimmer. Skimmer has the rare combo of a great culture and a product customers actually love, and that is reflected in our growth: Inc. 5000, Deloitte Fast 500, Built In Austin's Best Startups, 7,000+ customers and counting. Now we're hiring a Product Marketing Manager to lead GTM for our new products and integrations, managing market analysis through launch and adoption."
+
+Joe's post sharpens the role: GTM for new products + integrations, market analysis through launch and adoption.
+
+RECRUITER:
+TBD via Skimmer Talent Acquisition. Search LinkedIn for "Skimmer Talent" / "Skimmer Recruiter" / "Skimmer People" filtered to Austin.
+
+ATTACHMENT FOR ALL EMAILS:
+- output/Adhithya_Rokhith_Skimmer_PMM.pdf (CV)
+- cover-letters/Adhithya_Rokhith_Skimmer_PMM_CL.pdf (Cover letter)
+- output/Skimmer_Product_Marketing_Manager_Pitch_Deck_Adhithya.pdf (6-slide pitch deck)
+
+
+----- LINKEDIN DM TO JOE (300-char limit) -----
+Hi Joe, saw your post on the PMM role and applied. The phrase that hit was "managing market analysis through launch and adoption." That's the loop I run at Sensata today: 30+ customer interviews + sales enablement to 50+ reps + +30% win rate. 4 Claude certs. 6-slide pitch deck ready.
+
+
+----- EMAIL TO JOE (Director, Product Marketing) -----
+Subject: Re: your LinkedIn post - Product Marketing Manager at Skimmer
+
+Hi Joe,
+
+Saw your post on the PMM role and applied. The phrase that hit was "managing market analysis through launch and adoption." That is the loop I run at Sensata today.
+
+Customer-story pipeline: 30+ structured customer interviews, competitive analysis on 10+ players, positioning rewrite from primary research, sales enablement library (decks + case studies + battlecards + FAQs) shipped to 50+ reps. Win rate up 30%. Multi-region GTM across NA + EU + 3 regions delivered $2M+ first-year pipeline + 35% qualified leads. The market-analysis-through-launch-and-adoption sequence is the sequence in motion.
+
+On AI in the daily workflow (the JD's verbatim ask): 4 Anthropic Claude certifications + SwipeHire shipped solo on Python + OpenAI API + React + a Claude draft-and-critique pipeline I productized at 8x copy velocity. Claude, ChatGPT, and Gemini are not aspirational tools.
+
+Plus the part of your post that landed: a great culture and a product customers actually love is the rare combination, and the motion I want to plug into.
+
+Six-slide pitch deck attached, built specifically for the role.
+
+Austin or Remote works. Boston-based today. 15 minutes when your cadence allows.
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com | (929) 563-9974
+Portfolio: https://adhi-growth-ai.vercel.app/ref/skimmer
+
+
+----- RECRUITER LINKEDIN NOTE (when identified) -----
+Hi {Recruiter}, applied for Product Marketing Manager at Skimmer (reports to Joe Shiraz). 4+ yrs across Sensata customer-story pipeline (30+ interviews, sales enablement to 50+ reps, +30% win rate, $2M+ multi-region pipeline), Pixis 8-client B2B SaaS book, Plug Power MarTech rebuild. 4 Claude certs + Claude pipeline at 8x copy velocity. Austin/Remote works. Available for a screen.
+
+
+----- RECRUITER EMAIL (when identified) -----
+Subject: Application - Product Marketing Manager (Skimmer)
+
+Hi {Recruiter},
+
+Submitted for the Product Marketing Manager role earlier today (reports to Joe Shiraz, Director of Product Marketing).
+
+Quick fit summary on substance:
+- 4+ years across customer research + positioning + sales enablement (Sensata: 30+ structured customer interviews + competitive analysis on 10+ players + positioning rewrite + sales enablement library to 50+ reps with +30% win rate; multi-region GTM across NA + EU + 3 regions delivered $2M+ first-year pipeline + 35% qualified leads). The "market analysis through launch and adoption" loop Joe described is in motion at Sensata today.
+- Vertical B2B SaaS context: Pixis 8-client portfolio at $15K-$90K per-client monthly; Plug Power MarTech function built from scratch on HubSpot + Salesforce + Adobe + GA4 + GTM.
+- AI tools in daily workflow (the JD's verbatim language): 4 Anthropic Claude certifications + SwipeHire shipped solo on Python + OpenAI API + React + Claude draft-and-critique pipeline productized at 8x copy velocity. Claude + ChatGPT + Gemini direct.
+- Pricing + commercialization: Simon MS Marketing Analytics Pricing Analytics + Sensata new-product GTM execution.
+
+Austin or Remote works. Boston-based today, open to relocating.
+
+CV + CL + 6-slide pitch deck attached. Portfolio: https://adhi-growth-ai.vercel.app/ref/skimmer
+
+Available for a screen this week.
+
+Adhithya | (929) 563-9974

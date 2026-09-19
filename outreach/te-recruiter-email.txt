@@ -1,0 +1,29 @@
+TO: [Recruiter Name] -- TE Connectivity Talent Acquisition
+PLATFORM: Email
+ROLE: Senior Digital Product Analyst (Req 148683) -- Digital COE, Remote
+---
+
+Subject: Application for Req 148683 -- Senior Digital Product Analyst (Digital COE)
+
+Hi [Recruiter Name],
+
+I applied for the Senior Digital Product Analyst role on the Digital Center of Excellence (Req 148683) and wanted to flag the application.
+
+Quick fit snapshot:
+- 4+ years spanning enterprise platform implementation (Plug Power MarTech build -- Salesforce, Adobe Analytics, GA, GTM), Agile backlog management (Sensata: 100+ features across 3 regions), and KPI frameworks (SQL + GA4 across 50K+ connected devices).
+- Hands-on Adobe Analytics: configured tagging, event taxonomy, segmentation, and closed-loop attribution end-to-end at Plug Power (-25% CPA, +20% conversion).
+- eCommerce platform ops: Shopify + WordPress + Google Merchant Center + Meta catalog at GenY Medium (16x ROAS).
+- BE in Mechanical Engineering (BITS Pilani) -- fluent with TE's product domain.
+- MS in Marketing Analytics (Simon, Rochester, Dec 2024).
+
+Logistics:
+- Based in Boston, MA -- fully remote-capable; comfortable with 10-25% travel.
+- Available to interview this week.
+
+Resume, cover letter, and portfolio: https://adhithyabhaskar.vercel.app/ref/te
+
+Happy to answer any questions on my background. Thanks for taking a look.
+
+Best,
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com | (929) 563-9974

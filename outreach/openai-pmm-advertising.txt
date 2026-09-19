@@ -1,0 +1,66 @@
+ROLE: OpenAI — Product Marketing Lead, Advertising
+====================================================
+Tracker entry: #47
+URL: https://openai.com/careers/product-marketing-lead-advertising-san-francisco/
+
+HIRING MANAGER:
+TBD. OpenAI's Advertising team is being built fresh in 2026 (most current openings are advertising-engineering roles per Digiday). The HM is likely a Director or Head of Marketing for the Advertising org.
+
+Senior leadership for context:
+- Gary Briggs — Interim CMO, OpenAI (former Meta CMO; recruiting permanent CMO)
+- Kate Rouch — Former CMO, OpenAI (stepped down for medical leave)
+- Dane Vahey — OpenAI (search surfaced this profile in marketing context)
+  LinkedIn: https://www.linkedin.com/in/dane-vahey-0b50484/
+
+Search LinkedIn before sending:
+- "OpenAI" + "Head of Advertising Marketing" or "Director Product Marketing Advertising"
+- "OpenAI" + "Advertising" + "Marketing Lead"
+
+RECRUITER:
+TBD. OpenAI uses Ashby. After applying, the recruiter assigned will be visible in candidate portal. Otherwise search LinkedIn for "OpenAI Recruiter Marketing".
+
+
+----- HM LINKEDIN NOTE -----
+Hi {First}, applying for PMM Lead, Advertising. ChatGPT Ads sells to a CMO who already knows the category and wants a reason to add a line item. Shipped an AI product end-to-end (SwipeHire) + trained 8 enterprise marketers on AI bidding at Pixis. 15 min?
+
+
+----- HM EMAIL -----
+Subject: PMM Lead, Advertising — earning the line item
+
+Hi {First},
+
+Applying for the Product Marketing Lead, Advertising role.
+
+The hardest thing about ChatGPT Ads is not explaining it. The category is real, the buyer (a CMO sitting on a media plan in week 3 of a quarter) already knows it. The hard part is earning the line-item conversation. That requires (a) a positioning frame that translates "answer engine" into a media-plan vocabulary the buyer's CFO can sign off on, and (b) sales artifacts that turn the conviction into a closed deal.
+
+I have done both halves. At Sensata I rewrote positioning for a B2B audience that hates marketing speak, ran 30+ OEM and distributor interviews to ground it, and shipped sales enablement (decks, case studies, battlecards, FAQs) for 50+ reps that lifted partner win rates 30%. At Pixis I trained 8 enterprise marketers on AI bidding and creative tools across an $1.4M, 8-client portfolio. The translation muscle is the same.
+
+And I shipped an AI product end-to-end. SwipeHire on Python, OpenAI API, and React. ICP, positioning, GA4 instrumentation from day one, 8 A/B tests on activation flows, +25% activation. Few PMM candidates have shipped an AI product where the AI is the actual product, not a feature.
+
+CV and portfolio: https://adhi-product-ai.vercel.app/ref/openai-pmm-ads
+
+15 min next week?
+
+Adhithya | Boston, MA | (929) 563-9974
+
+
+----- RECRUITER LINKEDIN NOTE -----
+Hi {Recruiter}, applied for PMM Lead, Advertising. Sensata $2M+ B2B GTM + 50+ reps enabled + Pixis AI marketing platform PMM-adjacency + SwipeHire AI product shipped + 4 Claude certs. SF/NYC works. Available for a screen.
+
+
+----- RECRUITER EMAIL -----
+Subject: Application — Product Marketing Lead, Advertising
+
+Hi {Recruiter},
+
+Submitted for the PMM Lead, Advertising role. Quick fit summary.
+
+Sensata: $2M+ first-year B2B GTM revenue, 50+ reps enabled, +30% win rate, 30+ customer interviews. Pixis: AI marketing platform PMM-adjacent CSM tenure, $1.4M 8-client B2B SaaS book, AI bidding training. SwipeHire: AI product shipped end-to-end on Python, OpenAI API, React. Plus 4 Claude certifications.
+
+SF or NYC work. Boston-based today. 4+ years. MS Marketing Analytics (Simon).
+
+Resume: https://adhi-product-ai.vercel.app/ref/openai-pmm-ads
+
+Available for a screen this week.
+
+Adhithya | (929) 563-9974

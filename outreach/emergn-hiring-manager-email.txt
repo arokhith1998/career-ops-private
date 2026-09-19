@@ -1,0 +1,28 @@
+TO: Jaime Ruhl, Chief Revenue Officer @ Emergn
+PLATFORM: Email
+ROLE: Growth Manager (US - Boston hybrid)
+NOTE: No CMO surfaced publicly; role is revenue-oriented (shared pipeline with Sales) so CRO is most likely HM stakeholder. Alternative: CEO Alex Adamopoulos.
+---
+
+Subject: Growth Manager, someone who practices VFQ without calling it that
+
+Hi Jaime,
+
+Emergn's pitch to clients is "we will teach you to work better so you never need us again." I have spent four years practicing that exact motion inside companies, just without the VFQ label: rebuilt Plug Power's MarTech so Sales finally trusted the attribution (-25% CPA, +20% conversion), stood up Sensata's vertical enablement so 50+ reps actually won their deals ($2M+ first-year launches, +30% win rates), shipped SwipeHire solo in six weeks so the product proved itself to users before the first dollar on acquisition.
+
+Applied for the Growth Manager role. Reason I am writing you: the JD reads pipeline-first ("clear line of sight to revenue, not just engagement metrics"), which is a CRO conversation before it is a CMO conversation.
+
+Quick proof I own pipeline, not just MQLs:
+
+- Plug Power: rebuilt full B2B stack (Salesforce + Adobe + GA + GTM), closed-loop attribution ad click to SQL. -25% CPA, +20% conversion. Trained Sales + IT on the handoff so the numbers got used.
+- Sensata: 50+ rep enablement on named OEM / distributor accounts. +30% win rates, $2M+ first-year revenue on launches. 30+ customer interviews driving positioning.
+- Pixis: 8-client enterprise AI adtech book, $1.4M shared budget. 3x ROAS fashion in 30 days, -50% churn. Measurement-skeptical B2B buyers, same archetype as Praxis / Stella.
+- SwipeHire: solo-built AI product on OpenAI API, 50+ users, +25% activation. 4 Anthropic Claude certs (incl. Building with Claude API) for the Stella AI side.
+
+Would love 20 minutes on the current Praxis + Stella demand narrative and where the pipeline gap is biggest right now. If this sits under someone else, a pointer is amazing.
+
+Resume, cover letter, portfolio: https://adhithyabhaskar.vercel.app/ref/emergn
+
+Best,
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com | (929) 563-9974

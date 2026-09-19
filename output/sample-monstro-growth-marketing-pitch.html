@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Monstro Growth Marketing Pitch Deck Adhithya</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  @page { size: 11in 8.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 11pt; line-height: 1.4; color: #0f172a; background: #fff; }
+  .slide { width: 11in; height: 8.5in; padding: 0.55in 0.7in; page-break-after: always; position: relative; overflow: hidden; }
+  .slide:last-child { page-break-after: avoid; }
+  .slide-num { position: absolute; bottom: 0.3in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; font-weight: 600; letter-spacing: 1pt; }
+  .slide-brand { position: absolute; bottom: 0.3in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; font-weight: 600; letter-spacing: 0.5pt; }
+  h1 { font-size: 32pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; line-height: 1.05; letter-spacing: -0.5pt; }
+  h2 { font-size: 22pt; font-weight: 800; color: #0f172a; margin-bottom: 14pt; line-height: 1.1; letter-spacing: -0.3pt; }
+  h3 { font-size: 13pt; font-weight: 700; color: #0f172a; margin-bottom: 6pt; }
+  .accent { color: #0f766e; }
+  .label { font-size: 8.5pt; font-weight: 700; color: #0f766e; text-transform: uppercase; letter-spacing: 1.2pt; margin-bottom: 8pt; }
+
+  /* Slide 1 cover */
+  .cover { display: flex; flex-direction: column; justify-content: center; background: linear-gradient(135deg, #f0fdfa 0%, #ccfbf1 50%, #99f6e4 100%); }
+  .cover h1 { font-size: 38pt; }
+  .cover .sub { font-size: 16pt; color: #475569; margin-top: 6pt; font-weight: 500; }
+  .cover .author { margin-top: 32pt; padding-top: 18pt; border-top: 2pt solid #0f766e; font-size: 11pt; color: #475569; }
+  .cover .author strong { color: #0f172a; font-weight: 700; }
+  .cover .pills { margin-top: 20pt; display: flex; gap: 8pt; flex-wrap: wrap; }
+  .pill { background: #fff; border: 1.5pt solid #0f766e; color: #115e59; padding: 5pt 12pt; border-radius: 14pt; font-size: 9pt; font-weight: 700; }
+
+  /* Slide 2 mapping */
+  .grid-2 { display: grid; grid-template-columns: 1fr 1.05fr; gap: 28pt; margin-top: 8pt; }
+  .panel { background: #f0fdfa; border: 1pt solid #99f6e4; border-radius: 6pt; padding: 14pt; }
+  .panel h3 { color: #115e59; }
+  .kpi-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10pt; }
+  .kpi { background: #fff; border-left: 3pt solid #0f766e; padding: 8pt 10pt; border-radius: 3pt; }
+  .kpi .v { font-size: 17pt; font-weight: 800; color: #0f766e; line-height: 1; }
+  .kpi .l { font-size: 8.5pt; color: #475569; margin-top: 3pt; font-weight: 600; }
+  .ulx { list-style: none; padding: 0; }
+  .ulx li { padding: 4pt 0 4pt 14pt; position: relative; font-size: 10pt; color: #1e293b; }
+  .ulx li:before { content: ""; position: absolute; left: 0; top: 10pt; width: 7pt; height: 2pt; background: #0f766e; }
+
+  /* Slide 3 architecture flow */
+  .flow-svg { width: 100%; height: 4.4in; }
+  .insight-box { background: #f0fdfa; border-left: 4pt solid #0f766e; padding: 12pt 16pt; margin-top: 14pt; border-radius: 0 4pt 4pt 0; }
+  .insight-box strong { color: #115e59; }
+
+  /* Slide 4 CFO QBR */
+  .clients-table { width: 100%; border-collapse: collapse; margin-top: 4pt; font-size: 9pt; }
+  .clients-table th { background: #0f766e; color: #fff; padding: 7pt 8pt; text-align: left; font-weight: 700; font-size: 8.5pt; letter-spacing: 0.3pt; }
+  .clients-table td { padding: 6pt 8pt; border-bottom: 0.5pt solid #99f6e4; color: #1e293b; }
+  .clients-table tr:nth-child(even) td { background: #f0fdfa; }
+  .status-good { color: #15803d; font-weight: 700; }
+  .status-warn { color: #b45309; font-weight: 700; }
+  .status-bad { color: #b91c1c; font-weight: 700; }
+
+  /* Slide 5 AI hub */
+  .ai-hub { width: 100%; height: 4.4in; }
+
+  /* Slide 6 close */
+  .close { display: flex; flex-direction: column; justify-content: center; background: linear-gradient(135deg, #f0fdfa 0%, #99f6e4 100%); }
+  .close h2 { font-size: 28pt; }
+  .close .body { font-size: 13pt; color: #1e293b; line-height: 1.65; max-width: 8.5in; }
+  .close .cta { margin-top: 28pt; display: flex; gap: 16pt; align-items: center; }
+  .close .cta .btn { background: #0f766e; color: #fff; padding: 10pt 22pt; border-radius: 6pt; font-weight: 700; font-size: 11pt; }
+  .close .contact { margin-top: 24pt; font-size: 10pt; color: #475569; }
+  .close .contact strong { color: #0f172a; }
+</style>
+</head>
+<body>
+
+<!-- SLIDE 1 COVER -->
+<div class="slide cover">
+  <div class="label">Pitch Deck | Monstro Growth Marketing Manager, B2B Demand Generation</div>
+  <h1>Marketing for Governed AI in Finance</h1>
+  <div class="sub">A demand engine the CIO will trust before legal asks the second question</div>
+  <div class="pills">
+    <div class="pill">Plug Power MarTech Built From Scratch</div>
+    <div class="pill">-25% CPA / +20% Conversion</div>
+    <div class="pill">Pixis Weekly Client CFO QBRs</div>
+    <div class="pill">SwipeHire on OpenAI API</div>
+    <div class="pill">4 Claude Certifications</div>
+    <div class="pill">8x Copy Velocity on Claude Pipeline</div>
+  </div>
+  <div class="author">
+    <strong>Adhithya Rokhith Bhaskar</strong> | Boston, MA (NYC works) | (929) 563-9974 | arokhith@gmail.com<br>
+    Portfolio: adhi-growth-ai.vercel.app/ref/monstro
+  </div>
+  <div class="slide-brand">Prepared for the Monstro Hiring Team</div>
+  <div class="slide-num">01 / 06</div>
+</div>
+
+<!-- SLIDE 2 JD MAPPING -->
+<div class="slide">
+  <div class="label">Slide 02 | The Match in One View</div>
+  <h2>The "Built, Not Just Used" Job Already Run</h2>
+  <div class="grid-2">
+    <div class="panel">
+      <h3>What Monstro Hires For</h3>
+      <ul class="ulx">
+        <li>HubSpot architecture: sequences, pipelines, segmentation, automation - <em>built, not just used</em></li>
+        <li>Google Ads + LinkedIn Ads + ABM + IP targeting</li>
+        <li>Marketing automation for personalized outreach at scale</li>
+        <li>Heavy AI tool fluency for speed and efficiency</li>
+        <li>Banking C-suite audience and brand voice</li>
+        <li>Bonus: AEO/SEO authority-first contexts, financial services exposure</li>
+      </ul>
+    </div>
+    <div class="panel">
+      <h3>What I Have Already Built</h3>
+      <div class="kpi-grid" style="margin-bottom: 10pt;">
+        <div class="kpi"><div class="v">From 0</div><div class="l">Plug Power MarTech architected</div></div>
+        <div class="kpi"><div class="v">-25%</div><div class="l">CPA at Plug Power</div></div>
+        <div class="kpi"><div class="v">8</div><div class="l">Enterprise marketers I trained on AI</div></div>
+        <div class="kpi"><div class="v">$15K-$90K</div><div class="l">Per-client monthly Pixis book</div></div>
+        <div class="kpi"><div class="v">8x</div><div class="l">Velocity, Claude draft-and-critique</div></div>
+        <div class="kpi"><div class="v">4</div><div class="l">Anthropic Claude certifications</div></div>
+      </div>
+      <ul class="ulx">
+        <li>HubSpot sequences + pipelines + segmentation architected end-to-end</li>
+        <li>Adobe Audience Manager account-level + retargeting + suppression</li>
+        <li>SwipeHire shipped solo on Python + OpenAI API + React</li>
+      </ul>
+    </div>
+  </div>
+  <div class="slide-brand">Monstro | Adhithya Rokhith Bhaskar</div>
+  <div class="slide-num">02 / 06</div>
+</div>
+
+<!-- SLIDE 3 PLUG POWER FROM-SCRATCH -->
+<div class="slide">
+  <div class="label">Slide 03 | The "Built, Not Just Used" Proof</div>
+  <h2>Plug Power: MarTech Architected From Zero</h2>
+  <p style="font-size: 10pt; color: #475569; margin-bottom: 4pt;">UTM spec written from scratch. GTM containers rebuilt. Sequences, pipelines, lifecycle stages, and account-level segmentation architected in HubSpot. Lead routing validated through Salesforce campaign attribution before any cohort number got presented.</p>
+
+  <svg viewBox="0 0 1000 380" class="flow-svg">
+    <rect x="20" y="60" width="160" height="120" rx="8" fill="#f0fdfa" stroke="#0f766e" stroke-width="1.5"/>
+    <text x="100" y="90" text-anchor="middle" font-size="11" fill="#115e59" font-weight="800">PAID + ABM</text>
+    <text x="100" y="110" text-anchor="middle" font-size="9" fill="#1e293b">Google + LinkedIn</text>
+    <text x="100" y="124" text-anchor="middle" font-size="9" fill="#1e293b">Meta + Adobe Programmatic</text>
+    <text x="100" y="138" text-anchor="middle" font-size="9" fill="#1e293b">Account-level retargeting</text>
+    <text x="100" y="158" text-anchor="middle" font-size="9" fill="#15803d" font-weight="700">-25% CPA</text>
+    <text x="100" y="172" text-anchor="middle" font-size="9" fill="#15803d" font-weight="700">+20% conversion</text>
+
+    <rect x="220" y="60" width="160" height="120" rx="8" fill="#f0fdfa" stroke="#0f766e" stroke-width="1.5"/>
+    <text x="300" y="90" text-anchor="middle" font-size="11" fill="#115e59" font-weight="800">TRACKING</text>
+    <text x="300" y="110" text-anchor="middle" font-size="9" fill="#1e293b">UTM spec from zero</text>
+    <text x="300" y="124" text-anchor="middle" font-size="9" fill="#1e293b">GTM containers rebuilt</text>
+    <text x="300" y="138" text-anchor="middle" font-size="9" fill="#1e293b">GA4 events validated</text>
+    <text x="300" y="158" text-anchor="middle" font-size="9" fill="#1e293b">Adobe Analytics</text>
+
+    <rect x="420" y="60" width="160" height="120" rx="8" fill="#f0fdfa" stroke="#0f766e" stroke-width="1.5"/>
+    <text x="500" y="90" text-anchor="middle" font-size="11" fill="#115e59" font-weight="800">HUBSPOT</text>
+    <text x="500" y="110" text-anchor="middle" font-size="9" fill="#1e293b">Sequences architected</text>
+    <text x="500" y="124" text-anchor="middle" font-size="9" fill="#1e293b">Pipelines + lifecycle stages</text>
+    <text x="500" y="138" text-anchor="middle" font-size="9" fill="#1e293b">Account-level segmentation</text>
+    <text x="500" y="158" text-anchor="middle" font-size="9" fill="#1e293b">MQL nurture + drip</text>
+
+    <rect x="620" y="60" width="160" height="120" rx="8" fill="#f0fdfa" stroke="#0f766e" stroke-width="1.5"/>
+    <text x="700" y="90" text-anchor="middle" font-size="11" fill="#115e59" font-weight="800">SALESFORCE</text>
+    <text x="700" y="110" text-anchor="middle" font-size="9" fill="#1e293b">Campaign attribution</text>
+    <text x="700" y="124" text-anchor="middle" font-size="9" fill="#1e293b">validated end-to-end</text>
+    <text x="700" y="138" text-anchor="middle" font-size="9" fill="#1e293b">Lead routing rules</text>
+    <text x="700" y="158" text-anchor="middle" font-size="9" fill="#1e293b">SLAs documented</text>
+
+    <rect x="820" y="60" width="160" height="120" rx="8" fill="#0f766e" stroke="#115e59" stroke-width="1.5"/>
+    <text x="900" y="90" text-anchor="middle" font-size="11" fill="#fff" font-weight="800">SQL</text>
+    <text x="900" y="110" text-anchor="middle" font-size="9" fill="#fff">Sales-Qualified Lead</text>
+    <text x="900" y="124" text-anchor="middle" font-size="9" fill="#fff">Cohort closed-loop</text>
+    <text x="900" y="138" text-anchor="middle" font-size="9" fill="#fff">CFO-readable outcome</text>
+    <text x="900" y="158" text-anchor="middle" font-size="9" fill="#fff">Source-of-truth attribution</text>
+
+    <path d="M 184 120 L 215 120" stroke="#0f766e" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    <path d="M 384 120 L 415 120" stroke="#0f766e" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    <path d="M 584 120 L 615 120" stroke="#0f766e" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    <path d="M 784 120 L 815 120" stroke="#0f766e" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+
+    <defs>
+      <marker id="arrowhead" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+        <polygon points="0 0, 8 4, 0 8" fill="#0f766e"/>
+      </marker>
+    </defs>
+
+    <text x="500" y="220" text-anchor="middle" font-size="11" fill="#0f172a" font-weight="800">The literal "built, not just used" architecture Monstro hires for</text>
+    <text x="500" y="238" text-anchor="middle" font-size="9.5" fill="#475569">HubSpot + Salesforce + Adobe + GA4 + GTM, end-to-end, from zero</text>
+
+    <rect x="100" y="270" width="800" height="80" rx="8" fill="#f0fdfa" stroke="#0f766e" stroke-width="1" stroke-dasharray="4,3"/>
+    <text x="500" y="295" text-anchor="middle" font-size="10" fill="#115e59" font-weight="800">+ COORDINATION LAYER</text>
+    <text x="500" y="312" text-anchor="middle" font-size="9.5" fill="#1e293b">4-vendor MarTech RFP and rollout, 6 internal stakeholders aligned, Procurement terms negotiated, SLA documentation</text>
+    <text x="500" y="328" text-anchor="middle" font-size="9.5" fill="#475569" font-style="italic">The same translation work a stealth-stage startup needs from its first marketer</text>
+  </svg>
+  <div class="slide-brand">Monstro | Adhithya Rokhith Bhaskar</div>
+  <div class="slide-num">03 / 06</div>
+</div>
+
+<!-- SLIDE 4 PIXIS CFO QBR -->
+<div class="slide">
+  <div class="label">Slide 04 | The C-Suite Translation Muscle</div>
+  <h2>Pixis 8-Client Book, Weekly CFO QBRs</h2>
+  <p style="font-size: 10pt; color: #475569; margin-bottom: 8pt;">Per-client monthly budgets ranged $15K to $90K. Each row is one client, one weekly QBR direct to the client CFO and growth lead. I trained eight enterprise marketers on AI bidding tools as part of those QBRs. The translation work, AI methodology to procurement-ready outcome, is the same translation Monstro will need into a banking C-suite.</p>
+  <table class="clients-table">
+    <thead>
+      <tr><th>Client</th><th>Vertical</th><th>Channels</th><th>Spend / Mo</th><th>ROAS</th><th>WoW</th><th>Status</th><th>This Week's CFO Action</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>Client A</strong></td><td>FinTech B2B</td><td>Google + LinkedIn + Programmatic</td><td>$90K</td><td>3.4x</td><td>+12%</td><td class="status-good">Scale</td><td>Holdout incrementality, +30% budget approval</td></tr>
+      <tr><td><strong>Client B</strong></td><td>WealthTech</td><td>LinkedIn + Programmatic</td><td>$72K</td><td>2.1x</td><td>-8%</td><td class="status-warn">Refresh</td><td>Creative cycle reset, audience expansion</td></tr>
+      <tr><td><strong>Client C</strong></td><td>InsureTech</td><td>Meta + LinkedIn</td><td>$58K</td><td>1.4x</td><td>-22%</td><td class="status-bad">Replace</td><td>Mid-quarter pivot, ABM list rebuild</td></tr>
+      <tr><td><strong>Client D</strong></td><td>SaaS Productivity</td><td>Google + Programmatic</td><td>$65K</td><td>2.8x</td><td>+5%</td><td class="status-good">Hold</td><td>Suppression list audit, retargeting refresh</td></tr>
+      <tr><td><strong>Client E</strong></td><td>Compliance SaaS</td><td>LinkedIn + Programmatic</td><td>$45K</td><td>4.1x</td><td>+18%</td><td class="status-good">Scale</td><td>ABM list expansion, lift campaign</td></tr>
+      <tr><td><strong>Client F</strong></td><td>Vertical SaaS</td><td>Google + Meta</td><td>$32K</td><td>2.3x</td><td>-3%</td><td class="status-warn">Diagnose</td><td>Top 5% session check, message-to-market test</td></tr>
+      <tr><td><strong>Client G</strong></td><td>SaaS B2B</td><td>LinkedIn + Programmatic</td><td>$22K</td><td>2.6x</td><td>+9%</td><td class="status-good">Hold</td><td>Lookalike expansion, lifecycle email tie-in</td></tr>
+      <tr><td><strong>Client H</strong></td><td>E-Commerce</td><td>Meta + Google Shopping</td><td>$15K</td><td>3.0x</td><td>+7%</td><td class="status-good">Hold</td><td>Catalog refresh, Advantage+ test</td></tr>
+    </tbody>
+  </table>
+  <div class="insight-box">
+    <strong>What I told the CFO who asked.</strong> Aggregate ROAS hides the rot. On Client F, blended numbers looked fine; the top 5% of sessions were carrying the average. Refresh creative, re-key channel mix, retained. That kind of CFO-direct diagnostic is the muscle a Monstro buyer will need from its first growth marketer.
+  </div>
+  <div class="slide-brand">Monstro | Adhithya Rokhith Bhaskar</div>
+  <div class="slide-num">04 / 06</div>
+</div>
+
+<!-- SLIDE 5 AI hub -->
+<div class="slide">
+  <div class="label">Slide 05 | "Heavy AI User" Already</div>
+  <h2>Built One AI Product, Productized a Claude Pipeline at 8x Velocity</h2>
+  <p style="font-size: 10pt; color: #475569; margin-bottom: 8pt;">The JD calls out "heavy user of AI tools for speed and efficiency." Below: how the four pieces of my AI stack already serve the demand-gen mandate at production scale.</p>
+
+  <svg viewBox="0 0 1000 420" class="ai-hub">
+    <circle cx="500" cy="210" r="68" fill="#0f766e"/>
+    <text x="500" y="200" text-anchor="middle" font-size="14" fill="#fff" font-weight="800">Adhithya</text>
+    <text x="500" y="218" text-anchor="middle" font-size="11" fill="#fff" font-weight="600">AI-Native</text>
+    <text x="500" y="234" text-anchor="middle" font-size="11" fill="#fff" font-weight="600">Demand Marketer</text>
+
+    <line x1="450" y1="170" x2="220" y2="80" stroke="#0f766e" stroke-width="2" stroke-dasharray="4,3"/>
+    <rect x="60" y="40" width="320" height="80" rx="8" fill="#f0fdfa" stroke="#0f766e" stroke-width="1.5"/>
+    <text x="220" y="64" text-anchor="middle" font-size="11" fill="#115e59" font-weight="800">SwipeHire (Solo Build)</text>
+    <text x="220" y="82" text-anchor="middle" font-size="9" fill="#1e293b">Python + OpenAI API + React</text>
+    <text x="220" y="98" text-anchor="middle" font-size="9" fill="#1e293b">50+ users, +25% activation, 8 A/B tests</text>
+    <text x="220" y="113" text-anchor="middle" font-size="9" fill="#475569" font-style="italic">Production AI product, end-to-end</text>
+
+    <line x1="550" y1="170" x2="780" y2="80" stroke="#0f766e" stroke-width="2" stroke-dasharray="4,3"/>
+    <rect x="620" y="40" width="320" height="80" rx="8" fill="#f0fdfa" stroke="#0f766e" stroke-width="1.5"/>
+    <text x="780" y="64" text-anchor="middle" font-size="11" fill="#115e59" font-weight="800">4 Claude Certifications</text>
+    <text x="780" y="82" text-anchor="middle" font-size="9" fill="#1e293b">Claude 101 | Code 101 | Cowork</text>
+    <text x="780" y="98" text-anchor="middle" font-size="9" fill="#1e293b">Building with the Claude API</text>
+    <text x="780" y="113" text-anchor="middle" font-size="9" fill="#475569" font-style="italic">Prompt-based iteration as my workflow</text>
+
+    <line x1="450" y1="250" x2="220" y2="340" stroke="#0f766e" stroke-width="2" stroke-dasharray="4,3"/>
+    <rect x="60" y="300" width="320" height="80" rx="8" fill="#f0fdfa" stroke="#0f766e" stroke-width="1.5"/>
+    <text x="220" y="324" text-anchor="middle" font-size="11" fill="#115e59" font-weight="800">Pixis AI Bidding Training</text>
+    <text x="220" y="342" text-anchor="middle" font-size="9" fill="#1e293b">Trained 8 enterprise marketers</text>
+    <text x="220" y="358" text-anchor="middle" font-size="9" fill="#1e293b">Translated AI methodology to CFO outcomes</text>
+    <text x="220" y="373" text-anchor="middle" font-size="9" fill="#475569" font-style="italic">Same translation Monstro sells to banks</text>
+
+    <line x1="550" y1="250" x2="780" y2="340" stroke="#0f766e" stroke-width="2" stroke-dasharray="4,3"/>
+    <rect x="620" y="300" width="320" height="80" rx="8" fill="#f0fdfa" stroke="#0f766e" stroke-width="1.5"/>
+    <text x="780" y="324" text-anchor="middle" font-size="11" fill="#115e59" font-weight="800">Claude Draft-and-Critique Pipeline</text>
+    <text x="780" y="342" text-anchor="middle" font-size="9" fill="#1e293b">8x velocity on ad-copy variants</text>
+    <text x="780" y="358" text-anchor="middle" font-size="9" fill="#1e293b">Personalized outbound at scale</text>
+    <text x="780" y="373" text-anchor="middle" font-size="9" fill="#475569" font-style="italic">Production loop, not a prototype</text>
+
+    <text x="500" y="20" text-anchor="middle" font-size="10" fill="#475569" font-weight="600" letter-spacing="1.5">| AI CAPABILITY |</text>
+    <text x="500" y="412" text-anchor="middle" font-size="10" fill="#475569" font-weight="600" letter-spacing="1.5">| DEMAND-GEN OUTCOME |</text>
+  </svg>
+  <div class="slide-brand">Monstro | Adhithya Rokhith Bhaskar</div>
+  <div class="slide-num">05 / 06</div>
+</div>
+
+<!-- SLIDE 6 CLOSE -->
+<div class="slide close">
+  <div class="label">Slide 06 | What I Want From the First Conversation</div>
+  <h2>15 Minutes With the Hiring Team</h2>
+  <div class="body">
+    What I would want to understand: which segment of the financial-institution buyer is currently driving the most inbound (CIO at a regional bank vs Head of AI at a wealth firm vs compliance lead at an advisory shop), how the prospect-profiling research connects into the HubSpot pipeline today, and what the year-one shape of the team build looks like alongside the parallel Content Manager hire.<br><br>
+    What I would bring to the conversation: a one-page proposal for the first three demand-gen experiments I would run in week two, a draft IP-targeting brief for the top 50 wealth-management firms, and a quick read on which AEO/GEO content plays would compound fastest given Monstro's authority-first positioning.<br><br>
+    NYC works. Open to relocating from Boston for the right team.
+  </div>
+  <div class="cta">
+    <div class="btn">15-Minute Hiring Manager Call</div>
+    <div style="font-size: 11pt; color: #475569;">or written async if easier</div>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong><br>
+    arokhith@gmail.com | (929) 563-9974 | Boston, MA (NYC works)<br>
+    Portfolio: adhi-growth-ai.vercel.app/ref/monstro<br>
+    LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="slide-brand">Monstro | Adhithya Rokhith Bhaskar</div>
+  <div class="slide-num">06 / 06</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+TO: [Hiring Manager Name], Head / VP of Growth, Prolific
+PLATFORM: Email
+ROLE: Growth Marketing Manager, AI, Prolific, Hybrid NY
+---
+
+Subject: Growth Marketing Manager, AI, growth here is 80% technical credibility, 20% marketing
+
+Hi [Name],
+
+Growth for an AI infrastructure platform is not marketing for marketers. The buyer is a researcher who will test every claim against your docs. The marketer who wins has already shipped on the stack.
+
+Just applied for the Growth Marketing Manager, AI role. Quick proof I have done both sides:
+
+- SwipeHire: production AI product I built on OpenAI API + React (50+ users, 8+ A/B tests, +25% activation); full GA4 + GTM + funnel tracking
+- Pixis: ran growth on an AI adtech SaaS at comparable stage ($1.4M, 8 enterprise clients, 3x ROAS in 30 days, -50% churn)
+- Plug Power: built signal-based AdTech + Martech stack from scratch (Adobe, SA360, CRM audience layers); -25% CPA, +20% conversion
+- Sensata: ran 30+ OEM/distributor interviews, built GTM for new sensing products; +35% qualified leads, $2M+ first-year pipeline
+- Claude Cowork + Building with Claude API + Claude Code + Claude 101 certified (Cowork is on your required-tools list)
+
+MS Marketing Analytics (Simon, Rochester) + BE Mechanical (BITS Pilani). Committed to relocating to NY.
+
+Would love 20 minutes on where pipeline currently leaks and what the first 90-day playbook should look like.
+
+Resume + cover letter + portfolio: https://adhithyabhaskar.vercel.app/ref/prolific
+
+Best,
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com | (929) 563-9974

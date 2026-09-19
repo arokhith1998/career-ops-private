@@ -1,0 +1,25 @@
+TO: [VP of Growth Marketing], Garner Health
+PLATFORM: Email
+ROLE: Growth Marketing Manager (Growth Hacker), NYC
+---
+
+Subject: Growth Marketing Manager app, I already built the AI tool your JD is asking for
+
+Hi [Name],
+
+The difference between 5 A/B tests a month and 50 is not effort. It is automation infrastructure. Your JD asks for someone who can "create AI tools for campaign optimization." I built one.
+
+Just applied for the Growth Marketing Manager role. Quick proof:
+
+- SwipeHire: built a production AI tool using OpenAI API (Python, prompt engineering, structured output, automated content pipelines). Instrumented full growth stack, ran 8+ A/B tests on activation, +25% lift, 50+ users
+- Plug Power: built HubSpot lifecycle CRM from scratch (trigger workflows, segmentation, email cadences, personalized journeys), -25% CPA, +20% conversion
+- Pixis: ran weekly experimentation cycles across 8 B2C clients on $1.4M budget, 3x ROAS in 30 days, launched new channels (programmatic, creator content), -50% churn
+- Claude AI Certified (4 certs); daily SQL + Python
+
+Would love 15 minutes to hear where the AI-tooling gap is in the growth team right now.
+
+Resume + portfolio: https://adhithyabhaskar.vercel.app/ref/garner
+
+Best,
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com | (929) 563-9974

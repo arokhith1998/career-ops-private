@@ -1,0 +1,7 @@
+TO: Viola Hempel — Director of Marketing Analytics @ GitLab
+PLATFORM: LinkedIn Connection Note (300 char limit)
+ROLE: Senior Data Analyst, Marketing Analytics
+LINKEDIN: https://www.linkedin.com/in/violahempel/
+---
+
+Hi Viola — applied for Sr Data Analyst on your Marketing Analytics team. Two things that might not be obvious from the resume: I built a production tool using Claude API via Cursor (4 Anthropic certs), and I built multi-touch attribution from zero at Plug Power. Would love to learn about the team.

@@ -1,0 +1,69 @@
+ROLE: JPMorgan Chase — Digital Marketing Senior Associate, Business Banking (210723833)
+=========================================================================================
+Tracker entry: #45
+URL: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210723833/
+
+HIRING MANAGER:
+TBD. Likely an Executive Director or VP of Marketing within Business Banking. Search LinkedIn for:
+- "JPMorgan Chase" + "Business Banking Marketing" + "Director" or "VP"
+- "Chase Business Banking" + "Performance Marketing"
+
+Senior leaders for context (HM is likely 1-2 levels below):
+- Carla Hassan (Carla Zakhem-Hassan) — CMO, JPMorgan Chase
+  LinkedIn: https://www.linkedin.com/in/carla-zakhem-hassan/
+- Ben Walter — CEO, Chase Business Banking
+- Brent Baker — Managing Director, Head of Digital Channels at JPMorgan Chase
+  LinkedIn: https://www.linkedin.com/in/brentbaker/
+
+RECRUITER:
+TBD. JPMC uses Oracle HCM. The recruiter assigned to this req will appear in the candidate portal after application. Search LinkedIn for "JPMorgan Chase Recruiter Marketing" + Plano TX or Columbus OH if direct contact needed.
+
+
+----- HM LINKEDIN NOTE -----
+Hi {First}, applying for Digital Marketing Sr Assoc, Business Banking. Quick observation: Chase Business Banking's paid-search SERP for "small business checking" trails Capital One Spark on competitor-conquest density. Closeable via the playbook I ran at Plug Power. 15 min?
+
+
+----- HM EMAIL -----
+Subject: Digital Marketing Sr Assoc, Business Banking — quick SERP read
+
+Hi {First},
+
+Applying for the Digital Marketing Senior Associate role and wanted to send something concrete.
+
+Spent yesterday running a SERP and ad-copy audit on "small business checking" and "business banking online" against Capital One Spark, Mercury, Brex, and Chase Business Banking. Two patterns worth flagging.
+
+First, Capital One Spark is buying competitor-conquest terms aggressively against "Chase business banking," and the Spark Cash Plus message shows up at the top of Google AI Overviews for queries Chase historically owns. Their messaging is outcome-led ("no preset spend limit"), Chase's is feature-led.
+
+Second, the email cadence I see on the Business Banking lifecycle (signed up for the newsletter last month) is heavy on educational content and light on a clear next step. The asset library is strong. The handoff between asset and CTA is where the funnel leaks.
+
+The pattern is the same one I rebuilt at Plug Power. Outcome-first paid copy, closed-loop attribution from ad click to SQL on Salesforce, Adobe Analytics, GA4, and GTM. CPA dropped 25%. At Pixis I ran an 8-client B2B SaaS portfolio on a $1.4M budget with weekly multi-channel optimization.
+
+The Business Banking buyer is the same psychographic shape as the industrial buyers I sold to at Sensata and the AI-platform marketers at Pixis. Budget-conscious, ROI-driven, time-poor.
+
+CV and portfolio: https://adhi-growth.vercel.app/ref/jpmc-digital-mktg
+
+15 min next week?
+
+Adhithya | Boston, MA | (929) 563-9974
+
+
+----- RECRUITER LINKEDIN NOTE -----
+Hi {Recruiter}, applied for Digital Marketing Sr Assoc, Business Banking (210723833). 4+ yrs B2B paid + closed-loop attribution rebuild + Pixis $1.4M B2B SaaS book. Open to Plano or Columbus relo. Available for a screen.
+
+
+----- RECRUITER EMAIL -----
+Subject: Application — Digital Marketing Sr Assoc, Business Banking (210723833)
+
+Hi {Recruiter},
+
+Submitted for the Business Banking Digital Marketing Senior Associate role. Quick fit summary.
+
+Owned + earned + paid + email + website coverage: Plug Power (B2B paid stack rebuild + closed-loop attribution, -25% CPA), Pixis (8-client B2B SaaS portfolio, $1.4M, weekly multi-channel), GenY (D2C 16x ROAS), SwipeHire (website end-to-end, 8 A/B tests).
+
+4+ years. MS Marketing Analytics (Simon). Open to Plano or Columbus relocation.
+
+Resume: https://adhi-growth.vercel.app/ref/jpmc-digital-mktg
+
+Available for a screen this week.
+
+Adhithya | (929) 563-9974

@@ -1,0 +1,32 @@
+TO: Holly McCloskey — Digital Marketing Principal @ FedEx Services
+PLATFORM: Email
+ROLE: Sr Spec-Digital Marketing (P25-329882-1), FedEx Freight
+LINKEDIN: https://www.linkedin.com/in/bakerholly/
+---
+
+Subject: P25-329882-1 — the person who builds the MarTech stack, not just the campaigns on top of it
+
+Hi Holly,
+
+Most applicants for this role will tell you they've run digital campaigns. I want to tell you what happens before the campaign launches — because that's where I actually spend most of my time.
+
+At Plug Power, there was no MarTech stack when I arrived. No attribution. No closed-loop reporting. I built it: Salesforce, Adobe Analytics, GA, GTM — wired together so we could finally trace a campaign from first touch to qualified lead. Then I ran the campaigns on top of it. The -25% CPA wasn't from better ad copy. It was from finally being able to see what was actually working and killing what wasn't.
+
+That's the part of digital marketing I'm good at: the infrastructure underneath the execution. Business cases with real success metrics. Audience segmentation that's based on data, not intuition. Dashboards that tell someone what to do, not just what happened.
+
+At Pixis, I did the same thing at scale — $1.4M in budgets, 8-person team, global D2C clients across Google, Meta, and programmatic. I built the performance monitoring systems, the optimization playbooks, and the client-facing reporting that kept accounts renewing. Churn dropped 50%.
+
+Two specifics from the JD that caught my eye:
+
+"Create business cases for marketing initiatives with defined objectives, success metrics, and resource requirements" — this is how I start every project. At Sensata, I built the KPI framework for a 50K-device product portfolio before writing a single campaign brief.
+
+"Support marketing channel planning with Performance Marketing and Operations teams" — at Plug Power, I was the bridge between these two teams. I sat in Performance Marketing but my reporting fed Operations. That cross-functional seat is where I'm most useful.
+
+I'm based in Boston and open to relocation. Resume and portfolio attached:
+https://adhithyabhaskar.vercel.app/ref/fedex
+
+Would love to hear how the digital marketing team at FedEx Freight is structured — even a quick 10 minutes.
+
+Best,
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com | (929) 563-9974

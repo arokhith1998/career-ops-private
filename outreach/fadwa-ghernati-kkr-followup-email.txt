@@ -1,0 +1,29 @@
+TO: Fadwa Ghernati, Director, Digital Marketing @ KKR
+PLATFORM: Email (reply in original thread, do not start new thread)
+ROLE: Search & AI Optimization Associate
+ORIGINAL EMAIL SENT: 2026-04-15
+FOLLOW-UP DATE: 2026-04-20 (5 days after)
+ATTACHMENT: output/KKR_AI_Search_Audit_Adhithya.pdf (2 pages)
+---
+
+Subject: Re: Search & AI Optimization Associate
+
+Hi Fadwa,
+
+Bumping this in case it got buried.
+
+Since my last email I ran a small AI-search visibility audit on KKR against Blackstone, Apollo, Carlyle, and Brookfield. Six queries, mix of brand, discovery, comparison, and LP-intent. A few things that stood out:
+
+KKR's AUM is getting cited inconsistently across AI engines. I saw $553B, $664B, $700B, and $744B all pulled from different sources in the same week. It's probably the cheapest fix on the list and a real tell to anyone treating Perplexity as a screening tool.
+
+On "top PE firms in healthcare 2026," Carlyle anchors the summary with broad framing. KKR gets narrowed to "pediatric mental health and patient-centered tech," which reads like a specialty play rather than the scale the portfolio actually reflects.
+
+On infrastructure, five straight Infrastructure Investor wins and the PEI 300 top spots in 2022 and 2024 are not flowing up into generic "best PE firms" queries. That credential is doing less work than it should.
+
+I put the full query-by-query breakdown in a 2-page teardown, attached. Three experiments I'd run in the first 30 days are on the last page.
+
+Still keen on the 15 minutes if you have the space.
+
+Best,
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com | (929) 563-9974

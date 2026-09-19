@@ -1,0 +1,68 @@
+ROLE: Truewind — Growth Generalist (YC W23, AI-powered accounting)
+====================================================================
+Tracker entry: #59
+URL: https://www.ycombinator.com/companies/truewind/jobs/DdVPvVF-growth-generalist
+Direct careers page: https://www.truewind.ai/careers/growth-generalist-position
+
+APPLICATION CHANNEL:
+**Email** to **hiring@trytruewind.com** with subject line: "Growth Generalist - Adhithya Rokhith Bhaskar"
+
+This IS the application — the email body below is both the application note and the CL. Attach: CV + KKR audit teardown (as portfolio sample).
+
+HIRING MANAGER (likely):
+Alex Lee — Co-Founder & CEO, Truewind (ex-VC, 2x YC founder)
+LinkedIn: search "Alex Lee Truewind" — verify before sending parallel LinkedIn touch.
+Twitter/X: likely @alexlee or similar — verify.
+
+OTHER FOUNDER:
+Tennison Chan — Co-Founder & CTO, Truewind (ex-Flexport, Pinterest, Alibaba)
+LinkedIn: search "Tennison Chan Truewind"
+
+RECRUITER:
+Likely no dedicated recruiter at this stage (Series A, ~50 ppl). hiring@trytruewind.com may route to either an in-house TA or directly to Alex.
+
+
+----- APPLICATION EMAIL (this IS the application) -----
+TO: hiring@trytruewind.com
+SUBJECT: Growth Generalist - Adhithya Rokhith Bhaskar
+
+Hi team,
+
+Applying for the Growth Generalist role.
+
+Three things make me a clean fit, and one note worth surfacing.
+
+First, I have shipped an AI product end-to-end solo. SwipeHire is a job-matching platform I built on Python, OpenAI API, and React. Defined ICP, ran competitive teardown, wrote positioning, instrumented GA4 plus GTM event tracking from day one, ran eight A/B tests on activation flows, kept a weekly retention cohort cadence. 50+ users, +25% activation. The reason this matters for Truewind is that the JD's "ambiguity-to-structure" line is not a skill I'm claiming. It's how I built SwipeHire from zero.
+
+Second, I rebuilt the demand engine at Plug Power as the early growth hire. Came in to a fragmented paid stack with no closed-loop attribution and rebuilt it. Paid search, paid social, programmatic display, MarTech rollout across Salesforce, Adobe Analytics, GA4, and GTM. UTM spec from scratch, GTM containers rebuilt, lead routing validated through Salesforce campaign attribution. CPA dropped 25%, conversion went up 20%. Documented SLAs and escalation paths so the next growth hire inherited a system rather than a black box. That's the "operational systems for faster team movement" bullet.
+
+Third, I have run AI-tools-fluent execution at scale. Four Anthropic Claude certifications (101, Code 101, Cowork, Building with Claude API) come from running prompt-based iteration on creative, copy, and insight as my actual workflow. At Pixis I trained eight enterprise marketers on AI bidding tools across an 8-client B2B SaaS portfolio on a $1.4M budget. Plus an NSE Paper-Trading Bot built on Python with a Claude-API reasoning layer (financial-analytics adjacent, since you sell into accounting and finance buyers).
+
+The note: I'm on STEM OPT today and work-authorized in the US, but will need H-1B sponsorship in the future. Flagging this upfront because the JD says "US citizen/visa only" and I want to confirm whether Truewind can sponsor down the road. If yes, great. If no, I'd still want to be in the conversation.
+
+Resume attached. Portfolio (with the 2-page KKR AI-Search audit I built last week as a sample of measurement work): https://adhi-growth-ai.vercel.app/ref/truewind
+
+Boston-based, open to relocating to SF for the right fit.
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com | (929) 563-9974
+
+
+----- HM LINKEDIN NOTE (Alex Lee, after sending the email) -----
+Hi Alex, applied to the Growth Generalist role this morning. Quick angle: SwipeHire (Python, OpenAI API, React, +25% activation, 50+ users) is the closest thing on my CV to what your JD describes. Plus 4 Claude certs and Pixis B2B SaaS adtech tenure. Worth 15 min?
+
+
+----- HM EMAIL (use only if no email reply in 5 days; secondary touch) -----
+Subject: Re: Growth Generalist - Adhithya Rokhith Bhaskar
+
+Hi Alex,
+
+Bumping the application from earlier this week in case it got buried.
+
+One observation about Truewind that did not make it into my first email. The JD's framing (growth + ops + experimentation + ambiguity) is a startup-CEO's framing of the role, which makes sense given Truewind's stage. But the version of this work that wins inside accounting / finance buyers is one most growth generalists do not have: structured trust signals (audit logs, control evidence, reconciliations). Most growth folks lead with novelty; CFO buyers want proof.
+
+I shipped my own structured-trust layer at SwipeHire (visa-aware logic for skeptical job-seekers, transparent matching). And the financial-analytics adjacency on my CV (Optimal Pricing R + NSE Paper-Trading Bot on Claude API) means I have shipped reasoning tools to skeptical-by-default buyers before.
+
+15 minutes, if you have the space.
+
+Adhithya | (929) 563-9974

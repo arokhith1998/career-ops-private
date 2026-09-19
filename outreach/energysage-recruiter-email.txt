@@ -1,0 +1,30 @@
+TO: [Recruiter Name], Schneider Electric / EnergySage Talent Acquisition
+PLATFORM: Email
+ROLE: SEO Manager, EnergySage (Remote US)
+NOTE: Recruiter name not surfaced publicly; SE iCIMS auto-assignment will provide. Swap in once known.
+---
+
+Subject: Application, SEO Manager - EnergySage (Remote US)
+
+Hi [Recruiter Name],
+
+Just applied for the SEO Manager role at EnergySage via the SE iCIMS portal. Quick fit:
+
+- SwipeHire (founder): production AI product on OpenAI API + React. Schema markup, Core Web Vitals, structured output pipelines for AI-assistant retrieval. 50+ users, +25% activation.
+- 4 Anthropic Claude certifications including Building with the Claude API - direct match for the JD's "hands-on AI tools (ChatGPT, Claude, Copilot)" line.
+- Plug Power: B2B SEO + keyword strategy for hydrogen-energy audience. Keyword clusters, landing pages, technical SEO with engineering. -25% CPA, +20% conversion.
+- GenY Medium: D2C SEO + Google Merchant + Meta catalog rebuild. 16x ROAS.
+- GA4, GSC, Ahrefs daily. SQL on 50K+ devices at Sensata. Power BI on $627M pipeline.
+- MS Marketing Analytics (Simon, Rochester) + BE Mech (BITS Pilani) + 4 Claude certs.
+
+JD fit: 3-5 yr band (4+ actual, sweet spot). Deep Google SEO + GEO thinking. Technical SEO (schema, Core Web Vitals). AI-platform citation strategy. Clean-energy vertical adjacent (Plug Power hydrogen). GA4 + GSC + Ahrefs hands-on.
+
+Boston-based, remote is ideal, zero relocation. Available to screen this week. Comp target: top of posted band ($120K-$126K base + STI).
+
+One ask: can you confirm the role's H-1B sponsorship posture? Schneider Electric is a top H-1B sponsor at parent level (500+ LCAs/yr), but I want to confirm for this specific EnergySage req before going deep.
+
+Resume, cover letter, portfolio: https://adhithyabhaskar.vercel.app/ref/energysage
+
+Thanks,
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com | (929) 563-9974

@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>HelloFresh Marketing Manager Paid Search Pitch Deck Adhithya</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  @page { size: 11in 8.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 11pt; line-height: 1.4; color: #0f172a; background: #fff; }
+  .slide { width: 11in; height: 8.5in; padding: 0.55in 0.7in; page-break-after: always; position: relative; overflow: hidden; }
+  .slide:last-child { page-break-after: avoid; }
+  .slide-num { position: absolute; bottom: 0.3in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; font-weight: 600; letter-spacing: 1pt; }
+  .slide-brand { position: absolute; bottom: 0.3in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; font-weight: 600; letter-spacing: 0.5pt; }
+  h1 { font-size: 32pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; line-height: 1.05; letter-spacing: -0.5pt; }
+  h2 { font-size: 22pt; font-weight: 800; color: #0f172a; margin-bottom: 14pt; line-height: 1.1; letter-spacing: -0.3pt; }
+  h3 { font-size: 13pt; font-weight: 700; color: #0f172a; margin-bottom: 6pt; }
+  .accent { color: #16a34a; }
+  .label { font-size: 8.5pt; font-weight: 700; color: #16a34a; text-transform: uppercase; letter-spacing: 1.2pt; margin-bottom: 8pt; }
+
+  /* Slide 1 cover */
+  .cover { display: flex; flex-direction: column; justify-content: center; background: linear-gradient(135deg, #f0fdf4 0%, #bbf7d0 50%, #86efac 100%); }
+  .cover h1 { font-size: 38pt; }
+  .cover .sub { font-size: 16pt; color: #475569; margin-top: 6pt; font-weight: 500; }
+  .cover .author { margin-top: 32pt; padding-top: 18pt; border-top: 2pt solid #16a34a; font-size: 11pt; color: #475569; }
+  .cover .author strong { color: #0f172a; font-weight: 700; }
+  .cover .pills { margin-top: 20pt; display: flex; gap: 8pt; flex-wrap: wrap; }
+  .pill { background: #fff; border: 1.5pt solid #16a34a; color: #166534; padding: 5pt 12pt; border-radius: 14pt; font-size: 9pt; font-weight: 700; }
+
+  /* Slide 2 mapping */
+  .grid-2 { display: grid; grid-template-columns: 1fr 1.05fr; gap: 28pt; margin-top: 8pt; }
+  .panel { background: #f0fdf4; border: 1pt solid #bbf7d0; border-radius: 6pt; padding: 14pt; }
+  .panel h3 { color: #166534; }
+  .kpi-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10pt; }
+  .kpi { background: #fff; border-left: 3pt solid #16a34a; padding: 8pt 10pt; border-radius: 3pt; }
+  .kpi .v { font-size: 17pt; font-weight: 800; color: #16a34a; line-height: 1; }
+  .kpi .l { font-size: 8.5pt; color: #475569; margin-top: 3pt; font-weight: 600; }
+  .ulx { list-style: none; padding: 0; }
+  .ulx li { padding: 4pt 0 4pt 14pt; position: relative; font-size: 10pt; color: #1e293b; }
+  .ulx li:before { content: ""; position: absolute; left: 0; top: 10pt; width: 7pt; height: 2pt; background: #16a34a; }
+
+  /* Slide 3 feed architecture */
+  .feed-svg { width: 100%; height: 4.4in; }
+  .insight-box { background: #f0fdf4; border-left: 4pt solid #16a34a; padding: 12pt 16pt; margin-top: 14pt; border-radius: 0 4pt 4pt 0; }
+  .insight-box strong { color: #166534; }
+
+  /* Slide 4 multi-brand portfolio table */
+  .brands-table { width: 100%; border-collapse: collapse; margin-top: 4pt; font-size: 9pt; }
+  .brands-table th { background: #16a34a; color: #fff; padding: 7pt 8pt; text-align: left; font-weight: 700; font-size: 8.5pt; letter-spacing: 0.3pt; }
+  .brands-table td { padding: 6pt 8pt; border-bottom: 0.5pt solid #bbf7d0; color: #1e293b; }
+  .brands-table tr:nth-child(even) td { background: #f0fdf4; }
+  .status-good { color: #15803d; font-weight: 700; }
+  .status-warn { color: #b45309; font-weight: 700; }
+  .status-bad { color: #b91c1c; font-weight: 700; }
+
+  /* Slide 5 AI hub */
+  .ai-hub { width: 100%; height: 4.4in; }
+
+  /* Slide 6 close */
+  .close { display: flex; flex-direction: column; justify-content: center; background: linear-gradient(135deg, #f0fdf4 0%, #86efac 100%); }
+  .close h2 { font-size: 28pt; }
+  .close .body { font-size: 13pt; color: #1e293b; line-height: 1.65; max-width: 8.5in; }
+  .close .cta { margin-top: 28pt; display: flex; gap: 16pt; align-items: center; }
+  .close .cta .btn { background: #16a34a; color: #fff; padding: 10pt 22pt; border-radius: 6pt; font-weight: 700; font-size: 11pt; }
+  .close .contact { margin-top: 24pt; font-size: 10pt; color: #475569; }
+  .close .contact strong { color: #0f172a; }
+</style>
+</head>
+<body>
+
+<!-- SLIDE 1 COVER -->
+<div class="slide cover">
+  <div class="label">Pitch Deck | HelloFresh Marketing Manager, Paid Search</div>
+  <h1>Profitable Paid Search for D2C Food at Scale</h1>
+  <div class="sub">Per-SKU margin discipline + multi-brand parallel + AI Max automation</div>
+  <div class="pills">
+    <div class="pill">GenY 16x ROAS D2C Consumer</div>
+    <div class="pill">Plug Power -25% CPA</div>
+    <div class="pill">SA360 + Google Ads + Microsoft Ads</div>
+    <div class="pill">Pixis 8-Brand Parallel Book</div>
+    <div class="pill">8x Claude Pipeline Velocity</div>
+    <div class="pill">4 Claude Certifications</div>
+  </div>
+  <div class="author">
+    <strong>Adhithya Rokhith Bhaskar</strong> | Boston, MA (NYC works) | (929) 563-9974 | arokhith@gmail.com<br>
+    Portfolio: adhi-growth-ai.vercel.app/ref/hellofresh
+  </div>
+  <div class="slide-brand">Prepared for the HelloFresh Hiring Team</div>
+  <div class="slide-num">01 / 06</div>
+</div>
+
+<!-- SLIDE 2 JD MAPPING -->
+<div class="slide">
+  <div class="label">Slide 02 | The Match in One View</div>
+  <h2>What HelloFresh Hires For, What I Have Already Run</h2>
+  <div class="grid-2">
+    <div class="panel">
+      <h3>HelloFresh JD</h3>
+      <ul class="ulx">
+        <li>US Paid Search execution across Google + Microsoft Ads (Search, Shopping, PMAX, AI Max)</li>
+        <li>Granular optimization across keywords, queries, devices, audiences, geos, landing pages</li>
+        <li>Drive CAC + CVR + ROAS + LTV improvements</li>
+        <li>Execute global strategy with local rigor across HelloFresh + EveryPlate + Green Chef</li>
+        <li>Heavy automation tools and scripts</li>
+        <li>Strong quantitative analysis on large datasets in Excel + Sheets + Tableau</li>
+      </ul>
+    </div>
+    <div class="panel">
+      <h3>What I Have Already Built</h3>
+      <div class="kpi-grid" style="margin-bottom: 10pt;">
+        <div class="kpi"><div class="v">16x</div><div class="l">ROAS at GenY D2C consumer</div></div>
+        <div class="kpi"><div class="v">-25%</div><div class="l">CPA at Plug Power</div></div>
+        <div class="kpi"><div class="v">8</div><div class="l">Brand portfolio at Pixis ($15K-$90K/mo each)</div></div>
+        <div class="kpi"><div class="v">8x</div><div class="l">Velocity, Claude draft-and-critique</div></div>
+        <div class="kpi"><div class="v">3x</div><div class="l">ROAS lift, holdout-validated</div></div>
+        <div class="kpi"><div class="v">4</div><div class="l">Anthropic Claude certifications</div></div>
+      </div>
+      <ul class="ulx">
+        <li>Google Merchant Center feed architecture rebuild + structured Shopping + Advantage+</li>
+        <li>SA360 + Google Ads + Microsoft Ads + Adobe-driven programmatic at Plug Power</li>
+        <li>Sensata $627M Power BI on 1,200 opportunities (Tableau-equivalent depth)</li>
+      </ul>
+    </div>
+  </div>
+  <div class="slide-brand">HelloFresh | Adhithya Rokhith Bhaskar</div>
+  <div class="slide-num">02 / 06</div>
+</div>
+
+<!-- SLIDE 3 FEED ARCHITECTURE -->
+<div class="slide">
+  <div class="label">Slide 03 | The Profitable-Paid-Search Seam</div>
+  <h2>Merchant Center Feed Architecture That Surfaces Weak SKUs</h2>
+  <p style="font-size: 10pt; color: #475569; margin-bottom: 4pt;">D2C paid search at scale fails when aggregate ROAS hides which SKU is buying the headline number at unit-economic loss. The fix below is the architecture I built at GenY for a 16x ROAS D2C consumer rebuild. Same pattern HelloFresh + EveryPlate + Green Chef can run on Day 30.</p>
+
+  <svg viewBox="0 0 1000 380" class="feed-svg">
+    <!-- Stage 1 Raw feed -->
+    <rect x="20" y="40" width="160" height="120" rx="8" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.5"/>
+    <text x="100" y="68" text-anchor="middle" font-size="11" fill="#166534" font-weight="800">RAW PRODUCT FEED</text>
+    <text x="100" y="88" text-anchor="middle" font-size="9" fill="#1e293b">Inventory + price + GTIN</text>
+    <text x="100" y="102" text-anchor="middle" font-size="9" fill="#1e293b">Recipe variants by week</text>
+    <text x="100" y="116" text-anchor="middle" font-size="9" fill="#1e293b">Promo + offer states</text>
+    <text x="100" y="138" text-anchor="middle" font-size="8" fill="#94a3b8" font-style="italic">"Everything in one bucket"</text>
+
+    <!-- Stage 2 Schema cleanup -->
+    <rect x="220" y="40" width="160" height="120" rx="8" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.5"/>
+    <text x="300" y="68" text-anchor="middle" font-size="11" fill="#166534" font-weight="800">SCHEMA + TAXONOMY</text>
+    <text x="300" y="88" text-anchor="middle" font-size="9" fill="#1e293b">Cleanup + GTIN validation</text>
+    <text x="300" y="102" text-anchor="middle" font-size="9" fill="#1e293b">Custom labels: margin tier</text>
+    <text x="300" y="116" text-anchor="middle" font-size="9" fill="#1e293b">Custom labels: LTV cohort</text>
+    <text x="300" y="138" text-anchor="middle" font-size="8" fill="#94a3b8" font-style="italic">Margin + LTV in feed</text>
+
+    <!-- Stage 3 Product group split -->
+    <rect x="420" y="40" width="160" height="120" rx="8" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.5"/>
+    <text x="500" y="68" text-anchor="middle" font-size="11" fill="#166534" font-weight="800">PRODUCT GROUP SPLIT</text>
+    <text x="500" y="88" text-anchor="middle" font-size="9" fill="#1e293b">Hero SKUs (high margin)</text>
+    <text x="500" y="102" text-anchor="middle" font-size="9" fill="#1e293b">Mid SKUs (steady)</text>
+    <text x="500" y="116" text-anchor="middle" font-size="9" fill="#1e293b">Weak SKUs (own bucket)</text>
+    <text x="500" y="138" text-anchor="middle" font-size="8" fill="#94a3b8" font-style="italic">Each group bid + reported</text>
+
+    <!-- Stage 4 Campaign architecture -->
+    <rect x="620" y="40" width="160" height="120" rx="8" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.5"/>
+    <text x="700" y="68" text-anchor="middle" font-size="11" fill="#166534" font-weight="800">CAMPAIGN STRUCTURE</text>
+    <text x="700" y="88" text-anchor="middle" font-size="9" fill="#1e293b">Standard Shopping</text>
+    <text x="700" y="102" text-anchor="middle" font-size="9" fill="#1e293b">Performance Max</text>
+    <text x="700" y="116" text-anchor="middle" font-size="9" fill="#1e293b">Advantage+ Catalog</text>
+    <text x="700" y="138" text-anchor="middle" font-size="8" fill="#94a3b8" font-style="italic">Negative-keyword discipline</text>
+
+    <!-- Stage 5 Outcome -->
+    <rect x="820" y="40" width="160" height="120" rx="8" fill="#16a34a" stroke="#166534" stroke-width="1.5"/>
+    <text x="900" y="68" text-anchor="middle" font-size="11" fill="#fff" font-weight="800">OUTCOME</text>
+    <text x="900" y="88" text-anchor="middle" font-size="9" fill="#fff">16x ROAS at GenY</text>
+    <text x="900" y="102" text-anchor="middle" font-size="9" fill="#fff">Per-SKU margin visible</text>
+    <text x="900" y="116" text-anchor="middle" font-size="9" fill="#fff">Branded cannibalization</text>
+    <text x="900" y="130" text-anchor="middle" font-size="9" fill="#fff">caught before CAC moves</text>
+
+    <!-- Arrows -->
+    <path d="M 184 100 L 215 100" stroke="#16a34a" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    <path d="M 384 100 L 415 100" stroke="#16a34a" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    <path d="M 584 100 L 615 100" stroke="#16a34a" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    <path d="M 784 100 L 815 100" stroke="#16a34a" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+
+    <defs>
+      <marker id="arrowhead" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+        <polygon points="0 0, 8 4, 0 8" fill="#16a34a"/>
+      </marker>
+    </defs>
+
+    <!-- Bottom annotation -->
+    <text x="500" y="200" text-anchor="middle" font-size="11" fill="#0f172a" font-weight="800">The architecture that ties AI Max budget pacing to LTV signals, not 7-day ROAS</text>
+
+    <!-- Granular reporting cards -->
+    <rect x="60" y="230" width="200" height="100" rx="6" fill="#fff" stroke="#16a34a" stroke-width="1"/>
+    <text x="160" y="252" text-anchor="middle" font-size="9.5" fill="#166534" font-weight="800">KEYWORD-LEVEL</text>
+    <text x="160" y="270" text-anchor="middle" font-size="8.5" fill="#1e293b">Branded vs non-branded split</text>
+    <text x="160" y="285" text-anchor="middle" font-size="8.5" fill="#1e293b">Match-type cannibalization</text>
+    <text x="160" y="300" text-anchor="middle" font-size="8.5" fill="#1e293b">N-gram analysis on queries</text>
+    <text x="160" y="315" text-anchor="middle" font-size="8.5" fill="#94a3b8" font-style="italic">Weekly review</text>
+
+    <rect x="290" y="230" width="200" height="100" rx="6" fill="#fff" stroke="#16a34a" stroke-width="1"/>
+    <text x="390" y="252" text-anchor="middle" font-size="9.5" fill="#166534" font-weight="800">DEVICE + GEO</text>
+    <text x="390" y="270" text-anchor="middle" font-size="8.5" fill="#1e293b">Mobile vs desktop bid mods</text>
+    <text x="390" y="285" text-anchor="middle" font-size="8.5" fill="#1e293b">Daypart by region</text>
+    <text x="390" y="300" text-anchor="middle" font-size="8.5" fill="#1e293b">DMA-level CAC variance</text>
+    <text x="390" y="315" text-anchor="middle" font-size="8.5" fill="#94a3b8" font-style="italic">Weekly review</text>
+
+    <rect x="520" y="230" width="200" height="100" rx="6" fill="#fff" stroke="#16a34a" stroke-width="1"/>
+    <text x="620" y="252" text-anchor="middle" font-size="9.5" fill="#166534" font-weight="800">LANDING PAGE</text>
+    <text x="620" y="270" text-anchor="middle" font-size="8.5" fill="#1e293b">CVR by ad group + LP combo</text>
+    <text x="620" y="285" text-anchor="middle" font-size="8.5" fill="#1e293b">A/B test on offer + hero</text>
+    <text x="620" y="300" text-anchor="middle" font-size="8.5" fill="#1e293b">Mobile-first speed checks</text>
+    <text x="620" y="315" text-anchor="middle" font-size="8.5" fill="#94a3b8" font-style="italic">Bi-weekly review</text>
+
+    <rect x="750" y="230" width="200" height="100" rx="6" fill="#fff" stroke="#16a34a" stroke-width="1"/>
+    <text x="850" y="252" text-anchor="middle" font-size="9.5" fill="#166534" font-weight="800">LTV COHORT</text>
+    <text x="850" y="270" text-anchor="middle" font-size="8.5" fill="#1e293b">Cohort retention by source</text>
+    <text x="850" y="285" text-anchor="middle" font-size="8.5" fill="#1e293b">Day-30 + Day-90 LTV</text>
+    <text x="850" y="300" text-anchor="middle" font-size="8.5" fill="#1e293b">CAC:LTV by campaign</text>
+    <text x="850" y="315" text-anchor="middle" font-size="8.5" fill="#94a3b8" font-style="italic">Monthly review</text>
+  </svg>
+  <div class="slide-brand">HelloFresh | Adhithya Rokhith Bhaskar</div>
+  <div class="slide-num">03 / 06</div>
+</div>
+
+<!-- SLIDE 4 MULTI-BRAND PORTFOLIO -->
+<div class="slide">
+  <div class="label">Slide 04 | Multi-Brand Parallel Execution</div>
+  <h2>Pixis 8-Brand Book, Same Operating Cadence as 3 HelloFresh Brands</h2>
+  <p style="font-size: 10pt; color: #475569; margin-bottom: 8pt;">Per-client monthly budgets ranged $15K to $90K. Each row was one brand, one weekly QBR, one performance reporting cycle, one set of recommendations. Three brands at HelloFresh is fewer accounts than I have managed in parallel; the operating cadence is built.</p>
+  <table class="brands-table">
+    <thead>
+      <tr><th>Brand</th><th>Vertical</th><th>Channels</th><th>Spend / Mo</th><th>ROAS</th><th>WoW</th><th>Status</th><th>This Week's Action</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>Brand A</strong></td><td>Subscription D2C</td><td>Google Search + PMAX + Meta Catalog</td><td>$90K</td><td>3.4x</td><td>+12%</td><td class="status-good">Scale</td><td>Holdout incrementality, +30% PMAX budget</td></tr>
+      <tr><td><strong>Brand B</strong></td><td>Premium D2C Food</td><td>Google Shopping + Microsoft Ads</td><td>$72K</td><td>2.1x</td><td>-8%</td><td class="status-warn">Refresh</td><td>Feed taxonomy rebuild, hero-SKU pivot</td></tr>
+      <tr><td><strong>Brand C</strong></td><td>Lifestyle D2C</td><td>Meta Catalog + Google Shopping</td><td>$58K</td><td>1.4x</td><td>-22%</td><td class="status-bad">Replace</td><td>Mid-quarter creative reset, Advantage+ test</td></tr>
+      <tr><td><strong>Brand D</strong></td><td>Wellness D2C</td><td>Google + Programmatic</td><td>$65K</td><td>2.8x</td><td>+5%</td><td class="status-good">Hold</td><td>Suppression list audit, retargeting refresh</td></tr>
+      <tr><td><strong>Brand E</strong></td><td>Beauty D2C</td><td>Meta Advantage+ + Google Shopping</td><td>$45K</td><td>4.1x</td><td>+18%</td><td class="status-good">Scale</td><td>Lookalike expansion, lift campaign</td></tr>
+      <tr><td><strong>Brand F</strong></td><td>Apparel D2C</td><td>Meta + Google Shopping + TikTok</td><td>$32K</td><td>2.3x</td><td>-3%</td><td class="status-warn">Diagnose</td><td>Top 5% session check, message-to-market test</td></tr>
+      <tr><td><strong>Brand G</strong></td><td>Pet Subscription</td><td>Google + Meta</td><td>$22K</td><td>2.6x</td><td>+9%</td><td class="status-good">Hold</td><td>LTV cohort tie-in, lifecycle email handoff</td></tr>
+      <tr><td><strong>Brand H</strong></td><td>Home Goods D2C</td><td>Meta + Google Shopping + TikTok</td><td>$15K</td><td>3.0x</td><td>+7%</td><td class="status-good">Hold</td><td>Catalog refresh, Advantage+ test</td></tr>
+    </tbody>
+  </table>
+  <div class="insight-box">
+    <strong>The diagnostic muscle.</strong> On Brand F, blended ROAS looked fine; the top 5% of sessions were carrying the average. Refresh creative, re-key channel mix, retained. Same pattern HelloFresh + EveryPlate + Green Chef will need diagnosed at the SKU level, not the brand level.
+  </div>
+  <div class="slide-brand">HelloFresh | Adhithya Rokhith Bhaskar</div>
+  <div class="slide-num">04 / 06</div>
+</div>
+
+<!-- SLIDE 5 AI Max + automation hub -->
+<div class="slide">
+  <div class="label">Slide 05 | AI Max + Automation Already Wired</div>
+  <h2>Built One AI Product, Productized a Claude Pipeline at 8x Velocity</h2>
+  <p style="font-size: 10pt; color: #475569; margin-bottom: 8pt;">The JD calls out "leverage automation tools and scripts to increase efficiency." Below: how the four pieces of my AI stack already serve that mandate at production scale.</p>
+
+  <svg viewBox="0 0 1000 420" class="ai-hub">
+    <circle cx="500" cy="210" r="68" fill="#16a34a"/>
+    <text x="500" y="200" text-anchor="middle" font-size="14" fill="#fff" font-weight="800">Adhithya</text>
+    <text x="500" y="218" text-anchor="middle" font-size="11" fill="#fff" font-weight="600">AI-Native Paid</text>
+    <text x="500" y="234" text-anchor="middle" font-size="11" fill="#fff" font-weight="600">Search Marketer</text>
+
+    <line x1="450" y1="170" x2="220" y2="80" stroke="#16a34a" stroke-width="2" stroke-dasharray="4,3"/>
+    <rect x="60" y="40" width="320" height="80" rx="8" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.5"/>
+    <text x="220" y="64" text-anchor="middle" font-size="11" fill="#166534" font-weight="800">SwipeHire (Solo Build)</text>
+    <text x="220" y="82" text-anchor="middle" font-size="9" fill="#1e293b">Python + OpenAI API + React</text>
+    <text x="220" y="98" text-anchor="middle" font-size="9" fill="#1e293b">50+ users, +25% activation, 8 A/B tests</text>
+    <text x="220" y="113" text-anchor="middle" font-size="9" fill="#475569" font-style="italic">Production AI product, end-to-end</text>
+
+    <line x1="550" y1="170" x2="780" y2="80" stroke="#16a34a" stroke-width="2" stroke-dasharray="4,3"/>
+    <rect x="620" y="40" width="320" height="80" rx="8" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.5"/>
+    <text x="780" y="64" text-anchor="middle" font-size="11" fill="#166534" font-weight="800">4 Claude Certifications</text>
+    <text x="780" y="82" text-anchor="middle" font-size="9" fill="#1e293b">Claude 101 | Code 101 | Cowork</text>
+    <text x="780" y="98" text-anchor="middle" font-size="9" fill="#1e293b">Building with the Claude API</text>
+    <text x="780" y="113" text-anchor="middle" font-size="9" fill="#475569" font-style="italic">Prompt-based iteration as my workflow</text>
+
+    <line x1="450" y1="250" x2="220" y2="340" stroke="#16a34a" stroke-width="2" stroke-dasharray="4,3"/>
+    <rect x="60" y="300" width="320" height="80" rx="8" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.5"/>
+    <text x="220" y="324" text-anchor="middle" font-size="11" fill="#166534" font-weight="800">Pixis AI Bidding + Google Ads Scripts</text>
+    <text x="220" y="342" text-anchor="middle" font-size="9" fill="#1e293b">Trained 8 enterprise marketers</text>
+    <text x="220" y="358" text-anchor="middle" font-size="9" fill="#1e293b">Bid + budget pacing automation</text>
+    <text x="220" y="373" text-anchor="middle" font-size="9" fill="#475569" font-style="italic">Production loop, not a prototype</text>
+
+    <line x1="550" y1="250" x2="780" y2="340" stroke="#16a34a" stroke-width="2" stroke-dasharray="4,3"/>
+    <rect x="620" y="300" width="320" height="80" rx="8" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.5"/>
+    <text x="780" y="324" text-anchor="middle" font-size="11" fill="#166534" font-weight="800">Claude Draft-and-Critique Pipeline</text>
+    <text x="780" y="342" text-anchor="middle" font-size="9" fill="#1e293b">8x velocity on ad-copy variants</text>
+    <text x="780" y="358" text-anchor="middle" font-size="9" fill="#1e293b">Granular keyword copy at scale</text>
+    <text x="780" y="373" text-anchor="middle" font-size="9" fill="#475569" font-style="italic">Direct fit for AI Max format</text>
+
+    <text x="500" y="20" text-anchor="middle" font-size="10" fill="#475569" font-weight="600" letter-spacing="1.5">| AI CAPABILITY |</text>
+    <text x="500" y="412" text-anchor="middle" font-size="10" fill="#475569" font-weight="600" letter-spacing="1.5">| PAID-SEARCH OUTCOME |</text>
+  </svg>
+  <div class="slide-brand">HelloFresh | Adhithya Rokhith Bhaskar</div>
+  <div class="slide-num">05 / 06</div>
+</div>
+
+<!-- SLIDE 6 CLOSE -->
+<div class="slide close">
+  <div class="label">Slide 06 | What I Want From the First Conversation</div>
+  <h2>15 Minutes With the Hiring Team</h2>
+  <div class="body">
+    What I would want to understand: which brand in the portfolio is currently driving the highest CAC volatility week-over-week, how the LTV cohort signal flows back into AI Max budget pacing today, and what the operating cadence looks like across the three-brand book on a typical Monday.<br><br>
+    What I would bring to the conversation: a one-page proposal for the first three paid-search experiments I would run in week two, a draft Merchant Center taxonomy review for the highest-spend brand, and a quick read on which Claude pipeline plays would compound fastest given the granular keyword volume across HelloFresh, EveryPlate, and Green Chef.<br><br>
+    NYC works. Open to relocating from Boston for the right team.
+  </div>
+  <div class="cta">
+    <div class="btn">15-Minute Hiring Manager Call</div>
+    <div style="font-size: 11pt; color: #475569;">or written async if easier</div>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong><br>
+    arokhith@gmail.com | (929) 563-9974 | Boston, MA (NYC works)<br>
+    Portfolio: adhi-growth-ai.vercel.app/ref/hellofresh<br>
+    LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="slide-brand">HelloFresh | Adhithya Rokhith Bhaskar</div>
+  <div class="slide-num">06 / 06</div>
+</div>
+
+</body>
+</html>

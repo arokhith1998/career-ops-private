@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Content Marketing Manager Sample Work | Juicebox | Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  @page { size: 11in 8.5in; margin: 0; }
+  body { font-family: Calibri, Arial, Helvetica, sans-serif; font-size: 10pt; line-height: 1.35; color: #111; background: #fff; }
+  .slide { width: 11in; height: 8.5in; padding: 0.4in 0.55in; page-break-after: always; overflow: hidden; position: relative; }
+  .slide:last-child { page-break-after: auto; }
+
+  .slide-num { position: absolute; top: 0.3in; right: 0.55in; font-size: 8pt; color: #999; letter-spacing: 0.6pt; text-transform: uppercase; }
+  .slide-footer { position: absolute; bottom: 0.25in; left: 0.55in; right: 0.55in; border-top: 0.5pt solid #ddd; padding-top: 6pt; font-size: 7.5pt; color: #888; display: flex; justify-content: space-between; }
+
+  .accent { color: #059669; }
+
+  /* Title slide */
+  .title-slide { display: flex; flex-direction: column; justify-content: center; align-items: flex-start; }
+  .title-slide .label { font-size: 9pt; letter-spacing: 1.5pt; color: #059669; text-transform: uppercase; font-weight: 700; margin-bottom: 14pt; }
+  .title-slide h1 { font-size: 38pt; font-weight: 800; line-height: 1.05; margin-bottom: 12pt; color: #0a0a0a; }
+  .title-slide .sub { font-size: 16pt; color: #444; font-weight: 400; margin-bottom: 26pt; line-height: 1.3; max-width: 7.8in; }
+  .title-slide .name { font-size: 11pt; color: #222; }
+  .title-slide .name strong { color: #059669; }
+  .title-slide .meta { margin-top: 6pt; font-size: 9pt; color: #666; }
+
+  /* Section */
+  .slide h2.section-title { font-size: 22pt; font-weight: 800; color: #0a0a0a; line-height: 1.1; margin-bottom: 5pt; }
+  .slide .jd-quote { font-size: 10pt; color: #555; font-style: italic; border-left: 3pt solid #059669; padding-left: 9pt; margin-bottom: 16pt; max-width: 9.5in; line-height: 1.4; }
+
+  /* KPI tiles */
+  .kpi-row { display: flex; gap: 12pt; margin-bottom: 14pt; }
+  .kpi-tile { flex: 1; background: #f0fdf4; border-radius: 4pt; padding: 12pt; border: 0.5pt solid #d1fae5; }
+  .kpi-tile .kpi-label { font-size: 7.5pt; color: #777; text-transform: uppercase; letter-spacing: 0.6pt; margin-bottom: 4pt; font-weight: 600; }
+  .kpi-tile .kpi-value { font-size: 18pt; font-weight: 800; color: #059669; line-height: 1.05; }
+  .kpi-tile .kpi-sub { font-size: 8pt; color: #666; margin-top: 3pt; }
+
+  /* Two-col */
+  .two-col { display: flex; gap: 20pt; }
+  .col-left { flex: 1.15; }
+  .col-right { flex: 1; }
+
+  /* Tables */
+  .dash-table { width: 100%; border-collapse: collapse; font-size: 8.5pt; margin-bottom: 8pt; background: #fafdfb; border: 0.5pt solid #d1fae5; border-radius: 3pt; overflow: hidden; }
+  .dash-table th { background: #059669; color: #fff; padding: 6pt 8pt; text-align: left; font-size: 7.5pt; letter-spacing: 0.5pt; text-transform: uppercase; font-weight: 700; }
+  .dash-table td { padding: 5pt 8pt; border-bottom: 0.4pt solid #ddf2e5; }
+  .dash-table tr:last-child td { border-bottom: none; }
+  .dash-table .pos { color: #117a3a; font-weight: 700; }
+  .dash-table .neg { color: #b3261e; font-weight: 700; }
+  .dash-table .num { font-variant-numeric: tabular-nums; text-align: right; }
+
+  /* Captions */
+  .caption { font-size: 9pt; color: #444; line-height: 1.42; margin-top: 10pt; padding: 8pt 10pt; background: #f0fdf4; border-left: 2.5pt solid #059669; border-radius: 2pt; }
+  .caption strong { color: #111; }
+
+  /* Charts */
+  .chart-box { background: #fafdfb; border: 0.5pt solid #d1fae5; border-radius: 3pt; padding: 10pt; }
+  .chart-title { font-size: 8.5pt; color: #555; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5pt; margin-bottom: 5pt; }
+
+  /* Asset library cards */
+  .asset-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8pt; margin-top: 6pt; }
+  .asset-card { background: #fff; border: 1pt solid #d1fae5; border-radius: 4pt; padding: 9pt 11pt; }
+  .asset-card .asset-icon { font-size: 12pt; color: #059669; font-weight: 700; }
+  .asset-card .asset-title { font-size: 9.5pt; color: #064e3b; font-weight: 700; margin-bottom: 2pt; }
+  .asset-card .asset-meta { font-size: 8.5pt; color: #555; line-height: 1.3; }
+
+  /* Stack grid */
+  .stack-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8pt; margin-top: 12pt; }
+  .stack-card { background: #f0fdf4; border-radius: 3pt; padding: 9pt 10pt; border: 0.5pt solid #d1fae5; }
+  .stack-card h4 { font-size: 8pt; color: #059669; text-transform: uppercase; letter-spacing: 0.5pt; margin-bottom: 4pt; font-weight: 700; }
+  .stack-card p { font-size: 9pt; line-height: 1.32; color: #333; }
+
+  /* Outcome pills */
+  .outcomes { display: flex; gap: 8pt; flex-wrap: wrap; margin-top: 6pt; }
+  .pill { background: #d1fae5; color: #059669; padding: 3pt 9pt; border-radius: 12pt; font-size: 8.5pt; font-weight: 700; }
+
+  /* Why-cards */
+  .why-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18pt; margin-top: 14pt; }
+  .why-card { padding: 16pt; background: #f0fdf4; border-radius: 4pt; border: 0.5pt solid #d1fae5; }
+  .why-card h3 { font-size: 11pt; font-weight: 700; color: #059669; margin-bottom: 6pt; }
+  .why-card p { font-size: 10pt; line-height: 1.42; color: #222; }
+
+  /* Cert badges */
+  .cert-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8pt; margin-top: 6pt; }
+  .cert-badge { display: flex; align-items: center; gap: 8pt; padding: 8pt 10pt; background: #fff; border: 1pt solid #059669; border-radius: 4pt; }
+  .cert-badge .cert-icon { width: 26pt; height: 26pt; background: #059669; color: #fff; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 11pt; font-weight: 700; flex-shrink: 0; }
+  .cert-badge .cert-text { font-size: 9pt; color: #222; line-height: 1.25; }
+  .cert-badge .cert-text strong { color: #059669; display: block; font-size: 9pt; }
+  .cert-badge .cert-text span { font-size: 8pt; color: #777; }
+
+  /* Channel card */
+  .channel-card { background: #fff; border: 1pt solid #d1fae5; border-radius: 4pt; padding: 9pt 11pt; margin-bottom: 6pt; display: flex; justify-content: space-between; align-items: center; }
+  .channel-card .channel-info { flex: 1; }
+  .channel-card .channel-info strong { font-size: 9.5pt; color: #064e3b; display: block; }
+  .channel-card .channel-info span { font-size: 8.5pt; color: #555; }
+  .channel-tag { background: #d1fae5; color: #059669; padding: 3pt 8pt; border-radius: 8pt; font-size: 8pt; font-weight: 700; }
+
+  @media print {
+    .kpi-tile, .stack-card, .why-card, .caption, .chart-box, .dash-table, .cert-badge, .channel-card, .asset-card, .pill { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ============== SLIDE 1: TITLE ============== -->
+<div class="slide title-slide">
+  <div class="slide-num">01 / 06</div>
+  <div class="label">Content Marketing Manager | Sample Work</div>
+  <h1>Writer for<br>technical buyers.</h1>
+  <p class="sub">Four years writing for engineers, distributors, and CFOs. Plus an AI job-matching product I shipped solo, and the SEO + AEO + GEO craft that wins the AI-engine citation. Five slides of evidence, one closing pitch.</p>
+  <div class="name"><strong>Adhithya Rokhith Bhaskar</strong></div>
+  <div class="meta">Boston, MA (open to SF) | arokhith@gmail.com | (929) 563-9974<br>Portfolio: adhi-growth-ai.vercel.app/ref/juicebox | LinkedIn: /in/adhithyarokhith</div>
+  <div class="slide-footer">
+    <span>Adhithya Rokhith Bhaskar | Content Marketing Manager | Juicebox (PeopleGPT, YC S22)</span>
+    <span>April 2026</span>
+  </div>
+</div>
+
+<!-- ============== SLIDE 2: CUSTOMER-STORY PIPELINE (SENSATA) ============== -->
+<div class="slide">
+  <div class="slide-num">02 / 06 | Customer-Story Pipeline</div>
+  <h2 class="section-title">Interviews in. Assets out. Win rates up.</h2>
+  <div class="jd-quote">"Conduct customer interviews to develop compelling narratives." Juicebox sells to recruiters who have read every "AI is changing recruiting" piece. Operator-grade specificity wins them. That requires the customer-interview-to-asset pipeline.</div>
+
+  <div class="kpi-row">
+    <div class="kpi-tile">
+      <div class="kpi-label">Customer interviews</div>
+      <div class="kpi-value">30+</div>
+      <div class="kpi-sub">OEMs and distributors at Sensata</div>
+    </div>
+    <div class="kpi-tile">
+      <div class="kpi-label">Reps using the library</div>
+      <div class="kpi-value">50+</div>
+      <div class="kpi-sub">across NA and EU regions</div>
+    </div>
+    <div class="kpi-tile">
+      <div class="kpi-label">Win rate lift</div>
+      <div class="kpi-value" style="color:#117a3a;">+30%</div>
+      <div class="kpi-sub">post-library rollout</div>
+    </div>
+    <div class="kpi-tile">
+      <div class="kpi-label">Conversion lift on copy rewrite</div>
+      <div class="kpi-value" style="color:#117a3a;">+15%</div>
+      <div class="kpi-sub">positioning informed by interviews</div>
+    </div>
+  </div>
+
+  <div class="two-col">
+    <div class="col-left">
+      <div class="chart-title">The pipeline | from interview to published asset</div>
+      <div class="chart-box" style="padding:14pt 14pt;">
+        <svg viewBox="0 0 560 230" width="100%" height="210" xmlns="http://www.w3.org/2000/svg" style="display:block;" font-family="Calibri, Arial, Helvetica, sans-serif">
+          <!-- 4-stage flow -->
+          <!-- Stage 1: Interview -->
+          <rect x="20" y="80" width="110" height="64" rx="6" ry="6" fill="#059669"/>
+          <text x="75" y="106" font-size="11" fill="#fff" text-anchor="middle" font-weight="700">Interview</text>
+          <text x="75" y="122" font-size="8.5" fill="#d1fae5" text-anchor="middle">30+ structured</text>
+          <text x="75" y="135" font-size="8.5" fill="#d1fae5" text-anchor="middle">scripts + recordings</text>
+          <line x1="133" y1="112" x2="158" y2="112" stroke="#059669" stroke-width="2"/>
+          <polygon points="158,112 152,109 152,115" fill="#059669"/>
+
+          <!-- Stage 2: Synthesize -->
+          <rect x="162" y="80" width="110" height="64" rx="6" ry="6" fill="#10b981"/>
+          <text x="217" y="106" font-size="11" fill="#fff" text-anchor="middle" font-weight="700">Synthesize</text>
+          <text x="217" y="122" font-size="8.5" fill="#d1fae5" text-anchor="middle">themes + objections</text>
+          <text x="217" y="135" font-size="8.5" fill="#d1fae5" text-anchor="middle">+ proof-quote bank</text>
+          <line x1="275" y1="112" x2="300" y2="112" stroke="#059669" stroke-width="2"/>
+          <polygon points="300,112 294,109 294,115" fill="#059669"/>
+
+          <!-- Stage 3: Write -->
+          <rect x="304" y="80" width="110" height="64" rx="6" ry="6" fill="#34d399"/>
+          <text x="359" y="106" font-size="11" fill="#fff" text-anchor="middle" font-weight="700">Write + ship</text>
+          <text x="359" y="122" font-size="8.5" fill="#fff" text-anchor="middle">brief, draft, review,</text>
+          <text x="359" y="135" font-size="8.5" fill="#fff" text-anchor="middle">distributor-branded variants</text>
+          <line x1="417" y1="112" x2="442" y2="112" stroke="#059669" stroke-width="2"/>
+          <polygon points="442,112 436,109 436,115" fill="#059669"/>
+
+          <!-- Stage 4: Distribute + measure -->
+          <rect x="446" y="80" width="110" height="64" rx="6" ry="6" fill="#6ee7b7"/>
+          <text x="501" y="106" font-size="11" fill="#064e3b" text-anchor="middle" font-weight="700">Distribute</text>
+          <text x="501" y="122" font-size="8.5" fill="#064e3b" text-anchor="middle">50+ reps + sales kit</text>
+          <text x="501" y="135" font-size="8.5" fill="#064e3b" text-anchor="middle">measure win rate</text>
+
+          <!-- Top annotation -->
+          <text x="290" y="40" font-size="11" fill="#117a3a" text-anchor="middle" font-weight="700">+30% win rate, +15% conversion, +22% CSAT</text>
+          <line x1="60" y1="48" x2="540" y2="48" stroke="#a7f3d0" stroke-width="0.7" stroke-dasharray="3 3"/>
+
+          <!-- Bottom annotation -->
+          <text x="290" y="180" font-size="9.5" fill="#444" text-anchor="middle" font-weight="600">Loop back into next interview round to validate themes that landed</text>
+          <line x1="446" y1="160" x2="446" y2="195" stroke="#059669" stroke-width="1.2" stroke-dasharray="3 3"/>
+          <line x1="446" y1="195" x2="75" y2="195" stroke="#059669" stroke-width="1.2" stroke-dasharray="3 3"/>
+          <line x1="75" y1="195" x2="75" y2="160" stroke="#059669" stroke-width="1.2" stroke-dasharray="3 3"/>
+          <polygon points="75,158 72,166 78,166" fill="#059669"/>
+        </svg>
+      </div>
+      <div class="caption" style="margin-top:8pt;"><strong>Method:</strong> Recorded interviews go to themes plus an objections bank plus a proof-quote bank. Brand voice documented before distributor-branded variants ship. Win rate and CSAT measured at the asset level so the team knows which themes actually move pipeline.</div>
+    </div>
+
+    <div class="col-right">
+      <div class="chart-title">The asset library shipped to 50+ reps</div>
+      <div class="asset-grid">
+        <div class="asset-card">
+          <div class="asset-icon">D</div>
+          <div class="asset-title">Sales decks</div>
+          <div class="asset-meta">Outcome-led narrative, distributor-branded variants, 3 regions</div>
+        </div>
+        <div class="asset-card">
+          <div class="asset-icon">C</div>
+          <div class="asset-title">Case studies</div>
+          <div class="asset-meta">OEM + distributor stories with proof quotes and metrics</div>
+        </div>
+        <div class="asset-card">
+          <div class="asset-icon">B</div>
+          <div class="asset-title">Battlecards</div>
+          <div class="asset-meta">10+ competitors profiled with "you say, we say" objection handling</div>
+        </div>
+        <div class="asset-card">
+          <div class="asset-icon">F</div>
+          <div class="asset-title">FAQ pages</div>
+          <div class="asset-meta">Buyer-question phrasing, structured for AI-engine citation</div>
+        </div>
+      </div>
+
+      <div class="outcomes" style="margin-top:10pt;">
+        <span class="pill">$2M+ first-year revenue</span>
+        <span class="pill">+8% market share</span>
+        <span class="pill">+12% YoY revenue</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="slide-footer"><span>Sensata Technologies | industrial-buyer content library</span><span>Pipeline is real; outcomes and methodology are real</span></div>
+</div>
+
+<!-- ============== SLIDE 3: SEO + AEO + GEO PROGRAM (PLUG POWER + KKR AUDIT) ============== -->
+<div class="slide">
+  <div class="slide-num">03 / 06 | SEO + AEO + GEO</div>
+  <h2 class="section-title">Built for AI-engine citation, not just SERP.</h2>
+  <div class="jd-quote">"Position SEO as a major customer acquisition driver." The acquisition channel that compounds in 2026 is the answer-engine surface (ChatGPT, Claude, Perplexity). The content has to be structured to be quoted, not just ranked.</div>
+
+  <div class="kpi-row">
+    <div class="kpi-tile">
+      <div class="kpi-label">AI engines targeted</div>
+      <div class="kpi-value">3</div>
+      <div class="kpi-sub">ChatGPT, Claude, Perplexity</div>
+    </div>
+    <div class="kpi-tile">
+      <div class="kpi-label">Content cluster hubs built</div>
+      <div class="kpi-value">5+</div>
+      <div class="kpi-sub">at Plug Power + GenY + SwipeHire</div>
+    </div>
+    <div class="kpi-tile">
+      <div class="kpi-label">FAQ pages structured</div>
+      <div class="kpi-value">30+</div>
+      <div class="kpi-sub">buyer-question phrasing for citation</div>
+    </div>
+    <div class="kpi-tile">
+      <div class="kpi-label">Real GEO audit done</div>
+      <div class="kpi-value" style="font-size:13pt;">KKR</div>
+      <div class="kpi-sub">2-page teardown, attached separately</div>
+    </div>
+  </div>
+
+  <div class="two-col">
+    <div class="col-left">
+      <div class="chart-title">Content cluster | hub-and-spoke for AI-engine answerability</div>
+      <div class="chart-box" style="padding:14pt 18pt;">
+        <svg viewBox="0 0 560 280" width="100%" height="260" xmlns="http://www.w3.org/2000/svg" style="display:block;" font-family="Calibri, Arial, Helvetica, sans-serif">
+          <!-- Center hub -->
+          <circle cx="280" cy="140" r="62" fill="#059669"/>
+          <text x="280" y="135" font-size="11" fill="#fff" text-anchor="middle" font-weight="700">Pillar hub</text>
+          <text x="280" y="150" font-size="9" fill="#d1fae5" text-anchor="middle">long-form authority</text>
+          <text x="280" y="162" font-size="9" fill="#d1fae5" text-anchor="middle">+ schema markup</text>
+
+          <!-- 6 spoke nodes -->
+          <!-- Top -->
+          <circle cx="280" cy="35" r="32" fill="#fff" stroke="#059669" stroke-width="1.8"/>
+          <text x="280" y="32" font-size="9" fill="#059669" text-anchor="middle" font-weight="700">FAQ</text>
+          <text x="280" y="44" font-size="8" fill="#444" text-anchor="middle">cluster</text>
+          <line x1="280" y1="78" x2="280" y2="67" stroke="#059669" stroke-width="1.5"/>
+
+          <!-- Top-right -->
+          <circle cx="445" cy="70" r="32" fill="#fff" stroke="#059669" stroke-width="1.8"/>
+          <text x="445" y="68" font-size="9" fill="#059669" text-anchor="middle" font-weight="700">Comparison</text>
+          <text x="445" y="80" font-size="8" fill="#444" text-anchor="middle">vs incumbents</text>
+          <line x1="335" y1="115" x2="418" y2="86" stroke="#059669" stroke-width="1.5"/>
+
+          <!-- Right -->
+          <circle cx="500" cy="170" r="32" fill="#fff" stroke="#059669" stroke-width="1.8"/>
+          <text x="500" y="168" font-size="9" fill="#059669" text-anchor="middle" font-weight="700">Case study</text>
+          <text x="500" y="180" font-size="8" fill="#444" text-anchor="middle">customer story</text>
+          <line x1="342" y1="155" x2="468" y2="167" stroke="#059669" stroke-width="1.5"/>
+
+          <!-- Bottom-right -->
+          <circle cx="425" cy="245" r="32" fill="#fff" stroke="#059669" stroke-width="1.8"/>
+          <text x="425" y="243" font-size="9" fill="#059669" text-anchor="middle" font-weight="700">How-to</text>
+          <text x="425" y="255" font-size="8" fill="#444" text-anchor="middle">workflow guide</text>
+          <line x1="325" y1="180" x2="403" y2="226" stroke="#059669" stroke-width="1.5"/>
+
+          <!-- Bottom-left -->
+          <circle cx="135" cy="245" r="32" fill="#fff" stroke="#059669" stroke-width="1.8"/>
+          <text x="135" y="243" font-size="9" fill="#059669" text-anchor="middle" font-weight="700">Definition</text>
+          <text x="135" y="255" font-size="8" fill="#444" text-anchor="middle">glossary entry</text>
+          <line x1="235" y1="180" x2="157" y2="226" stroke="#059669" stroke-width="1.5"/>
+
+          <!-- Left -->
+          <circle cx="60" cy="170" r="32" fill="#fff" stroke="#059669" stroke-width="1.8"/>
+          <text x="60" y="168" font-size="9" fill="#059669" text-anchor="middle" font-weight="700">Listicle</text>
+          <text x="60" y="180" font-size="8" fill="#444" text-anchor="middle">"top X"</text>
+          <line x1="218" y1="155" x2="92" y2="167" stroke="#059669" stroke-width="1.5"/>
+
+          <!-- Top-left -->
+          <circle cx="115" cy="70" r="32" fill="#fff" stroke="#059669" stroke-width="1.8"/>
+          <text x="115" y="68" font-size="9" fill="#059669" text-anchor="middle" font-weight="700">Industry</text>
+          <text x="115" y="80" font-size="8" fill="#444" text-anchor="middle">trends post</text>
+          <line x1="225" y1="115" x2="142" y2="86" stroke="#059669" stroke-width="1.5"/>
+
+          <!-- Title strip -->
+          <text x="280" y="14" font-size="8" fill="#999" text-anchor="middle" font-weight="600">7-shape cluster pattern that wins both SERP rankings and AI-engine citations</text>
+        </svg>
+      </div>
+    </div>
+
+    <div class="col-right">
+      <div class="chart-title">AI-engine citation audit (real, KKR)</div>
+      <table class="dash-table">
+        <tr><th>Query</th><th>Engine</th><th>Cited</th></tr>
+        <tr><td>"Top PE firms infrastructure 2026"</td><td>ChatGPT</td><td class="num neg">No</td></tr>
+        <tr><td>"Top PE firms infrastructure 2026"</td><td>Perplexity</td><td class="num pos">Partial</td></tr>
+        <tr><td>"Best PE for healthcare"</td><td>Claude</td><td class="num neg">Narrow framing</td></tr>
+        <tr><td>"KKR AUM 2026"</td><td>ChatGPT</td><td class="num neg">$553B / $664B / $700B / $744B</td></tr>
+        <tr><td>"PEI 300 winners"</td><td>Perplexity</td><td class="num neg">Buried</td></tr>
+      </table>
+
+      <div class="chart-title" style="margin-top:10pt;">The 60-day fix</div>
+      <ul style="padding-left:14pt;font-size:9pt;line-height:1.5;color:#222;">
+        <li><strong>Source-page consolidation</strong> for the AUM citation drift</li>
+        <li><strong>FAQ cluster</strong> on infrastructure track-record + healthcare scope</li>
+        <li><strong>Comparison page</strong> ("KKR vs Carlyle for healthcare") quotable in 1-2 sentences</li>
+        <li><strong>Schema + structured Q&amp;A</strong> on every cluster page</li>
+      </ul>
+
+      <div class="caption" style="margin-top:6pt;"><strong>The audit method works on any company.</strong> I keep a 2-page version of this teardown attached as a sample. The same method maps cleanly to Juicebox querying "best AI sourcing tool" or "PeopleGPT vs LinkedIn Recruiter."</div>
+    </div>
+  </div>
+
+  <div class="slide-footer"><span>Plug Power AEO/GEO program | KKR audit teardown (real, attached separately)</span><span>Cluster pattern is real; audit results are real</span></div>
+</div>
+
+<!-- ============== SLIDE 4: AI-NATIVE CONTENT WORKFLOW ============== -->
+<div class="slide">
+  <div class="slide-num">04 / 06 | AI-Native Content Workflow</div>
+  <h2 class="section-title">AI is how I write, not what I write about.</h2>
+  <div class="jd-quote">Juicebox sells AI productivity to skeptical buyers. The content marketing manager has to use AI in their own writing workflow before claiming it for the buyer. I do, daily.</div>
+
+  <div class="kpi-row">
+    <div class="kpi-tile">
+      <div class="kpi-label">Anthropic certifications</div>
+      <div class="kpi-value">4</div>
+      <div class="kpi-sub">101 / Code 101 / Cowork / API</div>
+    </div>
+    <div class="kpi-tile">
+      <div class="kpi-label">AI product shipped solo</div>
+      <div class="kpi-value" style="font-size:14pt;">SwipeHire</div>
+      <div class="kpi-sub">Python + OpenAI API + React</div>
+    </div>
+    <div class="kpi-tile">
+      <div class="kpi-label">Marketers trained</div>
+      <div class="kpi-value">8</div>
+      <div class="kpi-sub">on AI tools at Pixis</div>
+    </div>
+    <div class="kpi-tile">
+      <div class="kpi-label">Workflow integration</div>
+      <div class="kpi-value" style="font-size:14pt;">Daily</div>
+      <div class="kpi-sub">prompt-based iteration default</div>
+    </div>
+  </div>
+
+  <div class="two-col">
+    <div class="col-left">
+      <div class="chart-title">How AI shows up in my actual content workflow</div>
+      <div class="chart-box" style="padding:14pt 18pt;">
+        <svg viewBox="0 0 560 290" width="100%" height="270" xmlns="http://www.w3.org/2000/svg" style="display:block;" font-family="Calibri, Arial, Helvetica, sans-serif">
+          <!-- Center hub: AI tools -->
+          <rect x="200" y="115" width="160" height="60" rx="8" ry="8" fill="#059669" stroke="#047857" stroke-width="1.5"/>
+          <text x="280" y="138" font-size="11" fill="#fff" text-anchor="middle" font-weight="700">Claude API + OpenAI API</text>
+          <text x="280" y="155" font-size="9" fill="#d1fae5" text-anchor="middle">prompt-based iteration loop</text>
+          <text x="280" y="168" font-size="9" fill="#d1fae5" text-anchor="middle">(transcripts + drafts + variants)</text>
+
+          <!-- Top-left: Interview synthesis -->
+          <rect x="30" y="20" width="170" height="48" rx="6" ry="6" fill="#fff" stroke="#34d399" stroke-width="1.2"/>
+          <text x="115" y="38" font-size="9.5" fill="#059669" text-anchor="middle" font-weight="700">Customer-interview synthesis</text>
+          <text x="115" y="52" font-size="8.5" fill="#444" text-anchor="middle">structured prompts pull themes,</text>
+          <text x="115" y="63" font-size="8.5" fill="#444" text-anchor="middle">objections, proof-quotes from transcripts</text>
+          <line x1="200" y1="56" x2="200" y2="135" stroke="#34d399" stroke-width="1.2" stroke-dasharray="4 3"/>
+
+          <!-- Top-right: Headline + hook variants -->
+          <rect x="370" y="20" width="170" height="48" rx="6" ry="6" fill="#fff" stroke="#34d399" stroke-width="1.2"/>
+          <text x="455" y="38" font-size="9.5" fill="#059669" text-anchor="middle" font-weight="700">Headlines + hook variants</text>
+          <text x="455" y="52" font-size="8.5" fill="#444" text-anchor="middle">10x test velocity vs hand-written;</text>
+          <text x="455" y="63" font-size="8.5" fill="#444" text-anchor="middle">brand-voice rubric in the system prompt</text>
+          <line x1="370" y1="56" x2="360" y2="135" stroke="#34d399" stroke-width="1.2" stroke-dasharray="4 3"/>
+
+          <!-- Middle-left: Long-form drafting -->
+          <rect x="20" y="125" width="170" height="48" rx="6" ry="6" fill="#fff" stroke="#34d399" stroke-width="1.2"/>
+          <text x="105" y="143" font-size="9.5" fill="#059669" text-anchor="middle" font-weight="700">Long-form drafting</text>
+          <text x="105" y="157" font-size="8.5" fill="#444" text-anchor="middle">outline as prompt, claim each section</text>
+          <text x="105" y="168" font-size="8.5" fill="#444" text-anchor="middle">with proof from interview-quote bank</text>
+          <line x1="190" y1="149" x2="200" y2="149" stroke="#34d399" stroke-width="1.2" stroke-dasharray="4 3"/>
+
+          <!-- Middle-right: AEO/GEO citation audit -->
+          <rect x="380" y="125" width="170" height="48" rx="6" ry="6" fill="#fff" stroke="#34d399" stroke-width="1.2"/>
+          <text x="465" y="143" font-size="9.5" fill="#059669" text-anchor="middle" font-weight="700">AEO + GEO citation audit</text>
+          <text x="465" y="157" font-size="8.5" fill="#444" text-anchor="middle">query AI engines, parse responses,</text>
+          <text x="465" y="168" font-size="8.5" fill="#444" text-anchor="middle">find content gaps to close</text>
+          <line x1="360" y1="149" x2="380" y2="149" stroke="#34d399" stroke-width="1.2" stroke-dasharray="4 3"/>
+
+          <!-- Bottom: Brand voice consistency check -->
+          <rect x="195" y="220" width="170" height="48" rx="6" ry="6" fill="#fff" stroke="#34d399" stroke-width="1.2"/>
+          <text x="280" y="238" font-size="9.5" fill="#059669" text-anchor="middle" font-weight="700">Brand voice consistency check</text>
+          <text x="280" y="252" font-size="8.5" fill="#444" text-anchor="middle">external writers' drafts run through</text>
+          <text x="280" y="263" font-size="8.5" fill="#444" text-anchor="middle">a voice rubric prompt before publish</text>
+          <line x1="280" y1="175" x2="280" y2="220" stroke="#34d399" stroke-width="1.2" stroke-dasharray="4 3"/>
+
+          <!-- Title strip -->
+          <text x="280" y="13" font-size="8" fill="#999" text-anchor="middle" font-weight="600">Claude API + OpenAI API at the center, five content surfaces around it</text>
+        </svg>
+      </div>
+    </div>
+
+    <div class="col-right">
+      <div class="chart-title">Anthropic Claude certifications (active)</div>
+      <div class="cert-grid">
+        <div class="cert-badge">
+          <div class="cert-icon">1</div>
+          <div class="cert-text"><strong>Claude 101</strong><span>Foundations of working with Claude</span></div>
+        </div>
+        <div class="cert-badge">
+          <div class="cert-icon">2</div>
+          <div class="cert-text"><strong>Claude Code 101</strong><span>Pair-programming with Claude</span></div>
+        </div>
+        <div class="cert-badge">
+          <div class="cert-icon">3</div>
+          <div class="cert-text"><strong>Claude Cowork</strong><span>AI as a teammate, not a tool</span></div>
+        </div>
+        <div class="cert-badge">
+          <div class="cert-icon">4</div>
+          <div class="cert-text"><strong>Building with Claude API</strong><span>Production AI integrations</span></div>
+        </div>
+      </div>
+
+      <div class="chart-title" style="margin-top:14pt;">Pixis: trained 8 enterprise marketers on AI tools</div>
+      <div style="font-size:9pt;line-height:1.5;color:#222;padding-left:13pt;">
+        Translated AI bidding methodology and creative-variant performance into outcomes a CFO could sign off on. Same translation muscle Juicebox needs for the recruiter buyer who has been pitched ten AI tools this quarter.
+      </div>
+
+      <div class="caption" style="margin-top:10pt;"><strong>The point:</strong> Recruiters can tell the difference between a writer who uses AI and one who treats it as a side project. AI is how I write, not what I write about.</div>
+    </div>
+  </div>
+
+  <div class="slide-footer"><span>SwipeHire | Pixis AI training | 4 Anthropic Claude certifications</span><span>Workflow diagram is real; productivity claims are mine</span></div>
+</div>
+
+<!-- ============== SLIDE 5: RECRUITING-ADJACENT FLUENCY (SWIPEHIRE) ============== -->
+<div class="slide">
+  <div class="slide-num">05 / 06 | Recruiting-Adjacent Vertical Fluency</div>
+  <h2 class="section-title">Shipped an AI job-matching product. Lived in the forums.</h2>
+  <div class="jd-quote">Juicebox's buyer is the recruiter. The candidate-side and the recruiter-side share more narrative than the deck makes it look. I lived inside both for a year.</div>
+
+  <div class="kpi-row">
+    <div class="kpi-tile">
+      <div class="kpi-label">Product shipped</div>
+      <div class="kpi-value" style="font-size:14pt;">SwipeHire</div>
+      <div class="kpi-sub">AI job-matching, solo build</div>
+    </div>
+    <div class="kpi-tile">
+      <div class="kpi-label">Stack used</div>
+      <div class="kpi-value" style="font-size:13pt;">Python + OpenAI</div>
+      <div class="kpi-sub">+ React + custom CMS</div>
+    </div>
+    <div class="kpi-tile">
+      <div class="kpi-label">Activation lift</div>
+      <div class="kpi-value" style="color:#117a3a;">+25%</div>
+      <div class="kpi-sub">via 8 A/B tests on the funnel</div>
+    </div>
+    <div class="kpi-tile">
+      <div class="kpi-label">Community time</div>
+      <div class="kpi-value" style="font-size:14pt;">1 year</div>
+      <div class="kpi-sub">writing inside the forums daily</div>
+    </div>
+  </div>
+
+  <div class="two-col">
+    <div class="col-left">
+      <div class="chart-title">SwipeHire | what shipping solo actually looked like</div>
+      <table class="dash-table">
+        <tr><th>Layer</th><th>Built</th></tr>
+        <tr><td>Backend</td><td>Python + OpenAI API + Postgres</td></tr>
+        <tr><td>Frontend</td><td>React + custom CMS</td></tr>
+        <tr><td>Instrumentation</td><td>GA4 + GTM event tracking, day one</td></tr>
+        <tr><td>Product analytics</td><td>Amplitude (event taxonomy + cohort)</td></tr>
+        <tr><td>Positioning</td><td>ICP teardown, visa-aware messaging</td></tr>
+        <tr><td>Acquisition</td><td>Reddit + Twitter community + product updates</td></tr>
+        <tr><td>Iteration</td><td>Weekly retention cohort review</td></tr>
+        <tr><td>Outcome</td><td class="pos">50+ users, +25% activation, 8 A/B tests</td></tr>
+      </table>
+    </div>
+
+    <div class="col-right">
+      <div class="chart-title">Where I wrote, what landed</div>
+      <div class="channel-card">
+        <div class="channel-info"><strong>r/cscareerquestions</strong><span>Daily comments + weekly threads, candidate-side voice</span></div>
+        <div class="channel-tag">Reddit</div>
+      </div>
+      <div class="channel-card">
+        <div class="channel-info"><strong>r/h1b</strong><span>Visa-aware audience, Juicebox's recruiter buyer is hiring this person</span></div>
+        <div class="channel-tag">Reddit</div>
+      </div>
+      <div class="channel-card">
+        <div class="channel-info"><strong>Twitter / X threads</strong><span>Weekly product updates + commentary on AI hiring tools</span></div>
+        <div class="channel-tag">Twitter</div>
+      </div>
+      <div class="channel-card">
+        <div class="channel-info"><strong>Product update emails</strong><span>Weekly cadence to a 50+ user list, retention measured</span></div>
+        <div class="channel-tag">Email</div>
+      </div>
+      <div class="channel-card">
+        <div class="channel-info"><strong>Hacker News observation</strong><span>24 to 72 hour lag behind Reddit on AI-hiring narratives</span></div>
+        <div class="channel-tag">HN</div>
+      </div>
+
+      <div class="caption" style="margin-top:8pt;"><strong>Why this matters for Juicebox.</strong> The recruiter who buys PeopleGPT is the same person who hires the candidate I wrote SwipeHire for. The narratives are intertwined. Knowing both sides is unusual on a content marketing CV.</div>
+    </div>
+  </div>
+
+  <div class="slide-footer"><span>SwipeHire (AI job-matching, shipped solo) | 1 year of community writing</span><span>Stack and outcomes are real; community channels are real</span></div>
+</div>
+
+<!-- ============== SLIDE 6: WHY JUICEBOX, THE PITCH ============== -->
+<div class="slide">
+  <div class="slide-num">06 / 06 | Why Juicebox</div>
+  <h2 class="section-title">The closing pitch.</h2>
+  <div class="jd-quote">PeopleGPT, YC S22, $116M raised, 3,000+ customers, on path to $100M ARR. The content marketing manager has to write for a recruiter audience who has been pitched ten ZoomInfo alternatives this quarter, and use AI tools faster than the buyer can.</div>
+
+  <div class="stack-grid">
+    <div class="stack-card">
+      <h4>Customer-story pipeline</h4>
+      <p><strong>Sensata</strong> 30+ interviews → positioning rewrite + sales enablement library for 50+ reps. +30% win rate.</p>
+    </div>
+    <div class="stack-card">
+      <h4>SEO + AEO + GEO</h4>
+      <p><strong>Plug Power</strong> on-page + technical SEO + content cluster + FAQ pages structured for ChatGPT / Claude / Perplexity citation.</p>
+    </div>
+    <div class="stack-card">
+      <h4>AI-native writing</h4>
+      <p><strong>4 Claude certifications</strong> + SwipeHire on OpenAI API + Pixis AI training. Prompt-based iteration as default.</p>
+    </div>
+    <div class="stack-card">
+      <h4>Recruiting-adjacent fluency</h4>
+      <p><strong>SwipeHire</strong> AI job-matching shipped solo. Lived in r/cscareerquestions and r/h1b for a year.</p>
+    </div>
+  </div>
+
+  <div class="why-grid">
+    <div class="why-card">
+      <h3>Why Juicebox, specifically</h3>
+      <p>The buyer Juicebox sells to is one I have written for and to. SwipeHire was an AI product for the candidate side; the recruiter is the person hiring that candidate. Plus the AEO and GEO craft your JD names is exactly the work I have done at Plug Power. Profound is a week-one ramp; the audit method is the work I have already built.</p>
+    </div>
+    <div class="why-card">
+      <h3>Why this role, specifically</h3>
+      <p>Content marketing for a 20%-monthly-growth AI SaaS is the rare role where every asset compounds. The team that wins is the one with a customer-story pipeline that runs weekly, an AEO/GEO discipline that gets cited by ChatGPT, and a writer who has actually shipped an AI product. That combination is unusual on a single CV. Worth 30 minutes.</p>
+    </div>
+  </div>
+
+  <div class="slide-footer">
+    <span>Adhithya Rokhith Bhaskar | arokhith@gmail.com | (929) 563-9974 | adhi-growth-ai.vercel.app/ref/juicebox</span>
+    <span>Open to relocating to SF</span>
+  </div>
+</div>
+
+</body>
+</html>

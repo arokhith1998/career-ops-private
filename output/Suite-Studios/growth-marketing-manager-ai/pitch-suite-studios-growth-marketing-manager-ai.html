@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Suite Studios Growth Marketing Manager AI Pitch Deck Adhithya</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  @page { size: 11in 8.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #0f172a; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; }
+  .slide { width: 11in; height: 8.5in; padding: 0.55in 0.75in 0.5in 0.75in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.35in; right: 0.55in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.35in; left: 0.75in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #0e7490; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 10pt; }
+  h1 { font-size: 36pt; font-weight: 800; color: #0f172a; line-height: 1.04; letter-spacing: -0.6pt; margin-bottom: 8pt; }
+  h2 { font-size: 24pt; font-weight: 800; color: #0f172a; line-height: 1.08; letter-spacing: -0.4pt; margin-bottom: 6pt; }
+  h2 .accent { color: #0e7490; }
+  .lede { font-size: 13pt; color: #475569; max-width: 8.5in; margin-bottom: 14pt; font-weight: 400; }
+
+  /* Cover */
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 1in; padding-right: 1in; }
+  .cover h1 { font-size: 42pt; max-width: 9.2in; }
+  .cover .sub { font-size: 17pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 26pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 9.5in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.5pt; font-weight: 500; }
+  .tag strong { color: #0e7490; font-weight: 700; }
+  .cover .who { margin-top: 32pt; padding-top: 14pt; border-top: 1.5pt solid #0e7490; max-width: 7in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.5pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.6in; right: 0.85in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  /* Convergence table */
+  .conv-table { width: 100%; margin-top: 6pt; border-collapse: collapse; }
+  .conv-table th { text-align: left; font-size: 11pt; font-weight: 800; color: #0f172a; padding: 10pt 12pt 10pt 0; border-bottom: 2pt solid #0e7490; }
+  .conv-table th.row-label { color: #64748b; font-weight: 700; font-size: 9pt; letter-spacing: 1pt; text-transform: uppercase; width: 1.5in; }
+  .conv-table td { padding: 12pt 12pt 12pt 0; font-size: 10pt; color: #334155; border-bottom: 1pt solid #e2e8f0; vertical-align: top; line-height: 1.45; }
+  .conv-table td.row-label { color: #64748b; font-weight: 700; font-size: 9pt; letter-spacing: 0.6pt; text-transform: uppercase; }
+  .conv-table td b { color: #0f172a; font-weight: 700; }
+  .conv-takeaway { margin-top: 16pt; font-size: 11.5pt; color: #0f172a; font-style: italic; border-left: 3pt solid #0e7490; padding: 8pt 14pt; background: #ecfeff; }
+  .conv-takeaway strong { color: #0e7490; font-style: normal; font-weight: 700; }
+
+  /* SwipeHire slide */
+  .sh-grid { display: grid; grid-template-columns: 2.4in 1fr; gap: 22pt; margin-top: 0pt; align-items: start; }
+  .phone-wrap { display: flex; justify-content: center; align-items: flex-start; padding-top: 4pt; }
+  .phone-svg { width: 2.2in; height: 4.5in; }
+  .sh-right h3 { font-size: 11pt; color: #0f172a; font-weight: 800; margin-bottom: 8pt; letter-spacing: -0.2pt; }
+  .sh-right .step { display: grid; grid-template-columns: 0.2in 1fr; gap: 6pt; margin-bottom: 7pt; align-items: start; }
+  .sh-right .n { font-size: 10pt; color: #0e7490; font-weight: 800; line-height: 1.5; }
+  .sh-right .t { font-size: 9.5pt; color: #334155; line-height: 1.45; }
+  .sh-right .t b { color: #0f172a; font-weight: 700; }
+  .sh-note { margin-top: 14pt; font-size: 9.5pt; color: #475569; font-style: italic; border-top: 1pt solid #cbd5e1; padding-top: 10pt; max-width: 10in; }
+  .sh-note strong { color: #0e7490; font-weight: 700; font-style: normal; }
+
+  /* NSE architecture */
+  .arch-wrap { display: grid; grid-template-columns: 1fr 2.4in; gap: 18pt; margin-top: 4pt; }
+  .arch { width: 100%; height: 4in; }
+  .margin-note { font-size: 9.5pt; color: #475569; line-height: 1.55; font-style: italic; border-top: 1pt solid #cbd5e1; padding-top: 10pt; margin-top: 10pt; }
+  .margin-note .hdr { font-style: normal; font-weight: 700; color: #0e7490; font-size: 9pt; letter-spacing: 1pt; text-transform: uppercase; margin-bottom: 6pt; }
+  .margin-note p { margin-bottom: 8pt; }
+
+  /* Week one */
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 8pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0e7490; padding: 14pt 14pt 12pt 14pt; }
+  .card .label { font-size: 8.5pt; color: #0e7490; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 13pt; font-weight: 800; color: #0f172a; line-height: 1.18; margin-bottom: 8pt; }
+  .card .body { font-size: 9.5pt; color: #334155; line-height: 1.5; margin-bottom: 8pt; }
+  .card .why { font-size: 9pt; color: #64748b; line-height: 1.5; padding-top: 8pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #0e7490; font-weight: 700; }
+
+  /* Close */
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 1in; padding-right: 1in; }
+  .close h2 { font-size: 30pt; max-width: 8.5in; margin-bottom: 16pt; }
+  .close .body { font-size: 11.5pt; color: #334155; line-height: 1.6; max-width: 8.5in; }
+  .close .body p { margin-bottom: 10pt; }
+  .close .body strong { color: #0e7490; font-weight: 700; }
+  .close .cta { margin-top: 22pt; display: inline-flex; gap: 14pt; align-items: center; }
+  .close .cta .btn { background: #0f172a; color: #fff; padding: 11pt 22pt; border-radius: 3pt; font-weight: 700; font-size: 11pt; letter-spacing: 0.3pt; }
+  .close .cta .alt { font-size: 10.5pt; color: #64748b; font-style: italic; }
+  .close .contact { margin-top: 24pt; font-size: 10pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<!-- SLIDE 1 - COVER -->
+<div class="slide cover">
+  <div class="prep">Prepared for the Suite Studios Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Growth Marketing Manager, AI</div>
+  <h1>AI as an operational foundation.</h1>
+  <div class="sub">The shape I've already shipped twice. Solo.</div>
+  <div class="tags">
+    <div class="tag"><strong>SwipeHire</strong> - AI product on Python + OpenAI API + React</div>
+    <div class="tag"><strong>NSE Bot</strong> - second AI product on Claude API</div>
+    <div class="tag"><strong>4</strong> Anthropic Claude Certifications</div>
+    <div class="tag"><strong>8</strong> enterprise marketers trained on AI tools at Pixis</div>
+    <div class="tag">Cursor + Claude as daily workflow</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">Boston, MA | Remote | arokhith@gmail.com | (929) 563-9974 | adhi-growth-ai.vercel.app/ref/suite-studios</div>
+  </div>
+  <div class="brand">Suite Studios | Adhithya Rokhith Bhaskar</div>
+  <div class="num">01 / 06</div>
+</div>
+
+<!-- SLIDE 2 - THE CONVERGENCE -->
+<div class="slide">
+  <div class="eyebrow">Slide 02 | The Convergence</div>
+  <h2>The "AI as operational foundation" line <span class="accent">is the rarest one in your JD.</span></h2>
+  <div class="lede">Most growth marketers have used AI tools. Few have shipped AI products solo, end-to-end, with a feedback loop they own. The JD asks for that exact shape. Here's where mine maps.</div>
+
+  <table class="conv-table">
+    <thead>
+      <tr>
+        <th class="row-label">JD Mandate</th>
+        <th style="width: 4.5in;">Suite Studios asks for</th>
+        <th>What I've shipped</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="row-label">AI products</td>
+        <td>Hands-on AI tools for research, content, workflow automation, performance analysis.</td>
+        <td><b>Two shipped AI products solo.</b> SwipeHire (Python + OpenAI API + React; LLM-scored matching; GA4 + GTM + Amplitude day-one). NSE Bot (Python + Claude API as agentic reasoning over rule-based scoring).</td>
+      </tr>
+      <tr>
+        <td class="row-label">Repeatable workflows</td>
+        <td>Develop repeatable AI-driven workflows for marketing operations.</td>
+        <td><b>SwipeHire's eight-layer GTM loop</b> (ICP -&gt; acquisition -&gt; onboarding -&gt; match -&gt; apply -&gt; instrument -&gt; test -&gt; retain) is the working model. Same shape as any marketing-ops AI workflow at production scale.</td>
+      </tr>
+      <tr>
+        <td class="row-label">Operational foundation</td>
+        <td>Establish AI as an operational foundation across the marketing function.</td>
+        <td><b>Trained 8 enterprise marketers on AI bidding + creative tools</b> at Pixis through weekly client CFO QBRs. Structured curriculum, sequenced what to teach, measured what stuck.</td>
+      </tr>
+      <tr>
+        <td class="row-label">Content + launches</td>
+        <td>Content, email, website, launches, customer narratives. Translate product capabilities into clear messaging.</td>
+        <td><b>Sensata customer-story pipeline</b> (30+ interviews -&gt; positioning + 50-rep sales enablement library -&gt; +30% win rate). <b>Plug Power AEO/GEO program</b> (FAQ pages structured for ChatGPT/Claude/Perplexity citation).</td>
+      </tr>
+      <tr>
+        <td class="row-label">Website + lifecycle</td>
+        <td>Manage website content, landing pages, conversion optimization. Lifecycle marketing.</td>
+        <td><b>Plug Power HubSpot lifecycle architected from zero</b> (sequences, pipelines, lifecycle stages, MQL nurture). Closed-loop attribution rebuild on Salesforce + Adobe + GA4 + GTM.</td>
+      </tr>
+      <tr>
+        <td class="row-label">5+ years B2B SaaS</td>
+        <td>5+ years B2B SaaS marketing / growth / PMM / content.</td>
+        <td>5 years across Pixis (B2B SaaS adtech), Plug Power (B2B industrial), Sensata (B2B industrial), GenY (D2C). Tight on the year count; broad on the surface area.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="conv-takeaway"><strong>The reason this resume is different.</strong> Most growth-marketing candidates list "GPT/Claude as a tool" on the skills line. I've built two production AI products on top of those APIs and trained eight enterprise marketers to use AI tools daily. That's what "AI as operational foundation" actually looks like.</div>
+
+  <div class="brand">Suite Studios | Adhithya Rokhith Bhaskar</div>
+  <div class="num">02 / 06</div>
+</div>
+
+<!-- SLIDE 3 - SWIPEHIRE -->
+<div class="slide">
+  <div class="eyebrow">Slide 03 | SwipeHire - The AI Operational Loop</div>
+  <h2>The eight-layer AI workflow, <span class="accent">shipped solo.</span></h2>
+  <div class="lede">SwipeHire is the working version of what the JD's "repeatable AI-driven workflow for marketing operations" line describes - just with job-seekers as the audience instead of brand marketers.</div>
+
+  <div class="sh-grid">
+    <div class="phone-wrap">
+      <svg viewBox="0 0 240 460" class="phone-svg">
+        <rect x="0" y="0" width="240" height="460" rx="26" fill="#0f172a"/>
+        <rect x="6" y="6" width="228" height="448" rx="22" fill="#f8fafc"/>
+        <text x="20" y="22" font-size="9" fill="#0f172a" font-weight="700">9:41</text>
+        <rect x="100" y="11" width="40" height="6" rx="3" fill="#0f172a"/>
+        <text x="220" y="22" text-anchor="end" font-size="9" fill="#0f172a" font-weight="700">100%</text>
+        <text x="20" y="46" font-size="13" font-weight="800" fill="#0f172a">SwipeHire</text>
+        <text x="220" y="46" text-anchor="end" font-size="14" fill="#64748b" font-weight="700">...</text>
+        <rect x="14" y="62" width="212" height="328" rx="12" fill="#fff" stroke="#e2e8f0" stroke-width="1"/>
+        <circle cx="44" cy="92" r="18" fill="#ecfeff" stroke="#0e7490" stroke-width="1.5"/>
+        <text x="44" y="98" text-anchor="middle" font-size="13" font-weight="800" fill="#0e7490">S</text>
+        <text x="72" y="88" font-size="10.5" font-weight="800" fill="#0f172a">Growth Mktg Manager, AI</text>
+        <text x="72" y="102" font-size="8.5" fill="#64748b">Suite Studios  Remote</text>
+        <rect x="22" y="124" width="196" height="40" rx="6" fill="#ecfeff"/>
+        <text x="32" y="142" font-size="7" fill="#0e7490" font-weight="700" letter-spacing="0.8">MATCH SCORE</text>
+        <text x="208" y="148" text-anchor="end" font-size="18" font-weight="800" fill="#0e7490">93%</text>
+        <text x="32" y="158" font-size="7.5" fill="#155e75">2 shipped AI products + 4 Claude certs</text>
+        <rect x="22" y="178" width="80" height="18" rx="9" fill="#e2e8f0"/>
+        <text x="62" y="190" text-anchor="middle" font-size="7" fill="#334155" font-weight="600">AI Operational</text>
+        <rect x="108" y="178" width="46" height="18" rx="9" fill="#e2e8f0"/>
+        <text x="131" y="190" text-anchor="middle" font-size="7" fill="#334155" font-weight="600">Remote</text>
+        <rect x="160" y="178" width="60" height="18" rx="9" fill="#e2e8f0"/>
+        <text x="190" y="190" text-anchor="middle" font-size="7" fill="#334155" font-weight="600">$155-172K</text>
+        <text x="22" y="218" font-size="7.5" fill="#64748b" font-weight="700" letter-spacing="0.6">SKILLS MATCHED</text>
+        <text x="22" y="232" font-size="8" fill="#0f172a">Claude API  OpenAI API  Cursor</text>
+        <text x="22" y="246" font-size="8" fill="#0f172a">Content  Lifecycle  AEO  Launches</text>
+        <rect x="22" y="258" width="196" height="68" rx="6" fill="#f1f5f9"/>
+        <text x="30" y="274" font-size="7" fill="#64748b" font-weight="700" letter-spacing="0.6">AI RATIONALE</text>
+        <text x="30" y="288" font-size="7.5" fill="#475569" font-style="italic">"Your two shipped AI products</text>
+        <text x="30" y="299" font-size="7.5" fill="#475569" font-style="italic">+ 4 Claude certs + Pixis</text>
+        <text x="30" y="310" font-size="7.5" fill="#475569" font-style="italic">8-marketer training program</text>
+        <text x="30" y="321" font-size="7.5" fill="#475569" font-style="italic">make this an unusually clean fit."</text>
+        <rect x="22" y="340" width="196" height="36" rx="6" fill="#fff" stroke="#cbd5e1" stroke-width="1"/>
+        <text x="32" y="354" font-size="7.5" fill="#0f172a" font-weight="700">Application auto-tailored</text>
+        <text x="32" y="367" font-size="7" fill="#64748b">14 skills aligned, JD-specific summary</text>
+        <text x="210" y="362" text-anchor="end" font-size="11" fill="#0e7490" font-weight="800">↻</text>
+        <circle cx="78" cy="418" r="20" fill="#fff" stroke="#cbd5e1" stroke-width="1.5"/>
+        <text x="78" y="424" text-anchor="middle" font-size="14" fill="#64748b">×</text>
+        <circle cx="162" cy="418" r="20" fill="#0e7490"/>
+        <text x="162" y="424" text-anchor="middle" font-size="14" font-weight="800" fill="#fff">✓</text>
+        <text x="78" y="450" text-anchor="middle" font-size="7" fill="#94a3b8" letter-spacing="0.5">SKIP</text>
+        <text x="162" y="450" text-anchor="middle" font-size="7" fill="#94a3b8" letter-spacing="0.5">APPLY</text>
+      </svg>
+    </div>
+
+    <div class="sh-right">
+      <h3>The eight-layer loop, shipped solo</h3>
+      <div class="step"><div class="n">01</div><div class="t"><b>ICP defined</b> from 12 user interviews before any code.</div></div>
+      <div class="step"><div class="n">02</div><div class="t"><b>Acquisition</b> channels A/B'd at low spend before scaling.</div></div>
+      <div class="step"><div class="n">03</div><div class="t"><b>Onboarding.</b> Resume parser on the OpenAI API, structured JSON output, skill taxonomy normalization.</div></div>
+      <div class="step"><div class="n">04</div><div class="t"><b>LLM matching.</b> Score on deterministic skill overlap first; LLM reasons on top.</div></div>
+      <div class="step"><div class="n">05</div><div class="t"><b>Auto-tailored apply.</b> JD-specific CV generation server-side.</div></div>
+      <div class="step"><div class="n">06</div><div class="t"><b>Instrument.</b> GA4 + GTM + Amplitude wired day one.</div></div>
+      <div class="step"><div class="n">07</div><div class="t"><b>Test.</b> 8 A/B variants on activation; +25% lift V1 -&gt; V2.</div></div>
+      <div class="step"><div class="n">08</div><div class="t"><b>Retain.</b> Weekly cohort retention reviewed line by line.</div></div>
+
+      <h3 style="margin-top: 14pt;">Suite Studios translation</h3>
+      <div class="step"><div class="n"></div><div class="t">Replace "job-seekers" with "creative pros at production studios." Replace "JD" with "Suite product capability." Replace "match score" with "feature-fit recommendation." The loop is the same.</div></div>
+    </div>
+  </div>
+
+  <div class="brand">Suite Studios | Adhithya Rokhith Bhaskar</div>
+  <div class="num">03 / 06</div>
+</div>
+
+<!-- SLIDE 4 - NSE BOT -->
+<div class="slide">
+  <div class="eyebrow">Slide 04 | NSE Bot - The Second AI Product</div>
+  <h2>The agentic-layer pattern, <span class="accent">a second time.</span></h2>
+  <div class="lede">NSE Paper-Trading Bot architecture. Same "deterministic floor, agentic ceiling" shape as SwipeHire - just on financial data instead of job data. Same shape any marketing-ops AI workflow takes at production scale.</div>
+
+  <div class="arch-wrap">
+    <svg viewBox="0 0 720 340" class="arch">
+      <text x="40" y="22" font-size="10" fill="#0e7490" font-weight="700" letter-spacing="1.5">INPUTS</text>
+      <rect x="20" y="40" width="150" height="40" rx="3" fill="#fff" stroke="#cbd5e1" stroke-width="1"/>
+      <text x="95" y="58" text-anchor="middle" font-size="10.5" fill="#0f172a" font-weight="700">nsepython</text>
+      <text x="95" y="72" text-anchor="middle" font-size="8.5" fill="#64748b">live NSE feed</text>
+
+      <rect x="20" y="95" width="150" height="40" rx="3" fill="#fff" stroke="#cbd5e1" stroke-width="1"/>
+      <text x="95" y="113" text-anchor="middle" font-size="10.5" fill="#0f172a" font-weight="700">yfinance</text>
+      <text x="95" y="127" text-anchor="middle" font-size="8.5" fill="#64748b">historical + multi-market</text>
+
+      <rect x="20" y="150" width="150" height="40" rx="3" fill="#fff" stroke="#cbd5e1" stroke-width="1"/>
+      <text x="95" y="168" text-anchor="middle" font-size="10.5" fill="#0f172a" font-weight="700">news + catalysts</text>
+      <text x="95" y="182" text-anchor="middle" font-size="8.5" fill="#64748b">tagged by ticker</text>
+
+      <text x="260" y="22" font-size="10" fill="#0e7490" font-weight="700" letter-spacing="1.5">PROCESSING</text>
+      <rect x="240" y="40" width="220" height="60" rx="3" fill="#fff" stroke="#0f172a" stroke-width="1.5"/>
+      <text x="350" y="62" text-anchor="middle" font-size="11" fill="#0f172a" font-weight="800">Rule-based scoring</text>
+      <text x="350" y="78" text-anchor="middle" font-size="9" fill="#475569">EMA + RSI + ATR + volume</text>
+      <text x="350" y="92" text-anchor="middle" font-size="8.5" fill="#64748b" font-style="italic">deterministic layer</text>
+
+      <rect x="240" y="115" width="220" height="60" rx="3" fill="#ecfeff" stroke="#0e7490" stroke-width="1.5"/>
+      <text x="350" y="137" text-anchor="middle" font-size="11" fill="#0f172a" font-weight="800">Claude API reasoning</text>
+      <text x="350" y="153" text-anchor="middle" font-size="9" fill="#475569">catalyst-aware analysis on top of scores</text>
+      <text x="350" y="167" text-anchor="middle" font-size="8.5" fill="#0e7490" font-style="italic" font-weight="700">agentic layer</text>
+
+      <rect x="240" y="190" width="220" height="50" rx="3" fill="#fff" stroke="#cbd5e1" stroke-width="1"/>
+      <text x="350" y="212" text-anchor="middle" font-size="10.5" fill="#0f172a" font-weight="700">Capital-constraint filter</text>
+      <text x="350" y="227" text-anchor="middle" font-size="8.5" fill="#64748b">position-sizing rules + risk floor</text>
+
+      <text x="510" y="22" font-size="10" fill="#0e7490" font-weight="700" letter-spacing="1.5">OUTPUT</text>
+      <rect x="490" y="40" width="200" height="60" rx="3" fill="#0f172a"/>
+      <text x="590" y="62" text-anchor="middle" font-size="11" fill="#fff" font-weight="800">Paper-trade signals</text>
+      <text x="590" y="78" text-anchor="middle" font-size="9" fill="#f8fafc">scored + reasoned + sized</text>
+      <text x="590" y="92" text-anchor="middle" font-size="8.5" fill="#a5f3fc" font-style="italic">validated, not theoretical</text>
+
+      <rect x="490" y="115" width="200" height="60" rx="3" fill="#fff" stroke="#cbd5e1" stroke-width="1"/>
+      <text x="590" y="137" text-anchor="middle" font-size="10.5" fill="#0f172a" font-weight="700">Interactive dashboard</text>
+      <text x="590" y="153" text-anchor="middle" font-size="8.5" fill="#64748b">backtest review,</text>
+      <text x="590" y="166" text-anchor="middle" font-size="8.5" fill="#64748b">prompt iteration loop</text>
+
+      <path d="M 175 60 L 235 65" stroke="#94a3b8" stroke-width="1.5" fill="none" marker-end="url(#arrS)"/>
+      <path d="M 175 115 L 235 130" stroke="#94a3b8" stroke-width="1.5" fill="none" marker-end="url(#arrS)"/>
+      <path d="M 175 170 L 235 145" stroke="#94a3b8" stroke-width="1.5" fill="none" marker-end="url(#arrS)"/>
+      <path d="M 350 100 L 350 113" stroke="#94a3b8" stroke-width="1.5" fill="none" marker-end="url(#arrS)"/>
+      <path d="M 350 175 L 350 188" stroke="#94a3b8" stroke-width="1.5" fill="none" marker-end="url(#arrS)"/>
+      <path d="M 460 215 L 487 145" stroke="#94a3b8" stroke-width="1.5" fill="none" marker-end="url(#arrS)"/>
+      <path d="M 460 215 L 487 70" stroke="#94a3b8" stroke-width="1.5" fill="none" marker-end="url(#arrS)"/>
+
+      <text x="370" y="282" text-anchor="middle" font-size="9.5" fill="#475569" font-style="italic">Deterministic layer keeps the agentic layer honest. Same pattern would govern</text>
+      <text x="370" y="298" text-anchor="middle" font-size="9.5" fill="#475569" font-style="italic">any marketing-ops AI workflow (content gen, lifecycle copy, AEO audit).</text>
+
+      <defs>
+        <marker id="arrS" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+          <polygon points="0 0, 8 4, 0 8" fill="#94a3b8"/>
+        </marker>
+      </defs>
+    </svg>
+
+    <div class="margin-note">
+      <div class="hdr">Two builds, one pattern</div>
+      <p><strong>SwipeHire:</strong> deterministic skill overlap + OpenAI reasoning + measured user feedback (swipe). <strong>NSE Bot:</strong> deterministic technical score + Claude reasoning + measured outcome (backtest).</p>
+      <p>Same shape. Different vertical. Different LLM provider. That pattern is what transfers to "AI as operational foundation" at Suite.</p>
+    </div>
+  </div>
+
+  <div class="brand">Suite Studios | Adhithya Rokhith Bhaskar</div>
+  <div class="num">04 / 06</div>
+</div>
+
+<!-- SLIDE 5 - WEEK ONE -->
+<div class="slide">
+  <div class="eyebrow">Slide 05 | Week One</div>
+  <h2>Three AI workflows <span class="accent">I'd ship in the first thirty days.</span></h2>
+  <div class="lede">Concrete and scoped, not aspirational. Each one is a repeatable AI-driven marketing-ops workflow with measurable output - exactly what the JD asks for.</div>
+
+  <div class="week">
+    <div class="card">
+      <div class="label">Workflow 1</div>
+      <div class="ttl">Customer-Story-to-Content pipeline</div>
+      <div class="body">Claude pipeline that takes a customer interview transcript and outputs drafts: 1-page case study, three LinkedIn posts, a launch FAQ page (schema-marked for AI citation), and three email-sequence variants. Reviewer-in-the-loop, not auto-publish.</div>
+      <div class="why"><strong>Why first.</strong> The JD names "customer storytelling" + "translate product capabilities" + "AI-driven workflows for marketing ops" in three bullets. This workflow hits all three. Sensata 30-interview pipeline is the analog I built manually; this is the AI-accelerated version.</div>
+    </div>
+
+    <div class="card">
+      <div class="label">Workflow 2</div>
+      <div class="ttl">AEO Audit on Launch</div>
+      <div class="body">Pre-launch + post-launch: Claude-driven comparison of Suite's brand visibility on ChatGPT, Claude, Perplexity, and Google AI Overviews for ~20 high-intent queries (creative collab tools, post-production workflow, AI for editorial). Output: weekly delta + content-gap action list.</div>
+      <div class="why"><strong>Why first.</strong> Launches without AEO measurement leave half the visibility on the table. Plug Power's AEO/GEO program is the proof I've built this loop before, manually. Suite is the right place to productize it.</div>
+    </div>
+
+    <div class="card">
+      <div class="label">Workflow 3</div>
+      <div class="ttl">Lifecycle Email Personalization at Variant Scale</div>
+      <div class="body">Cursor + Claude pipeline that takes a single source brief and generates segment-specific email-copy variants (editor, producer, studio exec) plus a draft A/B test plan with sample-size + significance gates. Output: ready-to-load HubSpot sequences.</div>
+      <div class="why"><strong>Why first.</strong> Lifecycle email is where most B2B marketing teams write the same copy six times manually. This workflow compresses six versions into one prompt session, with the deterministic layer (segment definitions, send rules) keeping it honest.</div>
+    </div>
+  </div>
+
+  <div class="brand">Suite Studios | Adhithya Rokhith Bhaskar</div>
+  <div class="num">05 / 06</div>
+</div>
+
+<!-- SLIDE 6 - CLOSE -->
+<div class="slide close">
+  <div class="eyebrow">Slide 06 | The Ask</div>
+  <h2>What I'd want from <span class="accent">the first fifteen minutes.</span></h2>
+  <div class="body">
+    <p><strong>What I'd want to understand:</strong> where the marketing function currently sits between "uses AI tools" and "operationalized AI workflows" - and which gap matters most. Which of the three week-one workflows would die first inside Suite's stack and why. And where the team would put their thumbs on the scale for content compounding versus launch-velocity right now.</p>
+    <p><strong>What I'd bring:</strong> a one-pager on how I'd structure the first 90 days, a draft Customer-Story-to-Content pipeline scoped to one of Suite's existing customer narratives, and an honest take on which AI tools (Claude vs GPT vs OSS) I'd use where and why.</p>
+    <p>Remote works. Boston-based for whenever in-person matters.</p>
+  </div>
+  <div class="cta">
+    <div class="btn">15 min with the Suite Studios team</div>
+    <div class="alt">or written async if that's easier on your week</div>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong><br>
+    arokhith@gmail.com | (929) 563-9974 | Boston, MA<br>
+    Portfolio: adhi-growth-ai.vercel.app/ref/suite-studios<br>
+    LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">Suite Studios | Adhithya Rokhith Bhaskar</div>
+  <div class="num">06 / 06</div>
+</div>
+
+</body>
+</html>

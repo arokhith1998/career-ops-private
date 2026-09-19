@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Gooseworks Founding Growth Engineer Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  @page { size: 11in 8.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #fff7ed; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; }
+  .slide { width: 11in; height: 8.5in; padding: 0.55in 0.75in 0.5in 0.75in; page-break-after: always; position: relative; overflow: hidden; background: #fff7ed; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.35in; right: 0.55in; font-size: 8.5pt; color: #a8a29e; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.35in; left: 0.75in; font-size: 8.5pt; color: #a8a29e; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #c2410c; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 10pt; }
+  h1 { font-size: 36pt; font-weight: 800; color: #1c1917; line-height: 1.04; letter-spacing: -0.6pt; margin-bottom: 8pt; }
+  h2 { font-size: 24pt; font-weight: 800; color: #1c1917; line-height: 1.08; letter-spacing: -0.4pt; margin-bottom: 14pt; }
+  h2 .accent { color: #c2410c; }
+  .lede { font-size: 13pt; color: #57534e; max-width: 8.5in; margin-bottom: 14pt; font-weight: 400; }
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 1in; padding-right: 1in; background: linear-gradient(135deg, #fff7ed 0%, #fed7aa 100%); }
+  .cover h1 { font-size: 42pt; max-width: 9.2in; }
+  .cover .sub { font-size: 17pt; color: #57534e; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 26pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 9.5in; }
+  .tag { background: #fff; border: 1pt solid #fed7aa; color: #44403c; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.5pt; font-weight: 500; }
+  .tag strong { color: #c2410c; font-weight: 700; }
+  .cover .who { margin-top: 30pt; padding-top: 14pt; border-top: 1.5pt solid #c2410c; max-width: 7in; }
+  .cover .who .nm { font-size: 11pt; color: #1c1917; font-weight: 700; }
+  .cover .who .ct { font-size: 9.5pt; color: #57534e; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.6in; right: 0.85in; font-size: 9pt; color: #a8a29e; font-style: italic; }
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 4pt; }
+  .col { padding: 14pt 0 0 0; border-top: 2.5pt solid #c2410c; }
+  .col h3 { font-size: 13pt; font-weight: 800; color: #1c1917; margin-bottom: 12pt; letter-spacing: -0.2pt; }
+  .quote { background: #fef3e9; border-left: 3pt solid #c2410c; padding: 8pt 12pt; margin-bottom: 10pt; }
+  .quote .q { font-size: 10.5pt; color: #7c2d12; font-style: italic; line-height: 1.45; font-weight: 600; }
+  .proof { padding: 6pt 0 10pt 0; border-bottom: 1pt solid #e7e5e4; }
+  .proof .p { font-size: 10pt; color: #44403c; line-height: 1.5; }
+  .proof .p b { color: #1c1917; font-weight: 700; }
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 18pt; margin-top: 22pt; }
+  .stat { background: #fff; border: 1pt solid #e7e5e4; border-left: 4pt solid #c2410c; padding: 16pt 14pt 14pt 14pt; }
+  .stat .n { font-size: 28pt; font-weight: 800; color: #c2410c; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 10pt; font-weight: 700; color: #1c1917; margin-bottom: 4pt; }
+  .stat .desc { font-size: 9pt; color: #64748b; line-height: 1.45; }
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 8pt; }
+  .card { background: #fff; border: 1pt solid #e7e5e4; border-left: 4pt solid #c2410c; padding: 14pt 14pt 12pt 14pt; }
+  .card .label { font-size: 8.5pt; color: #c2410c; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 13pt; font-weight: 800; color: #1c1917; line-height: 1.18; margin-bottom: 8pt; }
+  .card .body { font-size: 9.5pt; color: #44403c; line-height: 1.5; margin-bottom: 8pt; }
+  .card .why { font-size: 9pt; color: #78716c; line-height: 1.5; padding-top: 8pt; border-top: 1pt dashed #d6d3d1; }
+  .card .why strong { color: #c2410c; font-weight: 700; }
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 1in; padding-right: 1in; background: linear-gradient(135deg, #fff7ed 0%, #fed7aa 100%); }
+  .close h2 { font-size: 30pt; max-width: 8.5in; margin-bottom: 16pt; }
+  .close .body { font-size: 11.5pt; color: #44403c; line-height: 1.6; max-width: 8.5in; }
+  .close .body p { margin-bottom: 10pt; }
+  .close .body strong { color: #c2410c; font-weight: 700; }
+  .close .contact { margin-top: 24pt; font-size: 10pt; color: #57534e; line-height: 1.6; }
+  .close .contact strong { color: #1c1917; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Gooseworks Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Founding Growth Engineer | Gooseworks</div>
+  <h1>The non-negotiable signal is "lives in Claude Code, built non-trivial agent systems." I do.</h1>
+  <div class="sub">Plus two of three named archetype paths simultaneously - that is the differentiator.</div>
+  <div class="tags">
+    <div class="tag"><strong>4</strong> Anthropic Claude Certifications + Cursor daily workflow</div>
+    <div class="tag"><strong>SwipeHire</strong> - X-to-Y growth on a product I built (Python + OpenAI + React)</div>
+    <div class="tag"><strong>NSE Bot</strong> - non-trivial agent system on Python + Claude API</div>
+    <div class="tag"><strong>Pixis</strong> - 8-client growth-as-a-service portfolio at $1.4M aggregate book</div>
+    <div class="tag"><strong>Plug Power</strong> - MarTech rebuilt from zero (-25% CPA, +20% conversion)</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">Boston, MA | Open to SF relo | arokhith@gmail.com | (929) 563-9974 | adhithyabhaskar.vercel.app/ref/gooseworks</div>
+  </div>
+  <div class="brand">GOOSEWORKS FGE</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Archetype mapping</div>
+  <h2>You named 3 archetypes. <span class="accent">I clear 2 of them simultaneously.</span></h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>Archetype B - AI-native high-output growth IC</h3>
+      <div class="quote"><div class="q">"Personally taken a startup X to Y on growth with measurable proof - revenue you personally drove, audience that converts, pipeline sourced + closed through engineered systems."</div></div>
+      <div class="proof"><div class="p"><b>SwipeHire</b> - shipped solo on Python + OpenAI API + React. Defined ICP, competitor teardown, positioning, GA4 + GTM instrumented from day one, <b>8 A/B tests with significance gates defined up front</b>, <b>50+ users acquired via Reddit-organic + Twitter</b>, <b>+25% activation V1 to V2</b>. Engineered system, audience that converts, real X-to-Y proof.</div></div>
+      <div class="proof"><div class="p">Reddit-organic acquisition is one of the channels the JD names. SwipeHire was acquired via r/cscareerquestions + r/h1b subreddit-native participation. That is exactly the muscle you would deploy for Gooseworks customers.</div></div>
+    </div>
+    <div class="col">
+      <h3>Archetype C - AI-native agency operator</h3>
+      <div class="quote"><div class="q">"Run growth-as-a-service for multiple companies. Think in systems, not channels."</div></div>
+      <div class="proof"><div class="p"><b>Pixis 8-client B2B SaaS + D2C portfolio</b> at <b>$1.4M aggregate annual book</b>, per-client monthly $15K-$90K, across Meta + LinkedIn + Google + Criteo + Amazon + programmatic. Weekly client CFO QBRs. <b>14 months running growth-as-a-service for multiple companies.</b></div></div>
+      <div class="proof"><div class="p"><b>Holdout-incrementality on a D2C beauty client</b> - 2 over-credited channels surfaced, 3x ROAS the next month. <b>Replaced 2 underperforming channels mid-quarter</b> on separate clients when blended numbers hid the truth. The "think in systems, not channels" muscle on the budget side.</div></div>
+      <div class="proof"><div class="p"><b>Trained 8 enterprise marketers on Pixis's AI bidding + creative-automation platform</b> (Smartly / Hunch / Omneky category). Teaching humans to operate AI workflows is half of what a Gooseworks customer experience is.</div></div>
+    </div>
+  </div>
+  <div class="brand">GOOSEWORKS FGE</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Non-negotiable signal</div>
+  <h2>"Lives in Claude Code, built <span class="accent">non-trivial agent systems</span>" - cleared cleanly.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>Built + shipped</h3>
+      <div class="proof"><div class="p"><b>NSE Paper-Trading Bot</b> - Python + Claude API agentic reasoning. Live NSE data scanner with EMA + RSI + ATR technical-indicator pipeline. AI-enhanced reasoning layer for news + catalyst analysis. Automated capital-constraint filtering. Interactive paper-trade dashboard. <b>Non-trivial agent system.</b></div></div>
+      <div class="proof"><div class="p"><b>SwipeHire</b> - Python + OpenAI API + React. 2-sided AI matching with embedded LLM logic for job-to-candidate fit. GA4 + GTM instrumented from day one. <b>Production AI product with 50+ users.</b></div></div>
+      <div class="proof"><div class="p"><b>Pixis AI-bidding + creative-automation trainer</b> - taught 8 enterprise marketers on the platform that competes with Smartly + Hunch + Omneky. Lived in the AI bidding workflow before "AI-native marketer" was a category.</div></div>
+    </div>
+    <div class="col">
+      <h3>Certifications + daily workflow</h3>
+      <div class="proof"><div class="p"><b>4 Anthropic Claude Certifications:</b> Claude 101, Claude Code 101, Claude Cowork, Building with Claude API. The full Anthropic stack, certified.</div></div>
+      <div class="proof"><div class="p"><b>Cursor + Claude daily workflow</b> with a draft-and-critique pipeline I have productized for <b>8x velocity</b> on shipping content + decks + outbound assets + landing pages.</div></div>
+      <div class="proof"><div class="p">When the JD says "you live in Claude Code, built non-trivial agent systems on these" - that is what my last 18 months has actually been. Not "I tried it once."</div></div>
+    </div>
+  </div>
+  <div class="brand">GOOSEWORKS FGE</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Engineered systems proof</div>
+  <h2>Plug Power: MarTech <span class="accent">rebuilt from zero</span>, customer KPI moved.</h2>
+  <div class="lede">"Bar: customer hit their KPI, not we shipped the engine." Plug Power is the proof - end-to-end engineered system, measurable outcome.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">-25%</div>
+      <div class="lbl">CPA</div>
+      <div class="desc">Multi-channel paid + retargeting across Meta + LinkedIn ABM + Google + Adobe programmatic. A/B tested keywords + audiences + creative.</div>
+    </div>
+    <div class="stat">
+      <div class="n">+20%</div>
+      <div class="lbl">Conversion</div>
+      <div class="desc">Closed-loop attribution from ad click to SQL on Salesforce + Adobe + GA4 + GTM. UTM spec written from scratch.</div>
+    </div>
+    <div class="stat">
+      <div class="n">6+3</div>
+      <div class="lbl">Segments + Suppressions</div>
+      <div class="desc">Account-level retargeting in Adobe Audience Manager (6 behavioral segments + 3 suppression lists). AEO/GEO content cluster for ChatGPT/Claude/Perplexity citation.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 28pt;">This is the engineered-system muscle Gooseworks deploys per customer. For a 3-person founding team selling AI coworkers to GTM engineers, the proof has to be system, not slogan.</div>
+  <div class="brand">GOOSEWORKS FGE</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 Days</div>
+  <h2>What week 1 to week 4 looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Onboard + Skills Repo</div>
+      <div class="body">Onboard with cofounders, meet the team. <b>Contribute 2-3 new skills to the public Gooseworks skills repository</b> on channels I have direct muscle in: Reddit-organic, AEO/GEO content, holdout-incrementality.</div>
+      <div class="why"><strong>Why first:</strong> Skills repo contribution is the public signal of "lives in Goose, builds non-trivial agent systems on it."</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2</div>
+      <div class="ttl">Two Engines for Gooseworks Itself</div>
+      <div class="body">Set up <b>2 growth engines for Gooseworks</b>: (1) Reddit-organic acquisition into r/SaaS + r/GrowthHacking + r/startups; (2) AEO/GEO content cluster on "AI coworker for growth" queries on ChatGPT + Claude + Perplexity.</div>
+      <div class="why"><strong>Why these two:</strong> Both compound. Both prove the "growth engine for ourselves first" loop the JD names.</div>
+    </div>
+    <div class="card">
+      <div class="label">Weeks 3-4</div>
+      <div class="ttl">First Customer Engine + Templatize</div>
+      <div class="body">Pick one of the 50+ paying customers with an uncracked channel. Build the engine end-to-end. <b>Iterate weekly until the customer hits their KPI.</b> Templatize the engine into a self-serve playbook in Gooseworks.</div>
+      <div class="why"><strong>Why this fast:</strong> The Pixis 8-client cadence trained me to ship + measure + iterate weekly. Same loop, AI-native.</div>
+    </div>
+  </div>
+  <div class="brand">GOOSEWORKS FGE</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>YC W23 + Athina-AI lineage + paying customers + AI-native non-negotiable signal cleared.</h2>
+  <div class="body">
+    <p>You need a Founding Growth Engineer who can run customer growth engines + R&amp;D them into self-serve Goose playbooks. The non-negotiable signal is "lives in Claude Code, built non-trivial agent systems." I clear that with <strong>4 Anthropic Claude certifications + NSE Bot agentic system + SwipeHire AI product + Cursor/Claude daily workflow</strong>.</p>
+    <p>The differentiator is dual-archetype - I clear <strong>both archetype B (SwipeHire X-to-Y) and archetype C (Pixis 8-client growth-as-a-service)</strong> simultaneously. Plug Power MarTech rebuilt from zero is the engineered-system proof. The 48-hour project will be a growth engine for Gooseworks itself on an uncracked channel, ready to deploy.</p>
+    <p>SF in-person works. Open to relocation from Boston. LinkedIn note to Sean queued.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | Boston, MA | arokhith@gmail.com | (929) 563-9974<br>
+    Resume + portfolio: <strong>adhithyabhaskar.vercel.app/ref/gooseworks</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">GOOSEWORKS FGE</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>

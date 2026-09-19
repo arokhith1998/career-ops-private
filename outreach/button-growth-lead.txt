@@ -1,0 +1,77 @@
+ROLE: Button (Button Inc / usebutton.com) — Growth Lead (Ashby 87e50c06)
+=========================================================================
+Tracker entry: #54
+URL: https://jobs.ashbyhq.com/button/87e50c06-84ed-4e3c-b920-b07339fec92a
+
+HIRING MANAGER:
+TBD. Button is ~51-200 employees. The Growth Lead likely reports to the CEO directly given company size, OR to a Head of Marketing if one exists.
+
+Top of company:
+- Michael Jaconi — Co-Founder & CEO, Button
+  LinkedIn: https://www.linkedin.com/in/michaeljaconi
+- Chris Maddern — Co-Founder & Chief Innovation Officer, Button
+- Jonathan Shottan — Chief Product Officer, Button
+- Stephanie Mardell — Chief People Officer, Button
+- Ken Stelzer — CFO, Button
+
+Marketing-side staff:
+- Lauren Newman — Button (LinkedIn surfaces in marketing context; verify role)
+  LinkedIn: https://www.linkedin.com/in/lauren-newman-95700912/
+- Elizabeth Emerson — Brand Development Director, Button (referenced in their content)
+
+Search LinkedIn for:
+- "Button" + "Head of Marketing" or "VP Marketing"
+- "Button" + "CMO"
+
+RECRUITER:
+TBD. Stephanie Mardell's team (People) handles hiring. After applying via Ashby, the recruiter assigned will be visible.
+
+
+----- HM LINKEDIN NOTE -----
+Hi {First}, applying for Growth Lead. Pixis is the closest in-category analog any growth-lead candidate will show you: B2B SaaS adtech, $1.4M, 8-client, AI bidding training. Plus Plug Power closed-loop attribution rebuild (the buyer-side of Button's product). NYC works. 15 min?
+
+
+----- HM EMAIL -----
+Subject: Growth Lead — closed loop on closed loop
+
+Hi {First},
+
+Applying for the Growth Lead role.
+
+Button is the rare B2B SaaS where the Growth Lead can use the company's own deterministic-attribution stack on the company's own funnel. Closed loop on closed loop. Most growth teams spend the first six months arguing about whether the data they are looking at is real. At Button, the entire product thesis is that the data is real. The interesting question is what to do with measurement that actually clears.
+
+I have spent four years inside the same category from two different sides. Pixis is the cleanest in-category analog. I ran an 8-client B2B SaaS portfolio on a $1.4M budget across global D2C and e-commerce partners, on the same AI-marketing-platform side of the table Button operates from. Held vendors and clients to delivery and lead-quality standards in writing. Replaced two channels mid-quarter when KPIs slipped. Trained 8 enterprise marketers on AI bidding and creative tools. Churn dropped 50%.
+
+At Plug Power I rebuilt the buyer-side of the same conversation. Closed-loop attribution from ad click to SQL on Salesforce, Adobe Analytics, GA4, and GTM. CPA dropped 25%, conversion went up 20%. The deterministic, first-party attribution paradigm Button productized is the same one I lived on the buyer side.
+
+SwipeHire is the AI-product proof. Shipped solo on Python, OpenAI API, React. 8 A/B tests, +25% activation, 50+ users.
+
+NYC works.
+
+CV and portfolio: https://adhi-growth-ai.vercel.app/ref/button
+
+15 min next week?
+
+Adhithya | Boston, MA | (929) 563-9974
+
+
+----- RECRUITER LINKEDIN NOTE -----
+Hi {Recruiter}, applied for Growth Lead. Pixis 8-client B2B SaaS adtech tenure (same category as Button, $1.4M, AI bidding training) + Plug Power closed-loop attribution buyer-side rebuild (-25% CPA) + SwipeHire AI product. NYC works. Available for a screen.
+
+
+----- RECRUITER EMAIL -----
+Subject: Application — Growth Lead
+
+Hi {Recruiter},
+
+Submitted for the Button Growth Lead role.
+
+The combination is unusual: B2B SaaS adtech tenure (Pixis: 8-client portfolio, $1.4M, AI bidding training, churn -50%), buyer-side closed-loop attribution rebuild (Plug Power: Salesforce + Adobe + GA4 + GTM, -25% CPA), AI product shipped end-to-end (SwipeHire: Python + OpenAI API + React, +25% activation), and consumer paid breadth (GenY: 16x ROAS).
+
+4+ years. NYC is my secondary preferred metro. Boston now.
+
+Resume: https://adhi-growth-ai.vercel.app/ref/button
+
+Available for a screen this week.
+
+Adhithya | (929) 563-9974

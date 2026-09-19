@@ -1,0 +1,29 @@
+TO: [Recruiter Name], Mirage Talent Acquisition
+PLATFORM: Email
+ROLE: Lifecycle Marketing Manager - Captions (NYC)
+NOTE: Recruiter name not surfaced publicly; Ashby auto-assignment will provide on submission. Swap in once known.
+---
+
+Subject: Application, Lifecycle Marketing Manager - Captions (NYC)
+
+Hi [Recruiter Name],
+
+Just applied for the Lifecycle Marketing Manager role on Captions via Ashby. Quick fit:
+
+- SwipeHire (founder): production AI consumer product on OpenAI API + React. Solo full lifecycle: landing + signup + onboarding A/B + activation loop + cohort retention. 50+ users, +25% activation via 8+ A/B tests. This is the 4+ yr subscription-lifecycle muscle in one project.
+- Pixis: 8-client enterprise AI SaaS book ($1.4M shared budget). -50% churn through per-client retention playbooks. 3x ROAS fashion in 30 days. Adjacent subscription-retention experience at scale.
+- Plug Power: rebuilt full MarTech (Salesforce + HubSpot + Adobe + GA + GTM). HubSpot lifecycle cadences (onboarding, activation, nurture, winback). -25% CPA, +20% conversion. Iterable is a 1-week ramp from HubSpot.
+- 4 Anthropic Claude certs (incl. Building with Claude API). Claude draft-and-critique content pipeline for 8x variant velocity.
+- MS Marketing Analytics (Simon, Rochester) + BE Mech (BITS Pilani).
+
+JD fit: 4+ yr band = sweet spot. Full lifecycle execution (onboarding/activation/conversion/retention/winback). Cross-channel (email/push/in-app/SMS). A/B testing on subscription metrics. AI tools in workflow. Iterable ramp is fast.
+
+Boston-based, open to NYC relocation. Available to screen this week. Comp target: $145K+ base (NY cost).
+
+One ask: can you confirm Mirage's H-1B sponsorship posture before we go deep?
+
+Resume, cover letter, portfolio: https://adhithyabhaskar.vercel.app/ref/mirage
+
+Thanks,
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com | (929) 563-9974

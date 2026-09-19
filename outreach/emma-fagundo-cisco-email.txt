@@ -1,0 +1,37 @@
+TO: Emma Fagundo - Marketing Leader @ Cisco
+EMAIL: efagundo@cisco.com (verified)
+LINKEDIN: https://www.linkedin.com/in/emmafagundo/
+PLATFORM: Email
+ROLE: Marketing Manager (Req 2011056-1) - Cisco CX, RTP NC
+NOTE: Reaching out as a marketing leader whose scope likely intersects this Customer Advocacy hire. Used as parallel HM-track contact alongside Jenny Hooks (Sr Dir, Global Customer Marketing).
+---
+
+Subject: Marketing Manager (Req 2011056-1), customer advocacy as a translation problem
+
+Hi Emma,
+
+I applied for the Marketing Manager role on Cisco's CX team. I am writing to a few marketing leaders whose scope likely intersects this hire because the role lives at the seam between customer advocacy, comms, and program management. Sharing the angle I am bringing in case it lands.
+
+Customer advocacy is really a translation problem before it is a storytelling problem. The hard part is not writing the case study. It is getting an enterprise buyer who has signed an NDA, has internal politics around what they can publicly say, and has a technical story their own team has never quite captured, to give you a narrative that is true to their experience, publishable on a Cisco stage, and specific enough to convince a peer prospect. Most advocacy programs fail at that translation layer. The good ones build for it from day one.
+
+I have done this work for B2B technical buyers and have measured outcomes from it. At Sensata I ran 30+ interviews with OEMs and distributors across NA and EU. Industrial sensors, engineering and procurement buyers, the kind who default to skepticism toward marketing. I figured out which 12 accounts had a story worth telling. I co-built case studies, decks, and battlecards with those champions in their language, signed off by their compliance teams. 50+ Sensata reps used the assets. Partner win rates went up 30%.
+
+Three things from the JD that map directly:
+
+1. Translating technical milestones into business narratives. At Sensata I built a SQL and GA4 framework on 50K connected devices. Engineering shipped features. Nobody could tell business why those features mattered. I built the cohort analysis and turned it into "what changed for customers" stories that landed in launch decks. Adoption went up 18%.
+
+2. AI-augmented content production. Most teams reach for AI to write more. The unlock is using AI to triage faster, surfacing which 5 of 100 customer interviews actually contain a publishable story before you spend a week drafting any of them. I built SwipeHire this year using the OpenAI API end-to-end, so I know what AI tools can and cannot do for editorial workflow.
+
+3. Multi-region program management. 100+ feature backlog in Agile across product, engineering, and 3 regional teams at Sensata for 18 months. The Awards program territory (nominations, evaluation, logistics) is recognizable.
+
+Honest gap: I have not run an enterprise customer Awards program at Cisco's scale. The closest analog is Sensata partner enablement at 50+ reps. I would ramp on the program-specific mechanics fast, but want to be straight that this part is new.
+
+Boston-based, open to RTP relocation. BE in Mechanical Engineering (BITS Pilani), MS in Marketing Analytics (Simon, U. of Rochester).
+
+Resume, cover letter, and portfolio: https://adhithyabhaskar.vercel.app/ref/cisco
+
+If this role does not sit within your scope, even a one-line "talk to [name]" closes the loop and I would appreciate it. If it does, would love 15 to 20 minutes to hear how the team is thinking about the next phase of the advocacy program.
+
+Best,
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com | (929) 563-9974

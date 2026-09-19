@@ -1,0 +1,68 @@
+ROLE: OpenAI — Growth, Digital Marketing (Channel Leader, Paid Search/Social)
+==============================================================================
+Tracker entry: #49
+URL: https://jobs.ashbyhq.com/openai/9d75be2c-5327-49b3-a778-157467b87620
+
+HIRING MANAGER:
+TBD. The HM is likely the Head of Growth Marketing or VP Growth at OpenAI.
+
+Senior leadership for context:
+- Gary Briggs — Interim CMO, OpenAI
+
+Search LinkedIn before sending:
+- "OpenAI" + "Head of Growth" or "VP Growth"
+- "OpenAI" + "Director Performance Marketing"
+- "OpenAI" + "Senior Director Growth Digital Marketing"
+
+RECRUITER:
+TBD via OpenAI's Ashby application portal.
+
+
+----- HM LINKEDIN NOTE -----
+Hi {First}, applying for Growth Digital Marketing Channel Lead. Performance marketing at OpenAI scale will be iteration-bottlenecked, not strategy-bottlenecked. Rebuilt Plug Power's paid stack (-25% CPA) + 4 Claude certs running prompt-based iteration as my actual workflow. 15 min?
+
+
+----- HM EMAIL -----
+Subject: Growth Channel Lead — iteration loop is the bottleneck
+
+Hi {First},
+
+Applying for the Growth, Digital Marketing channel leader role.
+
+Performance marketing at OpenAI scale is going to be limited by one thing: how fast the team can iterate on creative, targeting, and insight. Channel strategy is the easy part. The bottleneck is the loop between hypothesis, test, and decision. AI-enabled workflows are how that loop shortens.
+
+I have rebuilt that loop on a B2B paid stack at Plug Power across Google Ads, Meta, LinkedIn, and Adobe-driven programmatic display. Closed-loop attribution from ad click to SQL on Salesforce, Adobe Analytics, GA4, and GTM. CPA dropped 25%, conversion went up 20%. At Pixis I ran an 8-client B2B SaaS portfolio on a $1.4M media budget with weekly multi-channel optimization and validated lift via holdout incrementality testing.
+
+On the AI-enabled-workflows side, I shipped SwipeHire end-to-end on Python and OpenAI API. Plus 4 Claude certifications (101, Code 101, Cowork, Building with Claude API) from running prompt-based iteration on creative, copy, and insight as my actual workflow.
+
+On consumer paid breadth, GenY delivered 16x ROAS via Merchant Center and Meta catalog rebuild. On localization, Sensata GTM ran across NA, EU, and 3 regions ($2M+ first-year revenue).
+
+CV and portfolio: https://adhi-growth-ai.vercel.app/ref/openai-growth
+
+15 min next week?
+
+Adhithya | Boston, MA | (929) 563-9974
+
+
+----- RECRUITER LINKEDIN NOTE -----
+Hi {Recruiter}, applied for Growth Digital Marketing Channel Lead. Plug Power paid stack rebuild (-25% CPA) + Pixis $1.4M 8-client portfolio + GenY 16x ROAS + SwipeHire AI product + 4 Claude certs. SF or NYC. Available for a screen.
+
+
+----- RECRUITER EMAIL -----
+Subject: Application — Growth, Digital Marketing (Channel Leader, Paid Search/Social)
+
+Hi {Recruiter},
+
+Submitted for the Growth Channel Leader role. Quick fit summary.
+
+Paid stack tenure: Plug Power (Google + Meta + LinkedIn + programmatic, -25% CPA, +20% conversion), Pixis (8-client B2B SaaS, $1.4M, holdout incrementality 3x ROAS validated), GenY (D2C 16x ROAS Shopping/catalog).
+
+AI-enabled workflows: SwipeHire shipped on Python + OpenAI API + React, +25% activation. 4 Claude certifications from prompt-based iteration as actual workflow.
+
+Localization: Sensata multi-region GTM NA + EU + 3 regions, $2M+ first-year. SF or NYC works.
+
+Resume: https://adhi-growth-ai.vercel.app/ref/openai-growth
+
+Available for a screen this week.
+
+Adhithya | (929) 563-9974

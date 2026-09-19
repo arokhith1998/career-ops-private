@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Nielsen Digital Campaign Manager Pitch Deck Adhithya</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  @page { size: 11in 8.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 11pt; line-height: 1.4; color: #0f172a; background: #fff; }
+  .slide { width: 11in; height: 8.5in; padding: 0.55in 0.7in; page-break-after: always; position: relative; overflow: hidden; }
+  .slide:last-child { page-break-after: avoid; }
+  .slide-num { position: absolute; bottom: 0.3in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; font-weight: 600; letter-spacing: 1pt; }
+  .slide-brand { position: absolute; bottom: 0.3in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; font-weight: 600; letter-spacing: 0.5pt; }
+  h1 { font-size: 32pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; line-height: 1.05; letter-spacing: -0.5pt; }
+  h2 { font-size: 22pt; font-weight: 800; color: #0f172a; margin-bottom: 14pt; line-height: 1.1; letter-spacing: -0.3pt; }
+  h3 { font-size: 13pt; font-weight: 700; color: #0f172a; margin-bottom: 6pt; }
+  .accent { color: #1e40af; }
+  .label { font-size: 8.5pt; font-weight: 700; color: #1e40af; text-transform: uppercase; letter-spacing: 1.2pt; margin-bottom: 8pt; }
+
+  /* Slide 1 cover */
+  .cover { display: flex; flex-direction: column; justify-content: center; background: linear-gradient(135deg, #eff6ff 0%, #bfdbfe 50%, #93c5fd 100%); }
+  .cover h1 { font-size: 38pt; }
+  .cover .sub { font-size: 16pt; color: #475569; margin-top: 6pt; font-weight: 500; }
+  .cover .author { margin-top: 32pt; padding-top: 18pt; border-top: 2pt solid #1e40af; font-size: 11pt; color: #475569; }
+  .cover .author strong { color: #0f172a; font-weight: 700; }
+  .cover .pills { margin-top: 20pt; display: flex; gap: 8pt; flex-wrap: wrap; }
+  .pill { background: #fff; border: 1.5pt solid #1e40af; color: #1e3a8a; padding: 5pt 12pt; border-radius: 14pt; font-size: 9pt; font-weight: 700; }
+
+  /* Slide 2 mapping */
+  .grid-2 { display: grid; grid-template-columns: 1fr 1.05fr; gap: 28pt; margin-top: 8pt; }
+  .panel { background: #eff6ff; border: 1pt solid #bfdbfe; border-radius: 6pt; padding: 14pt; }
+  .panel h3 { color: #1e3a8a; }
+  .kpi-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10pt; }
+  .kpi { background: #fff; border-left: 3pt solid #1e40af; padding: 8pt 10pt; border-radius: 3pt; }
+  .kpi .v { font-size: 17pt; font-weight: 800; color: #1e40af; line-height: 1; }
+  .kpi .l { font-size: 8.5pt; color: #475569; margin-top: 3pt; font-weight: 600; }
+  .ulx { list-style: none; padding: 0; }
+  .ulx li { padding: 4pt 0 4pt 14pt; position: relative; font-size: 10pt; color: #1e293b; }
+  .ulx li:before { content: ""; position: absolute; left: 0; top: 10pt; width: 7pt; height: 2pt; background: #1e40af; }
+
+  /* Slide 3 attribution flow */
+  .flow-svg { width: 100%; height: 4.4in; }
+  .insight-box { background: #eff6ff; border-left: 4pt solid #1e40af; padding: 12pt 16pt; margin-top: 14pt; border-radius: 0 4pt 4pt 0; }
+  .insight-box strong { color: #1e3a8a; }
+
+  /* Slide 4 CFO dashboard */
+  .dash-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18pt; margin-top: 8pt; }
+  .dash-card { background: #eff6ff; border: 1pt solid #bfdbfe; border-radius: 6pt; padding: 14pt; }
+  .dash-card h3 { color: #1e3a8a; margin-bottom: 8pt; }
+  .narrative-grid { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 10pt; margin-top: 14pt; }
+  .narrative { background: #fff; border: 1pt solid #bfdbfe; border-radius: 6pt; padding: 10pt; }
+  .narrative h4 { color: #1e3a8a; font-size: 10pt; font-weight: 800; margin-bottom: 4pt; }
+  .narrative .v { font-size: 16pt; font-weight: 800; color: #d97706; }
+  .narrative .l { font-size: 8.5pt; color: #475569; margin-top: 3pt; font-weight: 600; }
+  .narrative .body { font-size: 8.5pt; color: #1e293b; margin-top: 5pt; line-height: 1.3; }
+
+  /* Slide 5 A/B framework hub */
+  .ab-hub { width: 100%; height: 4.4in; }
+
+  /* Slide 6 close */
+  .close { display: flex; flex-direction: column; justify-content: center; background: linear-gradient(135deg, #eff6ff 0%, #93c5fd 100%); }
+  .close h2 { font-size: 28pt; }
+  .close .body { font-size: 13pt; color: #1e293b; line-height: 1.65; max-width: 8.5in; }
+  .close .cta { margin-top: 28pt; display: flex; gap: 16pt; align-items: center; }
+  .close .cta .btn { background: #1e40af; color: #fff; padding: 10pt 22pt; border-radius: 6pt; font-weight: 700; font-size: 11pt; }
+  .close .contact { margin-top: 24pt; font-size: 10pt; color: #475569; }
+  .close .contact strong { color: #0f172a; }
+</style>
+</head>
+<body>
+
+<!-- SLIDE 1 COVER -->
+<div class="slide cover">
+  <div class="label">Pitch Deck | Nielsen Digital Campaign Manager</div>
+  <h1>Full-Funnel Campaigns, Multi-Touch Attribution, Executive Narrative</h1>
+  <div class="sub">Already wired the loop the JD describes</div>
+  <div class="pills">
+    <div class="pill">Plug Power -25% CPA / +20% CVR</div>
+    <div class="pill">Multi-Touch Attribution Rebuild</div>
+    <div class="pill">UTM Spec From Scratch</div>
+    <div class="pill">Pixis Weekly Client CFO QBRs</div>
+    <div class="pill">Sensata $627M Power BI</div>
+    <div class="pill">SwipeHire 8 A/B Tests</div>
+  </div>
+  <div class="author">
+    <strong>Adhithya Rokhith Bhaskar</strong> | Boston, MA (Remote) | (929) 563-9974 | arokhith@gmail.com<br>
+    Portfolio: adhi-growth-ai.vercel.app/ref/nielsen-dcm
+  </div>
+  <div class="slide-brand">Prepared for the Nielsen Hiring Team</div>
+  <div class="slide-num">01 / 06</div>
+</div>
+
+<!-- SLIDE 2 JD MAPPING -->
+<div class="slide">
+  <div class="label">Slide 02 | The Match in One View</div>
+  <h2>The Loop the JD Describes Is the Loop I Run</h2>
+  <div class="grid-2">
+    <div class="panel">
+      <h3>Nielsen JD</h3>
+      <ul class="ulx">
+        <li>Full-funnel digital campaigns across awareness + engagement + conversion</li>
+        <li>Multi-touch attribution across channels</li>
+        <li>Real-time underperformance diagnosis + strategy adjustments</li>
+        <li>Translate metrics into executive narratives with actionable recommendations</li>
+        <li>A/B testing frameworks for creative + LP + audience segments</li>
+        <li>GA4 + platform-native (Meta + Google + LinkedIn) + pixel/tag/tracking integrity</li>
+      </ul>
+    </div>
+    <div class="panel">
+      <h3>What I Have Already Run</h3>
+      <div class="kpi-grid" style="margin-bottom: 10pt;">
+        <div class="kpi"><div class="v">-25%</div><div class="l">CPA at Plug Power</div></div>
+        <div class="kpi"><div class="v">+20%</div><div class="l">Conversion at Plug Power</div></div>
+        <div class="kpi"><div class="v">3x</div><div class="l">ROAS holdout-validated</div></div>
+        <div class="kpi"><div class="v">$627M</div><div class="l">Power BI dashboard scope</div></div>
+        <div class="kpi"><div class="v">8</div><div class="l">A/B tests on SwipeHire activation</div></div>
+        <div class="kpi"><div class="v">+25%</div><div class="l">Activation lift on SwipeHire</div></div>
+      </div>
+      <ul class="ulx">
+        <li>UTM spec from scratch + GTM containers rebuilt + GA4 events validated</li>
+        <li>Closed-loop attribution from ad click to SQL on HubSpot + Salesforce + Adobe</li>
+        <li>Pixis weekly CFO QBRs across 8-client B2B SaaS book</li>
+      </ul>
+    </div>
+  </div>
+  <div class="slide-brand">Nielsen | Adhithya Rokhith Bhaskar</div>
+  <div class="slide-num">02 / 06</div>
+</div>
+
+<!-- SLIDE 3 MULTI-TOUCH ATTRIBUTION FLOW -->
+<div class="slide">
+  <div class="label">Slide 03 | Multi-Touch Attribution Rebuild</div>
+  <h2>Plug Power: Ad Click to SQL, One Source of Truth</h2>
+  <p style="font-size: 10pt; color: #475569; margin-bottom: 4pt;">UTM spec written from scratch. GTM containers rebuilt. GA4 events validated end-to-end. Lead routing reconciled through Salesforce campaign attribution before any cohort number got presented. Pixel and tag hygiene was the foundation, not an afterthought.</p>
+
+  <svg viewBox="0 0 1000 400" class="flow-svg">
+    <rect x="20" y="60" width="160" height="120" rx="8" fill="#eff6ff" stroke="#1e40af" stroke-width="1.5"/>
+    <text x="100" y="90" text-anchor="middle" font-size="11" fill="#1e3a8a" font-weight="800">FULL-FUNNEL PAID</text>
+    <text x="100" y="110" text-anchor="middle" font-size="9" fill="#1e293b">Awareness: programmatic</text>
+    <text x="100" y="124" text-anchor="middle" font-size="9" fill="#1e293b">Engagement: Meta + LinkedIn</text>
+    <text x="100" y="138" text-anchor="middle" font-size="9" fill="#1e293b">Conversion: Google Ads + SA360</text>
+    <text x="100" y="158" text-anchor="middle" font-size="9" fill="#15803d" font-weight="700">-25% CPA</text>
+    <text x="100" y="172" text-anchor="middle" font-size="9" fill="#15803d" font-weight="700">+20% conversion</text>
+
+    <rect x="220" y="60" width="160" height="120" rx="8" fill="#eff6ff" stroke="#1e40af" stroke-width="1.5"/>
+    <text x="300" y="90" text-anchor="middle" font-size="11" fill="#1e3a8a" font-weight="800">PIXEL + TAG HYGIENE</text>
+    <text x="300" y="110" text-anchor="middle" font-size="9" fill="#1e293b">UTM spec from scratch</text>
+    <text x="300" y="124" text-anchor="middle" font-size="9" fill="#1e293b">GTM containers rebuilt</text>
+    <text x="300" y="138" text-anchor="middle" font-size="9" fill="#1e293b">GA4 events validated</text>
+    <text x="300" y="158" text-anchor="middle" font-size="9" fill="#1e293b">Adobe Analytics direct</text>
+
+    <rect x="420" y="60" width="160" height="120" rx="8" fill="#eff6ff" stroke="#1e40af" stroke-width="1.5"/>
+    <text x="500" y="90" text-anchor="middle" font-size="11" fill="#1e3a8a" font-weight="800">MULTI-TOUCH MODEL</text>
+    <text x="500" y="110" text-anchor="middle" font-size="9" fill="#1e293b">Touch sequencing per account</text>
+    <text x="500" y="124" text-anchor="middle" font-size="9" fill="#1e293b">First-touch + assist + last-touch</text>
+    <text x="500" y="138" text-anchor="middle" font-size="9" fill="#1e293b">CAC + LTV + ROAS + MER</text>
+    <text x="500" y="158" text-anchor="middle" font-size="9" fill="#1e293b">Reported by channel + cohort</text>
+
+    <rect x="620" y="60" width="160" height="120" rx="8" fill="#eff6ff" stroke="#1e40af" stroke-width="1.5"/>
+    <text x="700" y="90" text-anchor="middle" font-size="11" fill="#1e3a8a" font-weight="800">SALESFORCE</text>
+    <text x="700" y="110" text-anchor="middle" font-size="9" fill="#1e293b">Campaign attribution</text>
+    <text x="700" y="124" text-anchor="middle" font-size="9" fill="#1e293b">validated end-to-end</text>
+    <text x="700" y="138" text-anchor="middle" font-size="9" fill="#1e293b">Lead routing rules</text>
+    <text x="700" y="158" text-anchor="middle" font-size="9" fill="#1e293b">SLA documented</text>
+
+    <rect x="820" y="60" width="160" height="120" rx="8" fill="#1e40af" stroke="#1e3a8a" stroke-width="1.5"/>
+    <text x="900" y="90" text-anchor="middle" font-size="11" fill="#fff" font-weight="800">SOURCE OF TRUTH</text>
+    <text x="900" y="110" text-anchor="middle" font-size="9" fill="#fff">Closed-loop dashboard</text>
+    <text x="900" y="124" text-anchor="middle" font-size="9" fill="#fff">Per-touch contribution</text>
+    <text x="900" y="138" text-anchor="middle" font-size="9" fill="#fff">CFO-readable narrative</text>
+    <text x="900" y="158" text-anchor="middle" font-size="9" fill="#fff">Action plan attached</text>
+
+    <path d="M 184 120 L 215 120" stroke="#1e40af" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    <path d="M 384 120 L 415 120" stroke="#1e40af" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    <path d="M 584 120 L 615 120" stroke="#1e40af" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    <path d="M 784 120 L 815 120" stroke="#1e40af" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+
+    <defs>
+      <marker id="arrowhead" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+        <polygon points="0 0, 8 4, 0 8" fill="#1e40af"/>
+      </marker>
+    </defs>
+
+    <text x="500" y="220" text-anchor="middle" font-size="11" fill="#0f172a" font-weight="800">"Translate metrics into actionable executive narratives" (verbatim from JD) starts here</text>
+
+    <rect x="100" y="250" width="800" height="100" rx="8" fill="#eff6ff" stroke="#1e40af" stroke-width="1" stroke-dasharray="4,3"/>
+    <text x="500" y="278" text-anchor="middle" font-size="10" fill="#1e3a8a" font-weight="800">+ COORDINATION LAYER</text>
+    <text x="500" y="298" text-anchor="middle" font-size="9.5" fill="#1e293b">4-vendor MarTech RFP and rollout, 6 internal stakeholders aligned across Sales + IT + Marketing + Procurement</text>
+    <text x="500" y="316" text-anchor="middle" font-size="9.5" fill="#1e293b">SLA documentation + escalation paths + Procurement terms negotiated</text>
+    <text x="500" y="334" text-anchor="middle" font-size="9.5" fill="#475569" font-style="italic">The work that turns "tool sprawl" into "one source of truth"</text>
+  </svg>
+  <div class="slide-brand">Nielsen | Adhithya Rokhith Bhaskar</div>
+  <div class="slide-num">03 / 06</div>
+</div>
+
+<!-- SLIDE 4 EXECUTIVE NARRATIVE DASHBOARD -->
+<div class="slide">
+  <div class="label">Slide 04 | Executive Narrative Translation</div>
+  <h2>Pixis Weekly CFO QBR + Sensata $627M Dashboard</h2>
+  <p style="font-size: 10pt; color: #475569; margin-bottom: 8pt;">The JD's "translate metrics into actionable executive narratives" line is operational at two scales in my CV. Below: the four narrative artifacts I have shipped repeatedly to executive audiences with the actionable recommendations attached.</p>
+
+  <div class="narrative-grid">
+    <div class="narrative">
+      <h4>Pixis Weekly CFO QBR</h4>
+      <div class="v">8</div>
+      <div class="l">Clients, weekly cadence</div>
+      <div class="body">ROI + iROAS presented to client CFOs and growth leads. Each QBR ended with three concrete next-week actions the CFO signed off on. Replaced two underperforming channels mid-quarter when KPIs slipped.</div>
+    </div>
+    <div class="narrative">
+      <h4>Sensata Margin Dashboard</h4>
+      <div class="v">$627M</div>
+      <div class="l">Margin recovery scope</div>
+      <div class="body">Power BI dashboard tracking 1,200 opportunities across 3 regions, 4 product families, 20 product lines. Designed for executive review cadence. Translated dense device-level data into commercial decisions.</div>
+    </div>
+    <div class="narrative">
+      <h4>Customer-Story Pipeline</h4>
+      <div class="v">+30%</div>
+      <div class="l">Win rate lift, 50+ reps</div>
+      <div class="body">30+ structured customer interviews + win/loss synthesis fed sales enablement library (decks + cases + battlecards + FAQs). Sensata. Each artifact built for a specific deal-review moment.</div>
+    </div>
+    <div class="narrative">
+      <h4>4-Vendor MarTech RFP</h4>
+      <div class="v">6</div>
+      <div class="l">Stakeholders aligned</div>
+      <div class="body">Plug Power. Coordinated Sales + IT + Marketing + Procurement on tooling consolidation. Negotiated terms, documented SLAs, presented options to leadership with recommendation attached.</div>
+    </div>
+  </div>
+
+  <div class="insight-box">
+    <strong>The narrative discipline that travels.</strong> Executive narrative is not "summarize the dashboard." It is "here is what changed, here is why, here is what I would do about it, here is the one thing you should approve this week." Same shape Nielsen needs from a Digital Campaign Manager translating multi-touch attribution into action.
+  </div>
+  <div class="slide-brand">Nielsen | Adhithya Rokhith Bhaskar</div>
+  <div class="slide-num">04 / 06</div>
+</div>
+
+<!-- SLIDE 5 A/B FRAMEWORK HUB -->
+<div class="slide">
+  <div class="label">Slide 05 | A/B Testing Framework, Three Scales</div>
+  <h2>From Solo Consumer-AI Build to 8-Client Agency Holdouts</h2>
+  <p style="font-size: 10pt; color: #475569; margin-bottom: 8pt;">The JD calls out "design and lead A/B testing frameworks for creative, landing pages, and audience segments." Below: how the four pieces of my testing-rigor stack already serve that mandate at production scale across three operating contexts.</p>
+
+  <svg viewBox="0 0 1000 420" class="ab-hub">
+    <circle cx="500" cy="210" r="68" fill="#1e40af"/>
+    <text x="500" y="200" text-anchor="middle" font-size="14" fill="#fff" font-weight="800">Adhithya</text>
+    <text x="500" y="218" text-anchor="middle" font-size="11" fill="#fff" font-weight="600">Multi-Mode</text>
+    <text x="500" y="234" text-anchor="middle" font-size="11" fill="#fff" font-weight="600">Experimentation</text>
+
+    <line x1="450" y1="170" x2="220" y2="80" stroke="#1e40af" stroke-width="2" stroke-dasharray="4,3"/>
+    <rect x="60" y="40" width="320" height="80" rx="8" fill="#eff6ff" stroke="#1e40af" stroke-width="1.5"/>
+    <text x="220" y="64" text-anchor="middle" font-size="11" fill="#1e3a8a" font-weight="800">SwipeHire (Solo Consumer AI)</text>
+    <text x="220" y="82" text-anchor="middle" font-size="9" fill="#1e293b">8 A/B tests on activation flows</text>
+    <text x="220" y="98" text-anchor="middle" font-size="9" fill="#1e293b">Amplitude cohort analysis from day one</text>
+    <text x="220" y="113" text-anchor="middle" font-size="9" fill="#475569" font-style="italic">+25% activation, 50+ users</text>
+
+    <line x1="550" y1="170" x2="780" y2="80" stroke="#1e40af" stroke-width="2" stroke-dasharray="4,3"/>
+    <rect x="620" y="40" width="320" height="80" rx="8" fill="#eff6ff" stroke="#1e40af" stroke-width="1.5"/>
+    <text x="780" y="64" text-anchor="middle" font-size="11" fill="#1e3a8a" font-weight="800">Pixis (8-Client Agency)</text>
+    <text x="780" y="82" text-anchor="middle" font-size="9" fill="#1e293b">Holdout incrementality testing</text>
+    <text x="780" y="98" text-anchor="middle" font-size="9" fill="#1e293b">Geo-control + treatment comparison</text>
+    <text x="780" y="113" text-anchor="middle" font-size="9" fill="#475569" font-style="italic">3x ROAS lift, p &lt; 0.05</text>
+
+    <line x1="450" y1="250" x2="220" y2="340" stroke="#1e40af" stroke-width="2" stroke-dasharray="4,3"/>
+    <rect x="60" y="300" width="320" height="80" rx="8" fill="#eff6ff" stroke="#1e40af" stroke-width="1.5"/>
+    <text x="220" y="324" text-anchor="middle" font-size="11" fill="#1e3a8a" font-weight="800">Plug Power (Paid Stack)</text>
+    <text x="220" y="342" text-anchor="middle" font-size="9" fill="#1e293b">Keyword + audience + creative tests</text>
+    <text x="220" y="358" text-anchor="middle" font-size="9" fill="#1e293b">Landing-page CVR by ad-group combo</text>
+    <text x="220" y="373" text-anchor="middle" font-size="9" fill="#475569" font-style="italic">-25% CPA, +20% conversion</text>
+
+    <line x1="550" y1="250" x2="780" y2="340" stroke="#1e40af" stroke-width="2" stroke-dasharray="4,3"/>
+    <rect x="620" y="300" width="320" height="80" rx="8" fill="#eff6ff" stroke="#1e40af" stroke-width="1.5"/>
+    <text x="780" y="324" text-anchor="middle" font-size="11" fill="#1e3a8a" font-weight="800">Sensata (Qualitative)</text>
+    <text x="780" y="342" text-anchor="middle" font-size="9" fill="#1e293b">30+ structured customer interviews</text>
+    <text x="780" y="358" text-anchor="middle" font-size="9" fill="#1e293b">Win/loss synthesis + positioning iteration</text>
+    <text x="780" y="373" text-anchor="middle" font-size="9" fill="#475569" font-style="italic">+30% win rate from synthesis</text>
+
+    <text x="500" y="20" text-anchor="middle" font-size="10" fill="#475569" font-weight="600" letter-spacing="1.5">| TESTING MODE |</text>
+    <text x="500" y="412" text-anchor="middle" font-size="10" fill="#475569" font-weight="600" letter-spacing="1.5">| BUSINESS OUTCOME |</text>
+  </svg>
+  <div class="slide-brand">Nielsen | Adhithya Rokhith Bhaskar</div>
+  <div class="slide-num">05 / 06</div>
+</div>
+
+<!-- SLIDE 6 CLOSE -->
+<div class="slide close">
+  <div class="label">Slide 06 | What I Want From the First Conversation</div>
+  <h2>15 Minutes With the Hiring Team</h2>
+  <div class="body">
+    What I would want to understand: which channel mix is currently driving the most attribution disagreement between the platform-native dashboards and the multi-touch model, how the executive review cadence runs today and which audience the narrative needs to land for, and what the year-one shape of the campaign team looks like.<br><br>
+    What I would bring to the conversation: a one-page proposal for the first three full-funnel campaigns I would run in week two, a draft multi-touch attribution audit framework, and a quick read on where the A/B testing roadmap should compound first given the buyer-journey complexity.<br><br>
+    Remote works cleanly.
+  </div>
+  <div class="cta">
+    <div class="btn">15-Minute Hiring Manager Call</div>
+    <div style="font-size: 11pt; color: #475569;">or written async if easier</div>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong><br>
+    arokhith@gmail.com | (929) 563-9974 | Boston, MA (Remote)<br>
+    Portfolio: adhi-growth-ai.vercel.app/ref/nielsen-dcm<br>
+    LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="slide-brand">Nielsen | Adhithya Rokhith Bhaskar</div>
+  <div class="slide-num">06 / 06</div>
+</div>
+
+</body>
+</html>

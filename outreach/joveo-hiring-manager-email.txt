@@ -1,0 +1,25 @@
+TO: Shehzad Karkhanawala, CMO @ Joveo
+PLATFORM: Email
+ROLE: Growth Manager (Remote)
+---
+
+Subject: Growth Manager, my side project is a small version of your core product
+
+Hi Shehzad,
+
+My side project is a small, amateur version of Joveo's core product. SwipeHire is an AI job-matching platform I built solo in six weeks on OpenAI API and React: auto-tailors resumes to JDs, scores match signal, matches jobseekers to roles. 50+ users, 8+ A/B tests, +25% activation lift. Architecture is a scrappier cousin of Joveo's ML bidding + predictive matching. I have been obsessed with the recruitment-adtech problem set at 5pm for two years.
+
+Applied for the Growth Manager role. Quick proof I can run the 9am version:
+
+- Pixis: 8-client AI adtech SaaS book, $1.4M shared budget. 3x ROAS fashion (30 days), -50% churn. Same measurement-skeptical buyer shape as Joveo.
+- Plug Power: rebuilt MarTech from scratch (Salesforce + Adobe + GA + GTM), -25% CPA, +20% conversion. SEO, paid, lifecycle, attribution, all hands-on.
+- SwipeHire: full funnel end-to-end solo. Positioning, SEO, SEM, onboarding tests, cohort retention dashboards.
+- SQL daily at Sensata (50K+ devices). Power BI on $627M pipeline. MS Marketing Analytics (Simon).
+
+Would love 20 minutes on the current Joveo funnel and where the next 10x experiment is hiding. If this sits with someone else, a pointer is amazing.
+
+Resume, cover letter, portfolio: https://adhithyabhaskar.vercel.app/ref/joveo
+
+Best,
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com | (929) 563-9974

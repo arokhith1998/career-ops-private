@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>WHOOP Senior Business Analyst Growth Marketing Pitch Deck Adhithya</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  @page { size: 11in 8.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 11pt; line-height: 1.4; color: #0f172a; background: #fff; }
+  .slide { width: 11in; height: 8.5in; padding: 0.55in 0.7in; page-break-after: always; position: relative; overflow: hidden; }
+  .slide:last-child { page-break-after: avoid; }
+  .slide-num { position: absolute; bottom: 0.3in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; font-weight: 600; letter-spacing: 1pt; }
+  .slide-brand { position: absolute; bottom: 0.3in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; font-weight: 600; letter-spacing: 0.5pt; }
+  h1 { font-size: 32pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; line-height: 1.05; letter-spacing: -0.5pt; }
+  h2 { font-size: 22pt; font-weight: 800; color: #0f172a; margin-bottom: 14pt; line-height: 1.1; letter-spacing: -0.3pt; }
+  h3 { font-size: 13pt; font-weight: 700; color: #0f172a; margin-bottom: 6pt; }
+  .accent { color: #b91c1c; }
+  .label { font-size: 8.5pt; font-weight: 700; color: #b91c1c; text-transform: uppercase; letter-spacing: 1.2pt; margin-bottom: 8pt; }
+
+  /* Cover */
+  .cover { display: flex; flex-direction: column; justify-content: center; background: linear-gradient(135deg, #fef2f2 0%, #fecaca 50%, #fca5a5 100%); }
+  .cover h1 { font-size: 38pt; }
+  .cover .sub { font-size: 16pt; color: #475569; margin-top: 6pt; font-weight: 500; }
+  .cover .author { margin-top: 32pt; padding-top: 18pt; border-top: 2pt solid #b91c1c; font-size: 11pt; color: #475569; }
+  .cover .author strong { color: #0f172a; font-weight: 700; }
+  .cover .pills { margin-top: 20pt; display: flex; gap: 8pt; flex-wrap: wrap; }
+  .pill { background: #fff; border: 1.5pt solid #b91c1c; color: #7f1d1d; padding: 5pt 12pt; border-radius: 14pt; font-size: 9pt; font-weight: 700; }
+
+  /* JD mapping */
+  .grid-2 { display: grid; grid-template-columns: 1fr 1.05fr; gap: 28pt; margin-top: 8pt; }
+  .panel { background: #fef2f2; border: 1pt solid #fecaca; border-radius: 6pt; padding: 14pt; }
+  .panel h3 { color: #7f1d1d; }
+  .kpi-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10pt; }
+  .kpi { background: #fff; border-left: 3pt solid #b91c1c; padding: 8pt 10pt; border-radius: 3pt; }
+  .kpi .v { font-size: 17pt; font-weight: 800; color: #b91c1c; line-height: 1; }
+  .kpi .l { font-size: 8.5pt; color: #475569; margin-top: 3pt; font-weight: 600; }
+  .ulx { list-style: none; padding: 0; }
+  .ulx li { padding: 4pt 0 4pt 14pt; position: relative; font-size: 10pt; color: #1e293b; }
+  .ulx li:before { content: ""; position: absolute; left: 0; top: 10pt; width: 7pt; height: 2pt; background: #b91c1c; }
+
+  /* Pixis attribution slide */
+  .flow-svg { width: 100%; height: 4.4in; }
+  .insight-box { background: #fef2f2; border-left: 4pt solid #b91c1c; padding: 12pt 16pt; margin-top: 14pt; border-radius: 0 4pt 4pt 0; }
+  .insight-box strong { color: #7f1d1d; }
+
+  /* Sensata dashboard slide */
+  .dash-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18pt; margin-top: 8pt; }
+  .dash-card { background: #fef2f2; border: 1pt solid #fecaca; border-radius: 6pt; padding: 14pt; }
+  .dash-card h3 { color: #7f1d1d; margin-bottom: 8pt; }
+  .narrative-grid { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 10pt; margin-top: 14pt; }
+  .narrative { background: #fff; border: 1pt solid #fecaca; border-radius: 6pt; padding: 10pt; }
+  .narrative h4 { color: #7f1d1d; font-size: 10pt; font-weight: 800; margin-bottom: 4pt; }
+  .narrative .v { font-size: 16pt; font-weight: 800; color: #b91c1c; }
+  .narrative .l { font-size: 8.5pt; color: #475569; margin-top: 3pt; font-weight: 600; }
+  .narrative .body { font-size: 8.5pt; color: #1e293b; margin-top: 5pt; line-height: 1.3; }
+
+  /* AI stack slide */
+  .ai-hub { width: 100%; height: 4.4in; }
+
+  /* Close slide */
+  .close { display: flex; flex-direction: column; justify-content: center; background: linear-gradient(135deg, #fef2f2 0%, #fca5a5 100%); }
+  .close h2 { font-size: 28pt; }
+  .close .body { font-size: 13pt; color: #1e293b; line-height: 1.65; max-width: 8.5in; }
+  .close .cta { margin-top: 28pt; display: flex; gap: 16pt; align-items: center; }
+  .close .cta .btn { background: #b91c1c; color: #fff; padding: 10pt 22pt; border-radius: 6pt; font-weight: 700; font-size: 11pt; }
+  .close .contact { margin-top: 24pt; font-size: 10pt; color: #475569; }
+  .close .contact strong { color: #0f172a; }
+</style>
+</head>
+<body>
+
+<!-- SLIDE 1 COVER -->
+<div class="slide cover">
+  <div class="label">Pitch Deck | WHOOP Senior Business Analyst (Growth Marketing)</div>
+  <h1>Paid-Media Measurement, Attribution, and AI-Native Workflow</h1>
+  <div class="sub">The convergence the JD asks for, already shipped</div>
+  <div class="pills">
+    <div class="pill">Pixis Beauty Brand 3x ROAS Attribution Restructure</div>
+    <div class="pill">Plug Power -25% CPA Closed-Loop Attribution</div>
+    <div class="pill">Sensata $627M Power BI Dashboard</div>
+    <div class="pill">NSE Bot Built on Claude API</div>
+    <div class="pill">4 Anthropic Claude Certifications</div>
+    <div class="pill">SwipeHire 8 A/B Tests on GA4</div>
+  </div>
+  <div class="author">
+    <strong>Adhithya Rokhith Bhaskar</strong> | Boston, MA | (929) 563-9974 | arokhith@gmail.com<br>
+    Portfolio: adhi-growth-ai.vercel.app/ref/whoop
+  </div>
+  <div class="slide-brand">Prepared for the WHOOP Hiring Team</div>
+  <div class="slide-num">01 / 06</div>
+</div>
+
+<!-- SLIDE 2 JD MAPPING -->
+<div class="slide">
+  <div class="label">Slide 02 | The Match in One View</div>
+  <h2>The Stack the JD Asks For Is the Stack I Run</h2>
+  <div class="grid-2">
+    <div class="panel">
+      <h3>WHOOP JD</h3>
+      <ul class="ulx">
+        <li>4+ yrs analytics supporting marketing/growth in consumer business</li>
+        <li>SQL + Snowflake / dbt / modern data stack</li>
+        <li>Highly adept at leveraging AI tools for efficiency and quality</li>
+        <li>Paid-media performance across search, social, display, affiliate</li>
+        <li>Experimentation, attribution, incrementality testing</li>
+        <li>Dashboards across channels, geographies, campaigns</li>
+        <li>Influence stakeholders through storytelling and data viz</li>
+        <li>Collaborate with Data Science on MMM, attribution, forecasts</li>
+      </ul>
+    </div>
+    <div class="panel">
+      <h3>What I Have Already Built</h3>
+      <div class="kpi-grid" style="margin-bottom: 10pt;">
+        <div class="kpi"><div class="v">3x</div><div class="l">ROAS, beauty-brand attribution restructure</div></div>
+        <div class="kpi"><div class="v">-25%</div><div class="l">CPA, Plug Power cross-channel</div></div>
+        <div class="kpi"><div class="v">$627M</div><div class="l">Power BI dashboard, 1,200 opportunities</div></div>
+        <div class="kpi"><div class="v">4</div><div class="l">Anthropic Claude certifications</div></div>
+        <div class="kpi"><div class="v">8</div><div class="l">A/B tests, SwipeHire activation flows</div></div>
+        <div class="kpi"><div class="v">$1.4M</div><div class="l">Pixis 8-client media book, weekly QBRs</div></div>
+      </div>
+      <ul class="ulx">
+        <li>SQL + GA4 across Sensata's 50K+ connected devices</li>
+        <li>NSE Paper-Trading Bot - production analytics on Claude API</li>
+        <li>Closed-loop attribution rebuilt on Salesforce + Adobe + GA4 + GTM</li>
+      </ul>
+    </div>
+  </div>
+  <div class="slide-brand">WHOOP | Adhithya Rokhith Bhaskar</div>
+  <div class="slide-num">02 / 06</div>
+</div>
+
+<!-- SLIDE 3 PIXIS BEAUTY BRAND ATTRIBUTION -->
+<div class="slide">
+  <div class="label">Slide 03 | Consumer DTC + Incrementality + Budget Allocation</div>
+  <h2>Pixis Beauty Brand: Attribution Restructure, 3x ROAS in One Month</h2>
+  <p style="font-size: 10pt; color: #475569; margin-bottom: 4pt;">Blended ROAS read fine. A holdout-incrementality slice showed two channels were getting credit they hadn't earned. Spend reallocated based on true lift; outcome cleared 3x ROAS the next month. Exactly the "translate complex data into decisions that inform budget allocation" line in the JD, in a consumer DTC context.</p>
+
+  <svg viewBox="0 0 1000 380" class="flow-svg">
+    <text x="500" y="28" text-anchor="middle" font-size="12" fill="#0f172a" font-weight="800">BEFORE: Blended ROAS Hides The Rot</text>
+    <rect x="40" y="50" width="180" height="100" rx="8" fill="#fff7ed" stroke="#c2410c" stroke-width="1.5"/>
+    <text x="130" y="78" text-anchor="middle" font-size="11" fill="#7c2d12" font-weight="800">Display Programmatic</text>
+    <text x="130" y="98" text-anchor="middle" font-size="9" fill="#1e293b">Credited 28% of conversions</text>
+    <text x="130" y="116" text-anchor="middle" font-size="9" fill="#1e293b">Last-click + view-through</text>
+    <text x="130" y="138" text-anchor="middle" font-size="10" fill="#c2410c" font-weight="700">True lift: 6%</text>
+
+    <rect x="240" y="50" width="180" height="100" rx="8" fill="#fff7ed" stroke="#c2410c" stroke-width="1.5"/>
+    <text x="330" y="78" text-anchor="middle" font-size="11" fill="#7c2d12" font-weight="800">Affiliate</text>
+    <text x="330" y="98" text-anchor="middle" font-size="9" fill="#1e293b">Credited 19% of conversions</text>
+    <text x="330" y="116" text-anchor="middle" font-size="9" fill="#1e293b">Coupon-driven, low intent</text>
+    <text x="330" y="138" text-anchor="middle" font-size="10" fill="#c2410c" font-weight="700">True lift: 4%</text>
+
+    <rect x="440" y="50" width="180" height="100" rx="8" fill="#fff7ed" stroke="#15803d" stroke-width="1.5"/>
+    <text x="530" y="78" text-anchor="middle" font-size="11" fill="#15803d" font-weight="800">Paid Search</text>
+    <text x="530" y="98" text-anchor="middle" font-size="9" fill="#1e293b">Credited 22% of conversions</text>
+    <text x="530" y="116" text-anchor="middle" font-size="9" fill="#1e293b">Branded + non-branded</text>
+    <text x="530" y="138" text-anchor="middle" font-size="10" fill="#15803d" font-weight="700">True lift: 31%</text>
+
+    <rect x="640" y="50" width="180" height="100" rx="8" fill="#fff7ed" stroke="#15803d" stroke-width="1.5"/>
+    <text x="730" y="78" text-anchor="middle" font-size="11" fill="#15803d" font-weight="800">Paid Social</text>
+    <text x="730" y="98" text-anchor="middle" font-size="9" fill="#1e293b">Credited 18% of conversions</text>
+    <text x="730" y="116" text-anchor="middle" font-size="9" fill="#1e293b">Meta + TikTok prospecting</text>
+    <text x="730" y="138" text-anchor="middle" font-size="10" fill="#15803d" font-weight="700">True lift: 38%</text>
+
+    <text x="500" y="195" text-anchor="middle" font-size="12" fill="#0f172a" font-weight="800">AFTER: Reallocation Based On Holdout-Validated Lift</text>
+
+    <rect x="40" y="215" width="180" height="100" rx="8" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+    <text x="130" y="243" text-anchor="middle" font-size="11" fill="#14532d" font-weight="800">Display Programmatic</text>
+    <text x="130" y="263" text-anchor="middle" font-size="9" fill="#1e293b">Spend cut 60%</text>
+    <text x="130" y="281" text-anchor="middle" font-size="9" fill="#1e293b">Retargeting-only retained</text>
+    <text x="130" y="303" text-anchor="middle" font-size="10" fill="#15803d" font-weight="700">$ freed for Search + Social</text>
+
+    <rect x="240" y="215" width="180" height="100" rx="8" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+    <text x="330" y="243" text-anchor="middle" font-size="11" fill="#14532d" font-weight="800">Affiliate</text>
+    <text x="330" y="263" text-anchor="middle" font-size="9" fill="#1e293b">Spend cut 45%</text>
+    <text x="330" y="281" text-anchor="middle" font-size="9" fill="#1e293b">Coupon-cap installed</text>
+    <text x="330" y="303" text-anchor="middle" font-size="10" fill="#15803d" font-weight="700">CAC discipline restored</text>
+
+    <rect x="440" y="215" width="180" height="100" rx="8" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+    <text x="530" y="243" text-anchor="middle" font-size="11" fill="#14532d" font-weight="800">Paid Search</text>
+    <text x="530" y="263" text-anchor="middle" font-size="9" fill="#1e293b">Spend up 35%</text>
+    <text x="530" y="281" text-anchor="middle" font-size="9" fill="#1e293b">Non-branded expansion</text>
+    <text x="530" y="303" text-anchor="middle" font-size="10" fill="#15803d" font-weight="700">Marginal ROAS held</text>
+
+    <rect x="640" y="215" width="180" height="100" rx="8" fill="#dcfce7" stroke="#15803d" stroke-width="1.5"/>
+    <text x="730" y="243" text-anchor="middle" font-size="11" fill="#14532d" font-weight="800">Paid Social</text>
+    <text x="730" y="263" text-anchor="middle" font-size="9" fill="#1e293b">Spend up 50%</text>
+    <text x="730" y="281" text-anchor="middle" font-size="9" fill="#1e293b">Creative-test cadence weekly</text>
+    <text x="730" y="303" text-anchor="middle" font-size="10" fill="#15803d" font-weight="700">Prospecting compounded</text>
+
+    <rect x="850" y="50" width="120" height="265" rx="8" fill="#b91c1c"/>
+    <text x="910" y="100" text-anchor="middle" font-size="13" fill="#fff" font-weight="800">OUTCOME</text>
+    <text x="910" y="160" text-anchor="middle" font-size="28" fill="#fff" font-weight="800">3x</text>
+    <text x="910" y="185" text-anchor="middle" font-size="10" fill="#fff" font-weight="700">ROAS lift</text>
+    <text x="910" y="225" text-anchor="middle" font-size="10" fill="#fff">in one month</text>
+    <text x="910" y="265" text-anchor="middle" font-size="9" fill="#fecaca">Validated via</text>
+    <text x="910" y="282" text-anchor="middle" font-size="9" fill="#fecaca">holdout incrementality</text>
+    <text x="910" y="299" text-anchor="middle" font-size="9" fill="#fecaca">not last-click</text>
+  </svg>
+
+  <div class="insight-box">
+    <strong>The translation:</strong> attribution is not last-click vs first-click. It is figuring out which channels actually move the number when you turn them off. That diagnostic muscle is what a growth marketing analyst at a 600-role-surge consumer DTC needs every week.
+  </div>
+  <div class="slide-brand">WHOOP | Adhithya Rokhith Bhaskar</div>
+  <div class="slide-num">03 / 06</div>
+</div>
+
+<!-- SLIDE 4 SENSATA POWER BI DASHBOARD -->
+<div class="slide">
+  <div class="label">Slide 04 | Dashboards At Scale + Stakeholder Influence</div>
+  <h2>Sensata $627M Executive Power BI: 1,200 Opportunities, 3 Regions, Read By CFO</h2>
+  <p style="font-size: 10pt; color: #475569; margin-bottom: 8pt;">A 4-page Power BI dashboard analyzing 1,200 pricing opportunities ($627M target) across 3 regions, 4 product families, and 20 product lines. KPI frameworks (% to target, win rate, average $/win, pipeline stage distribution) + regional deep-dives let leadership identify $433M in margin gaps and prioritize recovery by salesperson and product line. Read by the CFO; acted on the same week.</p>
+
+  <div class="dash-grid">
+    <div class="dash-card">
+      <h3>Page 1 - Executive Summary</h3>
+      <div style="font-size: 9pt; color: #1e293b; line-height: 1.45;">
+        <strong>$627M target</strong> across 1,200 opportunities. % to target by region. Top-5 bleeders (margin erosion) and top-5 leakers (price leakage). Pipeline stage funnel from qualify to commit.
+      </div>
+    </div>
+    <div class="dash-card">
+      <h3>Page 2 - Regional Deep-Dive</h3>
+      <div style="font-size: 9pt; color: #1e293b; line-height: 1.45;">
+        NA / EU / APAC scorecards: win rate, average $/win, pipeline stage distribution, top opportunities by salesperson. Drillable to product-family and product-line.
+      </div>
+    </div>
+    <div class="dash-card">
+      <h3>Page 3 - Product Family x Region Matrix</h3>
+      <div style="font-size: 9pt; color: #1e293b; line-height: 1.45;">
+        4 product families x 3 regions x 20 product lines = a single heat-map view of where margin is bleeding fastest. Color-coded against target.
+      </div>
+    </div>
+    <div class="dash-card">
+      <h3>Page 4 - Recovery Action List</h3>
+      <div style="font-size: 9pt; color: #1e293b; line-height: 1.45;">
+        Ranked list of recovery actions by $-impact, assigned to salesperson and product manager. SLA tracking. The page the CFO opens first.
+      </div>
+    </div>
+  </div>
+
+  <div class="narrative-grid">
+    <div class="narrative">
+      <h4>Margin Gap</h4>
+      <div class="v">$433M</div>
+      <div class="l">identified for recovery</div>
+    </div>
+    <div class="narrative">
+      <h4>Opportunities</h4>
+      <div class="v">1,200</div>
+      <div class="l">tracked weekly</div>
+    </div>
+    <div class="narrative">
+      <h4>Coverage</h4>
+      <div class="v">3 / 4 / 20</div>
+      <div class="l">regions / families / lines</div>
+    </div>
+    <div class="narrative">
+      <h4>Stack</h4>
+      <div class="v">SQL + Power BI</div>
+      <div class="l">refresh + governance owned</div>
+    </div>
+  </div>
+  <div class="slide-brand">WHOOP | Adhithya Rokhith Bhaskar</div>
+  <div class="slide-num">04 / 06</div>
+</div>
+
+<!-- SLIDE 5 AI-NATIVE STACK -->
+<div class="slide">
+  <div class="label">Slide 05 | "Highly Adept At Leveraging AI Tools"</div>
+  <h2>The AI-Native Analyst Stack, In Production</h2>
+  <p style="font-size: 10pt; color: #475569; margin-bottom: 8pt;">The JD calls out "highly adept at leveraging AI tools to increase efficiency and quality of work." Below: how the four pieces of the stack already ship analytics work.</p>
+
+  <svg viewBox="0 0 1000 420" class="ai-hub">
+    <circle cx="500" cy="210" r="68" fill="#b91c1c"/>
+    <text x="500" y="200" text-anchor="middle" font-size="14" fill="#fff" font-weight="800">Adhithya</text>
+    <text x="500" y="218" text-anchor="middle" font-size="11" fill="#fff" font-weight="600">AI-Native</text>
+    <text x="500" y="234" text-anchor="middle" font-size="11" fill="#fff" font-weight="600">Growth Analyst</text>
+
+    <line x1="450" y1="170" x2="220" y2="80" stroke="#b91c1c" stroke-width="2" stroke-dasharray="4,3"/>
+    <rect x="60" y="40" width="320" height="80" rx="8" fill="#fef2f2" stroke="#b91c1c" stroke-width="1.5"/>
+    <text x="220" y="64" text-anchor="middle" font-size="11" fill="#7f1d1d" font-weight="800">NSE Paper-Trading Bot</text>
+    <text x="220" y="82" text-anchor="middle" font-size="9" fill="#1e293b">Python + Claude API reasoning layer</text>
+    <text x="220" y="98" text-anchor="middle" font-size="9" fill="#1e293b">Rule-based scoring + interactive dashboard</text>
+    <text x="220" y="113" text-anchor="middle" font-size="9" fill="#475569" font-style="italic">Production analytics product, end-to-end</text>
+
+    <line x1="550" y1="170" x2="780" y2="80" stroke="#b91c1c" stroke-width="2" stroke-dasharray="4,3"/>
+    <rect x="620" y="40" width="320" height="80" rx="8" fill="#fef2f2" stroke="#b91c1c" stroke-width="1.5"/>
+    <text x="780" y="64" text-anchor="middle" font-size="11" fill="#7f1d1d" font-weight="800">4 Anthropic Claude Certifications</text>
+    <text x="780" y="82" text-anchor="middle" font-size="9" fill="#1e293b">Claude 101 | Code 101 | Cowork</text>
+    <text x="780" y="98" text-anchor="middle" font-size="9" fill="#1e293b">Building with the Claude API</text>
+    <text x="780" y="113" text-anchor="middle" font-size="9" fill="#475569" font-style="italic">Prompt-based iteration as daily workflow</text>
+
+    <line x1="450" y1="250" x2="220" y2="340" stroke="#b91c1c" stroke-width="2" stroke-dasharray="4,3"/>
+    <rect x="60" y="300" width="320" height="80" rx="8" fill="#fef2f2" stroke="#b91c1c" stroke-width="1.5"/>
+    <text x="220" y="324" text-anchor="middle" font-size="11" fill="#7f1d1d" font-weight="800">SwipeHire (Solo Build)</text>
+    <text x="220" y="342" text-anchor="middle" font-size="9" fill="#1e293b">Python + OpenAI API + React</text>
+    <text x="220" y="358" text-anchor="middle" font-size="9" fill="#1e293b">GA4 + GTM + Amplitude, 8 A/B tests, +25% activation</text>
+    <text x="220" y="373" text-anchor="middle" font-size="9" fill="#475569" font-style="italic">AI product with measurement instrumentation</text>
+
+    <line x1="550" y1="250" x2="780" y2="340" stroke="#b91c1c" stroke-width="2" stroke-dasharray="4,3"/>
+    <rect x="620" y="300" width="320" height="80" rx="8" fill="#fef2f2" stroke="#b91c1c" stroke-width="1.5"/>
+    <text x="780" y="324" text-anchor="middle" font-size="11" fill="#7f1d1d" font-weight="800">Cursor + Claude Daily Workflow</text>
+    <text x="780" y="342" text-anchor="middle" font-size="9" fill="#1e293b">SQL drafting, dashboard scaffolding</text>
+    <text x="780" y="358" text-anchor="middle" font-size="9" fill="#1e293b">Insight write-ups, eval loops</text>
+    <text x="780" y="373" text-anchor="middle" font-size="9" fill="#475569" font-style="italic">Structural, not decorative</text>
+
+    <text x="500" y="20" text-anchor="middle" font-size="10" fill="#475569" font-weight="600" letter-spacing="1.5">| AI CAPABILITY |</text>
+    <text x="500" y="412" text-anchor="middle" font-size="10" fill="#475569" font-weight="600" letter-spacing="1.5">| ANALYTICS OUTCOME |</text>
+  </svg>
+  <div class="slide-brand">WHOOP | Adhithya Rokhith Bhaskar</div>
+  <div class="slide-num">05 / 06</div>
+</div>
+
+<!-- SLIDE 6 CLOSE -->
+<div class="slide close">
+  <div class="label">Slide 06 | What I Want From The First Conversation</div>
+  <h2>15 Minutes With The Growth Marketing Hiring Team</h2>
+  <div class="body">
+    What I would want to understand: how the Growth Marketing team currently splits attribution work between in-house dashboards and the Data Science partnership on MMM, which paid channels (Meta, TikTok, Google, affiliate) are getting the most measurement scrutiny right now, and what the year-one shape of this hire looks like alongside the 600-role surge.<br><br>
+    What I would bring: a first read on which holdout-incrementality experiment would be cheapest to run on WHOOP's current paid mix, a draft dashboard skeleton for the cross-channel pacing meeting, and an honest take on how to use Claude or Cursor to compress the weekly reporting cycle without sacrificing the rigor a CFO will trust.<br><br>
+    Boston-based. No relocation friction. Available this week or next.
+  </div>
+  <div class="cta">
+    <div class="btn">15-Minute Hiring Team Call</div>
+    <div style="font-size: 11pt; color: #475569;">or written async if easier</div>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong><br>
+    arokhith@gmail.com | (929) 563-9974 | Boston, MA<br>
+    Portfolio: adhi-growth-ai.vercel.app/ref/whoop<br>
+    LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="slide-brand">WHOOP | Adhithya Rokhith Bhaskar</div>
+  <div class="slide-num">06 / 06</div>
+</div>
+
+</body>
+</html>

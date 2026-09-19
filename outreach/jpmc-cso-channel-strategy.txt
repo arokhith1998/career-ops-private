@@ -1,0 +1,75 @@
+ROLE: JPMorgan Chase — Senior Marketing Associate, Channel Strategy & Optimization (CSO) (210740121)
+======================================================================================================
+Tracker entry: #46
+URL: https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210740121
+
+HIRING MANAGER (likely candidates based on team scope):
+The CSO team sits inside CCB (Consumer & Community Banking). HM is likely an Executive Director-level Marketing leader.
+
+- Arie Van Zandbergen — Executive Director, Marketing Strategy at JPMorgan Chase (Columbus OH)
+  LinkedIn: https://www.linkedin.com/in/vanzandbergen/
+
+- Adam Miller — Vice President, Marketing Strategy at JPMorgan Chase (Columbus OH)
+  LinkedIn: https://www.linkedin.com/in/adam-miller-a42685b0/
+
+ADJACENT CSO TEAM MEMBERS (warm follow-up if HM unclear):
+- Wesley Gibbs — Channel Strategy & Optimization Senior Associate, JPMorgan Chase
+- Jason Younger — CCB-Owned Media Channel Strategy and Optimization Consultant, JPMorgan Chase
+(Both surface in CSO context. Could provide warm context for who their manager is.)
+
+CMO (for context):
+- Carla Hassan — CMO, JPMorgan Chase
+  LinkedIn: https://www.linkedin.com/in/carla-zakhem-hassan/
+
+RECRUITER:
+TBD via Oracle HCM after application.
+
+
+----- HM LINKEDIN NOTE -----
+Hi {First}, applying for Sr Marketing Assoc, CSO. Channel optimization is where work compounds. Rebuilt the same plumbing at Plug Power: UTM spec, GTM, click-to-SQL, -25% CPA. Pixis 8-client weekly cadence on $1.4M. Owned-channel-first. 15 min?
+
+
+----- HM EMAIL -----
+Subject: Senior Marketing Associate, CSO — where the compounding lives
+
+Hi {First},
+
+Applying for the Sr Marketing Associate, Channel Strategy and Optimization role.
+
+The reason CSO matters more than the deck makes it look is compounding. Every test you ship cheapens the next one, but only if the measurement plumbing is good enough that the data is trusted. The teams that fail at owned-channel optimization fail at trust before they fail at testing.
+
+I have rebuilt that plumbing at Plug Power. UTM spec from scratch, GTM containers rebuilt, lead routing validated through Salesforce campaign attribution. CPA dropped 25%, conversion went up 20%. The Adobe Audience Manager work that paired with it covered audience segmentation, retargeting funnels, and suppression-list logic. Net-new is decided at suppression, not at the top of the funnel.
+
+On the segmentation discipline you would need at Chase scale, Pixis is the analog. 8-client B2B SaaS portfolio on a $1.4M budget. Per-client KPI design and renewal-aligned scorecards. Churn dropped 50%.
+
+On the dashboard-build muscle for senior-stakeholder reporting, I designed a $627M margin-recovery executive Power BI dashboard at Sensata tracking 1,200 opportunities across 3 regions, 4 product families, and 20 product lines. Senior leadership reads it weekly.
+
+Consumer banking is a vertical pivot. The execution craft transfers.
+
+CV and portfolio: https://adhi-growth.vercel.app/ref/jpmc-cso
+
+15 min next week?
+
+Adhithya | Boston, MA | (929) 563-9974
+
+
+----- RECRUITER LINKEDIN NOTE -----
+Hi {Recruiter}, applied for Sr Marketing Assoc, CSO/CCB (210740121). Plug Power closed-loop attribution rebuild + Pixis 8-client B2B SaaS + $627M Sensata Power BI exec dashboard. Open to Columbus relo. Available for a screen.
+
+
+----- RECRUITER EMAIL -----
+Subject: Application — Senior Marketing Associate, CSO CCB (210740121)
+
+Hi {Recruiter},
+
+Submitted for the Channel Strategy and Optimization Senior Marketing Associate role.
+
+Three direct fits worth flagging. Plug Power MarTech and attribution rebuild (-25% CPA, click-to-SQL closed-loop). Pixis 8-client B2B SaaS portfolio with weekly QBRs and per-client measurement playbooks. Sensata $627M margin-recovery executive Power BI dashboard tracking 1,200 opportunities for senior leadership.
+
+4+ years. MS Marketing Analytics (Simon). Open to Columbus relocation.
+
+Resume: https://adhi-growth.vercel.app/ref/jpmc-cso
+
+Available for a screen this week.
+
+Adhithya | (929) 563-9974

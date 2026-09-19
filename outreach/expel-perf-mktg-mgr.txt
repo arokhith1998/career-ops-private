@@ -1,0 +1,73 @@
+ROLE: Expel — Performance Marketing Manager
+=============================================
+Tracker entry: #56
+URL: https://expel.com/about/career-listing/?gh_jid=8358848002
+Greenhouse mirror: https://job-boards.greenhouse.io/expel/jobs/8358848002
+
+HIRING MANAGER:
+TBD. The HM likely reports to the CMO and runs Demand Gen / Performance Marketing.
+
+CMO (warm second touch):
+Seema Kumar — Chief Marketing Officer, Expel
+LinkedIn: https://www.linkedin.com/in/seemaxkumar/
+Background: ex-COO at Secureframe, ex-CMO at New Relic, ex-CMO at ServiceChannel.
+
+Search LinkedIn for HM:
+- "Expel" + "Director Performance Marketing" or "Director Demand Generation"
+- "Expel" + "Senior Manager Performance Marketing"
+- "Expel" + "Head of Growth Marketing"
+
+RECRUITER:
+TBD via Greenhouse application portal. Search LinkedIn for "Expel Recruiter" or "Expel TA Marketing".
+
+
+----- HM LINKEDIN NOTE -----
+Hi {First}, applying for Perf Marketing Manager. Cybersec MDR sells against pipeline-attribution drift: ROAS on LinkedIn doesn't reconcile with SQL count. Rebuilt that closed loop at Plug Power (-25% CPA). Pixis B2B SaaS adtech tenure on $1.4M. Remote works. 15 min?
+
+
+----- HM EMAIL -----
+Subject: Perf Marketing Manager — closing the LinkedIn-to-SQL gap
+
+Hi {First},
+
+Applying for the Performance Marketing Manager role.
+
+Performance marketing in B2B SaaS, especially in cybersecurity, breaks at one specific seam: the gap between channel reporting and the pipeline number Sales actually trusts. Most teams have respectable ROAS on LinkedIn and respectable cost-per-MQL on Google and a story for programmatic, and none of those numbers reconcile with the SQL count Sales is tracking. The fix is rarely a new channel. It is closed-loop attribution, suppression rules that actually exclude existing accounts, and an A/B testing cadence that ships faster than the creative team can fatigue.
+
+I have rebuilt that stack at Plug Power. Multi-channel paid across Google Ads, Meta, LinkedIn, and Adobe-driven programmatic display, all stitched into closed-loop attribution on Salesforce, Adobe Analytics, GA4, and GTM. UTM spec from scratch, GTM containers rebuilt, lead routing validated through Salesforce. CPA dropped 25%. Adobe Audience Manager carried account-level segmentation, retargeting, and suppression-list logic, the same operating model 6sense and similar ABX platforms productize.
+
+At Pixis I worked the same B2B SaaS adtech category Expel sells into. 8-client portfolio on a $1.4M budget. Validated 3x ROAS lift via holdout incrementality. Trained 8 enterprise marketers on AI bidding and creative tools. Churn dropped 50%.
+
+6sense specifically I have not used. ABX as concept (account segmentation, intent signals, sales alignment) is muscle I built at Pixis and Plug Power. Week-one ramp.
+
+Remote works.
+
+CV and portfolio: https://adhi-growth.vercel.app/ref/expel
+
+15 min next week?
+
+Adhithya | Boston, MA | (929) 563-9974
+
+
+----- RECRUITER LINKEDIN NOTE -----
+Hi {Recruiter}, applied for Perf Marketing Manager. Plug Power full B2B paid stack + closed-loop attribution rebuild (-25% CPA) + Pixis $1.4M 8-client B2B SaaS adtech (same category) + GenY 16x ROAS. Remote works. Available for a screen.
+
+
+----- RECRUITER EMAIL -----
+Subject: Application — Performance Marketing Manager
+
+Hi {Recruiter},
+
+Submitted for the Performance Marketing Manager role.
+
+Direct fit: Plug Power full B2B paid stack (Google + Meta + LinkedIn + programmatic, -25% CPA, +20% conversion) + closed-loop attribution rebuild on Salesforce + Adobe + GA4 + GTM. Pixis $1.4M 8-client B2B SaaS adtech tenure with holdout incrementality (3x ROAS validated). GenY 16x ROAS D2C consumer.
+
+6sense is week-one ramp from Adobe Audience Manager + Pixis ABM-style B2B SaaS account work. STEM OPT work-authorized today.
+
+4+ years. Remote works.
+
+Resume: https://adhi-growth.vercel.app/ref/expel
+
+Available for a screen this week.
+
+Adhithya | (929) 563-9974

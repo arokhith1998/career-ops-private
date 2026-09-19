@@ -1,0 +1,6 @@
+TO: [Recruiter Name], Ramp Recruiting
+PLATFORM: LinkedIn Connection Note (300 char limit)
+ROLE: Growth Manager, Website CRO, Ramp
+---
+
+Hi [Recruiter Name], applied for Growth Manager, Website CRO. Built a production AI product on OpenAI API (SwipeHire, +25% activation via 8+ A/B tests). Ran growth on AI adtech SaaS at Pixis ($1.4M, 3x ROAS). Built Plug Power CRO + MarTech stack from scratch. Claude Cowork + Claude API certified. Relocating to NY.

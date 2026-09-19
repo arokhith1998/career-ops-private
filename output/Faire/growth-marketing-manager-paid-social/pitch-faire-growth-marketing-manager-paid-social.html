@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Faire Growth Marketing Manager Paid Social Pitch Deck Adhithya</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  @page { size: 11in 8.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #fdfaf3; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; }
+  .slide { width: 11in; height: 8.5in; padding: 0.55in 0.75in 0.5in 0.75in; page-break-after: always; position: relative; overflow: hidden; background: #fdfaf3; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.35in; right: 0.55in; font-size: 8.5pt; color: #a8a29e; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.35in; left: 0.75in; font-size: 8.5pt; color: #a8a29e; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #c2410c; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 10pt; }
+  h1 { font-size: 36pt; font-weight: 800; color: #1c1917; line-height: 1.04; letter-spacing: -0.6pt; margin-bottom: 8pt; }
+  h2 { font-size: 24pt; font-weight: 800; color: #1c1917; line-height: 1.08; letter-spacing: -0.4pt; margin-bottom: 6pt; }
+  h2 .accent { color: #c2410c; }
+  .lede { font-size: 13pt; color: #57534e; max-width: 8.5in; margin-bottom: 14pt; font-weight: 400; }
+
+  /* Cover */
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 1in; padding-right: 1in; background: linear-gradient(135deg, #fdfaf3 0%, #fef3e9 100%); }
+  .cover h1 { font-size: 42pt; max-width: 9.2in; }
+  .cover .sub { font-size: 17pt; color: #57534e; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 26pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 9.5in; }
+  .tag { background: #fff; border: 1pt solid #d6d3d1; color: #44403c; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.5pt; font-weight: 500; }
+  .tag strong { color: #c2410c; font-weight: 700; }
+  .cover .who { margin-top: 30pt; padding-top: 14pt; border-top: 1.5pt solid #c2410c; max-width: 7in; }
+  .cover .who .nm { font-size: 11pt; color: #1c1917; font-weight: 700; }
+  .cover .who .ct { font-size: 9.5pt; color: #57534e; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.6in; right: 0.85in; font-size: 9pt; color: #a8a29e; font-style: italic; }
+
+  /* Marketplace illustration on cover */
+  .mkt { position: absolute; right: 0.7in; bottom: 1.6in; width: 3in; height: 2.2in; opacity: 0.95; }
+
+  /* Manifesto-mapping slide */
+  .manifesto { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 4pt; }
+  .manifesto-col { padding: 14pt 0 0 0; border-top: 2.5pt solid #c2410c; }
+  .manifesto-col h3 { font-size: 13pt; font-weight: 800; color: #1c1917; margin-bottom: 12pt; letter-spacing: -0.2pt; }
+  .manifesto-quote { background: #fef3e9; border-left: 3pt solid #c2410c; padding: 8pt 12pt; margin-bottom: 10pt; }
+  .manifesto-quote .q { font-size: 10.5pt; color: #7c2d12; font-style: italic; line-height: 1.45; font-weight: 600; }
+  .manifesto-proof { padding: 6pt 0 10pt 0; border-bottom: 1pt solid #e7e5e4; }
+  .manifesto-proof .p { font-size: 10pt; color: #44403c; line-height: 1.5; }
+  .manifesto-proof .p b { color: #1c1917; font-weight: 700; }
+
+  /* Pixis attribution slide */
+  .pixis-grid { display: grid; grid-template-columns: 1fr 2.4in; gap: 18pt; margin-top: 4pt; }
+  .pixis-svg { width: 100%; height: 4.2in; }
+  .margin-note { font-size: 9.5pt; color: #57534e; line-height: 1.55; font-style: italic; border-top: 1pt solid #d6d3d1; padding-top: 10pt; margin-top: 10pt; }
+  .margin-note .hdr { font-style: normal; font-weight: 700; color: #c2410c; font-size: 9pt; letter-spacing: 1pt; text-transform: uppercase; margin-bottom: 6pt; }
+  .margin-note p { margin-bottom: 8pt; }
+
+  /* Architecture slide */
+  .arch-svg { width: 100%; height: 4.2in; }
+
+  /* Week one */
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 8pt; }
+  .card { background: #fff; border: 1pt solid #e7e5e4; border-left: 4pt solid #c2410c; padding: 14pt 14pt 12pt 14pt; }
+  .card .label { font-size: 8.5pt; color: #c2410c; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 13pt; font-weight: 800; color: #1c1917; line-height: 1.18; margin-bottom: 8pt; }
+  .card .body { font-size: 9.5pt; color: #44403c; line-height: 1.5; margin-bottom: 8pt; }
+  .card .why { font-size: 9pt; color: #78716c; line-height: 1.5; padding-top: 8pt; border-top: 1pt dashed #d6d3d1; }
+  .card .why strong { color: #c2410c; font-weight: 700; }
+
+  /* Close */
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 1in; padding-right: 1in; background: linear-gradient(135deg, #fdfaf3 0%, #fef3e9 100%); }
+  .close h2 { font-size: 30pt; max-width: 8.5in; margin-bottom: 16pt; }
+  .close .body { font-size: 11.5pt; color: #44403c; line-height: 1.6; max-width: 8.5in; }
+  .close .body p { margin-bottom: 10pt; }
+  .close .body strong { color: #c2410c; font-weight: 700; }
+  .close .cta { margin-top: 22pt; display: inline-flex; gap: 14pt; align-items: center; }
+  .close .cta .btn { background: #1c1917; color: #fff; padding: 11pt 22pt; border-radius: 3pt; font-weight: 700; font-size: 11pt; letter-spacing: 0.3pt; }
+  .close .cta .alt { font-size: 10.5pt; color: #78716c; font-style: italic; }
+  .close .contact { margin-top: 24pt; font-size: 10pt; color: #57534e; line-height: 1.6; }
+  .close .contact strong { color: #1c1917; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<!-- SLIDE 1 - COVER -->
+<div class="slide cover">
+  <div class="prep">Prepared for the Faire Growth Marketing Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Growth Marketing Manager, Paid Social | Faire</div>
+  <h1>Two-sided marketplaces live or die on retention.</h1>
+  <div class="sub">Paid social on the retailer side - holdout incrementality, retargeting, AI-native execution.</div>
+  <div class="tags">
+    <div class="tag"><strong>Pixis</strong> - $1.4M aggregate annual book, 8 clients, Meta-led paid social</div>
+    <div class="tag"><strong>3x ROAS</strong> via holdout-incrementality slice on a D2C beauty client</div>
+    <div class="tag"><strong>Plug Power</strong> - Adobe AAM account-level retargeting + LinkedIn ABM (-25% CPA)</div>
+    <div class="tag"><strong>SwipeHire</strong> - two-sided AI matching marketplace shipped solo</div>
+    <div class="tag"><strong>4</strong> Anthropic Claude Certifications + Cursor daily</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">Boston, MA | NYC or SF | arokhith@gmail.com | (929) 563-9974 | adhi-growth-ai.vercel.app/ref/faire-paid-social</div>
+  </div>
+
+  <svg class="mkt" viewBox="0 0 300 220">
+    <defs>
+      <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stop-color="#fed7aa" stop-opacity="0.7"/>
+        <stop offset="100%" stop-color="#fed7aa" stop-opacity="0"/>
+      </radialGradient>
+    </defs>
+    <circle cx="150" cy="110" r="100" fill="url(#glow)"/>
+    <!-- left side: retailers (dots) -->
+    <g>
+      <circle cx="40" cy="50" r="6" fill="#c2410c"/>
+      <circle cx="55" cy="90" r="6" fill="#c2410c"/>
+      <circle cx="35" cy="130" r="6" fill="#c2410c"/>
+      <circle cx="60" cy="170" r="6" fill="#c2410c"/>
+      <circle cx="80" cy="60" r="6" fill="#c2410c"/>
+      <circle cx="85" cy="120" r="6" fill="#c2410c"/>
+      <circle cx="75" cy="160" r="6" fill="#c2410c"/>
+      <text x="55" y="200" font-size="9" fill="#78716c" font-weight="700" letter-spacing="1">RETAILERS</text>
+    </g>
+    <!-- right side: brands -->
+    <g>
+      <rect x="222" y="44" width="12" height="12" fill="#1c1917"/>
+      <rect x="240" y="78" width="12" height="12" fill="#1c1917"/>
+      <rect x="220" y="120" width="12" height="12" fill="#1c1917"/>
+      <rect x="246" y="156" width="12" height="12" fill="#1c1917"/>
+      <rect x="262" y="56" width="12" height="12" fill="#1c1917"/>
+      <rect x="262" y="110" width="12" height="12" fill="#1c1917"/>
+      <text x="240" y="200" font-size="9" fill="#78716c" font-weight="700" letter-spacing="1">BRANDS</text>
+    </g>
+    <!-- connecting lines -->
+    <g stroke="#fdba74" stroke-width="1" opacity="0.6">
+      <line x1="40" y1="50" x2="222" y2="44"/>
+      <line x1="55" y1="90" x2="240" y2="78"/>
+      <line x1="35" y1="130" x2="220" y2="120"/>
+      <line x1="60" y1="170" x2="246" y2="156"/>
+      <line x1="80" y1="60" x2="262" y2="56"/>
+      <line x1="85" y1="120" x2="262" y2="110"/>
+      <line x1="75" y1="160" x2="220" y2="120"/>
+      <line x1="55" y1="90" x2="262" y2="56"/>
+    </g>
+    <!-- centerpoint -->
+    <circle cx="150" cy="110" r="22" fill="#fff" stroke="#c2410c" stroke-width="2"/>
+    <text x="150" y="108" text-anchor="middle" font-size="9" fill="#c2410c" font-weight="800">REPEAT</text>
+    <text x="150" y="120" text-anchor="middle" font-size="9" fill="#c2410c" font-weight="800">PURCHASE</text>
+  </svg>
+
+  <div class="brand">Faire | Adhithya Rokhith Bhaskar</div>
+  <div class="num">01 / 06</div>
+</div>
+
+<!-- SLIDE 2 - JD MAPPING -->
+<div class="slide">
+  <div class="eyebrow">Slide 02 | Where the JD Reads Like the Last Four Years of My Operating Notes</div>
+  <h2>Each criterion on the left <span class="accent">has a working proof on the right.</span></h2>
+  <div class="lede">Six lines from the posting. Six things I've already shipped. Substance, not slogan.</div>
+
+  <div class="manifesto">
+    <div class="manifesto-col">
+      <h3>What the JD asks for</h3>
+      <div class="manifesto-quote"><div class="q">"3-5 years managing medium-scale campaigns on Meta and other paid social platforms."</div></div>
+      <div class="manifesto-quote"><div class="q">"Familiarity with A/B testing and incrementality testing."</div></div>
+      <div class="manifesto-quote"><div class="q">"Experience with retargeting and reengagement campaigns."</div></div>
+      <div class="manifesto-quote"><div class="q">"Proficiency with marketing automation tools like Smartly, Hunch, Omneky."</div></div>
+      <div class="manifesto-quote"><div class="q">"Experience using AI and automation to improve workflows."</div></div>
+      <div class="manifesto-quote"><div class="q">"Background in two-sided marketplaces or small-business products."</div></div>
+    </div>
+
+    <div class="manifesto-col">
+      <h3>What I've actually shipped</h3>
+      <div class="manifesto-proof"><div class="p"><b>Pixis 8-client B2B SaaS + D2C portfolio at $1.4M aggregate book</b>, per-client monthly $15K-$90K across Meta + LinkedIn + Criteo + Amazon + programmatic. Plus Plug Power Meta + LinkedIn ABM and GenY Meta-catalog rebuild (16x ROAS).</div></div>
+      <div class="manifesto-proof"><div class="p"><b>Pixis holdout-incrementality slice on a D2C beauty client.</b> Exposed two over-credited channels. Reallocated spend on true lift. <b>3x ROAS the next month.</b></div></div>
+      <div class="manifesto-proof"><div class="p"><b>Plug Power Adobe AAM account-level retargeting funnels:</b> 6 behavioral segments, 3 suppression lists, audience layers by title + seniority + industry. LinkedIn ABM layered on top. -25% CPA, +20% conversion.</div></div>
+      <div class="manifesto-proof"><div class="p"><b>Trained 8 enterprise marketers at Pixis</b> on the platform's AI bidding + creative-automation tools - the same product category Smartly, Hunch, and Omneky compete in. Daily operator inside that workflow shape.</div></div>
+      <div class="manifesto-proof"><div class="p"><b>4 Anthropic Claude certifications + 2 shipped AI products solo</b> (SwipeHire on OpenAI API + NSE Bot on Claude API). Cursor + Claude as daily workflow.</div></div>
+      <div class="manifesto-proof"><div class="p"><b>SwipeHire is a literal two-sided AI matching marketplace</b> built zero-to-one: job seekers on one side, recruiters on the other. The day-one cohort retention work transfers directly.</div></div>
+    </div>
+  </div>
+
+  <div class="brand">Faire | Adhithya Rokhith Bhaskar</div>
+  <div class="num">02 / 06</div>
+</div>
+
+<!-- SLIDE 3 - PIXIS HOLDOUT INCREMENTALITY -->
+<div class="slide">
+  <div class="eyebrow">Slide 03 | The Diagnostic That Mattered</div>
+  <h2>D2C beauty client at Pixis: <span class="accent">3x ROAS via holdout incrementality.</span></h2>
+  <div class="lede">Blended ROAS looked fine. A holdout slice showed two channels were getting credit they had not earned. I cut the weak spend, doubled down on what was actually driving lift, and the brand cleared 3x ROAS the next month. This is the muscle that protects spend on the retailer side of a two-sided marketplace where the "easy" reengagement channels are usually the most over-credited.</div>
+
+  <div class="pixis-grid">
+    <svg viewBox="0 0 720 360" class="pixis-svg">
+      <text x="370" y="22" text-anchor="middle" font-size="11" fill="#1c1917" font-weight="800">BEFORE: Last-click credit hides the rot</text>
+
+      <rect x="20" y="40" width="160" height="80" rx="4" fill="#fff" stroke="#d6d3d1" stroke-width="1"/>
+      <text x="100" y="62" text-anchor="middle" font-size="10.5" fill="#1c1917" font-weight="800">Display Programmatic</text>
+      <text x="100" y="78" text-anchor="middle" font-size="9" fill="#57534e">Credited 28% of conv.</text>
+      <text x="100" y="92" text-anchor="middle" font-size="9" fill="#b91c1c" font-weight="700">True lift: 6%</text>
+      <text x="100" y="108" text-anchor="middle" font-size="8.5" fill="#78716c" font-style="italic">view-through inflation</text>
+
+      <rect x="200" y="40" width="160" height="80" rx="4" fill="#fff" stroke="#d6d3d1" stroke-width="1"/>
+      <text x="280" y="62" text-anchor="middle" font-size="10.5" fill="#1c1917" font-weight="800">Affiliate</text>
+      <text x="280" y="78" text-anchor="middle" font-size="9" fill="#57534e">Credited 19% of conv.</text>
+      <text x="280" y="92" text-anchor="middle" font-size="9" fill="#b91c1c" font-weight="700">True lift: 4%</text>
+      <text x="280" y="108" text-anchor="middle" font-size="8.5" fill="#78716c" font-style="italic">coupon-pickoff</text>
+
+      <rect x="380" y="40" width="160" height="80" rx="4" fill="#fff" stroke="#d6d3d1" stroke-width="1"/>
+      <text x="460" y="62" text-anchor="middle" font-size="10.5" fill="#1c1917" font-weight="800">Paid Search</text>
+      <text x="460" y="78" text-anchor="middle" font-size="9" fill="#57534e">Credited 22% of conv.</text>
+      <text x="460" y="92" text-anchor="middle" font-size="9" fill="#15803d" font-weight="700">True lift: 31%</text>
+      <text x="460" y="108" text-anchor="middle" font-size="8.5" fill="#78716c" font-style="italic">non-brand compounds</text>
+
+      <rect x="560" y="40" width="140" height="80" rx="4" fill="#fff" stroke="#d6d3d1" stroke-width="1"/>
+      <text x="630" y="62" text-anchor="middle" font-size="10.5" fill="#1c1917" font-weight="800">Paid Social (Meta)</text>
+      <text x="630" y="78" text-anchor="middle" font-size="9" fill="#57534e">Credited 18%</text>
+      <text x="630" y="92" text-anchor="middle" font-size="9" fill="#15803d" font-weight="700">True lift: 38%</text>
+      <text x="630" y="108" text-anchor="middle" font-size="8.5" fill="#78716c" font-style="italic">prospecting carry</text>
+
+      <text x="370" y="155" text-anchor="middle" font-size="11" fill="#1c1917" font-weight="800">AFTER: Reallocation on holdout-validated lift</text>
+
+      <rect x="20" y="175" width="160" height="80" rx="4" fill="#fef3e9" stroke="#c2410c" stroke-width="1.5"/>
+      <text x="100" y="197" text-anchor="middle" font-size="10.5" fill="#7c2d12" font-weight="800">Display Programmatic</text>
+      <text x="100" y="215" text-anchor="middle" font-size="9" fill="#44403c">Spend cut 60%</text>
+      <text x="100" y="231" text-anchor="middle" font-size="9" fill="#44403c">Retargeting-only retained</text>
+      <text x="100" y="246" text-anchor="middle" font-size="8.5" fill="#c2410c" font-weight="700">$ freed for Search + Social</text>
+
+      <rect x="200" y="175" width="160" height="80" rx="4" fill="#fef3e9" stroke="#c2410c" stroke-width="1.5"/>
+      <text x="280" y="197" text-anchor="middle" font-size="10.5" fill="#7c2d12" font-weight="800">Affiliate</text>
+      <text x="280" y="215" text-anchor="middle" font-size="9" fill="#44403c">Spend cut 45%</text>
+      <text x="280" y="231" text-anchor="middle" font-size="9" fill="#44403c">Coupon cap installed</text>
+      <text x="280" y="246" text-anchor="middle" font-size="8.5" fill="#c2410c" font-weight="700">CAC discipline restored</text>
+
+      <rect x="380" y="175" width="160" height="80" rx="4" fill="#fef3e9" stroke="#c2410c" stroke-width="1.5"/>
+      <text x="460" y="197" text-anchor="middle" font-size="10.5" fill="#7c2d12" font-weight="800">Paid Search</text>
+      <text x="460" y="215" text-anchor="middle" font-size="9" fill="#44403c">Spend up 35%</text>
+      <text x="460" y="231" text-anchor="middle" font-size="9" fill="#44403c">Non-brand expansion</text>
+      <text x="460" y="246" text-anchor="middle" font-size="8.5" fill="#c2410c" font-weight="700">Marginal ROAS held</text>
+
+      <rect x="560" y="175" width="140" height="80" rx="4" fill="#fef3e9" stroke="#c2410c" stroke-width="1.5"/>
+      <text x="630" y="197" text-anchor="middle" font-size="10.5" fill="#7c2d12" font-weight="800">Paid Social (Meta)</text>
+      <text x="630" y="215" text-anchor="middle" font-size="9" fill="#44403c">Spend up 50%</text>
+      <text x="630" y="231" text-anchor="middle" font-size="9" fill="#44403c">Weekly creative cycle</text>
+      <text x="630" y="246" text-anchor="middle" font-size="8.5" fill="#c2410c" font-weight="700">Prospecting compounded</text>
+
+      <rect x="240" y="285" width="240" height="60" rx="6" fill="#c2410c"/>
+      <text x="360" y="312" text-anchor="middle" font-size="26" fill="#fff" font-weight="800">3x ROAS</text>
+      <text x="360" y="331" text-anchor="middle" font-size="10" fill="#fef3e9">in one month, validated by holdout incrementality</text>
+    </svg>
+
+    <div class="margin-note">
+      <div class="hdr">Why this matters for Faire</div>
+      <p>On a marketplace, retailer-reengagement spend is the channel most likely to get over-credited - the buyer would have come back anyway. Holdout incrementality is the only way to see the true repeat-purchase lift.</p>
+      <p>The discipline that drove the 3x ROAS - <strong>cut weak spend, double down on what works</strong> - is the same muscle that protects retailer LTV when blended ROAS looks fine but cohort retention is leaking.</p>
+    </div>
+  </div>
+
+  <div class="brand">Faire | Adhithya Rokhith Bhaskar</div>
+  <div class="num">03 / 06</div>
+</div>
+
+<!-- SLIDE 4 - PLUG POWER RETARGETING ARCHITECTURE -->
+<div class="slide">
+  <div class="eyebrow">Slide 04 | Account-Level Retargeting + Closed-Loop Attribution</div>
+  <h2>Plug Power: <span class="accent">retargeting that respects context, tracked end-to-end.</span></h2>
+  <div class="lede">The JD asks for retargeting + reengagement and AI/automation pilots inside the paid program. I rebuilt this exact stack at Plug Power from zero. Different vertical (industrial energy vs B2B wholesale), same operator pattern - layered audiences, behavioral segments, suppression discipline, and proof end-to-end on Salesforce + Adobe + GA4 + GTM.</div>
+
+  <div class="pixis-grid">
+    <svg viewBox="0 0 720 340" class="arch-svg">
+      <text x="20" y="22" font-size="10" fill="#c2410c" font-weight="700" letter-spacing="1.5">CHANNELS</text>
+      <rect x="20" y="40" width="660" height="44" rx="3" fill="#fff" stroke="#d6d3d1" stroke-width="1"/>
+      <text x="40" y="60" font-size="10.5" fill="#1c1917" font-weight="700">Meta + LinkedIn ABM + Google Ads + Adobe-Driven Programmatic</text>
+      <text x="40" y="76" font-size="9" fill="#57534e">A/B tested keywords, audiences, creative with sample-size + significance gates defined up front</text>
+
+      <text x="20" y="102" font-size="10" fill="#c2410c" font-weight="700" letter-spacing="1.5">RETARGETING + REENGAGEMENT</text>
+      <rect x="20" y="120" width="660" height="44" rx="3" fill="#fef3e9" stroke="#c2410c" stroke-width="1.5"/>
+      <text x="40" y="140" font-size="10.5" fill="#1c1917" font-weight="700">Adobe Audience Manager - account-level behavioral segments + audience layers + suppression lists</text>
+      <text x="40" y="156" font-size="9" fill="#57534e">Title + seniority + industry-driven audiences | Lookalike expansion | Retargeting funnels for active vs dormant cohorts</text>
+
+      <text x="20" y="182" font-size="10" fill="#c2410c" font-weight="700" letter-spacing="1.5">TRACKING</text>
+      <rect x="20" y="200" width="660" height="44" rx="3" fill="#fff" stroke="#d6d3d1" stroke-width="1"/>
+      <text x="40" y="220" font-size="10.5" fill="#1c1917" font-weight="700">UTM spec written from zero + GTM containers rebuilt + GA4 events validated + Adobe Analytics</text>
+      <text x="40" y="236" font-size="9" fill="#57534e">Closed-loop attribution traced end-to-end from ad click through MQL through Sales-Qualified Lead</text>
+
+      <text x="20" y="262" font-size="10" fill="#c2410c" font-weight="700" letter-spacing="1.5">HANDOFF</text>
+      <rect x="20" y="280" width="660" height="44" rx="3" fill="#fff" stroke="#d6d3d1" stroke-width="1"/>
+      <text x="40" y="300" font-size="10.5" fill="#1c1917" font-weight="700">Salesforce campaign attribution + lead-routing rules + SLA documentation feeding sales alerting</text>
+      <text x="40" y="316" font-size="9" fill="#c2410c" font-weight="700">Outcomes: -25% CPA, +20% conversion, defended weekly to finance + sales</text>
+
+      <path d="M 350 89 L 350 117" stroke="#a8a29e" stroke-width="1.5" fill="none" marker-end="url(#arrFA)"/>
+      <path d="M 350 169 L 350 197" stroke="#a8a29e" stroke-width="1.5" fill="none" marker-end="url(#arrFA)"/>
+      <path d="M 350 249 L 350 277" stroke="#a8a29e" stroke-width="1.5" fill="none" marker-end="url(#arrFA)"/>
+
+      <defs>
+        <marker id="arrFA" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+          <polygon points="0 0, 8 4, 0 8" fill="#a8a29e"/>
+        </marker>
+      </defs>
+    </svg>
+
+    <div class="margin-note">
+      <div class="hdr">Translation to Faire</div>
+      <p>Swap "title + seniority + industry" for "retailer category + recency + order-frequency + AOV". Swap "Sales-Qualified Lead" for "second-order retailer". The retargeting cohort logic and the closed-loop tracking discipline are identical.</p>
+      <p>SwipeHire's day-one GA4 + GTM + Amplitude instrumentation and 8 A/B tests with sample-size + significance gates is the landing-page rigor that drops in immediately.</p>
+    </div>
+  </div>
+
+  <div class="brand">Faire | Adhithya Rokhith Bhaskar</div>
+  <div class="num">04 / 06</div>
+</div>
+
+<!-- SLIDE 5 - FIRST 30 DAYS -->
+<div class="slide">
+  <div class="eyebrow">Slide 05 | First Thirty Days at Faire</div>
+  <h2>Three experiments I'd run <span class="accent">in the first thirty days on the retailer side.</span></h2>
+  <div class="lede">Concrete and scoped. Each ships inside a month and produces a measurable retention outcome - not a CPL one.</div>
+
+  <div class="week">
+    <div class="card">
+      <div class="label">Experiment 1 - Holdout on Reengagement</div>
+      <div class="ttl">Retailer-cohort holdout slice on the largest reengagement audience</div>
+      <div class="body">Pick the biggest retailer-reengagement audience currently running on Meta. Carve a matched holdout cell. Measure incremental repeat-purchase lift over 3 weeks against the exposed cell. Cut over-credited spend, reallocate to true lift.</div>
+      <div class="why"><strong>Why first.</strong> On a marketplace, reengagement spend is the channel most likely to get over-credited - the retailer would have come back anyway. This is the Pixis 3x ROAS muscle applied to the retailer side.</div>
+    </div>
+
+    <div class="card">
+      <div class="label">Experiment 2 - AI Pilots in the Paid Program</div>
+      <div class="ttl">Three AI/automation pilots inside the existing workflow</div>
+      <div class="body">(a) Creative-variant generation pipeline on the Claude API for retailer-segment-specific copy; (b) Hunch-style dynamic catalog templating for category-level retargeting variants; (c) Automated significance gating on every A/B test so the team stops calling winners early.</div>
+      <div class="why"><strong>Why first.</strong> Direct fit to the JD's "leverage AI and automation tools" criterion. I trained 8 enterprise marketers on the Pixis AI bidding + creative platform - same product category as Smartly + Hunch + Omneky. Plus 4 Claude certs + 2 shipped AI products solo.</div>
+    </div>
+
+    <div class="card">
+      <div class="label">Experiment 3 - Retention Dashboard</div>
+      <div class="ttl">One-page retailer-cohort retention dashboard in Power BI</div>
+      <div class="body">Build a weekly retailer-cohort retention dashboard: CPM, CTR, CVR, ROAS sliced by retailer cohort + retention curve by months-since-acquisition. Surface the cohorts where reengagement is leaking and the ones where it is compounding. Become the artifact the team opens every Monday.</div>
+      <div class="why"><strong>Why first.</strong> Same shape as the $627M Bleeders &amp; Leakers Power BI dashboard at Sensata (1,200 opportunities, 3 regions, 4 product families) - executive-facing artifact built for decision-making, not for show.</div>
+    </div>
+  </div>
+
+  <div class="brand">Faire | Adhithya Rokhith Bhaskar</div>
+  <div class="num">05 / 06</div>
+</div>
+
+<!-- SLIDE 6 - CLOSE -->
+<div class="slide close">
+  <div class="eyebrow">Slide 06 | The Ask</div>
+  <h2>What I'd want from <span class="accent">the first fifteen minutes.</span></h2>
+  <div class="body">
+    <p><strong>What I'd want to understand:</strong> which retailer cohort is currently leaking hardest on reengagement; how the team is currently splitting holdouts on Meta; and where the AI/automation pilots are most blocked today (data, tooling, or org velocity).</p>
+    <p><strong>What I'd bring:</strong> a draft retailer-cohort holdout design scoped to one Meta reengagement audience, three concrete AI-automation pilots ready to scope, and a one-pager on how I'd structure the first 90 days on the retailer side.</p>
+    <p>NYC works. SF works. Flexible on the hybrid cadence.</p>
+  </div>
+  <div class="cta">
+    <div class="btn">15 min with the Faire team</div>
+    <div class="alt">or written async if that's easier on your week</div>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong><br>
+    arokhith@gmail.com | (929) 563-9974 | Boston, MA<br>
+    Portfolio: adhi-growth-ai.vercel.app/ref/faire-paid-social<br>
+    LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">Faire | Adhithya Rokhith Bhaskar</div>
+  <div class="num">06 / 06</div>
+</div>
+
+</body>
+</html>

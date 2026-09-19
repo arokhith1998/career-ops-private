@@ -1,0 +1,171 @@
+# Career-Ops Profile -- Adhithya Rokhith Bhaskar
+# User layer: gitignored, never auto-updated. Updated 2026-09-18 for the
+# two-track search (US: Bay Area + Remote-US, India: CoS / Head of Growth).
+
+candidate:
+  full_name: "Adhithya Rokhith Bhaskar"
+  email: "arokhith@gmail.com"
+  phone: "+1-929-563-9974"
+  location: "San Francisco Bay Area, CA"   # resume header city for the US track
+  linkedin: "https://www.linkedin.com/in/adhithyarokhith/"
+  portfolio_url: "https://adhithyabhaskar.vercel.app/"
+  github: "https://github.com/arokhith1998"
+
+# ------------------------------------------------------------------ tracks
+# Two independent searches. Each track has its own geography, titles and
+# seniority band. config/nightly.yml mirrors these for the scrapers.
+tracks:
+  us:
+    geography: "San Francisco Bay Area, CA + Remote-US"
+    header_city: "San Francisco Bay Area, CA"
+    roles:
+      - "Marketing (Product / Strategic / Growth / Performance)"
+      - "Pricing / Monetization / Deal Desk"
+      - "Revenue Operations (RevOps)"
+      - "Product Management"
+      - "Market Strategy / Market & Competitive Intelligence"
+    seniority: "Mid-level: Analyst, Associate, Specialist, Manager, Senior Manager when the JD asks <= 6 yrs"
+    work_authorization_gate: true      # H-1B / E-Verify gate applies
+  india:
+    geography: "India (Bengaluru, Mumbai, Delhi NCR, Hyderabad, Pune, Chennai) + Remote-India"
+    header_city: "San Francisco Bay Area, CA"   # same header as the US track, by choice
+    roles:
+      - "Chief of Staff"
+      - "Head of Growth"
+    seniority: "Head-of and Chief of Staff titles allowed on this track; drop VP titles and reqs asking 9+ yrs"
+    work_authorization_gate: false     # US visa gate does not apply to India roles
+
+target_roles:
+  primary:
+    - "Product Marketing Manager"
+    - "Strategic Marketing Manager"
+    - "Pricing Manager / Pricing Strategy"
+    - "Revenue Operations Manager"
+    - "Product Manager"
+    - "Market Strategy / Market Intelligence Manager"
+    - "Chief of Staff (India)"
+    - "Head of Growth (India)"
+  archetypes:
+    - name: "Product / Strategic Marketing"
+      level: "Associate-Manager"
+      fit: "primary"
+    - name: "Pricing / Monetization / Deal Desk"
+      level: "Analyst-Manager"
+      fit: "primary"
+    - name: "Revenue Operations"
+      level: "Analyst-Manager"
+      fit: "primary"
+    - name: "Product Manager (PM / Growth PM)"
+      level: "Associate-PM"
+      fit: "primary"
+    - name: "Market Strategy / Competitive Intelligence"
+      level: "Analyst-Manager"
+      fit: "primary"
+    - name: "Growth / Performance Marketing"
+      level: "Manager"
+      fit: "secondary"
+    - name: "Chief of Staff (India)"
+      level: "CoS to CEO/Founder"
+      fit: "primary"
+    - name: "Head of Growth (India)"
+      level: "Head"
+      fit: "primary"
+
+narrative:
+  headline: "Pricing & Product Marketing | Founder, PriceKeel | Applied Materials, ex-Sensata | MS Marketing Analytics, Simon"
+  exit_story: >
+    Founder and CEO of PriceKeel (decision integrity for B2B SaaS deal pricing) and
+    Strategic Marketing III at Applied Materials. Previously led global pricing and
+    product marketing for Sensata's Industrial BU and ran paid growth at Plug Power,
+    Pixis and GenY Medium. MS Marketing Analytics, Simon Business School.
+  superpowers:
+    - "Pricing strategy, discount governance and deal desk (B2B industrial + SaaS)"
+    - "Product marketing: GTM, positioning, sales enablement, competitive intel"
+    - "Revenue analytics: SQL, GA4, Power BI, Tableau, A/B testing"
+    - "Performance marketing: Paid Search, Paid Social, Programmatic, SA360"
+    - "Founder operating range: zero-to-one product, GTM and pricing"
+  proof_points:
+    - name: "PriceKeel (Founder & CEO)"
+      hero_metric: "Decision-integrity layer for B2B SaaS deal pricing; no traction metrics, never invent any"
+    - name: "Sensata Pricing Lead"
+      hero_metric: "Global pricing for Industrial BU; +12% YoY revenue, +8% market share"
+    - name: "Sensata GTM"
+      hero_metric: "$2M+ first-year revenue on new sensing products; win rates +30%"
+    - name: "Plug Power Digital Marketing"
+      hero_metric: "-25% CPA via SEM/A-B testing and Mar-Tech automation"
+    - name: "Pixis AI Platform"
+      hero_metric: "3x ROAS in 1 month; -50% client churn; $15K-$90K/month per-client budgets"
+    - name: "GenY Medium"
+      hero_metric: "16x ROAS for D2C e-commerce via Google Merchant + Meta catalog"
+
+compensation:
+  us:
+    target_range: "$90K-130K"      # carried over from the previous profile; revisit
+    currency: "USD"
+    minimum: "$75K"
+  india:
+    target_range: "INR 35 LPA+"    # set 2026-09-18: more than 35 lakh per annum
+    currency: "INR"
+    minimum: "INR 35 LPA"
+  location_flexibility: "US: Bay Area or Remote-US. India: any major metro or remote."
+
+location:
+  country: "United States"
+  city: "San Francisco Bay Area"
+  state: "CA"
+  timezone: "PT"
+  visa_status: "STEM OPT (F-1); will require H-1B sponsorship in future"
+  sponsorship_required: true      # US track only
+  authorized_to_work: true
+
+freshness_policy:
+  enforce: true
+  max_age_days: 7
+  unknown_date_action: "keep_and_flag"
+
+h1b_policy:
+  enforce: true          # US track only; India track skips this gate
+  annotate: true
+  min_petitions_2y: 10
+  sources:
+    - "h1bgrader.com"
+    - "myvisajobs.com"
+    - "uscis.gov/h-1b-employer-data-hub"
+  no_sponsor_signals:
+    - "must be authorized to work in the United States without sponsorship"
+    - "not able to sponsor"
+    - "no visa sponsorship"
+    - "no sponsorship now or in the future"
+    - "US citizens or permanent residents only"
+    - "US Citizens only"
+    - "Green Card holders only"
+    - "ITAR"
+    - "public trust"
+    - "security clearance required"
+    - "TS/SCI"
+  sponsor_signals:
+    - "will sponsor"
+    - "visa sponsorship available"
+    - "H-1B sponsorship"
+    - "H1B sponsorship"
+    - "sponsor qualified candidates"
+
+preferences:
+  seniority: "US: 3-6 yrs asked (Associate to Manager). India: Chief of Staff / Head of Growth."
+  industries:
+    - "Tech / SaaS / AI-native"
+    - "Revenue / GTM / pricing / deal-desk tooling"
+    - "Semiconductors / Industrial tech"
+    - "Consumer internet / D2C / E-commerce"
+    - "Fintech"
+  work_model: "US: Bay Area hybrid/on-site or Remote-US. India: hybrid/on-site in a major metro or remote."
+  deal_breakers:
+    - "US track: no visa sponsorship (now or future)"
+    - "100% commission / pure sales SDR/BDR/AE roles"
+    - "Pure software engineering roles"
+
+education:
+  - school: "Simon Business School, University of Rochester"
+    degree: "MS, Marketing Analytics"
+  - school: "BITS Pilani"
+    degree: "BE, Mechanical Engineering"

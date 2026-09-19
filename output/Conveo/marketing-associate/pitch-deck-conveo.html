@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Marketing Associate Pitch Deck | Conveo | Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  @page { size: 11in 8.5in; margin: 0; }
+  body { font-family: Calibri, Arial, Helvetica, sans-serif; font-size: 10pt; line-height: 1.35; color: #111; background: #fff; }
+  .slide { width: 11in; height: 8.5in; padding: 0.4in 0.55in; page-break-after: always; overflow: hidden; position: relative; }
+  .slide:last-child { page-break-after: auto; }
+  .slide-num { position: absolute; top: 0.3in; right: 0.55in; font-size: 8pt; color: #999; letter-spacing: 0.6pt; text-transform: uppercase; }
+  .slide-footer { position: absolute; bottom: 0.25in; left: 0.55in; right: 0.55in; border-top: 0.5pt solid #ddd; padding-top: 6pt; font-size: 7.5pt; color: #888; display: flex; justify-content: space-between; }
+  .accent { color: #ea580c; }
+
+  .title-slide { display: grid; grid-template-columns: 7fr 4fr; gap: 30pt; align-items: center; height: 100%; }
+  .title-left .label { font-size: 9pt; letter-spacing: 1.5pt; color: #ea580c; text-transform: uppercase; font-weight: 700; margin-bottom: 14pt; }
+  .title-left h1 { font-size: 40pt; font-weight: 800; line-height: 1.02; margin-bottom: 14pt; color: #0a0a0a; }
+  .title-left h1 .accent { color: #ea580c; }
+  .title-left .sub { font-size: 15pt; color: #444; font-weight: 400; margin-bottom: 22pt; line-height: 1.3; }
+  .title-left .name { font-size: 11pt; color: #222; font-weight: 600; }
+  .title-left .meta { margin-top: 4pt; font-size: 9pt; color: #666; }
+  .title-right { display: flex; flex-direction: column; gap: 10pt; }
+  .stat-card { background: #fff7ed; border: 0.5pt solid #fed7aa; border-radius: 6pt; padding: 16pt 14pt; }
+  .stat-card .stat-num { font-size: 32pt; font-weight: 800; color: #ea580c; line-height: 1; }
+  .stat-card .stat-lbl { font-size: 8.5pt; color: #555; margin-top: 4pt; text-transform: uppercase; letter-spacing: 0.4pt; font-weight: 600; }
+  .stat-card .stat-sub { font-size: 9pt; color: #333; margin-top: 4pt; line-height: 1.3; }
+
+  .slide h2.section-title { font-size: 22pt; font-weight: 800; color: #0a0a0a; line-height: 1.1; margin-bottom: 4pt; }
+  .slide .jd-quote { font-size: 10pt; color: #555; font-style: italic; border-left: 3pt solid #ea580c; padding-left: 9pt; margin-bottom: 14pt; max-width: 9.5in; line-height: 1.4; }
+
+  .kpi-row { display: flex; gap: 10pt; margin-bottom: 14pt; }
+  .kpi-tile { flex: 1; background: linear-gradient(135deg, #fff7ed 0%, #ffedd5 100%); border-radius: 5pt; padding: 14pt; border: 0.5pt solid #fed7aa; }
+  .kpi-tile .kpi-label { font-size: 7.5pt; color: #777; text-transform: uppercase; letter-spacing: 0.5pt; margin-bottom: 4pt; font-weight: 600; }
+  .kpi-tile .kpi-value { font-size: 22pt; font-weight: 800; color: #ea580c; line-height: 1.05; }
+  .kpi-tile .kpi-sub { font-size: 9pt; color: #444; margin-top: 4pt; line-height: 1.32; }
+
+  table.match { width: 100%; border-collapse: collapse; font-size: 9.5pt; margin-top: 6pt; }
+  table.match th { background: #ea580c; color: #fff; padding: 7pt 9pt; text-align: left; font-size: 8.5pt; letter-spacing: 0.5pt; text-transform: uppercase; font-weight: 700; }
+  table.match td { padding: 7pt 9pt; border-bottom: 0.4pt solid #e5e7eb; vertical-align: top; }
+  table.match tr:nth-child(even) td { background: #fafafa; }
+  table.match .you { font-weight: 700; color: #c2410c; }
+
+  .two-col { display: flex; gap: 18pt; margin-top: 6pt; }
+  .col-card { flex: 1; background: #fff7ed; border-radius: 5pt; padding: 14pt; border: 0.5pt solid #fed7aa; }
+  .col-card h3 { font-size: 12pt; color: #c2410c; font-weight: 700; margin-bottom: 7pt; border-bottom: 1pt solid #fed7aa; padding-bottom: 5pt; }
+  .col-card p, .col-card li { font-size: 9.5pt; line-height: 1.42; color: #222; }
+  .col-card ul { padding-left: 16pt; margin-top: 5pt; }
+  .col-card li { margin-bottom: 4pt; }
+  .col-card .quote { background: #fff; padding: 9pt 11pt; border-left: 2.5pt solid #ea580c; font-style: italic; font-size: 9.5pt; line-height: 1.4; margin-top: 6pt; }
+
+  .num-box { display: flex; align-items: flex-start; gap: 11pt; margin-bottom: 10pt; }
+  .num-box .n { width: 30pt; height: 30pt; border-radius: 50%; background: linear-gradient(135deg, #ea580c 0%, #f59e0b 100%); color: #fff; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 13pt; flex-shrink: 0; }
+  .num-box .t { font-size: 10pt; line-height: 1.4; }
+  .num-box .t strong { color: #c2410c; }
+
+  .pill-row { display: flex; gap: 7pt; flex-wrap: wrap; margin-top: 8pt; }
+  .pill { background: #ffedd5; color: #c2410c; padding: 4pt 10pt; border-radius: 12pt; font-size: 8.5pt; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide title-slide">
+  <div class="slide-num">01 / 04</div>
+  <div class="title-left">
+    <div class="label">Marketing Associate Pitch Deck</div>
+    <h1>I have <span class="accent">lived</span><br>the customer-research<br><span class="accent">problem</span> Conveo solves.</h1>
+    <div class="sub">30+ structured interviews with OEMs and distributors at Sensata. Most of my time was logistics, not insight. Conveo flips that.</div>
+    <div class="name">Adhithya Rokhith Bhaskar &middot; Boston, MA &middot; arokhith@gmail.com</div>
+    <div class="meta">Prepared for Hiring Team, Conveo &middot; 2026-05-13</div>
+  </div>
+  <div class="title-right">
+    <div class="stat-card"><div class="stat-num">30+</div><div class="stat-lbl">Customer Interviews</div><div class="stat-sub">Sensata OEMs and distributors across EMEA and US</div></div>
+    <div class="stat-card"><div class="stat-num">+22%</div><div class="stat-lbl">CSAT Lift</div><div class="stat-sub">From interview-driven roadmap and positioning</div></div>
+    <div class="stat-card"><div class="stat-num">50+</div><div class="stat-lbl">SwipeHire Users</div><div class="stat-sub">AI tool I built solo: Python + OpenAI API + React</div></div>
+  </div>
+  <div class="slide-footer"><span>Adhithya Rokhith Bhaskar &middot; Marketing Associate Pitch Deck</span><span>Conveo</span></div>
+</div>
+
+<div class="slide">
+  <div class="slide-num">02 / 04</div>
+  <h2 class="section-title">Why marketing Conveo means marketing to people like me</h2>
+  <div class="jd-quote">Conveo's buyers are marketing, product, and research teams running customer research. I just spent 18 months as one of those people at Sensata. I know the friction, the budget, and what makes a research tool actually trustworthy.</div>
+
+  <div class="kpi-row">
+    <div class="kpi-tile"><div class="kpi-label">Research Practitioner</div><div class="kpi-value">30+</div><div class="kpi-sub">Structured interviews at Sensata with OEMs + distributors. Voice-of-customer, win/loss analysis, persona work. Translated to roadmap and positioning.</div></div>
+    <div class="kpi-tile"><div class="kpi-label">AI Platform Marketer</div><div class="kpi-value">8 clients</div><div class="kpi-sub">Pixis B2B SaaS AI marketing platform. Trained enterprise marketing teams on the AI engine. $15K-$90K per-client monthly.</div></div>
+    <div class="kpi-tile"><div class="kpi-label">Multi-Channel Range</div><div class="kpi-value">-25% CPA</div><div class="kpi-sub">Plug Power: Google + Meta + LinkedIn + programmatic. 3 conferences + 6 webinars. SEO + AEO/GEO + lifecycle email.</div></div>
+  </div>
+
+  <table class="match">
+    <thead><tr><th>Conveo JD Requirement</th><th>Direct Evidence</th></tr></thead>
+    <tbody>
+      <tr><td>Develop content that resonates with various buyer personas</td><td class="you">Sensata: built positioning for OEM-engineer, distributor-sales, and end-customer personas across 3 regions.</td></tr>
+      <tr><td>Excited to learn about customers and understand problems</td><td class="you">Sensata: ran 30+ structured customer interviews. SwipeHire: 50+ user conversations to drive product iteration.</td></tr>
+      <tr><td>Analytical, data-driven, adapt to market feedback</td><td class="you">MS Marketing Analytics, Simon. SQL + Power BI + Python at Sensata. Holdout incrementality at Pixis. Closed-loop attribution at Plug Power.</td></tr>
+      <tr><td>Plan and execute multi-channel initiatives</td><td class="you">Plug Power: paid + email + SEO + 3 conferences + 6 webinars. Pixis: managed 8 clients across all paid channels at scale.</td></tr>
+      <tr><td>Creative content development</td><td class="you">Sensata: sales enablement library used by 50+ reps; lifted win rates 30%. Plug Power: product announcements, case studies, long-form web content.</td></tr>
+    </tbody>
+  </table>
+
+  <div class="slide-footer"><span>Adhithya Rokhith Bhaskar &middot; Marketing Associate Pitch Deck</span><span>Conveo</span></div>
+</div>
+
+<div class="slide">
+  <div class="slide-num">03 / 04</div>
+  <h2 class="section-title">The Sensata-to-Conveo translation</h2>
+  <div class="jd-quote">If I had had Conveo at Sensata, my 30+ interviews would have taken 1 week, not 4. The Conveo buyer is me, 6 months ago, drowning in Calendly invites.</div>
+
+  <div class="two-col">
+    <div class="col-card">
+      <h3>What I learned running 30+ research interviews</h3>
+      <ul>
+        <li><strong>Time-to-insight bottleneck:</strong> 60% of cycle time is scheduling + recap, not interview itself</li>
+        <li><strong>Bias problem:</strong> By interview 20 of 30, you start leading. AI-led keeps consistency</li>
+        <li><strong>Synthesis decay:</strong> Insights peak 24 hours after interview. Most teams synthesize too late</li>
+        <li><strong>Trust threshold:</strong> Research teams adopt fast when transcripts + verbatim quotes are clean</li>
+      </ul>
+      <div class="quote">"These are the exact pain points Conveo solves. I can talk to a Head of Insights about them without faking domain knowledge."</div>
+    </div>
+    <div class="col-card">
+      <h3>How I would market Conveo on day 30</h3>
+      <ul>
+        <li><strong>Practitioner content:</strong> "What I wish I had known before running 30 research interviews" - story-led, friction-first, no platform pitch</li>
+        <li><strong>ICP segmentation:</strong> marketing research teams vs. product research vs. UX research. Different proof points each</li>
+        <li><strong>Case study factory:</strong> 1 customer case study per week, anchored to a single "decisions made in days" hero metric</li>
+        <li><strong>Comparison content:</strong> Conveo vs. traditional research panels, vs. Calendly + Zoom + manual synthesis, vs. generic AI tools</li>
+      </ul>
+      <div class="pill-row">
+        <span class="pill">Practitioner voice</span><span class="pill">Customer-led</span><span class="pill">Multi-channel</span><span class="pill">AI-native</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="slide-footer"><span>Adhithya Rokhith Bhaskar &middot; Marketing Associate Pitch Deck</span><span>Conveo</span></div>
+</div>
+
+<div class="slide">
+  <div class="slide-num">04 / 04</div>
+  <h2 class="section-title">My 30 / 60 / 90 at Conveo</h2>
+  <div class="jd-quote">Marketing Associate role on a 24-person team. Calibrated to remote-US cadence and Conveo's research-buyer audience.</div>
+
+  <div class="two-col">
+    <div style="flex: 1.1;">
+      <div class="num-box"><div class="n">30</div><div class="t"><strong>Days 1-30:</strong> Sit with 5 existing customers. Pull product analytics. Map the 3 highest-friction ICPs. Ship 2 case studies + 1 "Conveo vs. status quo" comparison page. Audit Conveo's website analytics for conversion leaks.</div></div>
+      <div class="num-box"><div class="n">60</div><div class="t"><strong>Days 31-60:</strong> Launch a practitioner content series ("30 interviews, 4 weeks: what AI changes"). Start a partner outreach motion to research-tool ecosystems. Stand up a paid pilot on LinkedIn + Reddit research communities.</div></div>
+      <div class="num-box"><div class="n">90</div><div class="t"><strong>Days 61-90:</strong> Own a measurable inbound number. Ship a flagship research report (Conveo data, methodology written by me, customer-validated). Have 4+ case studies live. Hand off a content playbook.</div></div>
+    </div>
+    <div style="flex: 1;">
+      <div class="col-card" style="background: linear-gradient(135deg, #fff7ed 0%, #fef3c7 100%);">
+        <h3>The AI-builder angle</h3>
+        <p>Conveo is AI-native. The marketer should be too. I founded <strong>SwipeHire</strong> on <strong>Python + OpenAI API + React</strong> (<a href="https://app.swipehire.io">app.swipehire.io</a>). 50+ users, +25% activation, zero paid budget.</p>
+        <p style="margin-top: 8pt;">Plus 4 Anthropic Claude certifications. I have built with the same primitives Conveo uses.</p>
+      </div>
+      <div style="margin-top: 14pt; background: #fff; padding: 12pt; border-radius: 5pt; border: 0.5pt solid #fed7aa;">
+        <h3 style="font-size: 11pt; color: #c2410c; font-weight: 700; margin-bottom: 7pt;">Logistics</h3>
+        <div class="pill-row" style="margin-top: 4pt;">
+          <span class="pill">Boston-based</span>
+          <span class="pill">US-remote ideal</span>
+          <span class="pill">London/Antwerp open</span>
+          <span class="pill">1+ Yrs band</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="slide-footer"><span>Adhithya Rokhith Bhaskar &middot; Marketing Associate Pitch Deck</span><span>Conveo</span></div>
+</div>
+
+</body>
+</html>

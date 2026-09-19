@@ -1,0 +1,63 @@
+uid=63_0 RootWebArea "Career Opportunities: Apply for Product Marketing Manager (1145)" url="https://career44.sapsf.com/portalcareer?_s.crb=1lfIfyIOXdTQXI7CFoUnG%252bksPjUtUn3d4H5zcdBAJaY%253d"
+  uid=63_1 banner
+    uid=63_2 link "Skip to main content" url="https://career44.sapsf.com/portalcareer?_s.crb=1lfIfyIOXdTQXI7CFoUnG%252bksPjUtUn3d4H5zcdBAJaY%253d#skipContent"
+    uid=63_3 navigation "Header Menu"
+      uid=63_4 link "Responsive home" description="Responsive home" url="https://www.responsive.io/"
+        uid=63_5 image "Responsive home" url="https://rmkcdn.successfactors.com/086ad82d/d5b9ed67-a3f1-4586-9779-2.png"
+  uid=63_6 main
+    uid=63_7 generic
+    uid=63_8 generic live="polite" relevant="additions text"
+      uid=63_9 link "Sign Out" url="javascript:logoutUrl('/portalcareer?company=rfpioindia&site=&lang=en_US&login_ns=logout&loginFlowRequired=true&_s.crb=1lfIfyIOXdTQXI7CFoUnG%252bksPjUtUn3d4H5zcdBAJaY%253d&showLogOutMsg=true&brandUrl=%27,%27https://careers.responsive.io/services/security/logoutp?callback=callback&locale=en_US%27);"
+        uid=63_10 StaticText "Sign Out"
+      uid=63_11 generic live="polite" relevant="additions text"
+      uid=63_12 button "Options" expandable haspopup="menu"
+        uid=63_13 button ""
+      uid=63_14 combobox "Language" description="Language" expandable haspopup="menu" value="English US ‎(English US)‎ "
+        uid=63_15 button ""
+      uid=63_16 generic
+        uid=63_17 heading "Product Marketing Manager (1145)" level="1"
+      uid=63_18 note
+        uid=63_19 StaticText "Dear candidate,"
+        uid=63_20 StaticText "Thank you for your interest in Responsive"
+        uid=63_21 StaticText "We update our career page regularly to accurately reflect our current openings, so please check back and apply for any additional opportunities that align with your skills, goals, and interests."
+        uid=63_22 StaticText "Your profile information will remain on file and available to our recruiting team, and we may reach out to you in the future if you look like a strong candidate for another opening."
+        uid=63_23 StaticText "Thanks,"
+        uid=63_24 StaticText "Responsive Recruiting Team"
+      uid=63_25 button "Expand all sections"
+      uid=63_26 button "Collapse all sections"
+      uid=63_27 generic live="polite" relevant="additions text"
+      uid=63_28 alert atomic live="assertive" relevant="additions text"
+      uid=63_29 button "My Documents" expandable expanded
+        uid=63_30 generic live="polite" relevant="additions text"
+      uid=63_31 generic
+        uid=63_32 StaticText "Accepted file types: DOCX, PDF, Image and Text (MSG, PPT and XLS file types are not accepted for resume or cover letters)"
+      uid=63_33 StaticText " Resume/CV"
+      uid=63_34 StaticText "Upload a Resume Required"
+      uid=63_35 generic
+        uid=63_36 StaticText "Upload a Resume"
+      uid=63_37 button " Resume/CV Upload a Resume Opens a dialog" focusable focused
+      uid=63_38 StaticText "Upload a Resume Opens a dialog"
+      uid=63_39 StaticText "Cover Letter"
+      uid=63_40 StaticText "Attach a Cover Letter"
+      uid=63_41 generic
+        uid=63_42 StaticText "Attach a Cover Letter"
+      uid=63_43 button "Cover Letter Attach a Cover Letter Opens a dialog"
+      uid=63_44 StaticText "Attach a Cover Letter Opens a dialog"
+      uid=63_45 button "Profile Information" expandable
+        uid=63_46 generic live="polite" relevant="additions text"
+      uid=63_47 button "Outside Work Experience" expandable
+        uid=63_48 generic live="polite" relevant="additions text"
+      uid=63_49 button "Formal Education" expandable
+        uid=63_50 generic live="polite" relevant="additions text"
+      uid=63_51 button "Job-Specific Information" expandable
+        uid=63_52 generic live="polite" relevant="additions text"
+      uid=63_53 note
+      uid=63_54 button "View Profile"
+      uid=63_55 button "Save"
+      uid=63_56 button "Apply"
+  uid=63_57 contentinfo
+    uid=63_58 StaticText "© 2025 Responsive. All rights reserved."
+    uid=63_59 link "Privacy Policy" url="https://www.responsive.io/legal/privacy-policy/"
+      uid=63_60 StaticText "Privacy Policy"
+    uid=63_61 link "Follow us on LinkedIn" description="Opens in a new tab." url="https://www.linkedin.com/company/responsiveio/"
+    uid=63_62 link "Visit our YouTube channel" description="Opens in a new tab." url="https://www.youtube.com/c/rfpioinc/"

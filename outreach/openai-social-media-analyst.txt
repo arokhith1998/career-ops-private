@@ -1,0 +1,63 @@
+ROLE: OpenAI — Social Media Analyst, Rapid Response
+====================================================
+Tracker entry: #50
+URL: https://openai.com/careers/social-media-analyst-san-francisco/
+
+HIRING MANAGER:
+TBD. This role sits inside Strategic Response (Communications), not Marketing. The HM is likely a Director of Strategic Response or Head of Communications.
+
+Search LinkedIn before sending:
+- "OpenAI" + "Strategic Response" + "Director" or "Head of"
+- "OpenAI" + "Head of Communications"
+- "OpenAI" + "Director Communications" or "VP Communications"
+
+RECRUITER:
+TBD via OpenAI's Ashby portal.
+
+
+----- HM LINKEDIN NOTE -----
+Hi {First}, applying for Social Media Analyst, Rapid Response. Most "we missed it" stories are clustering and velocity failures, not detection failures. Lived inside r/cscareerquestions and r/h1b for a year running SwipeHire's AI-product community. 15 min?
+
+
+----- HM EMAIL -----
+Subject: Social Media Analyst — clustering and velocity, not detection
+
+Hi {First},
+
+Applying for the Social Media Analyst, Rapid Response role.
+
+Most "we missed the narrative" stories are not detection failures. They are clustering and velocity failures. Three sub-narratives that look different in isolation are usually one story moving fast, and the team that catches it is the one that built the clustering taxonomy and velocity threshold before there was a fire to put out.
+
+I have lived inside the AI-adjacent forums OpenAI's analyst would monitor. SwipeHire is an AI product I built solo on Python, OpenAI API, and React, and I ran organic community for it on Reddit (r/cscareerquestions, r/h1b), Twitter threads, and weekly product updates for a year. The pattern I saw repeat: the early signal of a brewing AI-product narrative is almost always a small cluster of high-engagement Reddit comments, with Discord and Hacker News following on a 24 to 72 hour lag.
+
+On signal-from-noise, the cleanest example came at Pixis. Two enterprise clients on an 8-client portfolio were ready to leave. Aggregate ROAS dashboards looked fine. Pulled session-level data and found creative fatigue masked by blended metrics, the top 5% of sessions carrying the average. Refresh, re-key, retain.
+
+On dashboard-build muscle for senior-stakeholder reporting, I designed a $627M Power BI executive dashboard at Sensata tracking 1,200 records across 3 regions.
+
+CV and portfolio: https://adhi-growth-ai.vercel.app/ref/openai-social
+
+15 min next week?
+
+Adhithya | Boston, MA | (929) 563-9974
+
+
+----- RECRUITER LINKEDIN NOTE -----
+Hi {Recruiter}, applied for Social Media Analyst, Rapid Response. SwipeHire AI-product community on Reddit + Twitter + Sensata 30+ interviews + Pixis 8-client sentiment monitoring + $627M Power BI dashboard. SF works. Available for a screen.
+
+
+----- RECRUITER EMAIL -----
+Subject: Application — Social Media Analyst, Rapid Response
+
+Hi {Recruiter},
+
+Submitted for the Social Media Analyst, Rapid Response role.
+
+Direct fit: SwipeHire AI-product organic community work on Reddit (r/cscareerquestions, r/h1b), Twitter, and weekly product updates for a year. Pixis 8-client multi-vertical sentiment monitoring with creative-fatigue diagnosis from session-level data. Sensata 30+ structured customer interviews translated to product themes. $627M Power BI executive dashboard built at Sensata tracking 1,200 records.
+
+4+ years. MS Marketing Analytics (Simon). SF works.
+
+Resume: https://adhi-growth-ai.vercel.app/ref/openai-social
+
+Available for a screen this week.
+
+Adhithya | (929) 563-9974

@@ -1,0 +1,32 @@
+TO: Viola Hempel — Director of Marketing Analytics @ GitLab
+PLATFORM: Email
+ROLE: Senior Data Analyst, Marketing Analytics
+LINKEDIN: https://www.linkedin.com/in/violahempel/
+---
+
+Subject: Sr Data Analyst, Marketing Analytics — I read "Claude with MCP" in a JD for the first time and had to apply
+
+Hi Viola,
+
+I applied for the Senior Data Analyst role on your Marketing Analytics team. I'm writing because the JD describes a very specific kind of analyst — one who builds dbt models AND delivers executive insights AND uses Claude with MCP — and I wanted to make sure my application doesn't get lost in a pile of SQL-only candidates.
+
+Here's the short version of what I'd bring:
+
+- **Claude with MCP is my actual workflow, not a line on a resume.** I hold four Anthropic certifications (Claude 101, Code 101, Cowork, Building with Claude API) and built a production Python tool using Claude's API in Cursor — live data, AI reasoning layer, interactive dashboard. I don't just use AI tools. I build with them.
+
+- **I've built multi-touch attribution from zero.** At Plug Power, I wired Salesforce + Adobe Analytics + GA + GTM into a single attribution model that could finally track the full B2B funnel from MQL to pipeline to closed revenue. That framework cut CPA 25%. At Pixis, I owned the attribution dashboards tracking iROAS and incrementality across $1.4M in media budgets.
+
+- **I know what "executive-ready insights" actually means.** I built a 4-page Power BI executive dashboard analyzing 1,200 opportunities ($627M target) with pipeline funnels, regional scorecards, and action-priority lists. Executives don't want the 47th chart. They want the one that tells them where to act first.
+
+- **B2B marketing metrics are my native language.** MQL-to-SQL conversion tracking at Plug Power. Lead scoring logic. Campaign measurement across demand gen channels. Annual planning contributions at Sensata across 3 regions.
+
+One thing that won't be obvious from the resume: I thrive in async environments. The best analytics work I've done has been written up clearly enough that the insight survives without a meeting. That's how I naturally operate, and it's rare to find a company that values that.
+
+Resume, cover letter, and portfolio attached:
+https://adhithyabhaskar.vercel.app/ref/gitlab
+
+Would genuinely welcome 15 minutes to hear what the marketing analytics team's biggest measurement challenge is right now.
+
+Best,
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com | (929) 563-9974

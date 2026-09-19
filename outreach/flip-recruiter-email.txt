@@ -1,0 +1,34 @@
+TO: [Recruiter Name], Flip Talent Acquisition
+PLATFORM: Email
+ROLE: Performance Marketing Manager (Brooklyn, NY - onsite Mon-Fri)
+NOTE: Recruiter name not surfaced publicly; Greenhouse auto-assignment. Swap in after confirmation email.
+---
+
+Subject: Application, Performance Marketing Manager (Brooklyn onsite)
+
+Hi [Recruiter Name],
+
+Just applied for the Performance Marketing Manager role via Greenhouse. Quick fit:
+
+- Plug Power: full B2B paid + MarTech rebuild from zero (Salesforce + HubSpot + Adobe + GA + GTM). -25% CPA, +20% conversion. Closed-loop attribution on hydrogen-energy buyer (technical, measurement-skeptical - same archetype as Flip's enterprise customer).
+- Pixis: 8 enterprise AI SaaS clients on $1.4M shared budget. 3x ROAS fashion in 30 days, -50% churn.
+- SwipeHire (founder): production AI consumer product on OpenAI API + React. 50+ users, +25% activation via 8+ A/B tests. Schema + Core Web Vitals + structured-output pipelines (AEO/GEO).
+- 4 Anthropic Claude certifications (incl. Building with the Claude API) - direct match for "deep understanding of AI model / infrastructure landscape."
+- HubSpot hands-on daily. Google + LinkedIn + Meta + SA360 production muscle.
+- MS Marketing Analytics (Simon) + BE Mech (BITS Pilani).
+
+JD fit: 3+ yr band (4+ actual, sweet spot). Enterprise SaaS B2B paid. $100K+ budget (Pixis $1.4M is 10x over). AEO/GEO + SEO. HubSpot direct. CAC/LTV depth. AI infrastructure fluency.
+
+Two honest logistics notes upfront:
+
+1. **Work model:** Boston-based. Brooklyn Mon-Fri onsite is a relocation I am open to for the right company. Would help to confirm the onsite expectation is firm vs. flex-for-exceptional-candidate.
+
+2. **Sponsorship:** I am on STEM OPT and will need H-1B sponsorship in the future. Application form asked the question so raising it upfront. Can you confirm Flip's sponsorship posture for marketing roles before we go deep?
+
+Comp target: top of posted band ($130K-$135K base).
+
+Resume, cover letter, portfolio: https://adhithyabhaskar.vercel.app/ref/flip
+
+Thanks,
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com | (929) 563-9974

@@ -1,0 +1,28 @@
+TO: Gaurav Misra, Co-Founder & CEO @ Mirage (formerly Captions)
+PLATFORM: Email
+ROLE: Lifecycle Marketing Manager (Captions, NYC)
+NOTE: No specific Head of Lifecycle or Growth surfaced publicly. Gaurav is the escalation target; frame as a pointer request to the real HM, not a direct HM pitch.
+---
+
+Subject: Lifecycle Marketing Manager - Captions onboarding is the product
+
+Hi Gaurav,
+
+At an AI-native consumer subscription app, lifecycle marketing is not the CRM team. It is the product team with a send button. The onboarding flow and the day-3 push are where trial-to-paid conversion actually happens for creators. I have spent four years running that exact motion: solo on my AI product (SwipeHire, +25% activation in 6 weeks), across an 8-client enterprise AI SaaS book at Pixis (-50% churn, $1.4M budget), and inside Plug Power's full HubSpot lifecycle rebuild (-25% CPA).
+
+Applied for the Captions Lifecycle Marketing Manager role. Reason I am writing you: I could not find the direct Lifecycle or Growth lead publicly, so writing to the CEO is the cleanest path.
+
+Quick proof:
+
+- SwipeHire (founder): production AI consumer product on OpenAI API + React. Solo lifecycle: landing + signup + onboarding A/B + activation loop + cohort retention. 50+ users, +25% activation via 8+ tests.
+- Pixis: 8-client enterprise AI SaaS book, $1.4M shared budget. -50% churn through per-client retention playbooks. Measurement-skeptical buyers.
+- Plug Power: HubSpot lifecycle rebuild + audience segmentation (AAM). -25% CPA, +20% conversion.
+- 4 Anthropic Claude certs (incl. Building with the Claude API). Claude draft-and-critique content pipeline for 8x variant velocity. Exactly the "use AI tools for campaign production" line in the JD.
+
+Would love 20 minutes with whoever owns Lifecycle at Mirage. If a pointer is easier, any direction is amazing.
+
+Resume, cover letter, portfolio: https://adhithyabhaskar.vercel.app/ref/mirage
+
+Best,
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com | (929) 563-9974

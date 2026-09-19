@@ -1,0 +1,76 @@
+ROLE: Monstro - Growth Marketing Manager, B2B Demand Generation
+================================================================
+Tracker entry: #69
+URL: https://job-boards.greenhouse.io/monstro/jobs/4238293009
+
+COMPANY:
+- Monstro. Stealth-mode AI-finance startup. Tagline: "Operating system for governed financial intelligence."
+- Building infrastructure to integrate AI into financial decision-making with built-in governance and accountability for regulated industries.
+- Target customers: wealth management, banking, advisory firms.
+- Stage: 11-50 employees. NYC + West Palm Beach FL HQ. LinkedIn: linkedin.com/company/monstrofinance.
+- Currently hiring two parallel marketing seats (Growth Marketing Manager + Content Manager, GTM) - building marketing-from-scratch.
+
+LOCATION: New York City. Hybrid 4 days/week.
+SALARY: $158K - $187K base. Ask $175K, floor $160K.
+YEARS: 4-7 yrs B2B SaaS or fintech. User at 4+, fits at lower end.
+
+
+PRIMARY CONTACT (verified via LinkedIn):
+**Alka Pande** - Lead Technical Recruiter @ Monstro.
+LinkedIn: search "Alka Pande Monstro" - she posted publicly about both marketing roles 16h ago.
+Public post excerpt: "We're opening two exciting marketing roles here at Monstro (NYC, hybrid)... Both roles are hands-on and high ownership... loves building from scratch, values operating across strategy + execution, and wants to work at the intersection of AI, fintech, and go-to-market."
+
+HIRING MANAGER:
+TBD. At 11-50 employees stealth-stage with two parallel marketing hires, role likely reports to founder/CMO/first marketing leader. Verify after recruiter screen.
+
+
+ATTACHMENT FOR ALL EMAILS:
+- output/Adhithya_Rokhith_Monstro_GrowthMktgMgr.pdf (CV)
+- cover-letters/Adhithya_Rokhith_Monstro_GrowthMktgMgr_CL.pdf (Cover letter)
+- output/Monstro_Growth_Marketing_Pitch_Deck_Adhithya.pdf (6-slide pitch deck)
+
+
+----- LINKEDIN DM TO ALKA (300-char limit) -----
+Hi Alka, saw your post on the two Monstro marketing roles and applied for Growth Marketing Manager, B2B Demand Gen. Monstro is the company I have been waiting to find - the OS-shaped take on AI governance for financial decision-making. Built MarTech from scratch at Plug Power on HubSpot + Salesforce + GA4 + GTM. 6-slide pitch deck ready. 15 min?
+
+
+----- EMAIL TO ALKA (Lead Technical Recruiter) -----
+Subject: Growth Marketing Manager, B2B Demand Gen - re: your LinkedIn post
+
+Hi Alka,
+
+Saw your post on the two Monstro marketing roles and applied for the Growth Marketing Manager, B2B Demand Generation seat. Following up directly because this is the company I have been waiting to find.
+
+Most "AI for finance" today is a thin governance layer over a generic LLM call, sold to a CIO who can already smell it. Monstro is the first OS-shaped take I have seen where governance is the architecture, not a feature. That is the buyer I want to write for.
+
+I have already built the demand engine the JD describes. Plug Power: MarTech architected from scratch on HubSpot + Salesforce + Adobe + GA4 + GTM. Sequences, pipelines, segmentation from zero. CPA -25%, conversion +20%. Pixis: weekly client CFO QBRs across an 8-client B2B SaaS book ($15K-$90K per-client monthly), plus AI bidding training for 8 enterprise marketers. That is the CFO-direct translation Monstro will need into a banking audience. AI side: 4 Anthropic Claude certifications, SwipeHire shipped solo on Python + OpenAI API + React, and a Claude draft-and-critique pipeline I productized at 8x copy velocity.
+
+Six-slide pitch deck attached, built specifically for this role.
+
+NYC works. Open to 15 min when your cadence allows.
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com | (929) 563-9974
+Portfolio: https://adhi-growth-ai.vercel.app/ref/monstro
+
+
+----- HM EMAIL (when identified, founder or CMO) -----
+Subject: Growth Marketing Manager, B2B Demand Gen - HubSpot architecture built, not just used
+
+Hi {First},
+
+Saw Alka's LinkedIn post and just submitted for the Growth Marketing Manager, B2B Demand Generation role.
+
+Selling AI infrastructure into a banking C-suite breaks at one specific seam. The CIO has been pitched ten governance-and-compliance AI tools this quarter, has internal counsel asking which model the LLM is built on, and reads any "AI" claim through the filter of "what happens when the regulator asks." The marketers who land that buyer build HubSpot sequences that map to the actual procurement cycle of a bank, run paid that targets the IP block of a specific wealth-management firm rather than a job title, and write prospect-profiling research that already addresses the second-question objection.
+
+I built that infrastructure once. At Plug Power I architected MarTech from scratch on HubSpot + Salesforce + Adobe + GA4 + GTM. UTM spec from zero, GTM containers rebuilt, sequences and lifecycle stages and account-level behavioral segmentation architected in HubSpot. CPA -25%, conversion +20%. Closed-loop attribution from ad click to SQL. The "built, not just used" line in the JD is the literal description.
+
+On C-suite translation, Pixis is the closest analog: 8-client B2B SaaS book with per-client monthly $15K-$90K, weekly client CFO QBRs, trained 8 enterprise marketers on AI bidding tools.
+
+On AI fluency, 4 Anthropic Claude certifications + SwipeHire shipped solo on Python + OpenAI API + React + a Claude draft-and-critique pipeline I productized for 8x velocity on ad-copy variants. On the bonus criteria, Plug Power AEO/GEO + a 2-page KKR AI-Search audit teardown available as portfolio sample.
+
+NYC works. CV + CL + 6-slide pitch deck attached. Portfolio: https://adhi-growth-ai.vercel.app/ref/monstro
+
+15 minutes next week?
+
+Adhithya | Boston, MA | (929) 563-9974

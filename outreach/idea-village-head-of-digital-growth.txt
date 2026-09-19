@@ -1,0 +1,79 @@
+ROLE: Idea Village - Head of Digital Growth
+================================================================
+Tracker entry: #71
+URL: https://www.linkedin.com/jobs/view/4407655866/
+
+COMPANY:
+- Idea Village. DTC accelerator / brand house.
+- Portfolio of 5 health & wellness DTC brands.
+- Recruiting via GR0 (gr0.com - SEO/AEO marketing agency acting as recruiting intermediary).
+
+LOCATION: Miami, FL. Hybrid.
+SALARY: Not disclosed. Miami DTC accelerator Head-level typical band $130K-$170K + bonus/equity. Ask $155K + equity, floor $130K + equity.
+YEARS: 3-5 yrs DTC/e-commerce growth/performance marketing. User at 4+, fits at upper end.
+
+
+HIRING MANAGER (verify on LinkedIn before sending):
+PRIMARY: Idea Village leadership (founder/CEO of accelerator or COO/Head of Growth at the holdco).
+LinkedIn search: "Idea Village" filtered to Miami + leadership/marketing.
+
+RECRUITING INTERMEDIARY:
+GR0 - search "GR0 recruiter" or "GR0 talent acquisition" filtered to Miami/LA. The GR0 contact is the primary application gatekeeper since Idea Village outsourced this hire to them.
+
+ATTACHMENT FOR ALL EMAILS:
+- output/Adhithya_Rokhith_IdeaVillage_HeadDigitalGrowth.pdf (CV)
+- cover-letters/Adhithya_Rokhith_IdeaVillage_HeadDigitalGrowth_CL.pdf (Cover letter)
+- output/Idea_Village_Head_of_Digital_Growth_Pitch_Deck_Adhithya.pdf (6-slide pitch deck)
+
+
+----- HM LINKEDIN NOTE (Idea Village leadership) -----
+Hi {First}, just applied for the Head of Digital Growth role. Closest analog: ran an 8-client multi-brand portfolio at Pixis with per-client monthly $15K-$90K and an 8-person team (5 brands at Idea Village is fewer accounts than I have managed in parallel). Plus 16x ROAS for a D2C consumer brand at GenY via Google Merchant Center + Meta catalog rebuild, Plug Power -25% CPA on Google + Meta + programmatic, and 4 Claude certs + Claude pipeline at 8x copy velocity. Miami works. Worth 15 min?
+
+
+----- HM EMAIL (Idea Village leadership) -----
+Subject: Head of Digital Growth - 8-brand portfolio cadence + 16x ROAS DTC proof
+
+Hi {First},
+
+Just submitted for the Head of Digital Growth role.
+
+Running paid for a five-brand DTC house breaks at one specific seam: budget allocation gets driven by last-week ROAS rather than per-brand contribution margin against the P&L the holdco cares about. The brand with the cleanest hero-SKU economics gets starved when a louder sister brand runs hot for a week. The fix is a holdco-level operating cadence with per-brand weekly QBRs, per-brand Merchant Center taxonomy, per-brand LTV cohort signals feeding budget pacing, and a portfolio-level decision rhythm that catches when to reallocate and when to hold.
+
+I have run that cadence. Pixis: 8-client multi-brand portfolio with per-client monthly $15K-$90K, 8-person team across creative + account + platform, weekly client QBRs to client CFOs, AI bidding training for 8 enterprise marketers, 3x ROAS validated via holdout incrementality, churn cut 50%. Five brands at Idea Village is fewer than I have managed in parallel.
+
+DTC consumer specifically: GenY 16x ROAS via Google Merchant Center + Meta catalog rebuild (feed cleanup, schema, product group architecture, structured Shopping + Advantage+, weekly creative refresh).
+
+Full-funnel rigor: Plug Power -25% CPA, +20% conversion across Google + Meta + LinkedIn + Adobe-driven programmatic. Closed-loop attribution rebuilt on HubSpot + Salesforce + Adobe + GA4 + GTM. HubSpot lifecycle (drip, MQL nurture, account-level segmentation, retargeting, suppression) ran alongside.
+
+AI tools: 4 Anthropic Claude certs + SwipeHire on Python + OpenAI API + React + a Claude draft-and-critique pipeline at 8x copy velocity.
+
+Miami works. CV + CL attached. Portfolio: https://adhi-growth-ai.vercel.app/ref/idea-village
+
+15 minutes next week?
+
+Adhithya | Boston, MA | (929) 563-9974
+
+
+----- RECRUITER LINKEDIN NOTE (GR0 / Idea Village TA) -----
+Hi {Recruiter}, applied for Head of Digital Growth at Idea Village (recruiting via GR0). 4+ yrs across Pixis 8-client multi-brand portfolio ($15K-$90K per-client monthly), GenY 16x ROAS DTC consumer Shopping, Plug Power Google + Meta + closed-loop attribution (-25% CPA), HubSpot lifecycle, 4 Claude certs + Claude pipeline at 8x copy velocity. Miami works. Available for a screen.
+
+
+----- RECRUITER EMAIL (GR0 / Idea Village TA) -----
+Subject: Application - Head of Digital Growth (Idea Village)
+
+Hi {Recruiter},
+
+Submitted for the Head of Digital Growth role at Idea Village earlier today.
+
+Quick fit summary on substance:
+- 4+ years across multi-brand DTC parallel execution (Pixis 8-client portfolio at $15K-$90K per-client monthly, weekly client QBRs, AI bidding training for 8 marketers, 3x ROAS holdout-validated, cut client churn 50%), DTC consumer Shopping (GenY 16x ROAS via Google Merchant Center + Meta catalog rebuild), full demand engine (Plug Power Google + Meta + LinkedIn + programmatic, -25% CPA, +20% conversion, closed-loop attribution on HubSpot + Salesforce + Adobe + GA4 + GTM), and HubSpot lifecycle (drip, MQL nurture, account-level segmentation, retargeting, suppression).
+- AI tools direct: 4 Anthropic Claude certifications + SwipeHire shipped solo on Python + OpenAI API + React + Claude draft-and-critique pipeline productized at 8x copy velocity.
+- Quantitative: SQL + Power BI + GA4 + advanced Excel/Sheets. Sensata $627M dashboard tracking 1,200 opportunities.
+
+Miami works. Boston-based today, open to relocating.
+
+CV + CL attached. Portfolio: https://adhi-growth-ai.vercel.app/ref/idea-village
+
+Available for a screen this week.
+
+Adhithya | (929) 563-9974

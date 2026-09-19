@@ -1,0 +1,34 @@
+TO: [Recruiter Name], Recruiting Firm presenting Fintech Series B Performance Marketing Manager
+PLATFORM: Email reply to recruiter's original intro
+ROLE: Performance Marketing Manager, Series B Fintech, NYC Midtown on-site, $130K-$170K + bonus + equity
+---
+
+Subject: Re: Performance Marketing Manager, Series B Fintech
+
+Hi [Recruiter Name],
+
+Thanks for sharing the role. Quick fit so you have it in one place:
+
+- Plug Power: owned Paid Search + Paid Social end to end across Google Ads, SA360, Meta, LinkedIn for B2B audience; -25% CPA, +20% conversion, -15% wasted spend. Built the MarTech + attribution stack from scratch.
+- Pixis: managed $1.4M in media across 8 global enterprise clients on an AI adtech SaaS (3x ROAS in 30 days, -50% churn).
+- GenY: rebuilt D2C Google Merchant Center + Meta catalog for 16x ROAS.
+- SwipeHire: production AI product I built on OpenAI API + React (50+ users, 8+ A/B tests, +25% activation). Tracked CAC per activated user weekly. Claude draft-and-critique pipeline for ad copy variants (8x velocity).
+- NSE Paper-Trading Bot: Python + live financial data + Claude API (news/catalyst analysis). Fintech-domain-adjacent.
+- 4 Anthropic Claude certifications including Building with the Claude API.
+- MS Marketing Analytics (Simon, Rochester); BE Mechanical (BITS Pilani).
+
+Comp: $155K base + 12% bonus + equity is my anchor within their range. Open to sign-on or relocation support.
+
+NYC Midtown fully on-site: understood. Boston-based, committed to relocating within 30-60 days of signing.
+
+Two questions before interview cycles:
+1. Does the client sponsor H-1B for this role? I'm on STEM OPT and will need sponsorship in the future.
+2. What's the interview loop structure and typical timeline?
+
+Resume, cover letter, and portfolio: https://adhithyabhaskar.vercel.app/ref/fintech-series-b
+
+Happy to jump on a call whenever works.
+
+Thanks,
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com | (929) 563-9974

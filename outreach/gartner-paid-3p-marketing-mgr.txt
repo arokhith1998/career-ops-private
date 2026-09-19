@@ -1,0 +1,60 @@
+ROLE: Gartner — Marketing Manager, Paid Third-Party Programs (103566)
+=====================================================================
+Tracker entry: #41
+URL: https://gartner.wd5.myworkdayjobs.com/EXT/job/Irving-TX/Marketing-Manager--Paid-Third-Party-Programs_103566/apply?source=JB-10120
+
+HIRING MANAGER (best guess based on title scope):
+Lauren Casula — Senior Marketing Director, Gartner
+LinkedIn: https://www.linkedin.com/in/lauren-casula-6886463/
+Note: HM may also be a Director, Demand Generation. Verify by searching LinkedIn for "Gartner" + "demand generation" or "third-party programs" + "director" before sending.
+
+RECRUITER:
+TBD. Gartner uses internal TA. After applying, check the candidate-portal "applications" view for the assigned recruiter name. If not visible, search LinkedIn for "Gartner Recruiter Marketing Irving TX".
+
+
+----- HM LINKEDIN NOTE -----
+Hi Lauren, applying for the Marketing Manager, Paid 3P Programs role. Most "vendor problems" in 3P syndication are scope problems someone forgot to write down. Did this exact rebuild at Plug Power on a 4-vendor stack: SLAs in writing, click-to-SQL one number. Worth 15 min?
+
+
+----- HM EMAIL -----
+Subject: Marketing Manager, Paid 3P — quick read on syndication vendor governance
+
+Hi Lauren,
+
+I'm applying for the Marketing Manager, Paid Third-Party Programs role and wanted to send something concrete.
+
+One observation about 3P syndication that the vendor sales decks never lead with: most "underperformance" issues are scope arguments wearing performance arguments as a costume. The lead-quality gap is rarely the vendor's fault by week 8. It is the suppression-list and lead-format spec that nobody wrote down by week 1.
+
+I have rebuilt this exact governance layer at Plug Power. Wrote the UTM spec from scratch, rebuilt GTM containers, validated lead routing all the way through Salesforce campaign attribution, and documented SLAs and escalation paths for a 4-vendor MarTech rollout aligning 6 internal stakeholders. CPA dropped 25%. The more durable outcome was the next manager inheriting a system rather than a black box.
+
+At Pixis I held vendors and clients to delivery and lead-quality standards across an 8-client B2B SaaS portfolio on a $1.4M budget. Replaced two channels mid-quarter when KPIs slipped. Per-client SLAs in writing.
+
+Net-new VP+ contacts is decided at suppression rules, not at the top of the funnel. I have rewritten those rules before.
+
+CV and portfolio: https://adhi-growth.vercel.app/ref/gartner
+
+15 min next week?
+
+Adhithya | Boston, MA | (929) 563-9974
+
+
+----- RECRUITER LINKEDIN NOTE -----
+Hi {Recruiter}, just submitted for Marketing Manager, Paid 3P Programs (103566). 4+ yrs B2B paid demand at Plug Power and Pixis (8-client, $1.4M, holdout incrementality). Open to Irving relocation. Happy to walk through fit. Adhithya
+
+
+----- RECRUITER EMAIL -----
+Subject: Application — Marketing Manager, Paid Third-Party Programs (103566)
+
+Hi {Recruiter},
+
+I submitted for the Paid 3P Programs role earlier this week and wanted to flag a few things for your screen.
+
+The JD's three core asks line up cleanly with prior work. Closed-loop attribution (Plug Power Salesforce + Adobe + GA4 + GTM rebuild, -25% CPA), multi-vendor performance governance (Pixis 8-client B2B SaaS portfolio, $1.4M budget, written SLAs, replaced two channels mid-quarter), and lead-quality plus suppression rigor (Adobe Audience Manager segments + suppression lists for net-new logic).
+
+4+ years across Sensata, Plug Power, Pixis, GenY. MS Marketing Analytics (Simon, U Rochester). Open to Irving relocation. Boston-based today.
+
+Resume: https://adhi-growth.vercel.app/ref/gartner
+
+Happy to do a 30-minute screen at your convenience.
+
+Adhithya Rokhith Bhaskar | (929) 563-9974

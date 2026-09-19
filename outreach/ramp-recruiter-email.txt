@@ -1,0 +1,27 @@
+TO: [Recruiter Name], Ramp Talent Acquisition
+PLATFORM: Email
+ROLE: Growth Manager, Website CRO, Ramp, New York NY
+---
+
+Subject: Application, Growth Manager, Website CRO
+
+Hi [Recruiter Name],
+
+Just applied for the Growth Manager, Website CRO role via Ashby. Quick fit:
+
+- SwipeHire: production AI product on OpenAI API + React; 8+ A/B tests on landing/onboarding; activation +25%; full GA4 + GTM + event tracking
+- Pixis: ran growth on an AI adtech SaaS ($1.4M across 8 enterprise clients, 3x ROAS in 30 days, -50% churn)
+- Plug Power: built CRO + MarTech stack from scratch (Salesforce + Adobe + GA + GTM); -25% CPA, +20% conversion
+- Sensata: SQL + GA4 KPI framework on 50K+ devices (+18% adoption); $2M+ first-year pipeline; 30+ customer interviews
+- Claude Cowork, Building with Claude API, Claude Code, Claude 101 certified
+- MS Marketing Analytics (Simon, Rochester) + BE Mechanical (BITS Pilani)
+
+Boston-based, committed to relocating to NY. Available to screen this week.
+
+One question for you: is Ramp's H-1B sponsorship program open to growth/marketing roles, or concentrated in eng/data/product? Happy to discuss in screen.
+
+Resume + cover letter + portfolio: https://adhithyabhaskar.vercel.app/ref/ramp
+
+Thanks,
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com | (929) 563-9974

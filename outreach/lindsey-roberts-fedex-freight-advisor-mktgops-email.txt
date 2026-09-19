@@ -1,0 +1,29 @@
+TO: Lindsey Roberts, Advisor Digital Marketing @ FedEx Freight (likely HM for this role)
+PLATFORM: Email
+ROLE: Advisor, Marketing Operations (P25-331686-1), FedEx Freight, Memphis TN / Harrison AR
+LINKEDIN: https://www.linkedin.com/in/lindseyroberts23/
+---
+
+Subject: Advisor, Marketing Operations (P25-331686-1), MarTech ops is 80% adoption
+
+Hi Lindsey,
+
+Applied for the Advisor, Marketing Operations role (P25-331686-1). I think the motion maps cleanly to what I have done at Plug Power and Sensata.
+
+Plug Power: I evaluated, selected, and built the full MarTech stack from scratch (Salesforce, Adobe Analytics, Adobe Audience Manager, GA, GTM). No infrastructure existed before I arrived. I scoped integrations, trained Sales + Marketing + IT on adoption, built closed-loop attribution from ad click to SQL, and ran A/B tests that delivered -25% CPA and +20% conversion.
+
+Sensata: I run marketing ops as governance for a 100+ feature Agile backlog across 3 regions and 50K+ connected devices. Built the SQL + GA4 KPI framework the product team runs on, and a 4-page Power BI dashboard on 1,200 pricing opportunities ($627M) that enabled leadership to identify $433M in margin gaps. +18% feature adoption, +30% win rates via enablement across 50+ reps.
+
+SwipeHire: production AI product on OpenAI API + React (50+ users, 8+ A/B tests, +25% activation). 4 Claude certifications including Building with the Claude API. AI-augmented ops workflows are how I work daily.
+
+On years: posting says 5, I have 4+ plus founder experience. Happy to walk through scope.
+
+Committed to relocating to Memphis. Open to Harrison for the right cadence.
+
+Resume, cover letter, and portfolio: https://adhithyabhaskar.vercel.app/ref/fedex-freight
+
+Would love 20 minutes to hear what the current MarTech stack looks like and where the biggest adoption gap is.
+
+Best,
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com | (929) 563-9974

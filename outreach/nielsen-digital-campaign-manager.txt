@@ -1,0 +1,81 @@
+ROLE: The Nielsen Company - Digital Campaign Manager
+================================================================
+Tracker entry: #73
+URL: https://jobs.smartrecruiters.com/TheNielsenCompany/3743990013046758-digital-campaign-manager
+
+COMPANY:
+- The Nielsen Company. Global media measurement and audience insights leader.
+- B2B media insights.
+
+LOCATION: Remote.
+SALARY: $78,200 - $130,400. Top of $90K-$130K target band. Ask $125K, floor $110K.
+SPONSORSHIP: CONFIRMED SPONSOR (Nielsen parent 500+ LCAs/yr per existing tracker entry #37).
+YEARS: Not specified. Manager-level typically 3-6 yrs; user 4+ fits.
+
+
+HIRING MANAGER (verify on LinkedIn before sending):
+PRIMARY: Director, Digital Marketing or VP, Performance Marketing at Nielsen.
+LinkedIn search: "Nielsen" + "Digital Marketing" / "Performance Marketing" / "Campaign Director" filtered to leadership.
+
+RECRUITER:
+Nielsen Talent Acquisition. Large TA team given 500+ LCAs/yr. Search LinkedIn for "Nielsen Talent" / "Nielsen Recruiter" filtered to Marketing.
+
+ATTACHMENT FOR ALL EMAILS:
+- output/Adhithya_Rokhith_Nielsen_DCM.pdf (CV)
+- cover-letters/Adhithya_Rokhith_Nielsen_DCM_CL.pdf (Cover letter)
+- output/Nielsen_Digital_Campaign_Manager_Pitch_Deck_Adhithya.pdf (6-slide pitch deck)
+
+
+----- HM LINKEDIN NOTE (Director Digital Marketing or equivalent) -----
+Hi {First}, just applied for the Digital Campaign Manager role. Closest analog: rebuilt the Plug Power demand engine end-to-end on HubSpot + Salesforce + Adobe + GA4 + GTM (-25% CPA, +20% conversion, multi-touch attribution from ad click to SQL, UTM spec from scratch). Plus Pixis 8-client B2B SaaS book with weekly client CFO QBRs and 3x ROAS holdout incrementality. 4 Claude certs + Claude pipeline at 8x copy velocity. Worth 15 min?
+
+
+----- HM EMAIL (Director Digital Marketing or equivalent) -----
+Subject: Digital Campaign Manager - full-funnel multi-touch attribution + executive-narrative muscle
+
+Hi {First},
+
+Just submitted for the Digital Campaign Manager role.
+
+Full-funnel digital campaign management at scale breaks at one specific seam: the gap between the platform-native dashboards each channel team owns and the multi-touch attribution view that explains how those channels actually compound on a converted account. Most teams have respectable channel-level numbers, a GA4 instance that broadly works, and a quarterly executive review that shows blended performance, and none of those reconcile against "which combination of touches drove the closed-won." The campaign managers who survive at media-insights scale rebuild the loop with one UTM spec, one source-of-truth, a real attribution model, and an executive narrative the leadership team can act on by Friday.
+
+I did that rebuild at Plug Power. Full-funnel digital campaigns across awareness + engagement + conversion on Google + Meta + LinkedIn + Adobe-driven programmatic. -25% CPA, +20% conversion. Multi-touch attribution rebuilt across HubSpot + Salesforce + Adobe Analytics + GA4 + GTM. UTM spec from scratch. GTM containers rebuilt. Lead routing validated through Salesforce campaign attribution.
+
+On executive narrative, Pixis is the analog: 8-client B2B SaaS book with per-client monthly $15K-$90K, weekly client CFO QBRs presenting ROI + iROAS, mid-quarter channel replacement when KPIs slipped. The JD's "translate metrics into actionable executive narratives" is literal.
+
+On A/B framework rigor: SwipeHire 8 A/B tests on activation flows + Amplitude cohort analysis + Pixis 3x ROAS holdout incrementality + Plug Power keyword + audience + creative testing.
+
+On AI-native execution: 4 Anthropic Claude certifications + SwipeHire on Python + OpenAI API + React + Claude draft-and-critique pipeline at 8x copy velocity.
+
+Remote works. CV + CL attached. Portfolio: https://adhi-growth-ai.vercel.app/ref/nielsen-dcm
+
+15 minutes next week?
+
+Adhithya | (929) 563-9974
+
+
+----- RECRUITER LINKEDIN NOTE -----
+Hi {Recruiter}, applied for Digital Campaign Manager at Nielsen. 4+ yrs across Plug Power full-funnel + multi-touch attribution rebuild on HubSpot + Salesforce + Adobe + GA4 + GTM (-25% CPA, +20% conversion), Pixis 8-client B2B SaaS book ($15K-$90K per-client monthly, 3x ROAS holdout, weekly CFO QBRs), Sensata $627M Power BI dashboard. 4 Claude certs + Claude pipeline at 8x copy velocity. Remote works. Available for a screen.
+
+
+----- RECRUITER EMAIL -----
+Subject: Application - Digital Campaign Manager (Nielsen)
+
+Hi {Recruiter},
+
+Submitted for the Digital Campaign Manager role earlier today.
+
+Quick fit summary on substance:
+- 4+ years across full-funnel digital campaigns + multi-touch attribution (Plug Power: full demand engine rebuild on Google + Meta + LinkedIn + Adobe-driven programmatic, -25% CPA, +20% conversion, multi-touch attribution rebuilt across HubSpot + Salesforce + Adobe Analytics + GA4 + GTM, UTM spec from scratch, GTM containers rebuilt, lead routing validated through Salesforce).
+- Executive-narrative translation: Pixis 8-client B2B SaaS book with weekly client CFO QBRs presenting ROI + iROAS; Sensata $627M Power BI dashboard tracking 1,200 opportunities across 3 regions / 4 product families.
+- A/B testing framework: SwipeHire 8 A/B tests on activation flows + Amplitude cohort analysis + Pixis 3x ROAS holdout incrementality + Plug Power keyword + audience + creative testing.
+- AI-native execution: 4 Anthropic Claude certifications + SwipeHire shipped solo on Python + OpenAI API + React + Claude draft-and-critique pipeline productized at 8x copy velocity.
+- CAC + LTV + ROAS + MER fluency direct.
+
+Remote works.
+
+CV + CL attached. Portfolio: https://adhi-growth-ai.vercel.app/ref/nielsen-dcm
+
+Available for a screen this week.
+
+Adhithya | (929) 563-9974

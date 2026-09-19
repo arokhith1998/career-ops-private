@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Flagright Founding Growth Strategist Pitch Deck Adhithya</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  @page { size: 11in 8.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #fafafa; background: #0a0a0a; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; }
+  .slide { width: 11in; height: 8.5in; padding: 0.55in 0.75in 0.5in 0.75in; page-break-after: always; position: relative; overflow: hidden; background: #0a0a0a; color: #fafafa; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.35in; right: 0.55in; font-size: 8.5pt; color: #525252; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.35in; left: 0.75in; font-size: 8.5pt; color: #525252; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #a3e635; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 10pt; }
+  h1 { font-size: 36pt; font-weight: 800; color: #fafafa; line-height: 1.04; letter-spacing: -0.6pt; margin-bottom: 8pt; }
+  h2 { font-size: 24pt; font-weight: 800; color: #fafafa; line-height: 1.08; letter-spacing: -0.4pt; margin-bottom: 6pt; }
+  h2 .accent { color: #a3e635; }
+  .lede { font-size: 13pt; color: #d4d4d4; max-width: 8.5in; margin-bottom: 14pt; font-weight: 400; }
+
+  /* Cover */
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 1in; padding-right: 1in; background: linear-gradient(135deg, #0a0a0a 0%, #1c1917 100%); }
+  .cover h1 { font-size: 42pt; max-width: 9.2in; }
+  .cover .sub { font-size: 17pt; color: #a3e635; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 26pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 9.5in; }
+  .tag { background: #18181b; border: 1pt solid #404040; color: #e5e5e5; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.5pt; font-weight: 500; }
+  .tag strong { color: #a3e635; font-weight: 700; }
+  .cover .who { margin-top: 32pt; padding-top: 14pt; border-top: 1.5pt solid #a3e635; max-width: 7in; }
+  .cover .who .nm { font-size: 11pt; color: #fafafa; font-weight: 700; }
+  .cover .who .ct { font-size: 9.5pt; color: #d4d4d4; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.6in; right: 0.85in; font-size: 9pt; color: #525252; font-style: italic; }
+
+  /* Four-quadrant slide */
+  .quad { display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; gap: 16pt; margin-top: 4pt; height: 6.2in; }
+  .q-cell { background: #18181b; border: 1pt solid #404040; border-left: 3pt solid #a3e635; padding: 16pt 18pt; }
+  .q-cell .q-label { font-size: 8.5pt; color: #a3e635; letter-spacing: 1.5pt; font-weight: 700; text-transform: uppercase; margin-bottom: 6pt; }
+  .q-cell .q-ttl { font-size: 13pt; font-weight: 800; color: #fafafa; margin-bottom: 8pt; line-height: 1.2; }
+  .q-cell .q-body { font-size: 9.5pt; color: #d4d4d4; line-height: 1.5; }
+  .q-cell .q-body b { color: #a3e635; font-weight: 700; }
+
+  /* Sensata methodology */
+  .sensata-grid { display: grid; grid-template-columns: 1fr 2.4in; gap: 18pt; margin-top: 4pt; }
+  .sensata-svg { width: 100%; height: 4.2in; }
+  .margin-note { font-size: 9.5pt; color: #d4d4d4; line-height: 1.55; font-style: italic; border-top: 1pt solid #404040; padding-top: 10pt; margin-top: 10pt; }
+  .margin-note .hdr { font-style: normal; font-weight: 700; color: #a3e635; font-size: 9pt; letter-spacing: 1pt; text-transform: uppercase; margin-bottom: 6pt; }
+  .margin-note p { margin-bottom: 8pt; }
+
+  /* AI builder slide */
+  .ai-grid { display: grid; grid-template-columns: 2.4in 1fr; gap: 22pt; margin-top: 0pt; align-items: start; }
+  .phone-wrap { display: flex; justify-content: center; align-items: flex-start; padding-top: 4pt; }
+  .phone-svg { width: 2.2in; height: 4.5in; }
+  .ai-right h3 { font-size: 11pt; color: #fafafa; font-weight: 800; margin-bottom: 8pt; letter-spacing: -0.2pt; }
+  .ai-right .step { display: grid; grid-template-columns: 0.2in 1fr; gap: 6pt; margin-bottom: 7pt; align-items: start; }
+  .ai-right .n { font-size: 10pt; color: #a3e635; font-weight: 800; line-height: 1.5; }
+  .ai-right .t { font-size: 9.5pt; color: #d4d4d4; line-height: 1.45; }
+  .ai-right .t b { color: #fafafa; font-weight: 700; }
+
+  /* Week one */
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 8pt; }
+  .card { background: #18181b; border: 1pt solid #404040; border-left: 4pt solid #a3e635; padding: 14pt 14pt 12pt 14pt; }
+  .card .label { font-size: 8.5pt; color: #a3e635; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 13pt; font-weight: 800; color: #fafafa; line-height: 1.18; margin-bottom: 8pt; }
+  .card .body { font-size: 9.5pt; color: #d4d4d4; line-height: 1.5; margin-bottom: 8pt; }
+  .card .why { font-size: 9pt; color: #a3a3a3; line-height: 1.5; padding-top: 8pt; border-top: 1pt dashed #404040; }
+  .card .why strong { color: #a3e635; font-weight: 700; }
+
+  /* Close */
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 1in; padding-right: 1in; background: linear-gradient(135deg, #0a0a0a 0%, #1c1917 100%); }
+  .close h2 { font-size: 30pt; max-width: 8.5in; margin-bottom: 16pt; }
+  .close .body { font-size: 11.5pt; color: #d4d4d4; line-height: 1.6; max-width: 8.5in; }
+  .close .body p { margin-bottom: 10pt; }
+  .close .body strong { color: #a3e635; font-weight: 700; }
+  .close .cta { margin-top: 22pt; display: inline-flex; gap: 14pt; align-items: center; }
+  .close .cta .btn { background: #a3e635; color: #0a0a0a; padding: 11pt 22pt; border-radius: 3pt; font-weight: 700; font-size: 11pt; letter-spacing: 0.3pt; }
+  .close .cta .alt { font-size: 10.5pt; color: #a3a3a3; font-style: italic; }
+  .close .contact { margin-top: 24pt; font-size: 10pt; color: #d4d4d4; line-height: 1.6; }
+  .close .contact strong { color: #fafafa; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<!-- SLIDE 1 - COVER -->
+<div class="slide cover">
+  <div class="prep">Prepared for the Flagright Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Founding Growth Strategist, Flagright</div>
+  <h1>Positioning. ABM. Sales enablement. Built like an engineer.</h1>
+  <div class="sub">The founding-growth shape, plus a builder credit the engineering team will care about.</div>
+  <div class="tags">
+    <div class="tag"><strong>Sensata</strong> - 30+ customer interviews -> positioning + 50-rep enablement -> +30% win rate</div>
+    <div class="tag"><strong>Plug Power</strong> - account-level ABM stack from zero + Salesforce SLA + RFP</div>
+    <div class="tag"><strong>SwipeHire + NSE Bot</strong> - 2 shipped AI products solo</div>
+    <div class="tag"><strong>4</strong> Anthropic Claude Certifications</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">Boston, MA | Open to Santa Clara relocation | arokhith@gmail.com | (929) 563-9974</div>
+  </div>
+  <div class="brand">Flagright | Adhithya Rokhith Bhaskar</div>
+  <div class="num">01 / 06</div>
+</div>
+
+<!-- SLIDE 2 - FOUR QUADRANTS -->
+<div class="slide">
+  <div class="eyebrow">Slide 02 | The Four Things the Seat Asks For</div>
+  <h2>The founding-growth-strategist seat is four jobs in one. <span class="accent">Mine maps to each.</span></h2>
+  <div class="lede">Most founding-strategist candidates can do two of the four cleanly. The combination is what makes this a hard hire. Below: my proof for each quadrant.</div>
+
+  <div class="quad">
+    <div class="q-cell">
+      <div class="q-label">Quadrant 1 - Positioning + Messaging</div>
+      <div class="q-ttl">Sensata 30-interview positioning rewrite</div>
+      <div class="q-body">Ran <b>30+ structured customer interviews</b> across buying committees (engineering, procurement, facilities). Translated voice-of-customer signal into a positioning rewrite + messaging frameworks by vertical + segment + persona. Shipped a sales enablement library and battlecards to <b>50+ reps</b>. Win rate lifted <b>30%</b>. Direct analog to the JD's "define positioning + messaging by vertical + segment + persona + channel" line.</div>
+    </div>
+
+    <div class="q-cell">
+      <div class="q-label">Quadrant 2 - Named-Account ABM</div>
+      <div class="q-ttl">Plug Power account-level stack from zero</div>
+      <div class="q-body">Built the account-level ABM stack from zero on <b>Adobe Audience Manager + LinkedIn ABM</b>: behavioral segments, retargeting funnels, audience layers by title + seniority + industry. HubSpot account-level lifecycle stages feeding sales-handoff workflows. <b>Salesforce campaign attribution + lead-routing rules + SLA documentation</b> feeding BDR and AE alerting. -25% CPA, +20% conversion.</div>
+    </div>
+
+    <div class="q-cell">
+      <div class="q-label">Quadrant 3 - Sales Enablement + RFP</div>
+      <div class="q-ttl">Pixis multi-tier + Plug Power RFP coordination</div>
+      <div class="q-body">At Pixis, the <b>8-client B2B SaaS portfolio</b> ran as multi-tier ABM at agency scale: per-tier playbooks, weekly QBRs, tiered creative + measurement cadence. At Plug Power, I coordinated a <b>4-vendor MarTech RFP</b> with Procurement and 6 internal stakeholders + SLA documentation. The RFP-process muscle the JD names directly.</div>
+    </div>
+
+    <div class="q-cell">
+      <div class="q-label">Quadrant 4 - AI-Builder Credit</div>
+      <div class="q-ttl">Two shipped AI products + 4 Claude certs</div>
+      <div class="q-body"><b>SwipeHire</b> on Python + OpenAI API + React (50 users, 8 A/B tests, +25% activation). <b>NSE Paper-Trading Bot</b> on Python + Claude API as agentic reasoning over rule-based scoring. <b>4 Anthropic Claude certifications</b> + Cursor + Claude daily workflow. The credibility to shop with Flagright's engineering team - which most founding-growth-strategist candidates won't bring.</div>
+    </div>
+  </div>
+
+  <div class="brand">Flagright | Adhithya Rokhith Bhaskar</div>
+  <div class="num">02 / 06</div>
+</div>
+
+<!-- SLIDE 3 - SENSATA METHODOLOGY -->
+<div class="slide">
+  <div class="eyebrow">Slide 03 | The Positioning Pipeline</div>
+  <h2>30 interviews. <span class="accent">A positioning rewrite. 50 reps trained. +30% win rate.</span></h2>
+  <div class="lede">The Sensata customer-story pipeline I ran is the working methodology for the JD's positioning + messaging + sales enablement responsibilities. The structure transfers directly to Flagright's enterprise compliance buyer.</div>
+
+  <div class="sensata-grid">
+    <svg viewBox="0 0 720 360" class="sensata-svg">
+      <text x="20" y="22" font-size="10" fill="#a3e635" font-weight="700" letter-spacing="1.5">STEP 1 - DISCOVERY</text>
+      <rect x="20" y="40" width="320" height="48" rx="3" fill="#18181b" stroke="#525252" stroke-width="1"/>
+      <text x="32" y="60" font-size="10.5" fill="#fafafa" font-weight="800">30+ structured customer interviews</text>
+      <text x="32" y="76" font-size="9" fill="#d4d4d4">Across buying committee: engineering + procurement + facilities</text>
+
+      <rect x="360" y="40" width="340" height="48" rx="3" fill="#18181b" stroke="#525252" stroke-width="1"/>
+      <text x="372" y="60" font-size="10.5" fill="#fafafa" font-weight="800">Competitive + market mapping</text>
+      <text x="372" y="76" font-size="9" fill="#d4d4d4">10+ competitors analyzed; segment + vertical priorities defined</text>
+
+      <text x="20" y="108" font-size="10" fill="#a3e635" font-weight="700" letter-spacing="1.5">STEP 2 - SYNTHESIS</text>
+      <rect x="20" y="126" width="680" height="48" rx="3" fill="#1c1917" stroke="#a3e635" stroke-width="1.5"/>
+      <text x="32" y="146" font-size="10.5" fill="#fafafa" font-weight="800">Positioning + messaging frameworks by vertical + segment + persona</text>
+      <text x="32" y="162" font-size="9" fill="#d4d4d4">Value props translated from technical specs into commercial narrative</text>
+
+      <text x="20" y="194" font-size="10" fill="#a3e635" font-weight="700" letter-spacing="1.5">STEP 3 - SALES ENABLEMENT LIBRARY</text>
+      <rect x="20" y="212" width="220" height="52" rx="3" fill="#18181b" stroke="#525252" stroke-width="1"/>
+      <text x="32" y="232" font-size="10.5" fill="#fafafa" font-weight="800">Battlecards</text>
+      <text x="32" y="247" font-size="9" fill="#d4d4d4">Competitive minefields</text>
+      <text x="32" y="260" font-size="9" fill="#d4d4d4">Persona objection handling</text>
+
+      <rect x="250" y="212" width="220" height="52" rx="3" fill="#18181b" stroke="#525252" stroke-width="1"/>
+      <text x="262" y="232" font-size="10.5" fill="#fafafa" font-weight="800">Sales playbooks</text>
+      <text x="262" y="247" font-size="9" fill="#d4d4d4">Per-segment scripts</text>
+      <text x="262" y="260" font-size="9" fill="#d4d4d4">RFP-response templates</text>
+
+      <rect x="480" y="212" width="220" height="52" rx="3" fill="#18181b" stroke="#525252" stroke-width="1"/>
+      <text x="492" y="232" font-size="10.5" fill="#fafafa" font-weight="800">Case-study pipeline</text>
+      <text x="492" y="247" font-size="9" fill="#d4d4d4">Per-vertical proof points</text>
+      <text x="492" y="260" font-size="9" fill="#d4d4d4">Executive narrative decks</text>
+
+      <text x="20" y="284" font-size="10" fill="#a3e635" font-weight="700" letter-spacing="1.5">STEP 4 - ROLLOUT + MEASUREMENT</text>
+      <rect x="20" y="302" width="680" height="40" rx="3" fill="#18181b" stroke="#525252" stroke-width="1"/>
+      <text x="32" y="322" font-size="10.5" fill="#fafafa" font-weight="800">Trained 50+ reps; measured win-rate delta + cycle-time delta + deal-size delta</text>
+      <text x="32" y="335" font-size="9" fill="#a3e635" font-weight="700">Outcome: +30% win rate, +35% qualified leads, $2M+ first-year pipeline</text>
+    </svg>
+
+    <div class="margin-note">
+      <div class="hdr">Translation to Flagright</div>
+      <p>Swap "industrial sensors + telemetry" for "AI financial-crime compliance." Swap "engineering + procurement + facilities" for "<strong>Chief Compliance Officer + Head of Financial Crime + BSA Officer + CISO</strong>."</p>
+      <p>The methodology is the same. The buyer is different. The first 90 days are the discovery + synthesis sprint.</p>
+    </div>
+  </div>
+
+  <div class="brand">Flagright | Adhithya Rokhith Bhaskar</div>
+  <div class="num">03 / 06</div>
+</div>
+
+<!-- SLIDE 4 - AI BUILDER CREDIT -->
+<div class="slide">
+  <div class="eyebrow">Slide 04 | The Builder Credit</div>
+  <h2>I'm a marketer <span class="accent">who actually ships AI products.</span></h2>
+  <div class="lede">At an AI-first regtech, the founding-growth-strategist who can shop with engineering is the one who can sell the product credibly to a CISO or Head of Financial Crime. I've shipped two AI products solo.</div>
+
+  <div class="ai-grid">
+    <div class="phone-wrap">
+      <svg viewBox="0 0 240 460" class="phone-svg">
+        <rect x="0" y="0" width="240" height="460" rx="26" fill="#fafafa"/>
+        <rect x="6" y="6" width="228" height="448" rx="22" fill="#0a0a0a"/>
+        <text x="20" y="22" font-size="9" fill="#fafafa" font-weight="700">9:41</text>
+        <rect x="100" y="11" width="40" height="6" rx="3" fill="#fafafa"/>
+        <text x="220" y="22" text-anchor="end" font-size="9" fill="#fafafa" font-weight="700">100%</text>
+        <text x="20" y="46" font-size="13" font-weight="800" fill="#fafafa">SwipeHire</text>
+        <text x="220" y="46" text-anchor="end" font-size="14" fill="#a3a3a3" font-weight="700">...</text>
+        <rect x="14" y="62" width="212" height="328" rx="12" fill="#18181b" stroke="#404040" stroke-width="1"/>
+        <circle cx="44" cy="92" r="18" fill="#1c1917" stroke="#a3e635" stroke-width="1.5"/>
+        <text x="44" y="98" text-anchor="middle" font-size="13" font-weight="800" fill="#a3e635">F</text>
+        <text x="72" y="88" font-size="10.5" font-weight="800" fill="#fafafa">Founding Growth Strategist</text>
+        <text x="72" y="102" font-size="8.5" fill="#a3a3a3">Flagright  Santa Clara</text>
+        <rect x="22" y="124" width="196" height="40" rx="6" fill="#1c1917"/>
+        <text x="32" y="142" font-size="7" fill="#a3e635" font-weight="700" letter-spacing="0.8">MATCH SCORE</text>
+        <text x="208" y="148" text-anchor="end" font-size="18" font-weight="800" fill="#a3e635">91%</text>
+        <text x="32" y="158" font-size="7.5" fill="#d4d4d4">30-interview positioning + 4-quadrant fit</text>
+        <rect x="22" y="178" width="80" height="18" rx="9" fill="#262626"/>
+        <text x="62" y="190" text-anchor="middle" font-size="7" fill="#e5e5e5" font-weight="600">AI-builder</text>
+        <rect x="108" y="178" width="50" height="18" rx="9" fill="#262626"/>
+        <text x="133" y="190" text-anchor="middle" font-size="7" fill="#e5e5e5" font-weight="600">ABM</text>
+        <rect x="164" y="178" width="56" height="18" rx="9" fill="#262626"/>
+        <text x="192" y="190" text-anchor="middle" font-size="7" fill="#e5e5e5" font-weight="600">YC stage</text>
+        <text x="22" y="218" font-size="7.5" fill="#a3a3a3" font-weight="700" letter-spacing="0.6">SKILLS MATCHED</text>
+        <text x="22" y="232" font-size="8" fill="#fafafa">Positioning  Sales enablement  ABM</text>
+        <text x="22" y="246" font-size="8" fill="#fafafa">Claude API  OpenAI API  Cursor</text>
+        <rect x="22" y="258" width="196" height="68" rx="6" fill="#0a0a0a" stroke="#404040" stroke-width="1"/>
+        <text x="30" y="274" font-size="7" fill="#a3a3a3" font-weight="700" letter-spacing="0.6">AI RATIONALE</text>
+        <text x="30" y="288" font-size="7.5" fill="#d4d4d4" font-style="italic">"Sensata 30-interview positioning</text>
+        <text x="30" y="299" font-size="7.5" fill="#d4d4d4" font-style="italic">pipeline + 50-rep enablement maps</text>
+        <text x="30" y="310" font-size="7.5" fill="#d4d4d4" font-style="italic">cleanly to enterprise compliance</text>
+        <text x="30" y="321" font-size="7.5" fill="#d4d4d4" font-style="italic">buyer at Flagright."</text>
+        <rect x="22" y="340" width="196" height="36" rx="6" fill="#18181b" stroke="#404040" stroke-width="1"/>
+        <text x="32" y="354" font-size="7.5" fill="#fafafa" font-weight="700">CV auto-tailored</text>
+        <text x="32" y="367" font-size="7" fill="#a3a3a3">14 skills aligned, JD-specific summary</text>
+        <text x="210" y="362" text-anchor="end" font-size="11" fill="#a3e635" font-weight="800">↻</text>
+        <circle cx="78" cy="418" r="20" fill="#18181b" stroke="#404040" stroke-width="1.5"/>
+        <text x="78" y="424" text-anchor="middle" font-size="14" fill="#a3a3a3">×</text>
+        <circle cx="162" cy="418" r="20" fill="#a3e635"/>
+        <text x="162" y="424" text-anchor="middle" font-size="14" font-weight="800" fill="#0a0a0a">✓</text>
+        <text x="78" y="450" text-anchor="middle" font-size="7" fill="#525252" letter-spacing="0.5">SKIP</text>
+        <text x="162" y="450" text-anchor="middle" font-size="7" fill="#525252" letter-spacing="0.5">APPLY</text>
+      </svg>
+    </div>
+
+    <div class="ai-right">
+      <h3>The architecture, layer by layer</h3>
+      <div class="step"><div class="n">01</div><div class="t"><b>Deterministic input layer.</b> Resume parser on the OpenAI API, structured JSON output, skill normalization on a controlled taxonomy.</div></div>
+      <div class="step"><div class="n">02</div><div class="t"><b>LLM reasoning layer.</b> LLM-scored matching on top of deterministic overlap. The LLM reasons; it doesn't replace the score.</div></div>
+      <div class="step"><div class="n">03</div><div class="t"><b>Action layer.</b> Auto-tailored CV generated server-side on apply.</div></div>
+      <div class="step"><div class="n">04</div><div class="t"><b>Instrumentation.</b> GA4 + GTM + Amplitude wired day one. Custom events on every step.</div></div>
+      <div class="step"><div class="n">05</div><div class="t"><b>Eval loop.</b> Weekly review of LLM rationale outputs against measured user behavior. Prompt iteration as a daily ritual.</div></div>
+
+      <h3 style="margin-top: 14pt;">Why Flagright should care</h3>
+      <div class="step"><div class="n"></div><div class="t">When a CISO at a Fortune 500 bank asks "how does the model handle false positives at our transaction volumes," the founding-growth-strategist who has actually shipped <b>deterministic-layer + LLM-reasoning architecture</b> can answer credibly. The marketer who has only used Claude can't.</div></div>
+    </div>
+  </div>
+
+  <div class="brand">Flagright | Adhithya Rokhith Bhaskar</div>
+  <div class="num">04 / 06</div>
+</div>
+
+<!-- SLIDE 5 - WEEK ONE -->
+<div class="slide">
+  <div class="eyebrow">Slide 05 | First Sixty Days</div>
+  <h2>Three things I'd ship <span class="accent">in the first sixty days at Flagright.</span></h2>
+  <div class="lede">Concrete, scoped, and each produces a working artifact - not a strategy doc.</div>
+
+  <div class="week">
+    <div class="card">
+      <div class="label">Ship 1 - Discovery Sprint</div>
+      <div class="ttl">25 Fortune-500 financial-crime buyer interviews</div>
+      <div class="body">Run a 60-day discovery sprint: 25 structured interviews across Chief Compliance Officer + Head of Financial Crime + BSA Officer + CISO personas at top-50 Fortune 500 financial institutions. Buying-committee maps for the top-10 accounts. Vertical-specific value-prop drafts (banks vs payment processors vs neobanks vs fintech).</div>
+      <div class="why"><strong>Why first.</strong> Sensata's 30-interview methodology in production at Flagright scale. Without this, every downstream artifact - battlecards, RFP responses, segment messaging - rests on a thin base.</div>
+    </div>
+
+    <div class="card">
+      <div class="label">Ship 2 - Competitive Position</div>
+      <div class="ttl">vs Hawk AI / ComplyAdvantage / Feedzai / Quantexa</div>
+      <div class="body">Build the competitive-positioning framework: a 1-page Flagright vs Hawk vs ComplyAdvantage vs Feedzai vs Quantexa battlecard. Competitor minefield design - the specific questions an AE should plant to expose competitor weakness. Updated quarterly.</div>
+      <div class="why"><strong>Why first.</strong> Win-rate compounds with battlecard quality. The JD explicitly names "competitive minefields that expose competitor weaknesses." Pixis competitive analysis discipline + Sensata battlecard library are the analogs.</div>
+    </div>
+
+    <div class="card">
+      <div class="label">Ship 3 - ABM Pilot</div>
+      <div class="ttl">5 named Fortune 500 accounts - 1:1 motion</div>
+      <div class="body">Pick 5 named accounts not currently in pipeline. Run 1:1 plays: custom landing page + executive briefing draft + outbound sequence aligned to buying-committee map + LinkedIn ABM audience + tracking on engagement-to-pipeline progression. Hand the engagement signal to AEs through Salesforce alerting.</div>
+      <div class="why"><strong>Why first.</strong> The fastest test of whether the new positioning + ABM stack actually produces pipeline. Plug Power Adobe AAM + LinkedIn ABM playbook scaled to enterprise-bank named accounts.</div>
+    </div>
+  </div>
+
+  <div class="brand">Flagright | Adhithya Rokhith Bhaskar</div>
+  <div class="num">05 / 06</div>
+</div>
+
+<!-- SLIDE 6 - CLOSE -->
+<div class="slide close">
+  <div class="eyebrow">Slide 06 | The Ask</div>
+  <h2>What I'd want from <span class="accent">the first fifteen minutes.</span></h2>
+  <div class="body">
+    <p><strong>What I'd want to understand:</strong> which of the four quadrants (positioning, ABM, sales enablement, AI-builder) is the team's biggest current gap; how the marketing-sales seam is operating today; and where the CEO is putting their thumb on the scale between enterprise capture and mid-market expansion.</p>
+    <p><strong>What I'd bring:</strong> a draft buying-committee map for one Fortune 500 financial institution on the target list, a one-page competitive-positioning sketch vs Hawk AI / ComplyAdvantage / Feedzai, and an honest take on what I'd close first in the "ABM operator with Fortune-500-bank enterprise sales cycle" gap.</p>
+    <p>Open to relocating to Santa Clara for the right team. Looking forward to a conversation.</p>
+  </div>
+  <div class="cta">
+    <div class="btn">15 min with the Flagright team</div>
+    <div class="alt">or written async if that's easier on your week</div>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong><br>
+    arokhith@gmail.com | (929) 563-9974 | Boston, MA (open to Santa Clara)<br>
+    Portfolio: adhi-growth-ai.vercel.app/ref/flagright-fgs<br>
+    LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">Flagright | Adhithya Rokhith Bhaskar</div>
+  <div class="num">06 / 06</div>
+</div>
+
+</body>
+</html>

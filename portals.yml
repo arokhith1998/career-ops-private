@@ -1,0 +1,593 @@
+# Portal Scanner Config — Adhithya Rokhith Bhaskar
+# Target: Growth / Performance Marketing / Product Marketing / Product Mgmt / Pricing
+# Seniority: 0–5 YoE. Visa: STEM OPT (needs H-1B sponsorship).
+
+title_filter:
+  positive:
+    # Growth & performance marketing
+    - "Growth Manager"
+    - "Growth Marketing"
+    - "Performance Marketing"
+    - "Paid Media"
+    - "Paid Search"
+    - "Paid Social"
+    - "SEM"
+    - "SEO"
+    - "Search Engine Marketing"
+    - "Search Engine Optimization"
+    - "Programmatic"
+    - "Media Buyer"
+    - "Media Planner"
+    - "Digital Marketing"
+    - "Acquisition Marketing"
+    - "Lifecycle Marketing"
+    - "CRM Marketing"
+    - "Email Marketing"
+    # Product / brand / content
+    - "Product Marketing"
+    - "PMM"
+    - "Content Marketing"
+    - "Content Manager"
+    - "Social Media Manager"
+    - "Brand Marketing"
+    - "Brand Manager"
+    - "Marketing Manager"
+    - "Marketing Analyst"
+    - "Marketing Analytics"
+    - "Marketing Operations"
+    # Product management
+    - "Product Manager"
+    - "Associate Product Manager"
+    - "APM"
+    - "Product Analyst"
+    - "Product Owner"
+    # Pricing
+    - "Pricing"
+    - "Pricing Analyst"
+    - "Pricing Manager"
+    - "Pricing Strategy"
+    - "Revenue Management"
+    - "Monetization"
+    - "Deal Desk"
+    # RevOps (US track, added 2026-09-18)
+    - "Revenue Operations"
+    - "RevOps"
+    - "Rev Ops"
+    - "GTM Operations"
+    - "Sales Operations"
+    # Strategic marketing / market strategy (US track)
+    - "Strategic Marketing"
+    - "Marketing Strategy"
+    - "Market Strategy"
+    - "Market Intelligence"
+    - "Competitive Intelligence"
+    - "Market Research"
+    - "Go-to-Market"
+    # India track (added 2026-09-18). config/nightly.yml -> tracks keeps these
+    # to India and the US titles to the Bay Area / Remote-US.
+    - "Chief of Staff"
+    - "Head of Growth"
+    - "Growth Head"
+  negative:
+    - "Intern"
+    - "Director"
+    - "VP"
+    - "Vice President"
+    - "Principal"
+    - "Staff"
+    - "SDR"
+    - "BDR"
+    - "Sales Development"
+    - "Account Executive"
+    - "Software Engineer"
+    - "Backend"
+    - "Frontend"
+    - "Full Stack"
+    - "DevOps"
+    - "iOS"
+    - "Android"
+    - "Embedded"
+  seniority_boost:
+    - "Associate"
+    - "Manager"
+    - "Senior"
+    - "Lead"
+
+search_queries:
+  - name: Greenhouse — Growth & Performance Marketing
+    query: 'site:boards.greenhouse.io OR site:job-boards.greenhouse.io "Growth Marketing" OR "Performance Marketing" OR "Paid Media" OR "SEM"'
+    enabled: true
+  - name: Greenhouse — Product Marketing
+    query: 'site:boards.greenhouse.io OR site:job-boards.greenhouse.io "Product Marketing Manager" OR "PMM"'
+    enabled: true
+  - name: Greenhouse — Product Manager (APM)
+    query: 'site:boards.greenhouse.io OR site:job-boards.greenhouse.io "Associate Product Manager" OR "APM" OR "Product Analyst"'
+    enabled: true
+  - name: Greenhouse — Pricing
+    query: 'site:boards.greenhouse.io OR site:job-boards.greenhouse.io "Pricing Analyst" OR "Pricing Manager" OR "Pricing Strategy"'
+    enabled: true
+  - name: Lever — Marketing
+    query: 'site:jobs.lever.co "Growth Marketing" OR "Performance Marketing" OR "Product Marketing" OR "SEM" OR "Pricing"'
+    enabled: true
+  - name: Ashby — Marketing
+    query: 'site:jobs.ashbyhq.com "Growth Marketing" OR "Performance Marketing" OR "Product Marketing" OR "Paid Media"'
+    enabled: true
+  - name: Greenhouse — RevOps & Market Strategy
+    query: 'site:boards.greenhouse.io OR site:job-boards.greenhouse.io "Revenue Operations" OR "Deal Desk" OR "Competitive Intelligence" OR "Market Strategy"'
+    enabled: true
+  - name: LinkedIn — Bay Area Pricing & PMM
+    query: 'site:linkedin.com/jobs "Pricing Manager" OR "Product Marketing Manager" OR "Revenue Operations" "San Francisco Bay Area"'
+    enabled: true
+  - name: India — Chief of Staff
+    query: 'site:linkedin.com/jobs OR site:jobs.lever.co OR site:boards.greenhouse.io "Chief of Staff" India OR Bengaluru OR Mumbai OR Gurugram'
+    enabled: true
+  - name: India — Head of Growth
+    query: 'site:linkedin.com/jobs OR site:jobs.lever.co OR site:boards.greenhouse.io "Head of Growth" India OR Bengaluru OR Mumbai OR Gurugram'
+    enabled: true
+  - name: LinkedIn — Boston Marketing
+    query: 'site:linkedin.com/jobs "Growth Manager" OR "Performance Marketing" Boston'
+    enabled: false   # Boston is no longer a target metro (2026-09-18)
+  - name: Pharma Marketing
+    query: '"Product Marketing" OR "Brand Manager" OR "Digital Marketing" pharma OR biotech'
+    enabled: true
+  - name: Energy / Oil Marketing & Pricing
+    query: '"Pricing Analyst" OR "Marketing Manager" energy OR oil OR utilities OR industrial'
+    enabled: true
+
+# ---------------------------------------------------------------------------
+# Tracked companies
+# ---------------------------------------------------------------------------
+tracked_companies:
+
+  # ============ MARKETING AGENCIES & HOLDING COMPANIES ============
+  - name: WPP
+    careers_url: https://careers.wpp.com/search-results
+    scan_method: websearch
+    scan_query: 'site:careers.wpp.com "Marketing" OR "Growth" OR "Paid"'
+    enabled: true
+  - name: GroupM
+    careers_url: https://careers.groupm.com/
+    scan_method: websearch
+    scan_query: '"GroupM" careers "Performance" OR "Paid" OR "Media"'
+    enabled: true
+  - name: Ogilvy
+    careers_url: https://careers.ogilvy.com/
+    scan_method: websearch
+    scan_query: '"Ogilvy" careers "Strategy" OR "Brand" OR "Digital"'
+    enabled: true
+  - name: Omnicom
+    careers_url: https://www.omnicomgroup.com/careers/
+    scan_method: websearch
+    scan_query: '"Omnicom" careers marketing'
+    enabled: true
+  - name: Publicis Groupe
+    careers_url: https://careers.publicisgroupe.com/
+    scan_method: websearch
+    scan_query: '"Publicis" careers "Performance" OR "Media" OR "Digital"'
+    enabled: true
+  - name: IPG (Interpublic)
+    careers_url: https://www.interpublic.com/careers/
+    scan_method: websearch
+    scan_query: '"Interpublic" OR "IPG" careers marketing'
+    enabled: true
+  - name: Dentsu
+    careers_url: https://www.dentsu.com/us/en/careers
+    scan_method: websearch
+    scan_query: '"dentsu" careers "Performance" OR "Paid" OR "Media"'
+    enabled: true
+  - name: Havas
+    careers_url: https://careers.havas.com/
+    scan_method: websearch
+    scan_query: '"Havas" careers marketing'
+    enabled: true
+  - name: Wieden+Kennedy
+    careers_url: https://www.wk.com/careers/
+    scan_method: websearch
+    scan_query: '"Wieden" careers'
+    enabled: true
+  - name: Accenture Song
+    careers_url: https://www.accenture.com/us-en/careers
+    scan_method: websearch
+    scan_query: 'site:accenture.com/us-en/careers "Song" OR "Marketing" OR "Growth"'
+    enabled: true
+  - name: Deloitte Digital
+    careers_url: https://apply.deloitte.com/careers
+    scan_method: websearch
+    scan_query: '"Deloitte Digital" careers marketing'
+    enabled: true
+  - name: Edelman
+    careers_url: https://www.edelman.com/careers
+    scan_method: websearch
+    scan_query: '"Edelman" careers marketing'
+    enabled: true
+  - name: R/GA
+    careers_url: https://www.rga.com/careers
+    scan_method: websearch
+    scan_query: '"R/GA" careers'
+    enabled: true
+  - name: Huge
+    careers_url: https://www.hugeinc.com/careers
+    scan_method: websearch
+    scan_query: '"Huge Inc" careers'
+    enabled: true
+  - name: AKQA
+    careers_url: https://www.akqa.com/careers/
+    scan_method: websearch
+    scan_query: '"AKQA" careers'
+    enabled: true
+  - name: VaynerMedia
+    careers_url: https://vaynermedia.com/careers/
+    scan_method: websearch
+    scan_query: '"VaynerMedia" careers'
+    enabled: true
+  - name: Horizon Media
+    careers_url: https://www.horizonmedia.com/careers/
+    scan_method: websearch
+    scan_query: '"Horizon Media" careers'
+    enabled: true
+  - name: Digitas
+    careers_url: https://www.digitas.com/en-us/careers
+    scan_method: websearch
+    scan_query: '"Digitas" careers'
+    enabled: true
+  - name: MediaCom / EssenceMediacom
+    careers_url: https://www.essencemediacom.com/careers
+    scan_method: websearch
+    scan_query: '"EssenceMediacom" OR "MediaCom" careers'
+    enabled: true
+
+  # ============ PHARMA / BIOTECH ============
+  - name: Pfizer
+    careers_url: https://www.pfizer.com/about/careers
+    scan_method: websearch
+    scan_query: 'site:pfizer.com/about/careers "Marketing" OR "Brand" OR "Pricing"'
+    enabled: true
+  - name: Moderna
+    careers_url: https://modernatx.com/careers
+    scan_method: websearch
+    scan_query: '"Moderna" careers "Marketing" OR "Product" OR "Pricing"'
+    enabled: true
+  - name: Johnson & Johnson
+    careers_url: https://www.careers.jnj.com/
+    scan_method: websearch
+    scan_query: 'site:careers.jnj.com "Marketing" OR "Brand" OR "Product"'
+    enabled: true
+  - name: Merck
+    careers_url: https://jobs.merck.com/
+    scan_method: websearch
+    scan_query: 'site:jobs.merck.com "Marketing" OR "Brand" OR "Pricing"'
+    enabled: true
+  - name: Eli Lilly
+    careers_url: https://careers.lilly.com/
+    scan_method: websearch
+    scan_query: 'site:careers.lilly.com "Marketing" OR "Brand"'
+    enabled: true
+  - name: AbbVie
+    careers_url: https://careers.abbvie.com/en
+    scan_method: websearch
+    scan_query: 'site:careers.abbvie.com "Marketing" OR "Brand"'
+    enabled: true
+  - name: Novartis
+    careers_url: https://www.novartis.com/careers
+    scan_method: websearch
+    scan_query: '"Novartis" careers "Marketing" OR "Brand"'
+    enabled: true
+  - name: AstraZeneca
+    careers_url: https://careers.astrazeneca.com/
+    scan_method: websearch
+    scan_query: '"AstraZeneca" careers "Marketing"'
+    enabled: true
+  - name: Roche / Genentech
+    careers_url: https://www.gene.com/careers
+    scan_method: websearch
+    scan_query: '"Genentech" OR "Roche" careers "Marketing"'
+    enabled: true
+  - name: Bristol Myers Squibb
+    careers_url: https://careers.bms.com/
+    scan_method: websearch
+    scan_query: '"Bristol Myers" careers "Marketing"'
+    enabled: true
+  - name: Sanofi
+    careers_url: https://en.jobs.sanofi.com/
+    scan_method: websearch
+    scan_query: '"Sanofi" careers "Marketing"'
+    enabled: true
+  - name: GSK
+    careers_url: https://www.gsk.com/en-gb/careers/
+    scan_method: websearch
+    scan_query: '"GSK" careers "Marketing" OR "Brand"'
+    enabled: true
+  - name: Takeda
+    careers_url: https://www.takeda.com/careers/
+    scan_method: websearch
+    scan_query: '"Takeda" careers "Marketing"'
+    enabled: true
+  - name: Vertex Pharmaceuticals
+    careers_url: https://www.vrtx.com/careers/
+    scan_method: websearch
+    scan_query: '"Vertex Pharmaceuticals" careers marketing'
+    enabled: true
+  - name: Biogen
+    careers_url: https://www.biogen.com/careers.html
+    scan_method: websearch
+    scan_query: '"Biogen" careers marketing'
+    enabled: true
+  - name: Regeneron
+    careers_url: https://careers.regeneron.com/
+    scan_method: websearch
+    scan_query: '"Regeneron" careers marketing'
+    enabled: true
+
+  # ============ TECH COMPANIES ============
+  - name: Google
+    careers_url: https://www.google.com/about/careers/applications/
+    scan_method: websearch
+    scan_query: 'site:google.com/about/careers "Product Marketing" OR "Growth" OR "Pricing"'
+    enabled: true
+  - name: Meta
+    careers_url: https://www.metacareers.com/jobs
+    scan_method: websearch
+    scan_query: 'site:metacareers.com "Product Marketing" OR "Growth" OR "Pricing"'
+    enabled: true
+  - name: Amazon
+    careers_url: https://www.amazon.jobs/en/
+    scan_method: websearch
+    scan_query: 'site:amazon.jobs "Product Marketing" OR "Pricing" OR "Growth"'
+    enabled: true
+  - name: Microsoft
+    careers_url: https://careers.microsoft.com/
+    scan_method: websearch
+    scan_query: 'site:careers.microsoft.com "Product Marketing" OR "Growth" OR "Pricing"'
+    enabled: true
+  - name: Apple
+    careers_url: https://jobs.apple.com/en-us/search
+    scan_method: websearch
+    scan_query: 'site:jobs.apple.com "Product Marketing" OR "Pricing"'
+    enabled: true
+  - name: Netflix
+    careers_url: https://jobs.netflix.com/
+    scan_method: websearch
+    scan_query: 'site:jobs.netflix.com "Marketing" OR "Growth" OR "Pricing"'
+    enabled: true
+  - name: Uber
+    careers_url: https://www.uber.com/us/en/careers/
+    scan_method: websearch
+    scan_query: 'site:uber.com/careers "Marketing" OR "Growth" OR "Pricing"'
+    enabled: true
+  - name: Lyft
+    careers_url: https://www.lyft.com/careers
+    scan_method: websearch
+    scan_query: '"Lyft" careers "Marketing" OR "Growth" OR "Pricing"'
+    enabled: true
+  - name: DoorDash
+    careers_url: https://careers.doordash.com/
+    scan_method: websearch
+    scan_query: '"DoorDash" careers "Marketing" OR "Growth" OR "Pricing"'
+    enabled: true
+  - name: Airbnb
+    careers_url: https://careers.airbnb.com/
+    scan_method: websearch
+    scan_query: '"Airbnb" careers "Marketing" OR "Growth" OR "Pricing"'
+    enabled: true
+  - name: Snap
+    careers_url: https://snap.com/en-US/jobs
+    scan_method: websearch
+    scan_query: 'site:snap.com/jobs "Marketing" OR "Growth"'
+    enabled: true
+  - name: TikTok
+    careers_url: https://careers.tiktok.com/
+    scan_method: websearch
+    scan_query: '"TikTok" careers "Marketing" OR "Growth"'
+    enabled: true
+  - name: Spotify
+    careers_url: https://www.lifeatspotify.com/jobs
+    scan_method: websearch
+    scan_query: '"Spotify" careers "Marketing" OR "Growth"'
+    enabled: true
+  - name: Pinterest
+    careers_url: https://www.pinterestcareers.com/
+    scan_method: websearch
+    scan_query: '"Pinterest" careers "Marketing"'
+    enabled: true
+  - name: LinkedIn
+    careers_url: https://careers.linkedin.com/
+    scan_method: websearch
+    scan_query: '"LinkedIn" careers "Product Marketing" OR "Growth"'
+    enabled: true
+  - name: HubSpot
+    careers_url: https://www.hubspot.com/careers
+    scan_method: websearch
+    scan_query: '"HubSpot" careers "Marketing" OR "Growth" OR "Product Marketing"'
+    enabled: true
+  - name: Salesforce
+    careers_url: https://careers.salesforce.com
+    scan_method: websearch
+    scan_query: 'site:careers.salesforce.com "Product Marketing" OR "Pricing"'
+    enabled: true
+  - name: Adobe
+    careers_url: https://careers.adobe.com/
+    scan_method: websearch
+    scan_query: '"Adobe" careers "Product Marketing" OR "Growth"'
+    enabled: true
+  - name: Stripe
+    careers_url: https://stripe.com/jobs
+    scan_method: websearch
+    scan_query: 'site:stripe.com/jobs "Marketing" OR "Growth" OR "Pricing"'
+    enabled: true
+  - name: Shopify
+    careers_url: https://www.shopify.com/careers
+    scan_method: websearch
+    scan_query: '"Shopify" careers "Marketing" OR "Growth"'
+    enabled: true
+  - name: Atlassian
+    careers_url: https://www.atlassian.com/company/careers/all-jobs
+    scan_method: websearch
+    scan_query: '"Atlassian" careers "Product Marketing" OR "Growth"'
+    enabled: true
+  - name: Asana
+    careers_url: https://asana.com/jobs
+    scan_method: websearch
+    scan_query: '"Asana" careers "Marketing"'
+    enabled: true
+  - name: Notion
+    careers_url: https://www.notion.so/careers
+    scan_method: websearch
+    scan_query: '"Notion" careers "Marketing" OR "Growth"'
+    enabled: true
+  - name: Figma
+    careers_url: https://www.figma.com/careers/
+    scan_method: websearch
+    scan_query: '"Figma" careers "Marketing"'
+    enabled: true
+  - name: Canva
+    careers_url: https://www.canva.com/careers/
+    scan_method: websearch
+    scan_query: '"Canva" careers "Marketing"'
+    enabled: true
+  - name: Klaviyo
+    careers_url: https://www.klaviyo.com/careers
+    scan_method: websearch
+    scan_query: '"Klaviyo" careers "Marketing" OR "Growth"'
+    enabled: true
+  - name: Wayfair
+    careers_url: https://www.wayfair.com/careers
+    scan_method: websearch
+    scan_query: '"Wayfair" careers "Marketing" OR "Growth" OR "Pricing"'
+    enabled: true
+
+  # ============ ENERGY / OIL / INDUSTRIAL ============
+  - name: ExxonMobil
+    careers_url: https://jobs.exxonmobil.com/
+    scan_method: websearch
+    scan_query: '"ExxonMobil" careers "Marketing" OR "Pricing"'
+    enabled: true
+  - name: Chevron
+    careers_url: https://careers.chevron.com/
+    scan_method: websearch
+    scan_query: '"Chevron" careers "Marketing" OR "Pricing"'
+    enabled: true
+  - name: Shell
+    careers_url: https://www.shell.com/careers.html
+    scan_method: websearch
+    scan_query: '"Shell" careers "Marketing" OR "Pricing"'
+    enabled: true
+  - name: BP
+    careers_url: https://www.bp.com/en/global/corporate/careers.html
+    scan_method: websearch
+    scan_query: '"BP" careers "Marketing" OR "Pricing"'
+    enabled: true
+  - name: TotalEnergies
+    careers_url: https://careers.totalenergies.com/
+    scan_method: websearch
+    scan_query: '"TotalEnergies" careers "Marketing" OR "Pricing"'
+    enabled: true
+  - name: ConocoPhillips
+    careers_url: https://www.conocophillips.com/careers/
+    scan_method: websearch
+    scan_query: '"ConocoPhillips" careers "Marketing" OR "Pricing"'
+    enabled: true
+  - name: Schlumberger (SLB)
+    careers_url: https://careers.slb.com/
+    scan_method: websearch
+    scan_query: '"SLB" OR "Schlumberger" careers "Marketing" OR "Product"'
+    enabled: true
+  - name: Halliburton
+    careers_url: https://www.halliburton.com/en/careers
+    scan_method: websearch
+    scan_query: '"Halliburton" careers "Marketing"'
+    enabled: true
+  - name: GE Vernova
+    careers_url: https://www.gevernova.com/careers
+    scan_method: websearch
+    scan_query: '"GE Vernova" careers "Marketing" OR "Product" OR "Pricing"'
+    enabled: true
+  - name: Siemens Energy
+    careers_url: https://www.siemens-energy.com/global/en/home/careers.html
+    scan_method: websearch
+    scan_query: '"Siemens Energy" careers "Marketing" OR "Pricing"'
+    enabled: true
+  - name: Schneider Electric
+    careers_url: https://www.se.com/ww/en/about-us/careers/overview.jsp
+    scan_method: websearch
+    scan_query: '"Schneider Electric" careers "Marketing" OR "Pricing"'
+    enabled: true
+  - name: ABB
+    careers_url: https://global.abb/group/en/careers
+    scan_method: websearch
+    scan_query: '"ABB" careers "Marketing" OR "Pricing"'
+    enabled: true
+  - name: Honeywell
+    careers_url: https://careers.honeywell.com/
+    scan_method: websearch
+    scan_query: '"Honeywell" careers "Marketing" OR "Pricing" OR "Product"'
+    enabled: true
+  - name: Emerson
+    careers_url: https://www.emerson.com/en-us/careers
+    scan_method: websearch
+    scan_query: '"Emerson" careers "Marketing" OR "Pricing"'
+    enabled: true
+  - name: Rockwell Automation
+    careers_url: https://www.rockwellautomation.com/en-us/company/careers.html
+    scan_method: websearch
+    scan_query: '"Rockwell Automation" careers "Marketing" OR "Pricing"'
+    enabled: true
+  - name: Caterpillar
+    careers_url: https://www.caterpillar.com/en/careers.html
+    scan_method: websearch
+    scan_query: '"Caterpillar" careers "Marketing" OR "Pricing"'
+    enabled: true
+  - name: John Deere
+    careers_url: https://careers.deere.com/
+    scan_method: websearch
+    scan_query: '"John Deere" careers "Marketing" OR "Pricing"'
+    enabled: true
+  - name: 3M
+    careers_url: https://www.3m.com/3M/en_US/careers-us/
+    scan_method: websearch
+    scan_query: '"3M" careers "Marketing" OR "Pricing" OR "Product"'
+    enabled: true
+  - name: Dow
+    careers_url: https://careers.dow.com/
+    scan_method: websearch
+    scan_query: '"Dow" careers "Marketing" OR "Pricing"'
+    enabled: true
+  - name: DuPont
+    careers_url: https://careers.dupont.com/
+    scan_method: websearch
+    scan_query: '"DuPont" careers "Marketing" OR "Pricing"'
+    enabled: true
+  - name: Sensata Technologies
+    careers_url: https://careers.sensata.com/
+    scan_method: websearch
+    scan_query: '"Sensata" careers "Marketing" OR "Pricing" OR "Product"'
+    enabled: true
+  - name: NextEra Energy
+    careers_url: https://www.nexteraenergy.com/careers.html
+    scan_method: websearch
+    scan_query: '"NextEra" careers "Marketing" OR "Pricing"'
+    enabled: true
+  - name: Plug Power
+    careers_url: https://www.plugpower.com/careers/
+    scan_method: websearch
+    scan_query: '"Plug Power" careers "Marketing"'
+    enabled: true
+  - name: Tesla
+    careers_url: https://www.tesla.com/careers
+    scan_method: websearch
+    scan_query: 'site:tesla.com/careers "Marketing" OR "Product Marketing"'
+    enabled: true
+  - name: Rivian
+    careers_url: https://careers.rivian.com/
+    scan_method: websearch
+    scan_query: '"Rivian" careers "Marketing"'
+    enabled: true
+  - name: Bloom Energy
+    careers_url: https://www.bloomenergy.com/careers/
+    scan_method: websearch
+    scan_query: '"Bloom Energy" careers "Marketing" OR "Product"'
+    enabled: true
+  - name: First Solar
+    careers_url: https://www.firstsolar.com/Careers
+    scan_method: websearch
+    scan_query: '"First Solar" careers "Marketing"'
+    enabled: true

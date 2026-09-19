@@ -1,0 +1,27 @@
+TO: [Hiring Manager Name], Product Marketing / Campaign Management @ The Nielsen Company
+PLATFORM: Email
+ROLE: Senior Campaign Manager/Planner (Remote US)
+NOTE: HM not surfaced publicly. Manual LinkedIn search recommended for "Director of Campaign Management" or "Head of Product Marketing Demand Gen" at Nielsen.
+---
+
+Subject: Sr Campaign Manager - running campaigns at Nielsen's measurement standard
+
+Hi [Name],
+
+Running digital campaigns internally at Nielsen's measurement standard is a higher bar than most companies enforce. The JD phrases it well: "data interpretation and ROI optimization rather than passive reporting." That is the motion I have been running for four years, and I would love to run it for Nielsen.
+
+Applied for the Senior Campaign Manager/Planner role. Quick proof:
+
+- Plug Power: rebuilt full MarTech stack from scratch (Salesforce + HubSpot + Adobe + AAM + GA + GTM). Closed-loop attribution ad click to SQL. Pixel + tag architecture. -25% CPA, +20% conversion. Trained Sales to trust the numbers.
+- Pixis: 8-client enterprise AI SaaS book, $1.4M shared budget across Google, Meta, programmatic. 3x ROAS fashion in 30 days, -50% churn. Weekly optimization cycles with per-vertical executive narratives.
+- SwipeHire (founder): production AI consumer product on OpenAI API + React. Solo full-funnel ownership. 50+ users, +25% activation via 8+ A/B tests. GA4 + GTM + cohort dashboards daily.
+- MS Marketing Analytics (Simon, Rochester). Power BI on $627M pipeline at Sensata. SQL daily.
+- 4 Anthropic Claude certs (incl. Building with the Claude API) for AI-accelerated experimentation.
+
+Would welcome 20 minutes on where the biggest attribution gap is in the current campaign book. If this team sits with someone else, a pointer is amazing.
+
+Resume, cover letter, portfolio: https://adhithyabhaskar.vercel.app/ref/nielsen
+
+Best,
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com | (929) 563-9974

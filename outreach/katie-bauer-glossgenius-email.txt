@@ -1,0 +1,25 @@
+TO: Katie Bauer — Head of Data @ GlossGenius
+PLATFORM: Email
+ROLE: Staff Data Analyst + Sr Data Analyst, Marketing
+LINKEDIN: https://www.linkedin.com/in/mkatiebauer/
+---
+
+Subject: Applied for both analyst roles — beauty vertical + Claude/Cursor builder + attribution from scratch
+
+Hi Katie,
+
+Applied for the Staff and Sr Data Analyst, Marketing roles. Three quick reasons I'm reaching out to you directly:
+
+- Your JD requires "demonstrated AI tool usage (Claude, ChatGPT, Cursor)." I hold four Anthropic Claude certifications (101, Code 101, Cowork, Building with Claude API) and built a production analytics tool using Claude's API in Cursor — Python backend, live data, interactive dashboard. Not a prompt experiment. A shipped thing.
+
+- At Pixis, I owned attribution for global D2C clients including one of India's biggest beauty brands. Restructured their attribution model, identified false channel credit, and delivered 3x ROAS in one month. Beauty funnels have different physics than SaaS — I've learned that the hard way.
+
+- At Plug Power, I built multi-touch attribution from zero — Salesforce + Adobe Analytics + GA + GTM stitched into one model. Defined CAC. Cut CPA 25%. I'm the person who builds the measurement system, not the person who inherits one.
+
+Resume, cover letter, and portfolio attached:
+https://adhithyabhaskar.vercel.app/ref/glossgenius
+
+Happy to discuss either role — or whichever you think is the better fit for where the team is right now.
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com | (929) 563-9974

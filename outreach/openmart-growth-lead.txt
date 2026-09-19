@@ -1,0 +1,57 @@
+ROLE: Openmart (YC W24) — Growth Lead
+======================================
+Tracker entry: #61
+URL: https://www.workatastartup.com/jobs/92972
+YC careers: https://www.ycombinator.com/companies/openmart/jobs
+
+COMPANY:
+- AI alternative to ZoomInfo. Local business data intelligence platform with 200M+ verified business records.
+- YC W24, Foster City CA HQ
+- $3.5M total raised: $2.75M seed Aug 2024 (YC + Rebel Fund + Afore Capital + 8VC + Pantera + Audacious + Amino + Gaingels + Imagination + Pareto Holdings)
+- ~6 employees per Tracxn (very early)
+- Sells to enterprises + mid-market sales teams targeting SMBs / local businesses
+
+LOCATION: Foster City, CA (Bay Area, ~25 min from SF). Likely in-person or hybrid given size. Confirm at founder screen.
+
+SALARY: $120K to $150K base + equity. Experience level "any (new grads ok)" — they prioritize talent and execution over years.
+
+
+HIRING MANAGER (founder-led; no recruiter at this size):
+PRIMARY: Richard He — Co-Founder & CEO, Openmart (ex-Pinterest engineer)
+LinkedIn: search "Richard He Openmart" — verify before sending. Likely linkedin.com/in/richard-he or similar variant.
+Email: richard@openmart.com (verify; openmart.com email format)
+
+SECONDARY: Kathryn Wu — Co-Founder, Openmart (ex-Pinterest product engineer)
+LinkedIn: search "Kathryn Wu Openmart" — Tracxn references suggest /in/kathrynwoohoo
+Email: kathryn@openmart.com (publicly available)
+
+RECRUITER:
+None at this stage (~6 person startup). Founder-led. Application via Y Combinator's Work at a Startup goes back to Richard / Kathryn directly.
+
+
+----- HM LINKEDIN NOTE (Richard or Kathryn) -----
+Hi Richard, applied for the Growth Lead role via WAAS. SwipeHire (zero-to-one on OpenAI API + 4 Claude certs) + Pixis 8-client B2B SaaS adtech (same revenue-ops buyer Openmart sells to, $1.4M, AI bidding training) + Plug Power early-growth-hire MarTech rebuild (-25% CPA). 15 min?
+
+
+----- HM EMAIL (Richard or Kathryn) -----
+TO: richard@openmart.com (or kathryn@openmart.com)
+SUBJECT: Growth Lead - Adhithya Rokhith Bhaskar
+
+Hi Richard,
+
+Applied for the Growth Lead role via Work at a Startup. Wanted to reach out directly because the buyer Openmart sells to is the same buyer I have been marketing to for the last four years.
+
+At Pixis I ran an 8-client B2B SaaS portfolio on a $1.4M media budget, all of it selling AI marketing capabilities into revenue-ops and sales-leader audiences. Trained 8 enterprise marketers on AI bidding tools so they could explain the results to their CFOs. Validated a 3x ROAS lift via holdout incrementality testing for a partner. Cut client churn 50% through per-client renewal-aligned playbooks documented in writing. The buyer who is going to evaluate Openmart against ZoomInfo and Apollo is the same person I sold AI capabilities to at Pixis.
+
+On the demand-engine-from-scratch side, Plug Power is the case study. I came in as the early growth hire to a fragmented paid stack with no closed-loop attribution and rebuilt it. UTM spec from scratch, GTM containers rebuilt, lead routing validated through Salesforce campaign attribution. CPA dropped 25%, conversion went up 20%. The next growth hire inherited a system rather than a black box.
+
+On the AI-stack alignment, I shipped SwipeHire end-to-end solo on Python, OpenAI API, and React. 50+ users, +25% activation through 8 A/B tests with GA4 + GTM event tracking instrumented from day one. Plus 4 Anthropic Claude certifications from running prompt-based iteration as my actual workflow.
+
+Open to relocating to the Bay Area. Boston-based today.
+
+Resume + portfolio: https://adhi-growth-ai.vercel.app/ref/openmart
+
+15 minutes next week?
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com | (929) 563-9974

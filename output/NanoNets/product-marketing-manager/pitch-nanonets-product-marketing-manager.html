@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>NanoNets PMM Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  @page { size: 11in 8.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; }
+  .slide { width: 11in; height: 8.5in; padding: 0.55in 0.75in 0.5in 0.75in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.35in; right: 0.55in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.35in; left: 0.75in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #1e40af; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 10pt; }
+  h1 { font-size: 36pt; font-weight: 800; color: #0f172a; line-height: 1.04; letter-spacing: -0.6pt; margin-bottom: 8pt; }
+  h2 { font-size: 24pt; font-weight: 800; color: #0f172a; line-height: 1.08; letter-spacing: -0.4pt; margin-bottom: 14pt; }
+  h2 .accent { color: #1e40af; }
+  .lede { font-size: 13pt; color: #475569; max-width: 8.5in; margin-bottom: 14pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 1in; padding-right: 1in; background: linear-gradient(135deg, #f8fafc 0%, #dbeafe 100%); }
+  .cover h1 { font-size: 42pt; max-width: 9.2in; }
+  .cover .sub { font-size: 17pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 26pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 9.5in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.5pt; font-weight: 500; }
+  .tag strong { color: #1e40af; font-weight: 700; }
+  .cover .who { margin-top: 30pt; padding-top: 14pt; border-top: 1.5pt solid #1e40af; max-width: 7in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.5pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.6in; right: 0.85in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 4pt; }
+  .col { padding: 14pt 0 0 0; border-top: 2.5pt solid #1e40af; }
+  .col h3 { font-size: 13pt; font-weight: 800; color: #0f172a; margin-bottom: 12pt; letter-spacing: -0.2pt; }
+  .quote { background: #eff6ff; border-left: 3pt solid #1e40af; padding: 8pt 12pt; margin-bottom: 10pt; }
+  .quote .q { font-size: 10.5pt; color: #1e3a8a; font-style: italic; line-height: 1.45; font-weight: 600; }
+  .proof { padding: 6pt 0 10pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 10pt; color: #334155; line-height: 1.5; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 18pt; margin-top: 22pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1e40af; padding: 16pt 14pt 14pt 14pt; }
+  .stat .n { font-size: 28pt; font-weight: 800; color: #1e40af; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 10pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 9pt; color: #64748b; line-height: 1.45; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 8pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1e40af; padding: 14pt 14pt 12pt 14pt; }
+  .card .label { font-size: 8.5pt; color: #1e40af; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 13pt; font-weight: 800; color: #0f172a; line-height: 1.18; margin-bottom: 8pt; }
+  .card .body { font-size: 9.5pt; color: #334155; line-height: 1.5; margin-bottom: 8pt; }
+  .card .why { font-size: 9pt; color: #64748b; line-height: 1.5; padding-top: 8pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #1e40af; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 1in; padding-right: 1in; background: linear-gradient(135deg, #f8fafc 0%, #dbeafe 100%); }
+  .close h2 { font-size: 30pt; max-width: 8.5in; margin-bottom: 16pt; }
+  .close .body { font-size: 11.5pt; color: #334155; line-height: 1.6; max-width: 8.5in; }
+  .close .body p { margin-bottom: 10pt; }
+  .close .body strong { color: #1e40af; font-weight: 700; }
+  .close .contact { margin-top: 24pt; font-size: 10pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the NanoNets PMM Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Product Marketing Manager | NanoNets</div>
+  <h1>F500 buyers expect a PMM who writes about AI like they buy it.</h1>
+  <div class="sub">Positioning, sales enablement, and customer-story pipelines for an AI doc-extraction company.</div>
+  <div class="tags">
+    <div class="tag"><strong>Sensata</strong> - $2M+ first-year pipeline + 50-rep sales enablement (+30% win rate)</div>
+    <div class="tag"><strong>30+</strong> customer interviews to positioning + content + battlecards</div>
+    <div class="tag"><strong>Plug Power</strong> - MarTech rebuilt from zero (-25% CPA, +20% conversion)</div>
+    <div class="tag"><strong>SwipeHire</strong> - AI product shipped solo on Python + OpenAI + React</div>
+    <div class="tag"><strong>4</strong> Anthropic Claude Certifications + Cursor daily</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">Boston, MA | Open to Palo Alto relo | arokhith@gmail.com | (929) 563-9974 | adhithyabhaskar.vercel.app/ref/nanonets</div>
+  </div>
+  <div class="brand">NANONETS PMM</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The JD, mapped</div>
+  <h2>What NanoNets is asking for - and where the proof sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>JD Themes</h3>
+      <div class="quote"><div class="q">"Landing pages - primary owner, messaging, positioning, proof points, CTAs."</div></div>
+      <div class="quote"><div class="q">"Sales collateral - decks, one-pagers, battlecards, ROI/value narratives."</div></div>
+      <div class="quote"><div class="q">"Source, shape, publish customer testimonials + case studies."</div></div>
+      <div class="quote"><div class="q">"Coordinate launches with product, sales, growth - announce, enable, measure."</div></div>
+    </div>
+    <div class="col">
+      <h3>My Proof</h3>
+      <div class="proof"><div class="p"><b>Plug Power MarTech rebuilt from zero</b> on Salesforce + Adobe + GA4 + GTM: UTM spec, LP testing, -25% CPA, +20% conversion. The landing-page + attribution + lifecycle muscle, end to end.</div></div>
+      <div class="proof"><div class="p"><b>Sensata sales enablement library</b> for 50+ reps - decks, case studies, battlecards, ROI narratives, objection handling - tied to <b>+30% lift in win rates</b>.</div></div>
+      <div class="proof"><div class="p"><b>30+ structured customer interviews</b> with OEMs + distributors converted into positioning rewrites, content themes, and CRO experiments (+22% CSAT).</div></div>
+      <div class="proof"><div class="p"><b>Cross-border GTM</b> across NA + EU + 3 regions for new sensing product lines: <b>+35% qualified leads, $2M+ first-year pipeline</b>.</div></div>
+    </div>
+  </div>
+  <div class="brand">NANONETS PMM</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">PMM Engine Proof</div>
+  <h2>Sensata: the <span class="accent">customer-insight to content to win rate</span> loop.</h2>
+  <div class="lede">PMM at NanoNets owns the same loop on AI doc-extraction. I have been running it on industrial sensors for 18 months.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">30+</div>
+      <div class="lbl">Customer Interviews</div>
+      <div class="desc">Structured VOC with OEMs + distributors across NA/EU. Translated into product enhancements, CRO experiments, positioning rewrites, content themes.</div>
+    </div>
+    <div class="stat">
+      <div class="n">50+</div>
+      <div class="lbl">Reps Enabled</div>
+      <div class="desc">Sales enablement library shipped end-to-end: decks, case studies, battlecards, ROI narratives, objection handling, competitive teardowns.</div>
+    </div>
+    <div class="stat">
+      <div class="n">+30%</div>
+      <div class="lbl">Win Rate Lift</div>
+      <div class="desc">Tied directly to the sales enablement library + competitive battlecards on 10+ players + pricing/feature gap analysis (+8% market share).</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 28pt;">$2M+ first-year pipeline + +35% qualified leads on cross-border GTM. 100+ feature backlog managed with engineering in Agile (release cycles up 25%, TTM down 20%).</div>
+  <div class="brand">NANONETS PMM</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">AI Builder Credential</div>
+  <h2>The PMM differentiator: <span class="accent">I ship AI products</span> on the model class your buyers evaluate.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>Built + Shipped</h3>
+      <div class="proof"><div class="p"><b>SwipeHire</b> - AI job-matching platform on Python + OpenAI API + React. 50+ early users, +25% activation V1 to V2, 8 A/B tests with significance gates defined up front, GA4 + GTM instrumented from day one.</div></div>
+      <div class="proof"><div class="p"><b>NSE Paper-Trading Bot</b> - Python-based stock scanner using live NSE data with technical-indicator pipeline and AI-enhanced reasoning layer (Claude API) for news/catalyst analysis.</div></div>
+      <div class="proof"><div class="p"><b>Pixis AI-Platform Trainer</b> - trained 8 enterprise marketers on AI bidding + creative-automation (Smartly/Hunch/Omneky category) end-to-end, including registration, talk tracks, and follow-up.</div></div>
+    </div>
+    <div class="col">
+      <h3>Certifications + Workflow</h3>
+      <div class="proof"><div class="p"><b>4 Anthropic Claude Certifications:</b> Claude 101, Claude Code 101, Claude Cowork, Building with Claude API.</div></div>
+      <div class="proof"><div class="p"><b>Cursor + Claude daily workflow</b> with a draft-and-critique pipeline productized for <b>8x copy velocity</b> on launch content, sales decks, and case studies.</div></div>
+      <div class="proof"><div class="p">When NanoNets buyers ask the PMM "how does this LLM extraction actually work and what is the failure mode at scale?" - that conversation gets credible answers, not hand-waving.</div></div>
+    </div>
+  </div>
+  <div class="brand">NANONETS PMM</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 Days</div>
+  <h2>What the first month looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Listen + Audit</div>
+      <div class="body">Sit with 3 AEs on live calls. Read win/loss notes for the last 90 days. Audit current landing pages, sales decks, battlecards, case studies. Map what exists vs what is JD-named (decks, one-pagers, battlecards, ROI narratives).</div>
+      <div class="why"><strong>Why first:</strong> PMM at a Series B that just tripled YoY has gaps. Find them before writing.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Customer Voice + Test</div>
+      <div class="body">Run 6 structured customer interviews across F500 finance + healthcare + supply chain segments. Convert quotes into 2 positioning hypotheses + 1 landing-page A/B test on the highest-traffic product page.</div>
+      <div class="why"><strong>Why now:</strong> The Sensata loop - VOC into content into measurable conversion lift - works on AI doc-extraction the same way it works on industrial sensors.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Ship + Measure</div>
+      <div class="body">Ship 1 customer case study (written + 60-sec video), 1 battlecard against the top-named competitor, 1 sales one-pager for the segment with the longest cycle time. Instrument tracking on each. Report results to leadership.</div>
+      <div class="why"><strong>Why this fast:</strong> The bar at a profitable Series B is shipped, measured, iterated. Not perfect.</div>
+    </div>
+  </div>
+  <div class="brand">NANONETS PMM</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>Profitable Series B + AI-doc-extraction + PMM-pure JD. The fit is unusually clean.</h2>
+  <div class="body">
+    <p>You need a PMM who can own landing pages + sales enablement + customer stories on a product the buyer needs explained credibly. I have run that exact loop for 18 months at Sensata ($2M+ first-year pipeline, +30% win rate across 50 reps) and rebuilt the MarTech + landing-page + attribution stack from zero at Plug Power (-25% CPA, +20% conversion).</p>
+    <p>The differentiator is the AI builder credential - <strong>2 production AI products shipped solo + 4 Claude certifications + Pixis AI-platform trainer for 8 enterprise marketers</strong>. NanoNets sells AI doc extraction; the PMM should know what it feels like to ship and instrument an LLM product end to end. I do.</p>
+    <p>Palo Alto two days a week works. Open to relocating from Boston.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | Boston, MA | arokhith@gmail.com | (929) 563-9974<br>
+    Resume + portfolio: <strong>adhithyabhaskar.vercel.app/ref/nanonets</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">NANONETS PMM</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Founding Growth Pitch Deck | Confido | Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  @page { size: 11in 8.5in; margin: 0; }
+  body { font-family: Calibri, Arial, Helvetica, sans-serif; font-size: 10pt; line-height: 1.35; color: #111; background: #fff; }
+  .slide { width: 11in; height: 8.5in; padding: 0.4in 0.55in; page-break-after: always; overflow: hidden; position: relative; }
+  .slide:last-child { page-break-after: auto; }
+  .slide-num { position: absolute; top: 0.3in; right: 0.55in; font-size: 8pt; color: #999; letter-spacing: 0.6pt; text-transform: uppercase; }
+  .slide-footer { position: absolute; bottom: 0.25in; left: 0.55in; right: 0.55in; border-top: 0.5pt solid #ddd; padding-top: 6pt; font-size: 7.5pt; color: #888; display: flex; justify-content: space-between; }
+  .accent { color: #059669; }
+
+  /* Title slide with split layout */
+  .title-slide { display: grid; grid-template-columns: 7fr 4fr; gap: 30pt; align-items: center; height: 100%; }
+  .title-left .label { font-size: 9pt; letter-spacing: 1.5pt; color: #059669; text-transform: uppercase; font-weight: 700; margin-bottom: 14pt; }
+  .title-left h1 { font-size: 40pt; font-weight: 800; line-height: 1.02; margin-bottom: 14pt; color: #0a0a0a; }
+  .title-left h1 .accent { color: #059669; }
+  .title-left .sub { font-size: 15pt; color: #444; font-weight: 400; margin-bottom: 22pt; line-height: 1.3; }
+  .title-left .name { font-size: 11pt; color: #222; font-weight: 600; }
+  .title-left .meta { margin-top: 4pt; font-size: 9pt; color: #666; }
+  .title-right { display: flex; flex-direction: column; gap: 10pt; }
+  .stat-card { background: #f0fdf4; border: 0.5pt solid #bbf7d0; border-radius: 6pt; padding: 16pt 14pt; }
+  .stat-card .stat-num { font-size: 32pt; font-weight: 800; color: #059669; line-height: 1; }
+  .stat-card .stat-lbl { font-size: 8.5pt; color: #555; margin-top: 4pt; text-transform: uppercase; letter-spacing: 0.4pt; font-weight: 600; }
+  .stat-card .stat-sub { font-size: 9pt; color: #333; margin-top: 4pt; line-height: 1.3; }
+
+  /* Standard slide */
+  .slide h2.section-title { font-size: 22pt; font-weight: 800; color: #0a0a0a; line-height: 1.1; margin-bottom: 4pt; }
+  .slide .jd-quote { font-size: 10pt; color: #555; font-style: italic; border-left: 3pt solid #059669; padding-left: 9pt; margin-bottom: 14pt; max-width: 9.5in; line-height: 1.4; }
+
+  /* KPI bar with side-mounted data */
+  .kpi-row { display: flex; gap: 10pt; margin-bottom: 14pt; }
+  .kpi-tile { flex: 1; background: linear-gradient(135deg, #f0fdf4 0%, #ecfccb 100%); border-radius: 5pt; padding: 14pt; border: 0.5pt solid #d9f99d; }
+  .kpi-tile .kpi-label { font-size: 7.5pt; color: #777; text-transform: uppercase; letter-spacing: 0.5pt; margin-bottom: 4pt; font-weight: 600; }
+  .kpi-tile .kpi-value { font-size: 22pt; font-weight: 800; color: #059669; line-height: 1.05; }
+  .kpi-tile .kpi-sub { font-size: 9pt; color: #444; margin-top: 4pt; line-height: 1.32; }
+
+  /* JD match table */
+  table.match { width: 100%; border-collapse: collapse; font-size: 9.5pt; margin-top: 6pt; }
+  table.match th { background: #059669; color: #fff; padding: 7pt 9pt; text-align: left; font-size: 8.5pt; letter-spacing: 0.5pt; text-transform: uppercase; font-weight: 700; }
+  table.match td { padding: 7pt 9pt; border-bottom: 0.4pt solid #e5e7eb; vertical-align: top; }
+  table.match tr:nth-child(even) td { background: #fafafa; }
+  table.match .you { font-weight: 700; color: #047857; }
+
+  /* Two col deep dive */
+  .two-col { display: flex; gap: 18pt; margin-top: 6pt; }
+  .col-card { flex: 1; background: #f0fdf4; border-radius: 5pt; padding: 14pt; border: 0.5pt solid #d1fae5; }
+  .col-card h3 { font-size: 12pt; color: #047857; font-weight: 700; margin-bottom: 7pt; border-bottom: 1pt solid #d1fae5; padding-bottom: 5pt; }
+  .col-card p, .col-card li { font-size: 9.5pt; line-height: 1.42; color: #222; }
+  .col-card ul { padding-left: 16pt; margin-top: 5pt; }
+  .col-card li { margin-bottom: 4pt; }
+  .col-card .quote { background: #fff; padding: 9pt 11pt; border-left: 2.5pt solid #059669; font-style: italic; font-size: 9.5pt; line-height: 1.4; margin-top: 6pt; }
+
+  /* SVG comparison bar */
+  .bar-row { display: flex; align-items: center; margin-bottom: 7pt; gap: 9pt; }
+  .bar-label { font-size: 9pt; color: #333; width: 1.6in; }
+  .bar-track { flex: 1; height: 16pt; background: #e5e7eb; border-radius: 3pt; position: relative; overflow: hidden; }
+  .bar-fill { height: 100%; background: linear-gradient(90deg, #059669 0%, #84cc16 100%); border-radius: 3pt; }
+  .bar-val { font-size: 9pt; font-weight: 700; color: #047857; width: 0.55in; text-align: right; }
+
+  /* Numbered cards */
+  .num-box { display: flex; align-items: flex-start; gap: 11pt; margin-bottom: 10pt; }
+  .num-box .n { width: 30pt; height: 30pt; border-radius: 50%; background: linear-gradient(135deg, #059669 0%, #84cc16 100%); color: #fff; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 13pt; flex-shrink: 0; }
+  .num-box .t { font-size: 10pt; line-height: 1.4; }
+  .num-box .t strong { color: #047857; }
+
+  /* Pills */
+  .pill-row { display: flex; gap: 7pt; flex-wrap: wrap; margin-top: 8pt; }
+  .pill { background: #d1fae5; color: #047857; padding: 4pt 10pt; border-radius: 12pt; font-size: 8.5pt; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<!-- SLIDE 1: TITLE with stat sidebar -->
+<div class="slide title-slide">
+  <div class="slide-num">01 / 04</div>
+  <div class="title-left">
+    <div class="label">Founding Growth Pitch Deck</div>
+    <h1>Built for <span class="accent">CPG growth.</span><br>Shipped <span class="accent">AI products solo.</span><br>Ready for NYC.</h1>
+    <div class="sub">I have run growth for D2C consumer brands, deployed an AI ad platform to 8 enterprise clients, and shipped an AI tool end-to-end on Python + OpenAI API + React.</div>
+    <div class="name">Adhithya Rokhith Bhaskar &middot; Boston, MA &middot; arokhith@gmail.com</div>
+    <div class="meta">Prepared for Hiring Team, Confido &middot; 2026-05-13</div>
+  </div>
+  <div class="title-right">
+    <div class="stat-card"><div class="stat-num">16x</div><div class="stat-lbl">ROAS for D2C brand</div><div class="stat-sub">GenY: Google Merchant + Meta catalog rebuild</div></div>
+    <div class="stat-card"><div class="stat-num">$1.4M</div><div class="stat-lbl">Pixis Portfolio Managed</div><div class="stat-sub">8 enterprise clients, $15K-$90K/mo each</div></div>
+    <div class="stat-card"><div class="stat-num">50+</div><div class="stat-lbl">SwipeHire Users</div><div class="stat-sub">Zero paid budget; founder-led distribution</div></div>
+  </div>
+  <div class="slide-footer"><span>Adhithya Rokhith Bhaskar &middot; Founding Growth Pitch Deck</span><span>Confido</span></div>
+</div>
+
+<!-- SLIDE 2: JD MATCH -->
+<div class="slide">
+  <div class="slide-num">02 / 04</div>
+  <h2 class="section-title">Why this is a 1:1 fit for OLIPOP, Simple Mills, Dr. Squatch buyers</h2>
+  <div class="jd-quote">From the Confido JD: "Plan and execute innovative marketing initiatives across multiple channels including social media, events, email campaigns, and digital content... Develop high-quality content... Maintain and optimize Confido's website... Make data-driven decisions."</div>
+
+  <div class="kpi-row">
+    <div class="kpi-tile"><div class="kpi-label">D2C Consumer Track Record</div><div class="kpi-value">16x ROAS</div><div class="kpi-sub">GenY Medium: Google Merchant Center + Meta catalog rebuild. Klaviyo lifecycle email (cart, post-purchase, re-engagement). 2x lift on email-attributed revenue per send.</div></div>
+    <div class="kpi-tile"><div class="kpi-label">AI Platform CSM</div><div class="kpi-value">8 clients</div><div class="kpi-sub">Pixis B2B SaaS AI marketing platform. $15K-$90K per-client monthly budgets. 3x ROAS in 1 month via holdout incrementality. -50% client churn.</div></div>
+    <div class="kpi-tile"><div class="kpi-label">Multi-Channel + Content</div><div class="kpi-value">-25% CPA</div><div class="kpi-sub">Plug Power: Google + Meta + LinkedIn + programmatic + email. 3 industry conferences and 6+ webinars coordinated. Closed-loop attribution rebuilt from scratch.</div></div>
+  </div>
+
+  <table class="match">
+    <thead><tr><th>Confido JD Requirement</th><th>Direct Evidence</th></tr></thead>
+    <tbody>
+      <tr><td>Multi-channel marketing (social, events, email, digital content)</td><td class="you">Plug Power: paid + email + SEO/AEO + 3 conferences + 6 webinars. Pixis: managed 8 clients across paid channels at scale.</td></tr>
+      <tr><td>High-quality content (newsletters, video tutorials, product announcements)</td><td class="you">Sensata: sales enablement library used by 50+ reps, lifted win rates 30%. Plug Power: product announcements, case studies, long-form web content.</td></tr>
+      <tr><td>Website optimization, drive qualified inbound</td><td class="you">Plug Power: rebuilt UTM spec, GTM containers, lead routing into Salesforce. AEO/GEO programs. CRO via A/B testing.</td></tr>
+      <tr><td>Data-driven, analytical</td><td class="you">MS Marketing Analytics from Simon. SQL + Power BI + Python at Sensata. Holdout incrementality at Pixis. Closed-loop attribution at Plug Power.</td></tr>
+      <tr><td>Build creative content for various buyer personas</td><td class="you">Sensata: 30+ OEM/distributor interviews translated to VP/C-level positioning. GenY: D2C creative variants tested against fatigue cycles weekly.</td></tr>
+    </tbody>
+  </table>
+
+  <div class="slide-footer"><span>Adhithya Rokhith Bhaskar &middot; Founding Growth Pitch Deck</span><span>Confido</span></div>
+</div>
+
+<!-- SLIDE 3: D2C deep dive -->
+<div class="slide">
+  <div class="slide-num">03 / 04</div>
+  <h2 class="section-title">The D2C playbook I bring to Confido</h2>
+  <div class="jd-quote">Confido sells to brands like OLIPOP and Simple Mills. Most marketing resumes you'll see have built for enterprise SaaS. Mine has built for the brands you sell to.</div>
+
+  <div class="two-col">
+    <div class="col-card">
+      <h3>What I've shipped for D2C brands</h3>
+      <ul>
+        <li><strong>Google Merchant Center + Meta catalog rebuild</strong> at GenY: feed cleanup, schema fixes, structured Shopping campaigns, Advantage+ catalog, weekly creative refresh tested against fatigue cycles &rarr; <strong>16x ROAS</strong></li>
+        <li><strong>Lifecycle email on Klaviyo + Shopify:</strong> cart abandonment, post-purchase, re-engagement; 2x lift on email-attributed revenue per send</li>
+        <li><strong>Pixis fashion D2C partner:</strong> 3x ROAS in one month, validated via holdout incrementality testing</li>
+        <li><strong>Pixis iOS app paid UA</strong> via Appsflyer + Adjust for consumer-mobile clients (SKAN-era post-IDFA attribution + cohort LTV)</li>
+      </ul>
+      <div class="quote">"The bar at Confido is shipping fast and clean for a CPG buyer who has been burned by generic agencies. I have lived that audience."</div>
+    </div>
+    <div class="col-card">
+      <h3>Where I'd start on day 30</h3>
+      <ul>
+        <li><strong>Audit Confido's website</strong> against current ICPs (Tropicana vs. OLIPOP vs. Simple Mills). Identify 3 conversion leaks; ship fixes</li>
+        <li><strong>Stand up a customer story factory</strong>: interview 2 customer marketers per week, ship one case study + one product announcement weekly</li>
+        <li><strong>Run paid pilot</strong> on LinkedIn + Google for "CPG accounting automation" and "trade promotion management" keywords; track CAC payback by ICP</li>
+        <li><strong>Build retention measurement</strong>: Klaviyo + GA4 + Salesforce closed-loop attribution for the website. AEO/GEO so Confido shows up when buyers query AI assistants about CPG ops</li>
+      </ul>
+      <div class="pill-row">
+        <span class="pill">D2C-fluent</span><span class="pill">Multi-channel</span><span class="pill">Content-shipper</span><span class="pill">Data-driven</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="slide-footer"><span>Adhithya Rokhith Bhaskar &middot; Founding Growth Pitch Deck</span><span>Confido</span></div>
+</div>
+
+<!-- SLIDE 4: 30/60/90 + AI -->
+<div class="slide">
+  <div class="slide-num">04 / 04</div>
+  <h2 class="section-title">My 30 / 60 / 90 at Confido</h2>
+  <div class="jd-quote">Calibrated to NYC 5-day-in-office, founder-direct work, and 5x YoY growth velocity.</div>
+
+  <div class="two-col">
+    <div style="flex: 1.1;">
+      <div class="num-box"><div class="n">30</div><div class="t"><strong>Days 1-30:</strong> Audit current ICPs (top 20 customers), website analytics, paid channel performance, and current content cadence. Sit with 3 customer marketers + 3 internal Sales reps. Ship 1 product announcement + 1 case study using Confido's tech.</div></div>
+      <div class="num-box"><div class="n">60</div><div class="t"><strong>Days 31-60:</strong> Stand up a weekly customer story rhythm. Launch a paid pilot on LinkedIn + Google targeting CPG growth/finance buyers. Rebuild the website signup funnel (3 hypotheses I want to test).</div></div>
+      <div class="num-box"><div class="n">90</div><div class="t"><strong>Days 61-90:</strong> Own a measurable inbound number. Have a content engine running weekly (newsletter + 1 long-form + product release notes). Hand off a documented playbook so the next 2 marketing hires can ramp fast.</div></div>
+    </div>
+    <div style="flex: 1;">
+      <div class="col-card" style="background: linear-gradient(135deg, #f0fdf4 0%, #ecfccb 100%);">
+        <h3>Why an AI-builder matters here</h3>
+        <p>Confido is AI-native. The Founding Growth hire should be too. I founded <strong>SwipeHire</strong>, an AI tool I shipped solo on <strong>Python + OpenAI API + React</strong> (<a href="https://app.swipehire.io">app.swipehire.io</a>). 50+ early users, +25% activation across 8+ A/B tests, zero paid budget.</p>
+        <p style="margin-top: 8pt;">Plus 4 Anthropic Claude certifications (Claude 101, Claude Code 101, Claude Cowork, Building with Claude API). I do not just write about AI - I have shipped it.</p>
+      </div>
+      <div style="margin-top: 14pt; background: #fff; padding: 12pt; border-radius: 5pt; border: 0.5pt solid #d1fae5;">
+        <h3 style="font-size: 11pt; color: #047857; font-weight: 700; margin-bottom: 7pt;">Logistics</h3>
+        <div class="pill-row" style="margin-top: 4pt;">
+          <span class="pill">Boston-based</span>
+          <span class="pill">Relo to NYC, 5-day on-site</span>
+          <span class="pill">$150-190K base</span>
+          <span class="pill">Available immediately</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="slide-footer"><span>Adhithya Rokhith Bhaskar &middot; Founding Growth Pitch Deck</span><span>Confido</span></div>
+</div>
+
+</body>
+</html>

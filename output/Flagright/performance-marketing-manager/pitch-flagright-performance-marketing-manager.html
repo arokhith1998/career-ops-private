@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Flagright Performance Marketing Manager Pitch Deck Adhithya</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  @page { size: 11in 8.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #0f172a; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; }
+  .slide { width: 11in; height: 8.5in; padding: 0.55in 0.75in 0.5in 0.75in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.35in; right: 0.55in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.35in; left: 0.75in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #be123c; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 10pt; }
+  h1 { font-size: 36pt; font-weight: 800; color: #0c0a09; line-height: 1.04; letter-spacing: -0.6pt; margin-bottom: 8pt; }
+  h2 { font-size: 24pt; font-weight: 800; color: #0c0a09; line-height: 1.08; letter-spacing: -0.4pt; margin-bottom: 6pt; }
+  h2 .accent { color: #be123c; }
+  .lede { font-size: 13pt; color: #475569; max-width: 8.5in; margin-bottom: 14pt; font-weight: 400; }
+
+  /* Cover */
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 1in; padding-right: 1in; background: linear-gradient(135deg, #f8fafc 0%, #fef2f2 100%); }
+  .cover h1 { font-size: 42pt; max-width: 9.2in; }
+  .cover .sub { font-size: 17pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 26pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 9.5in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.5pt; font-weight: 500; }
+  .tag strong { color: #be123c; font-weight: 700; }
+  .cover .who { margin-top: 32pt; padding-top: 14pt; border-top: 1.5pt solid #be123c; max-width: 7in; }
+  .cover .who .nm { font-size: 11pt; color: #0c0a09; font-weight: 700; }
+  .cover .who .ct { font-size: 9.5pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.6in; right: 0.85in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  /* Manifesto-mapping slide */
+  .manifesto { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 4pt; }
+  .manifesto-col { padding: 14pt 0 0 0; border-top: 2.5pt solid #be123c; }
+  .manifesto-col h3 { font-size: 13pt; font-weight: 800; color: #0c0a09; margin-bottom: 12pt; letter-spacing: -0.2pt; }
+  .manifesto-quote { background: #fef2f2; border-left: 3pt solid #be123c; padding: 8pt 12pt; margin-bottom: 10pt; }
+  .manifesto-quote .q { font-size: 10.5pt; color: #881337; font-style: italic; line-height: 1.45; font-weight: 600; }
+  .manifesto-proof { padding: 6pt 0 10pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .manifesto-proof .p { font-size: 10pt; color: #334155; line-height: 1.5; }
+  .manifesto-proof .p b { color: #0c0a09; font-weight: 700; }
+
+  /* Pixis attribution slide */
+  .pixis-grid { display: grid; grid-template-columns: 1fr 2.4in; gap: 18pt; margin-top: 4pt; }
+  .pixis-svg { width: 100%; height: 4.2in; }
+  .margin-note { font-size: 9.5pt; color: #475569; line-height: 1.55; font-style: italic; border-top: 1pt solid #cbd5e1; padding-top: 10pt; margin-top: 10pt; }
+  .margin-note .hdr { font-style: normal; font-weight: 700; color: #be123c; font-size: 9pt; letter-spacing: 1pt; text-transform: uppercase; margin-bottom: 6pt; }
+  .margin-note p { margin-bottom: 8pt; }
+
+  /* Plug Power architecture */
+  .arch-svg { width: 100%; height: 4.2in; }
+
+  /* Week one */
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 8pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #be123c; padding: 14pt 14pt 12pt 14pt; }
+  .card .label { font-size: 8.5pt; color: #be123c; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 13pt; font-weight: 800; color: #0c0a09; line-height: 1.18; margin-bottom: 8pt; }
+  .card .body { font-size: 9.5pt; color: #334155; line-height: 1.5; margin-bottom: 8pt; }
+  .card .why { font-size: 9pt; color: #64748b; line-height: 1.5; padding-top: 8pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #be123c; font-weight: 700; }
+
+  /* Close */
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 1in; padding-right: 1in; background: linear-gradient(135deg, #f8fafc 0%, #fef2f2 100%); }
+  .close h2 { font-size: 30pt; max-width: 8.5in; margin-bottom: 16pt; }
+  .close .body { font-size: 11.5pt; color: #334155; line-height: 1.6; max-width: 8.5in; }
+  .close .body p { margin-bottom: 10pt; }
+  .close .body strong { color: #be123c; font-weight: 700; }
+  .close .cta { margin-top: 22pt; display: inline-flex; gap: 14pt; align-items: center; }
+  .close .cta .btn { background: #0c0a09; color: #fff; padding: 11pt 22pt; border-radius: 3pt; font-weight: 700; font-size: 11pt; letter-spacing: 0.3pt; }
+  .close .cta .alt { font-size: 10.5pt; color: #64748b; font-style: italic; }
+  .close .contact { margin-top: 24pt; font-size: 10pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0c0a09; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<!-- SLIDE 1 - COVER -->
+<div class="slide cover">
+  <div class="prep">Prepared for the Flagright Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Performance Marketing Manager, Flagright</div>
+  <h1>Pipeline quality over CPL.</h1>
+  <div class="sub">The operating philosophy I've already been running on.</div>
+  <div class="tags">
+    <div class="tag"><strong>Pixis</strong> - $1.4M B2B SaaS book, 8 clients, holdout-incrementality discipline</div>
+    <div class="tag"><strong>Plug Power</strong> - closed-loop attribution from ad click to SQL</div>
+    <div class="tag"><strong>3x ROAS</strong> beauty-brand attribution restructure</div>
+    <div class="tag"><strong>2</strong> shipped AI products solo (SwipeHire + NSE Bot)</div>
+    <div class="tag"><strong>4</strong> Anthropic Claude Certifications</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">Boston, MA | US Remote | arokhith@gmail.com | (929) 563-9974 | adhi-growth-ai.vercel.app/ref/flagright-pmm</div>
+  </div>
+  <div class="brand">Flagright | Adhithya Rokhith Bhaskar</div>
+  <div class="num">01 / 06</div>
+</div>
+
+<!-- SLIDE 2 - MANIFESTO MAPPING -->
+<div class="slide">
+  <div class="eyebrow">Slide 02 | The JD Reads Like a Manifesto. Mine Matches.</div>
+  <h2>The JD's operating philosophy <span class="accent">is the operating philosophy I've been running on.</span></h2>
+  <div class="lede">Most performance-marketing JDs ask for tools. Yours asks for judgment. Each quote on the left has a working proof on the right.</div>
+
+  <div class="manifesto">
+    <div class="manifesto-col">
+      <h3>The JD's operating principles</h3>
+      <div class="manifesto-quote"><div class="q">"Optimized for qualified pipeline, not cheap leads."</div></div>
+      <div class="manifesto-quote"><div class="q">"Cut weak spend quickly, double down on what works."</div></div>
+      <div class="manifesto-quote"><div class="q">"Push back on anything that does not drive real pipeline."</div></div>
+      <div class="manifesto-quote"><div class="q">"Long, complex SaaS sales cycles, not just low-consideration lead gen."</div></div>
+      <div class="manifesto-quote"><div class="q">"Retargeting, review platforms, landing-page experimentation in an enterprise context."</div></div>
+      <div class="manifesto-quote"><div class="q">"Comfortable operating with imperfect data while maintaining high measurement standards."</div></div>
+    </div>
+
+    <div class="manifesto-col">
+      <h3>What I've actually shipped</h3>
+      <div class="manifesto-proof"><div class="p"><b>Pixis beauty brand:</b> holdout-incrementality slice exposed two over-credited channels; reallocated spend on true lift; <b>3x ROAS the next month.</b></div></div>
+      <div class="manifesto-proof"><div class="p"><b>Pixis Clients C and F:</b> replaced two underperforming channels mid-quarter when blended numbers hid the truth. Cut/reallocate as a reflex, not a project.</div></div>
+      <div class="manifesto-proof"><div class="p"><b>Pixis weekly client CFO QBR cadence:</b> defended budget against vanity-metric pressure; <b>cut client churn 50%</b> across the book.</div></div>
+      <div class="manifesto-proof"><div class="p"><b>Pixis 8-client B2B SaaS portfolio</b> with $1.4M aggregate; per-client $15K-$90K monthly; multi-month buying cycles, weekly CFO QBRs.</div></div>
+      <div class="manifesto-proof"><div class="p"><b>Plug Power Adobe AAM account-level retargeting funnels</b> + LinkedIn ABM at industrial-enterprise scale; behavioral segments + audience layers + suppression.</div></div>
+      <div class="manifesto-proof"><div class="p"><b>Plug Power closed-loop attribution rebuild</b> on Salesforce + Adobe + GA4 + GTM with sample-size + significance gates on every A/B test.</div></div>
+    </div>
+  </div>
+
+  <div class="brand">Flagright | Adhithya Rokhith Bhaskar</div>
+  <div class="num">02 / 06</div>
+</div>
+
+<!-- SLIDE 3 - PIXIS ATTRIBUTION -->
+<div class="slide">
+  <div class="eyebrow">Slide 03 | The Diagnostic That Mattered</div>
+  <h2>Pixis beauty brand: <span class="accent">3x ROAS via holdout incrementality.</span></h2>
+  <div class="lede">The literal "pipeline quality, not CPL" muscle. Blended ROAS looked fine. A holdout-incrementality slice showed two channels were getting credit they had not earned. I cut the weak spend and doubled down. The brand cleared 3x ROAS the next month.</div>
+
+  <div class="pixis-grid">
+    <svg viewBox="0 0 720 360" class="pixis-svg">
+      <text x="370" y="22" text-anchor="middle" font-size="11" fill="#0c0a09" font-weight="800">BEFORE: Last-click credit hides the rot</text>
+
+      <rect x="20" y="40" width="160" height="80" rx="4" fill="#fff" stroke="#cbd5e1" stroke-width="1"/>
+      <text x="100" y="62" text-anchor="middle" font-size="10.5" fill="#0c0a09" font-weight="800">Display Programmatic</text>
+      <text x="100" y="78" text-anchor="middle" font-size="9" fill="#475569">Credited 28% of conv.</text>
+      <text x="100" y="92" text-anchor="middle" font-size="9" fill="#dc2626" font-weight="700">True lift: 6%</text>
+      <text x="100" y="108" text-anchor="middle" font-size="8.5" fill="#64748b" font-style="italic">view-through inflation</text>
+
+      <rect x="200" y="40" width="160" height="80" rx="4" fill="#fff" stroke="#cbd5e1" stroke-width="1"/>
+      <text x="280" y="62" text-anchor="middle" font-size="10.5" fill="#0c0a09" font-weight="800">Affiliate</text>
+      <text x="280" y="78" text-anchor="middle" font-size="9" fill="#475569">Credited 19% of conv.</text>
+      <text x="280" y="92" text-anchor="middle" font-size="9" fill="#dc2626" font-weight="700">True lift: 4%</text>
+      <text x="280" y="108" text-anchor="middle" font-size="8.5" fill="#64748b" font-style="italic">coupon-pickoff</text>
+
+      <rect x="380" y="40" width="160" height="80" rx="4" fill="#fff" stroke="#cbd5e1" stroke-width="1"/>
+      <text x="460" y="62" text-anchor="middle" font-size="10.5" fill="#0c0a09" font-weight="800">Paid Search</text>
+      <text x="460" y="78" text-anchor="middle" font-size="9" fill="#475569">Credited 22% of conv.</text>
+      <text x="460" y="92" text-anchor="middle" font-size="9" fill="#16a34a" font-weight="700">True lift: 31%</text>
+      <text x="460" y="108" text-anchor="middle" font-size="8.5" fill="#64748b" font-style="italic">non-brand compounds</text>
+
+      <rect x="560" y="40" width="140" height="80" rx="4" fill="#fff" stroke="#cbd5e1" stroke-width="1"/>
+      <text x="630" y="62" text-anchor="middle" font-size="10.5" fill="#0c0a09" font-weight="800">Paid Social</text>
+      <text x="630" y="78" text-anchor="middle" font-size="9" fill="#475569">Credited 18%</text>
+      <text x="630" y="92" text-anchor="middle" font-size="9" fill="#16a34a" font-weight="700">True lift: 38%</text>
+      <text x="630" y="108" text-anchor="middle" font-size="8.5" fill="#64748b" font-style="italic">prospecting carry</text>
+
+      <text x="370" y="155" text-anchor="middle" font-size="11" fill="#0c0a09" font-weight="800">AFTER: Reallocation on holdout-validated lift</text>
+
+      <rect x="20" y="175" width="160" height="80" rx="4" fill="#fef2f2" stroke="#be123c" stroke-width="1.5"/>
+      <text x="100" y="197" text-anchor="middle" font-size="10.5" fill="#881337" font-weight="800">Display Programmatic</text>
+      <text x="100" y="215" text-anchor="middle" font-size="9" fill="#334155">Spend cut 60%</text>
+      <text x="100" y="231" text-anchor="middle" font-size="9" fill="#334155">Retargeting-only retained</text>
+      <text x="100" y="246" text-anchor="middle" font-size="8.5" fill="#be123c" font-weight="700">$ freed for Search/Social</text>
+
+      <rect x="200" y="175" width="160" height="80" rx="4" fill="#fef2f2" stroke="#be123c" stroke-width="1.5"/>
+      <text x="280" y="197" text-anchor="middle" font-size="10.5" fill="#881337" font-weight="800">Affiliate</text>
+      <text x="280" y="215" text-anchor="middle" font-size="9" fill="#334155">Spend cut 45%</text>
+      <text x="280" y="231" text-anchor="middle" font-size="9" fill="#334155">Coupon cap installed</text>
+      <text x="280" y="246" text-anchor="middle" font-size="8.5" fill="#be123c" font-weight="700">CAC discipline restored</text>
+
+      <rect x="380" y="175" width="160" height="80" rx="4" fill="#fef2f2" stroke="#be123c" stroke-width="1.5"/>
+      <text x="460" y="197" text-anchor="middle" font-size="10.5" fill="#881337" font-weight="800">Paid Search</text>
+      <text x="460" y="215" text-anchor="middle" font-size="9" fill="#334155">Spend up 35%</text>
+      <text x="460" y="231" text-anchor="middle" font-size="9" fill="#334155">Non-brand expansion</text>
+      <text x="460" y="246" text-anchor="middle" font-size="8.5" fill="#be123c" font-weight="700">Marginal ROAS held</text>
+
+      <rect x="560" y="175" width="140" height="80" rx="4" fill="#fef2f2" stroke="#be123c" stroke-width="1.5"/>
+      <text x="630" y="197" text-anchor="middle" font-size="10.5" fill="#881337" font-weight="800">Paid Social</text>
+      <text x="630" y="215" text-anchor="middle" font-size="9" fill="#334155">Spend up 50%</text>
+      <text x="630" y="231" text-anchor="middle" font-size="9" fill="#334155">Weekly creative cycle</text>
+      <text x="630" y="246" text-anchor="middle" font-size="8.5" fill="#be123c" font-weight="700">Prospecting compounded</text>
+
+      <rect x="240" y="285" width="240" height="60" rx="6" fill="#be123c"/>
+      <text x="360" y="312" text-anchor="middle" font-size="26" fill="#fff" font-weight="800">3x ROAS</text>
+      <text x="360" y="331" text-anchor="middle" font-size="10" fill="#fef2f2">in one month, validated by holdout incrementality</text>
+    </svg>
+
+    <div class="margin-note">
+      <div class="hdr">Why this matters for Flagright</div>
+      <p>Flagright's enterprise sales cycle won't have a "last-click" answer. Multi-month, multi-stakeholder, with intent platforms, review sites, and outbound all pulling on the same pipe.</p>
+      <p>The discipline that drove the 3x ROAS at Pixis - <strong>holdout incrementality, true-lift reallocation, pushback on vanity credit</strong> - is the same muscle that protects your pipe at enterprise scale.</p>
+    </div>
+  </div>
+
+  <div class="brand">Flagright | Adhithya Rokhith Bhaskar</div>
+  <div class="num">03 / 06</div>
+</div>
+
+<!-- SLIDE 4 - PLUG POWER CLOSED-LOOP -->
+<div class="slide">
+  <div class="eyebrow">Slide 04 | Closed-Loop Attribution Rebuilt From Zero</div>
+  <h2>Plug Power: <span class="accent">ad click to Sales-Qualified Lead, every step proven.</span></h2>
+  <div class="lede">The "high measurement standards with imperfect data" line in the JD is the literal description of this work. UTM spec from zero. GTM containers rebuilt. Lead routing and SLAs feeding BDR alerting through Salesforce. Account-level retargeting in Adobe AAM with behavioral segments + audience layers + suppression.</div>
+
+  <div class="pixis-grid">
+    <svg viewBox="0 0 720 340" class="arch-svg">
+      <text x="20" y="22" font-size="10" fill="#be123c" font-weight="700" letter-spacing="1.5">CHANNELS</text>
+      <rect x="20" y="40" width="660" height="44" rx="3" fill="#fff" stroke="#cbd5e1" stroke-width="1"/>
+      <text x="40" y="60" font-size="10.5" fill="#0c0a09" font-weight="700">Google Ads + LinkedIn ABM + Meta + Adobe-driven Programmatic</text>
+      <text x="40" y="76" font-size="9" fill="#475569">A/B tested keywords, audiences, creative with sample-size + significance gates defined up front</text>
+
+      <text x="20" y="102" font-size="10" fill="#be123c" font-weight="700" letter-spacing="1.5">RETARGETING (ENTERPRISE-CONTEXT)</text>
+      <rect x="20" y="120" width="660" height="44" rx="3" fill="#fef2f2" stroke="#be123c" stroke-width="1.5"/>
+      <text x="40" y="140" font-size="10.5" fill="#0c0a09" font-weight="700">Adobe Audience Manager - account-level behavioral segments + audience layers + suppression lists</text>
+      <text x="40" y="156" font-size="9" fill="#475569">Title + seniority + industry-driven audiences | Lookalike expansion | Account-level retargeting funnels</text>
+
+      <text x="20" y="182" font-size="10" fill="#be123c" font-weight="700" letter-spacing="1.5">TRACKING</text>
+      <rect x="20" y="200" width="660" height="44" rx="3" fill="#fff" stroke="#cbd5e1" stroke-width="1"/>
+      <text x="40" y="220" font-size="10.5" fill="#0c0a09" font-weight="700">UTM spec written from zero + GTM containers rebuilt + GA4 events validated + Adobe Analytics</text>
+      <text x="40" y="236" font-size="9" fill="#475569">Closed-loop attribution traced end-to-end from ad click through MQL through Sales-Qualified Lead</text>
+
+      <text x="20" y="262" font-size="10" fill="#be123c" font-weight="700" letter-spacing="1.5">HANDOFF</text>
+      <rect x="20" y="280" width="660" height="44" rx="3" fill="#fff" stroke="#cbd5e1" stroke-width="1"/>
+      <text x="40" y="300" font-size="10.5" fill="#0c0a09" font-weight="700">Salesforce campaign attribution + lead-routing rules + SLA documentation feeding BDR/AE alerting</text>
+      <text x="40" y="316" font-size="9" fill="#be123c" font-weight="700">Outcomes: -25% CPA, +20% conversion, defended weekly to finance + sales</text>
+
+      <path d="M 350 89 L 350 117" stroke="#94a3b8" stroke-width="1.5" fill="none" marker-end="url(#arrFL)"/>
+      <path d="M 350 169 L 350 197" stroke="#94a3b8" stroke-width="1.5" fill="none" marker-end="url(#arrFL)"/>
+      <path d="M 350 249 L 350 277" stroke="#94a3b8" stroke-width="1.5" fill="none" marker-end="url(#arrFL)"/>
+
+      <defs>
+        <marker id="arrFL" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+          <polygon points="0 0, 8 4, 0 8" fill="#94a3b8"/>
+        </marker>
+      </defs>
+    </svg>
+
+    <div class="margin-note">
+      <div class="hdr">Translation to Flagright</div>
+      <p>Different vertical (industrial energy vs financial-crime compliance), same operator pattern. Account-level signals -&gt; enterprise retargeting -&gt; rigorous tracking -&gt; sales-routed alerts -&gt; pipeline conversion measured weekly.</p>
+      <p>SwipeHire's 8 A/B tests with sample-size and significance gates is the landing-page rigor that drops in immediately.</p>
+    </div>
+  </div>
+
+  <div class="brand">Flagright | Adhithya Rokhith Bhaskar</div>
+  <div class="num">04 / 06</div>
+</div>
+
+<!-- SLIDE 5 - WEEK ONE -->
+<div class="slide">
+  <div class="eyebrow">Slide 05 | First Thirty Days</div>
+  <h2>Three experiments I'd run <span class="accent">in the first thirty days at Flagright.</span></h2>
+  <div class="lede">Concrete and scoped. Each ships inside a month and produces a measurable pipeline outcome - not a CPL one.</div>
+
+  <div class="week">
+    <div class="card">
+      <div class="label">Experiment 1 - AI-Search Audit</div>
+      <div class="ttl">Flagright vs Hawk AI / ComplyAdvantage / Feedzai on AI search</div>
+      <div class="body">Audit Flagright's visibility on ChatGPT, Claude, Perplexity, and Google AI Overviews for the top-30 buyer queries ("AI transaction monitoring," "real-time AML," "automated case management"). Compare citation rates vs Hawk AI, ComplyAdvantage, Feedzai, Quantexa. Output: a 2-page teardown + content-cluster sprint to close the gaps.</div>
+      <div class="why"><strong>Why first.</strong> AI search is where Fortune 500 compliance buyers start now. Owning these queries compounds for years. I've shipped this exact teardown shape before (Plug Power AEO/GEO + KKR audit teardown).</div>
+    </div>
+
+    <div class="card">
+      <div class="label">Experiment 2 - LinkedIn ABM</div>
+      <div class="ttl">Top-50 Fortune 500 financial institutions - account-level retargeting</div>
+      <div class="body">Build LinkedIn ABM around top-50 Fortune 500 banks + payment processors + fintechs. Audience layers by title (Chief Compliance Officer, Head of Financial Crime, BSA Officer) + seniority + region. Account-level retargeting funnel mirroring the visit pattern. Suppression for closed-won + closed-lost. Sample-size and significance gates up front.</div>
+      <div class="why"><strong>Why first.</strong> Direct application of the Plug Power Adobe AAM + LinkedIn ABM playbook to Flagright's enterprise ICP. The "high-intent demand + targeted mid-market plays" line in the JD describes it exactly.</div>
+    </div>
+
+    <div class="card">
+      <div class="label">Experiment 3 - Pipeline Quality Reset</div>
+      <div class="ttl">A "what would I cut today?" 30-min audit</div>
+      <div class="body">Within week one: ride along with paid in its current state. Identify the one channel where blended numbers most likely hide the truth. Set up a 30-day holdout-incrementality test on that channel. Document the cut + reallocation plan, defend it with finance + sales, ship the experiment.</div>
+      <div class="why"><strong>Why first.</strong> The fastest way to prove the JD's "cut weak spend, double down on what works" line is real for me, not a slogan. Pixis Client C/F muscle in production.</div>
+    </div>
+  </div>
+
+  <div class="brand">Flagright | Adhithya Rokhith Bhaskar</div>
+  <div class="num">05 / 06</div>
+</div>
+
+<!-- SLIDE 6 - CLOSE -->
+<div class="slide close">
+  <div class="eyebrow">Slide 06 | The Ask</div>
+  <h2>What I'd want from <span class="accent">the first fifteen minutes.</span></h2>
+  <div class="body">
+    <p><strong>What I'd want to understand:</strong> which channel is currently the team's biggest measurement gap; whether the enterprise + mid-market split is balanced or top-heavy; and how the marketing-Sales seam is operating today on pipeline quality definitions.</p>
+    <p><strong>What I'd bring:</strong> a draft AI-search teardown of Flagright vs Hawk AI / ComplyAdvantage / Feedzai scoped to a handful of queries, an honest take on which paid channel I'd cut first based on the public footprint, and a one-pager on how I'd structure the first 90 days.</p>
+    <p>US remote works. Looking forward to it.</p>
+  </div>
+  <div class="cta">
+    <div class="btn">15 min with the Flagright team</div>
+    <div class="alt">or written async if that's easier on your week</div>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong><br>
+    arokhith@gmail.com | (929) 563-9974 | Boston, MA<br>
+    Portfolio: adhi-growth-ai.vercel.app/ref/flagright-pmm<br>
+    LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">Flagright | Adhithya Rokhith Bhaskar</div>
+  <div class="num">06 / 06</div>
+</div>
+
+</body>
+</html>

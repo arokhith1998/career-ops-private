@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Amazon News SEO/GEO Manager Pitch Deck Adhithya</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  @page { size: 11in 8.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #fdfaf3; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; }
+  .slide { width: 11in; height: 8.5in; padding: 0.55in 0.75in 0.5in 0.75in; page-break-after: always; position: relative; overflow: hidden; background: #fdfaf3; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.35in; right: 0.55in; font-size: 8.5pt; color: #a8a29e; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.35in; left: 0.75in; font-size: 8.5pt; color: #a8a29e; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #1e3a8a; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 10pt; }
+  h1 { font-size: 36pt; font-weight: 800; color: #1c1917; line-height: 1.04; letter-spacing: -0.6pt; margin-bottom: 8pt; }
+  h2 { font-size: 24pt; font-weight: 800; color: #1c1917; line-height: 1.08; letter-spacing: -0.4pt; margin-bottom: 6pt; }
+  h2 .accent { color: #1e3a8a; }
+  .lede { font-size: 13pt; color: #57534e; max-width: 8.5in; margin-bottom: 14pt; font-weight: 400; }
+
+  /* Cover */
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 1in; padding-right: 1in; background: linear-gradient(135deg, #fdfaf3 0%, #e6edf7 100%); }
+  .cover h1 { font-size: 42pt; max-width: 9.2in; }
+  .cover .sub { font-size: 17pt; color: #57534e; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 26pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 9.5in; }
+  .tag { background: #fff; border: 1pt solid #d6d3d1; color: #44403c; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.5pt; font-weight: 500; }
+  .tag strong { color: #1e3a8a; font-weight: 700; }
+  .cover .who { margin-top: 30pt; padding-top: 14pt; border-top: 1.5pt solid #1e3a8a; max-width: 7in; }
+  .cover .who .nm { font-size: 11pt; color: #1c1917; font-weight: 700; }
+  .cover .who .ct { font-size: 9.5pt; color: #57534e; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.6in; right: 0.85in; font-size: 9pt; color: #a8a29e; font-style: italic; }
+
+  /* Cover illustration */
+  .citegraph { position: absolute; right: 0.7in; bottom: 1.4in; width: 3.2in; height: 2.3in; opacity: 0.95; }
+
+  /* Manifesto-mapping slide */
+  .manifesto { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 4pt; }
+  .manifesto-col { padding: 14pt 0 0 0; border-top: 2.5pt solid #1e3a8a; }
+  .manifesto-col h3 { font-size: 13pt; font-weight: 800; color: #1c1917; margin-bottom: 12pt; letter-spacing: -0.2pt; }
+  .manifesto-quote { background: #e6edf7; border-left: 3pt solid #1e3a8a; padding: 8pt 12pt; margin-bottom: 9pt; }
+  .manifesto-quote .q { font-size: 10pt; color: #1e3a8a; font-style: italic; line-height: 1.45; font-weight: 600; }
+  .manifesto-proof { padding: 5pt 0 9pt 0; border-bottom: 1pt solid #e7e5e4; }
+  .manifesto-proof .p { font-size: 9.5pt; color: #44403c; line-height: 1.5; }
+  .manifesto-proof .p b { color: #1c1917; font-weight: 700; }
+
+  /* GEO baseline slide */
+  .geo-grid { display: grid; grid-template-columns: 1fr 2.4in; gap: 18pt; margin-top: 4pt; }
+  .geo-svg { width: 100%; height: 4.6in; }
+  .margin-note { font-size: 9.5pt; color: #57534e; line-height: 1.55; font-style: italic; border-top: 1pt solid #d6d3d1; padding-top: 10pt; margin-top: 10pt; }
+  .margin-note .hdr { font-style: normal; font-weight: 700; color: #1e3a8a; font-size: 9pt; letter-spacing: 1pt; text-transform: uppercase; margin-bottom: 6pt; }
+  .margin-note p { margin-bottom: 8pt; }
+
+  /* Architecture slide */
+  .arch-svg { width: 100%; height: 4.6in; }
+
+  /* Week one */
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 8pt; }
+  .card { background: #fff; border: 1pt solid #e7e5e4; border-left: 4pt solid #1e3a8a; padding: 14pt 14pt 12pt 14pt; }
+  .card .label { font-size: 8.5pt; color: #1e3a8a; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 13pt; font-weight: 800; color: #1c1917; line-height: 1.18; margin-bottom: 8pt; }
+  .card .body { font-size: 9.5pt; color: #44403c; line-height: 1.5; margin-bottom: 8pt; }
+  .card .why { font-size: 9pt; color: #78716c; line-height: 1.5; padding-top: 8pt; border-top: 1pt dashed #d6d3d1; }
+  .card .why strong { color: #1e3a8a; font-weight: 700; }
+
+  /* Close */
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 1in; padding-right: 1in; background: linear-gradient(135deg, #fdfaf3 0%, #e6edf7 100%); }
+  .close h2 { font-size: 30pt; max-width: 8.5in; margin-bottom: 16pt; }
+  .close .body { font-size: 11.5pt; color: #44403c; line-height: 1.6; max-width: 8.5in; }
+  .close .body p { margin-bottom: 10pt; }
+  .close .body strong { color: #1e3a8a; font-weight: 700; }
+  .close .cta { margin-top: 22pt; display: inline-flex; gap: 14pt; align-items: center; }
+  .close .cta .btn { background: #1c1917; color: #fff; padding: 11pt 22pt; border-radius: 3pt; font-weight: 700; font-size: 11pt; letter-spacing: 0.3pt; }
+  .close .cta .alt { font-size: 10.5pt; color: #78716c; font-style: italic; }
+  .close .contact { margin-top: 24pt; font-size: 10pt; color: #57534e; line-height: 1.6; }
+  .close .contact strong { color: #1c1917; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<!-- SLIDE 1 - COVER -->
+<div class="slide cover">
+  <div class="prep">Prepared for the Amazon News Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | SEO/GEO Manager | Amazon News</div>
+  <h1>SEO and GEO are one discipline.</h1>
+  <div class="sub">Citations - in SERPs, in AI Overviews, in chat answers. Same content spine, different surfaces.</div>
+  <div class="tags">
+    <div class="tag"><strong>Plug Power</strong> - SEM + SEO + content + Mar-Tech rebuild on WordPress (-25% CPA, +20% conversion)</div>
+    <div class="tag"><strong>GenY</strong> - Google Merchant Center technical rebuild + structured product data (16x ROAS)</div>
+    <div class="tag"><strong>SwipeHire</strong> - shipped solo on Python + OpenAI API + React (8 A/B tests, +25% activation)</div>
+    <div class="tag"><strong>NSE Bot</strong> - Python + Claude API agentic reasoning</div>
+    <div class="tag"><strong>4</strong> Anthropic Claude Certifications + Cursor daily</div>
+    <div class="tag"><strong>Enterprise SEO Gap Analysis</strong> - crawl, schema, content clusters, competitor benchmarks</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">Boston, MA | NYC | arokhith@gmail.com | (929) 563-9974 | adhithyabhaskar.vercel.app/ref/amazon-news</div>
+  </div>
+
+  <svg class="citegraph" viewBox="0 0 320 220">
+    <defs>
+      <radialGradient id="glowA" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stop-color="#bfdbfe" stop-opacity="0.7"/>
+        <stop offset="100%" stop-color="#bfdbfe" stop-opacity="0"/>
+      </radialGradient>
+    </defs>
+    <circle cx="160" cy="110" r="100" fill="url(#glowA)"/>
+
+    <!-- Center: content node -->
+    <rect x="130" y="95" width="60" height="30" rx="4" fill="#fff" stroke="#1e3a8a" stroke-width="2"/>
+    <text x="160" y="108" text-anchor="middle" font-size="8" fill="#1e3a8a" font-weight="800">EDITORIAL</text>
+    <text x="160" y="118" text-anchor="middle" font-size="8" fill="#1e3a8a" font-weight="800">CONTENT</text>
+
+    <!-- Citation surfaces (orbiting nodes) -->
+    <g>
+      <circle cx="40" cy="55" r="18" fill="#fff" stroke="#1e3a8a" stroke-width="1.2"/>
+      <text x="40" y="58" text-anchor="middle" font-size="7" fill="#1e3a8a" font-weight="700">SERP</text>
+    </g>
+    <g>
+      <circle cx="40" cy="165" r="18" fill="#fff" stroke="#1e3a8a" stroke-width="1.2"/>
+      <text x="40" y="160" text-anchor="middle" font-size="6.5" fill="#1e3a8a" font-weight="700">GOOGLE</text>
+      <text x="40" y="170" text-anchor="middle" font-size="6.5" fill="#1e3a8a" font-weight="700">AI OVERVIEW</text>
+    </g>
+    <g>
+      <circle cx="160" cy="40" r="18" fill="#fff" stroke="#1e3a8a" stroke-width="1.2"/>
+      <text x="160" y="43" text-anchor="middle" font-size="7" fill="#1e3a8a" font-weight="700">ChatGPT</text>
+    </g>
+    <g>
+      <circle cx="280" cy="55" r="18" fill="#fff" stroke="#1e3a8a" stroke-width="1.2"/>
+      <text x="280" y="58" text-anchor="middle" font-size="6.5" fill="#1e3a8a" font-weight="700">Perplexity</text>
+    </g>
+    <g>
+      <circle cx="280" cy="165" r="18" fill="#fff" stroke="#1e3a8a" stroke-width="1.2"/>
+      <text x="280" y="168" text-anchor="middle" font-size="7" fill="#1e3a8a" font-weight="700">Claude</text>
+    </g>
+    <g>
+      <circle cx="160" cy="180" r="18" fill="#fff" stroke="#1e3a8a" stroke-width="1.2"/>
+      <text x="160" y="178" text-anchor="middle" font-size="6.5" fill="#1e3a8a" font-weight="700">FEATURED</text>
+      <text x="160" y="187" text-anchor="middle" font-size="6.5" fill="#1e3a8a" font-weight="700">SNIPPET</text>
+    </g>
+
+    <!-- Connecting lines from center -->
+    <g stroke="#93c5fd" stroke-width="1" opacity="0.6">
+      <line x1="130" y1="105" x2="58" y2="55"/>
+      <line x1="130" y1="115" x2="58" y2="165"/>
+      <line x1="160" y1="95" x2="160" y2="58"/>
+      <line x1="190" y1="105" x2="262" y2="55"/>
+      <line x1="190" y1="115" x2="262" y2="165"/>
+      <line x1="160" y1="125" x2="160" y2="162"/>
+    </g>
+
+    <text x="160" y="210" text-anchor="middle" font-size="8.5" fill="#78716c" font-style="italic">one content spine, six citation surfaces</text>
+  </svg>
+
+  <div class="brand">Amazon News | Adhithya Rokhith Bhaskar</div>
+  <div class="num">01 / 06</div>
+</div>
+
+<!-- SLIDE 2 - JD MAPPING -->
+<div class="slide">
+  <div class="eyebrow">Slide 02 | Where the JD Reads Like the Last Four Years of My Operating Notes</div>
+  <h2>Each criterion on the left <span class="accent">has a working proof on the right.</span></h2>
+  <div class="lede">Six lines from the posting. Six things already shipped. Substance, not slogan.</div>
+
+  <div class="manifesto">
+    <div class="manifesto-col">
+      <h3>What the JD asks for</h3>
+      <div class="manifesto-quote"><div class="q">"Develop comprehensive organic SEO and GEO strategy with growth initiatives."</div></div>
+      <div class="manifesto-quote"><div class="q">"Monitor and optimize content visibility in AI chatbots like ChatGPT and Perplexity."</div></div>
+      <div class="manifesto-quote"><div class="q">"Conduct technical SEO audits addressing site architecture and indexation."</div></div>
+      <div class="manifesto-quote"><div class="q">"Partner with engineering teams on URL structure and schema optimization."</div></div>
+      <div class="manifesto-quote"><div class="q">"Build SEO/GEO reporting processes for leadership and stakeholders."</div></div>
+      <div class="manifesto-quote"><div class="q">"Work with editorial teams to maximize organic engagement."</div></div>
+    </div>
+
+    <div class="manifesto-col">
+      <h3>What I've actually shipped</h3>
+      <div class="manifesto-proof"><div class="p"><b>Plug Power: SEM + SEO + content together on one WordPress cluster map.</b> Paid and organic A/B tested on the same keywords + landing copy. -25% CPA, +20% conversion. SEMrush + Google Search Console as the competitor-benchmark spine for the editorial team.</div></div>
+      <div class="manifesto-proof"><div class="p"><b>Two production AI/LLM products shipped solo + 4 Anthropic Claude certifications.</b> SwipeHire (Python + OpenAI API + React, 50+ users, +25% activation). NSE Paper-Trading Bot (Python + Claude API agentic reasoning over news + catalysts). Cursor + Claude daily workflow.</div></div>
+      <div class="manifesto-proof"><div class="p"><b>Enterprise SEO Gap Analysis portfolio project.</b> Crawl, Core Web Vitals, schema audit, content-cluster mapping, competitor keyword benchmarking. Delivered as a prioritized execution roadmap for in-house ownership. Same audit shape AboutAmazon.com would benefit from on day one.</div></div>
+      <div class="manifesto-proof"><div class="p"><b>GenY Google Merchant Center technical rebuild.</b> Fixed disapprovals end-to-end. Shipped schema markup + structured product data to Google. 16x ROAS rebuild. Plus Plug Power canonicals, internal linking, page-speed, and Core Web Vitals work on WordPress.</div></div>
+      <div class="manifesto-proof"><div class="p"><b>Sensata $627M Power BI executive dashboard.</b> 1,200 opportunities across 3 regions and 20 product lines, with % to target + win rate + avg $/win + pipeline-stage KPIs. Became a weekly leadership artifact that surfaced $433M in margin gaps.</div></div>
+      <div class="manifesto-proof"><div class="p"><b>Sensata multi-region GTM (NA + EU + 3 regions).</b> Sequenced positioning + content + sales enablement across engineering, product, and sales. +35% qualified leads, $2M+ first-year pipeline, time-to-market down 20%.</div></div>
+    </div>
+  </div>
+
+  <div class="brand">Amazon News | Adhithya Rokhith Bhaskar</div>
+  <div class="num">02 / 06</div>
+</div>
+
+<!-- SLIDE 3 - GEO BASELINE -->
+<div class="slide">
+  <div class="eyebrow">Slide 03 | A Draft GEO Baseline I'd Run in the First Week</div>
+  <h2>For AboutAmazon.com, the citation question <span class="accent">runs across five query shapes.</span></h2>
+  <div class="lede">A first-week audit looks like this. Score each LLM and AI Overview for whether AboutAmazon.com is the cited source on the queries the newsroom should already own. The pattern of which buckets are weak tells you where the editorial + schema + canonical work should land first.</div>
+
+  <div class="geo-grid">
+    <svg viewBox="0 0 720 410" class="geo-svg">
+      <text x="370" y="22" text-anchor="middle" font-size="11" fill="#1c1917" font-weight="800">Citation share by query shape - illustrative first-week scoring template</text>
+
+      <text x="20" y="48" font-size="9.5" fill="#1e3a8a" font-weight="700" letter-spacing="0.5">QUERY BUCKET</text>
+      <text x="280" y="48" font-size="9.5" fill="#1e3a8a" font-weight="700" letter-spacing="0.5">ChatGPT</text>
+      <text x="360" y="48" font-size="9.5" fill="#1e3a8a" font-weight="700" letter-spacing="0.5">Perplexity</text>
+      <text x="450" y="48" font-size="9.5" fill="#1e3a8a" font-weight="700" letter-spacing="0.5">Claude</text>
+      <text x="520" y="48" font-size="9.5" fill="#1e3a8a" font-weight="700" letter-spacing="0.5">AI Overview</text>
+      <text x="615" y="48" font-size="9.5" fill="#1e3a8a" font-weight="700" letter-spacing="0.5">Top action</text>
+
+      <!-- Row 1: Corporate news / launches -->
+      <rect x="15" y="60" width="700" height="50" rx="3" fill="#fff" stroke="#d6d3d1" stroke-width="1"/>
+      <text x="25" y="80" font-size="10" fill="#1c1917" font-weight="700">Corporate news + product launches</text>
+      <text x="25" y="95" font-size="8.5" fill="#78716c" font-style="italic">"what did Amazon announce at re:Invent 2026"</text>
+      <circle cx="295" cy="85" r="9" fill="#15803d"/><text x="295" y="89" text-anchor="middle" font-size="9" fill="#fff" font-weight="700">H</text>
+      <circle cx="380" cy="85" r="9" fill="#15803d"/><text x="380" y="89" text-anchor="middle" font-size="9" fill="#fff" font-weight="700">H</text>
+      <circle cx="465" cy="85" r="9" fill="#15803d"/><text x="465" y="89" text-anchor="middle" font-size="9" fill="#fff" font-weight="700">H</text>
+      <circle cx="550" cy="85" r="9" fill="#15803d"/><text x="550" y="89" text-anchor="middle" font-size="9" fill="#fff" font-weight="700">H</text>
+      <text x="615" y="89" font-size="8.5" fill="#44403c">Defend - canonical hygiene</text>
+
+      <!-- Row 2: Policy / governance -->
+      <rect x="15" y="118" width="700" height="50" rx="3" fill="#fff" stroke="#d6d3d1" stroke-width="1"/>
+      <text x="25" y="138" font-size="10" fill="#1c1917" font-weight="700">Policy + governance positions</text>
+      <text x="25" y="153" font-size="8.5" fill="#78716c" font-style="italic">"Amazon's position on warehouse worker safety"</text>
+      <circle cx="295" cy="143" r="9" fill="#d97706"/><text x="295" y="147" text-anchor="middle" font-size="9" fill="#fff" font-weight="700">M</text>
+      <circle cx="380" cy="143" r="9" fill="#d97706"/><text x="380" y="147" text-anchor="middle" font-size="9" fill="#fff" font-weight="700">M</text>
+      <circle cx="465" cy="143" r="9" fill="#d97706"/><text x="465" y="147" text-anchor="middle" font-size="9" fill="#fff" font-weight="700">M</text>
+      <circle cx="550" cy="143" r="9" fill="#b91c1c"/><text x="550" y="147" text-anchor="middle" font-size="9" fill="#fff" font-weight="700">L</text>
+      <text x="615" y="147" font-size="8.5" fill="#44403c">FAQ + Q&amp;A schema sprint</text>
+
+      <!-- Row 3: Founder / leadership -->
+      <rect x="15" y="176" width="700" height="50" rx="3" fill="#fff" stroke="#d6d3d1" stroke-width="1"/>
+      <text x="25" y="196" font-size="10" fill="#1c1917" font-weight="700">Leadership + executive narrative</text>
+      <text x="25" y="211" font-size="8.5" fill="#78716c" font-style="italic">"who runs Amazon's AI strategy"</text>
+      <circle cx="295" cy="201" r="9" fill="#d97706"/><text x="295" y="205" text-anchor="middle" font-size="9" fill="#fff" font-weight="700">M</text>
+      <circle cx="380" cy="201" r="9" fill="#15803d"/><text x="380" y="205" text-anchor="middle" font-size="9" fill="#fff" font-weight="700">H</text>
+      <circle cx="465" cy="201" r="9" fill="#d97706"/><text x="465" y="205" text-anchor="middle" font-size="9" fill="#fff" font-weight="700">M</text>
+      <circle cx="550" cy="201" r="9" fill="#15803d"/><text x="550" y="205" text-anchor="middle" font-size="9" fill="#fff" font-weight="700">H</text>
+      <text x="615" y="205" font-size="8.5" fill="#44403c">Person schema + internal links</text>
+
+      <!-- Row 4: Sustainability / climate -->
+      <rect x="15" y="234" width="700" height="50" rx="3" fill="#fff" stroke="#d6d3d1" stroke-width="1"/>
+      <text x="25" y="254" font-size="10" fill="#1c1917" font-weight="700">Sustainability + climate commitments</text>
+      <text x="25" y="269" font-size="8.5" fill="#78716c" font-style="italic">"what is Amazon doing about carbon emissions"</text>
+      <circle cx="295" cy="259" r="9" fill="#b91c1c"/><text x="295" y="263" text-anchor="middle" font-size="9" fill="#fff" font-weight="700">L</text>
+      <circle cx="380" cy="259" r="9" fill="#d97706"/><text x="380" y="263" text-anchor="middle" font-size="9" fill="#fff" font-weight="700">M</text>
+      <circle cx="465" cy="259" r="9" fill="#b91c1c"/><text x="465" y="263" text-anchor="middle" font-size="9" fill="#fff" font-weight="700">L</text>
+      <circle cx="550" cy="259" r="9" fill="#d97706"/><text x="550" y="263" text-anchor="middle" font-size="9" fill="#fff" font-weight="700">M</text>
+      <text x="615" y="263" font-size="8.5" fill="#44403c">Source-linked claims overhaul</text>
+
+      <!-- Row 5: Community / philanthropy -->
+      <rect x="15" y="292" width="700" height="50" rx="3" fill="#fff" stroke="#d6d3d1" stroke-width="1"/>
+      <text x="25" y="312" font-size="10" fill="#1c1917" font-weight="700">Community + philanthropy stories</text>
+      <text x="25" y="327" font-size="8.5" fill="#78716c" font-style="italic">"Amazon disaster-response donations 2025"</text>
+      <circle cx="295" cy="317" r="9" fill="#b91c1c"/><text x="295" y="321" text-anchor="middle" font-size="9" fill="#fff" font-weight="700">L</text>
+      <circle cx="380" cy="317" r="9" fill="#b91c1c"/><text x="380" y="321" text-anchor="middle" font-size="9" fill="#fff" font-weight="700">L</text>
+      <circle cx="465" cy="317" r="9" fill="#b91c1c"/><text x="465" y="321" text-anchor="middle" font-size="9" fill="#fff" font-weight="700">L</text>
+      <circle cx="550" cy="317" r="9" fill="#d97706"/><text x="550" y="321" text-anchor="middle" font-size="9" fill="#fff" font-weight="700">M</text>
+      <text x="615" y="321" font-size="8.5" fill="#44403c">NewsArticle schema + dates</text>
+
+      <!-- Legend -->
+      <text x="20" y="378" font-size="9" fill="#78716c" font-weight="700">LEGEND:</text>
+      <circle cx="80" cy="375" r="6" fill="#15803d"/><text x="92" y="378" font-size="9" fill="#44403c">H = high citation share</text>
+      <circle cx="240" cy="375" r="6" fill="#d97706"/><text x="252" y="378" font-size="9" fill="#44403c">M = mixed / weak</text>
+      <circle cx="380" cy="375" r="6" fill="#b91c1c"/><text x="392" y="378" font-size="9" fill="#44403c">L = AboutAmazon not cited</text>
+      <text x="520" y="378" font-size="8.5" fill="#78716c" font-style="italic">illustrative pattern - actual scores from week-one audit</text>
+    </svg>
+
+    <div class="margin-note">
+      <div class="hdr">Why this shape matters</div>
+      <p>The patterns of weakness tell you which discipline to prioritize. If LLMs miss policy + community + sustainability buckets, the fix is structured-data hygiene (FAQ + Q&amp;A + NewsArticle schema, source-linked claims, canonical clarity) - not more content volume.</p>
+      <p>That same schema layer is what makes Google AI Overviews and ChatGPT cite the same passages. <strong>One spine, six surfaces.</strong></p>
+    </div>
+  </div>
+
+  <div class="brand">Amazon News | Adhithya Rokhith Bhaskar</div>
+  <div class="num">03 / 06</div>
+</div>
+
+<!-- SLIDE 4 - ARCHITECTURE -->
+<div class="slide">
+  <div class="eyebrow">Slide 04 | The SEO + GEO Stack as One Spine</div>
+  <h2>Editorial sits on top. <span class="accent">Schema, canonicals, and entity hygiene are the spine.</span></h2>
+  <div class="lede">The JD asks for technical SEO audits, schema + URL structure partnership with engineering, and reporting processes for leadership - in one seat. Treated as four layers of a single stack, not four disciplines, the work compounds. Editorial sits where it belongs - on top of a foundation that makes its work easier to find and easier to cite.</div>
+
+  <div class="geo-grid">
+    <svg viewBox="0 0 720 360" class="arch-svg">
+      <text x="20" y="22" font-size="10" fill="#1e3a8a" font-weight="700" letter-spacing="1.5">LAYER 04 - MEASUREMENT</text>
+      <rect x="20" y="40" width="660" height="48" rx="3" fill="#fff" stroke="#d6d3d1" stroke-width="1"/>
+      <text x="40" y="60" font-size="10.5" fill="#1c1917" font-weight="700">GSC + SEMrush + LLM-citation tracking + leadership readouts in Power BI / Looker</text>
+      <text x="40" y="76" font-size="9" fill="#57534e">Impressions, clicks, AI Overview share, LLM-citation share by query bucket - one weekly artifact for the newsroom + leadership</text>
+
+      <text x="20" y="106" font-size="10" fill="#1e3a8a" font-weight="700" letter-spacing="1.5">LAYER 03 - EDITORIAL PARTNERSHIP</text>
+      <rect x="20" y="124" width="660" height="48" rx="3" fill="#fff" stroke="#d6d3d1" stroke-width="1"/>
+      <text x="40" y="144" font-size="10.5" fill="#1c1917" font-weight="700">Cluster mapping + internal linking + named-entity hygiene + FAQ block patterns</text>
+      <text x="40" y="160" font-size="9" fill="#57534e">Editorial decides the story. Spine makes the story citable. Newsroom playbook: pre-publish checklist + post-publish refresh cycle.</text>
+
+      <text x="20" y="190" font-size="10" fill="#1e3a8a" font-weight="700" letter-spacing="1.5">LAYER 02 - STRUCTURED DATA SPINE</text>
+      <rect x="20" y="208" width="660" height="48" rx="3" fill="#e6edf7" stroke="#1e3a8a" stroke-width="1.5"/>
+      <text x="40" y="228" font-size="10.5" fill="#1c1917" font-weight="700">Schema sprint: Article + NewsArticle + FAQ + Organization + Person schemas on the top 50 templates</text>
+      <text x="40" y="244" font-size="9" fill="#57534e">Source-linked claims, canonical tags, internal-link discipline. The layer that makes the corpus legible to anything that reads code-first.</text>
+
+      <text x="20" y="274" font-size="10" fill="#1e3a8a" font-weight="700" letter-spacing="1.5">LAYER 01 - TECHNICAL FOUNDATION</text>
+      <rect x="20" y="292" width="660" height="48" rx="3" fill="#fff" stroke="#d6d3d1" stroke-width="1"/>
+      <text x="40" y="312" font-size="10.5" fill="#1c1917" font-weight="700">Crawl + index + canonicals + Core Web Vitals + URL structure partnership with engineering</text>
+      <text x="40" y="328" font-size="9" fill="#57534e">Site architecture audit, redirect maps, sitemap hygiene, page-speed budget - the floor everything else stands on.</text>
+    </svg>
+
+    <div class="margin-note">
+      <div class="hdr">What each layer earns</div>
+      <p><strong>Layer 1:</strong> SERP credibility. Without crawl + index + canonicals, nothing else compounds.</p>
+      <p><strong>Layer 2:</strong> Citation legibility. Schema + source-linked claims are why LLMs quote AboutAmazon.com instead of someone else.</p>
+      <p><strong>Layer 3:</strong> Editorial leverage. The newsroom keeps full ownership of voice; the spine just makes the work easier to find.</p>
+      <p><strong>Layer 4:</strong> Decisions. The dashboard the leadership team opens on Monday - not the deck that sits in a drive.</p>
+    </div>
+  </div>
+
+  <div class="brand">Amazon News | Adhithya Rokhith Bhaskar</div>
+  <div class="num">04 / 06</div>
+</div>
+
+<!-- SLIDE 5 - FIRST 30 DAYS -->
+<div class="slide">
+  <div class="eyebrow">Slide 05 | First Thirty Days at Amazon News</div>
+  <h2>Three workstreams I'd run <span class="accent">in the first thirty days.</span></h2>
+  <div class="lede">Concrete and scoped. Each ships inside a month and produces a measurable artifact - not a deliverables list.</div>
+
+  <div class="week">
+    <div class="card">
+      <div class="label">Workstream 1 - Baseline</div>
+      <div class="ttl">AboutAmazon.com GEO + SEO citation baseline</div>
+      <div class="body">Score 50 priority queries across ChatGPT, Perplexity, Claude, and Google AI Overviews for whether AboutAmazon.com is the cited source. Pair with a traditional technical-SEO audit on the top 200 templates (crawl, index, schema, Core Web Vitals, canonicals).</div>
+      <div class="why"><strong>Why first.</strong> Without the baseline, the rest is opinion. Enterprise SEO Gap Analysis is the same audit shape I've already run end-to-end.</div>
+    </div>
+
+    <div class="card">
+      <div class="label">Workstream 2 - Schema</div>
+      <div class="ttl">Schema + structured-data sprint on the top 50 editorial templates</div>
+      <div class="body">Article + NewsArticle + FAQ + Organization + Person schemas on the top 50 templates. Source-linked claims overhaul on the policy + sustainability buckets. Canonical-tag tightening on the top 25 stories. Engineering RFC for URL structure where indexation is leaking.</div>
+      <div class="why"><strong>Why first.</strong> Schema is the spine that wins both SERP and LLM citation - same fix, two surfaces. GenY structured product data is the closest analog I've shipped.</div>
+    </div>
+
+    <div class="card">
+      <div class="label">Workstream 3 - Readout</div>
+      <div class="ttl">Weekly leadership readout cadence + newsroom enablement</div>
+      <div class="body">Stand up a one-page weekly dashboard: impressions, clicks, AI Overview share, LLM-citation share by query bucket. Plus a one-page weekly note for the newsroom on which story shapes are getting cited by LLMs and which aren't - feeding the next week's editorial cluster decisions.</div>
+      <div class="why"><strong>Why first.</strong> Same shape as the Sensata $627M Power BI executive dashboard - the artifact leadership opens Monday morning, not the deck that sits in a drive.</div>
+    </div>
+  </div>
+
+  <div class="brand">Amazon News | Adhithya Rokhith Bhaskar</div>
+  <div class="num">05 / 06</div>
+</div>
+
+<!-- SLIDE 6 - CLOSE -->
+<div class="slide close">
+  <div class="eyebrow">Slide 06 | The Ask</div>
+  <h2>What I'd want from <span class="accent">the first fifteen minutes.</span></h2>
+  <div class="body">
+    <p><strong>What I'd want to understand:</strong> which query buckets the team thinks AboutAmazon.com under-cites today; how the editorial + comms + engineering trio is currently sequenced on schema work; and where the GEO program is most blocked today (tooling, data, or org velocity).</p>
+    <p><strong>What I'd bring:</strong> a draft GEO baseline scoped to 50 priority queries across ChatGPT, Perplexity, Claude, and Google AI Overviews, a 30-60-90 plan for the schema spine, and a one-pager on how I'd structure the weekly leadership readout.</p>
+    <p>NYC works. Boston relocates. Open to hybrid or onsite cadence.</p>
+  </div>
+  <div class="cta">
+    <div class="btn">15 min with the Amazon News team</div>
+    <div class="alt">or written async if that's easier on your week</div>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong><br>
+    arokhith@gmail.com | (929) 563-9974 | Boston, MA<br>
+    Portfolio: adhithyabhaskar.vercel.app/ref/amazon-news<br>
+    LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">Amazon News | Adhithya Rokhith Bhaskar</div>
+  <div class="num">06 / 06</div>
+</div>
+
+</body>
+</html>

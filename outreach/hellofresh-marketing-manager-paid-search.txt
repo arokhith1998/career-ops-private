@@ -1,0 +1,81 @@
+ROLE: HelloFresh - Marketing Manager, Paid Search
+================================================================
+Tracker entry: #70
+URL: https://job-boards.greenhouse.io/embed/job_app?for=hellofresh&token=7874237
+
+COMPANY:
+- HelloFresh. D2C meal-kit. Public company (DAX-listed).
+- Brand portfolio: HelloFresh, EveryPlate, Green Chef.
+- NYC-based US marketing organization.
+
+LOCATION: New York, NY. Onsite.
+SALARY: $121,500 - $136,700 USD base. Top of $90K-$130K target band. Ask $135K, floor $125K.
+YEARS: 4-6+ years paid search (agency or client-side). User at 4+, fits at lower end.
+REPORTS TO: Director, Paid Search.
+
+
+HIRING MANAGER (verify on LinkedIn before sending):
+PRIMARY: Director, Paid Search at HelloFresh NYC.
+LinkedIn search: "HelloFresh" + "Director Paid Search" filtered to NYC. Could also be "Senior Director Performance Marketing" or "Head of Paid Acquisition US."
+
+RECRUITER:
+HelloFresh Talent Acquisition - search LinkedIn for "HelloFresh Talent Acquisition" / "HelloFresh Recruiter" filtered to NYC + Marketing.
+
+
+ATTACHMENT FOR ALL EMAILS:
+- output/Adhithya_Rokhith_HelloFresh_PaidSearch.pdf (CV)
+- cover-letters/Adhithya_Rokhith_HelloFresh_PaidSearch_CL.pdf (Cover letter)
+- output/HelloFresh_Marketing_Manager_Paid_Search_Pitch_Deck_Adhithya.pdf (6-slide pitch deck)
+
+
+----- HM LINKEDIN NOTE (Director, Paid Search or equivalent) -----
+Hi {First}, just applied for the Marketing Manager, Paid Search role. Closest analog: 16x ROAS for a D2C consumer brand at GenY via Google Merchant Center and Meta catalog rebuild (feed cleanup, schema, product group architecture, structured Shopping + Advantage+). Plus Plug Power Google Ads + SA360 (-25% CPA, +20% conversion) and Pixis 8-client multi-brand portfolio at $15K-$90K per-client monthly. 4 Claude certs + Claude draft-and-critique pipeline at 8x copy velocity. Worth 15 min?
+
+
+----- HM EMAIL (Director, Paid Search or equivalent) -----
+Subject: Marketing Manager, Paid Search - 16x ROAS Shopping rebuild + multi-brand portfolio
+
+Hi {First},
+
+Just submitted for the Marketing Manager, Paid Search role.
+
+Paid search at D2C consumer scale breaks at one specific seam: the gap between the aggregate ROAS the dashboard shows and the per-product-group margin the CFO actually cares about. Most teams have respectable blended numbers, a Shopping feed that runs, and creative refresh on cadence, but none of those reconcile against "which SKU is buying the headline ROAS at unit-economic loss." The marketers who scale paid search profitably structure the Merchant Center feed so weak SKUs surface in their own product group, run negative-keyword discipline that catches branded-search cannibalization before CAC moves, and tie AI Max budget pacing to LTV cohort signals rather than 7-day ROAS.
+
+I ran that work at GenY: 16x ROAS for a D2C consumer brand via a Google Merchant Center and Meta catalog rebuild. Feed cleanup, schema fixes, product group architecture, structured Shopping + Advantage+ campaigns, weekly creative refresh against fatigue cycles. Closest portfolio-shape analog in my CV to HelloFresh, EveryPlate, and Green Chef.
+
+Plug Power adds the rigor: Google Ads + SA360 + Microsoft Ads + Adobe-driven programmatic across Text Search, Shopping, and PMAX-equivalent campaigns. -25% CPA, +20% conversion. Closed-loop attribution from ad click to SQL on HubSpot + Salesforce + Adobe + GA4 + GTM.
+
+Pixis adds multi-brand parallel: 8-client portfolio at $15K-$90K per-client monthly, 8-person team, AI bidding training for 8 enterprise marketers, 3x ROAS holdout-validated.
+
+On AI Max and automation: 4 Anthropic Claude certifications + SwipeHire shipped solo on Python + OpenAI API + React + a Claude draft-and-critique pipeline I productized at 8x copy velocity for granular keyword ad copy at scale.
+
+NYC works. Boston-based today, open to relocating. CV + CL attached. Portfolio: https://adhi-growth-ai.vercel.app/ref/hellofresh
+
+15 minutes next week?
+
+Adhithya | Boston, MA | (929) 563-9974
+
+
+----- RECRUITER LINKEDIN NOTE -----
+Hi {Recruiter}, applied for Marketing Manager, Paid Search at HelloFresh. 4+ yrs paid search across GenY 16x ROAS D2C consumer Shopping (Google Merchant Center + Meta catalog rebuild), Plug Power Google Ads + SA360 + programmatic (-25% CPA), Pixis 8-client multi-brand book ($15K-$90K per-client monthly). 4 Claude certs + Claude pipeline at 8x copy velocity. NYC works. Available for a screen.
+
+
+----- RECRUITER EMAIL -----
+Subject: Application - Marketing Manager, Paid Search (HelloFresh)
+
+Hi {Recruiter},
+
+Submitted for the Marketing Manager, Paid Search role earlier today.
+
+Quick fit summary on substance:
+- 4+ years paid search across D2C consumer (GenY 16x ROAS via Google Merchant Center + Meta catalog rebuild on feed cleanup + schema + product group architecture + structured Shopping + Advantage+), full demand engine (Plug Power Google Ads + SA360 + Microsoft Ads + Adobe-driven programmatic on Text Search + Shopping + PMAX-equivalent, -25% CPA, +20% conversion, closed-loop attribution rebuilt on HubSpot + Salesforce + Adobe + GA4 + GTM), and multi-brand parallel (Pixis 8-client portfolio at $15K-$90K per-client monthly with 8-person team, AI bidding training for 8 enterprise marketers, 3x ROAS holdout-validated).
+- AI Max + automation: 4 Anthropic Claude certifications + SwipeHire solo build on Python + OpenAI API + React + Claude draft-and-critique pipeline productized at 8x copy velocity.
+- Quantitative: SQL + Power BI + Tableau + advanced Excel/Sheets. Sensata $627M dashboard tracking 1,200 opportunities. Simon MS Marketing Analytics.
+
+NYC works. Boston-based today, open to relocating.
+
+CV + CL attached. Portfolio: https://adhi-growth-ai.vercel.app/ref/hellofresh
+
+Available for a screen this week.
+
+Adhithya | (929) 563-9974

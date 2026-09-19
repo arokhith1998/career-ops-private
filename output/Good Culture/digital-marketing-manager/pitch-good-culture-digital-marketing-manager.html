@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Good Culture Digital Marketing Manager Pitch Deck Adhithya</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  @page { size: 11in 8.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1a2e1a; background: #fbf9f3; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; }
+  .slide { width: 11in; height: 8.5in; padding: 0.55in 0.75in 0.5in 0.75in; page-break-after: always; position: relative; overflow: hidden; background: #fbf9f3; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.35in; right: 0.55in; font-size: 8.5pt; color: #94a98a; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.35in; left: 0.75in; font-size: 8.5pt; color: #94a98a; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #4d7c0f; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 10pt; }
+  h1 { font-size: 36pt; font-weight: 800; color: #1a2e1a; line-height: 1.04; letter-spacing: -0.6pt; margin-bottom: 8pt; }
+  h2 { font-size: 24pt; font-weight: 800; color: #1a2e1a; line-height: 1.08; letter-spacing: -0.4pt; margin-bottom: 6pt; }
+  h2 .accent { color: #4d7c0f; }
+  .lede { font-size: 13pt; color: #4b5d44; max-width: 8.5in; margin-bottom: 14pt; font-weight: 400; }
+
+  /* Cover */
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 1in; padding-right: 1in; background: linear-gradient(135deg, #fbf9f3 0%, #f1f8e9 100%); }
+  .cover h1 { font-size: 42pt; max-width: 9.2in; }
+  .cover .sub { font-size: 17pt; color: #4b5d44; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 26pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 9.5in; }
+  .tag { background: #fff; border: 1pt solid #d4d8c9; color: #344035; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.5pt; font-weight: 500; }
+  .tag strong { color: #4d7c0f; font-weight: 700; }
+  .cover .who { margin-top: 30pt; padding-top: 14pt; border-top: 1.5pt solid #4d7c0f; max-width: 7in; }
+  .cover .who .nm { font-size: 11pt; color: #1a2e1a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.5pt; color: #4b5d44; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.6in; right: 0.85in; font-size: 9pt; color: #94a98a; font-style: italic; }
+
+  /* Cover illustration */
+  .cover-svg { position: absolute; right: 0.7in; bottom: 1.5in; width: 3in; height: 2.4in; opacity: 0.95; }
+
+  /* Manifesto-mapping slide */
+  .manifesto { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 4pt; }
+  .manifesto-col { padding: 14pt 0 0 0; border-top: 2.5pt solid #4d7c0f; }
+  .manifesto-col h3 { font-size: 13pt; font-weight: 800; color: #1a2e1a; margin-bottom: 12pt; letter-spacing: -0.2pt; }
+  .manifesto-quote { background: #f1f8e9; border-left: 3pt solid #4d7c0f; padding: 8pt 12pt; margin-bottom: 10pt; }
+  .manifesto-quote .q { font-size: 10.5pt; color: #2e4a17; font-style: italic; line-height: 1.45; font-weight: 600; }
+  .manifesto-proof { padding: 6pt 0 10pt 0; border-bottom: 1pt solid #e2e6d4; }
+  .manifesto-proof .p { font-size: 10pt; color: #344035; line-height: 1.5; }
+  .manifesto-proof .p b { color: #1a2e1a; font-weight: 700; }
+
+  /* SwipeHire community slide */
+  .sh-grid { display: grid; grid-template-columns: 2.4in 1fr 1.8in; gap: 22pt; margin-top: 0pt; align-items: start; }
+  .sh-svg { width: 100%; height: 4.4in; }
+  .sh-steps h3 { font-size: 11pt; color: #1a2e1a; font-weight: 800; margin-bottom: 8pt; letter-spacing: -0.2pt; }
+  .sh-step { display: grid; grid-template-columns: 0.22in 1fr; gap: 6pt; margin-bottom: 8pt; align-items: start; }
+  .sh-step .n { font-size: 10pt; color: #4d7c0f; font-weight: 800; line-height: 1.5; }
+  .sh-step .t { font-size: 9.5pt; color: #344035; line-height: 1.45; }
+  .sh-step .t b { color: #1a2e1a; font-weight: 700; }
+  .sh-kpis { display: grid; gap: 6pt; }
+  .sh-kpis .k { background: #fff; border: 1pt solid #d4d8c9; border-left: 3pt solid #4d7c0f; padding: 8pt 10pt; }
+  .sh-kpis .k .v { font-size: 16pt; color: #1a2e1a; font-weight: 800; line-height: 1; }
+  .sh-kpis .k .l { font-size: 8.5pt; color: #4b5d44; margin-top: 3pt; font-weight: 600; }
+  .sh-note { margin-top: 14pt; font-size: 9.5pt; color: #4b5d44; font-style: italic; border-top: 1pt solid #d4d8c9; padding-top: 10pt; max-width: 10in; }
+  .sh-note strong { color: #4d7c0f; font-weight: 700; font-style: normal; }
+
+  /* Pixis portfolio slide */
+  .portfolio { display: grid; grid-template-columns: 1.05fr 1fr; gap: 22pt; margin-top: 6pt; align-items: start; }
+  .clients-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6pt; margin-bottom: 12pt; }
+  .client-tile { background: #fff; border: 1pt solid #d4d8c9; border-left: 3pt solid #4d7c0f; padding: 8pt 8pt 7pt 8pt; }
+  .client-tile .nm { font-size: 9pt; color: #1a2e1a; font-weight: 800; margin-bottom: 2pt; }
+  .client-tile .bd { font-size: 8.5pt; color: #4b5d44; }
+  .client-tile .ch { font-size: 7.5pt; color: #4d7c0f; font-weight: 700; margin-top: 3pt; letter-spacing: 0.3pt; text-transform: uppercase; }
+  .portfolio-kpis { display: grid; grid-template-columns: 1fr 1fr; gap: 8pt; }
+  .kpi-card { background: #fff; border: 1pt solid #d4d8c9; border-top: 3pt solid #4d7c0f; padding: 10pt 12pt; }
+  .kpi-card .v { font-size: 22pt; color: #1a2e1a; font-weight: 800; line-height: 1; }
+  .kpi-card .l { font-size: 9pt; color: #4b5d44; margin-top: 4pt; font-weight: 600; }
+  .pf-callout { background: #f1f8e9; border-left: 3pt solid #4d7c0f; padding: 10pt 14pt; font-size: 10pt; color: #2e4a17; line-height: 1.55; margin-top: 0pt; }
+  .pf-callout strong { color: #4d7c0f; font-weight: 700; }
+  .pf-callout p { margin-bottom: 6pt; }
+  .pf-callout p:last-child { margin-bottom: 0; }
+
+  /* 30 days cards */
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 8pt; }
+  .card { background: #fff; border: 1pt solid #d4d8c9; border-left: 4pt solid #4d7c0f; padding: 14pt 14pt 12pt 14pt; }
+  .card .label { font-size: 8.5pt; color: #4d7c0f; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 13pt; font-weight: 800; color: #1a2e1a; line-height: 1.18; margin-bottom: 8pt; }
+  .card .body { font-size: 9.5pt; color: #344035; line-height: 1.5; margin-bottom: 8pt; }
+  .card .why { font-size: 9pt; color: #6b7a5e; line-height: 1.5; padding-top: 8pt; border-top: 1pt dashed #d4d8c9; }
+  .card .why strong { color: #4d7c0f; font-weight: 700; }
+
+  /* Close */
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 1in; padding-right: 1in; background: linear-gradient(135deg, #fbf9f3 0%, #f1f8e9 100%); }
+  .close h2 { font-size: 30pt; max-width: 8.5in; margin-bottom: 16pt; }
+  .close .body { font-size: 11.5pt; color: #344035; line-height: 1.6; max-width: 8.5in; }
+  .close .body p { margin-bottom: 10pt; }
+  .close .body strong { color: #4d7c0f; font-weight: 700; }
+  .close .cta { margin-top: 22pt; display: inline-flex; gap: 14pt; align-items: center; }
+  .close .cta .btn { background: #1a2e1a; color: #fff; padding: 11pt 22pt; border-radius: 3pt; font-weight: 700; font-size: 11pt; letter-spacing: 0.3pt; }
+  .close .cta .alt { font-size: 10.5pt; color: #6b7a5e; font-style: italic; }
+  .close .contact { margin-top: 24pt; font-size: 10pt; color: #4b5d44; line-height: 1.6; }
+  .close .contact strong { color: #1a2e1a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<!-- SLIDE 1 - COVER -->
+<div class="slide cover">
+  <div class="prep">Prepared for the Good Culture Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Digital Marketing Manager | Good Culture</div>
+  <h1>Show up where the wave is breaking.</h1>
+  <div class="sub">Content + social + creator strategy with operator discipline and AI-native storytelling.</div>
+  <div class="tags">
+    <div class="tag"><strong>5 yrs</strong> digital marketing across D2C + B2B SaaS + high-growth brands</div>
+    <div class="tag"><strong>SwipeHire</strong> - solo AI product, 50+ users acquired through organic Reddit + Twitter</div>
+    <div class="tag"><strong>Pixis</strong> - 8-person team, $1.4M aggregate annual book, weekly creative-test cadence</div>
+    <div class="tag"><strong>GenY</strong> - 16x ROAS on a D2C consumer brand via Shopify + Meta-catalog rebuild</div>
+    <div class="tag"><strong>4</strong> Anthropic Claude Certifications + 2 production AI products solo</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">Boston, MA | US Remote | arokhith@gmail.com | (929) 563-9974 | adhi-growth-ai.vercel.app/ref/good-culture-dmm</div>
+  </div>
+
+  <svg class="cover-svg" viewBox="0 0 300 240">
+    <defs>
+      <radialGradient id="gcGlow" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stop-color="#bef264" stop-opacity="0.5"/>
+        <stop offset="100%" stop-color="#bef264" stop-opacity="0"/>
+      </radialGradient>
+    </defs>
+    <circle cx="150" cy="120" r="110" fill="url(#gcGlow)"/>
+
+    <!-- Wave-like flowing lines representing culture / trend cycles -->
+    <g fill="none" stroke="#4d7c0f" stroke-width="1.8" opacity="0.7">
+      <path d="M 20 80 Q 60 50, 100 80 T 180 80 T 280 80"/>
+      <path d="M 20 110 Q 70 80, 120 110 T 220 110 T 300 95" opacity="0.55"/>
+      <path d="M 20 140 Q 80 110, 140 140 T 260 140 T 300 130" opacity="0.4"/>
+    </g>
+
+    <!-- Cottage cheese / dairy curd shapes -->
+    <g>
+      <circle cx="80" cy="170" r="8" fill="#fff" stroke="#4d7c0f" stroke-width="1.5"/>
+      <circle cx="100" cy="180" r="6" fill="#fff" stroke="#4d7c0f" stroke-width="1.5"/>
+      <circle cx="120" cy="172" r="10" fill="#fff" stroke="#4d7c0f" stroke-width="1.5"/>
+      <circle cx="145" cy="186" r="7" fill="#fff" stroke="#4d7c0f" stroke-width="1.5"/>
+      <circle cx="170" cy="174" r="9" fill="#fff" stroke="#4d7c0f" stroke-width="1.5"/>
+      <circle cx="195" cy="184" r="6" fill="#fff" stroke="#4d7c0f" stroke-width="1.5"/>
+      <circle cx="218" cy="178" r="8" fill="#fff" stroke="#4d7c0f" stroke-width="1.5"/>
+    </g>
+
+    <!-- The eater / participant dot -->
+    <circle cx="150" cy="40" r="6" fill="#4d7c0f"/>
+    <text x="150" y="32" text-anchor="middle" font-size="8" fill="#1a2e1a" font-weight="700">PARTICIPANT</text>
+
+    <!-- Arrow down from participant into the wave -->
+    <path d="M 150 48 L 150 70" stroke="#4d7c0f" stroke-width="1.5" fill="none" marker-end="url(#gcArr)"/>
+
+    <text x="150" y="210" text-anchor="middle" font-size="8" fill="#4d7c0f" font-weight="700" letter-spacing="1">SHOW UP WHERE THE CULTURE IS</text>
+
+    <defs>
+      <marker id="gcArr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+        <polygon points="0 0, 8 4, 0 8" fill="#4d7c0f"/>
+      </marker>
+    </defs>
+  </svg>
+
+  <div class="brand">Good Culture | Adhithya Rokhith Bhaskar</div>
+  <div class="num">01 / 06</div>
+</div>
+
+<!-- SLIDE 2 - JD MAPPING -->
+<div class="slide">
+  <div class="eyebrow">Slide 02 | The JD Reads Like What I've Been Shipping</div>
+  <h2>Each line on the left <span class="accent">has a working proof on the right.</span></h2>
+  <div class="lede">Six requirements from the role and the LinkedIn post. Six things already shipped. Operator-discipline-plus-storytelling, not slogan.</div>
+
+  <div class="manifesto">
+    <div class="manifesto-col">
+      <h3>What the role asks for</h3>
+      <div class="manifesto-quote"><div class="q">"Highly autonomous and ability to make good, insights-backed decisions on the fly."</div></div>
+      <div class="manifesto-quote"><div class="q">"A social-first marketer who understands virality, creators, trend cycles, and cutting edge of culture."</div></div>
+      <div class="manifesto-quote"><div class="q">"Manage quarterly + monthly content planning and influencer + creator + UGC strategy."</div></div>
+      <div class="manifesto-quote"><div class="q">"Own content budget; advise on paid media ROI. Lead agency partners + manage a Marketing Associate."</div></div>
+      <div class="manifesto-quote"><div class="q">"Highly organized, diligent, values process as much as creative big-thinking."</div></div>
+      <div class="manifesto-quote"><div class="q">"Creativity, AI &amp; Consumer-Centric Storytelling" (from the hiring leader's headline).</div></div>
+    </div>
+
+    <div class="manifesto-col">
+      <h3>What I've actually shipped</h3>
+      <div class="manifesto-proof"><div class="p"><b>SwipeHire solo zero-to-one:</b> Python + OpenAI API + React, day-one GA4 + GTM + Amplitude instrumentation, 8 A/B tests with significance gates up front, weekly cohort retention reviews. The autonomous-shipping pattern with instrumentation.</div></div>
+      <div class="manifesto-proof"><div class="p"><b>SwipeHire's first 50+ users came through organic Reddit + Twitter</b> - r/cscareerquestions, r/h1b. Subreddit-native participation first, product surfaced in context after. The "show up where the wave is breaking" reflex in production.</div></div>
+      <div class="manifesto-proof"><div class="p"><b>Pixis 8-client portfolio:</b> weekly creative-test cadence across D2C and B2B SaaS books, brand-voice governance across multiple client editorial calendars, creative cycles informed by cohort retention data, not vanity views.</div></div>
+      <div class="manifesto-proof"><div class="p"><b>Pixis 8-person team + $1.4M aggregate annual book</b> + per-client monthly $15K-$90K. Plug Power 4-vendor MarTech RFP + 6 internal stakeholders. Budget + agency + first-line people management already operated.</div></div>
+      <div class="manifesto-proof"><div class="p"><b>Plug Power UTM spec from zero + GTM containers + SLA docs</b> + Sensata $627M margin-recovery executive Power BI dashboard across 1,200 opportunities. Process + creative big-thinking is not either/or here.</div></div>
+      <div class="manifesto-proof"><div class="p"><b>4 Anthropic Claude certifications + 2 production AI products solo</b> (SwipeHire on OpenAI API + NSE Bot on Claude API) + Cursor + Claude daily. The AI-as-co-pilot-for-storytelling muscle, not deck-only.</div></div>
+    </div>
+  </div>
+
+  <div class="brand">Good Culture | Adhithya Rokhith Bhaskar</div>
+  <div class="num">02 / 06</div>
+</div>
+
+<!-- SLIDE 3 - SWIPEHIRE COMMUNITY -->
+<div class="slide">
+  <div class="eyebrow">Slide 03 | The Community-Organic Acquisition Pattern</div>
+  <h2>SwipeHire: <span class="accent">50+ users acquired through subreddit-native participation.</span></h2>
+  <div class="lede">Two-sided AI matching product shipped solo. The first cohort came from organic Reddit and Twitter loops - not paid, not lookalikes. Show up as a participant first, surface the product in context, let the cohort retention data write the next chapter. The same pattern that the cottage-cheese-as-protein wave is being ridden on, just at smaller scale.</div>
+
+  <div class="sh-grid">
+    <svg viewBox="0 0 280 380" class="sh-svg">
+      <!-- Reddit cluster -->
+      <g>
+        <circle cx="60" cy="60" r="22" fill="#fff" stroke="#4d7c0f" stroke-width="1.5"/>
+        <text x="60" y="58" text-anchor="middle" font-size="8" fill="#1a2e1a" font-weight="700">r/cs</text>
+        <text x="60" y="68" text-anchor="middle" font-size="8" fill="#1a2e1a" font-weight="700">careers</text>
+        <text x="60" y="95" text-anchor="middle" font-size="7" fill="#4b5d44" font-style="italic">REDDIT</text>
+
+        <circle cx="140" cy="50" r="20" fill="#fff" stroke="#4d7c0f" stroke-width="1.5"/>
+        <text x="140" y="54" text-anchor="middle" font-size="8" fill="#1a2e1a" font-weight="700">r/h1b</text>
+        <text x="140" y="80" text-anchor="middle" font-size="7" fill="#4b5d44" font-style="italic">REDDIT</text>
+
+        <circle cx="220" cy="60" r="22" fill="#fff" stroke="#4d7c0f" stroke-width="1.5"/>
+        <text x="220" y="58" text-anchor="middle" font-size="8" fill="#1a2e1a" font-weight="700">Twitter</text>
+        <text x="220" y="68" text-anchor="middle" font-size="8" fill="#1a2e1a" font-weight="700">loops</text>
+        <text x="220" y="95" text-anchor="middle" font-size="7" fill="#4b5d44" font-style="italic">X / TWITTER</text>
+      </g>
+
+      <!-- Flow lines to participation -->
+      <g stroke="#4d7c0f" stroke-width="1.5" fill="none" opacity="0.7">
+        <path d="M 60 84 L 140 140"/>
+        <path d="M 140 72 L 140 140"/>
+        <path d="M 220 84 L 140 140"/>
+      </g>
+
+      <!-- Participation -->
+      <rect x="60" y="148" width="160" height="42" rx="4" fill="#f1f8e9" stroke="#4d7c0f" stroke-width="1.5"/>
+      <text x="140" y="166" text-anchor="middle" font-size="10" fill="#1a2e1a" font-weight="800">PARTICIPATE FIRST</text>
+      <text x="140" y="181" text-anchor="middle" font-size="8" fill="#4b5d44" font-style="italic">answer questions, share signal,</text>
+      <text x="140" y="190" text-anchor="middle" font-size="8" fill="#4b5d44" font-style="italic">no product mention yet</text>
+
+      <!-- Arrow down -->
+      <path d="M 140 196 L 140 218" stroke="#4d7c0f" stroke-width="1.5" fill="none" marker-end="url(#gcArr2)"/>
+
+      <!-- Surface in context -->
+      <rect x="60" y="222" width="160" height="42" rx="4" fill="#fff" stroke="#4d7c0f" stroke-width="1.5"/>
+      <text x="140" y="240" text-anchor="middle" font-size="10" fill="#1a2e1a" font-weight="800">SURFACE IN CONTEXT</text>
+      <text x="140" y="255" text-anchor="middle" font-size="8" fill="#4b5d44" font-style="italic">"here's what I built for this"</text>
+      <text x="140" y="263" text-anchor="middle" font-size="8" fill="#4b5d44" font-style="italic">in the right thread</text>
+
+      <!-- Arrow down -->
+      <path d="M 140 270 L 140 292" stroke="#4d7c0f" stroke-width="1.5" fill="none" marker-end="url(#gcArr2)"/>
+
+      <!-- Cohort instrumentation -->
+      <rect x="60" y="296" width="160" height="60" rx="4" fill="#fff" stroke="#4d7c0f" stroke-width="1.5"/>
+      <text x="140" y="314" text-anchor="middle" font-size="10" fill="#1a2e1a" font-weight="800">INSTRUMENT THE COHORT</text>
+      <text x="140" y="328" text-anchor="middle" font-size="8" fill="#4b5d44" font-style="italic">GA4 + GTM + Amplitude day one</text>
+      <text x="140" y="340" text-anchor="middle" font-size="8" fill="#4b5d44" font-style="italic">8 A/B tests with significance gates</text>
+      <text x="140" y="352" text-anchor="middle" font-size="8" fill="#4b5d44" font-style="italic">weekly cohort retention review</text>
+
+      <defs>
+        <marker id="gcArr2" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+          <polygon points="0 0, 8 4, 0 8" fill="#4d7c0f"/>
+        </marker>
+      </defs>
+    </svg>
+
+    <div class="sh-steps">
+      <h3>What this teaches a brand-side seat</h3>
+      <div class="sh-step"><div class="n">01</div><div class="t"><b>Subreddit + niche-channel native participation</b> beats paid prospecting for the first cohort of a culture wave. The audience can smell a launch from a mile away.</div></div>
+      <div class="sh-step"><div class="n">02</div><div class="t"><b>Trend cycles compound when the brand shows up in the conversation</b> before the conversation is about the brand. Same shape as the cottage-cheese-as-protein moment.</div></div>
+      <div class="sh-step"><div class="n">03</div><div class="t"><b>Day-one instrumentation</b> is what separates a creative-test cadence from creative theater. 8 A/B tests with sample-size + significance gates from V1.</div></div>
+      <div class="sh-step"><div class="n">04</div><div class="t"><b>Weekly cohort retention review</b> drives the roadmap; the creator + UGC asks come second, anchored to what's actually moving the cohort.</div></div>
+    </div>
+
+    <div class="sh-kpis">
+      <div class="k"><div class="v">50+</div><div class="l">first cohort, organic only</div></div>
+      <div class="k"><div class="v">+25%</div><div class="l">activation lift V1 to V2</div></div>
+      <div class="k"><div class="v">8</div><div class="l">A/B tests with significance gates</div></div>
+      <div class="k"><div class="v">Day 1</div><div class="l">GA4 + GTM + Amplitude</div></div>
+    </div>
+  </div>
+
+  <div class="brand">Good Culture | Adhithya Rokhith Bhaskar</div>
+  <div class="num">03 / 06</div>
+</div>
+
+<!-- SLIDE 4 - PIXIS PORTFOLIO + CREATIVE CADENCE -->
+<div class="slide">
+  <div class="eyebrow">Slide 04 | Portfolio Scale + Weekly Creative-Test Cadence</div>
+  <h2>Pixis: <span class="accent">8 brand books, weekly creative cycles, brand-voice governance.</span></h2>
+  <div class="lede">An 8-person team across creative, account, and platform. A $1.4M aggregate annual book across 8 D2C and B2B SaaS clients with per-client monthly budgets between $15K and $90K. Weekly creative-test cadence, weekly client CFO QBRs translating KPIs into pipeline narrative, agency-partner-leadership at portfolio scale.</div>
+
+  <div class="portfolio">
+    <div>
+      <div class="clients-grid">
+        <div class="client-tile"><div class="nm">Client A</div><div class="bd">D2C beauty | $90K/mo</div><div class="ch">Meta + UGC + Creator</div></div>
+        <div class="client-tile"><div class="nm">Client B</div><div class="bd">D2C apparel | $75K/mo</div><div class="ch">Meta + TikTok-adj + Shopping</div></div>
+        <div class="client-tile"><div class="nm">Client C</div><div class="bd">B2B SaaS | $55K/mo</div><div class="ch">LinkedIn + Content</div></div>
+        <div class="client-tile"><div class="nm">Client D</div><div class="bd">D2C lifestyle | $40K/mo</div><div class="ch">Meta + Pinterest + Influencer</div></div>
+        <div class="client-tile"><div class="nm">Client E</div><div class="bd">D2C app | $35K/mo</div><div class="ch">Meta + TikTok-adj + UA</div></div>
+        <div class="client-tile"><div class="nm">Client F</div><div class="bd">B2B SaaS | $30K/mo</div><div class="ch">LinkedIn + Programmatic</div></div>
+        <div class="client-tile"><div class="nm">Client G</div><div class="bd">D2C food | $25K/mo</div><div class="ch">Meta + UGC + Shopping</div></div>
+        <div class="client-tile"><div class="nm">Client H</div><div class="bd">B2B SaaS | $15K/mo</div><div class="ch">Google + LinkedIn</div></div>
+      </div>
+      <div class="portfolio-kpis">
+        <div class="kpi-card"><div class="v">8</div><div class="l">person team (creative + account + platform)</div></div>
+        <div class="kpi-card"><div class="v">$1.4M</div><div class="l">aggregate annual book</div></div>
+        <div class="kpi-card"><div class="v">3x ROAS</div><div class="l">D2C beauty (holdout incrementality)</div></div>
+        <div class="kpi-card"><div class="v">-50%</div><div class="l">book churn (LTV strategy)</div></div>
+      </div>
+    </div>
+    <div>
+      <div class="pf-callout">
+        <p><strong>Operating cadence.</strong> Weekly creative-test cycles per client. Weekly CFO QBRs translating CAC, LTV, ROAS, and payback period into narrative. Brand-voice governance across 8 editorial calendars.</p>
+        <p><strong>The reflex.</strong> Mid-quarter channel swaps on 2 separate clients when blended ROAS hid the truth. Cut weak spend, redirect to true lift, re-pre-flight creative inside 2 weeks. Defended every call to client CFOs.</p>
+        <p><strong>Why this maps.</strong> The DMM seat asks for content + creative + influencer + UGC + agency leadership at high-growth-brand scale. The shape of the Pixis tenure is the shape of the seat.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="brand">Good Culture | Adhithya Rokhith Bhaskar</div>
+  <div class="num">04 / 06</div>
+</div>
+
+<!-- SLIDE 5 - FIRST 30 DAYS -->
+<div class="slide">
+  <div class="eyebrow">Slide 05 | First Thirty Days at Good Culture</div>
+  <h2>Three concrete experiments <span class="accent">to ship inside thirty days.</span></h2>
+  <div class="lede">Each ships in a month and produces a measurable brand or cohort outcome - not a vanity metric one.</div>
+
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1-2 - Culture Map</div>
+      <div class="ttl">Cottage-cheese-as-protein cultural-moment audit</div>
+      <div class="body">Map the conversation currently driving the cottage-cheese wave: which subreddits, which TikTok creators, which Twitter loops, which Substack writers. Score each on velocity, reach, and brand-fit. Output a 2-page culture-map + a list of 25 creators and 10 communities Good Culture should be participating in this quarter.</div>
+      <div class="why"><strong>Why first.</strong> The wave is breaking now. The DMM has to know where it lives by the end of week 2 to make any other call. Same audit shape as the SwipeHire community work.</div>
+    </div>
+
+    <div class="card">
+      <div class="label">Week 2-4 - Creator Pilot</div>
+      <div class="ttl">10-creator UGC pilot anchored to a single SKU</div>
+      <div class="body">Pick the SKU with the strongest current cultural pull. Brief 10 creators (mix of micro + nano on TikTok + Reels) with a single editorial angle and creative latitude. Day-one instrumentation: UTM + GA4 + post-purchase survey. Sample-size and significance gates set up front. Output a clean read on which creator archetype actually drives the cohort.</div>
+      <div class="why"><strong>Why first.</strong> Earns the influencer + UGC budget by proving it inside 30 days, not in a quarterly plan. Same operator discipline as the Pixis weekly creative-test cadence.</div>
+    </div>
+
+    <div class="card">
+      <div class="label">Week 3-4 - Editorial Calendar</div>
+      <div class="ttl">Quarterly content + influencer plan + brand-voice doc</div>
+      <div class="body">Build the Q3 quarterly content plan + influencer + UGC calendar + a one-page brand-voice doc that the Marketing Associate, the agency partners, and the creators all work from. Process-led big-thinking. Tied to weekly performance reporting + monthly business review cadence.</div>
+      <div class="why"><strong>Why first.</strong> Same shape as the Plug Power UTM spec + GTM container governance and the Sensata cross-region brand-voice rollout. Process + creative big-thinking is not either/or.</div>
+    </div>
+  </div>
+
+  <div class="brand">Good Culture | Adhithya Rokhith Bhaskar</div>
+  <div class="num">05 / 06</div>
+</div>
+
+<!-- SLIDE 6 - CLOSE -->
+<div class="slide close">
+  <div class="eyebrow">Slide 06 | The Ask</div>
+  <h2>What I'd want from <span class="accent">the first fifteen minutes.</span></h2>
+  <div class="body">
+    <p><strong>What I'd want to understand:</strong> which SKU is currently carrying the cultural moment hardest; what the agency + creator partner mix looks like today; and where the team is most blocked on creative velocity right now.</p>
+    <p><strong>What I'd bring:</strong> a draft cottage-cheese-as-protein culture map (subreddits, TikTok creators, Twitter loops, Substack writers), a 10-creator UGC pilot brief scoped to a single SKU, and a one-page brand-voice doc wireframe.</p>
+    <p>Remote works perfectly. Flexible on Austin visits.</p>
+  </div>
+  <div class="cta">
+    <div class="btn">15 min with the team</div>
+    <div class="alt">or written async if that's easier</div>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong><br>
+    arokhith@gmail.com | (929) 563-9974 | Boston, MA<br>
+    Portfolio: adhi-growth-ai.vercel.app/ref/good-culture-dmm<br>
+    LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">Good Culture | Adhithya Rokhith Bhaskar</div>
+  <div class="num">06 / 06</div>
+</div>
+
+</body>
+</html>

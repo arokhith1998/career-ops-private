@@ -1,0 +1,94 @@
+ROLE: Juicebox (PeopleGPT, YC S22) — Content Marketing Manager
+================================================================
+Tracker entry: #62
+URL: https://www.workatastartup.com/jobs/93074
+YC: https://www.ycombinator.com/companies/juicebox/jobs/9hT83CY-content-marketing-manager
+Ashby: https://jobs.ashbyhq.com/juicebox/8d563136-68c5-413b-8e2a-dbcf30c5b1b7
+
+COMPANY:
+- AI-powered talent-sourcing search engine for recruiters (PeopleGPT)
+- 800M+ candidate profiles searchable via natural language
+- YC S22 | Founded by David Paffenholz (CEO, started at 22) and Ishan Gupta (started at 19)
+- $116M total raised: $30M Series A led by Sequoia, plus Coatue, DST Global, NFDG, Lux, BOND, YC
+- 3,000+ customers including major AI Labs and Fortune 500
+- 20%+ monthly growth, on path to $100M ARR
+- One of the fastest-growing AI SaaS companies globally
+- Word-of-mouth-driven; no formal sales team historically
+
+LOCATION: San Francisco
+SALARY: $150K-$220K base + equity
+SPONSORSHIP: **EXPLICIT "Will sponsor" per JD** — rare and very clean for STEM OPT
+YEARS: 2+ years B2B content marketing (4+ preferred — user is at 4+)
+
+
+HIRING MANAGER (verify on LinkedIn before sending):
+PRIMARY: David Paffenholz — Co-Founder & CEO, Juicebox
+LinkedIn: search "David Paffenholz Juicebox"
+Email: david@juicebox.ai (verify; juicebox.ai email format)
+
+At $116M raised + 3,000 customers, Juicebox likely has a Head of Marketing now. Verify on LinkedIn:
+- "Juicebox" + "Head of Marketing" or "VP Marketing"
+- "Juicebox" + "Director Content"
+- "Juicebox" + "Marketing Lead"
+
+SECONDARY (founder): Ishan Gupta — Co-Founder, Juicebox
+LinkedIn: search "Ishan Gupta Juicebox"
+
+RECRUITER:
+TBD via Ashby application portal. Search LinkedIn for "Juicebox Recruiter" or "Juicebox Talent" once application is in.
+
+ATTACHMENT FOR ALL EMAILS:
+- output/Adhithya_Rokhith_Juicebox_ContentMktgMgr.pdf (CV)
+- output/KKR_AI_Search_Audit_Adhithya.pdf (real GEO audit teardown — strong portfolio sample for content/SEO role)
+
+
+----- HM LINKEDIN NOTE (David Paffenholz, or Marketing Lead) -----
+Hi {First}, applied for the Content Marketing Manager role. Rare combo: Sensata 30+ customer interviews → sales enablement library (50+ reps, +30% win rate) + Plug Power AEO/GEO content cluster (FAQ pages structured for ChatGPT/Claude/Perplexity citation) + SwipeHire (AI job-matching product I shipped on OpenAI API). Worth 15 min?
+
+
+----- HM EMAIL (David Paffenholz, or Marketing Lead) -----
+Subject: Content Marketing Manager — operator-grade specificity for a recruiter buyer
+
+Hi {First},
+
+Applied for the Content Marketing Manager role.
+
+The recruiter buyer is one of the hardest B2B audiences to write for. They have read every "AI is changing recruiting" piece, been pitched ten ZoomInfo alternatives this quarter, and smell sales fluff in the first paragraph. The content that wins them is not category-evangelism. It is operator-grade specificity: which Boolean string they can replace with which natural-language prompt, which workflow saves which hour per requisition, which Fortune 500 already bet on the new tool.
+
+I have written for technical-buyer audiences for four years. At Sensata I run the customer-story pipeline. 30+ structured interviews with OEMs and distributors fed a positioning rewrite that lifted conversion 15%. I shipped the sales enablement that came out of it (decks, case studies, battlecards, FAQs) to 50+ reps. Win rate up 30%.
+
+On SEO, AEO, and GEO, I owned the program at Plug Power. On-page + technical SEO, schema rebuilds, content-cluster mapping, FAQ pages structured for ChatGPT, Claude, and Perplexity citation. Profound I have not used directly; the audit method is one I have built manually. Attaching a 2-page KKR AI-Search audit teardown as a portfolio sample.
+
+The Juicebox-specific differentiator: I shipped SwipeHire as a solo AI job-matching product on Python, OpenAI API, and React. 50+ users, +25% activation. Recruiting-adjacent vertical, AI-stack alignment, content craft. The combination is unusual on a single CV.
+
+I lived in r/cscareerquestions and r/h1b for a year running SwipeHire's community. The candidate-side voice landed with me by accident; useful at Juicebox because recruiter-side and candidate-side narratives share more than the deck makes it look.
+
+CV + KKR audit teardown attached. Portfolio: https://adhi-growth-ai.vercel.app/ref/juicebox
+
+15 minutes next week?
+
+Adhithya | Boston, MA | (929) 563-9974
+
+
+----- RECRUITER LINKEDIN NOTE -----
+Hi {Recruiter}, applied for Content Marketing Manager at Juicebox. 4+ yrs B2B content + Sensata 30+ customer interviews + sales enablement library + Plug Power AEO/GEO program + shipped SwipeHire (AI job-matching, Python + OpenAI API). 4 Claude certs. SF works. Available for a screen.
+
+
+----- RECRUITER EMAIL -----
+Subject: Application — Content Marketing Manager (Juicebox)
+
+Hi {Recruiter},
+
+Submitted for the Content Marketing Manager role earlier today.
+
+Quick fit summary on substance: Sensata customer-story pipeline (30+ OEM and distributor interviews → positioning rewrite + sales enablement library for 50+ reps + +30% win rate). Plug Power AEO/GEO program (on-page + technical SEO + content-cluster + FAQ pages structured for ChatGPT/Claude/Perplexity citation). Shipped SwipeHire solo as an AI job-matching platform on Python + OpenAI API + React (recruiting-adjacent vertical, +25% activation, 50+ users).
+
+4+ years B2B content + 4 Anthropic Claude certifications. SF works. Boston-based today.
+
+Resume + a 2-page KKR AI-Search audit teardown attached as portfolio sample.
+
+Portfolio: https://adhi-growth-ai.vercel.app/ref/juicebox
+
+Available for a screen this week.
+
+Adhithya | (929) 563-9974

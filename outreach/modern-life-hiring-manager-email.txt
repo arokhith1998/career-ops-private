@@ -1,0 +1,26 @@
+TO: Hiring Manager / Head of Marketing @ Modern Life (name unknown; Series A team, ~50 employees)
+PLATFORM: Email (generic fallback if CEO outreach not preferred)
+ROLE: Marketing Manager, Modern Life, NYC Hybrid
+---
+
+Subject: Marketing Manager application, generalist with AI fluency built for Series A
+
+Hi there,
+
+Just applied for the Marketing Manager role via Lever. Fast version of the fit:
+
+- Plug Power: built the full MarTech stack from scratch (Salesforce, Adobe Analytics, Adobe Audience Manager, GA, GTM); paid media across Google, Meta, LinkedIn; -25% CPA, +20% conversion
+- Pixis: ran growth on an AI adtech SaaS ($1.4M across 8 enterprise clients, 3x ROAS in 30 days, -50% churn); translation layer between ML product and customer GTM
+- Sensata: 100+ feature Agile backlog across 3 regions; $2M+ first-year launches; enablement assets for 50+ reps (+30% win rates); 30+ customer interviews
+- SwipeHire: built AI product on OpenAI API + React (50+ users, 8+ A/B tests, +25% activation); Claude draft-and-critique pattern for content variants
+- 4 Anthropic Claude certifications (101, Code 101, Cowork, Building with the Claude API); HubSpot certified; MS Marketing Analytics (Simon, Rochester)
+
+Generalist + AI-native + proven at Series A adjacent scale. Boston-based, committed to relocating to NY.
+
+One question: does Modern Life sponsor H-1B for growth / marketing roles? I am on STEM OPT and will require sponsorship in the future.
+
+Resume, cover letter, and portfolio: https://adhithyabhaskar.vercel.app/ref/modern-life
+
+Thanks,
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com | (929) 563-9974

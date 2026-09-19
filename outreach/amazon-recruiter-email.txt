@@ -1,0 +1,28 @@
+TO: [Recruiter Name] -- Amazon Recruiting (WWGS)
+PLATFORM: Email
+ROLE: Manager, Marketing Analytics (Job ID 10389899) -- Whole Foods + Amazon Fresh
+---
+
+Subject: Application for Job ID 10389899 -- Manager, Marketing Analytics (WWGS)
+
+Hi [Recruiter Name],
+
+I applied for the Manager, Marketing Analytics role on the Worldwide Grocery Stores team (Job ID 10389899) and wanted to flag my application in case it helps surface it.
+
+Quick fit snapshot:
+- Led an 8-person team and a $1.4M budget at Pixis; built weekly exec dashboards on ROAS, iROAS, and channel incrementality.
+- Built SQL + GA4 measurement framework on 50K+ connected devices at Sensata; lifted feature adoption 18% and presented findings to senior leadership.
+- MS in Marketing Analytics from Simon Business School (U. of Rochester, Dec 2024). Daily SQL and Python; hands-on with Power BI, Tableau, and QuickSight-adjacent BI work.
+- Measurement-framework-first mindset: at Plug Power I built closed-loop attribution from ad click to SQL pipeline, driving -25% CPA.
+
+Logistics:
+- Based in Boston, MA -- fully open to relocating for NY, Austin, or Seattle.
+- Available for interviews this week.
+
+Resume and portfolio: https://adhithyabhaskar.vercel.app/ref/amazon
+
+Happy to answer any upfront questions on my background or the loop process. Thanks for taking a look.
+
+Best,
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com | (929) 563-9974

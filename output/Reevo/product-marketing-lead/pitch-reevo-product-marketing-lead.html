@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Reevo Product Marketing Lead Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  @page { size: 11in 8.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; }
+  .slide { width: 11in; height: 8.5in; padding: 0.55in 0.75in 0.5in 0.75in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.35in; right: 0.55in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.35in; left: 0.75in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #1e40af; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 10pt; }
+  h1 { font-size: 36pt; font-weight: 800; color: #0f172a; line-height: 1.04; letter-spacing: -0.6pt; margin-bottom: 8pt; }
+  h2 { font-size: 23pt; font-weight: 800; color: #0f172a; line-height: 1.08; letter-spacing: -0.4pt; margin-bottom: 12pt; }
+  h2 .accent { color: #1e40af; }
+  .lede { font-size: 12.5pt; color: #475569; max-width: 8.6in; margin-bottom: 12pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 1in; padding-right: 1in; background: linear-gradient(135deg, #f8fafc 0%, #dbeafe 100%); }
+  .cover h1 { font-size: 40pt; max-width: 9.2in; }
+  .cover .sub { font-size: 16pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 24pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 9.5in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.5pt; font-weight: 500; }
+  .tag strong { color: #1e40af; font-weight: 700; }
+  .cover .who { margin-top: 26pt; padding-top: 13pt; border-top: 1.5pt solid #1e40af; max-width: 7.4in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.5pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.6in; right: 0.85in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 4pt; }
+  .col { padding: 13pt 0 0 0; border-top: 2.5pt solid #1e40af; }
+  .col h3 { font-size: 12.5pt; font-weight: 800; color: #0f172a; margin-bottom: 11pt; letter-spacing: -0.2pt; }
+  .quote { background: #eff6ff; border-left: 3pt solid #1e40af; padding: 7pt 11pt; margin-bottom: 9pt; }
+  .quote .q { font-size: 10pt; color: #1e3a8a; font-style: italic; line-height: 1.42; font-weight: 600; }
+  .proof { padding: 5pt 0 9pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.8pt; color: #334155; line-height: 1.48; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 18pt; margin-top: 18pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1e40af; padding: 15pt 14pt 13pt 14pt; }
+  .stat .n { font-size: 27pt; font-weight: 800; color: #1e40af; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 10pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 9pt; color: #64748b; line-height: 1.45; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 8pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1e40af; padding: 14pt 14pt 12pt 14pt; }
+  .card .label { font-size: 8.5pt; color: #1e40af; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 12.5pt; font-weight: 800; color: #0f172a; line-height: 1.18; margin-bottom: 8pt; }
+  .card .body { font-size: 9.3pt; color: #334155; line-height: 1.48; margin-bottom: 8pt; }
+  .card .why { font-size: 8.8pt; color: #64748b; line-height: 1.48; padding-top: 8pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #1e40af; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 26pt; margin-top: 10pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #1e40af; padding: 16pt 18pt 14pt 18pt; }
+  .panel h4 { font-size: 11.5pt; font-weight: 800; color: #0f172a; margin-bottom: 9pt; }
+  .panel .line { font-size: 9.8pt; color: #334155; line-height: 1.5; margin-bottom: 8pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 20pt; background: #eff6ff; border-left: 4pt solid #1e40af; padding: 13pt 18pt; }
+  .bridge .t { font-size: 11.5pt; color: #1e3a8a; line-height: 1.5; font-weight: 600; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 1in; padding-right: 1in; background: linear-gradient(135deg, #f8fafc 0%, #dbeafe 100%); }
+  .close h2 { font-size: 28pt; max-width: 8.6in; margin-bottom: 15pt; }
+  .close .body { font-size: 11pt; color: #334155; line-height: 1.58; max-width: 8.6in; }
+  .close .body p { margin-bottom: 9pt; }
+  .close .body strong { color: #1e40af; font-weight: 700; }
+  .close .contact { margin-top: 22pt; font-size: 10pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Reevo Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Builder - Product Marketing Lead | Reevo</div>
+  <h1>I started building the same argument Reevo is built on. In May, by accident.</h1>
+  <div class="sub">Positioning, GTM, and sales enablement from someone who ships inside the revenue stack, not just about it.</div>
+  <div class="tags">
+    <div class="tag"><strong>PriceKeel</strong> - founder of a decision-integrity layer for B2B SaaS deal pricing</div>
+    <div class="tag"><strong>Sensata</strong> - 50-rep enablement system, +30% win rate</div>
+    <div class="tag"><strong>$2M+</strong> first-year revenue on cross-border GTM, +35% qualified leads</div>
+    <div class="tag"><strong>Pixis</strong> - drove AI-platform adoption inside 8 enterprise revenue teams</div>
+    <div class="tag"><strong>Plug Power</strong> - web and MarTech rebuilt from zero (-25% CPA, +20% conversion)</div>
+    <div class="tag"><strong>4</strong> Anthropic Claude certifications, Claude and Cursor daily</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">Boston, MA | Relocating for 5 days on-site in SF or Santa Clara | arokhith@gmail.com | (929) 563-9974 | adhi-product-ai.vercel.app/ref/reevo</div>
+  </div>
+  <div class="brand">REEVO PMM LEAD</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>Two products, <span class="accent">one thesis</span>: the revenue stack should remember what actually closed.</h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What Reevo is building</h4>
+      <div class="line">An <b>AI-native revenue operating system</b> that replaces the static CRM. It generates its own clean first-party activity data instead of waiting for reps to log it.</div>
+      <div class="line">It <b>guides reps to the next best action</b> rather than storing a record after the fact.</div>
+      <div class="line">It unifies marketing, sales, and CS on one surface so the handoffs stop losing context.</div>
+    </div>
+    <div class="panel">
+      <h4>What I started building in May</h4>
+      <div class="line"><b>PriceKeel</b>, a decision-integrity layer for B2B SaaS deal pricing. It reads a live discount exception inside the deal platform.</div>
+      <div class="line">It <b>recommends an explainable guardrail</b> learned from that company's own closed-won and closed-lost history.</div>
+      <div class="line">It records the human decision with <b>evidence Finance can audit</b>. A margin layer is the next build.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">The overlap is not the feature set. It is the conviction that a revenue system earns trust by learning from real outcomes and showing its work at the moment a human has to decide. That is also the hardest thing to write copy about, and it is what this role owns.</div>
+  </div>
+  <div class="brand">REEVO PMM LEAD</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The JD, mapped</div>
+  <h2>What Reevo is asking for, and where the proof sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>JD Themes</h3>
+      <div class="quote"><div class="q">"Define clear, differentiated positioning that turns complex AI-driven features into sharp customer value."</div></div>
+      <div class="quote"><div class="q">"Lead GTM planning from ideation through adoption. Create market moments, drive pipeline."</div></div>
+      <div class="quote"><div class="q">"Equip Sales with pitches, demo narratives, and competitive battlecards. Increase win rates and deal velocity."</div></div>
+      <div class="quote"><div class="q">"Own product storytelling across the website and key growth surfaces. Optimize for conversion and clarity."</div></div>
+      <div class="quote"><div class="q">"Diagnose and optimize a revenue funnel. Build repeatable playbooks. Leverage AI tools to amplify impact."</div></div>
+    </div>
+    <div class="col">
+      <h3>My Proof</h3>
+      <div class="proof"><div class="p"><b>Sensata positioning ownership</b> on industrial sensor lines: dense technical specs turned into value propositions that lifted conversion <b>15%</b>. Complex-to-clear is the whole job there.</div></div>
+      <div class="proof"><div class="p"><b>End-to-end GTM across NA and EU</b>: narrative, launch content, and enablement sequenced into <b>$2M+ first-year revenue, +35% qualified leads, 12% YoY</b> growth.</div></div>
+      <div class="proof"><div class="p"><b>Enablement system for 50+ reps</b> - pitch decks, demo narratives, battlecards, ROI narratives, objection handling - tied to a <b>+30% win-rate lift</b>, backed by teardowns on <b>10+ competitors</b> (+8% share).</div></div>
+      <div class="proof"><div class="p"><b>Plug Power web and MarTech rebuilt from zero</b> on Salesforce, Adobe, GA4, GTM: UTM spec, landing-page architecture, CTA testing. <b>-25% CPA, +20% conversion</b>.</div></div>
+      <div class="proof"><div class="p"><b>Funnel diagnosis is the day job at PriceKeel</b>, plus <b>4 Claude certifications</b> and production work on the Claude and OpenAI APIs.</div></div>
+    </div>
+  </div>
+  <div class="brand">REEVO PMM LEAD</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">PMM engine proof</div>
+  <h2>Sensata: the <span class="accent">customer insight to enablement to win rate</span> loop, run for two years.</h2>
+  <div class="lede">The JD calls this "ideation through adoption." At Sensata nothing shipped unless a rep could carry the story into the room and win with it.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">30+</div>
+      <div class="lbl">Customer Interviews</div>
+      <div class="desc">Structured voice-of-customer with OEMs and distributors, paired with SQL and GA4 usage data across 50,000+ devices. Fed a 100+ feature backlog with engineering: feature adoption up 18%, time-to-market down 20%.</div>
+    </div>
+    <div class="stat">
+      <div class="n">50+</div>
+      <div class="lbl">Reps Enabled</div>
+      <div class="desc">A system, not a folder of one-offs: pitch decks, demo narratives, battlecards, ROI narratives, objection handling, competitive teardowns on 10+ players. Built to survive headcount doubling.</div>
+    </div>
+    <div class="stat">
+      <div class="n">+30%</div>
+      <div class="lbl">Win Rate Lift</div>
+      <div class="desc">The measurable end of the loop. Pricing and feature gaps surfaced in the teardowns fed the battlecards, which fed +8% market share on the contested lines.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 24pt;">Before that, at Pixis, I drove adoption of an AI decisioning platform inside <b>8 enterprise revenue teams</b> and cut book churn <b>50%</b>. That is where I learned the objection this role has to answer in writing: reps do not reject AI recommendations because they are wrong, they reject them because nobody showed the work.</div>
+  <div class="brand">REEVO PMM LEAD</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Sit in the deals</div>
+      <div class="body">Live calls with AEs. Read every closed-won and closed-lost note from the last 90 days. Audit what exists today against what the JD names: pitch, demo narrative, battlecards, website product story. Write down the exact words customers use for the problem, not the words we use.</div>
+      <div class="why"><strong>Why first:</strong> A company that raised $80M and is scaling fast has narrative drift between the website, the deck, and what reps actually say. Find the gap before writing a word.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Sharpen the wedge</div>
+      <div class="body">Run 6 structured customer interviews across the core ICP. Turn them into two competing positioning hypotheses for the AI-native-versus-static-CRM wedge, then pressure-test both against Sales and Product. Ship one rewrite of the highest-traffic product page with conversion instrumented.</div>
+      <div class="why"><strong>Why now:</strong> This is the same loop that produced +30% win rates at Sensata. Interviews into positioning into a measurable surface, not a deck that sits in Notion.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Ship the system</div>
+      <div class="body">Deliver a battlecard against the top-named competitor, one demo narrative rebuilt around the next-best-action moment, and a launch playbook template that holds up when the team doubles. Report what moved and what did not to leadership.</div>
+      <div class="why"><strong>Why this fast:</strong> The JD asks for repeatable systems and AI-assisted throughput. Best way to prove both is to have shipped a reusable one inside a month.</div>
+    </div>
+  </div>
+  <div class="brand">REEVO PMM LEAD</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring a builder to market a builder's product. That is the whole pitch.</h2>
+  <div class="body">
+    <p>The core PMM work is proven: positioning ownership that lifted conversion <strong>15%</strong>, a 50-rep enablement system behind a <strong>+30% win-rate lift</strong>, end-to-end GTM worth <strong>$2M+ in first-year revenue</strong>, and a web and MarTech stack rebuilt from zero for <strong>-25% CPA and +20% conversion</strong>.</p>
+    <p>What is harder to hire for is someone who has spent the last four months building a product that sits in the same seam Reevo does, arguing with the same objections, writing the same explainability story for their own buyers. <strong>I am doing that at PriceKeel right now</strong>, which means the category is not something I would need a quarter to internalize.</p>
+    <p>Five days a week in San Francisco or Santa Clara works, and I am ready to relocate from Boston for it.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | Boston, MA | arokhith@gmail.com | (929) 563-9974<br>
+    Resume and portfolio: <strong>adhi-product-ai.vercel.app/ref/reevo</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">REEVO PMM LEAD</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>

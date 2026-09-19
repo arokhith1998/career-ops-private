@@ -1,0 +1,34 @@
+TO: [Hiring Manager Name] - Director / Sr Manager, CX Marketing Customer Advocacy (Cisco)
+PLATFORM: Email
+ROLE: Marketing Manager (Req 2011056-1) - RTP, NC
+---
+
+Subject: 2011056-1 - Customer advocacy is a translation problem before it's a storytelling problem
+
+Hi [Name],
+
+I applied for the Marketing Manager role and wanted to share the POV that pulled me into the JD.
+
+Customer advocacy is really a translation problem, not a storytelling problem. The hard part isn't writing the case study. It's getting an enterprise buyer who has signed an NDA, has internal politics around what they can publicly say, and has a technical story their own team has never quite captured, to give you a narrative that is true to their experience, publishable on a Cisco stage, and specific enough to convince a peer prospect. Most advocacy programs fail at that translation layer. Good ones build for it from day one.
+
+I have done this work for B2B technical buyers and have measured outcomes from it.
+
+At Sensata I ran 30+ interviews with OEMs and distributors across NA and EU. Industrial sensors, engineering and procurement buyers, the kind who default to skepticism toward marketing. I figured out which 12 accounts had a story worth telling. I co-built case studies, decks, and battlecards with those champions, in their language, signed off by their compliance teams. 50+ reps used the assets. Partner win rates went up 30%. The work was less about writing and more about earning the right to publish.
+
+Three things from your JD that line up directly:
+
+1. Translating technical milestones into business narratives. At Sensata I built a SQL + GA4 framework on 50K connected devices. Engineering shipped features. Nobody could tell business why those features mattered. I built the cohort analysis and turned it into "what changed for customers" stories that landed in launch decks and exec presentations. Feature adoption went up 18%.
+
+2. AI-augmented content production. Most teams reach for AI to write more. The unlock is using AI to triage faster, surfacing which 5 of 100 customer interviews actually contain a publishable story before you spend a week drafting any of them. I built SwipeHire this year using the OpenAI API end-to-end, so I know what AI tools can and cannot do for editorial workflow.
+
+3. Multi-region program management. 100+ feature backlog in Agile across product, engineering, and 3 regional teams at Sensata for 18 months. User stories, acceptance criteria, dependency maps, release coordination. The Awards program territory (nominations, evaluation, logistics) is recognizable.
+
+Honest gap: I have not run an enterprise customer Awards program at Cisco's scale. The closest analog is Sensata partner enablement at 50+ reps. I would ramp on the program-specific mechanics fast, but want to be straight that this part is new.
+
+Boston-based, open to RTP relocation. Resume + cover letter + portfolio: https://adhithyabhaskar.vercel.app/ref/cisco
+
+Would welcome 15 to 20 minutes to hear what the team's biggest "story we couldn't get the customer to tell" looks like right now.
+
+Best,
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com | (929) 563-9974

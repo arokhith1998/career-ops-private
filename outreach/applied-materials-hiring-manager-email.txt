@@ -1,0 +1,28 @@
+TO: [Hiring Manager Name], Director / Sr Manager, Marketing & Business Development (Applied Materials)
+PLATFORM: Email
+ROLE: Market Analyst III (Job ID R2616820), Santa Clara CA
+---
+
+Subject: R2616820, semicon equipment market analysis is concentration analysis
+
+Hi [Name],
+
+Most market analysis assumes hundreds of buyers and a fragmented competitive set. Semicon equipment is the opposite. Five customers drive most of the demand, four to five competitors define the frame, and the work is modeling specific account capex cycles and stress-testing against named competitor moves. Different muscle than population-level demand work.
+
+Just applied for the Market Analyst III role on your team. Quick proof I have done concentrated B2B analysis already:
+
+- Sensata Pricing Lead: 3-scenario pricing models with sensitivity analysis for AP26 planning, presented to senior executives, contributed to +12% YoY revenue and +8% market share
+- Bleeders & Leakers: 4-page Power BI dashboard analyzing 1,200 pricing opportunities ($627M) across 3 regions and 20 product lines, exposed $433M in margin gaps
+- Sensata + Plug Power: deep competitive benchmarking on small named competitor sets (10+ industrial-sensor players; Cummins, Ballard, Bloom Energy in hydrogen)
+- Safran TAM/SAM consulting: 170 facilities, ending with SAM of 28, 4-vertical personas, presented to Safran leadership
+- MS Marketing Analytics (Simon); BE Mechanical Engineering (BITS Pilani); daily SQL, Python, Power BI, Tableau
+
+Honest gap: no semicon equipment exposure. First 30 days would be deep on Applied Materials' product portfolio and fab customer base before I propose anything.
+
+Would love 15 to 20 minutes to hear what the team's hardest "we got the forecast wrong" problem looks like right now. If the role sits with someone else, a one-line pointer is amazing too.
+
+Resume + cover letter + portfolio: https://adhithyabhaskar.vercel.app/ref/applied-materials
+
+Best,
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com | (929) 563-9974

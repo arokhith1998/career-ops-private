@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Newform Growth Marketing Manager Pitch Deck Adhithya</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  @page { size: 11in 8.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #18181b; background: #fafafa; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; }
+  .slide { width: 11in; height: 8.5in; padding: 0.55in 0.75in 0.5in 0.75in; page-break-after: always; position: relative; overflow: hidden; background: #fafafa; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.35in; right: 0.55in; font-size: 8.5pt; color: #a1a1aa; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.35in; left: 0.75in; font-size: 8.5pt; color: #a1a1aa; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #4338ca; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 10pt; }
+  h1 { font-size: 36pt; font-weight: 800; color: #0c0a09; line-height: 1.04; letter-spacing: -0.6pt; margin-bottom: 8pt; }
+  h2 { font-size: 24pt; font-weight: 800; color: #0c0a09; line-height: 1.08; letter-spacing: -0.4pt; margin-bottom: 6pt; }
+  h2 .accent { color: #4338ca; }
+  .lede { font-size: 13pt; color: #52525b; max-width: 8.5in; margin-bottom: 14pt; font-weight: 400; }
+
+  /* Cover */
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 1in; padding-right: 1in; }
+  .cover h1 { font-size: 42pt; max-width: 9.2in; }
+  .cover .sub { font-size: 17pt; color: #52525b; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 26pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 9.5in; }
+  .tag { background: #fff; border: 1pt solid #d4d4d8; color: #3f3f46; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.5pt; font-weight: 500; }
+  .tag strong { color: #4338ca; font-weight: 700; }
+  .cover .who { margin-top: 32pt; padding-top: 14pt; border-top: 1.5pt solid #4338ca; max-width: 7in; }
+  .cover .who .nm { font-size: 11pt; color: #0c0a09; font-weight: 700; }
+  .cover .who .ct { font-size: 9.5pt; color: #52525b; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.6in; right: 0.85in; font-size: 9pt; color: #a1a1aa; font-style: italic; }
+
+  /* Convergence table */
+  .conv-table { width: 100%; margin-top: 6pt; border-collapse: collapse; }
+  .conv-table th { text-align: left; font-size: 11pt; font-weight: 800; color: #0c0a09; padding: 10pt 12pt 10pt 0; border-bottom: 2pt solid #4338ca; }
+  .conv-table th.row-label { color: #71717a; font-weight: 700; font-size: 9pt; letter-spacing: 1pt; text-transform: uppercase; width: 1.5in; }
+  .conv-table td { padding: 12pt 12pt 12pt 0; font-size: 10pt; color: #3f3f46; border-bottom: 1pt solid #e4e4e7; vertical-align: top; line-height: 1.45; }
+  .conv-table td.row-label { color: #71717a; font-weight: 700; font-size: 9pt; letter-spacing: 0.6pt; text-transform: uppercase; }
+  .conv-table td b { color: #0c0a09; font-weight: 700; }
+  .conv-takeaway { margin-top: 16pt; font-size: 11.5pt; color: #18181b; font-style: italic; border-left: 3pt solid #4338ca; padding: 8pt 14pt; background: #eef2ff; }
+  .conv-takeaway strong { color: #4338ca; font-style: normal; font-weight: 700; }
+
+  /* Pixis slide */
+  .pixis-grid { display: grid; grid-template-columns: 1fr 2.4in; gap: 18pt; margin-top: 4pt; }
+  .pixis-svg { width: 100%; height: 4.2in; }
+  .margin-note { font-size: 9.5pt; color: #52525b; line-height: 1.55; font-style: italic; border-top: 1pt solid #d4d4d8; padding-top: 10pt; margin-top: 10pt; }
+  .margin-note .hdr { font-style: normal; font-weight: 700; color: #4338ca; font-size: 9pt; letter-spacing: 1pt; text-transform: uppercase; margin-bottom: 6pt; }
+  .margin-note p { margin-bottom: 8pt; }
+  .kpi-row { display: flex; gap: 14pt; margin-top: 12pt; }
+  .kpi-row .k { background: #fff; border: 1pt solid #d4d4d8; padding: 8pt 12pt; border-radius: 3pt; min-width: 1.3in; }
+  .kpi-row .k .v { font-size: 17pt; color: #4338ca; font-weight: 800; line-height: 1; }
+  .kpi-row .k .l { font-size: 8.5pt; color: #71717a; margin-top: 4pt; font-weight: 600; }
+
+  /* SwipeHire / WillBot analog slide */
+  .sh-grid { display: grid; grid-template-columns: 2.4in 1fr; gap: 22pt; margin-top: 0pt; align-items: start; }
+  .phone-wrap { display: flex; justify-content: center; align-items: flex-start; padding-top: 4pt; }
+  .phone-svg { width: 2.2in; height: 4.5in; }
+  .sh-right h3 { font-size: 11pt; color: #0c0a09; font-weight: 800; margin-bottom: 8pt; letter-spacing: -0.2pt; }
+  .sh-right .step { display: grid; grid-template-columns: 0.2in 1fr; gap: 6pt; margin-bottom: 7pt; align-items: start; }
+  .sh-right .n { font-size: 10pt; color: #4338ca; font-weight: 800; line-height: 1.5; }
+  .sh-right .t { font-size: 9.5pt; color: #3f3f46; line-height: 1.45; }
+  .sh-right .t b { color: #0c0a09; font-weight: 700; }
+  .sh-note { margin-top: 14pt; font-size: 9.5pt; color: #52525b; font-style: italic; border-top: 1pt solid #d4d4d8; padding-top: 10pt; max-width: 10in; }
+  .sh-note strong { color: #4338ca; font-weight: 700; font-style: normal; }
+
+  /* Week one */
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 8pt; }
+  .card { background: #fff; border: 1pt solid #d4d4d8; border-left: 4pt solid #4338ca; padding: 14pt 14pt 12pt 14pt; }
+  .card .label { font-size: 8.5pt; color: #4338ca; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 13pt; font-weight: 800; color: #0c0a09; line-height: 1.18; margin-bottom: 8pt; }
+  .card .body { font-size: 9.5pt; color: #3f3f46; line-height: 1.5; margin-bottom: 8pt; }
+  .card .why { font-size: 9pt; color: #71717a; line-height: 1.5; padding-top: 8pt; border-top: 1pt dashed #d4d4d8; }
+  .card .why strong { color: #4338ca; font-weight: 700; }
+
+  /* Close */
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 1in; padding-right: 1in; }
+  .close h2 { font-size: 30pt; max-width: 8.5in; margin-bottom: 16pt; }
+  .close .body { font-size: 11.5pt; color: #3f3f46; line-height: 1.6; max-width: 8.5in; }
+  .close .body p { margin-bottom: 10pt; }
+  .close .body strong { color: #4338ca; font-weight: 700; }
+  .close .cta { margin-top: 22pt; display: inline-flex; gap: 14pt; align-items: center; }
+  .close .cta .btn { background: #0c0a09; color: #fff; padding: 11pt 22pt; border-radius: 3pt; font-weight: 700; font-size: 11pt; letter-spacing: 0.3pt; }
+  .close .cta .alt { font-size: 10.5pt; color: #71717a; font-style: italic; }
+  .close .contact { margin-top: 24pt; font-size: 10pt; color: #52525b; line-height: 1.6; }
+  .close .contact strong { color: #0c0a09; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<!-- SLIDE 1 - COVER -->
+<div class="slide cover">
+  <div class="prep">Prepared for the Newform Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Growth Marketing Manager, Newform</div>
+  <h1>Agency book + AI-agent product. On one resume.</h1>
+  <div class="sub">Pixis at $1.4M was the closest analog to what you do. SwipeHire is the closest analog to what WillBot is.</div>
+  <div class="tags">
+    <div class="tag"><strong>$1.4M</strong> 8-client agency book at Pixis</div>
+    <div class="tag"><strong>iOS UA via Appsflyer + Adjust</strong> on the book</div>
+    <div class="tag"><strong>SwipeHire</strong> - AI product shipped solo, WillBot analog</div>
+    <div class="tag"><strong>3x ROAS</strong> beauty-brand attribution restructure</div>
+    <div class="tag"><strong>4</strong> Anthropic Claude Certifications</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">Boston, MA | NYC works | arokhith@gmail.com | (929) 563-9974 | adhi-growth-ai.vercel.app/ref/newform</div>
+  </div>
+  <div class="brand">Newform | Adhithya Rokhith Bhaskar</div>
+  <div class="num">01 / 06</div>
+</div>
+
+<!-- SLIDE 2 - THE CONVERGENCE -->
+<div class="slide">
+  <div class="eyebrow">Slide 02 | The Convergence</div>
+  <h2>Pixis was your shape, smaller. <span class="accent">SwipeHire is WillBot, smaller.</span></h2>
+  <div class="lede">Most application decks pitch capability. This one names the two products on my CV that map structurally to what Newform sells: an agency book at multi-client scale, and an AI-agent product on top.</div>
+
+  <table class="conv-table">
+    <thead>
+      <tr>
+        <th class="row-label">Dimension</th>
+        <th style="width: 4.5in;">Newform (yours)</th>
+        <th>Pixis + SwipeHire (mine)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="row-label">Agency shape</td>
+        <td>~$100M annual managed spend; tech/mobile/consumer brand book; in-house creative + media team.</td>
+        <td><b>Pixis 8-client B2B SaaS portfolio</b>; <b>$1.4M aggregate book</b>; per-client $15K-$90K monthly; 8-person team across creative + account + platform.</td>
+      </tr>
+      <tr>
+        <td class="row-label">Platforms owned</td>
+        <td>Meta, TikTok, Google primary. Mobile-app focused.</td>
+        <td>Meta + Google + LinkedIn + Criteo + Amazon + programmatic. <b>iOS app paid UA via Appsflyer + Adjust on the book.</b></td>
+      </tr>
+      <tr>
+        <td class="row-label">Client relationship</td>
+        <td>Lead client relationships and oversee media investments. Quarterly business reviews.</td>
+        <td><b>Weekly client CFO QBRs</b> translating analytics into procurement-ready outcomes. Replaced two channels mid-quarter when KPIs slipped.</td>
+      </tr>
+      <tr>
+        <td class="row-label">AI-agent product</td>
+        <td><b>WillBot</b> - AI performance marketing agent.</td>
+        <td><b>SwipeHire</b> - AI matching product on Python + OpenAI API + React, shipped solo. 50 users, 8 A/B tests, +25% activation. Deterministic input + LLM reasoning + measured user outcome - same shape as WillBot.</td>
+      </tr>
+      <tr>
+        <td class="row-label">Attribution muscle</td>
+        <td>Drive efficient growth across paid channels.</td>
+        <td><b>3x ROAS lift</b> on a beauty client at Pixis via holdout-incrementality restructure; <b>-25% CPA</b> at Plug Power via closed-loop attribution rebuilt on Salesforce + Adobe + GA4 + GTM from zero.</td>
+      </tr>
+      <tr>
+        <td class="row-label">AI fluency</td>
+        <td>Sell AI-agent productivity to brand clients.</td>
+        <td><b>4 Anthropic Claude certifications</b> + Cursor as daily workflow. Trained <b>8 enterprise marketers</b> on AI bidding tools at Pixis. Two production AI products shipped solo.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="conv-takeaway"><strong>Two convergences on one CV.</strong> The agency-side multi-client book is the work I've actually done; the AI-agent product is the work I've actually shipped. Most candidates have one. The combination is what makes this the right next seat.</div>
+
+  <div class="brand">Newform | Adhithya Rokhith Bhaskar</div>
+  <div class="num">02 / 06</div>
+</div>
+
+<!-- SLIDE 3 - PIXIS AGENCY DEEP DIVE -->
+<div class="slide">
+  <div class="eyebrow">Slide 03 | Pixis - The Agency Analog</div>
+  <h2>$1.4M aggregate book. <span class="accent">8 clients. iOS UA on the book.</span></h2>
+  <div class="lede">Pixis is the closest agency-shape on any candidate's CV you'll see. Below: the per-client breakdown, the channel mix, and the iOS UA layer that maps directly to Newform's mobile brand book.</div>
+
+  <div class="pixis-grid">
+    <svg viewBox="0 0 720 360" class="pixis-svg">
+      <text x="20" y="22" font-size="10" fill="#4338ca" font-weight="700" letter-spacing="1.5">8-CLIENT BOOK | $1.4M AGGREGATE</text>
+
+      <g font-size="8.5" fill="#0c0a09" font-weight="700">
+        <rect x="20" y="40" width="240" height="14" fill="#4338ca"/>
+        <text x="266" y="51">Client A $90K  FinTech B2B  Google + LinkedIn + Prog</text>
+        <rect x="20" y="60" width="192" height="14" fill="#6366f1"/>
+        <text x="218" y="71">Client B $72K  WealthTech  LinkedIn + Prog + Meta</text>
+        <rect x="20" y="80" width="174" height="14" fill="#6366f1"/>
+        <text x="200" y="91">Client D $65K  SaaS Productivity  Google + Prog</text>
+        <rect x="20" y="100" width="155" height="14" fill="#818cf8"/>
+        <text x="181" y="111">Client C $58K  InsureTech (iOS)  Meta + LinkedIn + Appsflyer</text>
+        <rect x="20" y="120" width="120" height="14" fill="#818cf8"/>
+        <text x="146" y="131">Client E $45K  Compliance SaaS  LinkedIn + Prog</text>
+        <rect x="20" y="140" width="85" height="14" fill="#a5b4fc"/>
+        <text x="111" y="151">Client F $32K  Vertical SaaS (iOS)  Google + Meta + Adjust</text>
+        <rect x="20" y="160" width="58" height="14" fill="#a5b4fc"/>
+        <text x="84" y="171">Client G $22K  SaaS B2B  LinkedIn + Prog</text>
+        <rect x="20" y="180" width="40" height="14" fill="#c7d2fe"/>
+        <text x="66" y="191">Client H $15K  E-Commerce (iOS)  Meta + Shopping + Appsflyer</text>
+      </g>
+
+      <text x="20" y="218" font-size="10" fill="#4338ca" font-weight="700" letter-spacing="1.5">iOS APP PAID UA LAYER</text>
+
+      <rect x="20" y="232" width="680" height="50" rx="4" fill="#eef2ff" stroke="#4338ca" stroke-width="1.5"/>
+      <text x="34" y="252" font-size="10.5" fill="#0c0a09" font-weight="800">Appsflyer + Adjust on three clients in the book</text>
+      <text x="34" y="268" font-size="9" fill="#3f3f46">SKAN configuration | Post-IDFA conversion-event windows | SKAdNetwork campaign structure | View-through deduplication</text>
+
+      <text x="20" y="302" font-size="10" fill="#4338ca" font-weight="700" letter-spacing="1.5">CADENCE</text>
+      <text x="20" y="320" font-size="9.5" fill="#3f3f46"><tspan font-weight="700" fill="#0c0a09">Weekly client CFO QBR</tspan>, one per client. Same week I'd present ROI, iROAS, the next-sprint plan,</text>
+      <text x="20" y="335" font-size="9.5" fill="#3f3f46">and the on-the-fly channel swap when blended numbers hid the truth (mid-quarter pivot on Client C and F).</text>
+      <text x="20" y="350" font-size="9" fill="#71717a" font-style="italic">Trained 8 enterprise marketers across the book on Pixis's AI bidding and creative tools as part of those QBRs.</text>
+    </svg>
+
+    <div class="margin-note">
+      <div class="hdr">Why this is the agency-side proof</div>
+      <p>Newform runs a book at $100M; I ran one at $1.4M. <strong>The shape is the same:</strong> multi-client portfolio, per-client P&amp;Ls, weekly QBR cadence, an 8-person team across creative + account + platform.</p>
+      <p>The <strong>iOS UA layer via Appsflyer and Adjust</strong> is the unusual one - most multi-channel growth marketers haven't actually configured SKAN windows or post-IDFA conversion events. I have.</p>
+    </div>
+  </div>
+
+  <div class="kpi-row">
+    <div class="k"><div class="v">$1.4M</div><div class="l">Aggregate book</div></div>
+    <div class="k"><div class="v">8</div><div class="l">Clients in parallel</div></div>
+    <div class="k"><div class="v">8-person</div><div class="l">Team across pods</div></div>
+    <div class="k"><div class="v">3x ROAS</div><div class="l">Beauty-client lift (1mo)</div></div>
+  </div>
+
+  <div class="brand">Newform | Adhithya Rokhith Bhaskar</div>
+  <div class="num">03 / 06</div>
+</div>
+
+<!-- SLIDE 4 - SWIPEHIRE AS WILLBOT ANALOG -->
+<div class="slide">
+  <div class="eyebrow">Slide 04 | SwipeHire - The WillBot Analog</div>
+  <h2>I built the AI-agent shape <span class="accent">solo, end-to-end.</span></h2>
+  <div class="lede">WillBot is an AI agent for performance marketing. SwipeHire is an AI agent for career matching. Different verticals. Same architecture pattern: deterministic input layer + LLM reasoning + measured user outcome on a tight feedback loop. Here is what I shipped.</div>
+
+  <div class="sh-grid">
+    <div class="phone-wrap">
+      <svg viewBox="0 0 240 460" class="phone-svg">
+        <rect x="0" y="0" width="240" height="460" rx="26" fill="#18181b"/>
+        <rect x="6" y="6" width="228" height="448" rx="22" fill="#fafafa"/>
+        <text x="20" y="22" font-size="9" fill="#0c0a09" font-weight="700">9:41</text>
+        <rect x="100" y="11" width="40" height="6" rx="3" fill="#0c0a09"/>
+        <text x="220" y="22" text-anchor="end" font-size="9" fill="#0c0a09" font-weight="700">100%</text>
+        <text x="20" y="46" font-size="13" font-weight="800" fill="#0c0a09">SwipeHire</text>
+        <text x="220" y="46" text-anchor="end" font-size="14" fill="#71717a" font-weight="700">...</text>
+        <rect x="14" y="62" width="212" height="328" rx="12" fill="#fff" stroke="#e4e4e7" stroke-width="1"/>
+        <circle cx="44" cy="92" r="18" fill="#eef2ff" stroke="#4338ca" stroke-width="1.5"/>
+        <text x="44" y="98" text-anchor="middle" font-size="13" font-weight="800" fill="#4338ca">N</text>
+        <text x="72" y="88" font-size="10.5" font-weight="800" fill="#0c0a09">Growth Marketing Mgr</text>
+        <text x="72" y="102" font-size="8.5" fill="#71717a">Newform  NYC on-site</text>
+        <rect x="22" y="124" width="196" height="40" rx="6" fill="#eef2ff"/>
+        <text x="32" y="142" font-size="7" fill="#4338ca" font-weight="700" letter-spacing="0.8">MATCH SCORE</text>
+        <text x="208" y="148" text-anchor="end" font-size="18" font-weight="800" fill="#4338ca">95%</text>
+        <text x="32" y="158" font-size="7.5" fill="#3730a3">Agency multi-client + iOS UA + AI-agent fluency</text>
+        <rect x="22" y="178" width="62" height="18" rx="9" fill="#e4e4e7"/>
+        <text x="53" y="190" text-anchor="middle" font-size="7" fill="#3f3f46" font-weight="600">$1.4M book</text>
+        <rect x="90" y="178" width="60" height="18" rx="9" fill="#e4e4e7"/>
+        <text x="120" y="190" text-anchor="middle" font-size="7" fill="#3f3f46" font-weight="600">iOS UA</text>
+        <rect x="156" y="178" width="44" height="18" rx="9" fill="#e4e4e7"/>
+        <text x="178" y="190" text-anchor="middle" font-size="7" fill="#3f3f46" font-weight="600">8-client</text>
+        <text x="22" y="218" font-size="7.5" fill="#71717a" font-weight="700" letter-spacing="0.6">SKILLS MATCHED</text>
+        <text x="22" y="232" font-size="8" fill="#0c0a09">Meta  Google  TikTok  Appsflyer</text>
+        <text x="22" y="246" font-size="8" fill="#0c0a09">Adjust  SKAN  OpenAI API  Claude</text>
+        <rect x="22" y="258" width="196" height="68" rx="6" fill="#f4f4f5"/>
+        <text x="30" y="274" font-size="7" fill="#71717a" font-weight="700" letter-spacing="0.6">AI RATIONALE</text>
+        <text x="30" y="288" font-size="7.5" fill="#52525b" font-style="italic">"Pixis 8-client book + iOS UA</text>
+        <text x="30" y="299" font-size="7.5" fill="#52525b" font-style="italic">via Appsflyer/Adjust on three</text>
+        <text x="30" y="310" font-size="7.5" fill="#52525b" font-style="italic">clients map cleanly to your</text>
+        <text x="30" y="321" font-size="7.5" fill="#52525b" font-style="italic">brand book. AI-agent fit too."</text>
+        <rect x="22" y="340" width="196" height="36" rx="6" fill="#fff" stroke="#d4d4d8" stroke-width="1"/>
+        <text x="32" y="354" font-size="7.5" fill="#0c0a09" font-weight="700">Application auto-tailored</text>
+        <text x="32" y="367" font-size="7" fill="#71717a">12 skills aligned, JD-specific summary</text>
+        <text x="210" y="362" text-anchor="end" font-size="11" fill="#4338ca" font-weight="800">↻</text>
+        <circle cx="78" cy="418" r="20" fill="#fff" stroke="#d4d4d8" stroke-width="1.5"/>
+        <text x="78" y="424" text-anchor="middle" font-size="14" fill="#71717a">×</text>
+        <circle cx="162" cy="418" r="20" fill="#4338ca"/>
+        <text x="162" y="424" text-anchor="middle" font-size="14" font-weight="800" fill="#fff">✓</text>
+        <text x="78" y="450" text-anchor="middle" font-size="7" fill="#a1a1aa" letter-spacing="0.5">SKIP</text>
+        <text x="162" y="450" text-anchor="middle" font-size="7" fill="#a1a1aa" letter-spacing="0.5">APPLY</text>
+      </svg>
+    </div>
+
+    <div class="sh-right">
+      <h3>The architecture, layer by layer</h3>
+      <div class="step"><div class="n">01</div><div class="t"><b>Deterministic input layer.</b> Resume parser on the OpenAI API, structured JSON output, skill normalization on a controlled taxonomy. Same shape as WillBot's media-buy input rules.</div></div>
+      <div class="step"><div class="n">02</div><div class="t"><b>LLM reasoning layer.</b> LLM-scored JD-to-resume fit on top of deterministic overlap; LLM reasons, doesn't replace, the score. Mirrors WillBot reasoning over channel + audience + creative data.</div></div>
+      <div class="step"><div class="n">03</div><div class="t"><b>Action layer.</b> One-tap apply with a CV auto-tailored to the JD - 12 skill alignments, JD-specific summary, generated server-side. WillBot's action layer would be the bid + creative variant push.</div></div>
+      <div class="step"><div class="n">04</div><div class="t"><b>Instrumentation.</b> GA4 + GTM + Amplitude wired day one. Custom events on every step in the funnel. <b>50 users, 8 A/B tests, +25% activation lift V1 to V2, weekly cohort retention.</b></div></div>
+      <div class="step"><div class="n">05</div><div class="t"><b>Eval loop.</b> Weekly review of LLM rationale outputs against measured user behavior. Prompt iteration as a daily ritual, run in Cursor + Claude.</div></div>
+      <h3 style="margin-top: 14pt;">Why this matters for Newform</h3>
+      <div class="step"><div class="n"></div><div class="t">Most growth-marketing applicants have <i>used</i> AI tools. Few have <b>built and shipped an AI product solo end-to-end</b>. The credibility to talk about WillBot with clients comes from having shipped the shape yourself.</div></div>
+    </div>
+  </div>
+
+  <div class="brand">Newform | Adhithya Rokhith Bhaskar</div>
+  <div class="num">04 / 06</div>
+</div>
+
+<!-- SLIDE 5 - WEEK ONE -->
+<div class="slide">
+  <div class="eyebrow">Slide 05 | Week One</div>
+  <h2>Three things I'd ship <span class="accent">in the first thirty days at Newform.</span></h2>
+  <div class="lede">Concrete, not aspirational. Scoped to where I'd start day one given the JD's emphasis on agency-side scaling + iOS app focus + AI-agent product DNA.</div>
+
+  <div class="week">
+    <div class="card">
+      <div class="label">Ship 1 - Client Account Audit</div>
+      <div class="ttl">Diagnose one mobile-app client end-to-end</div>
+      <div class="body">Take the most complex mobile-app account in the book. Audit channel mix, creative cadence, SKAN configuration, post-IDFA conversion-event windows, and attribution model. Output: a 2-page client memo + a next-sprint plan with three named experiments.</div>
+      <div class="why"><strong>Why first.</strong> The fastest way to earn trust on a multi-client agency book is to show up to week-one with a real diagnosis. Pixis Client C/F shape - mid-quarter channel swaps when blended numbers hid the truth - is the muscle I'd bring.</div>
+    </div>
+
+    <div class="card">
+      <div class="label">Ship 2 - Lift Study Cadence</div>
+      <div class="ttl">A quarterly holdout-incrementality template</div>
+      <div class="body">Build a shared template so every client account runs at least one holdout-incrementality experiment per quarter. Sample-size and significance gates defined up front; outcomes documented in a client-facing one-pager. Standardize the language so all account leads can deliver it.</div>
+      <div class="why"><strong>Why first.</strong> The Pixis beauty-client 3x ROAS win wasn't a creative breakthrough - it was reading the numbers honestly. Productizing that diagnostic across the book is the highest-leverage thing an agency-side growth IC can do.</div>
+    </div>
+
+    <div class="card">
+      <div class="label">Ship 3 - WillBot Eval Loop</div>
+      <div class="ttl">Internal-team WillBot benchmarking pass</div>
+      <div class="body">Run WillBot on three sample client accounts (sanitized) and compare its recommendations against what a senior media buyer would actually do. Identify where WillBot wins (speed, recall), where it loses (context, judgment), and what prompts/inputs would close the gap.</div>
+      <div class="why"><strong>Why first.</strong> The product-DNA fluency comes from putting WillBot through its paces, not from talking about it. SwipeHire's weekly eval-loop discipline transfers directly.</div>
+    </div>
+  </div>
+
+  <div class="brand">Newform | Adhithya Rokhith Bhaskar</div>
+  <div class="num">05 / 06</div>
+</div>
+
+<!-- SLIDE 6 - CLOSE -->
+<div class="slide close">
+  <div class="eyebrow">Slide 06 | The Ask</div>
+  <h2>What I'd want from <span class="accent">the first fifteen minutes.</span></h2>
+  <div class="body">
+    <p><strong>What I'd want to understand:</strong> how the team currently splits AE responsibility between new-client acquisition and scaling the existing book; which of the three week-one ships would die first inside Newform's stack and why; and where WillBot sits today between "internal team accelerant" and "client-facing product."</p>
+    <p><strong>What I'd bring:</strong> a one-pager on how I'd structure the first 90 days, a draft client account audit scoped to a sanitized version of one of Newform's brands, and an honest take on where Pixis's playbook would transfer cleanly versus where Newform's iOS-app book would need a different mechanic.</p>
+    <p>NYC works; open to relocating from Boston. Boston-NYC commute is feasible during a transition.</p>
+  </div>
+  <div class="cta">
+    <div class="btn">15 min with the Newform team</div>
+    <div class="alt">or written async if that's easier on your week</div>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong><br>
+    arokhith@gmail.com | (929) 563-9974 | Boston, MA (NYC works)<br>
+    Portfolio: adhi-growth-ai.vercel.app/ref/newform<br>
+    LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">Newform | Adhithya Rokhith Bhaskar</div>
+  <div class="num">06 / 06</div>
+</div>
+
+</body>
+</html>

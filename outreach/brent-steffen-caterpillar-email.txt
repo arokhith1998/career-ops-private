@@ -1,0 +1,29 @@
+TO: Brent Steffen, Senior Digital / eCommerce Leader @ Cat Digital
+PLATFORM: Email (use InMail or work through recruiter for email)
+ROLE: Generative AI Product Manager, Shopping & Content Search (R0000362662)
+LINKEDIN: https://www.linkedin.com/in/brentasteffen/
+---
+
+Subject: Parts search at industrial scale, application for R0000362662
+
+Hi Brent,
+
+Parts search at industrial scale is an unusual problem. The user is a dealer mechanic who needs the right SKU in 40 seconds, not a consumer browsing categories. The catalog has decades of SKU conventions, regional variants, and cross-compatibility rules that a generic LLM will confidently get wrong. The winning product is a system that encodes what the mechanic knows, retrieves what the catalog knows, and lets the LLM translate between the two with the right guardrails.
+
+Applied for the Generative AI PM, Shopping & Content Search role (R0000362662). Quick proof I sit at the intersection:
+
+- Sensata Industrial BU: 100+ feature Agile backlog across 3 regions and 50K+ connected devices; $2M+ first-year launches; 30+ OEM/distributor interviews
+- SwipeHire: production AI product on OpenAI API + React (50+ users, +25% activation, 8+ A/B tests); instrumented LLM cost + latency + quality + safety gate on day one
+- GenY + Pixis: Google Merchant Center rebuild (16x ROAS); AI adtech SaaS ($1.4M across 8 enterprise clients); Amazon + Criteo certified
+- Power BI on 1,200 pricing opportunities ($627M) at Sensata; Python from MS Analytics and SwipeHire
+- BE Mechanical (BITS Pilani) + MS Marketing Analytics (Simon, Rochester); 4 Claude certifications
+
+Industrial PM + hands-on GenAI product build + e-commerce catalog ops is rare. This role is where it converges.
+
+Relocating to Chicago or Peoria. Would welcome 20 minutes on how the team is framing part-identification accuracy versus conversational recall.
+
+Resume, cover letter, and portfolio: https://adhithyabhaskar.vercel.app/ref/caterpillar
+
+Best,
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com | (929) 563-9974

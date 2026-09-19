@@ -1,0 +1,64 @@
+ROLE: OpenAI — Advertising Marketing Science Lead
+==================================================
+Tracker entry: #48
+URL: https://openai.com/careers/advertising-marketing-science-lead-san-francisco/
+
+HIRING MANAGER:
+TBD. This is a foundational hire (the JD says "build the foundation of OpenAI's Marketing Science function"). The HM is likely a Director or Head of Advertising / Head of Data Science for Advertising.
+
+Senior leadership for context:
+- Gary Briggs — Interim CMO, OpenAI
+- Kate Rouch — Former CMO (stepped down)
+
+Search LinkedIn before sending:
+- "OpenAI" + "Head of Marketing Science" or "Director Marketing Science"
+- "OpenAI" + "Advertising" + "Data Science Lead"
+
+RECRUITER:
+TBD via OpenAI's Ashby application portal.
+
+
+----- HM LINKEDIN NOTE -----
+Hi {First}, applying for Adv Marketing Science Lead. Most advertiser disputes are scope errors not modeling errors: lift, MMM, and MTA answer different questions. Built closed-loop attribution at Plug Power and validated 3x ROAS lift via holdout at Pixis. MS Marketing Analytics, Simon. 15 min?
+
+
+----- HM EMAIL -----
+Subject: Adv Marketing Science Lead — methodology hierarchy before the dispute
+
+Hi {First},
+
+Applying for the Advertising Marketing Science Lead role.
+
+The thing I want to build at OpenAI is the methodology hierarchy that decides what each measurement method is allowed to claim, before the disputes start. Lift is causal at the program level. MMM is allocational across channels and time. MTA is operational inside the funnel. When advertisers say "your numbers do not match mine," they are usually comparing apples (your incrementality lift) to oranges (their MTA). The fix is not a better model. It is a hierarchy that gets written down before there is an argument to settle.
+
+My substance comes from three places. At Plug Power I rebuilt closed-loop attribution from ad click to SQL on Salesforce, Adobe Analytics, GA4, and GTM. Wrote the UTM spec, rebuilt GTM containers, validated lead routing into Salesforce campaign attribution. CPA dropped 25%. At Pixis I validated 3x ROAS lift for a fashion partner via holdout incrementality testing and reconciled it against creative-variant diagnostics that aggregate ROAS would have hidden. At Sensata I built a $627M margin-recovery executive Power BI dashboard tracking 1,200 opportunities. Senior leadership reads it weekly.
+
+Plus an R-based regression model for demand elasticity (econometric muscle adjacent to MMM) and an MS Marketing Analytics from Simon Business School with Pricing Analytics, Advanced Pricing, and Data Management coursework.
+
+CV and portfolio: https://adhi-growth-ai.vercel.app/ref/openai-mktg-science
+
+15 min next week?
+
+Adhithya | Boston, MA | (929) 563-9974
+
+
+----- RECRUITER LINKEDIN NOTE -----
+Hi {Recruiter}, applied for Adv Marketing Science Lead. Plug Power closed-loop attribution rebuild + Pixis holdout incrementality (3x ROAS validated) + $627M Sensata Power BI exec dashboard + R demand-elasticity regression + Simon MS. SF works. Available for a screen.
+
+
+----- RECRUITER EMAIL -----
+Subject: Application — Advertising Marketing Science Lead
+
+Hi {Recruiter},
+
+Submitted for the Advertising Marketing Science Lead role. Quick fit summary.
+
+Measurement substance: closed-loop attribution rebuild on Salesforce + Adobe + GA4 + GTM (Plug Power, -25% CPA), holdout incrementality testing validated 3x ROAS lift (Pixis), executive Power BI tracking $627M margin recovery across 1,200 opportunities (Sensata), R-based regression for demand elasticity (Optimal Pricing Prediction Model).
+
+Credentialing: MS Marketing Analytics, Simon Business School (Pricing Analytics + Advanced Pricing coursework). 4+ years. SF works.
+
+Resume: https://adhi-growth-ai.vercel.app/ref/openai-mktg-science
+
+Available for a screen this week.
+
+Adhithya | (929) 563-9974

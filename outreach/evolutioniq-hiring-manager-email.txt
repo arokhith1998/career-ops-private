@@ -1,0 +1,31 @@
+TO: Hiring Manager @ EvolutionIQ
+PLATFORM: Email
+ROLE: Sr. Product Marketing Manager
+---
+
+Subject: Your PMM JD describes my last year at Sensata almost exactly
+
+Hi,
+
+I don't usually send cold emails to hiring managers, but your Sr. PMM job description reads like someone transcribed my Sensata work and added "EvolutionIQ" at the top. So here I am.
+
+The match in specifics:
+
+- "Simplify complex capabilities into positioning, messaging, and talk tracks" — I did this for industrial IoT sensors that most salespeople couldn't explain in one sentence. Rewrote the entire enablement library after sitting in on sales calls. Win rates: +30%.
+
+- "Join strategic sales calls as a product and narrative expert" — At Pixis (AI ad-tech), I was the person clients asked for when they needed the AI platform explained in revenue terms, not feature terms. Churn dropped 50%.
+
+- "Build feedback loops connecting Product, Sales, and Client Services" — At Sensata, I run 30+ customer interviews a year and bring those insights directly back to product leadership. That loop is how we raised CSAT 22%.
+
+- "Manage launch readiness across messaging, proof points, and objection handling" — Launched new products across NA and EU. Built the battlecards, competitive narratives, and proof-point content for 50+ reps. $2M+ first-year pipeline.
+
+One thing that won't be obvious from the resume: I hold four Anthropic Claude certifications (101, Code 101, Cowork, Building with Claude API) and built an AI product from scratch (SwipeHire — Python, OpenAI API). I know what it's like to ship an AI product and then figure out how to explain it to people who don't care about the model, they care about the outcome. That's the exact translation problem your PMM needs to solve for EvolutionIQ's claims intelligence platform.
+
+Resume, cover letter, and portfolio attached:
+Portfolio: https://adhithyabhaskar.vercel.app/ref/evolutioniq
+
+Would genuinely welcome a conversation — even 15 minutes.
+
+Best,
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com | (929) 563-9974

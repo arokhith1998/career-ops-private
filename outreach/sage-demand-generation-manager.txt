@@ -1,0 +1,81 @@
+ROLE: Sage — Demand Generation Manager
+================================================================
+Tracker entry: #65
+URL: https://job-boards.greenhouse.io/sage49/jobs/5982599004
+
+COMPANY:
+- Sage (greenhouse slug "sage49"). Early-stage / high-growth NYC startup.
+- Healthcare / senior living / adjacent industry preferred per JD = AI-enabled senior-living tech vertical.
+- Mission-driven, small tight-knit team.
+- Stack: HubSpot, Salesforce, Meta + LinkedIn + Google paid, AI tools in workflows.
+
+LOCATION: New York, NY (3 days/week in-office, up to 2 days remote)
+SALARY: $140K - $160K base
+SPONSORSHIP: Screen question on application: "Will you now or in the future require sponsorship for employment visa status (e.g., H-1B, etc.)?". REAL RISK of auto-filter, but founder-led inbox at this stage often routes sponsorship-yes to manual review. Confirm at recruiter screen.
+YEARS: 4-7+ years B2B demand gen. User is 4+ - fits at the lower end.
+
+
+HIRING MANAGER (verify on LinkedIn before sending):
+PRIMARY: Search LinkedIn for "Sage" + "Head of Marketing" / "VP Marketing" / "Director Demand Gen" filtered to senior-living / NYC. At Series A/B stage with founder-led hiring, the HM is likely a Founding Marketer or Head of Marketing reporting directly to the CEO.
+
+If senior-living-tech Sage (AI care management for senior facilities), founder is Raj Mehta (verify on LinkedIn: search "Raj Mehta Sage senior living" or "Raj Mehta NYC Sage").
+
+SECONDARY: CEO / Founder. Verify before outreach.
+
+RECRUITER:
+TBD via Greenhouse application. After applying, search LinkedIn for "Sage Talent" / "Sage Recruiter" filtered to NYC senior-living-tech.
+
+ATTACHMENT FOR ALL EMAILS:
+- output/Adhithya_Rokhith_Sage_DemandGenMgr.pdf (CV)
+- cover-letters/Adhithya_Rokhith_Sage_DemandGenMgr_CL.pdf (Cover letter)
+
+
+----- HM LINKEDIN NOTE (Head of Marketing or Founder) -----
+Hi {First}, just applied for the Demand Generation Manager role. Closest analog: rebuilt the Plug Power demand engine end-to-end on HubSpot + Salesforce + GA4 + GTM (-25% CPA, +20% conversion, closed-loop attribution from ad click to SQL) plus 8-client B2B SaaS portfolio at Pixis ($15K-$90K per-client monthly). 4 Claude certs + SwipeHire on OpenAI API. Worth 15 min?
+
+
+----- HM EMAIL (Head of Marketing or Founder) -----
+Subject: Demand Generation Manager — full-stack pipeline rebuild on the same MarTech you run
+
+Hi {First},
+
+Just submitted for the Demand Generation Manager role.
+
+The hardest seam in B2B demand gen is the one between paid spend and Salesforce campaign attribution. Most teams have respectable CPL numbers, a HubSpot drip, and a SEO program shipping pages, and the three never reconcile against the closed-won number that actually matters. The teams that scale pipeline efficiently are the ones that have rebuilt the loop from ad click to SQL with one UTM spec, one source-of-truth in Salesforce, and a dashboard the CFO trusts.
+
+I did that rebuild at Plug Power. Owned the full demand engine end-to-end: paid stack on Google, Meta, LinkedIn, and Adobe-driven programmatic (-25% CPA, +20% conversion), plus closed-loop attribution rebuilt across HubSpot, Salesforce, Adobe Analytics, GA4, and GTM. UTM spec from scratch. GTM containers rebuilt. Lead routing validated through Salesforce campaign attribution. SEO + AEO + GEO program in parallel: on-page + technical SEO, schema, content-cluster mapping, FAQ pages structured for ChatGPT / Claude / Perplexity citation. Email and lifecycle ran in HubSpot alongside it.
+
+On the agency-and-vendor side, Pixis is the closest shape: 8-client B2B SaaS portfolio, per-client monthly media budgets of $15K-$90K, 8-person team across creative + account + platform. Weekly client QBRs. Trained 8 enterprise marketers on AI bidding tools.
+
+On AI workflows, SwipeHire shipped solo on Python + OpenAI API + React (50+ users, +25% activation, 8 A/B tests). Four Anthropic Claude certifications behind it.
+
+NYC works. CV + CL attached. Portfolio: https://adhi-growth-ai.vercel.app/ref/sage
+
+15 minutes next week?
+
+Adhithya | Boston, MA | (929) 563-9974
+
+
+----- RECRUITER LINKEDIN NOTE (when identified) -----
+Hi {Recruiter}, applied for Demand Generation Manager at Sage. 4+ yrs B2B demand gen. Plug Power full demand engine on HubSpot + Salesforce + GA4 + GTM (-25% CPA, +20% conversion, closed-loop attribution + AEO/GEO). Pixis 8-client B2B SaaS book ($15K-$90K per-client monthly). SwipeHire on OpenAI API + 4 Claude certs. NYC works. Available for a screen.
+
+
+----- RECRUITER EMAIL (when identified) -----
+Subject: Application — Demand Generation Manager (Sage)
+
+Hi {Recruiter},
+
+Submitted for the Demand Generation Manager role earlier today.
+
+Quick fit summary on substance:
+- 4+ years B2B demand gen across in-house demand engine (Plug Power: full paid stack on Google + Meta + LinkedIn + Adobe-driven programmatic, -25% CPA, +20% conversion, closed-loop attribution rebuilt on HubSpot + Salesforce + Adobe + GA4 + GTM, plus AEO/GEO content program), agency-side (Pixis: 8-client B2B SaaS portfolio, $15K-$90K per-client monthly, 8-person team, 3x ROAS validated via holdout incrementality, AI bidding training for 8 enterprise marketers), and AI-product (SwipeHire shipped solo on Python + OpenAI API + React, 50+ users, +25% activation).
+- 4 Anthropic Claude certifications.
+- HubSpot + Salesforce + GA4 + GTM stack is the same one Sage runs on.
+
+NYC works. Boston-based today, open to relocating.
+
+CV + CL attached. Portfolio: https://adhi-growth-ai.vercel.app/ref/sage
+
+Available for a screen this week.
+
+Adhithya | (929) 563-9974

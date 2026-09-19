@@ -1,0 +1,26 @@
+TO: Ryan Fowler, Director of Acquisition Marketing + SEO @ EnergySage
+PLATFORM: Email
+ROLE: SEO Manager (Remote US)
+---
+
+Subject: SEO Manager, EnergySage needs to win the citation war, not the SERP
+
+Hi Ryan,
+
+A homeowner asking "is solar worth it in 2026" does not open Google first. They open ChatGPT, Claude, or Perplexity. The answer the model gives is decided months earlier by which marketplace the model has internalized as the authoritative source. The JD calls this out clearly (GEO, AI citations, LLM retrieval), and it is the exact intersection I have been building for, for two years.
+
+Applied for the SEO Manager role. Quick proof I live at SEO + GEO + clean energy + AI-builder fluency:
+
+- SwipeHire (founder): production AI product on OpenAI API + React. Implemented JobPosting + Organization schema markup, Core Web Vitals optimization, and structured output pipelines specifically for AI-assistant retrieval. Run a Claude draft-and-critique content pipeline (draft, score, ship) for 8x variant velocity at consistent E-E-A-T.
+- 4 Anthropic Claude certifications including Building with the Claude API. Builder-side understanding of how LLMs retrieve, evaluate, and cite content.
+- Plug Power: owned SEO + keyword strategy for a B2B hydrogen-energy audience. Clusters across logistics / data center / industrial verticals; technical SEO partnership with eng; -25% CPA, +20% conversion blended paid + organic.
+- GenY Medium: rebuilt D2C SEO + Google Merchant Center + Meta catalog + SKU-level schema. 16x ROAS.
+- GA4, GSC, Ahrefs daily. SQL on 50K+ devices at Sensata. MS Marketing Analytics (Simon).
+
+Would love 20 minutes on the current EnergySage GEO thesis and where the biggest citation-rate gap is across the Marketplace content.
+
+Resume, cover letter, portfolio: https://adhithyabhaskar.vercel.app/ref/energysage
+
+Best,
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com | (929) 563-9974

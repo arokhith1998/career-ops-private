@@ -1,0 +1,24 @@
+TO: [Recruiter Name], Garner Health Talent / People Team
+PLATFORM: Email
+ROLE: Growth Marketing Manager (Growth Hacker), NYC
+---
+
+Subject: Application, Growth Marketing Manager (Growth Hacker)
+
+Hi [Recruiter Name],
+
+Just applied for the Growth Marketing Manager role. Quick fit:
+
+- 4+ yrs B2C growth marketing: Pixis ($1.4M, 8 clients, 3x ROAS, -50% churn), Plug Power (-25% CPA), GenY (16x ROAS)
+- Built a production AI tool using OpenAI API (SwipeHire): prompt engineering, structured output, automated content pipelines. Not a ChatGPT wrapper
+- Built HubSpot lifecycle CRM from scratch at Plug Power: trigger workflows, segmentation, email cadences, personalized journeys
+- 8+ A/B tests on activation at SwipeHire (+25% lift); holdout incrementality at Pixis; weekly experimentation cadence across all roles
+- Claude AI Certified (4 certs); MS Marketing Analytics (Simon, Rochester)
+
+Boston-based, open to NYC. 3 days in-office works. Available to interview this week.
+
+Resume + cover letter + portfolio: https://adhithyabhaskar.vercel.app/ref/garner
+
+Thanks,
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com | (929) 563-9974

@@ -1,0 +1,71 @@
+ROLE: Priceline — App Growth Specialist (R5493)
+================================================
+Tracker entry: #53
+URL: https://priceline.wd1.myworkdayjobs.com/Priceline/job/Norwalk-CT/App-Growth-Specialist_R5493
+
+HIRING MANAGER (verified via title match):
+Joe Ludwiczak — Senior Director, Performance Marketing & Acquisition, Priceline (Norwalk, CT)
+LinkedIn: https://www.linkedin.com/in/joeludwiczak/
+
+ADJACENT LEADERS (warm context):
+- Toby Korner — SVP, Digital Marketing, Priceline
+  LinkedIn: https://www.linkedin.com/in/toby-korner-7258264
+- Justin LeBlanc — Senior Marketing Director, Priceline (Norwalk)
+  LinkedIn: https://www.linkedin.com/in/justin-leblanc-ct/
+- Lesley Klein — Priceline (NYC, marketing strategy)
+  LinkedIn: https://www.linkedin.com/in/lesleycklein/
+
+RECRUITER:
+TBD. After applying via Workday, the recruiter assigned will surface in candidate portal. Search LinkedIn for "Priceline Recruiter" or "Booking Holdings TA" if needed.
+
+
+----- HM LINKEDIN NOTE -----
+Hi Joe, applying for App Growth Specialist (R5493). Travel apps are the cleanest test bed for paid UA: short funnel, real intent. Built closed-loop attribution at Plug Power (-25% CPA) + Pixis $1.4M B2B SaaS + SwipeHire app instrumentation. Norwalk works. 15 min?
+
+
+----- HM EMAIL -----
+Subject: App Growth Specialist — post-IDFA SKAN is the same model I rebuilt
+
+Hi Joe,
+
+Applying for the App Growth Specialist role.
+
+Mobile UA is one of the cleanest tests in performance marketing. The conversion event is real (install plus first booking), the iteration cycle is short, and post-IDFA SKAN attribution has forced the discipline of the entire industry up to where closed-loop measurement always should have been. Travel is an even better test bed because the buyer arrives mid-intent and the funnel is short enough to read week-over-week creative performance.
+
+Most of what your JD asks for is muscle I have already built. At Plug Power I owned paid acquisition across Google Ads, Meta, LinkedIn, and Adobe-driven programmatic display. I rebuilt closed-loop attribution from ad click to SQL on Salesforce, Adobe Analytics, GA4, and GTM. UTM spec from scratch, GTM containers rebuilt, lead routing validated through Salesforce. CPA dropped 25%, conversion went up 20%. The mental model behind that work is the same as post-IDFA SKAN attribution: deterministic where you can, probabilistic where you cannot, ruthless about which conversion event you actually trust.
+
+At Pixis I ran an 8-client B2B SaaS portfolio on a $1.4M budget with weekly multi-channel optimization and holdout incrementality testing. At GenY I delivered 16x ROAS for a D2C brand by rebuilding Google Merchant Center and Meta catalog feeds (the conceptual analog to ASO). At SwipeHire I instrumented an app from day one with GA4 and GTM event tracking, ran 8 A/B tests on activation flows, and lifted activation 25%.
+
+The named tools I have not used directly are Appsflyer, Adjust, Kochava, and Apple Search Ads. The operating model maps. Week-one ramp.
+
+Norwalk works. Commutable.
+
+CV and portfolio: https://adhi-growth.vercel.app/ref/priceline-app-growth
+
+15 min next week?
+
+Adhithya | Boston, MA | (929) 563-9974
+
+
+----- RECRUITER LINKEDIN NOTE -----
+Hi {Recruiter}, applied for App Growth Specialist (R5493). Plug Power paid stack rebuild (-25% CPA closed-loop attribution) + Pixis $1.4M 8-client + GenY 16x ROAS Shopping/catalog + SwipeHire app instrumentation. Norwalk commute works. Available for a screen.
+
+
+----- RECRUITER EMAIL -----
+Subject: Application — App Growth Specialist (R5493)
+
+Hi {Recruiter},
+
+Submitted for the App Growth Specialist role.
+
+Direct fit: Plug Power Meta + Google + LinkedIn + programmatic + closed-loop attribution rebuild (-25% CPA), Pixis $1.4M 8-client portfolio with holdout incrementality, GenY D2C 16x ROAS via Merchant Center and Meta catalog rebuild (ASO-mechanic adjacent), SwipeHire app GA4 + GTM event tracking with 8 A/B tests.
+
+Tool gaps (Appsflyer, Adjust, Kochava, Apple Search Ads) are week-one ramps from Adobe Audience Manager + Google Ads operating model.
+
+4+ years. Norwalk hybrid 2 days works.
+
+Resume: https://adhi-growth.vercel.app/ref/priceline-app-growth
+
+Available for a screen this week.
+
+Adhithya | (929) 563-9974

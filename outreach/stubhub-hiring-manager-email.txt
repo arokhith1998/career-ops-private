@@ -1,0 +1,34 @@
+TO: [Hiring Manager Name] -- Manager/Director, Performance Marketing (StubHub)
+PLATFORM: Email
+ROLE: Senior Performance Marketing Associate, Paid Social -- LA (Century City)
+---
+
+Subject: Paid Social Sr Assoc -- Why ticketing breaks Meta's default playbook
+
+Hi [Name],
+
+I applied for the Senior Performance Marketing Associate, Paid Social role and wanted to share a POV on the role that I think differentiates the job from generic e-commerce paid social -- which is what caught my eye about it in the first place.
+
+Ticketing breaks Meta's default playbook in two ways most paid-social hires don't think about up front:
+
+1. Demand spikes are violent. A tour drop or playoff announcement 10-50x's demand in hours. Meta's optimization lags this because it's trained on recent conversion history -- if you don't pre-load creative variants, floor the budget, and intervene manually, you watch the buying window close while the algorithm is still "learning."
+
+2. Inventory is ephemeral. Once the event starts, unsold tickets are worth zero. So the cost function is different from e-commerce -- you're optimizing for time-to-fill, not lifetime value. That reshapes creative cadence, bid strategy, and what "good" looks like on the dashboard.
+
+I haven't run paid social for ticketing specifically. But I've run the closest adjacencies -- high-velocity e-commerce with aggressive seasonal spikes -- and the intuitions travel:
+
+- At Pixis I ran a $1.4M budget across a D2C portfolio. Took a fashion brand from flat ROAS to 3x in 30 days via full-funnel rebuild -- Shopping feed cleanup, creative refresh, smart bidding, lookalikes, and holdout incrementality tests so we could prove the lift was real and not pulled from organic. That incrementality discipline is how I'd think about StubHub spikes: during a tour drop, pulling budget feels like magic until you run the holdout and realize 40% was going to happen anyway.
+
+- At GenY I delivered 16x ROAS on a D2C brand by rebuilding the Meta catalog, launching Advantage+ with SKU-keyed creative, and owning the seasonal promotion calendar. Event ticketing catalogs (events, sections, price tiers) have similar hygiene problems -- dirty catalog caps performance regardless of budget.
+
+- At Plug Power I delivered -25% CPA on B2B hydrogen-energy audiences. Different ICP but same craft -- auction math varies by channel, Meta rewards creative diversity, LinkedIn rewards persona tightness.
+
+Daily SQL, hands-on Ads Manager, and incrementality testing are default workflow for me, not skills-section claims.
+
+Based in Boston, open to relocating to LA for the Century City hybrid. Resume + cover letter + portfolio: https://adhithyabhaskar.vercel.app/ref/stubhub
+
+Would welcome 15-20 min to hear how the team is thinking about the next tour / playoff spike cycle.
+
+Best,
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com | (929) 563-9974

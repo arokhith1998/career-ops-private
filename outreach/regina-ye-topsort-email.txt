@@ -1,0 +1,32 @@
+TO: Regina Ye -- Co-Founder & CEO @ Topsort
+EMAIL: regina@topsort.com (verified)
+PLATFORM: Email
+ROLE: Growth Marketer (Boston, Somerville)
+NOTE: Going to Regina directly because there's no Growth Lead in place — she's effectively the hiring manager for this rebuild.
+---
+
+Subject: Growth Marketer app -- buyer-side perspective on Topsort
+
+Hi Regina,
+
+I applied for the Growth Marketer role and wanted to write you directly. With Damask gone and the function being rebuilt, the person stepping into this seat needs to think like a founder, not a contractor -- which is what makes me want it.
+
+Quick reason I'm useful here: I've been on the buyer side of the exact transaction Topsort needs to win.
+
+At Pixis I spent 14 months running campaigns on an AI adtech B2B SaaS platform -- $1.4M in budget across global D2C and e-commerce clients, 8-person team. Retail media was core to the mix; I'm Amazon Sponsored Ads + Criteo certified because I actually ran them. I know what makes a marketplace VP of Monetization nod (concrete ROAS lifts, holdout incrementality math, clear creative-iteration story) and what makes them roll their eyes (hand-wavy "AI" claims, dashboards that show effort rather than outcome). That perspective changes how you build the funnel for this category.
+
+Two operational proof points:
+
+- Founder-mode: Built SwipeHire from zero this year. Two-sided AI marketplace, instrumented funnel before launch (GA4, GTM, cohort dashboards), 8+ A/B tests on activation, +25%. Hardest part was deciding what to ignore when there's no PRD inbox -- same muscle you need at a Series-stage growth role.
+
+- Growth infrastructure: At Plug Power I stood up Salesforce + Adobe Analytics + GA + GTM from scratch and got sales and marketing to agree on what a "lead" actually meant before writing a single rule. -25% CPA, +20% conversion. Your JD calls this "growth infrastructure through metrics definition." That was the literal job.
+
+Boston-based, Somerville onsite is fine, BE Mech Eng + MS Marketing Analytics (Simon, Rochester).
+
+Resume + cover letter + portfolio: https://adhithyabhaskar.vercel.app/ref/topsort
+
+15 minutes when you're free? Happy to talk through how I'd think about the first 90 days specifically -- ramp on positioning vs Criteo Commerce Yield / Mirakl Ads / Moloco, sit in on prospect calls before writing copy, then start compressing the education cycle.
+
+Best,
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com | (929) 563-9974

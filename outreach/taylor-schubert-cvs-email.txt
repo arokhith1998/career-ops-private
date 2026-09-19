@@ -1,0 +1,29 @@
+TO: Taylor Schubert — Analytical Leader (AI & Data Science) @ CVS Health
+PLATFORM: Email
+ROLE: Senior Product Analyst (R0864575)
+LINKEDIN: https://www.linkedin.com/in/taylor-schubert/
+---
+
+Subject: Senior Product Analyst (R0864575) — analyst who writes user stories, not just queries
+
+Hi Taylor,
+
+I applied for the Senior Product Analyst role and saw your background in AI and data science at CVS — I think you may have visibility into this position.
+
+The JD stood out because it's not a standard analyst role. It asks for someone who defines requirements and user stories, facilitates sprint ceremonies, monitors KPIs, AND collaborates with clinicians to validate AI model results. Most analysts can do one of those well. Here's why I can do all of them:
+
+**The Agile side:** At Sensata, I own a 100+ feature backlog with engineering — I write user stories, acceptance criteria, and functional specs. I facilitate sprint planning, backlog refinement, and retrospectives. This isn't a side task for me; it's my daily workflow.
+
+**The analytics side:** I built KPI frameworks in SQL + GA4 across 50K+ connected devices, own performance dashboards that feed roadmap decisions, and have an MS in Marketing Analytics with coursework in data management, visualization, and pricing analytics.
+
+**The AI side:** I built SwipeHire, an AI product using Python + OpenAI API — from PRD through user research through weekly iteration on activation/retention cohorts. I'm comfortable with how AI models translate into product decisions because I've shipped one.
+
+**The clinical AI validation piece** is newer for me, but I led a consulting project where we built customer personas for healthcare audiences (hospitals, cancer research centers) for Safran — so the healthcare decision-maker context isn't unfamiliar.
+
+Resume attached. Portfolio: https://adhithyabhaskar.vercel.app/ref/cvs-health
+
+I'd appreciate any time you have — even 10 minutes to understand how the Analytics & Behavior Change team is structured.
+
+Best,
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com | +1 (929) 563-9974

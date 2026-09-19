@@ -1,0 +1,86 @@
+ROLE: FedEx — Digital Marketing Advisor (Enterprise SEO / GEO / AEO)
+================================================================
+Tracker entry: #66
+URL: https://careers.fedex.com/digital-marketing-advisor/job/P25-334763-1
+Job ID: P25-334763-1
+
+COMPANY:
+- FedEx Corporation. Enterprise. ~525,000 employees globally.
+- This role: enterprise SEO + GEO advisor for US domains, AI-driven search readiness focus.
+- Note: Different business unit from FedEx Dataworks (tracker #25, "Manager, Marketing - Growth", Memphis/Remote, FY22-24 192 LCAs sponsorship-confirmed). Same parent corp, sponsorship policy applies.
+
+LOCATION: 7900 Legacy Drive, Plano TX 75024. **Hybrid 4 days/week on-site, must live within 50-mile radius.**
+SALARY: $7,882.48/mo - $13,006.09/mo = **$94,590 - $156,073 annually**
+SPONSORSHIP: **CONFIRMED** (FedEx Corp 192+ LCAs FY22-24 per tracker #25). E-Verify standard.
+YEARS: 5-10+ years enterprise SEO. User is at 4+ years total with SEO/AEO/GEO as a slice. Near-miss; lean into scope-based case + KKR audit teardown as enterprise-grade proof.
+
+
+HIRING MANAGER (verify on LinkedIn before sending):
+PRIMARY: TBD. Likely "Sr Director, GEO/SEO" or "VP, Search & Content" at FedEx Corp.
+LinkedIn search: "FedEx" + "SEO" / "Search" / "Digital Marketing" filtered to Plano + Director/VP-level. Likely names: search "FedEx Sr Director SEO Plano" and "FedEx Head of Search Plano".
+
+SECONDARY: Hiring Manager may be in Marketing Operations or Customer Acquisition org. Check LinkedIn for FedEx Marketing leadership in Plano TX HQ.
+
+RECRUITER:
+FedEx Talent Acquisition. Same shape as #25 Dataworks Talent Acq contact (verify if transferable; likely different team within parent TA org).
+LinkedIn search: "FedEx Talent Acquisition" + "Marketing" + "Plano TX".
+
+ATTACHMENT FOR ALL EMAILS:
+- output/Adhithya_Rokhith_FedEx_DMA.pdf (CV)
+- cover-letters/Adhithya_Rokhith_FedEx_DMA_CL.pdf (Cover letter)
+- **output/KKR_AI_Search_Audit_Adhithya.pdf** (2-page enterprise AI-Search audit teardown - DIRECT methodology proof for this exact role)
+
+
+----- HM LINKEDIN NOTE (Sr Director GEO/SEO or equivalent) -----
+Hi {First}, applied for the Digital Marketing Advisor role (P25-334763-1). Closest analog: owned Plug Power SEO + AEO + GEO program (schema rebuilds, content-cluster mapping, FAQ pages structured for ChatGPT / Claude / Perplexity citation) plus authored a 2-page enterprise AI-Search audit teardown for KKR. 4 Anthropic Claude certifications + Sensata multi-region GTM (NA + EU + 3 regions). Open to relocating to Plano. Worth 15 min?
+
+
+----- HM EMAIL (Sr Director GEO/SEO or equivalent) -----
+Subject: Digital Marketing Advisor (P25-334763-1) — schema-first GEO methodology + KKR audit teardown
+
+Hi {First},
+
+Just submitted for the Digital Marketing Advisor role.
+
+Enterprise GEO breaks at one specific seam: the gap between the technical SEO team that owns site health and the content team that owns the FAQ structure AI Overviews actually cite. Most enterprises ship one without the other. The teams that win the AI-search surface are the ones that have closed the loop with schema-first content patterns, FAQ blocks built for citation, and a measurement frame that separates AI-referred traffic from blue-link organic.
+
+I built that loop at Plug Power. SEO + AEO + GEO program end-to-end: on-page + technical + schema.org rebuilds + content-cluster mapping, FAQ pages structured specifically for ChatGPT / Claude / Perplexity citation. Brand vs non-brand measurement reset to separate AI-referred traffic from traditional organic, with lift fed back through Salesforce campaign attribution so the program tied to revenue, not vanity rank.
+
+The methodology travels. I authored a 2-page enterprise AI-Search audit teardown for KKR: AI Overview presence audit, citation gap analysis, schema-first remediation plan, content-cluster mapping. Attaching it as a portfolio sample because it is the work the JD asks for at enterprise complexity.
+
+On multi-location: Sensata GTM runs across NA + EU + 3 regions today. hreflang, duplication control, localized messaging informed by 30+ structured customer interviews. The international SEO frameworks the JD calls out are not theoretical for me; they are the operating model I run.
+
+On Python + SQL: direct fluency from Sensata KPI dashboarding ($627M Power BI, 50K+ devices) and SwipeHire (Python + OpenAI API + React, shipped solo). 4 Anthropic Claude certifications. Adobe LLM Optimizer + Conductor are week-one tool ramps on top of an AEO methodology already shipped.
+
+Plano works. Open to relocating from Boston. CV + KKR audit teardown attached. Portfolio: https://adhi-growth-ai.vercel.app/ref/fedex-dma
+
+15 minutes next week?
+
+Adhithya | Boston, MA | (929) 563-9974
+
+
+----- RECRUITER LINKEDIN NOTE -----
+Hi {Recruiter}, applied for Digital Marketing Advisor (P25-334763-1) at FedEx Plano. 4+ yrs digital marketing with SEO + AEO + GEO program ownership at Plug Power (schema rebuilds, content-cluster mapping, AI-citation-ready FAQ), plus 2-page KKR enterprise AI-Search audit teardown as portfolio sample. 4 Claude certs + Python/SQL + Sensata multi-region GTM. Open to Plano relo. Available for a screen.
+
+
+----- RECRUITER EMAIL -----
+Subject: Application — Digital Marketing Advisor (P25-334763-1)
+
+Hi {Recruiter},
+
+Submitted for the Digital Marketing Advisor role earlier today.
+
+Quick fit summary on substance:
+- 4+ years digital marketing with hands-on SEO + AEO + GEO ownership at Plug Power: on-page + technical + schema.org rebuilds, content-cluster mapping, FAQ pages structured for ChatGPT / Claude / Perplexity citation, brand vs non-brand measurement framework, closed-loop attribution from organic visibility to Salesforce-recognized revenue.
+- 2-page enterprise AI-Search audit teardown for KKR (attaching as portfolio sample) demonstrates the methodology at enterprise complexity.
+- Sensata multi-region GTM across NA + EU + 3 regions covers the international SEO framework / hreflang / duplication-control responsibility.
+- Python + SQL direct (Sensata KPI dashboarding, SwipeHire build).
+- 4 Anthropic Claude certifications. SEMrush + Adobe Analytics direct. Adobe LLM Optimizer + Conductor + Botify are week-one tool ramps.
+
+Plano works. Open to relocating from Boston.
+
+CV + KKR AI-Search audit teardown attached. Portfolio: https://adhi-growth-ai.vercel.app/ref/fedex-dma
+
+Available for a screen this week.
+
+Adhithya | (929) 563-9974

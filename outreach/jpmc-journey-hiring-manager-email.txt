@@ -1,0 +1,25 @@
+TO: [Hiring Manager Name], VP / Director, Consumer Bank Marketing Journey Team, JPMorgan Chase
+PLATFORM: Email
+ROLE: Marketing Sr Associate, Becoming a Customer Journey (Job ID 210735304)
+---
+
+Subject: 210735304, journey mapping without activation ownership is just research
+
+Hi [Name],
+
+Journey mapping without activation ownership is just research. Activation without journey context is just email marketing. The rare hire connects both: maps the experience, finds the worst touchpoint, then owns the fix.
+
+Just applied for the Marketing Sr Associate role on the Journey team. Quick proof I connect both sides:
+
+- Sensata: 30+ structured customer interviews across NA and EU, facilitated 3-week cross-functional alignment workshops before launching research, mapped where deals actually stalled, built the fix (enablement assets for 50+ reps), CSAT +22%, win rates +30%
+- SwipeHire (founder): designed full onboarding-to-activation journey from zero, instrumented GA4 + GTM, ran 8+ A/B tests on confirmation flows and next-best-action messaging, activation +25%
+- Plug Power: built HubSpot lifecycle CRM from scratch (trigger emails, confirmation cadences, segmentation), -25% CPA, +20% conversion
+- Sensata: managed 100+ item research backlog in Agile with internal teams and partners, cut TTM 20%
+
+Would love 15 minutes to hear what the biggest pain point in the "becoming a customer" journey looks like right now.
+
+Resume + portfolio: https://adhithyabhaskar.vercel.app/ref/jpmc
+
+Best,
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com | (929) 563-9974

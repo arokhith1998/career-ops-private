@@ -1,0 +1,28 @@
+TO: [Hiring Manager Name], Digital Marketing Leader @ Truist (find on LinkedIn at company/truist-financial, filter title: Head/Director/VP Digital Marketing, Charlotte)
+PLATFORM: Email (after confirming via LinkedIn or recruiter)
+ROLE: Digital Marketing Manager (R0112980), Truist.com / Authenticated Channels
+---
+
+Subject: Digital Marketing Manager (R0112980), Adobe stack + authenticated-channel personalization
+
+Hi [Name],
+
+Authenticated digital at a bank is a segmentation and personalization problem more than a funnel-capture problem. The audience already logged in; the job is to earn the next action. The operator who moves the number treats offers, audiences, and testing as a governed system on the Adobe stack.
+
+I have built that system at smaller scale.
+
+- Plug Power: built the full Adobe Analytics + Adobe Audience Manager + Salesforce + GA + GTM stack from scratch; audience segmentation tied to CRM attributes; -25% CPA, +20% conversion; MQL-to-SQL lift via segment-specific retargeting.
+- Sensata: 100+ feature Agile backlog across 3 regions on 50K+ connected devices; Power BI executive dashboard on $627M in opportunities ($433M margin gaps identified); weekly senior-leadership decisioning muscle.
+- SwipeHire: production AI product on OpenAI API + React; signal-based personalization (stack + seniority + visa signals); 50+ users, +25% activation, 8+ A/B tests.
+- 4 Anthropic Claude certifications including Building with the Claude API.
+- Adobe stack: Analytics + AAM direct; AEM, Target, CJA on ramp-up (same Adobe Marketing Cloud data model).
+
+On years: JD asks for 7, I have 4+ plus founder experience. Scope case: full stack build + $1.4M AI adtech ops at Pixis + governed KPI reporting at Sensata.
+
+Committed to relocating to Charlotte. Would welcome 20 minutes on where the authenticated funnel has the most headroom.
+
+Resume, cover letter, and portfolio: https://adhithyabhaskar.vercel.app/ref/truist
+
+Best,
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com | (929) 563-9974

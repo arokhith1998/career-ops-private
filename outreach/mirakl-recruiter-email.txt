@@ -1,0 +1,32 @@
+TO: [Recruiter Name], Mirakl Talent Acquisition
+PLATFORM: Email
+ROLE: Digital Marketing Manager (Boston hybrid 4+1)
+NOTE: Greenhouse auto-assignment; swap in name after confirmation email.
+---
+
+Subject: Application, Digital Marketing Manager (Boston hybrid)
+
+Hi [Recruiter Name],
+
+Just applied for the Digital Marketing Manager role via Greenhouse. Quick fit:
+
+- Plug Power: full B2B MarTech rebuild from scratch (Salesforce + HubSpot + Adobe + AAM + GA + GTM). Closed-loop attribution. Account-targeted paid on LinkedIn + SA360 + Google + Meta + email for hydrogen-energy buyers. -25% CPA, +20% conversion.
+- Pixis: 8-client enterprise AI SaaS book, $1.4M shared budget. 3x ROAS fashion in 30 days, -50% churn.
+- SwipeHire (founder): production AI product on OpenAI API + React. 50+ users, +25% activation via 8+ A/B tests. Solo full-funnel.
+- HubSpot daily. Salesforce hands-on. 6Sense is a 1-2 week ramp (Salesforce-integrated).
+- 4 Anthropic Claude certs (incl. Building with the Claude API). Claude draft-and-critique pipeline for 8x ad-copy variant velocity. Direct match for "proven history of using AI to optimize and launch campaigns".
+- MS Marketing Analytics (Simon, Rochester) + BE Mech (BITS Pilani).
+
+JD fit: B2B SaaS digital marketing, HubSpot + Salesforce + 6Sense stack, LinkedIn + Google + Meta + Reddit + 6sense Display, AI-accelerated campaigns, ABM-shaped account targeting. Active stack match.
+
+Boston-based, 4+1 hybrid is zero-friction, zero relocation. Available to screen this week. Comp target: top of posted band ($118K-$123K base).
+
+On years: posting asks 5+; I am at 4+ plus founder scope. MarTech rebuild + enterprise book + solo AI product is a scope case. Happy to walk through.
+
+One ask: can you confirm Mirakl's H-1B sponsorship posture for this role? Mirakl has 40+ nationalities and dual Paris + Boston HQ, so I assume sponsorship is available, but want to confirm before interview cycles.
+
+Resume, cover letter, portfolio: https://adhithyabhaskar.vercel.app/ref/mirakl
+
+Thanks,
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com | (929) 563-9974

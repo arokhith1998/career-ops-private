@@ -1,0 +1,28 @@
+TO: Nathan Burke, CMO @ 7AI (direct hiring manager for Growth Marketing Manager)
+PLATFORM: Email (use LinkedIn InMail or find via Hunter.io / Vibe if not public)
+ROLE: Growth Marketing Manager, 7AI, Boston
+LINKEDIN: https://www.linkedin.com/in/nathanwburke
+---
+
+Subject: Growth Marketing Manager application, AI-native marketer + Boston local
+
+Hi Nathan,
+
+Just applied for the Growth Marketing Manager role. Writing directly because the fit is unusually clean:
+
+- I am an AI builder, not just an AI-user. Founded SwipeHire on OpenAI API + React (50+ users, 8+ A/B tests, +25% activation). Run a Claude draft-and-critique pipeline for ad copy and landing variants: one Claude call drafts, a second scores against conversion signal, human gate ships (8x velocity at Pixis-comparable volume). 4 Anthropic Claude certifications including Building with the Claude API.
+- Ran growth for an AI platform at comparable Series-stage scale. Pixis: $1.4M budget, 8-person team, 8 enterprise B2B clients on an AI adtech SaaS (3x ROAS in 30 days, -50% churn).
+- Built a B2B demand-gen stack from scratch. Plug Power: Salesforce + Adobe + GA + GTM with closed-loop attribution; -25% CPA, +20% conversion.
+- Boston-based. Zero relocation friction. Available immediately.
+
+On cybersecurity domain: not direct. Enterprise technical-buyer motion is (Sensata industrial OEMs, Plug Power energy enterprise). 30 days to get fluent on the category language.
+
+MS Marketing Analytics (Simon, Rochester) + BE Mechanical Engineering (BITS Pilani).
+
+Would welcome 20 minutes on where the CISO funnel currently leaks and what the first three experiments should be.
+
+Resume, cover letter, and portfolio: https://adhithyabhaskar.vercel.app/ref/7ai
+
+Best,
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com | (929) 563-9974

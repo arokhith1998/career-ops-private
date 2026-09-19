@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Handshake AI Senior Growth Marketer Pitch Deck Adhithya</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  @page { size: 11in 8.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1e293b; background: #fafaf5; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; }
+  .slide { width: 11in; height: 8.5in; padding: 0.55in 0.75in 0.5in 0.75in; page-break-after: always; position: relative; overflow: hidden; background: #fafaf5; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.35in; right: 0.55in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.35in; left: 0.75in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #047857; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 10pt; }
+  h1 { font-size: 36pt; font-weight: 800; color: #0f172a; line-height: 1.04; letter-spacing: -0.6pt; margin-bottom: 8pt; }
+  h2 { font-size: 24pt; font-weight: 800; color: #0f172a; line-height: 1.08; letter-spacing: -0.4pt; margin-bottom: 6pt; }
+  h2 .accent { color: #047857; }
+  .lede { font-size: 13pt; color: #475569; max-width: 8.5in; margin-bottom: 14pt; font-weight: 400; }
+
+  /* Cover */
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 1in; padding-right: 1in; }
+  .cover h1 { font-size: 42pt; max-width: 9.2in; }
+  .cover .sub { font-size: 17pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 26pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 9.5in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.5pt; font-weight: 500; }
+  .tag strong { color: #047857; font-weight: 700; }
+  .cover .who { margin-top: 32pt; padding-top: 14pt; border-top: 1.5pt solid #047857; max-width: 7in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.5pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.6in; right: 0.85in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  /* Convergence table */
+  .conv-table { width: 100%; margin-top: 6pt; border-collapse: collapse; }
+  .conv-table th { text-align: left; font-size: 11pt; font-weight: 800; color: #0f172a; padding: 10pt 12pt 10pt 0; border-bottom: 2pt solid #047857; }
+  .conv-table th.row-label { color: #64748b; font-weight: 700; font-size: 9pt; letter-spacing: 1pt; text-transform: uppercase; width: 1.5in; }
+  .conv-table td { padding: 12pt 12pt 12pt 0; font-size: 10pt; color: #334155; border-bottom: 1pt solid #e2e8f0; vertical-align: top; line-height: 1.45; }
+  .conv-table td.row-label { color: #64748b; font-weight: 700; font-size: 9pt; letter-spacing: 0.6pt; text-transform: uppercase; }
+  .conv-table td b { color: #0f172a; font-weight: 700; }
+  .conv-takeaway { margin-top: 16pt; font-size: 11.5pt; color: #1e293b; font-style: italic; border-left: 3pt solid #047857; padding: 8pt 14pt; background: #ecfdf5; }
+  .conv-takeaway strong { color: #047857; font-style: normal; font-weight: 700; }
+
+  /* SwipeHire slide */
+  .sh-grid { display: grid; grid-template-columns: 2.6in 1fr 1.85in; gap: 22pt; margin-top: 0pt; align-items: start; }
+  .phone-wrap { display: flex; justify-content: center; align-items: flex-start; padding-top: 4pt; }
+  .phone-svg { width: 2.4in; height: 4.7in; }
+  .layers h3 { font-size: 11pt; color: #0f172a; font-weight: 800; margin-bottom: 8pt; letter-spacing: -0.2pt; }
+  .layers .step { display: grid; grid-template-columns: 0.2in 1fr; gap: 6pt; margin-bottom: 7pt; align-items: start; }
+  .layers .n { font-size: 10pt; color: #047857; font-weight: 800; line-height: 1.5; }
+  .layers .t { font-size: 9.5pt; color: #334155; line-height: 1.45; }
+  .layers .t b { color: #0f172a; font-weight: 700; }
+  .right-col h3 { font-size: 11pt; color: #0f172a; font-weight: 800; margin-bottom: 8pt; letter-spacing: -0.2pt; }
+  .kpi-stack { display: grid; gap: 6pt; margin-bottom: 14pt; }
+  .kpi-stack .k { background: #fff; border: 1pt solid #e2e8f0; border-left: 3pt solid #047857; padding: 7pt 10pt; }
+  .kpi-stack .k .v { font-size: 16pt; color: #0f172a; font-weight: 800; line-height: 1; }
+  .kpi-stack .k .l { font-size: 8.5pt; color: #64748b; margin-top: 3pt; font-weight: 600; }
+  .stack-chips { display: flex; flex-wrap: wrap; gap: 4pt; }
+  .stack-chips .chip { font-size: 8.5pt; color: #334155; background: #fff; border: 1pt solid #e2e8f0; padding: 3pt 8pt; border-radius: 3pt; }
+  .sh-note { margin-top: 14pt; font-size: 9.5pt; color: #475569; font-style: italic; border-top: 1pt solid #cbd5e1; padding-top: 10pt; max-width: 10in; }
+  .sh-note strong { color: #047857; font-weight: 700; font-style: normal; }
+
+  /* Pixis budget slide */
+  .pixis-grid { display: grid; grid-template-columns: 1.05fr 1fr; gap: 24pt; margin-top: 6pt; align-items: start; }
+  .budget-chart { width: 100%; height: 4.2in; }
+  .channels-list h3 { font-size: 11pt; color: #0f172a; font-weight: 800; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .channels-list .ch { display: grid; grid-template-columns: 1in 1fr 0.55in; gap: 10pt; padding: 7pt 0; border-bottom: 1pt solid #e2e8f0; align-items: center; font-size: 10pt; }
+  .channels-list .ch .nm { font-weight: 700; color: #0f172a; }
+  .channels-list .ch .role { color: #475569; font-size: 9pt; }
+  .channels-list .ch .pct { text-align: right; color: #047857; font-weight: 800; }
+  .pixis-callout { margin-top: 14pt; background: #ecfdf5; border-left: 3pt solid #047857; padding: 10pt 14pt; font-size: 10pt; color: #064e3b; line-height: 1.55; }
+  .pixis-callout strong { color: #047857; font-weight: 700; }
+
+  /* Week one */
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 8pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #047857; padding: 14pt 14pt 12pt 14pt; }
+  .card .label { font-size: 8.5pt; color: #047857; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 13pt; font-weight: 800; color: #0f172a; line-height: 1.18; margin-bottom: 8pt; }
+  .card .body { font-size: 9.5pt; color: #334155; line-height: 1.5; margin-bottom: 8pt; }
+  .card .why { font-size: 9pt; color: #64748b; line-height: 1.5; padding-top: 8pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #047857; font-weight: 700; }
+
+  /* Close */
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 1in; padding-right: 1in; }
+  .close h2 { font-size: 30pt; max-width: 8.5in; margin-bottom: 16pt; }
+  .close .body { font-size: 11.5pt; color: #334155; line-height: 1.6; max-width: 8.5in; }
+  .close .body p { margin-bottom: 10pt; }
+  .close .body strong { color: #047857; font-weight: 700; }
+  .close .cta { margin-top: 22pt; display: inline-flex; gap: 14pt; align-items: center; }
+  .close .cta .btn { background: #0f172a; color: #fff; padding: 11pt 22pt; border-radius: 3pt; font-weight: 700; font-size: 11pt; letter-spacing: 0.3pt; }
+  .close .cta .alt { font-size: 10.5pt; color: #64748b; font-style: italic; }
+  .close .contact { margin-top: 24pt; font-size: 10pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<!-- SLIDE 1 - COVER -->
+<div class="slide cover">
+  <div class="prep">Prepared for the Handshake AI Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Senior Growth Marketer, Handshake AI</div>
+  <h1>I built a smaller version of what you're building.</h1>
+  <div class="sub">Now I want to scale it with you.</div>
+  <div class="tags">
+    <div class="tag"><strong>SwipeHire</strong> - AI career platform shipped solo, 50+ users, +25% activation</div>
+    <div class="tag"><strong>Pixis</strong> - $1.4M aggregate book across 6 paid channels</div>
+    <div class="tag"><strong>NSE Bot</strong> - second AI product, Python + Claude API</div>
+    <div class="tag"><strong>4</strong> Anthropic Claude Certifications</div>
+    <div class="tag">Cursor + Claude as daily workflow</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">Boston, MA | arokhith@gmail.com | (929) 563-9974 | adhi-growth-ai.vercel.app/ref/handshake</div>
+  </div>
+  <div class="brand">Handshake AI | Adhithya Rokhith Bhaskar</div>
+  <div class="num">01 / 06</div>
+</div>
+
+<!-- SLIDE 2 - THE CONVERGENCE -->
+<div class="slide">
+  <div class="eyebrow">Slide 02 | The Convergence</div>
+  <h2>SwipeHire and Handshake AI are <span class="accent">the same product, at different scales.</span></h2>
+  <div class="lede">Most growth-marketing applicants pitch capabilities they could bring. I'd rather point at the product I've been running for the last two years that overlaps structurally with what Handshake AI is doing at $1B scale.</div>
+
+  <table class="conv-table">
+    <thead>
+      <tr>
+        <th class="row-label">Dimension</th>
+        <th style="width: 4.5in;">SwipeHire (mine, solo)</th>
+        <th>Handshake AI (yours, $1B run-rate)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="row-label">Network ICP</td>
+        <td><b>Early-career + international students</b> with specialized skill profiles - tomorrow's PhDs and researchers.</td>
+        <td><b>PhDs + researchers + subject-matter specialists</b> contributing to frontier AI work.</td>
+      </tr>
+      <tr>
+        <td class="row-label">Match logic</td>
+        <td><b>LLM-scored JD-to-resume fit</b> on top of deterministic skill overlap. Visa-aware filtering as a first-class signal.</td>
+        <td><b>Expert-to-task matching</b> across evals, data labeling, model-eval workflows.</td>
+      </tr>
+      <tr>
+        <td class="row-label">Stack</td>
+        <td>Python + OpenAI API + React. GA4 + GTM + Amplitude wired day one.</td>
+        <td>(Presumably) LLM orchestration over expert workflows, customer data warehouse, eval-loop infrastructure.</td>
+      </tr>
+      <tr>
+        <td class="row-label">Growth motion</td>
+        <td>SEO + referral + paid social, A/B'd at low spend before scaling. Lifecycle email on activation + retention.</td>
+        <td><b>Multi-channel paid + SEO + community + lifecycle</b> - the literal JD.</td>
+      </tr>
+      <tr>
+        <td class="row-label">Validation</td>
+        <td><b>50 users, 8 A/B tests on activation, +25% activation lift V1 to V2, weekly cohort retention.</b></td>
+        <td>30K experts, $60M/month paid out, frontier-lab partnerships.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="conv-takeaway"><strong>The operator surface is the same.</strong> What changes between SwipeHire and Handshake AI is scale, audience seniority, and the type of work the expert does at the other end. The eight-layer GTM motion - ICP, acquisition, onboarding, match, instrumentation, A/B, retention, community - is identical.</div>
+
+  <div class="brand">Handshake AI | Adhithya Rokhith Bhaskar</div>
+  <div class="num">02 / 06</div>
+</div>
+
+<!-- SLIDE 3 - SWIPEHIRE DEEP DIVE -->
+<div class="slide">
+  <div class="eyebrow">Slide 03 | SwipeHire - What I Actually Shipped</div>
+  <h2>An AI career platform shipped <span class="accent">as a GTM motion.</span></h2>
+  <div class="lede">Python + OpenAI API + React. ICP defined, acquisition designed, onboarding rebuilt, A/B-tested, instrumented, retained. The eight layers, solo.</div>
+
+  <div class="sh-grid">
+    <!-- Phone mockup -->
+    <div class="phone-wrap">
+      <svg viewBox="0 0 240 460" class="phone-svg">
+        <rect x="0" y="0" width="240" height="460" rx="26" fill="#0f172a"/>
+        <rect x="6" y="6" width="228" height="448" rx="22" fill="#fafaf5"/>
+        <text x="20" y="22" font-size="9" fill="#0f172a" font-weight="700">9:41</text>
+        <rect x="100" y="11" width="40" height="6" rx="3" fill="#0f172a"/>
+        <text x="220" y="22" text-anchor="end" font-size="9" fill="#0f172a" font-weight="700">100%</text>
+        <text x="20" y="46" font-size="13" font-weight="800" fill="#0f172a">SwipeHire</text>
+        <text x="220" y="46" text-anchor="end" font-size="14" fill="#64748b" font-weight="700">...</text>
+        <rect x="14" y="62" width="212" height="328" rx="12" fill="#fff" stroke="#e2e8f0" stroke-width="1"/>
+        <circle cx="44" cy="92" r="18" fill="#ecfdf5" stroke="#047857" stroke-width="1.5"/>
+        <text x="44" y="98" text-anchor="middle" font-size="13" font-weight="800" fill="#047857">H</text>
+        <text x="72" y="88" font-size="10.5" font-weight="800" fill="#0f172a">AI Trainer, Physics</text>
+        <text x="72" y="102" font-size="8.5" fill="#64748b">Handshake AI  Remote US</text>
+        <rect x="22" y="124" width="196" height="40" rx="6" fill="#ecfdf5"/>
+        <text x="32" y="142" font-size="7" fill="#047857" font-weight="700" letter-spacing="0.8">MATCH SCORE</text>
+        <text x="208" y="148" text-anchor="end" font-size="18" font-weight="800" fill="#047857">94%</text>
+        <text x="32" y="158" font-size="7.5" fill="#065f46">PhD-track + AI literacy + technical writing</text>
+        <rect x="22" y="178" width="64" height="18" rx="9" fill="#e2e8f0"/>
+        <text x="54" y="190" text-anchor="middle" font-size="7" fill="#334155" font-weight="600">Visa-aware</text>
+        <rect x="92" y="178" width="46" height="18" rx="9" fill="#e2e8f0"/>
+        <text x="115" y="190" text-anchor="middle" font-size="7" fill="#334155" font-weight="600">Contract</text>
+        <rect x="144" y="178" width="56" height="18" rx="9" fill="#e2e8f0"/>
+        <text x="172" y="190" text-anchor="middle" font-size="7" fill="#334155" font-weight="600">Remote US</text>
+        <text x="22" y="218" font-size="7.5" fill="#64748b" font-weight="700" letter-spacing="0.6">SKILLS MATCHED</text>
+        <text x="22" y="232" font-size="8" fill="#0f172a">Physics  Python  LaTeX</text>
+        <text x="22" y="246" font-size="8" fill="#0f172a">RLHF eval  Annotation  Technical writing</text>
+        <rect x="22" y="258" width="196" height="68" rx="6" fill="#f1f5f9"/>
+        <text x="30" y="274" font-size="7" fill="#64748b" font-weight="700" letter-spacing="0.6">AI RATIONALE</text>
+        <text x="30" y="288" font-size="7.5" fill="#475569" font-style="italic">"Your physics PhD and recent</text>
+        <text x="30" y="299" font-size="7.5" fill="#475569" font-style="italic">arXiv contributions map to</text>
+        <text x="30" y="310" font-size="7.5" fill="#475569" font-style="italic">Handshake AI's eval tasks</text>
+        <text x="30" y="321" font-size="7.5" fill="#475569" font-style="italic">on quantum simulation."</text>
+        <rect x="22" y="340" width="196" height="36" rx="6" fill="#fff" stroke="#cbd5e1" stroke-width="1"/>
+        <text x="32" y="354" font-size="7.5" fill="#0f172a" font-weight="700">Application auto-tailored</text>
+        <text x="32" y="367" font-size="7" fill="#64748b">12 skills aligned, JD-specific summary</text>
+        <text x="210" y="362" text-anchor="end" font-size="11" fill="#047857" font-weight="800">↻</text>
+        <circle cx="78" cy="418" r="20" fill="#fff" stroke="#cbd5e1" stroke-width="1.5"/>
+        <text x="78" y="424" text-anchor="middle" font-size="14" fill="#64748b">×</text>
+        <circle cx="162" cy="418" r="20" fill="#047857"/>
+        <text x="162" y="424" text-anchor="middle" font-size="14" font-weight="800" fill="#fff">✓</text>
+        <text x="78" y="450" text-anchor="middle" font-size="7" fill="#94a3b8" letter-spacing="0.5">SKIP</text>
+        <text x="162" y="450" text-anchor="middle" font-size="7" fill="#94a3b8" letter-spacing="0.5">APPLY</text>
+      </svg>
+    </div>
+
+    <div class="layers">
+      <h3>The eight layers, shipped solo</h3>
+      <div class="step"><div class="n">01</div><div class="t"><b>ICP defined.</b> Early-career + international students with specialized profiles. 12 user interviews before any code.</div></div>
+      <div class="step"><div class="n">02</div><div class="t"><b>Acquisition.</b> SEO + referral + paid social, channel-tested at low spend before scaling.</div></div>
+      <div class="step"><div class="n">03</div><div class="t"><b>Onboarding.</b> Resume parser on the OpenAI API, structured JSON output, skill normalization on a controlled taxonomy.</div></div>
+      <div class="step"><div class="n">04</div><div class="t"><b>Match.</b> LLM-scored JD-to-resume fit. Deterministic skill overlap as the floor; LLM reasons on top.</div></div>
+      <div class="step"><div class="n">05</div><div class="t"><b>Apply.</b> One-tap apply with a CV auto-tailored to the JD - skill alignment + JD-specific summary, generated server-side.</div></div>
+      <div class="step"><div class="n">06</div><div class="t"><b>Instrument.</b> GA4 + GTM + Amplitude wired day one. Custom events on every meaningful step in the funnel.</div></div>
+      <div class="step"><div class="n">07</div><div class="t"><b>Test.</b> 8 A/B variants on registration + activation flows. Sample-size + significance gates up front.</div></div>
+      <div class="step"><div class="n">08</div><div class="t"><b>Retain.</b> Weekly cohort retention reviewed. Channel-by-cohort split surfaced where attribution lied.</div></div>
+    </div>
+
+    <div class="right-col">
+      <h3>Outcomes</h3>
+      <div class="kpi-stack">
+        <div class="k"><div class="v">50+</div><div class="l">Early users onboarded</div></div>
+        <div class="k"><div class="v">8</div><div class="l">A/B tests on activation</div></div>
+        <div class="k"><div class="v">+25%</div><div class="l">Activation lift V1 to V2</div></div>
+        <div class="k"><div class="v">4 wks</div><div class="l">Of cohort retention tracked</div></div>
+      </div>
+      <h3>Stack</h3>
+      <div class="stack-chips">
+        <div class="chip">Python</div>
+        <div class="chip">OpenAI API</div>
+        <div class="chip">React</div>
+        <div class="chip">GA4</div>
+        <div class="chip">GTM</div>
+        <div class="chip">Amplitude</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sh-note"><strong>The card above is mocked for Handshake AI's audience.</strong> The architecture - LLM match scoring, visa-aware filtering, auto-tailored apply - is the production build. Swap "Sr Marketing Analyst" for "AI Trainer, Physics" and the loop is identical.</div>
+
+  <div class="brand">Handshake AI | Adhithya Rokhith Bhaskar</div>
+  <div class="num">03 / 06</div>
+</div>
+
+<!-- SLIDE 4 - PIXIS 7-FIGURE BUDGET -->
+<div class="slide">
+  <div class="eyebrow">Slide 04 | The "7-Figure Across 2+ Channels" Must-Have</div>
+  <h2>Pixis: $1.4M aggregate book <span class="accent">across six paid channels.</span></h2>
+  <div class="lede">Three years ago, on an 8-client D2C portfolio with per-client monthly budgets of $15K-$90K. The literal must-have in the JD, with the channel mix annotated.</div>
+
+  <div class="pixis-grid">
+    <svg viewBox="0 0 460 360" class="budget-chart">
+      <text x="20" y="22" font-size="10" fill="#047857" font-weight="700" letter-spacing="1.5">$1.4M AGGREGATE BOOK</text>
+      <text x="440" y="22" text-anchor="end" font-size="9" fill="#64748b" font-style="italic">illustrative split, 8-client D2C portfolio</text>
+
+      <!-- Stacked horizontal bar showing 6 channels totaling $1.4M -->
+      <rect x="20" y="50" width="120" height="34" fill="#047857"/>
+      <rect x="140" y="50" width="105" height="34" fill="#10b981"/>
+      <rect x="245" y="50" width="65" height="34" fill="#34d399"/>
+      <rect x="310" y="50" width="60" height="34" fill="#6ee7b7"/>
+      <rect x="370" y="50" width="45" height="34" fill="#a7f3d0"/>
+      <rect x="415" y="50" width="25" height="34" fill="#d1fae5" stroke="#047857" stroke-width="0.5"/>
+
+      <text x="80" y="71" text-anchor="middle" font-size="9" fill="#fff" font-weight="800">Google 30%</text>
+      <text x="192" y="71" text-anchor="middle" font-size="9" fill="#fff" font-weight="800">Meta 26%</text>
+      <text x="277" y="71" text-anchor="middle" font-size="9" fill="#fff" font-weight="800">LinkedIn 16%</text>
+      <text x="340" y="71" text-anchor="middle" font-size="9" fill="#064e3b" font-weight="800">Criteo 15%</text>
+      <text x="392" y="71" text-anchor="middle" font-size="8" fill="#064e3b" font-weight="800">Amazon 11%</text>
+      <text x="427" y="71" text-anchor="middle" font-size="7" fill="#064e3b" font-weight="800">Prog 2%</text>
+
+      <!-- Below: per-client range visualization -->
+      <text x="20" y="125" font-size="10" fill="#047857" font-weight="700" letter-spacing="1.5">PER-CLIENT MONTHLY BUDGETS, $15K-$90K</text>
+      <text x="440" y="125" text-anchor="end" font-size="9" fill="#64748b">8 clients, weekly client CFO QBRs</text>
+
+      <!-- 8 client bars sorted by spend -->
+      <g font-size="8" fill="#0f172a" font-weight="700">
+        <rect x="20" y="140" width="180" height="14" fill="#047857"/>
+        <text x="206" y="151">Client A $90K  FinTech B2B  Google + LinkedIn + Prog</text>
+        <rect x="20" y="160" width="144" height="14" fill="#10b981"/>
+        <text x="170" y="171">Client B $72K  WealthTech  LinkedIn + Prog</text>
+        <rect x="20" y="180" width="130" height="14" fill="#10b981"/>
+        <text x="156" y="191">Client D $65K  SaaS  Google + Prog</text>
+        <rect x="20" y="200" width="116" height="14" fill="#34d399"/>
+        <text x="142" y="211">Client C $58K  InsureTech  Meta + LinkedIn</text>
+        <rect x="20" y="220" width="90" height="14" fill="#34d399"/>
+        <text x="116" y="231">Client E $45K  Compliance SaaS  LinkedIn + Prog</text>
+        <rect x="20" y="240" width="64" height="14" fill="#6ee7b7"/>
+        <text x="90" y="251">Client F $32K  Vertical SaaS  Google + Meta</text>
+        <rect x="20" y="260" width="44" height="14" fill="#6ee7b7"/>
+        <text x="70" y="271">Client G $22K  SaaS B2B  LinkedIn + Prog</text>
+        <rect x="20" y="280" width="30" height="14" fill="#a7f3d0"/>
+        <text x="56" y="291">Client H $15K  E-Comm  Meta + Shopping</text>
+      </g>
+
+      <text x="230" y="324" text-anchor="middle" font-size="9.5" fill="#475569" font-style="italic">Six channels. Eight clients. Weekly QBRs to client CFOs.</text>
+      <text x="230" y="340" text-anchor="middle" font-size="9.5" fill="#475569" font-style="italic">Holdout-incrementality work on one beauty client drove 3x ROAS in a single month.</text>
+    </svg>
+
+    <div class="channels-list">
+      <h3>Channel ownership (illustrative)</h3>
+      <div class="ch">
+        <div class="nm">Google Ads</div>
+        <div class="role">Branded + non-branded + Shopping</div>
+        <div class="pct">~30%</div>
+      </div>
+      <div class="ch">
+        <div class="nm">Meta</div>
+        <div class="role">Prospecting + retargeting, creative cadence weekly</div>
+        <div class="pct">~26%</div>
+      </div>
+      <div class="ch">
+        <div class="nm">LinkedIn</div>
+        <div class="role">ABM for B2B SaaS clients in the book</div>
+        <div class="pct">~16%</div>
+      </div>
+      <div class="ch">
+        <div class="nm">Criteo</div>
+        <div class="role">Retail-media for D2C beauty + fashion clients</div>
+        <div class="pct">~15%</div>
+      </div>
+      <div class="ch">
+        <div class="nm">Amazon Ads</div>
+        <div class="role">Sponsored Products + Brands for e-commerce</div>
+        <div class="pct">~11%</div>
+      </div>
+      <div class="ch">
+        <div class="nm">Programmatic</div>
+        <div class="role">Adobe-driven DSP for awareness + retargeting</div>
+        <div class="pct">~2%</div>
+      </div>
+
+      <div class="pixis-callout"><strong>The diagnostic that mattered:</strong> blended ROAS read fine across the book. On the beauty client, a holdout-incrementality slice exposed two over-credited channels. Reallocated based on true lift; the brand cleared <strong>3x ROAS</strong> the next month. That's the muscle Handshake AI's growth seat will need every week.</div>
+    </div>
+  </div>
+
+  <div class="brand">Handshake AI | Adhithya Rokhith Bhaskar</div>
+  <div class="num">04 / 06</div>
+</div>
+
+<!-- SLIDE 5 - WEEK ONE -->
+<div class="slide">
+  <div class="eyebrow">Slide 05 | Week One</div>
+  <h2>Three things I'd ship <span class="accent">in week one for the expert network.</span></h2>
+  <div class="lede">Concrete, not aspirational. Scoped to what would compound fastest for an expert-acquisition + retention motion at Handshake AI's current scale.</div>
+
+  <div class="week">
+    <div class="card">
+      <div class="label">Ship 1 - Acquisition</div>
+      <div class="ttl">Top-50 CS-PhD ABM campaign on LinkedIn</div>
+      <div class="body">LinkedIn ABM targeting active PhD candidates at top-50 CS departments. Audience layers built on program + research area + advisor. Creative tied to a specific eval-task domain. Lead form connected to a referral incentive paid on first contribution.</div>
+      <div class="why"><strong>Why first.</strong> Universities are the deepest source of net-new researcher supply. ABM beats broadcast at PhD-level intent. The referral hook is the kind of structured experiment that pays for itself fast.</div>
+    </div>
+
+    <div class="card">
+      <div class="label">Ship 2 - Lifecycle</div>
+      <div class="ttl">"First Contribution in 14 Days" email sequence</div>
+      <div class="body">Five-email lifecycle for newly-onboarded experts. Day 0 welcome with first task suggestion. Day 3, 7, 10, 14 nudges with progressively richer task matches. A/B'd on subject line, on send-time, on task-match algorithm. Drop-off measured at every step.</div>
+      <div class="why"><strong>Why first.</strong> Activation is where expert-network economics live or die. A 14-day measured sequence cuts the time-to-first-contribution and gives the team a clean experimentation surface.</div>
+    </div>
+
+    <div class="card">
+      <div class="label">Ship 3 - SEO + Content</div>
+      <div class="ttl">"Side income for researchers" content cluster</div>
+      <div class="body">Five-piece content cluster optimized for "PhD AI training income", "academic side work in AI", "research RLHF side gigs", and adjacent intent queries. Schema marked up for AI Overview citation. Founder-led distribution via LinkedIn + Twitter + research forums.</div>
+      <div class="why"><strong>Why first.</strong> Organic compounding. The expert network's recruiting story is a content category nobody owns yet. Owning these queries today pays back for years.</div>
+    </div>
+  </div>
+
+  <div class="brand">Handshake AI | Adhithya Rokhith Bhaskar</div>
+  <div class="num">05 / 06</div>
+</div>
+
+<!-- SLIDE 6 - CLOSE -->
+<div class="slide close">
+  <div class="eyebrow">Slide 06 | The Ask</div>
+  <h2>What I'd want from <span class="accent">the first fifteen minutes.</span></h2>
+  <div class="body">
+    <p><strong>What I'd want to understand:</strong> how Handshake AI is currently splitting growth investment between acquisition (university partnerships, paid ABM) and retention (lifecycle, expert satisfaction); which of the three week-one ships would die first inside the current stack and why; and where the team is putting their thumbs on the scale between SEO compounding and paid scaling right now.</p>
+    <p><strong>What I'd bring:</strong> a one-pager on how I'd structure the first 90 days, an honest opinion on the tradeoff between optimizing for expert-network breadth (more contributors) versus depth (more contributions per contributor), and a working version of one of the week-one ships scoped to whatever sample data is shareable.</p>
+    <p>Remote works. Boston-based for whenever in-person matters.</p>
+  </div>
+  <div class="cta">
+    <div class="btn">15 min with the Handshake AI team</div>
+    <div class="alt">or written async if that's easier on your week</div>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong><br>
+    arokhith@gmail.com | (929) 563-9974 | Boston, MA<br>
+    Portfolio: adhi-growth-ai.vercel.app/ref/handshake<br>
+    LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">Handshake AI | Adhithya Rokhith Bhaskar</div>
+  <div class="num">06 / 06</div>
+</div>
+
+</body>
+</html>

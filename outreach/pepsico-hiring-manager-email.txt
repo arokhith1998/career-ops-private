@@ -1,0 +1,27 @@
+TO: [Hiring Manager Name], Director / Head of AI & Digital Capabilities, Gatorade (PepsiCo)
+PLATFORM: Email
+ROLE: Associate Marketing Manager, AI & Digital Transformation (Gatorade), Chicago
+JOB ID: 438050
+---
+
+Subject: Job 438050, GEO will matter more than SEO within two years
+
+Hi [Name],
+
+When a consumer asks an AI assistant "what's the best electrolyte drink for a marathon," the answer does not come from a Google SERP anymore. It comes from a model that has ingested your site's structured data, taxonomy, and content authority. The brand that wins this transition is the one that treats its owned platform as AI training material, not just a consumer destination.
+
+Just applied for the Associate Marketing Manager role on your team. Quick proof I can operate at this intersection:
+
+- Built a production AI product (SwipeHire) using OpenAI API: prompt engineering, structured output parsing, AI content generation pipelines. Understand how models consume, rank, and surface content
+- Owned D2C platform ops at GenY: Shopify, WordPress, Google Merchant, seasonal content calendar, product feed hygiene, 16x ROAS
+- Built CRM/lifecycle from scratch at Plug Power: HubSpot automation, Salesforce, segmentation, -25% CPA
+- Managed cross-functional execution calendar at Sensata: 100+ feature backlog, 3 regions, cut TTM 20%
+- 8+ structured A/B tests on AI-generated content and activation flows at SwipeHire (+25% lift)
+
+Would love 15 minutes to hear how the team is thinking about the GEO transition right now. If this sits with someone else, a pointer is amazing too.
+
+Resume + cover letter + portfolio: https://adhithyabhaskar.vercel.app/ref/pepsico
+
+Best,
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com | (929) 563-9974

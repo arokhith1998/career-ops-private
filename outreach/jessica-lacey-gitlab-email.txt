@@ -1,0 +1,28 @@
+TO: Jessica Lacey — AI Certified Sr Recruiter (G&A/Marketing) @ GitLab
+PLATFORM: Email
+ROLE: Senior Data Analyst, Marketing Analytics
+LINKEDIN: https://www.linkedin.com/in/jessica-lacey-1578072/
+---
+
+Subject: Applied for Sr Data Analyst, Marketing Analytics — quick intro
+
+Hi Jessica,
+
+Applied for the Senior Data Analyst, Marketing Analytics role and wanted to put a name to the application. Quick context:
+
+- The JD requires "Claude with MCP" and AI-assisted analytics. I hold 4 Anthropic Claude certifications and built a production analytics tool using Claude's API in Cursor. Not a checkbox — I've shipped with these tools.
+
+- Built multi-touch attribution from zero at Plug Power (Salesforce + Adobe Analytics + GA + GTM → full B2B funnel tracking). Cut CPA 25%.
+
+- Managed $1.4M in campaign analytics at Pixis — owned attribution dashboards tracking iROAS, incrementality, and conversion lift across Google, Meta, and programmatic.
+
+- MS in Marketing Analytics from Simon Business School. SQL and Python daily.
+
+Resume, cover letter, and portfolio attached:
+https://adhithyabhaskar.vercel.app/ref/gitlab
+
+Happy to chat if this role is on your desk.
+
+Best,
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com | (929) 563-9974

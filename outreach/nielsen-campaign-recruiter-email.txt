@@ -1,0 +1,27 @@
+TO: [Recruiter Name], Nielsen Talent Acquisition
+PLATFORM: Email
+ROLE: Senior Campaign Manager/Planner (Remote US)
+NOTE: If same recruiter as prior Nielsen Specialist I application (#036), leverage the existing relationship.
+---
+
+Subject: Application, Sr Campaign Manager/Planner (Remote)
+
+Hi [Recruiter Name],
+
+Just applied for the Senior Campaign Manager/Planner role on the Product Marketing team. Stronger fit for my profile than the Senior Digital Marketing Specialist I posting I also submitted. Quick fit:
+
+- Plug Power: rebuilt full MarTech stack (Salesforce + HubSpot + Adobe + GA + GTM), closed-loop attribution ad click to SQL, pixel + tag architecture. -25% CPA, +20% conversion. Direct match for the full-funnel + attribution language in the JD.
+- Pixis: 8-client enterprise AI SaaS campaign book, $1.4M shared budget (Google, Meta, programmatic). 3x ROAS fashion, -50% churn. Per-vertical executive narratives for CMO stakeholders.
+- SwipeHire (founder): production AI product on OpenAI API + React. Full-funnel solo (50+ users, +25% activation via 8+ A/B tests, GA4 + GTM + cohort dashboards).
+- CAC / LTV / ROAS / MER metrics fluency. MS Marketing Analytics (Simon, Rochester). Power BI on $627M pipeline at Sensata.
+- 4 Anthropic Claude certifications (incl. Building with the Claude API) for AI-accelerated experimentation.
+
+Boston-based, remote-ideal, zero relocation. Available to screen this week. Comp target: top of posted band ($120K-$130K base).
+
+One ask: can you confirm Nielsen's H-1B sponsorship posture for this role? Nielsen is a confirmed sponsor at parent level; want to confirm role-specific.
+
+Resume, cover letter, portfolio: https://adhithyabhaskar.vercel.app/ref/nielsen
+
+Thanks,
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com | (929) 563-9974

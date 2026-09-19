@@ -1,0 +1,28 @@
+TO: [Hiring Manager Name], Head / Director of Growth Marketing, Ramp
+PLATFORM: Email
+ROLE: Growth Manager, Website CRO, Ramp, New York NY
+---
+
+Subject: Growth Manager, Website CRO, I run this loop for a living
+
+Hi [Name],
+
+Website CRO is the cheapest growth lever most companies never fully pull, usually because the testing loop is broken: hypotheses in one person's head, leaky instrumentation, slow reads. The growth manager who moves the number treats the loop as a product.
+
+Just applied for the Growth Manager, Website CRO role. Quick proof:
+
+- SwipeHire: built a production AI product on OpenAI API + React; 8+ A/B tests on landing and onboarding; activation +25%; full GA4 + GTM + event tracking stack
+- Pixis: ran growth on an AI adtech SaaS ($1.4M across 8 enterprise clients, 3x ROAS in 30 days, -50% churn, weekly experimentation cycles)
+- Plug Power: owned website CRO + paid; built the Salesforce + Adobe Analytics + GA + GTM stack from scratch; -25% CPA, +20% conversion
+- Sensata: SQL + GA4 KPI framework on 50K+ devices, +18% feature adoption, $2M+ first-year pipeline
+- Claude Cowork + Building with Claude API + Claude Code + Claude 101 certified; AI-augmented workflows daily
+
+MS Marketing Analytics (Simon, Rochester) + BE Mechanical (BITS Pilani). Committed to relocating to NY.
+
+Would love 20 minutes on where the funnel currently leaks and what the first three tests should be.
+
+Resume + cover letter + portfolio: https://adhithyabhaskar.vercel.app/ref/ramp
+
+Best,
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com | (929) 563-9974

@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Growth Lead Sample Work | Openmart | Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  @page { size: 11in 8.5in; margin: 0; }
+  body { font-family: Calibri, Arial, Helvetica, sans-serif; font-size: 10pt; line-height: 1.35; color: #111; background: #fff; }
+  .slide { width: 11in; height: 8.5in; padding: 0.4in 0.55in; page-break-after: always; overflow: hidden; position: relative; }
+  .slide:last-child { page-break-after: auto; }
+
+  .slide-num { position: absolute; top: 0.3in; right: 0.55in; font-size: 8pt; color: #999; letter-spacing: 0.6pt; text-transform: uppercase; }
+  .slide-footer { position: absolute; bottom: 0.25in; left: 0.55in; right: 0.55in; border-top: 0.5pt solid #ddd; padding-top: 6pt; font-size: 7.5pt; color: #888; display: flex; justify-content: space-between; }
+
+  .accent { color: #6d3bc7; }
+
+  /* Title slide */
+  .title-slide { display: flex; flex-direction: column; justify-content: center; align-items: flex-start; }
+  .title-slide .label { font-size: 9pt; letter-spacing: 1.5pt; color: #6d3bc7; text-transform: uppercase; font-weight: 700; margin-bottom: 14pt; }
+  .title-slide h1 { font-size: 38pt; font-weight: 800; line-height: 1.05; margin-bottom: 12pt; color: #0a0a0a; }
+  .title-slide .sub { font-size: 16pt; color: #444; font-weight: 400; margin-bottom: 26pt; line-height: 1.3; max-width: 7.8in; }
+  .title-slide .name { font-size: 11pt; color: #222; }
+  .title-slide .name strong { color: #6d3bc7; }
+  .title-slide .meta { margin-top: 6pt; font-size: 9pt; color: #666; }
+
+  /* Section */
+  .slide h2.section-title { font-size: 22pt; font-weight: 800; color: #0a0a0a; line-height: 1.1; margin-bottom: 5pt; }
+  .slide .jd-quote { font-size: 10pt; color: #555; font-style: italic; border-left: 3pt solid #6d3bc7; padding-left: 9pt; margin-bottom: 16pt; max-width: 9.5in; line-height: 1.4; }
+
+  /* KPI tiles */
+  .kpi-row { display: flex; gap: 12pt; margin-bottom: 14pt; }
+  .kpi-tile { flex: 1; background: #f6f3fc; border-radius: 4pt; padding: 12pt; border: 0.5pt solid #e3dcf3; }
+  .kpi-tile .kpi-label { font-size: 7.5pt; color: #777; text-transform: uppercase; letter-spacing: 0.6pt; margin-bottom: 4pt; font-weight: 600; }
+  .kpi-tile .kpi-value { font-size: 18pt; font-weight: 800; color: #6d3bc7; line-height: 1.05; }
+  .kpi-tile .kpi-sub { font-size: 8pt; color: #666; margin-top: 3pt; }
+
+  /* Two-col */
+  .two-col { display: flex; gap: 20pt; }
+  .col-left { flex: 1.15; }
+  .col-right { flex: 1; }
+
+  /* Tables */
+  .dash-table { width: 100%; border-collapse: collapse; font-size: 8.5pt; margin-bottom: 8pt; background: #fafbfd; border: 0.5pt solid #e3dcf3; border-radius: 3pt; overflow: hidden; }
+  .dash-table th { background: #6d3bc7; color: #fff; padding: 6pt 8pt; text-align: left; font-size: 7.5pt; letter-spacing: 0.5pt; text-transform: uppercase; font-weight: 700; }
+  .dash-table td { padding: 5pt 8pt; border-bottom: 0.4pt solid #ece6f7; }
+  .dash-table tr:last-child td { border-bottom: none; }
+  .dash-table .pos { color: #117a3a; font-weight: 700; }
+  .dash-table .neg { color: #b3261e; font-weight: 700; }
+  .dash-table .num { font-variant-numeric: tabular-nums; text-align: right; }
+
+  /* Captions */
+  .caption { font-size: 9pt; color: #444; line-height: 1.42; margin-top: 10pt; padding: 8pt 10pt; background: #f8f6fd; border-left: 2.5pt solid #6d3bc7; border-radius: 2pt; }
+  .caption strong { color: #111; }
+
+  /* Charts */
+  .chart-box { background: #fafbfd; border: 0.5pt solid #e3dcf3; border-radius: 3pt; padding: 10pt; }
+  .chart-title { font-size: 8.5pt; color: #555; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5pt; margin-bottom: 5pt; }
+
+  /* Stack grid */
+  .stack-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8pt; margin-top: 12pt; }
+  .stack-card { background: #f6f3fc; border-radius: 3pt; padding: 9pt 10pt; border: 0.5pt solid #e3dcf3; }
+  .stack-card h4 { font-size: 8pt; color: #6d3bc7; text-transform: uppercase; letter-spacing: 0.5pt; margin-bottom: 4pt; font-weight: 700; }
+  .stack-card p { font-size: 9pt; line-height: 1.32; color: #333; }
+
+  /* Outcome pills */
+  .outcomes { display: flex; gap: 8pt; flex-wrap: wrap; margin-top: 6pt; }
+  .pill { background: #ece4f7; color: #6d3bc7; padding: 3pt 9pt; border-radius: 12pt; font-size: 8.5pt; font-weight: 700; }
+
+  /* Why-cards */
+  .why-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18pt; margin-top: 14pt; }
+  .why-card { padding: 16pt; background: #f6f3fc; border-radius: 4pt; border: 0.5pt solid #e3dcf3; }
+  .why-card h3 { font-size: 11pt; font-weight: 700; color: #6d3bc7; margin-bottom: 6pt; }
+  .why-card p { font-size: 10pt; line-height: 1.42; color: #222; }
+
+  /* Cert badges */
+  .cert-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8pt; margin-top: 6pt; }
+  .cert-badge { display: flex; align-items: center; gap: 8pt; padding: 8pt 10pt; background: #fff; border: 1pt solid #6d3bc7; border-radius: 4pt; }
+  .cert-badge .cert-icon { width: 26pt; height: 26pt; background: #6d3bc7; color: #fff; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 11pt; font-weight: 700; flex-shrink: 0; }
+  .cert-badge .cert-text { font-size: 9pt; color: #222; line-height: 1.25; }
+  .cert-badge .cert-text strong { color: #6d3bc7; display: block; font-size: 9pt; }
+  .cert-badge .cert-text span { font-size: 8pt; color: #777; }
+
+  /* Buyer card */
+  .buyer-card { background: #fff; border: 1pt solid #e3dcf3; border-radius: 4pt; padding: 9pt 11pt; margin-bottom: 6pt; display: flex; justify-content: space-between; align-items: center; }
+  .buyer-card .buyer-info { flex: 1; }
+  .buyer-card .buyer-info strong { font-size: 9.5pt; color: #6d3bc7; display: block; }
+  .buyer-card .buyer-info span { font-size: 8.5pt; color: #555; }
+  .buyer-tag { background: #ece4f7; color: #6d3bc7; padding: 3pt 8pt; border-radius: 8pt; font-size: 8pt; font-weight: 700; }
+
+  @media print {
+    .kpi-tile, .stack-card, .why-card, .caption, .chart-box, .dash-table, .cert-badge, .buyer-card, .pill { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ============== SLIDE 1: TITLE ============== -->
+<div class="slide title-slide">
+  <div class="slide-num">01 / 06</div>
+  <div class="label">Growth Lead | Sample Work</div>
+  <h1>The buyer Openmart sells to<br>is the buyer I market to.</h1>
+  <p class="sub">Pixis B2B SaaS adtech tenure + Plug Power demand engine rebuilt from scratch + AI product shipped solo on OpenAI API. Five slides of evidence, one closing pitch.</p>
+  <div class="name"><strong>Adhithya Rokhith Bhaskar</strong></div>
+  <div class="meta">Boston, MA (open to Bay Area) | arokhith@gmail.com | (929) 563-9974<br>Portfolio: adhi-growth-ai.vercel.app/ref/openmart | LinkedIn: /in/adhithyarokhith</div>
+  <div class="slide-footer">
+    <span>Adhithya Rokhith Bhaskar | Growth Lead | Openmart (YC W24)</span>
+    <span>April 2026</span>
+  </div>
+</div>
+
+<!-- ============== SLIDE 2: ZERO-TO-ONE SHIPPING (SWIPEHIRE) ============== -->
+<div class="slide">
+  <div class="slide-num">02 / 06 | Zero-to-One</div>
+  <h2 class="section-title">Shipped an AI product solo, end-to-end.</h2>
+  <div class="jd-quote">Openmart's growth lead has to launch motions, instrument them, and iterate faster than the buyer's incumbent (ZoomInfo, Apollo) can react. That requires zero-to-one muscle.</div>
+
+  <div class="kpi-row">
+    <div class="kpi-tile">
+      <div class="kpi-label">Users onboarded</div>
+      <div class="kpi-value">50+</div>
+      <div class="kpi-sub">solo build, no team or budget</div>
+    </div>
+    <div class="kpi-tile">
+      <div class="kpi-label">Activation lift</div>
+      <div class="kpi-value" style="color:#117a3a;">+25%</div>
+      <div class="kpi-sub">via 8 A/B tests on the funnel</div>
+    </div>
+    <div class="kpi-tile">
+      <div class="kpi-label">Stack shipped</div>
+      <div class="kpi-value" style="font-size:13pt;">Python + OpenAI + React</div>
+      <div class="kpi-sub">custom CMS, GA4 + GTM day one</div>
+    </div>
+    <div class="kpi-tile">
+      <div class="kpi-label">Cohort cadence</div>
+      <div class="kpi-value" style="font-size:14pt;">Weekly</div>
+      <div class="kpi-sub">retention review informing roadmap</div>
+    </div>
+  </div>
+
+  <div class="two-col">
+    <div class="col-left">
+      <div class="chart-title">SwipeHire activation funnel | 8 A/B tests shipped against it</div>
+      <div class="chart-box" style="padding:14pt 18pt;">
+        <svg viewBox="0 0 560 240" width="100%" height="220" xmlns="http://www.w3.org/2000/svg" style="display:block;" font-family="Calibri, Arial, Helvetica, sans-serif">
+          <!-- Funnel stages, trapezoid widths -->
+          <!-- Stage 1: Visit (100%) width 480, x 40 -->
+          <polygon points="40,30 520,30 480,80 80,80" fill="#6d3bc7"/>
+          <text x="280" y="60" font-size="14" fill="#fff" text-anchor="middle" font-weight="700">Site visit | 100%</text>
+          <!-- Stage 2: Sign-up (62%) width 380, x 90 -->
+          <polygon points="80,82 480,82 440,128 120,128" fill="#7e54d0"/>
+          <text x="280" y="110" font-size="13" fill="#fff" text-anchor="middle" font-weight="700">Sign-up | 62%</text>
+          <!-- Stage 3: First conversation (46%) width 280, x 140 -->
+          <polygon points="120,130 440,130 400,176 160,176" fill="#8f6cd9"/>
+          <text x="280" y="158" font-size="13" fill="#fff" text-anchor="middle" font-weight="700">First conversation | 46%</text>
+          <!-- Stage 4: Activation event 3+ conv week 1 (38%) -->
+          <polygon points="160,178 400,178 360,224 200,224" fill="#a587e2"/>
+          <text x="280" y="206" font-size="13" fill="#fff" text-anchor="middle" font-weight="700">Activation event | 38%</text>
+          <!-- side annotations: lift arrows -->
+          <text x="535" y="62" font-size="9" fill="#444" font-weight="700">+11%</text>
+          <text x="535" y="110" font-size="9" fill="#444" font-weight="700">+18%</text>
+          <text x="535" y="158" font-size="9" fill="#444" font-weight="700">+22%</text>
+          <text x="535" y="206" font-size="9" fill="#117a3a" font-weight="700">+25%</text>
+          <text x="540" y="14" font-size="8" fill="#888">Lift after testing</text>
+        </svg>
+      </div>
+      <div class="caption" style="margin-top:8pt;"><strong>Method:</strong> Identified the activation event (3+ AI tutor conversations in week one) by regressing D30 retention on event-stream variables in Amplitude. Instrumented the funnel to optimize for it. Eight pre-registered A/B tests, win/loss/no-conclusion taxonomy documented.</div>
+    </div>
+
+    <div class="col-right">
+      <div class="chart-title">What "shipped solo" actually meant</div>
+      <table class="dash-table">
+        <tr><th>Layer</th><th>Built</th></tr>
+        <tr><td>Backend</td><td>Python + OpenAI API + Postgres</td></tr>
+        <tr><td>Frontend</td><td>React + custom CMS</td></tr>
+        <tr><td>Instrumentation</td><td>GA4 + GTM event tracking, day one</td></tr>
+        <tr><td>Product analytics</td><td>Amplitude (event taxonomy + cohort)</td></tr>
+        <tr><td>Positioning</td><td>ICP teardown, visa-aware messaging</td></tr>
+        <tr><td>Acquisition</td><td>Reddit (r/cscareerquestions, r/h1b), Twitter, weekly product updates</td></tr>
+        <tr><td>Iteration loop</td><td>Weekly retention cohort review</td></tr>
+      </table>
+
+      <div class="outcomes" style="margin-top:10pt;">
+        <span class="pill">50+ users</span>
+        <span class="pill">+25% activation</span>
+        <span class="pill">8 A/B tests</span>
+        <span class="pill">4 weeks to v1</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="slide-footer"><span>SwipeHire (zero-to-one solo build)</span><span>Funnel illustrative; outcomes and methodology are real</span></div>
+</div>
+
+<!-- ============== SLIDE 3: AI-NATIVE EXECUTION (THE ONE THE USER LOVES) ============== -->
+<div class="slide">
+  <div class="slide-num">03 / 06 | AI-Native Execution</div>
+  <h2 class="section-title">AI is my workflow, not a side project.</h2>
+  <div class="jd-quote">Openmart sells AI productivity to revenue leaders who will audit your claims. The growth lead has to use AI in their own workflow before pitching it to the buyer. I do.</div>
+
+  <div class="kpi-row">
+    <div class="kpi-tile">
+      <div class="kpi-label">Anthropic certifications</div>
+      <div class="kpi-value">4</div>
+      <div class="kpi-sub">101 / Code 101 / Cowork / API</div>
+    </div>
+    <div class="kpi-tile">
+      <div class="kpi-label">AI product shipped</div>
+      <div class="kpi-value" style="font-size:14pt;">SwipeHire</div>
+      <div class="kpi-sub">Python + OpenAI API + React</div>
+    </div>
+    <div class="kpi-tile">
+      <div class="kpi-label">Marketers trained</div>
+      <div class="kpi-value">8</div>
+      <div class="kpi-sub">on AI bidding tools at Pixis</div>
+    </div>
+    <div class="kpi-tile">
+      <div class="kpi-label">Workflow integration</div>
+      <div class="kpi-value" style="font-size:14pt;">Daily</div>
+      <div class="kpi-sub">prompt-based iteration default</div>
+    </div>
+  </div>
+
+  <div class="two-col">
+    <div class="col-left">
+      <div class="chart-title">How AI shows up in my actual marketing workflow</div>
+      <div class="chart-box" style="padding:14pt 18pt;">
+        <svg viewBox="0 0 560 290" width="100%" height="270" xmlns="http://www.w3.org/2000/svg" style="display:block;" font-family="Calibri, Arial, Helvetica, sans-serif">
+          <!-- Center hub: AI tools -->
+          <rect x="200" y="115" width="160" height="60" rx="8" ry="8" fill="#6d3bc7" stroke="#5028a3" stroke-width="1.5"/>
+          <text x="280" y="138" font-size="11" fill="#fff" text-anchor="middle" font-weight="700">Claude API + OpenAI API</text>
+          <text x="280" y="155" font-size="9" fill="#e8d8ff" text-anchor="middle">prompt-based iteration loop</text>
+          <text x="280" y="168" font-size="9" fill="#e8d8ff" text-anchor="middle">(creative + copy + insight + analysis)</text>
+
+          <!-- Surrounding nodes (5 use-cases) -->
+          <!-- Top-left: Creative generation -->
+          <rect x="30" y="20" width="170" height="48" rx="6" ry="6" fill="#fff" stroke="#a587e2" stroke-width="1.2"/>
+          <text x="115" y="38" font-size="9.5" fill="#6d3bc7" text-anchor="middle" font-weight="700">Creative + ad-copy variants</text>
+          <text x="115" y="52" font-size="8.5" fill="#444" text-anchor="middle">10x test velocity</text>
+          <text x="115" y="63" font-size="8.5" fill="#444" text-anchor="middle">vs hand-written drafts</text>
+          <line x1="200" y1="56" x2="200" y2="135" stroke="#a587e2" stroke-width="1.2" stroke-dasharray="4 3"/>
+          <line x1="200" y1="56" x2="180" y2="50" stroke="#a587e2" stroke-width="1.2" stroke-dasharray="4 3" fill="none"/>
+
+          <!-- Top-right: Cohort + segmentation -->
+          <rect x="370" y="20" width="170" height="48" rx="6" ry="6" fill="#fff" stroke="#a587e2" stroke-width="1.2"/>
+          <text x="455" y="38" font-size="9.5" fill="#6d3bc7" text-anchor="middle" font-weight="700">Cohort + segmentation</text>
+          <text x="455" y="52" font-size="8.5" fill="#444" text-anchor="middle">SQL + Python pandas via</text>
+          <text x="455" y="63" font-size="8.5" fill="#444" text-anchor="middle">Claude code as pair programmer</text>
+          <line x1="370" y1="56" x2="360" y2="135" stroke="#a587e2" stroke-width="1.2" stroke-dasharray="4 3"/>
+
+          <!-- Middle-left: ICP refinement -->
+          <rect x="20" y="125" width="170" height="48" rx="6" ry="6" fill="#fff" stroke="#a587e2" stroke-width="1.2"/>
+          <text x="105" y="143" font-size="9.5" fill="#6d3bc7" text-anchor="middle" font-weight="700">ICP refinement + persona</text>
+          <text x="105" y="157" font-size="8.5" fill="#444" text-anchor="middle">customer transcript analysis</text>
+          <text x="105" y="168" font-size="8.5" fill="#444" text-anchor="middle">with structured prompt frameworks</text>
+          <line x1="190" y1="149" x2="200" y2="149" stroke="#a587e2" stroke-width="1.2" stroke-dasharray="4 3"/>
+
+          <!-- Middle-right: Competitive intel + GEO -->
+          <rect x="380" y="125" width="170" height="48" rx="6" ry="6" fill="#fff" stroke="#a587e2" stroke-width="1.2"/>
+          <text x="465" y="143" font-size="9.5" fill="#6d3bc7" text-anchor="middle" font-weight="700">Competitive intel + GEO</text>
+          <text x="465" y="157" font-size="8.5" fill="#444" text-anchor="middle">AI-engine citation audits</text>
+          <text x="465" y="168" font-size="8.5" fill="#444" text-anchor="middle">(ChatGPT, Claude, Perplexity)</text>
+          <line x1="360" y1="149" x2="380" y2="149" stroke="#a587e2" stroke-width="1.2" stroke-dasharray="4 3"/>
+
+          <!-- Bottom: Attribution + measurement narrative -->
+          <rect x="195" y="220" width="170" height="48" rx="6" ry="6" fill="#fff" stroke="#a587e2" stroke-width="1.2"/>
+          <text x="280" y="238" font-size="9.5" fill="#6d3bc7" text-anchor="middle" font-weight="700">Attribution narratives</text>
+          <text x="280" y="252" font-size="8.5" fill="#444" text-anchor="middle">turn lift-test outputs into</text>
+          <text x="280" y="263" font-size="8.5" fill="#444" text-anchor="middle">CFO-readable summaries</text>
+          <line x1="280" y1="175" x2="280" y2="220" stroke="#a587e2" stroke-width="1.2" stroke-dasharray="4 3"/>
+
+          <!-- Title strip top -->
+          <text x="280" y="13" font-size="8" fill="#999" text-anchor="middle" font-weight="600">Claude API + OpenAI API at the center, five marketing surfaces around it</text>
+        </svg>
+      </div>
+    </div>
+
+    <div class="col-right">
+      <div class="chart-title">Anthropic Claude certifications (active)</div>
+      <div class="cert-grid">
+        <div class="cert-badge">
+          <div class="cert-icon">1</div>
+          <div class="cert-text"><strong>Claude 101</strong><span>Foundations of working with Claude</span></div>
+        </div>
+        <div class="cert-badge">
+          <div class="cert-icon">2</div>
+          <div class="cert-text"><strong>Claude Code 101</strong><span>Pair-programming with Claude</span></div>
+        </div>
+        <div class="cert-badge">
+          <div class="cert-icon">3</div>
+          <div class="cert-text"><strong>Claude Cowork</strong><span>AI as a teammate, not a tool</span></div>
+        </div>
+        <div class="cert-badge">
+          <div class="cert-icon">4</div>
+          <div class="cert-text"><strong>Building with Claude API</strong><span>Production AI integrations</span></div>
+        </div>
+      </div>
+
+      <div class="chart-title" style="margin-top:14pt;">Pixis: trained 8 enterprise marketers on AI bidding tools</div>
+      <div style="font-size:9pt;line-height:1.5;color:#222;padding-left:13pt;">
+        Translated AI bidding methodology, holdout-validated lift, and creative-variant performance into outcomes a CFO could sign off on. Same translation muscle Openmart's growth lead needs for the buyer.
+      </div>
+
+      <div class="caption" style="margin-top:10pt;"><strong>The point:</strong> Buyers can tell the difference between someone who uses AI tools and someone who treats them as a side project. AI is how I do the work, not what I do on top of the work.</div>
+    </div>
+  </div>
+
+  <div class="slide-footer"><span>SwipeHire | Pixis AI bidding training | 4 Anthropic Claude certifications</span><span>Workflow diagram is real; productivity claims are mine</span></div>
+</div>
+
+<!-- ============== SLIDE 4: DEMAND ENGINE (PLUG POWER) ============== -->
+<div class="slide">
+  <div class="slide-num">04 / 06 | Demand Engine</div>
+  <h2 class="section-title">Came in early. Built the engine.</h2>
+  <div class="jd-quote">Openmart's growth lead inherits a 6-person company and has to build the demand engine. I have done that exact rebuild before, on someone else's stack.</div>
+
+  <div class="kpi-row">
+    <div class="kpi-tile">
+      <div class="kpi-label">CPA reduction</div>
+      <div class="kpi-value" style="color:#117a3a;">-25%</div>
+      <div class="kpi-sub">post-attribution rebuild</div>
+    </div>
+    <div class="kpi-tile">
+      <div class="kpi-label">Conversion lift</div>
+      <div class="kpi-value" style="color:#117a3a;">+20%</div>
+      <div class="kpi-sub">click-to-SQL</div>
+    </div>
+    <div class="kpi-tile">
+      <div class="kpi-label">Vendors aligned</div>
+      <div class="kpi-value">4</div>
+      <div class="kpi-sub">MarTech RFP and rollout</div>
+    </div>
+    <div class="kpi-tile">
+      <div class="kpi-label">Stakeholders</div>
+      <div class="kpi-value">6</div>
+      <div class="kpi-sub">sales, ops, engineering</div>
+    </div>
+  </div>
+
+  <div class="two-col">
+    <div class="col-left">
+      <div class="chart-title">Closed-loop attribution flow | rebuilt from scratch</div>
+      <div class="chart-box" style="padding:14pt 14pt;">
+        <svg viewBox="0 0 560 230" width="100%" height="210" xmlns="http://www.w3.org/2000/svg" style="display:block;" font-family="Calibri, Arial, Helvetica, sans-serif">
+          <!-- 5-stage flow with arrows -->
+          <!-- Stage 1: Ad click -->
+          <rect x="20" y="80" width="92" height="60" rx="6" ry="6" fill="#6d3bc7"/>
+          <text x="66" y="105" font-size="10" fill="#fff" text-anchor="middle" font-weight="700">Ad click</text>
+          <text x="66" y="120" font-size="8" fill="#e8d8ff" text-anchor="middle">Google / Meta</text>
+          <text x="66" y="132" font-size="8" fill="#e8d8ff" text-anchor="middle">LinkedIn / DSP</text>
+          <!-- Arrow -->
+          <line x1="115" y1="110" x2="138" y2="110" stroke="#6d3bc7" stroke-width="2"/>
+          <polygon points="138,110 132,107 132,113" fill="#6d3bc7"/>
+
+          <!-- Stage 2: UTM + GTM -->
+          <rect x="142" y="80" width="92" height="60" rx="6" ry="6" fill="#7e54d0"/>
+          <text x="188" y="105" font-size="10" fill="#fff" text-anchor="middle" font-weight="700">UTM + GTM</text>
+          <text x="188" y="120" font-size="8" fill="#e8d8ff" text-anchor="middle">spec written</text>
+          <text x="188" y="132" font-size="8" fill="#e8d8ff" text-anchor="middle">containers rebuilt</text>
+          <line x1="237" y1="110" x2="260" y2="110" stroke="#6d3bc7" stroke-width="2"/>
+          <polygon points="260,110 254,107 254,113" fill="#6d3bc7"/>
+
+          <!-- Stage 3: GA4 + Adobe -->
+          <rect x="264" y="80" width="92" height="60" rx="6" ry="6" fill="#8f6cd9"/>
+          <text x="310" y="105" font-size="10" fill="#fff" text-anchor="middle" font-weight="700">GA4 + Adobe</text>
+          <text x="310" y="120" font-size="8" fill="#fff" text-anchor="middle">event tracking</text>
+          <text x="310" y="132" font-size="8" fill="#fff" text-anchor="middle">audience layer</text>
+          <line x1="359" y1="110" x2="382" y2="110" stroke="#6d3bc7" stroke-width="2"/>
+          <polygon points="382,110 376,107 376,113" fill="#6d3bc7"/>
+
+          <!-- Stage 4: Salesforce -->
+          <rect x="386" y="80" width="92" height="60" rx="6" ry="6" fill="#a587e2"/>
+          <text x="432" y="105" font-size="10" fill="#fff" text-anchor="middle" font-weight="700">Salesforce</text>
+          <text x="432" y="120" font-size="8" fill="#fff" text-anchor="middle">campaign attribution</text>
+          <text x="432" y="132" font-size="8" fill="#fff" text-anchor="middle">+ lead routing</text>
+          <line x1="481" y1="110" x2="504" y2="110" stroke="#117a3a" stroke-width="2.5"/>
+          <polygon points="504,110 498,106 498,114" fill="#117a3a"/>
+
+          <!-- Stage 5: SQL -->
+          <rect x="508" y="80" width="48" height="60" rx="6" ry="6" fill="#117a3a"/>
+          <text x="532" y="108" font-size="11" fill="#fff" text-anchor="middle" font-weight="700">SQL</text>
+          <text x="532" y="124" font-size="8" fill="#d8f0e0" text-anchor="middle">one</text>
+          <text x="532" y="135" font-size="8" fill="#d8f0e0" text-anchor="middle">number</text>
+
+          <!-- Annotation: before -->
+          <text x="290" y="40" font-size="11" fill="#b3261e" text-anchor="middle" font-weight="700">Before: 3 conflicting numbers, weekly Slack arguments</text>
+          <line x1="60" y1="48" x2="540" y2="48" stroke="#f0c2c0" stroke-width="0.7" stroke-dasharray="3 3"/>
+          <!-- Annotation: after -->
+          <text x="290" y="180" font-size="11" fill="#117a3a" text-anchor="middle" font-weight="700">After: one number Sales trusted</text>
+          <text x="290" y="198" font-size="9.5" fill="#444" text-anchor="middle">Daily attribution view, weekly reconciliation against Salesforce SQL</text>
+        </svg>
+      </div>
+    </div>
+
+    <div class="col-right">
+      <div class="chart-title">What "early growth hire" actually meant</div>
+      <ul style="padding-left:14pt;font-size:9.5pt;line-height:1.5;color:#222;">
+        <li>Wrote the <strong>UTM spec from scratch</strong></li>
+        <li>Rebuilt <strong>GTM containers</strong> (every property)</li>
+        <li>Validated lead routing into <strong>Salesforce campaign attribution</strong></li>
+        <li><strong>Adobe Audience Manager</strong> for account-level segmentation + suppression</li>
+        <li>Coordinated a <strong>4-vendor RFP</strong>: scored attribution depth + integration cost</li>
+        <li>Negotiated terms with <strong>Procurement</strong></li>
+        <li>Documented <strong>SLAs and escalation paths</strong> in writing</li>
+      </ul>
+      <div class="caption" style="margin-top:12pt;"><strong>The durable outcome was not -25% CPA.</strong> It was that the next growth hire inherited a system rather than a black box. That is the gift you give an early-stage company: leverage that compounds after you leave.</div>
+    </div>
+  </div>
+
+  <div class="slide-footer"><span>Plug Power early-growth-hire engagement</span><span>Flow is real; metrics are real</span></div>
+</div>
+
+<!-- ============== SLIDE 5: BUYER FLUENCY (PIXIS) ============== -->
+<div class="slide">
+  <div class="slide-num">05 / 06 | B2B SaaS Buyer Fluency</div>
+  <h2 class="section-title">Same buyer. Same conversation.</h2>
+  <div class="jd-quote">Openmart's buyer is the revenue leader, sales-ops manager, or marketing-ops director at a B2B SaaS or enterprise selling into SMBs. Pixis sold to that buyer for four years. I ran the book.</div>
+
+  <div class="kpi-row">
+    <div class="kpi-tile">
+      <div class="kpi-label">Portfolio managed</div>
+      <div class="kpi-value">8 clients</div>
+      <div class="kpi-sub">B2B SaaS + D2C across regions</div>
+    </div>
+    <div class="kpi-tile">
+      <div class="kpi-label">Media budget owned</div>
+      <div class="kpi-value">$1.4M</div>
+      <div class="kpi-sub">across paid + lifecycle</div>
+    </div>
+    <div class="kpi-tile">
+      <div class="kpi-label">Churn cut</div>
+      <div class="kpi-value" style="color:#117a3a;">-50%</div>
+      <div class="kpi-sub">via per-client renewal playbooks</div>
+    </div>
+    <div class="kpi-tile">
+      <div class="kpi-label">Lift validated</div>
+      <div class="kpi-value">3x ROAS</div>
+      <div class="kpi-sub">holdout incrementality test</div>
+    </div>
+  </div>
+
+  <div class="two-col">
+    <div class="col-left">
+      <div class="chart-title">Pixis 8-client portfolio | by buyer category</div>
+      <div class="buyer-card">
+        <div class="buyer-info"><strong>Fashion D2C apparel partner</strong><span>Marketing-ops + Brand marketing director</span></div>
+        <div class="buyer-tag">Marketing-Ops</div>
+      </div>
+      <div class="buyer-card">
+        <div class="buyer-info"><strong>Beauty D2C subscription</strong><span>Director of Performance + Head of Growth</span></div>
+        <div class="buyer-tag">Performance</div>
+      </div>
+      <div class="buyer-card">
+        <div class="buyer-info"><strong>Home goods marketplace</strong><span>Revenue Operations + CRO office</span></div>
+        <div class="buyer-tag">Revenue-Ops</div>
+      </div>
+      <div class="buyer-card">
+        <div class="buyer-info"><strong>Health and wellness D2C</strong><span>Sales + Marketing alignment lead</span></div>
+        <div class="buyer-tag">Sales-Marketing</div>
+      </div>
+      <div class="buyer-card">
+        <div class="buyer-info"><strong>Footwear e-commerce</strong><span>Director of Acquisition + CFO sign-off</span></div>
+        <div class="buyer-tag">Performance</div>
+      </div>
+      <div class="buyer-card">
+        <div class="buyer-info"><strong>3 additional B2B SaaS partners</strong><span>Same revenue-ops + sales-leader buyer Openmart sells to</span></div>
+        <div class="buyer-tag">B2B SaaS</div>
+      </div>
+    </div>
+
+    <div class="col-right">
+      <div class="chart-title">Holdout incrementality test | 3x ROAS validated</div>
+      <table class="dash-table">
+        <tr><th>Element</th><th>Decision</th></tr>
+        <tr><td>Hypothesis</td><td>Lift &gt; 1.5x is causal, not seasonal</td></tr>
+        <tr><td>Unit of randomization</td><td>Geo (DMA-level)</td></tr>
+        <tr><td>Treatment</td><td>Full-funnel rebuild + creative</td></tr>
+        <tr><td>Control</td><td>Matched geo, baseline mix</td></tr>
+        <tr><td>Duration</td><td>30 days, weekly check-in</td></tr>
+        <tr><td>Read-out</td><td>Lift + creative-variant diagnostics</td></tr>
+        <tr><td>Result</td><td class="pos">3.0x ROAS, p &lt; 0.05</td></tr>
+      </table>
+
+      <div class="chart-title" style="margin-top:10pt;">Why this matters for Openmart</div>
+      <div style="font-size:9.5pt;line-height:1.5;color:#222;padding-left:13pt;">
+        Openmart sells data quality + AI productivity to buyers who will audit the claim. I have run those audits from the buyer side. Means I know which proof points land (verified contacts, lift over baseline, time-to-pipeline) and which slide off the deck.
+      </div>
+
+      <div class="outcomes" style="margin-top:8pt;">
+        <span class="pill">Replaced 2 channels mid-quarter</span>
+        <span class="pill">Per-client SLAs in writing</span>
+        <span class="pill">8-person team led</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="slide-footer"><span>Pixis B2B SaaS + D2C portfolio | $1.4M | 8 clients | -50% churn</span><span>Buyer categories illustrative; outcomes and methodology are real</span></div>
+</div>
+
+<!-- ============== SLIDE 6: WHY OPENMART, THE PITCH ============== -->
+<div class="slide">
+  <div class="slide-num">06 / 06 | Why Openmart</div>
+  <h2 class="section-title">The closing pitch.</h2>
+  <div class="jd-quote">Six-person YC seed company. Founder-led hiring. AI alternative to ZoomInfo. The growth lead has to ship at startup speed, talk to a buyer who's been pitched ten times this quarter, and use AI tools faster than the buyer can.</div>
+
+  <div class="stack-grid">
+    <div class="stack-card">
+      <h4>AI-native execution</h4>
+      <p><strong>SwipeHire</strong> on Python + OpenAI API + React. <strong>4 Claude certs.</strong> Prompt-based iteration as default workflow.</p>
+    </div>
+    <div class="stack-card">
+      <h4>B2B SaaS buyer fluency</h4>
+      <p><strong>Pixis</strong> 8-client portfolio, $1.4M, same revenue-ops / sales-leader buyer Openmart sells to.</p>
+    </div>
+    <div class="stack-card">
+      <h4>Demand engine rebuild</h4>
+      <p><strong>Plug Power</strong> early growth hire. UTM spec, GTM, Salesforce attribution. -25% CPA. System inherited by next hire.</p>
+    </div>
+    <div class="stack-card">
+      <h4>Zero-to-one shipping</h4>
+      <p><strong>SwipeHire</strong> solo zero-to-one. ICP, instrumentation, 8 A/B tests, weekly cohort. +25% activation. 50+ users.</p>
+    </div>
+  </div>
+
+  <div class="why-grid">
+    <div class="why-card">
+      <h3>Why Openmart, specifically</h3>
+      <p>The buyer Openmart sells to is the buyer I have been marketing to for four years at Pixis. Same psychographic, same evaluation rubric, same CFO audit. Plus the AI alternative-to-ZoomInfo positioning is the kind of message that needs a marketer who has shipped AI products themselves to argue credibly.</p>
+    </div>
+    <div class="why-card">
+      <h3>Why this role, specifically</h3>
+      <p>Six-person stage means the growth lead builds the engine, not just runs it. I have done that build at Plug Power. SwipeHire proves I can ship from scratch. The combination of AI fluency + B2B SaaS adtech tenure + demand-engine-rebuild muscle is unusual on a single CV. Worth 30 minutes to confirm.</p>
+    </div>
+  </div>
+
+  <div class="slide-footer">
+    <span>Adhithya Rokhith Bhaskar | arokhith@gmail.com | (929) 563-9974 | adhi-growth-ai.vercel.app/ref/openmart</span>
+    <span>Open to relocating to the Bay Area for the right role</span>
+  </div>
+</div>
+
+</body>
+</html>

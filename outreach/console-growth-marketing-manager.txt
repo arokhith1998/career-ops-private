@@ -1,0 +1,95 @@
+ROLE: Console (console.com) — Growth Marketing Manager
+================================================================
+Tracker entry: #67
+URL: https://jobs.ashbyhq.com/console/29431d95-909e-4bb7-a750-5162e26f2ecd
+
+COMPANY:
+- Console. AI-native ITSM platform. Auto-resolves 50%+ of IT support requests in Slack and Teams via trainable AI agents.
+- Tagline: "Console helps IT teams get to Inbox Zero."
+- Replaces / augments Moveworks, ServiceNow, Freshservice, Jira workflows.
+- Customers: Webflow, Synthesia, Scale AI, Bloomerang, Ramp, Flock Safety, Calendly.
+- Funding: $6.2M seed (Thrive, Jun 2025) + $23M Series A (DST Global Partners + Thrive Capital, Sep 2025) = ~$30M total.
+- Co-investors: SV Angel, Abstract Ventures, Ramp founders Eric Glyman + Karim Atiyeh, Box CEO Aaron Levie, Palo Alto Networks CEO Nikesh Arora, Quora CEO Adam D'Angelo.
+- Stage: Series A, ~30-100 employees.
+- Product: Playbooks (natural-language workflow automation), Access Policies (self-serve via Slack), Knowledge Base, AI Assistant, Proactive Playbooks. 3-week deployment.
+- Stat callouts: 4x auto-resolution improvement, CSAT 84% to 94%.
+
+LOCATION: San Francisco, CA. On-site. Console offers relocation assistance.
+SALARY: ~$150K-$200K base + equity (per public mirror; confirm at recruiter screen)
+SPONSORSHIP: Unknown. Series A startup at ~$30M raised; founders ex-Rippling so may have precedent. Confirm at recruiter screen. Same risk shape as Truewind #59 / Openmart #61.
+YEARS: TBD per JD body (Ashby JS-rendered, body not surfaced); typical Series A growth-marketing-manager is 3-7+ yrs. User is at 4+, fits.
+
+
+HIRING MANAGER (verify on LinkedIn before sending):
+PRIMARY: Andrei Serban — Co-Founder & CEO, Console
+LinkedIn: search "Andrei Serban Console" (likely /in/andreiserban/ or similar; ex-Rippling product lead, ex-Fuzzbuzz YC W22 founder)
+Email: andrei@console.com (verify; standard format)
+
+SECONDARY: Neal Chandra — Co-Founder & CTO, Console
+LinkedIn: search "Neal Chandra Console"
+Email: neal@console.com (verify; standard format)
+
+At ~30-100 employees with founder-led hiring on Ashby, Andrei is the most likely HM for the first dedicated Growth Marketer hire. Confirm before sending.
+
+RECRUITER:
+TBD via Ashby application portal. At Series A stage, Console may have first dedicated recruiter or may route through founders / Head of Talent. After applying, search LinkedIn for "Console Talent" / "Console Recruiter" / "Console People" filtered to SF.
+
+ATTACHMENT FOR ALL EMAILS:
+- output/Adhithya_Rokhith_Console_GrowthMktgMgr.pdf (CV)
+- cover-letters/Adhithya_Rokhith_Console_GrowthMktgMgr_CL.pdf (Cover letter)
+
+
+----- HM LINKEDIN NOTE (Andrei Serban, CEO) -----
+Hi Andrei, just applied for the Growth Marketing Manager role. Closest analog: ran an 8-client B2B SaaS portfolio at Pixis (per-client monthly $15K-$90K, 8-person team across creative + account + platform) and trained 8 enterprise marketers on AI bidding tools - structurally the same translation work Console does for IT buyers. Plus Plug Power demand engine rebuild on HubSpot + Salesforce + GA4 + GTM (-25% CPA, +20% conversion). 4 Claude certs + SwipeHire on OpenAI API. Worth 15 min?
+
+
+----- HM EMAIL (Andrei Serban, CEO) -----
+Subject: Growth Marketing Manager — AI-native B2B SaaS analog + full-funnel demand engine
+
+Hi Andrei,
+
+Just submitted for the Growth Marketing Manager role.
+
+Selling AI-agent productivity to a sophisticated enterprise buyer is one specific kind of growth motion. The buyer has been pitched ten Moveworks alternatives this quarter, has a ServiceNow contract they cannot rip out, and reads "AI" as buzzword by default. The marketers who land that buyer write the comparison page that addresses what the CIO will object to in procurement, run paid-search copy speaking in tickets-resolved-per-seat instead of slogans, and move a Slack-installed free user to paid because the Playbook ROI is provably real.
+
+I have run the analog of that motion at Pixis. 8-client B2B SaaS portfolio, per-client monthly media budgets of $15K-$90K, 8-person team across creative + account + platform. Trained 8 enterprise marketers on AI bidding tools as part of weekly client QBRs to CFOs and growth leads. The translation work, AI methodology to enterprise outcome, is structurally the same translation Console does for IT teams.
+
+On the demand-engine side, Plug Power is the rebuild proof. Full paid stack on Google + Meta + LinkedIn + Adobe-driven programmatic (-25% CPA, +20% conversion). Closed-loop attribution rebuilt on HubSpot + Salesforce + Adobe + GA4 + GTM. UTM spec from scratch. GTM containers rebuilt. Lead routing validated through Salesforce campaign attribution. 4-vendor MarTech RFP coordinating 6 stakeholders. Same MarTech stack a Series A B2B SaaS likely runs.
+
+On SEO and inbound, the AEO and GEO program at Plug Power is directly relevant to Console's competitive surface. Schema, content-cluster mapping, FAQ pages structured for ChatGPT / Claude / Perplexity citation. Comparison-page content for "Moveworks alternative" or "Freshservice replacement" searches is exactly the muscle.
+
+On AI-native side, SwipeHire shipped solo on Python + OpenAI API + React. 4 Anthropic Claude certifications come from running prompt-based iteration as my actual workflow.
+
+SF works. Boston-based today, open to relocating. CV + CL attached. Portfolio: https://adhi-growth-ai.vercel.app/ref/console
+
+15 minutes next week?
+
+Adhithya | Boston, MA | (929) 563-9974
+
+
+----- HM LINKEDIN NOTE (Neal Chandra, CTO) -----
+Hi Neal, applied for Growth Marketing Manager at Console. Cleanest analog in my CV: 8-client B2B SaaS portfolio at Pixis ($15K-$90K per-client monthly, AI bidding training of 8 enterprise marketers). Plus Plug Power demand engine rebuild (-25% CPA, +20% conversion, closed-loop attribution) and SwipeHire shipped solo on Python + OpenAI API + React. Worth a quick chat?
+
+
+----- RECRUITER LINKEDIN NOTE (when identified) -----
+Hi {Recruiter}, applied for Growth Marketing Manager at Console. 4+ yrs B2B SaaS growth. Pixis 8-client agency-side ($15K-$90K per-client monthly, AI bidding training), Plug Power full demand engine on HubSpot + Salesforce + GA4 + GTM (-25% CPA), SEO/AEO/GEO program, SwipeHire on OpenAI API, 4 Claude certs. SF works. Available for a screen.
+
+
+----- RECRUITER EMAIL (when identified) -----
+Subject: Application — Growth Marketing Manager (Console)
+
+Hi {Recruiter},
+
+Submitted for the Growth Marketing Manager role earlier today.
+
+Quick fit summary on substance:
+- 4+ years B2B SaaS growth marketing across agency-side (Pixis: 8-client B2B SaaS portfolio, per-client monthly $15K-$90K, 8-person team across creative + account + platform, AI bidding training for 8 enterprise marketers, 3x ROAS validated via holdout incrementality), in-house demand engine (Plug Power: full paid stack on Google + Meta + LinkedIn + Adobe-driven programmatic, -25% CPA, +20% conversion, closed-loop attribution rebuilt on HubSpot + Salesforce + Adobe + GA4 + GTM, AEO/GEO content program), and AI-product (SwipeHire shipped solo on Python + OpenAI API + React, 50+ users, +25% activation).
+- 4 Anthropic Claude certifications + SwipeHire ICP-defining work for AI product means I can write the comparison page that addresses CIO procurement objections and the paid-search copy that speaks in tickets-resolved-per-seat.
+
+SF works. Boston-based today, open to relocating. CV + CL attached.
+
+Portfolio: https://adhi-growth-ai.vercel.app/ref/console
+
+Available for a screen this week.
+
+Adhithya | (929) 563-9974

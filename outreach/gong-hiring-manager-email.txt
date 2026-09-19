@@ -1,0 +1,27 @@
+TO: [Hiring Manager Name], Director of Growth @ Gong
+PLATFORM: Email
+ROLE: Digital Marketing Manager, Paid Social (Austin/Chicago/NYC/SLC/SF)
+NOTE: JD states role reports to Director of Growth. Specific name not surfaced publicly. Manual LinkedIn search on "Gong Director of Growth Marketing" recommended. Emily He (CMO, ex-Microsoft CVP) is two levels up.
+---
+
+Subject: Paid Social Manager - LinkedIn + Meta at enterprise scale with ABM discipline
+
+Hi [Name],
+
+The JD asks for a seasoned paid social expert who can own LinkedIn + Meta strategy, sequence ABM plays for enterprise segments, guide agency partners on creative and experimentation, and report pipeline contribution to leadership. Those four things are rarely the same person. I have been running them as the same role for four years.
+
+Applied for the Digital Marketing Manager, Paid Social. Quick proof:
+
+- Plug Power: rebuilt full B2B paid + MarTech stack (Salesforce + HubSpot + Adobe + AAM + GA + GTM) with LinkedIn + Meta + SA360 as primary B2B channels. Closed-loop attribution ad-click to SQL. -25% CPA, +20% conversion. Account-targeted hydrogen-energy accounts.
+- Pixis: 8-client enterprise AI SaaS book, $1.4M shared budget across Google + Meta + programmatic. 3x ROAS fashion in 30 days, -50% churn. Per-vertical playbooks Sales used for expansion.
+- SwipeHire (founder): production AI product on OpenAI API + React. 50+ users, +25% activation via 8+ A/B tests on creative + landing + audience.
+- 4 Anthropic Claude certs (incl. Building with the Claude API). Claude draft-and-critique ad-copy pipeline for 8x variant velocity.
+- Salesforce home. HubSpot daily. Marketo 1-wk ramp. Demandbase/6sense Salesforce-integrated = same mental model as LinkedIn Campaign Manager ABM I already run.
+
+Open to NYC relocation. Would welcome 20 minutes on current paid social test-and-learn priorities and where the biggest LinkedIn + Meta pipeline-contribution gap sits.
+
+Resume, cover letter, portfolio: https://adhithyabhaskar.vercel.app/ref/gong
+
+Best,
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com | (929) 563-9974

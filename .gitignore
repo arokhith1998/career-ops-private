@@ -1,0 +1,52 @@
+# .gitignore for arokhith1998/career-ops-private (PRIVATE repo), 2026-09-18.
+#
+# This repo is private, so the user layer (cv.md, config/*.yml, portals.yml,
+# modes/_profile.md, modes/_custom.md, modes/nightly-rules.md, data/, reports/,
+# output/, jds/, cv-variants/) IS committed: the cloud nightly routine can only
+# read what is in the repo, and it commits its results back here.
+# The upstream/public ignore rules are kept in .gitignore.public-template.
+# NEVER push this repo to a public remote.
+
+# Dependencies and generated
+node_modules/
+.resolved-prompt-*
+__pycache__/
+*.pyc
+career-dashboard
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Local-only machine state
+.claude/settings.local.json
+.claude/settings.local.json.bak
+.claude/worktrees/
+.claude/memory/
+batch/logs/*
+!batch/logs/.gitkeep
+.update-dismissed
+.update-lock
+.pre-update-backup-*/
+data/cache/
+*.lock
+~$*
+
+# Scratch
+.scratch-*
+.tmp-*
+.tmp-jd/
+*.bak
+*.bak.*
+.DS_Store
+*.mov
+*.mp4
+
+# Not needed by the pipeline, and resumes/ holds another person's files
+resumes/
+o1-visa-pathway/
+
+# CI from the public project: fails on user data by design and burns private Actions minutes
+.github/workflows/
+.github/dependabot.yml

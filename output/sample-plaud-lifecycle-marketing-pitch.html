@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Plaud Lifecycle Marketing Pitch Deck Adhithya</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  @page { size: 11in 8.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 11pt; line-height: 1.4; color: #0f172a; background: #fff; }
+  .slide { width: 11in; height: 8.5in; padding: 0.55in 0.7in; page-break-after: always; position: relative; overflow: hidden; }
+  .slide:last-child { page-break-after: avoid; }
+  .slide-num { position: absolute; bottom: 0.3in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; font-weight: 600; letter-spacing: 1pt; }
+  .slide-brand { position: absolute; bottom: 0.3in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; font-weight: 600; letter-spacing: 0.5pt; }
+  h1 { font-size: 32pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; line-height: 1.05; letter-spacing: -0.5pt; }
+  h2 { font-size: 22pt; font-weight: 800; color: #0f172a; margin-bottom: 14pt; line-height: 1.1; letter-spacing: -0.3pt; }
+  h3 { font-size: 13pt; font-weight: 700; color: #0f172a; margin-bottom: 6pt; }
+  .accent { color: #4f46e5; }
+  .label { font-size: 8.5pt; font-weight: 700; color: #4f46e5; text-transform: uppercase; letter-spacing: 1.2pt; margin-bottom: 8pt; }
+
+  /* Slide 1 cover */
+  .cover { display: flex; flex-direction: column; justify-content: center; background: linear-gradient(135deg, #eef2ff 0%, #c7d2fe 50%, #a5b4fc 100%); }
+  .cover h1 { font-size: 38pt; }
+  .cover .sub { font-size: 16pt; color: #475569; margin-top: 6pt; font-weight: 500; }
+  .cover .author { margin-top: 32pt; padding-top: 18pt; border-top: 2pt solid #4f46e5; font-size: 11pt; color: #475569; }
+  .cover .author strong { color: #0f172a; font-weight: 700; }
+  .cover .pills { margin-top: 20pt; display: flex; gap: 8pt; flex-wrap: wrap; }
+  .pill { background: #fff; border: 1.5pt solid #4f46e5; color: #4338ca; padding: 5pt 12pt; border-radius: 14pt; font-size: 9pt; font-weight: 700; }
+
+  /* Slide 2 mapping */
+  .grid-2 { display: grid; grid-template-columns: 1fr 1.05fr; gap: 28pt; margin-top: 8pt; }
+  .panel { background: #eef2ff; border: 1pt solid #c7d2fe; border-radius: 6pt; padding: 14pt; }
+  .panel h3 { color: #4338ca; }
+  .kpi-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10pt; }
+  .kpi { background: #fff; border-left: 3pt solid #4f46e5; padding: 8pt 10pt; border-radius: 3pt; }
+  .kpi .v { font-size: 17pt; font-weight: 800; color: #4f46e5; line-height: 1; }
+  .kpi .l { font-size: 8.5pt; color: #475569; margin-top: 3pt; font-weight: 600; }
+  .ulx { list-style: none; padding: 0; }
+  .ulx li { padding: 4pt 0 4pt 14pt; position: relative; font-size: 10pt; color: #1e293b; }
+  .ulx li:before { content: ""; position: absolute; left: 0; top: 10pt; width: 7pt; height: 2pt; background: #4f46e5; }
+
+  /* Slide 3 SwipeHire B2C dashboard */
+  .swipe-grid { display: grid; grid-template-columns: 1fr 1.2fr; gap: 18pt; margin-top: 8pt; }
+  .chart-box { background: #eef2ff; border: 1pt solid #c7d2fe; border-radius: 6pt; padding: 14pt; }
+  .chart-box h3 { color: #4338ca; margin-bottom: 8pt; }
+  .insight-box { background: #eef2ff; border-left: 4pt solid #4f46e5; padding: 12pt 16pt; margin-top: 14pt; border-radius: 0 4pt 4pt 0; }
+  .insight-box strong { color: #4338ca; }
+
+  /* Slide 4 B2B side-by-side */
+  .b2b-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18pt; margin-top: 8pt; }
+  .b2b-card { background: #eef2ff; border: 1pt solid #c7d2fe; border-radius: 6pt; padding: 16pt; }
+  .b2b-card h3 { color: #4338ca; margin-bottom: 8pt; }
+  .b2b-card .badge { display: inline-block; background: #4f46e5; color: #fff; padding: 3pt 10pt; border-radius: 10pt; font-size: 8.5pt; font-weight: 700; margin-bottom: 8pt; }
+
+  /* Slide 5 mix differentiator */
+  .mix-svg { width: 100%; height: 4.4in; }
+
+  /* Slide 6 close */
+  .close { display: flex; flex-direction: column; justify-content: center; background: linear-gradient(135deg, #eef2ff 0%, #a5b4fc 100%); }
+  .close h2 { font-size: 28pt; }
+  .close .body { font-size: 13pt; color: #1e293b; line-height: 1.65; max-width: 8.5in; }
+  .close .cta { margin-top: 28pt; display: flex; gap: 16pt; align-items: center; }
+  .close .cta .btn { background: #4f46e5; color: #fff; padding: 10pt 22pt; border-radius: 6pt; font-weight: 700; font-size: 11pt; }
+  .close .contact { margin-top: 24pt; font-size: 10pt; color: #475569; }
+  .close .contact strong { color: #0f172a; }
+</style>
+</head>
+<body>
+
+<!-- SLIDE 1 COVER -->
+<div class="slide cover">
+  <div class="label">Pitch Deck | Plaud Lifecycle Marketing Senior Specialist</div>
+  <h1>Holding Activation on a Consumer AI Product</h1>
+  <div class="sub">Event-driven onboarding + behavioral cohort retention, B2C and B2B in one CV</div>
+  <div class="pills">
+    <div class="pill">SwipeHire on OpenAI API</div>
+    <div class="pill">+25% Activation</div>
+    <div class="pill">8 A/B Tests</div>
+    <div class="pill">Pixis Churn Cut 50%</div>
+    <div class="pill">B2C + B2B Mix</div>
+    <div class="pill">4 Claude Certifications</div>
+  </div>
+  <div class="author">
+    <strong>Adhithya Rokhith Bhaskar</strong> | Boston, MA (SF works) | (929) 563-9974 | arokhith@gmail.com<br>
+    Portfolio: adhi-growth-ai.vercel.app/ref/plaud
+  </div>
+  <div class="slide-brand">Prepared for the Plaud Hiring Team</div>
+  <div class="slide-num">01 / 06</div>
+</div>
+
+<!-- SLIDE 2 JD MAPPING -->
+<div class="slide">
+  <div class="label">Slide 02 | The Match in One View</div>
+  <h2>What Plaud Hires For, What I Have Already Built</h2>
+  <div class="grid-2">
+    <div class="panel">
+      <h3>Plaud JD</h3>
+      <ul class="ulx">
+        <li>Onboarding, engagement, retention, reactivation across email, push, in-app</li>
+        <li>Behavioral segmentation and user-signal-driven journey design</li>
+        <li>Cohort trends and experiment-result analysis</li>
+        <li>B2C and B2B lifecycle programs in parallel</li>
+        <li>Cross-functional with product and data on launches</li>
+        <li>AI-product fluency in a category that lives or dies on activation</li>
+      </ul>
+    </div>
+    <div class="panel">
+      <h3>What I Have Already Run</h3>
+      <div class="kpi-grid" style="margin-bottom: 10pt;">
+        <div class="kpi"><div class="v">+25%</div><div class="l">Activation lift on SwipeHire</div></div>
+        <div class="kpi"><div class="v">8</div><div class="l">A/B tests on activation flows</div></div>
+        <div class="kpi"><div class="v">50%</div><div class="l">Client churn cut at Pixis</div></div>
+        <div class="kpi"><div class="v">8</div><div class="l">Person team led at Pixis</div></div>
+        <div class="kpi"><div class="v">30+</div><div class="l">User-discovery interviews shaped ICP</div></div>
+        <div class="kpi"><div class="v">4</div><div class="l">Anthropic Claude certifications</div></div>
+      </div>
+      <ul class="ulx">
+        <li>Solo-built B2C AI product on Python + OpenAI API + React</li>
+        <li>HubSpot lifecycle, Adobe Audience Manager segmentation, Amplitude cohort analysis</li>
+        <li>Pixis 8-client B2B SaaS book with renewal-aligned playbooks</li>
+      </ul>
+    </div>
+  </div>
+  <div class="slide-brand">Plaud | Adhithya Rokhith Bhaskar</div>
+  <div class="slide-num">02 / 06</div>
+</div>
+
+<!-- SLIDE 3 SwipeHire B2C analog -->
+<div class="slide">
+  <div class="label">Slide 03 | The Plaud-Shape Analog</div>
+  <h2>SwipeHire: Consumer AI Activation, End-to-End</h2>
+  <p style="font-size: 10pt; color: #475569; margin-bottom: 8pt;">Solo build on Python, OpenAI API, and React. ICP defined from a 30-conversation user discovery. GA4 + GTM event tracking and Amplitude cohort analysis instrumented from day one. Same product shape as Plaud at smaller scale.</p>
+
+  <div class="swipe-grid">
+    <div class="chart-box">
+      <h3>Activation Funnel (8 A/B Tests)</h3>
+      <svg viewBox="0 0 360 240" style="width: 100%; height: 2.4in;">
+        <!-- Funnel bars -->
+        <rect x="50" y="20" width="280" height="32" fill="#c7d2fe"/>
+        <text x="60" y="40" font-size="11" fill="#0f172a" font-weight="700">Sign-up: 100%</text>
+        <text x="320" y="40" text-anchor="end" font-size="10" fill="#1e293b">50+ users</text>
+
+        <rect x="80" y="60" width="220" height="32" fill="#a5b4fc"/>
+        <text x="90" y="80" font-size="11" fill="#0f172a" font-weight="700">First-touch: 78%</text>
+        <text x="290" y="80" text-anchor="end" font-size="10" fill="#1e293b">39 users</text>
+
+        <rect x="115" y="100" width="150" height="32" fill="#818cf8"/>
+        <text x="125" y="120" font-size="11" fill="#fff" font-weight="700">3rd interaction: 54%</text>
+        <text x="255" y="120" text-anchor="end" font-size="10" fill="#fff">27 users</text>
+
+        <rect x="135" y="140" width="110" height="32" fill="#6366f1"/>
+        <text x="145" y="160" font-size="11" fill="#fff" font-weight="700">Activated: 39%</text>
+        <text x="235" y="160" text-anchor="end" font-size="10" fill="#fff">19 users</text>
+
+        <rect x="145" y="180" width="90" height="32" fill="#4f46e5"/>
+        <text x="155" y="200" font-size="11" fill="#fff" font-weight="700">Activated +: 25% lift</text>
+
+        <text x="180" y="232" text-anchor="middle" font-size="9" fill="#475569" font-style="italic">After 8 A/B tests on third-interaction step</text>
+      </svg>
+    </div>
+    <div class="chart-box">
+      <h3>Cohort Retention by Onboarding Variant</h3>
+      <svg viewBox="0 0 420 240" style="width: 100%; height: 2.4in;">
+        <!-- Axes -->
+        <line x1="40" y1="20" x2="40" y2="200" stroke="#94a3b8" stroke-width="1"/>
+        <line x1="40" y1="200" x2="400" y2="200" stroke="#94a3b8" stroke-width="1"/>
+        <text x="35" y="25" text-anchor="end" font-size="9" fill="#64748b">100%</text>
+        <text x="35" y="80" text-anchor="end" font-size="9" fill="#64748b">75%</text>
+        <text x="35" y="135" text-anchor="end" font-size="9" fill="#64748b">50%</text>
+        <text x="35" y="190" text-anchor="end" font-size="9" fill="#64748b">25%</text>
+        <line x1="40" y1="80" x2="400" y2="80" stroke="#e2e8f0" stroke-width="0.5" stroke-dasharray="3,3"/>
+        <line x1="40" y1="135" x2="400" y2="135" stroke="#e2e8f0" stroke-width="0.5" stroke-dasharray="3,3"/>
+
+        <!-- X labels -->
+        <text x="80" y="218" text-anchor="middle" font-size="9" fill="#475569">D1</text>
+        <text x="160" y="218" text-anchor="middle" font-size="9" fill="#475569">D7</text>
+        <text x="240" y="218" text-anchor="middle" font-size="9" fill="#475569">D14</text>
+        <text x="320" y="218" text-anchor="middle" font-size="9" fill="#475569">D30</text>
+
+        <!-- Control curve gray -->
+        <polyline points="80,30 160,90 240,140 320,170" fill="none" stroke="#94a3b8" stroke-width="2.5"/>
+        <circle cx="80" cy="30" r="3.5" fill="#94a3b8"/>
+        <circle cx="160" cy="90" r="3.5" fill="#94a3b8"/>
+        <circle cx="240" cy="140" r="3.5" fill="#94a3b8"/>
+        <circle cx="320" cy="170" r="3.5" fill="#94a3b8"/>
+
+        <!-- Treatment curve indigo -->
+        <polyline points="80,30 160,60 240,90 320,118" fill="none" stroke="#4f46e5" stroke-width="2.5"/>
+        <circle cx="80" cy="30" r="3.5" fill="#4f46e5"/>
+        <circle cx="160" cy="60" r="3.5" fill="#4f46e5"/>
+        <circle cx="240" cy="90" r="3.5" fill="#4f46e5"/>
+        <circle cx="320" cy="118" r="3.5" fill="#4f46e5"/>
+
+        <!-- Legend -->
+        <rect x="55" y="232" width="10" height="3" fill="#94a3b8"/>
+        <text x="70" y="237" font-size="9" fill="#475569">Time-driven journey (control)</text>
+        <rect x="225" y="232" width="10" height="3" fill="#4f46e5"/>
+        <text x="240" y="237" font-size="9" fill="#4338ca" font-weight="700">Event-driven (treatment)</text>
+      </svg>
+    </div>
+  </div>
+
+  <div class="insight-box">
+    <strong>The seam I held.</strong> Activation craters at the third meaningful interaction because most journeys treat the buyer as already familiar with what the product can do. The fix: event-driven onboarding mapped to behavioral cohorts, not calendar buckets. Same seam Plaud holds against. Same fix.
+  </div>
+  <div class="slide-brand">Plaud | Adhithya Rokhith Bhaskar</div>
+  <div class="slide-num">03 / 06</div>
+</div>
+
+<!-- SLIDE 4 B2B side-by-side -->
+<div class="slide">
+  <div class="label">Slide 04 | The B2B Half of the JD</div>
+  <h2>Plug Power Lifecycle Build + Pixis Renewal Playbooks</h2>
+  <p style="font-size: 10pt; color: #475569; margin-bottom: 8pt;">The JD calls for both B2C and B2B lifecycle programs. Most candidates skew one way. Below, the two programs that prove the B2B half of the mandate.</p>
+
+  <div class="b2b-grid">
+    <div class="b2b-card">
+      <div class="badge">PLUG POWER</div>
+      <h3>HubSpot Lifecycle Build</h3>
+      <ul class="ulx">
+        <li>Drip sequences and MQL nurture across account-level behavioral segmentation</li>
+        <li>Retargeting funnels and suppression lists in Adobe Audience Manager</li>
+        <li>Closed-loop attribution from ad click to SQL on Salesforce, Adobe, GA4, GTM</li>
+        <li>UTM spec written from scratch, GTM containers rebuilt, lead routing validated through Salesforce campaign attribution</li>
+        <li>4-vendor MarTech RFP coordinating 6 internal stakeholders</li>
+      </ul>
+      <p style="margin-top: 10pt; font-size: 10pt; color: #4338ca; font-weight: 700;">-25% CPA, +20% conversion, MQL-to-SQL lift</p>
+    </div>
+    <div class="b2b-card">
+      <div class="badge">PIXIS</div>
+      <h3>8-Client Renewal-Aligned Playbooks</h3>
+      <ul class="ulx">
+        <li>8-client B2B SaaS portfolio, per-client monthly budgets ranging $15K to $90K</li>
+        <li>8-person team across creative, account management, platform specialists</li>
+        <li>Per-client renewal-aligned playbooks documented in writing</li>
+        <li>Trained 8 enterprise marketers on AI bidding tools as part of weekly QBRs</li>
+        <li>Replaced two underperforming channels mid-quarter when KPIs slipped</li>
+      </ul>
+      <p style="margin-top: 10pt; font-size: 10pt; color: #4338ca; font-weight: 700;">Cut client churn 50%, validated 3x ROAS via holdout incrementality</p>
+    </div>
+  </div>
+
+  <div class="insight-box">
+    <strong>Why this matters for Plaud.</strong> The B2B half of Plaud's customer base (enterprise note-taking buyers, IT-driven rollouts) needs a different lifecycle architecture than the B2C half. Most lifecycle hires can run one of these programs cleanly. I have shipped both.
+  </div>
+  <div class="slide-brand">Plaud | Adhithya Rokhith Bhaskar</div>
+  <div class="slide-num">04 / 06</div>
+</div>
+
+<!-- SLIDE 5 AI-product fluency hub -->
+<div class="slide">
+  <div class="label">Slide 05 | AI-Product Fluency</div>
+  <h2>Built One AI Product Solo, Certified on Four Claude Tracks</h2>
+  <p style="font-size: 10pt; color: #475569; margin-bottom: 8pt;">Plaud is a consumer AI product. The lifecycle marketer who ships fastest is the one who already speaks the AI-product vocabulary, has wired prompt-based iteration into a real workflow, and treats AI-driven personalization as default architecture rather than feature add.</p>
+
+  <svg viewBox="0 0 1000 420" class="mix-svg">
+    <circle cx="500" cy="210" r="68" fill="#4f46e5"/>
+    <text x="500" y="200" text-anchor="middle" font-size="14" fill="#fff" font-weight="800">Adhithya</text>
+    <text x="500" y="218" text-anchor="middle" font-size="11" fill="#fff" font-weight="600">AI-Native Lifecycle</text>
+    <text x="500" y="234" text-anchor="middle" font-size="11" fill="#fff" font-weight="600">Marketer</text>
+
+    <line x1="450" y1="170" x2="220" y2="80" stroke="#4f46e5" stroke-width="2" stroke-dasharray="4,3"/>
+    <rect x="60" y="40" width="320" height="80" rx="8" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+    <text x="220" y="64" text-anchor="middle" font-size="11" fill="#4338ca" font-weight="800">SwipeHire (Solo Build)</text>
+    <text x="220" y="82" text-anchor="middle" font-size="9" fill="#1e293b">Python + OpenAI API + React + custom CMS</text>
+    <text x="220" y="98" text-anchor="middle" font-size="9" fill="#1e293b">50+ users, +25% activation, 8 A/B tests</text>
+    <text x="220" y="113" text-anchor="middle" font-size="9" fill="#475569" font-style="italic">Production AI product, not a prototype</text>
+
+    <line x1="550" y1="170" x2="780" y2="80" stroke="#4f46e5" stroke-width="2" stroke-dasharray="4,3"/>
+    <rect x="620" y="40" width="320" height="80" rx="8" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+    <text x="780" y="64" text-anchor="middle" font-size="11" fill="#4338ca" font-weight="800">4 Claude Certifications</text>
+    <text x="780" y="82" text-anchor="middle" font-size="9" fill="#1e293b">Claude 101 | Code 101 | Cowork</text>
+    <text x="780" y="98" text-anchor="middle" font-size="9" fill="#1e293b">Building with the Claude API</text>
+    <text x="780" y="113" text-anchor="middle" font-size="9" fill="#475569" font-style="italic">Prompt-based iteration as my workflow</text>
+
+    <line x1="450" y1="250" x2="220" y2="340" stroke="#4f46e5" stroke-width="2" stroke-dasharray="4,3"/>
+    <rect x="60" y="300" width="320" height="80" rx="8" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+    <text x="220" y="324" text-anchor="middle" font-size="11" fill="#4338ca" font-weight="800">User-Discovery Discipline</text>
+    <text x="220" y="342" text-anchor="middle" font-size="9" fill="#1e293b">30 structured interviews shaped SwipeHire ICP</text>
+    <text x="220" y="358" text-anchor="middle" font-size="9" fill="#1e293b">30+ at Sensata informed positioning</text>
+    <text x="220" y="373" text-anchor="middle" font-size="9" fill="#475569" font-style="italic">Lifecycle copy starts with the buyer's actual words</text>
+
+    <line x1="550" y1="250" x2="780" y2="340" stroke="#4f46e5" stroke-width="2" stroke-dasharray="4,3"/>
+    <rect x="620" y="300" width="320" height="80" rx="8" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+    <text x="780" y="324" text-anchor="middle" font-size="11" fill="#4338ca" font-weight="800">Claude Draft-and-Critique Pipeline</text>
+    <text x="780" y="342" text-anchor="middle" font-size="9" fill="#1e293b">8x velocity on copy variants</text>
+    <text x="780" y="358" text-anchor="middle" font-size="9" fill="#1e293b">Personalized lifecycle messaging at scale</text>
+    <text x="780" y="373" text-anchor="middle" font-size="9" fill="#475569" font-style="italic">Already wired the production loop</text>
+
+    <text x="500" y="20" text-anchor="middle" font-size="10" fill="#475569" font-weight="600" letter-spacing="1.5">| AI CAPABILITY |</text>
+    <text x="500" y="412" text-anchor="middle" font-size="10" fill="#475569" font-weight="600" letter-spacing="1.5">| LIFECYCLE OUTCOME |</text>
+  </svg>
+  <div class="slide-brand">Plaud | Adhithya Rokhith Bhaskar</div>
+  <div class="slide-num">05 / 06</div>
+</div>
+
+<!-- SLIDE 6 CLOSE -->
+<div class="slide close">
+  <div class="label">Slide 06 | What I Want From the First Conversation</div>
+  <h2>15 Minutes With the Hiring Team</h2>
+  <div class="body">
+    What I would want to understand: which lifecycle stage is currently bleeding the most users (post-install activation, day-7 retention, or feature-adoption), how the B2B-side journey gets routed differently from the B2C-side, and what the first 90-day operating cadence looks like for a Senior Specialist on the lifecycle team.<br><br>
+    What I would bring to the conversation: a one-page proposal for the first three lifecycle experiments I would run in week two, a draft cohort dashboard structure tied to onboarding-stage signals, and a quick read on which AI-driven personalization plays would compound fastest given Plaud's product surface.<br><br>
+    SF works. Open to relocating from Boston.
+  </div>
+  <div class="cta">
+    <div class="btn">15-Minute Hiring Manager Call</div>
+    <div style="font-size: 11pt; color: #475569;">or written async if easier</div>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong><br>
+    arokhith@gmail.com | (929) 563-9974 | Boston, MA (SF works)<br>
+    Portfolio: adhi-growth-ai.vercel.app/ref/plaud<br>
+    LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="slide-brand">Plaud | Adhithya Rokhith Bhaskar</div>
+  <div class="slide-num">06 / 06</div>
+</div>
+
+</body>
+</html>

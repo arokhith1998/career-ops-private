@@ -1,0 +1,34 @@
+TO: [Hiring Manager Name] -- Lead / Director, Digital COE (TE Connectivity)
+PLATFORM: Email
+ROLE: Senior Digital Product Analyst (Req 148683) -- Digital COE
+---
+
+Subject: 148683 -- Why enterprise platform projects fail before implementation starts
+
+Hi [Name],
+
+I applied for the Senior Digital Product Analyst role on your team and wanted to share something that won't come through on a resume: my POV on why enterprise digital-platform projects tend to miss, and why I think your JD describes the right antidote.
+
+Platform projects don't fail at implementation. They fail at definition. CMS, PIM, eCommerce tooling -- those can be corrected later. What can't be corrected is three business teams quietly using the same word to mean three different things, signing off on the JIRA tickets anyway, and ending up with a platform that works exactly as specified and solves nothing.
+
+I watched this almost happen at Plug Power. Sales, marketing, and ops all said they wanted a "lead" tracked end-to-end in Salesforce. When I sat down to configure the workflows, it turned out sales meant "someone who took a sales call," marketing meant "anyone who filled a form," and ops meant "anyone with a valid email." I spent two weeks calibrating that definition across teams before writing a single rule. Then I stood up the full stack -- Salesforce + Adobe Analytics + GA + GTM. The thing worked because the definitions were right. -25% CPA came from the clean data, not the creative.
+
+Three things from your JD that map directly:
+
+- Agile documentation as a discipline. I've managed a 100+ feature backlog across 3 regions at Sensata for 18 months. User stories, acceptance criteria, dependency maps, release notes. Cut TTM 20%. The discipline is refusing "we'll figure out acceptance criteria later" into the queue.
+
+- KPI measurement on what the platform enables. At Sensata I built a SQL + GA4 framework on 50K+ devices with a monthly review cadence with product + engineering. Feature adoption lifted 18%. The framework mattered less than the fact that leadership actually used it to reprioritize.
+
+- Adobe Analytics hands-on. Configured tagging, event taxonomy, segmentation, attribution against the Salesforce pipeline at Plug Power. Not a line on a resume.
+
+One honest note: PIM/DAM governance specifically is the area where I'd be ramping, not executing from day one. I've worked on eCommerce platform ops (Shopify + WordPress + Google Merchant + Meta Catalog at GenY; 16x ROAS), but PIM-specific data modeling at TE's scale would be a 90-day ramp. I'd get there fast -- I wouldn't pretend I was there already.
+
+Also worth knowing: BE in Mechanical Engineering (BITS Pilani). TE's product catalog is a domain I can actually read and reason about.
+
+Resume, cover letter, and portfolio: https://adhithyabhaskar.vercel.app/ref/te
+
+Would welcome 15-20 minutes to hear what the biggest platform-adoption gap in the Digital COE looks like right now.
+
+Best,
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com | (929) 563-9974

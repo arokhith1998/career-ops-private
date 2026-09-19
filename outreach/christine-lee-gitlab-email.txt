@@ -1,0 +1,30 @@
+TO: Christine Lee — Marketing Analytics Leadership @ GitLab
+PLATFORM: Email
+ROLE: Senior Data Analyst, Marketing Analytics
+LINKEDIN: https://www.linkedin.com/in/christinemtlee/
+---
+
+Subject: Sr Data Analyst, Marketing Analytics — Claude with MCP is my actual workflow
+
+Hi Christine,
+
+I applied for the Senior Data Analyst role on the Marketing Analytics team and wanted to reach out directly since I believe you're hiring for this position.
+
+Three things that might not be obvious from the resume:
+
+- **The JD lists "Claude with MCP" as a required AI workflow.** I hold four Anthropic certifications (Claude 101, Code 101, Cowork, Building with Claude API) and built a production Python tool using Claude's API in Cursor — live data ingestion, AI reasoning layer, interactive dashboard. This isn't a line I added because the JD asked for it. I was using these tools before I saw the posting.
+
+- **I've built multi-touch attribution from zero, not inherited it.** At Plug Power, I wired Salesforce + Adobe Analytics + GA + GTM into a single model tracking the full B2B funnel from MQL to pipeline to closed revenue. At Pixis, I owned the attribution dashboards tracking iROAS and incrementality across $1.4M in budgets. Defining the metrics is the hard part — I've done it twice.
+
+- **I know what executives actually look at.** I built a 4-page Power BI executive dashboard analyzing 1,200 opportunities ($627M target) with pipeline funnels, regional scorecards, and action-priority lists. The insight that survives without a meeting is the one that matters in an async culture — and that's how I naturally write.
+
+Your background in strategy and operations resonates with me — I come from a similar angle. My MS is in Marketing Analytics, but my instinct is always "what decision does this data inform?" not "what chart can I build?"
+
+Resume, cover letter, and portfolio attached:
+https://adhithyabhaskar.vercel.app/ref/gitlab
+
+Would genuinely welcome 15 minutes whenever works for you.
+
+Best,
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com | (929) 563-9974

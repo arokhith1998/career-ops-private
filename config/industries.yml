@@ -1,0 +1,44 @@
+# config/industries.yml -- Adhithya Rokhith Bhaskar. User layer, gitignored.
+# Read by .claude/agents/industry-company-mapper.md (company universe) and by
+# nightly-shortlist.mjs (+10 rank bonus on a keyword hit).
+#
+# `region` tells the mapper which track an industry feeds: us, india, or both.
+# US companies: Bay Area HQ or offices, or remote-first. India companies:
+# India-HQ startups and scale-ups, ideally on Greenhouse / Lever / Ashby /
+# SmartRecruiters so the zero-token harvest can read their boards.
+
+industries:
+  - name: Revenue, GTM and Pricing Software
+    keywords: [cpq, deal desk, revenue intelligence, revops, pricing software, billing, monetization, sales enablement, crm]
+    priority: 1
+    region: us
+    notes: "Category-adjacent to PriceKeel. Strongest fit for pricing, RevOps and PMM roles."
+
+  - name: AI-native and Enterprise SaaS
+    keywords: [ai, llm, agents, saas, b2b software, enterprise software, workflow, developer tools]
+    priority: 1
+    region: us
+
+  - name: Semiconductors and Industrial Tech
+    keywords: [semiconductor, semiconductors, chips, silicon, industrial, sensors, iot, hardware, equipment]
+    priority: 2
+    region: us
+    notes: "Applied Materials and Sensata background. Strategic / product marketing and pricing roles."
+
+  - name: Fintech and Payments
+    keywords: [fintech, payments, banking, lending, spend management, insurtech]
+    priority: 2
+    region: both
+
+  - name: Consumer Internet, Marketplaces and D2C
+    keywords: [marketplace, e-commerce, ecommerce, d2c, consumer, quick commerce, retail media]
+    priority: 2
+    region: both
+    notes: "Paid growth and retail media background (Pixis, GenY)."
+
+  - name: India Venture-backed Startups (Series A-D)
+    keywords: [startup, series a, series b, series c, series d, saas, consumer, fintech, edtech, healthtech]
+    priority: 1
+    region: india
+    notes: "Chief of Staff and Head of Growth track. Founder-led companies where a CoS works directly with the CEO."
+    exclude: [staffing, recruitment agency, bpo]

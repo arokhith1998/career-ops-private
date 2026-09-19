@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>YOOBIC ABM Growth Marketing Manager Pitch Deck Adhithya</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  @page { size: 11in 8.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #18181b; background: #fafafa; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; }
+  .slide { width: 11in; height: 8.5in; padding: 0.55in 0.75in 0.5in 0.75in; page-break-after: always; position: relative; overflow: hidden; background: #fafafa; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.35in; right: 0.55in; font-size: 8.5pt; color: #a1a1aa; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.35in; left: 0.75in; font-size: 8.5pt; color: #a1a1aa; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #a21caf; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 10pt; }
+  h1 { font-size: 36pt; font-weight: 800; color: #0c0a09; line-height: 1.04; letter-spacing: -0.6pt; margin-bottom: 8pt; }
+  h2 { font-size: 24pt; font-weight: 800; color: #0c0a09; line-height: 1.08; letter-spacing: -0.4pt; margin-bottom: 6pt; }
+  h2 .accent { color: #a21caf; }
+  .lede { font-size: 13pt; color: #52525b; max-width: 8.5in; margin-bottom: 14pt; font-weight: 400; }
+
+  /* Cover */
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 1in; padding-right: 1in; }
+  .cover h1 { font-size: 42pt; max-width: 9.2in; }
+  .cover .sub { font-size: 17pt; color: #52525b; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 26pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 9.5in; }
+  .tag { background: #fff; border: 1pt solid #d4d4d8; color: #3f3f46; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.5pt; font-weight: 500; }
+  .tag strong { color: #a21caf; font-weight: 700; }
+  .cover .who { margin-top: 32pt; padding-top: 14pt; border-top: 1.5pt solid #a21caf; max-width: 7in; }
+  .cover .who .nm { font-size: 11pt; color: #0c0a09; font-weight: 700; }
+  .cover .who .ct { font-size: 9.5pt; color: #52525b; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.6in; right: 0.85in; font-size: 9pt; color: #a1a1aa; font-style: italic; }
+
+  /* Convergence table */
+  .conv-table { width: 100%; margin-top: 6pt; border-collapse: collapse; }
+  .conv-table th { text-align: left; font-size: 11pt; font-weight: 800; color: #0c0a09; padding: 10pt 12pt 10pt 0; border-bottom: 2pt solid #a21caf; }
+  .conv-table th.row-label { color: #71717a; font-weight: 700; font-size: 9pt; letter-spacing: 1pt; text-transform: uppercase; width: 1.5in; }
+  .conv-table td { padding: 12pt 12pt 12pt 0; font-size: 10pt; color: #3f3f46; border-bottom: 1pt solid #e4e4e7; vertical-align: top; line-height: 1.45; }
+  .conv-table td.row-label { color: #71717a; font-weight: 700; font-size: 9pt; letter-spacing: 0.6pt; text-transform: uppercase; }
+  .conv-table td b { color: #0c0a09; font-weight: 700; }
+  .conv-takeaway { margin-top: 16pt; font-size: 11.5pt; color: #18181b; font-style: italic; border-left: 3pt solid #a21caf; padding: 8pt 14pt; background: #fdf4ff; }
+  .conv-takeaway strong { color: #a21caf; font-style: normal; font-weight: 700; }
+
+  /* Architecture / Pixis slides */
+  .arch-wrap { display: grid; grid-template-columns: 1fr 2.4in; gap: 18pt; margin-top: 4pt; }
+  .arch { width: 100%; height: 4.2in; }
+  .margin-note { font-size: 9.5pt; color: #52525b; line-height: 1.55; font-style: italic; border-top: 1pt solid #d4d4d8; padding-top: 10pt; margin-top: 10pt; }
+  .margin-note .hdr { font-style: normal; font-weight: 700; color: #a21caf; font-size: 9pt; letter-spacing: 1pt; text-transform: uppercase; margin-bottom: 6pt; }
+  .margin-note p { margin-bottom: 8pt; }
+  .kpi-row { display: flex; gap: 14pt; margin-top: 12pt; }
+  .kpi-row .k { background: #fff; border: 1pt solid #d4d4d8; padding: 8pt 12pt; border-radius: 3pt; min-width: 1.3in; }
+  .kpi-row .k .v { font-size: 17pt; color: #a21caf; font-weight: 800; line-height: 1; }
+  .kpi-row .k .l { font-size: 8.5pt; color: #71717a; margin-top: 4pt; font-weight: 600; }
+
+  /* Week one */
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 8pt; }
+  .card { background: #fff; border: 1pt solid #d4d4d8; border-left: 4pt solid #a21caf; padding: 14pt 14pt 12pt 14pt; }
+  .card .label { font-size: 8.5pt; color: #a21caf; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 13pt; font-weight: 800; color: #0c0a09; line-height: 1.18; margin-bottom: 8pt; }
+  .card .body { font-size: 9.5pt; color: #3f3f46; line-height: 1.5; margin-bottom: 8pt; }
+  .card .why { font-size: 9pt; color: #71717a; line-height: 1.5; padding-top: 8pt; border-top: 1pt dashed #d4d4d8; }
+  .card .why strong { color: #a21caf; font-weight: 700; }
+
+  /* Close */
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 1in; padding-right: 1in; }
+  .close h2 { font-size: 30pt; max-width: 8.5in; margin-bottom: 16pt; }
+  .close .body { font-size: 11.5pt; color: #3f3f46; line-height: 1.6; max-width: 8.5in; }
+  .close .body p { margin-bottom: 10pt; }
+  .close .body strong { color: #a21caf; font-weight: 700; }
+  .close .cta { margin-top: 22pt; display: inline-flex; gap: 14pt; align-items: center; }
+  .close .cta .btn { background: #0c0a09; color: #fff; padding: 11pt 22pt; border-radius: 3pt; font-weight: 700; font-size: 11pt; letter-spacing: 0.3pt; }
+  .close .cta .alt { font-size: 10.5pt; color: #71717a; font-style: italic; }
+  .close .contact { margin-top: 24pt; font-size: 10pt; color: #52525b; line-height: 1.6; }
+  .close .contact strong { color: #0c0a09; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<!-- SLIDE 1 - COVER -->
+<div class="slide cover">
+  <div class="prep">Prepared for the YOOBIC Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | ABM/Growth Marketing Manager, YOOBIC</div>
+  <h1>Account-level ABM substance + builder credential.</h1>
+  <div class="sub">The two things the JD asks for at IC level.</div>
+  <div class="tags">
+    <div class="tag"><strong>Plug Power</strong> - account-level ABM stack from zero on Adobe AAM + LinkedIn ABM</div>
+    <div class="tag"><strong>Pixis</strong> - 8-client B2B SaaS portfolio with $1.4M aggregate book</div>
+    <div class="tag"><strong>SwipeHire + NSE Bot</strong> - 2 shipped AI products solo</div>
+    <div class="tag"><strong>4</strong> Anthropic Claude Certifications</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">Boston, MA | Remote | arokhith@gmail.com | (929) 563-9974 | adhi-growth-ai.vercel.app/ref/yoobic</div>
+  </div>
+  <div class="brand">YOOBIC | Adhithya Rokhith Bhaskar</div>
+  <div class="num">01 / 06</div>
+</div>
+
+<!-- SLIDE 2 - CONVERGENCE -->
+<div class="slide">
+  <div class="eyebrow">Slide 02 | The Convergence</div>
+  <h2>Account-level substance <span class="accent">+ a builder credential.</span></h2>
+  <div class="lede">Many ABM Manager candidates will have spent three years inside 6sense. Few will have shipped two AI products solo on top of the substance work. The JD asks for both - "test-and-learn builder" is on the must-have-adjacent line, not the nice-to-have.</div>
+
+  <table class="conv-table">
+    <thead>
+      <tr>
+        <th class="row-label">JD Mandate</th>
+        <th style="width: 4.5in;">YOOBIC asks for</th>
+        <th>What I've shipped</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="row-label">Account-level ABM</td>
+        <td>Design 1:1, 1:few, 1:many ABM programs. ICP segmentation + tiering across firmographic, behavioral, intent data.</td>
+        <td><b>Plug Power: built the account-level ABM stack from zero</b> on Adobe Audience Manager + LinkedIn ABM. Behavioral segments, retargeting funnels, audience layers by title + seniority + industry. HubSpot account-level lifecycle stages.</td>
+      </tr>
+      <tr>
+        <td class="row-label">Multi-tier orchestration</td>
+        <td>1:1, 1:few, 1:many tiers; align with Sales on account plans, engagement strategy, pipeline targets.</td>
+        <td><b>Pixis 8-client B2B SaaS portfolio</b>: each client = tiered ABM target with bespoke ICP, cross-channel orchestration, weekly client CFO QBR on engagement-to-pipeline.</td>
+      </tr>
+      <tr>
+        <td class="row-label">Routing + alerting</td>
+        <td>Develop routing logic + alert systems for BDRs and AEs with RevOps.</td>
+        <td><b>Plug Power: lead-routing rules + SLA documentation</b> through Salesforce campaign attribution. Closed-loop attribution from ad click to SQL.</td>
+      </tr>
+      <tr>
+        <td class="row-label">Builder, test-and-learn</td>
+        <td>Builder, test-and-learn mentality (bonus criterion).</td>
+        <td><b>Two shipped AI products solo:</b> SwipeHire on Python + OpenAI API + React (50 users, 8 A/B tests, +25% activation) + NSE Bot on Python + Claude API. <b>4 Anthropic Claude certs + Cursor + Claude daily.</b></td>
+      </tr>
+      <tr>
+        <td class="row-label">Tools</td>
+        <td>6sense, Demandbase, UserGems, Seam.ai, Influ2 + HubSpot + Salesforce.</td>
+        <td><b>HubSpot architected from zero + Salesforce direct.</b> 6sense / Demandbase / UserGems: functional analogs in Adobe AAM + LinkedIn ABM (account-level signals, behavioral segments, suppression). The tooling gap is the shortest closeable distance on my CV.</td>
+      </tr>
+      <tr>
+        <td class="row-label">Years in title</td>
+        <td>5-7+ yrs B2B SaaS + 3+ yrs enterprise ABM Manager.</td>
+        <td>5 yrs B2B SaaS surface. ABM Manager in title: ~2 yrs of account-level work, not 3+ in title. <b>Owning the gap honestly is the right move.</b></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="conv-takeaway"><strong>What this is.</strong> Substance match on account-level work, multi-tier orchestration, routing + alerting. Stretch on years in the "ABM Manager" title specifically. Unique on the builder credential. The combination is rare enough that the substance + builder lens beats the title-years lens for a team that values "test-and-learn."</div>
+
+  <div class="brand">YOOBIC | Adhithya Rokhith Bhaskar</div>
+  <div class="num">02 / 06</div>
+</div>
+
+<!-- SLIDE 3 - PLUG POWER ABM STACK -->
+<div class="slide">
+  <div class="eyebrow">Slide 03 | Plug Power - The Account-Level Stack</div>
+  <h2>Built the account-level ABM stack <span class="accent">from zero.</span></h2>
+  <div class="lede">Adobe Audience Manager + LinkedIn ABM + HubSpot + Salesforce, architected end-to-end. Different vendor mix than YOOBIC's 6sense/Demandbase stack; same operator pattern.</div>
+
+  <div class="arch-wrap">
+    <svg viewBox="0 0 720 360" class="arch">
+      <text x="20" y="22" font-size="10" fill="#a21caf" font-weight="700" letter-spacing="1.5">ACCOUNT-LEVEL SIGNALS</text>
+      <rect x="20" y="40" width="320" height="60" rx="4" fill="#fff" stroke="#d4d4d8" stroke-width="1"/>
+      <text x="32" y="60" font-size="10.5" fill="#0c0a09" font-weight="800">Adobe Audience Manager</text>
+      <text x="32" y="76" font-size="9" fill="#52525b">Account-level behavioral segments | Suppression lists</text>
+      <text x="32" y="91" font-size="9" fill="#52525b">First-party + 3rd-party traits | Lookalike expansion</text>
+
+      <rect x="360" y="40" width="340" height="60" rx="4" fill="#fff" stroke="#d4d4d8" stroke-width="1"/>
+      <text x="372" y="60" font-size="10.5" fill="#0c0a09" font-weight="800">LinkedIn ABM</text>
+      <text x="372" y="76" font-size="9" fill="#52525b">Audience layers: title + seniority + industry + employer</text>
+      <text x="372" y="91" font-size="9" fill="#52525b">Account-targeted Sponsored Content + Message Ads</text>
+
+      <text x="20" y="124" font-size="10" fill="#a21caf" font-weight="700" letter-spacing="1.5">ENGAGEMENT + RETARGETING</text>
+      <rect x="20" y="142" width="680" height="60" rx="4" fill="#fdf4ff" stroke="#a21caf" stroke-width="1.5"/>
+      <text x="32" y="162" font-size="10.5" fill="#0c0a09" font-weight="800">Multi-channel orchestration with account-level retargeting funnels</text>
+      <text x="32" y="178" font-size="9" fill="#3f3f46">Google Ads + Meta + Adobe-driven Programmatic, all keyed to account-level segments. A/B tested keywords, audiences, creative.</text>
+      <text x="32" y="194" font-size="9" fill="#a21caf" font-weight="700">Outcome: -25% CPA, +20% conversion. Closed-loop attribution from ad click to SQL.</text>
+
+      <text x="20" y="226" font-size="10" fill="#a21caf" font-weight="700" letter-spacing="1.5">LIFECYCLE + ROUTING</text>
+      <rect x="20" y="244" width="320" height="60" rx="4" fill="#fff" stroke="#d4d4d8" stroke-width="1"/>
+      <text x="32" y="264" font-size="10.5" fill="#0c0a09" font-weight="800">HubSpot lifecycle (account-level)</text>
+      <text x="32" y="280" font-size="9" fill="#52525b">Sequences + pipelines + lifecycle stages</text>
+      <text x="32" y="295" font-size="9" fill="#52525b">Account-level behavioral segmentation + MQL nurture drip</text>
+
+      <rect x="360" y="244" width="340" height="60" rx="4" fill="#fff" stroke="#d4d4d8" stroke-width="1"/>
+      <text x="372" y="264" font-size="10.5" fill="#0c0a09" font-weight="800">Salesforce routing + SLA</text>
+      <text x="372" y="280" font-size="9" fill="#52525b">Campaign attribution validated end-to-end</text>
+      <text x="372" y="295" font-size="9" fill="#52525b">Lead routing rules + alerting fed BDR/AE handoff workflows</text>
+
+      <text x="370" y="330" text-anchor="middle" font-size="9.5" fill="#52525b" font-style="italic">Different tools than YOOBIC's stack (6sense/Demandbase) - same operator pattern.</text>
+      <text x="370" y="346" text-anchor="middle" font-size="9.5" fill="#52525b" font-style="italic">Account-level signals -&gt; engagement orchestration -&gt; routed alerts -&gt; pipeline conversion.</text>
+    </svg>
+
+    <div class="margin-note">
+      <div class="hdr">The honest framing</div>
+      <p>I haven't worked in 6sense specifically. The architectural muscle is what transfers - account-level segments, intent-trigger workflows, routing logic.</p>
+      <p>If the team values "title-years in 6sense," this is a stretch. If the team values <strong>shipped account-level ABM substance + a builder credential</strong>, this is the right operator.</p>
+    </div>
+  </div>
+
+  <div class="brand">YOOBIC | Adhithya Rokhith Bhaskar</div>
+  <div class="num">03 / 06</div>
+</div>
+
+<!-- SLIDE 4 - PIXIS 8-CLIENT AS ABM ANALOG -->
+<div class="slide">
+  <div class="eyebrow">Slide 04 | Pixis - Multi-Client = Multi-Tier ABM</div>
+  <h2>8 clients. Each treated <span class="accent">as a tiered ABM target.</span></h2>
+  <div class="lede">An 8-client B2B SaaS agency book is structurally an 8-tier ABM program. Each client got bespoke ICP definition, cross-channel orchestration, and weekly engagement-to-pipeline review. That's the 1:few + 1:many machinery the JD describes.</div>
+
+  <div class="arch-wrap">
+    <svg viewBox="0 0 720 360" class="arch">
+      <text x="20" y="22" font-size="10" fill="#a21caf" font-weight="700" letter-spacing="1.5">8 CLIENTS = 8 TIERED ACCOUNTS</text>
+
+      <g font-size="9" fill="#0c0a09" font-weight="700">
+        <rect x="20" y="40" width="280" height="22" fill="#a21caf"/>
+        <text x="306" y="55">Tier 1: $90K/mo  FinTech B2B  1:1 motion</text>
+        <rect x="20" y="68" width="225" height="22" fill="#c026d3"/>
+        <text x="251" y="83">Tier 1: $72K/mo  WealthTech  1:1</text>
+        <rect x="20" y="96" width="205" height="22" fill="#c026d3"/>
+        <text x="231" y="111">Tier 2: $65K/mo  SaaS Productivity  1:few</text>
+        <rect x="20" y="124" width="180" height="22" fill="#d946ef"/>
+        <text x="206" y="139">Tier 2: $58K/mo  InsureTech  1:few</text>
+        <rect x="20" y="152" width="140" height="22" fill="#d946ef"/>
+        <text x="166" y="167">Tier 2: $45K/mo  Compliance SaaS  1:few</text>
+        <rect x="20" y="180" width="100" height="22" fill="#e879f9"/>
+        <text x="126" y="195">Tier 3: $32K/mo  Vertical SaaS  1:many</text>
+        <rect x="20" y="208" width="70" height="22" fill="#e879f9"/>
+        <text x="96" y="223">Tier 3: $22K/mo  SaaS B2B  1:many</text>
+        <rect x="20" y="236" width="46" height="22" fill="#f0abfc"/>
+        <text x="72" y="251">Tier 3: $15K/mo  E-Comm  1:many</text>
+      </g>
+
+      <text x="20" y="285" font-size="10" fill="#a21caf" font-weight="700" letter-spacing="1.5">PER-TIER PLAYBOOK</text>
+      <text x="20" y="302" font-size="9.5" fill="#3f3f46"><tspan font-weight="700" fill="#0c0a09">Tier 1 ($72-90K, 1:1):</tspan> dedicated creative + custom dashboards + weekly CFO QBR + bespoke channel mix.</text>
+      <text x="20" y="318" font-size="9.5" fill="#3f3f46"><tspan font-weight="700" fill="#0c0a09">Tier 2 ($45-65K, 1:few):</tspan> shared creative pods + portfolio dashboards + biweekly review + standardized channel mix.</text>
+      <text x="20" y="334" font-size="9.5" fill="#3f3f46"><tspan font-weight="700" fill="#0c0a09">Tier 3 ($15-32K, 1:many):</tspan> templated creative + automated reporting + monthly review + benchmark channel mix.</text>
+      <text x="20" y="354" font-size="9" fill="#71717a" font-style="italic">Holdout-incrementality work on one Tier-2 client drove 3x ROAS the next month.</text>
+    </svg>
+
+    <div class="margin-note">
+      <div class="hdr">Why this is the multi-tier ABM analog</div>
+      <p>YOOBIC sells to 300+ global brands. The book naturally splits into tiers. The Pixis playbook - <strong>tiered orchestration, per-tier playbooks, structured engagement review</strong> - is the same machinery, just framed as agency-side client tiers.</p>
+      <p>Translation to 1:1, 1:few, 1:many tiers at YOOBIC is one renaming away.</p>
+    </div>
+  </div>
+
+  <div class="kpi-row">
+    <div class="k"><div class="v">$1.4M</div><div class="l">Aggregate book</div></div>
+    <div class="k"><div class="v">8</div><div class="l">Tiered accounts in parallel</div></div>
+    <div class="k"><div class="v">6</div><div class="l">Paid channels orchestrated</div></div>
+    <div class="k"><div class="v">3x ROAS</div><div class="l">Beauty-client lift</div></div>
+  </div>
+
+  <div class="brand">YOOBIC | Adhithya Rokhith Bhaskar</div>
+  <div class="num">04 / 06</div>
+</div>
+
+<!-- SLIDE 5 - WEEK ONE -->
+<div class="slide">
+  <div class="eyebrow">Slide 05 | First 60 Days</div>
+  <h2>Three ABM ramp experiments <span class="accent">I'd run in the first sixty days.</span></h2>
+  <div class="lede">Concrete and scoped. Each is sized to ship inside two months and produces a measurable engagement-to-pipeline outcome.</div>
+
+  <div class="week">
+    <div class="card">
+      <div class="label">Experiment 1 - 1:1 Pilot</div>
+      <div class="ttl">Top-10 global retail accounts, 1:1 motion</div>
+      <div class="body">Pick 10 named global retail brands not yet on YOOBIC's customer list. Build bespoke account plans: buying-committee map (Ops + IT + L&amp;D + frontline ops), persona-based messaging, account-level paid + LinkedIn ABM + outbound sequence + custom landing page. Hand the engagement signal to AEs through Salesforce alerts.</div>
+      <div class="why"><strong>Why first.</strong> The 1:1 motion is the fastest test of whether the new account-level stack actually produces pipeline. Pixis Tier-1 playbook ($72-90K clients, 1:1) maps directly.</div>
+    </div>
+
+    <div class="card">
+      <div class="label">Experiment 2 - 1:few Tier-2 Audit</div>
+      <div class="ttl">Top-50 hospitality accounts, 1:few</div>
+      <div class="body">Cluster 50 hospitality brands by category (QSR, hotels, casual dining, fast-casual). One messaging spine per cluster, shared creative pods, audience layers by title + region. Biweekly engagement review on engagement-to-pipeline conversion.</div>
+      <div class="why"><strong>Why first.</strong> 1:few is where most ABM programs leak. Standardized per-tier playbook + structured review (Pixis Tier-2 analog) cuts the leak. Quick wins in 30-45 days.</div>
+    </div>
+
+    <div class="card">
+      <div class="label">Experiment 3 - Builder Credit</div>
+      <div class="ttl">An AI-driven intent-signal triage workflow</div>
+      <div class="body">Cursor + Claude pipeline that ingests intent + engagement signal data, surfaces the top 5 accounts/week with the strongest buying signal, and drafts a 1-paragraph BDR brief per account (recent triggers, buying-committee map, suggested first message). Reviewer-in-the-loop, not auto-send.</div>
+      <div class="why"><strong>Why first.</strong> The builder credit. SwipeHire's instrumentation discipline transfers to intent triage. This is where the JD's "test-and-learn builder" mandate becomes a working tool.</div>
+    </div>
+  </div>
+
+  <div class="brand">YOOBIC | Adhithya Rokhith Bhaskar</div>
+  <div class="num">05 / 06</div>
+</div>
+
+<!-- SLIDE 6 - CLOSE -->
+<div class="slide close">
+  <div class="eyebrow">Slide 06 | The Ask</div>
+  <h2>What I'd want from <span class="accent">the first fifteen minutes.</span></h2>
+  <div class="body">
+    <p><strong>What I'd want to understand:</strong> where the team currently splits between 1:1 and 1:few tier investments; which tier is producing the most pipeline today and which is bleeding the most; whether the team values "title-years in 6sense" or "shipped account-level substance + builder credential" more for this seat.</p>
+    <p><strong>What I'd bring:</strong> a one-pager on how I'd structure the first 90 days, a draft buying-committee map for one of the top-10 global retail accounts on YOOBIC's customer list, and an honest take on the closest closeable tool gap (6sense vs Demandbase vs UserGems) given my Adobe AAM + LinkedIn ABM base.</p>
+    <p>Remote works. Boston-based for whenever in-person matters.</p>
+  </div>
+  <div class="cta">
+    <div class="btn">15 min with the YOOBIC team</div>
+    <div class="alt">or written async if that's easier on your week</div>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong><br>
+    arokhith@gmail.com | (929) 563-9974 | Boston, MA<br>
+    Portfolio: adhi-growth-ai.vercel.app/ref/yoobic<br>
+    LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">YOOBIC | Adhithya Rokhith Bhaskar</div>
+  <div class="num">06 / 06</div>
+</div>
+
+</body>
+</html>

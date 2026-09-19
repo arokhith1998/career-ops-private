@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Newform Growth Marketing Manager Sample Work Adhithya</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  @page { size: 11in 8.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 11pt; line-height: 1.4; color: #0f172a; background: #fff; }
+  .slide { width: 11in; height: 8.5in; padding: 0.55in 0.7in; page-break-after: always; position: relative; overflow: hidden; }
+  .slide:last-child { page-break-after: avoid; }
+  .slide-num { position: absolute; bottom: 0.3in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; font-weight: 600; letter-spacing: 1pt; }
+  .slide-brand { position: absolute; bottom: 0.3in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; font-weight: 600; letter-spacing: 0.5pt; }
+  h1 { font-size: 32pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; line-height: 1.05; letter-spacing: -0.5pt; }
+  h2 { font-size: 22pt; font-weight: 800; color: #0f172a; margin-bottom: 14pt; line-height: 1.1; letter-spacing: -0.3pt; }
+  h3 { font-size: 13pt; font-weight: 700; color: #0f172a; margin-bottom: 6pt; }
+  .accent { color: #ea580c; }
+  .accent-bg { background: #ea580c; color: #fff; }
+  .muted { color: #475569; }
+  .label { font-size: 8.5pt; font-weight: 700; color: #ea580c; text-transform: uppercase; letter-spacing: 1.2pt; margin-bottom: 8pt; }
+
+  /* Slide 1 cover */
+  .cover { display: flex; flex-direction: column; justify-content: center; background: linear-gradient(135deg, #fff7ed 0%, #ffedd5 50%, #fed7aa 100%); }
+  .cover h1 { font-size: 38pt; }
+  .cover .sub { font-size: 16pt; color: #475569; margin-top: 6pt; font-weight: 500; }
+  .cover .author { margin-top: 32pt; padding-top: 18pt; border-top: 2pt solid #ea580c; font-size: 11pt; color: #475569; }
+  .cover .author strong { color: #0f172a; font-weight: 700; }
+  .cover .pills { margin-top: 20pt; display: flex; gap: 8pt; flex-wrap: wrap; }
+  .pill { background: #fff; border: 1.5pt solid #ea580c; color: #ea580c; padding: 5pt 12pt; border-radius: 14pt; font-size: 9pt; font-weight: 700; }
+
+  /* Slide 2 portfolio dashboard */
+  .grid-2 { display: grid; grid-template-columns: 1fr 1.05fr; gap: 28pt; margin-top: 8pt; }
+  .panel { background: #fff7ed; border: 1pt solid #fed7aa; border-radius: 6pt; padding: 14pt; }
+  .panel h3 { color: #9a3412; }
+  .kpi-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10pt; }
+  .kpi { background: #fff; border-left: 3pt solid #ea580c; padding: 8pt 10pt; border-radius: 3pt; }
+  .kpi .v { font-size: 18pt; font-weight: 800; color: #ea580c; line-height: 1; }
+  .kpi .l { font-size: 8.5pt; color: #475569; margin-top: 3pt; font-weight: 600; }
+  .ulx { list-style: none; padding: 0; }
+  .ulx li { padding: 4pt 0 4pt 14pt; position: relative; font-size: 10pt; color: #1e293b; }
+  .ulx li:before { content: ""; position: absolute; left: 0; top: 10pt; width: 7pt; height: 2pt; background: #ea580c; }
+
+  /* Slide 3 client portfolio dashboard */
+  .clients-table { width: 100%; border-collapse: collapse; margin-top: 4pt; font-size: 9pt; }
+  .clients-table th { background: #ea580c; color: #fff; padding: 7pt 8pt; text-align: left; font-weight: 700; font-size: 8.5pt; letter-spacing: 0.3pt; }
+  .clients-table td { padding: 6pt 8pt; border-bottom: 0.5pt solid #fed7aa; color: #1e293b; }
+  .clients-table tr:nth-child(even) td { background: #fff7ed; }
+  .status-good { color: #15803d; font-weight: 700; }
+  .status-warn { color: #b45309; font-weight: 700; }
+  .status-bad { color: #b91c1c; font-weight: 700; }
+
+  /* Slide 4 incrementality */
+  .chart-box { background: #fff7ed; border: 1pt solid #fed7aa; border-radius: 6pt; padding: 18pt 18pt 14pt; margin-top: 6pt; }
+  .insight-box { background: #fff7ed; border-left: 4pt solid #ea580c; padding: 12pt 16pt; margin-top: 14pt; border-radius: 0 4pt 4pt 0; }
+  .insight-box strong { color: #9a3412; }
+
+  /* Slide 5 willbot diagram */
+  .hub-spoke { width: 100%; height: 4.4in; }
+
+  /* Slide 6 close */
+  .close { display: flex; flex-direction: column; justify-content: center; background: linear-gradient(135deg, #fff7ed 0%, #fed7aa 100%); }
+  .close h2 { font-size: 28pt; }
+  .close .body { font-size: 13pt; color: #1e293b; line-height: 1.65; max-width: 8.5in; }
+  .close .cta { margin-top: 28pt; display: flex; gap: 16pt; align-items: center; }
+  .close .cta .btn { background: #ea580c; color: #fff; padding: 10pt 22pt; border-radius: 6pt; font-weight: 700; font-size: 11pt; }
+  .close .contact { margin-top: 24pt; font-size: 10pt; color: #475569; }
+  .close .contact strong { color: #0f172a; }
+</style>
+</head>
+<body>
+
+<!-- SLIDE 1 COVER -->
+<div class="slide cover">
+  <div class="label">Sample Work | Newform Growth Marketing Manager</div>
+  <h1>Running the 8-Client Book</h1>
+  <div class="sub">Agency-side performance marketing, $15K-$90K/mo per-client budgets, Pixis to Newform translation</div>
+  <div class="pills">
+    <div class="pill">Pixis 8-Client Book</div>
+    <div class="pill">$15K-$90K/mo Per Client</div>
+    <div class="pill">3x ROAS Holdout Validated</div>
+    <div class="pill">-25% CPA Plug Power</div>
+    <div class="pill">16x ROAS GenY D2C</div>
+    <div class="pill">SwipeHire on OpenAI API</div>
+    <div class="pill">4 Claude Certifications</div>
+  </div>
+  <div class="author">
+    <strong>Adhithya Rokhith Bhaskar</strong> | Boston, MA (NYC works) | (929) 563-9974 | arokhith@gmail.com<br>
+    Portfolio: adhi-growth-ai.vercel.app/ref/newform
+  </div>
+  <div class="slide-brand">Prepared for the Newform Hiring Team</div>
+  <div class="slide-num">01 / 06</div>
+</div>
+
+<!-- SLIDE 2 JD MAPPING -->
+<div class="slide">
+  <div class="label">Slide 02 | The Match in One View</div>
+  <h2>What Newform Hires For, What I Have Already Run</h2>
+  <div class="grid-2">
+    <div class="panel">
+      <h3>Newform JD</h3>
+      <ul class="ulx">
+        <li>Lead client relationships and media investments at agency scale</li>
+        <li>Oversee media buyers and creative strategists across several accounts</li>
+        <li>Drive efficient spend, scale accounts</li>
+        <li>Deep TikTok / Google / Meta expertise with iOS app focus (Appsflyer + Adjust)</li>
+        <li>Connect media and content strategy to client outcomes</li>
+        <li>AI-enabled execution culture (WillBot)</li>
+      </ul>
+    </div>
+    <div class="panel">
+      <h3>What I Bring</h3>
+      <div class="kpi-grid" style="margin-bottom: 10pt;">
+        <div class="kpi"><div class="v">8</div><div class="l">Client portfolio at Pixis</div></div>
+        <div class="kpi"><div class="v">$15K-$90K</div><div class="l">Per-client monthly budget</div></div>
+        <div class="kpi"><div class="v">8</div><div class="l">Person team I led</div></div>
+        <div class="kpi"><div class="v">3x</div><div class="l">ROAS lift, holdout-validated</div></div>
+        <div class="kpi"><div class="v">-25%</div><div class="l">CPA at Plug Power</div></div>
+        <div class="kpi"><div class="v">16x</div><div class="l">ROAS at GenY D2C</div></div>
+      </div>
+      <ul class="ulx">
+        <li>Weekly client QBRs to CFOs and growth leads</li>
+        <li>Trained 8 enterprise marketers on AI bidding tools</li>
+        <li>4 Claude certifications + SwipeHire on OpenAI API</li>
+      </ul>
+    </div>
+  </div>
+  <div class="slide-brand">Newform | Adhithya Rokhith Bhaskar</div>
+  <div class="slide-num">02 / 06</div>
+</div>
+
+<!-- SLIDE 3 CLIENT PORTFOLIO DASHBOARD -->
+<div class="slide">
+  <div class="label">Slide 03 | The Operating Cadence</div>
+  <h2>Pixis 8-Client Book, Weekly QBR View</h2>
+  <p style="font-size: 10pt; color: #475569; margin-bottom: 8pt;">The shape of the Pixis book matches the shape of Newform's account portfolio. Per-client monthly budgets ranged $15K to $90K. Each row is one client, one weekly QBR, one set of recommendations. Two clients triggered mid-quarter channel replacement.</p>
+  <table class="clients-table">
+    <thead>
+      <tr>
+        <th>Client</th>
+        <th>Vertical</th>
+        <th>Channels</th>
+        <th>Spend / Mo</th>
+        <th>ROAS</th>
+        <th>WoW Trend</th>
+        <th>Status</th>
+        <th>This Week's Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Client A</strong></td>
+        <td>Fashion D2C</td>
+        <td>Meta + Google Shopping</td>
+        <td>$90K</td>
+        <td>3.4x</td>
+        <td>+12%</td>
+        <td class="status-good">Scale</td>
+        <td>Holdout incrementality test, +30% budget</td>
+      </tr>
+      <tr>
+        <td><strong>Client B</strong></td>
+        <td>SaaS Productivity</td>
+        <td>Google + LinkedIn</td>
+        <td>$72K</td>
+        <td>2.1x</td>
+        <td>-8%</td>
+        <td class="status-warn">Refresh</td>
+        <td>New creative cycle, audience expansion</td>
+      </tr>
+      <tr>
+        <td><strong>Client C</strong></td>
+        <td>Health &amp; Wellness</td>
+        <td>Meta + TikTok</td>
+        <td>$58K</td>
+        <td>1.4x</td>
+        <td>-22%</td>
+        <td class="status-bad">Replace</td>
+        <td>Mid-quarter pivot off TikTok to Meta Advantage+</td>
+      </tr>
+      <tr>
+        <td><strong>Client D</strong></td>
+        <td>FinTech B2B</td>
+        <td>Google + LinkedIn + Programmatic</td>
+        <td>$65K</td>
+        <td>2.8x</td>
+        <td>+5%</td>
+        <td class="status-good">Hold</td>
+        <td>Suppression list audit, retargeting refresh</td>
+      </tr>
+      <tr>
+        <td><strong>Client E</strong></td>
+        <td>Edu D2C</td>
+        <td>Meta + Google Search</td>
+        <td>$45K</td>
+        <td>4.1x</td>
+        <td>+18%</td>
+        <td class="status-good">Scale</td>
+        <td>Lookalike expansion, lift campaign</td>
+      </tr>
+      <tr>
+        <td><strong>Client F</strong></td>
+        <td>Consumer App</td>
+        <td>Meta + Google UAC</td>
+        <td>$32K</td>
+        <td>2.3x</td>
+        <td>-3%</td>
+        <td class="status-warn">Diagnose</td>
+        <td>Creative-fatigue audit, top 5% session check</td>
+      </tr>
+      <tr>
+        <td><strong>Client G</strong></td>
+        <td>SaaS Vertical</td>
+        <td>LinkedIn + Programmatic</td>
+        <td>$22K</td>
+        <td>2.6x</td>
+        <td>+9%</td>
+        <td class="status-good">Hold</td>
+        <td>ABM list expansion, targeting refresh</td>
+      </tr>
+      <tr>
+        <td><strong>Client H</strong></td>
+        <td>E-Commerce</td>
+        <td>Meta + Google Shopping + TikTok</td>
+        <td>$15K</td>
+        <td>3.0x</td>
+        <td>+7%</td>
+        <td class="status-good">Hold</td>
+        <td>Catalog refresh, Advantage+ test</td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="insight-box">
+    <strong>The diagnostic muscle.</strong> Aggregate ROAS hides the rot. On Client F, blended ROAS looked fine; the top 5% of sessions were carrying the average. Refresh creative + re-key channel mix, retained. That is the pattern Newform's media buyers and creative strategists need from a manager.
+  </div>
+  <div class="slide-brand">Newform | Adhithya Rokhith Bhaskar</div>
+  <div class="slide-num">03 / 06</div>
+</div>
+
+<!-- SLIDE 4 HOLDOUT INCREMENTALITY -->
+<div class="slide">
+  <div class="label">Slide 04 | Causal Rigor on Spend</div>
+  <h2>3x ROAS Lift Validated via Holdout Incrementality</h2>
+  <p style="font-size: 10pt; color: #475569; margin-bottom: 4pt;">Pixis client, fashion D2C. Geo-holdout split, 4-week lift window, weekly readouts presented to client CFO.</p>
+
+  <div class="chart-box">
+    <svg viewBox="0 0 700 300" class="chart" style="width: 100%; height: 2.7in;">
+      <!-- Y axis -->
+      <line x1="60" y1="20" x2="60" y2="240" stroke="#94a3b8" stroke-width="1"/>
+      <!-- X axis -->
+      <line x1="60" y1="240" x2="680" y2="240" stroke="#94a3b8" stroke-width="1"/>
+      <!-- Y labels -->
+      <text x="50" y="25" text-anchor="end" font-size="9" fill="#64748b">$30K</text>
+      <text x="50" y="80" text-anchor="end" font-size="9" fill="#64748b">$22.5K</text>
+      <text x="50" y="135" text-anchor="end" font-size="9" fill="#64748b">$15K</text>
+      <text x="50" y="190" text-anchor="end" font-size="9" fill="#64748b">$7.5K</text>
+      <text x="50" y="244" text-anchor="end" font-size="9" fill="#64748b">$0</text>
+      <!-- Gridlines -->
+      <line x1="60" y1="80" x2="680" y2="80" stroke="#e2e8f0" stroke-width="0.5" stroke-dasharray="3,3"/>
+      <line x1="60" y1="135" x2="680" y2="135" stroke="#e2e8f0" stroke-width="0.5" stroke-dasharray="3,3"/>
+      <line x1="60" y1="190" x2="680" y2="190" stroke="#e2e8f0" stroke-width="0.5" stroke-dasharray="3,3"/>
+      <!-- Bars Week 1 -->
+      <rect x="100" y="180" width="50" height="60" fill="#94a3b8"/>
+      <rect x="155" y="170" width="50" height="70" fill="#ea580c"/>
+      <text x="125" y="170" text-anchor="middle" font-size="8" fill="#475569">$8.2K</text>
+      <text x="180" y="160" text-anchor="middle" font-size="8" fill="#9a3412" font-weight="700">$9.6K</text>
+      <text x="152" y="260" text-anchor="middle" font-size="9" fill="#0f172a" font-weight="700">Week 1</text>
+      <!-- Week 2 -->
+      <rect x="240" y="175" width="50" height="65" fill="#94a3b8"/>
+      <rect x="295" y="155" width="50" height="85" fill="#ea580c"/>
+      <text x="265" y="165" text-anchor="middle" font-size="8" fill="#475569">$8.9K</text>
+      <text x="320" y="145" text-anchor="middle" font-size="8" fill="#9a3412" font-weight="700">$11.6K</text>
+      <text x="292" y="260" text-anchor="middle" font-size="9" fill="#0f172a" font-weight="700">Week 2</text>
+      <!-- Week 3 -->
+      <rect x="380" y="178" width="50" height="62" fill="#94a3b8"/>
+      <rect x="435" y="120" width="50" height="120" fill="#ea580c"/>
+      <text x="405" y="168" text-anchor="middle" font-size="8" fill="#475569">$8.5K</text>
+      <text x="460" y="110" text-anchor="middle" font-size="8" fill="#9a3412" font-weight="700">$16.4K</text>
+      <text x="432" y="260" text-anchor="middle" font-size="9" fill="#0f172a" font-weight="700">Week 3</text>
+      <!-- Week 4 -->
+      <rect x="520" y="172" width="50" height="68" fill="#94a3b8"/>
+      <rect x="575" y="60" width="50" height="180" fill="#ea580c"/>
+      <text x="545" y="162" text-anchor="middle" font-size="8" fill="#475569">$9.3K</text>
+      <text x="600" y="50" text-anchor="middle" font-size="9" fill="#9a3412" font-weight="700">$28.0K</text>
+      <text x="572" y="260" text-anchor="middle" font-size="9" fill="#0f172a" font-weight="700">Week 4</text>
+      <!-- Legend -->
+      <rect x="100" y="282" width="14" height="10" fill="#94a3b8"/>
+      <text x="120" y="290" font-size="9" fill="#475569">Holdout (no media)</text>
+      <rect x="240" y="282" width="14" height="10" fill="#ea580c"/>
+      <text x="260" y="290" font-size="9" fill="#475569">Treatment (full spend + creative refresh)</text>
+      <!-- Result callout -->
+      <rect x="475" y="278" width="200" height="22" rx="11" fill="#15803d"/>
+      <text x="575" y="293" text-anchor="middle" font-size="10" fill="#fff" font-weight="700">3x ROAS lift, p &lt; 0.05</text>
+    </svg>
+  </div>
+  <div class="insight-box">
+    <strong>What I told the client CFO.</strong> The 3x lift held up under holdout. Aggregate ROAS would have shown 2.4x and called it a win. The honest number is the one that survives a control group, and the one the client renews on.
+  </div>
+  <div class="slide-brand">Newform | Adhithya Rokhith Bhaskar</div>
+  <div class="slide-num">04 / 06</div>
+</div>
+
+<!-- SLIDE 5 WILLBOT STACK ALIGNMENT -->
+<div class="slide">
+  <div class="label">Slide 05 | AI-Agent Stack Alignment</div>
+  <h2>WillBot Fluency, Already Earned</h2>
+  <p style="font-size: 10pt; color: #475569; margin-bottom: 8pt;">Newform sells AI-enabled performance marketing. The translation muscle from AI capability to client outcome is the same translation I have been doing for two years. Hub view of how the pieces connect.</p>
+
+  <svg viewBox="0 0 1000 420" class="hub-spoke">
+    <!-- Center hub -->
+    <circle cx="500" cy="210" r="68" fill="#ea580c"/>
+    <text x="500" y="200" text-anchor="middle" font-size="14" fill="#fff" font-weight="800">Adhithya</text>
+    <text x="500" y="218" text-anchor="middle" font-size="11" fill="#fff" font-weight="600">AI-Agent Stack</text>
+    <text x="500" y="234" text-anchor="middle" font-size="11" fill="#fff" font-weight="600">Translator</text>
+
+    <!-- Spoke 1 SwipeHire -->
+    <line x1="450" y1="170" x2="220" y2="80" stroke="#ea580c" stroke-width="2" stroke-dasharray="4,3"/>
+    <rect x="60" y="40" width="320" height="80" rx="8" fill="#fff7ed" stroke="#ea580c" stroke-width="1.5"/>
+    <text x="220" y="64" text-anchor="middle" font-size="11" fill="#9a3412" font-weight="800">SwipeHire (Solo Build)</text>
+    <text x="220" y="82" text-anchor="middle" font-size="9" fill="#1e293b">Python + OpenAI API + React</text>
+    <text x="220" y="98" text-anchor="middle" font-size="9" fill="#1e293b">50+ users, +25% activation, 8 A/B tests</text>
+    <text x="220" y="113" text-anchor="middle" font-size="9" fill="#475569" font-style="italic">Same shape as WillBot</text>
+
+    <!-- Spoke 2 Claude Certs -->
+    <line x1="550" y1="170" x2="780" y2="80" stroke="#ea580c" stroke-width="2" stroke-dasharray="4,3"/>
+    <rect x="620" y="40" width="320" height="80" rx="8" fill="#fff7ed" stroke="#ea580c" stroke-width="1.5"/>
+    <text x="780" y="64" text-anchor="middle" font-size="11" fill="#9a3412" font-weight="800">4 Claude Certifications</text>
+    <text x="780" y="82" text-anchor="middle" font-size="9" fill="#1e293b">Claude 101 | Code 101 | Cowork</text>
+    <text x="780" y="98" text-anchor="middle" font-size="9" fill="#1e293b">Building with the Claude API</text>
+    <text x="780" y="113" text-anchor="middle" font-size="9" fill="#475569" font-style="italic">Prompt-based iteration as my workflow</text>
+
+    <!-- Spoke 3 Pixis AI bidding -->
+    <line x1="450" y1="250" x2="220" y2="340" stroke="#ea580c" stroke-width="2" stroke-dasharray="4,3"/>
+    <rect x="60" y="300" width="320" height="80" rx="8" fill="#fff7ed" stroke="#ea580c" stroke-width="1.5"/>
+    <text x="220" y="324" text-anchor="middle" font-size="11" fill="#9a3412" font-weight="800">Pixis AI Bidding Tools</text>
+    <text x="220" y="342" text-anchor="middle" font-size="9" fill="#1e293b">Trained 8 enterprise marketers</text>
+    <text x="220" y="358" text-anchor="middle" font-size="9" fill="#1e293b">Translated AI methodology to CFO outcomes</text>
+    <text x="220" y="373" text-anchor="middle" font-size="9" fill="#475569" font-style="italic">Same translation Newform sells</text>
+
+    <!-- Spoke 4 Closed-loop attribution -->
+    <line x1="550" y1="250" x2="780" y2="340" stroke="#ea580c" stroke-width="2" stroke-dasharray="4,3"/>
+    <rect x="620" y="300" width="320" height="80" rx="8" fill="#fff7ed" stroke="#ea580c" stroke-width="1.5"/>
+    <text x="780" y="324" text-anchor="middle" font-size="11" fill="#9a3412" font-weight="800">Closed-Loop Attribution</text>
+    <text x="780" y="342" text-anchor="middle" font-size="9" fill="#1e293b">Salesforce + Adobe + GA4 + GTM</text>
+    <text x="780" y="358" text-anchor="middle" font-size="9" fill="#1e293b">UTM spec, lead routing, ad-click to SQL</text>
+    <text x="780" y="373" text-anchor="middle" font-size="9" fill="#475569" font-style="italic">Mental model = post-IDFA SKAN</text>
+
+    <!-- Top label -->
+    <text x="500" y="20" text-anchor="middle" font-size="10" fill="#475569" font-weight="600" letter-spacing="1.5">— AI CAPABILITY —</text>
+    <text x="500" y="412" text-anchor="middle" font-size="10" fill="#475569" font-weight="600" letter-spacing="1.5">— CLIENT OUTCOME —</text>
+  </svg>
+  <div class="slide-brand">Newform | Adhithya Rokhith Bhaskar</div>
+  <div class="slide-num">05 / 06</div>
+</div>
+
+<!-- SLIDE 6 CLOSE -->
+<div class="slide close">
+  <div class="label">Slide 06 | What I Want From the First Conversation</div>
+  <h2>15 Minutes With the Hiring Team</h2>
+  <div class="body">
+    What I would want to understand: which of the iOS-app clients most resemble what I would inherit, how creative briefs flow between WillBot and the strategist team in practice, and what the first 90-day operating cadence looks like for a new manager on the book.<br><br>
+    What I would bring to the conversation: the exact playbook I ran on Pixis Client F when blended ROAS hid creative-fatigue rot, plus a one-page proposal for how I would structure the first weekly QBR template if I joined.<br><br>
+    iOS app paid UA is direct. I ran Appsflyer and Adjust at Pixis as part of the 8-client book with SKAN / post-IDFA conversion-event discipline. NYC works. Open to relocating from Boston.
+  </div>
+  <div class="cta">
+    <div class="btn">15-Minute Founder Screen</div>
+    <div style="font-size: 11pt; color: #475569;">or written async if easier</div>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong><br>
+    arokhith@gmail.com | (929) 563-9974 | Boston, MA (NYC works)<br>
+    Portfolio: adhi-growth-ai.vercel.app/ref/newform<br>
+    LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="slide-brand">Newform | Adhithya Rokhith Bhaskar</div>
+  <div class="slide-num">06 / 06</div>
+</div>
+
+</body>
+</html>

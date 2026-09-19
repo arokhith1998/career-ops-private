@@ -1,0 +1,39 @@
+TO: Bruce Hogan — VP of Growth Marketing @ GlossGenius
+PLATFORM: Email
+ROLE: Staff Data Analyst + Sr Data Analyst + Growth Marketing Manager
+LINKEDIN: https://www.linkedin.com/in/brucehogan/
+---
+
+Subject: Applied to 3 roles on your team — here's why I'm not hedging, I genuinely fit all three
+
+Hi Bruce,
+
+I applied for the Staff Data Analyst, Senior Data Analyst, and Growth Marketing Manager roles — all three report to you. I know applying to three roles on the same team looks like I'm throwing darts. I'm not. Here's the honest version:
+
+I sit at a weird intersection that maps to all three JDs, and I'd rather let you tell me where I'm most useful than guess wrong.
+
+**The AI piece (all 3 JDs require it):**
+I hold four Anthropic Claude certifications — Claude 101, Claude Code 101, Cowork, and Building with Claude API. I also built a production analytics tool using Claude's API in Cursor: Python backend, live data ingestion, rule-based scoring with an AI reasoning layer, interactive web dashboard. When your JDs say "demonstrated AI tool usage (Claude, ChatGPT, Cursor)" — I'm certified and I've shipped.
+
+**The attribution piece (both analyst roles):**
+At Pixis, I restructured the attribution model for one of India's biggest beauty brands — identified which channels were getting false credit, reallocated spend based on actual lift, and delivered 3x ROAS in one month. At Plug Power, I built multi-touch attribution from zero: Salesforce + Adobe Analytics + GA + GTM wired into one model that finally told us what was working. Cut CPA 25%.
+
+**The beauty vertical piece (Growth MM + context for analyst roles):**
+The Pixis beauty brand work taught me something you can't learn from a SaaS playbook: beauty customers discover on Instagram, visit three times, convert after a friend's recommendation, and churn the moment UX feels off. That funnel has its own physics, and I've measured it, optimized it, and reported on it to executive stakeholders.
+
+**The growth/CRO piece (Growth MM):**
+I've run CRO on landing pages at Plug Power (-25% CPA via A/B tested messaging), rebuilt product catalog feeds at GenY (16x ROAS), and ran 8 rounds of A/B testing on SwipeHire's registration flows (25% activation lift). Website optimization is my daily workflow, not a quarterly project.
+
+**The leadership piece (Staff DA):**
+I directed an 8-person team at Pixis — set the analytical standards, built the attribution dashboards, and presented to client executives weekly. At Safran, I led a 5-person consulting team on a GTM market expansion project.
+
+I'm flexible on title. I care about the work and the team. Whichever role you think is the best fit for where the growth org is right now — I'm in.
+
+Resumes, cover letters, and portfolio attached:
+https://adhithyabhaskar.vercel.app/ref/glossgenius
+
+Would genuinely welcome 15 minutes — even just to hear what the team's biggest measurement challenge is right now.
+
+Best,
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com | (929) 563-9974

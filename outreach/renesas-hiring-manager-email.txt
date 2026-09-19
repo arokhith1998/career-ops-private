@@ -1,0 +1,30 @@
+TO: Hiring Manager — Renesas Electronics
+PLATFORM: Email
+ROLE: Digital Marketing Manager (JID-4466)
+---
+
+Subject: JID-4466 — I've built the measurement frameworks this role is asking someone to lead
+
+Hi,
+
+I applied for the Digital Marketing Manager role and wanted to reach out because this JD describes three things I've already done — and the semiconductor angle makes it personal.
+
+**I build dashboards that people actually use.**
+Not the 20-tab workbook nobody opens. At Sensata, I built a KPI framework in SQL + GA4 across 50K+ industrial IoT devices — it now feeds annual planning across 3 regions. At Pixis, I built the weekly and quarterly performance dashboards that $1.4M in client budget decisions depended on. At Plug Power, I built the closed-loop attribution system from nothing — Salesforce, Adobe Analytics, GA, GTM stitched together so leadership could finally see what was working. Each time, I designed the framework, defined the metrics, and presented the insights. Not inherited — built.
+
+**I've led analysts, not just done analysis.**
+At Pixis, I directed an 8-person team — I set the analytical standards, established the reporting cadence, and mentored the junior analysts on how to turn data into a recommendation, not just a chart. The JD asks for someone who can "mentor junior analysts and establish analytics standards." That's been my operating model for the last 3 years.
+
+**The semiconductor fit isn't a stretch.**
+My undergrad is in Mechanical Engineering from BITS Pilani. My last year has been at Sensata Technologies — industrial sensing and IoT, the same ecosystem Renesas powers with its embedded processors. I've spent the last year translating complex technical product data into marketing insights. The domain language isn't foreign to me.
+
+One more thing: I built a 4-page Power BI executive dashboard analyzing 1,200 pricing opportunities ($627M target) across 3 regions — pipeline funnels, regional scorecards, and action-priority lists. That project taught me that the best dashboard isn't the most detailed one. It's the one that tells a VP where to focus this quarter.
+
+Resume and portfolio attached:
+https://adhithyabhaskar.vercel.app/ref/renesas
+
+Would welcome 15 minutes to hear what the team's biggest measurement challenge is right now.
+
+Best,
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com | (929) 563-9974

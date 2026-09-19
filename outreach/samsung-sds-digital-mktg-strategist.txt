@@ -1,0 +1,75 @@
+ROLE: Samsung SDS America — Digital Marketing Strategist, B2B SaaS (8D921D4B98)
+================================================================================
+Tracker entry: #44
+URL: https://apply.workable.com/samsung-sds-america/j/8D921D4B98/
+
+HIRING MANAGER:
+TBD. Samsung SDS America (Ridgefield Park NJ) has a small marketing team (~2 staff per Winmo). The HM is likely the Director of Marketing or VP B2B Marketing for SDSA. Search LinkedIn:
+- "Samsung SDS America" + "Director Marketing"
+- "Samsung SDS America" + "VP Marketing"
+- "Samsung SDS America" + "Head of Marketing"
+- "Samsung SDS America" + "Demand Generation"
+
+Possible candidates flagged in research (verify before sending):
+Diane Carlson — Marketing/BD background previously at Samsung SDS
+LinkedIn: https://www.linkedin.com/in/dianecarlson/
+(Verify she is still at Samsung SDS America; profile may indicate Modo Labs current role.)
+
+For broader context, Samsung Electronics America CMO is Marc Mathieu (different entity, NOT Samsung SDS).
+
+RECRUITER:
+TBD. Workable application will assign one. Check the application status page or LinkedIn for "Samsung SDS America Recruiter" or "Samsung SDS America TA".
+
+
+----- HM LINKEDIN NOTE -----
+Hi {First}, applying for the B2B SaaS Digital Marketing Strategist role. Quick read: samsungsds.com ranks below IBM and Accenture on AI-engine citations for "enterprise digital transformation." Closeable via on-page + FAQ-cluster work. Did the same rebuild at Plug Power. 15 min?
+
+
+----- HM EMAIL -----
+Subject: Digital Marketing Strategist, B2B SaaS — quick site + GEO read
+
+Hi {First},
+
+Applying for the Digital Marketing Strategist, B2B SaaS role and wanted to lead with something concrete.
+
+Spent an hour on samsungsds.com last week comparing it against IBM, Accenture, and Capgemini on three things: technical-SEO health (page speed, schema, Core Web Vitals), AI-engine citation patterns (Claude, ChatGPT, Perplexity for "enterprise digital transformation" and "cloud and AI infrastructure"), and inbound-lead routing readability. Three observations:
+
+1. The site's page-experience signal is solid, but several product pages lack the structured-data depth competitors are using.
+
+2. AI engines cite IBM and Accenture content directly. Samsung SDS surfaces less often, and when it does the citations route to PR pages rather than product or solution pages.
+
+3. The case-studies cluster has strong content that is not chunked to be quotable by AI engines. Easy fix.
+
+I have rebuilt this layer at Plug Power: UTM spec from scratch, GTM containers rebuilt, on-page and technical SEO, lead routing through Salesforce campaign attribution. CPA dropped 25%. At Pixis I ran the same playbook for 8 B2B SaaS clients on a $1.4M budget.
+
+Eloqua I have not used directly. The operating model maps from HubSpot and Salesforce. Week-one ramp.
+
+CV and portfolio: https://adhi-growth.vercel.app/ref/samsung-sds
+
+15 min next week?
+
+Adhithya | Boston, MA | (929) 563-9974
+
+
+----- RECRUITER LINKEDIN NOTE -----
+Hi {Recruiter}, submitted for the Digital Marketing Strategist, B2B SaaS role (Ridgefield Park). 4+ yrs B2B SaaS digital, Plug Power MarTech rebuild (-25% CPA), Pixis 8-client portfolio. Open to NJ relo. Boston now. Available for a screen.
+
+
+----- RECRUITER EMAIL -----
+Subject: Application — Digital Marketing Strategist, B2B SaaS (8D921D4B98)
+
+Hi {Recruiter},
+
+Submitted for the Digital Marketing Strategist, B2B SaaS role last week. JD core asks (website, SEO, GA4/GTM/UTM attribution, lead routing, organic LinkedIn) line up cleanly with my work.
+
+Most direct analogs: Plug Power MarTech rebuild on Salesforce, Adobe Analytics, GA4, and GTM (-25% CPA, +20% conversion, click-to-SQL closed-loop), Pixis 8-client B2B SaaS portfolio on $1.4M (multi-channel weekly cadence), GenY 16x ROAS via technical-SEO and feed rebuild, SwipeHire end-to-end website with 8+ A/B tests.
+
+Eloqua not direct (HubSpot/Salesforce transferable). SEMrush not direct (Google Keyword Planner used at Plug Power).
+
+Open to relocating to Ridgefield Park. NJ is my secondary preferred metro.
+
+Resume: https://adhi-growth.vercel.app/ref/samsung-sds
+
+Available for a screen this week.
+
+Adhithya | (929) 563-9974

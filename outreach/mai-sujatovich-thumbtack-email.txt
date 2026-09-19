@@ -1,0 +1,30 @@
+TO: Mai Sujatovich, Senior Director, Growth Marketing @ Thumbtack (likely HM or HM's boss)
+PLATFORM: Email (use LinkedIn InMail or find via Hunter.io / Vibe)
+ROLE: Growth Marketing Manager, SEM (7674995), Virtual-First US
+LINKEDIN: https://www.linkedin.com/in/msujatovich/
+---
+
+Subject: Growth Marketing Manager, SEM application, 4+ yrs scope against 8 yrs ask
+
+Hi Mai,
+
+Just applied for the Growth Marketing Manager, SEM role. Being upfront: posting asks for 8+ years, I have 4+ plus founder experience. Sending because the scope-to-years ratio is different.
+
+Four proof points:
+
+- Plug Power: owned Paid Search + Paid Social on Google Ads, SA360, Meta, LinkedIn for B2B hydrogen audience (-25% CPA, +20% conversion, -15% wasted spend). Built the full MarTech stack from scratch (Salesforce + Adobe + GA + GTM) so attribution closed from ad click to SQL.
+- Pixis: managed $1.4M in media across 8 enterprise clients on an AI adtech SaaS (3x ROAS in 30 days, -50% churn). Translation layer between ML product and customer GTM, which is the shape of Growth-to-Data-Science partnership on this JD.
+- SwipeHire: production AI product I built on OpenAI API + React (50+ users, 8+ A/B tests, +25% activation). Claude draft-and-critique pipeline for ad copy variants: 8x velocity at Pixis-comparable volume. Separate draft from judge; human gate ships.
+- 4 Anthropic Claude certifications including Building with the Claude API. AI fluency is daily, not a line item.
+
+Honest on gaps: iROAS/incrementality methodology I know (geo holdouts, ghost bidding) but haven't run at Thumbtack scale. Would lean on DS partner for first 90 days and contribute the paid-side context.
+
+Virtual-First means no relocation. MS Marketing Analytics (Simon, Rochester).
+
+Worth 20 minutes if scope matters more than ticker-count years?
+
+Resume, cover letter, and portfolio: https://adhithyabhaskar.vercel.app/ref/thumbtack
+
+Best,
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com | (929) 563-9974

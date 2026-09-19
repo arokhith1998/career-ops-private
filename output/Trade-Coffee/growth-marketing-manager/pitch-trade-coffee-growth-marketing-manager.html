@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Trade Coffee Growth Marketing Manager Pitch Deck Adhithya</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  @page { size: 11in 8.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #292524; background: #fbf7f2; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; }
+  .slide { width: 11in; height: 8.5in; padding: 0.55in 0.75in 0.5in 0.75in; page-break-after: always; position: relative; overflow: hidden; background: #fbf7f2; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.35in; right: 0.55in; font-size: 8.5pt; color: #a8a29e; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.35in; left: 0.75in; font-size: 8.5pt; color: #a8a29e; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #78350f; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 10pt; }
+  h1 { font-size: 36pt; font-weight: 800; color: #1c1917; line-height: 1.04; letter-spacing: -0.6pt; margin-bottom: 8pt; }
+  h2 { font-size: 24pt; font-weight: 800; color: #1c1917; line-height: 1.08; letter-spacing: -0.4pt; margin-bottom: 6pt; }
+  h2 .accent { color: #78350f; }
+  .lede { font-size: 13pt; color: #57534e; max-width: 8.5in; margin-bottom: 14pt; font-weight: 400; }
+
+  /* Cover */
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 1in; padding-right: 1in; }
+  .cover h1 { font-size: 42pt; max-width: 9.5in; }
+  .cover .sub { font-size: 17pt; color: #57534e; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 26pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 9.5in; }
+  .tag { background: #fff; border: 1pt solid #d6d3d1; color: #44403c; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.5pt; font-weight: 500; }
+  .tag strong { color: #78350f; font-weight: 700; }
+  .cover .who { margin-top: 32pt; padding-top: 14pt; border-top: 1.5pt solid #78350f; max-width: 7in; }
+  .cover .who .nm { font-size: 11pt; color: #1c1917; font-weight: 700; }
+  .cover .who .ct { font-size: 9.5pt; color: #57534e; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.6in; right: 0.85in; font-size: 9pt; color: #a8a29e; font-style: italic; }
+
+  /* Convergence table */
+  .conv-table { width: 100%; margin-top: 6pt; border-collapse: collapse; }
+  .conv-table th { text-align: left; font-size: 11pt; font-weight: 800; color: #1c1917; padding: 10pt 12pt 10pt 0; border-bottom: 2pt solid #78350f; }
+  .conv-table th.row-label { color: #78716c; font-weight: 700; font-size: 9pt; letter-spacing: 1pt; text-transform: uppercase; width: 1.5in; }
+  .conv-table td { padding: 12pt 12pt 12pt 0; font-size: 10pt; color: #44403c; border-bottom: 1pt solid #e7e5e4; vertical-align: top; line-height: 1.45; }
+  .conv-table td.row-label { color: #78716c; font-weight: 700; font-size: 9pt; letter-spacing: 0.6pt; text-transform: uppercase; }
+  .conv-table td b { color: #1c1917; font-weight: 700; }
+  .conv-takeaway { margin-top: 16pt; font-size: 11.5pt; color: #292524; font-style: italic; border-left: 3pt solid #78350f; padding: 8pt 14pt; background: #fef3c7; }
+  .conv-takeaway strong { color: #78350f; font-style: normal; font-weight: 700; }
+
+  /* Pixis slide */
+  .arch-wrap { display: grid; grid-template-columns: 1fr 2.4in; gap: 18pt; margin-top: 4pt; }
+  .arch { width: 100%; height: 4.2in; }
+  .margin-note { font-size: 9.5pt; color: #57534e; line-height: 1.55; font-style: italic; border-top: 1pt solid #d6d3d1; padding-top: 10pt; margin-top: 10pt; }
+  .margin-note .hdr { font-style: normal; font-weight: 700; color: #78350f; font-size: 9pt; letter-spacing: 1pt; text-transform: uppercase; margin-bottom: 6pt; }
+  .margin-note p { margin-bottom: 8pt; }
+  .kpi-row { display: flex; gap: 14pt; margin-top: 12pt; }
+  .kpi-row .k { background: #fff; border: 1pt solid #d6d3d1; padding: 8pt 12pt; border-radius: 3pt; min-width: 1.3in; }
+  .kpi-row .k .v { font-size: 17pt; color: #78350f; font-weight: 800; line-height: 1; }
+  .kpi-row .k .l { font-size: 8.5pt; color: #78716c; margin-top: 4pt; font-weight: 600; }
+
+  /* Week one */
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 8pt; }
+  .card { background: #fff; border: 1pt solid #d6d3d1; border-left: 4pt solid #78350f; padding: 14pt 14pt 12pt 14pt; }
+  .card .label { font-size: 8.5pt; color: #78350f; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 13pt; font-weight: 800; color: #1c1917; line-height: 1.18; margin-bottom: 8pt; }
+  .card .body { font-size: 9.5pt; color: #44403c; line-height: 1.5; margin-bottom: 8pt; }
+  .card .why { font-size: 9pt; color: #78716c; line-height: 1.5; padding-top: 8pt; border-top: 1pt dashed #d6d3d1; }
+  .card .why strong { color: #78350f; font-weight: 700; }
+
+  /* Close */
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 1in; padding-right: 1in; }
+  .close h2 { font-size: 30pt; max-width: 8.5in; margin-bottom: 16pt; }
+  .close .body { font-size: 11.5pt; color: #44403c; line-height: 1.6; max-width: 8.5in; }
+  .close .body p { margin-bottom: 10pt; }
+  .close .body strong { color: #78350f; font-weight: 700; }
+  .close .cta { margin-top: 22pt; display: inline-flex; gap: 14pt; align-items: center; }
+  .close .cta .btn { background: #1c1917; color: #fff; padding: 11pt 22pt; border-radius: 3pt; font-weight: 700; font-size: 11pt; letter-spacing: 0.3pt; }
+  .close .cta .alt { font-size: 10.5pt; color: #78716c; font-style: italic; }
+  .close .contact { margin-top: 24pt; font-size: 10pt; color: #57534e; line-height: 1.6; }
+  .close .contact strong { color: #1c1917; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<!-- SLIDE 1 - COVER -->
+<div class="slide cover">
+  <div class="prep">Prepared for the Trade Coffee Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Growth Marketing Manager, Trade Coffee</div>
+  <h1>DTC paid + AEO. Both shipped, on the same resume.</h1>
+  <div class="sub">The rare convergence the JD asks for.</div>
+  <div class="tags">
+    <div class="tag"><strong>$1.4M</strong> aggregate book across 6 paid channels at Pixis (D2C)</div>
+    <div class="tag"><strong>3x ROAS</strong> attribution restructure for a beauty brand</div>
+    <div class="tag"><strong>AEO + GEO</strong> program shipped at Plug Power</div>
+    <div class="tag"><strong>16x ROAS</strong> on Shopify + Meta catalog at GenY</div>
+    <div class="tag"><strong>4</strong> Anthropic Claude Certifications</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">Boston, MA | NYC works | arokhith@gmail.com | (929) 563-9974 | adhi-growth-ai.vercel.app/ref/trade-coffee</div>
+  </div>
+  <div class="brand">Trade Coffee | Adhithya Rokhith Bhaskar</div>
+  <div class="num">01 / 06</div>
+</div>
+
+<!-- SLIDE 2 - THE CONVERGENCE -->
+<div class="slide">
+  <div class="eyebrow">Slide 02 | The Convergence</div>
+  <h2>Two stacks, one resume. <span class="accent">Almost no one has both.</span></h2>
+  <div class="lede">The JD asks for end-to-end DTC paid-media ownership across Meta + Google + YouTube + TikTok AND active monitoring of generative-AI search visibility + AEO trends. Most growth marketers have one. Below: where I have each, and what I shipped.</div>
+
+  <table class="conv-table">
+    <thead>
+      <tr>
+        <th class="row-label">Capability</th>
+        <th style="width: 4.5in;">Trade Coffee JD asks for</th>
+        <th>What I've shipped</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="row-label">DTC Paid</td>
+        <td>Meta + Google + YouTube + TikTok across a consumer-facing subscription brand. CTR + CAC + ROAS focus.</td>
+        <td><b>Pixis $1.4M aggregate book across 6 paid channels</b> (Google + Meta + LinkedIn + Criteo + Amazon + programmatic) on 8-client D2C consumer portfolio (beauty + fashion + e-commerce).</td>
+      </tr>
+      <tr>
+        <td class="row-label">Attribution</td>
+        <td>Convert performance data into actionable insights; maintain tracking accuracy.</td>
+        <td><b>Holdout-incrementality restructure for a beauty brand at Pixis -> 3x ROAS in one month.</b> Closed-loop attribution rebuild at Plug Power on Salesforce + Adobe + GA4 + GTM.</td>
+      </tr>
+      <tr>
+        <td class="row-label">A/B Testing</td>
+        <td>Build and lead structured A/B testing roadmaps for CTR / CAC / ROAS improvements.</td>
+        <td><b>SwipeHire 8 A/B tests with sample-size + significance gates;</b> Pixis cross-channel A/B + holdout incrementality documented in client-facing reports.</td>
+      </tr>
+      <tr>
+        <td class="row-label">SEO + AEO</td>
+        <td>Track AEO + SEO trends; optimize visibility on generative-AI platforms; technical audits.</td>
+        <td><b>Plug Power AEO + GEO program: schema, content clusters, FAQ pages structured for ChatGPT + Claude + Perplexity citation.</b> Plus a 2-page enterprise AI-Search audit teardown I authored.</td>
+      </tr>
+      <tr>
+        <td class="row-label">Shopify + GA4</td>
+        <td>Proficiency in GA4, Looker, Shopify, Excel/Sheets.</td>
+        <td>GenY 16x ROAS rebuilt on <b>Shopify + Google Merchant Center + Meta catalog</b>; GA4 + GTM across every role; Power BI + Tableau (Looker-adjacent).</td>
+      </tr>
+      <tr>
+        <td class="row-label">Entrepreneurial</td>
+        <td>Innovation track record + entrepreneurial mindset.</td>
+        <td><b>SwipeHire shipped solo on Python + OpenAI API + React;</b> NSE Bot shipped solo on Claude API. Two production AI products + an MS in Marketing Analytics.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="conv-takeaway"><strong>The unusual one is row four.</strong> Most growth marketers can describe AEO in a meeting. Few have actually shipped the FAQ + schema work that makes a brand cited by ChatGPT and Claude. That row is the differentiator on this resume.</div>
+
+  <div class="brand">Trade Coffee | Adhithya Rokhith Bhaskar</div>
+  <div class="num">02 / 06</div>
+</div>
+
+<!-- SLIDE 3 - PIXIS BEAUTY ATTRIBUTION -->
+<div class="slide">
+  <div class="eyebrow">Slide 03 | DTC Consumer Paid - The Proof</div>
+  <h2>Pixis beauty brand: <span class="accent">attribution restructure, 3x ROAS.</span></h2>
+  <div class="lede">Blended ROAS looked fine. A holdout-incrementality slice showed two channels were getting credit they hadn't earned. Reallocated spend on true lift; the brand cleared 3x ROAS the next month. Exactly the "data-into-decisions" muscle Trade's CTR/CAC/ROAS roadmap will need every week.</div>
+
+  <div class="arch-wrap">
+    <svg viewBox="0 0 720 360" class="arch">
+      <text x="370" y="22" text-anchor="middle" font-size="11" fill="#1c1917" font-weight="800">BEFORE: Last-click credit hides the rot</text>
+
+      <rect x="20" y="40" width="160" height="80" rx="4" fill="#fff" stroke="#a8a29e" stroke-width="1"/>
+      <text x="100" y="62" text-anchor="middle" font-size="10.5" fill="#1c1917" font-weight="800">Display Programmatic</text>
+      <text x="100" y="78" text-anchor="middle" font-size="9" fill="#57534e">Credited 28% of conv.</text>
+      <text x="100" y="92" text-anchor="middle" font-size="9" fill="#dc2626" font-weight="700">True lift: 6%</text>
+      <text x="100" y="108" text-anchor="middle" font-size="8.5" fill="#78716c" font-style="italic">view-through inflation</text>
+
+      <rect x="200" y="40" width="160" height="80" rx="4" fill="#fff" stroke="#a8a29e" stroke-width="1"/>
+      <text x="280" y="62" text-anchor="middle" font-size="10.5" fill="#1c1917" font-weight="800">Affiliate</text>
+      <text x="280" y="78" text-anchor="middle" font-size="9" fill="#57534e">Credited 19% of conv.</text>
+      <text x="280" y="92" text-anchor="middle" font-size="9" fill="#dc2626" font-weight="700">True lift: 4%</text>
+      <text x="280" y="108" text-anchor="middle" font-size="8.5" fill="#78716c" font-style="italic">coupon-pickoff</text>
+
+      <rect x="380" y="40" width="160" height="80" rx="4" fill="#fff" stroke="#a8a29e" stroke-width="1"/>
+      <text x="460" y="62" text-anchor="middle" font-size="10.5" fill="#1c1917" font-weight="800">Paid Search</text>
+      <text x="460" y="78" text-anchor="middle" font-size="9" fill="#57534e">Credited 22% of conv.</text>
+      <text x="460" y="92" text-anchor="middle" font-size="9" fill="#16a34a" font-weight="700">True lift: 31%</text>
+      <text x="460" y="108" text-anchor="middle" font-size="8.5" fill="#78716c" font-style="italic">non-branded compounding</text>
+
+      <rect x="560" y="40" width="140" height="80" rx="4" fill="#fff" stroke="#a8a29e" stroke-width="1"/>
+      <text x="630" y="62" text-anchor="middle" font-size="10.5" fill="#1c1917" font-weight="800">Paid Social</text>
+      <text x="630" y="78" text-anchor="middle" font-size="9" fill="#57534e">Credited 18%</text>
+      <text x="630" y="92" text-anchor="middle" font-size="9" fill="#16a34a" font-weight="700">True lift: 38%</text>
+      <text x="630" y="108" text-anchor="middle" font-size="8.5" fill="#78716c" font-style="italic">Meta + TikTok prospecting</text>
+
+      <text x="370" y="155" text-anchor="middle" font-size="11" fill="#1c1917" font-weight="800">AFTER: Reallocation on holdout-validated lift</text>
+
+      <rect x="20" y="175" width="160" height="80" rx="4" fill="#fef3c7" stroke="#78350f" stroke-width="1.5"/>
+      <text x="100" y="197" text-anchor="middle" font-size="10.5" fill="#78350f" font-weight="800">Display Programmatic</text>
+      <text x="100" y="215" text-anchor="middle" font-size="9" fill="#44403c">Spend cut 60%</text>
+      <text x="100" y="231" text-anchor="middle" font-size="9" fill="#44403c">Retargeting-only retained</text>
+      <text x="100" y="246" text-anchor="middle" font-size="8.5" fill="#78350f" font-weight="700">$ freed for Search/Social</text>
+
+      <rect x="200" y="175" width="160" height="80" rx="4" fill="#fef3c7" stroke="#78350f" stroke-width="1.5"/>
+      <text x="280" y="197" text-anchor="middle" font-size="10.5" fill="#78350f" font-weight="800">Affiliate</text>
+      <text x="280" y="215" text-anchor="middle" font-size="9" fill="#44403c">Spend cut 45%</text>
+      <text x="280" y="231" text-anchor="middle" font-size="9" fill="#44403c">Coupon cap installed</text>
+      <text x="280" y="246" text-anchor="middle" font-size="8.5" fill="#78350f" font-weight="700">CAC discipline restored</text>
+
+      <rect x="380" y="175" width="160" height="80" rx="4" fill="#fef3c7" stroke="#78350f" stroke-width="1.5"/>
+      <text x="460" y="197" text-anchor="middle" font-size="10.5" fill="#78350f" font-weight="800">Paid Search</text>
+      <text x="460" y="215" text-anchor="middle" font-size="9" fill="#44403c">Spend up 35%</text>
+      <text x="460" y="231" text-anchor="middle" font-size="9" fill="#44403c">Non-branded expansion</text>
+      <text x="460" y="246" text-anchor="middle" font-size="8.5" fill="#78350f" font-weight="700">Marginal ROAS held</text>
+
+      <rect x="560" y="175" width="140" height="80" rx="4" fill="#fef3c7" stroke="#78350f" stroke-width="1.5"/>
+      <text x="630" y="197" text-anchor="middle" font-size="10.5" fill="#78350f" font-weight="800">Paid Social</text>
+      <text x="630" y="215" text-anchor="middle" font-size="9" fill="#44403c">Spend up 50%</text>
+      <text x="630" y="231" text-anchor="middle" font-size="9" fill="#44403c">Weekly creative cadence</text>
+      <text x="630" y="246" text-anchor="middle" font-size="8.5" fill="#78350f" font-weight="700">Prospecting compounded</text>
+
+      <rect x="240" y="285" width="240" height="60" rx="6" fill="#78350f"/>
+      <text x="360" y="312" text-anchor="middle" font-size="26" fill="#fff" font-weight="800">3x ROAS</text>
+      <text x="360" y="331" text-anchor="middle" font-size="10" fill="#fef3c7">in one month, validated by holdout incrementality</text>
+    </svg>
+
+    <div class="margin-note">
+      <div class="hdr">Why this matters for Trade</div>
+      <p>Trade's subscription DTC stack has the same shape: a long-tail of channels each claiming credit. Same diagnostic muscle - <strong>holdout incrementality, true-lift reallocation</strong> - applies to roaster-pairing flows, free-trial conversion, and reactivation campaigns.</p>
+      <p>The 3x ROAS win on the beauty brand wasn't a creative breakthrough. It was reading the numbers honestly and acting on them.</p>
+    </div>
+  </div>
+
+  <div class="brand">Trade Coffee | Adhithya Rokhith Bhaskar</div>
+  <div class="num">03 / 06</div>
+</div>
+
+<!-- SLIDE 4 - PLUG POWER AEO/GEO PROGRAM -->
+<div class="slide">
+  <div class="eyebrow">Slide 04 | The AEO/GEO Program - The Rare One</div>
+  <h2>Plug Power AEO/GEO: <span class="accent">FAQ + schema + content clusters built for AI citation.</span></h2>
+  <div class="lede">The JD calls out "monitor generative AI platforms" and "track AEO trends" as ongoing responsibilities. Most candidates can describe what AEO is. Here is the structure of the program I shipped at Plug Power, before it was the buzzword.</div>
+
+  <div class="arch-wrap">
+    <svg viewBox="0 0 720 360" class="arch">
+      <!-- Layer 1: input -->
+      <text x="20" y="22" font-size="10" fill="#78350f" font-weight="700" letter-spacing="1.5">INPUT</text>
+      <rect x="20" y="40" width="200" height="80" rx="4" fill="#fff" stroke="#a8a29e" stroke-width="1"/>
+      <text x="120" y="62" text-anchor="middle" font-size="10.5" fill="#1c1917" font-weight="800">Buyer-question harvest</text>
+      <text x="120" y="80" text-anchor="middle" font-size="9" fill="#57534e">Sales calls + support tickets +</text>
+      <text x="120" y="94" text-anchor="middle" font-size="9" fill="#57534e">competitor SERP gap analysis</text>
+      <text x="120" y="110" text-anchor="middle" font-size="8.5" fill="#78716c" font-style="italic">"what questions do buyers ask?"</text>
+
+      <!-- Layer 2: middle -->
+      <text x="270" y="22" font-size="10" fill="#78350f" font-weight="700" letter-spacing="1.5">STRUCTURE</text>
+      <rect x="270" y="40" width="200" height="80" rx="4" fill="#fef3c7" stroke="#78350f" stroke-width="1.5"/>
+      <text x="370" y="62" text-anchor="middle" font-size="10.5" fill="#1c1917" font-weight="800">FAQ pages + schema</text>
+      <text x="370" y="80" text-anchor="middle" font-size="9" fill="#57534e">FAQPage + Question schema</text>
+      <text x="370" y="94" text-anchor="middle" font-size="9" fill="#57534e">Answer-first paragraph structure</text>
+      <text x="370" y="110" text-anchor="middle" font-size="8.5" fill="#78350f" font-style="italic" font-weight="700">structured for LLM ingestion</text>
+
+      <!-- Layer 3: output -->
+      <text x="520" y="22" font-size="10" fill="#78350f" font-weight="700" letter-spacing="1.5">OUTPUT</text>
+      <rect x="520" y="40" width="180" height="80" rx="4" fill="#1c1917"/>
+      <text x="610" y="62" text-anchor="middle" font-size="10.5" fill="#fff" font-weight="800">Citation by ChatGPT</text>
+      <text x="610" y="78" text-anchor="middle" font-size="10.5" fill="#fff" font-weight="800">Claude + Perplexity</text>
+      <text x="610" y="96" text-anchor="middle" font-size="8.5" fill="#fde68a">when buyers ask the model</text>
+      <text x="610" y="110" text-anchor="middle" font-size="8.5" fill="#fde68a" font-style="italic">"who does X best"</text>
+
+      <!-- arrows -->
+      <path d="M 222 80 L 265 80" stroke="#78716c" stroke-width="1.5" fill="none" marker-end="url(#arr3)"/>
+      <path d="M 472 80 L 515 80" stroke="#78716c" stroke-width="1.5" fill="none" marker-end="url(#arr3)"/>
+
+      <!-- Layer 4: parallel content clusters -->
+      <text x="20" y="155" font-size="10" fill="#78350f" font-weight="700" letter-spacing="1.5">PARALLEL CONTENT CLUSTER WORK</text>
+      <rect x="20" y="170" width="220" height="60" rx="4" fill="#fff" stroke="#a8a29e" stroke-width="1"/>
+      <text x="32" y="190" font-size="10" fill="#1c1917" font-weight="700">Pillar pages</text>
+      <text x="32" y="205" font-size="9" fill="#57534e">"How to choose [category]"</text>
+      <text x="32" y="220" font-size="9" fill="#57534e">"Best [product] for [use case]"</text>
+
+      <rect x="260" y="170" width="220" height="60" rx="4" fill="#fff" stroke="#a8a29e" stroke-width="1"/>
+      <text x="272" y="190" font-size="10" fill="#1c1917" font-weight="700">Cluster posts (technical depth)</text>
+      <text x="272" y="205" font-size="9" fill="#57534e">Spec-level comparisons + jargon</text>
+      <text x="272" y="220" font-size="9" fill="#57534e">resolution + transparent tradeoffs</text>
+
+      <rect x="500" y="170" width="200" height="60" rx="4" fill="#fff" stroke="#a8a29e" stroke-width="1"/>
+      <text x="512" y="190" font-size="10" fill="#1c1917" font-weight="700">Audit + monitor</text>
+      <text x="512" y="205" font-size="9" fill="#57534e">Track "is brand cited?" for</text>
+      <text x="512" y="220" font-size="9" fill="#57534e">~30 intent queries weekly</text>
+
+      <!-- Layer 5: tooling -->
+      <text x="20" y="265" font-size="10" fill="#78350f" font-weight="700" letter-spacing="1.5">TOOLING STACK</text>
+      <rect x="20" y="280" width="680" height="60" rx="4" fill="#fef3c7" stroke="#78350f" stroke-width="1.5"/>
+      <text x="360" y="304" text-anchor="middle" font-size="10.5" fill="#1c1917" font-weight="800">Technical SEO audits | Schema.org markup | content-cluster mapping | weekly LLM-citation tracking</text>
+      <text x="360" y="324" text-anchor="middle" font-size="9" fill="#78716c" font-style="italic">Same stack would transfer directly to "best coffee subscription" / "specialty coffee for [taste profile]" queries on day one at Trade.</text>
+
+      <defs>
+        <marker id="arr3" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+          <polygon points="0 0, 8 4, 0 8" fill="#78716c"/>
+        </marker>
+      </defs>
+    </svg>
+
+    <div class="margin-note">
+      <div class="hdr">Authored artifact</div>
+      <p>On top of the program work, I wrote a <strong>2-page enterprise AI-Search audit teardown</strong> for an external partner (KKR) that compared their brand visibility against four major competitors across high-intent queries on Google AI Overviews and Perplexity.</p>
+      <p>Same teardown shape would apply directly to Trade vs Atlas Coffee Club, Mistobox, Driftaway, Bean Box on queries like "best coffee subscription" or "personalized coffee delivery."</p>
+    </div>
+  </div>
+
+  <div class="brand">Trade Coffee | Adhithya Rokhith Bhaskar</div>
+  <div class="num">04 / 06</div>
+</div>
+
+<!-- SLIDE 5 - WEEK ONE -->
+<div class="slide">
+  <div class="eyebrow">Slide 05 | Week One</div>
+  <h2>Three things I'd ship <span class="accent">in the first thirty days at Trade.</span></h2>
+  <div class="lede">Concrete and scoped, not aspirational. Each ties to a specific JD responsibility and is sized to ship inside a month.</div>
+
+  <div class="week">
+    <div class="card">
+      <div class="label">Ship 1 - AEO</div>
+      <div class="ttl">Trade-vs-competitors AI-Search teardown</div>
+      <div class="body">Score Trade's citation rate vs Atlas Coffee Club + Mistobox + Driftaway + Bean Box across 30 high-intent queries on ChatGPT, Claude, Perplexity, Google AI Overviews. Identify the FAQ + schema gaps where Trade is invisible. Output: a prioritized 4-week content-cluster sprint.</div>
+      <div class="why"><strong>Why first.</strong> The JD names "monitor generative AI platforms" as an ongoing job. The audit becomes the baseline + the first month's roadmap in one artifact.</div>
+    </div>
+
+    <div class="card">
+      <div class="label">Ship 2 - Paid</div>
+      <div class="ttl">TikTok + YouTube creative-test framework</div>
+      <div class="body">JD names YouTube + TikTok as emerging channels. Stand up a weekly creative-test cadence on both: hook variants, length variants, taste-profile-driven targeting. Sample-size + significance gates defined up front; outcomes logged in a shared decision log for next-sprint allocation.</div>
+      <div class="why"><strong>Why first.</strong> Trade is well-known on Meta + Google. The CAC compression unlock is on the emerging channels - the JD says so directly. A structured cadence beats one-off creative bursts.</div>
+    </div>
+
+    <div class="card">
+      <div class="label">Ship 3 - Lifecycle</div>
+      <div class="ttl">"First 30 days" retention cohort + reactivation</div>
+      <div class="body">Subscription DTC lives or dies on month-2 retention. Build a cohort-retention dashboard split by acquisition channel + first-roaster match score. Identify the drop-off step, run a lifecycle reactivation sequence A/B'd on subject line + roaster recommendation logic.</div>
+      <div class="why"><strong>Why first.</strong> Paid acquisition compounds only if month-2 retention holds. The metric muscle from SwipeHire's cohort retention work transfers directly to subscription DTC.</div>
+    </div>
+  </div>
+
+  <div class="brand">Trade Coffee | Adhithya Rokhith Bhaskar</div>
+  <div class="num">05 / 06</div>
+</div>
+
+<!-- SLIDE 6 - CLOSE -->
+<div class="slide close">
+  <div class="eyebrow">Slide 06 | The Ask</div>
+  <h2>What I'd want from <span class="accent">the first fifteen minutes.</span></h2>
+  <div class="body">
+    <p><strong>What I'd want to understand:</strong> which paid channel Trade is currently most under-measured on; how the team is currently splitting the bet between paid scaling and AEO/SEO compounding; and where the team would put their thumbs on the scale for subscription reactivation versus new-acquisition growth.</p>
+    <p><strong>What I'd bring:</strong> a one-pager on how I'd structure the first 90 days, a draft Trade-vs-competitors AI-Search audit scoped to a handful of queries, and an honest take on which of the three week-one ships would compound fastest given Trade's current stack.</p>
+    <p>NYC works; open to relocating from Boston. Looking forward to it.</p>
+  </div>
+  <div class="cta">
+    <div class="btn">15 min with the Trade Coffee team</div>
+    <div class="alt">or written async if that's easier on your week</div>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong><br>
+    arokhith@gmail.com | (929) 563-9974 | Boston, MA (NYC works)<br>
+    Portfolio: adhi-growth-ai.vercel.app/ref/trade-coffee<br>
+    LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">Trade Coffee | Adhithya Rokhith Bhaskar</div>
+  <div class="num">06 / 06</div>
+</div>
+
+</body>
+</html>

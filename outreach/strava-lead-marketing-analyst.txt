@@ -1,0 +1,74 @@
+ROLE: Strava — Lead Marketing Analyst (Ashby b84257fd)
+=======================================================
+Tracker entry: #51
+URL: https://jobs.ashbyhq.com/Strava/b84257fd-a8a3-48bc-951b-a619b0182cbe
+
+HIRING MANAGER:
+TBD. The HM is likely Strava's VP of Marketing Analytics or Director of Growth Analytics.
+
+Senior marketing leadership for context:
+- Louisa Wee — CMO, Strava (joined July 2025; ex-Netflix, eHarmony, Asurion, FabFitFun)
+  LinkedIn: https://www.linkedin.com/in/louisawee/
+
+Adjacent leaders worth verifying as the HM:
+- Lauren Pica — Growth Marketing Leader at Strava
+  LinkedIn: https://www.linkedin.com/in/laurenpica/
+- Casey Temanson — Strava
+  LinkedIn: https://www.linkedin.com/in/caseytemanson/
+- Emily Lee — Strava
+  LinkedIn: https://www.linkedin.com/in/emilycclee/
+
+Search LinkedIn for:
+- "Strava" + "Director Marketing Analytics" or "VP Marketing Analytics"
+- "Strava" + "Head of Growth Analytics"
+
+RECRUITER:
+TBD via Strava's Ashby application portal.
+
+
+----- HM LINKEDIN NOTE -----
+Hi {First}, applying for Lead Marketing Analyst. Brand and growth measurement disputes at consumer scale are usually scope errors: lift, MMM, MTA each answer different questions. Built closed-loop attribution at Plug Power + 3x ROAS holdout-validated at Pixis. MS Simon. 15 min?
+
+
+----- HM EMAIL -----
+Subject: Lead Marketing Analyst — Year-In-Sport scale, methodology hierarchy
+
+Hi {First},
+
+Applying for the Lead Marketing Analyst role.
+
+Strava's brand-and-growth measurement problem is the same one most consumer apps hit at scale: brand work (Year-In-Sport campaigns, MAU lift) and acquisition work (subscription growth, paid LTV) live on different measurement paradigms, and the team that wins is the one that wrote the methodology hierarchy down before the dispute started. Lift is causal at the program level. MMM is allocational. MTA is operational inside the funnel. The reconciliation is what most teams skip.
+
+I have built that thinking at three places. Plug Power: closed-loop attribution rebuild on Salesforce, Adobe Analytics, GA4, and GTM. UTM spec from scratch, GTM containers rebuilt, lead routing validated. CPA dropped 25%. Pixis: validated 3x ROAS lift for a fashion partner via holdout incrementality testing and reconciled against creative-variant diagnostics. Sensata: $627M margin-recovery executive Power BI dashboard tracking 1,200 opportunities for senior leadership weekly.
+
+Plus an R-based regression model for demand elasticity (econometric muscle adjacent to MMM) and an MS Marketing Analytics from Simon (U Rochester) with Pricing Analytics, Advanced Pricing, Data Management, and Consumer Behavior coursework.
+
+NYC works. Boston now.
+
+CV and portfolio: https://adhi-growth.vercel.app/ref/strava-analytics
+
+15 min next week?
+
+Adhithya | Boston, MA | (929) 563-9974
+
+
+----- RECRUITER LINKEDIN NOTE -----
+Hi {Recruiter}, applied for Lead Marketing Analyst. Plug Power closed-loop attribution + Pixis holdout incrementality + $627M Sensata Power BI exec dashboard + R demand-elasticity regression + Simon MS. NYC works. Available for a screen.
+
+
+----- RECRUITER EMAIL -----
+Subject: Application — Lead Marketing Analyst
+
+Hi {Recruiter},
+
+Submitted for the Lead Marketing Analyst role.
+
+Measurement substance: Plug Power closed-loop attribution rebuild (-25% CPA), Pixis holdout incrementality testing (3x ROAS validated), Sensata $627M Power BI exec dashboard tracking 1,200 records, Optimal Pricing R regression for demand elasticity. SQL + Python + R + Tableau + Power BI fluent.
+
+4+ years total. MS Marketing Analytics (Simon). NYC works.
+
+Resume: https://adhi-growth.vercel.app/ref/strava-analytics
+
+Available for a screen this week.
+
+Adhithya | (929) 563-9974

@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Console Growth Marketing Manager Sample Work Adhithya</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  @page { size: 11in 8.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 11pt; line-height: 1.4; color: #0f172a; background: #fff; }
+  .slide { width: 11in; height: 8.5in; padding: 0.55in 0.7in; page-break-after: always; position: relative; overflow: hidden; }
+  .slide:last-child { page-break-after: avoid; }
+  .slide-num { position: absolute; bottom: 0.3in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; font-weight: 600; letter-spacing: 1pt; }
+  .slide-brand { position: absolute; bottom: 0.3in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; font-weight: 600; letter-spacing: 0.5pt; }
+  h1 { font-size: 32pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; line-height: 1.05; letter-spacing: -0.5pt; }
+  h2 { font-size: 22pt; font-weight: 800; color: #0f172a; margin-bottom: 14pt; line-height: 1.1; letter-spacing: -0.3pt; }
+  h3 { font-size: 13pt; font-weight: 700; color: #0f172a; margin-bottom: 6pt; }
+  .accent { color: #0891b2; }
+  .label { font-size: 8.5pt; font-weight: 700; color: #0891b2; text-transform: uppercase; letter-spacing: 1.2pt; margin-bottom: 8pt; }
+
+  /* Slide 1 cover */
+  .cover { display: flex; flex-direction: column; justify-content: center; background: linear-gradient(135deg, #ecfeff 0%, #cffafe 50%, #a5f3fc 100%); }
+  .cover h1 { font-size: 38pt; }
+  .cover .sub { font-size: 16pt; color: #475569; margin-top: 6pt; font-weight: 500; }
+  .cover .author { margin-top: 32pt; padding-top: 18pt; border-top: 2pt solid #0891b2; font-size: 11pt; color: #475569; }
+  .cover .author strong { color: #0f172a; font-weight: 700; }
+  .cover .pills { margin-top: 20pt; display: flex; gap: 8pt; flex-wrap: wrap; }
+  .pill { background: #fff; border: 1.5pt solid #0891b2; color: #0e7490; padding: 5pt 12pt; border-radius: 14pt; font-size: 9pt; font-weight: 700; }
+
+  /* Slide 2 mapping */
+  .grid-2 { display: grid; grid-template-columns: 1fr 1.05fr; gap: 28pt; margin-top: 8pt; }
+  .panel { background: #ecfeff; border: 1pt solid #a5f3fc; border-radius: 6pt; padding: 14pt; }
+  .panel h3 { color: #0e7490; }
+  .kpi-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10pt; }
+  .kpi { background: #fff; border-left: 3pt solid #0891b2; padding: 8pt 10pt; border-radius: 3pt; }
+  .kpi .v { font-size: 17pt; font-weight: 800; color: #0891b2; line-height: 1; }
+  .kpi .l { font-size: 8.5pt; color: #475569; margin-top: 3pt; font-weight: 600; }
+  .ulx { list-style: none; padding: 0; }
+  .ulx li { padding: 4pt 0 4pt 14pt; position: relative; font-size: 10pt; color: #1e293b; }
+  .ulx li:before { content: ""; position: absolute; left: 0; top: 10pt; width: 7pt; height: 2pt; background: #0891b2; }
+
+  /* Slide 3 client portfolio dashboard */
+  .clients-table { width: 100%; border-collapse: collapse; margin-top: 4pt; font-size: 9pt; }
+  .clients-table th { background: #0891b2; color: #fff; padding: 7pt 8pt; text-align: left; font-weight: 700; font-size: 8.5pt; letter-spacing: 0.3pt; }
+  .clients-table td { padding: 6pt 8pt; border-bottom: 0.5pt solid #a5f3fc; color: #1e293b; }
+  .clients-table tr:nth-child(even) td { background: #ecfeff; }
+  .status-good { color: #15803d; font-weight: 700; }
+  .status-warn { color: #b45309; font-weight: 700; }
+  .status-bad { color: #b91c1c; font-weight: 700; }
+
+  /* Slide 4 demand engine flow */
+  .flow-svg { width: 100%; height: 4.4in; }
+
+  /* Slide 5 SEO comparison playbook */
+  .insight-box { background: #ecfeff; border-left: 4pt solid #0891b2; padding: 12pt 16pt; margin-top: 14pt; border-radius: 0 4pt 4pt 0; }
+  .insight-box strong { color: #0e7490; }
+  .keyword-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10pt; margin-top: 14pt; }
+  .keyword-card { background: #fff; border: 1pt solid #a5f3fc; border-radius: 6pt; padding: 10pt 12pt; }
+  .keyword-card .kw { font-size: 11pt; font-weight: 800; color: #0e7490; margin-bottom: 4pt; }
+  .keyword-card .meta { font-size: 8.5pt; color: #64748b; margin-bottom: 4pt; }
+  .keyword-card .play { font-size: 9pt; color: #1e293b; }
+  .keyword-card .play strong { color: #0e7490; }
+
+  /* Slide 6 close */
+  .close { display: flex; flex-direction: column; justify-content: center; background: linear-gradient(135deg, #ecfeff 0%, #a5f3fc 100%); }
+  .close h2 { font-size: 28pt; }
+  .close .body { font-size: 13pt; color: #1e293b; line-height: 1.65; max-width: 8.5in; }
+  .close .cta { margin-top: 28pt; display: flex; gap: 16pt; align-items: center; }
+  .close .cta .btn { background: #0891b2; color: #fff; padding: 10pt 22pt; border-radius: 6pt; font-weight: 700; font-size: 11pt; }
+  .close .contact { margin-top: 24pt; font-size: 10pt; color: #475569; }
+  .close .contact strong { color: #0f172a; }
+</style>
+</head>
+<body>
+
+<!-- SLIDE 1 COVER -->
+<div class="slide cover">
+  <div class="label">Sample Work | Console Growth Marketing Manager</div>
+  <h1>Selling AI Productivity to a Sophisticated Buyer</h1>
+  <div class="sub">Pixis to Console translation: agency-side AI-bidding portfolio applied to AI-agent ITSM</div>
+  <div class="pills">
+    <div class="pill">Pixis 8-Client Book</div>
+    <div class="pill">$15K-$90K/mo Per Client</div>
+    <div class="pill">8 Enterprise Marketers Trained on AI</div>
+    <div class="pill">-25% CPA Plug Power</div>
+    <div class="pill">SwipeHire on OpenAI API</div>
+    <div class="pill">4 Claude Certifications</div>
+  </div>
+  <div class="author">
+    <strong>Adhithya Rokhith Bhaskar</strong> | Boston, MA (SF works) | (929) 563-9974 | arokhith@gmail.com<br>
+    Portfolio: adhi-growth-ai.vercel.app/ref/console
+  </div>
+  <div class="slide-brand">Prepared for the Console Hiring Team</div>
+  <div class="slide-num">01 / 06</div>
+</div>
+
+<!-- SLIDE 2 JD MAPPING -->
+<div class="slide">
+  <div class="label">Slide 02 | The Match in One View</div>
+  <h2>The IT Buyer and the Marketing Buyer Rhyme</h2>
+  <div class="grid-2">
+    <div class="panel">
+      <h3>What Console Hires For</h3>
+      <ul class="ulx">
+        <li>Build and scale a full-funnel growth engine for AI-native ITSM</li>
+        <li>Win the IT buyer pitched 10 Moveworks alternatives this quarter</li>
+        <li>Translate AI agent capability into procurement-ready outcomes</li>
+        <li>Drive paid + content + lifecycle + ABM end-to-end</li>
+        <li>Founder-direct, experiment-driven, repeatable growth loops</li>
+        <li>HubSpot + Salesforce + AI tooling fluency</li>
+      </ul>
+    </div>
+    <div class="panel">
+      <h3>The Translation I Have Already Run</h3>
+      <div class="kpi-grid" style="margin-bottom: 10pt;">
+        <div class="kpi"><div class="v">8</div><div class="l">Enterprise marketers trained on AI bidding</div></div>
+        <div class="kpi"><div class="v">$15K-$90K</div><div class="l">Per-client monthly book</div></div>
+        <div class="kpi"><div class="v">-25%</div><div class="l">CPA at Plug Power</div></div>
+        <div class="kpi"><div class="v">+20%</div><div class="l">Conversion at Plug Power</div></div>
+        <div class="kpi"><div class="v">3x</div><div class="l">ROAS, holdout-validated</div></div>
+        <div class="kpi"><div class="v">4</div><div class="l">Anthropic Claude certifications</div></div>
+      </div>
+      <ul class="ulx">
+        <li>Selling AI methodology to a marketing CFO is structurally the same translation Console does for a CIO</li>
+        <li>Plug Power rebuild ran on the same HubSpot + Salesforce + GA4 + GTM stack</li>
+        <li>SwipeHire shipped solo on Python + OpenAI API + React</li>
+      </ul>
+    </div>
+  </div>
+  <div class="slide-brand">Console | Adhithya Rokhith Bhaskar</div>
+  <div class="slide-num">02 / 06</div>
+</div>
+
+<!-- SLIDE 3 CLIENT PORTFOLIO DASHBOARD -->
+<div class="slide">
+  <div class="label">Slide 03 | The Operating Cadence</div>
+  <h2>Pixis 8-Client Book, Same Shape as Console's Account Portfolio</h2>
+  <p style="font-size: 10pt; color: #475569; margin-bottom: 8pt;">Per-client monthly budgets ranged $15K to $90K. Each row was one client, one weekly QBR, one set of recommendations. Two clients triggered mid-quarter channel replacement. The skill is the same one Console will need from a Growth Marketer with full-funnel ownership across multiple customer segments and acquisition channels.</p>
+  <table class="clients-table">
+    <thead>
+      <tr>
+        <th>Client</th>
+        <th>Vertical</th>
+        <th>Channels</th>
+        <th>Spend / Mo</th>
+        <th>ROAS</th>
+        <th>WoW Trend</th>
+        <th>Status</th>
+        <th>This Week's Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>Client A</strong></td><td>SaaS Productivity</td><td>Google + LinkedIn + Programmatic</td><td>$90K</td><td>3.4x</td><td>+12%</td><td class="status-good">Scale</td><td>Holdout incrementality test, +30% budget</td></tr>
+      <tr><td><strong>Client B</strong></td><td>FinTech B2B</td><td>Google + LinkedIn</td><td>$72K</td><td>2.1x</td><td>-8%</td><td class="status-warn">Refresh</td><td>New creative cycle, audience expansion</td></tr>
+      <tr><td><strong>Client C</strong></td><td>HRTech Enterprise</td><td>Meta + LinkedIn + Programmatic</td><td>$58K</td><td>1.4x</td><td>-22%</td><td class="status-bad">Replace</td><td>Mid-quarter pivot off Meta to LinkedIn ABM</td></tr>
+      <tr><td><strong>Client D</strong></td><td>DevTools SaaS</td><td>Google + Programmatic</td><td>$65K</td><td>2.8x</td><td>+5%</td><td class="status-good">Hold</td><td>Suppression list audit, retargeting refresh</td></tr>
+      <tr><td><strong>Client E</strong></td><td>SaaS Vertical</td><td>LinkedIn + Programmatic</td><td>$45K</td><td>4.1x</td><td>+18%</td><td class="status-good">Scale</td><td>ABM list expansion, lift campaign</td></tr>
+      <tr><td><strong>Client F</strong></td><td>Fashion D2C</td><td>Meta + Google Shopping</td><td>$32K</td><td>2.3x</td><td>-3%</td><td class="status-warn">Diagnose</td><td>Creative-fatigue audit, top 5% session check</td></tr>
+      <tr><td><strong>Client G</strong></td><td>Edu D2C</td><td>Meta + Google Search</td><td>$22K</td><td>2.6x</td><td>+9%</td><td class="status-good">Hold</td><td>Lookalike expansion, lifecycle email tie-in</td></tr>
+      <tr><td><strong>Client H</strong></td><td>E-Commerce</td><td>Meta + Google Shopping + TikTok</td><td>$15K</td><td>3.0x</td><td>+7%</td><td class="status-good">Hold</td><td>Catalog refresh, Advantage+ test</td></tr>
+    </tbody>
+  </table>
+  <div class="insight-box">
+    <strong>The translation muscle.</strong> I trained 8 enterprise marketers on AI bidding tools as part of weekly QBRs to client CFOs and growth leads. Translating AI methodology into procurement-ready outcomes is structurally the exact translation Console does for an IT buyer evaluating a Moveworks alternative.
+  </div>
+  <div class="slide-brand">Console | Adhithya Rokhith Bhaskar</div>
+  <div class="slide-num">03 / 06</div>
+</div>
+
+<!-- SLIDE 4 PLUG POWER DEMAND ENGINE FLOW -->
+<div class="slide">
+  <div class="label">Slide 04 | Demand Engine Rebuild</div>
+  <h2>Ad Click to SQL on the Stack Console Will Run On</h2>
+  <p style="font-size: 10pt; color: #475569; margin-bottom: 4pt;">Plug Power. UTM spec from scratch. GTM containers rebuilt. Lead routing validated through Salesforce campaign attribution before any cohort number got presented. CPA -25%, conversion +20%.</p>
+
+  <svg viewBox="0 0 1000 380" class="flow-svg">
+    <!-- Stage 1 Paid Channels -->
+    <rect x="20" y="60" width="160" height="120" rx="8" fill="#ecfeff" stroke="#0891b2" stroke-width="1.5"/>
+    <text x="100" y="90" text-anchor="middle" font-size="11" fill="#0e7490" font-weight="800">PAID CHANNELS</text>
+    <text x="100" y="110" text-anchor="middle" font-size="9" fill="#1e293b">Google Ads</text>
+    <text x="100" y="124" text-anchor="middle" font-size="9" fill="#1e293b">Meta + LinkedIn</text>
+    <text x="100" y="138" text-anchor="middle" font-size="9" fill="#1e293b">Adobe Programmatic</text>
+    <text x="100" y="158" text-anchor="middle" font-size="9" fill="#15803d" font-weight="700">-25% CPA</text>
+    <text x="100" y="172" text-anchor="middle" font-size="9" fill="#15803d" font-weight="700">+20% conversion</text>
+
+    <!-- Stage 2 Tracking -->
+    <rect x="220" y="60" width="160" height="120" rx="8" fill="#ecfeff" stroke="#0891b2" stroke-width="1.5"/>
+    <text x="300" y="90" text-anchor="middle" font-size="11" fill="#0e7490" font-weight="800">TRACKING LAYER</text>
+    <text x="300" y="110" text-anchor="middle" font-size="9" fill="#1e293b">UTM spec from scratch</text>
+    <text x="300" y="124" text-anchor="middle" font-size="9" fill="#1e293b">GTM containers rebuilt</text>
+    <text x="300" y="138" text-anchor="middle" font-size="9" fill="#1e293b">GA4 events validated</text>
+    <text x="300" y="158" text-anchor="middle" font-size="9" fill="#1e293b">Adobe Analytics</text>
+
+    <!-- Stage 3 Marketing Automation -->
+    <rect x="420" y="60" width="160" height="120" rx="8" fill="#ecfeff" stroke="#0891b2" stroke-width="1.5"/>
+    <text x="500" y="90" text-anchor="middle" font-size="11" fill="#0e7490" font-weight="800">LIFECYCLE</text>
+    <text x="500" y="110" text-anchor="middle" font-size="9" fill="#1e293b">HubSpot drip + nurture</text>
+    <text x="500" y="124" text-anchor="middle" font-size="9" fill="#1e293b">MQL scoring</text>
+    <text x="500" y="138" text-anchor="middle" font-size="9" fill="#1e293b">Account-level segments</text>
+    <text x="500" y="158" text-anchor="middle" font-size="9" fill="#1e293b">Suppression + retargeting</text>
+
+    <!-- Stage 4 CRM -->
+    <rect x="620" y="60" width="160" height="120" rx="8" fill="#ecfeff" stroke="#0891b2" stroke-width="1.5"/>
+    <text x="700" y="90" text-anchor="middle" font-size="11" fill="#0e7490" font-weight="800">CRM ROUTING</text>
+    <text x="700" y="110" text-anchor="middle" font-size="9" fill="#1e293b">Salesforce campaign</text>
+    <text x="700" y="124" text-anchor="middle" font-size="9" fill="#1e293b">attribution validated</text>
+    <text x="700" y="138" text-anchor="middle" font-size="9" fill="#1e293b">Lead routing rules</text>
+    <text x="700" y="158" text-anchor="middle" font-size="9" fill="#1e293b">SLA documented</text>
+
+    <!-- Stage 5 SQL -->
+    <rect x="820" y="60" width="160" height="120" rx="8" fill="#0891b2" stroke="#0e7490" stroke-width="1.5"/>
+    <text x="900" y="90" text-anchor="middle" font-size="11" fill="#fff" font-weight="800">SQL</text>
+    <text x="900" y="110" text-anchor="middle" font-size="9" fill="#fff">Sales-Qualified Lead</text>
+    <text x="900" y="124" text-anchor="middle" font-size="9" fill="#fff">Cohort closed-loop</text>
+    <text x="900" y="138" text-anchor="middle" font-size="9" fill="#fff">CFO-readable outcome</text>
+    <text x="900" y="158" text-anchor="middle" font-size="9" fill="#fff">Source-of-truth attribution</text>
+
+    <!-- Arrows -->
+    <path d="M 184 120 L 215 120" stroke="#0891b2" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    <path d="M 384 120 L 415 120" stroke="#0891b2" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    <path d="M 584 120 L 615 120" stroke="#0891b2" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    <path d="M 784 120 L 815 120" stroke="#0891b2" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+
+    <defs>
+      <marker id="arrowhead" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+        <polygon points="0 0, 8 4, 0 8" fill="#0891b2"/>
+      </marker>
+    </defs>
+
+    <!-- Bottom callouts -->
+    <text x="500" y="220" text-anchor="middle" font-size="11" fill="#0f172a" font-weight="800">Same MarTech Stack Console Will Run For Its Own Demand Engine</text>
+    <text x="500" y="238" text-anchor="middle" font-size="9.5" fill="#475569">HubSpot + Salesforce + Adobe Analytics + GA4 + GTM</text>
+
+    <!-- Coordination box -->
+    <rect x="100" y="270" width="800" height="80" rx="8" fill="#ecfeff" stroke="#0891b2" stroke-width="1" stroke-dasharray="4,3"/>
+    <text x="500" y="295" text-anchor="middle" font-size="10" fill="#0e7490" font-weight="800">+ COORDINATION LAYER</text>
+    <text x="500" y="312" text-anchor="middle" font-size="9.5" fill="#1e293b">4-vendor MarTech RFP + rollout, 6 internal stakeholders aligned, Procurement terms negotiated, SLA documentation</text>
+    <text x="500" y="328" text-anchor="middle" font-size="9.5" fill="#475569" font-style="italic">The work that translates a B2B SaaS marketing org from "tool sprawl" to "source of truth in Salesforce"</text>
+  </svg>
+  <div class="slide-brand">Console | Adhithya Rokhith Bhaskar</div>
+  <div class="slide-num">04 / 06</div>
+</div>
+
+<!-- SLIDE 5 SEO COMPARISON PLAYBOOK -->
+<div class="slide">
+  <div class="label">Slide 05 | Comparison-Page Muscle</div>
+  <h2>Owning the "Moveworks Alternative" Search Surface</h2>
+  <p style="font-size: 10pt; color: #475569; margin-bottom: 4pt;">At Plug Power I owned the AEO and GEO program: on-page + technical SEO, schema rebuilds, content-cluster mapping, FAQ pages structured for ChatGPT, Claude, and Perplexity citation. The same playbook applies directly to Console's competitive surface. Below: the three-bucket keyword frame I would build for Console in week one.</p>
+
+  <div class="keyword-grid">
+    <div class="keyword-card">
+      <div class="kw">Bucket 1: Direct Competitor</div>
+      <div class="meta">"moveworks alternative" | "servicenow itsm replacement" | "freshservice vs console"</div>
+      <div class="play"><strong>Play:</strong> Long-form comparison pages with feature matrix, customer-validated time-to-value (3 weeks), schema markup for SoftwareApplication and FAQPage, structured for AI Overview citation.</div>
+    </div>
+    <div class="keyword-card">
+      <div class="kw">Bucket 2: Job-to-Be-Done</div>
+      <div class="meta">"automate IT support tickets" | "reduce IT helpdesk volume" | "AI agent for slack IT requests"</div>
+      <div class="play"><strong>Play:</strong> Problem-first content that an IT director searches for at 11pm. ROI calculator, Playbook examples, integration list. Captures buyer earlier in the procurement cycle than a competitor query.</div>
+    </div>
+    <div class="keyword-card">
+      <div class="kw">Bucket 3: AI-Native Curiosity</div>
+      <div class="meta">"AI agent ITSM" | "LLM IT support automation" | "trainable AI helpdesk"</div>
+      <div class="play"><strong>Play:</strong> Technical depth content for the technical buyer. How agents are trained, how access policies are governed, how to wire Console to an existing knowledge base. Builds the AI-credibility moat.</div>
+    </div>
+  </div>
+
+  <div class="insight-box">
+    <strong>The methodology I have already shipped.</strong> Plug Power AEO/GEO program: FAQ pages structured for ChatGPT / Claude / Perplexity citation, content-cluster mapping that mapped to Plug Power's competitive surface in fuel cells, and schema rebuilds that lifted SERP feature capture. The same playbook scales to Console's category. A 2-page enterprise GEO audit teardown (KKR) is available as a portfolio sample on request.
+  </div>
+  <div class="slide-brand">Console | Adhithya Rokhith Bhaskar</div>
+  <div class="slide-num">05 / 06</div>
+</div>
+
+<!-- SLIDE 6 CLOSE -->
+<div class="slide close">
+  <div class="label">Slide 06 | What I Want From the First Conversation</div>
+  <h2>15 Minutes With the Hiring Team</h2>
+  <div class="body">
+    What I would want to understand: which acquisition channel is currently underperforming relative to where the Slack-installed-to-paid funnel needs it to be, how the comparison-page surface is being defended today against ServiceNow and Freshservice content teams that have a 10-year head start, and how the first 90-day operating cadence looks for a Growth Marketer reporting into the founders.<br><br>
+    What I would bring to the conversation: a one-page proposal for the first three experiments I would run in week two, a draft "Moveworks alternative" comparison-page brief, and a quick read on which Pixis-trained AI-bidding playbook I would adapt for Console's IT-buyer paid surface.<br><br>
+    SF works. Open to relocating from Boston.
+  </div>
+  <div class="cta">
+    <div class="btn">15-Minute Founder Screen</div>
+    <div style="font-size: 11pt; color: #475569;">or written async if easier</div>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong><br>
+    arokhith@gmail.com | (929) 563-9974 | Boston, MA (SF works)<br>
+    Portfolio: adhi-growth-ai.vercel.app/ref/console<br>
+    LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="slide-brand">Console | Adhithya Rokhith Bhaskar</div>
+  <div class="slide-num">06 / 06</div>
+</div>
+
+</body>
+</html>

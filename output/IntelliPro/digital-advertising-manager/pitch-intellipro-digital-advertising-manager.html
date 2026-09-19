@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>IntelliPro Digital Advertising Manager Pitch Deck Adhithya</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  @page { size: 11in 8.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #0f172a; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; }
+  .slide { width: 11in; height: 8.5in; padding: 0.55in 0.75in 0.5in 0.75in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.35in; right: 0.55in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.35in; left: 0.75in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #0e7490; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 10pt; }
+  h1 { font-size: 36pt; font-weight: 800; color: #0f172a; line-height: 1.04; letter-spacing: -0.6pt; margin-bottom: 8pt; }
+  h2 { font-size: 24pt; font-weight: 800; color: #0f172a; line-height: 1.08; letter-spacing: -0.4pt; margin-bottom: 6pt; }
+  h2 .accent { color: #0e7490; }
+  .lede { font-size: 13pt; color: #475569; max-width: 8.5in; margin-bottom: 14pt; font-weight: 400; }
+
+  /* Cover */
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 1in; padding-right: 1in; background: linear-gradient(135deg, #f8fafc 0%, #ecfeff 100%); }
+  .cover h1 { font-size: 42pt; max-width: 9.2in; }
+  .cover .sub { font-size: 17pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 26pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 9.5in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.5pt; font-weight: 500; }
+  .tag strong { color: #0e7490; font-weight: 700; }
+  .cover .who { margin-top: 30pt; padding-top: 14pt; border-top: 1.5pt solid #0e7490; max-width: 7in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.5pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.6in; right: 0.85in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  /* Cover illustration */
+  .cover-svg { position: absolute; right: 0.7in; bottom: 1.5in; width: 3in; height: 2.4in; opacity: 0.95; }
+
+  /* Manifesto-mapping slide */
+  .manifesto { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 4pt; }
+  .manifesto-col { padding: 14pt 0 0 0; border-top: 2.5pt solid #0e7490; }
+  .manifesto-col h3 { font-size: 13pt; font-weight: 800; color: #0f172a; margin-bottom: 12pt; letter-spacing: -0.2pt; }
+  .manifesto-quote { background: #ecfeff; border-left: 3pt solid #0e7490; padding: 8pt 12pt; margin-bottom: 10pt; }
+  .manifesto-quote .q { font-size: 10.5pt; color: #134e4a; font-style: italic; line-height: 1.45; font-weight: 600; }
+  .manifesto-proof { padding: 6pt 0 10pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .manifesto-proof .p { font-size: 10pt; color: #334155; line-height: 1.5; }
+  .manifesto-proof .p b { color: #0f172a; font-weight: 700; }
+
+  /* Plug Power architecture slide */
+  .arch-grid { display: grid; grid-template-columns: 1fr 2.4in; gap: 18pt; margin-top: 4pt; }
+  .arch-svg { width: 100%; height: 4.4in; }
+  .margin-note { font-size: 9.5pt; color: #475569; line-height: 1.55; font-style: italic; border-top: 1pt solid #cbd5e1; padding-top: 10pt; margin-top: 10pt; }
+  .margin-note .hdr { font-style: normal; font-weight: 700; color: #0e7490; font-size: 9pt; letter-spacing: 1pt; text-transform: uppercase; margin-bottom: 6pt; }
+  .margin-note p { margin-bottom: 8pt; }
+
+  /* Pixis portfolio slide */
+  .portfolio { display: grid; grid-template-columns: 1.05fr 1fr; gap: 22pt; margin-top: 6pt; align-items: start; }
+  .clients-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6pt; margin-bottom: 12pt; }
+  .client-tile { background: #fff; border: 1pt solid #e2e8f0; border-left: 3pt solid #0e7490; padding: 8pt 8pt 7pt 8pt; }
+  .client-tile .nm { font-size: 9pt; color: #0f172a; font-weight: 800; margin-bottom: 2pt; }
+  .client-tile .bd { font-size: 8.5pt; color: #475569; }
+  .client-tile .ch { font-size: 7.5pt; color: #0e7490; font-weight: 700; margin-top: 3pt; letter-spacing: 0.3pt; text-transform: uppercase; }
+  .portfolio-kpis { display: grid; grid-template-columns: 1fr 1fr; gap: 8pt; }
+  .kpi-card { background: #fff; border: 1pt solid #e2e8f0; border-top: 3pt solid #0e7490; padding: 10pt 12pt; }
+  .kpi-card .v { font-size: 22pt; color: #0f172a; font-weight: 800; line-height: 1; }
+  .kpi-card .l { font-size: 9pt; color: #64748b; margin-top: 4pt; font-weight: 600; }
+  .pf-callout { background: #ecfeff; border-left: 3pt solid #0e7490; padding: 10pt 14pt; font-size: 10pt; color: #134e4a; line-height: 1.55; margin-top: 0pt; }
+  .pf-callout strong { color: #0e7490; font-weight: 700; }
+  .pf-callout p { margin-bottom: 6pt; }
+  .pf-callout p:last-child { margin-bottom: 0; }
+
+  /* 30 days cards */
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 8pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0e7490; padding: 14pt 14pt 12pt 14pt; }
+  .card .label { font-size: 8.5pt; color: #0e7490; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 13pt; font-weight: 800; color: #0f172a; line-height: 1.18; margin-bottom: 8pt; }
+  .card .body { font-size: 9.5pt; color: #334155; line-height: 1.5; margin-bottom: 8pt; }
+  .card .why { font-size: 9pt; color: #64748b; line-height: 1.5; padding-top: 8pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #0e7490; font-weight: 700; }
+
+  /* Close */
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 1in; padding-right: 1in; background: linear-gradient(135deg, #f8fafc 0%, #ecfeff 100%); }
+  .close h2 { font-size: 30pt; max-width: 8.5in; margin-bottom: 16pt; }
+  .close .body { font-size: 11.5pt; color: #334155; line-height: 1.6; max-width: 8.5in; }
+  .close .body p { margin-bottom: 10pt; }
+  .close .body strong { color: #0e7490; font-weight: 700; }
+  .close .cta { margin-top: 22pt; display: inline-flex; gap: 14pt; align-items: center; }
+  .close .cta .btn { background: #0f172a; color: #fff; padding: 11pt 22pt; border-radius: 3pt; font-weight: 700; font-size: 11pt; letter-spacing: 0.3pt; }
+  .close .cta .alt { font-size: 10.5pt; color: #64748b; font-style: italic; }
+  .close .contact { margin-top: 24pt; font-size: 10pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<!-- SLIDE 1 - COVER -->
+<div class="slide cover">
+  <div class="prep">Prepared for the IntelliPro Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Digital Advertising Manager | IntelliPro</div>
+  <h1>The data layer is the contract.</h1>
+  <div class="sub">Full-funnel paid across Google + Meta + TikTok + programmatic, built on attribution that holds up to audit.</div>
+  <div class="tags">
+    <div class="tag"><strong>5 yrs</strong> hands-on digital advertising operator</div>
+    <div class="tag"><strong>Pixis</strong> - $1.4M aggregate book, 8 clients, CAC/LTV-anchored allocation</div>
+    <div class="tag"><strong>Plug Power</strong> - closed-loop attribution rebuilt from zero (-25% CPA)</div>
+    <div class="tag"><strong>3x ROAS</strong> via holdout incrementality on a D2C beauty client</div>
+    <div class="tag"><strong>4</strong> Anthropic Claude Certifications + 2 production AI products solo</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">Boston, MA | US Remote | arokhith@gmail.com | (929) 563-9974 | adhi-growth-ai.vercel.app/ref/intellipro-dam</div>
+  </div>
+
+  <svg class="cover-svg" viewBox="0 0 300 240">
+    <defs>
+      <radialGradient id="ipGlow" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stop-color="#a5f3fc" stop-opacity="0.6"/>
+        <stop offset="100%" stop-color="#a5f3fc" stop-opacity="0"/>
+      </radialGradient>
+    </defs>
+    <circle cx="150" cy="120" r="110" fill="url(#ipGlow)"/>
+
+    <!-- Top: channels -->
+    <g>
+      <rect x="20" y="20" width="64" height="28" rx="3" fill="#fff" stroke="#0e7490" stroke-width="1"/>
+      <text x="52" y="38" text-anchor="middle" font-size="9" fill="#0f172a" font-weight="700">Google</text>
+      <rect x="92" y="20" width="56" height="28" rx="3" fill="#fff" stroke="#0e7490" stroke-width="1"/>
+      <text x="120" y="38" text-anchor="middle" font-size="9" fill="#0f172a" font-weight="700">Meta</text>
+      <rect x="156" y="20" width="56" height="28" rx="3" fill="#fff" stroke="#0e7490" stroke-width="1"/>
+      <text x="184" y="38" text-anchor="middle" font-size="9" fill="#0f172a" font-weight="700">TikTok</text>
+      <rect x="220" y="20" width="62" height="28" rx="3" fill="#fff" stroke="#0e7490" stroke-width="1"/>
+      <text x="251" y="38" text-anchor="middle" font-size="9" fill="#0f172a" font-weight="700">Programmatic</text>
+    </g>
+
+    <!-- Connecting lines down to GTM/data layer -->
+    <g stroke="#94a3b8" stroke-width="1" fill="none">
+      <path d="M 52 48 L 52 90 L 150 100"/>
+      <path d="M 120 48 L 120 90 L 150 100"/>
+      <path d="M 184 48 L 184 90 L 150 100"/>
+      <path d="M 251 48 L 251 90 L 150 100"/>
+    </g>
+
+    <!-- Middle: data layer / GTM hub -->
+    <rect x="60" y="100" width="180" height="40" rx="4" fill="#0e7490"/>
+    <text x="150" y="118" text-anchor="middle" font-size="10" fill="#fff" font-weight="800">DATA LAYER</text>
+    <text x="150" y="132" text-anchor="middle" font-size="8" fill="#cffafe" font-style="italic">GA4 + GTM + Meta CAPI + Server-Side</text>
+
+    <!-- Bottom: outputs -->
+    <g stroke="#0e7490" stroke-width="1.5" fill="none">
+      <path d="M 90 140 L 60 180"/>
+      <path d="M 150 140 L 150 180"/>
+      <path d="M 210 140 L 240 180"/>
+    </g>
+    <rect x="20" y="180" width="80" height="34" rx="3" fill="#fff" stroke="#0e7490" stroke-width="1"/>
+    <text x="60" y="197" text-anchor="middle" font-size="8.5" fill="#0f172a" font-weight="700">Attribution</text>
+    <text x="60" y="208" text-anchor="middle" font-size="7" fill="#475569">Ad click to SQL</text>
+    <rect x="110" y="180" width="80" height="34" rx="3" fill="#fff" stroke="#0e7490" stroke-width="1"/>
+    <text x="150" y="197" text-anchor="middle" font-size="8.5" fill="#0f172a" font-weight="700">CAC / LTV</text>
+    <text x="150" y="208" text-anchor="middle" font-size="7" fill="#475569">Payback period</text>
+    <rect x="200" y="180" width="80" height="34" rx="3" fill="#fff" stroke="#0e7490" stroke-width="1"/>
+    <text x="240" y="197" text-anchor="middle" font-size="8.5" fill="#0f172a" font-weight="700">Reporting</text>
+    <text x="240" y="208" text-anchor="middle" font-size="7" fill="#475569">Weekly + monthly</text>
+  </svg>
+
+  <div class="brand">IntelliPro | Adhithya Rokhith Bhaskar</div>
+  <div class="num">01 / 06</div>
+</div>
+
+<!-- SLIDE 2 - JD MAPPING -->
+<div class="slide">
+  <div class="eyebrow">Slide 02 | Each Line of the JD Has a Working Proof</div>
+  <h2>The JD reads like <span class="accent">the last five years of operating notes.</span></h2>
+  <div class="lede">Six lines from the posting. Six things already shipped. Substance, not slogan.</div>
+
+  <div class="manifesto">
+    <div class="manifesto-col">
+      <h3>What the JD asks for</h3>
+      <div class="manifesto-quote"><div class="q">"5+ years hands-on digital advertising or performance marketing experience."</div></div>
+      <div class="manifesto-quote"><div class="q">"Own end-to-end paid media across Google Ads, Meta, TikTok, and programmatic."</div></div>
+      <div class="manifesto-quote"><div class="q">"Build and maintain attribution and tracking infrastructure (GA4, GTM, Meta CAPI, server-side tagging)."</div></div>
+      <div class="manifesto-quote"><div class="q">"Define and manage CAC, LTV, ROAS, payback period, cost per conversion."</div></div>
+      <div class="manifesto-quote"><div class="q">"2+ years in fintech, insurance, healthcare, or regulated / high-consideration consumer environments."</div></div>
+      <div class="manifesto-quote"><div class="q">"Autonomous in fast-paced, small-team environments."</div></div>
+    </div>
+
+    <div class="manifesto-col">
+      <h3>What I've actually shipped</h3>
+      <div class="manifesto-proof"><div class="p"><b>5 years</b> across Sensata (20+ mo), Plug Power (10 mo), Pixis (14 mo), GenY (18 mo) - mid-band match, neither stretch nor downlevel.</div></div>
+      <div class="manifesto-proof"><div class="p"><b>Pixis $1.4M aggregate annual book</b> across Meta + Google + LinkedIn + Criteo + Amazon + programmatic; <b>Plug Power</b> Meta + Google + LinkedIn ABM + Adobe-driven programmatic (-25% CPA).</div></div>
+      <div class="manifesto-proof"><div class="p"><b>Plug Power closed-loop attribution rebuilt from zero:</b> UTM spec written, GTM containers, GA4 events, Salesforce campaign attribution + Adobe Audience Manager account-level retargeting funnels. Same architectural pattern as Meta CAPI + server-side.</div></div>
+      <div class="manifesto-proof"><div class="p"><b>Pixis weekly client CFO QBR cadence:</b> CAC, LTV, ROAS, payback period as the operating vocabulary; cut book churn <b>50%</b> via LTV-focused account strategy.</div></div>
+      <div class="manifesto-proof"><div class="p"><b>30+ months in regulated B2B</b> (Plug Power clean-energy DOE-regulated + Sensata automotive/aerospace) <b>+ 18 months high-consideration D2C</b> (GenY 16x ROAS). Audit-trail mindset + considered-purchase mechanics.</div></div>
+      <div class="manifesto-proof"><div class="p"><b>Two production AI products shipped solo:</b> SwipeHire on Python + OpenAI API + React (day-one GA4 + GTM + Amplitude + 8 A/B tests with significance gates) + NSE Bot on Python + Claude API. The autonomous-builder pattern.</div></div>
+    </div>
+  </div>
+
+  <div class="brand">IntelliPro | Adhithya Rokhith Bhaskar</div>
+  <div class="num">02 / 06</div>
+</div>
+
+<!-- SLIDE 3 - PLUG POWER ARCHITECTURE -->
+<div class="slide">
+  <div class="eyebrow">Slide 03 | The Infrastructure I Build</div>
+  <h2>Plug Power: <span class="accent">closed-loop attribution rebuilt from zero.</span></h2>
+  <div class="lede">The JD's "build and maintain attribution and tracking infrastructure on GA4, GTM, Meta CAPI, server-side" is the literal description of this work. Channels are the consumer; the data layer is the contract. Meta CAPI + server-side tagging is the same architectural pattern - spec the data layer first, let the platforms consume it.</div>
+
+  <div class="arch-grid">
+    <svg viewBox="0 0 720 360" class="arch-svg">
+      <text x="20" y="22" font-size="10" fill="#0e7490" font-weight="700" letter-spacing="1.5">CHANNELS (CONSUMERS)</text>
+      <rect x="20" y="40" width="660" height="44" rx="3" fill="#fff" stroke="#cbd5e1" stroke-width="1"/>
+      <text x="40" y="60" font-size="10.5" fill="#0f172a" font-weight="700">Meta + Google Ads + LinkedIn ABM + Adobe-Driven Programmatic</text>
+      <text x="40" y="76" font-size="9" fill="#475569">Full-funnel: prospecting + consideration + retargeting + reactivation | A/B tested with sample-size + significance gates</text>
+
+      <text x="20" y="102" font-size="10" fill="#0e7490" font-weight="700" letter-spacing="1.5">RETARGETING + REACTIVATION</text>
+      <rect x="20" y="120" width="660" height="44" rx="3" fill="#ecfeff" stroke="#0e7490" stroke-width="1.5"/>
+      <text x="40" y="140" font-size="10.5" fill="#0f172a" font-weight="700">Adobe Audience Manager - account-level behavioral segments + audience layers + suppression lists</text>
+      <text x="40" y="156" font-size="9" fill="#475569">6 behavioral segments | Audience layers by title + seniority + industry | Suppression for closed-won / closed-lost</text>
+
+      <text x="20" y="182" font-size="10" fill="#0e7490" font-weight="700" letter-spacing="1.5">DATA LAYER + TRACKING (THE CONTRACT)</text>
+      <rect x="20" y="200" width="660" height="44" rx="3" fill="#fff" stroke="#cbd5e1" stroke-width="1"/>
+      <text x="40" y="220" font-size="10.5" fill="#0f172a" font-weight="700">UTM spec written from zero + GTM containers rebuilt + GA4 events validated + Adobe Analytics</text>
+      <text x="40" y="236" font-size="9" fill="#475569">Meta CAPI + server-side tagging follow this pattern: data-layer-first, platform-agnostic, audit-trail by design</text>
+
+      <text x="20" y="262" font-size="10" fill="#0e7490" font-weight="700" letter-spacing="1.5">HANDOFF + ECONOMICS</text>
+      <rect x="20" y="280" width="660" height="44" rx="3" fill="#fff" stroke="#cbd5e1" stroke-width="1"/>
+      <text x="40" y="300" font-size="10.5" fill="#0f172a" font-weight="700">Salesforce campaign attribution + lead-routing rules + SLA documentation feeding sales alerting</text>
+      <text x="40" y="316" font-size="9" fill="#0e7490" font-weight="700">Outcomes: -25% CPA, +20% conversion, CAC/LTV/payback defended weekly to finance + sales</text>
+
+      <path d="M 350 89 L 350 117" stroke="#94a3b8" stroke-width="1.5" fill="none" marker-end="url(#arrIP)"/>
+      <path d="M 350 169 L 350 197" stroke="#94a3b8" stroke-width="1.5" fill="none" marker-end="url(#arrIP)"/>
+      <path d="M 350 249 L 350 277" stroke="#94a3b8" stroke-width="1.5" fill="none" marker-end="url(#arrIP)"/>
+
+      <defs>
+        <marker id="arrIP" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+          <polygon points="0 0, 8 4, 0 8" fill="#94a3b8"/>
+        </marker>
+      </defs>
+    </svg>
+
+    <div class="margin-note">
+      <div class="hdr">Translation to this seat</div>
+      <p>The architectural pattern is what transfers, not the specific stack. Swap Adobe Analytics for Snowplow / Segment / Rudderstack; swap LinkedIn ABM for Meta CAPI prospecting; swap industrial-energy ICP for fintech / insurance / healthcare cohorts.</p>
+      <p>The audit-trail mindset that worked in DOE-regulated clean energy maps directly to regulated consumer-finance and healthcare environments.</p>
+    </div>
+  </div>
+
+  <div class="brand">IntelliPro | Adhithya Rokhith Bhaskar</div>
+  <div class="num">03 / 06</div>
+</div>
+
+<!-- SLIDE 4 - PIXIS PORTFOLIO + CAC/LTV -->
+<div class="slide">
+  <div class="eyebrow">Slide 04 | Portfolio Scale + CAC/LTV Discipline</div>
+  <h2>Pixis: <span class="accent">$1.4M aggregate book across 8 clients, CAC/LTV-anchored.</span></h2>
+  <div class="lede">The JD asks for monthly + quarterly paid-media budget allocation and forecasting; weekly performance updates and monthly business reviews to leadership; CAC, LTV, ROAS, payback-period management. This is the operating shape of the Pixis tenure.</div>
+
+  <div class="portfolio">
+    <div>
+      <div class="clients-grid">
+        <div class="client-tile"><div class="nm">Client A</div><div class="bd">B2B SaaS | $90K/mo</div><div class="ch">Meta + Google + LinkedIn</div></div>
+        <div class="client-tile"><div class="nm">Client B</div><div class="bd">D2C beauty | $75K/mo</div><div class="ch">Meta + Google + Criteo</div></div>
+        <div class="client-tile"><div class="nm">Client C</div><div class="bd">B2B SaaS | $55K/mo</div><div class="ch">Google + LinkedIn ABM</div></div>
+        <div class="client-tile"><div class="nm">Client D</div><div class="bd">D2C consumer | $40K/mo</div><div class="ch">Meta + Amazon</div></div>
+        <div class="client-tile"><div class="nm">Client E</div><div class="bd">D2C app | $35K/mo</div><div class="ch">Meta + TikTok-adj + UA</div></div>
+        <div class="client-tile"><div class="nm">Client F</div><div class="bd">B2B SaaS | $30K/mo</div><div class="ch">LinkedIn ABM + Programmatic</div></div>
+        <div class="client-tile"><div class="nm">Client G</div><div class="bd">D2C lifestyle | $25K/mo</div><div class="ch">Meta + Google Shopping</div></div>
+        <div class="client-tile"><div class="nm">Client H</div><div class="bd">B2B SaaS | $15K/mo</div><div class="ch">Google + LinkedIn</div></div>
+      </div>
+      <div class="portfolio-kpis">
+        <div class="kpi-card"><div class="v">$1.4M</div><div class="l">aggregate annual book</div></div>
+        <div class="kpi-card"><div class="v">$15K-$90K</div><div class="l">per-client monthly budget range</div></div>
+        <div class="kpi-card"><div class="v">3x ROAS</div><div class="l">via holdout incrementality (D2C beauty)</div></div>
+        <div class="kpi-card"><div class="v">-50%</div><div class="l">book churn (LTV-focused strategy)</div></div>
+      </div>
+    </div>
+    <div>
+      <div class="pf-callout">
+        <p><strong>Operating cadence.</strong> Weekly client CFO QBRs translating CAC, LTV, ROAS, and payback period into pipeline narrative. Monthly business reviews with budget reforecasts based on channel-level marginal ROAS.</p>
+        <p><strong>The reflex.</strong> Mid-quarter channel swaps on 2 separate clients when blended ROAS hid the truth. Cut weak spend, redirect to true lift, re-pre-flight creative inside 2 weeks.</p>
+        <p><strong>Why this maps.</strong> The JD asks for portfolio scale + multi-platform operator depth + CAC/LTV economics + executive-facing cadence. Each was the daily shape of this seat for 14 months.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="brand">IntelliPro | Adhithya Rokhith Bhaskar</div>
+  <div class="num">04 / 06</div>
+</div>
+
+<!-- SLIDE 5 - FIRST 30 DAYS -->
+<div class="slide">
+  <div class="eyebrow">Slide 05 | First Thirty Days</div>
+  <h2>Three concrete experiments <span class="accent">to ship inside thirty days.</span></h2>
+  <div class="lede">Each one ships in a month and produces a measurable economic outcome - CAC, LTV, payback period, or attribution coverage.</div>
+
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1-2 - Attribution Audit</div>
+      <div class="ttl">End-to-end attribution audit and gap teardown</div>
+      <div class="body">Map current state: GA4 event coverage, GTM container hygiene, Meta CAPI / server-side parity, Salesforce / CRM lead-routing, UTM spec compliance. Output a 2-page teardown ranking gaps by revenue impact and a sequenced fix-it roadmap.</div>
+      <div class="why"><strong>Why first.</strong> Same shape as the Plug Power rebuild. Without trustworthy data, every paid decision later is theater. Fix the contract first.</div>
+    </div>
+
+    <div class="card">
+      <div class="label">Week 2-4 - Holdout Test</div>
+      <div class="ttl">Holdout-incrementality slice on the largest spend channel</div>
+      <div class="body">Identify the channel currently getting the most credit on last-click or last-touch. Carve a matched holdout cell. Measure incremental conversion lift over 3 weeks. Cut over-credited spend, reallocate to true lift. Defend the call with finance + leadership.</div>
+      <div class="why"><strong>Why first.</strong> The Pixis muscle. On regulated / high-consideration buyers, last-click attribution under-credits long consideration cycles and over-credits closing-window channels. Holdout incrementality is the only way to see the true picture.</div>
+    </div>
+
+    <div class="card">
+      <div class="label">Week 3-4 - Economics Dashboard</div>
+      <div class="ttl">CAC / LTV / Payback dashboard for weekly + monthly cadence</div>
+      <div class="body">Build a one-page dashboard tracking CAC, LTV, ROAS, payback period, and cost per conversion sliced by channel + cohort. Looker Studio or Tableau on the data layer. Becomes the artifact that anchors the weekly performance update and the monthly business review.</div>
+      <div class="why"><strong>Why first.</strong> Same shape as the $627M margin-recovery executive dashboard at Sensata (1,200 opportunities, 3 regions, 4 product families). Executive artifact, built for decisions.</div>
+    </div>
+  </div>
+
+  <div class="brand">IntelliPro | Adhithya Rokhith Bhaskar</div>
+  <div class="num">05 / 06</div>
+</div>
+
+<!-- SLIDE 6 - CLOSE -->
+<div class="slide close">
+  <div class="eyebrow">Slide 06 | The Ask</div>
+  <h2>What I'd want from <span class="accent">the first fifteen minutes.</span></h2>
+  <div class="body">
+    <p><strong>What I'd want to understand:</strong> whether this is an internal IntelliPro seat or a client placement (and if client, which vertical); how the data-layer + attribution stack looks today; and which channel currently carries the most measurement uncertainty.</p>
+    <p><strong>What I'd bring:</strong> a draft attribution-audit outline scoped to a typical fintech / insurance / healthcare paid-stack shape, a holdout-incrementality design ready to scope, and a one-page CAC / LTV / payback dashboard wireframe.</p>
+    <p>Remote works. Open to hybrid if the role is on-site.</p>
+  </div>
+  <div class="cta">
+    <div class="btn">15 min with the team</div>
+    <div class="alt">or written async if that's easier</div>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong><br>
+    arokhith@gmail.com | (929) 563-9974 | Boston, MA<br>
+    Portfolio: adhi-growth-ai.vercel.app/ref/intellipro-dam<br>
+    LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">IntelliPro | Adhithya Rokhith Bhaskar</div>
+  <div class="num">06 / 06</div>
+</div>
+
+</body>
+</html>

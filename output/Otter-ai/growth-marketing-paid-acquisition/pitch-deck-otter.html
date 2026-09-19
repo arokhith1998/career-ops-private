@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><title>Adhithya Rokhith Bhaskar - Otter.ai Growth Marketing Pitch Deck</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  @page { size: 11in 8.5in landscape; margin: 0; }
+  html, body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; color: #0a1828; background: #ffffff; }
+  body { width: 11in; }
+  .slide { width: 11in; height: 8.5in; padding: 0.5in 0.6in; position: relative; overflow: hidden; page-break-after: always; background: #ffffff; }
+  .slide:last-child { page-break-after: auto; }
+  .accent { color: #06b6d4; }
+  .deep { color: #0a1828; }
+  .muted { color: #5b6b80; }
+  .footer {
+    position: absolute; bottom: 0.32in; left: 0.6in; right: 0.6in;
+    display: flex; justify-content: space-between; align-items: center;
+    font-size: 8.5pt; color: #8497ad; border-top: 0.5pt solid #e3e9f1; padding-top: 6pt;
+  }
+  .footer .num { font-weight: 700; color: #06b6d4; letter-spacing: 1pt; }
+  .stripe { position: absolute; top: 0; right: 0; width: 5pt; height: 100%; background: #06b6d4; }
+  .ribbon { position: absolute; top: 0.5in; right: 0.6in; background: #06b6d4; color: #fff; font-size: 8pt; font-weight: 700; padding: 4pt 12pt; letter-spacing: 1.5pt; text-transform: uppercase; }
+
+  /* SLIDE 1 - cover */
+  .s1 .topline { font-size: 9pt; font-weight: 600; color: #06b6d4; letter-spacing: 2pt; text-transform: uppercase; margin-bottom: 18pt; }
+  .s1 h1 { font-size: 36pt; font-weight: 800; line-height: 1.08; letter-spacing: -0.5pt; max-width: 7.2in; margin-bottom: 18pt; }
+  .s1 h1 .hl { background: linear-gradient(180deg, transparent 60%, rgba(6,182,212,0.35) 60%); padding: 0 2pt; }
+  .s1 .sub { font-size: 13pt; color: #5b6b80; max-width: 6.5in; line-height: 1.45; margin-bottom: 28pt; }
+  .s1 .author { display: flex; gap: 18pt; align-items: center; }
+  .s1 .avatar { width: 56pt; height: 56pt; border-radius: 50%; background: linear-gradient(135deg, #06b6d4 0%, #0e7490 100%); display: flex; align-items: center; justify-content: center; color: #fff; font-weight: 800; font-size: 22pt; }
+  .s1 .who .name { font-size: 13pt; font-weight: 700; }
+  .s1 .who .tag { font-size: 10pt; color: #5b6b80; margin-top: 2pt; }
+  .s1 .stats-rail { position: absolute; right: 0.6in; top: 1.2in; display: flex; flex-direction: column; gap: 22pt; width: 2.4in; }
+  .s1 .stat { padding: 14pt 18pt; background: #f4fbfd; border-left: 3pt solid #06b6d4; border-radius: 0 6pt 6pt 0; }
+  .s1 .stat .num { font-size: 24pt; font-weight: 800; color: #06b6d4; line-height: 1; letter-spacing: -0.5pt; }
+  .s1 .stat .lbl { font-size: 8.5pt; color: #0a1828; margin-top: 4pt; font-weight: 600; line-height: 1.3; }
+  .s1 .scribble { position: absolute; left: 5.3in; top: 4.6in; font-family: 'Caveat', 'Comic Sans MS', cursive; font-size: 16pt; color: #f97316; transform: rotate(-4deg); }
+  .s1 .scribble-arrow { position: absolute; left: 5.6in; top: 5in; font-size: 22pt; color: #f97316; transform: rotate(20deg); }
+
+  /* SLIDE 2 - the bet */
+  .h2 { font-size: 24pt; font-weight: 800; letter-spacing: -0.4pt; margin-bottom: 6pt; }
+  .h2-sub { font-size: 11pt; color: #5b6b80; margin-bottom: 22pt; max-width: 8in; line-height: 1.45; }
+  .three-cards { display: grid; grid-template-columns: 1.2fr 1fr 1.1fr; gap: 14pt; }
+  .card { background: #f8fbfd; border: 0.6pt solid #e3e9f1; border-top: 3pt solid #06b6d4; padding: 18pt 16pt; border-radius: 4pt; position: relative; }
+  .card.alt { border-top-color: #f97316; background: #fff8f3; }
+  .card.alt2 { border-top-color: #0e7490; background: #f0fafc; }
+  .card .tag { font-size: 8pt; font-weight: 700; color: #06b6d4; text-transform: uppercase; letter-spacing: 1.2pt; margin-bottom: 8pt; }
+  .card.alt .tag { color: #f97316; }
+  .card.alt2 .tag { color: #0e7490; }
+  .card h3 { font-size: 13.5pt; font-weight: 700; line-height: 1.25; margin-bottom: 10pt; }
+  .card p { font-size: 9.5pt; color: #324a64; line-height: 1.5; }
+  .card .pull { margin-top: 10pt; padding-top: 8pt; border-top: 0.5pt dashed #c8d3e0; font-size: 8.5pt; color: #5b6b80; font-style: italic; }
+  .s2 .anno { position: absolute; bottom: 1.6in; left: 0.6in; right: 0.6in; padding: 12pt 16pt; background: #fffbeb; border-left: 3pt solid #f59e0b; border-radius: 0 4pt 4pt 0; font-size: 10pt; color: #524012; }
+  .s2 .anno strong { color: #92400e; }
+
+  /* SLIDE 3 - 30/60/90 */
+  .timeline { position: relative; margin-top: 28pt; padding: 0 0.2in; }
+  .timeline .axis { position: absolute; left: 0.4in; right: 0.4in; top: 22pt; height: 3pt; background: linear-gradient(90deg, #06b6d4, #0e7490); border-radius: 2pt; }
+  .timeline .nodes { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16pt; position: relative; }
+  .timeline .node { position: relative; padding-top: 50pt; }
+  .timeline .node::before { content: ''; position: absolute; top: 14pt; left: 50%; transform: translateX(-50%); width: 18pt; height: 18pt; border-radius: 50%; background: #fff; border: 3pt solid #06b6d4; z-index: 2; }
+  .timeline .day { display: inline-block; background: #06b6d4; color: #fff; font-size: 9pt; font-weight: 800; padding: 3pt 10pt; border-radius: 12pt; letter-spacing: 0.4pt; margin-bottom: 10pt; }
+  .timeline .node h4 { font-size: 13pt; font-weight: 700; margin-bottom: 8pt; }
+  .timeline .node ul { list-style: none; padding: 0; }
+  .timeline .node li { font-size: 9.5pt; color: #324a64; line-height: 1.45; margin-bottom: 6pt; padding-left: 14pt; position: relative; }
+  .timeline .node li::before { content: '\2192'; position: absolute; left: 0; color: #06b6d4; font-weight: 700; }
+  .s3 .anno { position: absolute; bottom: 1.4in; left: 0.6in; right: 0.6in; display: flex; gap: 16pt; align-items: center; padding: 14pt 18pt; background: linear-gradient(135deg, #f4fbfd 0%, #fff 100%); border: 0.6pt solid #c8e7ee; border-radius: 6pt; }
+  .s3 .anno .icon { font-size: 22pt; color: #06b6d4; font-weight: 800; }
+  .s3 .anno .txt { font-size: 10pt; color: #324a64; line-height: 1.5; }
+  .s3 .anno strong { color: #0a1828; }
+
+  /* SLIDE 4 - receipts */
+  .receipts { display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; gap: 14pt; margin-top: 20pt; }
+  .rec { background: #fff; border: 0.6pt solid #e3e9f1; border-radius: 6pt; padding: 16pt 18pt; position: relative; overflow: hidden; }
+  .rec::before { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 3pt; background: #06b6d4; }
+  .rec .role { font-size: 8.5pt; color: #5b6b80; text-transform: uppercase; letter-spacing: 1pt; font-weight: 700; margin-bottom: 4pt; }
+  .rec h4 { font-size: 14pt; font-weight: 800; margin-bottom: 10pt; color: #0a1828; }
+  .rec .kpis { display: flex; gap: 14pt; margin-bottom: 10pt; }
+  .rec .kpi { background: #f4fbfd; padding: 8pt 12pt; border-radius: 4pt; flex: 1; }
+  .rec .kpi .v { font-size: 16pt; font-weight: 800; color: #06b6d4; line-height: 1; }
+  .rec .kpi .l { font-size: 7.5pt; color: #324a64; margin-top: 3pt; font-weight: 600; }
+  .rec p { font-size: 9pt; color: #324a64; line-height: 1.45; }
+  .rec.warm::before { background: #f97316; }
+  .rec.warm .kpi { background: #fff8f3; }
+  .rec.warm .kpi .v { color: #f97316; }
+  .rec.deep::before { background: #0e7490; }
+  .rec.deep .kpi { background: #f0fafc; }
+  .rec.deep .kpi .v { color: #0e7490; }
+  .rec.dark::before { background: #0a1828; }
+  .rec.dark .kpi { background: #f1f5f9; }
+  .rec.dark .kpi .v { color: #0a1828; }
+
+  /* SLIDE 5 - close */
+  .s5 .grid { display: grid; grid-template-columns: 1.2fr 1fr; gap: 28pt; margin-top: 28pt; }
+  .s5 .col h3 { font-size: 16pt; font-weight: 800; margin-bottom: 14pt; line-height: 1.25; }
+  .s5 .col h3 .accent { color: #06b6d4; }
+  .s5 .col p { font-size: 10.5pt; color: #324a64; line-height: 1.55; margin-bottom: 12pt; }
+  .s5 .col ul { list-style: none; padding: 0; }
+  .s5 .col li { font-size: 10pt; color: #0a1828; padding: 8pt 0; border-bottom: 0.5pt dashed #d8e0eb; display: flex; gap: 10pt; }
+  .s5 .col li::before { content: ''; width: 6pt; height: 6pt; background: #06b6d4; border-radius: 50%; margin-top: 6pt; flex-shrink: 0; }
+  .s5 .cta { margin-top: 16pt; padding: 22pt 24pt; background: linear-gradient(135deg, #0a1828 0%, #0e7490 100%); color: #fff; border-radius: 8pt; }
+  .s5 .cta .lead { font-size: 13pt; font-weight: 700; margin-bottom: 10pt; }
+  .s5 .cta .links { font-size: 10pt; line-height: 1.9; }
+  .s5 .cta a { color: #06b6d4; font-weight: 700; text-decoration: none; border-bottom: 1pt solid rgba(6,182,212,0.4); }
+  .s5 .sig { margin-top: 18pt; font-family: 'Caveat', 'Comic Sans MS', cursive; font-size: 22pt; color: #0a1828; transform: rotate(-2deg); display: inline-block; }
+  .s5 .ps { margin-top: 8pt; font-size: 9pt; color: #5b6b80; font-style: italic; }
+</style></head>
+<body>
+
+<!-- SLIDE 1 - COVER -->
+<section class="slide s1">
+  <div class="stripe"></div>
+  <div class="ribbon">For Zaw &amp; Colton</div>
+  <div class="topline">A 5-slide pitch for Otter.ai - Growth Marketing Manager, Paid Acquisition</div>
+  <h1>I built this in 90 minutes because I couldn't stop thinking about <span class="hl">your CKE category bet.</span></h1>
+  <div class="sub">A 90-day playbook for paid social at Otter. Channel audit, creative-led growth, AI-native experimentation. Built so you can skim instead of scroll.</div>
+  <div class="author">
+    <div class="avatar">AB</div>
+    <div class="who">
+      <div class="name">Adhithya Rokhith Bhaskar</div>
+      <div class="tag">Growth, PMM &amp; Pricing &middot; Boston, open to relocate</div>
+    </div>
+  </div>
+  <div class="stats-rail">
+    <div class="stat"><div class="num">-25%</div><div class="lbl">CPA at Plug Power across multi-channel paid</div></div>
+    <div class="stat"><div class="num">16x</div><div class="lbl">ROAS for D2C consumer at GenY (Meta + Google)</div></div>
+    <div class="stat"><div class="num">60%</div><div class="lbl">Net-new SwipeHire signups from founder-led organic</div></div>
+  </div>
+  <div class="scribble">5 min read</div>
+  <div class="scribble-arrow">&#10551;</div>
+  <div class="footer"><div>Adhithya Rokhith Bhaskar &nbsp;|&nbsp; Otter.ai pitch deck</div><div class="num">01 / 05</div></div>
+</section>
+
+<!-- SLIDE 2 - the bet -->
+<section class="slide s2">
+  <div class="stripe"></div>
+  <div class="h2">Three growth-marketing problems unique to the <span class="accent">CKE</span> bet</div>
+  <div class="h2-sub">Otter is asking buyers to adopt a category they don't yet have a search term for. That changes how paid social has to work.</div>
+  <div class="three-cards">
+    <div class="card">
+      <div class="tag">Problem 01</div>
+      <h3>Category creation, not category capture.</h3>
+      <p>Buyers won't search "Conversational Knowledge Engine" tomorrow. Paid social has to do double duty: build the category narrative AND capture the demand it creates. Most teams pick one.</p>
+      <div class="pull">My answer: pair a category-narrative content layer (LinkedIn + X) with retargeting that converts the surface area into demos.</div>
+    </div>
+    <div class="card alt">
+      <div class="tag">Problem 02</div>
+      <h3>Creative velocity is the moat.</h3>
+      <p>Meta, YouTube, TikTok all reward variant volume. Most teams ship 5 creatives a week. AI-native teams ship 50. The work isn't creative production - it is creative briefing, judging, and shipping at speed.</p>
+      <div class="pull">My answer: a weekly creative review cadence with AI-generated variants from a small library of proven hooks.</div>
+    </div>
+    <div class="card alt2">
+      <div class="tag">Problem 03</div>
+      <h3>AI products need AI-native systems.</h3>
+      <p>pLTV-weighted bidding, generative variant testing, agentic experiment briefing. The metrics stack (cohort retention, paid-to-paid LTV) has to keep up with the channel mix.</p>
+      <div class="pull">My answer: an experiment system measured in tests-shipped-per-dollar, not tests-shipped-per-quarter.</div>
+    </div>
+  </div>
+  <div class="anno"><strong>Reality check:</strong> I have not seen Otter's actual paid stack. These are my reads from the JD, the Forbes 2026 mention, and three weeks watching your category-creation content. Happy to revise once we talk.</div>
+  <div class="footer"><div>How I read the Otter growth challenge</div><div class="num">02 / 05</div></div>
+</section>
+
+<!-- SLIDE 3 - 30/60/90 -->
+<section class="slide s3">
+  <div class="stripe"></div>
+  <div class="h2">My first <span class="accent">90 days</span> at Otter</div>
+  <div class="h2-sub">Concrete, not aspirational. Each milestone is something I have done before, mapped to where Otter likely sits today.</div>
+  <div class="timeline">
+    <div class="axis"></div>
+    <div class="nodes">
+      <div class="node">
+        <div class="day">DAYS 1-30</div>
+        <h4>Audit and instrument</h4>
+        <ul>
+          <li>Channel-level audit on Meta, YouTube, TikTok. Pull last-90 spend, CPA, MQL/SQL ratios by creative and audience.</li>
+          <li>Stand up incrementality holdout structure for Meta + TikTok (have done this twice).</li>
+          <li>Ship first 8 creative variants on the top-funnel mover. Document the hook-claim-CTA framework.</li>
+          <li>Map cohort retention to acquisition source. Surface 1 surprise to Zaw within 14 days.</li>
+        </ul>
+      </div>
+      <div class="node">
+        <div class="day">DAYS 31-60</div>
+        <h4>Test and scale</h4>
+        <ul>
+          <li>pLTV-weighted bidding pilot on Meta + TikTok. Reweight spend by predicted retention, not just CPA.</li>
+          <li>Launch the category-narrative content layer (LinkedIn + X founder-led) to feed retargeting and brand-lift.</li>
+          <li>First spend-shift recommendation to channel mix. Defensible model on Power BI or Sheets.</li>
+          <li>Ship 20+ creatives across the period. Weekly creative review cadence operational.</li>
+        </ul>
+      </div>
+      <div class="node">
+        <div class="day">DAYS 61-90</div>
+        <h4>Compound and automate</h4>
+        <ul>
+          <li>Brand-lift study scoped and running on a top-3 channel.</li>
+          <li>Pipeline-attributed reporting live with paid-to-paid LTV by channel and creative theme.</li>
+          <li>Automate briefing, variant generation, and reporting into an AI-driven workflow. Free 8 hours/week.</li>
+          <li>Hand Zaw a 6-month spend plan with explicit experiment bets, not just channel splits.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="anno">
+    <div class="icon">!</div>
+    <div class="txt"><strong>The bet I would make on day 1:</strong> creative velocity. If we ship 50 variants/week instead of 5, the algo learns faster and CPA compounds down. The rest of the plan stays the same; this is the lever I would defend hardest.</div>
+  </div>
+  <div class="footer"><div>30 / 60 / 90 day plan</div><div class="num">03 / 05</div></div>
+</section>
+
+<!-- SLIDE 4 - receipts -->
+<section class="slide s4">
+  <div class="stripe"></div>
+  <div class="h2">The receipts</div>
+  <div class="h2-sub">Every claim on the prior slide has a parallel in something I have already done.</div>
+  <div class="receipts">
+    <div class="rec">
+      <div class="role">Plug Power &middot; Digital Marketing Manager</div>
+      <h4>Multi-channel paid + closed-loop attribution</h4>
+      <div class="kpis">
+        <div class="kpi"><div class="v">-25%</div><div class="l">CPA</div></div>
+        <div class="kpi"><div class="v">+20%</div><div class="l">Conversion</div></div>
+        <div class="kpi"><div class="v">4</div><div class="l">MarTech vendors aligned</div></div>
+      </div>
+      <p>Rebuilt the stack on HubSpot + Salesforce + Adobe + GA4 + GTM. Closed-loop from ad click to SQL to revenue. Same attribution rigor needed to defend Otter's paid-to-paid LTV thesis.</p>
+    </div>
+    <div class="rec warm">
+      <div class="role">GenY Medium &middot; Sr. Digital Marketing Analyst</div>
+      <h4>D2C consumer paid at scale</h4>
+      <div class="kpis">
+        <div class="kpi"><div class="v">16x</div><div class="l">ROAS</div></div>
+        <div class="kpi"><div class="v">+36%</div><div class="l">Conversion</div></div>
+        <div class="kpi"><div class="v">+25%</div><div class="l">CAC rate</div></div>
+      </div>
+      <p>Google Merchant + Meta catalog rebuild, dynamic product ads, audience segmentation. Win/loss interviews fed back into creative briefs. Same playbook applies to Otter's prosumer acquisition.</p>
+    </div>
+    <div class="rec deep">
+      <div class="role">Pixis &middot; Customer Success Manager (AI MarTech)</div>
+      <h4>8-client paid portfolio, AI-driven bidding</h4>
+      <div class="kpis">
+        <div class="kpi"><div class="v">$15K-$90K</div><div class="l">Monthly spend / client</div></div>
+        <div class="kpi"><div class="v">-50%</div><div class="l">Churn</div></div>
+        <div class="kpi"><div class="v">8</div><div class="l">Clients</div></div>
+      </div>
+      <p>Ran a multi-client paid portfolio with weekly QBRs. iOS UA on Appsflyer + Adjust. Validated 3x ROAS lift via holdout incrementality. Cohort LTV + retention playbooks where Otter is headed.</p>
+    </div>
+    <div class="rec dark">
+      <div class="role">SwipeHire &middot; Founder (AI Product, Side Project)</div>
+      <h4>0-to-1 AI product, organic-led</h4>
+      <div class="kpis">
+        <div class="kpi"><div class="v">60%</div><div class="l">Organic signups</div></div>
+        <div class="kpi"><div class="v">8+</div><div class="l">A/B tests shipped</div></div>
+        <div class="kpi"><div class="v">$0</div><div class="l">Paid spend</div></div>
+      </div>
+      <p>Built end-to-end on Python + React + AI APIs. Full funnel on GA4 + GTM + Amplitude with cohort retention analysis. Founder-led LinkedIn + X content compounded into a free distribution engine. AI builder fluency.</p>
+    </div>
+  </div>
+  <div class="footer"><div>Proof from four roles</div><div class="num">04 / 05</div></div>
+</section>
+
+<!-- SLIDE 5 - close -->
+<section class="slide s5">
+  <div class="stripe"></div>
+  <div class="h2">Why us together</div>
+  <div class="h2-sub">One slide on what excites me about Otter specifically, then I will get out of the way.</div>
+  <div class="grid">
+    <div class="col">
+      <h3>What I would want to know more about <span class="accent">on call 1</span></h3>
+      <ul>
+        <li>How do you measure paid-to-paid LTV today? Is there a cohort attribution layer separating prosumer from team conversions?</li>
+        <li>What is the current creative cadence on Meta and TikTok? Where does new variant briefing get bottlenecked?</li>
+        <li>Has the team scoped a brand-lift study on the CKE positioning? Asking because I would want to push for one early.</li>
+        <li>Where does Otter's existing organic content team and paid acquisition meet? Do briefs get co-authored?</li>
+      </ul>
+    </div>
+    <div class="col">
+      <h3>What I bring that I think is rare</h3>
+      <p>A pricing-and-margin operator at Sensata, a multi-channel performance marketer at Plug Power and GenY, an AI product builder via SwipeHire, all under one resume. Most growth folks have one or two of those. I run my own product on the side because I cannot stop building.</p>
+      <p class="muted" style="font-size: 9.5pt; line-height: 1.5;">MS Marketing Analytics, Simon Business School. Pricing Policies + Advanced Pricing TA. Advanced Pricing Certified.</p>
+    </div>
+  </div>
+  <div class="cta">
+    <div class="lead">Let's talk - 20 minutes. I will come ready with a sharper read once I see the actual stack.</div>
+    <div class="links">
+      Email: <a href="mailto:arokhith@gmail.com">arokhith@gmail.com</a> &nbsp;&nbsp; Phone: +1 (929) 563-9974<br>
+      <a href="https://www.linkedin.com/in/adhithyarokhith/">LinkedIn</a> &nbsp;&middot;&nbsp; <a href="https://adhi-growth-ai.vercel.app/ref/otter">Portfolio</a> &nbsp;&middot;&nbsp; Resume attached
+    </div>
+  </div>
+  <div class="sig">- Adhithya</div>
+  <div class="ps">PS: If you want me to test these claims, give me 30 minutes of read-only Meta Ads access and I will send back a 1-page audit before our call.</div>
+  <div class="footer"><div>The ask</div><div class="num">05 / 05</div></div>
+</section>
+
+</body></html>

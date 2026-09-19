@@ -1,0 +1,111 @@
+ROLE: Newform (newform.ai) — Growth Marketing Manager
+================================================================
+Tracker entry: #63
+URL: https://jobs.ashbyhq.com/newform/e03073d3-12cb-4b41-b3be-8aecdf3c01b7/application
+
+COMPANY:
+- AI-enabled performance marketing agency / boutique scaling consumer apps
+- Manages ~$100M/yr in ad spend for tech and mobile brands
+- Clients include Binance, Western Union, Acorns, 18birdies, Betr, ElevenLabs
+- Builds WillBot, an AI performance marketing agent that integrates with ad platforms, analyzes creative, and delivers insights
+- Founders: Hamza Alsamraee (CEO, Stanford BS Math + MS&E, ex-creator with 300M+ views, #1 Amazon best-selling author) + Andrew Presser (Co-Founder, Growth)
+- 11-50 employees, NYC-based, founder-led at this stage
+
+LOCATION: New York, NY (on-site)
+SALARY: $100K to $160K base + equity
+SPONSORSHIP: Not stated. Boutique agency. Confirm at recruiter / founder screen.
+YEARS: 3+ (senior level). User is at 4+.
+
+
+HIRING MANAGER (verify on LinkedIn before sending):
+PRIMARY: Hamza Alsamraee — Co-Founder & CEO, Newform
+LinkedIn: search "Hamza Alsamraee Newform" (verify; common handle is /in/hamza-alsamraee/)
+Email: hamza@newform.ai (verify; newform.ai email format)
+
+SECONDARY (also founder, growth-side): Andrew Presser — Co-Founder, Growth, Newform
+LinkedIn: search "Andrew Presser Newform"
+Email: andrew@newform.ai (verify; newform.ai email format)
+
+At 11-50 employees with founder-led hiring on Ashby, both founders are likely reading inbound. Andrew is the more direct match (Co-Founder, Growth).
+
+RECRUITER:
+TBD via Ashby application portal. At this stage, Ashby submissions go straight to founders. No dedicated recruiter is listed publicly. After applying, search LinkedIn for "Newform Talent" or "Newform Recruiter" before doing a second touch.
+
+ATTACHMENT FOR ALL EMAILS:
+- output/Adhithya_Rokhith_Newform_GrowthMktgMgr.pdf (CV)
+- cover-letters/Adhithya_Rokhith_Newform_GrowthMktgMgr_CL.pdf (Cover letter)
+
+
+----- HM LINKEDIN NOTE (Hamza Alsamraee, CEO) -----
+Hi Hamza, just applied for the Growth Marketing Manager role. Closest analog: ran an 8-client B2B SaaS portfolio at Pixis with per-client monthly budgets of $15K-$90K and an 8-person team across creative + account + platform. Plus Plug Power full paid stack rebuild (-25% CPA), GenY 16x ROAS D2C consumer, and SwipeHire shipped solo on Python + OpenAI API + React (4 Claude certs). Worth 15 min?
+
+
+----- HM EMAIL (Hamza Alsamraee, CEO) -----
+Subject: Growth Marketing Manager — agency-side multi-client + AI-agent stack alignment
+
+Hi Hamza,
+
+Just submitted for the Growth Marketing Manager role.
+
+Agency-side performance marketing for consumer apps breaks at one specific seam: the gap between the creative refresh cadence and the channel diagnostics. Most teams have respectable ROAS in aggregate, a creative team shipping variants, and a platform specialist tweaking bids, and none of those three feedback loops are actually closed against each other. The agencies that win at $100M-of-spend scale are the ones with a per-client operating cadence where creative-fatigue diagnostics drive the next test, not the dashboard's blended numbers.
+
+I have run that operating cadence at Pixis. 8-client B2B SaaS portfolio with per-client monthly media budgets ranging $15K to $90K. 8-person team across creative, account management, and platform specialists. Weekly client QBRs presenting ROI, iROAS, and roadmap recommendations to CFOs and growth leads. Replaced two underperforming channels mid-quarter when KPIs slipped. Cut churn 50% via per-client renewal-aligned playbooks documented in writing. Validated 3x ROAS lift for a fashion D2C partner via holdout incrementality testing. The shape of that book is the shape of Newform's account portfolio.
+
+iOS app paid UA is direct, not transferable. I ran it via Appsflyer and Adjust at Pixis as part of the 8-client book, with SKAN / post-IDFA discipline on which conversion events to trust. On Plug Power I rebuilt the full paid stack on Google, Meta, LinkedIn, and Adobe-driven programmatic. UTM spec from scratch, GTM containers rebuilt, lead routing validated through Salesforce campaign attribution. CPA dropped 25%, conversion went up 20%.
+
+On the AI-agent side, unusually well-aligned with WillBot. SwipeHire shipped solo on Python + OpenAI API + React. 4 Anthropic Claude certifications come from running prompt-based iteration as my actual workflow. At Pixis I trained 8 enterprise marketers on AI bidding tools.
+
+NYC works. CV + CL attached. Portfolio: https://adhi-growth-ai.vercel.app/ref/newform
+
+15 minutes next week?
+
+Adhithya | Boston, MA | (929) 563-9974
+
+
+----- HM LINKEDIN NOTE (Andrew Presser, Co-Founder, Growth) -----
+Hi Andrew, applied for Growth Marketing Manager. Closest shape: 8-client portfolio at Pixis with per-client monthly budgets of $15K-$90K, 8-person team across creative + account + platform, weekly QBRs, holdout incrementality validating 3x ROAS lift. Plus Plug Power full paid stack (-25% CPA, +20% conversion) and SwipeHire on OpenAI API. Open to 15 min?
+
+
+----- HM EMAIL (Andrew Presser, Co-Founder, Growth) -----
+Subject: Growth Marketing Manager — agency-side operator who has run the 8-client book
+
+Hi Andrew,
+
+Just applied for the Growth Marketing Manager role.
+
+Pixis is the closest in-shape analog in my CV to Newform. 8-client B2B SaaS portfolio. Per-client monthly media budgets ranging $15K to $90K. 8-person team across creative, account management, and platform specialists. Weekly client QBRs presenting ROI, iROAS, and roadmap recommendations to CFOs. Trained 8 enterprise marketers on AI bidding tools. Replaced two underperforming channels mid-quarter when KPIs slipped. Cut client churn 50% via per-client renewal-aligned playbooks documented in writing.
+
+The diagnostic muscle: validated 3x ROAS lift for a fashion D2C partner via holdout incrementality testing, then reconciled the lift against creative-variant performance that aggregate ROAS would have hidden. Two clients on the portfolio looked fine in aggregate but the top 5% of sessions were carrying the average. Refresh creative, re-key channel mix, both retained.
+
+Adjacent muscle: Plug Power full paid stack rebuild (Google, Meta, LinkedIn, Adobe-driven programmatic, -25% CPA, +20% conversion) plus closed-loop attribution rebuilt across Salesforce + Adobe + GA4 + GTM. GenY 16x ROAS D2C consumer via Meta catalog and Shopping rebuild. SwipeHire shipped solo on Python + OpenAI API + React with 4 Anthropic Claude certifications behind it. WillBot stack alignment is direct.
+
+NYC works. CV + CL attached. Portfolio: https://adhi-growth-ai.vercel.app/ref/newform
+
+15 minutes this week?
+
+Adhithya | (929) 563-9974
+
+
+----- RECRUITER LINKEDIN NOTE (when identified) -----
+Hi {Recruiter}, applied for Growth Marketing Manager at Newform. 4+ yrs performance marketing, agency-side at Pixis (8-client B2B SaaS portfolio, per-client monthly budgets of $15K-$90K, 8-person team across creative + account + platform), Plug Power full paid stack (-25% CPA), GenY 16x ROAS D2C, SwipeHire on OpenAI API, 4 Claude certs. NYC works. Available for a screen.
+
+
+----- RECRUITER EMAIL (when identified) -----
+Subject: Application — Growth Marketing Manager (Newform)
+
+Hi {Recruiter},
+
+Submitted for the Growth Marketing Manager role earlier today.
+
+Quick fit summary on substance:
+- 4+ years performance marketing across agency-side (Pixis: 8-client B2B SaaS portfolio, per-client monthly media budgets of $15K-$90K, 8-person team across creative + account + platform, weekly client QBRs, AI bidding training, 3x ROAS lift validated via holdout incrementality), in-house demand engine (Plug Power: full paid stack on Google + Meta + LinkedIn + Adobe-driven programmatic, -25% CPA, +20% conversion, closed-loop attribution rebuilt on Salesforce + Adobe + GA4 + GTM), and D2C consumer (GenY: 16x ROAS via Meta catalog + Shopping rebuild).
+- AI-agent stack alignment with WillBot: SwipeHire shipped solo on Python + OpenAI API + React (50+ users, +25% activation, 8+ A/B tests). 4 Anthropic Claude certifications.
+- iOS app paid UA: direct experience via Appsflyer + Adjust at Pixis, with SKAN / post-IDFA conversion-event discipline. Apple Search Ads ramp on top of the existing tool fluency.
+
+NYC works. Boston-based today, open to relocating.
+
+CV + CL attached. Portfolio: https://adhi-growth-ai.vercel.app/ref/newform
+
+Available for a screen this week.
+
+Adhithya | (929) 563-9974

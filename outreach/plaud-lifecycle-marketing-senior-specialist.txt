@@ -1,0 +1,80 @@
+ROLE: Plaud Inc. - Lifecycle Marketing Senior Specialist
+================================================================
+Tracker entry: #68
+URL: https://jobright.ai/jobs/info/b2b_1777427132848_489
+
+COMPANY:
+- Plaud Inc. AI-powered voice recorders for note-taking. 1M+ users globally.
+- Founded 2021. ~201-500 employees. Growth stage.
+- Funding: jobright lists $5M (likely outdated; Plaud has raised $20M+ Series A from Hongshan/Sequoia China per public coverage; confirm at recruiter screen).
+- Product: AI voice recorder with note-taking + summary + post-meeting workflow (positioned similarly to Otter, Granola, Cluely category)
+
+LOCATION: San Francisco, CA. Hybrid. (Relo from Boston needed; Console #67-shape friction.)
+SALARY: $120K - $170K base. Above $90K-$130K target band. Ask $150K base, floor $130K.
+SPONSORSHIP: "H1B Sponsored" tag on jobright. Track record of sponsorship; "not guaranteed for this specific role" standard caveat. Better signal than most. Confirm at recruiter screen.
+YEARS: 3-5 yrs lifecycle / CRM / growth marketing. User is at 4+, fits cleanly mid-band.
+
+
+PRIMARY CONTACT (verified via LinkedIn post):
+**Steven A.** - Hiring manager at Plaud (the role reports to him).
+LinkedIn: search "Steven A. Plaud" - posted publicly about hiring 3 roles including this one.
+Public post excerpt: "I'm hiring 3 roles at Plaud right now. I am looking for builders, not box-tickers. Think partner in crime energy. If you see a messy lifecycle or quiet community and immediately want to fix it, we'll get along very well... You'll like this if you think in journeys, move fast, and care about impact. You won't if you need perfect briefs or prefer maintaining. We're early (and also, growing rapidly). Your fingerprints will be everywhere."
+
+Steven is hiring three parallel seats (Senior Lifecycle Marketing Specialist US + SG, Senior Community Operations Specialist US). Builder energy + scrappy + journey-thinking + ship-fast.
+
+RECRUITER:
+TBD. After applying via Jobright/LinkedIn, search LinkedIn for "Plaud Talent" / "Plaud Recruiter" / "Plaud People" filtered to SF.
+
+ATTACHMENT FOR ALL EMAILS:
+- output/Adhithya_Rokhith_Plaud_LifecycleMktg.pdf (CV)
+- cover-letters/Adhithya_Rokhith_Plaud_LifecycleMktg_CL.pdf (Cover letter)
+- output/Plaud_Lifecycle_Marketing_Pitch_Deck_Adhithya.pdf (6-slide pitch deck)
+
+
+----- LINKEDIN DM TO STEVEN (300-char limit) -----
+Hi Steven, saw your post and applied for the Senior Lifecycle Marketing Specialist (US) seat. The "messy lifecycle, immediately want to fix it" line is the energy. SwipeHire: solo-shipped consumer AI product on Python + OpenAI API + React, +25% activation via 8 A/B tests. Pitch deck ready.
+
+
+----- EMAIL TO STEVEN (Hiring Manager) -----
+Subject: Re: your "builders not box-tickers" post - Senior Lifecycle Marketing Specialist (US)
+
+Hi Steven,
+
+Saw your post and applied for the Senior Lifecycle Marketing Specialist (US) seat. The "messy lifecycle, immediately want to fix it" line is exactly the energy I run on.
+
+The builder proof: I shipped SwipeHire end-to-end on Python + OpenAI API + React. ICP defined from a 30-conversation user discovery. GA4 + GTM + Amplitude cohort analysis instrumented from day one. 8 A/B tests on activation flows, +25% activation, 50+ users. Solo, full stack. Same product shape as Plaud at smaller scale: consumer AI utility, post-install drop-off, journey that has to teach the user what their data is good for before they keep using it.
+
+B2B half of the mandate: Plug Power HubSpot drip + MQL nurture + account-level segmentation architected from zero. Pixis 8-client B2B SaaS book with renewal-aligned playbooks that cut churn 50%. The B2C + B2B mix the JD calls out is the rare shape of my CV.
+
+Four Anthropic Claude certifications + a Claude draft-and-critique pipeline I productized at 8x copy velocity. Six-slide pitch deck attached.
+
+SF works. 15 minutes when your cadence allows.
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com | (929) 563-9974
+Portfolio: https://adhi-growth-ai.vercel.app/ref/plaud
+
+
+----- RECRUITER LINKEDIN NOTE (when identified) -----
+Hi {Recruiter}, applied for Lifecycle Marketing Senior Specialist at Plaud. 4+ yrs across B2C (SwipeHire AI product solo, +25% activation, 8 A/B tests, Amplitude cohort analysis) and B2B (Plug Power HubSpot lifecycle, Pixis renewal-aligned playbooks cutting churn 50%). 4 Claude certs. SF works. Available for a screen.
+
+
+----- RECRUITER EMAIL (when identified) -----
+Subject: Application - Lifecycle Marketing Senior Specialist (Plaud)
+
+Hi {Recruiter},
+
+Submitted for the Lifecycle Marketing Senior Specialist role earlier today.
+
+Quick fit summary on substance:
+- 4+ years lifecycle / CRM / growth across B2C (SwipeHire shipped solo on Python + OpenAI API + React: 50+ users, +25% activation, 8 A/B tests, GA4 + GTM + Amplitude cohort analysis from day one - direct AI-product analog to Plaud) and B2B (Plug Power HubSpot drip + MQL nurture + account-level segmentation; Pixis 8-client B2B SaaS book with renewal-aligned playbooks cutting churn 50%).
+- The B2C + B2B combination the JD calls out explicitly is the rare shape of my CV.
+- 4 Anthropic Claude certifications + event-driven journey architecture shipped on HubSpot, Adobe Audience Manager, and custom Python instrumentation.
+
+SF works. Boston-based today, open to relocating.
+
+CV + CL attached. Portfolio: https://adhi-growth-ai.vercel.app/ref/plaud
+
+Available for a screen this week.
+
+Adhithya | (929) 563-9974

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Marketer Pitch Deck | Tavus | Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  @page { size: 11in 8.5in; margin: 0; }
+  body { font-family: Calibri, Arial, Helvetica, sans-serif; font-size: 10pt; line-height: 1.35; color: #111; background: #fff; }
+  .slide { width: 11in; height: 8.5in; padding: 0.4in 0.55in; page-break-after: always; overflow: hidden; position: relative; }
+  .slide:last-child { page-break-after: auto; }
+  .slide-num { position: absolute; top: 0.3in; right: 0.55in; font-size: 8pt; color: #999; letter-spacing: 0.6pt; text-transform: uppercase; }
+  .slide-footer { position: absolute; bottom: 0.25in; left: 0.55in; right: 0.55in; border-top: 0.5pt solid #ddd; padding-top: 6pt; font-size: 7.5pt; color: #888; display: flex; justify-content: space-between; }
+  .accent { color: #0891b2; }
+
+  .title-slide { display: grid; grid-template-columns: 7fr 4fr; gap: 30pt; align-items: center; height: 100%; }
+  .title-left .label { font-size: 9pt; letter-spacing: 1.5pt; color: #0891b2; text-transform: uppercase; font-weight: 700; margin-bottom: 14pt; }
+  .title-left h1 { font-size: 40pt; font-weight: 800; line-height: 1.02; margin-bottom: 14pt; color: #0a0a0a; }
+  .title-left h1 .accent { color: #0891b2; }
+  .title-left .sub { font-size: 15pt; color: #444; font-weight: 400; margin-bottom: 22pt; line-height: 1.3; }
+  .title-left .name { font-size: 11pt; color: #222; font-weight: 600; }
+  .title-left .meta { margin-top: 4pt; font-size: 9pt; color: #666; }
+  .title-right { display: flex; flex-direction: column; gap: 10pt; }
+  .stat-card { background: #ecfeff; border: 0.5pt solid #a5f3fc; border-radius: 6pt; padding: 16pt 14pt; }
+  .stat-card .stat-num { font-size: 32pt; font-weight: 800; color: #0891b2; line-height: 1; }
+  .stat-card .stat-lbl { font-size: 8.5pt; color: #555; margin-top: 4pt; text-transform: uppercase; letter-spacing: 0.4pt; font-weight: 600; }
+  .stat-card .stat-sub { font-size: 9pt; color: #333; margin-top: 4pt; line-height: 1.3; }
+
+  .slide h2.section-title { font-size: 22pt; font-weight: 800; color: #0a0a0a; line-height: 1.1; margin-bottom: 4pt; }
+  .slide .jd-quote { font-size: 10pt; color: #555; font-style: italic; border-left: 3pt solid #0891b2; padding-left: 9pt; margin-bottom: 14pt; max-width: 9.5in; line-height: 1.4; }
+
+  .kpi-row { display: flex; gap: 10pt; margin-bottom: 14pt; }
+  .kpi-tile { flex: 1; background: linear-gradient(135deg, #ecfeff 0%, #cffafe 100%); border-radius: 5pt; padding: 14pt; border: 0.5pt solid #a5f3fc; }
+  .kpi-tile .kpi-label { font-size: 7.5pt; color: #777; text-transform: uppercase; letter-spacing: 0.5pt; margin-bottom: 4pt; font-weight: 600; }
+  .kpi-tile .kpi-value { font-size: 22pt; font-weight: 800; color: #0891b2; line-height: 1.05; }
+  .kpi-tile .kpi-sub { font-size: 9pt; color: #444; margin-top: 4pt; line-height: 1.32; }
+
+  table.match { width: 100%; border-collapse: collapse; font-size: 9.5pt; margin-top: 6pt; }
+  table.match th { background: #0891b2; color: #fff; padding: 7pt 9pt; text-align: left; font-size: 8.5pt; letter-spacing: 0.5pt; text-transform: uppercase; font-weight: 700; }
+  table.match td { padding: 7pt 9pt; border-bottom: 0.4pt solid #e5e7eb; vertical-align: top; }
+  table.match tr:nth-child(even) td { background: #fafafa; }
+  table.match .you { font-weight: 700; color: #0e7490; }
+
+  .two-col { display: flex; gap: 18pt; margin-top: 6pt; }
+  .col-card { flex: 1; background: #ecfeff; border-radius: 5pt; padding: 14pt; border: 0.5pt solid #a5f3fc; }
+  .col-card h3 { font-size: 12pt; color: #0e7490; font-weight: 700; margin-bottom: 7pt; border-bottom: 1pt solid #a5f3fc; padding-bottom: 5pt; }
+  .col-card p, .col-card li { font-size: 9.5pt; line-height: 1.42; color: #222; }
+  .col-card ul { padding-left: 16pt; margin-top: 5pt; }
+  .col-card li { margin-bottom: 4pt; }
+  .col-card .quote { background: #fff; padding: 9pt 11pt; border-left: 2.5pt solid #0891b2; font-style: italic; font-size: 9.5pt; line-height: 1.4; margin-top: 6pt; }
+
+  .num-box { display: flex; align-items: flex-start; gap: 11pt; margin-bottom: 10pt; }
+  .num-box .n { width: 30pt; height: 30pt; border-radius: 50%; background: linear-gradient(135deg, #0891b2 0%, #6366f1 100%); color: #fff; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 13pt; flex-shrink: 0; }
+  .num-box .t { font-size: 10pt; line-height: 1.4; }
+  .num-box .t strong { color: #0e7490; }
+
+  .pill-row { display: flex; gap: 7pt; flex-wrap: wrap; margin-top: 8pt; }
+  .pill { background: #cffafe; color: #0e7490; padding: 4pt 10pt; border-radius: 12pt; font-size: 8.5pt; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide title-slide">
+  <div class="slide-num">01 / 04</div>
+  <div class="title-left">
+    <div class="label">Marketer (Brand, Product, Storytelling) Pitch Deck</div>
+    <h1>Translating <span class="accent">technical product</span><br>into <span class="accent">VP-ready narrative</span><br>is what I do.</h1>
+    <div class="sub">18 months at Sensata translating sensor architecture for technical, skeptical, deeply conservative buyers. Plus I have shipped my own AI product solo.</div>
+    <div class="name">Adhithya Rokhith Bhaskar &middot; Boston, MA &middot; arokhith@gmail.com</div>
+    <div class="meta">Prepared for Hiring Team, Tavus &middot; 2026-05-13</div>
+  </div>
+  <div class="title-right">
+    <div class="stat-card"><div class="stat-num">30+</div><div class="stat-lbl">Customer Interviews</div><div class="stat-sub">Sensata OEMs + distributors, EMEA+US, drove product roadmap</div></div>
+    <div class="stat-card"><div class="stat-num">+30%</div><div class="stat-lbl">Win Rate Lift</div><div class="stat-sub">Sales enablement library used by 50+ reps</div></div>
+    <div class="stat-card"><div class="stat-num">$2M+</div><div class="stat-lbl">First-Year Revenue</div><div class="stat-sub">New sensing product GTM across NA + EU</div></div>
+  </div>
+  <div class="slide-footer"><span>Adhithya Rokhith Bhaskar &middot; Marketer Pitch Deck</span><span>Tavus</span></div>
+</div>
+
+<div class="slide">
+  <div class="slide-num">02 / 04</div>
+  <h2 class="section-title">Why Sensata is the closest analog to Tavus marketing</h2>
+  <div class="jd-quote">From the Tavus JD: "You will be the person who figures out how to communicate what is being built to an industry that is skeptical of AI, fluent in regulatory science, and deeply conservative about the tools it trusts. That is a hard problem."</div>
+
+  <div class="kpi-row">
+    <div class="kpi-tile"><div class="kpi-label">Audience Match</div><div class="kpi-value">Tech VP/C-Level</div><div class="kpi-sub">Sensata: I translated capacitive, pressure, MEMS sensor architecture into VP and C-level narratives for OEMs and distributors who are technically deep and skeptical of new tooling.</div></div>
+    <div class="kpi-tile"><div class="kpi-label">Cadence Match</div><div class="kpi-value">Weekly Ship</div><div class="kpi-sub">SwipeHire: shipped weekly product updates with launch posts, demos, changelog. Lifted activation +25% across 8+ A/B tests.</div></div>
+    <div class="kpi-tile"><div class="kpi-label">AI Fluency Match</div><div class="kpi-value">4 Claude Certs</div><div class="kpi-sub">Founded an AI tool on Python + OpenAI API + React. ElevenLabs / Lovable / Tavus category fluent.</div></div>
+  </div>
+
+  <table class="match">
+    <thead><tr><th>Tavus JD Profile</th><th>Direct Evidence</th></tr></thead>
+    <tbody>
+      <tr><td>Narrative + creative focus (compelling messaging from complex inputs)</td><td class="you">Sensata: translated sensor architecture into sales enablement library used by 50+ reps; lifted win rates 30%.</td></tr>
+      <tr><td>Distribution + growth focus (reach through content, launches, media)</td><td class="you">Plug Power: SEO + AEO/GEO + paid + email + 3 conferences + 6 webinars. -25% CPA, +20% conversion.</td></tr>
+      <tr><td>Multi-modal content (written, video, demos, launches)</td><td class="you">Sensata: product launch content (hero pages, demos, case studies, announcements). SwipeHire: founder-led LinkedIn + X content, 12+ posts.</td></tr>
+      <tr><td>Frequent product launches (weekly cadence)</td><td class="you">SwipeHire: shipped weekly. Sensata: ran GTM for new product lines across NA + EU, $2M+ first-year revenue.</td></tr>
+      <tr><td>Brand from early stage, position in emerging category</td><td class="you">Pixis: trained 8 enterprise teams on a new AI marketing platform category. SwipeHire: positioned a brand-new AI product from zero.</td></tr>
+    </tbody>
+  </table>
+
+  <div class="slide-footer"><span>Adhithya Rokhith Bhaskar &middot; Marketer Pitch Deck</span><span>Tavus</span></div>
+</div>
+
+<div class="slide">
+  <div class="slide-num">03 / 04</div>
+  <h2 class="section-title">The Sensata deep dive (closest narrative analog to Tavus)</h2>
+  <div class="jd-quote">Tavus sells AI-as-human-interface to teams skeptical of AI. Sensata sells precision sensors to OEMs skeptical of new tooling. Same shape, different category.</div>
+
+  <div class="two-col">
+    <div class="col-card">
+      <h3>The narrative I built for skeptical buyers</h3>
+      <ul>
+        <li><strong>30+ customer interviews</strong> across EMEA and US OEMs and distributors. Output: positioning that lifted CSAT +22% and feature adoption +18% across 50K+ devices</li>
+        <li><strong>Sales enablement library</strong> used by 50+ reps. Translated dense product architecture into stakeholder-ready decks, talk tracks, and objection-handling materials. Lifted win rates 30%</li>
+        <li><strong>GTM for new product lines</strong> across NA and EU: $2M+ first-year revenue via positioning, channel strategy, content (product announcements, case studies, demos)</li>
+        <li><strong>Pricing strategy</strong> on SQL + Power BI + Python models: +12% YoY revenue, +8% market share - because pricing narrative IS positioning for B2B</li>
+      </ul>
+      <div class="quote">"The Sensata buyer is exactly the buyer in your JD - technically fluent, conservative about new tools, and only convinced by narrative that respects their domain depth."</div>
+    </div>
+    <div class="col-card">
+      <h3>What this gets you on day 30 at Tavus</h3>
+      <ul>
+        <li><strong>An audit of current Tavus narrative</strong> against the technical buyer persona (CTO / Head of Engineering / Head of Product at AI-native cos)</li>
+        <li><strong>3-5 case studies</strong> drafted from existing customers - translating the conversational video interface into VP-ready outcomes</li>
+        <li><strong>Weekly product launch playbook</strong>: announcement post + demo + case study + changelog, all in 5 days</li>
+        <li><strong>SEO + AEO/GEO program</strong>: so Tavus shows up when AI buyers query ChatGPT/Claude about "AI agents that talk to customers"</li>
+      </ul>
+      <div class="pill-row">
+        <span class="pill">Translates tech</span><span class="pill">Weekly cadence</span><span class="pill">Multi-modal content</span><span class="pill">Founder-direct</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="slide-footer"><span>Adhithya Rokhith Bhaskar &middot; Marketer Pitch Deck</span><span>Tavus</span></div>
+</div>
+
+<div class="slide">
+  <div class="slide-num">04 / 04</div>
+  <h2 class="section-title">My 30 / 60 / 90 at Tavus</h2>
+  <div class="jd-quote">Reporting directly to the founder, owning narrative end-to-end, frequent product launches. Here is how I would ramp.</div>
+
+  <div class="two-col">
+    <div style="flex: 1.1;">
+      <div class="num-box"><div class="n">30</div><div class="t"><strong>Days 1-30:</strong> Sit with founder + product. Read 6 months of customer conversations. Map 3 buyer archetypes (developer, enterprise PM, founder). Audit existing brand assets. Ship one strong landing-page redesign for the highest-traffic ICP.</div></div>
+      <div class="num-box"><div class="n">60</div><div class="t"><strong>Days 31-60:</strong> Run a weekly launch motion: one product release post, one case study, one demo video. Get on stage at one AI conference. Submit speaking proposals to 3 more.</div></div>
+      <div class="num-box"><div class="n">90</div><div class="t"><strong>Days 61-90:</strong> Build a category narrative around "conversational video as primary interface." Ship a flagship piece (research-grounded long-form). Have 2 customer-led case studies live. Start informing product priorities from buyer friction.</div></div>
+    </div>
+    <div style="flex: 1;">
+      <div class="col-card" style="background: linear-gradient(135deg, #ecfeff 0%, #ede9fe 100%);">
+        <h3>The AI-builder angle</h3>
+        <p>I founded <strong>SwipeHire</strong> on <strong>Python + OpenAI API + React</strong> (<a href="https://app.swipehire.io">app.swipehire.io</a>). 50+ early users, +25% activation across 8+ A/B tests, zero paid budget. So when Tavus ships a new model capability, I can explain it to a developer audience because I have been there.</p>
+        <p style="margin-top: 8pt;">Plus 4 Anthropic Claude certifications (Claude 101, Claude Code 101, Claude Cowork, Building with Claude API). I do not just write about AI - I have shipped it.</p>
+      </div>
+      <div style="margin-top: 14pt; background: #fff; padding: 12pt; border-radius: 5pt; border: 0.5pt solid #a5f3fc;">
+        <h3 style="font-size: 11pt; color: #0e7490; font-weight: 700; margin-bottom: 7pt;">Logistics</h3>
+        <div class="pill-row" style="margin-top: 4pt;">
+          <span class="pill">Boston-based</span>
+          <span class="pill">Relo to SF</span>
+          <span class="pill">$120-150K base</span>
+          <span class="pill">Reports to founder</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="slide-footer"><span>Adhithya Rokhith Bhaskar &middot; Marketer Pitch Deck</span><span>Tavus</span></div>
+</div>
+
+</body>
+</html>

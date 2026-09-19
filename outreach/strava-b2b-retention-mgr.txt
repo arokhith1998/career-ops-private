@@ -1,0 +1,77 @@
+ROLE: Strava — B2B Manager, Growth Marketing, Retention (Ashby caebdd54)
+=========================================================================
+Tracker entry: #52
+URL: https://jobs.ashbyhq.com/Strava/caebdd54-dd4d-49a2-a835-476e9746c2fb
+
+HIRING MANAGER:
+TBD. The HM is likely the Senior Manager or Director of Growth Marketing at Strava (the JD's Senior Manager Growth Retention companion role posts at $177K-$188K, and the HM may be one level above).
+
+Senior marketing leadership for context:
+- Louisa Wee — CMO, Strava (joined July 2025; ran retention/pricing/monetization at eHarmony)
+  LinkedIn: https://www.linkedin.com/in/louisawee/
+
+Adjacent contacts (search LinkedIn before sending):
+- Lauren Pica — Growth Marketing Leader at Strava
+  LinkedIn: https://www.linkedin.com/in/laurenpica/
+- Casey Temanson — Strava
+  LinkedIn: https://www.linkedin.com/in/caseytemanson/
+- Emily Lee — Strava
+  LinkedIn: https://www.linkedin.com/in/emilycclee/
+
+Search LinkedIn for:
+- "Strava" + "Director Growth Marketing"
+- "Strava" + "Head of Retention"
+- "Strava" + "Growth Marketing" + "Senior Manager"
+
+RECRUITER:
+TBD via Strava's Ashby portal.
+
+
+----- HM LINKEDIN NOTE -----
+Hi {First}, applying for B2B Manager, Growth Marketing, Retention. Cut churn 50% on an 8-client B2B SaaS portfolio at Pixis ($1.4M budget, 8-person team). Per-client renewal-aligned playbooks documented. SwipeHire 8 A/B tests + cohort. SF works. 15 min?
+
+
+----- HM EMAIL -----
+Subject: B2B Retention Manager — every test has a renewal consequence
+
+Hi {First},
+
+Applying for the B2B Manager, Growth Marketing, Retention role.
+
+B2B retention is the part of growth marketing where every test has a renewal consequence attached. Activation experiments either build the early habit that survives month three or they decorate the funnel and make the dashboard look better while churn keeps creeping. The ones that stick are usually instrumented before the test ships and documented in a per-account playbook so the team can repeat the wins without rediscovering them.
+
+I have done this work at Pixis. Owned retention across an 8-client B2B SaaS portfolio on a $1.4M budget. Replaced two underperforming channels mid-quarter when KPIs slipped. Rebuilt creative when ROAS plateaued. Wrote per-client renewal-aligned playbooks. Churn dropped 50%. The discipline that scaled was documentation, not heroics. I led an 8-person team through weekly QBRs that paired ROI with the next two A/B tests in the queue.
+
+On the lifecycle and email side, Plug Power MarTech rebuild on Salesforce, Adobe Analytics, GA4, and GTM. Email + paid integrated. -25% CPA, +20% conversion.
+
+SwipeHire is the activation-and-retention proof. Built solo on Python, React, and OpenAI API with GA4 and GTM event tracking from day one. 8 A/B tests on activation and onboarding. +25% activation, 50+ users.
+
+SF works.
+
+CV and portfolio: https://adhi-growth.vercel.app/ref/strava-b2b-retention
+
+15 min next week?
+
+Adhithya | Boston, MA | (929) 563-9974
+
+
+----- RECRUITER LINKEDIN NOTE -----
+Hi {Recruiter}, applied for B2B Manager, Growth Marketing, Retention. Pixis 8-client B2B SaaS retention (50% churn cut, 8-person team, $1.4M) + Plug Power lifecycle + SwipeHire activation cohort. SF works. Available for a screen.
+
+
+----- RECRUITER EMAIL -----
+Subject: Application — B2B Manager, Growth Marketing, Retention
+
+Hi {Recruiter},
+
+Submitted for the Strava B2B Retention Manager role.
+
+Direct fit: Pixis 8-client B2B SaaS portfolio retention (50% churn cut on $1.4M, 8-person team, weekly QBRs, per-client playbooks). Plug Power email + paid lifecycle on Salesforce + Adobe + GA4 + GTM (-25% CPA). SwipeHire activation funnel with 8 A/B tests and weekly retention cohort, +25% activation.
+
+4+ years. MS Marketing Analytics (Simon). SF works.
+
+Resume: https://adhi-growth.vercel.app/ref/strava-b2b-retention
+
+Available for a screen this week.
+
+Adhithya | (929) 563-9974

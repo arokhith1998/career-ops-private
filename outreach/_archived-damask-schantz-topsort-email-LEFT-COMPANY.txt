@@ -1,0 +1,35 @@
+TO: Damask Schantz -- Growth Marketing Leader @ Topsort
+PLATFORM: Email (work email not available — try damask@topsort.com following Topsort's "first-name@" pattern, or send via LinkedIn DM)
+LINKEDIN (preferred): https://www.linkedin.com/in/damaskschantz/
+ROLE: Growth Marketer (Boston, Somerville)
+---
+
+Subject: Growth Marketer app -- the unusual angle I bring to adtech-for-marketplaces
+
+Hi Damask,
+
+I applied for the Growth Marketer role and wanted to share something that won't come through on a resume: an unusual angle I bring to growth at adtech-for-marketplaces.
+
+Growth at this category is a buyer-education problem before it's a channel problem. The marketplace VP of Monetization who'd buy Topsort doesn't Google "retail media platform" at 11pm. She reads a Decibel-style teardown a peer forwarded her, watches a founder talk at IRCE, and takes a meeting six months later because someone she trusts said it worked. Performance marketing on cold audiences is the wrong instinct here -- the lever is compressing the education cycle, making the case once in a format that travels through that buyer's network without you in the room.
+
+I'm useful for this in a way that's unusual: I've run retail-media campaigns from the buyer side, and I've lived on the other side of the platform-sale conversation.
+
+At Pixis I spent 14 months running campaigns on an AI adtech B2B SaaS platform -- $1.4M budget across global D2C and e-commerce clients, 8-person team. Retail media was core to the mix for those D2C clients. I'm Amazon Retail Ads + Amazon Sponsored Ads + Criteo certified because I actually ran them. I know what makes a marketplace operator nod (concrete ROAS lifts on a comparable account, holdout incrementality math, clear story on creative iteration). I know what makes them roll their eyes (hand-wavy "AI" claims, dashboards that show effort rather than outcome, case studies clearly written by someone who's never run a campaign). That perspective doesn't come from reading about adtech -- it comes from living inside both sides of it.
+
+Two other things that map to your JD:
+
+- Founder-mode is muscle memory. SwipeHire from zero-to-one this year: instrumented funnel before launch (GA4, GTM, event tracking, cohort dashboards), 8+ A/B tests on activation, +25% activation. The hardest part wasn't shipping -- it was deciding what to ignore when there's no PRD inbox.
+
+- "Growth infrastructure through metrics definition" is the literal job I did at Plug Power. Stood up Salesforce + Adobe Analytics + GA + GTM from scratch and got sales and marketing to agree on what a "lead" actually meant before writing a single rule. -25% CPA from clean definitions, not creative.
+
+First 30 days for me would be deep on Topsort's positioning vs Criteo Commerce Yield, Mirakl Ads, and Moloco -- I want to ramp by sitting in on prospect calls before I write copy.
+
+Boston-based, Somerville onsite works.
+
+Resume + cover letter + portfolio: https://adhithyabhaskar.vercel.app/ref/topsort
+
+Would welcome 15-20 min to hear what the team's biggest funnel-bottleneck conversation looks like right now.
+
+Best,
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com | (929) 563-9974

@@ -1,0 +1,28 @@
+TO: [Recruiter Name], Joveo Talent Acquisition
+PLATFORM: Email
+ROLE: Growth Manager (Remote)
+---
+
+Subject: Application, Growth Manager (Remote)
+
+Hi [Recruiter Name],
+
+Just applied for the Growth Manager role. Quick fit:
+
+- SwipeHire (founder): production AI job-matching platform on OpenAI API + React. Solo, six weeks, 50+ users, 8+ A/B tests, +25% activation. Direct domain adjacency to Joveo's core product.
+- Pixis: 8-client AI adtech SaaS book ($1.4M shared budget across Google, Meta, programmatic). 3x ROAS fashion in 30 days, -50% churn. AI-platform growth muscle.
+- Plug Power: rebuilt MarTech from scratch (Salesforce + HubSpot + Adobe + GA + GTM), closed-loop attribution. -25% CPA, +20% conversion. SEO, paid, lifecycle, A/B testing hands-on.
+- Sensata: SQL + GA4 on 50K+ devices, Power BI on $627M pipeline, 100+ feature Agile backlog across product/eng/data teams.
+- MS Marketing Analytics (Simon, Rochester) + BE Mech (BITS Pilani) + 4 Anthropic Claude certs.
+
+JD fit: Growth experimentation end-to-end (acquisition + activation + retention), SQL + GA4 + A/B rigor, PLG + marketing-led, cross-functional with product/eng/data. That is my active stack.
+
+Boston-based, fully remote is ideal. Available to screen this week. Comp target: $135K+ base.
+
+One ask: can you confirm Joveo's H-1B sponsorship posture for marketing roles before we go deep?
+
+Resume, cover letter, portfolio: https://adhithyabhaskar.vercel.app/ref/joveo
+
+Thanks,
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com | (929) 563-9974

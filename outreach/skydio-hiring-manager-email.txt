@@ -1,0 +1,34 @@
+TO: [Hiring Manager Name] -- Lead/Director, GTM Enablement (Skydio)
+PLATFORM: Email
+ROLE: GTM Enablement Associate -- San Mateo (3 days hybrid)
+---
+
+Subject: GTM Enablement app -- why hardware enablement is a different muscle
+
+Hi [Name],
+
+I applied for the GTM Enablement Associate role and wanted to share a POV on the work that I think differentiates this role from generic SaaS enablement -- and is what caught my eye about it.
+
+Hardware GTM enablement is structurally different from SaaS enablement, and most orgs miss it. SaaS reps win by being good at the demo. Hardware reps win when the customer's first deploy actually works in the field -- which means enablement has to bridge from sales pitch to first successful mission. The gap between "they signed the order" and "the chief actually flew it on a barricade response" is where deals stall, contracts churn, and reference customers fail to materialize. Good enablement orgs build for that bridge from day one. Bad ones build a battlecard and call it done.
+
+I've done this work for industrial hardware buyers and have the field reps to prove it.
+
+At Sensata I ran enablement for industrial-sensor sales into OEMs, distributors, and engineering buyers. Hardware product, hardware buyer. I did 30+ field interviews with reps and partners to figure out where deals were actually stuck (rarely where Sales said). Then co-built decks, battlecards, and case studies with the people who'd use them -- 50+ reps across NA + EU. Partner win rates went up 30%. Content worked because reps drafted it, and because we measured adoption (read time, share rate, attach rate to closed-won) instead of guessing.
+
+Three other things from your JD that map cleanly:
+
+- Cross-functional program management. 100+ feature backlog in Agile across product/engineering/3 regions at Sensata. Cut TTM 20%. The hard part of enablement coordination isn't the playbook; it's keeping Sales + Partnerships + Marketing aligned on what "ready" means.
+
+- Adoption analytics that change behavior. SQL + GA4 framework on 50K+ devices at Sensata, monthly review cadence with product + eng. +18% adoption. Dashboards leadership doesn't use don't matter -- review cadence is the unlock.
+
+- Founder mode. SwipeHire from zero this year: instrumented funnel before launch, 8+ A/B tests on activation, +25%. Hardest part wasn't shipping; it was deciding what to ignore.
+
+One thing worth knowing: BE in Mechanical Engineering (BITS Pilani). I can read hardware specs and talk with engineers in their language -- not translate it through a marketing filter.
+
+Boston-based, open to relocating to San Mateo. Resume + cover letter + portfolio: https://adhithyabhaskar.vercel.app/ref/skydio
+
+Would welcome 15-20 minutes to hear what the team's biggest first-deploy bottleneck looks like right now -- or if it's a different problem entirely, what it actually is.
+
+Best,
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com | (929) 563-9974

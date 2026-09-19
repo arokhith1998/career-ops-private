@@ -1,0 +1,25 @@
+TO: [Hiring Manager Name], Director / VP, Paid Media COE, Wells Fargo CSBB
+PLATFORM: Email
+ROLE: Paid Media and Advertising Technology Platforms Lead (R-534180), Wilmington DE
+---
+
+Subject: R-534180, advancing an enterprise AdTech stack is 80% adoption, 20% platform selection
+
+Hi [Name],
+
+Advancing an enterprise AdTech stack is 20% platform selection and 80% adoption. Most teams spend months evaluating vendors. Then nobody uses it because Sales was never in the room when the requirements were written. The platform that wins is the one where the people who built it also sold it internally before go-live.
+
+Just applied for the Paid Media and AdTech Platforms Lead role. Quick proof I have done both sides:
+
+- Plug Power: evaluated, selected, and built Salesforce + Adobe Analytics + Adobe Audience Manager + GA + GTM from scratch; trained Sales + Marketing + IT; developed business cases with ROI projections; -25% CPA, +20% conversion
+- Pixis: operated on AI adtech platform managing $1.4M across Google, Meta, programmatic, retail media (Amazon, Criteo); drove platform adoption across 8 clients; 3x ROAS, -50% churn
+- Sensata: drove enterprise adoption of measurement framework across 50K+ devices and 3 regions without direct authority; +18% adoption
+- Amazon Retail Ads + Criteo + SA360 certified
+
+Would love 15 minutes to hear what the current stack looks like and where the biggest adoption gap is.
+
+Resume + portfolio: https://adhithyabhaskar.vercel.app/ref/wells-fargo
+
+Best,
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com | (929) 563-9974

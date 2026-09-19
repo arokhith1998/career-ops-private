@@ -1,0 +1,33 @@
+TO: Hiring Manager — Copart (Sr. Marketing Systems Specialist)
+PLATFORM: Email
+ROLE: Senior Marketing Systems Specialist (JR108029)
+---
+
+Subject: JR108029 — I don't just run campaigns on the automation platform, I'm the person who builds it
+
+Hi,
+
+I applied for the Senior Marketing Systems Specialist role and wanted to share something that won't come through on a resume: the reason I'm drawn to this role is that it lives in the gap between marketing strategy and technical implementation. That gap is where I've done my best work.
+
+At Plug Power, there was no lifecycle infrastructure. No automated workflows. No closed-loop reporting. I built it from scratch — Salesforce for pipeline, HubSpot for email automation and lead nurturing, Adobe Analytics and GTM for attribution. I configured the segmentation logic, set up the conversion events, and automated the reporting pipelines. Then I ran A/B tests on email cadences, audience segments, and messaging variants on top of the system I'd built. -25% CPA and +20% conversion came from the infrastructure, not just the creative.
+
+That's the pattern I keep repeating: build the system first, then optimize on top of it.
+
+At Pixis, I did it at scale — $1.4M in budgets, 8-person team, omni-channel campaigns across Google, Meta, and programmatic for global clients. I designed the engagement workflows, built the vertical-specific playbooks, and established the data quality standards that kept reporting clean across dozens of client accounts. Churn dropped 50% — not because we sent better emails, but because we finally had lifecycle programs that responded to where each client actually was in their journey.
+
+Two specifics from the JD I want to address directly:
+
+"Write advanced SQL queries for audience and campaign data analysis" — SQL is my daily driver. I built KPI frameworks querying usage data across 50K+ devices at Sensata. At GenY, I wrote the weekly SQL dashboards that tracked every conversion metric the founders used to make budget decisions. This isn't a skill I list. It's how I think about data.
+
+"Translate business needs into automated solutions" — at Plug Power, every marketing automation workflow started with me sitting with the sales team and asking what they actually needed from marketing. The triggers, the segments, the cadences — all came from real business conversations, not a template. That's why they worked.
+
+I also completed the questionnaire you sent and have an MS in Marketing Analytics (Simon Business School). I write SQL and Python daily, and I've worked hands-on with Salesforce, HubSpot, and Adobe Audience Manager across multiple roles.
+
+Resume and portfolio attached:
+https://adhithyabhaskar.vercel.app/ref/copart
+
+Would genuinely appreciate 15 minutes to learn how the marketing systems team is structured and what the biggest automation challenge is right now.
+
+Best,
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com | (929) 563-9974

@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>SyntheticFi Head of Growth and Content Pitch Deck - Adhithya</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  @page { size: 11in 8.5in; margin: 0; }
+  body { font-family: Helvetica, Arial, sans-serif; color: #0c1024; background: #f7f9fc; font-size: 11pt; line-height: 1.45; }
+  .slide { width: 11in; height: 8.5in; padding: 0.55in 0.75in 0.5in 0.75in; page-break-after: always; position: relative; overflow: hidden; background: #f7f9fc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.35in; right: 0.55in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.35in; left: 0.75in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #0ea5e9; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 10pt; }
+  h1 { font-size: 36pt; font-weight: 800; color: #0c1024; line-height: 1.04; letter-spacing: -0.6pt; margin-bottom: 8pt; }
+  h2 { font-size: 24pt; font-weight: 800; color: #0c1024; line-height: 1.08; letter-spacing: -0.4pt; margin-bottom: 6pt; }
+  h2 .accent { color: #0ea5e9; }
+  .lede { font-size: 13pt; color: #475569; max-width: 8.5in; margin-bottom: 14pt; font-weight: 400; }
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 1in; padding-right: 1in; background: linear-gradient(135deg, #f7f9fc 0%, #e0f2fe 100%); }
+  .cover h1 { font-size: 42pt; max-width: 9.2in; }
+  .cover .sub { font-size: 17pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 26pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 9.5in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.5pt; font-weight: 500; }
+  .tag strong { color: #0ea5e9; font-weight: 700; }
+  .cover .who { margin-top: 30pt; padding-top: 14pt; border-top: 1.5pt solid #0ea5e9; max-width: 7in; }
+  .cover .who .nm { font-size: 11pt; color: #0c1024; font-weight: 700; }
+  .cover .who .ct { font-size: 9.5pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.6in; right: 0.85in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+  .mkt { position: absolute; right: 0.7in; bottom: 1.6in; width: 3in; height: 2.2in; opacity: 0.95; }
+  .manifesto { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 4pt; }
+  .manifesto-col { padding: 14pt 0 0 0; border-top: 2.5pt solid #0ea5e9; }
+  .manifesto-col h3 { font-size: 13pt; font-weight: 800; color: #0c1024; margin-bottom: 12pt; letter-spacing: -0.2pt; }
+  .manifesto-quote { background: #e0f2fe; border-left: 3pt solid #0ea5e9; padding: 8pt 12pt; margin-bottom: 10pt; }
+  .manifesto-quote .q { font-size: 10.5pt; color: #075985; font-style: italic; line-height: 1.45; font-weight: 600; }
+  .manifesto-proof { padding: 6pt 0 10pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .manifesto-proof .p { font-size: 10pt; color: #334155; line-height: 1.5; }
+  .manifesto-proof .p b { color: #0c1024; font-weight: 700; }
+  .pixis-grid { display: grid; grid-template-columns: 1fr 2.4in; gap: 18pt; margin-top: 4pt; }
+  .pixis-svg { width: 100%; height: 4.2in; }
+  .arch-svg { width: 100%; height: 4.2in; }
+  .margin-note { font-size: 9.5pt; color: #475569; line-height: 1.55; font-style: italic; border-top: 1pt solid #cbd5e1; padding-top: 10pt; margin-top: 10pt; }
+  .margin-note .hdr2 { font-style: normal; font-weight: 700; color: #0ea5e9; font-size: 9pt; letter-spacing: 1pt; text-transform: uppercase; margin-bottom: 6pt; }
+  .margin-note p { margin-bottom: 8pt; }
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 8pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0ea5e9; padding: 14pt 14pt 12pt 14pt; }
+  .card .label { font-size: 8.5pt; color: #0ea5e9; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 13pt; font-weight: 800; color: #0c1024; line-height: 1.18; margin-bottom: 8pt; }
+  .card .body { font-size: 9.5pt; color: #334155; line-height: 1.5; margin-bottom: 8pt; }
+  .card .why { font-size: 9pt; color: #64748b; line-height: 1.5; padding-top: 8pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #0ea5e9; font-weight: 700; }
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 1in; padding-right: 1in; background: linear-gradient(135deg, #f7f9fc 0%, #e0f2fe 100%); }
+  .close h2 { font-size: 30pt; max-width: 8.5in; margin-bottom: 16pt; }
+  .close .body { font-size: 11.5pt; color: #334155; line-height: 1.6; max-width: 8.5in; }
+  .close .body p { margin-bottom: 10pt; }
+  .close .body strong { color: #0ea5e9; font-weight: 700; }
+  .close .cta { margin-top: 22pt; display: inline-flex; gap: 14pt; align-items: center; }
+  .close .cta .btn { background: #0c1024; color: #fff; padding: 11pt 22pt; border-radius: 3pt; font-weight: 700; font-size: 11pt; letter-spacing: 0.3pt; }
+  .close .cta .alt { font-size: 10.5pt; color: #64748b; font-style: italic; }
+  .close .contact { margin-top: 24pt; font-size: 10pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0c1024; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<!-- SLIDE 1 - COVER -->
+<div class="slide cover">
+  <div class="prep">Prepared for the SyntheticFi Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Head of Growth and Content | SyntheticFi</div>
+  <h1>Disrupting a $1T legacy-bank industry lives or dies on the content engine.</h1>
+  <div class="sub">Multi-channel TOFU + content + closed-loop attribution for the RIA channel.</div>
+  <div class="tags">
+    <div class="tag"><strong>Pixis</strong> - 8-client B2B SaaS portfolio at $1.4M aggregate book</div>
+    <div class="tag"><strong>3x ROAS</strong> via holdout-incrementality on a D2C beauty client</div>
+    <div class="tag"><strong>Plug Power</strong> - closed-loop attribution from zero (-25% CPA, +20% conv.)</div>
+    <div class="tag"><strong>Sensata</strong> - cross-border GTM + 50-rep enablement (+35% leads)</div>
+    <div class="tag"><strong>4</strong> Anthropic Claude Certifications + 2 production AI products solo</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">Boston, MA | SF or Remote (US) | arokhith@gmail.com | (929) 563-9974 | adhithyabhaskar.vercel.app/ref/syntheticfi</div>
+  </div>
+  <div class="brand">SyntheticFi | Adhithya Rokhith Bhaskar</div>
+  <div class="num">01 / 06</div>
+</div>
+
+<!-- SLIDE 2 - JD MAPPING -->
+<div class="slide">
+  <div class="eyebrow">Slide 02 | Where the JD Reads Like the Last Five Years of My Operating Notes</div>
+  <h2>Each criterion on the left <span class="accent">has a working proof on the right.</span></h2>
+  <div class="lede">Six lines from the JD. Six things already shipped. Substance, not slogan.</div>
+
+  <div class="manifesto">
+    <div class="manifesto-col">
+      <h3>What the JD asks for</h3>
+      <div class="manifesto-quote"><div class="q">"3+ yr building + scaling top-of-funnel growth at a B2B / B2B2C startup."</div></div>
+      <div class="manifesto-quote"><div class="q">"Design and execute multi-channel engines across email, direct mail, phone, paid, social, conferences, podcasts, SEO + GEO."</div></div>
+      <div class="manifesto-quote"><div class="q">"Produce high-impact content across the full funnel - articles, visuals, videos, websites."</div></div>
+      <div class="manifesto-quote"><div class="q">"Build systems, processes, and feedback loops with Sales and CX to improve lead quality."</div></div>
+      <div class="manifesto-quote"><div class="q">"Data-driven and highly iterative. Strong content instincts to explain complex ideas."</div></div>
+      <div class="manifesto-quote"><div class="q">"Interest in financial advisors / RIAs / financial fundamentals incl. derivatives."</div></div>
+    </div>
+
+    <div class="manifesto-col">
+      <h3>What I have actually shipped</h3>
+      <div class="manifesto-proof"><div class="p"><b>Pixis 8-client B2B SaaS + D2C portfolio at $1.4M aggregate annual book</b>, per-client monthly $15K-$90K across Meta + LinkedIn + Google + Criteo + Amazon + programmatic. Plus Plug Power Meta + LinkedIn ABM + Adobe programmatic.</div></div>
+      <div class="manifesto-proof"><div class="p"><b>Plug Power multi-channel paid + retargeting</b> built from zero on Salesforce + Adobe + GA4 + GTM (Meta, LinkedIn ABM, Google, Adobe programmatic). Plus Sensata cross-border GTM across 3 regions with content + sales enablement.</div></div>
+      <div class="manifesto-proof"><div class="p"><b>Sensata sales enablement (battlecards + case studies + decks)</b> for 50+ reps - 30% lift in win rates. Plus Plug Power landing pages + ad creative + SwipeHire landing CRO (8 A/B tests, +25% activation).</div></div>
+      <div class="manifesto-proof"><div class="p"><b>Plug Power closed-loop attribution from zero</b>: UTM spec, GTM containers, Salesforce attribution, Adobe AAM behavioral segments, lead-routing rules + SLA documentation feeding BDR/AE alerting. -25% CPA, +20% conversion.</div></div>
+      <div class="manifesto-proof"><div class="p"><b>Pixis holdout-incrementality slice on a D2C beauty client.</b> Exposed two over-credited channels. Reallocated spend on true lift. <b>3x ROAS the next month.</b> Plus 30+ Sensata customer interviews driving CRO + content themes.</div></div>
+      <div class="manifesto-proof"><div class="p"><b>MS Marketing Analytics from Simon</b> + <b>NSE Paper-Trading Bot on Python + Claude API</b> over live equities data + technical indicators. Financial fundamentals + agentic reasoning in production.</div></div>
+    </div>
+  </div>
+
+  <div class="brand">SyntheticFi | Adhithya Rokhith Bhaskar</div>
+  <div class="num">02 / 06</div>
+</div>
+
+<!-- SLIDE 3 - PIXIS HOLDOUT INCREMENTALITY -->
+<div class="slide">
+  <div class="eyebrow">Slide 03 | The Diagnostic That Mattered</div>
+  <h2>D2C beauty client at Pixis: <span class="accent">3x ROAS via holdout incrementality.</span></h2>
+  <div class="lede">Blended ROAS looked fine. A holdout slice showed two channels were getting credit they had not earned. Cut the weak spend, doubled down on what was actually driving lift, brand cleared 3x ROAS the next month. On the RIA channel where reengagement always over-attributes, this is the muscle that protects AUM-retention spend.</div>
+
+  <div class="pixis-grid">
+    <svg viewBox="0 0 720 360" class="pixis-svg">
+      <text x="370" y="22" text-anchor="middle" font-size="11" fill="#0c1024" font-weight="800">BEFORE: Last-click credit hides the rot</text>
+      <rect x="20" y="40" width="160" height="80" rx="4" fill="#fff" stroke="#cbd5e1" stroke-width="1"/>
+      <text x="100" y="62" text-anchor="middle" font-size="10.5" fill="#0c1024" font-weight="800">Display Programmatic</text>
+      <text x="100" y="78" text-anchor="middle" font-size="9" fill="#475569">Credited 28% of conv.</text>
+      <text x="100" y="92" text-anchor="middle" font-size="9" fill="#dc2626" font-weight="700">True lift: 6%</text>
+      <text x="100" y="108" text-anchor="middle" font-size="8.5" fill="#64748b" font-style="italic">view-through inflation</text>
+
+      <rect x="200" y="40" width="160" height="80" rx="4" fill="#fff" stroke="#cbd5e1" stroke-width="1"/>
+      <text x="280" y="62" text-anchor="middle" font-size="10.5" fill="#0c1024" font-weight="800">Affiliate</text>
+      <text x="280" y="78" text-anchor="middle" font-size="9" fill="#475569">Credited 19% of conv.</text>
+      <text x="280" y="92" text-anchor="middle" font-size="9" fill="#dc2626" font-weight="700">True lift: 4%</text>
+      <text x="280" y="108" text-anchor="middle" font-size="8.5" fill="#64748b" font-style="italic">coupon-pickoff</text>
+
+      <rect x="380" y="40" width="160" height="80" rx="4" fill="#fff" stroke="#cbd5e1" stroke-width="1"/>
+      <text x="460" y="62" text-anchor="middle" font-size="10.5" fill="#0c1024" font-weight="800">Paid Search</text>
+      <text x="460" y="78" text-anchor="middle" font-size="9" fill="#475569">Credited 22% of conv.</text>
+      <text x="460" y="92" text-anchor="middle" font-size="9" fill="#15803d" font-weight="700">True lift: 31%</text>
+      <text x="460" y="108" text-anchor="middle" font-size="8.5" fill="#64748b" font-style="italic">non-brand compounds</text>
+
+      <rect x="560" y="40" width="140" height="80" rx="4" fill="#fff" stroke="#cbd5e1" stroke-width="1"/>
+      <text x="630" y="62" text-anchor="middle" font-size="10.5" fill="#0c1024" font-weight="800">Paid Social (Meta)</text>
+      <text x="630" y="78" text-anchor="middle" font-size="9" fill="#475569">Credited 18%</text>
+      <text x="630" y="92" text-anchor="middle" font-size="9" fill="#15803d" font-weight="700">True lift: 38%</text>
+      <text x="630" y="108" text-anchor="middle" font-size="8.5" fill="#64748b" font-style="italic">prospecting carry</text>
+
+      <text x="370" y="155" text-anchor="middle" font-size="11" fill="#0c1024" font-weight="800">AFTER: Reallocation on holdout-validated lift</text>
+
+      <rect x="20" y="175" width="160" height="80" rx="4" fill="#e0f2fe" stroke="#0ea5e9" stroke-width="1.5"/>
+      <text x="100" y="197" text-anchor="middle" font-size="10.5" fill="#075985" font-weight="800">Display Programmatic</text>
+      <text x="100" y="215" text-anchor="middle" font-size="9" fill="#334155">Spend cut 60%</text>
+      <text x="100" y="231" text-anchor="middle" font-size="9" fill="#334155">Retargeting-only retained</text>
+      <text x="100" y="246" text-anchor="middle" font-size="8.5" fill="#0ea5e9" font-weight="700">$ freed for Search + Social</text>
+
+      <rect x="200" y="175" width="160" height="80" rx="4" fill="#e0f2fe" stroke="#0ea5e9" stroke-width="1.5"/>
+      <text x="280" y="197" text-anchor="middle" font-size="10.5" fill="#075985" font-weight="800">Affiliate</text>
+      <text x="280" y="215" text-anchor="middle" font-size="9" fill="#334155">Spend cut 45%</text>
+      <text x="280" y="231" text-anchor="middle" font-size="9" fill="#334155">Coupon cap installed</text>
+      <text x="280" y="246" text-anchor="middle" font-size="8.5" fill="#0ea5e9" font-weight="700">CAC discipline restored</text>
+
+      <rect x="380" y="175" width="160" height="80" rx="4" fill="#e0f2fe" stroke="#0ea5e9" stroke-width="1.5"/>
+      <text x="460" y="197" text-anchor="middle" font-size="10.5" fill="#075985" font-weight="800">Paid Search</text>
+      <text x="460" y="215" text-anchor="middle" font-size="9" fill="#334155">Spend up 35%</text>
+      <text x="460" y="231" text-anchor="middle" font-size="9" fill="#334155">Non-brand expansion</text>
+      <text x="460" y="246" text-anchor="middle" font-size="8.5" fill="#0ea5e9" font-weight="700">Marginal ROAS held</text>
+
+      <rect x="560" y="175" width="140" height="80" rx="4" fill="#e0f2fe" stroke="#0ea5e9" stroke-width="1.5"/>
+      <text x="630" y="197" text-anchor="middle" font-size="10.5" fill="#075985" font-weight="800">Paid Social (Meta)</text>
+      <text x="630" y="215" text-anchor="middle" font-size="9" fill="#334155">Spend up 50%</text>
+      <text x="630" y="231" text-anchor="middle" font-size="9" fill="#334155">Weekly creative cycle</text>
+      <text x="630" y="246" text-anchor="middle" font-size="8.5" fill="#0ea5e9" font-weight="700">Prospecting compounded</text>
+
+      <rect x="240" y="285" width="240" height="60" rx="6" fill="#0ea5e9"/>
+      <text x="360" y="312" text-anchor="middle" font-size="26" fill="#fff" font-weight="800">3x ROAS</text>
+      <text x="360" y="331" text-anchor="middle" font-size="10" fill="#e0f2fe">in one month, validated by holdout incrementality</text>
+    </svg>
+
+    <div class="margin-note">
+      <div class="hdr2">Why this matters for SyntheticFi</div>
+      <p>On the RIA channel, AUM-retention spend is the channel most likely to get over-credited - the partner would have stayed anyway. Holdout incrementality is the only honest read on true lift.</p>
+      <p>The discipline that drove the 3x ROAS - <strong>cut weak spend, double down on what works</strong> - is the same muscle that protects spend when blended numbers look fine but the engine is leaking under the hood.</p>
+    </div>
+  </div>
+
+  <div class="brand">SyntheticFi | Adhithya Rokhith Bhaskar</div>
+  <div class="num">03 / 06</div>
+</div>
+
+<!-- SLIDE 4 - CLOSED-LOOP ATTRIBUTION + CONTENT ENGINE -->
+<div class="slide">
+  <div class="eyebrow">Slide 04 | Closed-Loop Attribution + Content for an RIA Channel</div>
+  <h2>Plug Power + Sensata: <span class="accent">the systems and the content that scale with sales.</span></h2>
+  <div class="lede">The JD asks for systems + processes + feedback loops with Sales and CX, plus high-impact content for the partner-channel audience. I have rebuilt this exact stack and shipped this exact content cadence in two different B2B verticals.</div>
+
+  <div class="pixis-grid">
+    <svg viewBox="0 0 720 340" class="arch-svg">
+      <text x="20" y="22" font-size="10" fill="#0ea5e9" font-weight="700" letter-spacing="1.5">CHANNELS (PLUG POWER)</text>
+      <rect x="20" y="40" width="660" height="44" rx="3" fill="#fff" stroke="#cbd5e1" stroke-width="1"/>
+      <text x="40" y="60" font-size="10.5" fill="#0c1024" font-weight="700">Meta + LinkedIn ABM + Google Ads + Adobe-Driven Programmatic + Retargeting Funnels</text>
+      <text x="40" y="76" font-size="9" fill="#475569">A/B tested keywords, audiences, creative with sample-size + significance gates pre-committed</text>
+
+      <text x="20" y="102" font-size="10" fill="#0ea5e9" font-weight="700" letter-spacing="1.5">CONTENT ENGINE (SENSATA)</text>
+      <rect x="20" y="120" width="660" height="44" rx="3" fill="#e0f2fe" stroke="#0ea5e9" stroke-width="1.5"/>
+      <text x="40" y="140" font-size="10.5" fill="#0c1024" font-weight="700">Sales enablement for 50+ reps - battlecards + case studies + decks + channel-partner microsites</text>
+      <text x="40" y="156" font-size="9" fill="#475569">30+ customer interviews driving CRO + content themes | 15% lift on priority launches | 30% lift in win rates</text>
+
+      <text x="20" y="182" font-size="10" fill="#0ea5e9" font-weight="700" letter-spacing="1.5">CLOSED-LOOP ATTRIBUTION</text>
+      <rect x="20" y="200" width="660" height="44" rx="3" fill="#fff" stroke="#cbd5e1" stroke-width="1"/>
+      <text x="40" y="220" font-size="10.5" fill="#0c1024" font-weight="700">UTM spec written from zero + GTM containers rebuilt + GA4 events + Adobe Analytics + Adobe AAM</text>
+      <text x="40" y="236" font-size="9" fill="#475569">Closed-loop attribution traced end-to-end from ad click through MQL through Sales-Qualified Lead</text>
+
+      <text x="20" y="262" font-size="10" fill="#0ea5e9" font-weight="700" letter-spacing="1.5">SALES + CX HANDOFF</text>
+      <rect x="20" y="280" width="660" height="44" rx="3" fill="#fff" stroke="#cbd5e1" stroke-width="1"/>
+      <text x="40" y="300" font-size="10.5" fill="#0c1024" font-weight="700">Salesforce campaign attribution + lead-routing rules + SLA documentation feeding BDR/AE alerting</text>
+      <text x="40" y="316" font-size="9" fill="#0ea5e9" font-weight="700">Outcomes: -25% CPA, +20% conversion, +35% qualified leads, $2M+ pipeline</text>
+
+      <path d="M 350 89 L 350 117" stroke="#94a3b8" stroke-width="1.5" fill="none" marker-end="url(#arrFA)"/>
+      <path d="M 350 169 L 350 197" stroke="#94a3b8" stroke-width="1.5" fill="none" marker-end="url(#arrFA)"/>
+      <path d="M 350 249 L 350 277" stroke="#94a3b8" stroke-width="1.5" fill="none" marker-end="url(#arrFA)"/>
+
+      <defs>
+        <marker id="arrFA" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+          <polygon points="0 0, 8 4, 0 8" fill="#94a3b8"/>
+        </marker>
+      </defs>
+    </svg>
+
+    <div class="margin-note">
+      <div class="hdr2">Translation to SyntheticFi</div>
+      <p>Swap "title + seniority + industry" for "RIA AUM tier + book composition + adviser tenure". Swap "Sales-Qualified Lead" for "first box-spread issuance". The closed-loop tracking discipline and content production cadence are the same.</p>
+      <p>Box spreads are exactly the kind of complex idea that needs a content engine: explainer articles, comparison-vs-bank visuals, case-study videos, RIA-facing microsites. Same translation muscle that worked at Sensata for industrial buyers.</p>
+    </div>
+  </div>
+
+  <div class="brand">SyntheticFi | Adhithya Rokhith Bhaskar</div>
+  <div class="num">04 / 06</div>
+</div>
+
+<!-- SLIDE 5 - FIRST 30 DAYS -->
+<div class="slide">
+  <div class="eyebrow">Slide 05 | First Thirty Days at SyntheticFi</div>
+  <h2>Three experiments I would run <span class="accent">in the first thirty days on the RIA channel.</span></h2>
+  <div class="lede">Concrete and scoped. Each ships inside a month and produces a measurable AUM-retention outcome - not a CPL one.</div>
+
+  <div class="week">
+    <div class="card">
+      <div class="label">Experiment 1 - RIA Channel Holdout</div>
+      <div class="ttl">Matched holdout on the largest RIA reengagement audience</div>
+      <div class="body">Pick the biggest RIA-reengagement audience currently active. Carve a matched holdout cell. Measure incremental AUM-retention + box-spread-issuance lift over 3 weeks against the exposed cell. Cut over-credited spend, reallocate to true lift.</div>
+      <div class="why"><strong>Why first.</strong> On a partner-channel product, reengagement spend always over-attributes. This is the Pixis 3x ROAS muscle applied to the RIA channel - protects AUM-retention spend before it scales.</div>
+    </div>
+
+    <div class="card">
+      <div class="label">Experiment 2 - Box-Spread Content Engine</div>
+      <div class="ttl">Three content assets that scale the explanation of box spreads</div>
+      <div class="body">(a) Long-form RIA-partner playbook on box spreads vs bank lines (3,000 words + visuals + comparison tables); (b) 4-minute explainer video on box-spread mechanics for the RIA-facing microsite; (c) cohort-specific landing pages for top 3 RIA segments with case studies + AUM-retention proof.</div>
+      <div class="why"><strong>Why first.</strong> Same translation muscle that turned Sensata's technical sensor features into 15% conversion lift and 50-rep sales enablement that drove 30% win-rate lift. Box spreads need the same explainer cadence.</div>
+    </div>
+
+    <div class="card">
+      <div class="label">Experiment 3 - Sales + CX Feedback Loop</div>
+      <div class="ttl">Closed-loop attribution + RIA-cohort dashboard in week 4</div>
+      <div class="body">Build UTM spec + GTM containers + Salesforce attribution + RIA-cohort segments mirroring the Plug Power rebuild. Ship a 1-page weekly dashboard tracking pipeline by RIA AUM tier + acquisition source + content-asset attribution. The artifact Sales + CX opens every Monday.</div>
+      <div class="why"><strong>Why first.</strong> Same shape as the $627M Bleeders + Leakers Power BI dashboard at Sensata (1,200 opportunities, 3 regions, 4 product families) - executive-facing artifact built for decision-making, not for show.</div>
+    </div>
+  </div>
+
+  <div class="brand">SyntheticFi | Adhithya Rokhith Bhaskar</div>
+  <div class="num">05 / 06</div>
+</div>
+
+<!-- SLIDE 6 - CLOSE -->
+<div class="slide close">
+  <div class="eyebrow">Slide 06 | The Ask</div>
+  <h2>What I would want from <span class="accent">the first fifteen minutes.</span></h2>
+  <div class="body">
+    <p><strong>What I would want to understand:</strong> which RIA cohort is currently leaking hardest on AUM retention; how the team is currently splitting between RIA-channel acquisition and existing-partner expansion; and where the content engine is most blocked today (subject-matter access, production velocity, or distribution).</p>
+    <p><strong>What I would bring:</strong> a draft RIA-cohort holdout design scoped to one reengagement audience, three scoped content assets (box-spread playbook + explainer video + RIA-cohort landing pages), and a one-pager on how I would structure the first 90 days on the RIA channel.</p>
+    <p>San Francisco works. Fully remote works. Flexible on the hybrid cadence.</p>
+  </div>
+  <div class="cta">
+    <div class="btn">15 min with the SyntheticFi team</div>
+    <div class="alt">or written async if that is easier on your week</div>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong><br>
+    arokhith@gmail.com | (929) 563-9974 | Boston, MA<br>
+    Portfolio: adhithyabhaskar.vercel.app/ref/syntheticfi<br>
+    LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">SyntheticFi | Adhithya Rokhith Bhaskar</div>
+  <div class="num">06 / 06</div>
+</div>
+
+</body>
+</html>
