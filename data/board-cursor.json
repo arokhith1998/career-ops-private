@@ -1,0 +1,17 @@
+{
+  "cursor": 0,
+  "sweep": 2,
+  "universe_rows": 173,
+  "runs": [
+    {
+      "at": "2026-09-19T06:03:06.573Z",
+      "from": 0,
+      "to": 0,
+      "sweep": 1,
+      "considered": 173,
+      "probed": 45,
+      "resolved": 0,
+      "emitted": 128
+    }
+  ]
+}

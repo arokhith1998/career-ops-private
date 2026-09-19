@@ -1,0 +1,21 @@
+{
+  "cursor": 8,
+  "runs": [
+    {
+      "at": "2026-09-19T06:03:46.194Z",
+      "terms": [
+        "us:Product Marketing Manager",
+        "us:Pricing Manager",
+        "us:Pricing Strategy",
+        "us:Revenue Operations",
+        "us:Product Manager",
+        "us:Strategic Marketing",
+        "us:Market Strategy",
+        "us:Competitive Intelligence"
+      ],
+      "queries": 32,
+      "rows": 0,
+      "health": "BLOCKED: no query returned HTTP 200 - treat as UNKNOWN, not as zero jobs"
+    }
+  ]
+}

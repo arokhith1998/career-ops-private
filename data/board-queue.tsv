@@ -1,0 +1,129 @@
+company	legal_name	industry	ats	board_url	api_url	h1b_known	notes
+6sense	6sense Insights, Inc.	Revenue, GTM and Pricing Software	greenhouse	https://boards.greenhouse.io/6sense	https://boards-api.greenhouse.io/v1/boards/6sense/jobs	unchecked	
+Airbyte	?	AI-native and Enterprise SaaS	ashby	https://jobs.ashbyhq.com/airbyte	https://api.ashbyhq.com/posting-api/job-board/airbyte?includeCompensation=true	unchecked	
+Airtable	Formagrid, Inc. (dba Airtable)	AI-native and Enterprise SaaS	greenhouse	https://boards.greenhouse.io/airtable	https://boards-api.greenhouse.io/v1/boards/airtable/jobs	unchecked	
+Amplitude	Amplitude, Inc.	AI-native and Enterprise SaaS	greenhouse	https://boards.greenhouse.io/amplitude	https://boards-api.greenhouse.io/v1/boards/amplitude/jobs	unchecked	
+Anysphere (Cursor)	Anysphere, Inc.	AI-native and Enterprise SaaS	ashby	https://jobs.ashbyhq.com/cursor	https://api.ashbyhq.com/posting-api/job-board/cursor?includeCompensation=true	unchecked	
+Apollo.io	?	Revenue, GTM and Pricing Software	greenhouse	https://boards.greenhouse.io/apolloio	https://boards-api.greenhouse.io/v1/boards/apolloio/jobs	unchecked	
+Baseten	?	AI-native and Enterprise SaaS	ashby	https://jobs.ashbyhq.com/baseten	https://api.ashbyhq.com/posting-api/job-board/baseten?includeCompensation=true	unchecked	
+Canva	Canva Inc.	AI-native and Enterprise SaaS	smartrecruiters	https://jobs.smartrecruiters.com/canva		unchecked	
+CaptivateIQ	?	Revenue, GTM and Pricing Software	lever	https://jobs.lever.co/captivateiq	https://api.lever.co/v0/postings/captivateiq?mode=json	unchecked	
+Clerk	?	AI-native and Enterprise SaaS	ashby	https://jobs.ashbyhq.com/clerk	https://api.ashbyhq.com/posting-api/job-board/clerk?includeCompensation=true	unchecked	
+Cohere	Cohere Inc.	AI-native and Enterprise SaaS	ashby	https://jobs.ashbyhq.com/cohere	https://api.ashbyhq.com/posting-api/job-board/cohere?includeCompensation=true	unchecked	
+Confluent	Confluent, Inc.	AI-native and Enterprise SaaS	ashby	https://jobs.ashbyhq.com/confluent	https://api.ashbyhq.com/posting-api/job-board/confluent?includeCompensation=true	unchecked	
+Conga	?	Revenue, GTM and Pricing Software	greenhouse	https://boards.greenhouse.io/conga	https://boards-api.greenhouse.io/v1/boards/conga/jobs	unchecked	
+Databricks	Databricks, Inc.	AI-native and Enterprise SaaS	greenhouse	https://boards.greenhouse.io/databricks	https://boards-api.greenhouse.io/v1/boards/databricks/jobs	unchecked	
+Datadog	Datadog, Inc.	AI-native and Enterprise SaaS	greenhouse	https://boards.greenhouse.io/datadog	https://boards-api.greenhouse.io/v1/boards/datadog/jobs	unchecked	
+Demandbase	Demandbase, Inc.	Revenue, GTM and Pricing Software	ashby	https://jobs.ashbyhq.com/demandbase	https://api.ashbyhq.com/posting-api/job-board/demandbase?includeCompensation=true	unchecked	
+Docebo	Docebo Inc.	Revenue, GTM and Pricing Software	ashby	https://jobs.ashbyhq.com/docebo	https://api.ashbyhq.com/posting-api/job-board/docebo?includeCompensation=true	unchecked	
+Drata	Drata Inc.	AI-native and Enterprise SaaS	ashby	https://jobs.ashbyhq.com/drata	https://api.ashbyhq.com/posting-api/job-board/drata?includeCompensation=true	unchecked	
+Druva	Druva Inc.	India Venture-backed Startups (Series A-D)	greenhouse	https://boards.greenhouse.io/druva	https://boards-api.greenhouse.io/v1/boards/druva/jobs	n/a	
+ElevenLabs	ElevenLabs Inc.	AI-native and Enterprise SaaS	ashby	https://jobs.ashbyhq.com/elevenlabs	https://api.ashbyhq.com/posting-api/job-board/elevenlabs?includeCompensation=true	unchecked	
+Figma	Figma, Inc.	AI-native and Enterprise SaaS	greenhouse	https://boards.greenhouse.io/figma	https://boards-api.greenhouse.io/v1/boards/figma/jobs	unchecked	
+Fivetran	Fivetran Inc.	AI-native and Enterprise SaaS	greenhouse	https://boards.greenhouse.io/fivetran	https://boards-api.greenhouse.io/v1/boards/fivetran/jobs	unchecked	
+Freshworks	Freshworks Inc.	Revenue, GTM and Pricing Software	smartrecruiters	https://jobs.smartrecruiters.com/freshworks		unchecked	
+Gainsight	Gainsight, Inc.	Revenue, GTM and Pricing Software	ashby	https://jobs.ashbyhq.com/gainsight	https://api.ashbyhq.com/posting-api/job-board/gainsight?includeCompensation=true	unchecked	
+Glean	?	AI-native and Enterprise SaaS	greenhouse	https://boards.greenhouse.io/gleanwork	https://boards-api.greenhouse.io/v1/boards/gleanwork/jobs	unchecked	
+Gong	Gong.io, Inc.	Revenue, GTM and Pricing Software	smartrecruiters	https://jobs.smartrecruiters.com/gong		unchecked	
+Harvey	?	AI-native and Enterprise SaaS	ashby	https://jobs.ashbyhq.com/harvey	https://api.ashbyhq.com/posting-api/job-board/harvey?includeCompensation=true	unchecked	
+HelpScout	Help Scout, PBC	Revenue, GTM and Pricing Software	ashby	https://jobs.ashbyhq.com/helpscout	https://api.ashbyhq.com/posting-api/job-board/helpscout?includeCompensation=true	unchecked	
+HevoData	Hevo Data, Inc.	India Venture-backed Startups (Series A-D)	lever	https://jobs.lever.co/hevodata	https://api.lever.co/v0/postings/hevodata?mode=json	n/a	
+Hex	?	AI-native and Enterprise SaaS	ashby	https://jobs.ashbyhq.com/hex	https://api.ashbyhq.com/posting-api/job-board/hex?includeCompensation=true	unchecked	
+IncidentIO	?	AI-native and Enterprise SaaS	ashby	https://jobs.ashbyhq.com/incident	https://api.ashbyhq.com/posting-api/job-board/incident?includeCompensation=true	unchecked	
+Intercom	Intercom, Inc.	Revenue, GTM and Pricing Software	greenhouse	https://boards.greenhouse.io/intercom	https://boards-api.greenhouse.io/v1/boards/intercom/jobs	unchecked	
+Kustomer	Kustomer, Inc.	Revenue, GTM and Pricing Software	ashby	https://jobs.ashbyhq.com/kustomer	https://api.ashbyhq.com/posting-api/job-board/kustomer?includeCompensation=true	unchecked	
+LangChain	?	AI-native and Enterprise SaaS	ashby	https://jobs.ashbyhq.com/langchain	https://api.ashbyhq.com/posting-api/job-board/langchain?includeCompensation=true	unchecked	
+LaunchDarkly	Catamorphic Co. (dba LaunchDarkly)	AI-native and Enterprise SaaS	greenhouse	https://boards.greenhouse.io/launchdarkly	https://boards-api.greenhouse.io/v1/boards/launchdarkly/jobs	unchecked	
+LeanData	LeanData, Inc.	Revenue, GTM and Pricing Software	ashby	https://jobs.ashbyhq.com/leandata	https://api.ashbyhq.com/posting-api/job-board/leandata?includeCompensation=true	unchecked	
+Linear	?	AI-native and Enterprise SaaS	ashby	https://jobs.ashbyhq.com/linear	https://api.ashbyhq.com/posting-api/job-board/linear?includeCompensation=true	unchecked	
+Mixpanel	Mixpanel, Inc.	AI-native and Enterprise SaaS	greenhouse	https://boards.greenhouse.io/mixpanel	https://boards-api.greenhouse.io/v1/boards/mixpanel/jobs	unchecked	
+Modal	Modal Labs, Inc.	AI-native and Enterprise SaaS	ashby	https://jobs.ashbyhq.com/modal	https://api.ashbyhq.com/posting-api/job-board/modal?includeCompensation=true	unchecked	
+ModelN	Model N, Inc.	Revenue, GTM and Pricing Software	lever	https://jobs.lever.co/modeln	https://api.lever.co/v0/postings/modeln?mode=json	unchecked	
+MongoDB	MongoDB, Inc.	AI-native and Enterprise SaaS	greenhouse	https://boards.greenhouse.io/mongodb	https://boards-api.greenhouse.io/v1/boards/mongodb/jobs	unchecked	
+n8n	n8n GmbH	Revenue, GTM and Pricing Software	ashby	https://jobs.ashbyhq.com/n8n	https://api.ashbyhq.com/posting-api/job-board/n8n?includeCompensation=true	unchecked	
+Navan	Navan, Inc.	Revenue, GTM and Pricing Software	greenhouse	https://boards.greenhouse.io/tripactions	https://boards-api.greenhouse.io/v1/boards/tripactions/jobs	unchecked	
+NoBroker	NoBroker Technologies Solutions Private Limited	India Venture-backed Startups (Series A-D)	smartrecruiters	https://jobs.smartrecruiters.com/nobroker		n/a	
+Notion	Notion Labs, Inc.	AI-native and Enterprise SaaS	ashby	https://jobs.ashbyhq.com/notion	https://api.ashbyhq.com/posting-api/job-board/notion?includeCompensation=true	unchecked	
+ObserveAI	Observe.AI, Inc.	India Venture-backed Startups (Series A-D)	greenhouse	https://boards.greenhouse.io/observeai	https://boards-api.greenhouse.io/v1/boards/observeai/jobs	n/a	
+Outreach	Outreach Corporation	Revenue, GTM and Pricing Software	lever	https://jobs.lever.co/outreach	https://api.lever.co/v0/postings/outreach?mode=json	unchecked	
+PagerDuty	PagerDuty, Inc.	AI-native and Enterprise SaaS	greenhouse	https://boards.greenhouse.io/pagerduty	https://boards-api.greenhouse.io/v1/boards/pagerduty/jobs	unchecked	
+PandaDoc	PandaDoc Inc.	Revenue, GTM and Pricing Software	greenhouse	https://boards.greenhouse.io/pandadoc	https://boards-api.greenhouse.io/v1/boards/pandadoc/jobs	unchecked	
+Pendo	Pendo.io, Inc.	AI-native and Enterprise SaaS	greenhouse	https://boards.greenhouse.io/pendo	https://boards-api.greenhouse.io/v1/boards/pendo/jobs	unchecked	
+Perplexity	Perplexity AI, Inc.	AI-native and Enterprise SaaS	ashby	https://jobs.ashbyhq.com/perplexity	https://api.ashbyhq.com/posting-api/job-board/perplexity?includeCompensation=true	unchecked	
+Planhat	?	Revenue, GTM and Pricing Software	ashby	https://jobs.ashbyhq.com/planhat	https://api.ashbyhq.com/posting-api/job-board/planhat?includeCompensation=true	unchecked	
+Porter	?	India Venture-backed Startups (Series A-D)	greenhouse	https://boards.greenhouse.io/porter	https://boards-api.greenhouse.io/v1/boards/porter/jobs	n/a	
+PostHog	?	AI-native and Enterprise SaaS	ashby	https://jobs.ashbyhq.com/posthog	https://api.ashbyhq.com/posting-api/job-board/posthog?includeCompensation=true	unchecked	
+Replit	?	AI-native and Enterprise SaaS	ashby	https://jobs.ashbyhq.com/replit	https://api.ashbyhq.com/posting-api/job-board/replit?includeCompensation=true	unchecked	
+Salesloft	Salesloft, Inc.	Revenue, GTM and Pricing Software	greenhouse	https://boards.greenhouse.io/salesloft	https://boards-api.greenhouse.io/v1/boards/salesloft/jobs	unchecked	
+ScaleAI	Scale AI, Inc.	AI-native and Enterprise SaaS	greenhouse	https://boards.greenhouse.io/scaleai	https://boards-api.greenhouse.io/v1/boards/scaleai/jobs	unchecked	
+Secureframe	?	AI-native and Enterprise SaaS	ashby	https://jobs.ashbyhq.com/secureframe	https://api.ashbyhq.com/posting-api/job-board/secureframe?includeCompensation=true	unchecked	
+Sentry	Functional Software, Inc. (dba Sentry)	AI-native and Enterprise SaaS	ashby	https://jobs.ashbyhq.com/sentry	https://api.ashbyhq.com/posting-api/job-board/sentry?includeCompensation=true	unchecked	
+Sierra	?	AI-native and Enterprise SaaS	ashby	https://jobs.ashbyhq.com/sierra	https://api.ashbyhq.com/posting-api/job-board/sierra?includeCompensation=true	unchecked	
+SigmaComputing	?	AI-native and Enterprise SaaS	greenhouse	https://boards.greenhouse.io/sigmacomputing	https://boards-api.greenhouse.io/v1/boards/sigmacomputing/jobs	unchecked	
+Snowflake	Snowflake Inc.	AI-native and Enterprise SaaS	ashby	https://jobs.ashbyhq.com/snowflake	https://api.ashbyhq.com/posting-api/job-board/snowflake?includeCompensation=true	unchecked	
+TogetherAI	?	AI-native and Enterprise SaaS	greenhouse	https://boards.greenhouse.io/togetherai	https://boards-api.greenhouse.io/v1/boards/togetherai/jobs	unchecked	
+Turing	?	India Venture-backed Startups (Series A-D)	greenhouse	https://boards.greenhouse.io/turing	https://boards-api.greenhouse.io/v1/boards/turing/jobs	n/a	
+Unacademy	Sorting Hat Technologies Private Limited	India Venture-backed Startups (Series A-D)	smartrecruiters	https://jobs.smartrecruiters.com/unacademy		n/a	
+Vanta	Vanta Inc.	AI-native and Enterprise SaaS	ashby	https://jobs.ashbyhq.com/vanta	https://api.ashbyhq.com/posting-api/job-board/vanta?includeCompensation=true	unchecked	
+Vendavo	?	Revenue, GTM and Pricing Software	lever	https://jobs.lever.co/vendavo	https://api.lever.co/v0/postings/vendavo?mode=json	unchecked	
+Vercel	Vercel Inc.	AI-native and Enterprise SaaS	greenhouse	https://boards.greenhouse.io/vercel	https://boards-api.greenhouse.io/v1/boards/vercel/jobs	unchecked	
+Vitally	?	Revenue, GTM and Pricing Software	ashby	https://jobs.ashbyhq.com/vitally	https://api.ashbyhq.com/posting-api/job-board/vitally?includeCompensation=true	unchecked	
+Whatfix	Whatfix, Inc.	India Venture-backed Startups (Series A-D)	smartrecruiters	https://jobs.smartrecruiters.com/whatfix		n/a	
+Workato	Workato, Inc.	Revenue, GTM and Pricing Software	greenhouse	https://boards.greenhouse.io/workato	https://boards-api.greenhouse.io/v1/boards/workato/jobs	unchecked	
+WorkOS	?	AI-native and Enterprise SaaS	ashby	https://jobs.ashbyhq.com/workos	https://api.ashbyhq.com/posting-api/job-board/workos?includeCompensation=true	unchecked	
+Writer	?	AI-native and Enterprise SaaS	ashby	https://jobs.ashbyhq.com/writer	https://api.ashbyhq.com/posting-api/job-board/writer?includeCompensation=true	unchecked	
+Zapier	Zapier Inc.	Revenue, GTM and Pricing Software	ashby	https://jobs.ashbyhq.com/zapier	https://api.ashbyhq.com/posting-api/job-board/zapier?includeCompensation=true	unchecked	
+ZoomInfo	ZoomInfo Technologies Inc.	Revenue, GTM and Pricing Software	greenhouse	https://boards.greenhouse.io/zoominfo	https://boards-api.greenhouse.io/v1/boards/zoominfo/jobs	unchecked	
+Zuora	Zuora, Inc.	Revenue, GTM and Pricing Software	greenhouse	https://boards.greenhouse.io/zuora	https://boards-api.greenhouse.io/v1/boards/zuora/jobs	unchecked	
+Affirm	Affirm, Inc.	Fintech and Payments	greenhouse	https://boards.greenhouse.io/affirm	https://boards-api.greenhouse.io/v1/boards/affirm/jobs	unchecked	
+Airwallex	?	Fintech and Payments	ashby	https://jobs.ashbyhq.com/airwallex	https://api.ashbyhq.com/posting-api/job-board/airwallex?includeCompensation=true	unchecked	
+Alloy	?	Fintech and Payments	greenhouse	https://boards.greenhouse.io/alloy	https://boards-api.greenhouse.io/v1/boards/alloy/jobs	unchecked	
+BillCom	Bill.com Holdings, Inc.	Fintech and Payments	greenhouse	https://boards.greenhouse.io/billcom	https://boards-api.greenhouse.io/v1/boards/billcom/jobs	unchecked	
+Bombas	?	Consumer Internet, Marketplaces and D2C	greenhouse	https://boards.greenhouse.io/bombas	https://boards-api.greenhouse.io/v1/boards/bombas/jobs	unchecked	
+Brex	Brex Inc.	Fintech and Payments	greenhouse	https://boards.greenhouse.io/brex	https://boards-api.greenhouse.io/v1/boards/brex/jobs	unchecked	
+Cameo	?	Consumer Internet, Marketplaces and D2C	greenhouse	https://boards.greenhouse.io/cameo	https://boards-api.greenhouse.io/v1/boards/cameo/jobs	unchecked	
+Cars24	?	Consumer Internet, Marketplaces and D2C	smartrecruiters	https://jobs.smartrecruiters.com/cars24		n/a	
+Circle	Circle Internet Financial, LLC	Fintech and Payments	ashby	https://jobs.ashbyhq.com/circle	https://api.ashbyhq.com/posting-api/job-board/circle?includeCompensation=true	unchecked	
+Coinbase	Coinbase, Inc.	Fintech and Payments	greenhouse	https://boards.greenhouse.io/coinbase	https://boards-api.greenhouse.io/v1/boards/coinbase/jobs	unchecked	
+Column	Column N.A.	Fintech and Payments	ashby	https://jobs.ashbyhq.com/column	https://api.ashbyhq.com/posting-api/job-board/column?includeCompensation=true	unchecked	
+Cred	Dreamplug Technologies Private Limited	Fintech and Payments	lever	https://jobs.lever.co/cred	https://api.lever.co/v0/postings/cred?mode=json	n/a	
+Current	?	Fintech and Payments	greenhouse	https://boards.greenhouse.io/current	https://boards-api.greenhouse.io/v1/boards/current/jobs	unchecked	
+FiMoney	epiFi Technologies Private Limited	Fintech and Payments	lever	https://jobs.lever.co/fi	https://api.lever.co/v0/postings/fi?mode=json	n/a	
+Gemini	Gemini Trust Company, LLC	Fintech and Payments	greenhouse	https://boards.greenhouse.io/gemini	https://boards-api.greenhouse.io/v1/boards/gemini/jobs	unchecked	
+Glossier	Glossier, Inc.	Consumer Internet, Marketplaces and D2C	greenhouse	https://boards.greenhouse.io/glossier	https://boards-api.greenhouse.io/v1/boards/glossier/jobs	unchecked	
+Gopuff	GoBrands, Inc. (dba Gopuff)	Consumer Internet, Marketplaces and D2C	lever	https://jobs.lever.co/gopuff	https://api.lever.co/v0/postings/gopuff?mode=json	unchecked	
+Groww	Billionbrains Garage Ventures Private Limited	Fintech and Payments	greenhouse	https://boards.greenhouse.io/groww	https://boards-api.greenhouse.io/v1/boards/groww/jobs	n/a	
+Highnote	?	Fintech and Payments	greenhouse	https://boards.greenhouse.io/highnote	https://boards-api.greenhouse.io/v1/boards/highnote/jobs	unchecked	
+Instacart	Maplebear Inc. (dba Instacart)	Consumer Internet, Marketplaces and D2C	greenhouse	https://boards.greenhouse.io/instacart	https://boards-api.greenhouse.io/v1/boards/instacart/jobs	unchecked	
+Lithic	?	Fintech and Payments	greenhouse	https://boards.greenhouse.io/lithic	https://boards-api.greenhouse.io/v1/boards/lithic/jobs	unchecked	
+Meesho	Fashnear Technologies Private Limited	Consumer Internet, Marketplaces and D2C	lever	https://jobs.lever.co/meesho	https://api.lever.co/v0/postings/meesho?mode=json	n/a	
+Melio	?	Fintech and Payments	greenhouse	https://boards.greenhouse.io/melio	https://boards-api.greenhouse.io/v1/boards/melio/jobs	unchecked	
+Mercury	Mercury Technologies, Inc.	Fintech and Payments	greenhouse	https://boards.greenhouse.io/mercury	https://boards-api.greenhouse.io/v1/boards/mercury/jobs	unchecked	
+ModernTreasury	?	Fintech and Payments	ashby	https://jobs.ashbyhq.com/moderntreasury	https://api.ashbyhq.com/posting-api/job-board/moderntreasury?includeCompensation=true	unchecked	
+Navi	Navi Technologies Limited	Fintech and Payments	ashby	https://jobs.ashbyhq.com/navi	https://api.ashbyhq.com/posting-api/job-board/navi?includeCompensation=true	n/a	
+Nextdoor	Nextdoor, Inc.	Consumer Internet, Marketplaces and D2C	greenhouse	https://boards.greenhouse.io/nextdoor	https://boards-api.greenhouse.io/v1/boards/nextdoor/jobs	unchecked	
+Persona	?	Fintech and Payments	ashby	https://jobs.ashbyhq.com/persona	https://api.ashbyhq.com/posting-api/job-board/persona?includeCompensation=true	unchecked	
+Plaid	Plaid Inc.	Fintech and Payments	ashby	https://jobs.ashbyhq.com/plaid	https://api.ashbyhq.com/posting-api/job-board/plaid?includeCompensation=true	unchecked	
+Poshmark	Poshmark, Inc.	Consumer Internet, Marketplaces and D2C	ashby	https://jobs.ashbyhq.com/poshmark	https://api.ashbyhq.com/posting-api/job-board/poshmark?includeCompensation=true	unchecked	
+Razorpay	Razorpay Software Private Limited	Fintech and Payments	greenhouse	https://boards.greenhouse.io/razorpaysoftwareprivatelimited	https://boards-api.greenhouse.io/v1/boards/razorpaysoftwareprivatelimited/jobs	n/a	
+RebelFoods	?	Consumer Internet, Marketplaces and D2C	smartrecruiters	https://jobs.smartrecruiters.com/rebelfoods		n/a	
+Ripple	Ripple Labs Inc.	Fintech and Payments	greenhouse	https://boards.greenhouse.io/ripple	https://boards-api.greenhouse.io/v1/boards/ripple/jobs	unchecked	
+Ro	Roman Health Ventures Inc. (dba Ro)	Consumer Internet, Marketplaces and D2C	lever	https://jobs.lever.co/ro	https://api.lever.co/v0/postings/ro?mode=json	unchecked	
+Robinhood	Robinhood Markets, Inc.	Fintech and Payments	greenhouse	https://boards.greenhouse.io/robinhood	https://boards-api.greenhouse.io/v1/boards/robinhood/jobs	unchecked	
+Rover	A Place for Rover, Inc.	Consumer Internet, Marketplaces and D2C	lever	https://jobs.lever.co/rover	https://api.lever.co/v0/postings/rover?mode=json	unchecked	
+Sardine	?	Fintech and Payments	ashby	https://jobs.ashbyhq.com/sardine	https://api.ashbyhq.com/posting-api/job-board/sardine?includeCompensation=true	unchecked	
+SeatGeek	SeatGeek, Inc.	Consumer Internet, Marketplaces and D2C	greenhouse	https://boards.greenhouse.io/seatgeek	https://boards-api.greenhouse.io/v1/boards/seatgeek/jobs	unchecked	
+Slice	Garagepreneurs Internet Private Limited	Fintech and Payments	greenhouse	https://boards.greenhouse.io/slice	https://boards-api.greenhouse.io/v1/boards/slice/jobs	n/a	
+Socure	Socure, Inc.	Fintech and Payments	ashby	https://jobs.ashbyhq.com/socure	https://api.ashbyhq.com/posting-api/job-board/socure?includeCompensation=true	unchecked	
+SoFi	Social Finance, Inc.	Fintech and Payments	greenhouse	https://boards.greenhouse.io/sofi	https://boards-api.greenhouse.io/v1/boards/sofi/jobs	unchecked	
+StockX	StockX LLC	Consumer Internet, Marketplaces and D2C	greenhouse	https://boards.greenhouse.io/stockx	https://boards-api.greenhouse.io/v1/boards/stockx/jobs	unchecked	
+Swiggy	Bundl Technologies Private Limited	Consumer Internet, Marketplaces and D2C	smartrecruiters	https://jobs.smartrecruiters.com/swiggy		n/a	
+TaskRabbit	TaskRabbit Inc.	Consumer Internet, Marketplaces and D2C	greenhouse	https://boards.greenhouse.io/taskrabbit	https://boards-api.greenhouse.io/v1/boards/taskrabbit/jobs	unchecked	
+ThriveMarket	Thrive Market, Inc.	Consumer Internet, Marketplaces and D2C	greenhouse	https://boards.greenhouse.io/thrivemarket	https://boards-api.greenhouse.io/v1/boards/thrivemarket/jobs	unchecked	
+UltraCleanHoldings	Ultra Clean Holdings, Inc.	Semiconductors and Industrial Tech	smartrecruiters	https://jobs.smartrecruiters.com/uct		unchecked	
+Unit	?	Fintech and Payments	ashby	https://jobs.ashbyhq.com/unit	https://api.ashbyhq.com/posting-api/job-board/unit?includeCompensation=true	unchecked	
+Upstart	Upstart Network, Inc.	Fintech and Payments	greenhouse	https://boards.greenhouse.io/upstart	https://boards-api.greenhouse.io/v1/boards/upstart/jobs	unchecked	
+Upstox	?	Fintech and Payments	smartrecruiters	https://jobs.smartrecruiters.com/upstox		n/a	
+Wise	?	Fintech and Payments	smartrecruiters	https://jobs.smartrecruiters.com/wise		unchecked	
+Zeta	?	Fintech and Payments	lever	https://jobs.lever.co/zeta	https://api.lever.co/v0/postings/zeta?mode=json	n/a	
+Zola	?	Consumer Internet, Marketplaces and D2C	greenhouse	https://boards.greenhouse.io/zola	https://boards-api.greenhouse.io/v1/boards/zola/jobs	unchecked	
