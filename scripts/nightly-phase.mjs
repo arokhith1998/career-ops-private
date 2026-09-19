@@ -98,10 +98,16 @@ export function runConfigFor(runs, phase) {
 
 const DIGEST_DIR = path.join(ROOT, 'reports', 'nightly');
 const stamp = new Date();
-const DAY = stamp.toISOString().slice(0, 10);
+// The candidate's own calendar day and clock, not UTC and not the host's zone:
+// the cloud runner is on UTC, so an 11 PM PT run was writing the next day's
+// digest. CAREER_OPS_TZ overrides. (Fixed 2026-09-19.)
+const TZ = process.env.CAREER_OPS_TZ || 'America/Los_Angeles';
+const DAY = new Intl.DateTimeFormat('en-CA', { timeZone: TZ, year: 'numeric', month: '2-digit', day: '2-digit' }).format(stamp);
 const DIGEST = path.join(DIGEST_DIR, DAY + '-digest.md');
 
-function hhmm(d = new Date()) { return d.toTimeString().slice(0, 5); }
+function hhmm(d = new Date()) {
+  return new Intl.DateTimeFormat('en-GB', { timeZone: TZ, hour: '2-digit', minute: '2-digit', hour12: false }).format(d);
+}
 
 function digest(text) {
   if (!existsSync(DIGEST_DIR)) mkdirSync(DIGEST_DIR, { recursive: true });
