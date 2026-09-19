@@ -1,5 +1,5 @@
 {
-  "cursor": 12,
+  "cursor": 5,
   "runs": [
     {
       "at": "2026-09-19T06:03:46.194Z",
@@ -48,6 +48,22 @@
       "queries": 28,
       "rows": 0,
       "health": "BLOCKED: no query returned HTTP 200 - treat as UNKNOWN, not as zero jobs"
+    },
+    {
+      "at": "2026-09-19T19:17:12.399Z",
+      "terms": [
+        "india:Founder's Office",
+        "india:CEO Office",
+        "india:Entrepreneur in Residence",
+        "us:Product Marketing Manager",
+        "us:Pricing Manager",
+        "us:Pricing Strategy",
+        "us:Revenue Operations",
+        "us:Product Manager"
+      ],
+      "queries": 26,
+      "rows": 211,
+      "health": "ok"
     }
   ]
 }
