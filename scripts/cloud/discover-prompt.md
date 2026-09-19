@@ -12,6 +12,20 @@ Read first: AGENTS.md, modes/nightly-rules.md, modes/nightly-pipeline.md, config
 Run: `node scripts/nightly-phase.mjs --phase discover --dry-run`
 This runs the board rotation, board harvest, repo feed, LinkedIn, web search, feed merges, seen-jobs filter, track-aware shortlist, ledger updates and the Excel workbook. "DRY RUN - no agent sessions" in its output only means the DRIVER will not open Claude sessions: YOU do those steps next. Blocked sources (LinkedIn or search returning nothing) are normal from cloud IPs; note them and continue.
 
+## 2b. WebSearch sweep (always run; the only source that works if egress is blocked)
+Check the driver output: if the board harvest, LinkedIn or web-search steps returned HTTP 403 / BLOCKED, direct scraping is blocked in this environment. Either way, run this sweep with YOUR `WebSearch` tool (it works even when raw HTTP is blocked):
+- **India track (always):** at least 6 searches, e.g. `"Chief of Staff" jobs Bengaluru`, `"Chief of Staff" to CEO startup India hiring`, `"Head of Growth" jobs Mumbai OR Gurugram OR Bengaluru`, `"Head of Growth" startup India hiring 2026`, plus the same titles with `site:linkedin.com/jobs`, `site:naukri.com`, `site:iimjobs.com`, `site:instahyre.com`, `site:cutshort.io`, `site:wellfound.com`.
+- **US track:** at least 6 searches across the US role families in config/nightly.yml (pricing, product/strategic marketing, RevOps, product management, market strategy), each with `"San Francisco" OR "Bay Area" OR remote` and ATS sites (`site:boards.greenhouse.io`, `site:jobs.lever.co`, `site:jobs.ashbyhq.com`).
+- Keep only results that look like a single, currently open posting from the last ~14 days (company, title, location, url). Skip aggregator list pages.
+- Write them to `data/agent-search-feed.tsv` with exactly these tab-separated columns: `source	sources	company	title	location	url	posted_ts	age_days	sponsorship_hint	salary	category` (source = `websearch-agent`; leave unknown cells blank).
+- Fold them in and re-run the zero-token gates, in this order:
+  `node scripts/merge-feeds.mjs data/job-feed.tsv data/agent-search-feed.tsv`
+  `node nightly-seen.mjs --filter data/job-feed.tsv`
+  `node nightly-shortlist.mjs --out data/shortlist.tsv --dropped-out data/terminal-drops.tsv --limit 50 --explain`
+  `node nightly-seen.mjs --record data/shortlist.tsv --stage shortlisted`
+  `node nightly-seen.mjs --record data/terminal-drops.tsv --stage dropped --verdict-from drop_reason --verdict-prefix DROP:`
+Report in the digest how many rows the sweep found per track and how many survived the shortlist.
+
 ## 3. Agent steps, done by you in this session
 Open `scripts/nightly-phase.mjs` and read the functions `extractPrompt()`, `visaGatePrompt()` and `scorePrompt()`. Carry out each one exactly as written, in order, using the subagents in `.claude/agents/` (job-scraper, visa-evaluator) where they say so:
 1. EXTRACT: every row of data/shortlist.tsv without a JD on disk -> jds/, then data/extracted.tsv (with track and visa_gate columns).
