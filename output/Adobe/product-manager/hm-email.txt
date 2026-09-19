@@ -1,0 +1,25 @@
+Subject: Product Manager, Design org - a PM who already lives in your analytics tools
+
+Hi {Hiring Manager, Product Manager, Design},
+
+I don't usually write to a hiring manager before applying, but the Design org home for req R170204 stood out: Adobe Analytics and Adobe Audience Manager are already the two tools I lean on most, tracking cohort behavior and feeding it back into roadmap calls.
+
+A Design-org PM req usually means the audience for the data is people who build things, a kind of product judgment I've already been testing on my own roadmap work.
+
+Three points that might matter for how you're staffing this:
+- At Sensata, owned roadmap and a 100+ feature backlog across 3 regions, releases 25% faster
+- Ran 30+ interviews with OEM and distributor engineers, verified against SQL and GA4 data before acting
+- At Applied Materials, I build Claude-based agents to automate the analysis my product decisions rely on
+- Built SwipeHire solo, from PRD to 50+ early users, running 8+ A/B tests
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/adobe
+
+Happy to trade 15 minutes if this maps to what you're building; if it's not your req, no worries either way.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+arokhith@gmail.com
++1-929-563-9974
+GitHub: https://github.com/arokhith1998

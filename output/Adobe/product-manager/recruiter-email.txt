@@ -1,0 +1,25 @@
+Subject: Product Manager R170204 - already living in Adobe Analytics and Audience Manager
+
+Hi {Recruiter, Product - Design Org},
+
+I don't normally reach out before applying, but req R170204 in Adobe's Design org caught me: Adobe Analytics and Adobe Audience Manager are already part of my own analytics stack.
+
+A Design-org PM req usually means the data gets read by people who also build the product, a different bar than a generic PM opening, so I'm flagging myself early.
+
+A few data points instead of a pitch:
+- Owned a 100+ feature backlog and roadmap at Sensata, cutting time to market 20%
+- Ran 30+ interviews with OEM engineers, verified against GA4 and SQL data across 50K+ devices
+- Built SwipeHire zero to one on Python and React, onboarding 50+ users
+- At Applied Materials, automating analysis with Claude agents
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/adobe
+
+If R170204 is yours, 15 minutes would help gauge fit; if not, a pointer is plenty.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+arokhith@gmail.com
++1-929-563-9974
+GitHub: https://github.com/arokhith1998
