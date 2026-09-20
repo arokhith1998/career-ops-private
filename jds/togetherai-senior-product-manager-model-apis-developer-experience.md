@@ -1,0 +1,73 @@
+# Senior Product Manager, Model APIs & Developer Experience — TogetherAI
+
+**URL:** https://job-boards.greenhouse.io/togetherai/jobs/5210951007
+**Req ID:** 292
+**Location:** San Francisco
+**Department:** Product
+**First published:** 2026-08-17T13:58:36-04:00  |  **Updated:** 2026-09-08T18:09:53-04:00
+**Track:** us | **Extracted:** 2026-09-20
+**Legal entity:** Together AI, Inc.
+**Source:** Greenhouse API (boards-api.greenhouse.io)
+
+## Full description
+
+About the Role
+Together serves a broad portfolio of open-weight models, backed by infrastructure designed to run them quickly and efficiently. The interfaces around those models shape the entire customer experience: how easily a developer can migrate an application, how reliably an agent can use a model, and how a team runs large asynchronous workloads.
+
+As Senior Product Manager for Model APIs and Developer Experience, you will own those interfaces. Your scope will extend beyond chat to include the APIs and developer experience for image, video, voice, and passthrough models. You will also own compatibility with the wider developer and agent ecosystem, the voice consumption experience and associated model partnerships, and the evolution of our batch inference product.
+
+These areas are connected by a single goal: make Together's models easy to adopt and reliable to build on for developers and autonomous agents.
+
+This is a hands-on product role. You will read API specifications, test integrations, inspect code when useful, and build prototypes or demo applications to sharpen your thinking. You will work closely with engineering and research, own the product direction, make thoughtful tradeoffs, ship, and learn from how customers use what we build.
+
+Responsibilities
+
+- Set the product direction and roadmap across chat and multimodal APIs, ecosystem compatibility, voice, and batch inference.
+
+- Close the API and behavioral gaps that make it harder for customers to move workloads from proprietary model providers to Together.
+
+- Develop a grounded view of how Together's APIs perform in the developer and agent ecosystem, and turn the most important gaps into clear product priorities.
+
+- Define an intuitive API and consumption experience for real-time and agentic voice applications.
+
+- Build productive relationships with voice model partners and align internal and external teams around a strong joint product experience.
+
+- Reimagine batch inference across the job lifecycle, developer experience, completion guarantees, pricing, and packaging.
+
+- Build lightweight prototypes and demo applications to test product ideas and reduce uncertainty before committing significant engineering resources.
+
+- Work closely with engineering and research to understand technical constraints, make product tradeoffs, and deliver reliable customer experiences.
+
+- Talk with customers and study product usage to separate isolated requests from patterns that should shape the platform.
+
+- Create a clear, active roadmap and communicate why we are making specific investments and what we expect them to change.
+
+Requirements
+
+- Meaningful experience with APIs and developer tools, whether you designed them, built them, or owned them as a product manager.
+
+- Strong product judgment and the ability to make clear decisions in an evolving market.
+
+- A willingness to get close to the work by reading specifications and code, testing integrations directly, and building working prototypes with AI development tools.
+
+- A track record of earning trust with engineering and external partners through preparation, sound technical judgment, clear communication, and follow-through.
+
+- A bias toward experimentation and iteration. You know how to gather enough evidence to make a decision, ship, and adjust based on what you learn.
+
+- Strong communication and relationship-building skills, including the ability to align teams and move work forward across company boundaries..
+
+About Together AI
+Together AI, the AI Native Cloud, is purpose-built for AI engineers. AI application developers get high-performance inference that scales reliably, fine-tuning and reinforcement learning for creating frontier-level specialized models, and pre-training at massive scale for fully custom intelligence, all around a marketplace of leading open models that teams can run, adapt, and own. Trusted by Cursor, Decagon, ElevenLabs, Salesforce, and Zoom, Together serves 400+ trillion tokens a month.
+
+Compensation
+We offer competitive compensation, startup equity, health insurance and other competitive benefits. The US base salary range for this full-time position is: $200 - 280k + equity + benefits. Our salary ranges are determined by location, level and role. Individual compensation will be determined by experience, skills, and job-related knowledge.
+
+Equal Opportunity
+Together AI is an Equal Opportunity Employer and is proud to offer equal employment opportunity to everyone regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity, veteran status, and more.
+
+Please see our privacy policy at https://www.together.ai/privacy.
+
+## Work authorization / sponsorship / clearance / degree — verbatim
+
+> These areas are connected by a single goal: make Together's models easy to adopt and reliable to build on for developers and autonomous agents.
+> Together AI is an Equal Opportunity Employer and is proud to offer equal employment opportunity to everyone regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity, veteran status, and more.
