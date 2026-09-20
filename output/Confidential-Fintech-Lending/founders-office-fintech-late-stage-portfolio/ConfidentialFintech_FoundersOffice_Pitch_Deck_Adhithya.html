@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Confidential Fintech Lending Founders Office Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #b45309; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 30pt; font-weight: 800; color: #0f172a; line-height: 1.1; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 20pt; font-weight: 800; color: #0f172a; line-height: 1.12; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #b45309; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.5in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #fde8d4 100%); }
+  .cover h1 { font-size: 31pt; max-width: 11in; }
+  .cover .sub { font-size: 14pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 18pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #b45309; font-weight: 700; }
+  .cover .who { margin-top: 18pt; padding-top: 11pt; border-top: 1.5pt solid #b45309; max-width: 9.2in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #b45309; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #fef3e7; border-left: 3pt solid #b45309; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #7c3d05; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #b45309; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #fef3e7; border-left: 4pt solid #b45309; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #7c3d05; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #b45309; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 23pt; font-weight: 800; color: #b45309; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #b45309; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #b45309; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #b45309; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #fde8d4 100%); }
+  .close h2 { font-size: 25pt; max-width: 10.6in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.6in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #b45309; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Founders' Office Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Confidential Fintech Lending Platform Founders' Office</div>
+  <h1>You need someone who can own a cross-functional metric end to end, on day one, without being handed formal authority over the teams that touch it. I already run my own company that way.</h1>
+  <div class="sub">Founder-grade ownership plus the operating cadence and cross-functional pull a Founders' Office runs on, from someone who has done both.</div>
+  <div class="tags">
+    <div class="tag"><strong>PriceKeel</strong> - founder and CEO, running product, CRM/CPQ, deal approvals and fundraising end to end</div>
+    <div class="tag"><strong>$700K+</strong> margin recovered in 2 quarters, Sensata Bleeders and Leakers program</div>
+    <div class="tag"><strong>1,200</strong> pricing opportunities ranked against a $627M target across 3 regions</div>
+    <div class="tag"><strong>Zero formal authority</strong> - every cross-functional win above was earned, not assigned</div>
+    <div class="tag"><strong>US and India</strong> operating experience</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhithyabhaskar.vercel.app/ref/confidential-fintech-lending</div>
+  </div>
+  <div class="brand">FOUNDERS OFFICE PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>A Founders' Office role is not a staff job. It is a bet that one person can turn <span class="accent">a fuzzy, high-stakes problem into an owned outcome.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What that bet actually requires</h4>
+      <div class="line">No fixed job description: the mandate shifts to whatever the CEO's highest-priority problem is this quarter, which means the person has to build credibility with Sales, Credit, Operations and Finance fast, with no org-chart authority over any of them.</div>
+      <div class="line">The scoring criteria is not "did you analyze it well." It is "did the metric move," which means owning a plan through execution and reporting, not handing a deck back up the chain.</div>
+      <div class="line">As the company moves toward a public listing, the same person is expected to help institutionalize the reporting rigor and operating cadence that a growing, IPO-track business needs to run on.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run, at founder scale</h4>
+      <div class="line">I run <b>PriceKeel</b> myself: product, CRM/CPQ, forecast and pipeline reviews, deal approvals, and the investor-facing narrative for the round I am currently raising. Nobody assigned me that scope.</div>
+      <div class="line">At <b>Sensata</b>, I ran the Bleeders and Leakers program end to end: found $433M in margin gaps, then closed $700K+ of it in 2 quarters through negotiations with Sales and Finance I had no authority to compel.</div>
+      <div class="line">At <b>Applied Materials</b>, I partner with Sales, Engineering and Accounts on the semiconductor market view, again without formal authority, while carrying P&amp;L and revenue targets for the role.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">The through-line across every role on my resume is the same one this posting is describing: take a cross-functional, ambiguous problem, build the plan, run it, and report the outcome, without waiting for someone to grant the authority first.</div>
+  </div>
+  <div class="brand">FOUNDERS OFFICE PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The mandate, mapped</div>
+  <h2>What the Founders' Office opening asks for, and where the proof sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Drive cross-functional projects... often without formal authority, building alignment and driving execution across teams."</div></div>
+      <div class="quote"><div class="q">"Own specific business metrics and problem statements end to end: diagnose issues, build the plan, execute, and report on outcomes."</div></div>
+      <div class="quote"><div class="q">"Support IPO-readiness workstreams: governance, reporting rigor, process institutionalization, and investor-facing narrative."</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>PriceKeel, founder and CEO:</b> the clearest possible version of "own it end to end." I built the product, run the operating rhythm, and am building the investor-facing narrative for the current raise myself.</div></div>
+      <div class="proof"><div class="p"><b>Bleeders and Leakers at Sensata:</b> diagnosed a $433M margin gap, built the negotiation case with Sales and Finance, executed it, and reported $700K+ closed in 2 quarters back to leadership.</div></div>
+      <div class="proof"><div class="p"><b>AP26 revenue models and site transition strategy:</b> built alongside senior executives, plus the leadership decks and OKR cadence (weekly and quarterly business reviews) that kept that work auditable.</div></div>
+      <div class="proof"><div class="p"><b>Applied Materials today:</b> cross-functional sizing work with Sales, Engineering and Accounts, and AI agents built on Claude automating the recurring reporting so time goes to the actual decision.</div></div>
+    </div>
+  </div>
+  <div class="brand">FOUNDERS OFFICE PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The Sensata proof, in depth</div>
+  <h2>Bleeders and Leakers: <span class="accent">diagnose the gap, close it, report the outcome.</span></h2>
+  <div class="lede">Built as a BU-wide Power BI system covering 1,200 pricing opportunities against a $627M target across 3 regions, 4 product families and 20 product lines, with pipeline funnel, win rate and stage distribution by salesperson and product line, run while carrying P&amp;L and revenue targets for the Industrial BU.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$433M</div>
+      <div class="lbl">Margin Gaps Surfaced</div>
+      <div class="desc">The dashboard's job: rank every pricing opportunity so leadership could prioritize by salesperson and product line instead of chasing anecdotes.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$700K+</div>
+      <div class="lbl">Margin Recovered in 2 Quarters</div>
+      <div class="desc">Closed through cross-functional negotiations built on competitive gaps and documented customer willingness to pay, not across-the-board price hikes.</div>
+    </div>
+    <div class="stat">
+      <div class="n">53% to 61%</div>
+      <div class="lbl">Distributor Margin Lift</div>
+      <div class="desc">Repriced the channel logic itself with Finance and Sales, so the gain outlived the first repricing pass instead of drifting back within a quarter.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">Promoted from Product and Growth Marketing to Pricing Lead in 10 months on the strength of that program. The common thread across it: every fix was cross-functional, every fix was reported back to leadership, and every fix was measured after it shipped, not just proposed.</div>
+  <div class="brand">FOUNDERS OFFICE PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month inside a Founders' Office looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Map the problem, not the org chart</div>
+      <div class="body">Sit with the founders and the functions closest to the current priority problem (product, credit, sales, operations, finance) to hear where the metric is stuck and who already has partial context on why.</div>
+      <div class="why"><strong>Why first:</strong> the same move that started the Bleeders and Leakers program. The gap is usually visible in the data and in people's frustration before anyone has framed it as one problem.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Build the plan, then earn the alignment</div>
+      <div class="body">Turn the problem into a structured plan with a number attached, pressure-test it with the functions that have to execute it, and start moving the metric before asking for a formal mandate to own it.</div>
+      <div class="why"><strong>Why now:</strong> authority followed results at Sensata and follows results at PriceKeel. Alignment earned through a credible plan moves faster than alignment requested through a title.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Institutionalize the cadence</div>
+      <div class="body">Turn the one-off fix into a repeatable operating rhythm: an OKR or business-review cadence, a reporting format, and a clear owner, so the next priority problem has a process to plug into instead of starting cold.</div>
+      <div class="why"><strong>Why this fast:</strong> reporting rigor that only exists in one person's head does not scale toward a public listing. Repeatability is the actual ask behind "process institutionalization."</div>
+    </div>
+  </div>
+  <div class="brand">FOUNDERS OFFICE PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to turn ambiguous, high-stakes problems into owned outcomes. I already run a company that way, and I have done it inside two much larger ones.</h2>
+  <div class="body">
+    <p>The core proof is Sensata and PriceKeel together: <strong>$700K+ in margin recovered in 2 quarters</strong> through cross-functional negotiations I had no formal authority to compel, and a company I am building end to end right now, from product to CRM/CPQ to the investor narrative for its first round of equity.</p>
+    <p>What is harder to find is someone who has done that P&amp;L-carrying, cross-functional-execution work inside a large organization <strong>and</strong> is doing the founder-level version of it at the same time. That combination is exactly what a Founders' Office with an explicit path to P&amp;L ownership is built to develop, and I am already most of the way there.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhithyabhaskar.vercel.app/ref/confidential-fintech-lending</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">FOUNDERS OFFICE PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
