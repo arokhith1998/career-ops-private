@@ -1,0 +1,49 @@
+# Product Marketing Lead, Enterprise — ScaleAI
+
+**URL:** https://job-boards.greenhouse.io/scaleai/jobs/4722998005
+**Location:** San Francisco, CA
+**Last updated:** 2026-08-12T09:45:34-04:00
+**Track:** us | visa_gate: required | **Extracted:** 2026-09-20
+**Legal entity:** Scale AI, Inc.
+**Comp:** $182,000 - $228,000 USD (SF/NY/Seattle band)
+
+**Extraction method:** Greenhouse public boards-api JSON (`boards-api.greenhouse.io/v1/boards/scaleai/jobs/4722998005?content=true`), confirmed present in the live job list (223 total open reqs).
+
+## Work authorization / degree / clearance — verbatim sentences found
+No sentence in this posting mentions work authorization, visa sponsorship, or citizenship requirements beyond the standard EEO boilerplate ("regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability status, gender identity or Veteran status").
+
+## Full Job Description (verbatim, HTML stripped)
+
+<p>At Scale, we develop reliable AI systems for the world’s most important decisions. Scale’s product marketing team is responsible for developing and executing strategies that drive awareness and engagement for Scale’s offerings amongst our core audiences. We take a data-driven approach to understand our customers’ needs and challenges, ensuring that their voices are reflected in product development and messaging. We partner closely with product, engineering, research, sales, comms,&nbsp; and the broader marketing team to create a cohesive customer experience across all our channels. We aim to provide valuable insights and resources that help our customers execute on their AI transformation journey.</p>
+<p>This role will focus on developing and optimizing vertical-specific messaging and content for Scale’s applications business to ensure our messaging resonates with core buyers across verticals. The ideal candidate combines strategic thinking with hands-on execution.</p>
+<p>&nbsp;</p>
+<p><strong>You will:</strong></p>
+<ul>
+<li>Develop clear, compelling messaging for enterprise offerings tailored to key personas within target verticals</li>
+<li>Create marketing assets, including slide decks, videos, blog posts, and one-pagers, that effectively communicate our value propositions to vertical leaders and support our sales team’s pursuits</li>
+<li>Lead positioning and sales enablement efforts to drive awareness and engagement for Scale’s offerings.</li>
+<li>Drive cross-functional marketing programs around target verticals, in conjunction with product, engineering, sales, and growth marketing to create a cohesive customer experience and contribute to pipeline targets</li>
+<li>Collaborate with field marketing and events teams to develop vertical-specific event strategies, content, and experiences that drive engagement within customer and target accounts</li>
+<li>Drive customer marketing efforts, creating both strategy and tactics to maximize the value Scale and customers get from our shared success, including case studies, testimonials, visual assets and event participation&nbsp;</li>
+<li>Design and run Scale’s Customer Advisory Board (CAB) program — including virtual sessions and an annual in-person summit — to engage senior enterprise executives with programming that is genuinely engaging and additive</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>Ideally, you’d have:</strong></p>
+<ul>
+<li>5+ years of experience in product marketing in B2B enterprise environments, with a preference for experience in at least one vertical sales-led growth motion or a customer marketing focus</li>
+<li>An understanding of AI/ML technology and/or intuition for how to build content for executive buyers, IT, and business users.</li>
+<li>Excellent written and verbal communication, problem-solving, storytelling, and analysis skills</li>
+<li>Ability to influence at all levels, including executive, and to work across functions&nbsp;</li>
+<li>An outstanding level of attention to detail</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>Nice to haves:</strong></p>
+<ul>
+<li>Experience marketing AI products or services</li>
+</ul><div class="content-pay-transparency"><div class="pay-input"><div class="description"><p><em>Compensation packages at Scale for eligible roles include base salary, equity, and benefits. The range displayed on each job posting reflects the minimum and maximum target for new hire salaries for the position and may be inclusive of several career levels at Scale; it will be determined during the interview process based on work location and additional factors, including job-related skills, experience, qualifications, interview performance, and relevant education or training. Scale employees in eligible roles are also granted equity based compensation, subject to Board of Director approval. Your recruiter can share more about the specific salary range for your preferred location during the hiring process, and confirm whether the hired role will be eligible for equity grant. You'll also receive benefits including, but not limited to: comprehensive health, dental and vision coverage, retirement benefits, a learning and development stipend, and generous PTO. Additionally, this role may be eligible for additional benefits such as a commuter stipend.</em></p></div><div class="title">Please reference the job posting's subtitle for where this position will be located. For pay transparency purposes, the base salary range for this full-time position in the locations of San Francisco, New York, Seattle is:</div><div class="pay-range"><span>$182,000</span><span class="divider">&mdash;</span><span>$228,000 USD</span></div></div></div><div class="content-conclusion"><p><strong><em>PLEASE NOTE:&nbsp;</em></strong><em>Our policy requires a 90-day waiting period before reconsidering candidates for the same role. This allows us to ensure a fair and thorough evaluation of all applicants.</em></p>
+<p><strong>About Us:</strong></p>
+<p><em>At Scale, our mission is to develop reliable AI systems for the world's most important decisions. Our products provide the high-quality data and full-stack technologies that power the world's leading models, and help enterprises and governments build, deploy, and oversee AI applications that deliver real impact. We work closely with industry leaders like Meta, </em><em>Ernst</em><em> </em><em>&amp;</em><em> Young, Mayo Clinic, Time Inc., the Government of Qatar, and U.S. government agencies including the Army and Air Force. We are expanding our team to accelerate the development of AI applications.</em></p>
+<p><em>We believe that everyone should be able to bring their whole selves to work, which is why we are proud to be an inclusive and equal opportunity workplace. We are committed to equal employment opportunity regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability status, gender identity or Veteran status.&nbsp;</em></p>
+<p><em>We are committed to working with and providing reasonable accommodations to applicants with physical and mental disabilities. If you need assistance and/or a reasonable accommodation in the application or recruiting process due to a disability, please contact us at accommodations@scale.com. Please see the United States Department of Labor's </em><a href="https://www.eeoc.gov/sites/default/files/2023-06/22-088_EEOC_KnowYourRights6.12ScreenRdr.pdf"><em>Know Your Rights poster</em></a><em> for additional information.</em></p>
+<p><em>We comply with the United States Department of Labor's </em><em>Pay Transparency provision</em><em>.&nbsp;</em></p>
+<p><em><strong>PLEASE NOTE: </strong>We collect, retain and use personal data for our professional business purposes, including notifying you of job opportunities that may be of interest and sharing with our affiliates. We limit the personal data we collect to that which we believe is appropriate and necessary to manage applicants’ needs, provide our services, and comply with applicable laws. Any information we collect in connection with your application will be treated in accordance with our internal policies and programs designed to protect personal data. Please see our <a href="https://scale.com/legal/privacy" target="_blank">privacy policy</a> for additional information.</em></p></div>
