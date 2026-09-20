@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Vercel Performance Marketing Manager Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #0f766e; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 28pt; font-weight: 800; color: #0f172a; line-height: 1.12; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 20pt; font-weight: 800; color: #0f172a; line-height: 1.12; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #0f766e; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.7in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d7f3ec 100%); }
+  .cover h1 { font-size: 29pt; max-width: 11.2in; }
+  .cover .sub { font-size: 14pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 18pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #0f766e; font-weight: 700; }
+  .cover .who { margin-top: 18pt; padding-top: 11pt; border-top: 1.5pt solid #0f766e; max-width: 9.4in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #0f766e; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #e6f7f2; border-left: 3pt solid #0f766e; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #0b5a4f; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #0f766e; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #e6f7f2; border-left: 4pt solid #0f766e; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #0b5a4f; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0f766e; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 23pt; font-weight: 800; color: #0f766e; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0f766e; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #0f766e; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #0f766e; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d7f3ec 100%); }
+  .close h2 { font-size: 25pt; max-width: 10.6in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.6in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #0f766e; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Vercel Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Vercel Performance Marketing Manager</div>
+  <h1>Vercel sells to two different buyers on one acquisition engine: a self-serve developer and an enterprise buyer. That is a harder measurement problem than most paid acquisition roles, and it is the one I have already been solving.</h1>
+  <div class="sub">Paid-acquisition ownership across Google, Meta and LinkedIn, plus the AI-native reporting habit that compresses the reporting cycle so more time goes to the creative and audience calls.</div>
+  <div class="tags">
+    <div class="tag"><strong>$100K/month</strong> paid budgets owned at Plug Power across Google, Microsoft, Meta and LinkedIn</div>
+    <div class="tag"><strong>-25% CPA</strong> at Plug Power, <strong>3x ROAS</strong> in one month at Pixis</div>
+    <div class="tag"><strong>AI agents built on Claude</strong> automating my own recurring reporting at Applied Materials</div>
+    <div class="tag"><strong>8-client, $15K-$90K/month</strong> portfolio run end to end at Pixis</div>
+    <div class="tag"><strong>16x ROAS</strong> delivered for a D2C brand at GenY Medium</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-growth-ai.vercel.app/ref/vercel</div>
+  </div>
+  <div class="brand">PERFORMANCE MARKETING PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>The role is not "run more ads." It is turning a paid-acquisition engine into <span class="accent">a compounding growth loop across two very different buyers.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What that actually requires</h4>
+      <div class="line">One acquisition motion has to serve a self-serve developer who converts in minutes and an enterprise buyer whose cycle runs months, on the same channels: Google, Meta, LinkedIn, YouTube.</div>
+      <div class="line">Multi-million-dollar spend only compounds if CAC keeps falling as budget scales, which means the reporting and testing loop has to get faster every quarter, not just the spend.</div>
+      <div class="line">AI has to be load-bearing in that loop, not a slide: agents and automations that compress campaign turnaround and scale creative production, not just a mention in a tools list.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run</h4>
+      <div class="line">At <b>Plug Power</b>, I owned $100K/month across Google Ads, Microsoft Ads, Meta and LinkedIn for multiple business units at once, and cut CPA 25% through bid and testing discipline.</div>
+      <div class="line">At <b>Pixis</b>, I carried P&amp;L for an 8-client, $15K-$90K-per-client-per-month portfolio and delivered 3x ROAS in a month through full-funnel restructuring, not a single lever.</div>
+      <div class="line">At <b>Applied Materials</b> today, I automate my own recurring forecasting and reporting with AI agents built on Claude, the exact habit this posting asks for by name.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">The through-line: every channel I have run, I have also had to defend on CPA or ROAS to someone with a budget line, and I have already made AI part of how that reporting gets done, not a project on the side.</div>
+  </div>
+  <div class="brand">PERFORMANCE MARKETING PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The mandate, mapped</div>
+  <h2>What the posting asks for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Multi-million-dollar annual paid media spend, where you beat ROAS and CAC targets and lower CAC over time."</div></div>
+      <div class="quote"><div class="q">"AI-driven operating leverage, building agents, automations, and AI-assisted workflows that compress campaign turnaround."</div></div>
+      <div class="quote"><div class="q">"Measurement and attribution... owning event-based tracking, pixels, and conversion APIs so the data stays clean."</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>Plug Power, $100K/month across 4 channels:</b> Google Ads, Microsoft Ads, Meta and LinkedIn run at once for multiple business units, with -25% CPA and a 50% cut in cost per lead through an automated WordPress-to-Pardot flow.</div></div>
+      <div class="proof"><div class="p"><b>Applied Materials, AI agents on Claude:</b> automated my own recurring forecasting and market-sizing reporting, the same "automated parts of your own job" signal the posting names directly.</div></div>
+      <div class="proof"><div class="p"><b>Plug Power, closed-loop reporting:</b> automated the Salesforce, Adobe Analytics, GA and Google Tag Manager stack for event-based, closed-loop attribution across paid channels.</div></div>
+      <div class="proof"><div class="p"><b>Pixis, ROAS at scale:</b> Amplitude and Tableau on user behavior across 30+ campaigns lifted blended campaign ROAS 40%, on top of a 3x-in-a-month result for one client.</div></div>
+    </div>
+  </div>
+  <div class="brand">PERFORMANCE MARKETING PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The Plug Power and Pixis proof, in depth</div>
+  <h2>Own the budget, beat the target, then <span class="accent">automate the reporting so the next test starts sooner.</span></h2>
+  <div class="lede">Same pattern at two different budget scales: full ownership of the channel mix, a measured result against CAC or ROAS, and an automation that removed a manual step from the next cycle.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">-25% CPA</div>
+      <div class="lbl">Plug Power, Paid Search + Social</div>
+      <div class="desc">Bid optimization and A/B testing across Google Ads, Microsoft Ads, Meta and LinkedIn on a $100K/month budget spanning multiple business units.</div>
+    </div>
+    <div class="stat">
+      <div class="n">3x ROAS</div>
+      <div class="lbl">Pixis, One-Month Turnaround</div>
+      <div class="desc">Full-funnel restructuring for a fashion client: shopping feed cleanup, smart bidding, creative refresh and lookalike expansion, not one isolated lever.</div>
+    </div>
+    <div class="stat">
+      <div class="n">-50% CPL</div>
+      <div class="lbl">Plug Power, Lead-Flow Automation</div>
+      <div class="desc">Automated the WordPress-to-Pardot handoff so lead cost fell without adding spend, the same instinct AI agents extend further today.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">The common thread: none of these were single-channel wins. Each one closed the loop from spend to a business metric someone else was accountable for, then automated a piece of the process so the next quarter started faster.</div>
+  <div class="brand">PERFORMANCE MARKETING PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month owning Vercel's paid acquisition engine looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Map spend to the two buyer motions</div>
+      <div class="body">Pull current spend and CAC by channel and by motion (self-serve signup versus enterprise pipeline), and sit with Product Marketing, Lifecycle and Data to find where the two motions are sharing a campaign that should be split, or splitting one that should share.</div>
+      <div class="why"><strong>Why first:</strong> the same first move behind every channel I have owned. The gap is visible in the data before anyone has framed it as one problem.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Stand up the AI-assisted testing loop</div>
+      <div class="body">Build the first agent or automation that removes a manual step from creative or audience testing, whichever is the current bottleneck, and run it against a live test so the win is measured, not theoretical.</div>
+      <div class="why"><strong>Why now:</strong> the same move that cut cost per lead 50% at Plug Power and cuts my own reporting time today at Applied Materials.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Report the first CAC trendline to leadership</div>
+      <div class="body">Bring event-based tracking and attribution current enough to show one real trendline: CAC by channel and by motion, moving in the right direction, with the next test already queued behind it.</div>
+      <div class="why"><strong>Why this fast:</strong> a clean number beats a plan. Every role on my resume has been measured by the metric moving, not the deck describing it.</div>
+    </div>
+  </div>
+  <div class="brand">PERFORMANCE MARKETING PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to turn paid acquisition into a compounding loop across two buyers, with AI doing real work in that loop. I have already run that pattern at two different budget scales.</h2>
+  <div class="body">
+    <p>The core proof is Plug Power and Pixis together: <strong>-25% CPA</strong> owning $100K/month across Google, Microsoft, Meta and LinkedIn, and <strong>3x ROAS in one month</strong> carrying P&amp;L for an 8-client paid-media portfolio, both closed with automation, not just spend.</p>
+    <p>What is harder to find is someone who has already made AI load-bearing in their own reporting, not a slide about AI. At Applied Materials I automate my own forecasting with agents built on Claude, because rebuilding the same report every cycle is time that should go to the next test instead.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-growth-ai.vercel.app/ref/vercel</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">PERFORMANCE MARKETING PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
