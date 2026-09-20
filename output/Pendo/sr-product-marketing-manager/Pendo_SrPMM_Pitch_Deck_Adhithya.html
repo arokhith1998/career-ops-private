@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Pendo Sr. Product Marketing Manager Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #7c3aed; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 28pt; font-weight: 800; color: #0f172a; line-height: 1.12; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 20pt; font-weight: 800; color: #0f172a; line-height: 1.12; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #7c3aed; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.7in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #ede9fe 100%); }
+  .cover h1 { font-size: 27pt; max-width: 11.3in; }
+  .cover .sub { font-size: 14pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 18pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #7c3aed; font-weight: 700; }
+  .cover .who { margin-top: 18pt; padding-top: 11pt; border-top: 1.5pt solid #7c3aed; max-width: 9.4in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #7c3aed; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #f3effe; border-left: 3pt solid #7c3aed; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #5b21b6; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #7c3aed; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #f3effe; border-left: 4pt solid #7c3aed; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #5b21b6; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #7c3aed; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 23pt; font-weight: 800; color: #7c3aed; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #7c3aed; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #7c3aed; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #7c3aed; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #ede9fe 100%); }
+  .close h2 { font-size: 25pt; max-width: 10.6in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.6in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #7c3aed; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Pendo Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Pendo Sr. Product Marketing Manager</div>
+  <h1>Pendo sells the idea that usage data, not opinion, should drive the roadmap. That is a harder story to tell an enterprise buyer than a feature list, and it is the exact translation work I have already been doing.</h1>
+  <div class="sub">Enterprise solutions messaging, packaging built with Product and Sales instead of handed to them, and the AI fluency that keeps the content pipeline moving as fast as the deals do.</div>
+  <div class="tags">
+    <div class="tag"><strong>$2M+ first-year revenue</strong> on a positioning and GTM story I built from technical specs at Sensata</div>
+    <div class="tag"><strong>+30% win rate</strong> from enterprise sales enablement built for 50+ reps</div>
+    <div class="tag"><strong>30+ OEM/distributor interviews</strong> used to test and iterate messaging before launch</div>
+    <div class="tag"><strong>AI agents built on Claude</strong> automating my own recurring analysis at Applied Materials</div>
+    <div class="tag"><strong>Market sizing with Sales, Engineering and Accounts</strong> so packaging starts from one shared view</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-product-ai.vercel.app/ref/pendo</div>
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>The role is not "write the messaging." It is turning technical product depth into <span class="accent">a narrative three different teams can sell the same way.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What that actually requires</h4>
+      <div class="line">An enterprise buyer does not evaluate a feature list. They need product capability translated into a buyer-focused narrative that survives a procurement review, not just a demo.</div>
+      <div class="line">Product, Sales and Marketing each package an offering differently unless someone owns the translation between them, and that ownership has to hold across presentations, case studies and white papers at once.</div>
+      <div class="line">AI has to be load-bearing in how that content ships, not a line in a tools list, because an ambiguous, fast-moving environment does not wait for a slow content cycle.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run</h4>
+      <div class="line">At <b>Sensata</b>, I turned new sensing products into a GTM and positioning story that non-technical buyers could act on, driving $2M+ in first-year revenue.</div>
+      <div class="line">At <b>Sensata</b> again, I built the sales enablement, presentations and case studies that carried 50+ reps through live enterprise deals, and win rates moved 30%.</div>
+      <div class="line">At <b>Applied Materials</b> today, I automate my own recurring market-sizing and forecasting work with AI agents built on Claude, the exact fluency this posting names by name.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">The through-line: every narrative I have shipped had to survive contact with Sales, Engineering and a skeptical enterprise buyer at the same time, and I have already made AI part of how that content gets produced, not a slide about AI.</div>
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The mandate, mapped</div>
+  <h2>What the posting asks for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Owning enterprise solutions messaging and translating product capabilities into buyer-focused narratives."</div></div>
+      <div class="quote"><div class="q">"Partnering with Product, Sales, and Marketing teams to package offerings."</div></div>
+      <div class="quote"><div class="q">"AI fluency, including comfort working in an AI-shaped environment, and using AI tools."</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>Sensata, GTM to $2M+ revenue:</b> owned positioning and messaging for new sensing products across North America and Europe, translating technical specs into buyer-focused narratives that drove first-year revenue and a 15% lift in conversion.</div></div>
+      <div class="proof"><div class="p"><b>Applied Materials, market sizing across teams:</b> sized the semiconductor market with Sales, Engineering and Accounts together, so packaging and pricing start from one shared view instead of three competing ones.</div></div>
+      <div class="proof"><div class="p"><b>Applied Materials, AI agents on Claude:</b> automated my own recurring forecasting and market-sizing analysis, the same "AI fluency" and "AI-shaped environment" language this posting uses.</div></div>
+      <div class="proof"><div class="p"><b>Sensata, 30+ customer interviews:</b> tested and iterated messaging with OEMs and distributors before it shipped, then tracked competitor moves across EMEA and the US the same way.</div></div>
+    </div>
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The Sensata proof, in depth</div>
+  <h2>Own the narrative, arm the sellers, then <span class="accent">keep testing the message against the market.</span></h2>
+  <div class="lede">Same pattern across two Sensata roles: translate the technical story, put it in the hands of the people carrying deals, then measure whether it actually moved a number.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$2M+</div>
+      <div class="lbl">First-Year Revenue, New Sensing Products</div>
+      <div class="desc">GTM, positioning and messaging built from technical specs for buyers across North America and Europe, plus a 15% conversion lift on priority launches.</div>
+    </div>
+    <div class="stat">
+      <div class="n">+30% Win Rate</div>
+      <div class="lbl">Enterprise Sales Enablement</div>
+      <div class="desc">Presentations, case studies and sales decks built for 50+ reps carrying live enterprise deals, backed with direct product expertise.</div>
+    </div>
+    <div class="stat">
+      <div class="n">30+ Interviews</div>
+      <div class="lbl">Message Testing With OEMs and Distributors</div>
+      <div class="desc">Structured interviews that tested and iterated messaging before it shipped, lifting CSAT 22% on the accounts that gave feedback.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">The common thread: none of these were a positioning doc that sat in a folder. Each one closed the loop from message to a number Sales or the customer was accountable for.</div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month owning Pendo's enterprise narrative looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Pressure-test the current narrative</div>
+      <div class="body">Sit with Product, Sales and the CS team that lives inside product usage data every day, and map where the current enterprise story does and does not survive a procurement conversation. Pull the last 10-15 lost enterprise deals for pattern signal.</div>
+      <div class="why"><strong>Why first:</strong> the same first move behind the Sensata GTM work, listening to where the message breaks before rewriting it.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Rebuild one packaging story with Product and Sales</div>
+      <div class="body">Pick the offering where technical capability and buyer-facing narrative sit furthest apart, and rebuild its positioning, presentations and case study together with the teams that will actually sell it, not for them.</div>
+      <div class="why"><strong>Why now:</strong> the same cross-functional build that moved Sensata's win rate 30% instead of shipping a deck no one used.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Stand up the AI-assisted content loop</div>
+      <div class="body">Build the first agent or automation that removes a manual step from turning competitive research or customer interviews into enterprise-facing content, and run it against a live piece of collateral so the win is measured.</div>
+      <div class="why"><strong>Why this fast:</strong> the same habit that keeps my own reporting moving at Applied Materials today, not a plan for someday.</div>
+    </div>
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to turn technical product depth into a narrative Product, Sales and Marketing can all sell the same way. I have already run that pattern, twice, at Sensata.</h2>
+  <div class="body">
+    <p>The core proof is one Sensata arc: <strong>$2M+ first-year revenue</strong> from GTM and positioning built out of technical specs, then <strong>+30% win rate</strong> once that story was armed with sales enablement for 50+ reps carrying live deals.</p>
+    <p>What is harder to find is someone who has already made AI load-bearing in their own analysis, not a line item. At Applied Materials I automate my own market-sizing and forecasting work with agents built on Claude, because rebuilding the same report every cycle is time that should go into the next piece of enterprise content.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-product-ai.vercel.app/ref/pendo</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
