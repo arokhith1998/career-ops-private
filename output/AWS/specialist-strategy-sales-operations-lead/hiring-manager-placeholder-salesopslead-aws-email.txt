@@ -1,0 +1,24 @@
+Subject: A strategy partner for ASP, not just an operations hire
+
+Hi {Hiring Manager, AWS Specialist Strategy & Sales Operations},
+
+I do not normally reach out before applying, but the posting draws a line most sales-ops reqs blur: a trusted advisor who translates data into strategy, not someone who just keeps the dashboards current. That is the seat I want.
+
+Built you a 6-slide pitch deck so the proof fits on one read.
+
+Proof points that map to the req:
+- Built Sensata's Bleeders and Leakers Power BI dashboard, 1,200 pricing opportunities against a $627M target tracked by win rate, dollar per win and pipeline stage, by salesperson and product line, surfacing $433M in margin gaps leadership then prioritized by owner.
+- At PriceKeel, the company I founded, I run the CRM and CPQ, the forecast and pipeline reviews and the deal approvals myself, and built the audit trail Finance checks a decision against directly.
+- At Sensata I also built the sales enablement and case studies that got 50-plus reps actually using a new pitch, the adoption problem behind any AI sales tool rollout.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/aws
+
+Would 15 minutes work to walk through how I would approach the first 90 days on ASP's operating cadence? Happy to be redirected if I have the wrong contact.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+Phone: +1-929-563-9974
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
