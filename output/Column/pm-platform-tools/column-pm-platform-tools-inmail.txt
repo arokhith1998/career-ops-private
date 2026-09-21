@@ -1,0 +1,20 @@
+Subject: Column's first PM hire: a founder's take on zero-to-one risk
+
+Hi {Recruiter, Product & Engineering},
+
+Building Column's Risk platform with no roadmap to inherit sounds like the exact problem I have been solving since May, running my own company, PriceKeel, from a blank page.
+
+At PriceKeel I built a guardrail engine that flags a deal exception against a company's own closed-won and closed-lost pattern, then keeps the audit trail Finance can check instead of trusting memory. Before founding it, I built the rule-based flagging model behind Sensata's Bleeders and Leakers program, catching margin bleed across 1,200 pricing opportunities and recovering $700K+ in two quarters, then owned a 100+ feature roadmap end to end.
+
+I've attached my resume and cover letter.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/column
+
+If you have 15 minutes this week, I would like to hear how you're scoping the first version of the platform.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
