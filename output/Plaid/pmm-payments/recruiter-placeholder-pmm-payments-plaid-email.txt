@@ -2,14 +2,14 @@ Subject: Product Marketing Manager, Payments - positioning that already ships
 
 Hi {Recruiter, Plaid Payments},
 
-I don't normally reach out before applying, but the line about harnessing Plaid's network, coverage, intelligence and conversion, to make Plaid the method of choice for Billers, Fintechs and Financial Institutions is the kind of positioning brief I already write, not one I'd be learning on the job.
+I don't normally reach out before applying, but the line about making Plaid the method of choice for Billers, Fintechs and Financial Institutions is the kind of positioning brief I already write, not one I'd be learning on the job.
 
-Put together a resume and cover letter that map straight onto this req, plus a portfolio walkthrough.
+Put together a resume and cover letter mapped to this req, plus a portfolio walkthrough.
 
 A few things that carry over directly:
-- Built the GTM and positioning for new sensing products at Sensata: $2M+ in first-year revenue, turning technical specs into a customer-facing story.
-- Ran competitive benchmarking across 10+ players to reposition pricing, +12% YoY revenue and +8% market share.
-- Built sales enablement (decks, case studies) for 50+ reps carrying live enterprise deals, win rates up 30%.
+- Built the GTM and positioning for new sensing products at Sensata: $2M+ first-year revenue, turning technical specs into a customer story.
+- Ran competitive benchmarking across 10+ players behind a repricing move: +12% YoY revenue, +8% market share.
+- Built sales enablement (decks, case studies) for 50+ reps, win rates up 30%.
 
 Here's the portfolio: https://adhi-product-ai.vercel.app/ref/plaid
 
