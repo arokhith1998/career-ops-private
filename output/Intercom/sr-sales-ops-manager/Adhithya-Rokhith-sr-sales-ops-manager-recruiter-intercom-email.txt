@@ -1,0 +1,28 @@
+Subject: Senior Sales Operations Manager, Intercom: the line about six teams needing one metric dictionary
+
+Hi {Recruiter, Sales Operations},
+
+I do not normally reach out before applying, but the way this posting names six groups, Sales, Finance, Business Systems, Data Engineering, Marketing and GTM leadership, that this role has to bridge is a wider brief than most sales ops reqs write down, and it is the part of the job I already run day to day.
+
+Built you a 6-slide pitch deck so the proof fits on one read before a call happens.
+
+A few pieces of it:
+
+Built the FY2026 Bleeders and Leakers Power BI dashboard at Sensata, ranking 1,200 pricing opportunities against a $627M target across 3 regions and 20 product lines, the same funnel-health and conversion visibility your dashboards and reporting section asks for.
+
+Recovered $700K+ in margin in two quarters off that dashboard, then redesigned distributor and channel-partner deal structures to lift margins from 53% to 61%, the same eliminate-operational-bottlenecks work your posting names.
+
+Run CRM, CPQ, forecast and pipeline reviews end to end today as founder of PriceKeel, with an audit trail that gives Finance one consistent definition of a clean deal, the data governance instinct your posting asks someone to own.
+
+Build forecasting and market-sizing models at Applied Materials and automate recurring reporting with Claude AI agents, the AI fluency line your posting calls out directly.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/intercom
+
+If this req sits on your desk, I would like 15 minutes to hear how Fin is scoping the forecasting and metric-definition work as the org scales, and the deck's first-30-days slide is there if it is a faster read than a resume. If it belongs to someone else's queue, a pointer in the right direction helps just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

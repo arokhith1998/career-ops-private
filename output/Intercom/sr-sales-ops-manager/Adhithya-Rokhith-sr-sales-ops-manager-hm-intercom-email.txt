@@ -1,0 +1,28 @@
+Subject: Senior Sales Operations Manager, Intercom: forecasting and quota data that stop agreeing with each other
+
+Hi {Hiring Manager, Sales Operations},
+
+I do not normally cold-email a hiring manager, but translate business requirements into scalable CRM and BI solutions is a narrower and harder brief than own the CRM, and it reads closer to founder work than to a standard ops-analyst job, which is why I wanted you to hear it directly rather than through a form.
+
+Built you a 6-slide pitch deck mapping that exact loop onto the req.
+
+Proof that maps to it:
+
+At Sensata I built the Bleeders and Leakers Power BI dashboard, one consistent definition of pipeline stage, win rate and margin across 3 regions and 20 product lines, ranking 1,200 opportunities against a $627M target, the funnel-health and conversion view your posting describes wanting.
+
+I did not stop at the report. I redesigned the deal structures underneath the worst margin gaps and routed the fix through Finance and Sales sign-off, which is why the 53% to 61% distributor margin lift held past the first quarter, the eliminate-operational-bottlenecks half of this role.
+
+I run that same loop today as founder of PriceKeel: set up and operate CRM, CPQ, forecast and pipeline reviews and deal approvals, and built the audit trail Finance actually points to, the systems-and-governance instinct behind establish data governance and consistent metric definitions.
+
+At Applied Materials I automate recurring forecasting and reporting work with Claude AI agents, the use AI tools and automation to reduce manual work line your posting names.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/intercom
+
+I would like 15 minutes to hear how your team is scoping territory planning and capacity work as Fin scales inside Salesforce, and the deck's first-30-days slide is there if it is faster than a resume. If this sits on someone else's team, no worries either way.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
