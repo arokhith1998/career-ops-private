@@ -1,0 +1,28 @@
+Subject: Airwallex Paid Search: localization is the hard part, not the launch
+
+Hi {Hiring Manager, Paid Search},
+
+Your posting asks the SEM manager to "collaborate with product marketing, analytics, and regional marketing teams to localize campaigns and align messaging" across multiple markets, not run the same English-language playbook everywhere and call it global. That's the part most SEM postings skip past, and it's the part I've actually built, so I'm writing directly instead of waiting on a form.
+
+I put together a 6-slide deck that argues this with real campaign work across regions, not a generic SEM pitch.
+
+Some of what's in it:
+
+At Pixis I ran PPC and paid search for 8 client accounts, several in non-English international markets, managing an 8-person team against per-client budgets of $15K-$90K per month, where localizing meant rebuilding the keyword set and bid strategy for how people in that market actually search, not translating the US one.
+
+At Sensata I owned GTM for new sensing products across North America and Europe, aligning paid and email campaign messaging with product marketing across regions, which drove +35% qualified leads and $2M+ in first-year revenue.
+
+At Plug Power I owned $100K per month in paid search and paid social across Google Ads, Microsoft Ads, Meta and LinkedIn, forecasting spend and presenting the plan to leadership for approval, then testing bid strategy and ad copy to cut CPA 25%.
+
+I run AI agents built on Claude in production today at Applied Materials, choosing the automation approach per problem so campaign QA does not eat into the strategy work this role is actually asking for.
+
+Here's the portfolio: https://adhi-growth-ai.vercel.app/ref/airwallex
+
+I'd like 15 minutes to hear how your team is sequencing the localization work market by market, and to see whether the Pixis and Sensata work is the right shape of proof. The deck's testing roadmap section is there if it's a faster way to judge fit than a resume. If Airwallex already has its person for this, no hard feelings either way.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

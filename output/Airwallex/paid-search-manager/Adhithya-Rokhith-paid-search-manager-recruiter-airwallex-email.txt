@@ -1,0 +1,28 @@
+Subject: Manager, Performance Marketing, Paid Search: the A/B test line before the budget line
+
+Hi {Recruiter, Performance Marketing},
+
+The line that stopped me was "design and run A/B tests for ad copy, landing pages, and bidding strategies to continuously improve campaign results." Most SEM manager postings open with a budget figure and leave the testing loop as a bullet near the bottom; this one puts the test loop first, and running that loop end to end, not just launching campaigns and watching a dashboard, is closer to how I've actually operated than a title search would find, so I'm reaching out before applying through the portal.
+
+I put together a 6-slide deck that maps my paid search work directly to what this role owns, so the proof fits in one read before a call happens.
+
+A few pieces of it:
+
+Owned $100K per month in paid search at Plug Power across Google Ads and Microsoft Ads, testing bid strategy and ad copy variants against keyword-level research, which cut CPA 25% and wasted spend 15% in the same pass.
+
+Ran PPC across 8 client accounts at Pixis, several in non-English international markets, on per-client budgets of $15K-$90K per month, and used Amplitude and Tableau to turn campaign data into ROAS lifts of 40% across 30+ campaigns.
+
+Built KPI frameworks in SQL and GA4 on 50K+ connected devices at Sensata to isolate high-intent cohorts, then partnered with product marketing to align messaging across regions, the same cross-functional loop this role calls for.
+
+Run AI agents built on Claude in production today at Applied Materials, so the reporting and optimization grind that eats an SEM manager's week gets automated instead of eating into strategy time.
+
+Here's the portfolio: https://adhi-growth-ai.vercel.app/ref/airwallex
+
+If this is your req, I'd like 15 minutes to walk through how the Plug Power and Pixis testing work maps onto Airwallex's multi-market SEM program. The deck covers the testing roadmap in more depth, so we can skip the getting-to-know-you part if that helps. If it belongs on someone else's desk instead, a pointer in the right direction would help too.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
