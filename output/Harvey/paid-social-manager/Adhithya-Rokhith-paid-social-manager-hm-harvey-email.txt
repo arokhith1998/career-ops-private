@@ -1,0 +1,28 @@
+Subject: Paid social at Harvey: the testing framework that keeps working after the campaign already works
+
+Hi {Hiring Manager, Paid Social},
+
+Harvey's stated value is "Job's Not Finished," never satisfied with where you are. Most performance marketing postings ask someone to manage campaigns that already work. Yours asks for testing frameworks and best practices that keep improving performance after that point, which is a different job, and it is the one I have actually built rather than described in a title.
+
+I put together a 6-slide deck that shows the testing and audience-strategy muscle behind that claim, not a generic paid social pitch.
+
+Some of what is in it:
+
+At Pixis I ran creative, bidding and lookalike experiments across an 8-client, $15K-$90K per client per month portfolio, and one fashion client's full-funnel rebuild, feed cleanup, smart bidding, lookalike expansion, delivered 3x ROAS in a single month.
+
+At GenY Medium I built a testing loop across Google Merchant and Meta catalog ads that got a D2C brand to 16x ROAS, the same iteration cadence this role's "improve performance over time" line is asking for.
+
+At Plug Power I automated Salesforce, Adobe Analytics and Google Tag Manager into one attribution pipeline, then used it to run bid and creative tests that cut CPA 25% on $100K per month across Meta and LinkedIn.
+
+I run AI agents built on Claude in production today at Applied Materials, choosing the automation approach per problem so experiment velocity does not get eaten by reporting overhead.
+
+Here's the portfolio: https://adhi-growth-ai.vercel.app/ref/harvey
+
+I would like 15 minutes to hear how your team is sequencing the testing roadmap across LinkedIn, Meta and the emerging channels the posting flags, and to see whether the Pixis and GenY Medium work is the right shape of proof. The deck's testing roadmap section is there if it is a faster read than a resume. If Harvey already has its person for this, no hard feelings either way.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

@@ -1,0 +1,28 @@
+Subject: Senior Performance Marketing Manager, Paid Social: selling a category legal buyers don't budget for yet
+
+Hi {Recruiter, Performance Marketing},
+
+The line that stopped me in this posting was "reaching legal decision-makers across law firms and corporate legal departments worldwide." Most enterprise paid social reqs ask someone to defend an existing budget line; this one is asking someone to build account-based targeting for buyers who are still deciding whether agentic AI belongs in their stack at all, which is a harder and more specific problem than the title suggests, so I am reaching out before I formally apply.
+
+I put together a 6-slide deck that maps my enterprise paid social and audience-strategy work directly onto that problem, so the proof fits in one read before a call happens.
+
+A few pieces of it:
+
+Ran an 8-client, $15K-$90K per client per month paid social portfolio at Pixis, building first-party and lookalike audience segments in Amplitude and Tableau instead of platform defaults, and lifted ROAS 40% across 30+ campaigns.
+
+Owned $100K per month in paid search and paid social at Plug Power across Meta, LinkedIn, Google and Microsoft, and automated the Salesforce, Adobe Analytics and Google Tag Manager stack so attribution held up without a manual pull.
+
+Built SQL and GA4 KPI frameworks at Sensata to isolate high-intent enterprise cohorts on 50K+ connected devices, the same account-based read this role needs applied to law firms and corporate legal departments instead of industrial buyers.
+
+Run AI agents built on Claude in production today at Applied Materials, so I am already operating inside the frontier-agentic mindset Harvey is selling, not just writing ad copy around it.
+
+Here's the portfolio: https://adhi-growth-ai.vercel.app/ref/harvey
+
+If this is your req, I would like 15 minutes to walk through how the Pixis and Plug Power audience work maps onto legal and corporate buyers, and the deck's testing section covers where I would start on LinkedIn versus Meta allocation. If it sits on someone else's desk, a pointer in the right direction would help too.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
