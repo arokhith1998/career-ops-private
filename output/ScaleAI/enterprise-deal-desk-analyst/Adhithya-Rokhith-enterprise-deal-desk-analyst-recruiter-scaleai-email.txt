@@ -1,0 +1,28 @@
+Subject: Enterprise Deal Desk Analyst, Scale AI: the line about tracking your own cycle time
+
+Hi {Recruiter, Deal Desk},
+
+I don't normally reach out before applying, but the line "tracks deal approval cycle time and surfaces trends to inform process improvements" stopped me. Most deal desk reqs ask someone to run pricing and stop there; yours asks the analyst to also measure the approval process itself and report on its own speed, which is a narrower and harder brief than the title suggests.
+
+I put together a 6-slide deck mapping deal-pricing and deal-structuring work directly onto that brief, so the proof fits in one read before a call happens.
+
+A few pieces of it:
+
+Built the FY2026 Bleeders and Leakers Power BI dashboard at Sensata, tracking 1,200 pricing opportunities against a $627M target across 3 regions and 20 product lines, the same deal-status, pricing and margin visibility your Pricing and Deal Status Reporting section describes wanting.
+
+Recovered $700K+ in margin in two quarters by negotiating fixes that dashboard surfaced, then repriced distributor and channel-partner terms to lift margins from 53% to 61%, the deal-structuring half of this role.
+
+Routed multimillion-dollar customer quotes through Finance, Sales and Legal sign-off alongside senior executives at Sensata, the same stakeholder chain your Cross-Functional Deal Coordination section names.
+
+Building an audit trail and a discount guardrail engine at PriceKeel today, an automated version of the exact approval-bottleneck problem your Process Optimization section flags.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/scale-ai
+
+If this is your req, I would like 15 minutes to hear how Deal Desk is scoping the cycle-time work, and the deck's process-optimization slide is there if it is a faster read. If it sits on someone else's desk, a pointer in the right direction helps just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
