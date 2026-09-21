@@ -1,0 +1,28 @@
+Subject: Airwallex Spend PMM: the roadmap loop, not just the launch
+
+Hi {Hiring Manager, Product Marketing},
+
+Your posting asks the Spend PMM to "leverage qualitative and quantitative insights across channels, customers and product to influence and enhance the product roadmap," not just ship positioning and hand it off. That loop back into the roadmap is the part most PMM postings treat as a nice-to-have, and it is the part I have actually built, so I am writing directly instead of waiting on a form.
+
+I put together a 6-slide deck that argues Spend gets bought the moment Finance trusts the number a rep just quoted, and maps my work to that case directly.
+
+Some of what's in it:
+
+At Sensata I recovered $700K+ in margin in two quarters by leading Bleeders & Leakers, pricing negotiations built on competitive research and customer willingness to pay, the same value-proposition work this role is asking someone to own.
+
+I ran 30+ customer interviews with OEMs and distributors at Sensata, turning technical features into value propositions that lifted conversion 15% on priority launches and CSAT 22%.
+
+I founded PriceKeel, a decision-integrity layer that gives RevOps, Sales and Finance an audit trail for every discount decision, the closest analog I know of to what a Spend suite has to prove to its own buyers.
+
+I run AI agents built on Claude in production today at Applied Materials, choosing the automation approach per problem so the insight-gathering grind does not crowd out the positioning work.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/airwallex
+
+I would like 15 minutes to hear how your team closes the loop from customer insight back to the Spend roadmap, and whether the Sensata and PriceKeel work is the right shape of proof. The deck's first slide makes the Finance-trust case in more depth if that is a faster read than a resume. If Airwallex already has its person for this, no hard feelings either way.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
