@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Airwallex Paid Social Manager Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #1a56db; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 27pt; font-weight: 800; color: #0f172a; line-height: 1.15; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 19pt; font-weight: 800; color: #0f172a; line-height: 1.16; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #1a56db; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.8in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbeafe 100%); }
+  .cover h1 { font-size: 24pt; max-width: 11.3in; }
+  .cover .sub { font-size: 13pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; max-width: 10.8in; }
+  .cover .tags { margin-top: 16pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.6in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9pt; font-weight: 500; }
+  .tag strong { color: #1a56db; font-weight: 700; }
+  .cover .who { margin-top: 16pt; padding-top: 10pt; border-top: 1.5pt solid #1a56db; max-width: 9.4in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #1a56db; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #eff6ff; border-left: 3pt solid #1a56db; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #1e3a8a; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #1a56db; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.4pt; color: #334155; line-height: 1.46; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 13pt; background: #eff6ff; border-left: 4pt solid #1a56db; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #1e3a8a; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 21pt; font-weight: 800; color: #1a56db; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.3pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.6pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #1a56db; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.3pt; font-weight: 800; color: #0f172a; line-height: 1.18; margin-bottom: 7pt; }
+  .card .body { font-size: 8.8pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.3pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #1a56db; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbeafe 100%); }
+  .close h2 { font-size: 22pt; max-width: 10.8in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.8in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #1a56db; font-weight: 700; }
+  .close .contact { margin-top: 15pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Airwallex Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Airwallex Manager, Performance Marketing, Paid Social</div>
+  <h1>Most B2B paid social programs report CTR and CVR. Very few tie a LinkedIn or Meta dollar all the way to a Salesforce opportunity. I already built that closed loop at $100K/month scale.</h1>
+  <div class="sub">Audience-to-CRM discipline, SQL-level segmentation, and a testing roadmap built to hit CAC and pipeline targets, not just funnel metrics.</div>
+  <div class="tags">
+    <div class="tag"><strong>$100K/month</strong> - LinkedIn, Meta, Google and Microsoft Ads budgets owned end to end at Plug Power</div>
+    <div class="tag"><strong>CPA -25% / CPL -50%</strong> - from bid optimization plus a Salesforce-to-ad-platform closed loop</div>
+    <div class="tag"><strong>8 clients, $15K-$90K/month each</strong> - audience segmentation and churn -50% at Pixis</div>
+    <div class="tag"><strong>SQL + GA4</strong> - KPI frameworks across 50K+ devices to find and target high-intent cohorts</div>
+    <div class="tag"><strong>AI agents on Claude</strong> - in production use today, Applied Materials</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-growth-ai.vercel.app/ref/airwallex</div>
+  </div>
+  <div class="brand">AIRWALLEX PAID SOCIAL PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>Scaling LinkedIn and Meta spend for SME and mid-market buyers is not a creative problem. It is <span class="accent">a data-plumbing problem wearing a media-buying costume.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What that actually requires</h4>
+      <div class="line">Building audience frameworks from firmographic, behavioral and CRM signals, not just platform-native lookalikes, so spend reaches the SME and mid-market accounts that actually convert.</div>
+      <div class="line">Keeping Salesforce and Marketo in the loop on every campaign, so a lead becomes a contact, an opportunity and eventually a dollar of pipeline the CRM can trace back to the ad.</div>
+      <div class="line">Running pacing, bid strategy and budget allocation against CAC and ROI targets, with a testing roadmap across creative, bidding and audience that keeps improving the numbers instead of guessing.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already built at that layer</h4>
+      <div class="line">Automated the <b>Salesforce, Adobe Analytics, GA and Google Tag Manager</b> stack at Plug Power for closed-loop attribution, tying LinkedIn and Meta spend to MQL quality and stage 1 pipeline instead of clicks.</div>
+      <div class="line">Built <b>KPI frameworks in SQL and GA4</b> across 50K+ connected devices at Sensata to segment high-intent cohorts before a dollar of spend went against them.</div>
+      <div class="line">Ran a <b>structured testing roadmap</b> across bidding, creative and audience at Plug Power (15+ A/B tests, 50+ campaigns) and at Pixis (full-funnel restructuring for 3x ROAS in one month).</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">The through-line: I do not just run LinkedIn and Meta campaigns. I have already built the CRM-to-ad-platform loop that makes SME and mid-market spend accountable to pipeline, which is the actual hard problem inside "paid social manager."</div>
+  </div>
+  <div class="brand">AIRWALLEX PAID SOCIAL PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The mandate, mapped</div>
+  <h2>What the posting is asking for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Own end-to-end LinkedIn and Meta campaign strategy, build, and optimization across the funnel."</div></div>
+      <div class="quote"><div class="q">"Design and scale audience enrichment frameworks... leveraging firmographic, behavioral, and CRM-based signals."</div></div>
+      <div class="quote"><div class="q">"Manage pacing, bid strategies, and budget allocation to deliver performance within CAC and ROI targets."</div></div>
+      <div class="quote"><div class="q">"Query campaign and CRM data using SQL or data tools... to identify patterns and optimization opportunities."</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>Plug Power, $100K/month:</b> owned LinkedIn, Meta, Google Ads and Microsoft Ads budgets end to end, building the pacing and forecast plans presented to leadership for approval.</div></div>
+      <div class="proof"><div class="p"><b>Sensata + Pixis:</b> built KPI frameworks in SQL/GA4 across 50K+ devices and used Amplitude/Tableau to build the audience segments behind a 40% ROAS lift, the same behavioral-signal work this posting calls audience enrichment.</div></div>
+      <div class="proof"><div class="p"><b>Plug Power, bid discipline:</b> bid optimization and creative testing cut CPA 25%, with keyword and audience tuning trimming wasted spend 15% against the same budget.</div></div>
+      <div class="proof"><div class="p"><b>Plug Power, CRM loop:</b> automated Salesforce, Adobe Analytics, GA and Google Tag Manager for closed-loop reporting, the SQL-to-CRM query work this role is asking for.</div></div>
+    </div>
+  </div>
+  <div class="brand">AIRWALLEX PAID SOCIAL PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The closed-loop proof, in depth</div>
+  <h2>Plug Power: pacing, bid discipline and a CRM tie-back, <span class="accent">not three separate jobs.</span></h2>
+  <div class="lede">Built as the pacing, bid and CRM-attribution system behind paid social and paid search across multiple business units, not run as one flat budget line.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$100K/mo</div>
+      <div class="lbl">Paid Social &amp; Search Budget Owned</div>
+      <div class="desc">LinkedIn, Meta, Google Ads and Microsoft Ads, planned and paced against leadership-approved forecasts.</div>
+    </div>
+    <div class="stat">
+      <div class="n">25% / 50%</div>
+      <div class="lbl">CPA Cut / Cost Per Lead Cut</div>
+      <div class="desc">From bid optimization plus an automated Salesforce-to-ad-platform closed loop, not manual reporting.</div>
+    </div>
+    <div class="stat">
+      <div class="n">15+ / 50+</div>
+      <div class="lbl">A/B Tests / Inbound Campaigns</div>
+      <div class="desc">A testing roadmap across creative, bidding and keyword strategy that also lifted organic visibility 35%.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">The same audience-to-CRM instinct shows up at Pixis: I built the segments behind a 40% ROAS lift for 8 clients running $15K-$90K/month each, and cut churn 50% by watching account-level behavior, not just channel-level metrics.</div>
+  <div class="brand">AIRWALLEX PAID SOCIAL PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month owning Airwallex's paid social program would look like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Sit with the CRM before the ad accounts</div>
+      <div class="body">Pull Salesforce pipeline-stage data first to see which SME and mid-market segments already convert, the same audience-first move that shaped the KPI frameworks at Sensata.</div>
+      <div class="why"><strong>Why first:</strong> an audience framework built on platform data alone misses the segments Salesforce already knows convert.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Wire the closed loop, then test against it</div>
+      <div class="body">Stand up the same UTM, pixel and offline-conversion tracking that closed the loop at Plug Power, then run the first creative, bidding and audience tests against real MQL-to-SQL data instead of platform-reported conversions.</div>
+      <div class="why"><strong>Why now:</strong> testing without a CRM tie-back optimizes for the wrong number.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Turn the first pipeline read into the roadmap</div>
+      <div class="body">Use what the first closed-loop numbers say about CAC and pipeline contribution to set the next quarter's testing roadmap across creative, bidding and audience, the same handoff that took Plug Power's early reads to a -25% CPA program.</div>
+      <div class="why"><strong>Why this fast:</strong> a paid social program earns its next budget by showing the pipeline math, not the CTR.</div>
+    </div>
+  </div>
+  <div class="brand">AIRWALLEX PAID SOCIAL PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>Airwallex needs someone who treats LinkedIn and Meta spend as a CRM problem first and a media-buying problem second. I have already built that closed loop at $100K/month scale.</h2>
+  <div class="body">
+    <p>The core proof is Plug Power together with the audience-segmentation work at Sensata and Pixis: a <strong>Salesforce-to-ad-platform closed loop</strong> that cut CPA 25% and cost per lead 50%, and the <strong>SQL, GA4 and Amplitude discipline</strong> that builds an audience from CRM and behavioral signal instead of a platform's default lookalike.</p>
+    <p>What's harder to find is someone who has run that loop at scale and can also read a market and forecast where it moves next, the market-sizing and forecasting work carried today at Applied Materials, so pacing decisions hold up past the current quarter.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-growth-ai.vercel.app/ref/airwallex</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">AIRWALLEX PAID SOCIAL PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
