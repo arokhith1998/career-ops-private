@@ -2,11 +2,11 @@ Subject: Pricing Analyst, Lending: the 25% that keeps execution honest
 
 Hi {Hiring Manager, Pricing},
 
-Your posting splits this role 60/25/15 across execution, controls and cross-functional work, and that middle bucket, exception-detection dashboards that catch a pricing deployment before it drifts, is where I have spent the last year.
+Your posting splits this role 60/25/15 across execution, controls and cross-functional work, and that middle bucket, exception-detection dashboards that catch a deployment before it drifts, is where I have spent the last year.
 
-At Sensata I built a BU-wide Power BI price-increase model flagging line items where a change could lift profitability more than 50%, on top of the FY2026 Bleeders and Leakers dashboard tracking 1,200 pricing opportunities across 3 regions and 20 product lines. That surfaced $433M in margin shortfalls I then helped recover, closing $700K+ in two quarters and repricing distributor terms from 53% to 61% by working the system change directly with Engineering, not just the strategy behind it.
+At Sensata I built a BU-wide Power BI price-increase model flagging line items where a change could lift profitability more than 50%, on top of the FY2026 Bleeders and Leakers dashboard tracking 1,200 pricing opportunities across 3 regions and 20 product lines, surfacing $433M in margin shortfalls I then helped recover: $700K+ closed in two quarters, distributor terms repriced from 53% to 61% by working the system change directly with Engineering.
 
-At Applied Materials I now automate that kind of repetitive validation work with Claude AI agents, and at PriceKeel I run the audit trail myself so Finance can see the evidence behind every decision.
+At Applied Materials I now automate that kind of validation work with Claude AI agents, and at PriceKeel I run the audit trail myself so Finance sees the evidence behind every decision.
 
 I've attached my resume and cover letter.
 
