@@ -2,15 +2,15 @@ Subject: Product Manager, Platform Tools: turning tribal risk calls into a produ
 
 Hi {Hiring Manager, Product & Engineering},
 
-Your posting draws a hard line between the risk calls a machine should make and the ones that stay human. I think that line is the actual product, not a feature of it, and most fintechs ship the guardrails after the fraud, not before.
+Your posting draws a hard line between the risk calls a machine should make and the ones that stay human. I think that line is the actual product, not a feature of it.
 
-At PriceKeel, the company I founded, I built a guardrail engine that flags a pricing exception against a company's own closed-won and closed-lost pattern, then keeps the audit trail Finance can check instead of trusting memory, close to turning a manual, tribal-knowledge judgment into a real product. Before that, at Sensata I built the rule-based flagging model behind the Bleeders and Leakers program, catching margin bleed across 1,200 pricing opportunities and recovering $700K+ in two quarters, then owned a 100+ feature roadmap end to end with no playbook to inherit. At Applied Materials I run that same machine-versus-human split through AI agents built on Claude.
+At PriceKeel, the company I founded, I built a guardrail engine that flags a pricing exception against a company's own closed-won and closed-lost pattern, then keeps the audit trail Finance can check instead of trusting memory. Before that, at Sensata I built the rule-based flagging model behind the Bleeders and Leakers program, catching margin bleed across 1,200 pricing opportunities and recovering $700K+ in two quarters, then owned a 100+ feature roadmap with no playbook to inherit. At Applied Materials I run that same split through AI agents built on Claude.
 
 I've attached my resume and cover letter.
 
 Here's the portfolio: https://adhi-product-ai.vercel.app/ref/column
 
-Would you have 15 minutes to talk through how you're scoping the first version of the Risk platform? Happy to be pointed elsewhere if this sits with a different team.
+Would you have 15 minutes to talk through how you're scoping the platform's first version? Happy to be pointed elsewhere if this sits with a different team.
 
 Thank you,
 

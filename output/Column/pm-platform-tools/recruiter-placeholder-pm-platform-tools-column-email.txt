@@ -2,9 +2,9 @@ Subject: Product Manager, Platform Tools: Column's first PM hire on Risk
 
 Hi {Recruiter, Product & Engineering},
 
-Your posting says this is the first Product Manager Column has ever hired, with no roadmap to inherit and no "how we've always done it." That is the exact opening I look for, so I am writing before applying cold.
+Your posting says this is the first Product Manager Column has ever hired, with no roadmap to inherit. That is the exact opening I look for, so I'm writing before applying cold.
 
-At Sensata I owned the roadmap and a 100+ feature backlog for sensor products with no existing playbook to inherit, running Agile with Engineering across 3 regions. As Pricing Lead there, I built the rule-based flagging model behind the Bleeders and Leakers program, catching margin bleed across 1,200 pricing opportunities and recovering $700K+ in two quarters, the kind of "how do we know something's wrong" problem your Risk platform is solving. At Applied Materials I build AI agents on Claude to decide which judgment calls a machine should make and which stay human.
+At Sensata I owned a 100+ feature roadmap with no existing playbook to inherit, then built the rule-based flagging model behind the Bleeders and Leakers program, catching margin bleed across 1,200 pricing opportunities and recovering $700K+ in two quarters, the same problem your Risk platform is solving. At Applied Materials I build AI agents on Claude to split machine judgment calls from human ones.
 
 I've attached my resume and cover letter.
 
