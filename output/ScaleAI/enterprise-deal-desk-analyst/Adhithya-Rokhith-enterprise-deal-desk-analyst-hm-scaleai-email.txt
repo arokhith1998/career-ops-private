@@ -1,0 +1,28 @@
+Subject: Deal Desk at Scale AI: ROI modeling for the deals that don't fit the standard framework
+
+Hi {Hiring Manager, Deal Desk},
+
+I don't normally cold-email a hiring manager, but "designs customer-specific deal structures for non-standard or complex deals" describes almost exactly the work I already do, and I wanted you to hear it directly rather than through a form.
+
+The proof point I would lead with: at Sensata I repriced distributor and channel-partner terms to lift margins from 53% to 61% in under two quarters, and the fix only held because Finance signed off on the model and Sales confirmed what a partner would actually accept before it shipped, the same non-standard structuring your posting names.
+
+More that maps to this role:
+
+Built the FY2026 Bleeders and Leakers Power BI dashboard tracking 1,200 pricing opportunities against a $627M target across 3 regions and 20 product lines, plus a price-increase model flagging line items where a change could lift profitability more than 50%, ROI modeling in the shape this role asks for.
+
+Routed multimillion-dollar customer quotes through Finance, Sales and Legal alongside senior executives, coordinating the exact stakeholder set your Cross-Functional Deal Coordination section lists.
+
+Founded PriceKeel to build the audit trail and discount guardrail engine that gives Finance evidence for a pricing exception instead of a gut call, which is the standardization your Process Optimization section is asking someone to own.
+
+At Applied Materials I build the value-based pricing and forecasting models that carry my own P&L targets, so the ROI modeling half of this role is not a new muscle.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/scale-ai
+
+I would like 15 minutes to hear how your team scopes the non-standard deals, and the deck's process-optimization slide is there if it is faster than a resume. If Scale already has its person for this, no worries either way.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
