@@ -1,0 +1,28 @@
+Subject: Manager, Performance Marketing, Paid Social: the CRM-to-ad-platform line
+
+Hi {Recruiter, Performance Marketing},
+
+The line in this posting that stopped me was "connect audience data, ad systems, and CRM workflows into a cohesive, high-performing growth engine." Most paid social postings just ask for platform reps on LinkedIn and Meta; this one is asking for someone who already treats the CRM as the starting point for an audience, not an afterthought, and that is closer to how I have actually run paid social than a typical job title suggests, so I am reaching out before I formally apply.
+
+I put together a 6-slide deck that maps my SME and mid-market paid social work directly to what this role owns, so the proof fits in one read before a call ever happens.
+
+A few pieces of it:
+
+Ran an 8-client, $15K-$90K per client per month paid social and performance portfolio at Pixis, using Amplitude and Tableau to segment audiences by behavior instead of demographics, which lifted ROAS 40% across 30+ campaigns.
+
+Owned $100K per month in paid search and paid social at Plug Power across Google, Microsoft, Meta and LinkedIn, and automated the Salesforce, Adobe Analytics and Google Tag Manager stack so campaign and CRM data reconciled without a manual pull.
+
+Built SQL and GA4 KPI frameworks on 50K+ connected devices at Sensata to isolate high-intent cohorts, the same query-first approach this role wants applied to firmographic and CRM-based audience signals.
+
+Run AI agents built on Claude in production today at Applied Materials, so the campaign QA and reporting grind gets automated instead of eating into strategy time.
+
+Here's the portfolio: https://adhi-growth-ai.vercel.app/ref/airwallex
+
+If this is your req, I would like 15 minutes to walk through how the Pixis and Plug Power audience work maps onto Airwallex's SME and mid-market funnel. The deck's testing roadmap section covers where I would start, so we can skip the getting-to-know-you part if that helps. If it belongs on someone else's desk instead, a pointer in the right direction would help too.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

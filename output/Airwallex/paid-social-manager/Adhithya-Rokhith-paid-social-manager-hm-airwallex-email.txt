@@ -1,0 +1,28 @@
+Subject: Airwallex Paid Social: CRM data as the targeting engine, not the suppression list
+
+Hi {Hiring Manager, Paid Social},
+
+Most B2B paid social teams treat Salesforce and Marketo data as a suppression list bolted onto LinkedIn and Meta after the campaign is already live. Your posting asks for the opposite: audience architecture built from CRM and firmographic signals first, ad platforms second. That is the harder and more useful version of this job, and it is closer to what I have actually built, so I am writing directly instead of waiting on a form.
+
+I put together a 6-slide deck that argues this with real campaign and CRM work, not a generic paid social pitch.
+
+Some of what is in it:
+
+I hired and ran an 8-person team across 8 clients at Pixis, building audience segments in Amplitude and Tableau from behavioral data instead of platform defaults, and delivered 3x ROAS in one month for a fashion brand through a full-funnel rebuild: feed cleanup, smart bidding, creative refresh and lookalike expansion.
+
+At Plug Power I automated the Salesforce, Adobe Analytics and Google Tag Manager stack into one closed-loop reporting pipeline, then used it to cut CPA 25% through bid and creative testing on $100K per month across Meta and LinkedIn.
+
+I ran retail media (Amazon Ads, Criteo) and iOS app UA (Appsflyer, Adjust) at Pixis across non-English markets, so matching platform data to the right cohort across surfaces is not a new problem for me.
+
+I run AI agents built on Claude in production today at Applied Materials, choosing the automation approach per problem instead of defaulting to whichever tool is trending.
+
+Here's the portfolio: https://adhi-growth-ai.vercel.app/ref/airwallex
+
+I would like 15 minutes to hear how your team is prioritizing the testing roadmap across creative, bidding and audience strategy, and to see whether the Pixis and Plug Power work is the right shape of proof. The deck's testing roadmap section is there if it is a faster way to judge fit than a resume. If Airwallex already has its person for this, no hard feelings either way.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
