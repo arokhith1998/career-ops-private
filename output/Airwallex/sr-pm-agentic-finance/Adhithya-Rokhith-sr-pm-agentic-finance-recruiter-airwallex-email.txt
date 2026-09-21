@@ -1,0 +1,28 @@
+Subject: Senior PM, T:0 Agentic Finance: a deck built around your zero-to-one ask
+
+Hi {Recruiter, T:0 Agentic Finance},
+
+The line in this posting that stopped me was the one about moving up the value chain from finance infrastructure to finance work itself. That is a founder's problem before it is a roadmap item, and it is the exact shape of problem I spent the last year building for pricing decisions, so I am reaching out before formally applying.
+
+I put together a 6-slide deck that maps the T:0 mandate directly to what I have already shipped, so the proof fits in one read before a call ever happens.
+
+A few pieces of it:
+
+Founder and CEO at PriceKeel, where I designed an explainable discount guardrail engine and the audit trail Finance can check. That is the same trust problem T:0 is solving for payroll, bookkeeping and tax, just one layer over.
+
+Took a Sensata sensor line from a blank roadmap to a 100+ feature backlog zero-to-one across 3 regions, grounded in 30+ structured interviews with the engineers who had to live with what shipped, and cut time-to-market 20%.
+
+Shipped SwipeHire, an AI job-matching platform, zero-to-one on the OpenAI API: wrote the PRD, scoped the MVP, and onboarded 50+ early users off my own GTM and analytics stack.
+
+Run AI agents built on Claude in production today at Applied Materials, so choosing between prompting, fine-tuning, and a fully agentic workflow is already a daily call, not a new one.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/airwallex
+
+If this landed on your desk, I would like 15 minutes to walk through how the PriceKeel and Sensata work map onto T:0's zero-to-one mandate. The deck's first-30-days section covers what that would look like in practice, so we can skip the getting-to-know-you part if that is useful. If it belongs on someone else's desk instead, a pointer in the right direction would help.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

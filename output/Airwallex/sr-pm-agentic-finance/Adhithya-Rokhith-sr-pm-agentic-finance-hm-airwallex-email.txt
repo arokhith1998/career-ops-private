@@ -1,0 +1,28 @@
+Subject: T:0 Agentic Finance: the trust problem under the roadmap
+
+Hi {Hiring Manager, T:0 Agentic Finance},
+
+Most "agentic finance" pitches I have read this year are a dashboard with a chat window bolted on. If T:0 is actually trying to eliminate finance busywork, the hard part is not the model choice, it is getting a founder to trust an agent's decision on payroll or tax enough to stop double-checking it by hand. That is the problem your posting describes, and it is the one I have already built a version of, so I am reaching out directly rather than waiting on a form.
+
+I put together a 6-slide deck that argues this using PriceKeel and Sensata as proof, not a generic pitch about being AI-native.
+
+Some of what is in it:
+
+I designed the guardrail engine and audit trail for PriceKeel before writing a line of marketing copy, because a Finance decision has to earn trust before it earns adoption.
+
+I owned the zero-to-one call at Sensata end to end, Agile across 3 regions, prioritizing off 30+ structured interviews with the OEM engineers who had to live with what shipped, not a stakeholder wishlist, and it cut time-to-market 20%.
+
+I shipped SwipeHire's MVP on the OpenAI API myself, PRD to 50+ onboarded users, so I know firsthand what it costs to guess wrong about what a first agentic slice should do.
+
+I run AI agents built on Claude in production today at Applied Materials, choosing the approach per problem instead of defaulting to whichever technique is trending.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/airwallex
+
+I would like 15 minutes to hear how your team is framing the trust problem specifically, and to see whether the PriceKeel and Sensata work is the right shape of proof for what you are building. The deck's first-30-days section is there if it is a faster way to judge fit than a resume. If T:0 already has its person, no hard feelings either way.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

@@ -1,0 +1,11 @@
+Hi {Recruiter or Hiring Manager, T:0 Agentic Finance},
+
+Your posting talks about moving from finance infrastructure to finance work itself. That is a trust problem before it is a roadmap problem, and it is the one I built a version of at PriceKeel, where I designed an explainable pricing guardrail and the audit trail Finance can check.
+
+I also took a Sensata sensor line from a blank roadmap to a 100+ feature backlog zero-to-one across 3 regions, and I run AI agents built on Claude in production today at Applied Materials.
+
+I put together a 6-slide deck mapping that work directly to the T:0 mandate. Here's the portfolio: https://adhi-product-ai.vercel.app/ref/airwallex
+
+Open to 15 minutes if this is your req.
+
+Adhithya Rokhith Bhaskar
