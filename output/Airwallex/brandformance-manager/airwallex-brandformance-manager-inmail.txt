@@ -1,0 +1,11 @@
+Hi {Recruiter or Hiring Manager, Performance Marketing},
+
+Your posting asks one manager to define KPIs that bridge aided awareness with pipeline contribution, and to partner with Data Science on incrementality and halo, not just report a CAC number after the fact. That is the version of brandformance I have actually built.
+
+At Pixis I used Amplitude and Tableau to separate real lift from noise across an 8-client, $15K-$90K per client per month portfolio, the discipline behind one client's 3x ROAS in a month. At Sensata I built SQL and GA4 frameworks on 50K+ connected devices that lifted feature adoption 18% and fed a GTM launch worth $2M+ in first-year revenue.
+
+I built a resume, cover letter and portfolio case mapped to this exact req. Here's the portfolio: https://adhi-growth-ai.vercel.app/ref/airwallex
+
+Open to 15 minutes if this is your req.
+
+Adhithya Rokhith Bhaskar

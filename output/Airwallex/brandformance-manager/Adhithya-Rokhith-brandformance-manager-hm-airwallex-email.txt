@@ -1,0 +1,24 @@
+Subject: Airwallex Brandformance: halo lift is the hard part, not the CAC math
+
+Hi {Hiring Manager, Performance Marketing},
+
+Your posting names a problem most brand-to-performance reqs skip: partnering with Data Science to measure incrementality on every initiative, including how to plan for halo. That's harder than reporting CAC after the fact, and it's the measurement work I've actually built, so I'm writing directly.
+
+I put together a resume and cover letter mapped to that bridge between brand signal and pipeline math, with a portfolio case behind it.
+
+At Pixis I used Amplitude and Tableau to separate creative and targeting signal from real lift across an 8-client, $15K-$90K per client portfolio, the discipline behind one client's 3x ROAS in a month.
+
+At Sensata I built a Power BI dashboard tying 1,200 pricing opportunities to a $627M target across 3 regions, linking metrics to one bottom-line number.
+
+I also run AI agents built on Claude in production at Applied Materials, automating reporting so incrementality work gets the time.
+
+Here's the portfolio: https://adhi-growth-ai.vercel.app/ref/airwallex
+
+I'd like 15 minutes on how your team sequences incrementality testing here. If Airwallex already has someone for this, no hard feelings.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
