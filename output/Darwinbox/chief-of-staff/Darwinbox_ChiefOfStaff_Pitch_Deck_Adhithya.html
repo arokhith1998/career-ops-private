@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Darwinbox Chief of Staff Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #1a56db; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 25pt; font-weight: 800; color: #0f172a; line-height: 1.17; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 19pt; font-weight: 800; color: #0f172a; line-height: 1.16; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #1a56db; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.8in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbeafe 100%); }
+  .cover h1 { font-size: 22pt; max-width: 11.3in; }
+  .cover .sub { font-size: 13pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; max-width: 10.8in; }
+  .cover .tags { margin-top: 16pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.6in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9pt; font-weight: 500; }
+  .tag strong { color: #1a56db; font-weight: 700; }
+  .cover .who { margin-top: 16pt; padding-top: 10pt; border-top: 1.5pt solid #1a56db; max-width: 9.4in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #1a56db; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #eff6ff; border-left: 3pt solid #1a56db; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #1e3a8a; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #1a56db; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.4pt; color: #334155; line-height: 1.46; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 13pt; background: #eff6ff; border-left: 4pt solid #1a56db; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #1e3a8a; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 20pt; font-weight: 800; color: #1a56db; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.3pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.6pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #1a56db; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.3pt; font-weight: 800; color: #0f172a; line-height: 1.18; margin-bottom: 7pt; }
+  .card .body { font-size: 8.8pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.3pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #1a56db; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbeafe 100%); }
+  .close h2 { font-size: 22pt; max-width: 10.9in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.8in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #1a56db; font-weight: 700; }
+  .close .contact { margin-top: 15pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Darwinbox Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Darwinbox Chief of Staff</div>
+  <h1>Most Chief of Staff roles manage a leader's calendar. This one asks for someone who builds the operating system underneath the Co-Founder, and I already build that kind of system today.</h1>
+  <div class="sub">A record of turning ambiguous, cross-functional priorities into owners, decisions and a number, paired with AI-agent workflows already running in daily production, not a personal productivity hack.</div>
+  <div class="tags">
+    <div class="tag"><strong>$700K+ / 2 quarters</strong> - Bleeders &amp; Leakers margin recovery, from a vague mandate to a negotiated outcome</div>
+    <div class="tag"><strong>1,200 / $433M</strong> - pricing opportunities synthesized into one leadership shortlist</div>
+    <div class="tag"><strong>PriceKeel</strong> - founder and CEO, built the guardrail engine and audit trail myself</div>
+    <div class="tag"><strong>AI agents on Claude</strong> - in daily production use today at Applied Materials</div>
+    <div class="tag"><strong>5-consultant team</strong> - led market sizing end-to-end, presented to Safran leadership</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhithyabhaskar.vercel.app/ref/darwinbox</div>
+  </div>
+  <div class="brand">DARWINBOX CHIEF OF STAFF PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>Redesigning the operating system around a founder is not a coordination job. It is <span class="accent">a systems problem wearing an admin title.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What that actually requires</h4>
+      <div class="line">Turning loosely defined, ambiguous priorities into owners, decisions, cadence and a measurable outcome, without waiting for someone else to hand over a perfect mandate.</div>
+      <div class="line">Building AI-native ways of working for research, synthesis, monitoring and follow-through, so the mechanism keeps running when the Chief of Staff is not in the room.</div>
+      <div class="line">Orchestrating leadership across teams: resolving dependencies, challenging misalignment, and translating decisions into execution the org can actually run.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already built at that layer</h4>
+      <div class="line">Took the <b>Bleeders &amp; Leakers program</b> at Sensata from a vague "margin is leaking somewhere" mandate to a $433M shortlist and $700K+ recovered, negotiated in 2 quarters.</div>
+      <div class="line">Founded <b>PriceKeel</b> to build exactly this kind of decision mechanism: a guardrail engine and audit trail that lets Finance check a pricing call without calling the founder first.</div>
+      <div class="line">Run the <b>OKR cadence and leadership decks</b> that keep three different businesses aligned, automating the repetitive synthesis with AI agents built on Claude.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">The through-line: I have already built the intelligence layer and the AI-native cadence this role asks for, just before anyone called it a Chief of Staff job.</div>
+  </div>
+  <div class="brand">DARWINBOX CHIEF OF STAFF PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The mandate, mapped</div>
+  <h2>What the posting is asking for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Build the intelligence layer. Synthesize inputs across the business, surface signal and risks, and ensure the Co-Founder sees what matters, when it matters."</div></div>
+      <div class="quote"><div class="q">"Turn ambiguity into action. Take loosely defined priorities from problem definition to owners, decisions, cadence, and measurable outcomes."</div></div>
+      <div class="quote"><div class="q">"Make AI operational. Go beyond personal productivity, identify where AI can fundamentally change how work gets done."</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>Intelligence layer, built:</b> synthesized 1,200 scattered pricing opportunities across 3 regions and 20 product lines into one shortlist leadership could act on.</div></div>
+      <div class="proof"><div class="p"><b>Ambiguity to outcome:</b> took a vague margin mandate to a negotiated $700K+ recovery in 2 quarters, with the owners and cadence to keep it going.</div></div>
+      <div class="proof"><div class="p"><b>AI made operational:</b> AI agents built on Claude run daily at Applied Materials, cutting manual synthesis out of a recurring reporting cycle, not a personal habit.</div></div>
+      <div class="proof"><div class="p"><b>Decision mechanism, founder-side:</b> built PriceKeel's guardrail engine and audit trail myself, the same "explainable mechanism" language this role uses.</div></div>
+    </div>
+  </div>
+  <div class="brand">DARWINBOX CHIEF OF STAFF PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>Bleeders and Leakers: a vague margin mandate to a <span class="accent">negotiated number, with the mechanism that kept producing it.</span></h2>
+  <div class="lede">Built as the owner of a program with no existing dashboard, no existing owner list and no existing cadence, the same starting point a founder's "figure this out" priority usually looks like.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$700K+ / 2Q</div>
+      <div class="lbl">Margin Recovered</div>
+      <div class="desc">Negotiated from competitive gaps and customer willingness to pay, against a $627M target.</div>
+    </div>
+    <div class="stat">
+      <div class="n">1,200 / $433M</div>
+      <div class="lbl">Opportunities Synthesized</div>
+      <div class="desc">Scattered signal across 3 regions and 20 product lines, turned into one shortlist leadership could prioritize.</div>
+    </div>
+    <div class="stat">
+      <div class="n">53% to 61%</div>
+      <div class="lbl">Distributor Margin Lift</div>
+      <div class="desc">Repriced parts sold through distribution in under 2 quarters once the decision was made.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">The same instinct runs through PriceKeel and Applied Materials: build the decision mechanism and the AI-native cadence first, so the number keeps coming without a person re-doing the analysis every quarter.</div>
+  <div class="brand">DARWINBOX CHIEF OF STAFF PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month building the operating system around the Co-Founder would look like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Sit inside the actual signal</div>
+      <div class="body">Talk to the functions feeding the Co-Founder's agenda today to find where synthesis is manual, delayed or duplicated, the same audit that grounded the Bleeders &amp; Leakers program before a dashboard existed.</div>
+      <div class="why"><strong>Why first:</strong> an intelligence layer built on assumptions instead of real bottlenecks is the fastest way to miss the mark.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Ship the first AI-native mechanism</div>
+      <div class="body">Automate the highest-friction piece of research, monitoring or follow-through with an AI agent workflow, instrumented like the Claude-agent automation running at Applied Materials today.</div>
+      <div class="why"><strong>Why now:</strong> one measured mechanism that survives without you in the room beats a week-one list of ideas.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Turn the first win into the cadence</div>
+      <div class="body">Use what the first mechanism proved to set the OKR and review cadence the Co-Founder can run without a Chief of Staff re-explaining it every week.</div>
+      <div class="why"><strong>Why this fast:</strong> a cadence only earns trust by showing it moved a real decision first.</div>
+    </div>
+  </div>
+  <div class="brand">DARWINBOX CHIEF OF STAFF PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>Darwinbox needs someone who treats this seat as a systems problem, not a scheduling one. I have already built that system, twice.</h2>
+  <div class="body">
+    <p>The core proof is Sensata and PriceKeel together: a <strong>$700K+ margin program</strong> that started as a vague mandate and ended as a repeatable, owned mechanism, and an <strong>explainable decision guardrail and audit trail</strong> I designed myself for a founder who needed to stop being the bottleneck on every call.</p>
+    <p>What is harder to find is someone who has done that inside a large, multi-region business <strong>and</strong> founded their own company around the exact same problem, while already running AI agents on Claude in production rather than treating AI as a slide in a strategy deck. That combination is what this seat needs most.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhithyabhaskar.vercel.app/ref/darwinbox</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">DARWINBOX CHIEF OF STAFF PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
