@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Airwallex Product Marketing Manager, Spend Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #1a56db; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 27pt; font-weight: 800; color: #0f172a; line-height: 1.15; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 19pt; font-weight: 800; color: #0f172a; line-height: 1.16; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #1a56db; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.8in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbeafe 100%); }
+  .cover h1 { font-size: 25pt; max-width: 11.3in; }
+  .cover .sub { font-size: 13pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; max-width: 10.8in; }
+  .cover .tags { margin-top: 16pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.6in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9pt; font-weight: 500; }
+  .tag strong { color: #1a56db; font-weight: 700; }
+  .cover .who { margin-top: 16pt; padding-top: 10pt; border-top: 1.5pt solid #1a56db; max-width: 9.4in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #1a56db; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #eff6ff; border-left: 3pt solid #1a56db; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #1e3a8a; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #1a56db; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.4pt; color: #334155; line-height: 1.46; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 13pt; background: #eff6ff; border-left: 4pt solid #1a56db; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #1e3a8a; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 21pt; font-weight: 800; color: #1a56db; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.3pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.6pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #1a56db; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.3pt; font-weight: 800; color: #0f172a; line-height: 1.18; margin-bottom: 7pt; }
+  .card .body { font-size: 8.8pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.3pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #1a56db; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbeafe 100%); }
+  .close h2 { font-size: 23pt; max-width: 10.8in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.8in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #1a56db; font-weight: 700; }
+  .close .contact { margin-top: 15pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Airwallex Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Airwallex Product Marketing Manager, Spend</div>
+  <h1>Spend products do not get bought on features. They get bought the moment Finance trusts the number a rep just quoted. I have spent two years building exactly that trust, on both sides of the table.</h1>
+  <div class="sub">A positioning and enablement track record built for upmarket deal cycles, paired with a pricing background that knows why a finance buyer hesitates before they say so out loud.</div>
+  <div class="tags">
+    <div class="tag"><strong>Sensata GTM</strong> - owned positioning, pricing, channel and launch zero-to-one, $2M+ first-year revenue</div>
+    <div class="tag"><strong>50+ reps / +30%</strong> - enablement decks and case studies that lifted win rates upmarket</div>
+    <div class="tag"><strong>PriceKeel</strong> - founder and CEO, built the explainable discount guardrail and audit trail Finance can check</div>
+    <div class="tag"><strong>+12% YoY revenue</strong> - price-realignment decisions as Pricing Lead, benchmarked across 10+ players</div>
+    <div class="tag"><strong>AI agents on Claude</strong> - in production use today, Applied Materials</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-product-ai.vercel.app/ref/airwallex</div>
+  </div>
+  <div class="brand">AIRWALLEX SPEND PMM PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>Consistent positioning for the Spend suite is not a messaging exercise. It is <span class="accent">a trust problem wearing a marketing brief.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What that actually requires</h4>
+      <div class="line">Bridging customer, commercial and product teams so the same value story survives the trip from spec sheet, to sales deck, to a finance buyer's inbox, without drifting three different ways.</div>
+      <div class="line">Winning upmarket deal cycles against single-purpose spend tools with a simpler pitch, which means enablement assets have to shorten the deal cycle, not just describe the product one more time.</div>
+      <div class="line">Grounding every positioning call in real qualitative and quantitative signal, because global and regional teams will not adopt a message on faith alone.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already built at that trust layer</h4>
+      <div class="line">Owned <b>GTM end to end</b> for a new Sensata product line, turning spec-sheet features into customer value language that lifted conversion 15%, then built the enablement decks and case studies that lifted win rates 30% across 50+ reps.</div>
+      <div class="line">Founded <b>PriceKeel</b> to solve the finance-trust half directly: an explainable discount guardrail and the audit trail Finance can check, so a fast pricing decision does not cost its own verification.</div>
+      <div class="line">Ran <b>30+ structured customer interviews</b> before writing a line of messaging, then checked that read against SQL and GA4 usage data across 50K+ devices before it shipped.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">The through-line: I have already built the sales-enablement half of this problem and the finance-trust half, just on two different products.</div>
+  </div>
+  <div class="brand">AIRWALLEX SPEND PMM PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The mandate, mapped</div>
+  <h2>What the Spend PMM posting is asking for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Deliver consistency and simplicity in our product positioning in the market... with a focus on our Spend suite of products."</div></div>
+      <div class="quote"><div class="q">"Develop compelling and high-impact enablement assets that equip upmarket sales teams to accelerate deal cycles and win key accounts."</div></div>
+      <div class="quote"><div class="q">"Leverage qualitative and quantitative insights across channels, customers and product to influence and enhance the product roadmap."</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>Sensata GTM, zero-to-one:</b> owned positioning, pricing, channel and launch for a brand-new product line end to end, driving $2M+ in first-year revenue.</div></div>
+      <div class="proof"><div class="p"><b>Sales enablement:</b> decks and case studies for 50+ reps that lifted win rates 30%, the exact "shorten the deal cycle" job the Spend suite needs upmarket.</div></div>
+      <div class="proof"><div class="p"><b>Insight into roadmap:</b> 30+ customer interviews plus SQL and GA4 usage data across 50K+ devices, feeding the roadmap and lifting adoption 18%.</div></div>
+      <div class="proof"><div class="p"><b>PriceKeel and Pricing Lead:</b> the finance-trust and deal-desk side of positioning a money product, not just the marketing side of it.</div></div>
+    </div>
+  </div>
+  <div class="brand">AIRWALLEX SPEND PMM PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The zero-to-one proof, in depth</div>
+  <h2>Sensata: a blank product line to a $2M+ launch, <span class="accent">grounded in the people who had to buy it.</span></h2>
+  <div class="lede">Built as the GTM owner for a brand-new sensing line, positioning, pricing, channel and launch, not handed a positioning brief to execute after the fact.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">30+</div>
+      <div class="lbl">Structured Customer Interviews</div>
+      <div class="desc">OEM and distributor buyers, heard from before a single line of messaging got written.</div>
+    </div>
+    <div class="stat">
+      <div class="n">50+ / 30%</div>
+      <div class="lbl">Reps Enabled / Win-Rate Lift</div>
+      <div class="desc">Decks and case studies that gave upmarket teams one consistent pitch instead of five different ones.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$2M+ / 15%</div>
+      <div class="lbl">First-Year Revenue / Conversion Lift</div>
+      <div class="desc">The result of turning spec-sheet features into customer value language, not the other way around.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">The same instinct runs through PriceKeel: a positioning claim about a finance decision only holds up once the audit trail behind it survives a second look from Finance.</div>
+  <div class="brand">AIRWALLEX SPEND PMM PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month on the Spend positioning and enablement seat would look like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Sit with the buyer, not the brief</div>
+      <div class="body">Talk to Spend customers, upmarket sales and product to find exactly where the current pitch breaks down, the same move that grounded the Sensata launch before any deck existed.</div>
+      <div class="why"><strong>Why first:</strong> a positioning refresh built on assumptions instead of real deal-cycle friction is the fastest way to miss the mark.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Rebuild the asset reps actually reach for</div>
+      <div class="body">Ship the enablement deck or case study most likely to shorten the deal cycle fastest, instrumented the way the Sensata launch was, so it is measured before it scales.</div>
+      <div class="why"><strong>Why now:</strong> a library of unused collateral is a worse outcome than one asset reps actually pull up mid-call.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Turn the first proof point into the global update</div>
+      <div class="body">Use what closed and what reps actually used to refresh positioning across regions, the same handoff that took Sensata's launch from one line to a repeatable playbook.</div>
+      <div class="why"><strong>Why this fast:</strong> a positioning update only earns global rollout by showing it moved a real deal first.</div>
+    </div>
+  </div>
+  <div class="brand">AIRWALLEX SPEND PMM PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>Spend needs positioning a finance buyer trusts and enablement an upmarket rep will actually use. I have already built both halves.</h2>
+  <div class="body">
+    <p>The core proof is Sensata and PriceKeel together: a <strong>$2M+ zero-to-one GTM launch</strong> with enablement that lifted win rates 30% across 50+ reps, and an <strong>explainable pricing guardrail and audit trail</strong> I designed myself for the finance-trust side of a money decision.</p>
+    <p>What is harder to find is someone who has shipped the upmarket enablement half of this job <strong>and</strong> understands why a finance buyer hesitates on the other side of the table. That combination is what a Spend positioning hire needs most.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-product-ai.vercel.app/ref/airwallex</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">AIRWALLEX SPEND PMM PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
