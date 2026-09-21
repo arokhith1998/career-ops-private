@@ -1,0 +1,28 @@
+Subject: Revenue Operations Lead, Affirm: the seat that owns process and the Salesforce rules under it
+
+Hi {Recruiter, Revenue Operations},
+
+I do not normally reach out before applying, but this posting pairs two jobs that usually live in different seats: owning mid-funnel stage definitions and territory governance, and partnering with Business Systems on the Salesforce opportunity layouts and territory rules those definitions actually run on. Most revops leads hand the systems half to an admin and keep the process half; this req wants one person accountable for both, and that split is closer to how I already work than a standard pipeline-hygiene brief.
+
+Built you a 6-slide pitch deck so the proof fits on one read.
+
+A few pieces of it:
+
+Built the FY2026 Bleeders and Leakers Power BI dashboard at Sensata, prioritizing 1,200 pricing opportunities against a $627M target across 3 regions and 20 product lines, with win rate, stage distribution and a $433M margin shortfall surfaced by rep and product line, the same stage-definition and pipeline-hygiene instrumentation a mid-funnel operating model runs on.
+
+Redesigned distributor and channel-partner deal structures off that dashboard, recovering $700K+ in margin in two quarters and holding the 53% to 61% margin lift past the first quarter, a rule change that had to survive an ownership transition rather than just look good on the day it shipped.
+
+Run CRM, CPQ, forecast and pipeline reviews end to end today as founder of PriceKeel, including the documentation and audit trail Finance and Legal can both point to, the same change-management discipline the Business Systems partnership on this req asks for.
+
+Build forecasting and market-sizing models across multiple product groups at Applied Materials and automate the recurring reporting with Claude AI agents, the instrumentation habit that keeps forecasting inputs clean once territory rules start moving.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/affirm
+
+15 minutes would help me understand how much of the Salesforce opportunity-layout work sits with this seat versus Business Systems today, and the deck's first-30-days slide is there if it is the faster read. If this is not your req, a nudge toward whoever owns it would help just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

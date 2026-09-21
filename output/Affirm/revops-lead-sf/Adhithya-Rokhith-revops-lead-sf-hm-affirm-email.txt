@@ -1,0 +1,28 @@
+Subject: Revenue Operations Lead, Affirm: segmentation logic that holds once accounts move
+
+Hi {Hiring Manager, Revenue Operations},
+
+I do not normally cold-email a hiring manager, but "account scoring, ownership routing, and managing transitions at scale" is a narrower ask than most territory-design briefs, and it usually breaks on the transitions, not the scoring model. That is the part of a coverage model I have actually rebuilt rather than inherited already clean, and it is why this req stood out over a standard revops-analyst posting.
+
+Built you a 6-slide pitch deck mapping that experience onto the req.
+
+Proof that maps to it:
+
+At Sensata I built the regional and product-line scorecards inside the Bleeders and Leakers dashboard, scoring and ranking 1,200 opportunities against a $627M target by rep and product line across 3 regions and 20 product lines, the same account-scoring and prioritization logic a territory model needs before ownership routing can hold.
+
+Off that scoring model I redesigned distributor and channel-partner deal structures on my own initiative, recovering $700K+ in margin in two quarters and holding the 53% to 61% margin lift through the next ownership cycle, not just the quarter it shipped.
+
+I run that same governance loop today as founder of PriceKeel: CRM, CPQ, forecast and pipeline reviews and deal approvals, with a documented audit trail Finance and Legal can both point to when a rule changes.
+
+I also built sales enablement, decks and case studies for 50+ reps at Sensata, lifting win rates 30%, and at Applied Materials I keep my own forecasting inputs clean by automating the reporting with Claude AI agents, the instrumentation habit forecasting accuracy depends on once territory hygiene work starts.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/affirm
+
+If the segmentation logic and account-scoring model are still being drawn, I would like 15 minutes to hear how ownership transitions get handled today, and the deck's first slide maps directly onto that question. If this sits on someone else's team, a pointer would help just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
