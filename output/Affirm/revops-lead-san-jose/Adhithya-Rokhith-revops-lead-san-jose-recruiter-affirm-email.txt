@@ -1,0 +1,28 @@
+Subject: Revenue Operations Lead, Affirm: one operating rhythm across four GTM motions
+
+Hi {Recruiter, Revenue Operations},
+
+I do not normally reach out before applying, but the posting asks for one person to be the primary RevOps partner to Sales, ISV, Strategic Partnerships and Marketplace at the same time, with territory hygiene and clean ownership transitions running underneath all four. That is not a single-team ops brief, it is a coverage-model problem, and it is the part of the job I already run rather than one I am learning on the job.
+
+Built you a 6-slide pitch deck so the proof fits on one read.
+
+A few pieces of it:
+
+Built the FY2026 Bleeders and Leakers Power BI dashboard at Sensata, ranking 1,200 pricing opportunities against a $627M target across 3 regions and 20 product lines, with win rate, stage distribution and a $433M margin gap surfaced for leadership to prioritize by rep and product line, the pipeline hygiene and prioritization work a mid-funnel operating model runs on.
+
+Redesigned distributor and channel-partner deal structures off that same dashboard, recovering $700K+ in margin in two quarters and holding the 53% to 61% margin lift past the first quarter, the kind of rule change that has to survive an ownership transition, not just look good on the day it ships.
+
+Set up and run CRM, CPQ, forecast and pipeline reviews end to end today as founder of PriceKeel, including the audit trail Finance actually points to, the same documentation and change-management discipline your posting asks someone to own across Legal, Product and Analytics.
+
+Build forecasting and market-sizing models across multiple product groups at Applied Materials and automate the recurring reporting with Claude AI agents, the instrumentation habit that keeps forecasting inputs clean as coverage scales.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/affirm
+
+15 minutes would help me understand how the mid-funnel handoffs between Sales, ISV and Marketplace are scoped today, and the deck's first-30-days slide is there if it is a faster read than the resume. If this is not your req, a nudge toward whoever owns it would help just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
