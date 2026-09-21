@@ -1,0 +1,20 @@
+Subject: Consumer lending pricing that stays accurate after it ships
+
+Hi {Recruiter, Pricing},
+
+Your posting frames this role as a direct impact on SoFi's revenue by keeping pricing controls accurate after they deploy, not just when they launch. That is the part of pricing work most people underrate.
+
+At Sensata I built systematic validation into a Power BI dashboard tracking 1,200 pricing opportunities against a $627M target, then recovered $700K+ in margin in two quarters and repriced distributor terms from 53% to 61% by working the system change with Engineering directly.
+
+I now run PriceKeel, where I own the audit trail, CRM and deal approvals myself, and I've attached my resume and cover letter here.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/sofi
+
+Could we spend 15 minutes on how the Lending pricing team monitors deployments today?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

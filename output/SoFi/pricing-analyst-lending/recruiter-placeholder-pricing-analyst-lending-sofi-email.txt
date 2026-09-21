@@ -1,0 +1,22 @@
+Subject: Pricing Analyst, Lending: audit trails that hold up under governance
+
+Hi {Recruiter, Pricing},
+
+Your posting's line about enforcing governance through Jira and GitLab process controls, not just documenting a pricing decision after it ships, is the discipline I have been running since May.
+
+At Sensata I built the FY2026 Bleeders and Leakers Power BI dashboard: 1,200 pricing opportunities against a $627M target across 3 regions, 4 product families and 20 product lines, surfacing $433M in margin shortfalls for leadership to prioritize by line. I then recovered $700K+ of that margin in two quarters and repriced distributor terms from 53% to 61%, work that held because Engineering and Finance agreed on the system change before it deployed.
+
+I now run PriceKeel, where every pricing decision carries an audit trail Finance can review, and I own the CRM, CPQ and deal approvals myself.
+
+I've attached my resume and cover letter.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/sofi
+
+Would you have 15 minutes this week? If this req sits with someone else on your team, a pointer their way would help.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
