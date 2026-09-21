@@ -1,5 +1,5 @@
 {
-  "cursor": 14,
+  "cursor": 7,
   "runs": [
     {
       "at": "2026-09-19T06:03:46.194Z",
@@ -111,6 +111,22 @@
       ],
       "queries": 24,
       "rows": 195,
+      "health": "ok"
+    },
+    {
+      "at": "2026-09-21T11:10:17.800Z",
+      "terms": [
+        "india:Entrepreneur in Residence",
+        "us:Product Marketing Manager",
+        "us:Pricing Manager",
+        "us:Pricing Strategy",
+        "us:Revenue Operations",
+        "us:Product Manager",
+        "us:Strategic Marketing",
+        "us:Market Strategy"
+      ],
+      "queries": 30,
+      "rows": 229,
       "health": "ok"
     }
   ]

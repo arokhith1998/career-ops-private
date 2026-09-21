@@ -1,49 +1,30 @@
 source	sources	company	title	location	url	posted_ts	age_days	sponsorship_hint	salary	category
-websearch-agent	websearch-agent	Glance	Chief of Staff - Office of the CTO	Bengaluru, Karnataka, India	https://in.linkedin.com/jobs/view/chief-of-staff-office-of-the-cto-at-glance-2770774470
-websearch-agent	websearch-agent	Vedantu	Chief of Staff	Bengaluru, Karnataka, India	https://in.linkedin.com/jobs/view/chief-of-staff-at-vedantu-4435454052
-websearch-agent	websearch-agent	Veersa Technologies	Chief of Staff	India	https://in.linkedin.com/jobs/view/chief-of-staff-at-veersa-technologies-4413654653
-websearch-agent	websearch-agent	Vitonnix	Head of Growth & Digital Revenue (Founder Office role)	Gurugram, India	https://www.naukri.com/job-listings-head-of-growth-digital-revenue-salary-esops-founder-office-role-vitonnix-india-gurugram-3-to-8-years-220326003098
-websearch-agent	websearch-agent	Double Ticks	Head of Growth	Mumbai, India	https://www.naukri.com/job-listings-head-of-growth-double-ticks-mumbai-7-to-12-years-100326503360
-websearch-agent	websearch-agent	Superstuff	Head of Growth (Performance)	Remote, India	https://www.naukri.com/job-listings-head-of-growth-performance-superstuff-remote-5-to-10-years-171125502427
-websearch-agent	websearch-agent	Nilah Advisors	Chief of Staff	Bangalore Urban, India	https://wellfound.com/jobs/3965748-chief-of-staff
-websearch-agent	websearch-agent	Quizizz	Founder's Office Executive	Bangalore, India	https://www.instahyre.com/job-190223-founders-office-executive-at-quizizz-bangalore/
-websearch-agent	websearch-agent	SalesMonk.ai	Founder's Office Associate	Gurgaon, India	https://www.instahyre.com/job-401332-founders-office-associate-at-salesmonk-gurgaon/
-websearch-agent	websearch-agent	Flam	Founder's Office	Bangalore, India	https://www.instahyre.com/job-148431-founders-office-at-flam-bangalore/
-websearch-agent	websearch-agent	RupiCard	Founder's Office	Bangalore, India	https://www.instahyre.com/job-310199-founders-office-at-rupicard-bangalore/
-websearch-agent	websearch-agent	Leftlane Software	Founder's Office Associate (Product & Ops)	Hyderabad, India	https://www.instahyre.com/job-408826-founders-office-associate-product-ops-at-leftlane-software-hyderabad/
-websearch-agent	websearch-agent	Atomgrid	Founder's Office Associates	Bangalore, India	https://www.instahyre.com/job-325538-founders-office-associates-at-atomgrid-bangalore/
-websearch-agent	websearch-agent	Zingg	Founder's Office Generalist	Remote, India	https://www.instahyre.com/job-321134-founders-office-generalist-at-zingg-work-from-home/
-websearch-agent	websearch-agent	Lokal	Strategy & Ops (Founder's Office)	Bangalore, India	https://www.instahyre.com/job-201511-strategy-ops-founders-office-at-lokal-bangalore/
-websearch-agent	websearch-agent	Unnati (client: Full-Stack Diagnostics Health-Tech)	Chief of Staff	Delhi/Noida/Gurugram, India	https://cutshort.io/job/Chief-Of-Staff-Delhi-Noida-Gurugram-Unnati-4PftlGhn
-websearch-agent	websearch-agent	PGAGI	Founder's Office	Bengaluru, India	https://cutshort.io/job/Founder-s-Office-Bengaluru-Bangalore-PGAGI-bmNwZm9y
-websearch-agent	websearch-agent	Leadership Office (client, via iimjobs)	Chief of Staff - Strategy & Execution	India	https://www.iimjobs.com/j/chief-of-staff-strategy-and-execution-leadership-office-1666468
-websearch-agent	websearch-agent	Chtrbox	Chief of Staff	India	https://www.iimjobs.com/j/chtrbox-chief-of-staff-1685051
-websearch-agent	websearch-agent	Twilio	Pricing & Monetization Manager	San Francisco Bay Area, CA	https://boards.greenhouse.io/twilio/jobs/6139050
-websearch-agent	websearch-agent	Twilio	Senior Manager, Pricing and Monetization	San Francisco Bay Area, CA	https://boards.greenhouse.io/twilio/jobs/4947196
-websearch-agent	websearch-agent	Calendly	Staff Product Manager, Monetization	Remote (SF Bay Area preferred)	https://boards.greenhouse.io/calendly/jobs/7739728002
-websearch-agent	websearch-agent	Intercom	Senior Pricing Analyst	Remote US	https://boards.greenhouse.io/intercom/jobs/4761335
-websearch-agent	websearch-agent	Twilio	Senior Manager, FP&A (Segment Deal Desk)	Remote US	https://boards.greenhouse.io/twilio/jobs/4346503
-websearch-agent	websearch-agent	Drivetrain	Product Marketing Manager	San Francisco Bay Area, CA (remote-first)	https://jobs.lever.co/drivetrain/ba7f3003-5832-41c8-accd-3f5a174d68d6
-websearch-agent	websearch-agent	Jobgether	Senior Technical Product Marketing Manager	Remote US	https://jobs.lever.co/jobgether/6e7dcf8d-2ed9-49a9-8e35-588847d800da
-websearch-agent	websearch-agent	Anzen	Product Marketing Manager	San Francisco, CA or Remote	https://jobs.lever.co/anzen/8b094ce6-a210-42b5-bd53-32604eb27c7b
-websearch-agent	websearch-agent	AI Fund	Product Marketing Manager	San Francisco Bay Area, CA	https://jobs.lever.co/AIFund/a1e364bb-687c-4cb0-8c36-aa4651939da2
-websearch-agent	websearch-agent	AllTrails	Senior Product Marketing Manager	Remote US (SF preferred)	https://jobs.lever.co/alltrails/cd258cd8-64ca-42cc-8ac4-c94379e6448a
-websearch-agent	websearch-agent	Wealthfront	Lead Product Marketing Manager, Cash	Palo Alto, CA / Remote US	https://jobs.lever.co/wealthfront/30005dd5-c400-46ad-acf3-7ce26da7d807
-websearch-agent	websearch-agent	Veeva Systems	Product Marketing - Manager / Senior Manager	San Francisco Bay Area, CA	https://jobs.lever.co/veeva/21abdfb7-f1e1-44cd-b63f-ae47b3f47617
-websearch-agent	websearch-agent	Veeva Systems	Product Marketing - Associate Manager/Manager	San Francisco Bay Area, CA	https://jobs.lever.co/veeva/c695aa6e-5537-40a9-aedf-c35f6726dba3
-websearch-agent	websearch-agent	Pigment	Product Marketing Manager	San Francisco, CA	https://jobs.lever.co/pigment/9e3836bc-a7f7-4121-be7a-07520d99a425
-websearch-agent	websearch-agent	Recall	Revenue Operations Manager	San Francisco, CA (in person)	https://jobs.ashbyhq.com/recall/08a69e2e-6d92-4465-9805-086a741dcdac/application
-websearch-agent	websearch-agent	Percona	Revenue Operations Analyst Manager	Remote	https://jobs.ashbyhq.com/percona/7d2fb5f0-2c7f-4e29-9657-568980060634
-websearch-agent	websearch-agent	Assembled	Revenue Operations Lead	San Francisco Bay Area, CA	https://jobs.ashbyhq.com/assembledhq/f6e35481-fb99-4c57-abe6-ba3014391ad6
-websearch-agent	websearch-agent	Edia	Sr. Revenue Operations Specialist	San Francisco Bay Area, CA	https://jobs.ashbyhq.com/edia/b7167352-a6da-45c7-bb55-9dd708d86daf/application
-websearch-agent	websearch-agent	Nooks	Senior Revenue Operations Manager	San Francisco Bay Area, CA	https://jobs.ashbyhq.com/nooks/d8e07edf-3836-47de-a3f6-4b97674bc2b8
-websearch-agent	websearch-agent	Go Nimbly	RevOps Technical Program Manager, Revenue Operations	Remote	https://jobs.ashbyhq.com/go-nimbly/148f1293-2d6b-4f2e-b1a1-4c72649ff2cf/application
-websearch-agent	websearch-agent	Samsara	Senior Product Manager, Growth	Remote - SF Bay Area	https://boards.greenhouse.io/samsara/jobs/7700461
-websearch-agent	websearch-agent	Twilio	Product Manager (L3) - Engagement Suite	San Francisco Bay Area, CA	https://boards.greenhouse.io/twilio/jobs/5652472
-websearch-agent	websearch-agent	Twilio	Product Manager, Journeys Coordination	Remote US	https://boards.greenhouse.io/twilio/jobs/4934278
-websearch-agent	websearch-agent	Lendbuzz	Market Development Manager	San Francisco, CA	https://jobs.lever.co/lendbuzz/f1ae9640-920d-4d25-9c87-a501a05faf55
-websearch-agent	websearch-agent	Aera Technology	Field Marketing Manager	San Francisco Bay Area, CA	https://jobs.lever.co/aeratechnology/af684789-8412-437a-8b48-5ec22d0d2fdf
-websearch-agent	websearch-agent	Front	Field Marketing Manager - North America	San Francisco Bay Area, CA / Remote	https://jobs.ashbyhq.com/frontcareers/753e8c02-7b5a-440f-9dbc-83897a385fc5
-websearch-agent	websearch-agent	Webflow	Sales Operations Manager, Deal Desk	San Francisco, CA / US Remote	https://boards.greenhouse.io/webflow/jobs/4072224
-websearch-agent	websearch-agent	Anaplan	Deal Desk, Senior Analyst	San Francisco, CA / Remote	https://boards.greenhouse.io/anaplan/jobs/4886205002
-websearch-agent	websearch-agent	Intercom	Deal Desk Manager	San Francisco, CA	https://boards.greenhouse.io/intercom/jobs/2938440
+websearch-agent	websearch-agent	Hightouch	Product Marketing Manager	San Francisco, CA / Remote US		https://boards.greenhouse.io/hightouch/jobs/5358472004			$150,000-$185,000	marketing
+websearch-agent	websearch-agent	Pendo	Senior Product Marketing Manager	San Francisco Bay Area, CA		https://boards.greenhouse.io/pendo/jobs/6484774002			$115,000-$160,000	marketing
+websearch-agent	websearch-agent	Modern Health	Product Marketing Manager	Remote US		https://boards.greenhouse.io/modernhealth/jobs/6643677002				marketing
+websearch-agent	websearch-agent	Modern Health	Senior Product Marketing Manager	Remote US		https://boards.greenhouse.io/modernhealth/jobs/7054417002				marketing
+websearch-agent	websearch-agent	Samsara	Senior Product Marketing Manager	Bay Area / Remote US, Canada		https://boards.greenhouse.io/samsara/jobs/2583457				marketing
+websearch-agent	websearch-agent	Gusto	Senior Product Marketing Manager, Mid-Market	San Francisco, CA / Remote US		https://boards.greenhouse.io/gusto/jobs/3276095			$99,000-$181,000	marketing
+websearch-agent	websearch-agent	Degreed	Senior Product Marketing Manager	Remote US		https://boards.greenhouse.io/degreed/jobs/5077327004				marketing
+websearch-agent	websearch-agent	Simpplr	Sr. Product Marketing Manager	Remote US / San Francisco Bay Area		https://boards.greenhouse.io/simpplr/jobs/4662907004				marketing
+websearch-agent	websearch-agent	Checkr	Pricing Strategy Manager	San Francisco, CA		https://job-boards.greenhouse.io/checkr/jobs/6882404			$154,000-$181,000	pricing
+websearch-agent	websearch-agent	Recall	Revenue Operations Manager	San Francisco, CA (in person)		https://jobs.ashbyhq.com/recall/08a69e2e-6d92-4465-9805-086a741dcdac/application				revops
+websearch-agent	websearch-agent	hive.co	Revenue Operations Manager	USA, Remote		https://jobs.ashbyhq.com/hive.co/4e83cf48-d1fd-456b-a2ae-99239554968c				revops
+websearch-agent	websearch-agent	Percona	Revenue Operations Analyst Manager	Remote		https://jobs.ashbyhq.com/percona/7d2fb5f0-2c7f-4e29-9657-568980060634				revops
+websearch-agent	websearch-agent	incident.io	Revenue Operations Manager	Remote US / San Francisco		https://jobs.ashbyhq.com/incident/d5fcd0a8-d047-4993-95d8-a7eb6b431d8b				revops
+websearch-agent	websearch-agent	Nooks	Senior Revenue Operations Manager	San Francisco, CA / Remote US		https://jobs.ashbyhq.com/nooks/d8e07edf-3836-47de-a3f6-4b97674bc2b8				revops
+websearch-agent	websearch-agent	Twilio	Product Manager (L3), Engagement Suite	Remote US / San Francisco		https://boards.greenhouse.io/twilio/jobs/5652472				product
+websearch-agent	websearch-agent	Twilio	Product Manager, Journeys Coordination	Remote US / San Francisco		https://boards.greenhouse.io/twilio/jobs/4934278				product
+websearch-agent	websearch-agent	Glean	Deal Desk Manager	San Francisco Bay Area, CA (hybrid) / Remote US		https://www.builtinsf.com/job/deal-desk-manager/7789898				pricing
+websearch-agent	websearch-agent	Salesforce	Pricing Strategy Manager/Senior Manager	San Francisco, CA / Remote CA / Seattle / New York		https://careers.salesforce.com/en/jobs/jr321883/pricing-strategy-managersenior-manager/				pricing
+websearch-agent	websearch-agent	Meesho	Chief of Staff - CPO	Bengaluru, India		https://startup.jobs/chief-of-staff-cpo-meesho-7256311				chief_of_staff
+websearch-agent	websearch-agent	PGAGI	Founder's Office	Bengaluru, India		https://cutshort.io/job/Founder-s-Office-Bengaluru-Bangalore-PGAGI-bmNwZm9y				founders_office
+websearch-agent	websearch-agent	Cypherock Wallet	Founder's Office - Growth	Gurugram, India		https://wellfound.com/jobs/2053436-founder-s-office-growth				founders_office
+websearch-agent	websearch-agent	Vedantu	Chief of Staff	Bengaluru, Karnataka, India		https://in.linkedin.com/jobs/view/chief-of-staff-at-vedantu-4435454052				chief_of_staff
+websearch-agent	websearch-agent	Veersa Technologies	Chief of Staff	India		https://in.linkedin.com/jobs/view/chief-of-staff-at-veersa-technologies-4413654653				chief_of_staff
+websearch-agent	websearch-agent	Credit Wise Capital	Chief of Staff, Founders Office	Mumbai, India		https://wellfound.com/jobs/1586191-chief-of-staff-founders-office				founders_office
+websearch-agent	websearch-agent	Weekday	Founder's Office	Remote (India)		https://cutshort.io/job/Founder-s-Office-Weekday-Hcbq8Hoj				founders_office
+websearch-agent	websearch-agent	MyOperator - VoiceTree Technologies	Founder's Office - Tech & Strategy Associate	Noida, India		https://cutshort.io/job/Founder-s-Office-Tech-Strategy-Associate-Noida-MyOperator-VoiceTree-Technologies-yaCQg7mh				founders_office
+websearch-agent	websearch-agent	Magma Consultancy	Founder's Office - Chief of Staff, Strategy & Operations	Mumbai / Bengaluru, India		https://cutshort.io/job/Founder-s-Office-Chief-of-Staff-Strategy-Operations-Mumbai-Worli-Mumbai-Bengaluru-Bangalore-magma-consultancy-dL96JEoP				founders_office
+websearch-agent	websearch-agent	Merito	Manager - Founders Office	Kolkata, India		https://cutshort.io/job/Manager-Founders-Office-Kolkata-Merito-NoAE7NQ5				founders_office
+websearch-agent	websearch-agent	Zolve	Chief of Staff	Bangalore, India		https://www.instahyre.com/job-424150-chief-of-staff-at-zolve-2-bangalore/				chief_of_staff
