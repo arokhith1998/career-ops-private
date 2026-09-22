@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Sierra Business Value Strategy and Operations Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #0c5f4c; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 32pt; font-weight: 800; color: #0f172a; line-height: 1.08; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 21pt; font-weight: 800; color: #0f172a; line-height: 1.1; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #0c5f4c; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.5in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d3ede2 100%); }
+  .cover h1 { font-size: 33pt; max-width: 11in; }
+  .cover .sub { font-size: 14pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 18pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #0c5f4c; font-weight: 700; }
+  .cover .who { margin-top: 18pt; padding-top: 11pt; border-top: 1.5pt solid #0c5f4c; max-width: 9.5in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #0c5f4c; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #eaf6f0; border-left: 3pt solid #0c5f4c; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #0c5f4c; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #0c5f4c; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #eaf6f0; border-left: 4pt solid #0c5f4c; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #0c5f4c; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0c5f4c; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 24pt; font-weight: 800; color: #0c5f4c; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0c5f4c; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #0c5f4c; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #0c5f4c; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d3ede2 100%); }
+  .close h2 { font-size: 26pt; max-width: 10.5in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.8in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #0c5f4c; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Sierra Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Sierra Business Value Strategy and Operations</div>
+  <h1>Every enterprise buyer needs their own investment case. I have already built that case, closed the gap it pointed to, and I am building the tool that makes the next one repeatable.</h1>
+  <div class="sub">ROI modeling, margin recovery and a business value framework built from scratch, from someone who also builds pricing tools on the side.</div>
+  <div class="tags">
+    <div class="tag"><strong>$700K+</strong> margin recovered in 2 quarters, Sensata Bleeders and Leakers program</div>
+    <div class="tag"><strong>53% to 61%</strong> distributor margin lift via repricing logic that held</div>
+    <div class="tag"><strong>1,200</strong> pricing opportunities ranked against a $627M target, 3 regions</div>
+    <div class="tag"><strong>PriceKeel</strong> - founder of a business value framework for B2B deal pricing</div>
+    <div class="tag"><strong>+12% YoY revenue, +8% share</strong> via price realignment vs. 10+ competitors</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-pricing-ai.vercel.app/ref/sierra</div>
+  </div>
+  <div class="brand">SIERRA BUSINESS VALUE</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>The problem is not that Sierra lacks proof of value. It is that <span class="accent">every enterprise buyer needs their own investment case.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What a business at this stage runs into</h4>
+      <div class="line">Selling customer-facing AI agents into brands like The GAP, Rocket Mortgage, SoFi, Sutter Health and SoftBank means every deal has its own operating metrics, its own definition of a win, and its own finance team that has to sign off before the deal closes.</div>
+      <div class="line">A generic ROI deck does not survive that room. The business case has to be rebuilt, fast, around each customer's own cost structure, revenue lines and loyalty metrics, and it has to hold up when a CFO pushes back.</div>
+      <div class="line">The fix is not one great case study. It is a repeatable methodology: a framework that turns a new customer's numbers into a rigorous case without starting from a blank page every cycle.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run, at smaller scale</h4>
+      <div class="line">At <b>Sensata</b>, I ran the Bleeders and Leakers program: a Power BI system that ranked pricing opportunities against a hard revenue target, by region and product line, so leadership knew exactly where the case for action was strongest.</div>
+      <div class="line">I did not stop at the model. I <b>closed the gap it pointed to</b>, which is why the 53 percent to 61 percent margin gain held past the first quarter instead of drifting back.</div>
+      <div class="line">I am now building <b>PriceKeel</b>, a business value framework for B2B deal pricing built from the ground up, because the same problem, an unowned methodology for proving value, keeps showing up in every fast-growing company I have worked with.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">A business value strategist who develops customer-specific value frameworks, builds ROI models grounded in operating and financial metrics, and establishes that methodology from the ground up is describing this exact loop: rank the opportunity, prove the number, make the proof repeatable for the next enterprise cycle.</div>
+  </div>
+  <div class="brand">SIERRA BUSINESS VALUE</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What the Business Value Strategy and Operations opening asks for, and where the proof sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Build rigorous ROI models and investment cases grounded in operating and financial metrics."</div></div>
+      <div class="quote"><div class="q">"Establish Sierra's business value framework from the ground up, while staying hands-on in the modeling."</div></div>
+      <div class="quote"><div class="q">Pricing team, San Francisco, partnering with sales through complex enterprise sales cycles.</div></div>
+    </div>
+    <div class="col">
+      <h3>My Proof</h3>
+      <div class="proof"><div class="p"><b>Bleeders and Leakers program at Sensata:</b> built the dashboard, surfaced $433M in margin gaps, then closed $700K+ of it in 2 quarters through negotiated fixes grounded in competitive and financial data.</div></div>
+      <div class="proof"><div class="p"><b>Enterprise stakeholder exposure:</b> the AP26 revenue models and multimillion-dollar customer quotes ran alongside senior executives, the same finance-and-operations audience a business value case has to convince.</div></div>
+      <div class="proof"><div class="p"><b>PriceKeel today:</b> building a business value framework and audit trail from scratch, the exact ground-up methodology work this role is built around.</div></div>
+      <div class="proof"><div class="p"><b>Applied Materials now:</b> partner with Sales, Engineering and Accounts to turn field input into one investment view across multiple semiconductor product groups.</div></div>
+    </div>
+  </div>
+  <div class="brand">SIERRA BUSINESS VALUE</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The Sensata proof, in depth</div>
+  <h2>Bleeders and Leakers: <span class="accent">rank the case, close the case, make it hold.</span></h2>
+  <div class="lede">Built as a BU-wide Power BI system covering 1,200 pricing opportunities against a $627M target across 3 regions, 4 product families and 20 product lines, with pipeline funnel, win rate and stage distribution by salesperson and product line.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$433M</div>
+      <div class="lbl">Margin Gaps Surfaced</div>
+      <div class="desc">The dashboard's job: rank every opportunity into a case leadership could act on, instead of chasing anecdotes account by account.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$700K+</div>
+      <div class="lbl">Margin Recovered in 2 Quarters</div>
+      <div class="desc">Closed through negotiations grounded in competitive gaps and documented customer willingness to pay, not across-the-board price hikes.</div>
+    </div>
+    <div class="stat">
+      <div class="n">53% to 61%</div>
+      <div class="lbl">Distributor Margin Lift</div>
+      <div class="desc">Repriced the channel logic itself, so the case held past the first cycle instead of drifting back within a quarter.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">The same BU also ran a price-increase model flagging line items where a change could lift profitability more than 50 percent, and multimillion-dollar customer quotes built alongside senior executives. The common thread: every case was grounded in operating and financial metrics, and every case was measured after it shipped.</div>
+  <div class="brand">SIERRA BUSINESS VALUE</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month building Sierra's business value framework looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Map the existing cases</div>
+      <div class="body">Pull the ROI stories and investment cases already used in live enterprise cycles. Sit with the pricing team, sales and a handful of recent customers to hear which operating metrics actually moved a CFO, and which ones fell flat.</div>
+      <div class="why"><strong>Why first:</strong> the strongest case pattern is usually visible in what already closed. Same move that started the Bleeders and Leakers program.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Build the repeatable model</div>
+      <div class="body">Turn the strongest patterns into a rigorous ROI model template grounded in cost, revenue and loyalty metrics, then pressure-test it against 2 to 3 live deals with sales before it goes wide.</div>
+      <div class="why"><strong>Why now:</strong> building the model with real deals in the room, not in a vacuum, is what made the 53% to 61% distributor gain stick.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Scale it by industry</div>
+      <div class="body">Package the template into industry-specific business cases sales can adapt quickly, plus the audit trail that shows finance and operations stakeholders exactly how each number was built.</div>
+      <div class="why"><strong>Why this fast:</strong> a framework only earns its name once a second team can run it without you in the room.</div>
+    </div>
+  </div>
+  <div class="brand">SIERRA BUSINESS VALUE</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to build the business value framework, not just run one case. I have already closed a quantified gap at scale, and I am building the tool for the next one.</h2>
+  <div class="body">
+    <p>The core proof is Sensata: <strong>$700K+ in margin recovered in 2 quarters</strong>, distributor margins lifted <strong>from 53% to 61%</strong>, and <strong>+12% YoY revenue with +8% market share</strong> from price realignment against 10+ competitors, all grounded in operating and financial metrics and tested with senior executives before it shipped.</p>
+    <p>What is harder to find is someone who has also spent the last several months building the business value product a growing pricing organization like Sierra's would eventually want internally. <strong>I am building that at PriceKeel right now</strong>, which means the ground-up methodology work is not something I would need to learn on the job.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-pricing-ai.vercel.app/ref/sierra</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">SIERRA BUSINESS VALUE</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
