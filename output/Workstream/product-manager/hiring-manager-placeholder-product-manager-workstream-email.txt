@@ -1,0 +1,21 @@
+Subject: Product Manager: the 0-to-1-to-N line in your posting
+
+Hi {Hiring Manager, Product},
+
+Your posting asks the PM to own "both Go To Market and PLG motions" inside the same 0-to-1-to-N seat, not hand GTM to another team once a feature ships. That line is close to how I've actually worked, so I wanted to write before applying.
+
+At Sensata I owned the roadmap, strategy and GTM for a new sensor line end to end: ran 30+ structured interviews with OEMs and distributors to set the hypotheses, managed a 100+ feature backlog with Engineering across 3 regions, and drove $2M+ in first-year revenue while cutting time-to-market 20%. At Applied Materials I build AI agents on Claude to speed the discovery-to-decision cycle your posting calls out as a requirement. My own company, PriceKeel, is a guardrail engine I scoped, built and am now piloting, a second 0-to-1 rep for the same muscle.
+
+I've attached my resume and cover letter.
+
+Portfolio: https://adhi-product-ai.vercel.app/ref/workstream
+
+Would you have 15 minutes to talk through how you're scoping the product area right now? Happy to be pointed elsewhere if this sits with a different team.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
++1-929-563-9974
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
