@@ -1,0 +1,20 @@
+Subject: Druva Deal Desk: process gaps before the req exists
+
+Hi {Hiring Manager, Deal Desk},
+
+Your posting for this future opening already names the real problem: standardizing approval workflows and fixing process gaps as Druva scales, not just clearing a deal queue. That is the work I've been doing since Sensata.
+
+I built the Bleeders and Leakers program there: 1,200 opportunities tracked against a $627M target, $433M in margin gaps surfaced by rep and product line, and $700K+ recovered in two quarters, work that held because Finance and Sales agreed on deal structure before I repriced distributor terms from 53% to 61% margin.
+
+Since May I've run the same problem at PriceKeel, where I own the CRM, CPQ and deal-approval audit trail as founder, automating the exception scoring a scaling deal desk eventually has to build, the Salesforce and Pardot-adjacent workflow closest to the SFDC ask in your posting. The ACV, ARR, churn and net-retention metrics you track are ones I used structuring Sensata's channel margins and cutting client churn 50% at Pixis.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/druva
+
+No live req to move on yet, I know. If a 15-minute conversation now gives you context for when this opens, I'd welcome it.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
