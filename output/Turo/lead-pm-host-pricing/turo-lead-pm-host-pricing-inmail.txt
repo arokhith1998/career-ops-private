@@ -1,0 +1,16 @@
+Subject: Recommendation adoption, not just recommendation accuracy
+
+Hi {Recruiter, Pricing},
+
+Turo's posting frames the hard part correctly: pricing recommendations that hosts trust enough to act on, in a marketplace where network effects make simple experiments misleading. That combination, quantitative rigor plus adoption, is what I have built toward. At Sensata I ran a recommendation engine that scored 1,200 pricing opportunities against a $627M target, moved distributor margins from 53% to 61%, and recovered $700K+ in two quarters because the reasoning was visible, not just the number. At PriceKeel, the company I founded, I am building the same explainable-recommendation layer for B2B pricing.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/turo
+
+Open to 15 minutes on the Host Pricing req?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

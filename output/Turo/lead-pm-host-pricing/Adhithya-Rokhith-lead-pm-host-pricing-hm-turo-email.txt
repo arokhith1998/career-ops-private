@@ -1,0 +1,16 @@
+Subject: Why hosts override the price you gave them
+
+Hi {Director of Product Management, Pricing},
+
+The line in your posting that stuck: hosts get imperfect information about demand and seasonality, so the real problem is building a tool they trust enough to act on. I have lived on that edge. At Sensata I built and ran a pricing recommendation system, Bleeders and Leakers, that scored 1,200 opportunities against a $627M target and recovered $700K+ in two quarters, not because the model was cleverer but because Sales and Finance could see the reasoning behind every number. At PriceKeel, the company I founded, I built a guardrail engine that reads a live pricing exception and returns an explainable recommendation with an audit trail, the same shape of problem as a host deciding whether to accept your suggested price. Before pricing, I owned a 100+ feature roadmap and ran 30+ customer interviews to learn which tools people trusted versus worked around.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/turo
+
+Would you have 15 minutes to talk through where host overrides are hardest to explain away? Happy to be redirected if this sits with a different team.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

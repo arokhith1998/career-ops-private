@@ -1,0 +1,16 @@
+Subject: What separates a pricing model from a price a host trusts
+
+Hi {Recruiter, Pricing},
+
+Your posting spends real space on why hosts override the recommendation, not just how accurate it is, and that is the harder half of a pricing product most postings skip past. I have been building for exactly that gap: at Sensata I ran a recommendation engine, Bleeders and Leakers, that scored 1,200 pricing opportunities against a $627M target and got adopted because Sales and Finance could see why it said what it said, recovering $700K+ in margin in two quarters. I also own the roadmap muscle this role needs: 100+ features, cross-functional engineering across 3 regions, releases 25% faster. At PriceKeel, the company I founded, I am building the same explainable-recommendation layer for B2B pricing decisions.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/turo
+
+Would you have 15 minutes this week? Happy to be redirected if Host Pricing sits with someone else on your team.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
