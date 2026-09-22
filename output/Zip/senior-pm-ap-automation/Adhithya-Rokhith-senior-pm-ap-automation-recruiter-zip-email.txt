@@ -1,0 +1,20 @@
+Subject: AP Automation roadmap ownership, not just execution
+
+Hi {Recruiter, Product},
+
+Your posting draws a hard line between a consumer-grade purchasing experience and complex process orchestration for AP users. Reconciling those is the job I already run at Sensata: I own the roadmap and a 100+ feature backlog for sensor products, shipping releases 25% faster without breaking the parts customers touch daily.
+
+I ground roadmap calls in interviews with the people running the process (30+), checked against SQL and GA4 data, work that lifted CSAT 22% and adoption 18%. I design with AI as the default lens: SwipeHire, built zero-to-one on Python and OpenAI's API, and Claude agents that now automate my analysis at Applied Materials.
+
+I've attached my resume and cover letter.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/zip
+
+Would you have 15 minutes this week? If AP Automation sits with someone else on your team, a pointer their way would help.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

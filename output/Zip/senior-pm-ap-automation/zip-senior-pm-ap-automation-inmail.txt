@@ -1,0 +1,18 @@
+Subject: Built AI-first roadmaps before AI was table stakes
+
+Hi {Recruiter, Product},
+
+Zip's framing, a consumer-grade purchasing experience for business users alongside complex process orchestration for AP, is a harder brief than most procurement AI pitches, and it is the same tension I resolve at Sensata: I own a 100+ feature roadmap, ship 25% faster, and never let speed break the exception paths customers actually touch.
+
+I build with AI as the default lens, not an add-on: Claude agents run my repetitive analysis at Applied Materials, and I built SwipeHire zero-to-one on Python and OpenAI's API. Every roadmap call gets checked against structured interviews and SQL and GA4 data before I trust it.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/zip
+
+Open to 15 minutes on the AP Automation req?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
