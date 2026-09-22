@@ -223,8 +223,22 @@ overflow in the last section.
      fits on one read."
   3. **3-4 one-line proof bullets** with numbers and scope, mapped to the role.
   4. **Ask** (1-2 lines): 15 minutes, with a graceful out if it is not their req.
-  5. **Signature**: name, hyperlinked `LinkedIn`, email, phone.
-- Portfolio and LinkedIn are hyperlinked words (`[Portfolio](url)`), never raw URLs.
+  5. **Signature**: exactly
+     ```
+     Thank you,
+
+     {FULL_NAME}
+     {EMAIL}
+     LinkedIn: {url}
+     GitHub: {url}
+     ```
+     (`check-outreach-rules.mjs`'s signature check only fires on a `.txt` file whose
+     name contains `email`, and requires the literal `github.com/{handle}` string —
+     enforced, not optional.)
+- Portfolio and LinkedIn are **bare URLs on their own line** (`Here's the portfolio:
+  {url}`, `LinkedIn: {url}`), never markdown-style `[Portfolio](url)` links — the
+  closing `)` trips `check-outreach-rules.mjs`'s url-punct rule. No punctuation may
+  touch a URL.
 - While Applied Materials tenure is short, high-conviction targets may use: joined
   Applied Materials recently and was not looking, but this role (plus PriceKeel as
   the reason) made them reach out.
@@ -248,13 +262,22 @@ overflow in the last section.
 ## 10. File and folder conventions
 
 - **Everything for one role lives in `output/{Company}/{role-slug}/`**: resume
-  HTML + PDF, cover letter, pitch deck, and `outreach.md` (email, InMail,
-  connection note, follow-up). Company uses the brand's display capitalization;
-  role slug is lowercase-hyphenated.
+  HTML + PDF, cover letter HTML + PDF, pitch deck (if the band earns one), and
+  outreach as **separate `.txt` files** — a recruiter email, an HM email (or one
+  combined email when the same person plausibly fills both, e.g. a founder at a
+  very small company), a LinkedIn DM, and an InMail when warranted. This is the
+  actual convention every existing pack in this repo follows and the one
+  `check-outreach-rules.mjs` is built around (its signature check keys off
+  `.txt` filenames containing `email`); a single `outreach.md` bypasses that
+  check entirely and must not be used. Company uses the brand's display
+  capitalization; role slug is lowercase-hyphenated.
 - File names:
   - `Adhithya_Rokhith_{Company}_{RoleShort}.{html,pdf}` (resume)
   - `CoverLetter_{Company}_{RoleShort}.{html,pdf}`
   - `{Company}_{Role}_Pitch_Deck_Adhithya.{html,pdf}`
+  - outreach: `{recipient-or-role}-{role-slug}-{company-slug}-email.txt`,
+    `{company-slug}-{role-slug}-linkedin-dm.txt`,
+    `{company-slug}-{role-slug}-inmail.txt`
 - `reports/{NNN}-*.md` and `batch/tracker-additions/*.tsv` stay where they are.
 
 ---
