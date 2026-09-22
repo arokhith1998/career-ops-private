@@ -1,0 +1,23 @@
+Subject: Running the EU growth math faster in the US
+
+Hi Milan,
+
+I am not actively looking, having just joined Applied Materials, but building PriceKeel as the sole operator means I only trust growth math that survives a real P&L. A playbook that already works in the EU having to prove itself against US trust and regulation pulled me to write in before applying.
+
+Portfolio built for this req: https://adhi-growth-ai.vercel.app/ref/scopex
+
+Where this maps:
+- Owned $100K/month acquisition budgets end to end at Plug Power, cutting CPA 25%.
+- Ran PPC across non-English markets plus iOS app UA on AppsFlyer and Adjust at Pixis, cutting client churn 50% across 8 accounts.
+- Built SQL and GA4 funnel frameworks lifting qualified leads 35% and conversion 15% running GTM across North America and Europe at Sensata.
+- Running GTM, pilots and fundraising at PriceKeel right now, the founder-seat ownership over CAC, LTV and payback this role asks for.
+
+15 minutes would tell us fast whether this corridor problem is one I should be solving with you. If someone else owns growth hiring, a pointer helps just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+Phone: +1-929-563-9974
+GitHub: https://github.com/arokhith1998
