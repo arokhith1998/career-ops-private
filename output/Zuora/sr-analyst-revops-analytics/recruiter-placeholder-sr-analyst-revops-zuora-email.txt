@@ -1,0 +1,24 @@
+Subject: Zuora names Claude Code by name in this req, and that stopped me
+
+Hi {Recruiter, Field Operations},
+
+I do not usually reach out before applying, but your posting naming Claude Code (Anthropic's agentic command-line tool) as a required skill stopped me mid-scroll, since that is the exact tool I run daily to automate my own forecasting and pricing analysis.
+
+At Applied Materials, I use Claude AI agents to automate the recurring parts of forecasting models across product groups, the same AI-first habit this req asks a GTM analytics hire to already have, not learn on the job.
+
+At Sensata, I built and owned the dashboard tracking 1,200 open pricing opportunities against a $627M target across 3 regions and 20 product lines, surfacing $433M in margin gaps for leadership and closing $700K+ of the recovery myself.
+
+That same audit discipline took distributor margins from 53% to 61% in under two quarters, no handoff, just me finding the shortfall and fixing it.
+
+I also run my own venture PriceKeel's CRM, CPQ and forecast and pipeline review process end to end, so the "standardized forecasting framework" this req wants built is a process I already own solo.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/zuora
+
+If the Sr. Analyst, Revenue Operations and Analytics req (P105578) is open and yours to route, I would value 15 minutes on how Field Operations is prioritizing the framework work. If it sits with someone else, a pointer would help just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

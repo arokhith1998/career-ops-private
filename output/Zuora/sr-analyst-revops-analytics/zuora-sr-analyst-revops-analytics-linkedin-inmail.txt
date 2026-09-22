@@ -1,0 +1,14 @@
+Subject: The Claude Code line in this req is the reason I'm writing
+
+Hi {Recruiter or Hiring Manager, Field Operations},
+
+I do not usually reach out before applying, but Zuora's Sr. Analyst, Revenue Operations and Analytics req names Claude Code by name as a required skill, and that is the exact tool I use daily to automate my own forecasting and pricing analysis at Applied Materials.
+
+At Sensata, I built the dashboard tracking 1,200 open pricing opportunities against a $627M target, surfacing $433M in margin gaps and recovering $700K+ of it in two quarters, then took distributor margin from 53% to 61% along the way.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/zuora
+
+Open to 15 minutes if useful, and happy to be pointed elsewhere if this is not your req.
+
+Thank you,
+Adhithya

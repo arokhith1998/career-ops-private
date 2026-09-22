@@ -1,0 +1,24 @@
+Subject: Building the forecasting framework, not just the dashboards
+
+Hi {Hiring Manager, Field Operations},
+
+Zuora's posting asks for someone to build a standardized forecasting framework and review process with cross-functional teams, not just maintain the reports that already exist. That gap between reporting and framework-building is where I already sit, both automating the busywork with Claude Code, which your req names outright, and doing the slower cross-functional alignment work by hand.
+
+At Sensata, I built and owned the dashboard tracking 1,200 open pricing opportunities against a $627M target across 3 regions and 20 product lines, surfacing $433M in margin gaps and recovering $700K+ of it myself in two quarters.
+
+I took distributor margin from 53% to 61% by sitting with Finance on the model and building the case Sales carried into negotiations, the kind of cross-functional work this role runs with Sales, Marketing, Engineering and Finance.
+
+At Applied Materials, I automate the recurring parts of my own forecasting models with Claude AI agents, so the AI-first instinct this req is hiring for is already how I work day to day.
+
+I also run my own venture PriceKeel's CRM, CPQ and forecast and pipeline review system solo, which is close to what a reusable, documented forecasting framework has to survive.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/zuora
+
+Would you have 15 minutes to talk through how Field Operations is scoping the framework work? Happy to be redirected if this is not your req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
