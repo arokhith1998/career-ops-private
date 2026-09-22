@@ -1,0 +1,24 @@
+Subject: Energy and Critical Resources PM - the asset-to-decision loop I've already run twice
+
+Hi {Hiring Manager, Energy and Critical Resources},
+
+I don't normally cold-email a hiring manager, but a roadmap that has to turn asset reliability, predictive maintenance and grid data into autonomous operating decisions is a problem I've already scoped from two different industrial angles, and I wanted you to hear it directly.
+
+The proof point I'd lead with: at Sensata's Industrial BU I owned the product roadmap and a 100+ feature backlog for 50,000+ connected industrial sensors, running 30+ interviews with OEM and distributor engineers to find where reliability data actually changed an operator's decision, then shipped changes that cut time-to-market 20% and lifted adoption 18%.
+
+More that maps to this role:
+- Built a BU-wide price-increase model at Sensata that traded off margin against volume across 10+ industrial competitors, raising distributor margins from 53% to 61%, the same asset-level tradeoff logic a production-optimization feature needs.
+- At Plug Power, a hydrogen energy company, owned multi-business-unit budgets and forecasts, presenting plans to leadership for approval on the same cadence a grid-operations roadmap runs on.
+- Automate my own forecasting and market analysis with Claude AI agents at Applied Materials, the AI-operating habit this platform is built around.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/avathon
+
+15 minutes to hear how the team is scoping the asset-reliability and grid-operations pieces? Happy to be redirected if I have the wrong contact.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+Phone: +1-929-563-9974
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
