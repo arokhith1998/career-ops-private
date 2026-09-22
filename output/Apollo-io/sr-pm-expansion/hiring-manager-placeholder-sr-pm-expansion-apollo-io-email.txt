@@ -1,0 +1,25 @@
+Subject: Turning usage into expansion revenue - Adhithya Bhaskar
+
+Hi {Hiring Manager, Apollo.io Expansion},
+
+I don't normally cold-email a hiring manager, but "turn habitual usage into expansion, and make it feel obvious, easy and trusted" is a sentence I could have written about my own work, not one I'd be learning on the job.
+
+Put together a resume and cover letter mapped to this req.
+
+The proof point I'd lead with: at Sensata I built the BU-wide price-increase model that flagged where a plan or price change could lift profitability more than 50%, then led the repricing that moved distributor margins from 53% to 61% and drove +12% YoY revenue, reading competitive pressure and willingness to pay the way an upgrade prompt has to.
+
+More that maps to a Squad running Activation, Free-to-Paid and Pricing & Packaging together:
+- Owned a 100+ feature roadmap with Engineering across 3 regions, instrumenting SQL and GA4 funnels on 50K+ connected devices to find the usage signals that predicted an upgrade
+- Shipped SwipeHire zero-to-one: 3 subscription tiers modeled from willingness-to-pay data, 8+ A/B tests on the activation funnel, activation up 25%
+- Prototype with Claude Code daily at Applied Materials, backed by the Claude Code 101 Certification, the same validate-before-you-build habit this req asks for
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/apollo-io
+
+Would 15 minutes work to walk through how I'd approach the admin upgrade flow? Happy to be redirected if I'm not talking to the right person.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

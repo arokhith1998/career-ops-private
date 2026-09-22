@@ -1,0 +1,20 @@
+Subject: The Claude Code line in your posting - Adhithya Bhaskar
+
+Hi {Recruiter, Apollo.io Product},
+
+Most reqs list AI tools as a nice-to-have. Yours names Claude Code twice, once to prototype before engineering picks it up, once as the bar for an AI-native builder, and that is close enough to my day job that I wanted to reach out directly.
+
+I hold the Claude Code 101 Certification and run AI agents built on Claude weekly at Applied Materials to automate forecasting and market analysis. On the expansion side, I built the price-increase model at Sensata that moved distributor margins from 53% to 61% and drove +12% YoY revenue, the same "when does a customer pay more" question behind seat and credit upsells. I also shipped SwipeHire zero-to-one: 3 subscription tiers, 8+ A/B tests on the activation funnel, activation up 25%.
+
+I've attached my resume and cover letter.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/apollo-io
+
+15 minutes this week to hear how the Expansion Squad is scoping the admin upgrade flow? Happy to be redirected if this isn't your req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

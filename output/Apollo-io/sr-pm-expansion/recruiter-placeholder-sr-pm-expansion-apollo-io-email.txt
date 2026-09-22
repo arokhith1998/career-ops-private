@@ -1,0 +1,25 @@
+Subject: Senior PM, Expansion, Apollo.io - Adhithya Bhaskar
+
+Hi {Recruiter, Apollo.io Product},
+
+I don't normally reach out before applying, but a posting that names Claude Code twice, once for prototyping and once as proof of an AI-native builder, is rare, and it already describes how I work.
+
+Put together a resume and cover letter mapped to this req.
+
+Straight to the number: at Sensata I built the price-increase model and led the repricing that moved distributor margins from 53% to 61%, driving +12% YoY revenue, the same "when does a customer pay more" logic behind seat, credit and plan upsells.
+
+More that maps to this role:
+- Hold the Claude Code 101 Certification and automate forecasting and market analysis with AI agents built on Claude at Applied Materials
+- Shipped SwipeHire zero-to-one: modeled 3 subscription tiers, ran 8+ A/B tests on the activation funnel, activation up 25%
+- Owned a 100+ feature roadmap with Engineering, instrumenting SQL and GA4 funnels that lifted feature adoption 18%
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/apollo-io
+
+15 minutes would help. If this isn't your req, a nudge toward whoever owns it would too.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
