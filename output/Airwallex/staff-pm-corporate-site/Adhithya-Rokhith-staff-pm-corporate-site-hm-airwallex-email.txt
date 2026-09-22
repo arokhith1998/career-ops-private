@@ -1,0 +1,24 @@
+Subject: Airwallex Corporate Site: a self-serve funnel, not a brochure page
+
+Hi {Hiring Manager, Corporate Site},
+
+Your posting treats the corporate site as a self-serve product, not a marketing brochure: navigation, information architecture and core user flows owned with Design and UX, then handed to Onboarding for signup. That's a different job than most "corporate site PM" reqs, and it's the one I've actually run, so I'm writing directly.
+
+I put together a resume and cover letter mapped to that funnel, from first click to signup.
+
+On SwipeHire I built the GA4/GTM funnel myself, ran 8+ A/B tests and 12+ user interviews, and used the drop-off data to lift activation 25%.
+
+At GenY Medium I ran SEO site audits covering navigation, internal linking and keyword strategy that lifted a B2B site's conversion rate 36%.
+
+At Sensata I read drop-off points in SQL and GA4 across 50K+ connected devices to reprioritize the backlog, lifting feature adoption 18%.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/airwallex
+
+I'd like 15 minutes on how your team sequences the self-serve roadmap. If Airwallex already has someone for this, no hard feelings.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

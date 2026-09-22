@@ -1,0 +1,11 @@
+Hi {Recruiter or Hiring Manager, Corporate Site},
+
+Your posting treats the corporate site as a self-serve product: define the roadmap against organic traffic, lead gen, CRO and sign-ups, then own site navigation, IA and core user flows with Design and Engineering. That's the version of "corporate site PM" I've actually run, not a marketing-page brief.
+
+On SwipeHire I built the GA4/GTM funnel myself, ran 8+ A/B tests and 12+ user interviews, and used the drop-off data to lift activation 25%. At Plug Power I owned the WordPress and Pardot lead flow end to end, cutting cost per lead 50% and raising organic search visibility 35%. At Sensata I turned telemetry into SQL and GA4 KPI frameworks across 50K+ devices, lifting feature adoption 18%.
+
+I built a resume, cover letter and portfolio case mapped to this exact req. Here's the portfolio: https://adhi-product-ai.vercel.app/ref/airwallex
+
+Open to 15 minutes if this is your req.
+
+Adhithya Rokhith Bhaskar
