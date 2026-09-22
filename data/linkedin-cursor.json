@@ -1,5 +1,5 @@
 {
-  "cursor": 0,
+  "cursor": 8,
   "runs": [
     {
       "at": "2026-09-19T06:03:46.194Z",
@@ -143,6 +143,22 @@
       ],
       "queries": 22,
       "rows": 191,
+      "health": "ok"
+    },
+    {
+      "at": "2026-09-22T11:09:46.603Z",
+      "terms": [
+        "us:Product Marketing Manager",
+        "us:Pricing Manager",
+        "us:Pricing Strategy",
+        "us:Revenue Operations",
+        "us:Product Manager",
+        "us:Strategic Marketing",
+        "us:Market Strategy",
+        "us:Competitive Intelligence"
+      ],
+      "queries": 32,
+      "rows": 244,
       "health": "ok"
     }
   ]
