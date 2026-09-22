@@ -1,0 +1,23 @@
+Subject: Business Experience PM - turning five stakeholders into one spec
+
+Hi {Hiring Manager, Business Experience Product},
+
+I don't usually write to a hiring manager before applying, but the Agency Solutions line about turning input from Agencies, Advertisers, Sales, Agency Partnerships and Finance into concrete requirements is close to the job I already run.
+
+A few points that might matter for how you're staffing this:
+- At Sensata, owned a 100+ feature roadmap and backlog, turning input from sales, engineering and regional teams into shipped specs, cutting time to market 20%
+- Ran retail media budgets for 8 advertiser accounts at Pixis (Amazon Ads, Criteo), $15K-$90K per client per month, against P&L targets I owned
+- Built the Power BI dashboard that surfaced $433M in margin gaps across 1,200 opportunities against a $627M target, the same portfolio-reporting instinct this role needs at agency scale
+- At Applied Materials, I build Claude-based agents to automate the analysis my product decisions rely on
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/snap
+
+Happy to trade 15 minutes if this maps to what you're building; if it's not your req, no worries either way.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+arokhith@gmail.com
++1-929-563-9974
+GitHub: https://github.com/arokhith1998
