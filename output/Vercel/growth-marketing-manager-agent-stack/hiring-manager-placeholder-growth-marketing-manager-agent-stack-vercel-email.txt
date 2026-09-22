@@ -1,0 +1,23 @@
+Subject: Lifecycle marketing for Agent Stack - one journey, two very different clocks
+
+Hi {Hiring Manager, Agent Stack Growth Marketing},
+
+I do not normally reach out before applying, but the way the posting separates developer adoption from enterprise expansion, then asks one lifecycle program to serve both, is the harder version of a problem I already run.
+
+Proof points that map to the role:
+- Built KPI frameworks in SQL and GA4 across 50,000+ connected devices at Sensata, segmenting drift-to-churn accounts from expansion-ready ones, and ran 30+ OEM interviews to find where the journey broke.
+- Rebuilt the WordPress-to-Pardot lead flow at Plug Power end to end, cutting cost per lead 50%, then automated the Mar-Tech stack for closed-loop reporting.
+- Carried P&L for an 8-client, $15K-$90K-per-client-per-month portfolio at Pixis, cutting churn 50% with Amplitude and Tableau.
+- At Applied Materials I automate my own forecasting with Claude AI agents, the same built-and-operated-by-agents shift Vercel is betting on.
+
+Here's the portfolio: https://adhi-growth-ai.vercel.app/ref/vercel
+
+Would 15 minutes work to walk through how I would map the first 90 days on both journeys? Happy to be redirected if I am not the right contact.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+Phone: +1-929-563-9974
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
