@@ -1,0 +1,24 @@
+Subject: Associate, Infrastructure Strategy & Operations: comparison frameworks built from scratch
+
+Hi {Hiring Manager, Infrastructure Strategy},
+
+Your posting asks for someone who can build analyses from scratch and operate with minimal direction in unfamiliar territory, which is closer to a description of the last two projects I've owned than most JDs get.
+
+At Simon Business School I led a 5-consultant team taking 170 facilities down to a 28-site addressable market, building the sourcing comparison framework myself and presenting site-selection and financial-feasibility recommendations directly to Safran's leadership, the same location-vendor-permitting tradeoff your team runs for data center sites and energy sourcing.
+
+At Sensata I built the FY2026 Bleeders and Leakers Power BI dashboard from scratch: 1,200 pricing opportunities against a $627M target, tracked by win rate, dollar per win and stage distribution across 3 regions and 20 product lines, the internal-tracker pattern this role needs for monitoring vendor pipelines and compute allocations. That dashboard surfaced $433M in margin gaps for leadership to prioritize by salesperson and product line.
+
+I also hold the Claude Code 101 certification and run AI agents built on Claude against my own repetitive analysis at Applied Materials now, the AI-native workflow design piece of this role.
+
+I've attached my resume and cover letter.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/togetherai
+
+Would you have 15 minutes to talk through where the Infrastructure Strategy team is scaling fastest right now? Happy to be pointed elsewhere if this sits with a different team.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
