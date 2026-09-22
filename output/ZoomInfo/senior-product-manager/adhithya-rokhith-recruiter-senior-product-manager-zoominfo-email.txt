@@ -1,0 +1,23 @@
+Subject: Senior Product Manager, GTM Studio - I've owned this exact revenue stack
+
+Hi {Recruiter, GTM Studio},
+
+I don't normally reach out before applying, but the line about needing someone who has built go-to-market systems themselves, not just observed them, is the reason I'm reaching out directly.
+
+Put together a resume and cover letter mapped to this req, plus a portfolio walkthrough.
+
+A few things that carry over directly:
+- Owned the CRM, CPQ and lead-scoring handoff behind a 100+ feature backlog at Sensata, shipping with engineering across 3 regions and cutting time-to-market 20%.
+- Ran 30+ structured interviews with OEMs and distributors, then checked what they told me against SQL and GA4 data from 50K+ connected devices before trusting it.
+- Built an AI product zero-to-one (SwipeHire: Python, OpenAI API, React), owning the PRD, MVP scope and GTM myself.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/zoominfo
+
+15 minutes would help. If req JR107610 sits with someone else on your team, a pointer their way would too.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
