@@ -6,7 +6,7 @@
 **Archetype:** Chief of Staff, strategy-technology-operations hybrid at a PE-style holdco (India track)
 **Score:** 2.0/5
 **Legitimacy:** Proceed with Caution
-**Work Auth:** Not needed (India track)
+**Work Auth:** ➖ Not needed (India track)
 **PDF:** not generated - score below no-deck build floor (3.0); digest-line only
 
 ---

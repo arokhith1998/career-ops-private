@@ -6,7 +6,7 @@
 **Archetype:** Chief of Staff / Founder's Office, generalist (India track) - closest available archetype; the JD body itself could not be retrieved (see data-limitation note below)
 **Score:** 2.8/5
 **Legitimacy:** Proceed with Caution
-**Work Auth:** Not needed (India track)
+**Work Auth:** ➖ Not needed (India track)
 **PDF:** not generated - score below no-deck build floor (3.0); digest-line only
 
 ---

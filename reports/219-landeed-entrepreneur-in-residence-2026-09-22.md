@@ -6,7 +6,7 @@
 **Archetype:** Entrepreneur in Residence, Web3 (India track)
 **Score:** 2.4/5
 **Legitimacy:** Proceed with Caution
-**Work Auth:** Not needed (India track)
+**Work Auth:** ➖ Not needed (India track)
 **PDF:** not generated - score below no-deck build floor (3.0); digest-line only
 
 ---
