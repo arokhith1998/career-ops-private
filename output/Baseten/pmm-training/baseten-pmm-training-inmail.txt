@@ -1,0 +1,20 @@
+Subject: A PMM who ships on the same model APIs your platform serves
+
+Hi {Hiring Manager, Product Marketing},
+
+Marketing a post-training platform to developers lands better when the person writing the copy has actually shipped on top of a model API, not just read about one. I built SwipeHire, a job-matching platform on the OpenAI API, from a blank PRD through competitor teardowns and GTM positioning to 50+ users, and I run AI agents built on Claude weekly at Applied Materials to automate my own forecasting and market analysis.
+
+That build habit sits on top of a GTM track record: at Sensata I owned go-to-market for a new sensing product line sold to OEM and distributor engineers, wrote the positioning that lifted conversion 15% on priority launches, and built the sales enablement that took a 50-person rep team's win rate up 30%.
+
+I've attached my resume and cover letter.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/baseten
+
+If you have 15 minutes this week, I'd like to hear how the Training team is prioritizing its next launch.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
