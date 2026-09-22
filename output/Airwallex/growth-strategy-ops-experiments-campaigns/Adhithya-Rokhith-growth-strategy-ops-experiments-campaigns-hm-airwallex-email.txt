@@ -1,0 +1,24 @@
+Subject: Airwallex Growth Ops: guardrails before the AI does the repeatable work
+
+Hi {Hiring Manager, Growth},
+
+Your posting wants AI used to codify the repeatable growth-ops work, checklists, QA scripts, readout templates, with human review before anything customer-facing goes live. That's the harder version of "add AI to the workflow," and it's the version I've actually run, so I'm writing directly instead of waiting on a form.
+
+I built a resume and cover letter mapped to that operational backbone: backlog, build, QA, readout.
+
+I founded PriceKeel, a decision-integrity layer that gives Finance and RevOps an audit trail for every discount call, with a guardrail engine that flags exceptions for human sign-off before they ship, the same review-before-launch logic your team wants for experiments.
+
+At Sensata I ran the Bleeders & Leakers program end to end: ranked 1,200 opportunities against a $627M target, surfaced $433M in margin gaps, and recovered $700K+ in 2 quarters by working the top of that ranked list first.
+
+At Applied Materials I run AI agents on Claude to automate the forecasting and reporting grind, so the judgment calls a machine shouldn't make alone get the time.
+
+Here's the portfolio: https://adhi-growth-ai.vercel.app/ref/airwallex
+
+I'd like 15 minutes on how your team draws the line between what AI automates and what stays human-reviewed. If Airwallex already has someone for this, no hard feelings.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

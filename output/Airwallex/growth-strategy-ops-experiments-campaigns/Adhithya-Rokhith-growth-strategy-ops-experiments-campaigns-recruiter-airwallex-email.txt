@@ -1,0 +1,24 @@
+Subject: Manager, Growth Strategy & Ops: the backlog problem before the campaign problem
+
+Hi {Recruiter, Growth},
+
+Your posting asks one person to consolidate hypotheses from Commercial, Lifecycle, Growth Innovation, Product and Marketing into a single backlog, then rank it by impact, confidence, effort and strategic fit, not just run campaigns once they're greenlit. That ranking discipline is the exact problem I've built systems for, so I'm reaching out directly.
+
+I built a resume and cover letter mapped to that backlog-to-launch loop, backed by a portfolio case.
+
+At Sensata I built the Bleeders & Leakers pipeline: 1,200 opportunities ranked against a $627M target, surfacing $433M in margin gaps for leadership to prioritize, and recovered $700K+ in 2 quarters working the top of that ranked list first.
+
+I founded PriceKeel, a decision layer with a CRM, CPQ and audit trail for every pricing call, the closest analog I know to the guardrails a growth experimentation system needs before anything ships.
+
+At Applied Materials I build forecasting models and run AI agents on Claude to automate the repeatable analysis work.
+
+Here's the portfolio: https://adhi-growth-ai.vercel.app/ref/airwallex
+
+If this is your req, I'd like 15 minutes on how the ranked-backlog approach maps to your experimentation roadmap. A pointer helps too if it isn't.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

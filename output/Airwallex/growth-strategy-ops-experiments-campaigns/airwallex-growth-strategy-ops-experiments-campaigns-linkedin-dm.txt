@@ -1,0 +1,1 @@
+Hi {FirstName}, the backlog-ranking line in your Growth Ops req caught me: I built Sensata's Bleeders & Leakers pipeline (1,200 opps vs a $627M target, $433M surfaced) and founded PriceKeel's guardrail audit trail. Resume maps it to the role. Worth 15 minutes? adhi-growth-ai.vercel.app/ref/airwallex

@@ -1,0 +1,11 @@
+Hi {Recruiter or Hiring Manager, Growth},
+
+Your posting asks one person to rank the experimentation backlog by impact, confidence, effort and strategic fit, then build the guardrails so AI can take on the repeatable QA and readout work while a human still reviews anything before it goes live. That is the version of growth ops I've actually built.
+
+At Sensata I built the Bleeders & Leakers pipeline: 1,200 opportunities ranked against a $627M target, surfacing $433M in margin gaps, and recovered $700K+ in 2 quarters. I founded PriceKeel, a decision layer with an audit trail for every pricing call, and I run AI agents on Claude at Applied Materials to automate the repeatable forecasting work.
+
+I built a resume, cover letter and portfolio case mapped to this exact req. Here's the portfolio: https://adhi-growth-ai.vercel.app/ref/airwallex
+
+Open to 15 minutes if this is your req.
+
+Adhithya Rokhith Bhaskar
