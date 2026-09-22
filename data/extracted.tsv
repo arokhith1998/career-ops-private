@@ -1,24 +1,37 @@
 company	legal_name	title	url	jd_path	track	visa_gate
-hive.co	hive.co	Revenue Operations Manager	https://jobs.ashbyhq.com/hive.co/4e83cf48-d1fd-456b-a2ae-99239554968c	jds/hive-co-revenue-operations-manager.md	us	required
-Percona	Percona	Revenue Operations Analyst Manager	https://jobs.ashbyhq.com/percona/7d2fb5f0-2c7f-4e29-9657-568980060634	jds/percona-revenue-operations-analyst-manager.md	us	required
-Twilio	Twilio Inc.	Product Manager, Journeys Coordination	https://boards.greenhouse.io/twilio/jobs/4934278	jds/twilio-product-manager-journeys-coordination.md	us	required
-Weekday	Weekday	Founder's Office	https://cutshort.io/job/Founder-s-Office-Weekday-Hcbq8Hoj	jds/weekday-founder-s-office.md	india	not-applicable
-Meesho	Meesho	Chief of Staff - CPO	https://startup.jobs/chief-of-staff-cpo-meesho-7256311	jds/meesho-chief-of-staff-cpo.md	india	not-applicable
-Veersa Technologies	Veersa Technologies	Chief of Staff	https://in.linkedin.com/jobs/view/chief-of-staff-at-veersa-technologies-4413654653	jds/veersa-technologies-chief-of-staff.md	india	not-applicable
-Magma Consultancy	Magma Consultancy	Founder's Office - Chief of Staff, Strategy & Operations	https://cutshort.io/job/Founder-s-Office-Chief-of-Staff-Strategy-Operations-Mumbai-Worli-Mumbai-Bengaluru-Bangalore-magma-consultancy-dL96JEoP	jds/magma-consultancy-founder-s-office-chief-of-staff-strategy-and-operations.md	india	not-applicable
-Cypherock Wallet	Cypherock Wallet	Founder's Office - Growth	https://wellfound.com/jobs/2053436-founder-s-office-growth	jds/cypherock-wallet-founder-s-office-growth.md	india	not-applicable
-Plaid	Plaid Inc.	Partner Marketing Manager (AI & Financial Partners)	https://jobs.ashbyhq.com/plaid/8efcc88b-48eb-486a-bf63-ff9143af7250	jds/plaid-partner-marketing-manager-ai-and-financial-partners.md	us	required
-Plaid	Plaid Inc.	Staff Product Manager - Internal AI	https://jobs.ashbyhq.com/plaid/1d5a1e7c-9dd9-45fb-a06c-274bc76f8561	jds/plaid-staff-product-manager-internal-ai.md	us	required
-Plaid	Plaid Inc.	Revenue Operations Accountant	https://jobs.ashbyhq.com/plaid/c73b1d9e-e7d8-415e-bbdf-f95696a968db	jds/plaid-revenue-operations-accountant.md	us	required
-Plaid	Plaid Inc.	Senior Product Manager, Consumer	https://jobs.ashbyhq.com/plaid/780fdd2e-5c29-4f25-831a-8f30e24923cd	jds/plaid-senior-product-manager-consumer.md	us	required
-Airwallex	Airwallex	Senior Product Manager, T:0 (Agentic) Finance	https://jobs.ashbyhq.com/airwallex/2c7d5655-3bef-40ec-9455-fe129b7c09e8	jds/airwallex-senior-product-manager-t-0-agentic-finance.md	us	required
-Airwallex	Airwallex	Senior Product Manager, Transaction Monitoring	https://jobs.ashbyhq.com/airwallex/ab403b72-21e8-4a95-ab8a-a10660a8b9a9	jds/airwallex-senior-product-manager-transaction-monitoring.md	us	required
-Airwallex	Airwallex	Staff Product Manager, GTPN (San Francisco)	https://jobs.ashbyhq.com/airwallex/f514b43c-3f70-4e9d-ab01-820024cc6762	jds/airwallex-staff-product-manager-gtpn-san-francisco.md	us	required
-Airwallex	Airwallex	Senior Product Manager, AI Risk & Fraud Intelligence	https://jobs.ashbyhq.com/airwallex/9f576536-733d-45fa-afef-e05d91fec61e	jds/airwallex-senior-product-manager-ai-risk-and-fraud-intelligence.md	us	required
-Snap Inc.	Snap Inc.	Product Manager, Business Experience	https://www.linkedin.com/jobs/view/4450785897	jds/snap-inc-product-manager-business-experience.md	us	required
-Robinhood	Robinhood Markets, Inc.	Staff Product Manager, Banking	https://boards.greenhouse.io/robinhood/jobs/8044746?t=gh_src=&gh_jid=8044746	jds/robinhood-staff-product-manager-banking.md	us	required
-SoFi	Social Finance, Inc. (dba SoFi)	Pricing Analyst, Lending	https://sofi.com/careers/job/7820964003?gh_jid=7820964003	jds/sofi-pricing-analyst-lending.md	us	required
-Lagrange Point International	Lagrange Point International	Chief of Staff	https://www.linkedin.com/jobs/view/4458392440/	jds/lagrange-point-international-chief-of-staff.md	india	not-applicable
-Darwinbox	Darwinbox	Chief of Staff	https://www.linkedin.com/jobs/view/4459686299/	jds/darwinbox-chief-of-staff.md	india	not-applicable
-MyOperator - VoiceTree Technologies	VoiceTree Technologies Pvt. Ltd.	Founder's Office - Tech & Strategy Associate	https://cutshort.io/job/Founder-s-Office-Tech-Strategy-Associate-Noida-MyOperator-VoiceTree-Technologies-yaCQg7mh	jds/myoperator-voicetree-technologies-founder-s-office-tech-and-strategy-associate.md	india	not-applicable
-Merito	Merito (agency; end client unnamed on listing)	Manager - Founders Office	https://cutshort.io/job/Manager-Founders-Office-Kolkata-Merito-NoAE7NQ5	jds/merito-manager-founders-office.md	india	not-applicable
+Center for AI Safety	Center for AI Safety (CAIS)	Product Manager, Agentic Products	https://job-boards.greenhouse.io/centerforartificialintelligencesafetyinc/jobs/4342209009	jds/center-for-ai-safety-product-manager-agentic-products.md	us	required
+Databricks	Databricks, Inc.	Associate Product Manager, New Grad (2027 Start)	https://databricks.com/company/careers/open-positions/job?gh_jid=7586263002	jds/databricks-associate-product-manager-new-grad-2027-start.md	us	required
+Databricks	Databricks, Inc.	Event Marketing Manager, 3P & Partner	https://databricks.com/company/careers/open-positions/job?gh_jid=8638637002	jds/databricks-event-marketing-manager-3p-and-partner.md	us	required
+Databricks	Databricks, Inc.	Go-To-Market (GTM) Digital Natives Program Leader	https://databricks.com/company/careers/open-positions/job?gh_jid=8356420002	jds/databricks-go-to-market-gtm-digital-natives-program-leader.md	us	required
+Databricks	Databricks, Inc.	Lead Learning Product Manager	https://databricks.com/company/careers/open-positions/job?gh_jid=8780470002	jds/databricks-lead-learning-product-manager.md	us	required
+Databricks	Databricks, Inc.	Sr. Event Marketing Manager, Field Programming	https://databricks.com/company/careers/open-positions/job?gh_jid=8638648002	jds/databricks-sr-event-marketing-manager-field-programming.md	us	required
+Databricks	Databricks, Inc.	Sr. Product Manager, Compute Platform	https://databricks.com/company/careers/open-positions/job?gh_jid=8200462002	jds/databricks-sr-product-manager-compute-platform.md	us	required
+Databricks	Databricks, Inc.	Sr. Product Manager, Databricks Free Edition	https://databricks.com/company/careers/open-positions/job?gh_jid=7680573002	jds/databricks-sr-product-manager-databricks-free-edition.md	us	required
+Databricks	Databricks, Inc.	Sr. Product Manager, Databricks Repos	https://databricks.com/company/careers/open-positions/job?gh_jid=8326513002	jds/databricks-sr-product-manager-databricks-repos.md	us	required
+Databricks	Databricks, Inc.	Sr. Product Manager, Data Engineering	https://databricks.com/company/careers/open-positions/job?gh_jid=6322654002	jds/databricks-sr-product-manager-data-engineering.md	us	required
+Databricks	Databricks, Inc.	Sr. Product Manager, Data Governance	https://databricks.com/company/careers/open-positions/job?gh_jid=7863365002	jds/databricks-sr-product-manager-data-governance.md	us	required
+Databricks	Databricks, Inc.	Sr Product Manager, Employee Experience	https://databricks.com/company/careers/open-positions/job?gh_jid=8203285002	jds/databricks-sr-product-manager-employee-experience.md	us	required
+Visa	?	Strategy Associate - Cross Border Strategy & Operations	https://zapply.jobs/l/d/workday-visa-visa-REF087892W?s=gh-new-grad-jobs-2027	jds/visa-strategy-associate-cross-border-strategy-and-operations.md	us	required
+Sierra	?	Business Value Strategy and Operations	https://jobs.ashbyhq.com/sierra/de46bdfc-6417-4682-9ef1-a3ead059d369	jds/sierra-business-value-strategy-and-operations.md	us	required
+Blinkit	?	Chief of Staff, CTO Office	https://www.instahyre.com/job-49174-chief-of-staff-cto-office-at-grofers-gurgaon/	jds/blinkit-chief-of-staff-cto-office.md	india	not-applicable
+Workstream	?	Product Manager	https://job-boards.greenhouse.io/workstream/jobs/5992161004	jds/workstream-product-manager.md	us	required
+Workhelix	?	Senior Product Manager	https://job-boards.greenhouse.io/workhelix/jobs/5277510008	jds/workhelix-senior-product-manager.md	us	required
+Hightouch	?	Product Manager, Real Time	https://job-boards.greenhouse.io/hightouch/jobs/6185521004	jds/hightouch-product-manager-real-time.md	us	required
+ModernTreasury	?	Product Manager, Payments	https://jobs.ashbyhq.com/moderntreasury/f11d16f1-641b-4837-a107-f393956144e2	jds/moderntreasury-product-manager-payments.md	us	required
+Druva	Druva Inc.	Deal Desk Analyst	https://www.druva.com/why-druva/explore/careers/jobs/8742718002/?gh_jid=8742718002	jds/druva-deal-desk-analyst.md	us	required
+Shopflo	?	Founder's Office Associate	https://www.instahyre.com/job-318808-founders-office-associate-at-shopflo-bangalore/	jds/shopflo-founder-s-office-associate.md	india	not-applicable
+Alyve Health	?	Founder's Office Associate	https://www.instahyre.com/job-341103-founders-office-associate-at-alyve-health-mumbai/	jds/alyve-health-founder-s-office-associate.md	india	not-applicable
+Landeed	?	Entrepreneur in Residence	https://www.workatastartup.com/jobs/60434	jds/landeed-entrepreneur-in-residence.md	india	not-applicable
+TogetherAI	Together AI	Associate, Infrastructure Strategy & Operations	https://job-boards.greenhouse.io/togetherai/jobs/5152193007	jds/togetherai-associate-infrastructure-strategy-and-operations.md	us	required
+Airwallex	?	Senior Associate, Strategy & Operations, CEO Office	https://jobs.ashbyhq.com/airwallex/dd884a82-cf4f-445c-bbf0-506d62eb8c27	jds/airwallex-senior-associate-strategy-and-operations-ceo-office.md	us	required
+Airwallex	?	Manager, Growth Strategy & Operations (Experiments/Campaigns)	https://jobs.ashbyhq.com/airwallex/9e31a887-9ba6-4a56-b083-adcd8b8e2cee	jds/airwallex-manager-growth-strategy-and-operations-experiments-campaigns.md	us	required
+Zuora	Zuora, Inc.	Sr. Analyst, Revenue Operations and Analytics	https://boards.greenhouse.io/zuora/jobs/8137987?gh_jid=8137987	jds/zuora-sr-analyst-revenue-operations-and-analytics.md	us	required
+ZoomInfo	ZoomInfo Technologies LLC	Senior Events Marketing Manager	https://www.zoominfo.com/careers?gh_jid=8738595002	jds/zoominfo-senior-events-marketing-manager.md	us	required
+ZoomInfo	ZoomInfo Technologies LLC	Senior Product Manager	https://www.zoominfo.com/careers?gh_jid=8561603002	jds/zoominfo-senior-product-manager.md	us	required
+Apollo.io	?	Go-To-Market Engineer II, Mid-Market	https://job-boards.greenhouse.io/apolloio/jobs/5918855004	jds/apollo-io-go-to-market-engineer-ii-mid-market.md	us	required
+Apollo.io	?	Senior Product Manager, Expansion	https://job-boards.greenhouse.io/apolloio/jobs/6140340004	jds/apollo-io-senior-product-manager-expansion.md	us	required
+ElevenX Capital	?	Chief of Staff (Tech Ops)	https://www.linkedin.com/jobs/view/4457349797/	jds/elevenx-capital-chief-of-staff-tech-ops.md	india	not-applicable
+leading marketing agencies	?	Chief of Staff to the CEO	https://www.linkedin.com/posts/madhuri-kalburgi_we-are-hiring-for-the-position-of-chief-of-activity-7495355502021865472-FM5P?utm_source=share&utm_medium=member_desktop&rcm=ACoAACyt6owBgCJAq-TByNiprZWFxqH4aBa72eo	jds/leading-marketing-agencies-chief-of-staff-to-the-ceo.md	india	not-applicable
+CarbonCraft	?	Chief of Staff / Founders Office	https://www.linkedin.com/posts/tejas-sidnal-29b03751_hiring-hiring-carboncraft-activity-7496082519348527104-C9LG?utm_source=share&utm_medium=member_desktop&rcm=ACoAACyt6owBgCJAq-TByNiprZWFxqH4aBa72eo	jds/carboncraft-chief-of-staff-founders-office.md	india	not-applicable
+A Pharma company	?	Chief of Staff	https://www.linkedin.com/posts/sarita-pandita-608a00a_chiefofstaff-pharmajobs-pharmaceuticalmanufacturing-activity-7495744077464924160-kl98?utm_source=share&utm_medium=member_desktop&rcm=ACoAACyt6owBgCJAq-TByNiprZWFxqH4aBa72eo	jds/a-pharma-company-chief-of-staff.md	india	not-applicable
+?	?	Chief of Staff	https://www.linkedin.com/posts/vineet-mehta-4065b360_cos-ceos-office-activity-7496229072373440512-odPi?utm_source=share&utm_medium=member_desktop&rcm=ACoAACyt6owBgCJAq-TByNiprZWFxqH4aBa72eo	jds/unknown-employer-via-michael-page-chief-of-staff-vadodara.md	india	not-applicable
