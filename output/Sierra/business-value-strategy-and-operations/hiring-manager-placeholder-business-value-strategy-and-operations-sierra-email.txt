@@ -1,0 +1,20 @@
+Subject: The framework from zero is already my day job
+
+Hi {Hiring Manager, Business Value Strategy and Operations},
+
+Sierra's posting asks for someone to build the business value framework from zero while staying hands-on in the modeling. That combination is unusual to find in one person, and it is the exact split I run at PriceKeel every week: guardrail architecture some days, deal-by-deal audit trail work on others. Built a 6-slide pitch deck so the proof reads in one pass.
+
+- Ran Sensata's Bleeders & Leakers program: $700K+ in margin recovered in 2 quarters against a $627M opportunity set across 3 regions and 20 product lines.
+- Took distributor margin from 53% to 61% by sitting with Finance on the model and senior executives on the multimillion-dollar quotes it justified.
+- At Applied Materials I automate the recurring parts of that modeling with Claude agents, so the framework work and the AI-native habits come from the same stretch of work.
+
+Portfolio: https://adhi-pricing-ai.vercel.app/ref/sierra
+
+Open to 15 minutes on how this maps to the team's roadmap; a redirect to the right owner works too if this sits outside your req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
