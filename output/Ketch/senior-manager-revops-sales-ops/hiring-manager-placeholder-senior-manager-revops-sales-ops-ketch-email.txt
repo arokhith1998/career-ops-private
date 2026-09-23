@@ -1,0 +1,24 @@
+Subject: Sales Ops at Ketch: the handoff breaks before the discount does
+
+Hi {Hiring Manager, RevOps},
+
+Your posting draws this seat from self-serve accounts through enterprise deal desk and CPQ, which tells me the hard part is not pricing judgment, it is that nobody owns both ends of that range today.
+
+I have an opinion on that: most deal desks fail at the handoff, not the negotiation. A rep can defend a discount. What breaks is the CPQ record nobody kept and the forecast that never reflects the closed deal.
+
+At Sensata I carried P&L and revenue targets for a multi-$100M business, recovered $700K+ in margin in two quarters through the Bleeders and Leakers program, and raised distributor margins from 53% to 61% by rebuilding deal structures with Sales and Finance.
+
+Since May I have run PriceKeel, owning CRM, CPQ, forecast reviews and deal approvals as the company's only ops person.
+
+I've attached my resume and cover letter.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/ketch
+
+Would you have 15 minutes to talk through where the pipeline hygiene work is heaviest right now? Happy to be pointed elsewhere if this sits with a different team.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
