@@ -1,0 +1,24 @@
+Subject: Product at Mixpanel: shaping strategy from customer conversations, not the roadmap doc
+
+Hi {Hiring Manager, Product},
+
+I don't normally cold-email a hiring manager, but "use customer conversations and Mixpanel's own product data to shape strategy" describes the loop I already run.
+
+The proof point: I wrote the PRD, scoped the MVP and shipped SwipeHire, an AI job-matching platform, zero to one, then wired GA4 and GTM myself to run 8+ A/B tests, lifting activation 25%. No handoff between the research and the ship.
+
+More that maps here:
+
+At Sensata I own a 100+ feature roadmap with engineering across 3 regions, built on 30+ customer interviews with OEMs and distributors, cutting time to market 20%.
+
+I built KPI frameworks in SQL and GA4 across 50K+ connected devices, catching churn and adoption cohorts before anyone asked, the quant-plus-qual synthesis your posting names.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/mixpanel
+
+I would like 15 minutes to hear how your team is scoping this area, and the deck is there if faster than a resume. No worries if Mixpanel already has its person.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

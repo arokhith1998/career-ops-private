@@ -1,0 +1,26 @@
+Subject: Product Manager, Mixpanel: the AI-tools-for-PM-workflows line
+
+Hi {Recruiter, Product},
+
+I don't normally reach out before applying, but "AI tools for product management workflows like competitive research and prototyping" stopped me. Most PM postings list AI as a checkbox; yours names the actual workflow.
+
+Built you a 6-slide pitch deck so the proof fits one read.
+
+A few pieces of it:
+
+Wrote the PRD, scoped the MVP and shipped SwipeHire zero to one, then wired GA4 and GTM myself to run 8+ A/B tests, lifting activation 25%.
+
+Own a 100+ feature roadmap with engineering across 3 regions at Sensata, cutting time to market 20% off 30+ customer interviews, not a hunch.
+
+Automate competitive research and forecasting with Claude agents at Applied Materials, the same AI-workflow habit your posting names.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/mixpanel
+
+If this is your req, 15 minutes would help. If it sits on someone else's desk, a pointer helps just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
