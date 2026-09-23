@@ -1,0 +1,28 @@
+Subject: Revenue Operations Analyst II, Affirm: training reps on the rules you just built
+
+Hi {Hiring Manager, Revenue Operations},
+
+I do not normally cold-email a hiring manager, but this req pairs two things that usually get split across two people: designing the lead routing and scoring logic, and training the revenue teams who have to live inside it once it ships. A rule nobody explains to the reps who work it gets worked around within a quarter, and that pairing is why this posting held my attention over a standard lead-ops analyst brief.
+
+Built you a 6-slide pitch deck mapping that experience onto the req.
+
+Proof that maps to it:
+
+At Plug Power I tied SEM performance across 50+ inbound campaigns to MQL quality and stage 1 opportunities, the scoring judgment a routing rule needs before it can be trusted.
+
+At Sensata I generated +35% qualified leads through digital and paid launch campaigns across North America and Europe, so the volume side of this funnel is not theoretical for me.
+
+I built the sales enablement materials that trained 50+ reps at Sensata on new pricing and process rules, lifting win rates 30%, the same train-the-team-on-the-change piece this req names directly.
+
+I run CRM, CPQ, forecast and pipeline reviews myself today as founder of PriceKeel, with a documented audit trail Finance and Legal can both point to whenever a Salesforce workflow changes.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/affirm
+
+If the lead-scoring model and rep training plan are still being drawn, I would like 15 minutes to hear how routing gets explained to the team today. If this sits on someone else's desk, a pointer would help just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

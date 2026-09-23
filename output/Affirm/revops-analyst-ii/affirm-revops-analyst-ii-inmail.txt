@@ -1,0 +1,15 @@
+Subject: Revenue Operations Analyst II at Affirm: lead routing logic, not just lead reporting
+
+I do not usually message before applying, but this req wants the top of funnel "predictable, clean, and scalable," which means owning the lead routing and scoring logic itself, not just the dashboard on top of it. That earlier-in-the-funnel scope is closer to how I already work than a standard lead-ops brief.
+
+Built a 6-slide pitch deck so the proof fits one read.
+
+At Plug Power I automated the WordPress-to-Pardot lead flow and the Salesforce, Adobe Analytics, GA and Google Tag Manager stack into one closed-loop reporting layer, cutting cost per lead 50%. At Sensata I built SQL and GA4 KPI frameworks on 50K+ connected devices to surface high-intent cohorts, and today at Applied Materials I automate recurring reporting with Claude AI agents.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/affirm
+
+Worth 15 minutes to see if the fit is real? Happy to send the deck either way.
+
+Thank you,
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
