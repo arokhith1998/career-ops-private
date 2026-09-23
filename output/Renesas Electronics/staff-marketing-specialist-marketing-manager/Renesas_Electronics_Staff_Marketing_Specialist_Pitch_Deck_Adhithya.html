@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Renesas Electronics Staff Marketing Specialist Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #1a56db; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 27pt; font-weight: 800; color: #0f172a; line-height: 1.15; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 19pt; font-weight: 800; color: #0f172a; line-height: 1.16; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #1a56db; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.8in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbeafe 100%); }
+  .cover h1 { font-size: 21pt; max-width: 11.3in; }
+  .cover .sub { font-size: 13pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; max-width: 10.8in; }
+  .cover .tags { margin-top: 16pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.6in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9pt; font-weight: 500; }
+  .tag strong { color: #1a56db; font-weight: 700; }
+  .cover .who { margin-top: 16pt; padding-top: 10pt; border-top: 1.5pt solid #1a56db; max-width: 9.6in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #1a56db; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #eff6ff; border-left: 3pt solid #1a56db; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #1e3a8a; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #1a56db; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.4pt; color: #334155; line-height: 1.46; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 13pt; background: #eff6ff; border-left: 4pt solid #1a56db; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #1e3a8a; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 21pt; font-weight: 800; color: #1a56db; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.3pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.6pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #1a56db; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.3pt; font-weight: 800; color: #0f172a; line-height: 1.18; margin-bottom: 7pt; }
+  .card .body { font-size: 8.8pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.3pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #1a56db; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbeafe 100%); }
+  .close h2 { font-size: 21pt; max-width: 10.8in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.8in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #1a56db; font-weight: 700; }
+  .close .contact { margin-top: 15pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Renesas Electronics Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Renesas Electronics Staff Marketing Specialist</div>
+  <h1>A design-win mandate lives or dies on whether Sales, Engineering and the OEM account view turn into one usable market story before the cycle closes. I run that exact loop today.</h1>
+  <div class="sub">Currently sizing the semiconductor market with Sales, Engineering and Accounts at Applied Materials, plus the OEM go-to-market discipline behind a $2M+ Sensata product launch and a 12% YoY price realignment.</div>
+  <div class="tags">
+    <div class="tag"><strong>$2M+ GTM</strong> - Sensata OEM and distributor sensing-product launch, owned end to end</div>
+    <div class="tag"><strong>10+ competitors benchmarked</strong> - competitive intelligence behind a 12% revenue, 8% share realignment</div>
+    <div class="tag"><strong>30+ OEM interviews</strong> - direct customer engagement turned into product and messaging fixes</div>
+    <div class="tag"><strong>Win rates +30%</strong> - marketing collateral built for a 50-rep team</div>
+    <div class="tag"><strong>Claude AI agents</strong> - automating repetitive market analysis at Applied Materials today</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-product.vercel.app/ref/renesas</div>
+  </div>
+  <div class="brand">RENESAS STAFF MKTG SPECIALIST PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>A design-win mandate does not wait for a market view to arrive from someone else. <span class="accent">Sales and Engineering hand you the signal in real time, and the story has to keep pace.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What that actually requires</h4>
+      <div class="line">A market and competitive view built jointly with Sales and Engineering, not assembled after the fact from a research report.</div>
+      <div class="line">Direct OEM and distributor contact, so positioning reflects real design-in pain points instead of assumptions read secondhand.</div>
+      <div class="line">Collateral Sales will use unmodified in front of an Enterprise or Networking account, on the first pass.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already built at that layer</h4>
+      <div class="line">Size the <b>semiconductor market with Sales, Engineering and Accounts</b> at Applied Materials today, turning field and technical input into one view.</div>
+      <div class="line">Owned <b>OEM- and distributor-facing GTM</b> at Sensata (positioning, pricing, channel, launch) for $2M+ in first-year revenue.</div>
+      <div class="line">Built the <b>sales enablement and collateral</b> a 50-rep team used unmodified, lifting win rates 30%.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">The through-line: I already run the Sales-Engineering-OEM loop a design-win mandate depends on, inside the semiconductor industry, right now.</div>
+  </div>
+  <div class="brand">RENESAS STAFF MKTG SPECIALIST PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The mandate, mapped</div>
+  <h2>What the role covers, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">Drive design-wins and revenue growth for the HPAC portfolio with Enterprise and Networking OEM accounts.</div></div>
+      <div class="quote"><div class="q">Direct customer engagement and cross-functional collaboration with Sales and Engineering teams.</div></div>
+      <div class="quote"><div class="q">Competitive intelligence gathering and marketing collateral development.</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>Applied Materials, live:</b> sizing the semiconductor market with Sales, Engineering and Accounts, the same three-way loop a design-win mandate runs on.</div></div>
+      <div class="proof"><div class="p"><b>Sensata OEM GTM:</b> $2M+ first-year revenue, built on 30+ direct OEM and distributor interviews.</div></div>
+      <div class="proof"><div class="p"><b>Sensata competitive intelligence:</b> 10+ players benchmarked into a 12% revenue, 8% share realignment; collateral for 50 reps lifted win rates 30%.</div></div>
+    </div>
+  </div>
+  <div class="brand">RENESAS STAFF MKTG SPECIALIST PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The closed-loop proof, in depth</div>
+  <h2>Sensata: an OEM go-to-market run end to end, <span class="accent">not handed off between teams that do not exist yet.</span></h2>
+  <div class="lede">Owned positioning, pricing, channel and launch for a new sensing product line selling into OEM and distributor accounts across North America and Europe.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$2M+</div>
+      <div class="lbl">First-Year Revenue, OEM &amp; Distributor GTM</div>
+      <div class="desc">Owned positioning, pricing, channel and launch end to end for a new sensing product line.</div>
+    </div>
+    <div class="stat">
+      <div class="n">10+ Players</div>
+      <div class="lbl">Competitive Intelligence Benchmarked</div>
+      <div class="desc">Fed a price realignment that drove 12% YoY revenue and 8% market share.</div>
+    </div>
+    <div class="stat">
+      <div class="n">30+ Interviews</div>
+      <div class="lbl">Direct OEM &amp; Distributor Engagement</div>
+      <div class="desc">Surfaced design-in pain points that raised CSAT 22% and shaped the launch story.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">The same discipline carries into Applied Materials, where I size the semiconductor market with Sales, Engineering and Accounts today, and automate the repetitive side of that analysis with Claude AI agents.</div>
+  <div class="brand">RENESAS STAFF MKTG SPECIALIST PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month on the HPAC design-win mandate would look like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Sit with Sales and Engineering on live OEM cycles</div>
+      <div class="body">Join active Enterprise and Networking design-win conversations before drafting a single piece of collateral, the same field-first move that shaped the Sensata launch story.</div>
+      <div class="why"><strong>Why first:</strong> a market view built without the account team in the room is a guess dressed up as research.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Stand up the competitive intelligence loop</div>
+      <div class="body">Benchmark the HPAC competitive set the way 10+ players were tracked at Sensata, turning it into a live input for pricing and positioning, not a static deck.</div>
+      <div class="why"><strong>Why now:</strong> competitive intelligence only pays off when Sales checks it before every quote.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Ship collateral Sales uses unmodified</div>
+      <div class="body">Turn the tested narrative into the decks and case studies a rep can carry into an OEM meeting the same week, the pairing that lifted win rates 30% at Sensata.</div>
+      <div class="why"><strong>Why this fast:</strong> a design-win narrative earns trust the first time a rep uses it without editing it.</div>
+    </div>
+  </div>
+  <div class="brand">RENESAS STAFF MKTG SPECIALIST PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>Renesas needs a design-win partner who already runs the Sales-Engineering-OEM loop, not one who has to learn it on the job. I do, today.</h2>
+  <div class="body">
+    <p>The core proof is live: at Applied Materials I size the <strong>semiconductor market</strong> with Sales, Engineering and Accounts right now, the same three-way input a design-win mandate depends on.</p>
+    <p>What is harder to find is someone who has also owned the <strong>OEM GTM cycle</strong> end to end at Sensata for $2M+ in revenue, benchmarked the competitive set behind a 12% revenue and 8% share gain, and built the collateral that made it sellable for a 50-rep team.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-product.vercel.app/ref/renesas</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">RENESAS STAFF MKTG SPECIALIST PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
