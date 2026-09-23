@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>MedhaviOne Entrepreneur in Residence Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #7c2d12; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 31pt; font-weight: 800; color: #0f172a; line-height: 1.1; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 21pt; font-weight: 800; color: #0f172a; line-height: 1.1; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #a63603; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.5in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #fbe4d3 100%); }
+  .cover h1 { font-size: 30pt; max-width: 11.2in; }
+  .cover .sub { font-size: 14pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 18pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #a63603; font-weight: 700; }
+  .cover .who { margin-top: 18pt; padding-top: 11pt; border-top: 1.5pt solid #a63603; max-width: 9.5in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #a63603; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #fef1e7; border-left: 3pt solid #a63603; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #a63603; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #a63603; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #fef1e7; border-left: 4pt solid #a63603; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #a63603; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #a63603; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 22pt; font-weight: 800; color: #a63603; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #a63603; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #a63603; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #a63603; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #fbe4d3 100%); }
+  .close h2 { font-size: 26pt; max-width: 10.5in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.8in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #a63603; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the MedhaviOne Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | MedhaviOne Entrepreneur in Residence</div>
+  <h1>You need someone who can build a business from zero inside MedhaviOne and hold it for the long build. I am running that exact motion at PriceKeel right now, and I have done it once before at SwipeHire.</h1>
+  <div class="sub">A founder currently in the build, not a candidate describing one, applying for either the Enterprise Growth or New Learning Brand mandate.</div>
+  <div class="tags">
+    <div class="tag"><strong>Founder &amp; CEO</strong> of PriceKeel, in pilots and raising its first round</div>
+    <div class="tag"><strong>SwipeHire</strong> built zero-to-one to 50+ early users</div>
+    <div class="tag"><strong>$700K+</strong> margin recovered in 2 quarters, Sensata Bleeders and Leakers program</div>
+    <div class="tag"><strong>53% to 61%</strong> distributor margin lift, repricing logic that held</div>
+    <div class="tag"><strong>8-person team</strong> hired and run across 8 client P&amp;Ls at Pixis</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhithyabhaskar.vercel.app/ref/medhavione</div>
+  </div>
+  <div class="brand">MEDHAVIONE ENTREPRENEUR IN RESIDENCE</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>An Entrepreneur in Residence seat asks for two things most product hires never have to prove: <span class="accent">start something from nothing, and stay in the build for years, not sprints.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What the seat actually demands</h4>
+      <div class="line">Building a business from zero inside an existing company means there is no backlog to inherit, no revenue model already agreed, and no team until the EIR builds one, whether the mandate lands on Enterprise Growth or New Learning Brand.</div>
+      <div class="line">The written case for each idea has to hold up in front of the Founders directly, which is a different bar than a normal product update.</div>
+      <div class="line">Both mandates need the same thing underneath: P&amp;L management, hands-on building for the full 2-3 year run, and a written case strong enough to carry conviction without a safety net.</div>
+    </div>
+    <div class="panel">
+      <h4>What I am already running, on exactly that shape of problem</h4>
+      <div class="line">At <b>PriceKeel</b>, I am building a company from zero right now: designed the guardrail engine and audit trail, set up the CRM, CPQ and deal-approval process from scratch, and I am running pilots while raising the company's first round.</div>
+      <div class="line">At <b>SwipeHire</b>, I wrote the PRD, scoped the MVP and hired the team that shipped an AI job-matching platform to 50+ early users, the same zero-to-one platform mechanics a New Learning Brand needs before its first cohort signs up.</div>
+      <div class="line">Both required the same discipline: a written plan good enough to move people, a team built around it, and P&amp;L ownership carried the whole way through.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">A founder who is currently building a company and who has already shipped one product from a blank page is not two different profiles. It is one operating pattern, and it matches either mandate MedhaviOne is standing up.</div>
+  </div>
+  <div class="brand">MEDHAVIONE ENTREPRENEUR IN RESIDENCE</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What the EIR posting asks for, and where the proof sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Build new businesses from zero inside MedhaviOne. Each EIR reports to the Founders and owns one mandate end to end."</div></div>
+      <div class="quote"><div class="q">"A minimum commitment to 2-3 years of hands-on building," plus a demonstrated project built from scratch and strong written communication.</div></div>
+      <div class="quote"><div class="q">Good to have: B2B SaaS/AI growth or EdTech experience, and P&amp;L management.</div></div>
+    </div>
+    <div class="col">
+      <h3>My Proof</h3>
+      <div class="proof"><div class="p"><b>PriceKeel, founded and run today:</b> a B2B SaaS company built from inception, with its own guardrail engine, audit trail, CRM, CPQ and deal-approval process, selling to RevOps, Sales leadership and Finance.</div></div>
+      <div class="proof"><div class="p"><b>SwipeHire:</b> an AI job-matching platform shipped zero-to-one, PRD through MVP through 50+ early users, the closest analog to standing up a new marketplace brand.</div></div>
+      <div class="proof"><div class="p"><b>P&amp;L management, carried three times over:</b> Applied Materials today, Sensata's Industrial BU, and an 8-client, 8-person portfolio at Pixis.</div></div>
+      <div class="proof"><div class="p"><b>Written communication:</b> Sensata leadership decks, PriceKeel investor materials, and a Safran market-entry report presented directly to that company's leadership.</div></div>
+    </div>
+  </div>
+  <div class="brand">MEDHAVIONE ENTREPRENEUR IN RESIDENCE</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The PriceKeel build, in depth</div>
+  <h2>Zero to a running company: <span class="accent">the guardrail engine, the audit trail, and the go-to-market built around both.</span></h2>
+  <div class="lede">PriceKeel reads a live discount exception inside a company's deal platform and recommends an explainable guardrail learned from that company's own closed-won and closed-lost deals, then records the human pricing decision with evidence Finance can audit.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">3</div>
+      <div class="lbl">Stakeholder Groups Sold To</div>
+      <div class="desc">RevOps, Sales leadership and Finance each need a different proof point before a deal-pricing tool earns trust; the product has to speak to all three.</div>
+    </div>
+    <div class="stat">
+      <div class="n">0 to 1</div>
+      <div class="lbl">CRM, CPQ and Deal Approvals Built</div>
+      <div class="desc">None of the operating infrastructure existed before this year: it was set up from scratch alongside the product itself.</div>
+    </div>
+    <div class="stat">
+      <div class="n">2</div>
+      <div class="lbl">Live Tracks: Pilots and Fundraising</div>
+      <div class="desc">Running customer pilots and raising the first round at the same time, the exact double mandate an EIR seat runs on day one.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">This is the same pattern I ran at Sensata's Bleeders and Leakers program, where I built a BU-wide Power BI system covering 1,200 pricing opportunities against a $627M target and negotiated $700K plus of that back into margin in two quarters. Find the build that matters, put the process around it, then prove the fix holds.</div>
+  <div class="brand">MEDHAVIONE ENTREPRENEUR IN RESIDENCE</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month as MedhaviOne's Entrepreneur in Residence looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Get the mandate and the numbers straight</div>
+      <div class="body">Sit with the Founders to lock the assigned mandate, whichever one it is, and pull together the market sizing and early customer signal already sitting inside MedhaviOne for it.</div>
+      <div class="why"><strong>Why first:</strong> the same first move that shaped PriceKeel's guardrail engine, ground the plan in real numbers before writing a word of strategy.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Write the plan, build the first version</div>
+      <div class="body">Turn the mandate into a written plan the Founders can act on, then start building: the first GTM motion for Enterprise Growth, or the first marketplace listings and pricing tiers for New Learning Brand.</div>
+      <div class="why"><strong>Why now:</strong> the same sequence that got SwipeHire from a PRD to 50+ users, write it down, then ship the smallest version that tests it.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Ship, instrument, and report</div>
+      <div class="body">Launch the first version to real customers, put an OKR cadence and a reporting rhythm in place, and bring the Founders a written update on what the numbers say to build next.</div>
+      <div class="why"><strong>Why this fast:</strong> a mandate is only really owned once it can report its own numbers back, not once someone else has to ask for them.</div>
+    </div>
+  </div>
+  <div class="brand">MEDHAVIONE ENTREPRENEUR IN RESIDENCE</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to build a business from zero and stay with it for years. I am already doing exactly that, twice over.</h2>
+  <div class="body">
+    <p>The current build is <strong>PriceKeel</strong>: a B2B SaaS company built from inception, with its own guardrail engine, audit trail and deal-approval process, now in pilots while I raise the company's first round.</p>
+    <p>The earlier build is <strong>SwipeHire</strong>, an AI job-matching platform shipped zero-to-one to 50+ early users, plus <strong>$700K+ recovered in 2 quarters</strong> and distributor margins lifted <strong>from 53% to 61%</strong> at Sensata. I carry P&amp;L management today at Applied Materials the same way this role will carry it across Enterprise Growth or New Learning Brand.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhithyabhaskar.vercel.app/ref/medhavione</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">MEDHAVIONE ENTREPRENEUR IN RESIDENCE</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
