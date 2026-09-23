@@ -1,0 +1,20 @@
+Subject: The product that has to close a partner without a person in the loop
+
+Hi {Hiring Manager, Merchant Growth},
+
+I do not normally reach out before applying, but "own and grow Affirm's partner portfolio" through a "1: many" model is a different design brief than most merchant PM reqs. The product has to close each partner on its own, not shorten a sales cycle a rep is still running.
+
+I've attached my resume and cover letter.
+
+That is the exact shape of SwipeHire, which I built zero-to-one: wrote the PRD, scoped the MVP, and 50+ early users found the product and finished onboarding on their own, no sales conversation required. I ran 8+ A/B tests and 12+ user interviews against that self-serve path and lifted activation 25%. The roadmap-through-post-launch ownership this req asks for is the job I had at Sensata: I defined the product roadmap and owned a 100+ feature backlog with engineering across 3 regions, cutting time-to-market 20% while releases shipped 25% faster.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/affirm
+
+If the Partner Acceleration Strategy is still being scoped, I would like 15 minutes to hear how success metrics get defined for it. A pointer elsewhere would help just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

@@ -1,0 +1,13 @@
+Subject: 1:many merchant growth, the self-serve proof
+
+I do not usually message before applying, but this req wants a partner portfolio that grows on a "1: many" model, a product that has to close a partner without a person in the loop rather than one more merchant PM listing. That is closer to a design constraint than a headcount ask.
+
+I built that constraint into SwipeHire, zero-to-one: wrote the PRD, scoped the MVP, and 50+ early users onboarded and activated on their own. I ran 8+ A/B tests and 12+ interviews against that path for a 25% activation lift. I ran roadmap and backlog ownership at scale too: 100+ features across 3 regions at Sensata, releases shipping 25% faster.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/affirm
+
+Worth 15 minutes to see if the fit is real? Happy to send more either way.
+
+Thank you,
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
