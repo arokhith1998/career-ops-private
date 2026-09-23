@@ -1,0 +1,20 @@
+Subject: AWS Observability Technical PMM req, Santa Clara/Bay Area
+
+Hi {Recruiter, AWS Observability},
+
+AWS Observability sells trust in a signal to an engineer staring at five open dashboards who does not believe any of them, and closing that gap is the exact work I run day to day.
+
+At Sensata, I built KPI frameworks in SQL and GA4 across 50,000+ connected devices, turning telemetry into adoption signals that lifted feature adoption 18%. I owned end-to-end GTM for a new sensing line, positioning through launch, driving $2M+ first-year revenue and +35% qualified leads. Thirty-plus buyer interviews raised CSAT 22%, and the enablement I built lifted rep win rates 30%. At Applied Materials, I automate that same analysis pipeline with Claude AI agents now.
+
+I've attached my resume and cover letter.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/aws
+
+Would 15 minutes this week work? If this req sits with someone else on your team, a pointer would help.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

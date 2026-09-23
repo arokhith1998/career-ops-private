@@ -1,0 +1,20 @@
+Subject: The trust-the-signal problem, applied to AWS Observability
+
+Hi {Hiring Manager, AWS Observability},
+
+I joined Applied Materials recently and was not looking, but running PriceKeel on the side, a decision-integrity layer that only works if someone trusts the signal enough to act, is what made an Observability PMM seat impossible to skip past.
+
+At Sensata, I built KPI frameworks in SQL and GA4 across 50,000+ connected industrial devices, turning raw telemetry into adoption signals that lifted feature adoption 18%. That same instinct carried through owning end-to-end GTM for a new sensing line ($2M+ first-year revenue, +35% qualified leads) and 30+ structured interviews that raised CSAT 22%. I also built the enablement that lifted rep win rates 30%. At Applied Materials, I run that same pipeline now and automate the repetitive half with Claude AI agents.
+
+I've attached my resume and cover letter.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/aws
+
+Would you have 15 minutes to talk through where the Observability positioning backlog is thinnest? Happy to be pointed elsewhere if this sits with someone else.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
