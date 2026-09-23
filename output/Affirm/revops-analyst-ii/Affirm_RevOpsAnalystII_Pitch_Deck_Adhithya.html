@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Affirm Revenue Operations Analyst II Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #1a56db; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 32pt; font-weight: 800; color: #0f172a; line-height: 1.08; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 21pt; font-weight: 800; color: #0f172a; line-height: 1.1; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #1a56db; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.5in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbe7fb 100%); }
+  .cover h1 { font-size: 27pt; max-width: 11.4in; }
+  .cover .sub { font-size: 14pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 18pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #1a56db; font-weight: 700; }
+  .cover .who { margin-top: 18pt; padding-top: 11pt; border-top: 1.5pt solid #1a56db; max-width: 9in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #1a56db; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #eef3fc; border-left: 3pt solid #1a56db; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #123a91; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #1a56db; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #eef3fc; border-left: 4pt solid #1a56db; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #123a91; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 24pt; font-weight: 800; color: #1a56db; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #1a56db; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #1a56db; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbe7fb 100%); }
+  .close h2 { font-size: 26pt; max-width: 10.5in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.5in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #1a56db; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Affirm Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Affirm Revenue Operations Analyst II</div>
+  <h1>Lead routing rules and workflow automations only stay clean if one person owns the wiring end to end. I already own that wiring today, from the CRM configuration to the audit trail behind it.</h1>
+  <div class="sub">Lead routing, marketing automation and Salesforce workflow ownership, built and run hands on, not delegated.</div>
+  <div class="tags">
+    <div class="tag"><strong>50%</strong> lower cost per lead automating the WordPress and Pardot flow at Plug Power</div>
+    <div class="tag"><strong>50,000+</strong> devices scored for lead intent in a SQL and GA4 framework at Sensata</div>
+    <div class="tag"><strong>PriceKeel</strong> - runs the CRM, CPQ and audit trail behind every deal, founder to admin</div>
+    <div class="tag"><strong>50+</strong> reps trained on new sales enablement tooling and process</div>
+    <div class="tag"><strong>Claude AI agents</strong> automate recurring reporting work today</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhithyabhaskar.vercel.app/ref/affirm</div>
+  </div>
+  <div class="brand">AFFIRM REVENUE OPS</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>The risk at the top of the funnel is not too few leads. It is <span class="accent">routing rules and tooling that quietly drift as volume grows.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What a growing lead-to-account motion runs into</h4>
+      <div class="line">Lead routing logic, scoring thresholds and data enrichment rules get built once, then nobody owns keeping them current as new sources, campaigns and account types get added.</div>
+      <div class="line">Marketing automation platforms and Salesforce drift apart quietly: a field renamed on one side stops mattering on the other, and nobody notices until a rep asks why their queue is empty.</div>
+      <div class="line">The fix is not another dashboard review. It is one person who owns the routing rules, automates the handoff, and documents the change so the next person does not reverse-engineer it.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run, hands on</h4>
+      <div class="line">At <b>Plug Power</b>, I rebuilt the WordPress and Pardot lead flow myself, cutting cost per lead 50% and tying SEM performance to MQL quality and stage 1 pipeline, then automated the surrounding Mar-Tech stack for closed-loop reporting.</div>
+      <div class="line">At <b>Sensata</b>, I built the SQL and GA4 scoring layer that told the team which of 50,000+ connected devices were showing real buying intent, not just traffic.</div>
+      <div class="line">I run the same loop today at <b>PriceKeel</b>: CRM and CPQ configuration, and the documentation trail that lets Finance and Sales trust the process without asking me first.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">Lead routing, lead lifecycle management, marketing automation and Salesforce administration are describing this exact loop: own the rule, automate the handoff, document the change, and keep it that way as volume scales.</div>
+  </div>
+  <div class="brand">AFFIRM REVENUE OPS</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What the Revenue Operations Analyst II opening asks for, and where the proof sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Optimize merchant lifecycle processes and define lead routing logic for lead and account management."</div></div>
+      <div class="quote"><div class="q">"Own workflow automations and collaborate on Salesforce improvements."</div></div>
+      <div class="quote"><div class="q">"Support attribution tracking and train revenue teams on process changes."</div></div>
+    </div>
+    <div class="col">
+      <h3>My Proof</h3>
+      <div class="proof"><div class="p"><b>Plug Power lead flow:</b> automated the WordPress and Pardot handoff into Salesforce, cutting cost per lead 50% and tying it directly to MQL quality and stage 1 opportunities.</div></div>
+      <div class="proof"><div class="p"><b>Sensata attribution and scoring:</b> built the SQL and GA4 KPI framework that scored high-intent accounts across 50,000+ connected devices, then trained 50+ reps on the resulting process.</div></div>
+      <div class="proof"><div class="p"><b>PriceKeel CRM and CPQ:</b> set up and run the company's own CRM and CPQ, and documented the audit trail Finance checks every discount call against.</div></div>
+      <div class="proof"><div class="p"><b>AI tools as a habit, not a pilot:</b> automate recurring forecasting and reporting work with Claude AI agents at Applied Materials today.</div></div>
+    </div>
+  </div>
+  <div class="brand">AFFIRM REVENUE OPS</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The Plug Power and Sensata proof, in depth</div>
+  <h2>One automated lead flow, one scoring layer, <span class="accent">one rep-facing rollout that stuck.</span></h2>
+  <div class="lede">At Plug Power I owned the lead flow end to end: rebuilding the WordPress and Pardot integration so form fills routed into Salesforce automatically, then automating the Mar-Tech stack (Salesforce, Adobe Analytics, GA, Google Tag Manager) so closed-loop reporting ran without a manual export. At Sensata I built the measurement layer on top of that kind of flow and trained the reps who had to use it.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">-50%</div>
+      <div class="lbl">Cost Per Lead</div>
+      <div class="desc">Automating the WordPress and Pardot handoff into Salesforce, and tying SEM performance directly to MQL quality and stage 1 pipeline opportunities.</div>
+    </div>
+    <div class="stat">
+      <div class="n">50,000+</div>
+      <div class="lbl">Devices Scored for Intent</div>
+      <div class="desc">SQL and GA4 KPI framework at Sensata that separated real buying signal from noise, lifting feature adoption 18% once teams could act on it.</div>
+    </div>
+    <div class="stat">
+      <div class="n">50+</div>
+      <div class="lbl">Reps Trained on the Rollout</div>
+      <div class="desc">A scoring model only helps if the field team trusts it. Trained the reps on the resulting enablement, lifting win rates 30%.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">The common thread: build the automation, measure whether it actually changed behavior, then train the people who have to live with it. That is the same loop I would bring to Affirm's lead routing and Salesforce workflows.</div>
+  <div class="brand">AFFIRM REVENUE OPS</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month on Affirm's Revenue Operations team looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Trace the current lead flow</div>
+      <div class="body">Map today's lead routing logic, scoring rules and data enrichment sources end to end, from first form fill or partner referral through Salesforce assignment, and flag where the rule and the reality have drifted apart.</div>
+      <div class="why"><strong>Why first:</strong> the drift is usually visible in the queue data before anyone names it. Same move that started the WordPress and Pardot rebuild at Plug Power.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Ship the routing fix</div>
+      <div class="body">Rebuild the specific routing rule or workflow automation causing the worst drift, document the change, and pressure-test it against real leads with Sales and Business Systems before it goes live.</div>
+      <div class="why"><strong>Why now:</strong> the same sequence, fix then document, cut cost per lead 50% at Plug Power and made the change stick past the first quarter.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Train the team on it</div>
+      <div class="body">Turn the fix into a short process-change training for the revenue teams that touch it, and set up the attribution view that shows whether the new routing is actually converting better.</div>
+      <div class="why"><strong>Why this fast:</strong> a routing fix nobody is trained on reverts to the old habit within a month. Training is the step that makes it permanent.</div>
+    </div>
+  </div>
+  <div class="brand">AFFIRM REVENUE OPS</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to keep the top of the funnel predictable, clean and scalable. I have already built and run that exact chain, from the routing rule to the training that made it stick.</h2>
+  <div class="body">
+    <p>The core proof is Plug Power and Sensata: <strong>50% lower cost per lead</strong> from an automated WordPress and Pardot flow, and a <strong>SQL and GA4 scoring layer across 50,000+ devices</strong> that 50+ reps were trained to use.</p>
+    <p>What is harder to find is someone who also runs that same stack today. I set up and operate <strong>CRM, CPQ and the audit trail behind it as founder of PriceKeel</strong>, which means the lead-routing and workflow-automation instinct behind this role is not something I would need to develop on the job.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhithyabhaskar.vercel.app/ref/affirm</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">AFFIRM REVENUE OPS</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
