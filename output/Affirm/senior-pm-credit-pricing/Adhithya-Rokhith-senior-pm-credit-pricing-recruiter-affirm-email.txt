@@ -6,7 +6,7 @@ I do not normally reach out before applying, but this req pairs shipping "simple
 
 Built you a 6-slide pitch deck so the proof fits on one read.
 
-At Sensata I built the Bleeders and Leakers pricing model, scoring 1,200 opportunities against a $627M target, then closed $700K+ of the gap in two quarters and held distributor margins at 53% to 61% past the first quarter. I run that same build-and-measure loop today at PriceKeel, reading live discount exceptions and recommending an explainable guardrail learned from a company's own closed-won and closed-lost deals.
+At Sensata I built the Bleeders and Leakers pricing model, scoring 1,200 opportunities against a $627M target, then closed $700K+ of margin in two quarters and held distributor margins at 53% to 61% past the first quarter. I run that same build-and-measure loop today at PriceKeel, reading live discount exceptions and recommending an explainable guardrail learned from a company's own closed-won and closed-lost deals.
 
 Here's the portfolio: https://adhi-product-ai.vercel.app/ref/affirm
 
