@@ -1,0 +1,24 @@
+Subject: Quest runs two pricing portfolios as one - I've already closed this gap
+
+Hi {Hiring Manager, Strategic Pricing},
+
+I joined Applied Materials a few months ago and wasn't looking, but the line about cross-functional collaboration across cybersecurity and platform management portfolios is the same one-pricing-logic-for-two-portfolios problem I've already solved, so I wanted to reach the pricing desk directly.
+
+Built you a 6-slide pitch deck so the first-month plan and the proof sit on one read.
+
+At Sensata I built a Power BI dashboard ranking 1,200 pricing opportunities against a $627M target across 3 regions and 4 product families, recovering $700K in margin in two quarters.
+I rebuilt distributor and channel-partner pricing logic and raised those margins from 53% to 61% while carrying P&L targets for a multi-$100M business.
+At Applied Materials I partner with Sales, Engineering and Accounts to turn field input into one pricing strategy, automated with Claude-built agents.
+I'm also building PriceKeel, a decision-integrity layer for B2B deal pricing, close to the discount-governance work this role wants.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/quest-software
+
+Would 15 minutes work this week to see if the fit is real? If not, no worries either way.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+arokhith@gmail.com
++1-929-563-9974
+GitHub: https://github.com/arokhith1998
