@@ -1,0 +1,23 @@
+Subject: Positioning Paraform as the category, not another recruiting tool
+
+Hi {Hiring Manager, Paraform},
+
+I don't normally reach out before applying, but owning the launch story for an AI-forward two-sided marketplace, defining the category instead of describing features, is work I already run, not a skill I'd pick up in week one.
+
+Put together a pitch deck mapped to this req so the proof fits on one read.
+
+Proof points that carry over:
+- Built SwipeHire, an AI job-matching platform, zero to one: PRD, ICP, competitor teardowns against Jobright, and 3 subscription tiers that took it to 50+ early users, with GTM and analytics I ran myself.
+- At Sensata, turned 30+ OEM and distributor interviews into messaging that lifted conversion 15%, and built the enablement that raised win rates 30% for a 50-person sales team.
+- Automate market analysis with Claude AI agents at Applied Materials now, so I ship with AI, not just market it.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/paraform
+
+Would 15 minutes work to walk through how I'd build out the PMM function here? Happy to be redirected if I'm not talking to the right person.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
