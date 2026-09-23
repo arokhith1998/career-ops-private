@@ -95,7 +95,11 @@ async function checkUrl(page, url) {
     return { result: 'uncertain', reason: 'content present but no apply button found' };
 
   } catch (err) {
-    return { result: 'expired', reason: `navigation error: ${err.message.split('\n')[0]}` };
+    // A navigation-level failure (cert error, DNS, timeout, proxy hiccup) is
+    // infrastructure noise, not a signal the posting is gone — only an HTTP
+    // status or page content above tells us that. Misreading it as "expired"
+    // would silently drop live postings.
+    return { result: 'uncertain', reason: `navigation error: ${err.message.split('\n')[0]}` };
   }
 }
 
