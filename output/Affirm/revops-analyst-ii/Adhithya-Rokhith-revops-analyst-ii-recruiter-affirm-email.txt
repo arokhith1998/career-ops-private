@@ -2,23 +2,19 @@ Subject: Revenue Operations Analyst II, Affirm: the plumbing behind lead routing
 
 Hi {Recruiter, Revenue Operations},
 
-I do not normally reach out before applying, but this req asks for the top of funnel to be "predictable, clean, and scalable," and that phrasing sits earlier in the funnel than most revops openings: lead routing logic and workflow automation before a deal ever reaches territory scoring. That is a build-the-plumbing brief, not a run-the-reports one, and it is the part of this work I already gravitate toward.
+I do not normally reach out before applying, but this req wants the top of funnel "predictable, clean, and scalable," which means owned lead routing and scoring logic, not a report layered on top.
 
 Built you a 6-slide pitch deck so the proof fits on one read.
 
-A few pieces of it:
+Automated Plug Power's WordPress-to-Pardot lead flow, cutting cost per lead 50% by fixing the routing rules, not the ad spend upstream.
 
-Automated the WordPress-to-Pardot lead flow at Plug Power, cutting cost per lead 50% by fixing the routing rules feeding it, not just the ad spend upstream.
+Automated Plug Power's Salesforce, Adobe Analytics, GA and Google Tag Manager stack into one closed-loop reporting layer, the attribution-tracking piece this req owns.
 
-Automated the Salesforce, Adobe Analytics, GA and Google Tag Manager stack at Plug Power into one closed-loop reporting layer, the same attribution-tracking piece this req owns.
-
-Built SQL and GA4 KPI frameworks on 50K+ connected devices at Sensata, surfacing the high-intent cohorts a lead-scoring model needs before routing can trust it.
-
-Automate recurring reporting with Claude AI agents at Applied Materials today, the habit that keeps workflow automation owned rather than patched.
+Built SQL and GA4 KPI frameworks on 50K+ connected devices at Sensata, surfacing the high-intent cohorts a lead-scoring model needs.
 
 Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/affirm
 
-15 minutes would help me understand how much of the lead-scoring model is already defined versus still open. If this is not your req, a nudge toward whoever owns it would help just as much.
+15 minutes would help me learn how much of the scoring model is defined. If this is not your req, a nudge toward whoever owns it would help just as much.
 
 Thank you,
 
