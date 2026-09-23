@@ -1,0 +1,15 @@
+Subject: Job 8223567 - the customer-data-to-strategy line, not the title, is why I'm writing
+
+I do not usually message before applying, but "use insight from customer conversations and Mixpanel's own product data to shape strategy" is the exact loop I already run, so I wanted a direct line instead of the queue.
+
+Built a 6-slide pitch deck so the proof fits one read.
+
+I wrote the PRD, scoped the MVP and shipped SwipeHire zero to one, wiring GA4 and GTM myself to run 8+ A/B tests and lift activation 25%. At Sensata I own a 100+ feature roadmap with engineering across 3 regions, built on 30+ customer interviews, cutting time to market 20%.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/mixpanel
+
+Worth 15 minutes to see if the fit is real? Happy to send the deck either way.
+
+Thank you,
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
