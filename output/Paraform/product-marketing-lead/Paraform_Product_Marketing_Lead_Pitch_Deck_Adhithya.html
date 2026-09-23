@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Paraform Product Marketing Lead Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #1a56db; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 27pt; font-weight: 800; color: #0f172a; line-height: 1.15; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 19pt; font-weight: 800; color: #0f172a; line-height: 1.16; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #1a56db; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.8in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbeafe 100%); }
+  .cover h1 { font-size: 22pt; max-width: 11.3in; }
+  .cover .sub { font-size: 13pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; max-width: 10.8in; }
+  .cover .tags { margin-top: 16pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.6in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9pt; font-weight: 500; }
+  .tag strong { color: #1a56db; font-weight: 700; }
+  .cover .who { margin-top: 16pt; padding-top: 10pt; border-top: 1.5pt solid #1a56db; max-width: 9.4in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #1a56db; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #eff6ff; border-left: 3pt solid #1a56db; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #1e3a8a; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #1a56db; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.4pt; color: #334155; line-height: 1.46; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 13pt; background: #eff6ff; border-left: 4pt solid #1a56db; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #1e3a8a; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 21pt; font-weight: 800; color: #1a56db; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.3pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.6pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #1a56db; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.3pt; font-weight: 800; color: #0f172a; line-height: 1.18; margin-bottom: 7pt; }
+  .card .body { font-size: 8.8pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.3pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #1a56db; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbeafe 100%); }
+  .close h2 { font-size: 21pt; max-width: 10.8in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.8in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #1a56db; font-weight: 700; }
+  .close .contact { margin-top: 15pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Paraform Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Paraform Product Marketing Lead</div>
+  <h1>A recruiting marketplace only earns trust from both sides, recruiters and companies, when the category story and the launch proof both hold up. I built that exact motion from zero before.</h1>
+  <div class="sub">An AI job-matching platform built PRD to positioning to pricing tiers, a $2M+ product launch run end to end, and sales enablement that lifted win rates 30% for a 50-person team.</div>
+  <div class="tags">
+    <div class="tag"><strong>50+ early users</strong> - AI job-matching platform built zero-to-one, PRD to launch</div>
+    <div class="tag"><strong>3 pricing tiers</strong> - positioning and packaging modeled from competitor teardowns</div>
+    <div class="tag"><strong>GTM $2M+</strong> - Sensata sensing-product launch owned end to end</div>
+    <div class="tag"><strong>Win rates +30%</strong> - sales enablement built for a 50-person team</div>
+    <div class="tag"><strong>Claude AI agents</strong> - shipping AI-built workflows at Applied Materials today</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-product-ai.vercel.app/ref/paraform</div>
+  </div>
+  <div class="brand">PARAFORM PMM LEAD PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>A first PMM hire at a marketplace does not inherit a category narrative. <span class="accent">They have to write it from a blank page while the launches keep shipping.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What that actually requires</h4>
+      <div class="line">A category narrative and positioning built for two audiences at once, recruiters submitting candidates and companies paying for hires, not one buyer persona reused twice.</div>
+      <div class="line">End-to-end launch ownership: positioning, pricing, channel and sales enablement shipped together, not handed off between teams that do not exist yet.</div>
+      <div class="line">Storytelling that survives contact with real users before it goes to sales, so the enablement built around it does not need a rewrite in month two.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already built at that layer</h4>
+      <div class="line">Built <b>SwipeHire</b>, an AI job-matching platform, zero-to-one: wrote the PRD, defined the ICP, ran competitor teardowns and shipped the positioning behind 3 subscription pricing tiers.</div>
+      <div class="line">Owned <b>GTM for Sensata's new sensing products</b> end to end (positioning, pricing, channel, launch) for $2M+ in first-year revenue with no existing playbook to borrow.</div>
+      <div class="line">Built the <b>sales enablement</b> (decks, case studies) that turned that launch into a sellable story for a 50-person team, lifting win rates 30%.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">The through-line: I have written the category narrative for a two-sided marketplace before, not a single-buyer product, which is the actual hard part inside a first PMM hire at Paraform.</div>
+  </div>
+  <div class="brand">PARAFORM PMM LEAD PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The mandate, mapped</div>
+  <h2>What the role covers, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">Define the category narrative and own positioning for a complex, two-sided B2B SaaS product.</div></div>
+      <div class="quote"><div class="q">Own product launches end to end and build the PMM function itself, from nothing.</div></div>
+      <div class="quote"><div class="q">Build sales enablement and bring talent, recruiting or AI product launch experience.</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>SwipeHire, zero-to-one:</b> built an AI job-matching platform's positioning, pricing tiers and GTM stack from a blank page, the direct talent-tech analog to this mandate.</div></div>
+      <div class="proof"><div class="p"><b>Sensata, GTM $2M+:</b> owned a full launch cycle, positioning through channel, with no existing team or playbook to lean on.</div></div>
+      <div class="proof"><div class="p"><b>Sales enablement, win rates +30%:</b> built the decks and case studies that made the launch sellable for a 50-person team.</div></div>
+    </div>
+  </div>
+  <div class="brand">PARAFORM PMM LEAD PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The closed-loop proof, in depth</div>
+  <h2>SwipeHire: a job-matching marketplace built <span class="accent">from a blank page, not a template.</span></h2>
+  <div class="lede">Built as an AI job-matching platform for job seekers, the same two-sided candidate-to-opportunity dynamic a recruiting marketplace runs on, from PRD through pricing to launch.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">50+ Users</div>
+      <div class="lbl">Early Adoption, Zero-to-One</div>
+      <div class="desc">Wrote the PRD, scoped the MVP and shipped auto-tailored resumes and visa-aware matching.</div>
+    </div>
+    <div class="stat">
+      <div class="n">3 Tiers</div>
+      <div class="lbl">Pricing &amp; Positioning Modeled</div>
+      <div class="desc">Defined the ICP and ran competitor teardowns (Jobright and others) to set the category story.</div>
+    </div>
+    <div class="stat">
+      <div class="n">+25% Activation</div>
+      <div class="lbl">From 8+ A/B Tests, 12+ Interviews</div>
+      <div class="desc">Ran the GTM and analytics stack (GA4, GTM, funnel dashboards) to test the story against real users.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">The same end-to-end discipline carries over from Sensata, where I owned GTM for a new product line (positioning, pricing, channel, launch) for $2M+ in first-year revenue, and from Applied Materials, where I automate the repetitive side of that work with Claude AI agents today.</div>
+  <div class="brand">PARAFORM PMM LEAD PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month building Paraform's PMM function would look like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Sit on both sides of the marketplace</div>
+      <div class="body">Talk to recruiters and hiring companies before drafting a word of narrative, the same ICP-first move that shaped SwipeHire's positioning before launch.</div>
+      <div class="why"><strong>Why first:</strong> a category narrative built for one side of a marketplace collapses the first time the other side reads it.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Draft the category narrative, then stress-test it</div>
+      <div class="body">Write the positioning, then run it past real prospects the way SwipeHire's 8+ A/B tests and 12+ interviews validated messaging before it shipped.</div>
+      <div class="why"><strong>Why now:</strong> a narrative nobody has argued with yet is a guess, not a category.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Ship the launch and the enablement together</div>
+      <div class="body">Turn the tested narrative into the first launch plus the sales decks and case studies behind it, the same pairing that lifted win rates 30% at Sensata.</div>
+      <div class="why"><strong>Why this fast:</strong> a PMM function earns its seat when the first launch and the first enablement kit land at the same time.</div>
+    </div>
+  </div>
+  <div class="brand">PARAFORM PMM LEAD PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>Paraform needs a first PMM hire who has already written a category narrative for a two-sided marketplace, not adapted one from a single-buyer product. I have.</h2>
+  <div class="body">
+    <p>The core proof is SwipeHire: an <strong>AI job-matching platform</strong> built zero-to-one, PRD through positioning through 3 pricing tiers, tested against real users before it ever reached a sales conversation.</p>
+    <p>What is harder to find is someone who has also owned a full launch cycle end to end at Sensata for $2M+ in revenue, built the sales enablement that made it sellable, and keeps shipping with AI tools today, automating repetitive analysis with <strong>Claude agents</strong> at Applied Materials.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-product-ai.vercel.app/ref/paraform</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">PARAFORM PMM LEAD PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
