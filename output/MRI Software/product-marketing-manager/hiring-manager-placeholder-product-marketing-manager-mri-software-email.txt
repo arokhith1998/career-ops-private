@@ -1,0 +1,20 @@
+Subject: The full GTM stack in MRI's PMM req, and who has already run it
+
+Hi {Hiring Manager, Product Marketing},
+
+Your posting treats positioning, enablement, demand generation and market intelligence as one manager's job, not four hires stitched together after launch. That combination is why I'm reaching out directly.
+
+At Sensata, I ran the full launch cycle myself: positioning and messaging that turned engineering-driven features into a value proposition a rep could sell, sales enablement (decks, case studies) for a 50-rep team, and the demand-gen campaigns tied to each launch. Win rates rose 30%, first-year revenue crossed $2M, and qualified leads grew 35%, all built on competitive analysis and market intelligence I ran across EMEA and the US. At Applied Materials, I now automate that market-intelligence layer with Claude AI agents.
+
+I've attached my resume and cover letter.
+
+Here's the portfolio: https://adhi-product.vercel.app/ref/mri-software
+
+Would you have 15 minutes on which piece of the launch stack (positioning, enablement or demand gen) is hardest to keep moving right now? Happy to be pointed elsewhere if this sits with someone else.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
