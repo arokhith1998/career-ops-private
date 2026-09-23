@@ -1,0 +1,20 @@
+Subject: The SQL-to-narrative handoff on Fivetran's platform story
+
+Hi {Hiring Manager, Technical Product Marketing},
+
+Your posting treats market research on data infrastructure trends and expertise in data integration, SQL and databases as one job, not two skill sets bolted together. That combination is rare enough that I wanted to reach out directly instead of waiting in a queue.
+
+At Sensata, I owned end-to-end GTM for a new sensing product line, translating the underlying technical specs into buyer-ready value props that lifted conversion 15% for OEM and distributor accounts, while building the KPI frameworks myself in SQL and GA4 across 50,000+ connected devices. Thirty-plus customer interviews fed that positioning directly. I also built the Power BI infrastructure tracking $627M in pricing opportunities across 1,200 deals, so I can read a data model before I write about it, not after. At Applied Materials, I now automate that same market and competitive analysis with Claude AI agents, which matters given how fast the roadmap moves mid-merger with dbt Labs.
+
+I've attached my resume and cover letter.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/fivetran
+
+Would you have 15 minutes to talk through which part of the technical content backlog is hardest to keep current right now? Happy to be pointed elsewhere if this sits with someone else.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

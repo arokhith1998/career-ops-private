@@ -1,0 +1,20 @@
+Subject: Fivetran's technical PMM req and the SQL-to-narrative gap
+
+Hi {Recruiter, Technical Product Marketing},
+
+Your posting wants someone who can sit with SQL and a data model long enough to write about it credibly, especially as the platform narrative shifts mid-merger with dbt Labs. That is the split I have run for two years.
+
+At Sensata, I built KPI frameworks in SQL and GA4 across 50,000+ connected devices, then turned the technical specs into positioning that lifted OEM conversion 15%. Thirty-plus customer interviews fed that positioning directly, the market-research discipline your posting calls out on data infrastructure trends. I also built a Power BI dashboard tracking $627M in pricing opportunities across 1,200 deals. At Applied Materials, I automate the recurring side of that same analysis with Claude AI agents.
+
+I've attached my resume and cover letter.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/fivetran
+
+Would 15 minutes this week work? If this req sits with someone else on your team, a pointer would help.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

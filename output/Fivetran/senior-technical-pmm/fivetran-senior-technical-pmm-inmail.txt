@@ -1,0 +1,20 @@
+Subject: Technical PMM at Fivetran, from someone who builds the SQL first
+
+Hi {Recruiter, Technical Product Marketing},
+
+Writing technical content that holds up next to the people who build a data platform, especially mid-merger with dbt Labs, is a specific problem, and it is the one I have run before.
+
+At Sensata, I built the KPI frameworks in SQL and GA4 across 50,000+ connected devices myself, then turned the technical specs into positioning that lifted OEM conversion 15%. My customer research, 30+ interviews, fed that positioning directly, the same discipline your posting calls market research on data infrastructure trends. I also built the Power BI analytics tracking $627M in pricing opportunities across 1,200 deals.
+
+I've attached my resume and cover letter.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/fivetran
+
+Open to 15 minutes on where the technical content backlog needs the most help right now?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
