@@ -1,0 +1,23 @@
+Subject: Product Marketing Manager, Audience Measurement - measurement-first GTM
+
+Hi {Recruiter, TikTok Audience Measurement},
+
+I don't normally reach out before applying, but framing GTM strategy around measurement solutions, not campaigns with measurement bolted on after, is exactly the sequencing I already run, not one I'd be learning on the job.
+
+Built you a 6-slide pitch deck so the proof fits on one read.
+
+A few things that carry over:
+- Ran retail media (Amazon Ads, Criteo) and app UA (Appsflyer, Adjust) for an 8-client, P&L-owning portfolio at Pixis, an AI ad platform, using Amplitude and Tableau to turn behavior into segments that lifted ROAS 40%.
+- Built KPI frameworks in SQL and GA4 across 50K+ connected devices at Sensata.
+- Automate the reporting side of measurement work today with Claude AI agents at Applied Materials.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/tiktok
+
+15 minutes would help. If this isn't your req, a nudge toward whoever owns it would too.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

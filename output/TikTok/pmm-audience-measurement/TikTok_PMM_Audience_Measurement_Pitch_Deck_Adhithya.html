@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>TikTok Product Marketing Manager, Audience Measurement Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #1a56db; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 27pt; font-weight: 800; color: #0f172a; line-height: 1.15; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 19pt; font-weight: 800; color: #0f172a; line-height: 1.16; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #1a56db; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.8in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbeafe 100%); }
+  .cover h1 { font-size: 22pt; max-width: 11.3in; }
+  .cover .sub { font-size: 13pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; max-width: 10.8in; }
+  .cover .tags { margin-top: 16pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.6in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9pt; font-weight: 500; }
+  .tag strong { color: #1a56db; font-weight: 700; }
+  .cover .who { margin-top: 16pt; padding-top: 10pt; border-top: 1.5pt solid #1a56db; max-width: 9.4in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #1a56db; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #eff6ff; border-left: 3pt solid #1a56db; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #1e3a8a; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #1a56db; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.4pt; color: #334155; line-height: 1.46; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 13pt; background: #eff6ff; border-left: 4pt solid #1a56db; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #1e3a8a; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 21pt; font-weight: 800; color: #1a56db; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.3pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.6pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #1a56db; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.3pt; font-weight: 800; color: #0f172a; line-height: 1.18; margin-bottom: 7pt; }
+  .card .body { font-size: 8.8pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.3pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #1a56db; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbeafe 100%); }
+  .close h2 { font-size: 21pt; max-width: 10.8in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.8in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #1a56db; font-weight: 700; }
+  .close .contact { margin-top: 15pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the TikTok Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | TikTok Product Marketing Manager, Audience Measurement</div>
+  <h1>Measurement products only earn advertiser trust when the GTM story and the underlying signal both hold up. I have already sold and built inside an AI ad platform where that was the whole job.</h1>
+  <div class="sub">Retail-media and app-UA measurement across an 8-client portfolio, a closed-loop attribution discipline built from CRM to ad platform, and cross-functional GTM work that turned technical signal into buyer-ready proof.</div>
+  <div class="tags">
+    <div class="tag"><strong>8 clients, $15K-$90K/mo each</strong> - P&amp;L-owning AdTech portfolio at Pixis</div>
+    <div class="tag"><strong>Retail media + app UA</strong> - Amazon Ads, Criteo, Appsflyer, Adjust measurement across channels</div>
+    <div class="tag"><strong>ROAS +40%</strong> - Amplitude/Tableau audience segments built from behavior signal</div>
+    <div class="tag"><strong>Closed-loop attribution</strong> - Salesforce-to-ad-platform reporting at Plug Power</div>
+    <div class="tag"><strong>GTM $2M+</strong> - Sensata sensing-product launch built on SQL/GA4 KPI frameworks</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-product-ai.vercel.app/ref/tiktok</div>
+  </div>
+  <div class="brand">TIKTOK AUDIENCE MEASUREMENT PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>Audience measurement is not a reporting layer bolted onto GTM. <span class="accent">It is the proof that makes the GTM story credible to a skeptical advertiser.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What that actually requires</h4>
+      <div class="line">A GTM strategy for the measurement product itself that a media buyer, a brand marketer and an internal sales team can each act on without translation.</div>
+      <div class="line">Fluency across the channels a measurement claim has to survive: retail media, app-install attribution, and platform-native signal, not one narrow lane.</div>
+      <div class="line">Cross-functional follow-through with data science, sales and research so a measurement finding turns into a sellable narrative, not a dashboard nobody reads.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already built at that layer</h4>
+      <div class="line">Ran <b>retail media (Amazon Ads, Criteo) and iOS app UA (Appsflyer, Adjust)</b> measurement at Pixis, an AI ad platform, across an 8-client, P&amp;L-owning portfolio.</div>
+      <div class="line">Used <b>Amplitude and Tableau</b> to turn campaign-level behavior into audience segments, the same signal-to-narrative work a measurement GTM story depends on.</div>
+      <div class="line">Automated the <b>Salesforce, Adobe Analytics and Google Tag Manager</b> stack at Plug Power for closed-loop reporting, so a measurement claim survived scrutiny past the first dashboard.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">The through-line: I have already worked inside an AI ad platform where the product being sold was measurement itself, not a feature next to it, which is the actual hard problem inside "Audience Measurement PMM."</div>
+  </div>
+  <div class="brand">TIKTOK AUDIENCE MEASUREMENT PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The mandate, mapped</div>
+  <h2>What the role covers, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">Go-to-market strategy and measurement solutions, built for advertisers who need to trust the number before they trust the platform.</div></div>
+      <div class="quote"><div class="q">Cross-functional collaboration across data science, sales and research to turn a measurement capability into a story the field can sell.</div></div>
+      <div class="quote"><div class="q">Product marketing and AdTech fluency: knowing how a measurement claim holds up across the channels an advertiser already buys.</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>Pixis, 8-client portfolio:</b> ran retail media and app-UA measurement inside an AI ad platform, the same product-is-the-measurement environment this role sits in.</div></div>
+      <div class="proof"><div class="p"><b>Amplitude/Tableau, ROAS +40%:</b> turned campaign behavior into audience segments the sales team could act on, not just a report.</div></div>
+      <div class="proof"><div class="p"><b>Sensata, GTM $2M+:</b> built the KPI frameworks in SQL and GA4 that made a technical launch a sellable customer story, the cross-functional GTM discipline this role names directly.</div></div>
+    </div>
+  </div>
+  <div class="brand">TIKTOK AUDIENCE MEASUREMENT PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The closed-loop proof, in depth</div>
+  <h2>Pixis: measurement <span class="accent">as the product</span>, not a report about the product.</h2>
+  <div class="lede">Built as the audience-and-attribution layer behind an 8-client AI ad platform portfolio, spanning retail media and app-install measurement at once.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">8 / $15K-$90K</div>
+      <div class="lbl">Clients / Monthly Media Managed Each</div>
+      <div class="desc">P&amp;L-owning portfolio on an AI ad platform, hired and managed as an 8-person team.</div>
+    </div>
+    <div class="stat">
+      <div class="n">ROAS +40%</div>
+      <div class="lbl">From Amplitude/Tableau Segments</div>
+      <div class="desc">Behavior signal across 30+ campaigns turned into audiences the sales team could act on.</div>
+    </div>
+    <div class="stat">
+      <div class="n">3x ROAS</div>
+      <div class="lbl">Fashion Brand, One Month</div>
+      <div class="desc">Full-funnel restructure: feed cleanup, smart bidding, creative refresh, lookalike expansion.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">The same closed-loop instinct carries over from Plug Power, where I automated the Salesforce, Adobe Analytics and Google Tag Manager stack so paid spend tied back to lead quality instead of platform-reported clicks, the attribution discipline a measurement product has to survive.</div>
+  <div class="brand">TIKTOK AUDIENCE MEASUREMENT PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month on TikTok's Audience Measurement GTM would look like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Sit with data science before the deck</div>
+      <div class="body">Pull the current measurement methodology and its known edge cases first, the same audience-first move that shaped the KPI frameworks at Sensata.</div>
+      <div class="why"><strong>Why first:</strong> a GTM story built ahead of the methodology's real limits gets picked apart by the first skeptical advertiser.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Map the claim across channels advertisers already buy</div>
+      <div class="body">Stress-test the measurement story against retail-media and app-install use cases, the cross-channel check that Pixis's client portfolio ran on every account.</div>
+      <div class="why"><strong>Why now:</strong> a measurement story that only holds for one channel is not a GTM strategy, it is a case study.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Ship the sales-enablement version</div>
+      <div class="body">Turn the stress-tested story into the decks and objection-handling material the field needs, the same enablement handoff that lifted win rates 30% at Sensata.</div>
+      <div class="why"><strong>Why this fast:</strong> a measurement product earns adoption when sales can sell it without a data scientist on the call.</div>
+    </div>
+  </div>
+  <div class="brand">TIKTOK AUDIENCE MEASUREMENT PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>TikTok's Audience Measurement GTM needs someone who has already sold measurement as the product, not marketed a feature next to it. I have.</h2>
+  <div class="body">
+    <p>The core proof is Pixis: <strong>retail media and app-UA measurement</strong> run inside an AI ad platform's 8-client, P&amp;L-owning portfolio, with the <strong>Amplitude and Tableau</strong> discipline that turns behavior signal into a story sales can act on.</p>
+    <p>What is harder to find is someone who has also carried that discipline into a Salesforce-to-ad-platform closed loop at Plug Power and a cross-functional GTM launch at Sensata, then kept building that muscle today by automating repetitive analysis with <strong>Claude AI agents</strong> at Applied Materials.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-product-ai.vercel.app/ref/tiktok</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">TIKTOK AUDIENCE MEASUREMENT PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>

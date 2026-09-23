@@ -1,0 +1,1 @@
+TikTok's audience measurement work needs GTM built around signals, not campaigns first: I ran that at Pixis, an AI ad platform, lifting ROAS 40% via Amplitude and Tableau segments. Portfolio: adhi-product-ai.vercel.app/ref/tiktok Open to 15 min?
