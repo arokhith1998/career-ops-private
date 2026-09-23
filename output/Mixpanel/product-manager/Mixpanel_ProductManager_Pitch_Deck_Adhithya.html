@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Mixpanel Product Manager Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #1a56db; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 32pt; font-weight: 800; color: #0f172a; line-height: 1.08; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 21pt; font-weight: 800; color: #0f172a; line-height: 1.1; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #1a56db; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.5in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbe7fb 100%); }
+  .cover h1 { font-size: 31pt; max-width: 10.9in; }
+  .cover .sub { font-size: 14pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 18pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #1a56db; font-weight: 700; }
+  .cover .who { margin-top: 18pt; padding-top: 11pt; border-top: 1.5pt solid #1a56db; max-width: 9in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #1a56db; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #eef3fc; border-left: 3pt solid #1a56db; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #123a91; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #1a56db; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #eef3fc; border-left: 4pt solid #1a56db; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #123a91; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 24pt; font-weight: 800; color: #1a56db; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #1a56db; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #1a56db; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbe7fb 100%); }
+  .close h2 { font-size: 26pt; max-width: 10.5in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.5in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #1a56db; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Mixpanel Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Mixpanel Product Manager</div>
+  <h1>Every product-analytics company faces the same test on its own roadmap: does the next feature follow the cohort, or the loudest opinion in the room. I have already run that test twice.</h1>
+  <div class="sub">Roadmap ownership, discovery and activation instrumentation from a PM who wires up his own funnel data instead of waiting on someone else's report.</div>
+  <div class="tags">
+    <div class="tag"><strong>100+</strong> feature backlog owned end to end, releases 25% faster, time-to-market cut 20% (Sensata)</div>
+    <div class="tag"><strong>18%</strong> feature-adoption lift from SQL + GA4 cohort instrumentation across 50K+ devices</div>
+    <div class="tag"><strong>+25%</strong> activation lift on SwipeHire, an AI product built zero-to-one (PRD, MVP, GA4/GTM funnel)</div>
+    <div class="tag"><strong>30+</strong> customer interviews turned into a roadmap that raised CSAT 22%</div>
+    <div class="tag"><strong>Claude AI agents</strong> in daily use to automate repetitive analysis at Applied Materials</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-product-ai.vercel.app/ref/mixpanel</div>
+  </div>
+  <div class="brand">MIXPANEL PRODUCT</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>The hard part is not more instrumentation. It is turning it into <span class="accent">a roadmap call before the opportunity goes cold.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What a product-analytics company runs into on its own roadmap</h4>
+      <div class="line">Everyone can see the usage data, but a dashboard alone does not decide which of a hundred competing feature requests to build next.</div>
+      <div class="line">Without a backlog anchored to adoption and retention cohorts, roadmap debates default to whoever argues loudest, not the clearest signal in the funnel.</div>
+      <div class="line">The fix is not another metric. It is a PM who turns cohort behavior and customer conversations into a backlog engineering can actually execute against.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run, at smaller scale</h4>
+      <div class="line">At <b>Sensata</b>, I owned the roadmap and a 100+ feature backlog for a connected-device line, instrumenting SQL and GA4 cohort tracking across 50K+ devices to find which features actually moved adoption.</div>
+      <div class="line">I paired that with <b>30+ customer interviews</b> so the backlog reflected what OEMs and distributors said, not just what the usage logs implied.</div>
+      <div class="line">I run the same loop solo on <b>SwipeHire</b>: wrote the PRD, scoped the MVP, then instrumented my own GA4 and GTM funnel to find the activation drop-off instead of asking someone else to pull the report.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">Roadmap ownership, product discovery and data-driven prioritization are the same loop: watch the cohort, talk to the user, ship the backlog item that moves both.</div>
+  </div>
+  <div class="brand">MIXPANEL PRODUCT</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The seat, mapped</div>
+  <h2>What a Product Manager at a product-analytics company usually owns, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the seat covers</h3>
+      <div class="quote"><div class="q">Owns the roadmap and backlog for a core product surface, prioritized against usage and adoption data rather than instinct.</div></div>
+      <div class="quote"><div class="q">Runs discovery directly with customers and turns those conversations into shipped product decisions, not a research archive.</div></div>
+      <div class="quote"><div class="q">Partners daily with Engineering, Design and Data on cross-functional delivery, defending every backlog call with evidence.</div></div>
+    </div>
+    <div class="col">
+      <h3>My Proof</h3>
+      <div class="proof"><div class="p"><b>Roadmap and backlog ownership at Sensata:</b> ran the sensor-line roadmap and a 100+ feature backlog with engineering in Agile across 3 regions, cutting time-to-market 20% and accelerating releases 25%.</div></div>
+      <div class="proof"><div class="p"><b>Discovery that changed the backlog:</b> 30+ customer interviews with OEMs and distributors surfaced pain points that reshaped the roadmap and lifted CSAT 22%.</div></div>
+      <div class="proof"><div class="p"><b>Cohort instrumentation, not a dashboard for its own sake:</b> SQL + GA4 KPI frameworks across 50K+ devices found the adoption signal that lifted feature adoption 18%.</div></div>
+      <div class="proof"><div class="p"><b>Same loop, solo, on SwipeHire:</b> wrote the PRD, scoped the MVP, then ran 8+ A/B tests on my own GA4/GTM funnel instrumentation, lifting activation 25%.</div></div>
+    </div>
+  </div>
+  <div class="brand">MIXPANEL PRODUCT</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The Sensata proof, in depth</div>
+  <h2>Own the roadmap, instrument the cohort, <span class="accent">let the data pick the next feature.</span></h2>
+  <div class="lede">Ran the product roadmap for sensor solutions across automotive and industrial segments, managing a 100+ feature backlog with engineering in Agile across 3 regions, the same cross-functional shape a product-analytics company's own roadmap runs on.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">-20%</div>
+      <div class="lbl">Time-to-Market Cut</div>
+      <div class="desc">A 100+ item backlog moved 25% faster once it was prioritized against real cross-functional data, not a rotating set of opinions.</div>
+    </div>
+    <div class="stat">
+      <div class="n">+18%</div>
+      <div class="lbl">Feature Adoption Lift</div>
+      <div class="desc">SQL and GA4 KPI frameworks across 50K+ connected devices surfaced the high-intent cohorts before adoption plateaued.</div>
+    </div>
+    <div class="stat">
+      <div class="n">+22%</div>
+      <div class="lbl">CSAT Lift</div>
+      <div class="desc">30+ customer interviews with OEMs and distributors turned pain points into shipped enhancements, not a backlog of complaints.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">The same discipline runs on SwipeHire, an AI job-matching platform built zero-to-one: PRD, MVP scope, then GA4 and GTM funnel instrumentation to run 8+ A/B tests that lifted activation 25% across the first 50+ users. The common thread: instrument first, talk to the user second, ship the backlog item both point to.</div>
+  <div class="brand">MIXPANEL PRODUCT</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month on Mixpanel's product team looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Read the cohort before the backlog</div>
+      <div class="body">Pull the adoption and retention cohorts for the product surface I own, and sit with Engineering, Design and Support to hear where the current backlog already disagrees with what the data shows.</div>
+      <div class="why"><strong>Why first:</strong> the same move that started the Sensata roadmap rewrite: let the usage data name the priority before anyone else does.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Run discovery, not a survey</div>
+      <div class="body">Talk directly to 10-15 customers across the segments the cohort data flagged, then map every insight to a specific backlog item instead of a research summary nobody reopens.</div>
+      <div class="why"><strong>Why now:</strong> the same pairing of interviews and cohort data that lifted CSAT 22% and reshaped the Sensata roadmap.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Ship the prioritized backlog</div>
+      <div class="body">Turn the cohort findings and customer conversations into a ranked backlog with Engineering, each item defended by a signal, and agree on the first PRD to write together.</div>
+      <div class="why"><strong>Why this fast:</strong> a backlog matters less if it stays a wish list. Shipping the ranking is what made the 100+ item backlog at Sensata move 25% faster.</div>
+    </div>
+  </div>
+  <div class="brand">MIXPANEL PRODUCT</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to turn Mixpanel's own product signal into a roadmap. I have already run that loop twice.</h2>
+  <div class="body">
+    <p>The core proof is Sensata: a <strong>100+ feature backlog</strong> owned end to end with engineering across 3 regions, releases <strong>25% faster</strong>, time-to-market cut <strong>20%</strong>, feature adoption up <strong>18%</strong> off SQL and GA4 cohort instrumentation, and CSAT up <strong>22%</strong> off 30+ customer interviews.</p>
+    <p>What is harder to find is a PM who has also built the instrumentation and the product from zero. <strong>SwipeHire is that proof</strong>: PRD, MVP scope, GA4/GTM funnel wired up by hand, 8+ A/B tests, activation up 25%. That is the same builder's instinct I would bring to a product-analytics company's own roadmap.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-product-ai.vercel.app/ref/mixpanel</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">MIXPANEL PRODUCT</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
