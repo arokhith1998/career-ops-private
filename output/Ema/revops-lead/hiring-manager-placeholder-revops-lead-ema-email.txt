@@ -1,0 +1,20 @@
+Subject: The build vs inherit distinction in Ema's RevOps req
+
+Hi {Hiring Manager, Revenue Operations},
+
+Most RevOps reqs fix a system Sales already broke. Yours has none yet, no CRM, no forecast cadence, no deal desk, so the first calls on process and tooling belong to the new hire. I have made those calls before: at PriceKeel I am the founder and had to.
+
+I designed PriceKeel's CRM and CPQ, its forecast and pipeline reviews, and its deal-approval workflow with an audit trail, from a blank page, and still run all of it. At Sensata, I built a Power BI dashboard tracking 1,200 pricing opportunities against a $627M target, recovered $700K+ in margin in two quarters, and raised channel-partner margins from 53% to 61%. At Applied Materials, I now run revenue analysis through Claude agents instead of by hand, the judgment plus AI fluency an AI platform would want in its first RevOps hire.
+
+I've attached my resume and cover letter.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/ema
+
+Would you have 15 minutes on the first 90 days of this build? Happy to be pointed elsewhere if this sits with someone else.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

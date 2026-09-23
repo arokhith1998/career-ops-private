@@ -1,0 +1,18 @@
+Subject: Ema's first RevOps hire: I've built this stack from zero before
+
+Hi {Recruiter, Revenue Operations},
+
+Most RevOps hires inherit a CRM and clean up someone else's mess. Yours does not exist yet, which is a different job.
+
+I built it once already. At PriceKeel, I set up CRM and CPQ configuration, forecast and pipeline reviews, and a deal-approval workflow with an audit trail, from a blank page. At Sensata, I built a Power BI dashboard tracking 1,200 pricing opportunities against a $627M target and raised channel-partner margins from 53% to 61%. At Applied Materials, I now automate revenue analysis with Claude agents, the AI fluency an AI platform would want in this seat.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/ema
+
+Open to 15 minutes on what this build needs first?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

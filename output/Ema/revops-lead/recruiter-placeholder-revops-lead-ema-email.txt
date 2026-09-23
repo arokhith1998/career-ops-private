@@ -1,0 +1,20 @@
+Subject: Ema's first RevOps hire and a stack I already built once
+
+Hi {Recruiter, Revenue Operations},
+
+This req has no inherited CRM, forecast process or deal desk, it is a build from zero. I built exactly that at PriceKeel this year: CRM and CPQ configuration, forecast and pipeline reviews, and a deal-approval workflow with an audit trail.
+
+I have also run those pieces inside someone else's org. At Sensata, I built a Power BI forecasting dashboard tracking 1,200 pricing opportunities against a $627M target and raised channel-partner margins from 53% to 61%. At Plug Power, I automated the Salesforce stack end to end with SQL-based KPI frameworks for closed-loop reporting. At Applied Materials, I now automate revenue analysis with Claude agents, an AI-native habit this seat would want.
+
+I've attached my resume and cover letter.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/ema
+
+Would 15 minutes this week work? If this req sits elsewhere on your team, a pointer would help.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
