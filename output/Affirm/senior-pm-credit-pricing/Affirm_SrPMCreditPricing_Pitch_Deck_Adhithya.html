@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Affirm Senior Product Manager, Credit &amp; Pricing Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #1a56db; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 32pt; font-weight: 800; color: #0f172a; line-height: 1.08; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 21pt; font-weight: 800; color: #0f172a; line-height: 1.1; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #1a56db; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.5in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbe7fb 100%); }
+  .cover h1 { font-size: 25pt; max-width: 11.4in; }
+  .cover .sub { font-size: 14pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 18pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #1a56db; font-weight: 700; }
+  .cover .who { margin-top: 18pt; padding-top: 11pt; border-top: 1.5pt solid #1a56db; max-width: 9in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #1a56db; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #eef3fc; border-left: 3pt solid #1a56db; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #123a91; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #1a56db; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #eef3fc; border-left: 4pt solid #1a56db; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #123a91; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 24pt; font-weight: 800; color: #1a56db; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #1a56db; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #1a56db; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbe7fb 100%); }
+  .close h2 { font-size: 26pt; max-width: 10.5in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.5in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #1a56db; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Affirm Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Affirm Senior Product Manager, Credit &amp; Pricing</div>
+  <h1>Every new pricing or credit feature shipped into the merchant portfolio needs an answer to one question before it ships: how will we know it worked. I have already built that answer twice.</h1>
+  <div class="sub">Pricing and credit product strategy built by someone who has recovered the margin, not just modeled it.</div>
+  <div class="tags">
+    <div class="tag"><strong>$700K+</strong> margin recovered in 2 quarters, Sensata Bleeders and Leakers program</div>
+    <div class="tag"><strong>1,200</strong> pricing opportunities segmented across 3 regions against a $627M target</div>
+    <div class="tag"><strong>53% to 61%</strong> distributor margin lift via repriced deal structures that held</div>
+    <div class="tag"><strong>PriceKeel</strong> - founder shipping a live discount-guardrail engine and Finance audit trail</div>
+    <div class="tag"><strong>Claude AI agents</strong> automate recurring pricing analysis today</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-product-ai.vercel.app/ref/affirm</div>
+  </div>
+  <div class="brand">AFFIRM CREDIT &amp; PRICING</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>The risk in merchant financing pricing is not a bad feature. It is <span class="accent">a feature nobody can prove worked, or defend to Finance six months later.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What a credit and pricing roadmap runs into</h4>
+      <div class="line">Credit, pricing, commercial, design and engineering all touch the same merchant financing offering, and a pricing change that looks right in isolation can quietly break a credit assumption another team is relying on.</div>
+      <div class="line">Without a shared way to segment impact and document the decision, "we shipped a new pricing feature" and "we know it worked" end up being two different claims, and only one of them is provable later.</div>
+      <div class="line">The fix is not another dashboard nobody trusts. It is a segmentation model tied to a real target, plus an audit trail that lets Finance and Credit sign off on the decision before and after it ships.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run, at smaller scale</h4>
+      <div class="line">At <b>Sensata</b>, I built the Bleeders and Leakers Power BI dashboard: 1,200 pricing opportunities segmented by region and product line against a $627M target, with one shared definition of what a "gap" meant.</div>
+      <div class="line">I did not stop at the dashboard. I <b>redesigned the deal structures</b> underneath the worst gaps, which is why the 53% to 61% distributor margin lift held past the first quarter.</div>
+      <div class="line">I run that same loop today at <b>PriceKeel</b>: a guardrail engine that reads a live discount exception and an audit trail Finance can point to, because a pricing feature only counts once someone can prove it worked.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">Defining product strategy, creating new features for merchant financing, analyzing feature impact and partnering across credit, pricing, commercial, design and engineering are all describing this exact loop: ship the feature, measure it against a real target, and keep the proof.</div>
+  </div>
+  <div class="brand">AFFIRM CREDIT &amp; PRICING</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What the Credit &amp; Pricing opening asks for, and where the proof sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Creating new products and features for our merchant financing offerings and analyzing their impact."</div></div>
+      <div class="quote"><div class="q">"You have a data-driven learning style and use quantitative information to make decisions."</div></div>
+      <div class="quote"><div class="q">"Experience shipping simple, elegant user-facing products with measurable impact."</div></div>
+    </div>
+    <div class="col">
+      <h3>My Proof</h3>
+      <div class="proof"><div class="p"><b>Bleeders and Leakers program at Sensata:</b> shipped the pricing fix, then measured it: $700K+ in margin recovered in 2 quarters, distributor margins from 53% to 61%, both verified after the fact, not just modeled.</div></div>
+      <div class="proof"><div class="p"><b>PriceKeel guardrail engine:</b> a live pricing feature that reads a discount exception and recommends a guardrail learned from a company's own deal history, with an audit trail behind every call.</div></div>
+      <div class="proof"><div class="p"><b>Quantitative decision-making:</b> SQL, Power BI and regression to segment 1,200 opportunities against a $627M target and surface exactly where $433M in margin was leaking.</div></div>
+      <div class="proof"><div class="p"><b>AI tools as a habit, not a pilot:</b> automate recurring pricing analysis with Claude AI agents today at Applied Materials, the same instinct a fast-moving credit and pricing team runs on.</div></div>
+    </div>
+  </div>
+  <div class="brand">AFFIRM CREDIT &amp; PRICING</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The Sensata proof, in depth</div>
+  <h2>Bleeders and Leakers: <span class="accent">one segmentation model, one fix per gap, a result that got verified.</span></h2>
+  <div class="lede">Built as a BU-wide Power BI system covering 1,200 pricing opportunities against a $627M target across 3 regions, 4 product families and 20 product lines, with a pipeline funnel, regional scorecards and win-rate view: the same feature-impact-analysis discipline a credit and pricing roadmap runs on.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$433M</div>
+      <div class="lbl">Margin Gaps Surfaced</div>
+      <div class="desc">The segmentation model's job: rank every opportunity on one consistent definition so leadership could prioritize by salesperson and product line instead of chasing anecdotes.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$700K+</div>
+      <div class="lbl">Margin Recovered in 2 Quarters</div>
+      <div class="desc">Closed through negotiated fixes built on competitive gaps and documented customer willingness to pay, then verified against the original target.</div>
+    </div>
+    <div class="stat">
+      <div class="n">53% to 61%</div>
+      <div class="lbl">Distributor Margin Lift</div>
+      <div class="desc">Redesigned the deal structure itself and routed it through Finance and Sales sign-off, so the gain outlived the first repricing pass.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">The same BU carried P&amp;L and revenue targets and ran multimillion-dollar customer quotes alongside senior executives, where pricing, Finance and Sales all had to agree on the same numbers before a deal moved. The common thread: ship the feature, then go back and prove it worked.</div>
+  <div class="brand">AFFIRM CREDIT &amp; PRICING</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month on Affirm's Credit &amp; Pricing team looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Map the merchant financing pricing surface</div>
+      <div class="body">Pull the current pricing and credit features across the merchant portfolio and the metrics each one is measured against today, then find where credit, pricing and commercial teams are using the same term to mean different things.</div>
+      <div class="why"><strong>Why first:</strong> the disagreement is usually visible in the data before anyone names it. Same move that started the Bleeders and Leakers program.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Ship the first measured feature</div>
+      <div class="body">Pick the merchant financing feature with the clearest impact case, define the target and the segmentation up front, and ship it with design and engineering with the measurement plan built in rather than bolted on after launch.</div>
+      <div class="why"><strong>Why now:</strong> ranking against one real target before shipping, then verifying after, is what made the 53% to 61% distributor gain stick.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Document the decision trail</div>
+      <div class="body">Turn the Week 1 findings and the Week 2-3 result into a standard for how credit, pricing and commercial sign off on a feature before and after it ships, and share it back with the cross-functional group.</div>
+      <div class="why"><strong>Why this fast:</strong> a measured result matters less if nobody can find the reasoning behind it later. Repeatability is the actual ask behind "analyzing feature impact."</div>
+    </div>
+  </div>
+  <div class="brand">AFFIRM CREDIT &amp; PRICING</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to ship pricing and credit features into the merchant portfolio and prove they worked. I have already run that loop, twice.</h2>
+  <div class="body">
+    <p>The core proof is Sensata: <strong>$700K+ in margin recovered in 2 quarters</strong>, distributor margins lifted <strong>from 53% to 61%</strong>, and a BU-wide segmentation model that gave Sales, Finance and leadership one shared view of 1,200 opportunities against a $627M target.</p>
+    <p>What is harder to find is someone who also builds that discipline into the product itself. As founder of <strong>PriceKeel</strong>, I ship a live discount-guardrail feature with the audit trail built in from day one, which is the habit this role is really asking for.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-product-ai.vercel.app/ref/affirm</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">AFFIRM CREDIT &amp; PRICING</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>

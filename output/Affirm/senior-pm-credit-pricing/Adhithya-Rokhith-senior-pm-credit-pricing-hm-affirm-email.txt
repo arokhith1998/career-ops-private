@@ -1,0 +1,20 @@
+Subject: Senior Product Manager, Credit & Pricing, Affirm: the guardrail logic behind a merchant financing feature
+
+Hi {Hiring Manager, Credit & Pricing},
+
+I do not normally cold-email a hiring manager, but "creating new products for merchant financing" is a narrower brief than most fintech PM reqs, because the feature only works if the pricing guardrail underneath it holds once volume moves. That is the part I have built from scratch, not inherited.
+
+Built you a 6-slide pitch deck mapping that experience onto the req.
+
+At Sensata I built the pricing model behind the Bleeders and Leakers dashboard, ranking 1,200 opportunities against a $627M target, then redesigned the distributor deals it flagged, recovering $700K+ in margin in two quarters and holding a 53% to 61% lift past the quarter it shipped. I run that same guardrail logic at PriceKeel: it reads a live discount exception and recommends an explainable rule learned from a company's closed-won and closed-lost deals.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/affirm
+
+If the merchant financing roadmap is still being scoped, I would like 15 minutes to hear how pricing decisions get made across credit and commercial. If this sits elsewhere, a pointer would help just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
