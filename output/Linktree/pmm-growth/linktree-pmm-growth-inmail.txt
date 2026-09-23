@@ -1,0 +1,18 @@
+Subject: Growth title, pricing decisions: Linktree's PMM req
+
+Hi {Recruiter, Growth Marketing},
+
+Most Growth PMM reqs are demand-gen. Yours asks someone to shape in-product monetization and negotiate pricing and packaging with Product, which is a different hire.
+
+I've run that hire before. At Sensata, I recovered $700K+ in margin in two quarters and raised distributor margins from 53% to 61%, then built the Power BI model tracking $627M in pricing opportunities across 1,200 deals. At SwipeHire, I priced three subscription tiers from competitor benchmarks and willingness-to-pay data, the ARPU and retention math your posting names directly. At Applied Materials, I automate that analysis with Claude AI agents.
+
+Here's the portfolio: https://adhi-product.vercel.app/ref/linktree
+
+Open to 15 minutes on which pricing decision is stuck right now?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
