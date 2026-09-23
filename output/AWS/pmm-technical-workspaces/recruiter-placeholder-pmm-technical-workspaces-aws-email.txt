@@ -1,0 +1,20 @@
+Subject: AWS WorkSpaces Technical PMM req, San Francisco/Santa Clara
+
+Hi {Recruiter, Technical Product Marketing},
+
+Amazon WorkSpaces sells to an enterprise IT buyer who has usually lived through one bad desktop migration already, so the technical proof has to hold up before the pitch does, and that is the exact translation I run day to day.
+
+At Sensata, I built the KPI frameworks myself in SQL and GA4 across 50,000+ connected devices, then turned those specs into positioning that lifted OEM conversion 15%. Thirty-plus customer interviews fed that positioning directly. I also built the Power BI reporting behind $627M in pricing opportunities across 1,200 deals. At Applied Materials, I run that same technical-to-narrative pipeline now, plus automate the repetitive half of it with Claude AI agents.
+
+I've attached my resume and cover letter.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/aws
+
+Would 15 minutes this week work? If this req sits with someone else on your team, a pointer would help.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

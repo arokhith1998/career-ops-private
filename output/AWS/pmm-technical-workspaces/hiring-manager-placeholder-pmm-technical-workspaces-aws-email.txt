@@ -1,0 +1,20 @@
+Subject: The technical-to-narrative gap on Amazon WorkSpaces
+
+Hi {Hiring Manager, Product Marketing, Amazon WorkSpaces},
+
+I joined Applied Materials recently and was not looking, but a technical PMM seat on a desktop-as-a-service product line, sold to IT buyers who read past the headline straight to the fine print, is specific enough that I wanted to write anyway.
+
+At Sensata, I owned end-to-end GTM for a new sensing product line, positioning, pricing, channel and launch together, while building the KPI frameworks myself in SQL and GA4 across 50,000+ connected devices. That grounding is what turned into positioning that lifted OEM conversion 15%, fed by 30+ structured interviews with the same kind of skeptical technical buyer. I also built the sales enablement library used by 50+ reps, and the Power BI reporting behind $627M in pricing opportunities across 1,200 deals. At Applied Materials, I now automate the repetitive side of that analysis with Claude AI agents so the strategic work gets more of my time.
+
+I've attached my resume and cover letter.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/aws
+
+Would you have 15 minutes to talk through where the WorkSpaces launch and enablement backlog is thinnest right now? Happy to be pointed elsewhere if this sits with someone else.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

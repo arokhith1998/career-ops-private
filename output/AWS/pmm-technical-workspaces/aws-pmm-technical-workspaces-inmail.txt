@@ -1,0 +1,20 @@
+Subject: Technical PMM for Amazon WorkSpaces, from someone who builds the SQL first
+
+Hi {Recruiter, Technical Product Marketing},
+
+An enterprise IT buyer evaluating desktop virtualization has usually been burned by a migration before, so the positioning that wins is the one that survives the skeptical follow-up, not the one that talks fastest about the cloud.
+
+At Sensata, I built the KPI frameworks myself in SQL and GA4 across 50,000+ connected devices, then turned those specs into positioning that lifted OEM conversion 15%. I ran 30+ structured discovery interviews with the same kind of technical buyer, and built the sales enablement library, decks, case studies and battlecards, that 50+ reps used to lift win rates 30%. At Applied Materials, I run that same technical-to-narrative pipeline now for a fast-moving semiconductor market.
+
+I've attached my resume and cover letter.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/aws
+
+Open to 15 minutes on where the WorkSpaces launch and enablement backlog needs the most help right now?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
