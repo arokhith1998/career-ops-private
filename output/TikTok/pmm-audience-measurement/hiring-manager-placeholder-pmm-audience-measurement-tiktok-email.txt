@@ -7,8 +7,8 @@ I don't normally reach out before applying, but the cross-functional collaborati
 Put together a pitch deck mapped to this req so the proof fits on one read.
 
 Proof points that carry over:
-- At Sensata, ran 30+ customer interviews with OEMs and distributors, then turned technical features into messaging that lifted conversion 15% and built enablement that raised win rates 30% for a 50-person sales team.
-- At Plug Power, automated the Salesforce, Adobe Analytics and Google Tag Manager stack so paid spend tied back to lead quality, not platform-reported clicks, the closed-loop discipline any measurement product needs.
+- At Sensata, ran 30+ customer interviews with OEMs and distributors, turned technical features into messaging that lifted conversion 15%, and built enablement that raised win rates 30% for a 50-person team.
+- At Plug Power, automated the Salesforce, Adobe Analytics and Google Tag Manager stack so spend tied back to lead quality, not platform-reported clicks.
 - At Pixis, rebuilt a fashion brand's full funnel, feed cleanup through lookalike expansion, for 3x ROAS in one month.
 
 Here's the portfolio: https://adhi-product-ai.vercel.app/ref/tiktok
