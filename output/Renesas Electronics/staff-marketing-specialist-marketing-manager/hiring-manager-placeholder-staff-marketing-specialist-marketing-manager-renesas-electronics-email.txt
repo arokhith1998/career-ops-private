@@ -1,0 +1,24 @@
+Subject: The design-win loop behind HPAC's Enterprise and Networking mandate
+
+Hi {Hiring Manager, Renesas HPAC Marketing},
+
+I don't normally reach out before applying, but the mandate to drive design-wins for the HPAC portfolio with Enterprise and Networking OEM accounts describes work I run now, one layer up the stack, at Applied Materials.
+
+Put together a pitch deck mapped to this req so the proof fits on one read.
+
+Proof points that carry over:
+- At Applied Materials, I size the semiconductor market with Sales, Engineering and Accounts, the signal a design-win cycle runs on.
+- At Sensata, I owned OEM go-to-market for a new sensing line, $2M+ in first-year revenue.
+- 30+ direct interviews with OEMs and distributors fed a price realignment that lifted revenue 12% and market share 8%, plus a collateral rebuild that raised win rates 30%.
+- I keep the repetitive analysis off my week with Claude AI agents, freeing time for OEM conversations.
+
+Here's the portfolio: https://adhi-product.vercel.app/ref/renesas
+
+Would 15 minutes work to walk through how I'd approach the first HPAC design-win cycle? Happy to be redirected if I'm not talking to the right person.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
