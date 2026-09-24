@@ -1,4 +1,4 @@
-# Evaluation: Perplexity — Associate Product Marketing Manager
+# Evaluation: Perplexity - Associate Product Marketing Manager
 
 **Date:** 2026-09-24
 **Archetype:** Product & Strategic Marketing (customer education / product adoption lean)
@@ -139,10 +139,10 @@ Demand signal: strong company-level hiring and revenue growth trend (Computer ag
 | Signal | Status |
 |--------|--------|
 | Posting legitimacy | ✅ High Confidence |
-| Employment classification | — not evaluated |
-| Culture screen | — not evaluated |
-| Interview red flags | — no interview sessions yet |
-| AI claims vs. infrastructure | — not evaluated |
+| Employment classification | - not evaluated |
+| Culture screen | - not evaluated |
+| Interview red flags | - no interview sessions yet |
+| AI claims vs. infrastructure | - not evaluated |
 
 ## Extracted Keywords
 

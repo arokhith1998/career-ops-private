@@ -1,12 +1,12 @@
-# Evaluation: Sardine — Revenue Operations Manager
+# Evaluation: Sardine, Revenue Operations Manager
 
 **Date:** 2026-09-24
 **URL:** https://jobs.ashbyhq.com/sardine/b6ca1fd5-a374-4c99-a6fd-a0c4d0859a61
-**Via:** — (direct)
+**Via:** none (direct)
 **Archetype:** Revenue Operations (secondary: Agentic Workflows / Automation)
 **Score:** 3.5/5
 **Legitimacy:** High Confidence
-**Work Auth:** ✅ Sponsors (TIER-1 — SardineAI Corp)
+**Work Auth:** ✅ Sponsors (TIER-1, SardineAI Corp)
 **PDF:** not generated - nightly build run (09:00) generates artifacts per build_policy
 
 ---
@@ -51,7 +51,7 @@ risk_summary:
 | Field | Detail |
 |---|---|
 | Archetype | Revenue Operations, with a strong GTM Engineering / automation-builder flavor |
-| Domain | Fintech — agentic risk platform for fraud prevention, AML, and financial-crime operations (KYC, transaction monitoring, fraud consortium data) |
+| Domain | Fintech: agentic risk platform for fraud prevention, AML, and financial-crime operations (KYC, transaction monitoring, fraud consortium data) |
 | Function | Analytics infrastructure, GTM tech-stack evaluation, workflow automation across the lead-to-cash lifecycle, cross-functional partnership with Sales/Marketing/Post-Sales |
 | Seniority | Titled "Manager" but explicitly an individual-contributor role; 5+ years asked |
 | Remote | Remote-first (hubs in Bay Area, NYC, Austin, Toronto, Sao Paulo); candidate's Bay Area base fits either mode |
@@ -78,7 +78,7 @@ JD text is silent on sponsorship. Cached visa lookup (`data/visa-cache.tsv`, che
 | Nice to have: high-growth SaaS, fintech | Sardine itself is the fintech context; PriceKeel targets B2B SaaS deal pricing as an adjacent domain |
 
 **Gaps:**
-1. No named integration-platform experience (Zapier, Clay, Workato, Tray.io, n8n, Unify) — the JD treats this as core, not optional. Hard-ish gap. Mitigation: Plug Power's WordPress+Pardot automation and Mar-Tech stack automation, plus PriceKeel's from-scratch CRM/CPQ build, are the closest adjacent evidence; the "vibe coding" framing of the role also means the company is explicitly hiring for fast tool pickup over prior tool-specific tenure.
+1. No named integration-platform experience (Zapier, Clay, Workato, Tray.io, n8n, Unify): the JD treats this as core, not optional. Hard-ish gap. Mitigation: Plug Power's WordPress+Pardot automation and Mar-Tech stack automation, plus PriceKeel's from-scratch CRM/CPQ build, are the closest adjacent evidence; the "vibe coding" framing of the role also means the company is explicitly hiring for fast tool pickup over prior tool-specific tenure.
 2. No JavaScript. Nice-to-have only, not a blocker; SQL and Python already cover 2 of the 3 listed languages.
 3. No advertised comp. Non-blocking; addressed in Block D.
 
