@@ -1,0 +1,20 @@
+Subject: Revenue Operations Analyst, Perplexity: I traced a margin gap from a pipeline signal to a $700K fix
+
+Hi {Recruiter, Revenue/GTM Systems},
+
+I do not normally cold-email before applying, but the line "we're looking for a Revenue Operations Analyst who wants to do more than maintain a CRM or produce reports" describes exactly the jump from reporting a number to acting on it, which is the part I have already run at scale.
+
+Built you a 6-slide pitch deck mapping that experience onto the req.
+
+At Sensata I built the Bleeders and Leakers Power BI system tracking 1,200 opportunities by stage, win rate and salesperson against a $627M target, traced $433M in surfaced margin gaps down to $700K+ actually recovered in two quarters, and fixed the routing and pricing logic itself so a 53% to 61% distributor margin lift held past the quarter it shipped. I run the same CRM, CPQ, forecast-review and deal-approval loop today as founder of PriceKeel, and automate the recurring parts of that analysis with Claude AI agents at Applied Materials.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/perplexity
+
+If this req is still open, I would like 15 minutes to hear how attribution and routing decisions get made across the funnel today. A pointer to the right person would help just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

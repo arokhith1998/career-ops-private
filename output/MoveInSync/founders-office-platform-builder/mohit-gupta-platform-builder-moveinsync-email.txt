@@ -1,0 +1,20 @@
+Subject: Founder's Office Platform Builder: three things I've already built, unprompted
+
+Hi Mohit,
+
+Shobhit's post said to reach out to you directly, so here goes: the line "your instinct on seeing a broken process is to make something that fixes it, and you've done that before" describes something I do by default, not something I am learning to do for this role.
+
+Built you a 6-slide pitch deck mapping that instinct onto the seat.
+
+At Sensata, nobody had a way to see 1,200 pricing opportunities against a $627M target, so I designed and built a Power BI system that surfaced where the margin was leaking, then used it to recover $700K+ in margin in two quarters by fixing the underlying logic. Outside work I have shipped an AI job-matching platform (SwipeHire) zero-to-one and a Python stock-scanner bot on live NSE data with a Claude reasoning layer, both built solo or near-solo with AI tooling doing the heavy lifting.
+
+Here's the portfolio, including SwipeHire and the NSE bot: https://adhi-product-ai.vercel.app/ref/moveinsync
+
+If this seat is still open, I would like 15 minutes to hear which function it pairs with first. A pointer elsewhere would help just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

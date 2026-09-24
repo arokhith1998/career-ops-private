@@ -1,0 +1,20 @@
+Subject: Founder's Office Platform Builder: proof of the "you build, not just advise" bar
+
+Hi {Recruiter, Founder's Office / Talent},
+
+I do not normally cold-email before applying, but the posting is explicit that proof beats potential here, "something you've built... the thing most likely to get you an interview," so I am leading with exactly that.
+
+Built you a 6-slide pitch deck mapping that proof onto the seat.
+
+At Sensata I designed and built a Power BI system from scratch that made 1,200 pricing opportunities visible against a $627M target, then used it to recover $700K+ in margin in two quarters. Outside work I have shipped an AI job-matching platform (SwipeHire) zero-to-one and a Python stock-scanner bot on live NSE data with a Claude reasoning layer, both built solo with AI tooling doing the heavy lifting.
+
+Here's the portfolio, including SwipeHire and the NSE bot: https://adhi-product-ai.vercel.app/ref/moveinsync
+
+If this req is still open, I would like 15 minutes to hear which function it pairs with first. A pointer to the right person would help just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

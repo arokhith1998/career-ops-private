@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Navan Product Marketing Manager Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #0c5f4c; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 32pt; font-weight: 800; color: #0f172a; line-height: 1.08; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 21pt; font-weight: 800; color: #0f172a; line-height: 1.1; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #0c5f4c; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.5in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d3ede2 100%); }
+  .cover h1 { font-size: 30pt; max-width: 11in; }
+  .cover .sub { font-size: 14pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 18pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #0c5f4c; font-weight: 700; }
+  .cover .who { margin-top: 18pt; padding-top: 11pt; border-top: 1.5pt solid #0c5f4c; max-width: 9.5in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #0c5f4c; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #eaf6f0; border-left: 3pt solid #0c5f4c; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #0c5f4c; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #0c5f4c; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #eaf6f0; border-left: 4pt solid #0c5f4c; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #0c5f4c; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0c5f4c; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 24pt; font-weight: 800; color: #0c5f4c; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0c5f4c; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #0c5f4c; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #0c5f4c; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d3ede2 100%); }
+  .close h2 { font-size: 26pt; max-width: 10.5in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.8in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #0c5f4c; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Navan Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Navan Product Marketing Manager</div>
+  <h1>The bridge between product, sales and marketing is not a new problem for me. I have already run it end to end, and I already use AI across the workflow the way this posting asks for.</h1>
+  <div class="sub">Positioning, GTM and sales enablement, built on research and proven with revenue.</div>
+  <div class="tags">
+    <div class="tag"><strong>$2M+</strong> first-year revenue from a new-product GTM launch at Sensata</div>
+    <div class="tag"><strong>+30%</strong> rep win rate from sales enablement built for 50+ reps</div>
+    <div class="tag"><strong>+35%</strong> qualified leads from launch campaign positioning and messaging</div>
+    <div class="tag"><strong>Claude AI agents</strong> automating recurring product-marketing analysis today</div>
+    <div class="tag"><strong>30+</strong> customer interviews behind every positioning decision</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-product-ai.vercel.app/ref/navan</div>
+  </div>
+  <div class="brand">NAVAN PMM</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>Positioning is not a messaging exercise. It is <span class="accent">the bridge that has to hold between product, sales and the customer.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What the role actually asks for</h4>
+      <div class="line">Define target audiences, craft messaging that differentiates Navan's capabilities, and build the tools, training and resources that let Sales and Field teams actually use that message in the room.</div>
+      <div class="line">The posting is explicit that AI has to be part of how this work gets done: research, messaging development, content creation, launch planning and operational optimization, not a separate initiative bolted on afterward.</div>
+      <div class="line">The candidate who wins this seat has already run that full loop, research to message to enablement to revenue, and already treats AI tools as part of the workflow.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run</h4>
+      <div class="line">At <b>Sensata</b>, I owned GTM for new sensing products end to end: positioning, pricing, channel decisions and launch, driving <b>$2M+ in first-year revenue</b>.</div>
+      <div class="line">I built <b>sales enablement</b>, decks and case studies for 50+ reps that lifted win rates 30%, the same tools-and-training bridge this posting names directly.</div>
+      <div class="line">I automate recurring product-marketing analysis with <b>Claude AI agents</b> at Applied Materials right now, not as a pilot project.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">"Ensuring that our capabilities are effectively positioned, communicated, and understood by prospects and customers" describes exactly the loop research, positioning, enablement, revenue I have already closed once.</div>
+  </div>
+  <div class="brand">NAVAN PMM</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What the Product Marketing Manager opening asks for, and where the proof sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Craft clear, compelling messaging and positioning that differentiates Navan's capabilities in the market."</div></div>
+      <div class="quote"><div class="q">"Partner with Enablement and Field teams to develop tools, training, and resources that enhance their ability to sell effectively."</div></div>
+      <div class="quote"><div class="q">"Demonstrated ability to use AI across product marketing workflows ... to improve speed, quality, and impact."</div></div>
+    </div>
+    <div class="col">
+      <h3>My Proof</h3>
+      <div class="proof"><div class="p"><b>Sensata GTM launch:</b> owned positioning, pricing and channel for new sensing products, driving $2M+ first-year revenue on 30+ grounding customer interviews.</div></div>
+      <div class="proof"><div class="p"><b>Sales enablement at scale:</b> decks and case studies for 50+ reps, +30% win rates, the tools-and-training half of this posting.</div></div>
+      <div class="proof"><div class="p"><b>Applied Materials now:</b> automate recurring product-marketing analysis with Claude AI agents, the exact AI-across-the-workflow ability this posting asks for.</div></div>
+      <div class="proof"><div class="p"><b>Competitive rigor:</b> ran EMEA and US competitor and customer analysis that directly informed launch messaging and channel strategy.</div></div>
+    </div>
+  </div>
+  <div class="brand">NAVAN PMM</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The Sensata proof, in depth</div>
+  <h2>New-product GTM: <span class="accent">research the buyer, build the message, arm the reps, close the revenue.</span></h2>
+  <div class="lede">Owned the full go-to-market for new sensing products across North America and Europe: positioning, pricing, channel strategy and launch, grounded in 30+ customer interviews with OEMs and distributors.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$2M+</div>
+      <div class="lbl">First-Year Revenue</div>
+      <div class="desc">The outcome the positioning and channel decisions were built to produce, not a vanity engagement metric.</div>
+    </div>
+    <div class="stat">
+      <div class="n">+30%</div>
+      <div class="lbl">Rep Win Rate</div>
+      <div class="desc">From sales enablement, decks and case studies, built for 50+ reps who needed the message in a usable form.</div>
+    </div>
+    <div class="stat">
+      <div class="n">+35%</div>
+      <div class="lbl">Qualified Leads</div>
+      <div class="desc">From launch campaigns across email and paid channels, positioned around what the customer interviews surfaced.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">The same cycle ran competitor and customer analysis across EMEA and the US to find revenue opportunities in purchasing patterns and competitor market share, feeding directly back into the next launch's messaging.</div>
+  <div class="brand">NAVAN PMM</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month on Navan's product marketing team looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Learn the current message</div>
+      <div class="body">Sit with Product, Sales and Customer Success to hear how Navan's capabilities are positioned today, which messages reps actually use, and where the story breaks down against a competitor.</div>
+      <div class="why"><strong>Why first:</strong> the same move that grounded the Sensata GTM launch: hear it from the people using the message before changing it.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Sharpen positioning with AI in the loop</div>
+      <div class="body">Rebuild the sharpest gaps into compelling, differentiated messaging, using AI tools for research, drafting and content variants so more time goes into the judgment calls, not the first draft.</div>
+      <div class="why"><strong>Why now:</strong> the AI-across-the-workflow habit this posting asks for, applied from week one rather than bolted on later.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Arm the field</div>
+      <div class="body">Package the sharpened message into enablement Sales and Field teams can use immediately: decks, case studies and a short training session, measured against adoption and win rate.</div>
+      <div class="why"><strong>Why this fast:</strong> a message only counts once a rep can use it in a live deal.</div>
+    </div>
+  </div>
+  <div class="brand">NAVAN PMM</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to bridge product, sales and marketing, and to use AI across that workflow. I have already run both, together, at revenue-bearing scale.</h2>
+  <div class="body">
+    <p>The core proof is Sensata: <strong>$2M+ first-year revenue</strong> from a new-product GTM launch, <strong>+30% rep win rate</strong> from sales enablement built for 50+ reps, and <strong>+35% qualified leads</strong> from positioning grounded in 30+ customer interviews.</p>
+    <p>What is harder to find is someone who is <strong>already using Claude AI agents</strong> to automate recurring product-marketing analysis today, at Applied Materials, which means the AI-across-the-workflow ability this posting asks for is a current habit, not a claim.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-product-ai.vercel.app/ref/navan</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">NAVAN PMM</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Perplexity Revenue Operations Analyst Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #0c5f4c; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 32pt; font-weight: 800; color: #0f172a; line-height: 1.08; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 21pt; font-weight: 800; color: #0f172a; line-height: 1.1; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #0c5f4c; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.5in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d3ede2 100%); }
+  .cover h1 { font-size: 31pt; max-width: 11in; }
+  .cover .sub { font-size: 14pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 18pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #0c5f4c; font-weight: 700; }
+  .cover .who { margin-top: 18pt; padding-top: 11pt; border-top: 1.5pt solid #0c5f4c; max-width: 9.5in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #0c5f4c; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #eaf6f0; border-left: 3pt solid #0c5f4c; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #0c5f4c; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #0c5f4c; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #eaf6f0; border-left: 4pt solid #0c5f4c; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #0c5f4c; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0c5f4c; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 24pt; font-weight: 800; color: #0c5f4c; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0c5f4c; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #0c5f4c; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #0c5f4c; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d3ede2 100%); }
+  .close h2 { font-size: 26pt; max-width: 10.5in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.8in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #0c5f4c; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Perplexity Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Perplexity Revenue Operations Analyst</div>
+  <h1>Your posting asks for someone who does more than maintain a CRM. I have already traced a margin gap from a dashboard signal to a $700K fix, and I run the same CRM, CPQ and forecast loop today at my own company.</h1>
+  <div class="sub">Pipeline hygiene, routing and CRM systems, from someone who also automates the recurring parts with AI agents.</div>
+  <div class="tags">
+    <div class="tag"><strong>$700K+</strong> margin recovered in 2 quarters from a pipeline dashboard signal</div>
+    <div class="tag"><strong>1,200</strong> opportunities tracked by stage, win rate and salesperson vs. a $627M target</div>
+    <div class="tag"><strong>53% to 61%</strong> distributor margin lift by fixing the routing logic itself</div>
+    <div class="tag"><strong>PriceKeel</strong> - founder, running CRM, CPQ, forecast reviews and deal approvals daily</div>
+    <div class="tag"><strong>Claude AI agents</strong> automating recurring revenue analysis at Applied Materials</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhithyabhaskar.vercel.app/ref/perplexity</div>
+  </div>
+  <div class="brand">PERPLEXITY REVOPS</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>The role is not "maintain a CRM." It is <span class="accent">own the process, then use what the data shows to change the outcome.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What the posting actually asks for</h4>
+      <div class="line">Own attribution, routing, opportunity hygiene, forecast inputs and cross-system data quality, then use AI tools to automate research, enrichment, routing and pipeline inspection instead of doing it by hand.</div>
+      <div class="line">That is a systems-and-judgment role, not a reporting role: you are expected to notice that a routing rule is wrong, trace it to root cause across Salesforce, Snowflake and marketing systems, and fix the process, not just flag the symptom.</div>
+      <div class="line">The candidate who wins this is someone who has already done that trace, end to end, on a pipeline with real stakes.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run</h4>
+      <div class="line">At <b>Sensata</b>, I built the Bleeders and Leakers Power BI system and traced <b>$433M in surfaced margin gaps</b> down to <b>$700K+ actually recovered in two quarters</b>, opportunity by opportunity.</div>
+      <div class="line">The <b>53% to 61%</b> distributor margin lift held because I fixed the underlying pricing and routing logic, not because I pushed a one-time override.</div>
+      <div class="line">I now run <b>CRM, CPQ, forecast reviews and deal approvals</b> daily as founder of <b>PriceKeel</b>, and automate recurring analysis with <b>Claude AI agents</b> at Applied Materials.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">"Help determine how demand is attributed, how leads and accounts are routed, how opportunities move through the funnel, and how the business measures performance" is describing exactly the trace-to-fix loop the Bleeders and Leakers program ran, at a larger scale and with harder stakes.</div>
+  </div>
+  <div class="brand">PERPLEXITY REVOPS</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What the Revenue Operations Analyst opening asks for, and where the proof sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Own and improve the day-to-day processes that move leads, accounts, contacts, and opportunities through the revenue funnel."</div></div>
+      <div class="quote"><div class="q">"Build and maintain Salesforce reports, dashboards, fields, flows, validation rules, and other process configuration."</div></div>
+      <div class="quote"><div class="q">"Use Computer and other AI tools to automate research, enrichment, routing, pipeline inspection, quality assurance ... and repetitive operational work."</div></div>
+    </div>
+    <div class="col">
+      <h3>My Proof</h3>
+      <div class="proof"><div class="p"><b>Bleeders and Leakers at Sensata:</b> built the Power BI dashboard covering 1,200 opportunities by stage, win rate, avg $/win and salesperson against a $627M target, then acted on it for $700K+ recovered.</div></div>
+      <div class="proof"><div class="p"><b>PriceKeel today:</b> run CRM and CPQ configuration, forecast and pipeline reviews, and deal approvals end to end, plus the audit trail that documents every exception for Finance.</div></div>
+      <div class="proof"><div class="p"><b>Plug Power:</b> automated the Mar-Tech stack (Salesforce, Adobe Analytics, GA, Google Tag Manager) for closed-loop reporting, reconciling data quality issues across systems.</div></div>
+      <div class="proof"><div class="p"><b>Applied Materials now:</b> automate repetitive revenue analysis with Claude AI agents, the exact AI-first operating habit this posting names directly.</div></div>
+    </div>
+  </div>
+  <div class="brand">PERPLEXITY REVOPS</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The Sensata proof, in depth</div>
+  <h2>Bleeders and Leakers: <span class="accent">trace the signal, close the case, make the fix hold.</span></h2>
+  <div class="lede">A BU-wide Power BI system covering 1,200 pricing opportunities against a $627M target across 3 regions, 4 product families and 20 product lines, with pipeline funnel, win rate, avg $/win and stage distribution by salesperson.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$433M</div>
+      <div class="lbl">Margin Gaps Surfaced</div>
+      <div class="desc">The dashboard's job: rank every opportunity by stage and salesperson so the trace from signal to root cause had somewhere to start.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$700K+</div>
+      <div class="lbl">Margin Recovered in 2 Quarters</div>
+      <div class="desc">Closed by tracing each flagged opportunity to its actual cause: a mispriced quote, a stale discount rule, a routing exception.</div>
+    </div>
+    <div class="stat">
+      <div class="n">53% to 61%</div>
+      <div class="lbl">Distributor Margin Lift</div>
+      <div class="desc">Fixed the routing and pricing logic itself, so the gain held past the first cycle instead of drifting back.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">Alongside the dashboard, I ran forecast reviews and pipeline inspections that kept close dates, next steps and stage accuracy defensible under executive review, the same opportunity hygiene this posting asks a RevOps Analyst to own directly.</div>
+  <div class="brand">PERPLEXITY REVOPS</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month owning Perplexity's revenue funnel processes looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Map the current funnel</div>
+      <div class="body">Sit with Sales, Marketing, Finance and Analytics to trace how a lead currently becomes a routed, worked opportunity, and where attribution, routing rules or stage hygiene already break down.</div>
+      <div class="why"><strong>Why first:</strong> the same move that started the Bleeders and Leakers program: find where the case for action is strongest before touching anything.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Fix the highest-friction breaks</div>
+      <div class="body">Rebuild the Salesforce reports, flows and validation rules behind the worst-behaved routing or attribution gaps, using Computer and other AI tools to automate the research and QA behind each fix.</div>
+      <div class="why"><strong>Why now:</strong> fixing the underlying logic, not overriding the symptom, is what made the 53% to 61% distributor gain stick.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Document and hand off</div>
+      <div class="body">Turn the fixes into documented process and train reps and front-line leaders on the new rules, so the improvement survives without me in the room.</div>
+      <div class="why"><strong>Why this fast:</strong> a process only counts once someone else can run it unsupervised.</div>
+    </div>
+  </div>
+  <div class="brand">PERPLEXITY REVOPS</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to own the funnel process end to end, not just report on it. I have already traced a margin gap to a fix that held, and I run the same CRM loop daily right now.</h2>
+  <div class="body">
+    <p>The core proof is Sensata: <strong>$433M in margin gaps surfaced, $700K+ actually recovered in two quarters</strong>, and a <strong>53% to 61%</strong> distributor margin lift that held because the underlying routing and pricing logic got fixed, not overridden.</p>
+    <p>What is harder to find is someone who is <strong>currently running CRM, CPQ, forecast reviews and deal approvals</strong> as a day job, at PriceKeel, and who already uses AI agents to automate the recurring parts of that analysis at Applied Materials. That combination means the AI-first operating habit this posting asks for is not something I would need to build from scratch.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhithyabhaskar.vercel.app/ref/perplexity</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">PERPLEXITY REVOPS</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+Subject: Revenue Operations Analyst, Perplexity: the routing fix that made a margin gain hold
+
+Hi {Hiring Manager, Revenue Operations},
+
+I do not normally cold-email a hiring manager, but "help determine how demand is attributed, how leads and accounts are routed, how opportunities move through the funnel" is a systems-and-judgment brief, not a reporting one, and that trace-to-fix loop is the part of the job I have already run.
+
+Built you a 6-slide pitch deck mapping that experience onto the req.
+
+At Sensata I built the Bleeders and Leakers Power BI system covering 1,200 opportunities against a $627M target, traced $433M in surfaced gaps down to $700K+ actually recovered in two quarters, and fixed the underlying routing and pricing logic so a 53% to 61% distributor margin lift held rather than drifting back. I run that same CRM, CPQ and forecast-review loop today at PriceKeel, and use Claude AI agents to automate the recurring parts of the analysis at Applied Materials.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/perplexity
+
+If the team is still scoping this seat, I would like 15 minutes to hear what is breaking down in the funnel right now. A pointer elsewhere would help just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
