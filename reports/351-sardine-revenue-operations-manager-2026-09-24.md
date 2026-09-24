@@ -84,18 +84,18 @@ JD text is silent on sponsorship. Cached visa lookup (`data/visa-cache.tsv`, che
 
 ## C) Level and Strategy
 
-1. **Level detected:** Individual contributor, 5+ years — matches the candidate's ~5 years of professional experience directly, though the JD's technical bar (Salesforce depth, iPaaS tools) sits above what his RevOps exposure has covered so far.
-2. **Sell senior without lying:** Lead with the fact that he is *already* the person who set up and runs CRM, CPQ, forecasting, and deal approvals from zero at PriceKeel, and that the Applied Materials Claude-automation bullet is real, shipped "vibe coding" — not a claimed skill, a demonstrated one.
-3. **If they downlevel me:** Unlikely; this is a single, undifferentiated IC seat with no other level to fall to. The real negotiation risk is scope-fit, not seniority — confirm early how much of the role is genuinely Salesforce/iPaaS engineering versus analytics and process design.
+1. **Level detected:** Individual contributor, 5+ years, matching the candidate's ~5 years of professional experience directly, though the JD's technical bar (Salesforce depth, iPaaS tools) sits above what his RevOps exposure has covered so far.
+2. **Sell senior without lying:** Lead with the fact that he is *already* the person who set up and runs CRM, CPQ, forecasting, and deal approvals from zero at PriceKeel, and that the Applied Materials Claude-automation bullet is real, shipped "vibe coding," not a claimed skill, a demonstrated one.
+3. **If they downlevel me:** Unlikely; this is a single, undifferentiated IC seat with no other level to fall to. The real negotiation risk is scope-fit, not seniority: confirm early how much of the role is genuinely Salesforce/iPaaS engineering versus analytics and process design.
 
 ## D) Comp and Demand
 
 **Demand and company signal:** Sardine is a real, well-funded Series C fintech (roughly $171M raised total, including a $70M Series C led by Activant Capital with a16z, Google Ventures, and others), named customers include FIS, GoDaddy, Intuit, and Checkout.com. Glassdoor shows a 4.2/5 rating with no reported layoffs (reviewers describe deliberate, non-layoff growth), but multiple reviews also describe a high-intensity, long-hours culture ("no work-life balance," leadership working late into the night) worth surfacing before accepting an offer, independent of this role specifically.
 
-- **Company type:** Growth-stage / VC-backed startup — Medium-High confidence.
-- **Compensation reliability:** Unknown — no advertised salary figure; skip component split, detailed market rows, and HR verification questions.
+- **Company type:** Growth-stage / VC-backed startup, Medium-High confidence.
+- **Compensation reliability:** Unknown, no advertised salary figure; skip component split, detailed market rows, and HR verification questions.
 
-Research note: one third-party aggregator listing (not the original Ashby posting or Sardine's own site) surfaces an unverified $140K-$180K estimate for this specific req; general market data for "Revenue Operations Manager, remote US" clusters around $110K-$180K depending on source, while the closer "GTM Engineer" comparison (which this role's responsibilities lean toward) runs $130K-$260K total comp at growth-stage companies. None of this is a Sardine-specific, sourced figure — treat as directional only, not as `advertised_comp`.
+Research note: one third-party aggregator listing (not the original Ashby posting or Sardine's own site) surfaces an unverified $140K-$180K estimate for this specific req; general market data for "Revenue Operations Manager, remote US" clusters around $110K-$180K depending on source, while the closer "GTM Engineer" comparison (which this role's responsibilities lean toward) runs $130K-$260K total comp at growth-stage companies. None of this is a Sardine-specific, sourced figure: treat as directional only, not as `advertised_comp`.
 
 ## E) Customization Plan
 
@@ -121,25 +121,25 @@ Research note: one third-party aggregator listing (not the original Ashby postin
 
 **Recommended case study:** The PriceKeel RevOps build, paired with the Applied Materials Claude-automation bullet as concrete "vibe coding" proof.
 
-**Likely red-flag question:** "You haven't used Zapier, Clay, Workato, or Tray.io — can you really own our integration layer?" Answer honestly: no direct hands-on time with those specific platforms, but a track record of automating connected systems (Plug Power's Mar-Tech stack, PriceKeel's CRM/CPQ) and of using AI-assisted development to build tools fast (Applied Materials) — the same skill the JD itself frames as "vibe coding" over prior tool-specific tenure.
+**Likely red-flag question:** "You haven't used Zapier, Clay, Workato, or Tray.io. Can you really own our integration layer?" Answer honestly: no direct hands-on time with those specific platforms, but a track record of automating connected systems (Plug Power's Mar-Tech stack, PriceKeel's CRM/CPQ) and of using AI-assisted development to build tools fast (Applied Materials), the same skill the JD itself frames as "vibe coding" over prior tool-specific tenure.
 
 ## G) Posting Legitimacy
 
 **Assessment:** High Confidence. The posting is specific and detailed (not boilerplate), matches a real, actively-hiring, well-funded company (Series C, ~$171M raised, named enterprise customers), and is independently mirrored on multiple third-party job boards (Welcome to the Jungle, Jobgether) with identical role framing, confirming the listing is genuinely live rather than a stale or fabricated scrape. `data/visa-cache.tsv` independently confirms SardineAI Corp as a real, current-year H-1B filer. No off-domain contact, off-platform process, or fraud-tell language present.
 
-**Freshness caveat:** Posted 2026-06-24 — roughly 92 days before this evaluation, well past the 7-day freshness window used for scans. Because this is a single-JD pipeline run passed in directly rather than a fresh scan result, it is evaluated on its merits per policy, but the age itself is a mild caution: confirm the req is still open before investing further. Exact live/apply-button state could not be checked directly — Playwright is unavailable in this environment, so that specific signal is marked **unverified (batch mode)**; the cross-board mirroring above is the best available substitute evidence of liveness.
+**Freshness caveat:** Posted 2026-06-24, roughly 92 days before this evaluation, well past the 7-day freshness window used for scans. Because this is a single-JD pipeline run passed in directly rather than a fresh scan result, it is evaluated on its merits per policy, but the age itself is a mild caution: confirm the req is still open before investing further. Exact live/apply-button state could not be checked directly (Playwright is unavailable in this environment), so that specific signal is marked **unverified (batch mode)**; the cross-board mirroring above is the best available substitute evidence of liveness.
 
 ## Risk Summary
 
 | Signal | Status |
 |--------|--------|
 | Posting legitimacy | ✅ High Confidence |
-| Employment classification | — not evaluated |
-| Culture screen | — not evaluated |
-| Interview red flags | — no interview sessions yet |
-| AI claims vs. infrastructure | — not evaluated |
+| Employment classification | - not evaluated |
+| Culture screen | - not evaluated |
+| Interview red flags | - no interview sessions yet |
+| AI claims vs. infrastructure | - not evaluated |
 
-**Recommendation:** Below the 4.0 full-pack bar (3.5/5) — worth a resume-only push if the candidate wants it, but the technical-stack gap (named iPaaS tools, Salesforce depth) is real enough to flag rather than to apply to blind. Confirm comp and true scope (analytics/process design versus hands-on Salesforce/integration engineering) before committing time to a tailored application.
+**Recommendation:** Below the 4.0 full-pack bar (3.5/5): worth a resume-only push if the candidate wants it, but the technical-stack gap (named iPaaS tools, Salesforce depth) is real enough to flag rather than to apply to blind. Confirm comp and true scope (analytics/process design versus hands-on Salesforce/integration engineering) before committing time to a tailored application.
 
 ## Extracted Keywords
 

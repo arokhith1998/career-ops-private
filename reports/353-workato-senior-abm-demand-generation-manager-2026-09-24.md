@@ -149,10 +149,10 @@ Tier: **High Confidence.**
 | Signal | Status |
 |--------|--------|
 | Posting legitimacy | ✅ High Confidence |
-| Employment classification | — not evaluated |
-| Culture screen | — not evaluated |
-| Interview red flags | — no interview sessions yet |
-| AI claims vs. infrastructure | — not evaluated |
+| Employment classification | - not evaluated |
+| Culture screen | - not evaluated |
+| Interview red flags | - no interview sessions yet |
+| AI claims vs. infrastructure | - not evaluated |
 
 ## Extracted Keywords
 
