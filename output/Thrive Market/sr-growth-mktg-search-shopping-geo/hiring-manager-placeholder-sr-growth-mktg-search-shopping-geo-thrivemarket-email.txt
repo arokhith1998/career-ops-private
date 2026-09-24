@@ -1,0 +1,18 @@
+Subject: Senior Growth Marketing Manager, Search, Shopping & GEO: owning the feed side, not just the bid side
+
+Hi {Hiring Manager, Growth Marketing},
+
+I do not normally cold-email a hiring manager, but "identify opportunities across media, product feeds, landing experiences, offers, merchandising" reads like a brief for someone who has already worked the feed side of Search and Shopping, not just the bidding side.
+
+At GenY Medium I rebuilt Google Merchant Center and Meta catalog feeds for D2C brands, taking one to 16x ROAS by fixing taxonomy and coverage so the right products actually surfaced, the exact lever your posting names for Shopping. At Plug Power I ran Google Ads and Microsoft Advertising on $100K/month budgets, cutting CPA 25% through bid optimization and structured testing, while owning the plan and forecast I presented to leadership. At Pixis I restructured the full funnel (feed cleanup, smart bidding, creative refresh, lookalike expansion) for a fashion client to 3x ROAS in a month, and cut client churn 50% by reading what kept members around after the first purchase, the same customer intuition a membership business runs on. At Applied Materials I automate recurring analysis with Claude AI agents, the build, test and measure habit your GEO roadmap needs before it needs an expert.
+
+Here's the portfolio: https://adhi-growth-ai.vercel.app/ref/thrive-market
+
+If the team is still scoping this seat, I would like 15 minutes to hear where Search, Shopping and GEO ownership currently split. A pointer elsewhere would help just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
