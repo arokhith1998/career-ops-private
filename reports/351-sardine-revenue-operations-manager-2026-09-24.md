@@ -26,7 +26,7 @@ soft_gaps:
   - "No JavaScript; the JD's nice-to-have language list is SQL, Python, or JavaScript, and only 2 of 3 are covered."
   - "No advertised salary figure; JD only says 'Generous compensation in cash and equity.'"
 top_strengths:
-  - "Applied Materials: automated repetitive analysis work with AI agents built on Claude, a near-literal match to the JD's headline 'Vibe Coding Edge' requirement (a proven track record using AI coding assistants to build functional tools and workflows)."
+  - "Applied Materials: automated repetitive analysis work with AI agents built on Claude, a near-literal match to the JD's headline 'Vibe Coding Edge' requirement (real, shipped use of AI coding assistants to build functional tools and workflows)."
   - "PriceKeel: personally set up and runs the company's CRM and CPQ, forecast and pipeline reviews, and deal approvals from zero, direct founder-level evidence of building a lean, automated GTM operating system."
   - "Sensata FY2026 Power BI dashboard (1,200 opportunities, $627M target, $433M in margin gaps surfaced) shows the clean-data-architecture and funnel-metrics rigor the JD asks for."
 risk_level: "Medium"
