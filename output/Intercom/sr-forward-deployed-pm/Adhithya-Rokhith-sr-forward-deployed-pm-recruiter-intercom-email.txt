@@ -1,0 +1,24 @@
+Subject: Senior Forward Deployed PM, Intercom: proximity to customer reality is the moat
+
+Hi {Recruiter, Product},
+
+I do not normally reach out before applying, but "in AI, proximity to customer reality is the moat" is why I am writing instead of just submitting a form. That loop is one I already run.
+
+A few pieces of it:
+
+Built SwipeHire solo, blank file to 50+ users: wrote the PRD, scoped the MVP, hand-configured the matching logic myself, the hands-on-config habit this role asks for.
+
+At Sensata I ran 30+ OEM and distributor interviews, fed what I learned into a 100+ feature roadmap owned with engineering across 3 regions, cutting time-to-market 20% and lifting CSAT 22%.
+
+I automate forecasting at Applied Materials with Claude agents today, the AI fluency this posting names directly.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/intercom
+
+I would like 15 minutes on how Fin scopes a first strategic deployment. If this belongs to someone else's queue, a pointer helps just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

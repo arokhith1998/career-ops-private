@@ -1,0 +1,24 @@
+Subject: Senior Forward Deployed PM, Intercom: the playbook is not written yet
+
+Hi {Hiring Manager, Product},
+
+I do not normally cold-email a hiring manager, but "own outcomes for a portfolio of strategic customers" reads like a role for someone who has already built something from nothing, not managed one.
+
+Proof that maps to it:
+
+As founder of PriceKeel I run the deployment loop end to end today: pitch, scope, hand-configure the CRM, CPQ and guardrail engine myself, and unblock whatever gets in the way, the exact arc this role runs per customer.
+
+At Sensata I ran 30+ OEM and distributor interviews, fed what I learned into a 100+ feature roadmap owned with engineering across 3 regions, cutting time-to-market 20% and lifting CSAT 22%, the field-to-product loop this role is built around, just pointed at Fin.
+
+I carried an 8-client P&L on an AI adtech platform at Pixis, the same swing between engineer and VP conversations this role asks for.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/intercom
+
+I would like 15 minutes on how you are scoping the first ten deployments. If this sits with someone else, a pointer helps just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
