@@ -789,6 +789,15 @@ function main() {
         'data/job-feed.tsv', cfg.sheets_out_file || 'data/sheet-feed.tsv'], { optional: true });
     }
 
+    // Hand-added postings (data/manual-feed.tsv): anything the candidate or an
+    // interactive session drops in, in the same columns as the other feeds. It
+    // survives runs because nothing overwrites it; the seen-jobs ledger stops it
+    // being re-examined once answered. ADDED 2026-09-25.
+    if (existsSync(path.join(ROOT, 'data', 'manual-feed.tsv'))) {
+      nodeStep('Merge manual feed into feed', ['scripts/merge-feeds.mjs',
+        'data/job-feed.tsv', 'data/manual-feed.tsv'], { optional: true });
+    }
+
     nodeStep('Seen-jobs filter', ['nightly-seen.mjs', '--filter', 'data/job-feed.tsv']);
     nodeStep('Shortlist', ['nightly-shortlist.mjs', '--out', 'data/shortlist.tsv',
       '--dropped-out', 'data/terminal-drops.tsv',

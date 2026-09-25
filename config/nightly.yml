@@ -75,7 +75,9 @@ tracks:
       - '\bvp\b'
       - '\bvice president\b'
       - '\bhead of\b'
-      - '\bchief\b'
+      # "Chief of Staff" is a TARGET on the US track (added 2026-09-25), so the
+      # chief block has to spare it while still dropping CRO/CFO/CTO seats.
+      - '\bchief\b(?! of staff)'
       - '\bfellow\b'
       - '\bcoordinator\b'
       - '\bassistant\b'
@@ -123,6 +125,21 @@ tracks:
         weight: 1.0
         titles:
           - "product manager"
+      # ADDED 2026-09-25: the US equivalents of the India Founder's Office family.
+      # In the US these are almost always titled Chief of Staff or business /
+      # strategy operations; "Founder's Office" itself is rare but does appear.
+      chief_of_staff:
+        weight: 1.0
+        titles:
+          - "chief of staff"
+          - "founder's office"
+          - "founder’s office"
+          - "founders office"
+          - "ceo's office"
+          - "ceo’s office"
+          - "office of the ceo"
+          - "business operations"
+          - "biz ops"
       market_strategy:
         weight: 0.9
         titles:
