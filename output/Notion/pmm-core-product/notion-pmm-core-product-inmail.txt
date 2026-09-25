@@ -1,0 +1,18 @@
+Subject: The launch-to-adoption arc, not just launch day
+
+Hi {Hiring Manager, Core Product},
+
+I do not normally reach out before applying, but "launch is the start of the story, not the end of it" is a rarer line in a PMM posting than it should be, and it's the exact loop I ran at Sensata: a sensing line I launched closed north of $2M in year-one revenue, and I kept tracking adoption in SQL and GA4 across 50K+ connected devices well past ship date.
+
+30+ customer interviews shaped that positioning before launch; the sales enablement I built off them raised win rates 30% for 50+ reps. I build with AI as the default lens, Claude agents automate my recurring analysis at Applied Materials, and I already run my own workflow in Notion.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/notion
+
+Open to 15 minutes on how Core Product handles the post-launch stretch? Happy to be pointed elsewhere if this is not your req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

@@ -1,0 +1,20 @@
+Subject: The awareness-to-adoption loop, not just launch day
+
+Hi {Hiring Manager, Core Product},
+
+Most PMM briefs stop at coordinating launch day. Yours asks for a strategic partner from early product development through the sales conversation, informing positioning before the roadmap locks instead of writing about it after. I ran that loop at Sensata: 30+ interviews with OEM and distributor engineers shaped the positioning before launch, not just the messaging after.
+
+That discipline built a new sensing line to $2M+ in year-one revenue, lifted conversion 15% on priority releases, and produced the sales enablement 50+ reps used to raise win rates 30%. Post-launch, I tracked adoption in SQL and GA4 across 50K+ connected devices, feeding findings back into the next release, the arc your posting draws for What's New and the release channel. I already use Notion daily, and Claude agents run my recurring market analysis at Applied Materials.
+
+I've attached my resume and cover letter.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/notion
+
+Open to 15 minutes on how Core Product handles the post-launch stretch?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
