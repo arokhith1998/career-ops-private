@@ -1,0 +1,20 @@
+Subject: Your Sardine RevOps Manager post: the vibe coding bar is what I already run
+
+Hi Josh,
+
+You posted that Sardine's first Revenue Operations Manager needs to act as an internal GTM Engineer instead of waiting on a build queue, and that is not a skill I would grow into, it is what I already ship.
+
+At Applied Materials I automate repetitive revenue analysis with AI agents built on Claude instead of waiting on engineering. At PriceKeel, the pricing tool I founded, I designed a guardrail engine that turns closed-won and closed-lost deal data into explainable discount logic, and I run the CRM and CPQ myself. Before that I built Sensata's Bleeders and Leakers dashboard, tracking 1,200 opportunities against a $627M target and recovering $700K+ in margin in two quarters.
+
+I've attached my resume and cover letter.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/sardine
+
+Open to 15 minutes on the RevOps Manager req? Happy to be redirected if it sits with someone else on your team.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

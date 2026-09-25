@@ -1,0 +1,18 @@
+Subject: Sardine's sole RevOps hire: building the GTM engineering half already
+
+Hi {Hiring Manager, Revenue Operations, Sardine},
+
+The posting frames this seat as GTM Engineering as much as RevOps, needing someone who ships automation instead of filing a ticket for it, and that split already describes how PriceKeel runs: I own the CRM, CPQ and deal approvals myself, with no engineering queue to hand anything to.
+
+At Applied Materials I automate repetitive revenue analysis with Claude agents instead of waiting on a build cycle, and I shipped SwipeHire, an AI job-matching platform, zero to one, wiring its GTM and analytics stack myself. Earlier at Sensata I recovered $700K+ in margin in two quarters through the Bleeders and Leakers program I built.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/sardine
+
+If you have 15 minutes this week, I would like to hear what the first automation project on your list looks like.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

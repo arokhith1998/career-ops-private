@@ -1,0 +1,20 @@
+Subject: Sardine RevOps: treating internal ops like a shippable product
+
+Hi {Hiring Manager, Revenue Operations, Sardine},
+
+Your posting asks for an engineering mindset that treats internal operations as a scalable product, not a services queue, and that is the discipline PriceKeel forces on me daily: I run the CRM, CPQ and deal approvals myself because there is no one else to hand them to.
+
+The build habit is not new either. I shipped SwipeHire, an AI job-matching platform, zero to one, writing the PRD, scoping the MVP and wiring the GTM and analytics stack myself. At Applied Materials I automate repetitive revenue analysis with Claude agents instead of waiting on an engineering queue. Earlier, I built Sensata's Bleeders and Leakers dashboard across 1,200 opportunities and a $627M target, recovering $700K+ in margin in two quarters through the same relational data model thinking your lead-to-cash automation needs.
+
+I've attached my resume and cover letter.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/sardine
+
+Would you have 15 minutes to talk through where the GTM stack is stalling first? Happy to be pointed to whoever owns this req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
