@@ -1,0 +1,18 @@
+Subject: The cadence behind "fewer, better tools"
+
+Hi {Hiring Manager, Sales Tooling},
+
+I don't normally reach out before applying, but the posting's framing of this seat as the DRI for a 1P-first stack, not just another procurement request line, made me. That's the same call I make every day as a solo founder deciding whether a new SaaS license earns a seat in my own stack.
+
+At Sensata I built and ran the Bleeders and Leakers governance cadence: intake, scoring and routing across 1,200 pricing opportunities against a $627M target in 3 regions, recovering $700K+ in margin in 2 quarters by closing what the dashboard surfaced, not just reporting it. At PriceKeel I set up and run the company's CRM, CPQ, forecast reviews and deal approvals myself, the same build vs buy discipline your tooling council runs on. At Applied Materials I automate recurring analysis with Claude-built agents, the AI-native habit the role asks for directly.
+
+Resume and cover letter attached. Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/doordash
+
+Would you have 15 minutes to talk through how a governance cadence should sequence from intake to sunset?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
