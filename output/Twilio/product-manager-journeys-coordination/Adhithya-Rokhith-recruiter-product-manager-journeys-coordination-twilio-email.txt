@@ -1,0 +1,20 @@
+Subject: Coordinating a journey product, not owning one channel
+
+Hi {Recruiter, Product},
+
+I don't normally reach out before applying, but Journeys is the part of Twilio that turns Segment's CDP from a place profiles sit into something that decides the next message in real time, and coordinating that across every channel is a specific product problem.
+
+I run that kind of roadmap now: 100+ features across a Sensata backlog, engineering and regional teams in step across 3 markets, releases 25% faster without breaking paths customers rely on daily. Calls get checked against structured interviews (30+) and SQL/GA4 data, work that lifted CSAT 22% and adoption 18%. Claude agents now automate my analysis at Applied Materials.
+
+I've attached my resume and cover letter.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/twilio
+
+Would you have 15 minutes on the Journeys Coordination req? Happy to be pointed elsewhere if it sits with a different team.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
