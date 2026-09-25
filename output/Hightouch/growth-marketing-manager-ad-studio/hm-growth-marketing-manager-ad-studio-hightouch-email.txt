@@ -1,0 +1,20 @@
+Subject: The Ad Studio growth loop already looks familiar
+
+Hi {Hiring Manager, Ad Studio},
+
+I don't usually write in before applying, but productizing segment-to-audience activation as its own surface, rather than a manual export, is the part of growth work I find genuinely interesting, and Ad Studio is built around exactly that.
+
+At Pixis I ran retail media and multi-channel paid, Amazon Ads, Criteo, Meta, Google, across an 8-client portfolio with P&L ownership, cutting churn 50% and lifting ROAS 40% off Amplitude and Tableau signal work. At Plug Power I owned $100K/month in paid budgets across 4 channels, rebuilt attribution, and cut CPA 25% while holding volume. I also automate my own forecasting work with Claude AI agents at Applied Materials, so I default to building the tool, not just running the campaign.
+
+I've attached my resume and cover letter.
+
+Here's the portfolio: https://adhi-growth-ai.vercel.app/ref/hightouch
+
+Would you have 15 minutes to talk through what good looks like for Ad Studio's growth motion this quarter? Happy to be pointed elsewhere if this sits with someone else on your team.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
