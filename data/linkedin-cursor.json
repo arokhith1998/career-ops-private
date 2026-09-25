@@ -1,5 +1,5 @@
 {
-  "cursor": 10,
+  "cursor": 11,
   "runs": [
     {
       "at": "2026-09-19T06:03:46.194Z",
@@ -223,6 +223,38 @@
       ],
       "queries": 32,
       "rows": 256,
+      "health": "ok"
+    },
+    {
+      "at": "2026-09-25T06:15:31.211Z",
+      "terms": [
+        "india:Chief of Staff",
+        "india:Head of Growth",
+        "india:Founder's Office",
+        "india:CEO Office",
+        "india:Entrepreneur in Residence",
+        "us:Product Marketing Manager",
+        "us:Pricing Manager",
+        "us:Pricing Strategy"
+      ],
+      "queries": 22,
+      "rows": 176,
+      "health": "ok"
+    },
+    {
+      "at": "2026-09-25T06:17:01.980Z",
+      "terms": [
+        "us:Revenue Operations",
+        "us:Product Manager",
+        "us:Strategic Marketing",
+        "us:Market Strategy",
+        "us:Competitive Intelligence",
+        "us:Growth Marketing Manager",
+        "us:Deal Desk",
+        "india:Chief of Staff"
+      ],
+      "queries": 30,
+      "rows": 264,
       "health": "ok"
     }
   ]
