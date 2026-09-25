@@ -1,0 +1,22 @@
+Subject: A guardrail engine that already does your lead-scoring loop
+
+Hi {Recruiter, Web & Revenue Marketing},
+
+Your posting asks for someone who turns buyer signals into agents and automations, not slide decks. I already run that loop: at PriceKeel I built the CRM, CPQ and deal-approval workflows myself, plus a guardrail engine that scores every discount exception against the company's own closed-won and closed-lost data, the same signal-to-prioritization work you want for lead routing and scoring.
+
+- Built SwipeHire zero to one on the OpenAI API, shipping LLM-powered matching logic through APIs and webhooks.
+- At Sensata, built the Power BI pipeline view 1,200 opportunities and a $627M target ran through.
+- At Applied Materials now, I automate competitive analysis with Claude AI agents, the required qualification on this posting.
+
+I've attached my resume and cover letter.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/freshworks
+
+Would 15 minutes this week work? If this req sits elsewhere on your team, a pointer would help.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

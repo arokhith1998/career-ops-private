@@ -1,0 +1,20 @@
+Subject: Signal-to-routing work for Freshworks GTM, from someone who already ships it
+
+Hi {Recruiter, Web & Revenue Marketing},
+
+Connecting buyer signals to routing, scoring and prioritization, then getting the automation to production, is a specific build problem, and it is the one I run for myself already.
+
+At PriceKeel I built the CRM, CPQ and deal-approval workflows end to end, plus a guardrail engine that scores every discount exception against the company's own closed-won and closed-lost data. I built SwipeHire zero to one on the OpenAI API, shipping LLM-powered matching logic through APIs and webhooks. At Sensata, I built the Power BI pipeline view 1,200 opportunities and a $627M target ran through. At Applied Materials now, I automate competitive analysis with Claude AI agents, the required qualification on this posting.
+
+I've attached my resume and cover letter.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/freshworks
+
+Open to 15 minutes on where lead routing needs the most work right now?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
