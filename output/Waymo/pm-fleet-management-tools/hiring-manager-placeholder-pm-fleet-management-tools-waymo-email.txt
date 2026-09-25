@@ -1,0 +1,20 @@
+Subject: Fleet tooling that keeps ahead of the pain point, not last quarter's
+
+Hi {Hiring Manager, Fleet Management Tools},
+
+A fleet ops tool only earns its keep if it catches the pain point that showed up this week, not the one from the last planning review. That loop, listen, build, ship, is the one I run at Sensata: I own the roadmap and a 100+ feature backlog for a sensor product line spanning 3 regions, working with engineering in Agile, and it has cut time-to-market 20% and sped releases 25%.
+
+I ground every call in real signal: 30+ interviews with OEMs and distributors, then SQL and GA4 KPI frameworks across 50,000+ connected devices, work that lifted CSAT 22% and feature adoption 18%, the same telemetry-heavy environment fleet tooling lives in. At Applied Materials I now build Claude agents that automate the repetitive half of that analysis.
+
+I've attached my resume and cover letter.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/waymo
+
+Would you have 15 minutes to talk through where fleet tooling is hardest to keep ahead of right now? Happy to be pointed elsewhere if this sits with a different team.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

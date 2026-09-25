@@ -1,0 +1,18 @@
+Subject: Built roadmaps around fleet ops pain points before this req existed
+
+Hi {Recruiter, Fleet Management Tools},
+
+Your posting turns on spotting operational pain points across teams and shipping tooling against them, which is the job I already run: I own the roadmap and a 100+ feature backlog for a sensor product line at Sensata, spanning 3 regions, and it has cut time-to-market 20% and sped releases 25%.
+
+I ground those calls in real signal: 30+ interviews with OEMs and distributors, then SQL and GA4 KPI frameworks across 50,000+ connected devices, work that lifted CSAT 22% and adoption 18%. At Applied Materials I now build Claude agents that automate the repetitive half of that work.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/waymo
+
+Open to 15 minutes on the Fleet Management Tools req?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
