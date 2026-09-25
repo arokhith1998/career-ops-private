@@ -1,0 +1,20 @@
+Subject: The BaaS roadmap needs a product-finance translator
+
+Hi {Hiring Manager, Banking as a Service},
+
+A Banking as a Service platform lives or dies on how well product decisions hold up once Finance, Risk and Engineering are all in the room, and that is the seat I already sit in. At Applied Materials I build the pricing and forecasting models Sales, Engineering and Accounts all work from, carrying P&L and revenue targets on top of it. At Sensata I sat with Finance and Sales leadership on multimillion-dollar revenue models and site-transition strategy, not handing off an analysis and hoping it landed.
+
+End-to-end ownership is not a phrase I reach for either: I ran Sensata's 100+ feature roadmap myself, Agile with Engineering across 3 regions, cutting time-to-market 20%, and shipped SwipeHire zero-to-one, PRD through launch, to 50+ users on my own.
+
+I've attached my resume and cover letter.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/lead-bank
+
+Would you have 15 minutes to talk through where the platform's roadmap gets hardest to prioritize? Happy to be pointed elsewhere if this is not your req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
