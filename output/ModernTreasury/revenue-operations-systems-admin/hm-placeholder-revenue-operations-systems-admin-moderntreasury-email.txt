@@ -1,0 +1,21 @@
+Subject: The stack that's actually changing, not one I'd babysit
+
+Hi {Hiring Manager, Revenue Operations},
+
+I don't normally write in before applying, but the framing that this stack is "actually changing over the next year, not one you're just keeping the lights on for," and that you'll partner with Engineering to replace manual GTM work with agents, is exactly how I already work.
+
+Founded PriceKeel and built its CRM, CPQ and deal-approval routing myself, owning the design and the ship, not just the maintenance.
+Use Claude AI agents daily at Applied Materials to automate repetitive analysis, standing behind every output the way this role asks.
+Automated the Salesforce-anchored Mar-Tech stack at Plug Power into closed-loop reporting, cutting cost per lead 50%.
+Built the Power BI dashboard behind Sensata's Bleeders and Leakers program: 1,200 opportunities against a $627M target across 3 regions, surfacing $433M in margin gaps for leadership to prioritize.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/moderntreasury
+
+Worth 15 minutes to see if the fit is real? If this is not your req, a pointer helps just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

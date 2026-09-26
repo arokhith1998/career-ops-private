@@ -1,0 +1,18 @@
+Subject: Builder, not maintainer, for the revenue stack
+
+Hi {Recruiter, Revenue Operations},
+
+I do not usually message before applying, but the line drawing this seat as "the builder behind our revenue systems," with your own designs shipped on a fast sign-off loop instead of a lengthy review, is a rarer brief than most RevOps admin postings, and it is the one I already run.
+
+I founded PriceKeel and built its CRM, CPQ and deal-approval routing myself, the same builder-not-maintainer posture this req wants. At Applied Materials I use Claude AI agents daily to automate repetitive analysis, the same operating model behind your Engineering partnership on agents. At Plug Power I automated the Salesforce-anchored Mar-Tech stack into closed-loop reporting, cutting cost per lead 50%, and at Sensata I built the Power BI dashboard behind a $627M pricing-opportunity pipeline.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/moderntreasury
+
+Worth 15 minutes on this req?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
