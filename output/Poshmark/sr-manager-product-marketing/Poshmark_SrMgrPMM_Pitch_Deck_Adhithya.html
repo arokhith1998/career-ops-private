@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Poshmark Sr. Manager, Product Marketing Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #7c3aed; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 27pt; font-weight: 800; color: #0f172a; line-height: 1.14; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 20pt; font-weight: 800; color: #0f172a; line-height: 1.12; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #7c3aed; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.7in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #ede9fe 100%); }
+  .cover h1 { font-size: 25pt; max-width: 11.3in; }
+  .cover .sub { font-size: 14pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 16pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #7c3aed; font-weight: 700; }
+  .cover .who { margin-top: 16pt; padding-top: 11pt; border-top: 1.5pt solid #7c3aed; max-width: 9.4in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #7c3aed; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #f3effe; border-left: 3pt solid #7c3aed; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #5b21b6; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #7c3aed; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #f3effe; border-left: 4pt solid #7c3aed; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #5b21b6; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #7c3aed; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 22pt; font-weight: 800; color: #7c3aed; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #7c3aed; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #7c3aed; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #7c3aed; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #ede9fe 100%); }
+  .close h2 { font-size: 24pt; max-width: 10.6in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.6in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #7c3aed; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Poshmark Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Poshmark Sr. Manager, Product Marketing</div>
+  <h1>Poshmark's PMM mandate is really two jobs stitched into one: ship the launch story for Product, then keep 165 million members moving through lifecycle programs long after the launch news cycle ends. I have already run both halves of that loop.</h1>
+  <div class="sub">A full GTM launch built to a revenue number, and a fashion-brand retention rebuild, on the same calendar as everything else.</div>
+  <div class="tags">
+    <div class="tag"><strong>$2M+ first-year revenue</strong> on an end-to-end GTM launch at Sensata</div>
+    <div class="tag"><strong>3x ROAS in a month</strong> from a fashion-brand full-funnel retention rebuild at Pixis</div>
+    <div class="tag"><strong>50% churn cut</strong> across an 8-client e-commerce and D2C portfolio</div>
+    <div class="tag"><strong>+30% win rate</strong> from sales enablement built for 50+ reps</div>
+    <div class="tag"><strong>AI agents built on Claude</strong> automating my own recurring analysis at Applied Materials</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-product-ai.vercel.app/ref/poshmark</div>
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>The role is not "write the launch deck." It is running GTM and lifecycle marketing as <span class="accent">one system, not two separate calendars.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What that actually requires</h4>
+      <div class="line">A launch story that Product, Creative, CRM and Growth all pull on at once, then a lifecycle program (onboarding, activation, engagement, retention, reactivation) that keeps acting on the same behavioral signal the launch surfaced.</div>
+      <div class="line">Being the internal authority on customer motivation only works with direct customer contact, not a dashboard read from a distance.</div>
+      <div class="line">A developing PMM team needs the pattern modeled once, in public, before it can be repeated.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run</h4>
+      <div class="line">At <b>Sensata</b>, I owned the full GTM loop, positioning, messaging, channel, launch, for a new product line, then built the behavioral-cohort KPI work that powered the lifecycle program underneath it.</div>
+      <div class="line">At <b>Pixis</b>, I rebuilt the full retention funnel for a fashion brand for 3x ROAS in a month, the same customer-lifecycle muscle a resale marketplace runs on daily.</div>
+      <div class="line">At <b>Applied Materials</b> today, I automate my own recurring market and competitive analysis with AI agents built on Claude, freeing hours for the work only a person can do.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">The through-line: every launch I have shipped had a lifecycle program built underneath it before day one, not bolted on after the news cycle ended.</div>
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The mandate, mapped</div>
+  <h2>What the posting asks for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Lead end-to-end GTM for features and platform initiatives: positioning, messaging, channel strategy, launch execution, measurement."</div></div>
+      <div class="quote"><div class="q">"Design, optimize, and scale customer lifecycle programs across onboarding, activation, engagement, retention, reactivation."</div></div>
+      <div class="quote"><div class="q">"Be the internal authority on customer motivations, segments, and behaviors."</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>Sensata, GTM to $2M+ revenue:</b> owned positioning, messaging, channel strategy and launch execution end to end for new sensing products across North America and Europe.</div></div>
+      <div class="proof"><div class="p"><b>Sensata, behavioral-cohort lifecycle programs:</b> built SQL and GA4 KPI frameworks across 50K+ connected devices that flagged engagement and adoption moments, lifting feature adoption 18%.</div></div>
+      <div class="proof"><div class="p"><b>Pixis, fashion-brand retention rebuild:</b> full-funnel rebuild (feed, bidding, creative, lookalikes) for 3x ROAS in a month, on top of a 50% churn cut across the client portfolio.</div></div>
+      <div class="proof"><div class="p"><b>Sensata, direct customer contact:</b> 30+ structured interviews across the OEM and distributor community, the habit that keeps customer insight real instead of secondhand.</div></div>
+    </div>
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>Own the launch, build the lifecycle program under it, then <span class="accent">keep testing the message against the customer who actually churns.</span></h2>
+  <div class="lede">Same pattern across two companies: ship the GTM story, build the retention and reactivation loop underneath it, then measure whether it moved a number Sales, Growth or CRM was accountable for.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$2M+</div>
+      <div class="lbl">First-Year Revenue, End-to-End GTM</div>
+      <div class="desc">Positioning, messaging, channel strategy and launch execution built and shipped in one motion for new sensing products across North America and Europe.</div>
+    </div>
+    <div class="stat">
+      <div class="n">3x ROAS in a Month</div>
+      <div class="lbl">Fashion-Brand Retention Rebuild</div>
+      <div class="desc">Full-funnel rebuild, feed cleanup, smart bidding, creative refresh, lookalike expansion, for a leading fashion brand at Pixis.</div>
+    </div>
+    <div class="stat">
+      <div class="n">50% Churn Cut</div>
+      <div class="lbl">Reactivation &amp; Retention Playbooks</div>
+      <div class="desc">Across an 8-client e-commerce and D2C portfolio through proactive account strategy and vertical playbooks.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">The common thread: none of these were a positioning doc that sat in a folder. Each one closed the loop from message to a number the business was accountable for.</div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month owning GTM and lifecycle marketing at Poshmark looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Map the launch-to-lifecycle handoff</div>
+      <div class="body">Trace the last 5-10 feature launches to find where the lifecycle program picked up, or didn't, after ship day, and where onboarding, engagement and retention are being run by different teams off different signals.</div>
+      <div class="why"><strong>Why first:</strong> the same first move behind the Sensata KPI work, find where the signal breaks before rebuilding the program.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Rebuild one lifecycle journey end to end</div>
+      <div class="body">Pick the highest-friction moment, onboarding to first sale, or a churn-risk cohort, and rebuild the messaging, channel mix and positioning together with Product, CRM, Growth and Creative.</div>
+      <div class="why"><strong>Why now:</strong> the same cross-functional build that moved Sensata's win rate 30% instead of shipping a deck no one used.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Stand up the recurring customer-insight loop</div>
+      <div class="body">Institute the direct-contact discipline behind 30+ structured interviews at Sensata, applied to Poshmark's seller and buyer community, then automate the reporting step with the first AI agent so the insight ships every cycle, not once.</div>
+      <div class="why"><strong>Why this fast:</strong> the same habit that keeps my own reporting moving at Applied Materials today, not a plan for someday.</div>
+    </div>
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to run GTM and lifecycle marketing as one system for 165 million members. I have already built both halves of that loop, and put a number on each one.</h2>
+  <div class="body">
+    <p>The GTM half: <strong>$2M+ first-year revenue</strong> from positioning, messaging, channel and launch execution built end to end at Sensata, backed by the behavioral-cohort KPI work that flagged which engagement moments actually mattered.</p>
+    <p>The lifecycle half: a <strong>3x ROAS</strong> full-funnel retention rebuild for a fashion brand and a <strong>50% churn cut</strong> across an e-commerce portfolio at Pixis. At Applied Materials I now automate my own recurring analysis with agents built on Claude, because rebuilding the same report every cycle is time that should go into the next launch.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-product-ai.vercel.app/ref/poshmark</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
