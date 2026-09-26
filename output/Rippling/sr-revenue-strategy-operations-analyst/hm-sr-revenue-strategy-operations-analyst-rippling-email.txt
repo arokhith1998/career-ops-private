@@ -1,0 +1,24 @@
+Subject: SDR capacity math, not just headcount
+
+Hi {Hiring Manager, Sales Development Strategy & Ops},
+
+I don't normally reach out before applying, but capacity planning and resource allocation models for a global SDR org running on Salesforce, Outreach, ZoomInfo and LeanData is the exact math problem I already run, just under different tool names.
+
+Built you a 6-slide pitch deck so the proof fits on one read.
+
+- Built a Power BI system tracking 1,200 pipeline opportunities against a $627M target across 3 regions and 20 product lines, surfacing $433M in gaps before the quarter closed.
+- Automated a WordPress and Pardot lead flow that cut cost per lead 50%, the same routing math behind pipeline generation.
+- Run my own CRM, CPQ and forecast-and-pipeline-review cadence as founder of PriceKeel, the loop this role runs for Sales Development leadership.
+
+I've attached my resume, cover letter and the deck.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/rippling
+
+Would you have 15 minutes to talk through where SDR capacity planning is hardest to model right now? Happy to be pointed elsewhere if this sits with a different team.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

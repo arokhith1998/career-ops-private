@@ -1,0 +1,18 @@
+Subject: SDR capacity planning, the same math under a different name
+
+Hi {Recruiter, GTM Talent Acquisition},
+
+Capacity planning and resource allocation models for a global SDR org running on Salesforce, Outreach, ZoomInfo and LeanData is the same math I already run, just with different tool names.
+
+I built a Power BI system tracking 1,200 pipeline opportunities against a $627M target across 3 regions and 20 product lines, surfacing $433M in gaps before the quarter closed, and I automated a lead flow that cut cost per lead 50%. I also run my own CRM, CPQ and pipeline-review cadence as founder of PriceKeel.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/rippling
+
+Open to 15 minutes on this req?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
