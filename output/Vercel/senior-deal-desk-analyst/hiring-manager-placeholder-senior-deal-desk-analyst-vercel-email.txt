@@ -1,0 +1,23 @@
+Subject: The Deal Desk gatekeeper role: data hygiene and playbooks in one seat
+
+Hi {Hiring Manager, Deal Desk},
+
+I don't normally reach out before applying, but the ask for a gatekeeper of data hygiene and opportunity data who also builds the sales motions coming out of that data is a rarer combination than most Deal Desk reqs, and it is the loop I already close.
+
+Built you a 6-slide pitch deck so the proof fits on one read.
+
+- Recovered $700K+ in margin in two quarters at Sensata leading the Bleeders and Leakers program on live deals, not just the report.
+- Repriced distributor and channel-partner terms from 53% to 61% margin in under two quarters.
+- Built the FY2026 Bleeders and Leakers Power BI dashboard across 3 regions and 20 product lines, surfacing $433M in margin gaps.
+- Partnered with senior executives on multimillion-dollar customer quotes, the same Finance-Legal-Sales loop this role runs.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/vercel
+
+Would 15 minutes work to walk through how I would map that loop onto Vercel CPQ? Happy to be redirected if this sits with someone else on your team.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
