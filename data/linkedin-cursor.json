@@ -1,5 +1,5 @@
 {
-  "cursor": 5,
+  "cursor": 13,
   "runs": [
     {
       "at": "2026-09-19T06:03:46.194Z",
@@ -303,6 +303,22 @@
       ],
       "queries": 26,
       "rows": 224,
+      "health": "ok"
+    },
+    {
+      "at": "2026-09-26T11:15:14.818Z",
+      "terms": [
+        "us:Strategic Marketing",
+        "us:Market Strategy",
+        "us:Competitive Intelligence",
+        "us:Growth Marketing Manager",
+        "us:Deal Desk",
+        "india:Chief of Staff",
+        "india:Head of Growth",
+        "india:Founder's Office"
+      ],
+      "queries": 26,
+      "rows": 226,
       "health": "ok"
     }
   ]
