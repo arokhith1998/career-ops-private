@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Turing Senior Product Marketing Manager Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #7c3aed; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 28pt; font-weight: 800; color: #0f172a; line-height: 1.12; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 20pt; font-weight: 800; color: #0f172a; line-height: 1.12; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #7c3aed; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.7in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #ede9fe 100%); }
+  .cover h1 { font-size: 26pt; max-width: 11.3in; }
+  .cover .sub { font-size: 14pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 18pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #7c3aed; font-weight: 700; }
+  .cover .who { margin-top: 18pt; padding-top: 11pt; border-top: 1.5pt solid #7c3aed; max-width: 9.4in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #7c3aed; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #f3effe; border-left: 3pt solid #7c3aed; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #5b21b6; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #7c3aed; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #f3effe; border-left: 4pt solid #7c3aed; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #5b21b6; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #7c3aed; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 23pt; font-weight: 800; color: #7c3aed; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #7c3aed; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #7c3aed; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #7c3aed; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #ede9fe 100%); }
+  .close h2 { font-size: 25pt; max-width: 10.6in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.6in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #7c3aed; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Turing Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Turing Senior Product Marketing Manager</div>
+  <h1>Turing sells datasets, benchmarks and RL environments to buyers who can read a technical spec better than most marketers can write one. That is exactly the translation work I have already been doing, on a harder audience than most PMMs ever face.</h1>
+  <div class="sub">Positioning built from real technical depth, tested against skeptical engineers before it ships, then armed for the sellers carrying the deal.</div>
+  <div class="tags">
+    <div class="tag"><strong>$2M+ first-year revenue</strong> on a GTM story built from technical specs at Sensata</div>
+    <div class="tag"><strong>+30% win rate</strong> from sales enablement built for 50+ reps</div>
+    <div class="tag"><strong>30+ engineer interviews</strong> used to test and iterate messaging before launch</div>
+    <div class="tag"><strong>AI agents built on Claude</strong> automating my own recurring analysis at Applied Materials</div>
+    <div class="tag"><strong>Market sizing with Sales, Engineering and Accounts</strong> so positioning starts from one shared view</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-product-ai.vercel.app/ref/turing</div>
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>The role is not "write the positioning." It is turning a highly technical product line into <span class="accent">a narrative a frontier AI lab's own researchers will trust.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What that actually requires</h4>
+      <div class="line">An ML engineer does not buy a feature list. Positioning for datasets, benchmarks and RL environments has to survive a technical reviewer who already knows the domain cold, not just a procurement conversation.</div>
+      <div class="line">Customer research and competitive analysis with a technical buyer only work when the marketer can hold a real conversation about the product, not translate secondhand from a spec sheet.</div>
+      <div class="line">Sales enablement and technical content need to be produced fast, in an environment where the underlying product itself moves every few weeks.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run</h4>
+      <div class="line">At <b>Sensata</b>, I turned deeply technical specs for new sensing products into a GTM and positioning story that OEM and distributor engineers acted on, driving $2M+ in first-year revenue.</div>
+      <div class="line">At <b>Sensata</b> again, I built the sales enablement, presentations and case studies that carried 50+ reps through live technical deals, and win rates moved 30%.</div>
+      <div class="line">At <b>Applied Materials</b> today, I automate my own recurring market-sizing and forecasting work with AI agents built on Claude, the same AI fluency a Frontier AI product line runs on.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">The through-line: every narrative I have shipped had to survive contact with an engineer who knew more about the product than I did on day one, and I have already made AI part of how that content gets produced, not a slide about AI.</div>
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The mandate, mapped</div>
+  <h2>What the posting asks for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Develop positioning and messaging for datasets, benchmarks, and RL environments."</div></div>
+      <div class="quote"><div class="q">"Conduct customer research and competitive analysis with frontier AI labs."</div></div>
+      <div class="quote"><div class="q">"Create sales enablement materials and technical content."</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>Sensata, GTM to $2M+ revenue:</b> owned positioning and messaging for new sensing products across North America and Europe, translating deeply technical specs into buyer-ready narratives for OEM and distributor engineers.</div></div>
+      <div class="proof"><div class="p"><b>Sensata, 30+ engineer interviews:</b> tested and iterated messaging directly with OEM and distributor engineers before it shipped, then tracked competitor moves across EMEA and the US the same way.</div></div>
+      <div class="proof"><div class="p"><b>Sensata, sales enablement for 50+ reps:</b> built the decks, case studies and technical content that carried live technical deals, moving win rates 30%.</div></div>
+      <div class="proof"><div class="p"><b>Applied Materials, AI agents on Claude:</b> automated my own recurring market-sizing and competitive analysis, the exact AI fluency a Frontier AI product marketer needs day to day.</div></div>
+    </div>
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The Sensata proof, in depth</div>
+  <h2>Own the narrative, arm the sellers, then <span class="accent">keep testing the message against the toughest buyer in the room.</span></h2>
+  <div class="lede">Same pattern across two Sensata roles: translate the technical story for a buyer who knows the domain, put it in the hands of the people carrying deals, then measure whether it actually moved a number.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$2M+</div>
+      <div class="lbl">First-Year Revenue, New Sensing Products</div>
+      <div class="desc">GTM, positioning and messaging built from technical specs for OEM and distributor engineers across North America and Europe, plus a 15% conversion lift on priority launches.</div>
+    </div>
+    <div class="stat">
+      <div class="n">+30% Win Rate</div>
+      <div class="lbl">Technical Sales Enablement</div>
+      <div class="desc">Presentations, case studies and technical content built for 50+ reps carrying live technical deals, backed with direct product depth.</div>
+    </div>
+    <div class="stat">
+      <div class="n">30+ Interviews</div>
+      <div class="lbl">Message Testing With Engineers</div>
+      <div class="desc">Structured interviews with OEM and distributor engineers that tested and iterated messaging before it shipped, lifting CSAT 22% on the accounts that gave feedback.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">The common thread: none of these were a positioning doc that sat in a folder. Each one closed the loop from message to a number Sales or the technical buyer was accountable for.</div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month owning positioning for Turing's Frontier AI business looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Sit inside the technical buyer conversation</div>
+      <div class="body">Pull the last 10-15 deals where a frontier AI lab evaluated the datasets, benchmarks or RL environments, and map where the current positioning does and does not survive a technical reviewer's questions.</div>
+      <div class="why"><strong>Why first:</strong> the same first move behind the Sensata GTM work, listening to where the message breaks before rewriting it.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Rebuild one product's narrative with the technical team</div>
+      <div class="body">Pick the dataset, benchmark or RL environment where technical depth and buyer-facing narrative sit furthest apart, and rebuild its positioning and sales enablement together with the researchers and engineers who built it.</div>
+      <div class="why"><strong>Why now:</strong> the same cross-functional build that moved Sensata's win rate 30% instead of shipping a deck no one used.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Stand up the AI-assisted content loop</div>
+      <div class="body">Build the first agent or automation that removes a manual step from turning competitive research or customer interviews into technical content, and run it against a live piece of collateral so the win is measured.</div>
+      <div class="why"><strong>Why this fast:</strong> the same habit that keeps my own reporting moving at Applied Materials today, not a plan for someday.</div>
+    </div>
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to make dense technical depth trustworthy to the toughest buyer there is: another engineer. I have already run that pattern, twice, at Sensata.</h2>
+  <div class="body">
+    <p>The core proof is one Sensata arc: <strong>$2M+ first-year revenue</strong> from GTM and positioning built out of deeply technical specs, then <strong>+30% win rate</strong> once that story was armed with sales enablement for 50+ reps carrying live technical deals.</p>
+    <p>What is harder to find is someone who has already made AI load-bearing in their own analysis, not a line item. At Applied Materials I automate my own market-sizing and forecasting work with agents built on Claude, because rebuilding the same report every cycle is time that should go into the next piece of technical content.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-product-ai.vercel.app/ref/turing</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
