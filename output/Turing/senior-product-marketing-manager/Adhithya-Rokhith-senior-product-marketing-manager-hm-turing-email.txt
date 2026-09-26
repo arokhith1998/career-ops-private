@@ -1,0 +1,23 @@
+Subject: Marketing to the labs training the models, not their end users
+
+Hi {Hiring Manager, Senior Product Marketing Manager},
+
+Your posting is not pitching an AI product to consumers, it positions datasets, RL environments and benchmarks as infrastructure for the frontier labs training the models. That is a narrower, more technical buyer than most product marketing reqs admit, and it changes what counts as proof.
+
+- Owned GTM end to end (positioning, pricing, channel, launch) for new sensing products across North America and Europe, driving $2M+ first-year revenue.
+- Turned technical product features into customer-facing value propositions, lifting conversion 15% on priority launches.
+- Ran 30+ structured interviews with technical buyers (OEMs, distributors), sourcing insight product teams acted on.
+- Built sales enablement (decks, case studies) for 50+ reps, lifting win rates 30%.
+
+At Applied Materials I already automate my research workflow with Claude agents, so I already know how the tools you are marketing get used.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/turing
+
+Built a 6-slide pitch deck so the fit reads in one pass. Open to 15 minutes, or a pointer if this sits with someone else on your team.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
