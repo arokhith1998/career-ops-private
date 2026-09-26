@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Rippling Sr. Revenue Strategy and Operations Analyst Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #0e6e4e; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 28pt; font-weight: 800; color: #0f172a; line-height: 1.14; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 21pt; font-weight: 800; color: #0f172a; line-height: 1.1; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #0e6e4e; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.8in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d7ecdf 100%); }
+  .cover h1 { font-size: 27pt; max-width: 11.4in; }
+  .cover .sub { font-size: 13.5pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 16pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.1pt; font-weight: 500; }
+  .tag strong { color: #0e6e4e; font-weight: 700; }
+  .cover .who { margin-top: 16pt; padding-top: 10pt; border-top: 1.5pt solid #0e6e4e; max-width: 9.5in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #0e6e4e; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #eaf7f0; border-left: 3pt solid #0e6e4e; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #0b5a3f; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #0e6e4e; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #eaf7f0; border-left: 4pt solid #0e6e4e; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #0b5a3f; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0e6e4e; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 24pt; font-weight: 800; color: #0e6e4e; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0e6e4e; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #0e6e4e; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #0e6e4e; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d7ecdf 100%); }
+  .close h2 { font-size: 25pt; max-width: 10.8in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.9in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #0e6e4e; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Rippling Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Rippling Sr. Revenue Strategy &amp; Operations Analyst</div>
+  <h1>Sales Development needs headcount, KPI and capacity models that hold up before the quarter starts. I have already built that dashboard discipline, twice.</h1>
+  <div class="sub">Pipeline generation, SDR capacity planning and funnel dashboards from someone who has run the pipeline-review cadence himself.</div>
+  <div class="tags">
+    <div class="tag"><strong>$627M</strong> pipeline system validated, 1,200 opportunities tracked at Sensata</div>
+    <div class="tag"><strong>53% to 61%</strong> distributor margin lift via capacity-aware repricing</div>
+    <div class="tag"><strong>+35% / +30%</strong> qualified leads and rep win rate from enablement work</div>
+    <div class="tag"><strong>PriceKeel</strong> - founder, runs CRM, CPQ and pipeline-review cadence end to end</div>
+    <div class="tag"><strong>Claude AI agents</strong> - automates recurring revenue analysis at Applied Materials</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhithyabhaskar.vercel.app/ref/rippling</div>
+  </div>
+  <div class="brand">RIPPLING REVENUE STRATEGY &amp; OPS</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>The posting is direct: Sales Development needs headcount, KPI and capacity models <span class="accent">that hold before growth outpaces the plan.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What losing that discipline runs into</h4>
+      <div class="line">A Sales Development org without a capacity model does not fail loudly. It fails as a headcount plan built on last quarter's ratios, a lead-routing rule nobody re-checked, and a QBR where nobody can say why SDR productivity slipped.</div>
+      <div class="line">Systems, Analytics and Territory Ops all touch the same funnel, so a gap in one team's dashboard becomes everyone's guessing game at the next planning cycle, not just one team's problem.</div>
+      <div class="line">The fix is not another Salesforce report. It is someone who treats headcount, KPIs and lead routing as one connected model instead of three separate spreadsheets.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run, at smaller scale</h4>
+      <div class="line">At <b>PriceKeel</b>, I run the pipeline-review and forecast cadence for my own company's deal flow, the same capacity-planning loop a Sales Development org runs before every quarter.</div>
+      <div class="line">At <b>Sensata</b>, I built the Bleeders and Leakers Power BI dashboard that tracked 1,200 pipeline opportunities against a $627M target, the same win-rate and stage-KPI discipline this role's dashboards need.</div>
+      <div class="line">Both mean I have sat on the operating side of a revenue plan, building the model instead of only reading the report it produces.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">A Sr. Revenue Strategy and Operations Analyst who plans headcount, builds SDR productivity dashboards, and partners with Systems, Analytics and Territory Ops is describing this exact loop: model the capacity, track the funnel, and keep the plan honest.</div>
+  </div>
+  <div class="brand">RIPPLING REVENUE STRATEGY &amp; OPS</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What the Sr. Revenue Strategy &amp; Operations Analyst opening asks for, and where the proof sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Support Sales Development leadership in planning org structure, headcount, KPIs, and success metrics."</div></div>
+      <div class="quote"><div class="q">"Build and maintain dashboards and reports to monitor SDR productivity and funnel performance."</div></div>
+      <div class="quote"><div class="q">"Lead operational initiatives that improve lead routing, pipeline generation, SDR productivity, and GTM effectiveness."</div></div>
+    </div>
+    <div class="col">
+      <h3>My Proof</h3>
+      <div class="proof"><div class="p"><b>Headcount and KPI planning:</b> built the FY2026 Bleeders and Leakers dashboard that set win-rate, avg $/win and stage-distribution targets by salesperson across 3 regions, the same success-metrics work this seat owns.</div></div>
+      <div class="proof"><div class="p"><b>SDR productivity dashboards:</b> modeled KPI frameworks in SQL and GA4 across 50K+ connected devices at Sensata, the same funnel-monitoring build this role runs for SDR productivity.</div></div>
+      <div class="proof"><div class="p"><b>Lead routing and pipeline generation:</b> built a CRM lead-scoring handoff from ad clicks to SQLs, and grew qualified leads 35% through campaign work at Sensata.</div></div>
+      <div class="proof"><div class="p"><b>Capacity planning at scale:</b> run PriceKeel's own CRM, CPQ and pipeline-review cadence, the operating rhythm a growing SDR org needs before it can plan headcount.</div></div>
+    </div>
+  </div>
+  <div class="brand">RIPPLING REVENUE STRATEGY &amp; OPS</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>Bleeders and Leakers: <span class="accent">track the funnel before you plan around it.</span></h2>
+  <div class="lede">Built as a BU-wide Power BI system covering 1,200 pipeline opportunities against a $627M target across 3 regions, 4 product families and 20 product lines, with pipeline funnel, win rate and stage distribution checked by salesperson before leadership set the next quarter's targets.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$433M</div>
+      <div class="lbl">Margin Gaps Surfaced</div>
+      <div class="desc">Every gap traced to a specific deal record, the same rep-level detail a productivity dashboard needs to be useful in a QBR.</div>
+    </div>
+    <div class="stat">
+      <div class="n">53% to 61%</div>
+      <div class="lbl">Distributor Margin Lift</div>
+      <div class="desc">Repriced the channel logic and documented it, so a capacity call held past the first quarter instead of drifting back.</div>
+    </div>
+    <div class="stat">
+      <div class="n">+35%</div>
+      <div class="lbl">Qualified Leads Generated</div>
+      <div class="desc">Grown through campaign and lead-scoring work at Sensata, the same pipeline-generation lever this role owns for SDR.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">At PriceKeel that same instinct became the operating model: I run the CRM, CPQ and pipeline-review cadence myself, so the plan and the dashboard are never two different stories.</div>
+  <div class="brand">RIPPLING REVENUE STRATEGY &amp; OPS</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month on Rippling's Sales Development Ops team looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Learn the funnel and the org model</div>
+      <div class="body">Sit with Sales Development leadership and the Systems, Analytics and Territory Ops teams to walk the current headcount plan, KPI definitions and lead-routing rules, and shadow one SDR productivity review end to end.</div>
+      <div class="why"><strong>Why first:</strong> the same instinct that had me learn PriceKeel's own pipeline before building anything on top of it.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Own a dashboard cycle</div>
+      <div class="body">Take ownership of one SDR productivity or funnel-performance dashboard end to end: confirm the KPI definitions, build the report, and present it at the next planning checkpoint so Sales Development leadership trusts the number.</div>
+      <div class="why"><strong>Why now:</strong> the same win-rate-by-salesperson discipline that made the Bleeders and Leakers dashboard usable in a QBR.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Tighten the capacity model</div>
+      <div class="body">Update the SDR capacity and resource-allocation model with what the first cycle showed, and flag one lead-routing rule worth re-checking before the next quarter's planning process.</div>
+      <div class="why"><strong>Why this fast:</strong> a capacity model only earns its keep if it gets re-checked every cycle instead of freezing at last quarter's ratios.</div>
+    </div>
+  </div>
+  <div class="brand">RIPPLING REVENUE STRATEGY &amp; OPS</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to keep Sales Development's headcount, KPIs and pipeline generation honest every quarter. I have already built that discipline, twice.</h2>
+  <div class="body">
+    <p>The core proof is Sensata: a Power BI system tracking <strong>1,200 pipeline opportunities against a $627M target</strong>, distributor margins lifted <strong>from 53% to 61%</strong>, and enablement work that lifted rep win rates <strong>30% for 50+ reps</strong>, all run cross-functionally with Sales, Finance and Deal Desk.</p>
+    <p>What is harder to find is someone who has also spent the last several months running the CRM, CPQ and pipeline-review cadence for his own company. <strong>I built that at PriceKeel</strong>, so the headcount-and-KPI planning cadence this role runs is not something I would need to learn on the job.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhithyabhaskar.vercel.app/ref/rippling</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">RIPPLING REVENUE STRATEGY &amp; OPS</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
