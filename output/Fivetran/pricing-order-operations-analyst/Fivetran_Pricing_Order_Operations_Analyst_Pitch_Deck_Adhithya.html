@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Fivetran Pricing and Order Operations Analyst Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #0e6e4e; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 30pt; font-weight: 800; color: #0f172a; line-height: 1.1; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 21pt; font-weight: 800; color: #0f172a; line-height: 1.1; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #0e6e4e; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.8in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d7ecdf 100%); }
+  .cover h1 { font-size: 30pt; max-width: 11.2in; }
+  .cover .sub { font-size: 14pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 18pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #0e6e4e; font-weight: 700; }
+  .cover .who { margin-top: 18pt; padding-top: 11pt; border-top: 1.5pt solid #0e6e4e; max-width: 9.5in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #0e6e4e; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #eaf7f0; border-left: 3pt solid #0e6e4e; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #0b5a3f; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #0e6e4e; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #eaf7f0; border-left: 4pt solid #0e6e4e; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #0b5a3f; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0e6e4e; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 24pt; font-weight: 800; color: #0e6e4e; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0e6e4e; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #0e6e4e; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #0e6e4e; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d7ecdf 100%); }
+  .close h2 { font-size: 26pt; max-width: 10.5in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.8in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #0e6e4e; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Fivetran Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Fivetran Pricing &amp; Order Operations Analyst</div>
+  <h1>This role restores dedicated capacity for QTC testing and validation. I have already built that discipline from scratch, twice.</h1>
+  <div class="sub">Pricing operations, order operations and quote-to-cash release validation from someone who has set up the CRM, CPQ and audit trail himself.</div>
+  <div class="tags">
+    <div class="tag"><strong>$700K+</strong> margin recovered in 2 quarters, Sensata Bleeders and Leakers program</div>
+    <div class="tag"><strong>53% to 61%</strong> distributor margin lift via repricing logic that stuck</div>
+    <div class="tag"><strong>1,200</strong> pricing opportunities validated against a $627M target, 3 regions</div>
+    <div class="tag"><strong>PriceKeel</strong> - founder, built the CRM, CPQ and quote-to-cash workflow end to end</div>
+    <div class="tag"><strong>Claude AI agents</strong> - automates recurring pricing analysis at Applied Materials</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-pricing-ai.vercel.app/ref/fivetran</div>
+  </div>
+  <div class="brand">FIVETRAN PRICING &amp; ORDER OPS</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>The posting is direct: dedicated capacity for pricing and order operations testing <span class="accent">disappeared, and QTC changes started shipping unvalidated.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What losing that capacity runs into</h4>
+      <div class="line">A pricing or order change that skips UAT and regression testing does not fail loudly. It fails three weeks later as a broken booking, a signature packet that will not route, or a marketplace offer that quotes the wrong number.</div>
+      <div class="line">Order Operations, IT's business systems team, Pricing Operations, Sales and Deal Desk all touch the same QTC path, so a gap in testing capacity becomes everyone's fire drill, not just one team's.</div>
+      <div class="line">The fix is not more Salesforce CPQ configuration. It is someone who treats every release as a test case first and documents the system so the next change does not repeat the same fire drill.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run, at smaller scale</h4>
+      <div class="line">At <b>PriceKeel</b>, I built the company's own CRM, CPQ and quote-to-cash workflow from deal approval through order documentation, then set up the testing and audit trail Finance reviews before anything ships.</div>
+      <div class="line">At <b>Sensata</b>, I built the Bleeders and Leakers Power BI system that validated 1,200 pricing opportunities against a $627M target, the same discipline of checking a change against a hard number before trusting it.</div>
+      <div class="line">Both mean I have sat on the same side of the table as Order Operations, Pricing Operations and Deal Desk, not just adjacent to it, coordinating a testable, documented change with all three at once.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">A Pricing &amp; Order Operations Analyst who validates QTC changes, executes UAT, and maintains the regression suite and system documentation, is describing this exact loop: test before it ships, document why, and keep it repeatable.</div>
+  </div>
+  <div class="brand">FIVETRAN PRICING &amp; ORDER OPS</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What the Pricing &amp; Order Operations opening asks for, and where the proof sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Ensure system changes are tested, validated, and operationally ready before they go live... Pricing and Order Operations subject-matter expertise across signature packets, bookings, marketplace offers, and booking-to-order handoffs."</div></div>
+      <div class="quote"><div class="q">"...experience in pricing operations, order operations, business systems analysis, or quality assurance... ideally involving quote-to-cash processes."</div></div>
+      <div class="quote"><div class="q">"Working knowledge of Salesforce CPQ and order management or billing systems."</div></div>
+    </div>
+    <div class="col">
+      <h3>My Proof</h3>
+      <div class="proof"><div class="p"><b>QTC testing and validation:</b> built and now run PriceKeel's own testing and audit trail for every pricing and order change, the exact "validated and operationally ready" discipline this seat owns.</div></div>
+      <div class="proof"><div class="p"><b>CRM and CPQ ownership:</b> set up PriceKeel's CRM, CPQ and deal-approval workflow myself, so I know the system from configuration through the quote a customer signs.</div></div>
+      <div class="proof"><div class="p"><b>Order operations at scale:</b> validated 1,200 pricing opportunities against a $627M target across 3 regions and 20 product lines on Sensata's Bleeders and Leakers system.</div></div>
+      <div class="proof"><div class="p"><b>Cross-functional handoffs:</b> the 53% to 61% distributor repricing needed sign-off from Finance on the model and Sales on what a partner would accept, the same multi-team handoff this role runs daily.</div></div>
+    </div>
+  </div>
+  <div class="brand">FIVETRAN PRICING &amp; ORDER OPS</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>Bleeders and Leakers: <span class="accent">validate the number before anyone acts on it.</span></h2>
+  <div class="lede">Built as a BU-wide Power BI system covering 1,200 pricing opportunities against a $627M target across 3 regions, 4 product families and 20 product lines, with pipeline funnel, win rate and stage distribution checked against source data before leadership ever saw a number.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$433M</div>
+      <div class="lbl">Margin Gaps Surfaced</div>
+      <div class="desc">Every gap traced back to a specific deal record, so leadership could act on it instead of debating whether the number was real.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$700K+</div>
+      <div class="lbl">Margin Recovered in 2 Quarters</div>
+      <div class="desc">Closed through documented, cross-functional negotiations, not a blanket price change nobody could explain later.</div>
+    </div>
+    <div class="stat">
+      <div class="n">53% to 61%</div>
+      <div class="lbl">Distributor Margin Lift</div>
+      <div class="desc">Repriced the channel logic itself and documented it, so the change held past the first quarter instead of drifting back.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">At PriceKeel that same instinct became the product: a guardrail engine that checks a discount exception against a company's own closed-won and closed-lost history, plus an audit trail Finance can review before anything is approved. Same job, earlier in the pipeline.</div>
+  <div class="brand">FIVETRAN PRICING &amp; ORDER OPS</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month on Fivetran's Order Operations &amp; Monetization team looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Learn the regression suite</div>
+      <div class="body">Sit with Order Operations and IT's business systems team to walk the current regression test cases for recurring QTC changes, and shadow one signature-packet and one marketplace-offer release end to end.</div>
+      <div class="why"><strong>Why first:</strong> the same instinct that had me set up PriceKeel's own CRM and CPQ before automating anything on top of it.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Own a validation cycle</div>
+      <div class="body">Take ownership of UAT for one live QTC change end to end: confirm pricing is operationally ready, execute the assigned test cases, and document the outcome so Pricing Operations and Deal Desk both trust it before launch.</div>
+      <div class="why"><strong>Why now:</strong> the same documented-before-trusted discipline that made the 53% to 61% distributor gain stick past the first quarter.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Tighten the documentation</div>
+      <div class="body">Update pricing and order system documentation for the cases just run, and flag one gap in the regression suite worth closing before the next QTC release cycle.</div>
+      <div class="why"><strong>Why this fast:</strong> a regression suite only earns its keep if it grows every cycle instead of staying frozen at last year's edge cases.</div>
+    </div>
+  </div>
+  <div class="brand">FIVETRAN PRICING &amp; ORDER OPS</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to keep QTC changes tested and operationally ready. I have already built that discipline from the ground up, twice.</h2>
+  <div class="body">
+    <p>The core proof is Sensata: <strong>$700K+ in margin recovered in 2 quarters</strong>, distributor margins lifted <strong>from 53% to 61%</strong>, both validated against a Power BI system covering 1,200 pricing opportunities and a $627M target, run cross-functionally with Sales, Finance and Deal Desk.</p>
+    <p>What is harder to find is someone who has also spent the last several months building the CRM, CPQ and quote-to-cash workflow a pricing-operations team like this one actually runs on. <strong>I built that at PriceKeel</strong>, so the testing-before-shipping instinct this role asks for is not something I would need to develop on the job.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-pricing-ai.vercel.app/ref/fivetran</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">FIVETRAN PRICING &amp; ORDER OPS</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>

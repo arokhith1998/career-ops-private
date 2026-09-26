@@ -1,0 +1,20 @@
+Subject: Paid social + mobile UA as one funnel, not two budgets
+
+Hi {Hiring Manager, Growth Marketing},
+
+I do not normally cold-email before applying, but paid social and mobile UA usually compete for budget instead of compounding, and closing that gap is exactly what I have already run at smaller scale.
+
+At Pixis I ran iOS app UA on Appsflyer and Adjust while also running paid social and retail media (Amazon Ads, Criteo) for the same 8-client portfolio, one measurement view across channels instead of three disconnected ones. That produced 3x ROAS in one month for a fashion brand and a 40% ROAS lift from Amplitude/Tableau-driven testing across 30+ campaigns. At Plug Power I cut CPA 25% on $100K/month paid budgets through structured A/B testing across Google, Microsoft, Meta and LinkedIn.
+
+I put together a short deck mapping the req to that proof, section by section.
+
+Here's the portfolio: https://adhi-growth-ai.vercel.app/ref/coinbase
+
+Open to 15 minutes if the timing works, or a pointer to whoever owns this req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

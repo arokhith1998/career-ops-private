@@ -1,0 +1,20 @@
+Subject: Pricing & Order Operations Analyst, Fivetran: the testing discipline this req restores
+
+Hi {Recruiter, Order Operations & Monetization},
+
+I do not normally cold-email before applying, but "restores dedicated capacity for pricing and order operations testing" is a specific, honest ask, and it is the exact discipline I have already built from scratch twice.
+
+At Sensata I built the Bleeders and Leakers Power BI system validating 1,200 pricing opportunities against a $627M target, then recovered $700K+ in margin in two quarters and raised distributor margins from 53% to 61%. At PriceKeel I set up the CRM, CPQ and quote-to-cash workflow myself, plus the testing and audit trail Finance reviews before anything ships.
+
+I also built a 6-slide deck mapping the req to that proof directly.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/fivetran
+
+If this req is still open, I would like 15 minutes to hear how the regression suite is run today. A pointer to the right person would help just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

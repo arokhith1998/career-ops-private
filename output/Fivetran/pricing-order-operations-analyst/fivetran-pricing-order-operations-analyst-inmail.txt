@@ -1,0 +1,20 @@
+Subject: Pricing & Order Ops at Fivetran, from someone who has built the QTC audit trail before
+
+Hi {Recruiter, Order Operations & Monetization},
+
+Restoring dedicated capacity for QTC testing after it slipped is a specific problem, and it is the one I have already solved for my own pricing tooling.
+
+At PriceKeel, I set up the CRM, CPQ and quote-to-cash workflow myself, then built the testing and audit trail Finance reviews before anything ships. At Sensata, I built the Bleeders and Leakers Power BI system validating 1,200 pricing opportunities against a $627M target, and used what it surfaced to recover $700K+ in margin in two quarters.
+
+I've attached my resume, cover letter and a short deck mapping the req to that proof.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/fivetran
+
+Open to 15 minutes on where the regression suite needs the most help right now?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

@@ -1,0 +1,20 @@
+Subject: Pricing & Order Operations Analyst: I have built this exact validation loop, not just used it
+
+Hi {Hiring Manager, Order Operations & Monetization},
+
+I do not normally cold-email before applying, but "ensure system changes are tested, validated, and operationally ready before they go live" describes a loop I run for my own company right now, and I would rather show that than just claim it.
+
+At PriceKeel I built the CRM, CPQ and quote-to-cash workflow from deal approval through order documentation myself, then set up the testing and audit trail Finance reviews before anything ships. At Sensata I built the Bleeders and Leakers system that validated 1,200 pricing opportunities against a $627M target before leadership acted on any of it, and used what it surfaced to recover $700K+ in margin in two quarters.
+
+I put together a short deck mapping the req to that proof, section by section.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/fivetran
+
+Open to 15 minutes if the timing works, or a pointer to whoever owns this req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
