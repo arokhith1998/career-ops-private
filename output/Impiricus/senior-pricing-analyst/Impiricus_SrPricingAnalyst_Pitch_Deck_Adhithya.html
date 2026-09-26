@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Impiricus Senior Pricing Analyst Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #0f766e; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 27pt; font-weight: 800; color: #0f172a; line-height: 1.14; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 20pt; font-weight: 800; color: #0f172a; line-height: 1.12; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #0f766e; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.8in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d5efec 100%); }
+  .cover h1 { font-size: 25pt; max-width: 11.4in; }
+  .cover .sub { font-size: 13.5pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 16pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.1pt; font-weight: 500; }
+  .tag strong { color: #0f766e; font-weight: 700; }
+  .cover .who { margin-top: 16pt; padding-top: 10pt; border-top: 1.5pt solid #0f766e; max-width: 9.5in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #0f766e; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #e6f5f3; border-left: 3pt solid #0f766e; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.3pt; color: #0a5a53; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.2pt; color: #334155; line-height: 1.44; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #0f766e; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #e6f5f3; border-left: 4pt solid #0f766e; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #0a5a53; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0f766e; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 23pt; font-weight: 800; color: #0f766e; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0f766e; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #0f766e; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #0f766e; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d5efec 100%); }
+  .close h2 { font-size: 24pt; max-width: 10.8in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.9in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #0f766e; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Impiricus Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Impiricus Senior Pricing Analyst</div>
+  <h1>One seat here owns deal-by-deal quotation review, DealHub as the system of record, dynamic pricing across product lines, and the governance trail that keeps it all auditable. I have already run every piece of that, just not all under one product yet.</h1>
+  <div class="sub">Deal-level pricing judgment, CPQ system ownership and pricing-governance discipline from someone who has built the audit trail, not just filled out the quote.</div>
+  <div class="tags">
+    <div class="tag"><strong>$700K+</strong> margin recovered in 2 quarters via deal-by-deal quotation review at Sensata</div>
+    <div class="tag"><strong>53% to 61%</strong> distributor margin lift from repriced discount logic</div>
+    <div class="tag"><strong>CRM + CPQ</strong> configuration and audit trail owned end to end, founder of PriceKeel</div>
+    <div class="tag"><strong>1,200 opportunities</strong> tracked against a $627M target across 3 regions, 4 product families, 20 lines</div>
+    <div class="tag"><strong>Claude AI agents</strong> automating recurring pricing analysis at Applied Materials</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-pricing-ai.vercel.app/ref/impiricus</div>
+  </div>
+  <div class="brand">IMPIRICUS PRICING PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>This posting is really three jobs held by one person: deal support, DealHub ownership and pricing governance, <span class="accent">across three product lines at once.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What losing that discipline runs into</h4>
+      <div class="line">A deal desk without deal-by-deal review does not fail loudly. It fails as a quote that got approved on last quarter's assumptions, a CPQ workaround nobody documented, and a dashboard where nobody can say why a segment's realization slipped.</div>
+      <div class="line">Sales, Deal Desk and Finance all touch the same quote, so a gap in system ownership or data hygiene becomes everyone's guessing game at the next approval, not just one team's problem.</div>
+      <div class="line">The fix is not another spreadsheet. It is someone who treats quotation, system configuration and governance as one connected discipline instead of three separate jobs.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run</h4>
+      <div class="line">At <b>PriceKeel</b>, I set up and run the CRM, CPQ configuration and the audit trail myself, the same system-ownership and governance loop this role holds for DealHub.</div>
+      <div class="line">At <b>Sensata</b>, I owned deal-by-deal quotation review inside the Bleeders and Leakers program and built the Power BI dashboard that made 1,200 pricing opportunities auditable by segment.</div>
+      <div class="line">Both mean I have sat on the quote-approval side and the system-configuration side of the same gate, not just one or the other.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">A Senior Pricing Analyst who owns deal support, is the DealHub expert, builds dynamic pricing models and assists pricing governance is describing this exact loop: review the deal, configure the system, keep the governance trail honest.</div>
+  </div>
+  <div class="brand">IMPIRICUS PRICING PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What the Senior Pricing Analyst opening asks for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">Manages day-to-day pricing support for individual transactions, including investigation into previous deal terms and quotation approaches.</div></div>
+      <div class="quote"><div class="q">Acts as the primary expert on the CPQ platform, controlling system management and converting new business-model requirements into system setup.</div></div>
+      <div class="quote"><div class="q">Builds and maintains inventory-driven dynamic pricing models, examining supply-and-demand across product launch phases.</div></div>
+      <div class="quote"><div class="q">Helps ensure pricing compliance across quotes, service agreements and discount limitations, and keeps CRM pricing data clean.</div></div>
+    </div>
+    <div class="col">
+      <h3>My Proof</h3>
+      <div class="proof"><div class="p"><b>Deal-by-deal quotation review:</b> owned quotation approaches and prior-deal-term investigation inside the Bleeders and Leakers program at Sensata, recovering $700K+ in margin in 2 quarters.</div></div>
+      <div class="proof"><div class="p"><b>CPQ system ownership:</b> set up and run PriceKeel's own CRM and CPQ configuration end to end, the same system-of-record ownership this seat holds for DealHub.</div></div>
+      <div class="proof"><div class="p"><b>Dynamic, inventory-based pricing:</b> build inflection-point forecasting models at Applied Materials that track a launching product's supply-and-demand curve, and modeled demand elasticity with R-based regression on my own pricing project.</div></div>
+      <div class="proof"><div class="p"><b>Governance and CRM data quality:</b> built the audit trail that gives Finance an explainable record behind every discount exception at PriceKeel, and kept the Mar-Tech and CRM stack clean for closed-loop reporting at Plug Power.</div></div>
+    </div>
+  </div>
+  <div class="brand">IMPIRICUS PRICING PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>Bleeders and Leakers: <span class="accent">make every quote auditable before it gets to a segment view.</span></h2>
+  <div class="lede">Built as a BU-wide Power BI system covering 1,200 pricing opportunities against a $627M target across 3 regions, 4 product families and 20 product lines, with profitability by segment and approval timeframes checked before leadership set the next quarter's targets.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$700K+</div>
+      <div class="lbl">Margin Recovered, 2 Quarters</div>
+      <div class="desc">Deal-by-deal quotation review against competitive gaps and each customer's own deal history, the same investigation this seat runs on every transaction.</div>
+    </div>
+    <div class="stat">
+      <div class="n">53% to 61%</div>
+      <div class="lbl">Distributor Margin Lift</div>
+      <div class="desc">Repriced the channel logic and documented it for governance review, so the new discount limits held past the first quarter.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$433M</div>
+      <div class="lbl">Margin Gaps Surfaced</div>
+      <div class="desc">Every gap traced to a specific deal record by salesperson and product line, the same segment-level detail a cross-product dashboard needs.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">At PriceKeel that same instinct became the operating model: I run the CRM, CPQ configuration and the audit trail myself, so the quote and the governance record are never two different stories.</div>
+  <div class="brand">IMPIRICUS PRICING PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month owning pricing support at Impiricus looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Learn DealHub and the governance rules</div>
+      <div class="body">Sit with the Pricing Lead and Pricing Strategy Manager to walk the current DealHub setup, discount-approval limits and CRM data model, and shadow one deal-by-deal quotation review end to end.</div>
+      <div class="why"><strong>Why first:</strong> the same instinct that had me learn PriceKeel's own CPQ configuration before building anything on top of it.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Own a dynamic-pricing and dashboard cycle</div>
+      <div class="body">Take ownership of one product line's dynamic-pricing model and its revenue-realization dashboard end to end: confirm the supply-and-demand assumptions, build the report, and present profitability by segment at the next review.</div>
+      <div class="why"><strong>Why now:</strong> the same segment-by-segment discipline that made the Bleeders and Leakers dashboard usable in a leadership review.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Tighten CRM data quality and the governance trail</div>
+      <div class="body">Clean up one pricing/deal data field in CRM, document the discount-limitation logic behind it, and flag one non-standard contract pattern worth a governance review before the next quote cycle.</div>
+      <div class="why"><strong>Why this fast:</strong> a governance trail only earns its keep if it gets re-checked every cycle instead of trusting last quarter's setup.</div>
+    </div>
+  </div>
+  <div class="brand">IMPIRICUS PRICING PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to keep deal support, DealHub and pricing governance honest across every transaction. I have already built that discipline, from both sides of the quote.</h2>
+  <div class="body">
+    <p>The core proof is Sensata: a Power BI system tracking <strong>1,200 pricing opportunities against a $627M target</strong>, distributor margins lifted <strong>from 53% to 61%</strong>, and $700K+ in margin recovered in 2 quarters through deal-by-deal quotation review.</p>
+    <p>What is harder to find is someone who has also spent the last several months owning the CRM, CPQ configuration and audit trail for his own company's deal flow. <strong>I built that at PriceKeel</strong>, so the system ownership and governance discipline this role runs is not something I would need to learn on the job.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-pricing-ai.vercel.app/ref/impiricus</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">IMPIRICUS PRICING PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
