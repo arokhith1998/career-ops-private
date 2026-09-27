@@ -1,0 +1,18 @@
+Subject: GTM Strategy & Operations Lead, Perplexity: pipeline reviews that survive the "where did this come from" question
+
+Hi {VP of Sales, Enterprise},
+
+I do not normally cold-email a hiring manager, but wanting someone who "wants to build the planning, forecasting, and performance infrastructure" reads like a build-from-scratch mandate, not a maintain-what-exists one, and that is the part of the job I have already run.
+
+At Sensata I built the forecasting and pipeline-review system behind a $627M target, covering 1,200 opportunities across 3 regions, 4 product families and 20 product lines, and ran the weekly and quarterly reviews leadership held the business to. I partnered directly with senior leadership on AP26 revenue models and multimillion-dollar customer quotes, the annual-planning side of this scope. The distributor margin move from 53% to 61% held because I fixed the underlying pricing logic instead of pushing through a one-time exception, the same build-it-so-it-holds instinct a capacity and quota model needs. I run that same CRM, CPQ and forecast-review loop today as founder of PriceKeel.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/perplexity
+
+If the team is still scoping this seat, I would like 15 minutes on where the operating cadence breaks down today. A pointer elsewhere would help just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
