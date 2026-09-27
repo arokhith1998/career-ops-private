@@ -1,0 +1,21 @@
+Subject: Deal Desk Specialist - quote-to-cash and discount governance background
+
+Hi {Recruiter, Deal Desk},
+
+I don't normally reach out before applying, but the line on triaging the Deal Desk SFDC queue and resolving issues before they stall a deal is exactly the muscle I've spent the last two years building.
+
+Quick map to the req:
+- Recovered $700K+ in margin in 2 quarters at Sensata leading a deal-by-deal negotiation program, the same manual order-form and deal-guidance work a Deal Desk runs through CPQ.
+- Repriced channel and distributor deals, raising margins from 53% to 61%, without slowing Sales down.
+- Built PriceKeel's discount-guardrail engine and the audit trail Finance reviews, so I've sat on both sides of a deal exception.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/pagerduty
+
+If this req already has strong coverage, a pointer to the right person would help. Open to 15 minutes if useful.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
