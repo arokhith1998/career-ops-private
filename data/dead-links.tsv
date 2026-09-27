@@ -1,25 +1,34 @@
-company	title	url	drop_reason
-Twilio	Sr. Manager, GTM Strategy Business Partner	https://boards.greenhouse.io/twilio/jobs/4660845	dead-link (redirects to job index, req no longer resolves)
-Calm	Product Marketing Manager, B2B	https://boards.greenhouse.io/calm/jobs/7566413002	dead-link (job id now resolves to a different unrelated posting)
-Penta Group	Revenue Operations Manager	https://jobs.lever.co/pentagrp/ef48217e-ced8-4ac1-b5fe-e12bf578ca6f	dead-link (404)
-Drata	Senior Field Marketing Manager, East Coast, US	https://jobs.ashbyhq.com/drata/0ad403d1-e667-4b82-aac2-c6bd3f898cab	dead-link (not in live Ashby job-board API listing)
-Vanta	Staff Product Manager, Data Platform	https://jobs.ashbyhq.com/vanta/f7225fae-2203-4332-8ea4-8569c7e371d1	dead-link (not in live Ashby job-board API listing)
-Vanta	Group Product Marketing Manager	https://jobs.ashbyhq.com/vanta/403e14bd-0e69-49e7-a999-dcf26d93aae0	dead-link (not in live Ashby job-board API listing)
-Vanta	Senior GTM Strategy & Operations Manager, Top of Funnel	https://jobs.ashbyhq.com/vanta/ffdee1c4-c463-4e6f-a98a-ef8240e34868	dead-link (not in live Ashby job-board API listing)
-Vanta	Senior Product Manager, Agent Ecosystem	https://jobs.ashbyhq.com/vanta/f2661895-d4fb-4b7e-95c9-14b13964e6a9	dead-link (not in live Ashby job-board API listing)
-Vanta	Senior GTM Strategy & Operations Manager, Mid-Late Sales Funnel	https://jobs.ashbyhq.com/vanta/c6090572-cbca-4b11-810e-127bf0183abf	dead-link (not in live Ashby job-board API listing)
-Vanta	GTM Strategy & Operations Analyst, Account Management	https://jobs.ashbyhq.com/vanta/0e82974a-0023-49a2-b1ec-a0fa89636dd5	dead-link (not in live Ashby job-board API listing)
-Confluent	Senior Product Manager, Cloud Networking	https://jobs.ashbyhq.com/confluent/dc52dfa1-1649-442c-9344-609b8f01ed4b	dead-link (not in live Ashby job-board API listing; duplicate req of a live id)
-Confluent	Staff Product Manager, Real Time Data Analytics Platform	https://jobs.ashbyhq.com/confluent/81b94a4e-53d3-40d5-9c04-af57bd01961c	dead-link (not in live Ashby job-board API listing)
-Confluent	Staff Product Manager, Cloud Networking	https://jobs.ashbyhq.com/confluent/e70deb8a-3308-49dd-b9c7-b537333c5645	dead-link (not in live Ashby job-board API listing)
-Confluent	Senior Product Manager, Developer Experience	https://jobs.ashbyhq.com/confluent/69b37f70-0978-472e-86a9-2d19ba70820f	dead-link (not in live Ashby job-board API listing)
-Fivetran	Senior Pricing Data Scientist	https://www.fivetran.com/careers/job?gh_jid=7806295003	dead-link (gh_jid resolves to a placeholder template page)
-Fivetran	Staff Product Manager - dbt v2	https://www.fivetran.com/careers/job?gh_jid=7787885003	dead-link (gh_jid resolves to a placeholder template page)
-ClassCliq	Founder's Office Executive	https://www.linkedin.com/jobs/view/4458886410/	dead-link (LinkedIn redirects expired job view to unrelated generic search results)
-BrightCHAMPS	Associate - Founder's Office	https://www.linkedin.com/jobs/view/4459778311/	dead-link (LinkedIn redirects expired job view to unrelated generic search results)
-Wisemonk	Founder's Office - GTM Associate	https://www.linkedin.com/jobs/view/4459795162/	dead-link (LinkedIn redirects expired job view to unrelated generic search results)
-?	Sr. Founder Office Associate	https://www.linkedin.com/jobs/view/4459477886/	dead-link (LinkedIn redirects expired job view to unrelated generic search results)
-Hasiru Group	Business Operations Manager -Founders office	https://www.linkedin.com/jobs/view/4458099526/	dead-link (LinkedIn redirects expired job view to unrelated generic search results)
-Superstuff	Head of Growth (Performance)		unconfirmed (no direct posting URL surfaced by the sweep, only an aggregator snippet)
-Modern Health	Senior Product Marketing Manager		unconfirmed (no direct posting URL surfaced by the sweep, only an aggregator snippet)
-Google	Strategy and Operations Analyst, YouTube Ads Go-to-Market	https://zapply.jobs/l/d/google-129428192589947590?s=gh-new-grad-jobs-2027	unconfirmed (Google careers page returned truncated content; JD body could not be verified, liveness check unavailable this run - see digest)
+rank_score	role_family	company	title	location	url	age_days	sponsorship_hint	salary	sources	seen_company	pack_incomplete	rank_notes	track	visa_gate
+54	pricing	Culture Amp	Senior Pricing Manager	San Francisco Bay Area, CA (Remote)	https://boards.greenhouse.io/cultureamp/jobs/3536194				websearch-agent			role:pricing,remote	us	required
+54	marketing	Jobgether	Product Marketing Manager	Remote, United States	https://jobs.lever.co/jobgether/3f4bc75d-1e8b-41a1-b079-aeaeb3239f96				websearch-agent			role:marketing,remote	us	required
+54	marketing	United Tech	Product Marketing Manager (Web/CRO)	Remote, United States	https://jobs.lever.co/vacancies/701d52c9-143a-4ddd-b273-0a0d0a9013cf				websearch-agent			role:marketing,remote	us	required
+54	marketing	TeamSnap	Product Marketing Manager (B2B)	Remote, United States	https://jobs.lever.co/teamsnap/3066bec7-b3ce-44ca-8b7d-676e641cf982				websearch-agent			role:marketing,remote	us	required
+54	revops	Klue	Revenue Operations Manager	San Francisco Bay Area, CA (Remote)	https://jobs.ashbyhq.com/klue/b0f9b2d6-9e3e-4f07-8f1d-2720a8ce2811				websearch-agent			role:revops,remote	us	required
+51	pricing	Comfy	Pricing Manager	San Francisco Bay Area, CA	https://boards.greenhouse.io/comfy/jobs/2095163				websearch-agent			role:pricing	us	required
+51	pricing	InVision	Pricing Strategy Manager	San Francisco Bay Area, CA	https://boards.greenhouse.io/invision/jobs/1669213				websearch-agent			role:pricing	us	required
+51	pricing	Celonis	Pricing Manager	San Francisco Bay Area, CA	https://boards.greenhouse.io/celonis/jobs/5050909003				websearch-agent			role:pricing	us	required
+51	pricing	OpenTable	Pricing Manager	San Francisco Bay Area, CA	https://boards.greenhouse.io/opentable/jobs/6976161002			$107,000-$140,000	websearch-agent			role:pricing	us	required
+51	pricing	VSCO	Pricing Manager	San Francisco Bay Area, CA	https://boards.greenhouse.io/vsco39/jobs/6358599002				websearch-agent			role:pricing	us	required
+51	revops	Decagon	Revenue Strategy & Operations Manager	San Francisco Bay Area, CA	https://jobs.ashbyhq.com/decagon/4ac15d8e-8c15-4411-89d4-f5215a6720b1				websearch-agent	yes-check-tracker-row-first	yes-audit-and-finish-do-not-regenerate	role:revops	us	required
+51	revops	Legora	Revenue Operations Manager	San Francisco Bay Area, CA	https://jobs.ashbyhq.com/legora/0bdcadc7-bac2-4d20-aadc-4e33f74b7542				websearch-agent			role:revops	us	required
+51	revops	Skydio	Senior Revenue Operations Manager	San Francisco Bay Area, CA	https://jobs.ashbyhq.com/skydio/05e9f029-3a9d-4956-a4c8-e0bc786dd86a				websearch-agent	yes-check-tracker-row-first		role:revops	us	required
+51	marketing	Hightouch	Growth Marketing Manager (Earned Media)	San Francisco Bay Area, CA	https://boards.greenhouse.io/hightouch/jobs/5345139004				websearch-agent	yes-check-tracker-row-first	yes-audit-and-finish-do-not-regenerate	role:marketing	us	required
+51	marketing	Spire Global	Growth Marketing Manager	San Francisco Bay Area, CA	https://boards.greenhouse.io/spire/jobs/7831466				websearch-agent			role:marketing	us	required
+51	marketing	Samsara	Growth Marketing Manager - Experimentation	San Francisco, CA	https://boards.greenhouse.io/samsara/jobs/1793821				websearch-agent		yes-audit-and-finish-do-not-regenerate	role:marketing	us	required
+51	pricing	Intercom	Pricing Manager	San Francisco Bay Area, CA	https://boards.greenhouse.io/intercom/jobs/3215342				websearch-agent	yes-check-tracker-row-first	yes-audit-and-finish-do-not-regenerate	role:pricing	us	required
+51	pricing	Upgrade	Senior Pricing Manager	San Francisco Bay Area, CA	https://boards.greenhouse.io/upgrade/jobs/4373412005				websearch-agent			role:pricing	us	required
+40	marketing	Baseten	Product Marketing Manager, Dedicated	San Francisco	https://jobs.ashbyhq.com/baseten/1c5adf20-fe51-4fb6-9e45-569523e3e8bf	9.5			board:ashby	yes-check-tracker-row-first	yes-audit-and-finish-do-not-regenerate	role:marketing	us	required
+50	marketing	Snowflake	Technical Product Marketing Lead, AI Data Cloud	US-CA-Menlo Park	https://jobs.ashbyhq.com/snowflake/e6e81afb-2b0f-48ad-8457-fb7ba213f289	59.5			board:ashby	yes-check-tracker-row-first		role:marketing,industry:AI-native and Enterprise SaaS	us	required
+50	product	Snowflake	Senior Product Manager - AI Migrations	US-CA-Menlo Park	https://jobs.ashbyhq.com/snowflake/8e88251e-e77e-428e-bccf-dc1ccadc22ef	102.5			board:ashby	yes-check-tracker-row-first		role:product,industry:AI-native and Enterprise SaaS	us	required
+50	product	Snowflake	Senior Product Manager - Enterprise AI	US-CA-Menlo Park	https://jobs.ashbyhq.com/snowflake/5ee9f5f0-2942-4c17-81bf-f2ffec3a64b9	65.5			board:ashby	yes-check-tracker-row-first		role:product,industry:AI-native and Enterprise SaaS	us	required
+50	pricing	Snowflake	Senior Fullstack Engineer - Marketplace Monetization	US-CA-Menlo Park	https://jobs.ashbyhq.com/snowflake/6aa02c13-d9db-4624-b4ce-cc467562e2ed	37.5			board:ashby	yes-check-tracker-row-first		role:pricing,industry:Revenue, GTM and Pricing Software	us	required
+40	chief_of_staff	Goldi Solar Pvt. Ltd.	Chief of Staff	Surat, India	https://www.linkedin.com/jobs/view/4455733325/	40			gsheet:india-growth-cos			role:chief_of_staff	india	not-applicable
+40	chief_of_staff	Cube	Chief of Staff	Bengauru, India	https://www.linkedin.com/jobs/view/4452592379/	40			gsheet:india-growth-cos			role:chief_of_staff	india	not-applicable
+40	chief_of_staff	ResultFlow	Chief of Staff	Bengauru, India	https://www.linkedin.com/jobs/view/4454405139/	41		45 LPA	gsheet:india-growth-cos			role:chief_of_staff	india	not-applicable
+40	chief_of_staff	Growth Valley Community	Chief of Staff	Gurugram, India	https://www.linkedin.com/jobs/view/4453597408/	44			gsheet:india-growth-cos			role:chief_of_staff	india	not-applicable
+38	founders_office	HireDesigners	Founder's Office	Delhi, India	https://www.linkedin.com/jobs/view/4457917485/	31			gsheet:india-growth-cos			role:founders_office	india	not-applicable
+38	founders_office	BuildBit	Founder's Office Associate	Ahmedabad, India	https://www.linkedin.com/jobs/view/4458389300/	31			gsheet:india-growth-cos			role:founders_office	india	not-applicable
+38	ceo_office	Woodfield Systems	CEO's Office - Project Operations	Mumbai, India	https://www.linkedin.com/jobs/view/4457735864/	31			gsheet:india-growth-cos			role:ceo_office	india	not-applicable
+38	founders_office	CredFlow	Program Manager — Founder's Office	Delhi, India	https://www.linkedin.com/jobs/view/4458602397/	31			gsheet:india-growth-cos			role:founders_office	india	not-applicable
+38	founders_office	NextNation	Founder's Office Executive	Bengauru, India	https://www.linkedin.com/jobs/view/4458627113/	31			gsheet:india-growth-cos			role:founders_office	india	not-applicable
+38	founders_office	Luar Beauty	Founders Office Manager	Mumbai, India	https://www.linkedin.com/jobs/view/4457757611/	31			gsheet:india-growth-cos			role:founders_office	india	not-applicable

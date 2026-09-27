@@ -1,0 +1,3 @@
+rank_score	role_family	company	title	location	url	age_days	sponsorship_hint	salary	sources	seen_company	pack_incomplete	rank_notes	track	visa_gate
+50	pricing	Freshworks	Deal Desk Strategy Manager	San Mateo, CA, us	https://api.smartrecruiters.com/v1/companies/freshworks/postings/744000144399138	39.5			board:smartrecruiters	yes-check-tracker-row-first	yes-audit-and-finish-do-not-regenerate	role:pricing,industry:Revenue, GTM and Pricing Software	us	required
+50	product	Figma	Product Manager, AI Growth	San Francisco, CA • New York, NY • United States	https://boards.greenhouse.io/figma/jobs/5989185004?gh_jid=5989185004	67.5			board:greenhouse	yes-check-tracker-row-first		role:product,industry:AI-native and Enterprise SaaS	us	required
