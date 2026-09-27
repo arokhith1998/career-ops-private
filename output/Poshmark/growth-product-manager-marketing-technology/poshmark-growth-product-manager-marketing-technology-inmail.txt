@@ -1,0 +1,18 @@
+Subject: One PM seat, two owned surfaces: martech stack and CDP data model
+
+Hi {Recruiter, Growth Product},
+
+I do not usually message before applying, but running an ML-powered delivery timing program as part of personalization, not a flat segmentation checklist, is a specific technical bar, and it is close to work I already do.
+
+I automated Salesforce, Adobe Analytics, GA and Google Tag Manager into one closed-loop system at Plug Power, then rebuilt a lead flow to fire without an engineer, cutting cost per lead 50%. At Sensata I built the SQL and GA4 frameworks that defined which event signals were worth activating across 50K+ connected devices.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/poshmark
+
+Worth 15 minutes on this req?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

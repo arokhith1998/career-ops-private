@@ -1,0 +1,20 @@
+Subject: Owning the CDP data model, not just the roadmap
+
+Hi {Head of Growth Product, Poshmark},
+
+I do not usually write in cold, but owning the infrastructure and the outcomes, not just the roadmap, is a specific bar most growth-PM postings do not set, and it is the bar I already clear.
+
+Built the SQL and GA4 KPI frameworks across 50K+ connected devices at Sensata myself, defining event schemas and behavioral signals worth activating downstream, the same data-model call your CDP roadmap needs someone to own end to end.
+Automated Salesforce, Adobe Analytics, GA and Google Tag Manager into one closed-loop system at Plug Power, then rebuilt a lead flow so it fired without an engineer, cutting cost per lead 50%.
+Ran segmentation and retention playbooks at Pixis across an 8-client, $15K-$90K per client portfolio, cutting churn 50% and rebuilding one fashion brand's funnel for 3x ROAS in a month, the reactivation muscle your seller re-engagement tier needs.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/poshmark
+
+Worth 15 minutes to see if the fit is real? Happy to be pointed elsewhere if this is not your req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

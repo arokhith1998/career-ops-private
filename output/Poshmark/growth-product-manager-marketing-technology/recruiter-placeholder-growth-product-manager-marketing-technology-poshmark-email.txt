@@ -1,0 +1,20 @@
+Subject: The merchandising-outreach-without-engineering problem
+
+Hi {Recruiter, Growth Product},
+
+I don't normally write in before applying, but the line asking this seat to let merchandising trigger targeted outreach at scale without engineering is a specific build problem, not a growth-PM buzzword, and it is one I have already shipped.
+
+At Plug Power I automated Salesforce, Adobe Analytics, GA and Google Tag Manager into one closed-loop reporting system, then rebuilt the WordPress to Pardot lead flow so it fired without an engineer, cutting cost per lead 50%.
+At Sensata I built SQL and GA4 KPI frameworks across 50K+ connected devices, flagging the behavioral signals worth acting on before a downstream tool ever saw them.
+At Applied Materials I run Claude-based AI agents on analysis work daily, the build-first habit this pod is hiring for.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/poshmark
+
+If this sits with your desk, 15 minutes would help. If not, a pointer to whoever owns it helps just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
