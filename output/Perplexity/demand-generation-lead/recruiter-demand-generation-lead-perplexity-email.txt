@@ -1,0 +1,21 @@
+Subject: Demand Generation Lead, Perplexity: the automation you're asking for, I already run
+
+Hi {Recruiter, GTM/Demand Generation},
+
+I don't normally cold-email before applying, but "we don't buy, we build" is the line that made me: plenty of candidates know paid media, fewer already build the automation underneath it, and that is where I live.
+
+Proof points mapped to the req:
+- Automate forecasting and market-sizing analysis with Claude AI agents at Applied Materials instead of buying a reporting layer.
+- Owned $100K/month in paid search and social at Plug Power, cut CPA 25%, and automated the WordPress-to-Pardot lead flow myself, cutting cost per lead 50%.
+- Built the SQL and GA4 KPI framework across 50K+ connected devices at Sensata that surfaced high-intent cohorts on its own, lifting adoption 18%.
+
+Here's the portfolio: https://adhi-growth-ai.vercel.app/ref/perplexity
+
+If this req is still open, I'd like 15 minutes on how the paid, organic and ABM mix splits today. A pointer to the right person helps just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
