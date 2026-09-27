@@ -1,0 +1,20 @@
+Subject: Building the segmentation, not just briefing it
+
+Hi {Hiring Manager, Lifecycle Product},
+
+I do not usually write in before applying, but the note that PMs on this team use AI tools actively to prototype, build and ship, not just spec, is why I am reaching out directly instead of waiting on a form.
+
+At Sensata I built the SQL and GA4 cohort frameworks myself that separated high-intent engagement signals from noise, lifting feature adoption 18% across 50K+ connected devices, the kind of work I now hand partly to a Claude agent, the automation habit I run daily as Strategic Marketing III at Applied Materials.
+I ran 15+ A/B tests at Plug Power with real bid-optimization and holdout methodology behind them, not a variant declared a winner on gut feel.
+At Pixis I used Amplitude across 30+ campaigns to catch disengagement before it became churn, cutting client churn 50% through account and channel changes, not a new subject line.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/poshmark
+
+If 15 minutes fits your week, I would like to hear how the team is scoping the CDP-to-engagement-platform integration.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

@@ -1,0 +1,20 @@
+Subject: Promotional product work is pricing work in disguise
+
+Hi {Recruiter, Lifecycle Marketing},
+
+I do not usually write in before applying, but the line about owning the product layer for promotional campaigns, discount mechanics, offer construction, measurement, reads like a pricing problem with a UI, not a marketing checkbox, and that got my attention.
+
+I built the SQL and GA4 segmentation frameworks behind Sensata's launch campaigns on 50K+ connected devices, lifting feature adoption 18%.
+As Pricing Lead there I built a Power BI model flagging where a discount or price change would lift profitability over 50%, the same offer-construction math this role owns.
+At Pixis I ran retail media across Amazon Ads and Criteo and CRM-style retention playbooks on an 8-client portfolio, cutting churn 50%.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/poshmark
+
+If this req sits with you, 15 minutes would help. If not, a pointer to whoever owns it helps just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
