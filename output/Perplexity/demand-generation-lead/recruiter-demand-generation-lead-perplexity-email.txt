@@ -2,7 +2,7 @@ Subject: Demand Generation Lead, Perplexity: the automation you're asking for, I
 
 Hi {Recruiter, GTM/Demand Generation},
 
-I don't normally cold-email before applying, but "we don't buy, we build" is the line that made me: plenty of candidates know paid media, fewer already build the automation underneath it, and that is where I live.
+I don't normally cold-email before applying, but "we don't buy, we build" is the line that made me: most candidates know paid media, fewer already build the automation under it.
 
 Proof points mapped to the req:
 - Automate forecasting and market-sizing analysis with Claude AI agents at Applied Materials instead of buying a reporting layer.
@@ -11,7 +11,7 @@ Proof points mapped to the req:
 
 Here's the portfolio: https://adhi-growth-ai.vercel.app/ref/perplexity
 
-If this req is still open, I'd like 15 minutes on how the paid, organic and ABM mix splits today. A pointer to the right person helps just as much.
+If this req is still open, I'd like 15 minutes on how the channel mix splits today. A pointer elsewhere helps just as much.
 
 Thank you,
 
