@@ -1,0 +1,20 @@
+Subject: Activation first, growth surfaces second
+
+Hi {Recruiter, Growth Product},
+
+I do not usually write in before applying, but sequencing this seat on new user onboarding and early activation for both buyers and sellers, with retention and monetization to follow once that surface holds, is a discipline I have already run, not the own everything at once brief most growth reqs default to.
+
+I shipped an activation funnel zero to one on SwipeHire, running 8+ A/B tests and 12+ user interviews for a 25% activation lift.
+I built the SQL and GA4 cohort frameworks at Sensata that flagged which early engagement moments predicted adoption, lifting feature adoption 18% across 50K+ connected devices.
+At Pixis I ran retention and reactivation playbooks across an 8-client portfolio, cutting churn 50%.
+
+Here's the portfolio: https://adhi-growth-ai.vercel.app/ref/poshmark
+
+If this req sits with your desk, 15 minutes would help. If not, a pointer to whoever owns it helps just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

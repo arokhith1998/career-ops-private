@@ -1,0 +1,20 @@
+Subject: The habit-formation problem behind the onboarding number
+
+Hi {Hiring Manager, Growth Product},
+
+I do not usually write in before applying, but building the activation framework and dashboards before chasing a single onboarding metric, the way the first six months here are framed, is a measurement-first mandate I already run, not the vanity-metric brief most growth postings default to.
+
+I ran 15+ A/B tests at Plug Power on customer research into drop-off drivers, lifting conversion 20% and cutting CPA 15%, then automated the reporting stack so every test read into one dashboard.
+I ran 30+ customer interviews at Sensata to find the behavioral signals behind adoption, feeding a roadmap that raised CSAT 22% and cut time-to-market 20%.
+I scoped and shipped an activation funnel zero to one on SwipeHire, from PRD to 8+ A/B tests, for a 25% activation lift.
+
+Here's the portfolio: https://adhi-growth-ai.vercel.app/ref/poshmark
+
+Worth 15 minutes to see if the fit is real? Happy to be pointed elsewhere if this is not your req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

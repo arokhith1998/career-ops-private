@@ -1,0 +1,18 @@
+Subject: An experimentation engine, not a single onboarding fix
+
+Hi {Recruiter, Growth Product},
+
+I do not usually message before applying, but the ask to build a high-velocity experimentation program across onboarding, discovery, engagement and retention, not just patch one funnel, is a broader mandate than most growth reqs carry, and it is close to work I already run.
+
+At Sensata I built SQL and GA4 KPI frameworks across 50K+ connected devices and 30+ customer interviews, translating drop-off drivers into a roadmap that lifted feature adoption 18% and CSAT 22%. At Plug Power I ran 15+ A/B tests off customer research, lifting conversion 20% and cutting CPA 15%. At Pixis I turned churn analysis into retention playbooks across an 8-client portfolio, cutting churn 50%.
+
+Here's the portfolio: https://adhi-growth-ai.vercel.app/ref/poshmark
+
+Worth 15 minutes on this req?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
