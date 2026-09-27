@@ -6,7 +6,7 @@ I do not usually write in before applying, but the real value in a bookings and 
 
 I built a BU-wide Power BI price-increase model at Sensata flagging line items where a change could lift profitability more than 50%, so leadership acted on the biggest gaps first.
 The same FY26 dashboard tracked 1,200 pricing opportunities against a $627M target across 3 regions, 4 product families and 20 product lines, surfacing $433M in margin gaps by salesperson and product line.
-As founder of PriceKeel I built the audit trail that gives Finance an explainable record behind every pricing exception, the same trust your order and quote data needs.
+As founder of PriceKeel I built the audit trail that gives Finance an explainable record behind every pricing exception, the trust your order and quote data needs.
 At Applied Materials I keep Sales, Engineering and Accounts reading off one shared forecasting view.
 
 Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/kla
