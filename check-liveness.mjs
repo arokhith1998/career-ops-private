@@ -16,6 +16,7 @@
 
 import { readFile } from 'fs/promises';
 import { launchChromium } from './lib/chromium-launch.mjs';
+import { newLivenessPage } from './liveness-browser.mjs';
 
 const EXPIRED_PATTERNS = [
   /job (is )?no longer available/i,
@@ -123,7 +124,7 @@ async function main() {
   console.log(`Checking ${urls.length} URL(s)...\n`);
 
   const browser = await launchChromium({ headless: true });
-  const page = await browser.newPage();
+  const page = await newLivenessPage(browser);
 
   let active = 0, expired = 0, uncertain = 0;
 
