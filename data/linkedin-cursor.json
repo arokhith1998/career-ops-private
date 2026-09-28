@@ -1,38 +1,6 @@
 {
-  "cursor": 14,
+  "cursor": 0,
   "runs": [
-    {
-      "at": "2026-09-19T18:46:45.584Z",
-      "terms": [
-        "us:Product Manager",
-        "us:Strategic Marketing",
-        "us:Market Strategy",
-        "us:Competitive Intelligence",
-        "us:Growth Marketing Manager",
-        "us:Deal Desk",
-        "india:Chief of Staff",
-        "india:Head of Growth"
-      ],
-      "queries": 28,
-      "rows": 0,
-      "health": "BLOCKED: no query returned HTTP 200 - treat as UNKNOWN, not as zero jobs"
-    },
-    {
-      "at": "2026-09-19T19:17:12.399Z",
-      "terms": [
-        "india:Founder's Office",
-        "india:CEO Office",
-        "india:Entrepreneur in Residence",
-        "us:Product Marketing Manager",
-        "us:Pricing Manager",
-        "us:Pricing Strategy",
-        "us:Revenue Operations",
-        "us:Product Manager"
-      ],
-      "queries": 26,
-      "rows": 211,
-      "health": "ok"
-    },
     {
       "at": "2026-09-20T06:03:59.239Z",
       "terms": [
@@ -319,6 +287,38 @@
       ],
       "queries": 24,
       "rows": 196,
+      "health": "ok"
+    },
+    {
+      "at": "2026-09-28T06:26:49.396Z",
+      "terms": [
+        "india:Entrepreneur in Residence",
+        "us:Product Marketing Manager",
+        "us:Pricing Manager",
+        "us:Pricing Strategy",
+        "us:Revenue Operations",
+        "us:Product Manager",
+        "us:Strategic Marketing",
+        "us:Market Strategy"
+      ],
+      "queries": 30,
+      "rows": 232,
+      "health": "ok"
+    },
+    {
+      "at": "2026-09-28T06:28:15.563Z",
+      "terms": [
+        "us:Competitive Intelligence",
+        "us:Growth Marketing Manager",
+        "us:Deal Desk",
+        "india:Chief of Staff",
+        "india:Head of Growth",
+        "india:Founder's Office",
+        "india:CEO Office",
+        "india:Entrepreneur in Residence"
+      ],
+      "queries": 22,
+      "rows": 189,
       "health": "ok"
     }
   ]
