@@ -1,0 +1,18 @@
+Subject: A RevOps hire who already runs the stack you are hiring for
+
+Hi {Hiring Manager, Revenue Operations},
+
+Designing structured experiments for new GTM motions is easier when the person has already built and defended their own coverage model, not just analyzed someone else's. At PriceKeel I run my own forecast and pipeline review cadence end to end, from CRM configuration through the deal-approval call, and built a discount guardrail engine that reads closed-won and closed-lost history to recommend the next move.
+
+That build habit sits on top of a GTM analytics track record: at Sensata I built the FY2026 Bleeders & Leakers Power BI dashboard, 1,200 pricing opportunities against a $627M target across 3 regions, 4 product families and 20 product lines, surfacing $433M in margin gaps for leadership to prioritize.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/baseten
+
+If you have 15 minutes this week, I would like to hear how the team is scoping its first pipeline generation model.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
