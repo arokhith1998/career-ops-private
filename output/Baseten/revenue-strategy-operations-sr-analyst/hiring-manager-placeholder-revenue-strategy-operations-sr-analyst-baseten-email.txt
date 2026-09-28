@@ -2,12 +2,12 @@ Subject: Foundational RevOps hire: a coverage model I already run for my own com
 
 Hi {Hiring Manager, Revenue Operations},
 
-I don't normally reach out before applying, but the ask for someone who can design a coverage model and then refine it against regional pipeline health made me. At PriceKeel I built exactly that stack for my own company: a discount guardrail engine that reads closed-won and closed-lost deal history the way a segmentation model should, and I run the forecast and pipeline reviews that come out of it every week.
+I don't normally reach out before applying, but the ask for someone who can design a coverage model and refine it against regional pipeline health made me. At PriceKeel I built that stack for my own company: a discount guardrail engine reading closed-won and closed-lost deal history the way a segmentation model should, and I run the forecast and pipeline reviews it feeds every week.
 
 Built you a 6-slide pitch deck so the proof fits on one read.
 
-- Built Sensata's FY2026 Bleeders & Leakers Power BI dashboard: 1,200 pricing opportunities against a $627M target across 3 regions, 4 product families and 20 product lines, with win rate, avg $/win and stage distribution broken out by salesperson.
-- Forecast inflection points across multiple product groups at Applied Materials, the same bursty-demand problem a consumption business runs into.
+- Sensata's FY2026 Bleeders & Leakers Power BI dashboard: 1,200 pricing opportunities against a $627M target across 3 regions, 4 product families, win rate and stage distribution broken out by salesperson.
+- Forecast inflection points across product groups at Applied Materials, keeping pricing and coverage in step with bursty demand.
 - Partnered with senior executives on Sensata's AP26 revenue models and multimillion-dollar customer quotes.
 
 Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/baseten
