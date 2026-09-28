@@ -1,0 +1,20 @@
+Subject: Sign-up experiments before top-of-funnel spend
+
+Hi {Recruiter, Growth},
+
+I do not usually write in before applying, but framing new user acquisition as logged-out and sign-up experiments first, with search visibility and EDU discovery layered on top, is a sequencing I already run, not the paid-spend-first brief most acquisition reqs default to.
+
+I wrote the PRD and instrumented GA4/GTM across the acquisition funnel on SwipeHire, running 8+ A/B tests and 12+ user interviews on the sign-up flow for a 25% activation lift.
+I raised organic search visibility 35% at Plug Power by closing keyword-strategy gaps and building SEO partnerships, growing top-of-funnel traffic without added spend.
+I ran 15+ Paid Search and Paid Social A/B tests at Plug Power, tying spend to a $100K/month budget through a closed-loop Mar-Tech stack, for a 25% CPA cut.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/figma
+
+If req 2464 sits with your desk, 15 minutes would help. If not, a pointer helps just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

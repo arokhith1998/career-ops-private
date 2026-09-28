@@ -1,0 +1,20 @@
+Subject: Generative search is a discovery surface, not a new channel
+
+Hi {Hiring Manager, Acquisition},
+
+I do not usually write in before applying, but treating visibility in generative search as core acquisition surface, alongside EDU discovery and the sign-up funnel, is the same connect-work-to-business-value mandate I already run, not a paid-media brief with an AI label stapled on.
+
+I wrote the PRD and wired GA4/GTM across the acquisition funnel on SwipeHire, running 8+ A/B tests and 12+ user interviews on the sign-up flow for a 25% activation lift with the first 50 users.
+I raised organic search visibility 35% at Plug Power by closing keyword-strategy gaps and building SEO partnerships, then tied that traffic to spend through a closed-loop Salesforce, Adobe Analytics and GA stack.
+I ran a 100+ feature roadmap with Engineering at Sensata across 3 regions, grounding every call in 30+ customer interviews and SQL/GA4 cohort data instead of opinion, which cut time-to-market 20%.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/figma
+
+Worth 15 minutes to see where I would plug into req 2464? Happy to be pointed elsewhere if this is not your desk.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
