@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Sentry Revenue Operations Analyst Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #0e6e4e; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 28pt; font-weight: 800; color: #0f172a; line-height: 1.14; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 21pt; font-weight: 800; color: #0f172a; line-height: 1.1; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #0e6e4e; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.8in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d7ecdf 100%); }
+  .cover h1 { font-size: 24pt; max-width: 11.6in; }
+  .cover .sub { font-size: 13.5pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 16pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.1pt; font-weight: 500; }
+  .tag strong { color: #0e6e4e; font-weight: 700; }
+  .cover .who { margin-top: 16pt; padding-top: 10pt; border-top: 1.5pt solid #0e6e4e; max-width: 9.5in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #0e6e4e; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #eaf7f0; border-left: 3pt solid #0e6e4e; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #0b5a3f; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #0e6e4e; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #eaf7f0; border-left: 4pt solid #0e6e4e; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #0b5a3f; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0e6e4e; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 24pt; font-weight: 800; color: #0e6e4e; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0e6e4e; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #0e6e4e; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #0e6e4e; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d7ecdf 100%); }
+  .close h2 { font-size: 24pt; max-width: 10.9in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.9in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #0e6e4e; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Sentry Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Sentry Revenue Operations Analyst</div>
+  <h1>Sentry's Deal Desk needs someone who has already run quote-to-approval end to end. I have run that loop at $700K+ scale.</h1>
+  <div class="sub">Deal desk ownership, CPQ and Salesforce, and the Analytics pillar that finds the patterns in between.</div>
+  <div class="tags">
+    <div class="tag"><strong>$700K+</strong> margin recovered in 2 quarters, deal by deal</div>
+    <div class="tag"><strong>53% to 61%</strong> distributor margin lift via discount-logic repricing</div>
+    <div class="tag"><strong>$627M</strong> pipeline tracked, 1,200 opportunities, $433M in gaps surfaced</div>
+    <div class="tag"><strong>PriceKeel</strong> - founder, runs CRM, CPQ and deal-approval workflow end to end</div>
+    <div class="tag"><strong>Claude AI agents</strong> - automates repetitive deal-review analysis at Applied Materials</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-pricing-ai.vercel.app/ref/sentry</div>
+  </div>
+  <div class="brand">SENTRY REVOPS</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>The posting names three pillars, Analytics, GTM Technology and Deal Desk, <span class="accent">and says half the job is deal desk ownership.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What losing that discipline runs into</h4>
+      <div class="line">A Deal Desk without a real gatekeeper does not fail loudly. It fails as a quote that ships with the wrong discount, an order form that does not match what Sales promised, and an approval that sits in an inbox while a renewal deadline passes.</div>
+      <div class="line">Analytics, GTM Technology and Deal Desk all touch the same deal record, so a gap in one pillar becomes noise in the other two: bad approval routing shows up as bad pipeline data, and bad pipeline data shows up as a wrong insight in the next report.</div>
+      <div class="line">The fix is not another approval step. It is someone who has already run quote creation, discount review and approval routing as one system, not three separate queues.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run, at smaller scale</h4>
+      <div class="line">At <b>PriceKeel</b>, I built the CRM, CPQ configuration and deal-approval workflow myself, including the self-service guardrails that let a standard deal route without escalation, then the audit trail that gives Finance an explainable record behind every exception.</div>
+      <div class="line">At <b>Sensata</b>, I led the Bleeders and Leakers program: deal-by-deal review against competitive gaps and customer willingness to pay, recovering $700K+ in margin in 2 quarters.</div>
+      <div class="line">Both mean I have already run the Deal Desk pillar end to end, not just the CPQ ticket queue behind it.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">A Revenue Operations Analyst who splits time between deal desk ownership and the broader Analytics and GTM Technology surface area is describing this exact loop: process the deal, keep the system clean, and surface what the data says next.</div>
+  </div>
+  <div class="brand">SENTRY REVOPS</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What the Revenue Operations Analyst opening asks for, and where the proof sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Own Deal Desk: end-to-end processing of deals, quote creation, discount review, order form generation, approval routing."</div></div>
+      <div class="quote"><div class="q">"Become an expert in the CPQ system and Salesforce integration. Help design and implement self-service guardrails and automation."</div></div>
+      <div class="quote"><div class="q">"Identify patterns across deal data and surface insights."</div></div>
+    </div>
+    <div class="col">
+      <h3>My Proof</h3>
+      <div class="proof"><div class="p"><b>Deal desk ownership:</b> ran deal-by-deal review against competitive gaps and willingness to pay in Sensata's Bleeders and Leakers program, recovering $700K+ in margin in 2 quarters.</div></div>
+      <div class="proof"><div class="p"><b>CPQ and Salesforce:</b> set up and run PriceKeel's own CRM, CPQ configuration and deal-approval workflow end to end, including the self-service guardrails this posting asks the seat to design.</div></div>
+      <div class="proof"><div class="p"><b>Patterns across deal data:</b> built the FY2026 Bleeders and Leakers Power BI dashboard, tracing $433M in margin gaps to specific salespeople and product lines across a $627M pipeline.</div></div>
+      <div class="proof"><div class="p"><b>AI tooling to accelerate deal review:</b> automate repetitive pricing and forecasting analysis with Claude AI agents as Strategic Marketing III at Applied Materials.</div></div>
+    </div>
+  </div>
+  <div class="brand">SENTRY REVOPS</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>Bleeders and Leakers: <span class="accent">the deal-desk discipline behind a $700K margin recovery.</span></h2>
+  <div class="lede">Built as a BU-wide Power BI system covering 1,200 pricing opportunities against a $627M target across 3 regions, 4 product families and 20 product lines, with every margin gap traced to a specific deal record before leadership prioritized which ones to fix.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$433M</div>
+      <div class="lbl">Margin Gaps Surfaced</div>
+      <div class="desc">Each gap traced to a salesperson and product line, the deal-level detail Sentry's Analytics pillar needs to be actionable.</div>
+    </div>
+    <div class="stat">
+      <div class="n">53% to 61%</div>
+      <div class="lbl">Distributor Margin Lift</div>
+      <div class="desc">Repriced the channel discount logic and documented it so Finance could audit the new terms on sight.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$700K+</div>
+      <div class="lbl">Margin Recovered, 2 Quarters</div>
+      <div class="desc">Recovered deal by deal, negotiating against competitive gaps and each customer's own willingness to pay.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">At PriceKeel that same instinct became the system itself: I run the CRM, CPQ and deal-approval workflow, then the audit trail behind it, so the deal and the ledger tell the same story.</div>
+  <div class="brand">SENTRY REVOPS</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month owning Sentry's Deal Desk pillar looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Learn the deal flow and CPQ</div>
+      <div class="body">Sit with the Revenue Operations team across Analytics, GTM Technology and Deal Desk to walk the current quote-to-approval process, Sentry's CPQ and Salesforce integration, and the existing approval matrix end to end.</div>
+      <div class="why"><strong>Why first:</strong> the same instinct that had me learn PriceKeel's own deal flow before building anything on top of it.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Own a live deal-review cycle</div>
+      <div class="body">Take ownership of end-to-end deal processing for a cohort of live deals, quote creation through order form generation and approval routing, while documenting the deal desk playbook as I go.</div>
+      <div class="why"><strong>Why now:</strong> the same deal-by-deal review discipline behind the Bleeders and Leakers recovery.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Automate one manual guardrail</div>
+      <div class="body">Identify one recurring manual step in the approval or discount-review cycle and build the self-service guardrail that removes it.</div>
+      <div class="why"><strong>Why this fast:</strong> streamlining and automating the process is only credible once someone has run it by hand first.</div>
+    </div>
+  </div>
+  <div class="brand">SENTRY REVOPS</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone who splits time across deal desk ownership and the broader RevOps surface. I already run both halves.</h2>
+  <div class="body">
+    <p>The core proof is Sensata: <strong>$700K+ in margin recovered in 2 quarters</strong> through deal-by-deal review, distributor margins lifted <strong>from 53% to 61%</strong>, and a Power BI system that tracked 1,200 opportunities against a <strong>$627M target</strong>, run cross-functionally with Sales, Finance and senior executives.</p>
+    <p>What is harder to find is someone who has also built the CPQ and deal-approval system from the other side of the desk. <strong>I built that at PriceKeel</strong>, so the quote-to-approval discipline this role owns is not something I would need to learn on the job.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-pricing-ai.vercel.app/ref/sentry</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">SENTRY REVOPS</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+Subject: The deal desk playbooks this seat needs, already built once
+
+Hi {Hiring Manager, Revenue Operations},
+
+I don't normally write in before applying, but the Deal Desk pillar you described, quote creation through approval routing and discount review, is the exact loop I wrote playbooks and approval matrices for at my own company, not a process I'd be learning from your team.
+
+Built you a 6-slide pitch deck so the proof fits on one read.
+
+Documented deal desk playbooks and approval-matrix logic that let Finance audit every discount decision on sight, running my own CPQ and deal approvals at PriceKeel.
+Built the FY2026 Bleeders and Leakers Power BI dashboard tracking 1,200 opportunities against a $627M target, surfacing $433M in margin gaps by salesperson and product line.
+Recovered $700K+ in margin in 2 quarters at Sensata through deal-by-deal review against competitive gaps and willingness to pay.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/sentry
+
+If this is your req, 15 minutes would help me understand where Deal Desk ends and Analytics begins. If not, a pointer to whoever owns it helps just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
