@@ -1,0 +1,23 @@
+Subject: The lifecycle motion behind a 50% cost-per-lead cut
+
+Hi {Hiring Manager, Lifecycle Marketing},
+
+I do not usually write in before applying, but sizing and prioritizing lifecycle opportunities across the full journey, onboarding through retention, as one system rather than a stage-by-stage handoff, is close to how I already build campaigns.
+
+Built a 6-slide pitch deck so the proof fits on one read.
+
+I automated the WordPress and Pardot lead flow at Plug Power end to end, cutting cost per lead 50%.
+I ran the database audits and dashboard work behind a 36% conversion lift and 25% revenue lift on a B2B e-commerce startup at GenY Medium.
+I built the SQL and GA4 KPI frameworks that found the adoption signals behind an 18% feature-adoption lift across 50K+ connected devices at Sensata.
+I now build Claude-based agents at Applied Materials to automate the repetitive side of that same kind of analysis.
+
+Here's the portfolio: https://adhi-growth-ai.vercel.app/ref/robinhood
+
+Open to 15 minutes if the lifecycle roadmap work is a fit; no worries if the team already has this covered.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
