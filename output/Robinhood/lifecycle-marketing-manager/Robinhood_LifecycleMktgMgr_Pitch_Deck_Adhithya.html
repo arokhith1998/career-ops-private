@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Robinhood Lifecycle Marketing Manager Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #1a56db; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 25pt; font-weight: 800; color: #0f172a; line-height: 1.17; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 19pt; font-weight: 800; color: #0f172a; line-height: 1.16; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #1a56db; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.8in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbeafe 100%); }
+  .cover h1 { font-size: 22pt; max-width: 11.3in; }
+  .cover .sub { font-size: 13pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; max-width: 10.8in; }
+  .cover .tags { margin-top: 16pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.6in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9pt; font-weight: 500; }
+  .tag strong { color: #1a56db; font-weight: 700; }
+  .cover .who { margin-top: 16pt; padding-top: 10pt; border-top: 1.5pt solid #1a56db; max-width: 9.4in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #1a56db; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .item { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .item .p { font-size: 9.5pt; color: #334155; line-height: 1.46; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #1a56db; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.4pt; color: #334155; line-height: 1.46; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 13pt; background: #eff6ff; border-left: 4pt solid #1a56db; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #1e3a8a; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 20pt; font-weight: 800; color: #1a56db; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.3pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.6pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #1a56db; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.3pt; font-weight: 800; color: #0f172a; line-height: 1.18; margin-bottom: 7pt; }
+  .card .body { font-size: 8.8pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.3pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #1a56db; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbeafe 100%); }
+  .close h2 { font-size: 22pt; max-width: 10.9in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.8in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #1a56db; font-weight: 700; }
+  .close .contact { margin-top: 15pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Robinhood Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Robinhood Lifecycle Marketing Manager</div>
+  <h1>Growing an investing app past its first deposit is a retention problem, not an acquisition problem. I have already cut churn 50% and automated the lead-to-nurture flow that gets a customer there.</h1>
+  <div class="sub">A record of building the segmentation, the triggered messaging and the automation a lifecycle program runs on, not just the campaign calendar sitting on top of it.</div>
+  <div class="tags">
+    <div class="tag"><strong>-50% cost per lead</strong> - rebuilt the WordPress-to-Pardot nurture flow end to end at Plug Power</div>
+    <div class="tag"><strong>-50% client churn</strong> - segmented, proactive retention playbooks across an 8-client portfolio at Pixis</div>
+    <div class="tag"><strong>+18% feature adoption</strong> - SQL/GA4 cohort logic across 50K+ connected devices at Sensata</div>
+    <div class="tag"><strong>AI agents on Claude</strong> - in daily production use today at Applied Materials</div>
+    <div class="tag"><strong>+35% qualified leads</strong> - lifecycle email and paid launch sequences at Sensata</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-growth-ai.vercel.app/ref/robinhood</div>
+  </div>
+  <div class="brand">ROBINHOOD LIFECYCLE MARKETING PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>A brokerage app with millions of funded accounts does not grow by mailing more people. It grows by <span class="accent">triggering the right message at the right point in the customer journey.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What that actually requires</h4>
+      <div class="line">A CRM and marketing-automation layer that reacts to real behavior (a first trade, a lapsed deposit, an unused feature) instead of a static, calendar-driven send schedule.</div>
+      <div class="line">Segmentation built on real usage signal, so retention spend goes to the account that is actually at risk instead of a blanket campaign.</div>
+      <div class="line">Cross-functional fluency with product, data and design, since a lifecycle trigger is only as good as the event data feeding it.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already built at that layer</h4>
+      <div class="line">Rebuilt the <b>WordPress-to-Pardot lead flow</b> at Plug Power end to end, sequencing nurture by engagement signal instead of a fixed schedule, cutting cost per lead 50%.</div>
+      <div class="line">Ran <b>retention for an 8-client, $15K-$90K/month portfolio</b> at Pixis, replacing a shared template with segmented, proactive playbooks that cut churn 50%.</div>
+      <div class="line">Built <b>SQL and GA4 cohort logic</b> at Sensata across 50K+ connected devices to flag high-intent behavior early enough to trigger the next message, lifting feature adoption 18%.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">The through-line: retention at scale is a systems problem (data, triggers, segmentation), and I have already built that system three times over, in three different industries.</div>
+  </div>
+  <div class="brand">ROBINHOOD LIFECYCLE MARKETING PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The mandate, mapped</div>
+  <h2>What a Lifecycle Marketing Manager role covers, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="item"><div class="p">Own lifecycle and CRM marketing across the customer journey: onboarding, activation, retention and re-engagement for a consumer product.</div></div>
+      <div class="item"><div class="p">Build segmentation and triggered messaging so campaigns react to real behavior, not a calendar.</div></div>
+      <div class="item"><div class="p">Partner cross-functionally with product, data and design to keep the event data and the messaging in sync.</div></div>
+      <div class="item"><div class="p">Make data-driven decisions: test, measure and iterate the program against retention and engagement metrics.</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>Journey-wide lifecycle ownership:</b> rebuilt the WordPress-to-Pardot lead flow at Plug Power end to end, from first touch to sales handoff, cutting cost per lead 50%.</div></div>
+      <div class="proof"><div class="p"><b>Segmentation and triggers:</b> built the SQL and GA4 cohort logic at Sensata across 50K+ connected devices that triggers the next message off real usage signal, lifting adoption 18%.</div></div>
+      <div class="proof"><div class="p"><b>Retention under P&L pressure:</b> cut client churn 50% at Pixis across an 8-client portfolio through segmented, proactive account playbooks.</div></div>
+      <div class="proof"><div class="p"><b>Data-driven cadence, AI-native:</b> automates repetitive campaign and pricing analysis with AI agents built on Claude, in production today at Applied Materials.</div></div>
+    </div>
+  </div>
+  <div class="brand">ROBINHOOD LIFECYCLE MARKETING PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>Three programs, one pattern: turn behavior data into <span class="accent">the trigger that keeps a customer active.</span></h2>
+  <div class="lede">Each number below came from replacing a static, one-size-fits-all send with a signal-driven one, the same shift a Robinhood lifecycle program runs on at a much larger scale.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">-50% CPL</div>
+      <div class="lbl">Automated Nurture Flow</div>
+      <div class="desc">Rebuilt the WordPress-to-Pardot lead flow at Plug Power, sequencing touches by engagement instead of a fixed calendar.</div>
+    </div>
+    <div class="stat">
+      <div class="n">-50% Churn</div>
+      <div class="lbl">Segmented Retention Playbooks</div>
+      <div class="desc">Replaced a shared template with account-specific retention logic across an 8-client, $15K-$90K/month portfolio at Pixis.</div>
+    </div>
+    <div class="stat">
+      <div class="n">+18% Adoption</div>
+      <div class="lbl">Behavioral Segmentation</div>
+      <div class="desc">SQL and GA4 cohort logic across 50K+ connected devices at Sensata, flagging intent early enough to act on it.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">The same instinct scales to a brokerage app: fewer blanket sends, more triggers built on what an account actually does, measured against retention and engagement, not open rate alone.</div>
+  <div class="brand">ROBINHOOD LIFECYCLE MARKETING PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month in the Lifecycle Marketing Manager seat at Robinhood would look like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Map the current lifecycle</div>
+      <div class="body">Audit the existing journey stages, triggers and send logic end to end to find where messaging is still generic instead of signal-driven, the same audit that grounded the Pardot rebuild at Plug Power before a single email changed.</div>
+      <div class="why"><strong>Why first:</strong> retention work built on assumptions instead of the actual event data is the fastest way to waste send volume.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Ship the first triggered segment</div>
+      <div class="body">Take the single highest-friction stage in the journey (an idle account, a lapsed deposit, an unused feature) and ship one segmented, triggered campaign against it, instrumented in GA4 the way the Sensata cohort logic was.</div>
+      <div class="why"><strong>Why now:</strong> one working trigger that outperforms the blanket send it replaced earns the room to build the rest of the map.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Turn the win into the reporting cadence</div>
+      <div class="body">Use what the first segment proved to set the retention and engagement dashboard the team reviews weekly, the same OKR cadence built at every employer to date.</div>
+      <div class="why"><strong>Why this fast:</strong> a lifecycle program only earns budget by showing the pattern before asking to scale it.</div>
+    </div>
+  </div>
+  <div class="brand">ROBINHOOD LIFECYCLE MARKETING PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>Robinhood needs a lifecycle program that treats retention as a system of triggers, not a campaign calendar. I have already built that system three times.</h2>
+  <div class="body">
+    <p>The core proof is Plug Power and Pixis together: an <strong>automated, signal-driven nurture flow</strong> that cut cost per lead 50%, and a <strong>retention program run under real P&L pressure</strong> across 8 accounts that cut churn 50% by replacing a shared template with segmented playbooks.</p>
+    <p>What is harder to find is someone who has done that <strong>and</strong> built the SQL and GA4 segmentation logic underneath it, while already running AI agents on Claude in daily production rather than treating AI automation as a slide in a strategy deck. That combination of automation, segmentation and retention discipline is what a Lifecycle Marketing Manager seat at Robinhood needs most.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-growth-ai.vercel.app/ref/robinhood</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">ROBINHOOD LIFECYCLE MARKETING PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
