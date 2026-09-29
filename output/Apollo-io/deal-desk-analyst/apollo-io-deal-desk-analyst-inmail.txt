@@ -1,0 +1,20 @@
+Subject: The Salesforce-to-contract line in your posting - Adhithya Bhaskar
+
+Hi {Recruiter, Apollo.io Revenue Operations},
+
+Most postings list "cross-functional communicator" as filler. Yours describes tracing a reconciliation gap to an SFDC field mapping issue, an Ironclad template gap, or a rep pattern, and that is the exact loop I ran at Sensata.
+
+I audited closed deals against a $627M target, recovered $700K+ in margin in 2 quarters, and built the Power BI dashboard that tracked 1,200 opportunities across 3 regions to find the pattern. I now run that same gate at my own company, PriceKeel: CRM, CPQ, approvals, and the audit trail that reconciles every exception against the contract that shipped.
+
+Resume, cover letter, and a 6-slide deck mapped to this req are ready to send along.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/apollo-io
+
+15 minutes this week to talk through the intake criteria? Happy to be redirected if this isn't your req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

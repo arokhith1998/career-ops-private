@@ -1,0 +1,20 @@
+Subject: Self-serve by default, escalation by exception - Adhithya Bhaskar
+
+Hi {Hiring Manager, Apollo.io Deal Desk},
+
+I don't normally cold-email a hiring manager, but "self-serve by default and escalation-by-exception" is close to how I already run intake and approvals, not a phrase I'd need to learn on the job.
+
+Built a 6-slide pitch deck mapped to this req so the proof reads in one sitting.
+
+The proof point I'd lead with: at Sensata I audited closed deals against a $627M target, traced every reconciliation gap to a field mapping issue, a template gap, or a rep pattern, and recovered $700K+ in margin in 2 quarters. I now run that same gate at PriceKeel, the company I founded: CRM, CPQ configuration, deal approvals, and the audit trail that reconciles every exception against what actually shipped, the same runbook discipline a Deal Desk needs to scale past one person.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/apollo-io
+
+Would 15 minutes work to walk through how I'd set the intake criteria and exception taxonomy? Happy to be redirected if I'm not talking to the right person.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
