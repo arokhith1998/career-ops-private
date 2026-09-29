@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Apollo.io Deal Desk Analyst Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #0e6e4e; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 28pt; font-weight: 800; color: #0f172a; line-height: 1.14; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 21pt; font-weight: 800; color: #0f172a; line-height: 1.1; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #0e6e4e; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.8in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d7ecdf 100%); }
+  .cover h1 { font-size: 24pt; max-width: 11.5in; }
+  .cover .sub { font-size: 13pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; max-width: 11.3in; }
+  .cover .tags { margin-top: 16pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.1pt; font-weight: 500; }
+  .tag strong { color: #0e6e4e; font-weight: 700; }
+  .cover .who { margin-top: 16pt; padding-top: 10pt; border-top: 1.5pt solid #0e6e4e; max-width: 9.5in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #0e6e4e; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #eaf7f0; border-left: 3pt solid #0e6e4e; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9pt; color: #0b5a3f; font-style: italic; line-height: 1.38; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9pt; color: #334155; line-height: 1.42; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #0e6e4e; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #eaf7f0; border-left: 4pt solid #0e6e4e; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #0b5a3f; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0e6e4e; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 24pt; font-weight: 800; color: #0e6e4e; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0e6e4e; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #0e6e4e; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #0e6e4e; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d7ecdf 100%); }
+  .close h2 { font-size: 24pt; max-width: 11in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.9in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #0e6e4e; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Apollo.io Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Apollo.io Deal Desk Analyst</div>
+  <h1>Apollo's Deal Desk needs someone who has already traced a reconciliation gap back to its root cause. I have done that at $700K+ scale.</h1>
+  <div class="sub">Order form review, exception routing and an audit trail that reconciles Salesforce against the contract it actually shipped, from someone who has run this loop, not just described it.</div>
+  <div class="tags">
+    <div class="tag"><strong>$700K+</strong> margin recovered in 2 quarters, root cause fixed each time</div>
+    <div class="tag"><strong>53% to 61%</strong> distributor margin lift via discount-logic repricing</div>
+    <div class="tag"><strong>$627M</strong> pipeline audited, 1,200 opportunities, $433M in gaps traced to cause</div>
+    <div class="tag"><strong>PriceKeel</strong> - founder, reviews every discount exception before it reaches Legal</div>
+    <div class="tag"><strong>Claude AI agents</strong> - automates recurring deal-review steps at Applied Materials</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-pricing-ai.vercel.app/ref/apollo-io</div>
+  </div>
+  <div class="brand">APOLLO.IO DEAL DESK</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>The posting is direct: catch the reconciliation gap before it hits billing, <span class="accent">and fix the pattern, not just the deal.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What losing that discipline runs into</h4>
+      <div class="line">A Deal Desk without a real root-cause habit does not fail loudly. It fails as an order form with a non-standard term nobody flagged, a closed-won deal whose Salesforce record drifts from the contract, and a billing error traced back a quarter late.</div>
+      <div class="line">Legal, provisioning, RevOps and engineering all inherit the same gap, so one unflagged exception becomes everyone's cleanup problem, not just Deal Desk's.</div>
+      <div class="line">The fix is not one more review step. It is someone who diagnoses whether the gap is an SFDC field mapping issue, an Ironclad template gap, or a rep habit, and drives the fix upstream so it stops recurring.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run, at smaller scale</h4>
+      <div class="line">At <b>PriceKeel</b>, I review every in-flight discount exception for non-standard terms before it reaches Legal, then built the audit trail that reconciles each approved exception against the contract it actually shipped.</div>
+      <div class="line">At <b>Sensata</b>, I audited closed deals against a $627M target, diagnosed root cause deal by deal, and recovered $700K+ in margin in 2 quarters by fixing the pattern, not the one deal.</div>
+      <div class="line">Both mean I have already sat on the diagnosis side of a reconciliation gap, not just the routing side of one.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">A Deal Desk Analyst who reviews order forms, audits closed-won deals against Salesforce, and drives fixes upstream is describing this exact loop: catch it, diagnose it, fix the system underneath it.</div>
+  </div>
+  <div class="brand">APOLLO.IO DEAL DESK</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What the Deal Desk Analyst opening asks for, and where the proof sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Review in-flight order forms for non-standard terms and route exceptions before they hit Legal or provisioning."</div></div>
+      <div class="quote"><div class="q">"Audit closed-won deals for accuracy between Salesforce and contract data, and surface reconciliation gaps before they hit billing or provisioning."</div></div>
+      <div class="quote"><div class="q">"Diagnose root causes, whether that's a SFDC field mapping issue, an Ironclad template gap, or a rep behavior, and drive the fixes upstream."</div></div>
+      <div class="quote"><div class="q">"Design and maintain the runbooks, approval matrices, intake workflows, and deal-type documentation that let the team scale."</div></div>
+    </div>
+    <div class="col">
+      <h3>My Proof</h3>
+      <div class="proof"><div class="p"><b>Order form and exception review:</b> reviews every in-flight discount exception for non-standard terms before it reaches Legal at PriceKeel, the same intake gate this seat runs for Apollo's order forms.</div></div>
+      <div class="proof"><div class="p"><b>Salesforce-to-contract reconciliation:</b> built the audit trail that reconciles each approved exception against the contract it shipped, plus audited 1,200 closed deals against a $627M target at Sensata.</div></div>
+      <div class="proof"><div class="p"><b>Root-cause diagnosis:</b> traced Sensata's margin gaps to pricing errors, distributor terms, or rep behavior and fixed the pattern upstream, recovering $700K+ in 2 quarters.</div></div>
+      <div class="proof"><div class="p"><b>Runbooks and approval matrices:</b> documented Sensata's new discount logic so Finance could audit it on sight, and built PriceKeel's own deal-approval workflow and intake criteria from scratch.</div></div>
+    </div>
+  </div>
+  <div class="brand">APOLLO.IO DEAL DESK</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>Bleeders and Leakers: <span class="accent">the root-cause discipline behind a $700K margin recovery.</span></h2>
+  <div class="lede">Built as a BU-wide Power BI system covering 1,200 pricing opportunities against a $627M target across 3 regions, 4 product families and 20 product lines, with every gap traced back to its cause, a pricing error, a distributor term, or a rep pattern, before leadership prioritized which ones to fix.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$433M</div>
+      <div class="lbl">Margin Gaps Surfaced</div>
+      <div class="desc">Each gap traced to a salesperson and product line, the same deal-level detail a reconciliation audit needs to be actionable.</div>
+    </div>
+    <div class="stat">
+      <div class="n">53% to 61%</div>
+      <div class="lbl">Distributor Margin Lift</div>
+      <div class="desc">Repriced the channel discount logic and documented it so Finance could audit the new terms on sight.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$700K+</div>
+      <div class="lbl">Margin Recovered, 2 Quarters</div>
+      <div class="desc">Recovered by diagnosing root cause deal by deal, not by re-negotiating the same gap twice.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">At PriceKeel that same instinct became the system itself: I review the exception, reconcile it against the contract, and document the fix, so the deal and the ledger tell the same story.</div>
+  <div class="brand">APOLLO.IO DEAL DESK</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month on Apollo's Deal Desk looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Learn the order-form flow and CPQ</div>
+      <div class="body">Sit with Deal Desk, Legal, RevOps and Sales to walk the current order-form review, exception taxonomy, intake criteria and approval matrix end to end.</div>
+      <div class="why"><strong>Why first:</strong> the same instinct that had me learn PriceKeel's own deal flow before building anything on top of it.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Own a review-and-reconciliation cycle</div>
+      <div class="body">Take ownership of in-flight order form review and post-close reconciliation for a live cohort of deals, flagging Salesforce-to-contract gaps and diagnosing whether the cause is a field mapping issue, a template gap, or a rep pattern.</div>
+      <div class="why"><strong>Why now:</strong> the same root-cause discipline behind the Bleeders and Leakers recovery.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Turn one pain point into structured input</div>
+      <div class="body">Identify one recurring manual step in the intake or reconciliation cycle, document it into the runbook, and translate it into structured input for engineering and RevOps.</div>
+      <div class="why"><strong>Why this fast:</strong> a self-serve, escalation-by-exception system is only credible once someone has run the exception path by hand first.</div>
+    </div>
+  </div>
+  <div class="brand">APOLLO.IO DEAL DESK</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to catch the reconciliation gap and fix what caused it. I have already run that loop, at $700K+ scale.</h2>
+  <div class="body">
+    <p>The core proof is Sensata: <strong>$700K+ in margin recovered in 2 quarters</strong> by diagnosing root cause deal by deal, distributor margins lifted <strong>from 53% to 61%</strong>, and a Power BI system that audited 1,200 opportunities against a <strong>$627M target</strong>, all run cross-functionally with Sales, Finance and senior executives.</p>
+    <p>What is harder to find is someone who has also built the order-form and approval-matrix system from the other side of the desk. <strong>I built that at PriceKeel</strong>, so the intake-to-reconciliation discipline this role owns is not something I would need to learn on the job.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-pricing-ai.vercel.app/ref/apollo-io</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">APOLLO.IO DEAL DESK</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
