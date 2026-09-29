@@ -1,0 +1,20 @@
+Subject: The trust problem behind orchestrating 20 models
+
+Hi {Hiring Manager, Product},
+
+I do not usually write in before applying, but watching Computer expand into Enterprise and Counsel this year, orchestrating up to 20 models across Slack, Snowflake and Microsoft 365, made me want to reach out. Adding the 21st model is not the hard part. Getting an operator who has never trusted software to let it run unsupervised for days is, and that is a trust problem before a model problem, the unscoped piece your posting asks a Builder to own first.
+
+I shipped SwipeHire alone, PRD to a live product, instrumented the analytics myself and ran 8+ A/B tests against 12+ interviews for a 25% activation lift.
+I owned Sensata's sensor line roadmap end to end, a 100+ feature backlog run with engineering across 3 regions, cutting time to market 20%.
+I ran 30+ interviews with OEMs and distributors to find where trust broke down, closing those gaps for a 22% CSAT lift.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/perplexity
+
+Worth 15 minutes on where Computer's roadmap needs that piece owned? Happy to be pointed elsewhere if this is not your req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

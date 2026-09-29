@@ -1,0 +1,20 @@
+Subject: Learn, build, integrate: the part I would own
+
+Hi {Recruiter, Product},
+
+I do not usually reach out before applying, but the mission is framed as a repeating cycle, learn, build, integrate, not a one-time launch, and that is a workflow only if the team is actually built to run all three loops, not a slogan. Most PM postings ask for one of those three. This one wants someone who runs the whole loop before handing off.
+
+I wrote the PRD, scoped the MVP and shipped SwipeHire solo end to end, instrumenting GA4 myself and running 8+ A/B tests against 12+ interviews for a 25% activation lift.
+I owned Sensata's sensor line roadmap, a 100+ feature backlog run with engineering across 3 regions, cutting time to market 20%.
+I built the SQL and GA4 frameworks reading 50K+ connected devices for adoption signals that fed straight back into the next iteration.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/perplexity
+
+Worth 15 minutes to see which piece of that loop this req needs most?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

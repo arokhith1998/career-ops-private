@@ -1,0 +1,20 @@
+Subject: A forecast that survives a follow-up question
+
+Hi {Hiring Manager, Market Intelligence},
+
+Your posting asks for someone who can translate technological trends into financial forecasting assumptions, then defend that translation to executives making product strategy, partnership and M&A calls. That is the test I run against my own market-sizing work today, which is why I am reaching out before applying.
+
+At Applied Materials I turn live signal from Sales, Engineering and Accounts into one semiconductor market view, watching for the inflection points where demand outruns current pricing assumptions. At Sensata I built a BU-wide Power BI price-increase model flagging where a change could lift profitability more than 50%, then partnered directly with senior executives on AP26 revenue models. I write my own SQL and Python against the underlying data rather than take someone else's chart on faith, and I have started automating the recurring parts of that analysis with AI agents built on Claude.
+
+I've attached my resume and cover letter.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/google
+
+Would you have 15 minutes to talk through which part of the AI value chain your team is tracking most closely right now?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

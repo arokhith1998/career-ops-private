@@ -1,0 +1,20 @@
+Subject: The industry question in your application form
+
+Hi {Recruiter, Product},
+
+I do not usually write in before applying, but your application asks candidates to name the industry they most want to innovate in, a rarer ask than most PM reqs make. Mine is enterprise and industrial workflows: the distance between what a 19-model agent can do and what an operator who has never trusted software will actually let it run unsupervised.
+
+I shipped SwipeHire alone, PRD to production, running 8+ A/B tests against 12+ interviews for a 25% activation lift.
+I owned a 100+ feature backlog and Agile roadmap for Sensata's sensor line, cutting time to market 20% across 3 regions.
+I built the SQL and GA4 frameworks behind 50K+ connected devices, then ran 30+ OEM interviews to close what they flagged, lifting CSAT 22%.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/perplexity
+
+If this req sits with you, 15 minutes would help. If not, a pointer helps just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
