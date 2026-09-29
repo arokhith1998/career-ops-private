@@ -1,0 +1,20 @@
+Subject: The transaction-data line before the pricing-strategy line
+
+Hi {Recruiter, Pricing},
+
+I do not usually write in before applying, but this posting naming "analyzes transaction data" as its own step before "builds analytical models for pricing strategy" is more specific than most pricing reqs, and it matches the discipline I actually run.
+
+I built the FY26 Bleeders and Leakers Power BI dashboard at Sensata: 1,200 pricing opportunities across 3 regions and 20 product lines against a $627M target, surfacing $433M in margin gaps by salesperson.
+That transaction read recovered $700K+ in margin in 2 quarters and raised distributor margins from 53% to 61%.
+At PriceKeel I am building the guardrail engine that reads a live discount exception and explains the recommended floor from a company's own closed-won and closed-lost history.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/autodesk
+
+If this req sits with your desk, 15 minutes would help. If not, a pointer helps just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
