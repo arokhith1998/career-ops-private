@@ -2,6 +2,17 @@
 
 | # | Date | Company | Via | Role | Score | Status | PDF | Report | Notes |
 |---|------|---------|-----|------|-------|--------|-----|--------|-------|
+| 583 | 2026-09-30 | Plaid | — | Product Manager, Link Growth [Consumer] | 3.4/5 | Evaluated | ❌ | [583](../reports/583-plaid-2026-09-30.md) | US track, TIER-1 sponsor, $176.4K-$210K |
+| 585 | 2026-09-30 | Fivetran | — | Senior Product Manager, Growth | 3.2/5 | Evaluated | ❌ | [585](../reports/585-fivetran-2026-09-30.md) | US track, TIER-1 sponsor, $215K-$269K |
+| 589 | 2026-09-30 | Brex | — | Senior Partner Marketing Manager | 3.5/5 | Evaluated | ❌ | [589](../reports/589-brex-2026-09-30.md) | US track, TIER-1 sponsor, $131K-$180K base |
+| 590 | 2026-09-30 | Seon | — | Lead Competitive Intelligence Manager | 3.8/5 | Evaluated | ❌ | [590](../reports/590-seon-2026-09-30.md) | US track, TIER-3 downgrade, comp not stated |
+| 591 | 2026-09-30 | Novidea | — | Regional Growth Marketing Manager | 3.0/5 | Evaluated | ❌ | [591](../reports/591-novidea-2026-09-30.md) | US track, TIER-3 downgrade, US entity unconfirmed |
+| 593 | 2026-09-30 | Maximus | — | Analyst, Competitive Intelligence & Price to Win | 3.9/5 | Evaluated | ❌ | [593](../reports/593-maximus-2026-09-30.md) | US track, TIER-1 sponsor, $70K-$85K |
+| 594 | 2026-09-30 | DRB Foods | — | Executive Assistant / Chief of Staff to CEO | 3.0/5 | Evaluated | ❌ | [594](../reports/594-drb-foods-2026-09-30.md) | India track, JD unconfirmed (naukri bot wall), comp unknown |
+| 595 | 2026-09-30 | Chargebee | — | Head of Growth | 3.6/5 | Evaluated | ❌ | [595](../reports/595-chargebee-2026-09-30.md) | India track, JD unconfirmed (instahyre bot wall), comp est ~50-80L |
+| 596 | 2026-09-30 | Doodhvale Farms | — | Founder's Office - Growth | 3.7/5 | Evaluated | ❌ | [596](../reports/596-doodhvale-farms-2026-09-30.md) | India track, early-stage startup, comp unknown |
+| 597 | 2026-09-30 | Medanta | — | Operations and Strategy - CEO's Office | 3.3/5 | Evaluated | ❌ | [597](../reports/597-medanta-2026-09-30.md) | India track, comp unknown, healthcare domain gap |
+| 598 | 2026-09-30 | GoNanny | — | Founder's Office | 3.1/5 | Evaluated | ❌ | [598](../reports/598-gonanny-2026-09-30.md) | India track, unfunded startup, comp risk flagged |
 | 559 | 2026-09-30 | Meesho | — | Senior Manager, CEO's Office | 3.9/5 | Evaluated | ❌ | [559](../reports/559-meesho-senior-manager-ceos-office-2026-09-30.md) | track=india, india-chief-of-staff profile, comp unstated but public data ~38.5-54.5L total puts it above the 35 LPA floor |
 | 560 | 2026-09-30 | SuprSend | — | Founder's Office - GTM | 3.1/5 | Evaluated | ❌ | [560](../reports/560-suprsend-founders-office-gtm-2026-09-30.md) | track=india, india-chief-of-staff profile (GTM-leaning), LinkedIn hiring post source with unresolved JD shortlink, comp unknown |
 | 565 | 2026-09-30 | Datadog | — | Field Marketing Manager (North Central) | 2.3/5 | Evaluated | ❌ | [565](../reports/565-datadog-2026-09-30.md) | track=us; cv-variant us-growth/us-product-marketing (event marketing lane, weak match); TIER-1 SPONSOR/BUILD (98 LCAs FY2025, 100 pct approved); digest_only, no field-marketing history in cv.md |
