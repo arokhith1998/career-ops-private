@@ -1,0 +1,18 @@
+Subject: The controls side of deal desk, not just the negotiation side
+
+Hi {Hiring Manager, Deal Desk},
+
+I do not usually write in before applying, but pairing adherence to internal controls and business rules with being the pricing subject matter expert sales calls on mid-negotiation is two different skill sets folded into one req, and I already carry both.
+
+I built the FY2026 Bleeders and Leakers Power BI dashboard at Sensata, tracking 1,200 pricing opportunities against a $627M target across three regions and surfacing $433M in margin gaps by salesperson so leadership could prioritize instead of guess, then used that same data to raise distributor margins from 53% to 61%. At PriceKeel, the pricing company I founded, I built the audit trail that gives Finance an explainable record behind every discount exception, the same discipline internal controls needs. At Applied Materials I partner with Sales, Engineering and Accounts on pricing questions in a market moving fast enough that I automate the repetitive analysis with Claude AI agents.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/datadog
+
+Worth 15 minutes to see if the fit is real? Happy to be pointed elsewhere if this sits with someone else on your team.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
