@@ -46,6 +46,16 @@ const NOT_A_REQUIREMENT = /(founded|since \d{4}|our (company|history)|years of g
  */
 export function assessJdExperience(text, maxYears) {
   const plain = String(text || '')
+    // Drop any "## Extraction notes" footer before scanning. That section is
+    // the scraping agent's own commentary about the fetch, never the posting's
+    // text, but a note like "stated experience band (8+ years) exceeds the
+    // standing 2-year entry-level ceiling" contains its own years figure
+    // ("2-year") next to requirement-cue words ("experience", "ceiling"). Left
+    // in, it was read as a lower binding minimum than the real 8+ requirement
+    // above it and silently passed an over-cap req (confirmed on
+    // glean-product-manager-core-experience-{sf,mountain-view}.md and
+    // captivateiq-senior-content-marketing-manager.md, 2026-09-30).
+    .replace(/##\s*Extraction notes[\s\S]*$/i, '')
     .replace(/<[^>]+>/g, ' ')
     .replace(/&nbsp;/g, ' ')
     .replace(/&amp;/g, '&');
