@@ -1445,7 +1445,7 @@ linkedin.com/jobs/view/4472165404	Google	Commercial Manager, North American Deal
 linkedin.com/jobs/view/4455986121	ICU Medical	Manager, Contract Marketing	https://www.linkedin.com/jobs/view/4455986121	dropped	DROP:no-target-role-match	2026-09-30	2026-09-30	1	
 jobs.ashbyhq.com/writer/cbabff27-ec42-4d56-9c6c-cf281373c00d	Writer	Senior paid marketing manager	https://jobs.ashbyhq.com/writer/cbabff27-ec42-4d56-9c6c-cf281373c00d	jd_extracted		2026-09-25	2026-09-30	4	
 linkedin.com/posts/palakkant_hiring-foundersoffice-startupjobs-activity-7496177637204320257-6f6q	Doodhvale	Founder’s Office - Growth	https://www.linkedin.com/posts/palakkant_hiring-foundersoffice-startupjobs-activity-7496177637204320257-6F6q?utm_source=share&utm_medium=member_desktop&rcm=ACoAACyt6owBgCJAq-TByNiprZWFxqH4aBa72eo	jd_extracted		2026-09-25	2026-09-30	4	
-databricks.com/company/careers/open-positions/job?gh_jid=8831555002	Databricks	Staff Product Manager, US Public Sector	https://databricks.com/company/careers/open-positions/job?gh_jid=8831555002	jd_extracted		2026-09-24	2026-09-30	4	
+databricks.com/company/careers/open-positions/job?gh_jid=8831555002	Databricks	Staff Product Manager, US Public Sector	https://databricks.com/company/careers/open-positions/job?gh_jid=8831555002	dropped	SKIP:citizenship-clearance-hard-wall	2026-09-24	2026-09-30	5	
 brex.com/careers/8578101002?gh_jid=8578101002	Brex	Senior Partner Marketing Manager	https://www.brex.com/careers/8578101002?gh_jid=8578101002	jd_extracted		2026-09-24	2026-09-30	4	
 metacareers.com/jobs/1090585757172959	Meta	Rotational Product Manager	https://www.metacareers.com/jobs/1090585757172959	jd_extracted		2026-09-24	2026-09-30	4	
 fivetran.com/careers/job?gh_jid=7559181003	Fivetran	Product Manager - Integrations	https://www.fivetran.com/careers/job?gh_jid=7559181003	dropped	DROP:duplicate-tracker-row-135	2026-09-24	2026-09-30	5	
@@ -1482,10 +1482,10 @@ instahyre.com/job-159069-head-of-growth-at-chargebee-bangalore	Chargebee	Head of
 jobs.ashbyhq.com/chronospherejobs/c5c4a725-09df-4995-afbb-e8ad13aa56d6	Chronosphere	Deal Desk Manager	https://jobs.ashbyhq.com/chronospherejobs/c5c4a725-09df-4995-afbb-e8ad13aa56d6	dropped	DROP:dead-not-in-ats-feed	2026-09-20	2026-09-30	5	
 jobs.ashbyhq.com/dandy/ba6bdcf0-5035-4dd0-8542-4ac570fa895e	Dandy	Deal Desk Manager	https://jobs.ashbyhq.com/dandy/ba6bdcf0-5035-4dd0-8542-4ac570fa895e	dropped	DROP:dead-not-in-ats-feed	2026-09-30	2026-09-30	3	
 jobs.ashbyhq.com/openai/cce31320-258d-4a2f-96f7-6782208d5db6	OpenAI	Competitive Intelligence Lead	https://jobs.ashbyhq.com/openai/cce31320-258d-4a2f-96f7-6782208d5db6	dropped	DROP:dead-not-in-ats-feed	2026-09-30	2026-09-30	3	
-linkedin.com/jobs/view/4450504854	Ingenio	Senior Product Manager, Growth	https://www.linkedin.com/jobs/view/4450504854	jd_extracted		2026-09-30	2026-09-30	2	
+linkedin.com/jobs/view/4450504854	Ingenio	Senior Product Manager, Growth	https://www.linkedin.com/jobs/view/4450504854	dropped	SKIP:no-sponsorship-hard-wall	2026-09-30	2026-09-30	3	
 linkedin.com/jobs/view/4445150970	Novidea	Regional Growth Marketing Manager	https://www.linkedin.com/jobs/view/4445150970	jd_extracted		2026-09-30	2026-09-30	2	
 linkedin.com/jobs/view/4473295851	Blacksmith Agency	Growth Marketing Manager (Remote, San Antonio)	https://www.linkedin.com/jobs/view/4473295851	jd_extracted		2026-09-30	2026-09-30	2	
-linkedin.com/jobs/view/4462420357	Mythical Games	Growth Marketing Manager	https://www.linkedin.com/jobs/view/4462420357	jd_extracted		2026-09-30	2026-09-30	2	
+linkedin.com/jobs/view/4462420357	Mythical Games	Growth Marketing Manager	https://www.linkedin.com/jobs/view/4462420357	dropped	SKIP:no-sponsorship-hard-wall	2026-09-30	2026-09-30	3	
 linkedin.com/jobs/view/4473282856	Active Minds, Inc.	Marketing Manager	https://www.linkedin.com/jobs/view/4473282856	jd_extracted		2026-09-30	2026-09-30	2	
 linkedin.com/jobs/view/4457550035	Maximus	Analyst, Competitive Intelligence & Price to Win	https://www.linkedin.com/jobs/view/4457550035	jd_extracted		2026-09-30	2026-09-30	2	
 boards.greenhouse.io/twilio/jobs/4931905	Twilio	Chief of Staff - Data & Applications Organization	https://boards.greenhouse.io/twilio/jobs/4931905	dropped	DROP:dead-closed-redirect	2026-09-30	2026-09-30	3	
