@@ -2,9 +2,9 @@ Subject: Deal desk work that does not stop at quote approval
 
 Hi {Recruiter, Deal Desk},
 
-I do not usually write in before applying, but the line asking someone to solve customer satisfaction issues after a deal closes, not just structure the quote and hand it off, is a broader mandate than most deal desk reqs carry, and it is close to work I already run.
+I do not usually write in before applying, but asking someone to solve customer satisfaction issues after a deal closes, not just structure the quote, is a broader mandate than most deal desk reqs carry, and close to work I already run.
 
-At Sensata I ran the Bleeders and Leakers program: deal-by-deal negotiation against competitive gaps and each customer's willingness to pay, recovering $700K plus in margin in two quarters and raising distributor margins from 53% to 61%. I set up and run CRM, CPQ configuration and deal-approval workflow at PriceKeel, the pricing company I founded, so the controls side of a quote is not new either. At Applied Materials I am the pricing resource sales turns to on deal questions for a fast-moving market.
+At Sensata I ran the Bleeders and Leakers program: deal-by-deal negotiation against competitive gaps and each customer's willingness to pay, recovering $700K plus in margin in two quarters and raising distributor margins from 53% to 61%. I now set up and run CRM, CPQ configuration and deal-approval workflow at PriceKeel, the pricing company I founded, so the controls side is not new either. At Applied Materials I am the pricing resource sales turns to on deal questions.
 
 Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/datadog
 
