@@ -4,6 +4,7 @@
 **URL:** https://www.linkedin.com/posts/tushar-bhati-1321aa201_were-hiring-at-suprsend-for-two-roles-bengaluru-activity-7497905715143974913-kfpj
 **Via:** - (direct)
 **Archetype:** India Chief of Staff / Founder's Office, GTM-leaning (per cv-variants/india-chief-of-staff.md, borrowing GTM framing per its own routing note)
+**Portfolio:** generalist, https://adhithyabhaskar.vercel.app/ref/suprsend (GTM here reads as founder's-office market entry/positioning, not performance-marketing-heavy growth, so generalist routing applies per nightly-rules.md section 6)
 **Score:** 3.1/5
 **Legitimacy:** Proceed with Caution
 **Work Auth:** Not needed

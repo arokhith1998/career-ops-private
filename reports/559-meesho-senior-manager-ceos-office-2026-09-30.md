@@ -4,6 +4,7 @@
 **URL:** https://jobs.lever.co/meesho/534e9923-b091-4250-a178-b28c7c5c99be
 **Via:** - (direct)
 **Archetype:** India Chief of Staff / Founder's Office (per cv-variants/india-chief-of-staff.md)
+**Portfolio:** generalist, https://adhithyabhaskar.vercel.app/ref/meesho (RevOps/Chief-of-Staff routing per nightly-rules.md section 6)
 **Score:** 3.9/5
 **Legitimacy:** High Confidence
 **Work Auth:** Not needed
