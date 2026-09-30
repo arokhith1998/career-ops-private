@@ -1,20 +1,25 @@
-# Growth Marketing Manager (Remote, Washington) — Blacksmith Agency
+# Growth Marketing Manager (Remote, San Antonio) - Blacksmith Agency
 
-**URL:** https://www.linkedin.com/jobs/view/4470470932
-**Req/Posting ID:** LinkedIn job id 4470470932
+**Company:** Blacksmith Agency
+**URL:** https://www.linkedin.com/jobs/view/4473295851
+**Job ID:** 4473295851
+**Posted:** ~17 hours before fetch (LinkedIn "posted" relative timestamp)
 **Location:** Remote (USA, Canada or South Africa)
-**Posted:** ~12 hours before extraction
-**Track:** us | **Visa gate:** required | **Extracted:** 2026-09-23
-**Salary:** Not stated
+**Comp band:** not stated
 
-## Description
+## Work Authorization / Sponsorship / Degree
+No mention of work authorization sponsorship, citizenship requirements, security clearance, degree prerequisites, or graduation year restrictions.
 
-Blacksmith Agency is scaling its marketing division to support a growing portfolio of PPC and SEO clients across multifamily, B2B and technical verticals. Ownership of strategy, performance and client-facing leadership across paid search, paid social, SEO and conversion optimization. Responsibilities: lead strategy for all PPC and SEO clients, join sales calls to validate scope and pitch recommendations, build growth roadmaps, own client performance across multiple platforms, audit campaigns and SEO strategies, track KPIs, provide weekly direction and oversight, present monthly/quarterly performance summaries. Required: 4-7 years in PPC, SEO or multi-channel full-funnel strategy; strong experience with paid and organic channels; expertise with Google Ads and GA4; ability to build strategic recommendations; track record overseeing execution teams. Nice-to-have: agency experience, sales call participation experience, familiarity with multifamily/real estate verticals, experience with AI SEO and CRO.
+## Full JD (via LinkedIn guest jobPosting API)
 
-## Work authorization / sponsorship / citizenship / clearance / degree sentences (verbatim)
+**Employment Type:** Full-time (Marketing, strategy/planning focus)
 
-No statements regarding work authorization, sponsorship, citizenship requirements, clearance, required degree field, or graduation year appear in this posting.
+### Key Requirements
+"4 to 7 years in PPC, SEO or multi-channel full-funnel strategy" with demonstrated expertise in Google Ads, GA4, and search console tools. Candidates should have experience managing both paid and organic channels simultaneously.
 
-## Comp band
+The position demands someone capable of overseeing execution teams, building strategic recommendations, and diagnosing performance issues. The posting emphasizes those who "own results and take full accountability."
 
-Not stated
+### Nice-to-have qualifications
+Agency experience with multiple clients, participation in sales calls, familiarity with real estate or multifamily verticals, and knowledge of AI-driven SEO and conversion rate optimization.
+
+Note: the location list includes Canada and South Africa alongside USA -- this may not be a US-only seat; also the 4-7 years ask is above the 2-year entry-level ceiling for the US track (flag both for downstream checks).
