@@ -2,13 +2,14 @@ Subject: The Claude-agent line in your posting, and a founding PMM who already l
 
 Hi {Founder / Hiring Lead, MintMCP},
 
-I do not normally write in before applying, but "proficiency using Claude and agents" sitting inside a founding PMM req, not a data or eng one, is unusual, and it is the exact seat I already work in.
+I do not normally write in before applying, but a founding PMM req that names "proficiency using Claude and agents" as a requirement, not a nice-to-have, is one I already live in.
 
-At Applied Materials I automate recurring market and pricing analysis with AI agents built on Claude, daily, not a skill I would need to ramp into. Before that, at Sensata I owned go-to-market end to end for a new sensing product line across North America and Europe, positioning through launch, for $2M+ in first-year revenue, then built the sales content and case studies that armed 50+ reps and moved win rates 30%. I also designed the narrative function from zero for an AI job-matching platform, PRD, ICP and messaging, with no brand team to inherit from, the same math as being the first PMM in the building. I am currently founding and running my own company, PriceKeel, carrying CRM, pipeline reviews and deal approvals solo, so operating without a playbook is not theoretical for me.
+Automate recurring market and pricing analysis with AI agents built on Claude at Applied Materials, daily, not a skill I would need to ramp into.
+Owned go-to-market end to end for a new sensing product line at Sensata, positioning through launch, for $2M+ in first-year revenue.
+Built the sales content and case studies that armed 50+ reps and moved win rates 30%.
+Designed the narrative function from zero for an AI job-matching platform, PRD, ICP and messaging, with no brand team to inherit from, then founded PriceKeel, running CRM, pipeline reviews and deal approvals solo.
 
 Here's the portfolio: https://adhi-product-ai.vercel.app/ref/mintmcp
-
-None of that is MCP or agent-governance specific yet, but turning a technical trust product into language a CIO or CISO will act on is the same muscle regardless of the category, and I would rather build that specific fluency on your team than claim it upfront.
 
 Worth 15 minutes to see if the fit is real? If hiring sits with someone else on your team, a pointer helps just as much.
 
