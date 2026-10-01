@@ -1,0 +1,20 @@
+Subject: Defending time-to-first-call, not just reporting it
+
+Hi {Hiring Manager, API Platform},
+
+I do not normally reach out before applying, but asking this PM to defend time-to-first-call and integration success rate, not just report them, reads like you want someone who has already carried that fight before a spec gets signed off.
+
+I ran that fight at Sensata: I would not open a sprint on our 100+ feature backlog until the integration spec was locked with Engineering, and holding that line across 3 regions cut time-to-market 20% and got releases out 25% faster.
+I interviewed 30+ OEM and distributor engineers to find where integrations broke before a ticket landed, shipping fixes that raised CSAT 22% and feature adoption 18% across 50,000+ connected devices.
+I owned the Salesforce, Adobe Analytics, GA and Google Tag Manager integration stack at Plug Power end to end, so a flaky webhook or an inconsistent contract is not an abstract cost to me.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/glean
+
+Worth 15 minutes to pressure-test the fit? Happy to be redirected if this sits with someone else.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

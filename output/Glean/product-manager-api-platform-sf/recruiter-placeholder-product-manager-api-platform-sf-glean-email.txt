@@ -1,0 +1,20 @@
+Subject: Locking the contract before the sprint opens
+
+Hi {Recruiter, Technical Recruiting},
+
+I do not normally reach out before applying, but locking the API contract with Engineering before a sprint opens is exactly my discipline, not a pitch built for this req.
+
+I held that line on a 100+ feature backlog across 3 regions at Sensata, refusing to open a sprint until the integration spec was signed off, cutting time-to-market 20% and getting releases out 25% faster.
+I interviewed 30+ OEM and distributor engineers to catch where integrations broke before a ticket got filed, shipping fixes that raised CSAT 22% and feature adoption 18% across 50,000+ connected devices.
+I owned the Salesforce, Adobe Analytics, GA and Google Tag Manager integration stack at Plug Power end to end, so I know what an inconsistent contract costs downstream.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/glean
+
+If this is your req, 15 minutes would help. If not, a pointer is just as useful.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

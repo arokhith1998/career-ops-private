@@ -1,0 +1,18 @@
+Subject: Treating support tickets as design problems
+
+Hi {Recruiter, Technical Recruiting},
+
+I do not usually message before applying, but the line about treating recurring support questions as design issues, not tickets to close, is work I already do from the integration side.
+
+At Sensata I interviewed 30+ OEM and distributor engineers to catch where integrations broke before a ticket ever got filed, then shipped fixes that raised CSAT 22% and feature adoption 18% across 50,000+ connected devices, while holding a 100+ feature backlog to a spec locked with Engineering across 3 regions. At Plug Power I owned the Salesforce, Adobe Analytics, GA and Google Tag Manager integration stack end to end, so I know what an inconsistent contract costs downstream.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/glean
+
+Worth 15 minutes on this req?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
