@@ -1,0 +1,20 @@
+Subject: Turning enterprise context into decision-ready intelligence
+
+Hi {Recruiter, Enterprise Intelligence},
+
+I do not normally reach out before applying, but turning Glean's enterprise context layer into proactive, high-value intelligence products, not another reporting layer, is exactly the problem I already build for.
+
+I built Sensata's FY2026 Bleeders and Leakers Power BI dashboard: 1,200 pricing opportunities against a $627M target, surfacing $433M in margin gaps for leadership to prioritize by salesperson and product line.
+I ran 30+ customer interviews with OEMs and distributors, lifting CSAT 22% and feature adoption 18%.
+I now run PriceKeel, reading live deal data into an explainable guardrail engine with an audit trail, the same proactive-intelligence thesis this req describes.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/glean
+
+If this Mountain View req sits with your desk, 15 minutes would help. If not, a pointer to whoever owns it helps just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
