@@ -1,0 +1,19 @@
+Subject: Customer research first, then the workflow
+
+Hi {Hiring Manager, Enterprise Intelligence},
+
+I don't normally write before applying, but this req's emphasis on spending real time with customers before building the workflows and dashboards, rather than shipping a feature and hoping it lands, is exactly how I approach product work.
+
+At Plug Power I ran the customer research that shaped the funnel itself, not just the messaging: the insights lifted conversion 20% and cut CPA 15%, because we built around what customers actually did next, not what the roadmap assumed.
+At Sensata I ran 30+ interviews with OEMs and distributors to find the use cases worth building for, which lifted CSAT 22% and feature adoption 18%.
+That same research fed the FY2026 Bleeders and Leakers Power BI dashboard: 1,200 opportunities against a $627M target, $433M in margin gaps surfaced for leadership to act on.
+At PriceKeel I'm building the next version of this: live deal data read into an explainable, auditable guardrail decision, not a dashboard someone has to interpret.
+
+Worth 15 minutes on this San Francisco req? Happy to be pointed elsewhere if it's not yours.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
