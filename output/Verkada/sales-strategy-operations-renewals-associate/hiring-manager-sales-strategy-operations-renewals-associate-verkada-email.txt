@@ -1,0 +1,18 @@
+Subject: Renewals Associate - the stakeholder cadence problem interests me
+
+Hi {Hiring Manager, Sales Strategy & Operations},
+
+Most renewals-ops hires treat the forecast model as the finish line. I think the harder and more valuable part is the guardrail nobody owns between Sales wanting the renewal closed and Finance wanting the discount justified, which is exactly where I have spent the last year.
+
+At Sensata I built a BU-wide Power BI price-increase model and ran weekly and quarterly business reviews carrying P&L and revenue targets, pairing the data layer with the actual stakeholder conversation. At PriceKeel, the company I founded, I set up the CRM, CPQ and deal-approval flow from scratch and built the audit trail that lets Finance question a pricing decision before it ships. At Applied Materials I now automate the repetitive side of that analysis with Claude agents, which is the same instinct a growing renewals book needs.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/verkada
+
+I would value 15 minutes to hear what is actually slowing the renewals process down today. If this sits with someone else on your team, I would appreciate a pointer.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
