@@ -1,31 +1,16 @@
 source	sources	company	title	location	url	posted_ts	age_days	sponsorship_hint	salary	category
-websearch-agent	websearch-agent	Webflow	Pricing Product Manager	San Francisco, CA / US Remote	https://job-boards.greenhouse.io/webflow/jobs/3199723
-websearch-agent	websearch-agent	Twilio	Pricing & Monetization Manager	Remote - US	https://job-boards.greenhouse.io/twilio/jobs/6139050
-websearch-agent	websearch-agent	Twilio	Senior Manager, Pricing and Monetization	Remote - US	https://job-boards.greenhouse.io/twilio/jobs/4947196
-websearch-agent	websearch-agent	Calendly	Staff Product Manager, Monetization	San Francisco Bay Area (preferred)	https://job-boards.greenhouse.io/calendly/jobs/7739728002
-websearch-agent	websearch-agent	Drivetrain	Product Marketing Manager	Remote (India)	https://jobs.lever.co/drivetrain/ba7f3003-5832-41c8-accd-3f5a174d68d6
-websearch-agent	websearch-agent	Pigment	Product Marketing Manager	San Francisco / New York / Austin (Remote)	https://jobs.lever.co/pigment/9e3836bc-a7f7-4121-be7a-07520d99a425
-websearch-agent	websearch-agent	AllTrails	Senior Product Marketing Manager	US Remote (SF preferred)	https://jobs.lever.co/alltrails/cd258cd8-64ca-42cc-8ac4-c94379e6448a
-websearch-agent	websearch-agent	Listen Labs	Marketing Strategy Lead	San Francisco, CA	https://jobs.ashbyhq.com/listenlabs/afe89237-a3c2-4a49-b3b8-b3b2fec1e284
-websearch-agent	websearch-agent	Hightouch	Revenue Operations Analyst	Remote - North America	https://job-boards.greenhouse.io/hightouch/jobs/5192132004
-websearch-agent	websearch-agent	Checkr	Senior Analyst, Revenue Operations	San Francisco, CA	https://job-boards.greenhouse.io/checkr/jobs/6115395
-websearch-agent	websearch-agent	Checkr	Senior SMB RevOps Analyst	Remote - US	https://job-boards.greenhouse.io/checkr/jobs/5165346
-websearch-agent	websearch-agent	FalconX	Revenue Ops & Salesforce Architect	San Francisco Bay Area	https://job-boards.greenhouse.io/falconx/jobs/4328224005
-websearch-agent	websearch-agent	Anara	Product Manager	San Francisco or Remote	https://jobs.ashbyhq.com/anara/488b4ca4-5f19-483c-80c2-ae6441a24b4c
-websearch-agent	websearch-agent	Lead	Senior Product Manager	New York / San Francisco / Sunnyvale (Hybrid or Remote)	https://jobs.ashbyhq.com/leadbank/32477853-c075-4a83-a621-9aaa30988f72
-websearch-agent	websearch-agent	HighLevel	Sr. Market Intelligence Specialist	Remote - US	https://jobs.lever.co/gohighlevel/4915cf6b-bbfa-445d-b260-a321ac6e6a67
-websearch-agent	websearch-agent	Lendbuzz	Market Development Manager - Sales Leader	San Francisco, CA	https://jobs.lever.co/lendbuzz/f1ae9640-920d-4d25-9c87-a501a05faf55
-websearch-agent	websearch-agent	PGAGI	Founder's Office Associate	Bengaluru, India	https://cutshort.io/job/Founder-s-Office-Bengaluru-Bangalore-PGAGI-bmNwZm9y
-websearch-agent	websearch-agent	Weekday	Founder's Office	Bengaluru (Indiranagar), India	https://www.ycombinator.com/companies/weekday/jobs/cQZdv5Q-founder-s-office
-websearch-agent	websearch-agent	e6data	Founder's Office Associate	Bangalore, India	https://www.instahyre.com/job-393803-founders-office-associate-at-e6data-bangalore/
-websearch-agent	websearch-agent	Flam	Founder's Office	Bangalore, India	https://www.instahyre.com/job-148431-founders-office-at-flam-bangalore/
-websearch-agent	websearch-agent	Material Depot	Founder's Office (Associate)	Bangalore, India	https://www.instahyre.com/job-197808-founders-office-associate-at-material-depot-bangalore/
-websearch-agent	websearch-agent	Hypergro	Associate - Founder's Office	Bangalore, India	https://www.instahyre.com/job-336776-associate-founders-office-at-hypergro-bangalore/
-websearch-agent	websearch-agent	Covvalent	Strategy & Product (Founder's Office)	Gurgaon, India	https://www.instahyre.com/job-302145-strategy-product-founders-office-at-covvalent-gurgaon/
-websearch-agent	websearch-agent	Leap Finance	Founder's Office	Bangalore, India	https://www.instahyre.com/job-116160-founders-office-at-leap-finance-bangalore/
-websearch-agent	websearch-agent	Lokal	Strategy & Ops (Founder's Office)	Bangalore, India	https://www.instahyre.com/job-201511-strategy-ops-founders-office-at-lokal-bangalore/
-websearch-agent	websearch-agent	Gushwork	Growth - Founder's Office	Bangalore, India	https://www.instahyre.com/job-394118-growth-founders-office-at-gushwork-bangalore/
-websearch-agent	websearch-agent	Nected	Associate - Founder's Office	Gurgaon, India	https://www.instahyre.com/job-328199-associate-founders-office-at-nected-gurgaon/
-websearch-agent	websearch-agent	3 Point Human Capital	Chief of Staff	Gurgaon, India	https://www.iimjobs.com/j/chief-of-staff-1642954
-websearch-agent	websearch-agent	Chtrbox	Chief of Staff	India	https://www.iimjobs.com/j/chtrbox-chief-of-staff-1685051
-websearch-agent	websearch-agent	Golden Bridge	Chief of Staff - D2C	Mumbai, India	https://www.iimjobs.com/j/chief-of-staff-d-2-c-1556059?jobPos=38
+websearch-agent	websearch-agent	Kristalball	Chief of Staff	Bellandur, Bangalore, India	https://www.kristalball.com/careers/chief-of-staff					role:chief_of_staff
+websearch-agent	websearch-agent	PGAGI	Founder's Office	Bengaluru, India	https://cutshort.io/job/Founder-s-Office-Bengaluru-Bangalore-PGAGI-bmNwZm9y					role:founders_office
+websearch-agent	websearch-agent	Groww	Head of Growth	Bangalore, India	https://www.instahyre.com/job-29023-head-of-growth-at-groww-2-bangalore/					role:head_of_growth
+websearch-agent	websearch-agent	Safle	Head of Growth	Work From Home, India	https://www.instahyre.com/job-344579-head-of-growth-at-safle-work-from-home/					role:head_of_growth
+websearch-agent	websearch-agent	Sensibull	Head of Growth (Product)	Bangalore, India	https://www.instahyre.com/job-79478-head-of-growth-product-at-sensibull-bangalore/					role:head_of_growth
+websearch-agent	websearch-agent	CoinSwitch	Head of Growth	Bangalore, India	https://www.instahyre.com/job-110185-head-of-growth-at-coinswitch-bangalore/					role:head_of_growth
+websearch-agent	websearch-agent	Coral Academy	Head of Growth	Work From Home, India	https://www.instahyre.com/job-390874-head-of-growth-at-coral-academy-work-from-home/					role:head_of_growth
+websearch-agent	websearch-agent	Unknown (IIMJobs)	Growth Head - D2C	India	https://www.iimjobs.com/j/growth-head-d2c-1657692					role:head_of_growth
+websearch-agent	websearch-agent	Unknown (IIMJobs)	Head - Growth Marketing - Education	India	https://www.iimjobs.com/j/head-growth-marketing-education-1615597					role:head_of_growth
+websearch-agent	websearch-agent	Klub	Entrepreneur in Residence (EIR)	India	https://startup.jobs/entrepreneur-in-residence-eir-klub-3235591					role:entrepreneur_in_residence
+websearch-agent	websearch-agent	Landeed	Entrepreneur-In-Residence	India	https://www.workatastartup.com/jobs/60434					role:entrepreneur_in_residence
+websearch-agent	websearch-agent	OpenAI	Competitive Intelligence Lead	San Francisco, CA	https://jobs.ashbyhq.com/openai/cce31320-258d-4a2f-96f7-6782208d5db6					role:market_strategy
+websearch-agent	websearch-agent	Listen Labs	Marketing Strategy Lead	San Francisco, CA	https://jobs.ashbyhq.com/listenlabs/afe89237-a3c2-4a49-b3b8-b3b2fec1e284					role:marketing
+websearch-agent	websearch-agent	GridUnity	Senior Manager, Market Intelligence & Partnerships	Remote - US	https://jobs.ashbyhq.com/gridunity/2b9f33ce-7e9b-404d-b88f-09f05bf355b0					role:market_strategy
+websearch-agent	websearch-agent	Redox	Senior Product Manager - Interoperability Engine & Commercial Strategy	Remote - US	https://jobs.lever.co/redoxengine/16433cf3-3226-4e9e-b04e-71c85af443a7					role:product
