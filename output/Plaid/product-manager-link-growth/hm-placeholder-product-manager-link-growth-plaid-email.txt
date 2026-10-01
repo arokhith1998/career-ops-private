@@ -1,0 +1,21 @@
+Subject: The UX-versus-data call on an agentic Link
+
+Hi {Hiring Manager, Link Growth, Plaid Consumer},
+
+I don't normally reach out before applying, but I'd argue the real test of Link in "a growingly agentic world" isn't whether an AI agent can complete the flow, it's whether a human still trusts it enough to finish, and that UX-versus-data call is one I want to be in the room for, not just on record agreeing with afterward.
+
+Proof points that carry over:
+- Built KPI frameworks in SQL and GA4 across 50K+ connected devices at Sensata, finding the high-intent cohorts and adoption signals that lifted feature adoption 18%, the same staying-close-to-the-dashboards habit this req names.
+- Used Amplitude and Tableau on user behavior across 30+ campaigns at Pixis, lifting ROAS 40% by acting on what the data actually showed, not what the roadmap assumed.
+- Lifted a B2B e-commerce startup's conversion rate 36% and revenue 25% at GenY Medium through rapid, metric-led iteration.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/plaid
+
+Would 15 minutes work to talk through where I'd push first? Happy to be redirected if I'm not talking to the right person.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
