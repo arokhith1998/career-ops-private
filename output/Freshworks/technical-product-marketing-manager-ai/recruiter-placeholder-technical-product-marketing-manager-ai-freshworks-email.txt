@@ -1,0 +1,20 @@
+Subject: The grounded-in-context work behind Freshservice's AI story
+
+Hi {Recruiter, Freshservice AI},
+
+Your posting wants someone who can explain how an agent is grounded in context and why an architectural choice matters, not just that a feature shipped. That is close to the job I already do at PriceKeel, the company I founded.
+
+I built a guardrail engine that learns explainable discount guardrails from each company's closed-won and closed-lost deals, then built the audit trail that gives Finance evidence it can check. At Applied Materials I automate recurring market analysis with AI agents built on Claude, so agent reliability sits inside my own workflow. Earlier I shipped SwipeHire, an AI job-matching platform on the OpenAI API, writing the PRD and scoping the MVP myself.
+
+I've attached my resume and cover letter.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/freshworks
+
+Would 15 minutes this week work? If this req sits with someone else on your team, a pointer would help.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

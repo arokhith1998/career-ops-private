@@ -1,0 +1,20 @@
+Subject: An investigative habit this AI narrative role needs
+
+Hi {Recruiter, Freshservice AI},
+
+Explaining why quality is measured, and why an architectural choice matters, takes an investigative habit, not just a writing one. I built that habit at PriceKeel, where I designed the guardrail engine and then the audit trail that gives Finance evidence it can check before trusting a pricing call.
+
+At Sensata I ran 30+ structured interviews with OEM and distributor engineers to find which technical claims they actually trusted, work that lifted conversion 15% and raised CSAT 22%. I also shipped SwipeHire, an AI job-matching platform on the OpenAI API, writing the PRD and scoping the MVP myself.
+
+I've attached my resume and cover letter.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/freshworks
+
+Open to 15 minutes on where the AI narrative needs the most proof right now?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
