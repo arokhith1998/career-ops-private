@@ -1,0 +1,21 @@
+Subject: The error message a developer sees at 2am
+
+Hi {Hiring Manager, API Platform},
+
+I do not normally reach out before applying, but framing this seat around the error message a developer hits at 2am, not just the roadmap, tells me you want someone who has actually sat in the support-ticket pile, not just approved an API spec from a distance.
+
+I rebuilt the Mar-Tech stack at Plug Power end to end, Salesforce, Adobe Analytics, GA and Google Tag Manager, so every integration closed the loop instead of dropping data.
+I owned a 100+ feature backlog with Engineering in Agile across 3 regions at Sensata, sitting on specs before they shipped.
+I ran 30+ interviews with OEM and distributor engineers to find where their integrations broke, shipping fixes that lifted CSAT 22% and feature adoption 18% across 50,000+ connected devices.
+I turned technical specs into documentation customers could act on, lifting conversion 15% on priority launches.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/glean
+
+Worth 15 minutes to see if the fit is real? Happy to be pointed elsewhere if this is not your req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

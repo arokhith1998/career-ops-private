@@ -1,0 +1,20 @@
+Subject: The API Platform req, from the integration side
+
+Hi {Recruiter, Technical Recruiting},
+
+I do not normally reach out before applying, but owning API and SDK design end to end, writing sample code and reading support patterns to fix the developer experience, is specific enough that I want to flag the fit myself.
+
+I rebuilt the Mar-Tech stack at Plug Power end to end, Salesforce, Adobe Analytics, GA and Google Tag Manager, closing the loop on every integration.
+I owned a 100+ feature backlog with Engineering in Agile across 3 regions at Sensata, sitting on specs before they shipped.
+I ran 30+ interviews with OEM and distributor engineers to find where their integrations broke, shipping fixes that lifted CSAT 22% and feature adoption 18% across 50,000+ connected devices.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/glean
+
+If this is your desk, 15 minutes would help. If not, a pointer helps just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

@@ -1,0 +1,18 @@
+Subject: API Platform PM, from the integration side
+
+Hi {Recruiter, Technical Recruiting},
+
+I do not usually message before applying, but the mix this req asks for, owning the API contract, writing sample code and reading support tickets to find where developers get stuck, is close to work I already run, just from the integration side rather than an SDK repo.
+
+At Plug Power I rebuilt the Mar-Tech stack end to end, Salesforce, Adobe Analytics, GA and Google Tag Manager, so every integration closed the loop. At Sensata I ran 30+ interviews with OEM and distributor engineers to find where integrations broke, shipping fixes that lifted CSAT 22% and feature adoption 18% across 50,000+ connected devices, while owning a 100+ feature backlog with Engineering.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/glean
+
+Worth 15 minutes on this req?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
