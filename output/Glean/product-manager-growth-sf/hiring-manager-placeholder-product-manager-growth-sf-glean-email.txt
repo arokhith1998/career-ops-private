@@ -1,0 +1,20 @@
+Subject: Craft standards in onboarding, not just an activation number
+
+Hi {Hiring Manager, Product Growth},
+
+I do not normally message before applying, but the line asking to "ensure high product craft standards in onboarding and adoption flows," not just hit an activation target, is the exact bar I already hold product work to.
+
+At GenY Medium I rebuilt the onboarding-to-purchase funnel on Google Merchant and Meta catalog data, landing 16x ROAS for a D2C ecommerce client by treating the first session as the whole product, not a top-of-funnel metric.
+At Pixis I cut client churn 50% across an 8-client AI ad portfolio by rebuilding lifecycle messaging around actual usage signal instead of generic drip sequences.
+I am building PriceKeel from zero to one, a decision-integrity layer for B2B SaaS deal pricing, the same end-to-end craft ownership this seat is asking for.
+
+Here's the portfolio: https://adhi-growth-ai.vercel.app/ref/glean
+
+Worth 15 minutes on this San Francisco req? Happy to be pointed elsewhere if it is not yours.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
