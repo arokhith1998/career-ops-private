@@ -1,0 +1,1 @@
+Plaid's internal tooling for sellers, the right account view at the right time, is close to PriceKeel: a guardrail engine inside CRM/CPQ where a person still makes the call and Finance gets the audit trail. Portfolio: adhi-product-ai.vercel.app/ref/plaid Open to 15 min?

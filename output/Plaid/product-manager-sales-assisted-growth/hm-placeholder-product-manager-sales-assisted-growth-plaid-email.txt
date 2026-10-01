@@ -1,0 +1,23 @@
+Subject: Where to draw the human-versus-AI line on account signals
+
+Hi {Hiring Manager, Sales-Assisted Growth, Plaid CGX},
+
+I don't normally reach out before applying, but asking for a clear point of view on human versus AI ownership of tasks is a line I've had to draw in production, not just argue about in a design review.
+
+Put together a resume and cover letter mapped to this req, with a portfolio behind them.
+
+Proof points that carry over:
+- Built PriceKeel: it recommends a discount guardrail from closed-won and closed-lost deal data, a person still makes the call, and an audit trail records that decision for Finance, the same split propensity signals would need between model and seller here.
+- Cut client churn 50% at Pixis running proactive account strategy and vertical playbooks across an 8-client, $15K-$90K/month portfolio, the account-lifecycle reasoning this req asks for.
+- At Applied Materials, I automate recurring market-sizing work with Claude agents so analysis hours stay with judgment calls, not data pulls.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/plaid
+
+Would 15 minutes work to talk through how I'd shape what those models predict? Happy to be redirected if I'm not talking to the right person.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

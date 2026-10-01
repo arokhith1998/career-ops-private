@@ -1,0 +1,23 @@
+Subject: The seller-tooling problem you're hiring for, built once already
+
+Hi {Recruiter, Plaid Customer Growth & Experience},
+
+I don't normally reach out before applying, but the line about internal tooling that removes manual work for sellers and gives them the right view of an account at the right time is a problem I'm already solving, not one I'd be learning on the job.
+
+Put together a resume and cover letter mapped to this req.
+
+A few things that carry over directly:
+- Built PriceKeel, a system that reads live discount exceptions inside a deal platform's CRM and CPQ and recommends a guardrail sellers can act on without leaving their workflow.
+- Equipped 50+ Sensata reps with sales enablement that lifted win rates 30%.
+- Owned GTM for a new product line end to end, driving $2M+ in first-year revenue from accounts sales brought in.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/plaid
+
+15 minutes would help. If this isn't your req, a nudge toward whoever owns it would too.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

@@ -1,0 +1,18 @@
+Subject: RFI tooling and prospect dashboards, the other half of this req
+
+Hi {Recruiter, Plaid Customer Growth & Experience},
+
+I don't normally message before applying, but the req also covers external-facing tooling for sales-worked accounts, RFI response tooling and prospect dashboards, not just the internal seller view, and that full surface is closer to what I've built than a typical PM req.
+
+At PriceKeel I own the CRM, CPQ, forecast reviews and deal approvals end to end as founder, the same internal-plus-external deal surface this role owns. At Applied Materials I automate recurring market-sizing work with Claude agents, freeing hours for judgment calls. At Sensata I equipped 50+ reps with sales enablement that lifted win rates 30%.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/plaid
+
+Worth 15 minutes on this req?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
