@@ -1,0 +1,20 @@
+Subject: Order Forms and redlines as one motion, not a handoff
+
+Hi {Hiring Manager, Deal Desk, Operations - Legal},
+
+I do not usually write in before applying, but building a deal desk function that reports through Legal instead of Sales tells me quotes and redlines are meant to move as one motion, not a handoff between teams, and that is the exact problem I keep building toward.
+
+At PriceKeel I built the audit trail that records every pricing decision with evidence Finance can audit, on top of running the CRM, CPQ, forecast and pipeline reviews myself.
+At Sensata I partnered with senior executives on multimillion-dollar customer quotes and built a Power BI dashboard tracking 1,200 pricing opportunities across 3 regions and 20 product lines against a $627M target, surfacing $433M in margin gaps for leadership to prioritize.
+That same program recovered $700K+ in margin in 2 quarters.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/quantum-metric
+
+Worth 15 minutes to see if the fit is real? Happy to be pointed elsewhere if this is not your req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
