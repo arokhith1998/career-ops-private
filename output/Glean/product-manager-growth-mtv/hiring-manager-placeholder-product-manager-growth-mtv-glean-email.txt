@@ -1,0 +1,20 @@
+Subject: The platform-level growth loop in the Mountain View PM req
+
+Hi {Hiring Manager, Product Growth},
+
+I do not normally message before applying, but the ask to own PLG from acquisition through expansion, not hand activation off once a feature ships, is close to how I already build products.
+
+I wrote the PRD and scoped SwipeHire zero-to-one, then ran 8+ activation experiments on its onboarding flow that lifted first-session activation 25% for its first 50+ users, the same loop-design work your off-surface growth line (browser extensions, email, Slack, Teams, mobile) is describing at platform scale.
+At Sensata I owned a 100+ feature backlog across three regions, shipping releases 25% faster and raising feature adoption 18% across 50,000+ connected devices by building KPI frameworks that segmented cohorts by intent, not by guesswork.
+At Pixis I cut client churn 50% on an 8-client AI platform portfolio through retention strategy built around actual usage signal, the same retention instinct this req names.
+
+Here's the portfolio: https://adhi-growth-ai.vercel.app/ref/glean
+
+Worth 15 minutes on this req? Happy to be pointed elsewhere if it is not yours.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

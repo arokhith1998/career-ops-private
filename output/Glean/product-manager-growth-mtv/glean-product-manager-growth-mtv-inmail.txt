@@ -1,0 +1,18 @@
+Subject: Off-surface growth is a design problem, not a channel list
+
+Hi {Recruiter, Product Growth},
+
+I do not normally message before applying, but the Mountain View req's line about off-surface growth across browser extensions, email, Slack, Teams and mobile is a design problem I have already shipped, not a channel checklist.
+
+At Sensata I owned a 100+ feature backlog across three regions, shipping releases 25% faster and raising feature adoption 18% across 50,000+ connected devices through KPI frameworks that found the high-intent cohorts first. At Plug Power I ran 15+ paid experiments that cut CPA 25%, and at Pixis I cut client churn 50% on an 8-client AI portfolio through retention built around actual usage, not reactivation guesswork.
+
+Here's the portfolio: https://adhi-growth-ai.vercel.app/ref/glean
+
+Worth 15 minutes on this req? Glad to be pointed to whoever owns it if not you.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
