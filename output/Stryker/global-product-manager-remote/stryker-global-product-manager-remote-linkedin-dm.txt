@@ -1,0 +1,1 @@
+Hi, noticed this Global PM req spans six internal levels (USN to US30), real cross-region scope. I ran GTM plus roadmap for a sensing line across NA and Europe: $2M+ Y1 revenue, 100+ feature backlog, 3 regions. Portfolio: adhi-product.vercel.app/ref/stryker Open to 15 minutes?
