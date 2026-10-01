@@ -1,0 +1,15 @@
+Subject: Growth Product Manager, Socure Launch: funnel ownership, not just funnel reporting
+
+Hi {Recruiter/Hiring Manager, Socure Launch},
+
+Owning activation end to end, from signup to first production usage, not just reporting on it, is the part of this req I want to be evaluated against.
+
+I built a KPI framework in SQL and GA4 across 50K+ connected devices that split activated accounts from stalled signups, lifting feature adoption 18%. I ran 30+ customer interviews that turned onboarding friction into product fixes, moving CSAT 22%. On SwipeHire, a product I shipped zero-to-one, I owned the funnel stack solo and ran 8+ A/B tests and 12+ interviews that lifted activation 25%.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/socure
+
+Open to 15 minutes if this req is still open.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar

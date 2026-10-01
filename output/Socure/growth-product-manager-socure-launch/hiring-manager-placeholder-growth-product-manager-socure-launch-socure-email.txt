@@ -1,0 +1,18 @@
+Subject: Growth Product Manager, Socure Launch: the funnel stage you named is one I already built
+
+Hi {Hiring Manager, Socure Launch},
+
+I don't normally cold-email a hiring manager, but your posting draws the funnel at "signup through first meaningful production usage," not just signup to trial, and that distinction is the exact problem I built a KPI framework around at Sensata.
+
+I read usage signal across 50K+ connected devices to separate accounts that were actually activating from ones that had signed up and stalled, then fed that split back into the roadmap, moving feature adoption 18%. I ran 30+ interviews with OEMs and distributors, the kind where the real friction is buried in what the customer almost didn't say, and turned that into product fixes that lifted CSAT 22%. I designed and ran 15+ A/B tests on bid strategy and creative, cutting CPA 25%, the same design-the-experiment-read-the-result loop your posting calls out for onboarding and packaging. On SwipeHire, a product I shipped zero-to-one, I owned the GA4/GTM funnel stack solo and ran 8+ A/B tests and 12+ interviews that lifted activation 25% across 50+ early users, the closest shape to what Socure Launch needs next.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/socure
+
+If the team is still scoping this seat, I'd like 15 minutes to hear which part of the activation funnel needs attention first. A pointer elsewhere would help just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
