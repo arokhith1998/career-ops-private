@@ -2,21 +2,17 @@ Subject: GTM Strategy & Operations Lead, Americas, Canva: one seat for the AMER 
 
 Hi {Recruiter, GTM Operations},
 
-I do not usually reach out before applying, but this req sits inside GTM Operations, reporting to the Head of GTM Operations while acting as strategic partner to the Head of AMER Sales, and that forecasting-plus-cadence split is closer to work I already run end to end than a standard sales-ops brief.
+I do not usually reach out before applying, but this req pairs forecast rollups and QBR cadence with strategic partnership to the Head of AMER Sales, under GTM Operations.
 
-A few pieces that map to it:
+Built Sensata's FY2026 Bleeders and Leakers Power BI dashboard: 1,200 opportunities against a $627M target across 3 regions, 4 product families and 20 product lines, surfacing $433M in margin gaps by rep and product line.
 
-Built the FY2026 Bleeders and Leakers Power BI dashboard at Sensata, scoring 1,200 pricing opportunities against a $627M target across 3 regions, 4 product families and 20 product lines, surfacing $433M in margin gaps by rep and product line for leadership to prioritize, the forecast-rollup and performance-visibility layer an AMER cadence runs on.
+Used it to recover $700K+ in margin in two quarters and raise distributor margins from 53% to 61%.
 
-Used that dashboard to recover $700K+ in margin in two quarters and raise distributor and channel-partner margins from 53% to 61%.
-
-Run CRM, CPQ, forecast and pipeline reviews and deal approvals today as founder of PriceKeel, with the Finance-facing audit trail a Revenue Systems partnership needs.
-
-Build forecasting models across multiple product groups at Applied Materials and automate the recurring reporting with Claude AI agents.
+Run CRM, CPQ and pipeline reviews today at PriceKeel; build forecasting models at Applied Materials with Claude AI agents.
 
 Here's the portfolio: https://adhi-product.vercel.app/ref/canva
 
-15 minutes would help me understand how much of the pipeline-inspection and QBR cadence sits with this seat versus Revenue Systems today. If this is not your req, a nudge toward whoever owns it would help just as much.
+15 minutes would help me understand how this seat splits with Revenue Systems. If this is not your req, a nudge toward whoever owns it would help just as much.
 
 Thank you,
 

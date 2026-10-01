@@ -2,19 +2,17 @@ Subject: Strategic partner to AMER Sales, Canva: the forecast that drives resour
 
 Hi {Hiring Manager, GTM Operations},
 
-I do not normally cold-email a hiring manager, but "forecast rollups, risk assessment, scenario modeling and executive readouts" paired with resource-allocation planning is a narrower brief than most forecasting-ops roles ask for, and it is a loop I have already closed, not just reported on.
+I do not normally cold-email a hiring manager, but "forecast rollups, risk assessment, scenario modeling and executive readouts" paired with resource-allocation planning is a narrower brief than most forecasting-ops roles ask for, one loop I have already closed rather than just reported on.
 
-Proof that maps to it:
+At Sensata I built the Bleeders and Leakers Power BI dashboard, scoring 1,200 opportunities against a $627M target across 3 regions, 4 product families and 20 product lines, then recovered $700K+ in margin in two quarters and raised distributor margins from 53% to 61%.
 
-At Sensata I built the Bleeders and Leakers Power BI dashboard, scoring 1,200 opportunities against a $627M target across 3 regions, 4 product families and 20 product lines, then used it to recover $700K+ in margin in two quarters and raise distributor margins from 53% to 61%, the same read-the-dashboard-then-reallocate loop productivity modeling is for.
+I also built a BU-wide price-increase model flagging the highest-profitability line items, the productivity-modeling lens this req calls resource allocation.
 
-I built a BU-wide price-increase model flagging which line items could lift profitability most, the productivity-modeling lens this req calls resource allocation.
-
-I run CRM, CPQ, forecast and pipeline reviews today as founder of PriceKeel, and at Applied Materials I build forecasting models across product groups, automating the recurring reporting with Claude AI agents.
+I run CRM, CPQ and forecast reviews today at PriceKeel, and at Applied Materials I build forecasting models across product groups, automated with Claude AI agents.
 
 Here's the portfolio: https://adhi-product.vercel.app/ref/canva
 
-If the AMER operating cadence is still being drawn, I would like 15 minutes to hear how pipeline inspections and QBRs currently feed resource-allocation calls. If this sits with someone else, a pointer would help just as much.
+If the AMER cadence is still being drawn, I would like 15 minutes to hear how QBRs feed resource-allocation calls. A pointer to whoever owns it would help just as much.
 
 Thank you,
 
