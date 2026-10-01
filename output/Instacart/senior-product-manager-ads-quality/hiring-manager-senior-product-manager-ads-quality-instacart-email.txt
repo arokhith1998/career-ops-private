@@ -1,0 +1,24 @@
+Subject: Experimentation velocity without losing rigor
+
+Hi {Hiring Manager, Ads Quality},
+
+The line about increasing experimentation velocity in Ads Quality without sacrificing rigor is the harder ask than shipping faster. Speed that erodes trust in the auction is not speed, it is debt.
+
+Where I have run that discipline:
+- Owned Sensata's sensor roadmap, 100+ features across 3 regions with engineering in Agile, cutting time-to-market 20% while releases still passed QA.
+- Built SQL and GA4 KPI frameworks on 50K+ connected devices, surfacing high-intent cohorts that lifted adoption 18%, the kind of signal work ranking quality depends on.
+- Ran Amazon Ads and Criteo for 8 D2C clients at Pixis, reading how bid strategy and budget pacing interact with relevance signals on the buy side.
+- At PriceKeel I am building an explainable guardrail engine trained on closed-won and closed-lost data, the same pattern as tuning a quality signal against ranking.
+
+I've attached my resume and cover letter.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/instacart
+
+Open to 15 minutes on how the roadmap is split across the team today?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
