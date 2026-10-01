@@ -1,0 +1,20 @@
+Subject: Support workflows and customer health as one platform, not two
+
+Hi {Recruiter, Post Sales Platform},
+
+I don't normally write in before applying, but treating Professional Services, Technical Support and Customer Success as one platform instead of three separate tools is a harder brief than most post-sales PM reqs, and it's a problem I've actually run.
+
+I cut client churn 50% across an 8-client portfolio at Pixis using Amplitude and Tableau account-health signals to build proactive playbooks, not just dashboards.
+I rebuilt a Salesforce-anchored Mar-Tech stack at Plug Power for closed-loop funnel reporting.
+At Sensata I own PRDs and a 100+-feature backlog, shipping with engineering across 3 regions, lifting feature adoption 18% off SQL and GA4 telemetry.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/mongodb
+
+If this req sits with your desk, 15 minutes would help. If not, a pointer to whoever owns it helps just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

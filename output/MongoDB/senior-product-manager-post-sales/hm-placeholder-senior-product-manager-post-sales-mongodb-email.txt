@@ -1,0 +1,21 @@
+Subject: Reading support telemetry before building the workflow
+
+Hi {Hiring Manager, Post Sales Platform},
+
+I don't normally write in before applying, but this req pulls workforce planning, case routing and AI-driven engagement into one platform brief rather than three disconnected support tools, and that's the kind of system I'd rather build than inherit.
+
+I cut client churn 50% across an 8-client portfolio at Pixis by reading Amplitude and Tableau account-health signals and turning them into proactive, segment-specific playbooks instead of a generic save script.
+At Sensata I own PRDs and a 100+-feature backlog, shipping with engineering across 3 regions, and turned SQL and GA4 telemetry into adoption-driving KPI frameworks, an 18% lift.
+At Applied Materials I'm building Claude-based AI agents to automate analysis work that used to eat a day a week, the same instinct I'd point at case routing.
+At Plug Power I rebuilt a Salesforce-anchored reporting stack for closed-loop funnel visibility.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/mongodb
+
+Worth 15 minutes to see if the fit is real? Happy to be pointed elsewhere if this isn't your req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
