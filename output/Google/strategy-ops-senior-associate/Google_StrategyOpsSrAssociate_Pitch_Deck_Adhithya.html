@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Google Strategy and Operations Senior Associate Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #1a56db; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 27pt; font-weight: 800; color: #0f172a; line-height: 1.14; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 20pt; font-weight: 800; color: #0f172a; line-height: 1.12; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #1a56db; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.8in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbe7fb 100%); }
+  .cover h1 { font-size: 23pt; max-width: 11.5in; }
+  .cover .sub { font-size: 13.5pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 16pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.1pt; font-weight: 500; }
+  .tag strong { color: #1a56db; font-weight: 700; }
+  .cover .who { margin-top: 16pt; padding-top: 10pt; border-top: 1.5pt solid #1a56db; max-width: 9.8in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #1a56db; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #e8eefb; border-left: 3pt solid #1a56db; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.3pt; color: #16399c; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.2pt; color: #334155; line-height: 1.44; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #1a56db; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #e8eefb; border-left: 4pt solid #1a56db; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #16399c; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 23pt; font-weight: 800; color: #1a56db; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #1a56db; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #1a56db; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbe7fb 100%); }
+  .close h2 { font-size: 24pt; max-width: 10.8in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.9in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #1a56db; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Google Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Google Strategy and Operations Senior Associate</div>
+  <h1>GCS needs one person who can extract the insight, design the operating cadence, and keep every function aligned behind it. I already run that loop end to end, three jobs in a row.</h1>
+  <div class="sub">Cross-functional strategy, executive stakeholder management and operating-cadence discipline from someone who builds the dashboard and runs the review, not just one or the other.</div>
+  <div class="tags">
+    <div class="tag"><strong>$433M</strong> in margin gaps surfaced for leadership via a 1,200-opportunity Power BI system</div>
+    <div class="tag"><strong>+8% market share</strong> from a competitive-benchmarking recommendation turned into execution</div>
+    <div class="tag"><strong>AP26 revenue models</strong> and site-transition strategy run directly with senior executives</div>
+    <div class="tag"><strong>8-client, $15K-$90K/mo</strong> advertiser portfolio, the GCS customer side of this seat</div>
+    <div class="tag"><strong>Claude AI agents</strong> automating recurring strategy analysis at Applied Materials</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhithyabhaskar.vercel.app/ref/google</div>
+  </div>
+  <div class="brand">GOOGLE GCS STRATEGY &amp; OPS PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>This posting is really two disciplines held by one person: the analysis that finds the insight, <span class="accent">and the operating cadence that makes it stick.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What losing that discipline runs into</h4>
+      <div class="line">A strategy function that only produces analysis does not fail loudly. It fails as a recommendation that got nodded through in one meeting, then quietly abandoned the next quarter because no cadence existed to check on it.</div>
+      <div class="line">Sales, Finance, Product and Legal all touch the same cross-functional plan, so a gap in process design or stakeholder alignment becomes everyone's guessing game at the next review, not just one team's problem.</div>
+      <div class="line">The fix is not another one-off deck. It is someone who treats insight generation, process design and stakeholder alignment as one connected discipline instead of three separate jobs.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run</h4>
+      <div class="line">At <b>Applied Materials</b>, I align Sales, Engineering and Accounts into one strategic view, then run the OKRs and weekly and quarterly business reviews that keep that view current instead of stale.</div>
+      <div class="line">At <b>Sensata</b>, I built the Bleeders and Leakers dashboard that made 1,200 pricing opportunities actionable, then carried that same analysis into AP26 revenue models directly with senior executives.</div>
+      <div class="line">Both mean I have sat on the insight-generation side and the stakeholder-alignment side of the same loop, not just one or the other.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">A Strategy and Operations Senior Associate who extracts insights, designs operating cadences, develops cross-functional strategy and presents to leadership is describing this exact loop: find the signal, build the process, keep every function aligned behind it.</div>
+  </div>
+  <div class="brand">GOOGLE GCS STRATEGY &amp; OPS PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What the Strategy and Operations Senior Associate opening asks for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">Extract actionable insights from business analyses and modeling.</div></div>
+      <div class="quote"><div class="q">Design processes and operating cadences.</div></div>
+      <div class="quote"><div class="q">Develop strategies addressing stakeholder needs across functions, and present data-driven recommendations to leadership.</div></div>
+      <div class="quote"><div class="q">Define implementation roadmaps and drive cross-functional alignment.</div></div>
+    </div>
+    <div class="col">
+      <h3>My Proof</h3>
+      <div class="proof"><div class="p"><b>Insight from modeling:</b> built the FY2026 Bleeders and Leakers Power BI dashboard at Sensata, ranking 1,200 opportunities and surfacing $433M in margin gaps for leadership to act on.</div></div>
+      <div class="proof"><div class="p"><b>Operating cadences:</b> run leadership decks, OKRs and weekly and quarterly business reviews at Applied Materials, the connective layer between technical teams and leadership, every job back to Plug Power.</div></div>
+      <div class="proof"><div class="p"><b>Stakeholder strategy and leadership readouts:</b> shaped AP26 revenue models and site-transition strategy directly with senior executives at Sensata; presented customer-research plans to the leadership team for approval at Plug Power.</div></div>
+      <div class="proof"><div class="p"><b>Implementation roadmaps, cross-functional alignment:</b> led a 5-consultant team from 170 facilities to a defensible SAM of 28 for Safran leadership, and align Sales, Engineering and Accounts into one view at Applied Materials today.</div></div>
+    </div>
+  </div>
+  <div class="brand">GOOGLE GCS STRATEGY &amp; OPS PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>Bleeders and Leakers: <span class="accent">make every opportunity visible before leadership sets the next target.</span></h2>
+  <div class="lede">Built as a BU-wide Power BI system covering 1,200 pricing opportunities against a $627M target across 3 regions, 4 product families and 20 product lines, with a pipeline funnel, regional scorecards and win-rate view checked before leadership set the next quarter's priorities.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$433M</div>
+      <div class="lbl">Margin Gaps Surfaced</div>
+      <div class="desc">Every gap traced to a specific record by salesperson and product line, the same segment-level detail a cross-functional strategy review needs to act instead of debate.</div>
+    </div>
+    <div class="stat">
+      <div class="n">+8%</div>
+      <div class="lbl">Market Share Gained</div>
+      <div class="desc">10+ competitors benchmarked, then turned into a recommendation that drove +12% YoY revenue alongside it, the insight-to-execution step this role owns.</div>
+    </div>
+    <div class="stat">
+      <div class="n">53% to 61%</div>
+      <div class="lbl">Distributor Margin Lift</div>
+      <div class="desc">Repriced the channel logic and documented it so the cadence held past the first quarter, not just the one review it was presented in.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">That same instinct runs the Applied Materials seat today: align Sales, Engineering and Accounts into one view, then keep the OKRs and quarterly reviews current so the plan does not go stale after the first meeting.</div>
+  <div class="brand">GOOGLE GCS STRATEGY &amp; OPS PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month inside GCS Sales and Strategy looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Map the stakeholders and the current cadence</div>
+      <div class="body">Sit with Sales, Finance and the Strategy lead to learn how insights currently move from analysis to a decision, and shadow one existing operating review end to end before touching anything.</div>
+      <div class="why"><strong>Why first:</strong> the same instinct that had me learn Applied Materials' Sales, Engineering and Accounts loop before building anything on top of it.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Own one business analysis end to end</div>
+      <div class="body">Take one open business question, build the model against the underlying data, and present a data-driven recommendation to leadership, the same loop that turned the Bleeders and Leakers analysis into a leadership decision at Sensata.</div>
+      <div class="why"><strong>Why now:</strong> the fastest way to earn trust on an unfamiliar dataset is to ship one complete recommendation, not a slide of open questions.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Stand up the operating cadence</div>
+      <div class="body">Propose the recurring review that keeps that recommendation alive: who owns it, how often it gets checked, and what triggers a revisit, mirroring the weekly and quarterly reviews already running at Applied Materials and Sensata.</div>
+      <div class="why"><strong>Why this fast:</strong> a cross-functional plan only earns its keep if a cadence exists to re-check it every cycle instead of trusting the first readout.</div>
+    </div>
+  </div>
+  <div class="brand">GOOGLE GCS STRATEGY &amp; OPS PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to turn cross-functional ambiguity into one operating cadence leadership trusts. I have already built that discipline, from the analysis side and the alignment side.</h2>
+  <div class="body">
+    <p>The core proof is Sensata: a Power BI system tracking <strong>1,200 pricing opportunities against a $627M target</strong>, $433M in margin gaps surfaced for leadership, and a competitive-benchmarking recommendation that drove <strong>+8% market share</strong>.</p>
+    <p>What is harder to find is someone who has also sat on the GCS customer side of the business: I carried P&amp;L targets for an <strong>8-client, $15K-$90K/month advertising portfolio</strong> at Pixis. The analysis, the cadence and the advertiser's view are not three separate skills I would need to learn on the job.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhithyabhaskar.vercel.app/ref/google</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">GOOGLE GCS STRATEGY &amp; OPS PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>

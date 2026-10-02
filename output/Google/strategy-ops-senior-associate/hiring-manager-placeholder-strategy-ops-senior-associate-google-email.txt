@@ -1,0 +1,24 @@
+Subject: The operating cadence between GCS strategy and day-to-day
+
+Hi {Hiring Manager, Google Customer Solutions},
+
+I don't normally reach out before applying, but the posting's framing, someone who designs the operating cadence between high-level strategy and day-to-day business operations, then defends the recommendation in front of leadership, is the seat I already sit in.
+
+Built you a 6-slide pitch deck so the proof fits on one read.
+
+Proof points that map to the req:
+- Built Sensata's Bleeders and Leakers Power BI dashboard, 1,200 pricing opportunities against a $627M target across 3 regions, surfacing $433M in margin gaps, and recovered $700K+ in margin in 2 quarters.
+- Partnered with senior executives on AP26 revenue models and site transition strategy, the cross-functional alignment this role asks for.
+- Managed an 8-client advertiser portfolio at Pixis, $15K-$90K per client per month, carrying P&L and revenue targets directly, the advertiser-side angle GCS sits inside.
+- At Applied Materials I'm automating the recurring parts of that analysis with Claude AI agents so the cadence runs faster than the headcount behind it.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/google
+
+Would you have 15 minutes to talk through which stakeholder group is hardest to align right now?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
