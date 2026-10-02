@@ -1,0 +1,21 @@
+Subject: Revenue Strategy & Operations - the dashboard-plus-automation combination you're describing
+
+Hi {Recruiter, Revenue Strategy & Operations},
+
+I don't normally write in before applying, but your posting's own description of the job, tools, automations and dashboards that let sales, data and product teams execute with precision, is close to word for word what I already built at Sensata, so it made me reach out directly.
+
+A few things that map onto the req:
+- Built and ran a Power BI dashboard tracking 1,200 pipeline opportunities against a $627M target across 3 regions and 20 product lines, surfacing $433M in margin gaps for leadership to act on.
+- Own the CRM, CPQ configuration and the forecast and pipeline review cadence end to end at PriceKeel, the company I founded, so I know what breaks when a process lives in someone's head instead of a system.
+- Automate recurring revenue analysis with AI agents built on Claude at Applied Materials, the same instinct behind strategic automations, now aimed at a company whose own product is an AI agent.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/elevenlabs
+
+If this req sits with your desk, 15 minutes would help. If it does not, a pointer to whoever owns it helps just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

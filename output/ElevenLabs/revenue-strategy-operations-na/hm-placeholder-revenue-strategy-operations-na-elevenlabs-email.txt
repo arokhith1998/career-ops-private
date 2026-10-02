@@ -1,0 +1,21 @@
+Subject: Revenue Strategy & Operations - automating revenue analysis is already my day job
+
+Hi {Hiring Manager, Revenue Strategy & Operations},
+
+I do not normally reach out before applying, but a company whose own product is an AI agent asking for strategic automations, not just reports, is a different kind of Revenue Ops req than most, and I already run that instinct in my current job, so I wanted to reach you directly.
+
+A few things that map onto what you're building:
+- At Applied Materials I automate recurring revenue analysis with AI agents built on Claude, the same muscle behind the automations your team is asking for, just pointed at a different workflow.
+- At Sensata I built the Bleeders and Leakers Power BI dashboard, tracking 1,200 pipeline opportunities across 3 regions and 20 product lines and surfacing $433M in margin gaps, the KPI reporting layer your posting describes.
+- At PriceKeel, the company I founded, I own the CRM, CPQ configuration and the pipeline review cadence end to end, so I know the process side of this job as well as the dashboard side.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/elevenlabs
+
+Would 15 minutes work to talk through where this req stands? If it is not yours, a pointer to whoever owns it would help just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
