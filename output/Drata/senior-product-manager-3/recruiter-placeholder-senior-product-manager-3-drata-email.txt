@@ -2,7 +2,7 @@ Subject: Built a guardrail engine from a blank PRD, twice
 
 Hi {Recruiter, Product},
 
-Your posting flags "0-1 launch experience" as strongly preferred, not a nice-to-have, and that's the part of my background I don't usually get to lead with. I founded PriceKeel from a blank PRD: a guardrail engine and audit trail for B2B deal pricing, now in pilots while I raise the first round.
+Your posting flags "0-1 launch experience" as strongly preferred, which I don't usually get to lead with. I founded PriceKeel from a blank PRD: a guardrail engine and audit trail for B2B deal pricing, now in pilots while I raise the first round.
 
 Before that I owned a 100+ feature Enterprise roadmap at Sensata, prioritizing ruthlessly with engineering in Agile across 3 regions, shipping releases 25% faster. I ground every call in structured interviews (30+ OEMs and distributors), work that lifted CSAT 22%. I also build with AI as the default lens: Claude agents now automate my analysis at Applied Materials, close to the agentic platform Drata is building.
 

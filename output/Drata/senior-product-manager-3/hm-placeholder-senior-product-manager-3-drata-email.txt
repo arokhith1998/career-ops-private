@@ -2,9 +2,9 @@ Subject: The MVP question is "has it learned enough," not "did it ship"
 
 Hi {Hiring Manager, Enterprise Product},
 
-"Problems without a playbook" is a specific thing to put in a job posting, and it's the environment I already build in. At PriceKeel I wrote the PRD, scoped the MVP and shipped a guardrail engine and audit trail for B2B deal pricing from zero, with no process to copy; I'm running pilots on it now while raising the first round.
+"Problems without a playbook" is specific enough to be real, and it's the environment I already build in. At PriceKeel I wrote the PRD, scoped the MVP and shipped a guardrail engine and audit trail for B2B deal pricing from zero, with no process to copy; I'm running pilots on it now while raising the first round.
 
-That same judgment carried over from owning a 100+ feature Enterprise roadmap at Sensata for OEM and distributor customers, where ruthless prioritization with engineering cut time-to-market 20% without breaking what customers relied on. I check every roadmap call against structured interviews, not assumption: 30+ with OEMs and distributors, work that lifted CSAT 22%. I also build my own Claude agents at Applied Materials and review their output before it reaches a P&L-level call, the automation-plus-judgment pairing your "agentic AI platform" framing is asking for.
+That same judgment carried over from owning a 100+ feature Enterprise roadmap at Sensata for OEM and distributor customers, where ruthless prioritization with engineering cut time-to-market 20% without breaking what customers relied on. I check every call against structured interviews: 30+ with OEMs and distributors, work that lifted CSAT 22%. I also build my own Claude agents at Applied Materials and review their output before it reaches a P&L-level call, the automation-plus-judgment pairing your "agentic AI platform" framing asks for.
 
 I've attached my resume and cover letter.
 
