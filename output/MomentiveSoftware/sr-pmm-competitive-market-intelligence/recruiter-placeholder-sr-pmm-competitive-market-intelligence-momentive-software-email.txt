@@ -6,10 +6,10 @@ I don't normally write in before applying, but seeing Claude named directly as a
 
 A few things line up with this req:
 
-Designed and ran 30+ structured interviews with OEMs and distributors at Sensata, the same interview design, execution and synthesis loop a win-loss program runs on, and the findings lifted CSAT 22%.
-Benchmarked competitive pricing and positioning across 10+ players at Sensata, feeding a realignment that drove +8% market share.
-Already run AI agents built on Claude at Applied Materials against the repetitive side of market and competitive research, so that line in the posting is not new ground.
-Built buyer personas and a TAM/SAM/SOM model across 4 verticals for a Safran market-entry project, then presented the case to Safran's own leadership.
+Designed and ran 30+ structured OEM/distributor interviews at Sensata, the interview design, execution and synthesis loop a win-loss program runs on, lifting CSAT 22%.
+Benchmarked competitive pricing across 10+ players at Sensata, feeding a realignment that drove +8% market share.
+Already run AI agents built on Claude at Applied Materials against competitive research, so that line is not new ground.
+Built buyer personas and a TAM/SAM/SOM model across 4 verticals for a Safran project, presented to Safran's leadership.
 
 Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/momentive-software
 

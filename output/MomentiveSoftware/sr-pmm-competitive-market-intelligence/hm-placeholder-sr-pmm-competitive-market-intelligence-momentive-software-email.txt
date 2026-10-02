@@ -6,9 +6,9 @@ I don't normally write in before applying, but the line about insights not sitti
 
 Specific overlaps I noticed in the posting:
 
-Designed and ran 30+ structured interviews with OEMs and distributors at Sensata, the same interview design, execution and synthesis your win-loss program needs, turning findings into product changes that lifted CSAT 22%.
-Built buyer personas and journey maps across 4 verticals for a Safran market-entry project, inside a TAM/SAM/SOM model, then presented the case directly to their leadership.
-Benchmarked 10+ competitors on pricing and positioning at Sensata, feeding a realignment that moved market share +8%.
+Designed and ran 30+ structured interviews with OEMs and distributors at Sensata, the interview design, execution and synthesis a win-loss program needs, turning findings into product changes that lifted CSAT 22%.
+Built buyer personas and journey maps across 4 verticals for a Safran market-entry project, inside a TAM/SAM/SOM model, presented directly to their leadership.
+Benchmarked 10+ competitors on pricing at Sensata, feeding a realignment that moved market share +8%.
 Run AI agents built on Claude at Applied Materials against the repetitive side of competitive research daily, the same tool the posting names.
 
 Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/momentive-software
