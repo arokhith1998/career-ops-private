@@ -1,0 +1,20 @@
+Subject: Fee-arrangement templates that survive reuse, not just the first matter
+
+Hi {Recruiter, Seyfarth Shaw Strategic Pricing},
+
+I do not normally reach out before applying, but the line about building reliable budget and staffing templates for recurring matter types, not one-off estimates, is a problem I have already solved at scale.
+
+At Sensata I built a Power BI dashboard tracking 1,200 pricing opportunities against a $627M target, with templates leadership could trust without rebuilding the math each time.
+I run deal approvals myself, from intake through an audit trail, as founder of PriceKeel, and recovered $700K+ in margin in two quarters at Sensata evaluating fee structures against competitive and willingness-to-pay data.
+I also trained stakeholders on pricing logic through 30+ structured interviews at Sensata, the same practice-group training this seat runs.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/seyfarth-shaw
+
+Worth 15 minutes if this is your req, no worries if it already has an owner.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

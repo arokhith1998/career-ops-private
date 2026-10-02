@@ -1,0 +1,1 @@
+Hi, I shipped an AI platform on the OpenAI API and built the review loop that catches a wrong model answer, then ran a 100+ feature backlog at Sensata with 30+ customer interviews. Saw the SF AI Quality PM role. Portfolio: adhi-product-ai.vercel.app/ref/glean Open to connecting?

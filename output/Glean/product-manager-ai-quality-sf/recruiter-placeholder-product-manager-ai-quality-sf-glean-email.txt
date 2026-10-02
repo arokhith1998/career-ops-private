@@ -1,0 +1,20 @@
+Subject: The review-loop problem behind the SF AI Quality req
+
+Hi {Recruiter, AI Quality},
+
+I do not normally message before applying, but the line about owning AI/ML Ops and external-facing platform capabilities is a problem I build for, not talk about.
+
+I scoped SwipeHire zero to one on the OpenAI API, and the real work was deciding what to do when the model's first answer was wrong, so I built that review loop into the product from the PRD stage.
+At Sensata I owned a 100+ feature backlog and ran 30+ interviews with OEM and distributor engineers to find where the product actually broke, lifting CSAT 22% and feature adoption 18% across 50,000+ connected devices.
+At Applied Materials I build my own Claude AI agents for forecasting, and I never ship their output unread, the same build-then-check instinct this req wants.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/glean
+
+Worth 15 minutes on the San Francisco req? Happy to be pointed elsewhere if not you.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
