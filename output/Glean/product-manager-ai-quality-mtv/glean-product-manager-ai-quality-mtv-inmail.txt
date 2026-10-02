@@ -1,0 +1,18 @@
+Subject: The review loop is the product, not the API call
+
+Hi {Recruiter or Hiring Manager, AI Quality},
+
+I do not normally send an InMail before applying, but the Mountain View req's framing, AI/ML Ops plus external-facing platform capabilities, describes a problem I have already shipped on a smaller surface.
+
+I scoped SwipeHire zero-to-one on the OpenAI API and built the review loop for wrong first answers into the PRD from the start, not as a fix added after launch. At Sensata I owned a 100+ feature backlog and ran 30+ interviews with OEM and distributor engineers to find where the product actually broke, lifting CSAT 22% and feature adoption 18% across 50,000+ connected devices. At Applied Materials I build my own Claude AI agents for forecasting and do not ship their output unread, the same build-then-check habit this role is asking someone to own at platform scale.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/glean
+
+Worth 15 minutes on this req? Glad to be pointed elsewhere if it is not yours.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

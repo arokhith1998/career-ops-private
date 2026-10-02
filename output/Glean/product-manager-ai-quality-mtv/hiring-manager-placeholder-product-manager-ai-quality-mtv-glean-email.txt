@@ -1,0 +1,20 @@
+Subject: What counts as a good enough AI answer, and who decides
+
+Hi {Hiring Manager, AI Quality},
+
+I do not normally reach out before applying, but the way this req frames the job, measured by whether the answer was actually right, not just whether it shipped, is the question I have been answering on a smaller product for two years.
+
+SwipeHire's auto-tailored resumes run on the OpenAI API, and I wrote the PRD knowing the model's first answer would sometimes be wrong, so the review loop that caught and corrected it was part of the product from day one, not a patch added later.
+At Sensata I owned the roadmap and a 100+ feature backlog, running 30+ interviews with OEM and distributor engineers to find where the product actually broke, which lifted CSAT 22% and feature adoption 18% across 50,000+ connected devices.
+At Applied Materials I build my own Claude AI agents for forecasting, and I treat their output the same way: build the automation, then build the check on the automation, before it reaches anyone downstream.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/glean
+
+If this Mountain View req is yours, 15 minutes would help me understand how your team draws that line today. If it sits with someone else, a pointer would too.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
