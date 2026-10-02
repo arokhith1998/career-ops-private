@@ -1,0 +1,23 @@
+Subject: Where capacity planning and churn prediction overlap at Sauce Labs
+
+Hi {Hiring Manager, GTM Strategy and Planning},
+
+I don't normally write in before applying, but the way this req pairs capacity models for territory planning with churn-prediction models under one seat is specific enough that I wanted to ask about it, since most GTM analyst roles pick one side and I have run both.
+
+I've attached my resume and cover letter.
+
+At Sensata, I built the Bleeders and Leakers Power BI dashboard that tracked pipeline funnel and win rate against a $627M opportunity set, the forecast-accuracy problem board reporting depends on.
+At Pixis, churn prediction fed directly into account reviews and cut client churn 50% across an 8-client portfolio.
+I run the CRM, forecast-review and deal-approval loop end to end at my own company, PriceKeel.
+At Plug Power, I built the budget to forecast cycle that went to leadership each quarter for approval.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/sauce-labs
+
+Would 15 minutes work to talk through where the capacity-planning side of this seat is thinnest right now? Happy to be pointed elsewhere if this sits with someone else.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
