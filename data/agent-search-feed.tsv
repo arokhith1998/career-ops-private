@@ -1,16 +1,19 @@
 source	sources	company	title	location	url	posted_ts	age_days	sponsorship_hint	salary	category
-websearch-agent	websearch-agent	Kristalball	Chief of Staff	Bellandur, Bangalore, India	https://www.kristalball.com/careers/chief-of-staff					role:chief_of_staff
-websearch-agent	websearch-agent	PGAGI	Founder's Office	Bengaluru, India	https://cutshort.io/job/Founder-s-Office-Bengaluru-Bangalore-PGAGI-bmNwZm9y					role:founders_office
-websearch-agent	websearch-agent	Groww	Head of Growth	Bangalore, India	https://www.instahyre.com/job-29023-head-of-growth-at-groww-2-bangalore/					role:head_of_growth
-websearch-agent	websearch-agent	Safle	Head of Growth	Work From Home, India	https://www.instahyre.com/job-344579-head-of-growth-at-safle-work-from-home/					role:head_of_growth
-websearch-agent	websearch-agent	Sensibull	Head of Growth (Product)	Bangalore, India	https://www.instahyre.com/job-79478-head-of-growth-product-at-sensibull-bangalore/					role:head_of_growth
-websearch-agent	websearch-agent	CoinSwitch	Head of Growth	Bangalore, India	https://www.instahyre.com/job-110185-head-of-growth-at-coinswitch-bangalore/					role:head_of_growth
-websearch-agent	websearch-agent	Coral Academy	Head of Growth	Work From Home, India	https://www.instahyre.com/job-390874-head-of-growth-at-coral-academy-work-from-home/					role:head_of_growth
-websearch-agent	websearch-agent	Unknown (IIMJobs)	Growth Head - D2C	India	https://www.iimjobs.com/j/growth-head-d2c-1657692					role:head_of_growth
-websearch-agent	websearch-agent	Unknown (IIMJobs)	Head - Growth Marketing - Education	India	https://www.iimjobs.com/j/head-growth-marketing-education-1615597					role:head_of_growth
-websearch-agent	websearch-agent	Klub	Entrepreneur in Residence (EIR)	India	https://startup.jobs/entrepreneur-in-residence-eir-klub-3235591					role:entrepreneur_in_residence
-websearch-agent	websearch-agent	Landeed	Entrepreneur-In-Residence	India	https://www.workatastartup.com/jobs/60434					role:entrepreneur_in_residence
-websearch-agent	websearch-agent	OpenAI	Competitive Intelligence Lead	San Francisco, CA	https://jobs.ashbyhq.com/openai/cce31320-258d-4a2f-96f7-6782208d5db6					role:market_strategy
-websearch-agent	websearch-agent	Listen Labs	Marketing Strategy Lead	San Francisco, CA	https://jobs.ashbyhq.com/listenlabs/afe89237-a3c2-4a49-b3b8-b3b2fec1e284					role:marketing
-websearch-agent	websearch-agent	GridUnity	Senior Manager, Market Intelligence & Partnerships	Remote - US	https://jobs.ashbyhq.com/gridunity/2b9f33ce-7e9b-404d-b88f-09f05bf355b0					role:market_strategy
-websearch-agent	websearch-agent	Redox	Senior Product Manager - Interoperability Engine & Commercial Strategy	Remote - US	https://jobs.lever.co/redoxengine/16433cf3-3226-4e9e-b04e-71c85af443a7					role:product
+websearch-agent	websearch-agent	Unetra	Chief of Staff - Office of the Founder	Mumbai, India (Remote)	https://wellfound.com/jobs/4745956-chief-of-staff-office-of-the-founder				16L-22L INR	role:chief_of_staff
+websearch-agent	websearch-agent	CodeRound AI	Founder's Office / Chief of Staff	Mumbai, India	https://cutshort.io/job/Founder-s-office-Chief-Of-Staff-2025-2026-Grads-Mumbai-CodeRound-AI-DqLI2iBY				3L-12L INR	role:founders_office
+websearch-agent	websearch-agent	CloudSEK	Chief of Staff	Bangalore, India	https://www.instahyre.com/job-357638-chief-of-staff-at-cloudsek-bangalore/					role:chief_of_staff
+websearch-agent	websearch-agent	Filo	Chief of Staff - Monetization	Gurgaon, India	https://www.instahyre.com/job-201562-chief-of-staff-monetization-at-filo-gurgaon/					role:chief_of_staff
+websearch-agent	websearch-agent	Bessemer Venture Partners	Chief of Staff	Bangalore, India	https://www.instahyre.com/job-193746-chief-of-staff-at-bessemer-venture-partners-bangalore/					role:chief_of_staff
+websearch-agent	websearch-agent	Tranzact	Head of Growth	Mumbai, India	https://www.instahyre.com/job-145488-head-of-growth-at-tranzact-mumbai/					role:head_of_growth
+websearch-agent	websearch-agent	Sharpe Labs	Head of Growth	Delhi/Gurgaon/Noida, India	https://www.instahyre.com/job-367721-head-of-growth-at-sharpe-labs-delhi-gurgaon-noida/					role:head_of_growth
+websearch-agent	websearch-agent	Hevo Technologies	Chief of Staff - Founder's Office	Bangalore, India	https://www.iimjobs.com/j/hevo-chief-of-staff-founders-office-1687459					role:founders_office
+websearch-agent	websearch-agent	Drivetrain	Product Marketing Manager	Remote (SF Bay Area HQ)	https://jobs.lever.co/drivetrain/ba7f3003-5832-41c8-accd-3f5a174d68d6					role:marketing
+websearch-agent	websearch-agent	Pigment	Product Marketing Manager	San Francisco, CA	https://jobs.lever.co/pigment/9e3836bc-a7f7-4121-be7a-07520d99a425				$180,000-$210,000	role:marketing
+websearch-agent	websearch-agent	Doss	Revenue Operations (RevOps) Lead	San Francisco, CA	https://jobs.ashbyhq.com/doss/c9c1516b-d356-4b1f-b80a-471d45180f2d					role:revops
+websearch-agent	websearch-agent	MoeGo	Revenue Operations Manager	Remote - US	https://jobs.ashbyhq.com/moego/8aa116af-0934-424b-80ea-296caef3d6e4				$100,000-$130,000	role:revops
+websearch-agent	websearch-agent	Relevance AI	Revenue Operations Lead	San Francisco, CA (Hybrid)	https://jobs.ashbyhq.com/relevanceai/c8c6cb59-c1d9-4b14-b60c-29ca746ecc30					role:revops
+websearch-agent	websearch-agent	Harper	Revenue Operations Lead	San Francisco, CA	https://jobs.ashbyhq.com/harperinsure/cff6e3ae-da5b-4ffd-92b8-b3248b97605f					role:revops
+websearch-agent	websearch-agent	hive.co	Revenue Operations Manager	Remote - US	https://jobs.ashbyhq.com/hive.co/4e83cf48-d1fd-456b-a2ae-99239554968c					role:revops
+websearch-agent	websearch-agent	Rula	Revenue Operations Manager	Remote - US	https://jobs.ashbyhq.com/rula/d6926259-4002-44fd-a24d-57a88d804eb8					role:revops
+websearch-agent	websearch-agent	Droyd	Chief of Staff	San Francisco, CA	https://jobs.ashbyhq.com/droyd/7a342911-ea30-4f33-866a-e1b2e6bf7c84				$130,000-$170,000	role:chief_of_staff
+websearch-agent	websearch-agent	San Francisco Compute Company	Chief of Staff to the CEO	San Francisco, CA (Hybrid)	https://jobs.ashbyhq.com/sfcompute/812474dc-7ce0-4918-bce5-24a41326caa9					role:chief_of_staff
