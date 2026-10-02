@@ -2,11 +2,11 @@ Subject: The "strategist, builder, operator" split is the job I already run
 
 Hi {VP, Sales Engineering},
 
-I do not usually message before applying, but a req that names the job as "part strategist, part builder, part operator" instead of a title is rare, and that split is what I run day to day right now, just not yet inside a Sales Engineering org.
+I do not usually message before applying, but a req that names the job as "part strategist, part builder, part operator" instead of a title is rare, and that split is what I run right now, just not yet in Sales Engineering.
 
-At Sensata, I built the Bleeders and Leakers Power BI dashboard that turned 1,200 pricing opportunities and a $627M target into a weekly read leadership could act on, surfacing $433M in margin gaps by salesperson.
-As founder of PriceKeel, I run CRM, CPQ, forecast and pipeline reviews, and deal approvals end to end, the single operational thread a matrixed org needs someone to own.
-At Applied Materials I carry P&L and revenue targets while automating the repetitive analysis with Claude AI agents, so the time goes to the calls that need judgment.
+At Sensata, I built the Bleeders and Leakers Power BI dashboard: 1,200 opportunities and a $627M target into a weekly read, surfacing $433M in margin gaps by salesperson.
+As founder of PriceKeel, I run CRM, CPQ, forecast and pipeline reviews, and deal approvals end to end, the operational thread a matrixed org needs.
+At Applied Materials I carry P&L and revenue targets while automating the repetitive analysis with Claude AI agents.
 
 Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/sigma-computing
 
