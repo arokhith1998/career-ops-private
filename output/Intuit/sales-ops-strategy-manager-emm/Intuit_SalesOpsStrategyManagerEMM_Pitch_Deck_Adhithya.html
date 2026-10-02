@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Intuit Sales Operations & Strategy Manager EMM Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #1a56db; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 32pt; font-weight: 800; color: #0f172a; line-height: 1.08; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 21pt; font-weight: 800; color: #0f172a; line-height: 1.1; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #1a56db; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.5in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbe7fb 100%); }
+  .cover h1 { font-size: 29pt; max-width: 11.2in; }
+  .cover .sub { font-size: 14pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 18pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #1a56db; font-weight: 700; }
+  .cover .who { margin-top: 18pt; padding-top: 11pt; border-top: 1.5pt solid #1a56db; max-width: 9in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #1a56db; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #eef3fc; border-left: 3pt solid #1a56db; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #123a91; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #1a56db; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #eef3fc; border-left: 4pt solid #1a56db; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #123a91; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 24pt; font-weight: 800; color: #1a56db; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #1a56db; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #1a56db; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbe7fb 100%); }
+  .close h2 { font-size: 26pt; max-width: 10.5in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.5in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #1a56db; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Intuit Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Intuit Sales Operations &amp; Strategy Manager, Emerging Mid-Market</div>
+  <h1>EMM is QuickBooks' fastest-changing segment, which means the scorecard, the forecast and the GTM playbook all go stale at once. I have already built that scorecard, and the forecast Finance signed off on.</h1>
+  <div class="sub">Sales strategy, revenue scorecards and Finance-reconciled forecasting built by someone who runs that exact loop today.</div>
+  <div class="tags">
+    <div class="tag"><strong>$627M</strong> target scorecard, 1,200 opportunities ranked, 3 regions, Sensata</div>
+    <div class="tag"><strong>$700K+</strong> margin recovered in 2 quarters off that same scorecard</div>
+    <div class="tag"><strong>$2M+</strong> first-year revenue from a GTM initiative I owned end to end</div>
+    <div class="tag"><strong>PriceKeel</strong> - founder running CRM, CPQ, forecast and pipeline reviews today</div>
+    <div class="tag"><strong>Claude AI agents</strong> automate the forecasting work behind the narrative</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhithyabhaskar.vercel.app/ref/intuit</div>
+  </div>
+  <div class="brand">INTUIT EMM SALES OPS</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>The risk in EMM is not a missed target. It is a scorecard <span class="accent">three teams stop trusting at the same time.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What a fast-moving mid-market segment runs into</h4>
+      <div class="line">ICPs, segmentation and market sizing age out quickly when a segment is still forming, so a GTM initiative gets measured against targeting data that is already a quarter out of date.</div>
+      <div class="line">A scorecard that Sales, Finance and leadership each read differently is worse than no scorecard: it lets every team keep its own version of "on track" until the quarter closes.</div>
+      <div class="line">The fix is not another reporting layer. It is one Finance-reconciled number, an executive narrative built on it, and a habit of re-running the ICP work before it goes stale.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run, at smaller scale</h4>
+      <div class="line">At <b>Sensata</b>, I built the Bleeders and Leakers scorecard: 1,200 opportunities ranked against a $627M target, one definition of pipeline stage, win rate and margin across 3 regions.</div>
+      <div class="line">I did not stop at the dashboard. I <b>owned a GTM initiative end to end</b> (new sensing line launch, $2M+ first-year revenue), so I know what a scorecard has to measure before the launch, not just after.</div>
+      <div class="line">I run that same loop today at <b>PriceKeel</b>: CRM and CPQ, forecast and pipeline reviews, and an audit trail Finance can point to, because a Finance-reconciled model only holds if someone owns it past launch day.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">ICPs and segmentation, an EMM scorecard with units/revenue/trend, Finance-reconciled forecasting, and cross-functional adoption of new processes are one loop: fix the targeting, build the number everyone agrees on, then keep it from drifting as the segment moves.</div>
+  </div>
+  <div class="brand">INTUIT EMM SALES OPS</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What the Sales Operations &amp; Strategy Manager opening asks for, and where the proof sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Develop ICPs, customer segmentation, and market sizing for EMM targeting."</div></div>
+      <div class="quote"><div class="q">"Own the EMM scorecard (units, revenue pipeline, trends); build Finance-reconciled revenue models and forecasting frameworks."</div></div>
+      <div class="quote"><div class="q">"Prepare executive narratives and drive cross-functional adoption of new processes."</div></div>
+    </div>
+    <div class="col">
+      <h3>My Proof</h3>
+      <div class="proof"><div class="p"><b>Bleeders and Leakers scorecard at Sensata:</b> built the system, surfaced $433M in margin gaps, then closed $700K+ of it in 2 quarters, the same units-to-revenue-to-trend discipline an EMM scorecard needs.</div></div>
+      <div class="proof"><div class="p"><b>GTM initiative with a measurable outcome:</b> owned go-to-market for a new sensing product line, positioning through launch, closing its first year at $2M+ in revenue.</div></div>
+      <div class="proof"><div class="p"><b>ICP and market sizing at Applied Materials today:</b> sizes the semiconductor market with Sales, Engineering and Accounts, the cross-functional targeting work behind EMM, too.</div></div>
+      <div class="proof"><div class="p"><b>AI GTM fluency as a habit, not a pilot:</b> automates recurring forecasting and reporting work with Claude AI agents, the agentic AI use your posting asks for by name.</div></div>
+    </div>
+  </div>
+  <div class="brand">INTUIT EMM SALES OPS</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The Sensata proof, in depth</div>
+  <h2>Bleeders and Leakers: <span class="accent">one scorecard, one number, a narrative leadership acted on.</span></h2>
+  <div class="lede">Built as a BU-wide Power BI scorecard covering 1,200 pricing opportunities against a $627M target across 3 regions, 4 product families and 20 product lines, with pipeline funnel, win rate and stage distribution by salesperson and product line: the same units/revenue/trend view an EMM scorecard has to deliver.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$433M</div>
+      <div class="lbl">Margin Gaps Surfaced</div>
+      <div class="desc">The scorecard's job: rank every opportunity on one consistent metric so leadership could prioritize by salesperson and product line instead of chasing anecdotes.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$700K+</div>
+      <div class="lbl">Margin Recovered in 2 Quarters</div>
+      <div class="desc">Closed through negotiated fixes built on competitive gaps and documented customer willingness to pay, reported back as one executive narrative.</div>
+    </div>
+    <div class="stat">
+      <div class="n">53% to 61%</div>
+      <div class="lbl">Distributor Margin Lift</div>
+      <div class="desc">Redesigned the deal structure itself and routed it through Finance and Sales sign-off, so the gain outlived the first repricing pass.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">The same BU carried P&amp;L and revenue targets and ran multimillion-dollar customer quotes alongside senior executives, where Finance and Sales had to agree on the same number before a deal moved. That is the cross-functional adoption muscle the posting calls out directly.</div>
+  <div class="brand">INTUIT EMM SALES OPS</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month on Intuit's EMM sales strategy team looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Map where the EMM number disagrees</div>
+      <div class="body">Pull the current EMM scorecard, forecasting model and ICP/segmentation work as they exist across Sales, Finance and GTM teams today, and trace where two teams are using "on track" to mean different things. Sit with GTM and Finance leadership to hear where that friction already shows up.</div>
+      <div class="why"><strong>Why first:</strong> the disagreement is usually visible in the data before anyone names it. Same move that started the Bleeders and Leakers program.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Ship the Finance-reconciled scorecard</div>
+      <div class="body">Build the EMM scorecard tracking units, revenue pipeline and trend against one shared forecasting framework, and pressure-test it with Sales and Finance against the top targeting and quota questions before it goes live.</div>
+      <div class="why"><strong>Why now:</strong> ranking against one real target, then verifying with the cross-functional group, is what made the 53% to 61% distributor gain stick.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Turn it into the executive narrative</div>
+      <div class="body">Package the Week 1-3 findings into the executive narrative leadership uses to track EMM, plus a change-management path for cross-functional adoption so the new process does not quietly revert after the first review.</div>
+      <div class="why"><strong>Why this fast:</strong> a scorecard matters less if the story behind it stays ad hoc. Adoption is the actual ask behind "drive cross-functional adoption."</div>
+    </div>
+  </div>
+  <div class="brand">INTUIT EMM SALES OPS</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to make the EMM scorecard the number everyone trusts. I have already built that scorecard, and the forecast and the narrative underneath it.</h2>
+  <div class="body">
+    <p>The core proof is Sensata: <strong>$700K+ in margin recovered in 2 quarters</strong>, distributor margins lifted <strong>from 53% to 61%</strong>, and a BU-wide scorecard that gave Sales, Finance and leadership one shared view of 1,200 opportunities against a $627M target.</p>
+    <p>What is harder to find is someone who has also owned a GTM initiative end to end and run the forecast loop as a founder. I set up and operate <strong>CRM, CPQ, forecast and pipeline reviews as founder of PriceKeel</strong>, and I owned a go-to-market launch at Sensata that closed its first year at <strong>$2M+ in revenue</strong>, which means the targeting-to-scorecard-to-narrative loop behind this role is not something I would need to learn on the job.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhithyabhaskar.vercel.app/ref/intuit</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">INTUIT EMM SALES OPS</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
