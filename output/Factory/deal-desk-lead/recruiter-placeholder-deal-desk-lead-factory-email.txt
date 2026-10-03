@@ -1,0 +1,21 @@
+Subject: Deal Desk Lead - built you a 6-slide deck instead of just a resume
+
+Hi {Recruiter, Revenue Operations},
+
+I do not usually write before applying, but a Deal Desk brief that asks the hire to point your own droids at your own quote-to-booking process, not just pitch them to customers, is the exact seat I already run day to day.
+
+Built a 6-slide pitch deck so the fit reads in one pass: https://adhi-pricing-ai.vercel.app/ref/factory
+
+A few anchors:
+- I founded PriceKeel and run its CRM, CPQ, forecast reviews and deal approvals myself, the same scope as this seat.
+- At Sensata I recovered $700K+ in margin in two quarters and took distributor margins from 53% to 61%.
+- At Applied Materials I built AI agents on Claude that automate pricing analysis, the direct analog to the droids line in your posting.
+
+Worth 15 minutes? A pointer to whoever owns this req would help just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
