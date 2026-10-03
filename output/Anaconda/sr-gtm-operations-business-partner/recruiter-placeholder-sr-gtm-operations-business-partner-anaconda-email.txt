@@ -1,0 +1,20 @@
+Subject: Hallway-and-DM requests are the GTM ops gap I already built a fix for
+
+Hi {Recruiter, Anaconda GTM Operations},
+
+I do not normally reach out before applying, but the line about sales leaders routing requests through DMs and hallway conversations, answered inconsistently when time allows, is the exact chaos I have already replaced with a working system, not a problem I would be learning fresh.
+
+My core stack is SQL, Python (pandas, NumPy), R, Power BI and Tableau, the same language Anaconda's own platform speaks, a rare pairing for a GTM ops seat.
+At PriceKeel I set up and run the CRM and CPQ, forecast and pipeline reviews, and deal approvals end to end.
+At Sensata I built a Power BI dashboard that surfaced $433M in margin gaps across 3 regions by diagnosing data quality issues others had missed.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/anaconda
+
+Worth 15 minutes if this is your req, no worries if it already has an owner.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
