@@ -1,0 +1,20 @@
+Subject: Revenue systems execution, not just reporting
+
+Hi {Hiring Manager, Revenue Operations},
+
+Your posting's line about executing complex pricing structures inside the revenue system, not just reporting on one, made me write in before applying: I've spent the last year building that exact logic, first at an industrial-technology company and now at my own.
+
+At Sensata, an industrial sensing company like Trimble's own hardware base, I repriced parts sold through distribution and raised distributor and channel-partner margins from 53% to 61% inside that kind of revenue system. I built the FY2026 Bleeders and Leakers Power BI dashboard, tracking 1,200 pricing opportunities against a $627M target across 3 regions and 20 product lines, and partnered with senior executives on revenue models spanning Finance, Sales Ops and Product. At PriceKeel, the company I founded, I built the CRM and CPQ, forecast and pipeline reviews, and deal approvals from scratch, with an audit trail Finance can rely on.
+
+I've attached my resume and cover letter.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/trimble
+
+Open to 15 minutes if this req is yours to fill, and if not, a pointer to whoever owns it would help just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
