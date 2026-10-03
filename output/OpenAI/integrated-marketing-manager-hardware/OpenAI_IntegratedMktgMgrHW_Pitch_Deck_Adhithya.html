@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>OpenAI Integrated Marketing Manager, Hardware Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #0c5f4c; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 32pt; font-weight: 800; color: #0f172a; line-height: 1.08; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 21pt; font-weight: 800; color: #0f172a; line-height: 1.1; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #0c5f4c; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.5in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d3ede2 100%); }
+  .cover h1 { font-size: 28pt; max-width: 11.2in; }
+  .cover .sub { font-size: 14pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 18pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #0c5f4c; font-weight: 700; }
+  .cover .who { margin-top: 18pt; padding-top: 11pt; border-top: 1.5pt solid #0c5f4c; max-width: 9.5in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #0c5f4c; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #eaf6f0; border-left: 3pt solid #0c5f4c; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #0c5f4c; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #0c5f4c; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #eaf6f0; border-left: 4pt solid #0c5f4c; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #0c5f4c; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0c5f4c; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 24pt; font-weight: 800; color: #0c5f4c; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0c5f4c; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #0c5f4c; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #0c5f4c; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d3ede2 100%); }
+  .close h2 { font-size: 26pt; max-width: 10.5in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.8in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #0c5f4c; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the OpenAI Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | OpenAI Integrated Marketing Manager, Hardware</div>
+  <h1>Your first hardware device has to land with people who have never used a developer tool. I have already run that exact translation, at revenue-bearing scale.</h1>
+  <div class="sub">Audience segmentation, cross-functional GTM and AI-native workflows, proven on hardware before.</div>
+  <div class="tags">
+    <div class="tag"><strong>$2M+</strong> first-year revenue from a new-hardware GTM launch at Sensata</div>
+    <div class="tag"><strong>30+</strong> customer interviews behind every segmentation decision</div>
+    <div class="tag"><strong>+30%</strong> rep win rate from reusable sales enablement built for 50+ reps</div>
+    <div class="tag"><strong>Claude AI agents</strong> automating recurring research and analysis today</div>
+    <div class="tag">Shipped a product on the <strong>OpenAI API</strong> myself</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-product-ai.vercel.app/ref/openai</div>
+  </div>
+  <div class="brand">OPENAI HARDWARE GTM</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>Audience segmentation is not a messaging exercise for a first hardware device. It is <span class="accent">the difference between a launch mainstream buyers understand and one only developers do.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What the role actually asks for</h4>
+      <div class="line">Translate product capabilities into clear, differentiated messaging for distinct audiences, backed by real audience segmentation frameworks, not a single generic narrative.</div>
+      <div class="line">Lead cross-functional marketing programs end to end: research, competitive analysis, partnership opportunities across global markets, and campaign measurement built as a reusable process.</div>
+      <div class="line">Coach peers and move fluently between strategy and hands-on execution, with deep comfort in AI products and how people actually use them.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run</h4>
+      <div class="line">At <b>Sensata</b>, I owned GTM end to end for new sensing products across North America and Europe, built on <b>30+ customer interviews</b>, driving <b>$2M+ in first-year revenue</b>.</div>
+      <div class="line">I built <b>sales enablement and reusable playbooks</b> for 50+ reps that lifted win rates 30%, the coaching and cross-functional half of this posting.</div>
+      <div class="line">I automate recurring research with <b>Claude AI agents</b> at Applied Materials today, and I built a product end to end on the <b>OpenAI API</b> myself.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">The product fluency this role asks for is not abstract for me. I have shipped on the OpenAI API myself, and I use AI agents daily to do the job the posting describes.</div>
+  </div>
+  <div class="brand">OPENAI HARDWARE GTM</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What the Integrated Marketing Manager, Hardware opening asks for, and where the proof sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Translate product capabilities into clear, differentiated messaging relevant to distinct audiences."</div></div>
+      <div class="quote"><div class="q">"Develop audience segmentation frameworks."</div></div>
+      <div class="quote"><div class="q">"Deep familiarity with AI products, foundation models, generative AI capabilities and limitations, and common user workflows."</div></div>
+    </div>
+    <div class="col">
+      <h3>My Proof</h3>
+      <div class="proof"><div class="p"><b>Sensata hardware GTM launch:</b> owned positioning, pricing and channel for new sensing products, driving $2M+ first-year revenue on 30+ grounding customer interviews.</div></div>
+      <div class="proof"><div class="p"><b>Sales enablement at scale:</b> reusable playbooks and decks for 50+ reps, +30% win rates, the cross-functional coaching half of this posting.</div></div>
+      <div class="proof"><div class="p"><b>Built on the OpenAI API:</b> shipped an AI job-matching platform end to end, and automate recurring analysis with Claude AI agents at Applied Materials now.</div></div>
+      <div class="proof"><div class="p"><b>Competitive rigor:</b> ran EMEA and US competitor and customer analysis that directly informed launch messaging and channel strategy.</div></div>
+    </div>
+  </div>
+  <div class="brand">OPENAI HARDWARE GTM</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The Sensata proof, in depth</div>
+  <h2>New-hardware GTM: <span class="accent">research the buyer, segment the audience, arm the field, close the revenue.</span></h2>
+  <div class="lede">Owned the full go-to-market for new sensing products across North America and Europe: positioning, pricing, channel strategy and launch, grounded in 30+ customer interviews with OEMs and distributors.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$2M+</div>
+      <div class="lbl">First-Year Revenue</div>
+      <div class="desc">The outcome the segmentation and channel decisions were built to produce, not a vanity engagement metric.</div>
+    </div>
+    <div class="stat">
+      <div class="n">30+</div>
+      <div class="lbl">Customer Interviews</div>
+      <div class="desc">OEMs and distributors interviewed to build the audience segmentation the positioning was actually built on.</div>
+    </div>
+    <div class="stat">
+      <div class="n">+30%</div>
+      <div class="lbl">Rep Win Rate</div>
+      <div class="desc">From sales enablement and reusable playbooks built for 50+ reps who needed the message in a usable form.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">The same cycle ran competitor and customer analysis across EMEA and the US to find revenue opportunities in purchasing patterns and competitor market share, feeding directly back into the next launch's segmentation.</div>
+  <div class="brand">OPENAI HARDWARE GTM</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month on this hardware launch team looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Learn the current narrative</div>
+      <div class="body">Sit with Product, Comms and Hardware engineering to hear how the device's capabilities are explained today, and where a mainstream, non-developer audience loses the thread.</div>
+      <div class="why"><strong>Why first:</strong> the same move that grounded the Sensata launch: hear the current message from the people building it before changing it.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Build the segmentation framework</div>
+      <div class="body">Turn the capability list into distinct audience segments, each with its own messaging, using AI tools for research and draft variants so more time goes into the judgment calls.</div>
+      <div class="why"><strong>Why now:</strong> the audience segmentation this posting asks for, built with the same AI-native workflow I already run daily.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Arm global teams and partners</div>
+      <div class="body">Package the sharpened segmentation into enablement and partnership materials regional and channel teams can use immediately, measured against campaign performance.</div>
+      <div class="why"><strong>Why this fast:</strong> a segmentation framework only counts once a global team can run a campaign on it.</div>
+    </div>
+  </div>
+  <div class="brand">OPENAI HARDWARE GTM</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to segment audiences, run global GTM programs, and use AI as part of the job. I have already run all three, together, at revenue-bearing scale.</h2>
+  <div class="body">
+    <p>The core proof is Sensata: <strong>$2M+ first-year revenue</strong> from a new-hardware GTM launch, <strong>+30% rep win rate</strong> from reusable sales enablement built for 50+ reps, and <strong>30+ customer interviews</strong> behind every segmentation decision.</p>
+    <p>What is harder to find is someone who has already <strong>shipped on the OpenAI API</strong> and is <strong>using Claude AI agents</strong> to automate recurring analysis today, which means the AI-product fluency this posting asks for is a current habit, not a claim.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-product-ai.vercel.app/ref/openai</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">OPENAI HARDWARE GTM</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+Subject: The device has to land with people who've never touched a dev tool
+
+Hi {Hiring Manager, OpenAI Hardware Marketing},
+
+I don't normally write in before applying, but a first consumer hardware launch that has to land with people who have never used a developer tool is a messaging problem I've already solved at scale, not one I'd be learning on this req.
+
+Built you a 6-slide pitch deck so the proof fits on one read.
+
+Owned positioning through launch for a new hardware line at Sensata across NA and Europe, from 30+ OEM and distributor interviews to $2M+ in first-year revenue.
+Ran competitor research that fed sales enablement for 50+ reps, lifting win rates 30%.
+Carry P&L targets as Strategic Marketing III at Applied Materials while automating recurring analysis with Claude agents.
+Built an AI job-matching platform on the OpenAI API end to end, from the PRD through onboarding the first 50 users.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/openai
+
+Worth 15 minutes to walk through how that maps to this launch? Happy to be pointed elsewhere if it's not your seat.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
