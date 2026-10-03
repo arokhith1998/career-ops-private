@@ -1,0 +1,20 @@
+Subject: Live pricing, not just pricing analysis
+
+Hi {Hiring Manager, Pricing},
+
+Your posting's ask for analytical pricing work is what made me write in: I have spent the last year building the pricing logic that governs live deal decisions, first at Sensata and now at my own company.
+
+At Sensata I built the Bleeders and Leakers Power BI dashboard, 1,200 opportunities tracked against a $627M target, which surfaced $433M in margin gaps and fed a $700K+ recovery in two quarters through willingness-to-pay negotiations. At PriceKeel, the company I founded, I designed a guardrail engine that scores each discount exception against a company's own closed-won and closed-lost precedent, the same kind of live, data-driven pricing rule a ticketing-pricing platform runs on.
+
+I have attached my resume and cover letter.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/automatiq
+
+Open to 15 minutes if this req is yours to fill.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
