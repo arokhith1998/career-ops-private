@@ -1,0 +1,18 @@
+Subject: The habit behind "build your own tools"
+
+Hi {Hiring Manager, International Sales Strategy & Operations},
+
+I don't normally reach out before applying, but being among the first to see this req, and the ask for someone proficient in SQL and Snowflake who is comfortable building their own tools and automations, made me.
+
+At Sensata I built the FY2026 Bleeders & Leakers Power BI dashboard from scratch: 1,200 pricing opportunities against a $627M target across 3 regions, 4 product families and 20 product lines, surfacing $433M in margin gaps and recovering $700K+ in margin in 2 quarters. At Applied Materials I partnered with Sales, Engineering and Accounts to size the semiconductor market, turning field and technical input that lived in different heads into one shared view. At PriceKeel, the company I founded, I set up the CRM, CPQ, forecast and pipeline reviews myself, so building a tool when none exists is a daily habit, not a resume line.
+
+Resume and cover letter attached. Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/doordash
+
+Would you have 15 minutes to talk through what the international team wants to automate first?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
