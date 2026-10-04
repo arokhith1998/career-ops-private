@@ -1,0 +1,20 @@
+Subject: No specific tool stack required is usually a red flag, not here
+
+Hi {Recruiter, Perplexity Comms & Marketing},
+
+Most "no specific tool stack required" lines mean the team has not picked one yet and will ask the new hire to guess; this posting reads differently, built and connective tissue come from one person holding both, and that is a structure I already run rather than a title I would be growing into.
+
+At PriceKeel I own the CRM, CPQ, forecast and pipeline reviews, and the deal-approval chain, plus the audit trail that gives Finance evidence it can check without asking me.
+At Plug Power I merged Salesforce, Adobe Analytics, GA and Google Tag Manager into one Mar-Tech stack with closed-loop reporting, retiring the manual handoffs between them.
+At Sensata I built the FY2026 Bleeders and Leakers Power BI dashboard, 1,200 pricing opportunities against a $627M target, that leadership checked weekly, not once a quarter.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/perplexity
+
+Open to 15 minutes on this req, or a pointer to whoever owns it?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
