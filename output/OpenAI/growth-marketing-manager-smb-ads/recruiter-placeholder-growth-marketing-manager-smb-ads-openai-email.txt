@@ -1,0 +1,21 @@
+Subject: Growth Marketing Manager, SMB Ads, built you a 6-slide deck instead of just a resume
+
+Hi {Recruiter, Marketing},
+
+I do not usually reach out before applying, but SMB Ads' sign-up to first spend funnel is the AI-assisted growth loop I already shipped on OpenAI's own API.
+
+Built a 6-slide pitch deck so the fit reads in one pass: https://adhi-growth-ai.vercel.app/ref/openai
+
+A few anchors:
+- I ran acquisition, activation and retention for 8 SMB advertiser accounts at $15K to $90K a month each at Pixis, cutting churn 50% and ROAS up 40% with Amplitude and Tableau.
+- I built an AI job-matching platform on the OpenAI API zero to one, running 8+ A/B tests and 12+ user interviews to lift activation 25%.
+- At Plug Power I automated lead flow across Google Ads, Meta and LinkedIn, cutting cost per lead 50% and CPA 25% on a $100K/month budget.
+
+Worth 15 minutes? A pointer to whoever owns this req would help just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
