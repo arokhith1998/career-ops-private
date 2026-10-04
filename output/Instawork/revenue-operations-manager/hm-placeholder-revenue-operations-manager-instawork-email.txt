@@ -1,0 +1,20 @@
+Subject: Zero-error close periods are a judgment problem first
+
+Hi {Hiring Manager, Instawork Revenue Operations},
+
+I do not normally write in before applying, but the line about sound judgment during compressed close periods caught me, because most revenue operations postings only ask for the automation half of that problem.
+
+At PriceKeel I built a guardrail engine that recommends an explainable discount boundary learned from each company's own closed-won and closed-lost deals, then logs the human override with evidence Finance can audit, the same judgment-plus-audit-trail problem a comp cycle runs on.
+At Sensata I carried P&L and revenue targets for a multi-$100M industrial business and built the FY2026 Power BI dashboard surfacing $433M in margin gaps across 3 regions and 20 product lines for leadership to prioritize by salesperson and product line.
+At Applied Materials I automate forecasting and reporting work with AI agents built on Claude, directing the tool against a target rather than trusting its first answer.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/instawork
+
+Worth 15 minutes to see if the fit is real? Happy to be pointed elsewhere if this is not your req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

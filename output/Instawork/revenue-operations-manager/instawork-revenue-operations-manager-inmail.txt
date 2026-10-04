@@ -1,0 +1,20 @@
+Subject: Directing AI to validate SQL, not writing it blind
+
+Hi {Recruiter, Instawork Revenue Operations},
+
+I do not usually send a note before applying, but the ask to direct AI through SQL rather than trust it outright, plus real collaboration with Finance, Legal and Sales, is the actual job most RevOps postings only gesture at.
+
+I built SwipeHire's matching engine on the OpenAI API from a blank PRD to a shipped product with 50+ early users, so treating AI output as a draft to check, not an answer to accept, is already how I work.
+At PriceKeel I built the audit trail that records every pricing override with evidence Finance can review, selling that trail to RevOps, Sales leadership and Finance against legacy CPQ and deal-desk tooling.
+At Applied Materials I size the semiconductor market with Sales, Engineering and Accounts together, then build the forecasting models that follow from it.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/instawork
+
+Worth 15 minutes if this req is on your desk, no worries if it belongs to someone else on the team.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
