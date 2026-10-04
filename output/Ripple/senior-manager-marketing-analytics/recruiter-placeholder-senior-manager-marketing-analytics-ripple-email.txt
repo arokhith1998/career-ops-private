@@ -1,0 +1,22 @@
+Subject: Senior Manager, Marketing Analytics at Ripple: owning data quality, not just the dashboard
+
+Hi {Recruiter, Ripple Marketing Operations},
+
+I don't normally reach out before applying, but this req pairs attribution, CAC and LTV reporting with owning data quality and integrity across CRM and marketing systems in the same seat, a split most marketing analytics roles keep as two separate jobs.
+
+Built you a 6-slide pitch deck mapping that split onto the req.
+
+At Sensata I built the Bleeders and Leakers Power BI dashboard covering 1,200 opportunities against a $627M target, surfacing $433M in margin gaps for leadership to act on.
+I run CRM and CPQ myself today as founder of PriceKeel, with an audit trail Finance can check without asking me first.
+At Pixis I used Amplitude and Tableau incrementality reads across 30+ campaigns to lift ROAS 40%.
+
+Here's the portfolio: https://adhi-growth-ai.vercel.app/ref/ripple
+
+Worth 15 minutes if this is still your req? Happy to be pointed elsewhere if it already has an owner.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
