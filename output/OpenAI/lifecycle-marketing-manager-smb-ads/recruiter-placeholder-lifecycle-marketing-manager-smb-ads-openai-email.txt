@@ -1,0 +1,20 @@
+Subject: The lifecycle half of this req, not the acquisition half
+
+Hi {Recruiter, SMB Ads Marketing},
+
+Most of this req reads like acquisition language, but the line that caught me was the ask to own the lifecycle program portfolio across prospect conversion, activation, retention, repeat spend, reactivation, and expansion, because that full-loop ownership, not one stage of it, is work I have already run.
+
+At Pixis I built the reactivation and winback playbooks, account-health signals, channel diversification, vertical-specific plays, that cut churn 50% across 8 SMB advertiser accounts billing $15K to $90K a month. At Plug Power I built the triggered lead-nurture sequence from scratch on Pardot, cutting cost per lead 50%. At Sensata I segmented usage cohorts in SQL and GA4 across 50K+ connected devices to lift feature adoption 18%.
+
+Resume and cover letter are attached.
+
+Here's the portfolio: https://adhi-growth-ai.vercel.app/ref/openai
+
+Worth 15 minutes? Happy to be pointed to whoever owns this req if it sits elsewhere.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

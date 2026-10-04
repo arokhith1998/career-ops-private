@@ -1,0 +1,18 @@
+Subject: I built the onboarding loop this req asks for, on your own API
+
+Hi {Recruiter, SMB Ads Marketing},
+
+The role's core ask, build the onboarding and education programs that move an advertiser from first campaign to repeat spend, is the exact loop I ran building SwipeHire zero-to-one on the OpenAI API: I designed the signup-to-first-match flow myself, then ran 8+ A/B tests and 12+ user interviews on the activation funnel to lift activation 25%.
+
+Portfolio: adhi-growth-ai.vercel.app/ref/openai
+
+That same discipline runs through my lifecycle work elsewhere: reactivation playbooks that cut churn 50% across 8 SMB advertiser accounts at Pixis, and a triggered lead-nurture sequence I built from scratch at Plug Power that cut cost per lead 50%.
+
+Worth 15 minutes to see if this is the right seat for the SMB Ads lifecycle work?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

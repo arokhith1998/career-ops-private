@@ -1,0 +1,22 @@
+Subject: Holdout tests for retention, not just attributed uplift
+
+Hi {Hiring Manager, SMB Ads Marketing},
+
+Your preferred-qualifications line on using holdout tests and cohort analysis to measure incremental retention and revenue impact, not just attributed uplift, is the exact discipline behind the work I already run.
+
+- At Sensata I built KPI frameworks in SQL and GA4 across 50K+ connected devices, segmenting usage cohorts to find high-intent accounts and lift feature adoption 18%, plus lifecycle email nurture for new product launches that drove 35% more qualified leads.
+- At Pixis I owned the reactivation side of an 8-account, $15K to $90K a month SMB advertiser portfolio, building account-health signals, channel diversification and vertical winback plays that cut churn 50%.
+- I shipped the onboarding flow for my own AI product on the OpenAI API zero-to-one, SwipeHire, taking 50+ users from signup to first match, then running 8+ A/B tests and 12+ interviews to lift activation 25%, the same test-ship-read loop this role runs on.
+
+Resume and cover letter are attached.
+
+Here's the portfolio: https://adhi-growth-ai.vercel.app/ref/openai
+
+Would 15 minutes work this week? Happy to be redirected if this sits with someone else on the team.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
