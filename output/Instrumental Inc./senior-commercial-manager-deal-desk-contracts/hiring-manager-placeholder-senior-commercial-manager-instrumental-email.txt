@@ -1,0 +1,20 @@
+Subject: Building the deal desk function while the business keeps moving
+
+Hi {Hiring Manager, Revenue},
+
+I don't normally reach out before applying, but your posting's line about building the function while building the business, earning authority as you go, is close to how my last year has gone, not a stretch to fit the req.
+
+I own the CRM, CPQ, forecast reviews and deal approvals end to end at PriceKeel, the company I founded in May, and built the audit trail Finance needs before a discount exception ships.
+At Sensata I recovered $700K+ in margin in two quarters through the Bleeders and Leakers program, reworking nonstandard distributor terms from 53% to 61% margin on live deals, not a dashboard recommending them.
+At Applied Materials I automate the pricing analysis Finance and Sales wait on with Claude agents, the "why not today" instinct past one deal at a time.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/instrumental
+
+Would 15 minutes work to talk through where the deal desk process needs structure first? Happy to be redirected if this sits with someone else on the team.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
