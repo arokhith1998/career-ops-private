@@ -1,0 +1,21 @@
+Subject: Compliance, identity, billing, fraud: the boring-critical stack
+
+Hi {Hiring Manager, Platform},
+
+I do not usually write in before applying, but the list your posting names, support platforms, compliance, identity, billing, fraud prevention, is the part of a product most roadmaps push to next quarter, and someone has to be the systems thinker who owns it. That, plus the ask for AI-native evaluation and safeguards rather than a model bolted onto an old workflow, is why I am writing in.
+
+I built one operating playbook at Pixis for an 8-client portfolio with competing priorities, cutting churn 50%.
+I collapsed five disconnected reporting tools at Plug Power into one closed-loop system, the instinct a platform team needs before scaling a shared workflow.
+I shipped SwipeHire's matching logic with its own evaluation checks and safeguards built in from day one, alone, to 50+ users.
+I run a 100+ feature backlog for Sensata's sensor line across 3 regions, cutting time to market 20%.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/perplexity
+
+Worth 15 minutes on which stack needs owning first? If this is not your req, a pointer helps just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

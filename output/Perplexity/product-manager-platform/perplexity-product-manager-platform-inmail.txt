@@ -1,0 +1,20 @@
+Subject: Shared service, not a one-off fix
+
+Hi {Recruiter, Platform},
+
+Your posting draws a line I rarely see spelled out: turn a recurring internal or customer need into a shared service, not a patch each time it resurfaces, across areas like compliance, identity, billing and fraud. That is the discipline I have run, not just read about.
+
+I shipped SwipeHire's matching engine alone, its own evaluation checks and safeguards built in from day one, to 50+ early users.
+I own a 100+ feature backlog for Sensata's sensor line across 3 regions, cutting time to market 20%.
+I built the SQL and GA4 framework defining adoption metrics from scratch across 50K+ connected devices, lifting adoption 18%.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/perplexity
+
+Worth 15 minutes to see if this req is yours?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
