@@ -1,0 +1,21 @@
+Subject: The CLI roadmap nobody has shipped yet
+
+Hi {Hiring Manager, AI Ecosystem, Sigma Computing},
+
+I do not normally reach out before applying, but owning a CLI and a semantic layer that agents touch directly, not just BI users, while the integration surface around it is still forming, is the kind of zero-to-one bet I look for.
+
+Shipped an AI product zero to one at SwipeHire: PRD, MVP scope, matching and resume-tailoring logic on the OpenAI API, 50+ early users onboarded.
+Automated my own repetitive analysis with Claude AI agents at Applied Materials, thinking in terms of what an agent can be handed versus what needs a human check.
+Built a Power BI data model (3 regions, 4 product families, 20 product lines) that turned 1,200 raw pricing opportunities into something Finance could trust.
+Owned the product roadmap and a 100+ feature backlog with engineering across 3 regions at Sensata, accelerating releases 25%.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/sigmacomputing
+
+Worth 15 minutes to see if the fit holds up? If this is not your req, a pointer to whoever owns it helps just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

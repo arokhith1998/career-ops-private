@@ -1,0 +1,21 @@
+Subject: Building a semantic layer agents can read, not just analysts
+
+Hi {Recruiter, AI Ecosystem},
+
+I do not normally write in before applying, but a semantic layer that must stay legible to analysts and agents alike, while the access model is still forming, is a problem I find genuinely interesting.
+
+Automated my own repetitive analysis with Claude AI agents at Applied Materials, designing for machine consumers, not humans alone.
+Built a Power BI data model across 3 regions, 4 product families and 20 product lines at Sensata, tracking 1,200 pricing opportunities against a $627M target.
+Shipped an AI product zero to one at SwipeHire: PRD, MVP scope, OpenAI API, matching logic through the resume-tailoring layer.
+Owned a 100+ feature product roadmap with engineering across 3 regions at Sensata, cutting time to market 20%.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/sigmacomputing
+
+If this req sits with your desk, 15 minutes would help. If not, a pointer to whoever owns it helps just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

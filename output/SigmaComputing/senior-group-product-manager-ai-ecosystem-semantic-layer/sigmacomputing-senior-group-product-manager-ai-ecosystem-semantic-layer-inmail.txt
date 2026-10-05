@@ -1,0 +1,18 @@
+Subject: A semantic layer that has to work for agents, not just analysts
+
+Hi {Recruiter, AI Ecosystem},
+
+I do not usually message before applying, but a semantic layer and CLI that external agents touch directly, while the access model around them is still forming, is rarer than most AI PM postings, and it is the kind of zero-to-one problem I look for.
+
+I automate my own repetitive analysis with Claude AI agents at Applied Materials, then turn that instinct into structure: a Power BI data model across 3 regions, 4 product families and 20 product lines at Sensata, and an AI product shipped zero to one at SwipeHire (PRD, MVP scope, OpenAI API, 50+ early users).
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/sigmacomputing
+
+Worth 15 minutes on this req?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
