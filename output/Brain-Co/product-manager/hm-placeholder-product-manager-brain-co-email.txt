@@ -1,0 +1,20 @@
+Subject: Structure for ambiguity, not process for its own sake
+
+Hi {Hiring Manager, Product, Brain Co.},
+
+I don't normally write in before applying, but a role scoped around bringing structure to ambiguity and shaping the product culture as the team scales, rather than inheriting a mature process, is exactly the kind of seat I keep choosing to step into.
+
+I managed a 100+ feature backlog in Agile across 3 regions at Sensata, cutting time-to-market 20% while lifting feature adoption 18% through SQL and GA4 cohort work.
+I built the guardrail engine and audit trail behind PriceKeel from scratch, the product decision plus the process that lets Finance trust it.
+I ran 30+ customer interviews with OEMs and distributors to find the real pain points behind a roadmap, then shipped the fixes that raised CSAT 22%.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/brain-co
+
+Worth 15 minutes to see if the fit is real? Happy to be pointed elsewhere if this isn't your req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

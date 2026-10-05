@@ -1,0 +1,20 @@
+Subject: Built for institutions that need every decision to hold
+
+Hi {Recruiter, Product, Brain Co.},
+
+I don't normally message before applying, but building a product for institutions that need to trust every decision is exactly what PriceKeel's audit trail had to solve before a single pilot started, and it's close to the kind of ownership a well-scoped product area at Brain Co. asks for.
+
+I designed and run PriceKeel's guardrail engine and audit trail end to end, the layer that gives Finance evidence it can actually audit.
+At Applied Materials I built the forecasting and market-sizing models behind pricing calls across multiple product groups, partnering directly with Sales and Engineering.
+At Sensata I carried P&L and revenue targets for a multi-$100M business while running a pricing program end to end.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/brain-co
+
+Worth 15 minutes on this req?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
