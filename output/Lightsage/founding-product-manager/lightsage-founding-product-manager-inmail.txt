@@ -1,0 +1,22 @@
+Subject: Founding Product Manager - where the data workflows break today
+
+Hi {Hiring Manager, Product},
+
+I came across the Founding Product Manager posting, and most of the hard part in it lives in how agent analytics, API performance and customer recommendations connect, not in any one of them alone. That connective-tissue problem is the one I keep ending up owning.
+
+A few proof points:
+- Shipped an API product zero to one with SwipeHire, instrumenting the full funnel in GA4 to lift activation 25%.
+- Owned a 100+ feature roadmap at Sensata across 3 regions, shipping releases 25% faster.
+- Automated recurring reporting workflows at Plug Power so a weekly manual check stopped being necessary.
+- Build Claude AI agents at Applied Materials to automate the repetitive side of forecasting.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/lightsage
+
+Open to 15 minutes if this is still open and worth comparing notes on.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

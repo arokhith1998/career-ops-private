@@ -1,0 +1,22 @@
+Subject: Founding Product Manager - the operational half of this brief
+
+Hi {Hiring Manager, Product},
+
+I don't normally reach out before applying, but most founding PM postings stop at roadmap and discovery, and yours also wants someone who fixes onboarding and the feedback-to-roadmap loop from scratch, which is the half of this job I like most.
+
+A few data points instead of a pitch:
+- Build Claude AI agents at Applied Materials that automate the repetitive side of market analysis.
+- Automated a multi-system reporting chain at Plug Power end to end, closing a recurring workflow gap between teams.
+- Ran 30+ customer interviews at Sensata that converted recurring support tickets into design fixes, lifting feature adoption 18%.
+- Wrote the PRD and owned the GTM and analytics stack for SwipeHire zero to one.
+
+Resume and cover letter attached. Here's the portfolio: https://adhi-product-ai.vercel.app/ref/lightsage
+
+If a different PM on your team owns the agent-analytics surface, a pointer is fine; otherwise 15 minutes on where onboarding and feedback loops break today would help.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
