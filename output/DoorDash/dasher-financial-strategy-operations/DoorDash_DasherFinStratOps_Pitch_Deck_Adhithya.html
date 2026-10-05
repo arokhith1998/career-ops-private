@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>DoorDash Manager, Dasher Financial Strategy & Operations Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #b91c1c; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 27pt; font-weight: 800; color: #0f172a; line-height: 1.14; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 20pt; font-weight: 800; color: #0f172a; line-height: 1.12; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #b91c1c; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.7in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #fee2e2 100%); }
+  .cover h1 { font-size: 24pt; max-width: 11.3in; }
+  .cover .sub { font-size: 14pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 16pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #b91c1c; font-weight: 700; }
+  .cover .who { margin-top: 16pt; padding-top: 11pt; border-top: 1.5pt solid #b91c1c; max-width: 9.4in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #b91c1c; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #fef2f2; border-left: 3pt solid #b91c1c; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #991b1b; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #b91c1c; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #fef2f2; border-left: 4pt solid #b91c1c; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #991b1b; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #b91c1c; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 20pt; font-weight: 800; color: #b91c1c; line-height: 1.08; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #b91c1c; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #b91c1c; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #b91c1c; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #fee2e2 100%); }
+  .close h2 { font-size: 23pt; max-width: 10.6in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.6in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #b91c1c; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the DoorDash Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | DoorDash Manager, Dasher &amp; Logistics - Dasher Financial Strategy &amp; Operations</div>
+  <h1>The posting asks for someone who can take a vague fintech problem, size the market, build the business case, and carry it from incubation through scaling. I am already doing exactly that, with no team to hand the ambiguous parts to.</h1>
+  <div class="sub">A live fintech build, a $627M pricing program structured from scratch, and the SQL/Excel discipline underneath both.</div>
+  <div class="tags">
+    <div class="tag"><strong>PriceKeel:</strong> 0-to-1 fintech-adjacent build, live pilots, first funding round</div>
+    <div class="tag"><strong>$627M target</strong> structured from 1,200 untracked opportunities at Sensata</div>
+    <div class="tag"><strong>$700K+ margin</strong> recovered in 2 quarters from that structure</div>
+    <div class="tag"><strong>$2M+ first-year revenue</strong> on a concept-to-launch GTM build</div>
+    <div class="tag"><strong>AI agents built on Claude</strong> automating my own recurring analysis today</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhithyabhaskar.vercel.app/ref/doordash</div>
+  </div>
+  <div class="brand">DASHER FINANCIAL STRATEGY PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>This req is not "run an existing fintech product." It is <span class="accent">building the first version of one, alone, before the org agrees it should exist.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What the posting actually asks for</h4>
+      <div class="line">Identify a new product opportunity for Dashers, size the market for it, and write the business case before anyone hands you a spec.</div>
+      <div class="line">Design experiments that validate real Dasher demand, not a survey answer, then own execution from that first signal through launch.</div>
+      <div class="line">Do this in a high-growth environment where the problem shows up undefined and nobody is waiting to structure it for you.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already built, the same way</h4>
+      <div class="line">At <b>PriceKeel</b>, I sized a market, wrote the business case and shipped the product myself: no existing team, no existing playbook, now in live customer pilots.</div>
+      <div class="line">At <b>Sensata</b>, I turned a $627M target and 1,200 untracked opportunities into a structured, prioritized plan that recovered $700K+ in two quarters.</div>
+      <div class="line">At <b>Applied Materials</b> today, I automate my own recurring analysis with AI agents built on Claude, so more hours go to the ambiguous part of the problem.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">The through-line: every build on this page started as an undefined problem that nobody had structured yet, and I structured it before I was asked twice.</div>
+  </div>
+  <div class="brand">DASHER FINANCIAL STRATEGY PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The mandate, mapped</div>
+  <h2>What the posting asks for, line by line, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Identify new product opportunities, size the market, and build the business case."</div></div>
+      <div class="quote"><div class="q">"Design and run experiments to validate user demand."</div></div>
+      <div class="quote"><div class="q">"Own day-to-day execution and work cross-functionally to take ideas from concept to launch."</div></div>
+      <div class="quote"><div class="q">"You can take a vague, undefined problem and structure it yourself, without waiting."</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>PriceKeel, 0-to-1 fintech build:</b> sized the deal-pricing decision-integrity market for B2B SaaS, wrote the business case, shipped the guardrail engine solo, now running live pilots and the first funding round.</div></div>
+      <div class="proof"><div class="p"><b>Sensata Bleeders and Leakers:</b> built the structure for a $627M target across 1,200 opportunities from zero, surfacing $433M in margin gaps and recovering $700K+ in two quarters.</div></div>
+      <div class="proof"><div class="p"><b>Sensata GTM, concept to launch:</b> owned a new sensing product line end to end, positioning through launch, across North America and Europe, to $2M+ first-year revenue.</div></div>
+      <div class="proof"><div class="p"><b>SwipeHire and Plug Power, demand validation:</b> wrote the PRD and ran 8+ A/B tests to validate SwipeHire's pricing tiers; ran 15+ A/B tests at Plug Power to validate demand before scaling spend.</div></div>
+    </div>
+  </div>
+  <div class="brand">DASHER FINANCIAL STRATEGY PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>Structure the ambiguity first, then let the <span class="accent">numbers carry the business case instead of a hunch.</span></h2>
+  <div class="lede">Three different environments, same pattern: find the undefined problem, build the measurement tool before anyone asks for one, then put a number on the outcome that Finance or leadership can audit.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$627M Target</div>
+      <div class="lbl">Structured From 1,200 Untracked Opportunities</div>
+      <div class="desc">Sensata's Bleeders and Leakers Power BI dashboard, built from scratch, with no existing method to extend.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$700K+ Recovered</div>
+      <div class="lbl">In Two Quarters, From That Structure</div>
+      <div class="desc">Margin recovery negotiations run directly off the dashboard's prioritization, not off a hunch about which deals mattered.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$2M+ Revenue</div>
+      <div class="lbl">Concept-to-Launch GTM, Owned End to End</div>
+      <div class="desc">Positioning, pricing, channel and launch for a new product line across North America and Europe, first year out.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">None of these started with a spec. Each one started as a number nobody had structured yet, and ended as a number Finance could audit.</div>
+  <div class="brand">DASHER FINANCIAL STRATEGY PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month sizing and building Dasher financial products at DoorDash looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Size the first opportunity</div>
+      <div class="body">Pull Dasher-side pain points already surfacing in support tickets, forums and existing research, and size the market for the strongest candidate the same way PriceKeel's first guardrail engine got sized: from real behavior, not a survey.</div>
+      <div class="why"><strong>Why first:</strong> the same first move behind PriceKeel and Bleeders and Leakers, structure the ambiguity before building anything.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Write the business case and design the experiment</div>
+      <div class="body">Build the case Finance and Dasher Ops can both sign off on, then design the smallest experiment that proves real Dasher demand, not a stated preference, working cross-functionally with Product and Engineering from day one.</div>
+      <div class="why"><strong>Why now:</strong> the same build-the-case-first discipline that got PriceKeel into live pilots instead of a deck nobody acted on.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Launch the experiment and instrument the read</div>
+      <div class="body">Ship the first experiment, wire the SQL/Excel tracking that reads results without a manual rebuild each cycle, and bring the first automated version of that report using an AI agent, the same habit running at Applied Materials today.</div>
+      <div class="why"><strong>Why this fast:</strong> a business case only holds up once the data behind it updates itself.</div>
+    </div>
+  </div>
+  <div class="brand">DASHER FINANCIAL STRATEGY PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to structure an undefined fintech problem and carry it from incubation through scaling. I have already run that exact motion twice, at two very different scales.</h2>
+  <div class="body">
+    <p>The 0-to-1 half: <strong>PriceKeel</strong>, a fintech-adjacent build sized, business-cased and shipped solo, now in live customer pilots and a first funding round, with no team to hand the hard part to.</p>
+    <p>The scale half: Sensata's <strong>$627M</strong> Bleeders and Leakers program, structured from 1,200 untracked opportunities into a plan that recovered <strong>$700K+</strong> in two quarters, plus a concept-to-launch GTM build that closed its first year at <strong>$2M+</strong> in revenue. I automate the repeatable part of that work today with AI agents built on Claude, so the ambiguous part gets more of my time.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhithyabhaskar.vercel.app/ref/doordash</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">DASHER FINANCIAL STRATEGY PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
