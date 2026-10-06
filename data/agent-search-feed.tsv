@@ -1,27 +1,16 @@
 source	sources	company	title	location	url	posted_ts	age_days	sponsorship_hint	salary	category
-websearch-agent	websearch-agent	Unetra	Chief of Staff - Office of the Founder	Mumbai, India (Remote)	https://wellfound.com/jobs/4745956-chief-of-staff-office-of-the-founder					INR 16-22L
-websearch-agent	websearch-agent	Confidential (Merito client, Programmatic Growth Platform)	Head of Growth for India	Bengaluru / Navi Mumbai, India	https://cutshort.io/job/Head-of-Growth-for-India-Bengaluru-Bangalore-Navi-Mumbai-Merito-5XTGgWSL					INR 35-50L
-websearch-agent	websearch-agent	Avacasa	Founders Office	Bengaluru, India (Remote)	https://wellfound.com/jobs/3047191-founders-office
-websearch-agent	websearch-agent	PGAGI	Founder's Office Associate	Bengaluru, India	https://cutshort.io/job/Founder-s-Office-Bengaluru-Bangalore-PGAGI-bmNwZm9y					INR 5-8L
-websearch-agent	websearch-agent	Landeed	Entrepreneur in Residence	India	https://www.ycombinator.com/companies/landeed/jobs/Xt8mnKh-eir-entrepreneur-in-residence
-websearch-agent	websearch-agent	Glance	Chief of Staff - Office of the CTO	Bengaluru, India	https://in.linkedin.com/jobs/view/chief-of-staff-office-of-the-cto-at-glance-2770774470
-websearch-agent	websearch-agent	Confidential (iimjobs posting)	Founder's Office Role - People Strategy	India	https://www.iimjobs.com/j/founders-office-role-people-strategy-1675794
-websearch-agent	websearch-agent	Confidential (iimjobs posting, startup)	Founder's Office Role - Growth/Revenue - Startup	India	https://www.iimjobs.com/j/founders-office-role-growthrevenue-startup-1679704
-websearch-agent	websearch-agent	Upstox	Chief of Staff	Mumbai, India	https://www.instahyre.com/job-375529-chief-of-staff-at-upstox-mumbai/
-websearch-agent	websearch-agent	Aastey	Chief of Staff	Mumbai, India	https://www.instahyre.com/job-163734-chief-of-staff-at-aastey-mumbai/
-websearch-agent	websearch-agent	Signzy	Chief of Staff - Startup/Fintech	Mumbai, India	https://www.instahyre.com/job-144546-chief-of-staff-startup-fintech2228086-at-signzy-mumbai/
-websearch-agent	websearch-agent	SmartCoin Financials	Chief of Staff	Bangalore, India	https://www.instahyre.com/job-237573-staff-of-chief-at-smartcoin-financials-bangalore/
-websearch-agent	websearch-agent	Blinkit	Chief of Staff - CTO Office	Gurgaon, India	https://www.instahyre.com/job-49174-chief-of-staff-cto-office-at-grofers-gurgaon/
-websearch-agent	websearch-agent	MyOperator (VoiceTree Technologies)	Founder's Office - Tech & Strategy Associate	Noida, India	https://cutshort.io/job/Founder-s-Office-Tech-Strategy-Associate-Noida-MyOperator-VoiceTree-Technologies-yaCQg7mh					INR 6-8L
-websearch-agent	websearch-agent	CodeRound AI	Founder's Office / Chief of Staff (2025-2026 Grads)	Mumbai, India	https://cutshort.io/job/Founder-s-office-Chief-Of-Staff-2025-2026-Grads-Mumbai-CodeRound-AI-DqLI2iBY					INR 3-12L
-websearch-agent	websearch-agent	Magma Consultancy	Founder's Office - Chief of Staff (Strategy & Operations)	Mumbai / Bengaluru, India	https://cutshort.io/job/Founder-s-Office-Chief-of-Staff-Strategy-Operations-Mumbai-Worli-Mumbai-Bengaluru-Bangalore-magma-consultancy-dL96JEoP					INR 8-15L
-websearch-agent	websearch-agent	Aseflow Wellness	Co-Founder & Head of Growth	Pune, India (Remote)	https://wellfound.com/jobs/4557369-co-founder-head-of-growth					equity only, no cash CTC stated
-websearch-agent	websearch-agent	ResultsCX	Chief of Staff	Bengaluru, India	https://careers.resultscx.com/job-detail/chief-of-staff-25616391
-websearch-agent	websearch-agent	Confidential (TargetHR client)	Founder's Office Role	Bangalore, India	https://www.iimjobs.com/j/founder039s-office-role-1678888
-websearch-agent	websearch-agent	Confidential (iimjobs posting, IIT-affiliated)	Founder's Office Role - Growth/Revenue - IIT	India	https://www.iimjobs.com/j/founders-office-role-growth-revenue-iit-1679816
-websearch-agent	websearch-agent	Pigment	Deal Desk Manager	New York, NY (Hybrid)	https://jobs.lever.co/pigment/b931ce44-b152-4c83-a35e-6ec4610a1ff2
-websearch-agent	websearch-agent	Lumana	Revenue Operations Manager	Remote (Eastern Time required)	https://jobs.ashbyhq.com/lumana/12707d3c-64c0-4ae2-a33f-ed800722c66b					$150,000-$170,000 OTE
-websearch-agent	websearch-agent	Drivetrain	Product Marketing Manager	San Francisco Bay Area (Remote-first)	https://jobs.lever.co/drivetrain/ba7f3003-5832-41c8-accd-3f5a174d68d6
-websearch-agent	websearch-agent	Samsara	Principal Product Manager	Remote - SF Bay Area	https://boards.greenhouse.io/samsara/jobs/7604461
-websearch-agent	websearch-agent	Samsara	Senior Product Manager, Growth	Remote - SF Bay Area	https://boards.greenhouse.io/samsara/jobs/7700461
-websearch-agent	websearch-agent	Stripe	Product Manager - Compliance, Bridge	San Francisco, CA / Remote US	https://boards.greenhouse.io/stripe/jobs/7979422
+websearch-agent	websearch-agent	PGAGI	Founder's Office Associate	Bengaluru, India	https://cutshort.io/job/Founder-s-Office-Bengaluru-Bangalore-PGAGI-bmNwZm9y	1791285661	0
+websearch-agent	websearch-agent	Avacasa	Founders Office	Bengaluru, India (Remote)	https://wellfound.com/jobs/3047191-founders-office	1791285661	0
+websearch-agent	websearch-agent	Landeed	Entrepreneur in Residence (EIR)	Hyderabad, India	https://www.ycombinator.com/companies/landeed/jobs/Xt8mnKh-eir-entrepreneur-in-residence	1791285661	0
+websearch-agent	websearch-agent	Cypherock Wallet	Entrepreneur in Residence	Gurugram, India	https://wellfound.com/company/cypherock-wallet/jobs/1910225-entrepreneur-in-residence	1791285661	0
+websearch-agent	websearch-agent	Unnati	Entrepreneur In Residence	Delhi, India	https://cutshort.io/job/Entrepreneur-In-Residence-Delhi-Noida-Gurugram-Unnati-67Km14B2	1791285661	0
+websearch-agent	websearch-agent	Pigment	Product Marketing Manager	San Francisco, United States	https://jobs.lever.co/pigment/9e3836bc-a7f7-4121-be7a-07520d99a425	1791285661	0
+websearch-agent	websearch-agent	MoeGo	Revenue Operations Manager	Remote, United States	https://jobs.ashbyhq.com/moego/8aa116af-0934-424b-80ea-296caef3d6e4	1791285661	0
+websearch-agent	websearch-agent	Rillet	Revenue Operations Manager	San Francisco, United States	https://jobs.ashbyhq.com/rillet/9726a594-29a0-445d-8950-7f99ceb0931d	1791285661	0
+websearch-agent	websearch-agent	Harper	Revenue Operations Lead	San Francisco, United States	https://jobs.ashbyhq.com/harperinsure/cff6e3ae-da5b-4ffd-92b8-b3248b97605f	1791285661	0
+websearch-agent	websearch-agent	Palette Media	Revenue Operations Manager	United States	https://jobs.ashbyhq.com/palette-media/e8f17204-0ef7-4190-954a-f4c1338ff5f9	1791285661	0
+websearch-agent	websearch-agent	Firework	Chief of Staff, Office of the CBO	Remote, United States	https://jobs.lever.co/fireworkhq/ff5b9948-3ce0-4dc4-8fb8-877483c049cd	1791285661	0
+websearch-agent	websearch-agent	GridUnity	Senior Manager, Market Intelligence and Partnerships	United States	https://jobs.ashbyhq.com/gridunity/2b9f33ce-7e9b-404d-b88f-09f05bf355b0	1791285661	0
+websearch-agent	websearch-agent	Lobb (Headsup Corporation)	Growth Head, Logistics	Gurugram, India	https://www.iimjobs.com/j/growth-head-logistics-1642788	1791285661	0
+websearch-agent	websearch-agent	Confidential	Growth Head, D2C	India	https://www.iimjobs.com/j/growth-head-d-2-c-1605518	1791285661	0
+websearch-agent	websearch-agent	Confidential	Head, Growth Marketing (EdTech)	Gurugram, India	https://www.iimjobs.com/j/head-growth-marketing-ed-tech-1594035	1791285661	0
