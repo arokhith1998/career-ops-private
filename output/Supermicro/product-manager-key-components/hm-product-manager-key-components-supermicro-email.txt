@@ -1,0 +1,24 @@
+Subject: Key Components PM, Supermicro: lifecycle management is the part most PMs skip
+
+Hi {Hiring Manager, Supermicro},
+
+I do not normally cold-email a hiring manager, but this posting names the full lifecycle, introduction through decline, as a job requirement instead of an afterthought behind launch metrics, and that is the half of product management I have actually been paid to run.
+
+Built you a 6-slide pitch deck mapping that experience onto the req.
+
+Built the FY2026 Power BI dashboard at Sensata tracking 1,200 pricing opportunities against a $627M target across 3 regions, 4 product families and 20 product lines, surfacing $433M in margin gaps for leadership to prioritize.
+
+Owned the roadmap for new sensing hardware at Sensata, managing a 100+ feature backlog with Engineering across 3 regions.
+
+At Applied Materials today I size the semiconductor equipment market with Sales, Engineering and Accounts, then automate the recurring forecasting work with Claude agents so the time goes back into the next requirements cycle.
+
+Here's the portfolio: https://adhi-product.vercel.app/ref/supermicro
+
+If Key Components is still defining who owns each lifecycle stage, 15 minutes would help. If this sits with another PM, a pointer would help just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

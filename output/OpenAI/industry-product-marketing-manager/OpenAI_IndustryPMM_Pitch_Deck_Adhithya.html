@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>OpenAI Industry Product Marketing Manager Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #0c5f4c; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 32pt; font-weight: 800; color: #0f172a; line-height: 1.08; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 21pt; font-weight: 800; color: #0f172a; line-height: 1.1; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #0c5f4c; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.5in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d3ede2 100%); }
+  .cover h1 { font-size: 27pt; max-width: 11.2in; }
+  .cover .sub { font-size: 14pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 18pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #0c5f4c; font-weight: 700; }
+  .cover .who { margin-top: 18pt; padding-top: 11pt; border-top: 1.5pt solid #0c5f4c; max-width: 9.5in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #0c5f4c; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #eaf6f0; border-left: 3pt solid #0c5f4c; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #0c5f4c; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #0c5f4c; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #eaf6f0; border-left: 4pt solid #0c5f4c; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #0c5f4c; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0c5f4c; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 24pt; font-weight: 800; color: #0c5f4c; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0c5f4c; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #0c5f4c; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #0c5f4c; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d3ede2 100%); }
+  .close h2 { font-size: 26pt; max-width: 10.5in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.8in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #0c5f4c; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the OpenAI Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | OpenAI Industry Product Marketing Manager</div>
+  <h1>Every sector needs a different answer to "what does this mean for me." I have been building that answer for industrial and semiconductor buyers, at revenue-bearing scale, for two years.</h1>
+  <div class="sub">Industry-specific positioning, field enablement, and GTM programs run in ambiguous conditions.</div>
+  <div class="tags">
+    <div class="tag"><strong>$2M+</strong> first-year revenue from an industry-specific GTM program at Sensata</div>
+    <div class="tag"><strong>30+</strong> customer interviews behind every positioning decision</div>
+    <div class="tag"><strong>+30%</strong> rep win rate from field enablement built for 50+ reps</div>
+    <div class="tag"><strong>Claude AI agents</strong> automating recurring research today</div>
+    <div class="tag">Shipped a production product on the <strong>OpenAI API</strong></div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-product-ai.vercel.app/ref/openai</div>
+  </div>
+  <div class="brand">OPENAI INDUSTRY PMM</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The problem this role exists to solve</div>
+  <h2>A single generic narrative about AI does not land in a factory the same way it lands in a design studio. <span class="accent">Every sector needs its own translation, built on real field evidence.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What the role actually asks for</h4>
+      <div class="line">Develop industry-specific positioning, narratives and messaging that translate product and research capability into practical value for each target sector.</div>
+      <div class="line">Build and run GTM programs and operating rhythms in a fast-moving, ambiguous environment, partnering across Product, GTM, Comms, Partnerships and Customer Success.</div>
+      <div class="line">Use customer evidence, usage data, market research and competitive context to sharpen strategy and decide where investment goes next.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run</h4>
+      <div class="line">At <b>Sensata</b>, I built industry-specific positioning for industrial and automotive buyers from <b>30+ customer interviews</b> with OEMs and distributors, driving <b>$2M+ first-year revenue</b>.</div>
+      <div class="line">I built <b>field enablement and reusable playbooks</b> for 50+ reps, the partner-facing half of this role, lifting win rates 30%.</div>
+      <div class="line">I run operating rhythms (weekly and quarterly reviews) across every seat I have held, and I automate recurring research with <b>Claude AI agents</b> today.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">The translation this role asks for, deep technical capability into a narrative a non-technical buyer can act on, is the exact job I have been doing in semiconductors and industrial sensing.</div>
+  </div>
+  <div class="brand">OPENAI INDUSTRY PMM</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What the Industry Product Marketing Manager opening asks for, and where the proof sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Develop industry-specific positioning, narratives, and messaging that translate OpenAI's products and research into practical value for target sectors."</div></div>
+      <div class="quote"><div class="q">"Partner with GTM, sales, and customer teams to build and refine industry playbooks, enablement material, and field assets."</div></div>
+      <div class="quote"><div class="q">"Build and run GTM programs and operating rhythms in a fast-moving, ambiguous environment."</div></div>
+    </div>
+    <div class="col">
+      <h3>My Proof</h3>
+      <div class="proof"><div class="p"><b>Sensata industry positioning:</b> owned GTM end to end for new sensing products in industrial and automotive sectors, grounded in 30+ customer interviews, driving $2M+ first-year revenue.</div></div>
+      <div class="proof"><div class="p"><b>Field enablement at scale:</b> playbooks and decks for 50+ reps, +30% win rates, the cross-functional field-asset half of this posting.</div></div>
+      <div class="proof"><div class="p"><b>Operating rhythm under ambiguity:</b> weekly and quarterly business reviews running P&L-owning programs at Applied Materials, Sensata, Plug Power and Pixis.</div></div>
+      <div class="proof"><div class="p"><b>AI fluency in practice:</b> automate recurring analysis with Claude agents at Applied Materials, and shipped a production product end to end on the OpenAI API.</div></div>
+    </div>
+  </div>
+  <div class="brand">OPENAI INDUSTRY PMM</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The Sensata proof, in depth</div>
+  <h2>Industry GTM in practice: <span class="accent">research the sector, write the narrative, arm the field, track the number.</span></h2>
+  <div class="lede">Owned positioning, pricing, channel and launch for new sensing products across North America and Europe, one industry narrative built from 30+ customer interviews with OEMs and distributors, not a single generic pitch.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$2M+</div>
+      <div class="lbl">First-Year Revenue</div>
+      <div class="desc">The outcome the industry-specific positioning and channel decisions were built to produce.</div>
+    </div>
+    <div class="stat">
+      <div class="n">30+</div>
+      <div class="lbl">Customer Interviews</div>
+      <div class="desc">OEMs and distributors interviewed to ground the narrative in what the sector actually needed.</div>
+    </div>
+    <div class="stat">
+      <div class="n">+30%</div>
+      <div class="lbl">Field Win Rate</div>
+      <div class="desc">From enablement and reusable playbooks built for 50+ reps who needed the narrative in a usable form.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">The same cycle ran competitor and purchasing-pattern analysis across EMEA and the US to decide where the next quarter's marketing investment should go, then reported program effectiveness back to leadership every quarter.</div>
+  <div class="brand">OPENAI INDUSTRY PMM</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month building out one industry vertical looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Learn the sector from the field</div>
+      <div class="body">Sit with GTM, sales and Customer Success to hear how the target sector currently understands OpenAI's products, and where the narrative breaks down for a non-technical buyer.</div>
+      <div class="why"><strong>Why first:</strong> the same move that grounded the Sensata launch: find the real pain point before writing the positioning.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Write the narrative and the field asset</div>
+      <div class="body">Turn the sector's real workflow into clear positioning and a usable playbook, drafted with AI tools for speed so more time goes into the judgment calls on accuracy and credibility.</div>
+      <div class="why"><strong>Why now:</strong> the industry-specific positioning and field enablement this posting asks for, built with the AI-native workflow I already run daily.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Arm the field and set the measurement</div>
+      <div class="body">Hand the playbook to GTM and customer teams, pair it with usage-data and competitive signal, and set the reporting rhythm that tracks whether the program is actually moving adoption.</div>
+      <div class="why"><strong>Why this fast:</strong> a narrative only counts once a field team is running it and the number is being tracked.</div>
+    </div>
+  </div>
+  <div class="brand">OPENAI INDUSTRY PMM</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to translate technical capability into sector-specific value, arm the field, and run GTM programs in ambiguity. I have already run all three, together, on technical products.</h2>
+  <div class="body">
+    <p>The core proof is Sensata: <strong>$2M+ first-year revenue</strong> from an industry-specific GTM program, <strong>+30% field win rate</strong> from enablement built for 50+ reps, and <strong>30+ customer interviews</strong> behind every narrative decision.</p>
+    <p>What is harder to find is someone already running that playbook on an AI-native product: I automate research with <strong>Claude AI agents</strong> daily and have <strong>shipped on the OpenAI API</strong> myself, so the AI fluency this posting asks for is a current habit, not a claim.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-product-ai.vercel.app/ref/openai</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">OPENAI INDUSTRY PMM</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>

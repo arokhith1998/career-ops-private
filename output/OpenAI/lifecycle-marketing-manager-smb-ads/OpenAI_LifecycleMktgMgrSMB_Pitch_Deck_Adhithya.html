@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>OpenAI Lifecycle Marketing Manager, SMB Ads Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #0c5f4c; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 32pt; font-weight: 800; color: #0f172a; line-height: 1.08; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 21pt; font-weight: 800; color: #0f172a; line-height: 1.1; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #0c5f4c; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.5in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d3ede2 100%); }
+  .cover h1 { font-size: 27pt; max-width: 11.2in; }
+  .cover .sub { font-size: 14pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 18pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #0c5f4c; font-weight: 700; }
+  .cover .who { margin-top: 18pt; padding-top: 11pt; border-top: 1.5pt solid #0c5f4c; max-width: 9.5in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #0c5f4c; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #eaf6f0; border-left: 3pt solid #0c5f4c; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #0c5f4c; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #0c5f4c; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #eaf6f0; border-left: 4pt solid #0c5f4c; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #0c5f4c; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0c5f4c; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 24pt; font-weight: 800; color: #0c5f4c; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0c5f4c; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #0c5f4c; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #0c5f4c; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d3ede2 100%); }
+  .close h2 { font-size: 26pt; max-width: 10.5in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.8in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #0c5f4c; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the OpenAI Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | OpenAI Lifecycle Marketing Manager, SMB Ads</div>
+  <h1>This is a zero-to-one lifecycle build. I have built a triggered lifecycle flow from nothing before, for an SMB-sized paid budget, and cut cost per lead 50% doing it.</h1>
+  <div class="sub">Triggered journeys, cohort segmentation and onboarding programs, proven on an 8-client SMB portfolio and a lead flow built from scratch.</div>
+  <div class="tags">
+    <div class="tag">Built the <strong>Pardot/WordPress triggered lead flow from scratch</strong> at Plug Power, cost per lead -50%</div>
+    <div class="tag"><strong>50%</strong> churn cut across an 8-client, $15K-$90K/month SMB portfolio at Pixis</div>
+    <div class="tag"><strong>+35%</strong> qualified leads from lifecycle nurture campaigns at Sensata</div>
+    <div class="tag">Cohort segmentation in <strong>SQL + GA4</strong> lifting feature adoption 18%</div>
+    <div class="tag"><strong>Claude AI agents</strong> automating workflows today; shipped onboarding on the <strong>OpenAI API</strong></div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-growth-ai.vercel.app/ref/openai</div>
+  </div>
+  <div class="brand">OPENAI SMB ADS LIFECYCLE</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>This req is not "run an existing lifecycle program." It is "build the lifecycle programs from the first customer on." <span class="accent">I have done that exact build before.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What the role actually asks for</h4>
+      <div class="line">Own the lifecycle portfolio across prospect conversion, activation, retention, repeat spend, reactivation and expansion, and build the segmented, triggered journeys from scratch.</div>
+      <div class="line">Lead prospect nurture and email acquisition, then launch onboarding and education programs that move advertisers to first campaign and repeat spend.</div>
+      <div class="line">Define data signals, segmentation, instrumentation and measurement with Data Science and Marketing Ops, and use AI to scale the programs that work.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already built</h4>
+      <div class="line">At <b>Plug Power</b>, there was no lead-nurture flow when I arrived. I built the <b>WordPress + Pardot triggered sequence from scratch</b>, cutting cost per lead <b>50%</b>.</div>
+      <div class="line">At <b>Pixis</b>, I ran an <b>8-client, $15K-$90K/month SMB portfolio</b> end to end: activation, retention playbooks and winback plays that cut churn <b>50%</b>.</div>
+      <div class="line">At <b>Sensata</b>, I segmented usage cohorts in <b>SQL and GA4</b> across 50K+ devices, lifted feature adoption <b>18%</b>, and ran lifecycle nurture campaigns that drove <b>+35% qualified leads</b>.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">The zero-to-one framing in this posting is not new to me. Plug Power's lead flow and SwipeHire's onboarding flow were both built from an empty state, not inherited and tuned.</div>
+  </div>
+  <div class="brand">OPENAI SMB ADS LIFECYCLE</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What the Lifecycle Marketing Manager, SMB Ads opening asks for, and where the proof sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Build segmented, triggered journeys that connect advertiser needs, intent, readiness and behavior to relevant messages and next steps."</div></div>
+      <div class="quote"><div class="q">"Launch onboarding and education programs that help advertisers create campaigns, understand performance, adopt capabilities and grow their investment."</div></div>
+      <div class="quote"><div class="q">"Hands-on experience with CRM and marketing automation platforms, such as Marketo or comparable tools, including journey logic and personalization."</div></div>
+    </div>
+    <div class="col">
+      <h3>My Proof</h3>
+      <div class="proof"><div class="p"><b>Triggered journey, built from zero:</b> the Pardot + WordPress lead-nurture sequence at Plug Power, designed and shipped with no prior flow in place, cost per lead -50%.</div></div>
+      <div class="proof"><div class="p"><b>Onboarding and activation, SMB-sized:</b> the SwipeHire signup-to-first-match flow for 50+ early users, 8+ A/B tests and 12+ interviews, activation +25%.</div></div>
+      <div class="proof"><div class="p"><b>CRM and automation, hands-on:</b> Pardot, HubSpot and Salesforce builds, lead scoring, MQL/SQL handoff and journey QA, the same journey-logic skillset a Marketo program runs on.</div></div>
+      <div class="proof"><div class="p"><b>Cohort and segmentation depth:</b> SQL + GA4 usage cohorts at Sensata, Amplitude + Tableau behavior segments at Pixis across 30+ campaigns.</div></div>
+    </div>
+  </div>
+  <div class="brand">OPENAI SMB ADS LIFECYCLE</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The Pixis and Plug Power proof, in depth</div>
+  <h2>An SMB advertiser portfolio and a lead-nurture flow, both run end to end: <span class="accent">build the journey, segment the audience, prove it in the data.</span></h2>
+  <div class="lede">At Pixis, hired and managed an 8-person team running retention strategy for 8 SMB-sized advertiser accounts at $15K-$90K/month each, carrying P&amp;L targets and building reactivation playbooks on account-health signals and channel diversification.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">50%</div>
+      <div class="lbl">Churn Cut (Pixis)</div>
+      <div class="desc">Through account-health signals, channel diversification and vertical-specific winback plays, the reactivation motion this role is built to run.</div>
+    </div>
+    <div class="stat">
+      <div class="n">50%</div>
+      <div class="lbl">Cost Per Lead (Plug Power)</div>
+      <div class="desc">From building the WordPress + Pardot triggered nurture sequence from an empty state, the exact zero-to-one lifecycle build this req describes.</div>
+    </div>
+    <div class="stat">
+      <div class="n">18%</div>
+      <div class="lbl">Feature Adoption (Sensata)</div>
+      <div class="desc">From segmenting 50K+ connected devices into usage cohorts in SQL and GA4 to find and message the high-intent accounts first.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">The same discipline runs at Sensata: lifecycle nurture campaigns across North America and Europe drove +35% qualified leads, and 30+ customer interviews mapping the buyer journey raised CSAT 22%, both feeding directly into messaging and journey design.</div>
+  <div class="brand">OPENAI SMB ADS LIFECYCLE</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month owning the SMB Ads lifecycle portfolio looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Map the advertiser journey</div>
+      <div class="body">Sit with Product, Data Science and Ads Engineering to map the journey from first interest through first campaign to repeat spend, using cohort analysis to find where advertisers stall.</div>
+      <div class="why"><strong>Why first:</strong> the same move that grounded the Sensata cohort work: read the behavior signals before building the sequence.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Build the first triggered journey</div>
+      <div class="body">Design and ship the first segmented, triggered sequence against the sharpest drop-off point, with suppression, consent and deliverability built in from the start, not bolted on after.</div>
+      <div class="why"><strong>Why now:</strong> the same build-from-zero move as the Plug Power lead flow: no inherited sequence, no shortcuts on journey quality.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Launch an onboarding program</div>
+      <div class="body">Package the first wins into an onboarding and education sequence that moves advertisers to first campaign faster, with a holdout group in place to measure incremental lift, not just engagement.</div>
+      <div class="why"><strong>Why this fast:</strong> the same signup-to-first-action flow I built for SwipeHire, now at SMB-advertiser scale.</div>
+    </div>
+  </div>
+  <div class="brand">OPENAI SMB ADS LIFECYCLE</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to build lifecycle programs for SMB advertisers from the ground up. I have already built that exact kind of program, from zero, more than once.</h2>
+  <div class="body">
+    <p>The core proof is Plug Power: a <strong>triggered lead-nurture flow built from scratch</strong>, no prior sequence in place, cutting <strong>cost per lead 50%</strong>. Pixis adds the retention half: an <strong>8-client, $15K-$90K/month SMB portfolio</strong> with a <strong>50% churn cut</strong> through segmented winback plays.</p>
+    <p>What is harder to find is someone who has also <strong>segmented usage cohorts in SQL and GA4</strong> to drive a qualified-lead lift, and who runs <strong>Claude AI agents</strong> today to automate the analysis this role asks for.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-growth-ai.vercel.app/ref/openai</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">OPENAI SMB ADS LIFECYCLE</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
