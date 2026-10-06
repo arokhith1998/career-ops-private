@@ -1,0 +1,20 @@
+Subject: Proving the motion before it has an owner
+
+Hi {Hiring Manager, Gusto},
+
+I don't normally write in before applying, but the line about this team existing for work with no settled audience or owner yet, handing off to the PMM pods once a motion is proven, is exactly the seat I keep getting asked to fill first.
+
+At Sensata, I built GTM from zero for a new sensing-product line: set positioning and segmentation myself, tested it against 30+ OEM and distributor interviews, then built the SQL and GA4 cohort framework that told us which signals mattered before we scaled, for $2M+ in first-year revenue and feature adoption up 18%.
+Right now at PriceKeel, my own company, I'm positioning a pricing category to RevOps, Sales and Finance leaders who have never bought anything like it, the same ambiguity your Experimentation team is standing up against.
+I also run my own research through AI agents built on Claude, the AI fluency this role asks for directly.
+
+Here's the portfolio: https://adhi-product.vercel.app/ref/gusto
+
+Worth 15 minutes to see if the fit is real? Happy to be pointed elsewhere if this isn't your req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
