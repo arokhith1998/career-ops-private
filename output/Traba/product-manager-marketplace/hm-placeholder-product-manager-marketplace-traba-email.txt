@@ -1,0 +1,21 @@
+Subject: Fill rate is a product problem, not an ops backlog
+
+Hi {Hiring Manager, Traba Product},
+
+I do not usually write in before applying, but framing the staffing product as marketplace liquidity and fill rate, not a feature backlog, is the lens I already run, not one I would be adopting for this seat.
+
+- Built a two-sided marketplace zero to one at SwipeHire, balancing worker supply against employer demand; 8+ A/B tests and 12+ interviews lifted activation 25% across 50+ early users.
+- Translated distribution-center and manufacturing-line needs into a prioritized backlog at Sensata's industrial accounts, shipping 100+ features with engineering across 3 regions and cutting time-to-market 20%.
+- Built the operational tooling myself, not handed it off: a Power BI system tracking 1,200 pricing opportunities against a $627M target across 20 product lines.
+- Run AI agents on Claude at Applied Materials daily, automating analysis that used to be manual, the builder mentality your posting names directly.
+
+Here's the portfolio: https://adhi-product.vercel.app/ref/traba
+
+Worth 15 minutes to see if the fit is real? Happy to be pointed elsewhere if this is not your req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

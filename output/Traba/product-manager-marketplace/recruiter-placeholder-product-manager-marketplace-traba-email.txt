@@ -1,0 +1,21 @@
+Subject: The product is the labor itself, and I have built that marketplace
+
+Hi {Recruiter, Traba Talent},
+
+I do not normally reach out before applying, but "the product is the labor itself" is the exact framing I built SwipeHire around: workers and employers on either side of one match, not a feature bolted onto a product.
+
+- Built a two-sided job marketplace zero to one (PRD, MVP, matching logic); 8+ A/B tests and 12+ interviews lifted activation 25% across 50+ early users.
+- Owned a 100+-feature backlog for enterprise manufacturing customers at Sensata, shipping with engineering across 3 regions and cutting time-to-market 20%.
+- Built the operational tooling itself: a Power BI system tracking 1,200 opportunities against a $627M target.
+- Run AI agents on Claude at Applied Materials to automate analysis daily, the AI-native habit your posting names directly.
+
+Here's the portfolio: https://adhi-product.vercel.app/ref/traba
+
+Worth 15 minutes if this req sits with you; happy to be pointed elsewhere if not.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
