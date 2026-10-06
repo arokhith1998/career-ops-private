@@ -1,0 +1,21 @@
+Subject: Aligning email touchpoints to the in-product signal, not just the send
+
+Hi {Hiring Manager, ClickHouse Lifecycle},
+
+I do not normally reach out before applying, but owning onboarding journeys where email touchpoints align to the in-product experience, so activation moves and not just opens, is a problem I have already solved.
+
+I scoped and shipped SwipeHire's activation funnel zero to one: GA4 event tracking, funnel dashboards, 8+ A/B tests and 12+ user interviews, for a 25% activation lift right where trial users first touch the product.
+At Sensata I built SQL and GA4 cohort frameworks across 50,000+ connected devices that flagged which engagement moments predicted adoption, lifting feature adoption 18%, the signal-first design this nurture needs.
+At Plug Power I automated the nurture and lead-routing flow end to end and cut cost per lead 50%, then ran 15+ tests to keep improving conversion.
+At Pixis I cut client churn 50% across an 8-client portfolio, the expansion side of the same lifecycle this role would own for ClickHouse Cloud accounts.
+
+Here's the portfolio: https://adhi-growth-ai.vercel.app/ref/clickhouse
+
+Worth 15 minutes to check the fit? Happy to be pointed elsewhere if this is not your req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

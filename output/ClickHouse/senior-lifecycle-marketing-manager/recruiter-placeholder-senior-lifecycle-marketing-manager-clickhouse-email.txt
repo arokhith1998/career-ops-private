@@ -1,0 +1,21 @@
+Subject: ClickHouse's first lifecycle hire: one engine, two motions
+
+Hi {Recruiter, ClickHouse Growth},
+
+I do not normally reach out before applying, but building ClickHouse's first lifecycle engine, one behavior-triggered program for both self-serve trial-to-paid and sales-led nurture, is specific enough that I had to ask.
+
+I automated Plug Power's Pardot nurture and lead-routing flow end to end, cutting cost per lead 50%, the same triggered logic this role needs for signup-to-activation.
+I owned SwipeHire's GTM and analytics stack, GA4 event tracking plus 8+ A/B tests and 12+ user interviews, for a 25% activation lift.
+At Sensata I built SQL and GA4 cohort frameworks across 50,000+ connected devices, isolating high-intent segments and lifting feature adoption 18%.
+At Pixis I cut client churn 50% across an 8-client portfolio, the retention side of this same funnel.
+
+Here's the portfolio: https://adhi-growth-ai.vercel.app/ref/clickhouse
+
+If this req sits with your desk, 15 minutes would help. If not, a pointer to whoever owns it helps as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
