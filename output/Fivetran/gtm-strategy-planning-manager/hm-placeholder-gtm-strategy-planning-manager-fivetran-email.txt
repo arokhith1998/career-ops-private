@@ -1,0 +1,20 @@
+Subject: Territory balance and capacity math for the Commercial and Enterprise split
+
+Hi {Hiring Manager, GTM Strategy & Planning},
+
+I do not normally message before applying, but turning this cycle's revenue number into territories that split opportunity fairly across Commercial, Enterprise and the overlay teams, with headcount tied to real ramp assumptions, is a build I have already run end to end.
+
+At Sensata I built the Bleeders and Leakers Power BI dashboard, validating 1,200 opportunities against a $627M target across 3 regions and 20 product lines, then used that data to recover $700K in margin across 2 quarters and raise distributor margins from 53% to 61%.
+I pull and validate my own SQL and Salesforce data rather than wait on a report, then shape revenue models with Sales and Finance when the plan on paper stops matching the field.
+As founder of PriceKeel I run CRM, CPQ and forecast reviews with an audit trail Finance can stand behind.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/fivetran
+
+Worth 15 minutes to see if the fit is real?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

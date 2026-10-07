@@ -1,0 +1,20 @@
+Subject: Reconciling AMER, EMEA and APAC quotas while two planning systems merge
+
+Hi {Recruiter, GTM Strategy & Planning},
+
+I do not normally reach out before applying, but reconciling top-down revenue into bottoms-up quota and territory models across AMER, EMEA and APAC, while Fivetran and dbt Labs stand up one shared plan, is work I already run.
+
+At Sensata I built the Bleeders and Leakers Power BI dashboard, validating 1,200 opportunities against a $627M target across 3 regions and 20 product lines, so leadership could catch a territory going sideways before quarter end.
+I run the CRM, CPQ and forecast review cadence myself as founder of PriceKeel, the same rhythm a quarterly territory cycle depends on.
+At Applied Materials I reconcile Sales and Engineering demand signals into one forecasting model.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/fivetran
+
+Worth 15 minutes if this is your req? Happy to be pointed elsewhere if not.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
