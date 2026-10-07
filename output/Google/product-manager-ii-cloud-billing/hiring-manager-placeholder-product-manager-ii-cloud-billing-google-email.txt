@@ -4,7 +4,7 @@ Hi {Hiring Manager, Cloud Billing},
 
 Your posting asks for someone who can turn a commercial capability like configurable pricing and flexible invoicing into a roadmap and PRDs, then land it across lead-to-cash. I've run that loop from the pricing end instead of the cloud end, and the muscle underneath is the same.
 
-At Sensata I modeled a BU-wide pricing system that flagged line items where a configurable price change could lift profitability more than 50%, worked that into a 12% YoY revenue gain, and ran the roadmap side too: a 100+ feature backlog carried through PRDs with engineering across three regions, plus 30+ customer interviews with OEMs and distributors that raised CSAT 22%. At Applied Materials I now validate market size and opportunity before a product group commits. I also shipped SwipeHire zero-to-one, writing its own PRD and three subscription pricing tiers from scratch.
+At Sensata I modeled a BU-wide pricing system that flagged line items where a configurable price change could lift profitability more than 50%, worked that into a 12% YoY revenue gain, and ran the roadmap side too: a 100+ feature backlog carried through PRDs with engineering across three regions. At Applied Materials I now validate market size and opportunity before a product group commits, the step before any PRD gets written. I also shipped SwipeHire zero-to-one, writing its own PRD from scratch.
 
 I've attached my resume and cover letter.
 
