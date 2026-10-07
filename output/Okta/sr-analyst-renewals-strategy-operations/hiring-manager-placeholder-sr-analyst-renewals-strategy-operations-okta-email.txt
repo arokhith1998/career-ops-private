@@ -1,0 +1,23 @@
+Subject: Forecasting that explains the miss, not just reports the number
+
+Hi {Hiring Manager, Renewals Strategy & Operations},
+
+I do not normally reach out before applying, but owning a weekly and quarterly forecast with accuracy tracking, so you know when a number is wrong and why, is a different mandate than most forecasting seats, and it is the one I already run.
+
+Built you a 6-slide pitch deck so the proof fits on one read.
+
+Proof points that map to the req:
+- Built Sensata's Bleeders and Leakers Power BI dashboard tracking 1,200 pricing opportunities against a $627M target across 3 regions and 20 product lines, with win rate and stage distribution built in.
+- Recovered $700K+ in margin in two quarters and raised distributor margins from 53% to 61%, both by fixing where the plan and the territory diverged.
+- Carry P&L and revenue targets at Applied Materials, where I run forecasting models and automate the first pass with Claude AI agents, the same AI-plus-judgment this role calls out.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/okta
+
+Would 15 minutes work to walk through the forecast accuracy approach? The deck has a closer look.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
