@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Socure Senior Product Manager, Identity Products Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #0f766e; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 27pt; font-weight: 800; color: #0f172a; line-height: 1.14; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 19pt; font-weight: 800; color: #0f172a; line-height: 1.16; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #0f766e; }
+  .lede { font-size: 11.5pt; color: #475569; max-width: 10.9in; margin-bottom: 10pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #ccfbf1 100%); }
+  .cover h1 { font-size: 24pt; max-width: 11.5in; }
+  .cover .sub { font-size: 13.5pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 17pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.5in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.1pt; font-weight: 500; }
+  .tag strong { color: #0f766e; font-weight: 700; }
+  .cover .who { margin-top: 17pt; padding-top: 11pt; border-top: 1.5pt solid #0f766e; max-width: 9.6in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #0f766e; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #f0fdfa; border-left: 3pt solid #0f766e; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.3pt; color: #115e59; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.1pt; color: #334155; line-height: 1.44; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #0f766e; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.4pt; color: #334155; line-height: 1.46; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 13pt; background: #f0fdfa; border-left: 4pt solid #0f766e; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.3pt; color: #115e59; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 11pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0f766e; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 22pt; font-weight: 800; color: #0f766e; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.3pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.5pt; color: #64748b; line-height: 1.4; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0f766e; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #0f766e; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.3pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.8pt; color: #334155; line-height: 1.42; margin-bottom: 7pt; }
+  .card .why { font-size: 8.3pt; color: #64748b; line-height: 1.42; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #0f766e; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #ccfbf1 100%); }
+  .close h2 { font-size: 24pt; max-width: 10.7in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.3pt; color: #334155; line-height: 1.52; max-width: 10.7in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #0f766e; font-weight: 700; }
+  .close .contact { margin-top: 15pt; font-size: 9.7pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Socure Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Socure Senior Product Manager, Identity Products</div>
+  <h1>A new subscription line lives or dies on two questions: which data sources actually earn a place in it, and whether the commercial model survives contact with a buyer. I run both of those questions for a living.</h1>
+  <div class="sub">A zero-to-one build plan for proactive identity notifications, grounded in evidence-bar design and KPI-instrumented commercialization, not a biography.</div>
+  <div class="tags">
+    <div class="tag">Founded <strong>PriceKeel</strong>, a decision-integrity layer that decides which data signals earn a seat in a pricing decision</div>
+    <div class="tag"><strong>$433M in margin gaps surfaced</strong> by a KPI-instrumented Power BI dashboard at Sensata</div>
+    <div class="tag"><strong>$700K+ recovered in 2 quarters</strong> negotiating against competitive and willingness-to-pay evidence</div>
+    <div class="tag">Modeled <strong>3 subscription pricing tiers</strong> from zero for SwipeHire, an AI product built end to end</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-product-ai.vercel.app/ref/socure</div>
+  </div>
+  <div class="brand">PRODUCT PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>The hard part of this role is not "ship a notification." It is deciding <span class="accent">which signals are trustworthy enough to notify on in the first place.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What the posting actually asks for</h4>
+      <div class="line">Own the first product in this line end to end, from defining what good looks like through beta to GA, on a near-term launch date.</div>
+      <div class="line">Set the evidence bar: define what a candidate data source has to prove, run hypothesis-driven evaluations, and make the buy, build or walk-away call.</div>
+      <div class="line">Price and package a subscription product, recruit early-adopter customers, and coordinate every function to a committed launch date.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already built</h4>
+      <div class="line">At <b>PriceKeel</b>, I founded, designed and am now running a product whose entire job is deciding which data signals have earned enough evidence to drive a deal decision, backed by an audit trail Finance can act on.</div>
+      <div class="line">At <b>Sensata</b>, I built the KPI framework and dashboard that turned 1,200 scored opportunities into $433M of prioritized margin gaps, the same instrumentation discipline a coverage/precision/recency scorecard needs.</div>
+      <div class="line">At <b>PriceKeel</b> again, I set the commercial model, built the CRM, CPQ and deal-approval flow, and am running pilots and raising the company's first round right now.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">The through-line: every product I have built or priced required deciding what counts as evidence before deciding what to ship, and I have already run that discipline on a product I own end to end, not just a feature I contributed to.</div>
+  </div>
+  <div class="brand">PRODUCT PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The mandate, mapped</div>
+  <h2>What the posting asks for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Define the customer-facing event contract: what the notification contains, its lifecycle semantics, and how customers consume and act on it."</div></div>
+      <div class="quote"><div class="q">"Define and instrument the KPIs for this product line, including coverage, precision, and recency, and build internal benchmarking capability."</div></div>
+      <div class="quote"><div class="q">"Define pricing, packaging, and commercial terms for a subscription product... identify, recruit, and work hand-in-hand with early-adopter customers."</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>PriceKeel's guardrail engine:</b> a recommendation contract that reads a live deal exception and returns an explainable guardrail, backed by an audit trail recording the evidence behind every call, so a human decision is never a black box.</div></div>
+      <div class="proof"><div class="p"><b>Sensata's FY2026 dashboard:</b> 1,200 pricing opportunities scored against a $627M target across 3 regions and 20 product lines, with the win-rate, dollar-per-win and stage-distribution benchmarks that made $433M of margin gaps actionable.</div></div>
+      <div class="proof"><div class="p"><b>SwipeHire's subscription model:</b> 3 pricing tiers modeled from competitor benchmarks and willingness-to-pay signals, shipped with the product rather than bolted on after launch.</div></div>
+      <div class="proof"><div class="p"><b>Sensata's margin recovery:</b> $700K+ recovered in 2 quarters and distributor margins moved 53% to 61%, commercial terms negotiated on evidence, not on list price.</div></div>
+    </div>
+  </div>
+  <div class="brand">PRODUCT PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The evidence-bar problem, in depth</div>
+  <h2>A notification is only as trustworthy as the source behind it. <span class="accent">That is a product-design problem, not a data-engineering afterthought.</span></h2>
+  <div class="lede">The brief treats data-source evaluation as a standalone step before measurement. I would treat them as one loop: the evidence bar a source has to clear should be defined by the same KPIs the product is held to.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$433M</div>
+      <div class="lbl">Margin Gaps Surfaced</div>
+      <div class="desc">A KPI-instrumented Power BI dashboard turned 1,200 scored opportunities into a prioritized action list for leadership, the same discipline this product line needs for coverage, precision and recency.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$700K+</div>
+      <div class="lbl">Margin Recovered, 2 Quarters</div>
+      <div class="desc">Negotiated against competitive gaps and real willingness-to-pay evidence rather than list price, the same posture a data-source negotiation needs when a vendor overstates coverage.</div>
+    </div>
+    <div class="stat">
+      <div class="n">1 Guardrail Engine</div>
+      <div class="lbl">Built From Zero at PriceKeel</div>
+      <div class="desc">An explainable rule that decides which signals earn a seat in a deal decision, with the audit trail that proves the call to Finance, the same shape as deciding which data source earns a seat in a notification.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 16pt;">The common thread: none of this was measurement for its own sake. Each dashboard and each guardrail existed to make a buy, build or walk-away call defensible to the people who had to sign off on it.</div>
+  <div class="brand">PRODUCT PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month owning the proactive identity-notification product looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Pressure-test the event contract</div>
+      <div class="body">Sit with the engineering and platform teams on how signals get resolved, merged and published today, and draft what the notification's lifecycle semantics need to be for a customer to act on it without a false alarm.</div>
+      <div class="why"><strong>Why first:</strong> the same first move behind PriceKeel's guardrail engine, define the evidence bar before building the product around it.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Stand up the KPI and benchmarking scorecard</div>
+      <div class="body">Define coverage, precision and recency targets with the Data Partnerships team, and build the internal benchmarking view that turns a candidate source's claims into a buy, build or walk-away decision.</div>
+      <div class="why"><strong>Why now:</strong> the same KPI-instrumentation discipline that turned Sensata's dashboard into $433M of prioritized action.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Price the first beta cohort</div>
+      <div class="body">Model the subscription's pricing and packaging with early-adopter customers, using the incremental value per period the KPI work surfaced, and lock the beta-to-GA phasing plan with every function on a committed date.</div>
+      <div class="why"><strong>Why this fast:</strong> the same zero-to-one discipline that set PriceKeel's commercial model from day one.</div>
+    </div>
+  </div>
+  <div class="brand">PRODUCT PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to decide what counts as evidence, then build a priced product on top of that decision. I have already run that exact pattern, twice.</h2>
+  <div class="body">
+    <p>The core proof is PriceKeel: I founded a product whose entire job is deciding which data signals have earned a seat in a deal, built the audit trail that proves it, and set its commercial model myself, end to end, from zero.</p>
+    <p>The second half is Sensata's dashboard work: <strong>$433M in margin gaps surfaced</strong> and <strong>$700K+ recovered in 2 quarters</strong>, both built on the same KPI-instrumentation and evidence-based negotiation discipline this product line needs to go from beta to a defensible GA.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-product-ai.vercel.app/ref/socure</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">PRODUCT PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
