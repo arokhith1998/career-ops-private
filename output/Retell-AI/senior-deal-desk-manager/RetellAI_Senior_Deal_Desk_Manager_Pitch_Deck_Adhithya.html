@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Retell AI Senior Deal Desk Manager Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #0f766e; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 27pt; font-weight: 800; color: #0f172a; line-height: 1.14; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 20pt; font-weight: 800; color: #0f172a; line-height: 1.12; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #0f766e; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.8in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d5efec 100%); }
+  .cover h1 { font-size: 22pt; max-width: 11.6in; }
+  .cover .sub { font-size: 13.5pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 16pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.1pt; font-weight: 500; }
+  .tag strong { color: #0f766e; font-weight: 700; }
+  .cover .who { margin-top: 16pt; padding-top: 10pt; border-top: 1.5pt solid #0f766e; max-width: 9.5in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #0f766e; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #e6f5f3; border-left: 3pt solid #0f766e; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.3pt; color: #0a5a53; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.2pt; color: #334155; line-height: 1.44; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #0f766e; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #e6f5f3; border-left: 4pt solid #0f766e; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #0a5a53; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0f766e; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 23pt; font-weight: 800; color: #0f766e; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0f766e; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #0f766e; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #0f766e; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d5efec 100%); }
+  .close h2 { font-size: 24pt; max-width: 10.8in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.9in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #0f766e; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Retell AI Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Retell AI Senior Deal Desk Manager</div>
+  <h1>One seat here structures and approves a non-standard deal in hours, runs the discount approval matrix, models margin before every approval, and owns quote-to-cash across CRM, CPQ, Legal and billing. I have already run every piece of that loop.</h1>
+  <div class="sub">A discount approval matrix built from scratch, margin modeling that runs before the deal closes, and a weekly cycle-time and win-rate report that leadership can act on.</div>
+  <div class="tags">
+    <div class="tag"><strong>$700K+</strong> margin recovered in 2 quarters by modeling margin before approval at Sensata</div>
+    <div class="tag"><strong>53% to 61%</strong> distributor margin lift from a rebuilt discount approval structure</div>
+    <div class="tag"><strong>Discount approval matrix + margin model</strong>, built and run daily as founder of PriceKeel</div>
+    <div class="tag"><strong>1,200 opportunities</strong> tracked weekly for win rate, discount levels and cycle time against a $627M target</div>
+    <div class="tag"><strong>Claude AI agents</strong> automating recurring pricing analysis at Applied Materials</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-pricing-ai.vercel.app/ref/retell</div>
+  </div>
+  <div class="brand">RETELL AI DEAL DESK PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>Deal desk for a voice-AI platform closing tens of millions of calls a month is three jobs held by one seat: speed on non-standard deals, margin discipline before approval, <span class="accent">and a quote-to-cash record Legal and billing can both trust.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What slows a growing pipeline down</h4>
+      <div class="line">A non-standard deal that takes days instead of hours does not just delay one contract. It stacks behind the next deal, and the next, until Sales is waiting on Deal Desk instead of closing.</div>
+      <div class="line">A discount approved without a margin model run first looks fine in the deal room and shows up as a margin problem the following quarter, once CRM, CPQ, Legal and billing have all already recorded it as final.</div>
+      <div class="line">The fix is not a slower approval gate. It is a matrix that structures the decision before Sales asks, and a weekly report that shows cycle time, discount levels and win rate before they become a surprise.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run</h4>
+      <div class="line">At <b>PriceKeel</b>, I built the discount approval matrix and the margin model myself, so a non-standard deal gets structured and approved in hours, not days.</div>
+      <div class="line">At <b>Sensata</b>, I modeled deal margin before every approval inside the Bleeders and Leakers program, then tracked win rate, discount levels and cycle time weekly across 1,200 opportunities.</div>
+      <div class="line">Both mean I have built the approval matrix and run it against real deal volume, not just read about one.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">Structuring and approving non-standard deals in hours, building the discount approval matrix and pricing guardrails, modeling margin before approval, running quote-to-cash across CRM, CPQ, Legal and billing, and reporting weekly on cycle time, discount levels and win rate: this is the exact loop I already run.</div>
+  </div>
+  <div class="brand">RETELL AI DEAL DESK PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What the Senior Deal Desk Manager opening asks for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">Structure and approve non-standard deals in hours, not days.</div></div>
+      <div class="quote"><div class="q">Build discount approval matrix and pricing guardrails.</div></div>
+      <div class="quote"><div class="q">Model deal margin before approvals.</div></div>
+      <div class="quote"><div class="q">Manage quote-to-cash across CRM, CPQ, Legal, and billing systems.</div></div>
+      <div class="quote"><div class="q">Report weekly on cycle time, discount levels, and win rate.</div></div>
+    </div>
+    <div class="col">
+      <h3>My Proof</h3>
+      <div class="proof"><div class="p"><b>Non-standard deals, structured fast:</b> built and run PriceKeel's discount approval matrix daily, turning a discount exception into a structured decision in hours.</div></div>
+      <div class="proof"><div class="p"><b>Margin modeled before approval:</b> led the Bleeders and Leakers program at Sensata, modeling deal margin before sign-off and recovering $700K+ in margin in 2 quarters.</div></div>
+      <div class="proof"><div class="p"><b>Quote-to-cash across CRM, CPQ, Legal, billing:</b> set up and run PriceKeel's own CRM and CPQ, forecast and pipeline reviews, and deal approvals; partnered with senior executives on multimillion-dollar customer quotes at Sensata through the same CRM and CPQ stack.</div></div>
+      <div class="proof"><div class="p"><b>Weekly cycle time, discount levels, win rate:</b> built the FY2026 Bleeders and Leakers Power BI dashboard tracking all three weekly across 1,200 pricing opportunities and a $627M target.</div></div>
+    </div>
+  </div>
+  <div class="brand">RETELL AI DEAL DESK PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>Bleeders and Leakers: <span class="accent">model the margin before the deal closes, not after.</span></h2>
+  <div class="lede">Built as a BU-wide Power BI system covering 1,200 pricing opportunities against a $627M target across 3 regions, 4 product families and 20 product lines, with win rate, discount levels and cycle time all visible weekly before leadership set the next quarter's targets.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$700K+</div>
+      <div class="lbl">Margin Recovered, 2 Quarters</div>
+      <div class="desc">Deal margin modeled against competitive gaps and each customer's own willingness to pay before the approval, not after.</div>
+    </div>
+    <div class="stat">
+      <div class="n">53% to 61%</div>
+      <div class="lbl">Distributor Margin Lift</div>
+      <div class="desc">A rebuilt discount approval structure on parts sold through distribution, documented so the new margin held past the first quarter.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$433M</div>
+      <div class="lbl">Margin Gaps Surfaced</div>
+      <div class="desc">Every gap traced to a specific deal by salesperson and product line, the same record-level detail quote-to-cash depends on.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">At PriceKeel that same instinct became the product: the discount approval matrix and the margin model are one system, so the approval decision and the record behind it are never two different stories.</div>
+  <div class="brand">RETELL AI DEAL DESK PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month owning Deal Desk at Retell AI looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Learn the current deal flow and its friction points</div>
+      <div class="body">Sit with Sales, Finance, Legal and billing to walk today's non-standard deal path end to end, and clock where it takes days instead of hours.</div>
+      <div class="why"><strong>Why first:</strong> the same instinct that had me learn a BU's own pricing patterns before building the Bleeders and Leakers model on top of them.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Stand up the discount approval matrix and margin model</div>
+      <div class="body">Build the matrix and the margin model that structure a non-standard deal and model its margin before it ever reaches final approval, wired into the live CRM and CPQ.</div>
+      <div class="why"><strong>Why now:</strong> the same build I run daily at PriceKeel and the same discipline that recovered $700K+ in margin at Sensata.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Publish the first weekly cycle-time and win-rate report</div>
+      <div class="body">Ship the first weekly report on cycle time, discount levels and win rate so leadership sees the deal desk's output on a fixed cadence from month one.</div>
+      <div class="why"><strong>Why this fast:</strong> a discount approval matrix only earns its keep once Sales can see the numbers it is protecting.</div>
+    </div>
+  </div>
+  <div class="brand">RETELL AI DEAL DESK PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to keep non-standard deals fast, margin honest, and quote-to-cash clean across CRM, CPQ, Legal and billing. I have already built that discipline, from both sides of the approval.</h2>
+  <div class="body">
+    <p>The core proof is Sensata: a Power BI system tracking <strong>1,200 pricing opportunities against a $627M target</strong>, distributor margins restructured <strong>from 53% to 61%</strong>, and $700K+ in margin recovered in 2 quarters by modeling margin before every approval.</p>
+    <p>What is harder to find is someone who has also spent the last several months owning the discount approval matrix and the margin model for his own company's deal flow. <strong>I built that at PriceKeel</strong>, so the quote-to-cash discipline this role runs across CRM, CPQ, Legal and billing is not something I would need to learn on the job, only which deal to point it at first.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-pricing-ai.vercel.app/ref/retell</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">RETELL AI DEAL DESK PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
