@@ -1,0 +1,20 @@
+Subject: Product Manager II, Cloud Billing: the pricing side of lead-to-cash
+
+Hi {Recruiter, Cloud Billing},
+
+I don't normally reach out before applying, but your line about configurable pricing models and flexible invoicing across the lead-to-cash process is work I've already shipped, just outside Cloud.
+
+At Sensata I built a BU-wide pricing model that flagged line items where a configurable price change could lift profitability more than 50%, driving a 12% YoY revenue gain across a base of 50K+ connected devices. I also carried the roadmap half: a 100+ feature backlog through PRDs with engineering across three regions, cutting time-to-market 20%. At Applied Materials I now build the forecasting and market-sizing models that validate opportunity before a product group commits.
+
+I've attached my resume and cover letter.
+
+Here's the portfolio: https://adhi-product.vercel.app/ref/google
+
+Could we spend 15 minutes on this? If it sits with someone else on your team, a pointer would help just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
