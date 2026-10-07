@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>HealthEdge Product Marketing Manager Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #1a56db; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 27pt; font-weight: 800; color: #0f172a; line-height: 1.15; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 19pt; font-weight: 800; color: #0f172a; line-height: 1.16; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #1a56db; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.8in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbeafe 100%); }
+  .cover h1 { font-size: 23pt; max-width: 11.4in; }
+  .cover .sub { font-size: 13pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; max-width: 10.8in; }
+  .cover .tags { margin-top: 16pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.6in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9pt; font-weight: 500; }
+  .tag strong { color: #1a56db; font-weight: 700; }
+  .cover .who { margin-top: 16pt; padding-top: 10pt; border-top: 1.5pt solid #1a56db; max-width: 9.6in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #1a56db; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #eff6ff; border-left: 3pt solid #1a56db; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #1e3a8a; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #1a56db; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.4pt; color: #334155; line-height: 1.46; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 13pt; background: #eff6ff; border-left: 4pt solid #1a56db; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #1e3a8a; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 21pt; font-weight: 800; color: #1a56db; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.3pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.6pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #1a56db; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.3pt; font-weight: 800; color: #0f172a; line-height: 1.18; margin-bottom: 7pt; }
+  .card .body { font-size: 8.8pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.3pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #1a56db; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbeafe 100%); }
+  .close h2 { font-size: 22pt; max-width: 11in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.8in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #1a56db; font-weight: 700; }
+  .close .contact { margin-top: 15pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the HealthEdge Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | HealthEdge Product Marketing Manager</div>
+  <h1>HealthEdge Source is scaling into a growing book of health plans. The battlecards, personas and enablement library that keep sales current with that growth are work I already build, not work I would be learning on the job.</h1>
+  <div class="sub">A positioning-to-enablement track record built on 30+ customer interviews and a 50+-rep enablement library, paired with the regulated-buyer instinct this market shares with clean energy and aerospace compliance.</div>
+  <div class="tags">
+    <div class="tag"><strong>Sensata battlecards/personas</strong> - competitive intel synthesized for 50+ reps, win rates +30%</div>
+    <div class="tag"><strong>30+ interviews</strong> - became testimonials, case studies and roadmap input, CSAT +22%</div>
+    <div class="tag"><strong>$2M+ launch</strong> - owned positioning, pricing, channel and launch end to end</div>
+    <div class="tag"><strong>Regulated buyers</strong> - clean energy (Plug Power), aerospace/auto compliance (Sensata)</div>
+    <div class="tag"><strong>AI agents on Claude</strong> - in production use today, Applied Materials</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-product-ai.vercel.app/ref/healthedge</div>
+  </div>
+  <div class="brand">HEALTHEDGE PRODUCT MARKETING PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>A growing book of health plans does not wait for a battlecard to catch up. <span class="accent">Competitive intelligence that lags the market is a sales problem before it is a marketing one.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What that actually requires</h4>
+      <div class="line">Battlecards and personas synthesized fast enough that a rep is never walking into a renewal or a competitive deal with stale material.</div>
+      <div class="line">Customer references and case studies that double as proof for a new logo and as roadmap signal for product, not one or the other.</div>
+      <div class="line">Launches where positioning, pricing, packaging and demand generation move on the same clock instead of in sequence.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already built at that exact seam</h4>
+      <div class="line">Built <b>competitive battlecards and buyer personas</b> at Sensata that 50+ reps pulled up mid-deal, lifting win rates 30% because the material matched the stage a rep was actually in.</div>
+      <div class="line">Ran <b>30+ structured customer interviews</b> with OEMs and distributors, turning the findings into testimonials, case studies and roadmap input that raised CSAT 22%.</div>
+      <div class="line">Owned a <b>full product launch end to end</b> (positioning, pricing, channel, launch) to $2M+ in first-year revenue, the same moving-parts-together sequence a core-solutions launch needs.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">The through-line: I have already run the research-to-battlecard-to-enablement loop this role owns, on a product line where getting a technical claim wrong carried real stakes.</div>
+  </div>
+  <div class="brand">HEALTHEDGE PRODUCT MARKETING PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The mandate, mapped</div>
+  <h2>What the HealthEdge posting asks for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Contributes to competitive intelligence findings and insights. Synthesizes information into battle cards designed to inform key stakeholders."</div></div>
+      <div class="quote"><div class="q">"Develops a deep understanding of buyers to inform, create, and maintain target personas that cover buyer needs and the purchasing decision process."</div></div>
+      <div class="quote"><div class="q">"Develops customer references, testimonials, and case studies for external and internal use."</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>Battlecards that got used:</b> competitive benchmarking across 10+ players at Sensata, synthesized into the material 50+ reps relied on, win rates +30%.</div></div>
+      <div class="proof"><div class="p"><b>Personas built from real interviews, not assumptions:</b> 30+ structured OEM and distributor conversations, plus a 4-vertical persona build for Safran that included healthcare.</div></div>
+      <div class="proof"><div class="p"><b>References and case studies that fed two audiences:</b> the same 30+ interviews became testimonials for sales and roadmap input for product, raising CSAT 22%.</div></div>
+      <div class="proof"><div class="p"><b>A launch that moved every lever together:</b> positioning, pricing, channel and launch owned end to end to $2M+ in first-year revenue.</div></div>
+    </div>
+  </div>
+  <div class="brand">HEALTHEDGE PRODUCT MARKETING PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The enablement proof, in depth</div>
+  <h2>Sensata: a competitive-intelligence loop built on real interviews, <span class="accent">not a battlecard written from a press release.</span></h2>
+  <div class="lede">Built as the owner of positioning, battlecards and personas for a new sensing line, not handed a messaging doc to localize after launch.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">30+</div>
+      <div class="lbl">Structured Customer Interviews</div>
+      <div class="desc">OEM and distributor buyers, the raw signal behind every persona and reference built afterward.</div>
+    </div>
+    <div class="stat">
+      <div class="n">50+ / 30%</div>
+      <div class="lbl">Reps Enabled / Win-Rate Lift</div>
+      <div class="desc">A battlecard and case-study library reps actually pulled up, instead of five teams each improvising their own pitch.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$2M+ / 22%</div>
+      <div class="lbl">First-Year Revenue / CSAT Lift</div>
+      <div class="desc">The launch result and the customer-satisfaction lift that followed feeding the interviews back into the roadmap.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">The regulated-buyer instinct behind it comes from clean-energy budgets at Plug Power and automotive/aerospace compliance work at Sensata, the closest honest parallel to a health-plan buyer's purchasing process.</div>
+  <div class="brand">HEALTHEDGE PRODUCT MARKETING PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month on the HealthEdge Source Product Marketing team would look like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Sit with Sales and Product, not the deck library</div>
+      <div class="body">Pull the last quarter of lost competitive deals and talk to the reps who ran them, the same move that grounded every Sensata battlecard in a real conversation instead of a guess.</div>
+      <div class="why"><strong>Why first:</strong> a battlecard built on assumptions is the fastest way to lose a rep's trust before it ever ships.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Ship the battlecard or persona reps are missing most</div>
+      <div class="body">Build the single asset most likely to move a live competitive deal this quarter, benchmarked the same way the Sensata library was, the one that lifted win rates 30%.</div>
+      <div class="why"><strong>Why now:</strong> one asset in active use beats a full library nobody has opened yet.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Turn the first win into the maintenance system</div>
+      <div class="body">Set the cadence that keeps battlecards, personas and case studies current as the competitive landscape moves, so the library never goes stale between launches again.</div>
+      <div class="why"><strong>Why this fast:</strong> an enablement library only earns its maintenance budget by proving it moved a deal first.</div>
+    </div>
+  </div>
+  <div class="brand">HEALTHEDGE PRODUCT MARKETING PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>HealthEdge needs competitive intelligence, personas and customer references that keep pace with a growing book of health plans. I have already built that exact loop once.</h2>
+  <div class="body">
+    <p>The core proof is Sensata: <strong>competitive battlecards and buyer personas</strong> built from 30+ real customer interviews, enabling 50+ reps to a 30% win-rate lift, with a $2M+ product launch owned end to end alongside it.</p>
+    <p>The regulated-buyer instinct behind that work came from clean energy and aerospace compliance, the closest parallel to how a health-plan buyer evaluates a claim. What transfers immediately is the mechanics this role is built around: research to battlecard to enablement to reference, on a repeatable cadence.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-product-ai.vercel.app/ref/healthedge</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">HEALTHEDGE PRODUCT MARKETING PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
