@@ -2,15 +2,15 @@ Subject: Senior Product Manager, Identity Products, Socure: the evidence bar for
 
 Hi {Hiring Manager, Identity Products},
 
-I don't normally email before applying, but "specify what a candidate source has to prove, and set the bar it has to clear" is a line I can point to real work against, not just resume language.
+I don't normally email before applying, but "specify what a candidate source has to prove, and set the bar it has to clear" is a line I can point to real work against, not resume language.
 
 Built you a 6-slide pitch deck so the proof fits in one read.
 
-At PriceKeel, the pricing decision-integrity layer I founded, I designed the guardrail engine that decides which signals earn a seat in a pricing call and built the audit trail that proves it to Finance, the same judgment your posting asks for on data sources. At Sensata I built a Power BI dashboard that scored 1,200 pricing opportunities against a $627M target across 3 regions and 20 product lines, with a KPI framework (win rate, average dollar per win, stage distribution) that surfaced $433M in margin gaps for leadership to prioritize, the coverage and precision instinct your notification product needs instrumented early. I also set pricing, packaging and commercial terms for Sensata's Industrial business unit, and modeled three subscription pricing tiers for SwipeHire from competitor and willingness-to-pay signals, the packaging work your posting calls commercialization.
+At PriceKeel, the pricing decision-integrity layer I founded, I designed the guardrail engine that decides which signals earn a seat in a pricing call, and built the audit trail that proves it to Finance, the judgment your posting asks for on data sources. At Sensata I built a Power BI dashboard that scored 1,200 pricing opportunities against a $627M target, with a KPI framework that surfaced $433M in margin gaps for leadership. I also set pricing and packaging for Sensata's Industrial business unit.
 
 Here's the portfolio: https://adhi-product-ai.vercel.app/ref/socure
 
-If this seat is still open, I would like 15 minutes to walk through how the guardrail engine's evidence bar maps to your data-source strategy. If it has moved to someone else's desk, a pointer there would help just as much, and the deck above covers the rest in six slides.
+If this seat is open, I would like 15 minutes to walk through how the guardrail engine's evidence bar maps to your data-source strategy. If it has moved on, a pointer there would help just as much.
 
 Thank you,
 

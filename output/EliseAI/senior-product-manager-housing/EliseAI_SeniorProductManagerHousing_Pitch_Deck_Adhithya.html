@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>EliseAI Senior Product Manager, Housing Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #0f766e; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 27pt; font-weight: 800; color: #0f172a; line-height: 1.14; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 19pt; font-weight: 800; color: #0f172a; line-height: 1.16; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #0f766e; }
+  .lede { font-size: 11.5pt; color: #475569; max-width: 10.9in; margin-bottom: 10pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #ccfbf1 100%); }
+  .cover h1 { font-size: 23.5pt; max-width: 11.5in; }
+  .cover .sub { font-size: 13.5pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 17pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.5in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.1pt; font-weight: 500; }
+  .tag strong { color: #0f766e; font-weight: 700; }
+  .cover .who { margin-top: 17pt; padding-top: 11pt; border-top: 1.5pt solid #0f766e; max-width: 9.6in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #0f766e; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #f0fdfa; border-left: 3pt solid #0f766e; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.3pt; color: #115e59; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.1pt; color: #334155; line-height: 1.44; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #0f766e; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.4pt; color: #334155; line-height: 1.46; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 13pt; background: #f0fdfa; border-left: 4pt solid #0f766e; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.3pt; color: #115e59; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 11pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0f766e; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 22pt; font-weight: 800; color: #0f766e; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.3pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.5pt; color: #64748b; line-height: 1.4; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0f766e; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #0f766e; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.3pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.8pt; color: #334155; line-height: 1.42; margin-bottom: 7pt; }
+  .card .why { font-size: 8.3pt; color: #64748b; line-height: 1.42; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #0f766e; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #ccfbf1 100%); }
+  .close h2 { font-size: 24pt; max-width: 10.7in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.3pt; color: #334155; line-height: 1.52; max-width: 10.7in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #0f766e; font-weight: 700; }
+  .close .contact { margin-top: 15pt; font-size: 9.7pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the EliseAI Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | EliseAI Senior Product Manager | Housing</div>
+  <h1>Housing runs on dozens of manual workflows across leasing, maintenance and payments. I build the AI-native product layer that automates them without losing the trust of the people who depend on it.</h1>
+  <div class="sub">A zero-to-one build plan for resident and property-team workflows, grounded in trust-and-accuracy product design, not a biography.</div>
+  <div class="tags">
+    <div class="tag">Shipped <strong>SwipeHire</strong>, an AI-native matching platform built zero-to-one on the OpenAI API, trusted by 50+ users</div>
+    <div class="tag">Owned a <strong>100+-feature roadmap</strong> at Sensata, cutting time-to-market 20% and lifting CSAT 22%</div>
+    <div class="tag"><strong>KPI frameworks in SQL/GA4</strong> across 50K+ connected devices, lifting feature adoption 18%</div>
+    <div class="tag">Builds <strong>Claude AI agents</strong> at Applied Materials that automate repetitive analysis while staying reviewable</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-product-ai.vercel.app/ref/eliseai</div>
+  </div>
+  <div class="brand">PRODUCT PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>The hard part of this role is not shipping a feature. It is deciding <span class="accent">what to automate without breaking a resident's or property team's trust in the system.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What the posting actually asks for</h4>
+      <div class="line">Own product strategy and execution for critical housing workflows, from resident communication through leasing, maintenance, payments and compliance.</div>
+      <div class="line">Build AI-native products that automate repetitive operational tasks while maintaining trust and accuracy, not speed alone.</div>
+      <div class="line">Translate complex operational requirements into intuitive product experiences, working across Engineering, Design, Data, Operations and GTM.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already built</h4>
+      <div class="line">At <b>SwipeHire</b>, I shipped an AI-native product zero-to-one on the OpenAI API where every match had to stay explainable, not just fast, before 50+ users would trust it.</div>
+      <div class="line">At <b>Sensata</b>, I owned a 100+-feature roadmap built from 30+ customer interviews, translating real operational pain points into shipped features that lifted CSAT 22%.</div>
+      <div class="line">At <b>Applied Materials</b>, I build AI agents on Claude that automate repetitive analysis while staying reviewable, the same trust-and-accuracy bar this role runs on.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">The through-line: every AI-native product I have built had to earn trust before it earned adoption, and I have already run that discipline end to end, not just contributed a feature to someone else's.</div>
+  </div>
+  <div class="brand">PRODUCT PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The mandate, mapped</div>
+  <h2>What the posting asks for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Partner with customers to deeply understand operational pain points across the resident lifecycle."</div></div>
+      <div class="quote"><div class="q">"Define product requirements, prioritize roadmaps, and drive execution from concept through launch."</div></div>
+      <div class="quote"><div class="q">"Develop strong empathy for both property teams and residents, balancing operational efficiency with exceptional user experience."</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>SwipeHire's matching logic:</b> every recommendation had to stay accurate and explainable to the user, built zero-to-one with the high-ownership accountability a product line like this needs from day one.</div></div>
+      <div class="proof"><div class="p"><b>Sensata's roadmap and backlog:</b> 100+ features prioritized from 30+ structured customer interviews, with PRDs and sprint execution run directly with Engineering across 3 regions.</div></div>
+      <div class="proof"><div class="p"><b>Pixis's two-sided empathy:</b> cut client churn 50% by building account strategy that served both the paying client and the end user, the same balance property teams and residents need.</div></div>
+      <div class="proof"><div class="p"><b>Sensata's KPI framework:</b> SQL and GA4 instrumentation across 50K+ connected devices that separated adopted workflows from stalled ones, lifting feature adoption 18%.</div></div>
+    </div>
+  </div>
+  <div class="brand">PRODUCT PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The trust-and-accuracy problem, in depth</div>
+  <h2>An automated workflow is only as good as the trust it earns. <span class="accent">That is a product-design problem, not a model-quality afterthought.</span></h2>
+  <div class="lede">The brief treats trust and accuracy as a constraint on top of automation. I would treat them as the same design decision: what a workflow is allowed to automate should be set by how confidently it can explain itself to the property team or resident on the other end.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">50+</div>
+      <div class="lbl">Users Trusting SwipeHire's Matches</div>
+      <div class="desc">Built zero-to-one on the OpenAI API with matching logic designed to stay explainable, not just fast, the same bar a resident-facing notification has to clear.</div>
+    </div>
+    <div class="stat">
+      <div class="n">100+</div>
+      <div class="lbl">Feature Backlog Owned at Sensata</div>
+      <div class="desc">Prioritized from 30+ customer interviews and shipped with Engineering across 3 regions, cutting time-to-market 20% and lifting CSAT 22%.</div>
+    </div>
+    <div class="stat">
+      <div class="n">18%</div>
+      <div class="lbl">Adoption Lift From KPI Instrumentation</div>
+      <div class="desc">A SQL/GA4 framework across 50K+ connected devices isolated which workflows customers actually trusted enough to keep using.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 16pt;">The common thread: none of this was instrumentation for its own sake. Each framework and each product decision existed to make a what-to-automate call defensible to the people who had to live with it.</div>
+  <div class="brand">PRODUCT PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month owning a Housing workflow product looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Map the resident lifecycle, firsthand</div>
+      <div class="body">Sit with property-team users on how resident communication, leasing, maintenance and payments actually flow today, the same groundwork behind Sensata's 30+ customer interviews, to find where automation removes effort instead of adding risk.</div>
+      <div class="why"><strong>Why first:</strong> the same first move behind every roadmap I have shipped, understand the operational pain point before building around it.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Stand up an adoption and trust scorecard</div>
+      <div class="body">Define the KPIs that separate a workflow residents and property teams actually keep using from one they route around, the same coverage-and-adoption discipline that lifted feature adoption 18% at Sensata.</div>
+      <div class="why"><strong>Why now:</strong> the same KPI-instrumentation habit that turned Sensata's SQL/GA4 framework into a prioritized roadmap.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Ship the first automated workflow, with guardrails</div>
+      <div class="body">Launch the highest-impact workflow from concept through GA with Engineering and Design, built with the same explainable-match discipline SwipeHire shipped with, so trust is designed in rather than patched on after launch.</div>
+      <div class="why"><strong>Why this fast:</strong> the same zero-to-one discipline that took SwipeHire from PRD to 50+ trusted users.</div>
+    </div>
+  </div>
+  <div class="brand">PRODUCT PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to decide what to automate without losing trust. I have already run that exact pattern, twice.</h2>
+  <div class="body">
+    <p>The core proof is SwipeHire: an AI-native product shipped zero-to-one on the OpenAI API, where 50+ users trusted the match because the logic stayed explainable, not just fast.</p>
+    <p>The second half is Sensata's roadmap work: <strong>a 100+-feature backlog</strong> built from 30+ customer interviews and <strong>18% adoption lift</strong> from a KPI framework, both built on the same understand-first, instrument-second discipline Housing workflows need to go from concept to a launch property teams and residents actually trust.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-product-ai.vercel.app/ref/eliseai</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">PRODUCT PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
