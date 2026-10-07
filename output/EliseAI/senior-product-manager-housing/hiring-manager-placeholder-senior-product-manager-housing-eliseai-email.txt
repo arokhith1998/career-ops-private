@@ -1,0 +1,20 @@
+Subject: Senior Product Manager, Housing, EliseAI: deciding what to automate without losing trust
+
+Hi {Hiring Manager, Housing},
+
+I don't normally email before applying, but "automate repetitive operational tasks while maintaining trust and accuracy" is the exact line I can point to shipped work against, not resume language.
+
+Built you a 6-slide pitch deck so the proof fits in one read.
+
+I wrote the PRD and shipped SwipeHire, an AI job-matching platform on the OpenAI API, zero-to-one to 50+ early users who trusted a match without double-checking it. At Sensata I ran 30+ customer interviews with OEMs and distributors to find the real pain points behind a 100+-feature roadmap, then drove it with Engineering across 3 regions, cutting time-to-market 20% and lifting CSAT 22%.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/eliseai
+
+If this seat is open, I would like 15 minutes to walk through how that accuracy-versus-speed tradeoff maps onto a Housing workflow. If it has moved on, a pointer there would help just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

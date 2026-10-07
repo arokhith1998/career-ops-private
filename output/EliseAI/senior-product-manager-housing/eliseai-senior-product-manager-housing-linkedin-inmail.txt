@@ -1,0 +1,15 @@
+Subject: Senior Product Manager, Housing, EliseAI: proof for the AI-native product bar
+
+Hi {Recruiter/Hiring Manager, Housing},
+
+Building an AI-native product that automates operational work without losing trust is the exact bar your posting sets, and it's the part of my background I want to be evaluated against.
+
+I wrote the PRD and shipped SwipeHire, an AI job-matching platform built on the OpenAI API, zero-to-one to 50+ early users who trusted the match without double-checking it themselves. At Sensata I ran 30+ customer interviews with OEMs and distributors, then managed a 100+-feature roadmap across 3 regions, cutting time-to-market 20% and lifting CSAT 22%, the same operational-complexity discipline Housing runs on daily.
+
+Portfolio: adhi-product-ai.vercel.app/ref/eliseai
+
+Open to 15 minutes if this seat, or a related one on the Housing side, is still open.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar

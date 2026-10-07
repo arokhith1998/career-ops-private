@@ -1,0 +1,20 @@
+Subject: Senior Product Manager, Housing, EliseAI: an AI-native product built zero-to-one, not just used
+
+Hi {Recruiter, Housing},
+
+I don't normally reach out before applying, but your posting asks for PM experience "ideally building AI-native products," and I have shipped exactly one, start to finish, not just managed a team that did.
+
+Built you a 6-slide pitch deck so the proof fits in one read.
+
+I wrote the PRD and shipped SwipeHire, an AI job-matching platform on the OpenAI API, zero-to-one to 50+ early users. At Sensata I ran 30+ customer interviews with OEMs and distributors, then managed a 100+-feature roadmap across 3 regions, cutting time-to-market 20% and lifting CSAT 22%. Both map directly onto the operational-complexity problem Housing is solving.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/eliseai
+
+If this req is still open, I would like 15 minutes. A pointer to whoever owns it would help just as much, and the deck above has the rest.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
