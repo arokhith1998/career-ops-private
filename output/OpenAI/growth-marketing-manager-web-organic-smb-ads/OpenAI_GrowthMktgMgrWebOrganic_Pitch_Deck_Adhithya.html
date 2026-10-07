@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>OpenAI Growth Marketing Manager, Web &amp; Organic, SMB Ads Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #0c5f4c; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 32pt; font-weight: 800; color: #0f172a; line-height: 1.08; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 21pt; font-weight: 800; color: #0f172a; line-height: 1.1; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #0c5f4c; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.5in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d3ede2 100%); }
+  .cover h1 { font-size: 28pt; max-width: 11.2in; }
+  .cover .sub { font-size: 14pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 18pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #0c5f4c; font-weight: 700; }
+  .cover .who { margin-top: 18pt; padding-top: 11pt; border-top: 1.5pt solid #0c5f4c; max-width: 9.5in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #0c5f4c; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #eaf6f0; border-left: 3pt solid #0c5f4c; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #0c5f4c; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #0c5f4c; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #eaf6f0; border-left: 4pt solid #0c5f4c; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #0c5f4c; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0c5f4c; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 24pt; font-weight: 800; color: #0c5f4c; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0c5f4c; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #0c5f4c; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #0c5f4c; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d3ede2 100%); }
+  .close h2 { font-size: 26pt; max-width: 10.5in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.8in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #0c5f4c; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the OpenAI Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | OpenAI Growth Marketing Manager, Web &amp; Organic, SMB Ads</div>
+  <h1>Before an SMB advertiser ever sees an ad console, they find you through search, content and a web page. I have built and rebuilt that exact discovery path three times.</h1>
+  <div class="sub">Organic search, web experimentation and conversion instrumentation, proven on a self-serve web funnel I built myself.</div>
+  <div class="tags">
+    <div class="tag"><strong>35%</strong> organic search visibility gain at Plug Power, zero added paid spend</div>
+    <div class="tag"><strong>50%</strong> cost per lead cut by rebuilding the web-to-CRM lead flow</div>
+    <div class="tag"><strong>20%</strong> conversion lift from landing-page and navigation testing</div>
+    <div class="tag">Built a <strong>self-serve funnel zero to one</strong> on the OpenAI API</div>
+    <div class="tag">Runs <strong>Claude AI agents</strong> for research and workflow automation today</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-growth-ai.vercel.app/ref/openai</div>
+  </div>
+  <div class="brand">OPENAI WEB &amp; ORGANIC GROWTH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>This req is not a paid-media seat. It is a web strategy and experimentation roadmap, and <span class="accent">the strongest proof for it is a funnel someone has already owned end to end.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What the role actually asks for</h4>
+      <div class="line">Own the SMB Ads web strategy and experimentation roadmap: grow qualified discovery through search, content and generative engine optimization, then improve the path from first visit to signup and activation.</div>
+      <div class="line">Analyze journeys, funnels and cohorts to find conversion barriers, and run tests across landing pages, messaging, navigation, personalization and offers.</div>
+      <div class="line">Define instrumentation, test design and attribution with Data Science and marketing systems, and use AI to accelerate research, prototyping, content and experimentation.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run</h4>
+      <div class="line">At <b>Plug Power</b>, I raised <b>organic search visibility 35%</b> and rebuilt the web-to-CRM lead flow, cutting <b>cost per lead 50%</b>, then ran landing-page and navigation tests that lifted conversion <b>20%</b>.</div>
+      <div class="line">At <b>Sensata</b>, I built <b>SQL and GA4 cohort frameworks</b> across 50K+ devices to find conversion barriers, the same journey-and-funnel analysis this role runs daily.</div>
+      <div class="line">On <b>SwipeHire</b>, I built the GA4-instrumented funnel myself on the <b>OpenAI API</b>, and I automate research with <b>Claude agents</b> at Applied Materials today.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">The AI-accelerated experimentation this posting asks for is not a new habit for me. I already build on the OpenAI API and run AI agents daily to move from research to a shipped test faster.</div>
+  </div>
+  <div class="brand">OPENAI WEB &amp; ORGANIC GROWTH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What the Web &amp; Organic Growth opening asks for, and where the proof sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Grow organic discovery through search, content, and GEO... test new ways to help businesses find and evaluate OpenAI's advertising offering."</div></div>
+      <div class="quote"><div class="q">"Analyze journeys, funnels, and cohorts to identify conversion barriers and prioritize high-impact improvements."</div></div>
+      <div class="quote"><div class="q">"Run experiments across landing pages, messaging, navigation, personalization, offers, and conversion flows."</div></div>
+    </div>
+    <div class="col">
+      <h3>My Proof</h3>
+      <div class="proof"><div class="p"><b>Organic discovery, raised without paid spend:</b> closed keyword-strategy gaps and built SEO partnerships that raised organic search visibility 35% at Plug Power.</div></div>
+      <div class="proof"><div class="p"><b>Funnel and cohort analysis:</b> SQL and GA4 KPI frameworks across 50K+ connected devices at Sensata, surfacing high-intent cohorts and conversion barriers that lifted feature adoption 18%.</div></div>
+      <div class="proof"><div class="p"><b>Landing-page, messaging and navigation testing:</b> customer research reshaped Plug Power's landing pages and site navigation, lifting conversion 20% and cutting CPA 15%.</div></div>
+      <div class="proof"><div class="p"><b>Instrumentation and attribution:</b> wired the Mar-Tech stack (Salesforce, Adobe Analytics, GA, Google Tag Manager) into closed-loop attribution across every test.</div></div>
+    </div>
+  </div>
+  <div class="brand">OPENAI WEB &amp; ORGANIC GROWTH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth: a funnel built and a funnel owned</div>
+  <h2>One web funnel I <span class="accent">rebuilt for an existing business, and one I built myself, zero to one.</span></h2>
+  <div class="lede">At Plug Power, I owned the full chain from organic discovery to lead: closing keyword gaps, rebuilding the WordPress-to-Pardot lead flow, and running the customer research behind every landing-page and navigation test.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">35%</div>
+      <div class="lbl">Organic Search Visibility</div>
+      <div class="desc">Raised by closing keyword-strategy gaps and building SEO partnerships, growing qualified discovery with no added paid spend.</div>
+    </div>
+    <div class="stat">
+      <div class="n">50%</div>
+      <div class="lbl">Cost Per Lead, Cut</div>
+      <div class="desc">By rebuilding the WordPress site's lead flow into Pardot into one measured, closed-loop pipeline.</div>
+    </div>
+    <div class="stat">
+      <div class="n">20%</div>
+      <div class="lbl">Conversion Rate Lift</div>
+      <div class="desc">From customer research that reshaped landing-page messaging and site navigation, also cutting CPA 15%.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">On SwipeHire, I built the other half myself: an AI job-matching platform on the OpenAI API where I owned the GA4-instrumented funnel and event tracking from first visit through signup, and ran 8+ A/B tests and 12+ user interviews that lifted activation 25%.</div>
+  <div class="brand">OPENAI WEB &amp; ORGANIC GROWTH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month on the SMB Ads web and organic roadmap looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Read the current journey</div>
+      <div class="body">Sit with Data Science and marketing systems to map the journey from first visit through signup and first campaign, and find where cohorts drop off against search and content sources.</div>
+      <div class="why"><strong>Why first:</strong> the same move behind the Plug Power lead-flow rebuild: read the current funnel before changing it.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Ship the first organic and web test wave</div>
+      <div class="body">Launch landing-page, messaging and navigation tests against the sharpest drop-off, using AI tools to prototype content and creative variants fast alongside Content and Design.</div>
+      <div class="why"><strong>Why now:</strong> the same test-and-read loop that lifted conversion 20% at Plug Power and activation 25% on SwipeHire.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Wire instrumentation and attribution</div>
+      <div class="body">Define test design and attribution with Data Science and Ads Engineering so every experiment reports back into one closed-loop view, not a one-off readout.</div>
+      <div class="why"><strong>Why this fast:</strong> the same Mar-Tech wiring that made every Plug Power test measurable on its own.</div>
+    </div>
+  </div>
+  <div class="brand">OPENAI WEB &amp; ORGANIC GROWTH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to build the web and organic engine for a zero-to-one SMB advertiser motion. I have rebuilt that exact engine, and I have built one from nothing.</h2>
+  <div class="body">
+    <p>The core proof is Plug Power: <strong>organic search visibility up 35%</strong>, a rebuilt web-to-CRM lead flow that cut <strong>cost per lead 50%</strong>, and landing-page and navigation tests that lifted conversion <strong>20%</strong>.</p>
+    <p>What is harder to find is someone who has also <strong>built a self-serve funnel from zero on the OpenAI API</strong> and runs <strong>Claude AI agents</strong> for research and workflow automation today, which means the AI-accelerated execution this posting asks for is a current habit, not a claim.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-growth-ai.vercel.app/ref/openai</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">OPENAI WEB &amp; ORGANIC GROWTH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
