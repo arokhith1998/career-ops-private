@@ -6,9 +6,9 @@ I joined Applied Materials recently and was not looking, but a zero-to-one web a
 
 Built a 6-slide pitch deck so the proof fits in one read: https://adhi-growth-ai.vercel.app/ref/openai
 
-- At Plug Power I rebuilt the web-to-lead journey from scratch, raising organic search visibility 35% and cutting cost per lead 50% with no added paid spend.
-- Customer research I ran reshaped landing-page messaging and navigation, lifting conversion rate 20% and cutting CPA 15%, tied to 15+ A/B tests across 50+ campaigns.
-- I built an AI job-matching platform on the OpenAI API zero to one, owning the GA4-instrumented funnel myself and running 8+ A/B tests and 12+ user interviews to lift activation 25%.
+- At Plug Power I rebuilt the web-to-lead journey from scratch, raising organic search visibility 35% and cutting cost per lead 50%.
+- Customer research I ran reshaped landing-page messaging and navigation, lifting conversion rate 20% and cutting CPA 15%, tied to 15+ A/B tests.
+- I built an AI job-matching platform on the OpenAI API zero to one, owning the GA4-instrumented funnel and running 8+ A/B tests to lift activation 25%.
 - At GenY Medium, SEO site audits across backlinks, keywords and content lifted a startup's conversion rate 36%.
 
 Would 15 minutes work to walk through the deck?
