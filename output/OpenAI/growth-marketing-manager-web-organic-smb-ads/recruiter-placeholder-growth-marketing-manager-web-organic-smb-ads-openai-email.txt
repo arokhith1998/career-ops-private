@@ -1,0 +1,21 @@
+Subject: Web and organic growth for SMB Ads, the funnel I have rebuilt before
+
+Hi {Recruiter, Marketing},
+
+I do not normally reach out before applying, but your posting's split between discovery (search, content, GEO) and conversion (web, signup, activation) is a problem I have owned end to end.
+
+Built a 6-slide pitch deck so the fit reads in one pass: https://adhi-growth-ai.vercel.app/ref/openai
+
+A few anchors:
+- At Plug Power I rebuilt the web-to-lead journey, raising organic search visibility 35% and cutting cost per lead 50%.
+- Landing-page and navigation changes from customer research lifted conversion rate 20% and cut CPA 15%, backed by 15+ A/B tests.
+- I built an AI job-matching platform on the OpenAI API zero to one, owning the GA4 funnel and running 8+ A/B tests to lift activation 25%.
+
+Worth 15 minutes? A pointer to whoever owns this req would help just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
