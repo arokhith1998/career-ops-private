@@ -1,0 +1,23 @@
+Subject: Where a Mid-Market brief actually breaks
+
+Hi {Hiring Manager, Mid-Market Demand Generation},
+
+I do not normally reach out before applying, but this req's read on where an integrated campaign actually breaks, not at the brief but at the handoff between channel owners, matches a failure mode I have spent two roles fixing, so I wanted to write directly.
+
+Built you a 6-slide pitch deck so the proof fits on one read.
+
+At Plug Power I ran Paid Search, Paid Social, SEO and lifecycle email as one integrated plan instead of four separate ones, then unified the Mar-Tech stack so dependency tracking lived in one place, not four inboxes.
+At Sensata I owned a full GTM launch, positioning through channel plan across two regions, and built the KPI frameworks in SQL and GA4 that tied execution back to pipeline, not just activity.
+At Pixis I cut client churn 50% by making the escalation call before an account went sideways, the same judgment a matrixed campaign org needs when three teams read one brief three different ways.
+At Applied Materials I run Claude agents on the recurring reporting layer behind forecasting, so the readout is ready before the next launch starts.
+
+Here's the portfolio: https://adhi-growth.vercel.app/ref/intuit
+
+Worth 15 minutes to see if the fit is real? Happy to be pointed elsewhere if this is not your req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

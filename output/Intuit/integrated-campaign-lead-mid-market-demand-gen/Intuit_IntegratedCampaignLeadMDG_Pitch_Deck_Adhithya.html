@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Intuit Integrated Campaign Lead, Mid-Market Demand Generation Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #1a56db; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 32pt; font-weight: 800; color: #0f172a; line-height: 1.08; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 21pt; font-weight: 800; color: #0f172a; line-height: 1.1; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #1a56db; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.5in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbe7fb 100%); }
+  .cover h1 { font-size: 27pt; max-width: 11.2in; }
+  .cover .sub { font-size: 14pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 18pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #1a56db; font-weight: 700; }
+  .cover .who { margin-top: 18pt; padding-top: 11pt; border-top: 1.5pt solid #1a56db; max-width: 9in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #1a56db; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #eef3fc; border-left: 3pt solid #1a56db; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #123a91; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #1a56db; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #eef3fc; border-left: 4pt solid #1a56db; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #123a91; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 24pt; font-weight: 800; color: #1a56db; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #1a56db; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #1a56db; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbe7fb 100%); }
+  .close h2 { font-size: 26pt; max-width: 10.5in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.5in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #1a56db; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Intuit Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Intuit Integrated Campaign Lead, Mid-Market Demand Generation</div>
+  <h1>Mid-Market campaigns usually break at the handoff, not the brief. I have already run that handoff end to end, at Sensata and at Plug Power.</h1>
+  <div class="sub">Integrated campaign architecture, cross-channel orchestration and execution governance built by someone who runs that exact loop today.</div>
+  <div class="tags">
+    <div class="tag"><strong>$2M+</strong> first-year revenue, a Sensata GTM launch owned end to end</div>
+    <div class="tag"><strong>+35%</strong> qualified leads from one cross-channel email + paid launch</div>
+    <div class="tag"><strong>$100K/month</strong> budgets run across 4 channels as one plan at Plug Power</div>
+    <div class="tag"><strong>-25% CPA, -50% CPL</strong> from unifying channel execution into one plan</div>
+    <div class="tag"><strong>Claude AI agents</strong> automate the recurring campaign reporting behind it</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-growth.vercel.app/ref/intuit</div>
+  </div>
+  <div class="brand">INTUIT INTEGRATED CAMPAIGNS</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>The risk in Mid-Market demand gen is not a missed number. It is a brief <span class="accent">three teams stop reading the same way.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What a fast-moving mid-market motion runs into</h4>
+      <div class="line">A campaign brief written for email, paid, web, events and sales ages fast when each channel owner reads "done" differently, so launch readiness slips without anyone naming the slip.</div>
+      <div class="line">Dependency tracking across a matrixed org is the part that quietly fails first: the brief looks fine, the workback looks fine, and the handoff between two teams is where the gap actually lives.</div>
+      <div class="line">The fix is not another status meeting. It is one owned campaign architecture, a governance cadence that catches drift early, and the judgment to escalate before a launch date, not after.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run, at smaller scale</h4>
+      <div class="line">At <b>Sensata</b>, I owned a GTM launch end to end across North America and Europe: positioning, pricing, channel plan and cross-channel execution across email and paid media, closing $2M+ in first-year revenue.</div>
+      <div class="line">At <b>Plug Power</b>, I ran $100K/month across Paid Search, Paid Social, SEO and lifecycle email as one integrated plan, then unified the Mar-Tech stack so dependency tracking lived in one place.</div>
+      <div class="line">I run the escalation side of this today too: at <b>Pixis</b>, I cut client churn 50% by making the call before an account went sideways, the same judgment a matrixed campaign org needs.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">Campaign architecture, cross-channel orchestration, launch readiness and connecting performance to business outcomes are one loop: own the brief, run every channel against it, govern the cadence, then prove it moved pipeline.</div>
+  </div>
+  <div class="brand">INTUIT INTEGRATED CAMPAIGNS</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What the Integrated Campaign Lead opening asks for, and where the proof sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Developing campaign architecture across products and market segments."</div></div>
+      <div class="quote"><div class="q">"Cross-channel orchestration spanning email, paid media, web, events, and sales."</div></div>
+      <div class="quote"><div class="q">"Managing launch readiness and dependency tracking; running execution governance and operating cadences."</div></div>
+      <div class="quote"><div class="q">"Connecting campaign performance to business outcomes."</div></div>
+    </div>
+    <div class="col">
+      <h3>My Proof</h3>
+      <div class="proof"><div class="p"><b>Campaign architecture end to end at Sensata:</b> owned positioning through channel plan for a new product launch across two regions, closing $2M+ in first-year revenue and +35% qualified leads.</div></div>
+      <div class="proof"><div class="p"><b>Cross-channel orchestration at Plug Power:</b> ran $100K/month across Paid Search, Paid Social, SEO and lifecycle email as one plan, unifying the Mar-Tech stack for closed-loop, dependency-tracked reporting.</div></div>
+      <div class="proof"><div class="p"><b>Execution governance as a daily habit:</b> built leadership decks and ran OKRs with weekly and quarterly business reviews at every role, the operating cadence this posting calls governance.</div></div>
+      <div class="proof"><div class="p"><b>AI GTM fluency as a habit, not a pilot:</b> automates recurring campaign reporting and forecast analysis with Claude AI agents at Applied Materials today.</div></div>
+    </div>
+  </div>
+  <div class="brand">INTUIT INTEGRATED CAMPAIGNS</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The Plug Power proof, in depth</div>
+  <h2>One integrated plan, four channels, <span class="accent">one forecast leadership signed off on.</span></h2>
+  <div class="lede">Owned $100K/month marketing budgets across multiple business units and ran Paid Search, Paid Social, SEO and lifecycle email as one integrated plan instead of four separate ones, then unified the Mar-Tech stack (Salesforce, Adobe Analytics, GA, Google Tag Manager) so dependency tracking and closed-loop reporting lived in one place, not four inboxes.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$100K/mo</div>
+      <div class="lbl">Budget Run as One Cross-Channel Plan</div>
+      <div class="desc">Paid Search, Paid Social, SEO and lifecycle email run as one plan with one forecast, not four teams reporting four different numbers.</div>
+    </div>
+    <div class="stat">
+      <div class="n">-25%</div>
+      <div class="lbl">CPA, via Bid Optimization & A/B Testing</div>
+      <div class="desc">Google Ads, Microsoft Ads, Meta and LinkedIn tuned against one shared budget-pacing model instead of siloed channel targets.</div>
+    </div>
+    <div class="stat">
+      <div class="n">-50%</div>
+      <div class="lbl">Cost Per Lead, via Lead-Flow Automation</div>
+      <div class="desc">Automated the WordPress and Pardot handoff so a lead's stage mapped straight to MQL quality and pipeline, closing the gap between marketing and sales.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">The same role built the leadership decks and ran the OKR cadence that kept every channel owner reading the same "on track," plus 15+ A/B tests that kept the plan current instead of static, the launch-readiness discipline this role calls dependency tracking.</div>
+  <div class="brand">INTUIT INTEGRATED CAMPAIGNS</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month on Intuit's Mid-Market demand-gen team looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Map where the current brief and the handoff disagree</div>
+      <div class="body">Pull the live Mid-Market campaign briefs, workbacks and readiness docs across email, paid, web, events and sales, and trace where two channel owners read "ready to launch" differently. Sit with the matrixed stakeholder group to hear where that friction already surfaces.</div>
+      <div class="why"><strong>Why first:</strong> the disagreement is visible in the workback before anyone names it. Same move that started the Plug Power Mar-Tech unification.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Ship one campaign architecture and dependency tracker</div>
+      <div class="body">Build the integrated campaign brief and dependency tracker that email, paid, web, events and sales all read from, and pressure-test launch readiness against it with Sales before the first Mid-Market motion goes live.</div>
+      <div class="why"><strong>Why now:</strong> one shared tracker, verified with the cross-functional group early, is what kept the Plug Power channels from drifting apart.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Turn it into the operating cadence</div>
+      <div class="body">Package the Week 1-3 findings into the execution governance cadence leadership uses to track Mid-Market campaigns, plus the escalation path that flags a slipping dependency before launch day instead of after.</div>
+      <div class="why"><strong>Why this fast:</strong> a tracker matters less if the cadence behind it stays ad hoc. Governance is the actual ask behind "execution governance and operating cadences."</div>
+    </div>
+  </div>
+  <div class="brand">INTUIT INTEGRATED CAMPAIGNS</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to make the Mid-Market campaign handoff hold. I have already run that handoff, the orchestration and the cadence underneath it.</h2>
+  <div class="body">
+    <p>The core proof is two roles working together: at <strong>Sensata</strong>, I owned a GTM launch end to end that closed <strong>$2M+ in first-year revenue</strong> and <strong>+35% qualified leads</strong>; at <strong>Plug Power</strong>, I ran <strong>$100K/month</strong> across four channels as one integrated plan, cutting CPA 25% and cost per lead 50% by unifying the reporting behind it.</p>
+    <p>What is harder to find is someone who also runs the governance side daily. I build leadership decks and run OKRs with weekly and quarterly reviews at every role, and I automate the recurring campaign reporting behind that cadence with Claude AI agents at Applied Materials today, which means the architecture-to-orchestration-to-governance loop behind this role is not something I would need to learn on the job.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-growth.vercel.app/ref/intuit</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">INTUIT INTEGRATED CAMPAIGNS</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
