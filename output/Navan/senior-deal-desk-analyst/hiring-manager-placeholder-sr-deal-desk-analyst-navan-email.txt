@@ -1,0 +1,20 @@
+Subject: Senior Deal Desk Analyst, Navan: the enforcement side of pricing, already built
+
+Hi {Manager, Deal Desk},
+
+I do not normally cold-email a hiring manager, but "assist with non-standard deal requests, structuring sophisticated deals, ensuring revenue recognition requirements are handled" describes the system I built, not a skill I am promising to pick up.
+
+Built you a 6-slide pitch deck mapping that experience onto the req.
+
+At Sensata I partnered with senior executives and Finance on AP26 revenue models and multimillion-dollar customer quotes, then recovered $700K+ in margin in two quarters leading the Bleeders and Leakers program and raised distributor margins from 53% to 61% by rewriting the underlying discount logic. At PriceKeel I run the CPQ configuration and deal-approval workflow end to end, with a guardrail engine that catches a non-standard request before it reaches final review.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/navan
+
+If the team is still scoping this seat, I would like 15 minutes to hear what the highest-friction deal type looks like right now. A pointer elsewhere would help just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
