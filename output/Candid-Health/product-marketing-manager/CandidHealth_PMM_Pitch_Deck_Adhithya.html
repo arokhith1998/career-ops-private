@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Candid Health Product Marketing Manager Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #1a56db; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 27pt; font-weight: 800; color: #0f172a; line-height: 1.15; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 19pt; font-weight: 800; color: #0f172a; line-height: 1.16; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #1a56db; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.8in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbeafe 100%); }
+  .cover h1 { font-size: 23pt; max-width: 11.4in; }
+  .cover .sub { font-size: 13pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; max-width: 10.8in; }
+  .cover .tags { margin-top: 16pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.6in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9pt; font-weight: 500; }
+  .tag strong { color: #1a56db; font-weight: 700; }
+  .cover .who { margin-top: 16pt; padding-top: 10pt; border-top: 1.5pt solid #1a56db; max-width: 9.6in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #1a56db; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #eff6ff; border-left: 3pt solid #1a56db; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #1e3a8a; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #1a56db; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.4pt; color: #334155; line-height: 1.46; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 13pt; background: #eff6ff; border-left: 4pt solid #1a56db; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #1e3a8a; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 21pt; font-weight: 800; color: #1a56db; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.3pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.6pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #1a56db; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.3pt; font-weight: 800; color: #0f172a; line-height: 1.18; margin-bottom: 7pt; }
+  .card .body { font-size: 8.8pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.3pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #1a56db; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbeafe 100%); }
+  .close h2 { font-size: 22pt; max-width: 11in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.8in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #1a56db; font-weight: 700; }
+  .close .contact { margin-top: 15pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Candid Health Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Candid Health Product Marketing Manager</div>
+  <h1>A revenue-cycle platform scaling this fast needs a product marketing function built from scratch, not tuned from an existing one. I have already built that function twice.</h1>
+  <div class="sub">A launch-plan-to-case-study track record built on a $2M+ zero-to-one GTM and a 50+-rep enablement library, paired with the regulated-buyer instinct that transfers directly from aerospace and automotive compliance work.</div>
+  <div class="tags">
+    <div class="tag"><strong>Built the function from zero</strong> - Sensata GTM end to end, $2M+ first-year revenue</div>
+    <div class="tag"><strong>30+ interviews</strong> - became case studies, references and roadmap input, CSAT +22%</div>
+    <div class="tag"><strong>50+ reps enabled</strong> - sales enablement library, win rates +30%</div>
+    <div class="tag"><strong>Healthcare-vertical persona work</strong> - Safran project, 4 verticals including healthcare</div>
+    <div class="tag"><strong>AI agents on Claude</strong> - in production use today, Applied Materials</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-product-ai.vercel.app/ref/candid-health</div>
+  </div>
+  <div class="brand">CANDID HEALTH PRODUCT MARKETING PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>A first product marketing hire at a fast-growing RCM platform cannot spend a quarter learning the function. <span class="accent">The launch plans, campaigns and enablement have to exist from day one.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What that actually requires</h4>
+      <div class="line">Launch plans that cross functions cleanly, so positioning, pricing, packaging and demand generation move on the same clock instead of in sequence.</div>
+      <div class="line">Sales enablement and customer case studies built from real customer conversations, not a messaging doc written from a feature list.</div>
+      <div class="line">Feature launches coordinated against a live roadmap, so the field never finds out about a launch the same week a customer does.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already built at that exact seam</h4>
+      <div class="line">Built a <b>go-to-market function from zero</b> at Sensata (positioning, pricing, channel, launch) with no existing motion to inherit, closing the first year at $2M+ in revenue.</div>
+      <div class="line">Converted <b>30+ structured customer interviews</b> into case studies, references and roadmap input, raising CSAT 22%.</div>
+      <div class="line">Coordinated <b>feature launches</b> against a 100+ item backlog in Agile across 3 regions, shipping releases 25% faster.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">The through-line: I have already run the build-the-function-from-scratch mandate this role carries, on a technical product where a launch could not wait for the function to mature first.</div>
+  </div>
+  <div class="brand">CANDID HEALTH PRODUCT MARKETING PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The mandate, mapped</div>
+  <h2>What the Candid Health posting asks for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Partner across functions to develop launch plans" and "execute integrated marketing campaigns."</div></div>
+      <div class="quote"><div class="q">"Build the product marketing function from scratch" and "coordinate feature launches."</div></div>
+      <div class="quote"><div class="q">"Create sales enablement materials" and "convert customer success stories into case studies."</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>Launch plans that moved every lever together:</b> positioning, pricing, channel and launch owned end to end to $2M+ in first-year revenue, with integrated email and paid campaigns generating 35% more qualified leads.</div></div>
+      <div class="proof"><div class="p"><b>A function built with no handoff to lean on:</b> the same zero-to-one mandate this posting names, run once already at Sensata and again right now founding PriceKeel's own GTM.</div></div>
+      <div class="proof"><div class="p"><b>Feature launches coordinated, not just announced:</b> a 100+ item backlog managed in Agile across 3 regions, accelerating releases 25%.</div></div>
+      <div class="proof"><div class="p"><b>Case studies built from real customer conversations:</b> 30+ structured interviews turned into references and case studies that enabled 50+ reps, win rates +30%.</div></div>
+    </div>
+  </div>
+  <div class="brand">CANDID HEALTH PRODUCT MARKETING PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The enablement proof, in depth</div>
+  <h2>Sensata: a launch-to-case-study loop built as the function's first owner, <span class="accent">not inherited from someone else's playbook.</span></h2>
+  <div class="lede">Built as the owner of positioning, launch plans and the sales enablement library for a new sensing line, the same scope this role names for Candid Health's platform.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$2M+ / 35%</div>
+      <div class="lbl">First-Year Revenue / Qualified-Lead Lift</div>
+      <div class="desc">The launch result and the integrated campaign that fed it, run across email and paid channels.</div>
+    </div>
+    <div class="stat">
+      <div class="n">30+ / 22%</div>
+      <div class="lbl">Customer Interviews / CSAT Lift</div>
+      <div class="desc">OEM and distributor conversations converted into case studies, references and roadmap input.</div>
+    </div>
+    <div class="stat">
+      <div class="n">50+ / 30%</div>
+      <div class="lbl">Reps Enabled / Win-Rate Lift</div>
+      <div class="desc">A sales enablement library built off that same research, actually pulled up mid-deal.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">The regulated-buyer instinct behind it comes from automotive and aerospace compliance work at Sensata and a graduate persona build across 4 verticals including healthcare, the closest honest parallel to how a health-plan or provider buyer evaluates a claim.</div>
+  <div class="brand">CANDID HEALTH PRODUCT MARKETING PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month building Candid Health's product marketing function would look like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Sit with Sales and Customer Success, not a blank positioning doc</div>
+      <div class="body">Pull the last quarter's won and lost competitive deals and the customer-success stories already sitting in CRM notes, the same move that grounded the Sensata launch plan in real signal instead of a guess.</div>
+      <div class="why"><strong>Why first:</strong> a product marketing function built on assumptions is the fastest way to lose the field's trust before it ships anything.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Ship the first case study and the first launch plan</div>
+      <div class="body">Convert the strongest customer success story into a case study sales can use this quarter, and draft the launch plan for the next feature already on the roadmap, benchmarked the same way the Sensata launch was.</div>
+      <div class="why"><strong>Why now:</strong> one case study and one launch plan actually in use beat a full playbook nobody has opened yet.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Turn the first win into the repeatable cadence</div>
+      <div class="body">Set the cross-functional cadence (Sales, Product, Customer Success) that keeps launch plans, enablement and case studies current as the platform ships, so the function does not go quiet after its first launch.</div>
+      <div class="why"><strong>Why this fast:</strong> a function built from scratch only earns its headcount by proving it moved a launch first.</div>
+    </div>
+  </div>
+  <div class="brand">CANDID HEALTH PRODUCT MARKETING PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>Candid Health needs a product marketing function built from scratch: launch plans, campaigns, enablement and case studies, all at once. I have already built that exact function twice.</h2>
+  <div class="body">
+    <p>The core proof is Sensata: a <strong>go-to-market function built from zero</strong> to $2M+ in first-year revenue, with a sales enablement library built off 30+ real customer interviews that enabled 50+ reps to a 30% win-rate lift.</p>
+    <p>The regulated-buyer instinct behind that work came from aerospace and automotive compliance, plus a healthcare-vertical persona build, the closest parallel to how a health-plan or provider buyer evaluates a claim. What transfers immediately is the mechanics this role is built around: launch plan to campaign to enablement to case study, on a repeatable cadence.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-product-ai.vercel.app/ref/candid-health</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">CANDID HEALTH PRODUCT MARKETING PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
