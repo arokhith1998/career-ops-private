@@ -1,0 +1,18 @@
+Subject: Manager, Revenue Operations - a note before applying
+
+Hi {Hiring Manager, Revenue Operations},
+
+Your posting calls out leading functional projects, partnering across departments on business trends, and mentoring analysts, not just keeping sales data tidy. That mix of program ownership and coaching is most of what I do day to day, so I wanted to reach out directly rather than just drop a resume into the queue.
+
+At Sensata I built the Bleeders and Leakers Power BI dashboard that put 1,200 pricing opportunities against a $627M target in one view for leadership, then traced $433M in surfaced margin gaps back to root cause for $700K+ recovered in two quarters. Sales enablement I shipped for 50+ reps there lifted win rates 30%. As founder of PriceKeel I now run the CRM, CPQ, pipeline reviews and deal approvals myself, with an audit trail Finance can follow. I also led an 8-person account team at Pixis against its own P&L.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/paypal
+
+If 15 minutes makes sense this week, I would like to hear how the team is measuring the fixes it ships.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
