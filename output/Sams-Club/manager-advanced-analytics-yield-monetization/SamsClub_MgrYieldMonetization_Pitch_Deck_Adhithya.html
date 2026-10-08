@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Sam's Club Manager Advanced Analytics Yield and Monetization Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #0f766e; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 27pt; font-weight: 800; color: #0f172a; line-height: 1.14; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 20pt; font-weight: 800; color: #0f172a; line-height: 1.12; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #0f766e; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.8in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d5efec 100%); }
+  .cover h1 { font-size: 22.5pt; max-width: 11.5in; }
+  .cover .sub { font-size: 13pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; max-width: 11.3in; }
+  .cover .tags { margin-top: 15pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9pt; font-weight: 500; }
+  .tag strong { color: #0f766e; font-weight: 700; }
+  .cover .who { margin-top: 15pt; padding-top: 10pt; border-top: 1.5pt solid #0f766e; max-width: 9.5in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #0f766e; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #e6f5f3; border-left: 3pt solid #0f766e; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.1pt; color: #0a5a53; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9pt; color: #334155; line-height: 1.44; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #0f766e; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.3pt; color: #334155; line-height: 1.46; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #e6f5f3; border-left: 4pt solid #0f766e; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.3pt; color: #0a5a53; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0f766e; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 22pt; font-weight: 800; color: #0f766e; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.3pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.6pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0f766e; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #0f766e; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.3pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.8pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.3pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #0f766e; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d5efec 100%); }
+  .close h2 { font-size: 23pt; max-width: 10.9in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.3pt; color: #334155; line-height: 1.52; max-width: 10.9in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #0f766e; font-weight: 700; }
+  .close .contact { margin-top: 15pt; font-size: 9.6pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Sam's Club Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Sam's Club Manager, Advanced Analytics - Yield &amp; Monetization</div>
+  <h1>This seat turns rate cards, inventory allocation and campaign performance data into revenue decisions across an entire advertising portfolio. I have already run that allocation discipline at portfolio scale.</h1>
+  <div class="sub">Portfolio-scale revenue allocation, campaign performance analytics and monetization strategy, from someone who has built the governance behind the decision, not just read the dashboard.</div>
+  <div class="tags">
+    <div class="tag"><strong>$627M portfolio</strong> allocated across 1,200 pricing opportunities and 20 product lines at Sensata</div>
+    <div class="tag"><strong>53% to 61%</strong> distributor margin lift from reallocating channel pricing logic</div>
+    <div class="tag"><strong>8-client ad book</strong> running Amazon Ads and Criteo retail media at $15K-$90K per client per month</div>
+    <div class="tag"><strong>3x ROAS</strong> in one month from a full-funnel campaign restructuring at Pixis</div>
+    <div class="tag"><strong>Claude AI agents</strong> automating recurring pricing analysis at Applied Materials</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-pricing-ai.vercel.app/ref/sams-club</div>
+  </div>
+  <div class="brand">SAMS CLUB YIELD AND MONETIZATION PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>Yield and monetization is really one job split three ways: forecast the inventory, allocate it for revenue, and prove the call with performance data, <span class="accent">across every vertical and advertiser at once.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What losing that discipline runs into</h4>
+      <div class="line">An advertising portfolio without disciplined allocation does not fail loudly. It fails as a rate card that stops matching demand, a sell-through number nobody can explain, and a new ad format that launches without a revenue case behind it.</div>
+      <div class="line">Sales, Client Success, Measurement and Finance all touch the same inventory decision, so a gap in forecasting or reporting becomes everyone's guessing game at the next planning cycle, not just one team's problem.</div>
+      <div class="line">The fix is not another spreadsheet. It is someone who treats forecasting, allocation and reporting as one connected loop instead of three separate jobs.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run</h4>
+      <div class="line">At <b>Sensata</b>, I built the Power BI system that allocated 1,200 pricing opportunities against a $627M target across 3 regions, 4 product families and 20 product lines, the same forecast-to-allocation loop this role runs across verticals and advertisers.</div>
+      <div class="line">At <b>Pixis</b>, I carried P&amp;L targets across an 8-client advertising portfolio, reallocating budget and channel mix on Amazon Ads and Criteo as performance data came in.</div>
+      <div class="line">Both mean I have sat on the inventory-allocation side and the revenue-reporting side of the same decision, not just one or the other.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">A Manager who owns inventory forecasting, revenue optimization through sell-through rate and CPMs, and performance-data-driven recommendations is describing this exact loop: forecast it, allocate it, prove it.</div>
+  </div>
+  <div class="brand">SAMS CLUB YIELD AND MONETIZATION PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What the Yield &amp; Monetization opening asks for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">Own inventory management, including forecasting and monitoring inventory across verticals and Advertisers.</div></div>
+      <div class="quote"><div class="q">Maximize ad revenue by improving sell-through rate, CPMs, and inventory allocation.</div></div>
+      <div class="quote"><div class="q">Leverage campaign performance data to analyze and identify new ways to maximize ad revenue and provide actionable recommendations.</div></div>
+      <div class="quote"><div class="q">Serve as a key strategic partner and collaborate with Sales, Client Success, Measurement, Commercialization, Finance, and Technology.</div></div>
+    </div>
+    <div class="col">
+      <h3>My Proof</h3>
+      <div class="proof"><div class="p"><b>Inventory-style forecasting and allocation:</b> built and ran the FY2026 Bleeders and Leakers Power BI system, allocating 1,200 pricing opportunities against a $627M target across 3 regions, 4 product families and 20 product lines.</div></div>
+      <div class="proof"><div class="p"><b>Revenue optimization at the portfolio level:</b> raised distributor margins from 53% to 61% and recovered $700K+ in margin in 2 quarters by reallocating channel pricing logic.</div></div>
+      <div class="proof"><div class="p"><b>Performance data into action:</b> ran retail media campaigns on Amazon Ads and Criteo at Pixis, using Amplitude and Tableau across 30+ campaigns to lift ROAS 40% and deliver 3x ROAS in a single month for one account.</div></div>
+      <div class="proof"><div class="p"><b>Cross-functional partnership:</b> built the Finance-facing audit trail behind every pricing call at PriceKeel, and partner with Sales, Engineering and Accounts on market sizing and forecasting at Applied Materials.</div></div>
+    </div>
+  </div>
+  <div class="brand">SAMS CLUB YIELD AND MONETIZATION PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>Bleeders and Leakers: <span class="accent">turn a portfolio of pricing opportunities into a revenue-allocation system.</span></h2>
+  <div class="lede">Built as a BU-wide Power BI system covering 1,200 pricing opportunities against a $627M target across 3 regions, 4 product families and 20 product lines, with a pipeline funnel, regional scorecards, win rate and stage distribution checked before leadership set the next quarter's targets.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$700K+</div>
+      <div class="lbl">Margin Recovered, 2 Quarters</div>
+      <div class="desc">Deal-by-deal reallocation toward the highest-margin opportunities, the same sell-through logic this seat runs across inventory and advertisers.</div>
+    </div>
+    <div class="stat">
+      <div class="n">53% to 61%</div>
+      <div class="lbl">Distributor Margin Lift</div>
+      <div class="desc">Repriced the channel logic and documented it for governance review, so the new allocation held past the first quarter.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$433M</div>
+      <div class="lbl">Margin Gaps Surfaced</div>
+      <div class="desc">Every gap traced to a specific segment by salesperson and product line, the same granularity a cross-vertical inventory view needs.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">At Pixis that same instinct ran on the advertising side: an 8-client retail media portfolio reallocated toward its best-performing channels and formats, cutting churn 50% and lifting campaign ROAS 40%.</div>
+  <div class="brand">SAMS CLUB YIELD AND MONETIZATION PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month owning Yield and Monetization at Sam's Club looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Learn the inventory model and the rate card</div>
+      <div class="body">Sit with the Yield and Monetization team to walk current inventory forecasting, rate-card logic and the sell-through and CPM metrics each vertical is measured on, and shadow one revenue-allocation review end to end.</div>
+      <div class="why"><strong>Why first:</strong> the same instinct that had me learn PriceKeel's own pricing logic before building anything on top of it.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Own a sell-through and reporting cycle</div>
+      <div class="body">Take ownership of one vertical's inventory-allocation model and its performance dashboard end to end: confirm the sell-through and CPM assumptions, build the report, and bring actionable recommendations to the next cross-functional review with Sales and Finance.</div>
+      <div class="why"><strong>Why now:</strong> the same segment-by-segment discipline that made the Bleeders and Leakers dashboard usable in a leadership review.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Scope a new revenue opportunity</div>
+      <div class="body">Identify one underused slice of inventory or one new ad-product angle worth a revenue case, using campaign performance data to back the recommendation before the next planning cycle.</div>
+      <div class="why"><strong>Why this fast:</strong> a monetization strategy only earns its keep if it gets re-tested every cycle instead of running on last quarter's assumptions.</div>
+    </div>
+  </div>
+  <div class="brand">SAMS CLUB YIELD AND MONETIZATION PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to turn inventory, rate cards and performance data into revenue across an entire advertising portfolio. I have already built that discipline, from the allocation side and the reporting side.</h2>
+  <div class="body">
+    <p>The core proof is Sensata: a Power BI system allocating <strong>1,200 pricing opportunities against a $627M target</strong>, distributor margins lifted <strong>from 53% to 61%</strong>, and $700K+ in margin recovered in 2 quarters.</p>
+    <p>What is harder to find is someone who has also run the advertiser-facing side: an 8-client retail media portfolio on Amazon Ads and Criteo, reallocated toward its best-performing channels, delivering <strong>3x ROAS in a single month</strong>. I built both halves of this loop, so the allocation discipline this role runs is not something I would need to learn on the job.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-pricing-ai.vercel.app/ref/sams-club</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">SAMS CLUB YIELD AND MONETIZATION PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
