@@ -1,0 +1,24 @@
+Subject: Owning Transactions, Investments and Liabilities end to end
+
+Hi {Hiring Manager, Plaid Financial Management},
+
+I don't normally reach out before applying, but your posting is explicit that PMs here own the end-to-end problem, sizing it with customers before engineering ever touches it, and that kind of ownership is where I've actually spent my time, not just read about.
+
+Built you a 6-slide pitch deck so the proof fits on one read.
+
+Proof points that map onto the pricing, packaging and account-conversation lines in your qualifications:
+- Partnered with senior executives on multimillion-dollar customer quotes at Sensata and repriced distributor terms, lifting margins from 53% to 61% in under two quarters.
+- Carried an 8-client account portfolio at Pixis with direct P&L ownership, including the account-strategy conversations that cut churn 50%.
+- Shipped SwipeHire zero to one with a live API integration behind it, modeling 3 pricing tiers and running 8+ A/B tests that lifted activation 25%.
+- Build Claude agents inside live workflows at Applied Materials today, the same AI-reshapes-PFM shift your posting names.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/plaid
+
+Would 15 minutes work to talk through where I'd start on sizing the next Financial Management opportunity? Happy to be redirected if I'm not talking to the right person.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
