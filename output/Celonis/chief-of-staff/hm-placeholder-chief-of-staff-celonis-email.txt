@@ -2,12 +2,11 @@ Subject: Chief of Staff - the executive-office test I already run daily
 
 Hi {Hiring Manager, Celonis},
 
-I don't normally reach out before applying, but a Chief of Staff role built around executive sponsorships, cross-team liaison work and building the office's own AI productivity stack is the same test I run for myself at PriceKeel, just split into three separate jobs here.
+I don't normally reach out before applying, but a Chief of Staff role built around executive sponsorships, liaison work and AI productivity is the same test I run at PriceKeel, split into three jobs here.
 
-- Built the AP26 revenue models and site-transition strategy directly with senior executives at Sensata, on a multi-$100M business, the kind of executive-facing judgment this seat needs for key customer relationships.
+- Built the AP26 revenue models and site-transition strategy directly with senior executives at Sensata, on a multi-$100M business, the judgment this seat needs for key customer relationships.
 - Act as the cross-functional liaison between Sales, Engineering and Accounts at Applied Materials, turning scattered input into one market view, the buffer-and-translate function this office runs between departments.
-- Run Claude agents to automate my own research, reporting and briefing work at Applied Materials, the AI assistant build this role is asking for, not a tool I would be learning on the job.
-- Founded, and now run, the CRM, deal approvals and audit trail at PriceKeel end to end, so the ownership and judgment-call side of a principal's office is familiar territory.
+- Run Claude agents to automate my own research, reporting and briefing work at Applied Materials, the AI assistant build this role is asking for, not something I would be learning on the job.
 
 Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/celonis
 
