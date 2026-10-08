@@ -1,0 +1,22 @@
+Subject: Built my own AI tools before this req asked for them
+
+Hi {Hiring Manager, Generative AI Product Marketing},
+
+I do not usually message before applying, but the preferred line asking for a demonstrated ability to integrate AI tools into workflows and drive measurable impact describes how I already work, not a box this role would be the first to check.
+
+Built you a 6-slide deck mapping that work to this seat.
+
+At Applied Materials I automate my own recurring market-sizing and competitive analysis with AI agents built on Claude, freeing time that used to go into rebuilding the same report every cycle.
+At Sensata I owned GTM end to end for a new sensing product split across two buyers, OEM engineers and distributor accounts, running 30+ structured interviews and arming 50+ reps for $2M+ in first-year revenue.
+I keep sharpening prompt and context engineering as a skill, which matches how fast developer-facing positioning on the Model API has to move.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/meta
+
+Worth 15 minutes to see if the fit is real? Happy to be pointed elsewhere if this is not your req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
