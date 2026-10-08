@@ -1,0 +1,20 @@
+Subject: The codify-and-scale work this role owns is the program I already ran
+
+Hi {Hiring Manager, Global Pricing CoE},
+
+I do not normally write in before applying, but the part of this role that takes a regional pricing innovation and turns it into a global standard is a job I have already done inside one business unit, not a capability I would be learning on the role.
+
+At Sensata I built the Bleeders and Leakers Power BI dashboard: 1,200 pricing opportunities ranked against a $627M target across 3 regions, 4 product families and 20 product lines, with regional scorecards and win-rate tracking that other account teams adopted as the working standard, not a one-off report.
+Raised distributor and channel-partner margins from 53% to 61% in under 2 quarters by rebuilding how parts sold through distribution were priced.
+I am also building PriceKeel, an AI-enabled pricing tool with its own guardrail logic and audit trail, which is the part of your posting on the pricing technology roadmap that interests me most.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/ey
+
+If this is your req, 15 minutes would help me understand where the CoE's standard-setting work ends and regional judgment stays. If it is not, a pointer to whoever owns it helps just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
