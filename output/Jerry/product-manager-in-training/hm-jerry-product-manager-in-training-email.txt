@@ -1,0 +1,20 @@
+Subject: The zero-to-one part of this program, I've already run it alone
+
+Hi {Hiring Manager, Jerry},
+
+Your posting is built around owning a new vertical end to end with no team until you build one. That is the exact shape of the one project I have run completely solo: SwipeHire, an AI job-matching platform I took from a blank page to 50 early users, writing the PRD, scoping the MVP and shipping it myself.
+
+I have also run that ownership inside a larger company. At Sensata I carried a 100+ feature backlog through PRDs with engineering across three regions, ran 30+ customer interviews to find the pain points worth building for, and used what I learned to launch GTM for a new product line that drove $2M+ in first-year revenue. At Applied Materials I now validate market opportunity before anyone commits engineering time to it, and automate the repetitive parts of that work with AI agents built on Claude.
+
+I've attached my resume and cover letter.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/jerry
+
+Would you have 15 minutes to talk through which vertical needs the most hands right now? Happy to be pointed elsewhere if this sits with someone else.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
