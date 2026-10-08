@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Google Product Strategy and Operations Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #1a56db; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 25pt; font-weight: 800; color: #0f172a; line-height: 1.14; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 20pt; font-weight: 800; color: #0f172a; line-height: 1.12; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #1a56db; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.8in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbe7fb 100%); }
+  .cover h1 { font-size: 21pt; max-width: 11.6in; }
+  .cover .sub { font-size: 13.5pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 16pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.1pt; font-weight: 500; }
+  .tag strong { color: #1a56db; font-weight: 700; }
+  .cover .who { margin-top: 16pt; padding-top: 10pt; border-top: 1.5pt solid #1a56db; max-width: 9.8in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #1a56db; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #e8eefb; border-left: 3pt solid #1a56db; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.3pt; color: #16399c; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.2pt; color: #334155; line-height: 1.44; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #1a56db; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #e8eefb; border-left: 4pt solid #1a56db; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #16399c; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 23pt; font-weight: 800; color: #1a56db; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #1a56db; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #1a56db; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbe7fb 100%); }
+  .close h2 { font-size: 23pt; max-width: 10.9in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.9in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #1a56db; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Google Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Google Product Strategy and Operations</div>
+  <h1>This team turns financials, metrics and themes from across an entire tech ecosystem into one executive-ready view, with the discretion that comes with it. I already run that loop.</h1>
+  <div class="sub">Business-critical insight, executive presentations and ad hoc special projects from someone who builds the model and sits in the room where it gets used.</div>
+  <div class="tags">
+    <div class="tag"><strong>$433M</strong> in margin gaps surfaced for leadership via a 1,200-opportunity Power BI system</div>
+    <div class="tag"><strong>+8% market share</strong> from a competitive-benchmarking read turned into an executive recommendation</div>
+    <div class="tag"><strong>AP26 revenue models</strong> and site-transition strategy run directly with senior executives</div>
+    <div class="tag"><strong>150+ facilities, 10+ competitors</strong> analyzed for a market-entry feasibility call to Safran leadership</div>
+    <div class="tag"><strong>Claude AI agents</strong> automating recurring strategy analysis at Applied Materials</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhithyabhaskar.vercel.app/ref/google</div>
+  </div>
+  <div class="brand">GOOGLE PRODUCT STRATEGY &amp; OPS PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>This req is really two disciplines held by one person: the analysis that finds the signal across a sprawling ecosystem, <span class="accent">and the discretion to turn it into one executive call.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What falls apart without that person</h4>
+      <div class="line">A small team covering the entire external tech ecosystem, from early startups to large public companies, cannot afford a slow read: by the time a theme reaches a senior stakeholder, the financials and metrics behind it have to already be reconciled, not still in dispute.</div>
+      <div class="line">Ad hoc special projects do not come with a template. Without someone who can structure an ambiguous question fast and hold it with discretion, each one either stalls or leaks before leadership has decided what to do with it.</div>
+      <div class="line">The fix is one person who treats external analysis, executive communication and discretion as one job, not three.</div>
+    </div>
+    <div class="panel">
+      <h4>What I already run</h4>
+      <div class="line">At <b>Applied Materials</b>, I fold Sales, Engineering and Accounts input into one read on where the semiconductor market is headed, the same external-ecosystem signal-finding this seat runs for Google.</div>
+      <div class="line">At <b>Sensata</b>, I built the Bleeders and Leakers system that turned 1,200 scattered opportunities into $433M in margin gaps for leadership, then carried that same rigor into AP26 revenue models directly with senior executives.</div>
+      <div class="line">Both mean I have already built the analysis and sat in the room with the senior stakeholder who has to act on it with discretion, not just handed off a deck.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">Bringing together data, insights and deliverables for senior leaders, analyzing themes and financials across the external tech ecosystem, and driving ad hoc special projects with discretion describes this exact loop.</div>
+  </div>
+  <div class="brand">GOOGLE PRODUCT STRATEGY &amp; OPS PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What the Product Strategy and Operations opening asks for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">Project manage workstreams delivering business critical insights across the entire external tech ecosystem, from small startups to large public companies.</div></div>
+      <div class="quote"><div class="q">Analyze themes, financials and metrics, and thoughtfully elevate them to senior stakeholders with discretion.</div></div>
+      <div class="quote"><div class="q">Build executive presentations and drive forward ad hoc special projects.</div></div>
+      <div class="quote"><div class="q">Bring together a cohesive set of data, insights and deliverables for senior leaders.</div></div>
+    </div>
+    <div class="col">
+      <h3>My Proof</h3>
+      <div class="proof"><div class="p"><b>External ecosystem analysis:</b> sized the semiconductor market at Applied Materials by reconciling Sales, Engineering and Accounts input, and assessed market-entry feasibility across 150+ facilities and 10+ competitors for Safran.</div></div>
+      <div class="proof"><div class="p"><b>Financials, metrics, discretion:</b> built the FY2026 Bleeders and Leakers Power BI dashboard at Sensata, surfacing $433M in margin gaps by salesperson and product line for leadership to prioritize.</div></div>
+      <div class="proof"><div class="p"><b>Executive presentations, ad hoc projects:</b> shaped AP26 revenue models and site-transition strategy directly with senior executives, the kind of ad hoc, discretion-heavy project this seat runs constantly.</div></div>
+      <div class="proof"><div class="p"><b>Cohesive deliverables:</b> carry those models into the leadership decks and OKR-driven weekly and quarterly business reviews running at Applied Materials today.</div></div>
+    </div>
+  </div>
+  <div class="brand">GOOGLE PRODUCT STRATEGY &amp; OPS PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>Bleeders and Leakers: <span class="accent">turn 1,200 scattered opportunities into one number leadership can act on.</span></h2>
+  <div class="lede">Built as a BU-wide Power BI system covering 1,200 pricing opportunities against a $627M target across 3 regions, 4 product families and 20 product lines, with a pipeline funnel, regional scorecards and win-rate view checked before leadership moved on the next priority.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$433M</div>
+      <div class="lbl">Margin Gaps Surfaced</div>
+      <div class="desc">Every gap traced to a specific salesperson and product line, the same granularity a cross-ecosystem review needs to act instead of debate.</div>
+    </div>
+    <div class="stat">
+      <div class="n">+8%</div>
+      <div class="lbl">Market Share Gained</div>
+      <div class="desc">10+ competitors benchmarked, then turned into a recommendation that drove +12% YoY revenue alongside it.</div>
+    </div>
+    <div class="stat">
+      <div class="n">53% to 61%</div>
+      <div class="lbl">Distributor Margin Lift</div>
+      <div class="desc">Repriced the channel logic and documented it so the read held past the first review, not just the meeting it was presented in.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">That same instinct runs the Applied Materials seat today: fold Sales, Engineering and Accounts input into one market view, then keep the leadership decks and OKR reviews current instead of stale.</div>
+  <div class="brand">GOOGLE PRODUCT STRATEGY &amp; OPS PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month inside Product Strategy and Operations looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Map the ecosystem and the current cadence</div>
+      <div class="body">Sit with the small team and the senior stakeholders it serves to learn how themes, financials and metrics currently move from raw data to an executive call, and shadow one existing deliverable end to end before touching anything.</div>
+      <div class="why"><strong>Why first:</strong> the same instinct that had me learn Applied Materials' Sales, Engineering and Accounts loop before building on top of it.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Own one ad hoc special project end to end</div>
+      <div class="body">Take one open cross-ecosystem question, build the model against the underlying financials and metrics, and present a data-driven recommendation to a senior stakeholder with the discretion the project calls for, the same loop that turned Bleeders and Leakers into a leadership decision at Sensata.</div>
+      <div class="why"><strong>Why now:</strong> the fastest way to earn trust on an unfamiliar ecosystem is to ship one complete, discreet recommendation, not a slide of open questions.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Propose the reporting cadence</div>
+      <div class="body">Propose the recurring review that keeps that recommendation current: who owns it, how often it gets re-checked against the ecosystem's next move, mirroring the weekly and quarterly business reviews already running at Applied Materials and Sensata.</div>
+      <div class="why"><strong>Why this fast:</strong> a strategy function that produces one analysis is not finished; the cadence is what makes leadership act on it every cycle, not just once.</div>
+    </div>
+  </div>
+  <div class="brand">GOOGLE PRODUCT STRATEGY &amp; OPS PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to turn a sprawling external tech ecosystem into one executive-ready view, built with the discretion that comes with it. I already run that loop.</h2>
+  <div class="body">
+    <p>The core proof is Sensata: a Power BI system tracking <strong>1,200 pricing opportunities against a $627M target</strong>, $433M in margin gaps surfaced for leadership, and a competitive-benchmarking recommendation that drove <strong>+8% market share</strong>.</p>
+    <p>What sits alongside it is the external-ecosystem read itself: at Applied Materials I fold Sales, Engineering and Accounts input into one strategic view of where the market is headed, and at Safran I assessed market-entry feasibility across <strong>150+ facilities and 10+ competitors</strong> for a leadership audience. The analysis, the discretion and the executive deliverable are not three separate skills to learn on the job.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhithyabhaskar.vercel.app/ref/google</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">GOOGLE PRODUCT STRATEGY &amp; OPS PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
