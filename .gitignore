@@ -39,6 +39,11 @@ data/cache/
 .tmp-jd/
 *.bak
 *.bak.*
+
+# reserve-report-num.mjs sentinels: transient ownership markers for an
+# in-progress parallel report-number reservation, released or GC'd once the
+# real report is written. Never meant to be committed.
+reports/*-RESERVED.md
 .DS_Store
 *.mov
 *.mp4
