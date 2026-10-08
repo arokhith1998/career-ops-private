@@ -1,0 +1,22 @@
+Subject: Guardrails before the test, not the audit after
+
+Hi {Recruiter, Pricing Analytics},
+
+I do not usually write in before applying, but defining the hypothesis, comparison group, decision criteria and guardrail before a pricing test runs, is the discipline I already build, not a lift check done after the fact.
+
+Built you a 6-slide pitch deck so the proof fits on one read.
+
+I built PriceKeel's guardrail engine, which reads a company's own closed-won and closed-lost deals and sets the comparison logic a pricing recommendation gets checked against before it ships.
+I led Sensata's Bleeders and Leakers program, segmenting 1,200 pricing opportunities against a $627M target, recovering $700K+ in margin in two quarters.
+I raised distributor margins from 53% to 61% by repricing parts sold through channel partners.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/assurant
+
+Worth 15 minutes on this req? Happy to be pointed elsewhere if it is not yours.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

@@ -1,0 +1,22 @@
+Subject: The regression work behind the price band split
+
+Hi {Hiring Manager, Pricing Analytics},
+
+I do not usually reach out before applying, but breaking performance down by price band, plan type, channel and customer group, then tying it back to a regression model instead of a flat rate review, is the exact loop I already run on device and warranty-style programs.
+
+Built you a 6-slide pitch deck so the proof fits on one read.
+
+I led Sensata's Bleeders and Leakers program: segmented 1,200 pricing opportunities by region, product family and product line against a $627M target, flagged $433M in margin gaps, and recovered $700K+ in margin in two quarters.
+I use R-based regression to forecast demand elasticity and find profit-maximizing price points on my own pricing project.
+I raised distributor margins from 53% to 61% in under two quarters by repricing parts sold through channel partners.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/assurant
+
+Worth 15 minutes to see if the fit holds? Happy to be pointed elsewhere if this is not your req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
