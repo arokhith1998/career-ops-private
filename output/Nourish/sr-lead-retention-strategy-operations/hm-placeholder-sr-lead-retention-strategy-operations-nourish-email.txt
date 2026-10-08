@@ -1,0 +1,20 @@
+Subject: Sizing the drop-off before building anything
+
+Hi {Hiring Manager, Nourish Lifecycle Marketing},
+
+I don't normally reach out before applying, but the way this role is scoped, size where patients are falling out of care first, then decide what to build, is a sequence I've already run, not a generic "own lifecycle campaigns" ask.
+
+At Sensata I built KPI frameworks in SQL and GA4 across 50K+ connected devices to find where usage was dropping, then ran 30+ customer interviews to understand why, lifting feature adoption 18%, conversion 15%, and CSAT 22%. That same quant-plus-qual sequence is what "identify and size opportunities" is asking for.
+At Pixis I cut client churn 50% across an 8-client D2C portfolio by building account strategy and channel diversification from scratch, the retention-at-scale half of this role.
+At PriceKeel and SwipeHire I've owned products from zero: define the problem, build the approach, drive execution myself.
+
+Here's the portfolio: https://adhi-growth-ai.vercel.app/ref/nourish
+
+Worth 15 minutes to see if the fit is real, happy to be pointed elsewhere if this isn't your req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
