@@ -2,12 +2,12 @@ Subject: Research that still holds after comms and policy touch it
 
 Hi {Hiring Manager, Consumer Product Marketing},
 
-I don't normally write in before applying, but this role has to shape positioning through research, then keep that positioning intact once comms and policy touch it, before a consumer ever sees it, and that full sequence is what I've run end to end.
+I don't normally write in before applying, but this role has to shape positioning through research, then keep it intact once comms and policy touch it, before a consumer ever sees it, and that full sequence is what I've run end to end.
 
 At Sensata I shaped GTM and positioning for a new sensing line off 30+ structured buyer interviews, not what the launch deck assumed, for $2M+ in first-year revenue and a 15% lift in conversion.
-At Plug Power I presented customer-research findings straight to the leadership team for budget approval, the same executive-facing motion this req asks for.
-At Pixis I managed an 8-client, $15K-$90K per client consumer portfolio across international markets, reporting to senior management while feeding voice-of-customer back to product.
-At Applied Materials I automate recurring market and competitive analysis with AI agents built on Claude, the AI-fluency preferred qualification as a daily habit.
+At Plug Power I presented customer-research findings to the leadership team for budget approval, the same executive-facing motion this req asks for.
+At Pixis I managed an 8-client, $15K-$90K per client portfolio across international markets, reporting to senior management while feeding voice-of-customer back to product.
+At Applied Materials I automate market and competitive analysis with AI agents built on Claude, the AI-fluency preferred qualification as a daily habit.
 
 Here's the portfolio: https://adhi-product-ai.vercel.app/ref/meta
 
