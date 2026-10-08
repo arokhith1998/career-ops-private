@@ -1,0 +1,20 @@
+Subject: The coordination problem in this JD is one I already run
+
+Hi {Hiring Manager, Stripe Connect},
+
+I do not normally reach out before applying, but owning strategy for marketplaces and software platforms while coordinating engineering, design, analytics, marketing and sales is the shape of what I already do, not five jobs I would be learning at once.
+
+At Sensata I turned a 100+ feature backlog into a sensor platform that shipped 25% faster, meeting 30+ OEMs and distributors to find where it broke for them, then feeding that into the roadmap and moving CSAT 22%.
+SwipeHire shows I can run that loop solo: I wrote the PRD, built an AI job-matching platform in Python and the OpenAI API, priced its three tiers off competitor and willingness-to-pay data, and ran 8+ A/B tests that lifted activation 25%.
+At Applied Materials I size markets with Sales and Engineering and present the forecasting models to leadership before they ship.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/stripe
+
+Worth 15 minutes to see if the fit is real? Happy to be pointed elsewhere if this isn't your req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

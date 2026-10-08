@@ -1,0 +1,20 @@
+Subject: Built the Connect loop solo before applying for it
+
+Hi {Recruiter, Stripe},
+
+I do not normally reach out before applying, but the line about turning a fast-changing set of user needs into durable platform primitives across products and industries is close to a loop I have already run solo, not one I would be learning on this job.
+
+I wrote the PRD, scoped the MVP, and built SwipeHire, an AI job-matching platform, alone in Python and the OpenAI API, then shipped it to 50+ users.
+I priced its three subscription tiers off competitor benchmarks and willingness-to-pay data, then ran 8+ A/B tests that lifted activation 25%.
+At Sensata I met with 30+ OEMs and distributors to find where the platform broke for them and fed it back into a roadmap that shipped 25% faster.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/stripe
+
+Worth 15 minutes if this is your req, no worries if it already has an owner.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
