@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Sigma Sr. PMM Sigma Apps Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #1a56db; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 27pt; font-weight: 800; color: #0f172a; line-height: 1.14; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 20pt; font-weight: 800; color: #0f172a; line-height: 1.1; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #1a56db; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.8in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d9e6fb 100%); }
+  .cover h1 { font-size: 23pt; max-width: 11.6in; }
+  .cover .sub { font-size: 13pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; max-width: 11.3in; }
+  .cover .tags { margin-top: 16pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.1pt; font-weight: 500; }
+  .tag strong { color: #1a56db; font-weight: 700; }
+  .cover .who { margin-top: 16pt; padding-top: 10pt; border-top: 1.5pt solid #1a56db; max-width: 9.5in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #1a56db; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #eaf1fd; border-left: 3pt solid #1a56db; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9pt; color: #114389; font-style: italic; line-height: 1.38; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9pt; color: #334155; line-height: 1.42; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #1a56db; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #eaf1fd; border-left: 4pt solid #1a56db; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #114389; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 24pt; font-weight: 800; color: #1a56db; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #1a56db; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #1a56db; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d9e6fb 100%); }
+  .close h2 { font-size: 23pt; max-width: 11in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.9in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #1a56db; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Sigma Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Sigma Sr. Product Marketing Manager, Sigma Apps</div>
+  <h1>Sigma Apps needs positioning that holds up in the IT review and in the business owner's five-minute demo. I have already written for both sides of that room.</h1>
+  <div class="sub">Dual-audience positioning, sales enablement built from real win/loss, and competitive battlecards, from someone who ran this loop on a technical product and tied it to a revenue number.</div>
+  <div class="tags">
+    <div class="tag"><strong>$2M+</strong> first-year revenue from a GTM launch written for engineers and business buyers at once</div>
+    <div class="tag"><strong>+15%</strong> conversion lift on launches after rewriting specs as buyer value</div>
+    <div class="tag"><strong>50+ reps, +30% win rate</strong> on sales enablement decks and competitive one-pagers</div>
+    <div class="tag"><strong>30+ interviews</strong> turned into win/loss insight before a single deck shipped</div>
+    <div class="tag"><strong>Claude AI agents</strong> automate the repetitive half of competitive analysis today</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-product-ai.vercel.app/ref/sigma</div>
+  </div>
+  <div class="brand">SIGMA APPS PMM</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>Write only for the IT reviewer and the business buyer tunes out. Write only for the business buyer and <span class="accent">the IT review stalls the deal.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What losing that split costs a team like Sigma Apps</h4>
+      <div class="line">A no-code app platform sells on two different conversations in the same deal: can IT govern and scale it, and can the business team actually ship with it. Positioning that only answers one of those reads as a pitch deck, not a reason to buy.</div>
+      <div class="line">Reps feel that gap first. A battlecard built for the IT conversation goes unused in the line-of-business meeting, and the field quietly writes its own version, off message and unmeasured.</div>
+      <div class="line">The fix is not two sets of collateral. It is one narrative, built from what both buyers actually ask on calls, that a rep can use in either room without switching decks.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run, on a technical product</h4>
+      <div class="line">At <b>Sensata</b>, the new sensing-product launch had to read for OEM engineers who could spot a padded spec sheet and for the distributors who only cared whether the part sold, on the same launch.</div>
+      <div class="line">I turned those specs into one positioning narrative, drove <b>$2M+ in first-year revenue</b> and a <b>15% conversion lift</b>, then built the enablement (decks, case studies, competitive one-pagers) that made it usable in the field for 50+ reps.</div>
+      <div class="line">That split is the same shape as IT leader versus line-of-business owner, just in a different industry.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">Sigma Apps is asking for a PMM who understands both sides of the enterprise software conversation and writes one story for the field. I have run that exact split, at $2M+ scale.</div>
+  </div>
+  <div class="brand">SIGMA APPS PMM</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What the Sr. PMM, Sigma Apps opening asks for, and where the proof sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Develop and maintain positioning and messaging for Sigma Apps including no-code app building, AI-assisted workflow automation, embedded analytics, and apps built with external coding agents."</div></div>
+      <div class="quote"><div class="q">"Partner with sales reps and the Enablement team... sharpen messaging, update battlecards, and improve enablement materials."</div></div>
+      <div class="quote"><div class="q">"Build and maintain competitive analysis and battlecards for the no-code/low-code, embedded analytics, and enterprise application development space."</div></div>
+      <div class="quote"><div class="q">"Experience with win/loss analysis, customer interviews, and translating buyer insights into sharper messaging."</div></div>
+    </div>
+    <div class="col">
+      <h3>My Proof</h3>
+      <div class="proof"><div class="p"><b>Dual-audience positioning:</b> turned deep technical specs into buyer-ready value stories for OEM engineers and distributor business owners on the same sensing-product launch, driving $2M+ first-year revenue.</div></div>
+      <div class="proof"><div class="p"><b>Sales enablement reps use:</b> built decks, case studies and competitive one-pagers for 50+ reps at Sensata, improving win rates 30%.</div></div>
+      <div class="proof"><div class="p"><b>Competitive tracking and battlecards:</b> tracked competitor positioning across EMEA and the US, feeding differentiation directly into launch and campaign briefs.</div></div>
+      <div class="proof"><div class="p"><b>Win/loss and customer interviews:</b> ran 30+ structured interviews with OEMs and distributors, synthesizing win/loss insight into messaging that raised CSAT 22%.</div></div>
+    </div>
+  </div>
+  <div class="brand">SIGMA APPS PMM</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>The sensing-product launch: <span class="accent">one narrative, two buyers, a revenue number.</span></h2>
+  <div class="lede">Owned end-to-end GTM (positioning, pricing, channel, launch) for new sensing products across North America and Europe: the same scope this role owns for Sigma Apps across no-code building, workflow automation and embedded analytics.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$2M+</div>
+      <div class="lbl">First-Year Revenue</div>
+      <div class="desc">From a launch positioned for both the technical evaluator and the business buyer, not written twice.</div>
+    </div>
+    <div class="stat">
+      <div class="n">+15%</div>
+      <div class="lbl">Conversion on Priority Launches</div>
+      <div class="desc">From rewriting dense specs as buyer value, the same translation Sigma Apps needs for IT versus line-of-business.</div>
+    </div>
+    <div class="stat">
+      <div class="n">+30%</div>
+      <div class="lbl">Win Rate, 50+ Reps</div>
+      <div class="desc">From enablement built on real field feedback, not a guess at what a technical buyer wants to hear.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">Today at Applied Materials, I automate the repetitive half of competitive and market analysis with AI agents built on Claude, the same instinct behind turning a manual battlecard refresh into a system that stays current.</div>
+  <div class="brand">SIGMA APPS PMM</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month on Sigma Apps PMM looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Learn the product and the field's language</div>
+      <div class="body">Sit with the Director of Product Marketing, Apps, Product and a sample of reps to walk no-code app building, AI-assisted workflow automation and embedded analytics end to end, plus the battlecards in current use.</div>
+      <div class="why"><strong>Why first:</strong> the same instinct that had me run 30+ customer interviews at Sensata before touching a single deck.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Refresh one battlecard from real win/loss</div>
+      <div class="body">Pull recent win/loss data and rep feedback for one competitive matchup in the no-code/low-code space, rewrite the battlecard and comparison from what reps actually hear on calls, and ship it for field use.</div>
+      <div class="why"><strong>Why now:</strong> the same enablement discipline that lifted Sensata's win rate 30% across 50+ reps.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Ship one dual-audience proof point</div>
+      <div class="body">Turn one customer story into a case study that reads for both the IT buyer and the business owner, the same structure that carried the Sensata launch to $2M+ in first-year revenue.</div>
+      <div class="why"><strong>Why this fast:</strong> a credible dual-audience narrative only lands once someone has written one, not just planned to.</div>
+    </div>
+  </div>
+  <div class="brand">SIGMA APPS PMM</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to write one story for two buyers and arm the field with it. I have already run that loop, at $2M+ scale.</h2>
+  <div class="body">
+    <p>The core proof is Sensata: <strong>$2M+ in first-year revenue</strong> from a GTM launch positioned for OEM engineers and distributor business owners at once, a <strong>15% conversion lift</strong> from rewriting specs as buyer value, and sales enablement that lifted win rates <strong>30% across 50+ reps</strong>, all grounded in 30+ structured customer interviews.</p>
+    <p>What carries that proof into Sigma Apps is the habit underneath it: win/loss analysis, competitive tracking and AI-agent-automated analysis I run daily as Strategic Marketing III at Applied Materials, applied to a product built on the same AI-native instinct Sigma is selling.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-product-ai.vercel.app/ref/sigma</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">SIGMA APPS PMM</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
