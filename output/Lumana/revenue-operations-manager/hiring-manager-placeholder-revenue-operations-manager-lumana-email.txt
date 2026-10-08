@@ -1,0 +1,18 @@
+Subject: Revenue Operations Manager, Lumana: forecasting and deal desk already running together
+
+Hi {VP of GTM Engineering, Lumana},
+
+I don't normally cold-email a hiring manager, but "own forecasting, pipeline health, and funnel conversion analysis" sitting in the same req as "lead deal desk operations, including quote management, approvals, and contract accuracy" is a combination I already run, not two separate hires stitched together later.
+
+At Sensata I built the Bleeders and Leakers Power BI system that scored 1,200 opportunities against a $627M target across 3 regions and 4 product families, the one view Sales and Finance both used instead of competing spreadsheets. Inside that same program I ran quote review and contract-accuracy checks that recovered $700K+ in margin in two quarters and moved channel-partner margins from 53% to 61%. At PriceKeel I operate the CRM, CPQ and deal-approval workflow myself today, plus the audit trail Finance checks against for every discount call.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/lumana
+
+If this req sits with you, 15 minutes would help me understand where funnel data gets noisiest right now. A pointer to whoever owns it would help just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
