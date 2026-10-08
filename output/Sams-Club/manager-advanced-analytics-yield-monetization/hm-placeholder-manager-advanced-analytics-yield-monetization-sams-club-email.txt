@@ -1,0 +1,22 @@
+Subject: Where inventory forecasting hands off to revenue optimization
+
+Hi {Hiring Manager, Yield & Monetization},
+
+I don't normally write in before applying, but this req splits inventory forecasting from revenue optimization and still asks one person to be the strategic partner across Sales, Client Success, Measurement and Finance, a scope I've already run.
+
+Built you a 6-slide pitch deck so the proof fits on one read.
+
+Built the FY2026 Bleeders & Leakers Power BI dashboard at Sensata, sizing 1,200 pricing opportunities against a $627M target and surfacing $433M in margin gaps.
+Ran an 8-client retail media portfolio ($15K-$90K/client/month) across Amazon Ads and Criteo at Pixis, lifting campaign ROAS 40% by reallocating spend to the inventory that converted.
+Run my own pricing company, PriceKeel, where I built the guardrail engine that turns deal-level margin data into rate logic that holds up under a Finance review.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/sams-club
+
+If this is your req, 15 minutes would help me understand how Yield splits from Monetization. If it is not, a pointer to whoever owns it helps just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
