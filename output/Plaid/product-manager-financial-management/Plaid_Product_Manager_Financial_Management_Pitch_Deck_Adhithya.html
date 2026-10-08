@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Plaid Product Manager, Financial Management Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #1a56db; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 27pt; font-weight: 800; color: #0f172a; line-height: 1.15; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 19pt; font-weight: 800; color: #0f172a; line-height: 1.16; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #1a56db; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.8in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbeafe 100%); }
+  .cover h1 { font-size: 21pt; max-width: 11.3in; }
+  .cover .sub { font-size: 12.5pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; max-width: 10.9in; }
+  .cover .tags { margin-top: 15pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.6in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9pt; font-weight: 500; }
+  .tag strong { color: #1a56db; font-weight: 700; }
+  .cover .who { margin-top: 15pt; padding-top: 9pt; border-top: 1.5pt solid #1a56db; max-width: 9.6in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #1a56db; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #eff6ff; border-left: 3pt solid #1a56db; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #1e3a8a; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #1a56db; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.4pt; color: #334155; line-height: 1.46; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 13pt; background: #eff6ff; border-left: 4pt solid #1a56db; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #1e3a8a; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 20pt; font-weight: 800; color: #1a56db; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.3pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.6pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #1a56db; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.3pt; font-weight: 800; color: #0f172a; line-height: 1.18; margin-bottom: 7pt; }
+  .card .body { font-size: 8.8pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.3pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #1a56db; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbeafe 100%); }
+  .close h2 { font-size: 20pt; max-width: 10.9in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.9in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #1a56db; font-weight: 700; }
+  .close .contact { margin-top: 15pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Plaid Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Plaid Product Manager, Financial Management</div>
+  <h1>Transactions, Investments and Liabilities already power millions of PFM experiences. The next unlock is not more data, it is a roadmap that proves its own ARR and adoption case to the customers paying for it.</h1>
+  <div class="sub">A pricing-and-roadmap discipline built end to end before: a $2M+ product launch owned start to finish, multimillion-dollar customer quotes shaped alongside senior executives, and an AI product built on a live API from PRD to pricing tiers.</div>
+  <div class="tags">
+    <div class="tag"><strong>$2M+ GTM</strong> - Sensata sensing-product launch owned end to end, positioning through pricing through channel</div>
+    <div class="tag"><strong>53% to 61% margin</strong> - distributor pricing repriced, YoY revenue +12%</div>
+    <div class="tag"><strong>100+ feature backlog</strong> - roadmap run with Engineering across 3 regions, releases 25% faster</div>
+    <div class="tag"><strong>8-client account book</strong> - P&amp;L and account conversations carried directly, churn -50%</div>
+    <div class="tag"><strong>Claude AI agents</strong> - automating repetitive analysis today, the same AI shift reshaping PFM tools</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-product-ai.vercel.app/ref/plaid</div>
+  </div>
+  <div class="brand">PLAID FINANCIAL MGMT PM PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>Owning Transactions, Investments and Liabilities end to end means the roadmap has to earn its ARR case with customers. <span class="accent">That is a pricing-and-account discipline, not a backlog-management one.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What that actually requires</h4>
+      <div class="line">Discovering new problems across customer segments already live on the product, sized with evidence, not greenfield guesses.</div>
+      <div class="line">Setting the adoption and ARR metrics a feature has to clear before it ships, and defending that call with qualitative judgment when the data is incomplete.</div>
+      <div class="line">Influencing pricing and packaging for a product customers are already paying for, and being in the account conversations where that gets negotiated.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already built at that layer</h4>
+      <div class="line">Owned <b>GTM for Sensata's new sensing products</b> end to end (positioning, pricing, channel, launch) to $2M+ first-year revenue, with no existing playbook.</div>
+      <div class="line">Partnered with senior executives on <b>multimillion-dollar customer quotes</b> and repriced distributor margins from 53% to 61% in under 2 quarters.</div>
+      <div class="line">Carried <b>P&amp;L directly across an 8-client account book</b> at Pixis; the account strategy conversations that came with it cut churn 50%.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">The through-line: pricing and account-facing judgment are not a gap I would have to grow into on Financial Management. They are where my roadmap decisions have already been tested.</div>
+  </div>
+  <div class="brand">PLAID FINANCIAL MGMT PM PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The mandate, mapped</div>
+  <h2>What the role covers, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">Own the end-to-end problem: discover, size, ship and report on adoption and ARR for Financial Management products.</div></div>
+      <div class="quote"><div class="q">Influence pricing and packaging, and participate directly in sales and account conversations.</div></div>
+      <div class="quote"><div class="q">Work cross-functionally with Engineering and Design to ship intuitive experiences at scale.</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>Sensata GTM $2M+:</b> owned a launch end to end, positioning through channel, with no existing team or playbook to lean on.</div></div>
+      <div class="proof"><div class="p"><b>Sensata Pricing Lead:</b> multimillion-dollar customer quotes and distributor repricing, margins 53% to 61%.</div></div>
+      <div class="proof"><div class="p"><b>Sensata roadmap:</b> 100+ feature backlog run with Engineering across 3 regions, releases 25% faster.</div></div>
+    </div>
+  </div>
+  <div class="brand">PLAID FINANCIAL MGMT PM PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The closed-loop proof, in depth</div>
+  <h2>SwipeHire: an API-integrated product built <span class="accent">from PRD to pricing tiers, not handed a finished spec.</span></h2>
+  <div class="lede">Built as an AI job-matching platform with a live OpenAI API integration behind it, the same build-price-measure loop a financial-data product roadmap runs on.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">50+ Users</div>
+      <div class="lbl">Early Adoption, Zero-to-One</div>
+      <div class="desc">Wrote the PRD, scoped the MVP and shipped the live API integration behind auto-tailored resumes and visa-aware matching.</div>
+    </div>
+    <div class="stat">
+      <div class="n">3 Pricing Tiers</div>
+      <div class="lbl">Packaging Modeled From Competitors</div>
+      <div class="desc">Defined the ICP and ran competitor teardowns to set the willingness-to-pay case behind each tier.</div>
+    </div>
+    <div class="stat">
+      <div class="n">+25% Activation</div>
+      <div class="lbl">From 8+ A/B Tests, 12+ Interviews</div>
+      <div class="desc">Ran the GTM and analytics stack (GA4, GTM, funnel dashboards) to test the story against real users.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">The same end-to-end discipline carries over from Sensata, where I owned a product launch to $2M+ in first-year revenue and the pricing that followed it, and from Applied Materials, where I build the value-based pricing models and automate the repetitive side of that work with Claude AI agents today.</div>
+  <div class="brand">PLAID FINANCIAL MGMT PM PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month owning a Financial Management product area would look like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Sit with customers already live on the product</div>
+      <div class="body">Talk to the teams building budgeting and PFM tools on top of Transactions, Investments or Liabilities before writing a roadmap line, the same customer-interview discipline that shaped Sensata's 100+ feature backlog.</div>
+      <div class="why"><strong>Why first:</strong> a roadmap written before the customer conversation is a guess, not a plan.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Size the next bet against ARR and adoption</div>
+      <div class="body">Pair qualitative interview signal with the adoption and ARR metrics the role is measured on, the same discipline that turned Sensata's KPI frameworks into an 18% adoption lift.</div>
+      <div class="why"><strong>Why now:</strong> a feature that cannot show its ARR case gets deprioritized the first time budget gets tight.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Ship the bet with the pricing call already made</div>
+      <div class="body">Bring Engineering and Design the feature and the pricing tier it ships in together, the same pairing that carried a $2M+ Sensata launch end to end.</div>
+      <div class="why"><strong>Why this fast:</strong> a PM who owns pricing and packaging ships fewer surprises to the account team.</div>
+    </div>
+  </div>
+  <div class="brand">PLAID FINANCIAL MGMT PM PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>Financial Management needs a PM who has already owned pricing, packaging and the account conversation around a live product, not just the backlog behind it. I have.</h2>
+  <div class="body">
+    <p>The core proof is Sensata: a product launch owned end to end, positioning through pricing through channel, to <strong>$2M+ in first-year revenue</strong>, built on a roadmap I defined myself with Engineering across 3 regions.</p>
+    <p>What is harder to find is someone who has also carried the pricing and account side directly: multimillion-dollar customer quotes alongside senior executives, distributor margins repriced from 53% to 61%, and an 8-client account book run with full P&amp;L ownership. I bring the same discipline to Transactions, Investments and Liabilities, and I keep building with AI tools today, automating repetitive analysis with <strong>Claude agents</strong> at Applied Materials.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-product-ai.vercel.app/ref/plaid</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">PLAID FINANCIAL MGMT PM PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
