@@ -1,0 +1,21 @@
+Subject: Backend bidding algorithms still need a go-to-market instinct
+
+Hi {Hiring Manager, Google Ads Bidding Team},
+
+I do not usually message before applying, but the responsibility that stood out, turning PRDs into OKRs across budget pacing, targeting and auction systems that overlap with bidding, not the bidding stack alone, reads like a problem I have already run end to end, just at smaller scale.
+
+At Pixis I rebuilt a client's full funnel, shopping feed, smart bidding, creative, lookalikes, for 3x ROAS in a single month, then ran retail media (Amazon Ads, Criteo) across an 8-client, $15K-$90K/month portfolio.
+At Plug Power I owned bid strategy and keyword work across Google Ads, Microsoft Ads and Meta, cutting CPA 25% through structured A/B testing.
+I built PriceKeel's guardrail engine from a blank page through its first pilots, the conception-to-launch motion this role names directly.
+At Applied Materials I run Claude agents daily on forecasting and pricing work, the generative AI integration this req lists as a minimum qualification.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/google
+
+Built a 6-slide deck mapping this to the Bidding team's advertiser-value problem. Worth 15 minutes to walk through it?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

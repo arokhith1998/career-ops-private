@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Google Product Manager II Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #1a56db; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 24pt; font-weight: 800; color: #0f172a; line-height: 1.16; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 20pt; font-weight: 800; color: #0f172a; line-height: 1.12; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #1a56db; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.7in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbeafe 100%); }
+  .cover h1 { font-size: 22pt; max-width: 11.3in; }
+  .cover .sub { font-size: 13pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 15pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #1a56db; font-weight: 700; }
+  .cover .who { margin-top: 15pt; padding-top: 10pt; border-top: 1.5pt solid #1a56db; max-width: 9.4in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #1a56db; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .line { font-size: 9.5pt; color: #334155; line-height: 1.46; padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .line b { color: #0f172a; font-weight: 700; }
+  .quote { background: #eff6ff; border-left: 3pt solid #1a56db; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #1e40af; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 22pt; font-weight: 800; color: #1a56db; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #1a56db; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #1a56db; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbeafe 100%); }
+  .close h2 { font-size: 23pt; max-width: 10.6in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.6in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #1a56db; font-weight: 700; }
+  .close .contact { margin-top: 15pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="eyebrow">Pitch Deck | Google Product Manager II</div>
+  <h1>Your Bidding team's next advertiser-value gain is probably hiding inside a system that already runs at scale, not a feature that is not built yet. I have found that exact kind of gap before, with the numbers to show for it.</h1>
+  <div class="sub">A configurable price-increase system that found 50%+ margin lifts, a bid-optimization program that cut CPA 25%, and a PRD-to-roadmap habit that ships with engineering.</div>
+  <div class="tags">
+    <div class="tag"><strong>50%+ profitability lift</strong> flagged by a BU-wide price-optimization system</div>
+    <div class="tag"><strong>-25% CPA</strong> from Google Ads and Microsoft Ads bid optimization</div>
+    <div class="tag"><strong>3x ROAS in one month</strong> from a smart-bidding, full-funnel rebuild</div>
+    <div class="tag"><strong>100+ feature backlog</strong> shipped through PRDs with Engineering</div>
+    <div class="tag"><strong>AI agents on Claude</strong> built into my own workflow today</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-product-ai.vercel.app/ref/google</div>
+  </div>
+  <div class="brand">GOOGLE BIDDING PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>The job is not "ship a bidding feature." It is finding where an <span class="accent">advertiser-value gap</span> is hiding inside Search and Shopping Bidding systems that already run at scale.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What that actually requires</h3>
+      <div class="line">An opportunity-sizing model that finds value inside a system advertisers of every size and sophistication already depend on, not a template analysis.</div>
+      <div class="line">A PRD-to-OKR motion that turns a new bid strategy into something partner engineering, PgM and UX teams can actually build and launch.</div>
+      <div class="line">A generative AI habit already built into the daily workflow, not bolted on for this one req.</div>
+    </div>
+    <div class="col">
+      <h3>What I have already run</h3>
+      <div class="line">At <b>Sensata</b>, I modeled a BU-wide price-optimization system that flagged where a configurable change could lift profitability more than 50%, and used it to drive a 12% YoY revenue gain.</div>
+      <div class="line">At <b>Plug Power</b>, I led the bid optimization behind Paid Search and Paid Social across Google Ads, Microsoft Ads, Meta and LinkedIn, running 15+ A/B tests that cut CPA 25%.</div>
+      <div class="line">At <b>Applied Materials</b> today, I automate repetitive forecasting work with AI agents built on Claude, the same generative-AI-into-workflow habit the role asks for.</div>
+    </div>
+  </div>
+  <div class="bridge" style="margin-top: 14pt; background: #eff6ff; border-left: 4pt solid #1a56db; padding: 11pt 16pt;">
+    <div class="t" style="font-size: 10.5pt; color: #1e40af; line-height: 1.46; font-weight: 600;">The through-line: every bid or price change I have shipped had the value-sizing model built first and the roadmap behind it, not a feature guessed into the backlog.</div>
+  </div>
+  <div class="brand">GOOGLE BIDDING PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The mandate, mapped</div>
+  <h2>What the posting asks for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Develop new bidding approaches to drive more advertiser value across existing and future bidding strategies."</div></div>
+      <div class="quote"><div class="q">"Analyze the ads system to find new areas of opportunity for both advertiser-facing and backend algorithm product improvements."</div></div>
+      <div class="quote"><div class="q">"Experience integrating generative AI tools or LLM interfaces into workflows."</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>Sensata, opportunity-sizing model:</b> built a Power BI price-increase system across 3 regions and 20 product lines that flagged profitability gaps competitive benchmarking alone had missed.</div></div>
+      <div class="proof"><div class="p"><b>Plug Power, advertiser-side bidding:</b> ran bid strategy and budget pacing across Google Ads, SA360 and Meta for $100K/month budgets, cutting CPA 25% through 15+ A/B tests.</div></div>
+      <div class="proof"><div class="p"><b>Pixis, smart bidding at scale:</b> managed an 8-client AI ad-optimization portfolio and delivered 3x ROAS in one month through a full-funnel, smart-bidding rebuild.</div></div>
+      <div class="proof"><div class="p"><b>SwipeHire, LLM integration:</b> built an AI job-matching platform end to end, wiring an LLM interface directly into the matching and resume-tailoring workflow for 50+ users.</div></div>
+    </div>
+  </div>
+  <div class="brand">GOOGLE BIDDING PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>Find the value gap, model it, then <span class="accent">ship the roadmap engineering can build against.</span></h2>
+  <div class="lede">The same three-step pattern, applied twice on the advertiser side and once on the margin side: size where value is hiding inside a system that already works, build the model that quantifies it, then carry it through PRDs with engineering instead of leaving it as a recommendation.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">50%+ Flagged</div>
+      <div class="lbl">Price-Optimization System, Sensata</div>
+      <div class="desc">A BU-wide Power BI model flagging line items where a configurable change could lift profitability more than 50%, driving a 12% YoY revenue gain.</div>
+    </div>
+    <div class="stat">
+      <div class="n">-25% CPA</div>
+      <div class="lbl">Bid Optimization, Plug Power</div>
+      <div class="desc">15+ A/B tests across Google Ads, Microsoft Ads, Meta and LinkedIn against $100K/month budgets, the advertiser-side version of the auction work bidding teams ship.</div>
+    </div>
+    <div class="stat">
+      <div class="n">3x ROAS</div>
+      <div class="lbl">Smart Bidding Rebuild, Pixis</div>
+      <div class="desc">One month, one fashion-brand client, full-funnel restructuring: feed cleanup, smart bidding, creative refresh and lookalike expansion.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">None of this sat in a slide deck. Each case closed the loop from a sized opportunity to a number the business signed off on.</div>
+  <div class="brand">GOOGLE BIDDING PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month on Google's Bidding team looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Map where the current bidding system leaves value on the table</div>
+      <div class="body">Pull existing advertiser segments by size, vertical and sophistication, and find where bid strategies already underperform budget pacing or targeting for a specific segment.</div>
+      <div class="why"><strong>Why first:</strong> the same first move behind the Sensata price-optimization system, find the gap before building a new model to close it.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Build the opportunity model for one bidding path</div>
+      <div class="body">Pick the highest-ambiguity bid strategy question, a budget-pacing edge case or an auction segment underserved today, and build the quantitative case with Engineering and Google Research.</div>
+      <div class="why"><strong>Why now:</strong> the same cross-functional build behind the Sensata and Plug Power bid-optimization programs, not a solo analysis.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Turn the model into a PRD and OKRs partner teams can build against</div>
+      <div class="body">Translate the sized opportunity into a PRD, then into OKRs for the engineering and PgM teams who will ship the new bid strategy or backend improvement.</div>
+      <div class="why"><strong>Why this fast:</strong> the same PRD-to-OKR habit that carried a 100+ feature backlog through Engineering at Sensata.</div>
+    </div>
+  </div>
+  <div class="brand">GOOGLE BIDDING PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to find the next advertiser-value gap inside a bidding system that already runs at scale, then ship the roadmap behind it. I have run that exact pattern three times, on three different systems.</h2>
+  <div class="body">
+    <p>The value-sizing half: a <strong>price-optimization system flagging 50%+ profitability gaps</strong> at Sensata and a <strong>bid-optimization program cutting CPA 25%</strong> at Plug Power, both built before the business asked for them.</p>
+    <p>The shipping half: a <strong>100+ feature backlog carried through PRDs</strong> with Engineering in Agile, and a generative AI habit, AI agents built on Claude, already wired into how I work today.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-product-ai.vercel.app/ref/google</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">GOOGLE BIDDING PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>

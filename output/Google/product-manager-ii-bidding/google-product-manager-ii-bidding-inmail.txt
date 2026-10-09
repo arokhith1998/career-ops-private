@@ -1,0 +1,20 @@
+Subject: Gemini in the bidding stack, not just the chat box
+
+Hi {Recruiter, Google Ads Bidding Team},
+
+I do not usually send a note before applying, but pairing with DeepMind to push Gemini into the bidding and optimization layer, not just a chat interface bolted onto Ads, is a different problem than most generic GenAI briefs, and it is the one I would rather work on.
+
+I run Claude AI agents daily at Applied Materials automating forecasting and pricing analysis that used to take a full day, the generative AI integration habit this req lists as a minimum qualification.
+At Pixis I turned smart bidding and full-funnel changes into a 3x ROAS month for one client inside an 8-client, $15K-$90K/month portfolio.
+I took PriceKeel's pricing engine from a blank page to its first pilots, the conception-to-launch motion the role names directly.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/google
+
+Built a 6-slide deck on the advertiser-value problem. Worth 15 minutes?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
