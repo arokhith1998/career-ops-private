@@ -87,8 +87,30 @@
 - **R:** Delivered 16x ROAS for D2C e-commerce brands, lifted a B2B e-commerce startup's conversion rate 36% and revenue 25%, and improved data accessibility 30% from the dashboard work.
 - **Reflection:** The catalog-feed problem looked like a creative problem until the data audit showed it was a data-hygiene problem — always check the feed before touching the ad.
 
+## 9. Applied Materials — Semiconductor Market Sizing and AI-Agent Automation
+
+**Maps to:** market sizing, value-based pricing, forecasting, AI/LLM workflow automation, semiconductor/technical-industry domain
+
+- **S:** A fast-growing semiconductor market needed one coherent market view across Sales, Engineering and Accounts, plus pricing that could keep pace with its inflection points, while the team's own analysis work was manually repetitive.
+- **T:** Build the market sizing and value-based pricing models the business needed, and remove the repetitive analysis overhead blocking faster cycles.
+- **A:** Sized the semiconductor market in partnership with Sales, Engineering and Accounts; built competitive, value-based pricing and forecasting/market-sizing models across multiple product groups; automated repetitive analysis work with AI agents built on Claude; carries P&L and revenue targets for the role.
+- **R:** (No metrics given for this current role; never invent any. The AI-agent automation line is the differentiated, verifiable claim — it appears on every resume.)
+- **Reflection:** Automating the repetitive analysis first, before trying to improve the pricing model itself, freed up the hours that actually went into better forecasting — sequencing mattered more than any single modeling improvement.
+
+## 10. Safran Market Sizing and GTM (Simon Vision Consulting)
+
+**Maps to:** market strategy, competitive intelligence, TAM/SAM/SOM, cross-functional team leadership, pro-bono consulting
+
+- **S:** Safran needed a go-to-market and market-sizing view across three B2B product lines with no existing, defensible SAM.
+- **T:** Lead a student-consultant team to size the real addressable market and assess entry feasibility, then present findings directly to Safran leadership.
+- **A:** Led a 5-consultant team that narrowed 170 facilities down to a SAM of 28, built personas across 4 verticals (aerospace, defense, healthcare, scientific research), positioned 3 B2B product lines, and analyzed 150+ target facilities and 10+ competitors on pricing strategy and market-entry feasibility.
+- **R:** Presented the full market-sizing and entry-feasibility assessment directly to Safran leadership.
+- **Reflection:** Narrowing 170 facilities to a defensible 28 mattered more to the client than the raw market-size number — a credible, filtered SAM is more actionable than a bigger, softer one.
+
 ---
 
 *Extended 2026-09-22 by the nightly discover pipeline, score+queue batch (reports 278-289 range). Facts sourced exclusively from cv.md.*
 
 *Extended 2026-09-22/23 by the nightly discover pipeline, score+queue batch (reports 266-277 range): added story #8 (GenY Medium), the one master story missing from the concurrent write above. Facts sourced exclusively from cv.md. Reports 266-268 in this batch reference an earlier, since-superseded numbering of this file (written before the concurrent overwrite landed) — the full STAR+R content is embedded inline in those reports, so the numbering mismatch is cosmetic only. Reports 269-277 in this batch use the numbering above (1-8).*
+
+*Extended 2026-10-08/09 by the nightly discover pipeline, score phase (reports 1003-1011 range): added story #9 (Applied Materials market sizing + Claude AI-agent automation) and story #10 (Safran market sizing/GTM via Simon Vision Consulting), the two master stories missing from the prior batches above. Facts sourced exclusively from cv.md; no metrics invented for either (Applied Materials carries none in cv.md by design).*
