@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Nscale US Product Marketing Manager Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #0e7490; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 27pt; font-weight: 800; color: #0f172a; line-height: 1.14; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 20pt; font-weight: 800; color: #0f172a; line-height: 1.12; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #0e7490; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.7in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #e0f2fe 100%); }
+  .cover h1 { font-size: 24pt; max-width: 11.3in; }
+  .cover .sub { font-size: 14pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 16pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #0e7490; font-weight: 700; }
+  .cover .who { margin-top: 16pt; padding-top: 11pt; border-top: 1.5pt solid #0e7490; max-width: 9.6in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #0e7490; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #ecfeff; border-left: 3pt solid #0e7490; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #155e75; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #0e7490; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #ecfeff; border-left: 4pt solid #0e7490; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #155e75; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0e7490; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 20pt; font-weight: 800; color: #0e7490; line-height: 1.1; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0e7490; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #0e7490; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #0e7490; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #e0f2fe 100%); }
+  .close h2 { font-size: 24pt; max-width: 10.6in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.6in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #0e7490; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Nscale Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Nscale US Product Marketing Manager</div>
+  <h1>Nscale's PMM role is really a translation job: turn a sovereign AI cloud platform's technical depth into launches, positioning and sales enablement a buyer and a rep can actually use. I have run that translation before, on infrastructure buyers who ask harder questions than most.</h1>
+  <div class="sub">A full GTM launch built to a revenue number, and the sales enablement that kept 50+ reps selling it correctly.</div>
+  <div class="tags">
+    <div class="tag"><strong>$2M+ first-year revenue</strong> from a full positioning-to-launch GTM at Sensata</div>
+    <div class="tag"><strong>+30% win rate</strong> from sales enablement built for 50+ reps</div>
+    <div class="tag"><strong>30+ customer interviews</strong> that kept messaging tied to real buyers</div>
+    <div class="tag"><strong>AI agents built on Claude</strong> automating recurring market research at Applied Materials</div>
+    <div class="tag"><strong>+8% market share</strong> from competitive-intelligence-driven positioning</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-product-ai.vercel.app/ref/nscale</div>
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>A hands-on PMM role at an infrastructure company is not "write the launch deck." It is <span class="accent">making a technical buyer trust the story before they trust the product.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What that actually requires</h4>
+      <div class="line">Positioning and messaging that survives contact with a technical buyer, not marketing language that sounds good in a review and falls apart in a sales call.</div>
+      <div class="line">Sales enablement, decks, battlecards, FAQs, talk tracks, that a rep can pick up cold and use correctly on a call the same day.</div>
+      <div class="line">Competitive and market research that stays current enough to inform the next launch, not a quarterly snapshot nobody opens.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run</h4>
+      <div class="line">At <b>Sensata</b>, I owned positioning, messaging and launch execution for new sensing products sold to OEM and distributor engineers, not a soft consumer audience.</div>
+      <div class="line">I built the <b>sales enablement</b> (decks, case studies, talk tracks) for 50+ reps carrying live deals, and tested every message against 30+ real customer interviews first.</div>
+      <div class="line">At <b>Applied Materials</b> today, I automate recurring market and competitive research with AI agents built on Claude, freeing hours for the writing a launch actually needs.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">The through-line: every launch I have shipped was tested against a real technical buyer before the enablement materials went out, not after.</div>
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The mandate, mapped</div>
+  <h2>What the posting asks for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Support product positioning and messaging development for key Nscale products, services, and launches."</div></div>
+      <div class="quote"><div class="q">"Create and maintain core sales enablement materials, including pitch decks, one-pagers, battlecards, FAQs, and talk tracks."</div></div>
+      <div class="quote"><div class="q">"Conduct market, competitor, and customer research and synthesize findings into actionable insights."</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>Sensata, positioning to $2M+ revenue:</b> owned positioning, messaging, channel and launch execution end to end for new sensing products across North America and Europe.</div></div>
+      <div class="proof"><div class="p"><b>Sensata, sales enablement for 50+ reps:</b> built decks, case studies and talk tracks that moved win rates 30% on live deals.</div></div>
+      <div class="proof"><div class="p"><b>Sensata, competitive intelligence:</b> tracked competitor moves and market share across EMEA and the US, driving +12% YoY revenue and +8% market share through price-realignment positioning.</div></div>
+      <div class="proof"><div class="p"><b>Applied Materials, research synthesis at speed:</b> size the semiconductor market with Sales, Engineering and Accounts, then automate the repeat analysis with Claude agents.</div></div>
+    </div>
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>Ship the launch, arm the reps, then <span class="accent">keep the competitive picture current enough to inform the next one.</span></h2>
+  <div class="lede">Same pattern across two technical categories, semiconductors and industrial sensing: ship the positioning, build the enablement under it, then measure whether it moved a number Sales was accountable for.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$2M+</div>
+      <div class="lbl">First-Year Revenue, End-to-End GTM</div>
+      <div class="desc">Positioning, messaging, channel strategy and launch execution built and shipped in one motion for new sensing products across North America and Europe.</div>
+    </div>
+    <div class="stat">
+      <div class="n">+30% Win Rate</div>
+      <div class="lbl">Sales Enablement for 50+ Reps</div>
+      <div class="desc">Decks, case studies and talk tracks built for reps carrying live, technical deals, not generic marketing collateral.</div>
+    </div>
+    <div class="stat">
+      <div class="n">+8% Market Share</div>
+      <div class="lbl">Competitive-Intelligence-Driven Positioning</div>
+      <div class="desc">Price-realignment positioning built on competitive benchmarking across 10+ players, tracked across EMEA and the US.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">The common thread: none of these were a positioning doc that sat in a folder. Each one closed the loop from message to a number Sales was accountable for.</div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month supporting launches and enablement at Nscale looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Audit the current messaging and enablement set</div>
+      <div class="body">Read every live battlecard, one-pager and FAQ against the current product roadmap, and sit in on Sales and SME conversations to find where the technical story and the sales story have already drifted apart.</div>
+      <div class="why"><strong>Why first:</strong> the same first move behind every Sensata launch, find where the message breaks before rewriting it.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Rebuild one launch's positioning and enablement</div>
+      <div class="body">Pick the next major launch or roadmap update, translate its technical capabilities into a value proposition and use cases with Product and Engineering, then ship the sales deck, one-pager and talk track together with Sales.</div>
+      <div class="why"><strong>Why now:</strong> the same cross-functional build that moved Sensata's win rate 30% instead of a deck Sales never opened.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Stand up the competitive-intelligence cadence</div>
+      <div class="body">Institute the direct-research discipline behind Sensata's 30+ customer interviews, applied to Nscale's buyers and competitors, then automate the repeat tracking so the intelligence stays current every cycle, not once a quarter.</div>
+      <div class="why"><strong>Why this fast:</strong> the same Claude-agent habit that keeps my own market research moving at Applied Materials today, not a plan for someday.</div>
+    </div>
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to translate a sovereign AI cloud platform into launches, positioning and sales enablement a buyer and a rep can use. I have already run that translation on technical buyers, and put a number on each result.</h2>
+  <div class="body">
+    <p>The launch half: <strong>$2M+ first-year revenue</strong> from positioning, messaging, channel and launch execution built end to end at Sensata, backed by competitive intelligence that drove +8% market share.</p>
+    <p>The enablement half: sales decks, case studies and talk tracks for 50+ reps that moved <strong>win rates 30%</strong>, tested first against 30+ real customer interviews. At Applied Materials I now automate my own recurring market research with agents built on Claude, because rebuilding the same report every cycle is time that should go into the next launch.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-product-ai.vercel.app/ref/nscale</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
