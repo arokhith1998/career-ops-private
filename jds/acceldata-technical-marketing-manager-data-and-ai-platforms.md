@@ -10,6 +10,8 @@
 **Track:** us
 **Visa gate:** required
 
+**Mirror (Lever, same req, confirmed 2026-10-09):** https://jobs.lever.co/acceldata/09e0bf21-189a-473a-af7c-105159d6cc3e -- the shortlist listed this row under the title "Staff Product Marketing Manager," but the live Lever posting at that exact UUID resolves to this same "Technical Marketing Manager, Data & AI Platforms" req (identical body text: "Reports to CMO," same bullets, same "12+ years" requirement). Treated as the same opening; not re-extracted as a separate file.
+
 ## Work authorization / sponsorship / citizenship / clearance / degree / grad-year sentences (verbatim)
 
 No sponsorship, citizenship, or clearance language found in the posting. No degree requirement stated. The only adjacent disclosure found:
