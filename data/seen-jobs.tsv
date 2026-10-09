@@ -1,51 +1,51 @@
 job_key	company	title	url	stage	verdict	first_seen	last_seen	times_seen	note
-jobs.ashbyhq.com/elevenlabs/934dbe9d-1c1f-4939-944a-6671469009db	ElevenLabs	Enterprise Product Manager - ElevenCreative	https://jobs.ashbyhq.com/elevenlabs/934dbe9d-1c1f-4939-944a-6671469009db	jd_extracted	BUILD	2026-10-08	2026-10-09	4	
+jobs.ashbyhq.com/elevenlabs/934dbe9d-1c1f-4939-944a-6671469009db	ElevenLabs	Enterprise Product Manager - ElevenCreative	https://jobs.ashbyhq.com/elevenlabs/934dbe9d-1c1f-4939-944a-6671469009db	queued	BUILD	2026-10-08	2026-10-09	5	
 job-boards.greenhouse.io/mercury/jobs/6218705004	Mercury	Senior Product Manager - Consumer Credit Card	https://job-boards.greenhouse.io/mercury/jobs/6218705004	queued		2026-10-07	2026-10-09	12	
 jobs.ashbyhq.com/hex/98482446-835b-46ed-b2fc-00ad9ced8082	Hex	Growth Marketing Manager - Paid Marketing	https://jobs.ashbyhq.com/hex/98482446-835b-46ed-b2fc-00ad9ced8082	queued	QUEUED	2026-10-07	2026-10-09	13	
-linkedin.com/jobs/view/4475781615	Auxia	Product Marketing Lead	https://www.linkedin.com/jobs/view/4475781615	jd_extracted	BUILD	2026-10-08	2026-10-09	4	
-zapply.jobs/l/d/workday-adobe-external-experienced-r171900	Adobe	2027 MBA University Graduate - Product Manager	https://zapply.jobs/l/d/workday-adobe-external-experienced-R171900?s=gh-new-grad-jobs-2027	jd_extracted	BUILD	2026-09-23	2026-10-09	4	
-zapply.jobs/l/d/workday-cisco-cisco-careers-2027758	Cisco	ASIC Packaging Signal/Power Integrity Hardware Engineer (Hybrid)	https://zapply.jobs/l/d/workday-cisco-cisco-careers-2027758?s=gh-new-grad-jobs-2027	jd_extracted	BUILD	2026-10-09	2026-10-09	3	
-zapply.jobs/l/d/greenhouse-faire-8880835002	Faire	Strategy & Operations Senior Associate	https://zapply.jobs/l/d/greenhouse-faire-8880835002?s=gh-new-grad-data-science-jobs-2027	jd_extracted	BUILD	2026-10-09	2026-10-09	3	
+linkedin.com/jobs/view/4475781615	Auxia	Product Marketing Lead	https://www.linkedin.com/jobs/view/4475781615	queued	BUILD	2026-10-08	2026-10-09	5	
+zapply.jobs/l/d/workday-adobe-external-experienced-r171900	Adobe	2027 MBA University Graduate - Product Manager	https://zapply.jobs/l/d/workday-adobe-external-experienced-R171900?s=gh-new-grad-jobs-2027	dropped	DROP:below-3.0	2026-09-23	2026-10-09	5	
+zapply.jobs/l/d/workday-cisco-cisco-careers-2027758	Cisco	ASIC Packaging Signal/Power Integrity Hardware Engineer (Hybrid)	https://zapply.jobs/l/d/workday-cisco-cisco-careers-2027758?s=gh-new-grad-jobs-2027	dropped	DROP:below-3.0	2026-10-09	2026-10-09	4	
+zapply.jobs/l/d/greenhouse-faire-8880835002	Faire	Strategy & Operations Senior Associate	https://zapply.jobs/l/d/greenhouse-faire-8880835002?s=gh-new-grad-data-science-jobs-2027	queued	BUILD	2026-10-09	2026-10-09	4	
 job-boards.greenhouse.io/affirm/jobs/8009663003	Affirm	Senior Product Manager, Consumer Payments	https://job-boards.greenhouse.io/affirm/jobs/8009663003	jd_extracted		2026-10-09	2026-10-09	2	
 about.nextdoor.com/careers-list?gh_jid=8265782	Nextdoor	Senior Designer, Monetization	https://about.nextdoor.com/careers-list/?gh_jid=8265782	dropped	DROP:over-cap	2026-10-09	2026-10-09	3	
-linkedin.com/jobs/view/4476251713	Z47	Founder's Office - For a Software/AI portfolio company	https://www.linkedin.com/jobs/view/4476251713	jd_extracted	BUILD	2026-10-09	2026-10-09	3	
-linkedin.com/jobs/view/4465982654	WisdomAI	Technical Product Marketing Manager	https://www.linkedin.com/jobs/view/4465982654	jd_extracted	BUILD	2026-10-09	2026-10-09	3	
+linkedin.com/jobs/view/4476251713	Z47	Founder's Office - For a Software/AI portfolio company	https://www.linkedin.com/jobs/view/4476251713	queued	BUILD	2026-10-09	2026-10-09	4	
+linkedin.com/jobs/view/4465982654	WisdomAI	Technical Product Marketing Manager	https://www.linkedin.com/jobs/view/4465982654	queued	BUILD	2026-10-09	2026-10-09	4	
 linkedin.com/jobs/view/4466213236	Meta	Enterprise AI Technical Product Marketing Manager	https://www.linkedin.com/jobs/view/4466213236	dropped	DROP:over-cap	2026-10-09	2026-10-09	3	
 linkedin.com/jobs/view/4466200454	Meta	Enterprise AI Technical Product Marketing Manager	https://www.linkedin.com/jobs/view/4466200454	dropped	DROP:over-cap	2026-10-09	2026-10-09	3	
-linkedin.com/jobs/view/4477402756	LinkedIn	Monetization Strategy Manager	https://www.linkedin.com/jobs/view/4477402756	jd_extracted	BUILD	2026-10-09	2026-10-09	3	
+linkedin.com/jobs/view/4477402756	LinkedIn	Monetization Strategy Manager	https://www.linkedin.com/jobs/view/4477402756	queued	BUILD	2026-10-09	2026-10-09	4	
 zapply.jobs/l/d/workday-allstate-allstate-careers-r35460	Allstate	Digital Product Manager - Legal Technology	https://zapply.jobs/l/d/workday-allstate-allstate-careers-R35460?s=gh-new-grad-jobs-2027	dropped	SKIP:visa-wall	2026-10-09	2026-10-09	3	
-instacart.careers/job?gh_jid=8266401	Instacart	Senior Product Manager, Enterprise Creative Tools & Outbound Product	https://instacart.careers/job/?gh_jid=8266401	jd_extracted	BUILD	2026-10-09	2026-10-09	3	
+instacart.careers/job?gh_jid=8266401	Instacart	Senior Product Manager, Enterprise Creative Tools & Outbound Product	https://instacart.careers/job/?gh_jid=8266401	dropped	DROP:below-3.0	2026-10-09	2026-10-09	4	
 instacart.careers/job?gh_jid=8266403	Instacart	Senior Product Manager, Enterprise Creative Tools & Outbound Product	https://instacart.careers/job/?gh_jid=8266403	dropped	DROP:non-us-role	2026-10-09	2026-10-09	3	
-zapply.jobs/l/d/workday-zayo-zayo-careers-r0017247	Zayo	Technical Product Manager	https://zapply.jobs/l/d/workday-zayo-zayo-careers-R0017247?s=gh-new-grad-jobs-2027	jd_extracted	BUILD	2026-10-09	2026-10-09	3	
-linkedin.com/jobs/view/4476259450	Revspot	Chief of Staff	https://www.linkedin.com/jobs/view/4476259450	jd_extracted	BUILD	2026-10-09	2026-10-09	3	
+zapply.jobs/l/d/workday-zayo-zayo-careers-r0017247	Zayo	Technical Product Manager	https://zapply.jobs/l/d/workday-zayo-zayo-careers-R0017247?s=gh-new-grad-jobs-2027	queued	BUILD	2026-10-09	2026-10-09	4	
+linkedin.com/jobs/view/4476259450	Revspot	Chief of Staff	https://www.linkedin.com/jobs/view/4476259450	queued	BUILD	2026-10-09	2026-10-09	4	
 linkedin.com/jobs/view/4476261265	NASTECH CONSULTING	Chief of Staff - Investments & Multi family office	https://www.linkedin.com/jobs/view/4476261265	dropped	DROP:over-cap	2026-10-09	2026-10-09	3	
 linkedin.com/jobs/view/4477479838	Verkada	Product Marketing Manager, Solutions	https://www.linkedin.com/jobs/view/4477479838	dropped	SKIP:visa-wall	2026-10-09	2026-10-09	3	
 linkedin.com/jobs/view/4476229587	NVIDIA	Energy Product Marketing Manager	https://www.linkedin.com/jobs/view/4476229587	dropped	DROP:over-cap	2026-10-09	2026-10-09	3	
 linkedin.com/jobs/view/4477482773	Verkada	Senior Product Marketing Manager, Solutions	https://www.linkedin.com/jobs/view/4477482773	dropped	SKIP:visa-wall	2026-10-09	2026-10-09	3	
-linkedin.com/jobs/view/4477487770	Albertsons Companies	Pricing Analyst III	https://www.linkedin.com/jobs/view/4477487770	jd_extracted	BUILD	2026-10-09	2026-10-09	3	
-mongodb.com/careers/job?gh_jid=8265960	MongoDB	Growth Marketing Manager	https://www.mongodb.com/careers/job/?gh_jid=8265960	jd_extracted	BUILD	2026-10-09	2026-10-09	3	
-linkedin.com/jobs/view/4477416210	Emeritus	Chief of Staff	https://www.linkedin.com/jobs/view/4477416210	jd_extracted	BUILD	2026-10-09	2026-10-09	3	
-linkedin.com/jobs/view/4457743309	Nscale	US Product Marketing Manager	https://www.linkedin.com/jobs/view/4457743309	jd_extracted	BUILD	2026-10-09	2026-10-09	3	
-linkedin.com/jobs/view/4443801852	Reducto	Product Marketing Manager	https://www.linkedin.com/jobs/view/4443801852	jd_extracted	BUILD	2026-10-09	2026-10-09	3	
-linkedin.com/jobs/view/4458313473	Google	Product Marketing Manager, Developer Technical Content, Cloud Product Marketing	https://www.linkedin.com/jobs/view/4458313473	jd_extracted	BUILD	2026-10-09	2026-10-09	3	
+linkedin.com/jobs/view/4477487770	Albertsons Companies	Pricing Analyst III	https://www.linkedin.com/jobs/view/4477487770	queued	BUILD	2026-10-09	2026-10-09	4	
+mongodb.com/careers/job?gh_jid=8265960	MongoDB	Growth Marketing Manager	https://www.mongodb.com/careers/job/?gh_jid=8265960	queued	BUILD	2026-10-09	2026-10-09	4	
+linkedin.com/jobs/view/4477416210	Emeritus	Chief of Staff	https://www.linkedin.com/jobs/view/4477416210	queued	BUILD	2026-10-09	2026-10-09	4	
+linkedin.com/jobs/view/4457743309	Nscale	US Product Marketing Manager	https://www.linkedin.com/jobs/view/4457743309	queued	BUILD	2026-10-09	2026-10-09	4	
+linkedin.com/jobs/view/4443801852	Reducto	Product Marketing Manager	https://www.linkedin.com/jobs/view/4443801852	queued	BUILD	2026-10-09	2026-10-09	4	
+linkedin.com/jobs/view/4458313473	Google	Product Marketing Manager, Developer Technical Content, Cloud Product Marketing	https://www.linkedin.com/jobs/view/4458313473	dropped	DROP:below-3.0	2026-10-09	2026-10-09	4	
 linkedin.com/jobs/view/4468273581	Salesforce	Sr. Manager, GTM Product Marketing, Agentforce	https://www.linkedin.com/jobs/view/4468273581	dropped	DROP:over-cap	2026-10-09	2026-10-09	3	
 linkedin.com/jobs/view/4468273089	Lyft	Sr. Product Marketing Manager, Programmatic Ad Solutions	https://www.linkedin.com/jobs/view/4468273089	dropped	DROP:over-cap	2026-10-09	2026-10-09	3	
 linkedin.com/jobs/view/4457499864	Docusign	Sr. Product Marketing Manager, Platform Positioning	https://www.linkedin.com/jobs/view/4457499864	dropped	DROP:over-cap	2026-10-09	2026-10-09	3	
-linkedin.com/jobs/view/4477417644	Moloco	Moloco Ads GTM Strategy Manager	https://www.linkedin.com/jobs/view/4477417644	jd_extracted	BUILD	2026-10-09	2026-10-09	3	
-linkedin.com/jobs/view/4446699146	Nielsen	Product Marketing Manager	https://www.linkedin.com/jobs/view/4446699146	jd_extracted	BUILD	2026-10-09	2026-10-09	3	
-linkedin.com/jobs/view/4477431383	Salt Security	Technical Product Marketing Manager	https://www.linkedin.com/jobs/view/4477431383	jd_extracted	BUILD	2026-10-09	2026-10-09	3	
+linkedin.com/jobs/view/4477417644	Moloco	Moloco Ads GTM Strategy Manager	https://www.linkedin.com/jobs/view/4477417644	queued	BUILD	2026-10-09	2026-10-09	4	
+linkedin.com/jobs/view/4446699146	Nielsen	Product Marketing Manager	https://www.linkedin.com/jobs/view/4446699146	queued	BUILD	2026-10-09	2026-10-09	4	
+linkedin.com/jobs/view/4477431383	Salt Security	Technical Product Marketing Manager	https://www.linkedin.com/jobs/view/4477431383	queued	BUILD	2026-10-09	2026-10-09	4	
 linkedin.com/jobs/view/4466259056	Quantum Health	Product Marketing Manager	https://www.linkedin.com/jobs/view/4466259056	dropped	SKIP:visa-wall	2026-10-09	2026-10-09	3	
-linkedin.com/jobs/view/4468251425	LastPass	Product Marketing Manager	https://www.linkedin.com/jobs/view/4468251425	jd_extracted	BUILD	2026-10-09	2026-10-09	3	
-linkedin.com/jobs/view/4477427714	Albertsons Companies	Manager Pricing	https://www.linkedin.com/jobs/view/4477427714	jd_extracted	BUILD	2026-10-09	2026-10-09	3	
-linkedin.com/jobs/view/4449091926	O'Melveny & Myers LLP	Pricing Manager	https://www.linkedin.com/jobs/view/4449091926	jd_extracted	BUILD	2026-10-09	2026-10-09	3	
-linkedin.com/jobs/view/4437615734	KLA	Product Marketing Manager	https://www.linkedin.com/jobs/view/4437615734	jd_extracted	BUILD	2026-10-09	2026-10-09	3	
-workato.com/careers?gh_jid=8860927002	Workato	Senior Field Marketing Manager	https://www.workato.com/careers?gh_jid=8860927002#open-roles	jd_extracted	BUILD	2026-10-09	2026-10-09	3	
-boards.greenhouse.io/robinhood/jobs/8257655?gh_jid=8257655	Robinhood	Senior Product Manager, Trading Tools	https://boards.greenhouse.io/robinhood/jobs/8257655?t=gh_src=&gh_jid=8257655	jd_extracted	BUILD	2026-10-09	2026-10-09	3	
-linkedin.com/jobs/view/4475982008	Zamp	Founder's Office, Zamp - Strategy & Operations	https://www.linkedin.com/jobs/view/4475982008	jd_extracted	BUILD	2026-10-09	2026-10-09	3	
-linkedin.com/jobs/view/4474818359	Impact Beacon	Founder's Office - Strategy & Operations	https://www.linkedin.com/jobs/view/4474818359	jd_extracted	BUILD	2026-10-09	2026-10-09	3	
+linkedin.com/jobs/view/4468251425	LastPass	Product Marketing Manager	https://www.linkedin.com/jobs/view/4468251425	queued	BUILD	2026-10-09	2026-10-09	4	
+linkedin.com/jobs/view/4477427714	Albertsons Companies	Manager Pricing	https://www.linkedin.com/jobs/view/4477427714	queued	BUILD	2026-10-09	2026-10-09	4	
+linkedin.com/jobs/view/4449091926	O'Melveny & Myers LLP	Pricing Manager	https://www.linkedin.com/jobs/view/4449091926	queued	BUILD	2026-10-09	2026-10-09	4	
+linkedin.com/jobs/view/4437615734	KLA	Product Marketing Manager	https://www.linkedin.com/jobs/view/4437615734	dropped	DROP:below-3.0	2026-10-09	2026-10-09	4	
+workato.com/careers?gh_jid=8860927002	Workato	Senior Field Marketing Manager	https://www.workato.com/careers?gh_jid=8860927002#open-roles	dropped	DROP:below-3.0	2026-10-09	2026-10-09	4	
+boards.greenhouse.io/robinhood/jobs/8257655?gh_jid=8257655	Robinhood	Senior Product Manager, Trading Tools	https://boards.greenhouse.io/robinhood/jobs/8257655?t=gh_src=&gh_jid=8257655	queued	BUILD	2026-10-09	2026-10-09	4	
+linkedin.com/jobs/view/4475982008	Zamp	Founder's Office, Zamp - Strategy & Operations	https://www.linkedin.com/jobs/view/4475982008	queued	BUILD	2026-10-09	2026-10-09	4	
+linkedin.com/jobs/view/4474818359	Impact Beacon	Founder's Office - Strategy & Operations	https://www.linkedin.com/jobs/view/4474818359	dropped	DROP:below-3.0	2026-10-09	2026-10-09	4	
 linkedin.com/jobs/view/4475986682	Jumbo Consulting	Founder’s Office – Associate	https://www.linkedin.com/jobs/view/4475986682	dropped	DROP:below-comp-floor	2026-10-09	2026-10-09	4	
 linkedin.com/jobs/view/4475594934	Studio Take Two	Founder’s Office | Junior Executive	https://www.linkedin.com/jobs/view/4475594934	dropped	DROP:below-comp-floor	2026-10-09	2026-10-09	4	
-linkedin.com/jobs/view/4477160088	Newtrace	Senior Associate - Founder's Office	https://www.linkedin.com/jobs/view/4477160088	jd_extracted	BUILD	2026-10-09	2026-10-09	3	
+linkedin.com/jobs/view/4477160088	Newtrace	Senior Associate - Founder's Office	https://www.linkedin.com/jobs/view/4477160088	queued	BUILD	2026-10-09	2026-10-09	4	
 linkedin.com/jobs/view/4475759847	Arohana Tech Solutions Private Limited	Executive Assistant – CEO’s Office	https://www.linkedin.com/jobs/view/4475759847	dropped	DROP:below-comp-floor	2026-10-09	2026-10-09	4	
 linkedin.com/jobs/view/4476208163	MKGlobo Solutions	Founder's Office Executive	https://www.linkedin.com/jobs/view/4476208163	dropped	DROP:below-comp-floor	2026-10-09	2026-10-09	4	
 linkedin.com/jobs/view/4475959260	Arbor Mobility Private Limited	Founder's Office (Finance)	https://www.linkedin.com/jobs/view/4475959260	dropped	DROP:below-comp-floor	2026-10-09	2026-10-09	4	
