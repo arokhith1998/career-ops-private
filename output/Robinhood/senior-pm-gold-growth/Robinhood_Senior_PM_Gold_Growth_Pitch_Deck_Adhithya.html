@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Robinhood Senior Product Manager, Gold Growth Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #1a56db; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 24pt; font-weight: 800; color: #0f172a; line-height: 1.16; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 20pt; font-weight: 800; color: #0f172a; line-height: 1.12; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #1a56db; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.7in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbeafe 100%); }
+  .cover h1 { font-size: 21pt; max-width: 11.3in; }
+  .cover .sub { font-size: 13pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 15pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #1a56db; font-weight: 700; }
+  .cover .who { margin-top: 15pt; padding-top: 10pt; border-top: 1.5pt solid #1a56db; max-width: 9.4in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #1a56db; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .line { font-size: 9.5pt; color: #334155; line-height: 1.46; padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .line b { color: #0f172a; font-weight: 700; }
+  .quote { background: #eff6ff; border-left: 3pt solid #1a56db; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #1e40af; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 22pt; font-weight: 800; color: #1a56db; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #1a56db; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #1a56db; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbeafe 100%); }
+  .close h2 { font-size: 23pt; max-width: 10.6in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.6in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #1a56db; font-weight: 700; }
+  .close .contact { margin-top: 15pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="eyebrow">Pitch Deck | Robinhood Senior Product Manager, Gold Growth</div>
+  <h1>Gold's next growth gain is probably not a new feature. It is a sharper bet on where the acquisition-to-retention funnel is already leaking value. I have closed that exact gap before, on both sides of the funnel, with the numbers to show for it.</h1>
+  <div class="sub">A churn program that cut client attrition 50%, an A/B-testing program that cut CPA 25%, and a pricing model that found 50%+ margin hiding inside a system that already ran at scale.</div>
+  <div class="tags">
+    <div class="tag"><strong>-50% client churn</strong> via proactive retention playbooks</div>
+    <div class="tag"><strong>-25% CPA</strong> across 15+ paid-acquisition A/B tests</div>
+    <div class="tag"><strong>+20% conversion</strong> from customer-research-driven funnel fixes</div>
+    <div class="tag"><strong>50%+ margin lift flagged</strong> by a growth-vs-economics pricing model</div>
+    <div class="tag"><strong>SwipeHire</strong>, a consumer product I owned end to end, UI to funnel</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-product-ai.vercel.app/ref/robinhood</div>
+  </div>
+  <div class="brand">ROBINHOOD GOLD GROWTH PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>Gold touches nearly every surface in the app. The hard part is not finding a growth idea, it is picking which <span class="accent">funnel stage</span> to bet on first and proving the trade-off was right.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What that actually requires</h3>
+      <div class="line">A way to size acquisition, trial-to-paid conversion and retention against each other, not just the one metric nearest to the team's current roadmap.</div>
+      <div class="line">A high-velocity experimentation loop with data science: a hypothesis, a sized test, a scale-or-kill decision, on a cadence fast enough to matter.</div>
+      <div class="line">Comfort making the growth-versus-unit-economics call on offers and pricing, then defending it with data when a stakeholder pushes back.</div>
+    </div>
+    <div class="col">
+      <h3>What I have already run</h3>
+      <div class="line">At <b>Pixis</b>, I cut client churn 50% across an 8-client, $15K-$90K/month portfolio through proactive account strategy and vertical playbooks, the retention half of a membership funnel.</div>
+      <div class="line">At <b>Plug Power</b>, I ran 15+ A/B tests across Google Ads, Microsoft Ads, Meta and LinkedIn that cut CPA 25% and lifted conversion 20%, the acquisition and trial-to-paid half.</div>
+      <div class="line">At <b>Sensata</b>, I modeled a BU-wide price-increase system that flagged 50%+ margin gaps, the growth-versus-economics trade-off a Gold offer or price point runs.</div>
+    </div>
+  </div>
+  <div class="bridge" style="margin-top: 14pt; background: #eff6ff; border-left: 4pt solid #1a56db; padding: 11pt 16pt;">
+    <div class="t" style="font-size: 10.5pt; color: #1e40af; line-height: 1.46; font-weight: 600;">The through-line: every funnel stage I have owned had a sized hypothesis and a test behind it, never a feature shipped on a hunch.</div>
+  </div>
+  <div class="brand">ROBINHOOD GOLD GROWTH PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The mandate, mapped</div>
+  <h2>What the posting asks for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Decide where to invest across acquisition, trial-to-paid conversion, engagement, and retention... make clear trade-offs between growth, member value, and unit economics."</div></div>
+      <div class="quote"><div class="q">"Partner closely with data science to run high-velocity experiments, and read results with rigor."</div></div>
+      <div class="quote"><div class="q">"4+ years of product management experience, including at least 2 years building consumer-facing products where you owned the end-to-end UI/UX."</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>Pixis, retention:</b> cut client churn 50% across an 8-client portfolio through proactive account strategy, feeding voice-of-customer signal directly back into product.</div></div>
+      <div class="proof"><div class="p"><b>Plug Power, acquisition and conversion:</b> ran 15+ A/B tests across paid search and paid social that cut CPA 25% and lifted conversion 20%.</div></div>
+      <div class="proof"><div class="p"><b>Sensata, growth-vs-economics trade-offs:</b> modeled a price-increase system flagging 50%+ profitability gaps, then drove a 12% YoY revenue gain with it.</div></div>
+      <div class="proof"><div class="p"><b>SwipeHire, consumer UI/UX ownership:</b> built an AI job-matching platform zero-to-one, owning entry-point, onboarding and matching-flow decisions for 50+ users.</div></div>
+    </div>
+  </div>
+  <div class="brand">ROBINHOOD GOLD GROWTH PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>Size the funnel stage, test the hypothesis, then <span class="accent">defend the trade-off with data.</span></h2>
+  <div class="lede">The same three-step pattern on acquisition, retention and pricing: find where the funnel is leaking value, build the smallest test that proves it, then carry the result into a decision the business signs off on.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">-50% Churn</div>
+      <div class="lbl">Retention Program, Pixis</div>
+      <div class="desc">8-client, $15K-$90K/month portfolio; proactive account strategy and vertical playbooks replaced a reactive, one-size response to attrition.</div>
+    </div>
+    <div class="stat">
+      <div class="n">-25% CPA</div>
+      <div class="lbl">Acquisition Testing, Plug Power</div>
+      <div class="desc">15+ A/B tests across Google Ads, Microsoft Ads, Meta and LinkedIn against $100K/month budgets, plus a 20% conversion lift from research-led fixes.</div>
+    </div>
+    <div class="stat">
+      <div class="n">50%+ Flagged</div>
+      <div class="lbl">Economics Trade-off, Sensata</div>
+      <div class="desc">A BU-wide Power BI model flagging line items where a configurable change could lift profitability more than 50%, driving a 12% YoY revenue gain.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">None of this sat in a slide deck. Each case closed the loop from a sized hypothesis to a number the business signed off on.</div>
+  <div class="brand">ROBINHOOD GOLD GROWTH PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month owning a piece of the Gold growth funnel looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Map the funnel stage by stage and find where value is leaking</div>
+      <div class="body">Pull discovery, trial-start, trial-to-paid and churn rates by entry point, and flag the one or two stages where the drop-off is largest relative to the opportunity.</div>
+      <div class="why"><strong>Why first:</strong> the same first move behind the Pixis churn program and the Sensata pricing model, find the gap before building a test to close it.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Design and ship the first experiment with data science</div>
+      <div class="body">Pick the highest-leverage funnel stage, size the opportunity, and design an A/B test with data science covering entry point, paywall or onboarding copy and UI.</div>
+      <div class="why"><strong>Why now:</strong> the same hypothesis-to-test loop behind the 15+ A/B tests at Plug Power, run with a partner team, not solo.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Read results, make the growth-vs-economics call, and write the plan</div>
+      <div class="body">Decide whether the test scales or dies, weigh it against offer and pricing economics, and bring engineering, design and finance along with the plan.</div>
+      <div class="why"><strong>Why this fast:</strong> the same trade-off discipline that carried the Sensata price-increase model to a 12% YoY revenue gain.</div>
+    </div>
+  </div>
+  <div class="brand">ROBINHOOD GOLD GROWTH PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>Robinhood is hiring someone to find the next leak in the Gold funnel and prove the fix with data. I have run that exact pattern on acquisition, retention and pricing, separately, and I want to run it on one funnel together.</h2>
+  <div class="body">
+    <p>The acquisition and conversion half: <strong>15+ A/B tests cutting CPA 25%</strong> at Plug Power and a <strong>20% conversion lift</strong> from research-led fixes, both tied to a business number, not a vanity metric.</p>
+    <p>The retention and economics half: <strong>50% churn cut</strong> at Pixis and a <strong>pricing model flagging 50%+ margin</strong> at Sensata, the exact growth-versus-unit-economics trade-off a Gold offer runs.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-product-ai.vercel.app/ref/robinhood</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">ROBINHOOD GOLD GROWTH PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
