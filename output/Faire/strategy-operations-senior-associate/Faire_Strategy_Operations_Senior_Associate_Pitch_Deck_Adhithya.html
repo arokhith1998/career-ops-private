@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Faire Strategy & Operations Senior Associate Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #b45309; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 27pt; font-weight: 800; color: #0f172a; line-height: 1.14; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 20pt; font-weight: 800; color: #0f172a; line-height: 1.12; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #b45309; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.7in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #fef3c7 100%); }
+  .cover h1 { font-size: 24pt; max-width: 11.3in; }
+  .cover .sub { font-size: 14pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 16pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #b45309; font-weight: 700; }
+  .cover .who { margin-top: 16pt; padding-top: 11pt; border-top: 1.5pt solid #b45309; max-width: 9.4in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #b45309; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #fffbeb; border-left: 3pt solid #b45309; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #92400e; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #b45309; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 22pt; font-weight: 800; color: #b45309; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #b45309; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #b45309; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #b45309; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #fef3c7 100%); }
+  .close h2 { font-size: 24pt; max-width: 10.6in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.6in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #b45309; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Faire Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Faire Strategy &amp; Operations Senior Associate</div>
+  <h1>Advertising is one of Faire's fastest-growing revenue lines, which means the GTM strategy behind it is still being written. I have already written that kind of strategy from scratch, with the dashboard and the number attached.</h1>
+  <div class="sub">A $627M-target pricing strategy dashboard built from zero, and the competitive case behind an 8-point share gain.</div>
+  <div class="tags">
+    <div class="tag"><strong>$433M surfaced</strong> from a strategy dashboard built from scratch</div>
+    <div class="tag"><strong>+8% market share</strong> from a 10+ competitor benchmarking case</div>
+    <div class="tag"><strong>5-consultant team led</strong> on a TAM/SAM/SOM market-entry study</div>
+    <div class="tag"><strong>Cross-functional by design</strong>: Sales, Engineering and Accounts in one view</div>
+    <div class="tag"><strong>AI agents built on Claude</strong> automating my own recurring analysis</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhithyabhaskar.vercel.app/ref/faire</div>
+  </div>
+  <div class="brand">STRATEGY &amp; OPERATIONS PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>The job is not "run the numbers." It is building the <span class="accent">strategic case from an ambiguous question</span>, then owning it in front of leadership.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What that actually requires</h3>
+      <div class="line">A metric and a model that did not exist yesterday, built from first principles, not a template pulled off a shelf.</div>
+      <div class="line">Cross-functional pull from Product, Sales, Systems and Marketing, because an advertising growth lever touches all four.</div>
+      <div class="line">A recommendation presented to leadership with enough rigor that it survives the first hard question.</div>
+    </div>
+    <div class="col">
+      <h3>What I have already run</h3>
+      <div class="line">At <b>Sensata</b>, I built the FY2026 Bleeders and Leakers dashboard from scratch, no existing tool answered the question, ranking 1,200 opportunities against a $627M target.</div>
+      <div class="line">At <b>Applied Materials</b>, I partner directly with Sales, Engineering and Accounts to turn scattered field input into one strategic view.</div>
+      <div class="line">I led a <b>5-consultant team</b> through a TAM/SAM/SOM study for Safran, presenting the market-entry recommendation directly to their leadership.</div>
+    </div>
+  </div>
+  <div class="bridge" style="margin-top: 14pt; background: #fffbeb; border-left: 4pt solid #b45309; padding: 11pt 16pt;">
+    <div class="t" style="font-size: 10.5pt; color: #92400e; line-height: 1.46; font-weight: 600;">The through-line: every strategy case I have built started from an ambiguous question with no existing model, not a dashboard someone else had already designed.</div>
+  </div>
+  <div class="brand">STRATEGY &amp; OPERATIONS PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The mandate, mapped</div>
+  <h2>What the posting asks for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Break down complex and ambiguous strategic problems to uncover actionable insights."</div></div>
+      <div class="quote"><div class="q">"Lead large cross-functional strategic initiatives that move company metrics in partnership with Product, Sales, Systems, Program Management, Marketing."</div></div>
+      <div class="quote"><div class="q">"Regularly present performance, new insights, and recommendations to Faire's go-to-market teams and leadership."</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>Sensata, built from scratch:</b> designed the FY2026 pricing dashboard end to end, surfacing $433M in margin gaps for leadership to prioritize.</div></div>
+      <div class="proof"><div class="p"><b>Sensata, cross-functional strategy:</b> benchmarked 10+ competitors into a strategic recommendation that drove +8% market share and +12% YoY revenue.</div></div>
+      <div class="proof"><div class="p"><b>Applied Materials, cross-functional by design:</b> partners with Sales, Engineering and Accounts on every sizing model, the exact function list this role names.</div></div>
+      <div class="proof"><div class="p"><b>Executive presentation:</b> modeled site transition strategy and revenue scenarios directly with senior executives at Sensata.</div></div>
+    </div>
+  </div>
+  <div class="brand">STRATEGY &amp; OPERATIONS PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>Find the metric, build the model, then <span class="accent">defend the recommendation in the room that matters.</span></h2>
+  <div class="lede">The same three-step pattern, run twice at Sensata and once for Safran: define what to measure, build the analytical model that quantifies it, then present the recommendation to the people who decide.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$433M Surfaced</div>
+      <div class="lbl">Dashboard Built From Scratch</div>
+      <div class="desc">1,200 pricing opportunities ranked against a $627M target across 3 regions and 20 product lines, no existing tool to build from.</div>
+    </div>
+    <div class="stat">
+      <div class="n">+8% Share</div>
+      <div class="lbl">Competitive Benchmarking Case</div>
+      <div class="desc">10+ competitors benchmarked into a strategic recommendation that also drove +12% YoY revenue.</div>
+    </div>
+    <div class="stat">
+      <div class="n">170 to SAM 28</div>
+      <div class="lbl">Market-Entry Study, Safran</div>
+      <div class="desc">Led a 5-consultant team through TAM/SAM/SOM analysis across 150+ facilities and 10+ competitors.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">None of these were a slide deck that sat in a folder. Each one closed the loop from an ambiguous question to a recommendation leadership acted on.</div>
+  <div class="brand">STRATEGY &amp; OPERATIONS PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month on Faire's Strategy &amp; Operations team looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Map the advertising GTM metric set</div>
+      <div class="body">Pull the existing performance data on Faire's advertising line, find where the growth-lever hypothesis is already supported and where it is still assumed.</div>
+      <div class="why"><strong>Why first:</strong> the same first move behind the Sensata dashboard, size what is known before building what is missing.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Build the model for one growth hypothesis</div>
+      <div class="body">Pick the highest-ambiguity question, which brand segment or placement moves the advertising number most, and build the quantitative case with Product, Sales and Marketing.</div>
+      <div class="why"><strong>Why now:</strong> the same cross-functional build that produced the Bleeders and Leakers case, not a solo analysis.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Present the recommendation to leadership</div>
+      <div class="body">Apply the executive-presentation discipline from the Sensata and Safran work to Faire's GTM teams, with a documented process so the next cycle builds on it instead of restarting.</div>
+      <div class="why"><strong>Why this fast:</strong> the same operating cadence (OKRs, weekly and quarterly reviews) I run today at Applied Materials.</div>
+    </div>
+  </div>
+  <div class="brand">STRATEGY &amp; OPERATIONS PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to turn an ambiguous growth question into a recommendation leadership acts on. I have already built that case from scratch, twice, and put a number on each one.</h2>
+  <div class="body">
+    <p>The strategy half: a <strong>$627M-target dashboard built from scratch</strong>, surfacing $433M in margin gaps, and a <strong>10+ competitor benchmarking case</strong> that drove +8% market share at Sensata.</p>
+    <p>The cross-functional half: partnering with Sales, Engineering and Accounts on every model at Applied Materials today, and leading a 5-consultant team through a market-entry study presented directly to Safran's leadership.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhithyabhaskar.vercel.app/ref/faire</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">STRATEGY &amp; OPERATIONS PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>LinkedIn Monetization Strategy Manager Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #0a66c2; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 27pt; font-weight: 800; color: #0f172a; line-height: 1.14; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 20pt; font-weight: 800; color: #0f172a; line-height: 1.12; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #0a66c2; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.7in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbeafe 100%); }
+  .cover h1 { font-size: 24pt; max-width: 11.3in; }
+  .cover .sub { font-size: 14pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 16pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #0a66c2; font-weight: 700; }
+  .cover .who { margin-top: 16pt; padding-top: 11pt; border-top: 1.5pt solid #0a66c2; max-width: 9.4in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #0a66c2; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #eff6ff; border-left: 3pt solid #0a66c2; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #1e40af; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0a66c2; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 22pt; font-weight: 800; color: #0a66c2; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0a66c2; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #0a66c2; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #0a66c2; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbeafe 100%); }
+  .close h2 { font-size: 24pt; max-width: 10.6in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.6in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #0a66c2; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the LinkedIn Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | LinkedIn Monetization Strategy Manager</div>
+  <h1>Your Premium subscription tiers are about to face a willingness-to-pay question they have not faced before: what members pay for new AI features. I have already run that exact model, on a different product, with the executive write-up attached.</h1>
+  <div class="sub">A distributor repricing program built on willingness-to-pay and a $627M pricing dashboard, both presented to senior executives.</div>
+  <div class="tags">
+    <div class="tag"><strong>$700K+ margin recovered</strong> in 2 quarters via willingness-to-pay analysis</div>
+    <div class="tag"><strong>53% to 61%</strong> channel margin lift from a packaging repricing program</div>
+    <div class="tag"><strong>$627M target, $433M surfaced</strong> in a pricing opportunity dashboard</div>
+    <div class="tag"><strong>PriceKeel</strong>, a discount-governance engine in pilots</div>
+    <div class="tag"><strong>AI agents built on Claude</strong> automating my own pricing analysis</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhithyabhaskar.vercel.app/ref/linkedin</div>
+  </div>
+  <div class="brand">MONETIZATION STRATEGY PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>The job is not "set a price." It is building the <span class="accent">hypothesis-driven case</span> a VP signs off on before the price ever changes.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What that actually requires</h3>
+      <div class="line">A willingness-to-pay read that holds up when Product, Finance and Marketing all challenge it from a different angle.</div>
+      <div class="line">An analytical model built from scratch, not a template, because the member segments and the AI-feature bundles are new.</div>
+      <div class="line">A process foundation for price governance that survives the next three pricing decisions, not just this one.</div>
+    </div>
+    <div class="col">
+      <h3>What I have already run</h3>
+      <div class="line">At <b>Sensata</b>, I built the willingness-to-pay and competitive-gap case behind a distributor repricing program, defended it to executives, and used it to recover $700K+ in margin.</div>
+      <div class="line">I designed the <b>Bleeders and Leakers dashboard</b> from scratch: 1,200 opportunities, 3 regions, 20 product lines, built because no existing tool answered the question.</div>
+      <div class="line">At <b>PriceKeel</b> today, I build the governance layer, a discount-guardrail engine Finance can audit, that a pricing decision needs to repeat cleanly.</div>
+    </div>
+  </div>
+  <div class="bridge" style="margin-top: 14pt; background: #eff6ff; border-left: 4pt solid #0a66c2; padding: 11pt 16pt;">
+    <div class="t" style="font-size: 10.5pt; color: #1e40af; line-height: 1.46; font-weight: 600;">The through-line: every pricing change I have shipped had the willingness-to-pay case and the governance process built before the price moved, not justified after.</div>
+  </div>
+  <div class="brand">MONETIZATION STRATEGY PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The mandate, mapped</div>
+  <h2>What the posting asks for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Leverage hypothesis-driven analyses to evaluate subscription pricing, packaging and member value opportunities."</div></div>
+      <div class="quote"><div class="q">"Build analytical models to inform, size and influence pricing strategy."</div></div>
+      <div class="quote"><div class="q">"Develop process foundations to improve price governance, monitoring of price performance, execution, market validation."</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>Sensata, willingness-to-pay case:</b> built the competitive-gap and customer willingness-to-pay analysis behind the Bleeders and Leakers program, recovering $700K+ in margin in 2 quarters.</div></div>
+      <div class="proof"><div class="p"><b>Sensata, analytical model from scratch:</b> designed the FY2026 Power BI dashboard ranking 1,200 opportunities against a $627M target, surfacing $433M in margin gaps for leadership.</div></div>
+      <div class="proof"><div class="p"><b>PriceKeel, price governance:</b> built an explainable discount-guardrail engine and the audit trail Finance reviews for every pricing decision.</div></div>
+      <div class="proof"><div class="p"><b>Executive business case:</b> modeled AP26 revenue scenarios and multimillion-dollar customer quotes directly with senior executives at Sensata.</div></div>
+    </div>
+  </div>
+  <div class="brand">MONETIZATION STRATEGY PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>Build the model, defend it to executives, then <span class="accent">ship the governance that keeps the next decision honest.</span></h2>
+  <div class="lede">The same three-step pattern, applied to a distributor channel instead of a member subscription tier: size the willingness-to-pay gap, build the model that quantifies it, then put a governance process under the decision so it is not re-litigated every quarter.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$700K+</div>
+      <div class="lbl">Margin Recovered in 2 Quarters</div>
+      <div class="desc">From a willingness-to-pay and competitive-gap case built for the Bleeders and Leakers negotiation program at Sensata.</div>
+    </div>
+    <div class="stat">
+      <div class="n">53% to 61%</div>
+      <div class="lbl">Channel Margin, Repricing Program</div>
+      <div class="desc">Distributor and channel-partner margins raised in under 2 quarters by rebuilding the packaging and price structure.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$433M Surfaced</div>
+      <div class="lbl">Pricing Dashboard, $627M Target</div>
+      <div class="desc">1,200 opportunities across 3 regions and 20 product lines, designed and built from scratch, not a template.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">None of this was a pricing recommendation that sat in a deck. Each case closed the loop from hypothesis to a number Finance and Sales leadership signed off on.</div>
+  <div class="brand">MONETIZATION STRATEGY PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month on LinkedIn's Monetization Strategy team looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Map the current Premium pricing hypothesis set</div>
+      <div class="body">Pull existing willingness-to-pay data on Premium tiers and the new AI-based features, find where the member-value story is strongest and where it is still assumed rather than tested.</div>
+      <div class="why"><strong>Why first:</strong> the same first move behind the Sensata dashboard, find where the existing evidence is thin before building a new model.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Build the analytical model for one packaging question</div>
+      <div class="body">Pick the highest-ambiguity packaging decision, a Creator or Entrepreneur tier, or an AI-feature bundle, and build the quantitative case with Product, Product Marketing and Strategic Finance.</div>
+      <div class="why"><strong>Why now:</strong> the same cross-functional build that produced the Bleeders and Leakers case, not a solo analysis.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Stand up a lightweight price-governance checkpoint</div>
+      <div class="body">Apply the audit-trail discipline from PriceKeel to one pricing workflow: a documented decision record Commerce and Engineering can implement against without relitigating the model each time.</div>
+      <div class="why"><strong>Why this fast:</strong> the same governance habit I run for PriceKeel's own pricing decisions today.</div>
+    </div>
+  </div>
+  <div class="brand">MONETIZATION STRATEGY PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to build the hypothesis-driven case behind LinkedIn's next pricing and packaging decision. I have already built that case, defended it to executives, and put a number on it twice.</h2>
+  <div class="body">
+    <p>The willingness-to-pay half: <strong>$700K+ in margin recovered</strong> and channel margins raised <strong>53% to 61%</strong> from a repricing program built on competitive-gap and willingness-to-pay analysis at Sensata.</p>
+    <p>The governance half: a <strong>$627M-target pricing dashboard</strong> built from scratch, and an explainable discount-guardrail engine I now build at PriceKeel, the same audit-trail discipline a process foundation for price governance needs.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhithyabhaskar.vercel.app/ref/linkedin</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">MONETIZATION STRATEGY PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
