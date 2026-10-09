@@ -1,22 +1,6 @@
 {
-  "cursor": 3,
+  "cursor": 11,
   "runs": [
-    {
-      "at": "2026-09-29T06:25:59.419Z",
-      "terms": [
-        "us:Growth Marketing Manager",
-        "us:Deal Desk",
-        "india:Chief of Staff",
-        "india:Head of Growth",
-        "india:Founder's Office",
-        "india:CEO Office",
-        "india:Entrepreneur in Residence",
-        "us:Product Marketing Manager"
-      ],
-      "queries": 22,
-      "rows": 175,
-      "health": "ok"
-    },
     {
       "at": "2026-09-29T11:14:34.504Z",
       "terms": [
@@ -319,6 +303,22 @@
       ],
       "queries": 22,
       "rows": 172,
+      "health": "ok"
+    },
+    {
+      "at": "2026-10-09T11:15:07.741Z",
+      "terms": [
+        "us:Revenue Operations",
+        "us:Product Manager",
+        "us:Strategic Marketing",
+        "us:Market Strategy",
+        "us:Competitive Intelligence",
+        "us:Growth Marketing Manager",
+        "us:Deal Desk",
+        "india:Chief of Staff"
+      ],
+      "queries": 30,
+      "rows": 255,
       "health": "ok"
     }
   ]
