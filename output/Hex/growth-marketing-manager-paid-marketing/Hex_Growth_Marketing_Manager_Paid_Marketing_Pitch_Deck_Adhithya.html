@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Hex Growth Marketing Manager, Paid Marketing Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #0052ff; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 27pt; font-weight: 800; color: #0f172a; line-height: 1.12; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 21pt; font-weight: 800; color: #0f172a; line-height: 1.1; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #0052ff; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.8in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dce7ff 100%); }
+  .cover h1 { font-size: 27pt; max-width: 11.3in; }
+  .cover .sub { font-size: 14pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 18pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #0052ff; font-weight: 700; }
+  .cover .who { margin-top: 18pt; padding-top: 11pt; border-top: 1.5pt solid #0052ff; max-width: 9.8in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #0052ff; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #eaf0ff; border-left: 3pt solid #0052ff; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #0037ad; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #0052ff; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #eaf0ff; border-left: 4pt solid #0052ff; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #0037ad; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0052ff; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 23pt; font-weight: 800; color: #0052ff; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0052ff; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #0052ff; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #0052ff; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dce7ff 100%); }
+  .close h2 { font-size: 26pt; max-width: 10.5in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.8in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #0052ff; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Hex Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Hex Growth Marketing Manager, Paid Marketing</div>
+  <h1>Hex is hiring its first dedicated performance hire. I have already built the paid-media machine this role needs, twice, at smaller scale.</h1>
+  <div class="sub">Paid budget ownership, automated reporting infrastructure, and AI-tool fluency, held to one P&amp;L at a time.</div>
+  <div class="tags">
+    <div class="tag"><strong>$100K/month</strong> paid budgets owned end to end at Plug Power, CPA -25%</div>
+    <div class="tag"><strong>8 clients, $15K-$90K/mo each</strong> held to one P&amp;L at Pixis</div>
+    <div class="tag"><strong>3x ROAS</strong> in one month via full-funnel testing</div>
+    <div class="tag"><strong>Mar-Tech automation</strong> tying spend to pipeline stage</div>
+    <div class="tag"><strong>Agentic AI workflows (Claude)</strong> automating recurring reporting today</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-growth-ai.vercel.app/ref/hex</div>
+  </div>
+  <div class="brand">HEX PAID MARKETING</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>A first performance hire cannot just run ads. <span class="accent">They have to build the system that makes the ads accountable.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What a first-hire mandate runs into</h4>
+      <div class="line">With no existing paid function, the first 90 days are not about one good campaign. They are about a reporting and testing infrastructure that holds up once budget scales into seven figures.</div>
+      <div class="line">Without audience pipelines, a creative-testing cadence and bid-management rules built into the stack from day one, every new channel added becomes a one-off instead of a repeatable system.</div>
+      <div class="line">The fix is not more spend. It is treating paid media as an engineering problem: pipelines, dashboards and bid rules that keep working after the person who built them moves to the next channel.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already built, at smaller scale</h4>
+      <div class="line">At <b>Plug Power</b>, I owned $100K/month paid budgets across Google, Microsoft, Meta and LinkedIn alone, and built the automated reporting (WordPress, Pardot, Salesforce, Adobe Analytics, GTM) that made every dollar traceable to pipeline stage.</div>
+      <div class="line">At <b>Pixis</b>, I ran paid social, mobile UA and retail media as one P&amp;L for an 8-client, 8-person-team portfolio, with a standing testing cadence behind the 3x ROAS result.</div>
+      <div class="line">At <b>Applied Materials</b>, I automate recurring reporting today with agentic AI workflows built on Claude, the same AI-tool fluency a first paid hire needs to document from day one.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">A first dedicated performance hire with real budget from day one is being asked to build the machine, not just buy the media. That is the exact gap between a channel operator and someone who has already owned the budget, the reporting and the testing loop alone.</div>
+  </div>
+  <div class="brand">HEX PAID MARKETING</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What the Growth Marketing Manager opening asks for, and where the proof sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Own paid media end-to-end: drive paid strategy and execution across Google Ads, LinkedIn Ads, and Meta Ads... manage and optimize 7-8 figure annual paid budgets."</div></div>
+      <div class="quote"><div class="q">"Build the machine: build automated performance marketing systems (audience pipelines, creative testing frameworks, reporting infrastructure, bid management)."</div></div>
+      <div class="quote"><div class="q">"Demonstrated use of AI tools, Claude, ChatGPT, Cursor or similar, to meaningfully automate or accelerate your work. We want specific examples."</div></div>
+    </div>
+    <div class="col">
+      <h3>My Proof</h3>
+      <div class="proof"><div class="p"><b>Paid media, owned end to end:</b> directed Paid Search and Paid Social across Google Ads, Microsoft Ads, Meta and LinkedIn alone at Plug Power, with no one else to hand the budget to.</div></div>
+      <div class="proof"><div class="p"><b>The machine, already built:</b> automated the WordPress and Pardot lead flow and the full Mar-Tech stack for closed-loop reporting, the same reporting-infrastructure and bid-management instinct this role names.</div></div>
+      <div class="proof"><div class="p"><b>AI tools, with a specific example:</b> automate recurring forecasting and reporting with agentic AI workflows built on Claude at Applied Materials today, not a claim of AI-curiosity.</div></div>
+      <div class="proof"><div class="p"><b>Testing discipline:</b> 15+ A/B variants at Plug Power and a 40% ROAS lift from Amplitude/Tableau-driven testing across 30+ campaigns at Pixis.</div></div>
+    </div>
+  </div>
+  <div class="brand">HEX PAID MARKETING</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>One P&amp;L, every channel: <span class="accent">paid media and the infrastructure behind it, held to one target.</span></h2>
+  <div class="lede">At Plug Power I owned $100K/month paid budgets across multiple business units with no dedicated paid team to lean on, which meant building both the media plan and the reporting infrastructure behind it from scratch.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">-25% CPA</div>
+      <div class="lbl">Google, Microsoft, Meta, LinkedIn</div>
+      <div class="desc">Bid optimization and structured A/B testing across 15+ variants, tied directly to MQL quality, not just click volume.</div>
+    </div>
+    <div class="stat">
+      <div class="n">-50% CPL</div>
+      <div class="lbl">Automated Lead-Flow System</div>
+      <div class="desc">Automated the WordPress and Pardot handoff end to end, one of several systems built behind the budget, not bought off the shelf.</div>
+    </div>
+    <div class="stat">
+      <div class="n">3x ROAS</div>
+      <div class="lbl">In One Month, Pixis Fashion Client</div>
+      <div class="desc">Full-funnel restructuring: shopping feed cleanup, smart bidding and creative refresh run as one motion, inside an 8-client, $15K-$90K/mo portfolio.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">That same instinct runs on the reporting side today: automating recurring forecasting and analysis with agentic AI workflows built on Claude as Strategic Marketing III at Applied Materials, the exact AI-tool example this posting asks a candidate to name.</div>
+  <div class="brand">HEX PAID MARKETING</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month as Hex's first dedicated performance hire looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Map the current paid mix and funnel</div>
+      <div class="body">Sit with Brand Design and the PLG/self-serve funnel owners to walk current Google, LinkedIn and Meta spend against paid-attributed S1s, and flag where attribution gaps sit before touching budget.</div>
+      <div class="why"><strong>Why first:</strong> the same budget-and-reporting map I built before scaling spend at Plug Power.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Ship the first automated system</div>
+      <div class="body">Build one piece of the machine end to end, a creative-testing framework or a reporting dashboard wired into Hex's own tools, using Hex's agentic features to document the use case as it ships.</div>
+      <div class="why"><strong>Why now:</strong> the same build-the-system habit behind the Plug Power lead-flow automation and Pixis testing cadence.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Run the first cross-channel test</div>
+      <div class="body">Launch a structured audience or creative test across two paid channels in parallel, with Brand Design on creative and a shared dashboard Product Marketing can read the same way.</div>
+      <div class="why"><strong>Why this fast:</strong> a testing agenda only compounds if it starts in month one, not after the budget is already spent.</div>
+    </div>
+  </div>
+  <div class="brand">HEX PAID MARKETING</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to build the paid-media machine, not just buy the media. I have already built it twice, alone.</h2>
+  <div class="body">
+    <p>The core proof is two budgets run without a dedicated team to lean on: <strong>$100K/month at Plug Power</strong> (CPA -25%, CPL -50% via automated lead flow) and an <strong>8-client, $15K-$90K/mo portfolio at Pixis</strong> (3x ROAS in one month, 40% ROAS lift from structured testing).</p>
+    <p>What is harder to find is someone who already automates the reporting behind that budget with the exact AI tools this posting names. <strong>Agentic AI workflows built on Claude are already my day-to-day habit</strong>, not a line I would need to learn on the job.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-growth-ai.vercel.app/ref/hex</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">HEX PAID MARKETING</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
