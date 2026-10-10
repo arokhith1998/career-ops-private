@@ -1,0 +1,22 @@
+Subject: Building the performance machine, not just running paid
+
+Hi {Hiring Manager, Growth Marketing},
+
+I do not normally email a hiring manager directly, but shipping an automated performance system alongside Hex's own agentic platform is work I have already built twice, not something I would be inventing as I go.
+
+Built you a 6-slide pitch deck mapping that build experience onto this req.
+
+At Plug Power I automated the WordPress and Pardot lead flow and tied Salesforce, Adobe Analytics, GA and Google Tag Manager into one closed-loop reporting layer, mapping every paid dollar back to pipeline stage.
+At Pixis I ran an 8-client, $15K-$90K per client per month paid portfolio with a 40% ROAS lift from Amplitude and Tableau-driven testing.
+At Applied Materials I run forecasting and reporting on Claude agent workflows now, the instinct behind using Hex's own agentic features to document a use case, not just report on one.
+
+Here's the portfolio: https://adhi-growth-ai.vercel.app/ref/hex
+
+Would 15 minutes work to walk through how I would stand up that first reporting system for Hex? Happy to be pointed elsewhere if this is not your req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
