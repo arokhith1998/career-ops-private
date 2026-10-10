@@ -3,7 +3,7 @@
 | # | Date | Company | Via | Role | Score | Status | PDF | Report | Notes |
 |---|------|---------|-----|------|-------|--------|-----|--------|-------|
 | 1091 | 2026-10-10 | Checkr, Inc. | — | Senior Partner Marketing Manager | 3.3/5 | Evaluated | ❌ | [1091](../reports/1091-checkr-senior-partner-marketing-manager-2026-10-10.md) | TIER-1 SPONSOR/BUILD; no_deck band |
-| 1093 | 2026-10-10 | Abbott | — | Senior Manager, Global Marketing Strategy & Market Intelligence | 4.1/5 | Evaluated | ❌ | [1093](../reports/1093-abbott-senior-manager-global-marketing-strategy-2026-10-10.md) | TIER-1 BUILD; full_pack band |
+| 1093 | 2026-10-10 | Abbott | — | Senior Manager, Global Marketing Strategy & Market Intelligence | 4.1/5 | Evaluated | ✅ | [1093](../reports/1093-abbott-senior-manager-global-marketing-strategy-2026-10-10.md) | TIER-1 BUILD; full_pack band; Pack built: resume+cover+deck, verified (ATS 65/100, 0 f-pattern findings); outreach drafted (recruiter+HM email, DM, InMail); BUILT in seen-jobs ledger |
 | 1095 | 2026-10-10 | Benchling | — | Product Marketing Manager | 3.6/5 | Evaluated | ❌ | [1095](../reports/1095-benchling-product-marketing-manager-2026-10-10.md) | TIER-1 BUILD; no_deck band |
 | 1096 | 2026-10-10 | Rippling | — | Senior Brand Marketing Manager | 2.8/5 | Evaluated | ❌ | [1096](../reports/1096-rippling-senior-brand-marketing-manager-2026-10-10.md) | TIER-1 SPONSOR/BUILD; below 3.0, recommend against |
 | 1098 | 2026-10-10 | Happen Bank | — | Sr Performance Marketing Manager, Paid Digital | 4.0/5 | Evaluated | ❌ | [1098](../reports/1098-happen-bank-sr-performance-marketing-manager-2026-10-10.md) | TIER-1 BUILD; full_pack band |
