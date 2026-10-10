@@ -1,0 +1,20 @@
+Subject: I already built the forecast-and-bookings function this req describes
+
+Hi {Recruiter, Revenue Strategy and Operations},
+
+I do not normally reach out before applying, but the ask to take a problem from "something looks off in the numbers" to a fix that sticks is a job I already built for myself, not one I would be learning from scratch.
+
+At PriceKeel I run the company's own CRM, CPQ, forecast and pipeline reviews, and deal approvals, with an audit trail Finance can check on every decision.
+At Sensata I shipped the Bleeders and Leakers Power BI dashboard tracking 1,200 opportunities against a $627M target by win rate and stage distribution, and used it to recover $700K in margin in two quarters.
+At Applied Materials I run the same forecasting-model discipline across multiple product groups now, automated with Claude agent workflows.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/gitlab
+
+Worth 15 minutes to see if this req is still open, or a pointer to whoever owns it?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

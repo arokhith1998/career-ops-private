@@ -1,0 +1,20 @@
+Subject: Policy that sticks in the field, not just a written rule
+
+Hi {Hiring Manager, Sales Strategy and Operations},
+
+I do not normally email a hiring manager directly, but writing a bookings or forecast policy that the field actually adopts, not just approves, is the part of this role I have already run twice.
+
+At PriceKeel I write the discount and deal-approval policy myself, build it into the product's own rules and validations, and keep the audit trail Finance checks against it.
+At Sensata I shipped the Bleeders and Leakers dashboard tracking 1,200 opportunities against a $627M target, then used the variance it surfaced to recover $700K in margin in two quarters, the same forecast-to-fix loop this role owns for GitLab's CRO cadence.
+At Applied Materials I carry forecasting models across multiple product groups now, with the reporting automated on Claude agent workflows.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/gitlab
+
+Would 15 minutes work to walk through how I would scope the first forecast-variance review? Happy to be pointed elsewhere if this is not your req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
