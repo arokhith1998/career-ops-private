@@ -1,0 +1,18 @@
+Subject: Point of contact for Sales on pricing, with the controls habit to back it
+
+Hi {Hiring Manager, Deal Desk},
+
+I do not usually write in before applying, but asking one seat to be Sales's subject matter expert on deal pricing and still drive adherence to internal controls and business rules is two different reflexes folded into one req, and that pairing is how I already work.
+
+At Sensata I built the FY2026 Bleeders and Leakers Power BI dashboard, tracking 1,200 pricing opportunities against a $627M target across three regions and surfacing $433M in margin gaps by salesperson for leadership to prioritize, then used that data to take distributor margins from 53% to 61%. At PriceKeel, the pricing company I founded, I built the audit trail that gives Finance an explainable record behind every discount exception, the controls habit this req wants. At Applied Materials I am the pricing resource Sales turns to on deal questions, automating the repetitive side with Claude AI agents.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/datadog
+
+Worth 15 minutes to see if the fit is real? Happy to be pointed elsewhere if this sits with someone else on your team.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
