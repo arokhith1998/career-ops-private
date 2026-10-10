@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Bluebeam SaaS Pricing and Packaging Manager Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #0f766e; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 24pt; font-weight: 800; color: #0f172a; line-height: 1.16; letter-spacing: -0.4pt; margin-bottom: 8pt; }
+  h2 { font-size: 20pt; font-weight: 800; color: #0f172a; line-height: 1.12; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #0f766e; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.8in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d5efec 100%); }
+  .cover h1 { font-size: 23pt; max-width: 11.4in; }
+  .cover .sub { font-size: 13pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 15pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.1pt; font-weight: 500; }
+  .tag strong { color: #0f766e; font-weight: 700; }
+  .cover .who { margin-top: 15pt; padding-top: 10pt; border-top: 1.5pt solid #0f766e; max-width: 9.5in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #0f766e; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #e6f5f3; border-left: 3pt solid #0f766e; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.2pt; color: #0a5a53; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.1pt; color: #334155; line-height: 1.44; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #0f766e; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.4pt; color: #334155; line-height: 1.46; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #e6f5f3; border-left: 4pt solid #0f766e; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.3pt; color: #0a5a53; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0f766e; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 22pt; font-weight: 800; color: #0f766e; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.4pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.6pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0f766e; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #0f766e; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.3pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.8pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.3pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #0f766e; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d5efec 100%); }
+  .close h2 { font-size: 23pt; max-width: 10.8in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.4pt; color: #334155; line-height: 1.55; max-width: 10.9in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #0f766e; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Bluebeam Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Bluebeam SaaS Pricing and Packaging Manager</div>
+  <h1>This seat owns customer-backed pricing and packaging recommendations, the KPIs that prove they worked, and the cross-functional alignment to ship them. I have already run that loop end to end, just not yet for construction software.</h1>
+  <div class="sub">Pricing and packaging judgment, revenue-impact modeling and cross-functional project management from someone who has closed a quantified margin gap, not just proposed one.</div>
+  <div class="tags">
+    <div class="tag"><strong>$700K+</strong> margin recovered in 2 quarters via data-driven pricing recommendations at Sensata</div>
+    <div class="tag"><strong>53% to 61%</strong> distributor margin lift, validated against historical data</div>
+    <div class="tag"><strong>1,200 opportunities</strong> tracked against a $627M target with win-rate and stage KPIs</div>
+    <div class="tag"><strong>3 packaging tiers</strong> modeled from competitor benchmarks and willingness-to-pay signals</div>
+    <div class="tag"><strong>Claude AI agents</strong> automating recurring pricing analysis at Applied Materials</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-pricing-ai.vercel.app/ref/bluebeam</div>
+  </div>
+  <div class="brand">BLUEBEAM PRICING PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>A pricing and packaging recommendation that skips the KPI loop does not fail loudly. It fails as a tier nobody can defend at the next review, <span class="accent">quarters after it shipped.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What losing that discipline runs into</h4>
+      <div class="line">Customer research and willingness-to-pay data are easy to collect and easy to misread. Without a defined set of metrics and a model that projects second-order effects, a packaging change looks right in the room and wrong two quarters later.</div>
+      <div class="line">Product, Sales, Marketing and Operations all touch the same pricing decision, so a gap in project management or in the business case becomes everyone's guessing game at the next cross-functional review.</div>
+      <div class="line">The fix is not another workshop. It is someone who treats research, modeling and governance as one connected discipline instead of three separate jobs.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run</h4>
+      <div class="line">At <b>Sensata</b>, I converted customer research and competitive data into pricing recommendations, then built the Power BI system that defined the KPIs proving whether they worked across 1,200 opportunities.</div>
+      <div class="line">At <b>PriceKeel</b>, I built the audit trail and durable governance process that keeps a pricing decision defensible after the fact, not just at the moment it is proposed.</div>
+      <div class="line">Both mean I have sat on the research-and-recommendation side and the KPI-and-governance side of the same decision, not just one or the other.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">A Pricing and Packaging Manager who designs analytical tests, defines effectiveness metrics, models revenue impact and runs cross-functional execution is describing this exact loop: research the need, model the decision, prove it held.</div>
+  </div>
+  <div class="brand">BLUEBEAM PRICING PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What the Pricing and Packaging Manager opening asks for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">Conduct complex customer research and market analysis to identify customer needs, external drivers, trends, and willingness-to-pay that inform pricing and packaging recommendations.</div></div>
+      <div class="quote"><div class="q">Design and execute analytical tests and define the metrics and KPIs that measure the effectiveness of pricing and packaging decisions, iterating to maximize impact.</div></div>
+      <div class="quote"><div class="q">Model pricing and packaging decision impact, including second-order effects, and validate the models against historical data.</div></div>
+      <div class="quote"><div class="q">Provide day-to-day project management on pricing and packaging opportunities requiring cross-functional execution across product, sales, marketing and operations.</div></div>
+    </div>
+    <div class="col">
+      <h3>My Proof</h3>
+      <div class="proof"><div class="p"><b>Customer research into recommendations:</b> ran 30+ customer interviews with OEMs and distributors at Sensata to surface willingness-to-pay signals, then modeled three packaging tiers from competitor benchmarks and willingness-to-pay data on my own product.</div></div>
+      <div class="proof"><div class="p"><b>Effectiveness metrics and KPIs:</b> built the Bleeders and Leakers Power BI dashboard, defining win rate, avg $/win and stage distribution as the KPIs that proved $700K+ in margin held across 1,200 opportunities.</div></div>
+      <div class="proof"><div class="p"><b>Revenue-impact modeling, validated:</b> built AP26 revenue models and a BU-wide price-increase model, validating both against the prior two quarters' closed deal data before any recommendation shipped.</div></div>
+      <div class="proof"><div class="p"><b>Cross-functional project management:</b> partnered with senior executives on multimillion-dollar customer quotes at Sensata, and set up and run CRM, CPQ and deal approvals end to end at PriceKeel.</div></div>
+    </div>
+  </div>
+  <div class="brand">BLUEBEAM PRICING PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>Bleeders and Leakers: <span class="accent">validate a pricing recommendation against historical data before it reaches a review.</span></h2>
+  <div class="lede">Built as a BU-wide Power BI system covering 1,200 pricing opportunities against a $627M target across 3 regions, 4 product families and 20 product lines, with the funnel, win rate and stage-distribution KPIs that leadership used to prioritize the next quarter's pricing calls.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$700K+</div>
+      <div class="lbl">Margin Recovered, 2 Quarters</div>
+      <div class="desc">A customer-research-backed pricing recommendation, validated against competitive gaps and each customer's own deal history before it shipped.</div>
+    </div>
+    <div class="stat">
+      <div class="n">53% to 61%</div>
+      <div class="lbl">Distributor Margin Lift</div>
+      <div class="desc">A packaging and discount-structure change checked against second-order effects on channel behavior before it held past the first quarter.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$433M</div>
+      <div class="lbl">Margin Gaps Surfaced</div>
+      <div class="desc">Every gap traced to a specific segment by salesperson and product line, the same granularity a cross-product KPI set needs to mean anything.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">At PriceKeel that same instinct became the operating model: I run the CRM, CPQ configuration and the audit trail myself, so a pricing decision and the data behind it are never two different stories.</div>
+  <div class="brand">BLUEBEAM PRICING PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month owning pricing and packaging recommendations at Bluebeam looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Learn the current pricing and packaging stack</div>
+      <div class="body">Sit with Product, Sales and Marketing to walk the Build and Construct Division's current tier structure, pricing data sources and decision-approval process, and shadow one cross-functional pricing review end to end.</div>
+      <div class="why"><strong>Why first:</strong> the same instinct that had me learn PriceKeel's own CRM and CPQ configuration before building anything on top of it.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Run one willingness-to-pay test and its model</div>
+      <div class="body">Take ownership of one customer research or analytical test end to end: define the metrics it needs to prove, build the revenue-impact model with second-order effects, and validate it against the last two quarters of historical data.</div>
+      <div class="why"><strong>Why now:</strong> the same validate-before-ship discipline that made the Bleeders and Leakers dashboard trustworthy in a leadership review.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Ship a data-driven business case, cross-functionally</div>
+      <div class="body">Turn the test into a business case, present it to Product, Sales, Marketing and Operations, build alignment on the recommendation, and document the KPI and governance trail for the next cycle.</div>
+      <div class="why"><strong>Why this fast:</strong> a pricing recommendation only earns its keep if the cross-functional group that has to live with it signs off early.</div>
+    </div>
+  </div>
+  <div class="brand">BLUEBEAM PRICING PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to turn customer research into a pricing and packaging recommendation that still holds after the KPIs come in. I have already built that discipline, from research to validation.</h2>
+  <div class="body">
+    <p>The core proof is Sensata: a Power BI system tracking <strong>1,200 pricing opportunities against a $627M target</strong>, distributor margins lifted <strong>from 53% to 61%</strong>, and $700K+ in margin recovered in 2 quarters through research-backed pricing recommendations that were validated, not just proposed.</p>
+    <p>What is harder to find is someone who has also modeled packaging tiers from willingness-to-pay data on their own product and who runs the CRM, CPQ and governance trail for their own company's pricing decisions. <strong>I built that at PriceKeel</strong>, so the research-to-governance loop this role runs is not something I would need to learn on the job.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-pricing-ai.vercel.app/ref/bluebeam</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">BLUEBEAM PRICING PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
