@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Zamp Founder's Office, Strategy &amp; Operations Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #1a56db; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 25pt; font-weight: 800; color: #0f172a; line-height: 1.17; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 19pt; font-weight: 800; color: #0f172a; line-height: 1.16; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #1a56db; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.8in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbeafe 100%); }
+  .cover h1 { font-size: 22pt; max-width: 11.3in; }
+  .cover .sub { font-size: 13pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; max-width: 10.8in; }
+  .cover .tags { margin-top: 16pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.6in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9pt; font-weight: 500; }
+  .tag strong { color: #1a56db; font-weight: 700; }
+  .cover .who { margin-top: 16pt; padding-top: 10pt; border-top: 1.5pt solid #1a56db; max-width: 9.4in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #1a56db; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #eff6ff; border-left: 3pt solid #1a56db; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #1e3a8a; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #1a56db; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.4pt; color: #334155; line-height: 1.46; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 13pt; background: #eff6ff; border-left: 4pt solid #1a56db; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #1e3a8a; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 20pt; font-weight: 800; color: #1a56db; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.3pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.6pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #1a56db; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.3pt; font-weight: 800; color: #0f172a; line-height: 1.18; margin-bottom: 7pt; }
+  .card .body { font-size: 8.8pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.3pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #1a56db; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbeafe 100%); }
+  .close h2 { font-size: 22pt; max-width: 10.9in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.8in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #1a56db; font-weight: 700; }
+  .close .contact { margin-top: 15pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Zamp Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Zamp Founder's Office, Strategy &amp; Operations</div>
+  <h1>A seat that spans strategy, partnerships, fundraising and customer experience needs someone who already runs all four at once, not four separate hires.</h1>
+  <div class="sub">A record of turning an unowned, cross-domain mandate into partnerships, a fundraising narrative and a measured outcome, built running a company of my own and inside a multi-$100M business.</div>
+  <div class="tags">
+    <div class="tag"><strong>53% to 61%</strong> distributor and channel-partner margins, built on new strategic alliances</div>
+    <div class="tag"><strong>$700K+ / 2 quarters</strong> margin recovery, from a vague mandate to a negotiated outcome</div>
+    <div class="tag"><strong>PriceKeel</strong> founder and CEO, running investor relations and fundraising for its first round</div>
+    <div class="tag"><strong>$2M+ Year 1</strong> revenue from a market entry across North America and Europe</div>
+    <div class="tag"><strong>5-consultant team</strong> led end to end on a market-entry study, presented to Safran leadership</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhithyabhaskar.vercel.app/ref/zamp</div>
+  </div>
+  <div class="brand">ZAMP FOUNDERS OFFICE PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>A Founder's Office seat does not arrive with a clean lane. The job is <span class="accent">picking the right domain each week, then closing it out.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What that actually requires</h4>
+      <div class="line">Moving across strategy, operations, finance and partnerships in the same week, without waiting for someone else to hand over a clean mandate first.</div>
+      <div class="line">Cultivating strategic partnerships and alliances, and carrying real weight in investor relations and fundraising conversations the Founder is already running.</div>
+      <div class="line">Supporting global expansion and market entry into new regions, while contributing to talent acquisition and keeping customer experience and satisfaction on the agenda.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run, at that exact layer</h4>
+      <div class="line">Took the <b>Bleeders and Leakers program</b> at Sensata from a vague mandate to a $433M shortlist and $700K+ recovered, negotiated with senior executives in 2 quarters.</div>
+      <div class="line">Built the <b>distributor and channel-partner relationships</b> behind a margin lift from 53% to 61%, while founding <b>PriceKeel</b> and running its investor relations and fundraising myself.</div>
+      <div class="line">Owned <b>GTM and market entry</b> for new products across North America and Europe, and hired and managed teams at every stop, from Pixis to SwipeHire.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">The through-line: I have already built the partnerships, the fundraising narrative and the market-entry playbook this seat asks for, before anyone called it a Founder's Office job.</div>
+  </div>
+  <div class="brand">ZAMP FOUNDERS OFFICE PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What the Zamp Founder's Office opening asks for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Strategic Partnerships and Alliances: Identify and cultivate strategic partnerships and alliances that align with the company's goals and vision."</div></div>
+      <div class="quote"><div class="q">"Investor Relations and Fundraising: Assist in managing investor relations and fundraising activities and working closely with the Founder."</div></div>
+      <div class="quote"><div class="q">"Global Expansion and Market Entry: Support the Founder in exploring and executing global expansion strategies, including market entry into new countries and regions."</div></div>
+      <div class="quote"><div class="q">"Customer Experience and Satisfaction: Working closely with the customer service and product teams to understand customer needs and feedback."</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>Strategic partnerships and alliances:</b> raised distributor and channel-partner margins from 53% to 61% in under 2 quarters by building the relationships that made repricing possible.</div></div>
+      <div class="proof"><div class="p"><b>Investor relations and fundraising:</b> founded PriceKeel and personally manage investor relations and fundraising for its first round while running early customer pilots.</div></div>
+      <div class="proof"><div class="p"><b>Global expansion and market entry:</b> owned GTM for new sensing products across North America and Europe, and led a 5-consultant market-entry study presented to Safran leadership.</div></div>
+      <div class="proof"><div class="p"><b>Customer experience and satisfaction:</b> ran 30+ customer interviews with OEMs and distributors that fed fixes behind a 22-point CSAT lift, and cut Pixis client churn 50%.</div></div>
+    </div>
+  </div>
+  <div class="brand">ZAMP FOUNDERS OFFICE PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>Bleeders and Leakers: a vague margin mandate to a <span class="accent">negotiated number, built on the same partnerships this seat needs.</span></h2>
+  <div class="lede">Built as the owner of a program with no existing dashboard, no existing owner and no existing partner relationships, the same starting point a founder's "figure this out" priority usually looks like.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$700K+ / 2Q</div>
+      <div class="lbl">Margin Recovered</div>
+      <div class="desc">Negotiated from competitive gaps and customer willingness to pay, against a $627M target.</div>
+    </div>
+    <div class="stat">
+      <div class="n">53% to 61%</div>
+      <div class="lbl">Partner Margin Lift</div>
+      <div class="desc">Built the distributor and channel-partner relationships that made repricing possible in under 2 quarters.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$2M+ Year 1</div>
+      <div class="lbl">Market-Entry Revenue</div>
+      <div class="desc">GTM, positioning, pricing and channel for a new product line entering North America and Europe.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">The same instinct runs through PriceKeel: build the partnership, the investor narrative and the operating cadence first, so the business keeps producing the number without someone re-doing the work every quarter.</div>
+  <div class="brand">ZAMP FOUNDERS OFFICE PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month inside Zamp's Founder's Office would look like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Sit inside the real signal</div>
+      <div class="body">Talk to the Founder, partnerships, finance and customer-facing teams to find where strategy, fundraising or customer experience work is stalling today, the same audit that grounded the Bleeders and Leakers program before a dashboard existed.</div>
+      <div class="why"><strong>Why first:</strong> a cross-domain mandate built on assumptions instead of real blockers is the fastest way to miss the mark.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Ship the first partnership or brief</div>
+      <div class="body">Take one cross-functional problem, whether a partnership to close, an investor update to draft or a market-entry question, and deliver a decision-ready recommendation, the same move that turned 1,200 opportunities into one shortlist at Sensata.</div>
+      <div class="why"><strong>Why now:</strong> one measured recommendation that moves a real decision beats a week-one list of ideas.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Turn the first win into the cadence</div>
+      <div class="body">Use what the first deliverable proved to set the recurring rhythm, be it a partnership pipeline, an investor-update cadence or a customer-feedback loop, that keeps producing results without rebuilding it from scratch every cycle.</div>
+      <div class="why"><strong>Why this fast:</strong> a cadence only earns trust once it has already moved one real decision.</div>
+    </div>
+  </div>
+  <div class="brand">ZAMP FOUNDERS OFFICE PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>Zamp needs someone who treats this seat as four live domains, not one job description. I have already run all four.</h2>
+  <div class="body">
+    <p>The core proof is Sensata and PriceKeel together: a <strong>$700K+ margin program</strong> built on new strategic partnerships, and a company of my own where I run investor relations and fundraising while running the CRM, CPQ and deal-approval process myself.</p>
+    <p>What is harder to find is someone who has done that inside a large, multi-region business <strong>and</strong> founded their own company around the same discipline of turning ambiguity into a partnership, a raise or a decision, with the market-entry and customer-experience work to make it stick. That combination is what a Founder's Office needs most.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhithyabhaskar.vercel.app/ref/zamp</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">ZAMP FOUNDERS OFFICE PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
