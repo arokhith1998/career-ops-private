@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Abbott Senior Manager Global Marketing Strategy and Market Intelligence Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #0d5c8c; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 32pt; font-weight: 800; color: #0f172a; line-height: 1.08; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 21pt; font-weight: 800; color: #0f172a; line-height: 1.1; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #0d5c8c; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.5in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d6e8f3 100%); }
+  .cover h1 { font-size: 32pt; max-width: 11in; }
+  .cover .sub { font-size: 14pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 18pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #0d5c8c; font-weight: 700; }
+  .cover .who { margin-top: 18pt; padding-top: 11pt; border-top: 1.5pt solid #0d5c8c; max-width: 9.5in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #0d5c8c; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #e8f1f8; border-left: 3pt solid #0d5c8c; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #0d5c8c; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #0d5c8c; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #e8f1f8; border-left: 4pt solid #0d5c8c; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #0d5c8c; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0d5c8c; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 24pt; font-weight: 800; color: #0d5c8c; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0d5c8c; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #0d5c8c; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #0d5c8c; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d6e8f3 100%); }
+  .close h2 { font-size: 26pt; max-width: 10.5in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.8in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #0d5c8c; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Abbott Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Abbott Senior Manager, Global Marketing Strategy and Market Intelligence</div>
+  <h1>A strategy team is only as fast as its market intelligence. I have already built the dashboard-to-decision pipeline this seat runs on, at a comparable scale.</h1>
+  <div class="sub">Competitive intelligence, market sizing and executive strategy decks, with the financial fluency to make the number defensible.</div>
+  <div class="tags">
+    <div class="tag"><strong>$433M</strong> in margin gaps surfaced via a BU-wide competitive and financial dashboard</div>
+    <div class="tag"><strong>10+</strong> competitors benchmarked to drive +8% share and +12% YoY revenue</div>
+    <div class="tag"><strong>170 to 28</strong> facilities sized to a SAM, market-entry feasibility presented to leadership</div>
+    <div class="tag"><strong>$700K+</strong> recovered in 2 quarters once the market and financial case was acted on</div>
+    <div class="tag"><strong>Claude AI agents</strong> automating recurring competitive analysis at Applied Materials</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhithyabhaskar.vercel.app/ref/abbott</div>
+  </div>
+  <div class="brand">ABBOTT MARKET STRATEGY</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>A Global Strategy team does not lack data. It lacks time to <span class="accent">turn competitor and financial files into one executive story before the deadline.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What a global strategy function runs into</h4>
+      <div class="line">Competitive intelligence across devices, pipelines, clinical evidence and go-to-market moves generates more raw signal than a small team can turn into a clean strategic narrative on a tight deadline.</div>
+      <div class="line">Raw financial files (sales, pricing) and competitor data sit in different systems, so the real bottleneck is rarely the analysis itself. It is building one dashboard and one storyline that an executive audience can act on in a single read.</div>
+      <div class="line">Annual and long-range planning cycles need that same loop repeated on a fixed calendar, across multiple franchises, without the narrative drifting between cycles.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run, at comparable scale</h4>
+      <div class="line">At <b>Sensata</b>, I built the Bleeders and Leakers Power BI dashboard: 1,200 opportunities ranked against a $627M target across 3 regions, 4 product families and 20 product lines, from raw sales and pricing files to one leadership view.</div>
+      <div class="line">I benchmarked <b>10+ competitors</b> to build the strategic narrative behind a +8% market share gain, then carried that narrative through AP26 revenue models with senior executives.</div>
+      <div class="line">At <b>Applied Materials</b> now, I automate the recurring parts of that competitive and market-intelligence analysis with AI agents built on Claude, the same discipline a strategy team needs to keep pace between planning cycles.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">This req asks for market insights, competitive analyses and a clear executive storyline, built on raw financial data and repeated across annual and long-range planning. That is the exact loop above: raw files in, one dashboard, one narrative, out.</div>
+  </div>
+  <div class="brand">ABBOTT MARKET STRATEGY</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What the Global Marketing Strategy and Market Intelligence opening asks for, and where the proof sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Lead competitive intelligence efforts across devices, platforms, digital health solutions, and adjacent technologies."</div></div>
+      <div class="quote"><div class="q">"Perform data analysis using raw financial data files (sales, pricing etc.) and interpret results to drive business decisions."</div></div>
+      <div class="quote"><div class="q">"Translate complex competitive and market intelligence into concise, actionable executive presentations."</div></div>
+    </div>
+    <div class="col">
+      <h3>My Proof</h3>
+      <div class="proof"><div class="p"><b>Bleeders and Leakers dashboard at Sensata:</b> raw sales and pricing files turned into a BU-wide Power BI system, surfacing $433M in margin gaps for leadership to prioritize.</div></div>
+      <div class="proof"><div class="p"><b>Competitive benchmarking:</b> 10+ named competitors tracked to build the pricing and go-to-market case behind +8% market share and +12% YoY revenue.</div></div>
+      <div class="proof"><div class="p"><b>Executive communication:</b> AP26 revenue models and multimillion-dollar customer quotes carried alongside senior executives, plus weekly and quarterly leadership decks every stop.</div></div>
+      <div class="proof"><div class="p"><b>Safran market sizing project:</b> 170 facilities sized to a SAM of 28, 10+ competitors analyzed, market-entry feasibility presented directly to Safran leadership.</div></div>
+    </div>
+  </div>
+  <div class="brand">ABBOTT MARKET STRATEGY</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The Sensata proof, in depth</div>
+  <h2>Bleeders and Leakers: <span class="accent">raw files in, one dashboard, one number leadership acted on.</span></h2>
+  <div class="lede">Built as a BU-wide Power BI system covering 1,200 pricing opportunities against a $627M target across 3 regions, 4 product families and 20 product lines, with pipeline funnel, win rate and stage distribution by salesperson and product line.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$433M</div>
+      <div class="lbl">Margin Gaps Surfaced</div>
+      <div class="desc">The dashboard's job: rank every opportunity into one leadership view instead of chasing anecdotes account by account.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$700K+</div>
+      <div class="lbl">Margin Recovered in 2 Quarters</div>
+      <div class="desc">Closed through negotiations grounded in competitive gaps and documented customer willingness to pay.</div>
+    </div>
+    <div class="stat">
+      <div class="n">10+</div>
+      <div class="lbl">Competitors Benchmarked</div>
+      <div class="desc">Fed directly into the +8% market share and +12% YoY revenue gain from price and position realignment.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">The same role also carried AP26 revenue models, site-transition strategy and multimillion-dollar customer quotes alongside senior executives. The common thread: every case started from raw financial and competitive data and ended in an executive-ready decision.</div>
+  <div class="brand">ABBOTT MARKET STRATEGY</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month on the Structural Heart Global Strategy team looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Map the existing signal</div>
+      <div class="body">Pull the current competitive tracking, raw sales and pricing files, and the last planning cycle's executive deck. Sit with Commercial, Regulatory, Clinical and Finance to learn which data sources already feed the strategic narrative and which ones are still manual.</div>
+      <div class="why"><strong>Why first:</strong> the same move that started the Bleeders and Leakers program, map what exists before building anything new.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Build the first dashboard</div>
+      <div class="body">Turn the highest-friction manual report into a Power BI view: competitor pipelines, clinical and regulatory milestones, and the raw financial files side by side, pressure-tested with Commercial on 1 to 2 live franchise questions.</div>
+      <div class="why"><strong>Why now:</strong> building it against a real franchise question, not in a vacuum, is what made the 53% to 61% distributor gain at Sensata hold.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Ship the executive narrative</div>
+      <div class="body">Package the dashboard's findings into the concise, actionable executive presentation the strategic goals planning process runs on, with the data model documented so the next cycle starts from the same base instead of a blank slide.</div>
+      <div class="why"><strong>Why this fast:</strong> a market-intelligence function only earns trust once a second team can run the model without you in the room.</div>
+    </div>
+  </div>
+  <div class="brand">ABBOTT MARKET STRATEGY</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to turn competitive and financial data into decisions leadership acts on. I have already run that loop at comparable scale.</h2>
+  <div class="body">
+    <p>The core proof is Sensata: <strong>$433M in margin gaps surfaced</strong> and <strong>$700K+ recovered in 2 quarters</strong>, plus <strong>+12% YoY revenue and +8% market share</strong> from competitive benchmarking against 10+ players, all built from raw financial files into an executive-ready story.</p>
+    <p>What is harder to find is someone who also carries that discipline into market sizing and long-range feasibility work, from the <strong>Safran project</strong> (170 facilities to a SAM of 28, presented to leadership) to the semiconductor market sizing I run today at Applied Materials, where recurring analysis is already automated with Claude AI agents.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhithyabhaskar.vercel.app/ref/abbott</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">ABBOTT MARKET STRATEGY</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
