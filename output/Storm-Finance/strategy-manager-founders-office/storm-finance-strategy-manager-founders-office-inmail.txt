@@ -4,7 +4,7 @@ Hi {Founder, Storm Finance},
 
 Your Founder's Office posting is why I am reaching out directly: it picks candidates with less experience on unusual ownership and structured thinking, not a tenure count, and that is what I already do running PriceKeel myself end to end.
 
-I built a Power BI dashboard at Sensata that tracked 1,200 pricing opportunities against a $627M target, surfaced $433M in margin gaps, and recovered $700K+ in 2 quarters. At Applied Materials I turn Sales, Engineering and Accounts input into one market view and carry the P&L targets attached to it.
+I built a Power BI dashboard at Sensata that tracked 1,200 pricing opportunities against a $627M target, surfaced $433M in margin gaps, and recovered $700K+ in 2 quarters. At Applied Materials I turn Sales, Engineering and Accounts input into one market view, carry the P&L targets attached to it, and automate the repetitive analysis with Claude AI agents, the same AI curiosity your platform runs on.
 
 Here's the portfolio: https://adhi-product-ai.vercel.app/ref/storm-finance
 
