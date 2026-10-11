@@ -2,11 +2,11 @@ Subject: Storm Finance JD, the "unusual ownership" line
 
 Hi {Founder, Storm Finance},
 
-I do not normally write in before applying, but your posting says exceptional candidates with less experience get considered when they show unusual ownership and structured thinking, not a resume line. That is the bet I am already making at PriceKeel, where I decide product, pricing and the buyer conversation myself, with no department to hand the unowned piece to.
+I do not normally write in before applying, but your posting says exceptional candidates with less experience get picked on unusual ownership and structured thinking, not a resume line. That is the bet I am already making at PriceKeel, where I decide product, pricing and the buyer conversation myself, with no department to hand the unowned piece to.
 
 Built you a 6-slide pitch deck mapping that against the operating cadence you describe: review cadences, dashboards, escalation paths that catch risk before it slows execution.
 
-At Sensata I built a Power BI dashboard tracking 1,200 pricing opportunities against a $627M target across 3 regions, surfacing $433M in margin gaps and recovering $700K+ in 2 quarters. At Applied Materials I turn Sales, Engineering and Accounts input into one market-sizing view, carry the P&L targets that come with it, and automate the repetitive analysis with Claude AI agents, the same curiosity about AI and decisions your platform is built on.
+At Sensata I built a Power BI dashboard tracking 1,200 pricing opportunities against a $627M target across 3 regions, surfacing $433M in margin gaps and recovering $700K+ in 2 quarters. At Applied Materials I turn Sales, Engineering and Accounts input into one market-sizing view, carry the P&L targets that come with it, and automate the repetitive analysis with Claude AI agents, the same AI curiosity your platform runs on.
 
 Here's the portfolio: https://adhi-product-ai.vercel.app/ref/storm-finance
 
