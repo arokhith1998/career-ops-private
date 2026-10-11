@@ -1,0 +1,21 @@
+Subject: Price zone governance that survives a tool migration
+
+Hi {Hiring Manager, National Pricing},
+
+I do not normally message before applying, but the scope here is a program I already ran: price optimization tool selection, deployment and change management sitting next to CPI goals and price zone recommendations, not two separate jobs.
+
+At Sensata I shipped the Power BI dashboard behind a $627M pricing-opportunity program, surfacing $433M in margin gaps across 3 regions, 4 product families and 20 product lines, then turned them into $700K+ recovered margin in 2 quarters.
+I raised distributor and channel-partner margins from 53% to 61% by repricing against competitive benchmarking across 10+ players, the marketplace read a Competitive Intelligence program runs on.
+At PriceKeel I built the audit trail and guardrail engine that gives Finance an explainable record behind every pricing exception before it goes live.
+At Applied Materials I turn Sales, Engineering and Accounts input into one forecasting view, automating the recurring analysis with Claude agents.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/albertsons-companies
+
+Worth 15 minutes to walk through how I would stand up the first quarter of pricing performance metrics for the National Pricing Function?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
