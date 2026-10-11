@@ -1,0 +1,20 @@
+Subject: The move from product-aligned to outcome-aligned PMM
+
+Hi {Hiring Manager, Product & Customer Marketing},
+
+I don't normally write in before applying, but moving the team from product-aligned to outcome-aligned PMM, one owner per outcome instead of per feature, is a structural bet I have watched work and wobble, and I wanted to make the case directly.
+
+Repositioned Sensata's sensing-product narrative around buyer value instead of specs, moving launch conversion 15% once reps stopped translating the deck themselves.
+Built the sales enablement and case studies a 50-person rep team used daily, lifting win rates 30%, while the same competitive and category analysis fed how leadership positioned the business externally.
+Run AI agents on Claude at Applied Materials for forecasting and market-analysis work PMM teams usually do by hand, and spent a year as Sensata's Pricing Lead learning which numbers clear for an analyst call.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/birdeye
+
+Worth 15 minutes on where the messaging architecture is holding and where it is not? If this sits with someone else, a pointer helps just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
