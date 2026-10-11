@@ -1,0 +1,20 @@
+Subject: Territory allocation and dashboard work for CS, not a first attempt
+
+Hi {Recruiter, LinkedIn Sales Solutions Customer Success},
+
+I don't normally reach out before applying, but the territory allocation, audits, and dashboard development work for the CS org is something I've already built from scratch.
+
+At Sensata I built the Bleeders and Leakers Power BI dashboard: 1,200 opportunities ranked against a $627M target across 3 regions and 20 product lines, surfacing $433M in gaps and recovering $700K+ in two quarters.
+At Pixis I carried P&L and revenue targets for an 8-person team across 8 clients and cut churn 50% through account strategy and vertical playbooks, the territory-to-retention loop this role needs.
+At Applied Materials I automate forecasting and reporting with Claude AI agents, the tool fluency your suggested skills list calls for.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/linkedin
+
+Worth 15 minutes if this is your req, no worries if it already has an owner.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
