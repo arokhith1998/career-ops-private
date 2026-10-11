@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Storm Finance Strategy Manager, Founder's Office Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #1a56db; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 25pt; font-weight: 800; color: #0f172a; line-height: 1.17; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 19pt; font-weight: 800; color: #0f172a; line-height: 1.16; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #1a56db; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.8in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbeafe 100%); }
+  .cover h1 { font-size: 21pt; max-width: 11.3in; }
+  .cover .sub { font-size: 13pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; max-width: 10.8in; }
+  .cover .tags { margin-top: 16pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.6in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9pt; font-weight: 500; }
+  .tag strong { color: #1a56db; font-weight: 700; }
+  .cover .who { margin-top: 16pt; padding-top: 10pt; border-top: 1.5pt solid #1a56db; max-width: 9.4in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #1a56db; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #eff6ff; border-left: 3pt solid #1a56db; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #1e3a8a; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #1a56db; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.4pt; color: #334155; line-height: 1.46; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 13pt; background: #eff6ff; border-left: 4pt solid #1a56db; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #1e3a8a; line-height: 1.46; font-weight: 600; }
+
+  .stack3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 10pt; }
+  .layer { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .layer .step { font-size: 8.3pt; color: #1a56db; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .layer .ttl { font-size: 11.3pt; font-weight: 800; color: #0f172a; line-height: 1.18; margin-bottom: 7pt; }
+  .layer .body { font-size: 8.8pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .layer .proof2 { font-size: 8.3pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .layer .proof2 strong { color: #1a56db; font-weight: 700; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #1a56db; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.3pt; font-weight: 800; color: #0f172a; line-height: 1.18; margin-bottom: 7pt; }
+  .card .body { font-size: 8.8pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.3pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #1a56db; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbeafe 100%); }
+  .close h2 { font-size: 22pt; max-width: 10.9in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.8in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #1a56db; font-weight: 700; }
+  .close .contact { margin-top: 15pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Storm Finance Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Storm Finance Strategy Manager, Founder's Office</div>
+  <h1>A Founder's Office turns ambiguous questions into decisions only when the mechanism underneath, the dashboard, the review cadence, the escalation path, already works. I have built that mechanism before, at $627M scale.</h1>
+  <div class="sub">An operating-cadence framework for a growing AI-powered personal finance platform, plus the track record of running every layer of it myself.</div>
+  <div class="tags">
+    <div class="tag"><strong>$700K+ margin</strong> recovered in 2 quarters at Sensata via the Bleeders and Leakers program</div>
+    <div class="tag"><strong>$433M in margin gaps</strong> surfaced for leadership through a dashboard tracking 1,200 opportunities</div>
+    <div class="tag"><strong>PriceKeel</strong> founder, owning an undefined pricing-decision problem end to end</div>
+    <div class="tag"><strong>Cross-functional sizing</strong> at Applied Materials spanning Sales, Engineering and Accounts</div>
+    <div class="tag"><strong>8-person team</strong> hired and managed at Pixis, OKRs and leadership decks every quarter</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-product-ai.vercel.app/ref/storm-finance</div>
+  </div>
+  <div class="brand">STORM FINANCE FOUNDERS OFFICE PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>Storm Finance is converting strategic intent into execution across product, growth, operations, finance and technology. <span class="accent">That conversion only holds if the operating mechanism underneath it works.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What converting intent into results actually requires</h4>
+      <div class="line">Turning an ambiguous market, customer or financial question into a decision-ready recommendation before it stalls the team.</div>
+      <div class="line">An operating mechanism, a review cadence, a dashboard, an issue log and an escalation path, that keeps cross-functional initiatives aligned and exposes risk early.</div>
+      <div class="line">Leadership materials and investment cases that connect evidence, trade-offs and action so the Founder can decide fast.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run, at that exact layer</h4>
+      <div class="line">Built the <b>FY2026 Bleeders &amp; Leakers Power BI dashboard</b> tracking 1,200 pricing opportunities against a $627M target, surfacing $433M in margin gaps for leadership to prioritize.</div>
+      <div class="line">Founded <b>PriceKeel</b>, where the guardrail engine and audit trail turn an undefined pricing-approval problem into a decision Finance can trust.</div>
+      <div class="line">Ran <b>OKRs with weekly and quarterly business reviews</b> and built the leadership decks behind them at every stop, from Applied Materials to Sensata to Pixis.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">The through-line: every role I have held is some version of turning a cross-functional question into a tracked, accountable decision. That is the job description underneath this one.</div>
+  </div>
+  <div class="brand">STORM FINANCE FOUNDERS OFFICE PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What the Strategy Manager opening asks for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">Own strategic initiatives sponsored by the Founder, defining objectives, milestones, decision rights, and success metrics.</div></div>
+      <div class="quote"><div class="q">Build operating mechanisms for priority initiatives, including review cadences, dashboards, issue logs, and escalation paths.</div></div>
+      <div class="quote"><div class="q">Prepare leadership materials, investment cases, and performance updates that connect evidence, trade-offs, and actions.</div></div>
+      <div class="quote"><div class="q">Track initiative performance against agreed outcomes, diagnose variance, and recommend course corrections.</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>Objectives and decision rights:</b> founded PriceKeel and carry P&amp;L and revenue targets at Applied Materials, both built on defined milestones and decision rights from day one.</div></div>
+      <div class="proof"><div class="p"><b>Operating mechanisms:</b> the Bleeders &amp; Leakers Power BI dashboard (pipeline funnel, regional scorecards, stage distribution) is a review cadence and escalation path running at $627M scale.</div></div>
+      <div class="proof"><div class="p"><b>Leadership materials:</b> built the leadership decks and AP26 revenue models presented directly to Sensata's senior executives.</div></div>
+      <div class="proof"><div class="p"><b>Diagnosing variance:</b> that same dashboard surfaced $433M in margin gaps by salesperson and product line so leadership could prioritize the fix.</div></div>
+    </div>
+  </div>
+  <div class="brand">STORM FINANCE FOUNDERS OFFICE PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>A 3-layer operating-cadence framework for a growing Founder's Office, built from what already works.</h2>
+  <div class="lede">A starting framework for institutionalizing execution discipline, not a biography: three layers that keep a strategic initiative from stalling between the decision and the dashboard.</div>
+  <div class="stack3">
+    <div class="layer">
+      <div class="step">Layer 1</div>
+      <div class="ttl">Decision log</div>
+      <div class="body">Every strategic initiative gets one page before work starts: the question, the decision rights, the milestone and the metric that proves it worked.</div>
+      <div class="proof2"><strong>Built before:</strong> defined objectives and decision rights for PriceKeel's own build-versus-pilot calls every month.</div>
+    </div>
+    <div class="layer">
+      <div class="step">Layer 2</div>
+      <div class="ttl">Review dashboard</div>
+      <div class="body">A living scorecard, by initiative and owner, that turns weekly updates into a single view of where the plan and the number have diverged.</div>
+      <div class="proof2"><strong>Built before:</strong> the Sensata dashboard did this at $627M scale: 1,200 opportunities, regional scorecards and stage distribution in one view.</div>
+    </div>
+    <div class="layer">
+      <div class="step">Layer 3</div>
+      <div class="ttl">Escalation path</div>
+      <div class="body">A standing rule for when a variance gets flagged to the Founder versus resolved inside the team, so risk surfaces early instead of at the quarterly review.</div>
+      <div class="proof2"><strong>Built before:</strong> the same dashboard surfaced $433M in margin gaps by salesperson and product line, routed to leadership to prioritize.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 16pt;">Same instinct as PriceKeel: build the decision trail first, so execution does not stall waiting on the next review.</div>
+  <div class="brand">STORM FINANCE FOUNDERS OFFICE PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month inside Storm Finance's Founder's Office would look like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Map the current decision trail</div>
+      <div class="body">Sit with the Founder and functional leads to find where today's strategic initiatives actually lose time: an undefined decision right, a missing metric, or a review that happens too late, the same audit that grounded the Bleeders and Leakers program before a dashboard existed.</div>
+      <div class="why"><strong>Why first:</strong> a mechanism built on the wrong bottleneck just adds more reporting.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Ship one operating mechanism</div>
+      <div class="body">Turn one live initiative into the first review cadence, dashboard or issue log the team actually uses, modeled on the Bleeders and Leakers build at Sensata.</div>
+      <div class="why"><strong>Why now:</strong> one mechanism that moves one real decision beats a week-one framework deck.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Turn it into a cadence</div>
+      <div class="body">Set the recurring rhythm, a scorecard update, a cross-functional review, or an escalation checkpoint, that keeps surfacing risk without being rebuilt from scratch each cycle.</div>
+      <div class="why"><strong>Why this fast:</strong> a cadence only earns the Founder's trust once it has already moved one real decision.</div>
+    </div>
+  </div>
+  <div class="brand">STORM FINANCE FOUNDERS OFFICE PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>Storm Finance is building the operating discipline behind an AI-powered personal finance platform. I have spent five years building exactly that discipline, one dashboard and one decision at a time.</h2>
+  <div class="body">
+    <p>The core proof is the Sensata Bleeders and Leakers program: a Power BI dashboard tracking <strong>1,200 opportunities against a $627M target</strong> that surfaced <strong>$433M in margin gaps</strong> for leadership, and <strong>$700K+ in margin recovered in 2 quarters</strong>.</p>
+    <p>What is harder to find is someone who has also founded a company whose entire pitch is a decision that an undefined problem has been structured into, the same operating gap a Founder's Office exists to close.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-product-ai.vercel.app/ref/storm-finance</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">STORM FINANCE FOUNDERS OFFICE PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
