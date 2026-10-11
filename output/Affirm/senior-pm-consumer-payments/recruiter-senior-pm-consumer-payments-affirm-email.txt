@@ -1,0 +1,22 @@
+Subject: Senior PM, Consumer Payments - a question before I apply
+
+Hi {Recruiter, Consumer Payments},
+
+I don't normally message before applying, but the line in your posting about defining how payments are processed safely and cost effectively, not just whether they clear, is exactly the kind of problem I look for.
+
+A few points that map directly to it:
+- Ran 30+ customer interviews with OEMs and distributors at Sensata, turned the findings into a 100+ feature backlog, and cut time-to-market 20% while lifting feature adoption 18%.
+- Built the SQL and GA4 KPI framework behind that backlog across 50K+ connected devices, the kind of work that finds where an experience breaks down before anyone reports it.
+- Took SwipeHire from a blank PRD through 8+ A/B tests to a 25% activation lift, the same discovery-to-launch loop this req runs.
+- As Pricing Lead at Sensata, built the margin-versus-risk tradeoff models for a multi-$100M business, close to the weighing act your posting wants applied to payment processing.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/affirm
+
+Would you have 15 minutes to talk through where this req stands? If Consumer Payments isn't yours to place, a pointer to whoever owns it would help just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

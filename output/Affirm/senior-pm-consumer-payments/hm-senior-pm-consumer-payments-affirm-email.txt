@@ -1,0 +1,22 @@
+Subject: Consumer Payments roadmap - a note before I apply
+
+Hi {Hiring Manager, Consumer Payments},
+
+I don't normally reach out before applying, but your posting's framing of payment success as something a team designs for, not just something it approves or declines, is what made me write first.
+
+Some proof that maps to that:
+- Held informed engineering tradeoff conversations at Sensata while managing a 100+ feature backlog across 3 regions, cutting time-to-market 20% and lifting feature adoption 18%.
+- Ran 30+ customer interviews with OEMs and distributors to find exactly where an experience broke down, then built the SQL and GA4 KPI framework on 50K+ connected devices to prove it.
+- At Applied Materials I build forecasting and market-sizing models that Sales, Engineering and Accounts all have to agree on before a number goes into a plan, without formal authority over any of them.
+- As Pricing Lead, built the margin-versus-risk models behind a multi-$100M business, the same tradeoff your team weighs between conversion and processing cost.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/affirm
+
+Would you have 15 minutes to talk through where you want the roadmap to move next? If this isn't your req, I would appreciate a pointer to whoever owns it.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
