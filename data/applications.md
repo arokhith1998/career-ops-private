@@ -2,6 +2,7 @@
 
 | # | Date | Company | Via | Role | Score | Status | PDF | Report | Notes |
 |---|------|---------|-----|------|-------|--------|-----|--------|-------|
+| 1191 | 2026-10-12 | TTUKoffer | — | Head of Growth and Distribution | 3.0/5 | Evaluated | ❌ | [1191](../reports/1191-ttukoffer-head-of-growth-distribution-india-2026-10-12.md) | India track; zero-to-one field distribution build; employer identity unresolved (brand name only); comp estimated 60L-1.1Cr indicative |
 | 1170 | 2026-10-11 | LinkedIn | — | Sr Product Marketing Manager, Consumer Experience | 3.8/5 | Evaluated | ❌ | [1170](../reports/1170-linkedin-sr-product-marketing-manager-consumer-experience-2026-10-11.md) | track=us; TIER-1 BUILD; band=no_deck; job id 4460505271; hybrid SF; JD $125K-$195K; strong positioning/GTM/experimentation fit, consumer-PMM depth is the stretch |
 | 1171 | 2026-10-11 | Gusto | — | Health Insurance Sales Operations Analyst | 3.6/5 | Evaluated | ❌ | [1171](../reports/1171-gusto-health-insurance-sales-operations-analyst-2026-10-11.md) | track=us; TIER-1 SPONSOR/BUILD; band=no_deck; job id 4469553868; JD SF $127,430-$155,000; Claude automation + pipeline dashboards fit, territory/quota/comp admin not evidenced |
 | 1172 | 2026-10-11 | Amazon Web Services (AWS) | — | Developer Marketing Manager, Developer Marketing | 3.6/5 | Evaluated | ❌ | [1172](../reports/1172-aws-developer-marketing-manager-2026-10-11.md) | track=us; TIER-1 BUILD; band=no_deck; job id A10554077; JD SF $137,900-$186,500; paid media/campaign fit, 6+ yrs at edge, developer-audience not evidenced |

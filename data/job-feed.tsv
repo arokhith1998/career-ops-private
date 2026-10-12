@@ -1,6 +1,4 @@
 source	sources	company	title	location	url	posted_ts	age_days	sponsorship_hint	salary	category
-zapply-ng	zapply-ng	Airbnb	Product Manager, API Platform	United States	https://zapply.jobs/l/d/greenhouse-airbnb-8262207?s=gh-new-grad-jobs-2027	1791630810	1.00	repo-badge:sponsor		New Grad
-zapply-ng	zapply-ng	Applied Intuition	Product Manager - Cabin Intelligence	Sunnyvale	https://zapply.jobs/l/d/ashby-applied-566714d0-5a25-4680-9d51-d6eaca520635?s=gh-new-grad-jobs-2027	1791630810	1.00	repo-badge:sponsor		New Grad
 zapply-ng	zapply-ng	LinkedIn	Sales Strategy & Operations Associate – Planning & Performance	San Francisco, CA	https://zapply.jobs/l/d/sr-LinkedIn3-744000154790499?s=gh-new-grad-jobs-2027	1791630810	1.00			New Grad
 board:ashby	board:ashby	PostHog	Product Manager (ex-founder or ex-product engineer)	Remote	https://jobs.ashbyhq.com/posthog/3c592b84-8b34-4ae4-ae23-cadce8f2212d	2026-10-06	5.5			
 board:greenhouse	board:greenhouse	MongoDB	Growth Marketing Manager	United States	https://www.mongodb.com/careers/job/?gh_jid=8265960	2026-10-09	2.5			
@@ -11,17 +9,12 @@ board:greenhouse	board:greenhouse	Ripple	Senior Staff Product Manager	San Franci
 board:greenhouse	board:greenhouse	Robinhood	Senior Product Manager, Trading Tools	Menlo Park, CA; New York, NY	https://boards.greenhouse.io/robinhood/jobs/8257655?t=gh_src=&gh_jid=8257655	2026-10-08	3.5			
 board:ashby	board:ashby	Socure	Technical Content Marketing Manager	United States - Remote	https://jobs.ashbyhq.com/socure/f8038aea-368e-4128-beba-c146d5a49d9d	2026-10-07	4.5			
 linkedin	linkedin	LinkedIn	Sr Product Marketing Manager, Consumer Experience	San Francisco, CA	https://www.linkedin.com/jobs/view/4460505271	2026-10-11	0.47			
-linkedin	linkedin	Analog Devices	Product Marketing Manager	San Jose, CA	https://www.linkedin.com/jobs/view/4466932892	2026-10-10	1.47			
 linkedin	linkedin	Faire	Senior Product Marketing Manager	San Francisco, CA	https://www.linkedin.com/jobs/view/4467884466	2026-10-10	1.47			
-linkedin	linkedin	Mizuho OSI	Downstream Product Marketing Manager	Union City, CA	https://www.linkedin.com/jobs/view/4414407212	2026-10-11	0.47			
 linkedin	linkedin	Amazon Web Services (AWS)	Developer Marketing Manager, Developer Marketing	San Francisco, CA	https://www.linkedin.com/jobs/view/4469522591	2026-10-10	1.47			
-linkedin	linkedin	Snowflake	Technical Product Marketing Lead, AI Data Cloud	Menlo Park, CA	https://www.linkedin.com/jobs/view/4413182304	2026-10-11	0.47			
 linkedin	linkedin	Bobyard	Lifecycle Marketing Manager	San Francisco, CA	https://www.linkedin.com/jobs/view/4472095531	2026-10-11	0.47			
 linkedin	linkedin	Google	Global Product Go-to-Market Lead, Revenue Opportunities	Mountain View, CA	https://www.linkedin.com/jobs/view/4467852951	2026-10-10	1.47			
 linkedin	linkedin	Google	Global Product Go-to-Market Lead, Revenue Opportunities	San Francisco, CA	https://www.linkedin.com/jobs/view/4467846903	2026-10-10	1.47			
 linkedin	linkedin	Flashpoint	Senior Product Marketing Manager	United States	https://www.linkedin.com/jobs/view/4468033442	2026-10-10	1.47			
-linkedin	linkedin	TikTok	Product Strategy Manager – Monetization - Global Monetization Product and Technology	San Jose, CA	https://www.linkedin.com/jobs/view/4477231237	2026-10-10	1.47			
-linkedin	linkedin	Everlaw	Product Marketing Manager (Corporations)	Oakland, CA	https://www.linkedin.com/jobs/view/4469239044	2026-10-10	1.47			
 linkedin	linkedin	Sony Interactive Entertainment	Commercial Manager, D2C - Change & Go-To-Market	San Mateo, CA	https://www.linkedin.com/jobs/view/4448045324	2026-10-10	1.47			
 linkedin	linkedin	WEKA	Senior Product Marketing Manager, Competitive & Market Intelligence	United States	https://www.linkedin.com/jobs/view/4460522956	2026-10-10	1.47			
 linkedin	linkedin	Risepoint	Senior Market Research Analyst - Product	United States	https://www.linkedin.com/jobs/view/4449244050	2026-10-10	1.47			
@@ -30,16 +23,19 @@ linkedin	linkedin	Whatnot	Category Marketing Manager	San Francisco, CA	https://w
 linkedin	linkedin	Perplexity	Demand Generation Lead	San Francisco, CA	https://www.linkedin.com/jobs/view/4467893729	2026-10-10	1.47			
 linkedin	linkedin	Amazon Web Services (AWS)	Sr. Partner Marketing Manager, Global ISV Partner Marketing	San Francisco, CA	https://www.linkedin.com/jobs/view/4469193976	2026-10-10	1.47			
 linkedin	linkedin	Workday	Senior Product Marketing Manager, Platform GTM	Pleasanton, CA	https://www.linkedin.com/jobs/view/4466945152	2026-10-10	1.47			
-linkedin	linkedin	OpenAI	Data Scientist, B2B Demand Generation, Growth & Measurement	San Francisco, CA	https://www.linkedin.com/jobs/view/4450009091	2026-10-10	1.47			
 linkedin	linkedin	Blacksmith Agency	Growth Marketing Manager (Remote, Salt Lake City)	United States	https://www.linkedin.com/jobs/view/4478075373	2026-10-10	1.47			
 linkedin	linkedin	Blacksmith Agency	Growth Marketing Manager (Remote, Atlanta)	United States	https://www.linkedin.com/jobs/view/4478081231	2026-10-10	1.47			
 linkedin	linkedin	Perplexity	GTM Strategy & Operations Lead	San Francisco, CA	https://www.linkedin.com/jobs/view/4468003584	2026-10-10	1.47			
 linkedin	linkedin	Gusto	Health Insurance Sales Operations Analyst	San Francisco Bay Area	https://www.linkedin.com/jobs/view/4469553868	2026-10-11	0.47			
-linkedin	linkedin	Storm Finance	Strategy Manager, Founder's Office	Greater Delhi Area	https://www.linkedin.com/jobs/view/4475648408	2026-10-11	0.47			
-linkedin	linkedin	Nudge	Founder's Office (Growth & Strategy) for Nugde.new	Bengaluru, Karnataka, India	https://www.linkedin.com/jobs/view/4477220128	2026-10-10	1.47			
-linkedin	linkedin	Revenue Optics	Founder's Office - Strategy & Operations Associate	India	https://www.linkedin.com/jobs/view/4477201890	2026-10-10	1.47			
 linkedin	linkedin	Aviate	Founder's Office - Strategy (ID # 927)	Gurugram, Haryana, India	https://www.linkedin.com/jobs/view/4475891987	2026-10-10	1.47			
-linkedin	linkedin	Ravel	Head of Growth - D2C	Mumbai, Maharashtra, India	https://www.linkedin.com/jobs/view/4475638642	2026-10-11	0.47			
-websearch-agent	websearch-agent	Sierra Innovations (via ToppersNotes)	Founder's Office	Jaipur, India	https://cutshort.io/job/Founder-s-Office-Jaipur-ToppersNotes-fccGBIsN				15-30 LPA	founders_office
-websearch-agent	websearch-agent	Michael Page (life insurance client)	CEO's Office Strategy	Mumbai, India	https://www.michaelpage.co.in/job-detail/ceos-office-strategy/ref/jn-022026-6948231					ceo_office
+websearch-agent	websearch-agent	Michael Page (life insurance client)	CEO's Office Strategy	Mumbai, India	https://www.michaelpage.co.in/job-detail/ceos-office-strategy/ref/jn-022026-6948231			Insurance/financial services expertise preferred		ceo_office
 websearch-agent	websearch-agent	The Social Lions	Founder's Office Executive	Mumbai, India	https://cutshort.io/job/Founder-s-Office-Executive-Mumbai-The-Social-Lions-epmTzLAF				3 LPA (below floor)	founders_office
+websearch-agent	websearch-agent	Cube	Chief of Staff	Bengaluru, India	https://app.semesteria.com/jobs/chief-of-staff-bengaluru-cube-e3210b5f-3e98-4a34-9a6d-4f1d20fd5878			5+ years management	INR 90K/mo (listed)	chief_of_staff
+websearch-agent	websearch-agent	PInterview	Chief of Staff	Bengaluru, India	https://app.semesteria.com/jobs/chief-of-staff-bengaluru-pinterview-42d002e0-b327-4a80-bae5-d9ff3fa682fc			Mid-level	INR 80K/mo (listed)	chief_of_staff
+websearch-agent	websearch-agent	Talentiser	Head of Growth	Hyderabad, India	https://app.semesteria.com/jobs/head-of-growth-hyderabad-talentiser-c9c674ec-3479-45aa-ba0a-1ea4d7452188					head_of_growth
+websearch-agent	websearch-agent	Stealth AI startup	Senior Associate, CEO's Office	Hyderabad, India	https://jobs.weekday.works/senior-associate-%25E2%2580%2593-ceo-s-office-at-stealth-ai-startup-wkdys9kg9s			4-8 years		ceo_office
+websearch-agent	websearch-agent	Indicold	Executive Assistant, Founder's Office	India	https://jobs.weekday.works/executive-assistant-founder-s-office-at-indicold-wkdy6o62lw					founders_office
+websearch-agent	websearch-agent	ttukoffer (client)	Head of Growth and Distribution	Mumbai/Bengaluru, India	https://careers-page.com/ttukoffer/job/X94X537R			Zero-to-one commercial leadership		head_of_growth
+websearch-agent	websearch-agent	Cold chain startup (via iimjobs)	Founder's Office Role	Bangalore, India	https://www.iimjobs.com/j/founder039s-office-role-cold-chain-startup-iim-iit-isb-1728882			4-8 years, IIM/IIT/ISB		founders_office
+websearch-agent	websearch-agent	Fairfax Centre for Free Enterprise	Associate, Founder's Office	Delhi NCR, India	https://www.iimjobs.com/j/fairfax-centre-for-free-enterprise-associate-founder039s-office-consulting-domain-iim-isb-xlri-fms-1724769			3-6 years		founders_office
+websearch-agent	websearch-agent	HireNudge	Founder's Office Role	Bangalore, India	https://www.iimjobs.com/j/founder039s-office-role-1728645			3-5 years		founders_office
