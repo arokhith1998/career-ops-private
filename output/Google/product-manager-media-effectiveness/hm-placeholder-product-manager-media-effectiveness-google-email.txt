@@ -1,0 +1,22 @@
+Subject: Marketing Mix Model measurement, not just the roadmap
+
+Hi {Hiring Manager, Media Effectiveness},
+
+I don't normally write in before applying, but tying an MMM roadmap to Gemini-powered ad quality and ROI work, with Research and DeepMind in the loop, is a specific build problem I already ship, not a generic PM posting.
+
+Built you a 6-slide pitch deck so the proof fits on one read.
+
+I run Claude-based AI agents on my own measurement and forecasting work at Applied Materials daily, the same GenAI-into-workflow habit this seat is hiring for, not an adjacent skill.
+At Sensata I built the SQL and GA4 KPI frameworks that flagged which event signals across 50K+ connected devices were worth acting on, the same measurement-model judgment an MMM roadmap needs.
+I partnered with Sales and Engineering on every forecasting model I build today, and presented revenue models to senior executives at Sensata, the cross-functional muscle the role calls for.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/google
+
+Worth 15 minutes to see if the fit is real? Happy to be pointed elsewhere if this is not your req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
