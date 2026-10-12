@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Google Product Manager, Media Effectiveness Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #1a56db; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 25pt; font-weight: 800; color: #0f172a; line-height: 1.16; letter-spacing: -0.4pt; margin-bottom: 8pt; }
+  h2 { font-size: 20pt; font-weight: 800; color: #0f172a; line-height: 1.12; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #1a56db; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.7in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbeafe 100%); }
+  .cover h1 { font-size: 23pt; max-width: 11.3in; }
+  .cover .sub { font-size: 14pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 16pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #1a56db; font-weight: 700; }
+  .cover .who { margin-top: 16pt; padding-top: 11pt; border-top: 1.5pt solid #1a56db; max-width: 9.4in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #1a56db; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .line { font-size: 9.5pt; color: #334155; line-height: 1.46; padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .quote { background: #eff6ff; border-left: 3pt solid #1a56db; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #1e40af; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 20pt; font-weight: 800; color: #1a56db; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #1a56db; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #1a56db; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbeafe 100%); }
+  .close h2 { font-size: 23pt; max-width: 10.6in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.6in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #1a56db; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Google Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Google Product Manager, Media Effectiveness</div>
+  <h1>Scaling Marketing Mix Model measurement with Gemini means turning "integrate generative AI into the workflow" from a posting line into a system that runs every week. I already run that system, on Claude, today.</h1>
+  <div class="sub">A GA4 and SQL measurement framework across 50K+ connected devices, paired with a working GenAI-automated workflow and two 0-to-1 product launches.</div>
+  <div class="tags">
+    <div class="tag"><strong>GenAI workflow, running today</strong>: AI agents on Claude automate my own measurement analysis</div>
+    <div class="tag"><strong>+18% adoption</strong> from a GA4 and SQL KPI framework on 50K+ connected devices</div>
+    <div class="tag"><strong>$2M+ revenue</strong> from a 0-to-1 product GTM launch</div>
+    <div class="tag"><strong>50+ users</strong> on an AI product I built zero to one, myself</div>
+    <div class="tag"><strong>Cross-functional by design</strong>: Sales, Engineering and Accounts on every model</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-product-ai.vercel.app/ref/google</div>
+  </div>
+  <div class="brand">MEDIA EFFECTIVENESS PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>The posting does not ask for someone who has heard of GenAI. It asks for someone already <span class="accent">running it inside a repeatable workflow</span>, and fluent in ads measurement.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role actually requires</h3>
+      <div class="line">A GenAI tool or LLM interface already integrated into a real, recurring workflow, not a one-off pilot.</div>
+      <div class="line">A product background in data, analytics or ads-measurement software, not just marketing.</div>
+      <div class="line">At least one 0-to-1 launch, taken from conception through to shipped.</div>
+    </div>
+    <div class="col">
+      <h3>What I have already run</h3>
+      <div class="line">At <b>Applied Materials</b>, I built AI agents on Claude that automate my own recurring measurement and forecasting work, no pilot phase, running every week.</div>
+      <div class="line">At <b>Sensata</b>, I built KPI frameworks in SQL and GA4 across 50K+ connected devices, the same measurement layer this team runs at Google Ads scale.</div>
+      <div class="line">I took Sensata's new sensing products from conception to launch, and built SwipeHire zero to one on my own, end to end.</div>
+    </div>
+  </div>
+  <div class="bridge" style="margin-top: 14pt; background: #eff6ff; border-left: 4pt solid #1a56db; padding: 11pt 16pt;">
+    <div class="t" style="font-size: 10.5pt; color: #1e40af; line-height: 1.46; font-weight: 600;">The through-line: every one of these started as "figure out how to measure this, then automate the part that repeats," the same mandate behind media effectiveness.</div>
+  </div>
+  <div class="brand">MEDIA EFFECTIVENESS PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The mandate, mapped</div>
+  <h2>What the posting asks for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Experience integrating generative AI tools or LLM interfaces into workflows."</div></div>
+      <div class="quote"><div class="q">Looking for product management background in data, analytics or ads-measurement software.</div></div>
+      <div class="quote"><div class="q">Looking for someone who has taken a technical product from conception to launch (0 to 1).</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>GenAI integration, not a pilot:</b> AI agents built on Claude automate my recurring measurement and forecasting analysis at Applied Materials today.</div></div>
+      <div class="proof"><div class="p"><b>Data and ads measurement:</b> KPI frameworks in SQL and GA4 on 50K+ connected devices at Sensata; Amplitude and Tableau analysis across 30+ campaigns lifted ROAS 40% at Pixis.</div></div>
+      <div class="proof"><div class="p"><b>Conception to launch, twice:</b> owned GTM for Sensata's new sensing products to $2M+ first-year revenue, and shipped SwipeHire zero to one to 50+ users.</div></div>
+    </div>
+  </div>
+  <div class="brand">MEDIA EFFECTIVENESS PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>Measure it, automate it with GenAI, then <span class="accent">ship it 0 to 1</span>.</h2>
+  <div class="lede">The same three-step pattern, run at Sensata, Applied Materials and on my own product: find the metric, automate the part of the analysis that repeats, then ship the resulting feature or launch.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">+18% Adoption</div>
+      <div class="lbl">GA4 and SQL KPI Framework</div>
+      <div class="desc">Built on 50K+ connected industrial devices at Sensata, isolating the cohorts and adoption signals that moved the number.</div>
+    </div>
+    <div class="stat">
+      <div class="n">GenAI, Running Today</div>
+      <div class="lbl">Claude Agents in Production</div>
+      <div class="desc">Automate recurring measurement and forecasting analysis at Applied Materials, not a proof-of-concept.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$2M+ Revenue</div>
+      <div class="lbl">0-to-1 GTM Launch</div>
+      <div class="desc">Sensata's new sensing products, taken from conception through positioning, pricing, channel and launch.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">None of these were a one-time analysis. Each one became a framework or a workflow that kept running after the first result.</div>
+  <div class="brand">MEDIA EFFECTIVENESS PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month on the media effectiveness team looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Map the measurement stack</div>
+      <div class="body">Review the existing MMM inputs and outputs, and find where generative AI already touches the workflow versus where the step is still manual.</div>
+      <div class="why"><strong>Why first:</strong> the same first move behind the Sensata GA4 KPI framework build.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Automate one recurring analysis step</div>
+      <div class="body">Pick the highest-friction manual step in the measurement cycle and build the GenAI-assisted workflow around it with Engineering and Research.</div>
+      <div class="why"><strong>Why now:</strong> the exact Claude-agent workflow I already run at Applied Materials.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Ship the first packaged recommendation</div>
+      <div class="body">Take the resulting insight through positioning, packaging and promotion to the Ads leadership review, the execution cycle this role names.</div>
+      <div class="why"><strong>Why this fast:</strong> the same analyze-position-package-promote cycle from the Sensata GTM launch.</div>
+    </div>
+  </div>
+  <div class="brand">MEDIA EFFECTIVENESS PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone who already runs the GenAI-into-workflow pattern this role names, and already speaks fluent ads measurement. I would like to bring both to media effectiveness.</h2>
+  <div class="body">
+    <p>The GenAI half: <strong>AI agents built on Claude</strong> automating recurring measurement and forecasting analysis at Applied Materials today, not a pilot, plus a GA4 and SQL KPI framework across 50K+ connected devices at Sensata that lifted adoption 18%.</p>
+    <p>The product half: a <strong>0-to-1 GTM launch</strong> that drove $2M+ in first-year revenue at Sensata, a self-built AI product shipped zero to one to 50+ users, and the cross-functional habit of partnering with Sales, Engineering and Accounts on every model.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-product-ai.vercel.app/ref/google</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">MEDIA EFFECTIVENESS PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
