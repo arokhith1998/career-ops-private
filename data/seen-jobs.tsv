@@ -656,6 +656,7 @@ google.com/about/careers/applications/jobs/results/88895029291950790	Google	Prod
 job-boards.greenhouse.io/affirm/jobs/8009663003	Affirm	Senior Product Manager, Consumer Payments	https://job-boards.greenhouse.io/affirm/jobs/8009663003	built	BUILT	2026-10-09	2026-10-12	12	ledger-fix 2026-10-12: a later DROP:below-3.0 sighting wrongly overwrote this row's correct BUILT verdict (real score 3.9/5, not below 3.0 - likely a batch mismatch against an unrelated low-score duplicate req); pack confirmed complete and re-verified on disk at output/Affirm/senior-pm-consumer-payments/ (ATS 80/100, outreach clean) and tracker row #1058; restored to BUILT
 linkedin.com/jobs/view/4464821449	B-Stock	Product Marketing Manager, Buyer	https://www.linkedin.com/jobs/view/4464821449	built	BUILT	2026-10-09	2026-10-12	6	
 zapply.jobs/l/d/workday-wexinc-wexinc-r22788	Wex	Product Manager (Health & Benefits Portal Experience)	https://zapply.jobs/l/d/workday-wexinc-wexinc-R22788?s=gh-new-grad-jobs-2027	built	BUILT	2026-09-25	2026-10-12	7	
+linkedin.com/jobs/view/4465982654	WisdomAI	Technical Product Marketing Manager	https://www.linkedin.com/jobs/view/4465982654	built	BUILT	2026-10-09	2026-10-12	7	
 linkedin.com/jobs/view/4475614175	PayU	Chief of Staff - PayU Finance	https://www.linkedin.com/jobs/view/4475614175	queued		2026-10-10	2026-10-11	8	
 linkedin.com/jobs/view/4383456206	Grindr	Staff Product Manager, Monetization	https://www.linkedin.com/jobs/view/4383456206	dropped	DROP:over-experience-cap	2026-09-20	2026-10-11	5	
 linkedin.com/jobs/view/4450656459	Deepgram	Senior Product Marketing Manager, Voice Agent	https://www.linkedin.com/jobs/view/4450656459	shortlisted		2026-09-20	2026-10-11	2	
@@ -1174,7 +1175,6 @@ linkedin.com/jobs/view/4460332033	Intuit	Staff Marketing Manager, Integrated Mar
 job-boards.greenhouse.io/mercury/jobs/6098827004	Mercury	Senior Product Manager - Business Lending	https://job-boards.greenhouse.io/mercury/jobs/6098827004	dropped	DROP:below-3.0	2026-09-20	2026-10-11	18	
 linkedin.com/jobs/view/4475781615	Auxia	Product Marketing Lead	https://www.linkedin.com/jobs/view/4475781615	built	BUILT	2026-10-08	2026-10-11	8	
 zapply.jobs/l/d/greenhouse-faire-8880835002	Faire	Strategy & Operations Senior Associate	https://zapply.jobs/l/d/greenhouse-faire-8880835002?s=gh-new-grad-data-science-jobs-2027	built	BUILT	2026-10-09	2026-10-11	14	
-linkedin.com/jobs/view/4465982654	WisdomAI	Technical Product Marketing Manager	https://www.linkedin.com/jobs/view/4465982654	queued	BUILD	2026-10-09	2026-10-11	6	
 linkedin.com/jobs/view/4477402756	LinkedIn	Monetization Strategy Manager	https://www.linkedin.com/jobs/view/4477402756	built	BUILT	2026-10-09	2026-10-11	10	
 zapply.jobs/l/d/workday-zayo-zayo-careers-r0017247	Zayo	Technical Product Manager	https://zapply.jobs/l/d/workday-zayo-zayo-careers-R0017247?s=gh-new-grad-jobs-2027	queued	BUILD	2026-10-09	2026-10-11	6	
 linkedin.com/jobs/view/4476259450	Revspot	Chief of Staff	https://www.linkedin.com/jobs/view/4476259450	queued	BUILD	2026-10-09	2026-10-11	10	

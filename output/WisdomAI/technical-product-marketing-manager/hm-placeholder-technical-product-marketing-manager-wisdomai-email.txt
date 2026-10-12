@@ -1,0 +1,23 @@
+Subject: "Why Wisdom vs X" needs teardowns, not a feature list
+
+Hi {Hiring Manager, Technical PMM},
+
+I do not normally reach out before applying, but the way this role wants a "Why Wisdom vs. X" narrative grounded in architecture and workflow, backed by hands on teardowns, is work I already build from the technical side, not a narrative I would write off a feature sheet.
+
+No deck for this one, the resume and cover letter carry the technical proof together.
+
+Built SQL and GA4 KPI frameworks on 50K+ connected industrial devices at Sensata, surfacing adoption signals before I wrote a word of positioning.
+Ran 30+ interviews with OEM and distributor engineers, then built the battlecards and objection handling 50+ reps carried into technical evaluations, moving win rates 30%.
+Benchmarked 10+ competitors into a strategic case that drove +8% market share at Sensata.
+Automate market and pricing analysis with Claude built agents at Applied Materials, and built an LLM product end to end, SwipeHire, so I know what accuracy and governance evaluation costs from the builder's seat.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/wisdomai
+
+Worth 15 minutes on how the team is scoping the Why Wisdom narratives today?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
