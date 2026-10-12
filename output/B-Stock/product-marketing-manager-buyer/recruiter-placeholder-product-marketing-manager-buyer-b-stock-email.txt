@@ -1,0 +1,21 @@
+Subject: Replicable AI frameworks for feature GTM, already how I work
+
+Hi {Recruiter, Product Marketing},
+
+I do not normally reach out before applying, but your posting asks for hands-on experience with replicable AI frameworks in product marketing, not just comfort with AI tools, and that is the exact workflow I run day to day.
+
+A few proof points mapped to this req:
+- At Applied Materials I run AI agents built on Claude to turn forecasting and market-sizing questions into decision-ready output, the same hypothesis-to-insight speed this role wants on feature adoption and post-launch reporting.
+- At Sensata I built the SQL and GA4 KPI frameworks that defined what counted as activated for a new sensing product across 50K+ connected devices, lifting feature adoption 18%.
+- I also briefed 50+ sales reps on launch messaging and targeting, the same handoff this role runs with Lifecycle.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/b-stock
+
+Worth 15 minutes if this is your req, no worries if it already has an owner.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

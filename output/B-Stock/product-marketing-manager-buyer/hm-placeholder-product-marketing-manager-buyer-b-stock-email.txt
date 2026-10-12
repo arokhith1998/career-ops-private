@@ -1,0 +1,22 @@
+Subject: Buyer personas built on behavior, not demographics
+
+Hi {Hiring Manager, Product Growth},
+
+I joined Applied Materials recently and was not looking, but the way you split this role, Product Growth owns adoption while Lifecycle owns the funnel, is a structure I already operate inside, so I wanted to reach out directly.
+
+A few proof points mapped to the req:
+- At Sensata I built buyer personas from 30+ OEM and distributor interviews, then briefed 50+ reps on the resulting targeting rationale, the same Product Growth to Lifecycle handoff this seat runs.
+- I defined what counted as activated before launch and built the SQL and GA4 frameworks to track it, lifting feature adoption 18% across 50K+ connected devices.
+- At Applied Materials I now run Claude-built AI agents against forecasting and market-sizing questions, the same repeatable hypothesis-to-insight workflow you want on cohort analysis and post-launch reporting.
+- I have also made evidence-based calls across 1,200+ pricing opportunities without waiting on someone else to run the numbers.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/b-stock
+
+Worth 15 minutes on how you are scoping the saved-search or delivery-preferences launch, no worries if the timing is off.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
