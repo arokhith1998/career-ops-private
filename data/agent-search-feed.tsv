@@ -1,23 +1,11 @@
 source	sources	company	title	location	url	posted_ts	age_days	sponsorship_hint	salary	category
-websearch-agent	websearch-agent	Unacademy	Chief of Staff	Bengaluru, India	https://jobs.weekday.works/wkdymtavep			4-8 years, Tier-1 MBA preferred	20-60 LPA (aggregator range)	chief_of_staff
-websearch-agent	websearch-agent	Chtrbox	Chief of Staff	India	https://www.netinfluencer.com/jobs/chief-of-staff-at-chtrbox/			Reports to Founder and CEO		chief_of_staff
-websearch-agent	websearch-agent	Hike	Chief of Staff, CEO Office	Delhi, India	https://web3.career/chief-of-staff-ceo-office-very-full-time-hike/27413			Web3/CEO Office		ceo_office
-websearch-agent	websearch-agent	Opvia	Chief of Staff	Remote, India	https://jobs.weekday.works/chief-of-staff-at-opvia-in-4417539533			3-6 months experience, freshers can apply		chief_of_staff
-websearch-agent	websearch-agent	Cube	Chief of Staff	Bengaluru, India	https://app.semesteria.com/jobs/chief-of-staff-bengaluru-cube-e3210b5f-3e98-4a34-9a6d-4f1d20fd5878			5+ years management	INR 90K/mo (listed)	chief_of_staff
-websearch-agent	websearch-agent	PInterview	Chief of Staff	Bengaluru, India	https://app.semesteria.com/jobs/chief-of-staff-bengaluru-pinterview-42d002e0-b327-4a80-bae5-d9ff3fa682fc			Mid-level	INR 80K/mo (listed)	chief_of_staff
-websearch-agent	websearch-agent	Talentiser	Head of Growth	Hyderabad, India	https://app.semesteria.com/jobs/head-of-growth-hyderabad-talentiser-c9c674ec-3479-45aa-ba0a-1ea4d7452188					head_of_growth
-websearch-agent	websearch-agent	Whizzo	Growth Head	Bengaluru, India	https://app.semesteria.com/jobs/growth-head-bengaluru-whizzo-b0efff3a-059f-4a83-9508-568d960cfd84					head_of_growth
-websearch-agent	websearch-agent	Michael Page (client, life insurance)	CEO's Office Strategy	Mumbai, India	https://www.michaelpage.co.in/job-detail/ceos-office-strategy/ref/jn-022026-6948231			Insurance/financial services expertise preferred		ceo_office
-websearch-agent	websearch-agent	Stealth AI startup	Senior Associate, CEO's Office	Hyderabad, India	https://jobs.weekday.works/senior-associate-%25E2%2580%2593-ceo-s-office-at-stealth-ai-startup-wkdys9kg9s			4-8 years		ceo_office
-websearch-agent	websearch-agent	Arogyam	Entrepreneur in Residence	India	https://jobs.weekday.works/entrepreneur-in-residence-eir-at-arogyam-wkdyhg2p3n			Works directly with founders		entrepreneur_in_residence
-websearch-agent	websearch-agent	Indicold	Executive Assistant, Founder's Office	India	https://jobs.weekday.works/executive-assistant-founder-s-office-at-indicold-wkdy6o62lw					founders_office
-websearch-agent	websearch-agent	Michael Page (client, large consumer business)	Chief of Staff	India	https://www.michaelpage.co.in/job-detail/chief-staff/ref/jn-042026-6999746					chief_of_staff
-websearch-agent	websearch-agent	Stance Health (Antler portfolio)	Associate, Founder's Office	India	https://careers.antler.co/companies/stance-health/jobs/70564961-associate-founder-s-office			Growth initiatives: revenue, partnerships, expansion		founders_office
-websearch-agent	websearch-agent	ttukoffer (client)	Head of Growth and Distribution	Mumbai/Bengaluru, India	https://careers-page.com/ttukoffer/job/X94X537R			Zero-to-one commercial leadership		head_of_growth
-websearch-agent	websearch-agent	Windfall Data	Product Marketing Manager	San Francisco, CA	https://jobs.lever.co/windfalldata/d64fdf52-6821-4dd1-b3dd-745ffd018eed/apply			Onsite Mon-Fri		marketing
-websearch-agent	websearch-agent	Hireveda	Executive Assistant / Chief of Staff	India	https://hireveda.com/job/COS			3-8 years, to Chief Business Officer		chief_of_staff
-websearch-agent	websearch-agent	D2C Insider	Entrepreneur in Residence	Gurugram, India	https://www.d2cinsider.com/careers/Entrepreneur-in-Residence			Strategy, operations, partnerships		entrepreneur_in_residence
-websearch-agent	websearch-agent	Marmeto	Entrepreneur in Residence	Bangalore, India	https://marmeto.com/pages/entrepreneur-in-residence					entrepreneur_in_residence
-websearch-agent	websearch-agent	Cold chain startup (via iimjobs)	Founder's Office Role	Bangalore, India	https://www.iimjobs.com/j/founder039s-office-role-cold-chain-startup-iim-iit-isb-1728882			4-8 years, IIM/IIT/ISB		founders_office
-websearch-agent	websearch-agent	Fairfax Centre for Free Enterprise	Associate, Founder's Office	Delhi NCR, India	https://www.iimjobs.com/j/fairfax-centre-for-free-enterprise-associate-founder039s-office-consulting-domain-iim-isb-xlri-fms-1724769			3-6 years		founders_office
-websearch-agent	websearch-agent	HireNudge	Founder's Office Role	Bangalore, India	https://www.iimjobs.com/j/founder039s-office-role-1728645			3-5 years		founders_office
+websearch-agent	websearch-agent	Chtrbox	Chief of Staff	Bangalore, India	https://www.netinfluencer.com/jobs/chief-of-staff-at-chtrbox/						extension of founder, strategy + execution
+websearch-agent	websearch-agent	Hike	Chief of Staff (CEO Office)	Delhi, India	https://web3.career/chief-of-staff-ceo-office-very-full-time-hike/27413						CEO office, web3
+websearch-agent	websearch-agent	Opvia	Chief of Staff	Remote, India	https://jobs.weekday.works/chief-of-staff-at-opvia-in-4417539533						reports to Founder/CEO
+websearch-agent	websearch-agent	AI company (via Michael Page)	Chief of Staff (GTM)	Bangalore, India	https://www.michaelpage.co.in/job-detail/chief-staff-gtm-ai-bangalore-5-day-wfo/ref/jn-072026-7072727						AI mobile app testing, GTM scaling, 5-day WFO
+websearch-agent	websearch-agent	Supersourcing	Chief of Staff, Strategy	Noida, India	https://www.iimjobs.com/j/chief-of-staff-strategy-1737322						works directly with CEO, posted ~6 days before search
+websearch-agent	websearch-agent	Aramya	Entrepreneur in Residence	Gurugram, India	https://careers.kula.ai/aramya/54477/						0-to-1 role, transitions to Business/Product/Ops lead in 12-18mo
+websearch-agent	websearch-agent	Lenskart	Entrepreneur in Residence	Bangalore, India	https://lenskartcareers.recruitee.com/o/2rd9whnlf8						ex-founders for 0-to-1 initiatives
+websearch-agent	websearch-agent	Windfall Data	Product Marketing Manager	San Francisco, CA	https://jobs.lever.co/windfalldata/d64fdf52-6821-4dd1-b3dd-745ffd018eed/apply						onsite SF office M-F
+websearch-agent	websearch-agent	Finch	Product Marketing Manager	San Francisco, CA	https://jobs.lever.co/finch/5085ce27-f2e7-4863-b16c-e3b36ae8ae35						hybrid SF/NYC, Series B
+websearch-agent	websearch-agent	Loop AI	Product Marketing Manager	San Francisco, CA	https://jobs.lever.co/Loop%20AI/d0e35f91-e189-43f6-b3c9-9394d418ce24/apply						onsite, locations SF/NY/Tampa
