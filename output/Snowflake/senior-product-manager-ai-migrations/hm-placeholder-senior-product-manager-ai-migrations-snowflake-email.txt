@@ -1,0 +1,20 @@
+Subject: The north star behind "ship MVPs to validate hypotheses"
+
+Hi {Hiring Manager, AI Migrations},
+
+I do not usually write in before applying, but tracking one north star metric, migration time, instead of a dozen vanity numbers across GTM, Professional Services and GSIs, is the kind of focus I already run, not the broad feature-count brief most PM postings default to.
+
+I built a Power BI dashboard at Sensata tracking 1,200 pricing opportunities against a $627M target across 3 regions, surfacing $433M in margin gaps for leadership to prioritize.
+At Applied Materials I automate forecasting and market-sizing work with AI agents built on Claude, across multiple product groups.
+I scoped and shipped SwipeHire zero to one on the OpenAI API, from PRD to MVP, running 8+ A/B tests and 12+ user interviews for a 25% activation lift.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/snowflake
+
+Worth 15 minutes to see if the fit is real. Happy to be pointed elsewhere if this is not your req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

@@ -1,0 +1,20 @@
+Subject: Rewriting the migration logic, not just moving the data
+
+Hi {Recruiter, AI Migrations},
+
+I do not usually write in before applying, but a GenAI engine built to rewrite the logic of entire data applications, not just move them, is a sharper brief than the usual migration-tooling req, and it is a problem I want to own.
+
+I built PriceKeel's guardrail engine to read a live discount exception inside the deal platform and produce an audit trail Finance can act on, replacing legacy CPQ tooling the way this charter replaces legacy migration scripts.
+I scoped and shipped SwipeHire zero to one, from PRD to MVP, for a 25% activation lift.
+At Sensata I ran a 100+ feature backlog in Agile across 3 regions, cutting time-to-market 20%.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/snowflake
+
+Worth 15 minutes if this req sits with your desk, or a pointer if it does not.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
