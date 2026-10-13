@@ -58,7 +58,19 @@ const files = [
   ),
 ].sort();
 
-const isResume = (f) => /resume/i.test(f);
+// The "resume" substring the comment above promises never actually appears
+// in a resume's own filename: the documented pack convention is
+// Adhithya_Rokhith_{Company}_{RoleShort}.html (AGENTS.md section 10), and
+// older packs used cv-adhithya-{slug}.html / cv-{slug}.html. Neither contains
+// "resume", so the degree-rule skip was dead code - every resume carrying the
+// cv.md "VP of Academic Affairs, Masters Advisory Council" leadership line
+// (a club name, not a disclaimer) tripped the degree rule repo-wide. Match the
+// real conventions instead of the aspirational one, on the basename only so a
+// same-named directory segment can't cause a false match.
+const isResume = (f) => {
+  const base = f.split('/').pop();
+  return /resume/i.test(base) || /^(?:adhithya_rokhith_|cv[-_])/i.test(base);
+};
 // Routing/among-notes lines are guidance to the candidate, not sent copy.
 const isNoteLine = (l) =>
   /^(To|Channel|Role|LinkedIn|Subject line|---|\(|NOTE|If .* raises|Second-degree|Do not volunteer)/i.test(l.trim());
