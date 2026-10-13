@@ -1,0 +1,20 @@
+Subject: Carving the revenue side out of one ops function into its own
+
+Hi {Head of Operations, Nectar Social},
+
+I do not normally cold-email before applying, but RevOps living inside one combined finance, legal and people function today, with this hire carving the revenue side out into something that stands on its own, is exactly the build I already run, not a plan I'd draft and hand off.
+
+At PriceKeel I set up our own CRM, CPQ and deal approvals from zero, and I sell the guardrail and audit-trail layer that RevOps and Finance teams use to run deal desk, so I've sat on both sides of that machinery.
+At Sensata I owned pricing approvals and non-standard deal structures for a multi-$100M business, then built the Power BI dashboard tracking 1,200 opportunities against a $627M target across 3 regions and 20 product lines.
+At Applied Materials I carry P&L and revenue targets and build the forecasting models under them, automating the reporting with Claude agents.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/nectar-social
+
+Worth 15 minutes on how you're scoping the first 90 days, no worries if the role's already spoken for.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
