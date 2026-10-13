@@ -2,11 +2,11 @@ Subject: Pricing for AI-enabled products, not legacy SKUs, is the loop I run
 
 Hi {Recruiter, BDO USA},
 
-I do not normally reach out before applying, but the way this req is scoped, pricing models built specifically for AI-enabled products and services, win/loss and margin analysis feeding straight into them, is a loop I am already running, not one I would be learning from scratch.
+I do not normally reach out before applying, but the way this req is scoped, pricing models built specifically for AI-enabled products, win/loss and margin analysis feeding straight into them, is a loop I am already running, not one I would be learning from scratch.
 
-At Sensata I recovered $700K+ in margin in 2 quarters through deal-by-deal win/loss and competitive-gap review, and raised distributor margins from 53% to 61% in the same stretch.
-At Applied Materials I build value-based pricing for a fast-growing market and forecast its inflection points, then automate the repetitive side of that analysis with Claude AI agents.
-At PriceKeel I am building a pricing guardrail engine straight from a company's own closed-won and closed-lost deal data, the same partnership with Finance this role is hiring for.
+At Sensata I recovered $700K+ in margin in 2 quarters through deal-by-deal win/loss review, and raised distributor margins from 53% to 61% in the same stretch.
+At Applied Materials I build value-based pricing for a fast-growing market and automate the repetitive side of that analysis with Claude AI agents.
+At PriceKeel I am building a pricing guardrail engine from a company's own closed-won and closed-lost deal data, the same partnership with Finance this role is hiring for.
 
 Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/bdo-usa
 
