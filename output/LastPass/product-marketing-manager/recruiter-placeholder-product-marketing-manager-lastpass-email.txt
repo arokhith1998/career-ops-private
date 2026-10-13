@@ -2,12 +2,12 @@ Subject: Positioning that scales across a multi-product security portfolio
 
 Hi {Recruiter, Product Marketing},
 
-I do not normally reach out before applying, but your staff PMM req asks for someone who can shape GTM across a full product portfolio while influencing Product, Sales and Brand without direct authority, and that is the exact seat I have run twice now.
+I do not normally reach out before applying, but your staff PMM req asks for someone who can shape GTM across a full product portfolio while influencing Product, Sales and Brand without direct authority, the exact seat I have run twice.
 
 A few proof points mapped to this req:
-- At Sensata I owned positioning and messaging that turned technical sensor features into customer value propositions, lifting conversion 15% on priority launches, then built the sales enablement (decks, case studies) that lifted win rates 30% across 50+ reps.
-- I ran competitor and customer analysis across EMEA and the US at Sensata, and folded 10+ named competitors into pricing and GTM calls at both Sensata and Plug Power.
-- At Applied Materials I now run Claude-built AI agents to turn technical forecasting questions into decision-ready output for Sales and Engineering, the same translation layer this role wants between technical and business buyers.
+- At Sensata I turned sensor-feature positioning into customer value messaging, lifting conversion 15% on priority launches, then built sales enablement that lifted win rates 30% across 50+ reps.
+- I folded 10+ named competitors into pricing and GTM calls at both Sensata and Plug Power.
+- At Applied Materials I run Claude-built AI agents to turn technical forecasting questions into decision-ready output for Sales and Engineering, the translation layer this role wants.
 
 Here's the portfolio: https://adhi-product.vercel.app/ref/lastpass
 
