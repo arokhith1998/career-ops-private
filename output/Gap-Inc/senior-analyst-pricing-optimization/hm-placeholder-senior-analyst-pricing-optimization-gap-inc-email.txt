@@ -1,0 +1,20 @@
+Subject: Building QC for pricing-agent outputs from scratch
+
+Hi {Manager, Pricing Optimization, Gap Inc.},
+
+I do not normally reach out before applying, but a pricing function built from scratch, where the job is to run models, prepare data and QC outputs from pricing agents before they inform a decision, is the exact shape of work I have already been doing on my own.
+
+At PriceKeel I built a guardrail engine that reads live discount exceptions and recommends an explainable guardrail learned from each company's own closed-won and closed-lost deals, with an audit trail Finance can act on.
+At Sensata I recovered $700K+ in margin in 2 quarters by applying elasticity inputs and competitive gaps to a Bleeders and Leakers program, then raised distributor margins from 53% to 61%.
+At Applied Materials I partner with Sales and Engineering on forecasting models and automate the repetitive analysis with Claude AI agents.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/gap-inc
+
+Would 15 minutes be useful to see if this maps to your team, happy to be pointed elsewhere if it does not.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

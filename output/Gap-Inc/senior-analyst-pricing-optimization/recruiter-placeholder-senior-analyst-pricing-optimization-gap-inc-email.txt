@@ -1,0 +1,20 @@
+Subject: Validating pricing-agent outputs is the muscle I already built
+
+Hi {Recruiter, Gap Inc. Pricing},
+
+I do not normally reach out before applying, but the line about validating outputs from pricing agents and documenting where they fall short is the exact audit-trail problem my own startup is built to solve, not a new skill I would be picking up on the job.
+
+At PriceKeel I built the audit trail that records the human pricing decision with evidence Finance can audit, reading live discount exceptions inside the deal platform.
+At Sensata I built the FY2026 Bleeders and Leakers Power BI dashboard, 1,200 pricing opportunities against a $627M target, surfacing $433M in margin gaps for leadership to prioritize.
+At Applied Materials I automate repetitive analysis with Claude AI agents and build the forecasting models that feed pricing decisions.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/gap-inc
+
+Worth 15 minutes if this is your req, no worries if it already has an owner.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
