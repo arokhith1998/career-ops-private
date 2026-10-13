@@ -1,0 +1,21 @@
+Subject: The intelligence engine you are describing, I have built twice
+
+Hi {VP of Product Marketing, WEKA},
+
+Your posting asks for someone who designs the sources, taxonomy, and operating cadence from a blank page, not someone who inherits a program that already runs. That is the part of this role I would take first.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/weka
+
+- At Sensata I built that system from scratch for pricing: a Power BI dashboard tracking 1,200 opportunities against a $627M target, fed by benchmarking across 10+ competitors, which drove +12% YoY revenue and +8% market share.
+- At Applied Materials I build value-based pricing and market sizing for a technical infrastructure market, working directly with Sales and Engineering, the same field loop your posting describes.
+- At PriceKeel I am building a pricing-intelligence product from a blank page for B2B SaaS, the same zero-to-one your team needs here.
+- I also automate research and synthesis with Claude AI agents, which maps to the "apply AI and automation" part of the role.
+
+Could we trade 15 minutes on where the program stands today? Fine if your recruiting team owns the first screen.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

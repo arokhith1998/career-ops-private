@@ -2,13 +2,13 @@ Subject: Competitive Intelligence Manager - built the system, not just used one
 
 Hi {Recruiter, WEKA},
 
-I do not normally reach out before applying, but your posting's line about wanting someone who "built the muscle, not simply participated in an established program" stopped me from just hitting Apply.
+I do not normally reach out before applying, but your line about wanting someone who "built the muscle, not simply participated in an established program" stopped me from clicking Apply.
 
 Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/weka
 
-- At Sensata I built a competitive-intelligence system of record from scratch: a Power BI dashboard tracking 1,200 pricing opportunities against a $627M target, fed by benchmarking across 10+ competitors.
-- That read drove +12% YoY revenue and +8% market share through price realignment.
-- At Applied Materials I build competitive, value-based pricing and market sizing for a fast-moving infrastructure market, automating the research grind with Claude AI agents.
+- At Sensata I built a competitive-intelligence system of record: a Power BI dashboard tracking 1,200 pricing opportunities against a $627M target, fed by benchmarking across 10+ competitors.
+- That benchmarking drove +12% YoY revenue and +8% market share.
+- At Applied Materials I build value-based pricing and market sizing for a fast-moving infrastructure market, automating the research grind with Claude AI agents.
 - At PriceKeel I am building a pricing-intelligence engine for B2B SaaS from a blank page, the same zero-to-one build your team is asking for.
 
 Worth 15 minutes if this maps to what you are sourcing for, no hard feelings if the req has moved past this stage.
