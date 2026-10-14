@@ -1,0 +1,20 @@
+Subject: The Citrix/Omnissa fight on Amazon WorkSpaces
+
+Hi {Hiring Manager, Product Marketing, Amazon WorkSpaces},
+
+I joined Applied Materials recently and was not looking, but a technical PMM seat on a line that's building cloud desktops for AI agents while still fighting Citrix and Omnissa on the fundamentals is specific enough to write about anyway.
+
+Built a 6-slide pitch deck around that tension: WorkSpaces earning trust on the agentic story without losing the buyer who still wants the TCO math.
+
+At Sensata, I owned end-to-end GTM for a new sensing line, positioning, pricing, channel and launch together, building the KPI frameworks myself in SQL and GA4 across 50,000+ connected devices. That positioning lifted conversion 15%, fed by 30+ interviews with the same kind of technical buyer. I also built the sales enablement library that 50+ reps used to lift win rates 30%. At Applied Materials, I automate that same analysis today with Claude agents.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/aws
+
+Would you have 15 minutes to walk through the deck and compare notes on where the WorkSpaces launch backlog is thinnest? Happy to be pointed elsewhere otherwise.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
