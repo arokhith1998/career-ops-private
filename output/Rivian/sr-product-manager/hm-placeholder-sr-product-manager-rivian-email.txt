@@ -1,0 +1,21 @@
+Subject: Experimentation is the product here, not a side process
+
+Hi {Hiring Manager, Web Product},
+
+I do not normally cold-email before applying, but a req that asks one PM to build a disciplined experimentation practice and decide where AI and agentic tools actually help discovery and personalization, not just ship a roadmap, is the shape of work I already run.
+
+A few proof points mapped to the req:
+- On SwipeHire I scoped the MVP, wrote the PRD and ran 8+ A/B tests plus 12+ user interviews, lifting activation 25% on a funnel I built from zero.
+- At Sensata I built SQL and GA4 cohort frameworks across 50K+ connected devices, turning adoption signals into a roadmap that lifted feature adoption 18% and CSAT 22%.
+- At Applied Materials I run Claude-built AI agents to turn forecasting questions into decision-ready output for Sales and Engineering, the same translation layer this req asks for.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/rivian
+
+Worth 15 minutes on how the team is scoping the experimentation and AI work?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
