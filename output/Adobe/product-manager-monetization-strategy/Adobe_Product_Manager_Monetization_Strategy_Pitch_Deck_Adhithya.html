@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Adobe Product Manager, Monetization Strategy Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #0f766e; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 24pt; font-weight: 800; color: #0f172a; line-height: 1.16; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 20pt; font-weight: 800; color: #0f172a; line-height: 1.12; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #0f766e; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.8in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d5efec 100%); }
+  .cover h1 { font-size: 21pt; max-width: 11.5in; }
+  .cover .sub { font-size: 13pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 15pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.5in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 8.9pt; font-weight: 500; }
+  .tag strong { color: #0f766e; font-weight: 700; }
+  .cover .who { margin-top: 15pt; padding-top: 10pt; border-top: 1.5pt solid #0f766e; max-width: 9.5in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #0f766e; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #e6f5f3; border-left: 3pt solid #0f766e; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9pt; color: #0a5a53; font-style: italic; line-height: 1.38; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9pt; color: #334155; line-height: 1.42; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #0f766e; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.3pt; color: #334155; line-height: 1.46; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #e6f5f3; border-left: 4pt solid #0f766e; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.3pt; color: #0a5a53; line-height: 1.44; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0f766e; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 22pt; font-weight: 800; color: #0f766e; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.3pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.6pt; color: #64748b; line-height: 1.4; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0f766e; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #0f766e; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.3pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.8pt; color: #334155; line-height: 1.42; margin-bottom: 7pt; }
+  .card .why { font-size: 8.3pt; color: #64748b; line-height: 1.42; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #0f766e; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d5efec 100%); }
+  .close h2 { font-size: 23pt; max-width: 10.9in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.3pt; color: #334155; line-height: 1.52; max-width: 10.9in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #0f766e; font-weight: 700; }
+  .close .contact { margin-top: 15pt; font-size: 9.7pt; color: #475569; line-height: 1.58; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Adobe Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Adobe Product Manager, Monetization Strategy</div>
+  <h1>Monetizing GenAI and agentic capabilities across Creativity and Productivity takes someone who has already run the segment-model-consensus loop on a live, multi-$100M pricing book. I have run that loop, just on a different portfolio.</h1>
+  <div class="sub">Pricing and packaging strategy, financial scenario modeling and executive influence from someone who built the guardrail engine, not just presented on one.</div>
+  <div class="tags">
+    <div class="tag"><strong>$700K+</strong> margin recovered in 2 quarters via segmented pricing strategy at Sensata</div>
+    <div class="tag"><strong>$627M target, 1,200 opportunities</strong> segmented by region, product family and product line</div>
+    <div class="tag"><strong>53% to 61%</strong> distributor margin lift from repriced, documented packaging logic</div>
+    <div class="tag"><strong>R-based regression</strong> modeling demand elasticity and profit-maximizing price points</div>
+    <div class="tag"><strong>Claude AI agents</strong> in hands-on daily use, automating recurring pricing analysis</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-pricing-ai.vercel.app/ref/adobe</div>
+  </div>
+  <div class="brand">ADOBE MONETIZATION PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>Monetizing GenAI and agentic features across Creativity and Productivity means segmenting, modeling and winning executive consensus on the same pricing decision <span class="accent">all at once.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What losing that discipline runs into</h4>
+      <div class="line">A packaging decision without a documented pricing rationale does not fail loudly. It fails as a GenAI feature bundled in for free because nobody ran the scenario model, a pricing test that gets re-litigated every quarterly review, and a sales play that Finance and Engineering interpret three different ways.</div>
+      <div class="line">Product, Finance, Engineering and Sales all touch the same monetization decision in a matrixed org, so a gap in the financial model or the executive story becomes everyone's guessing game at the next review, not just one team's problem.</div>
+      <div class="line">The fix is not another pricing deck. It is someone who treats segmentation, financial modeling and executive consensus as one connected discipline instead of three separate jobs.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run</h4>
+      <div class="line">At <b>Sensata</b>, I segmented 1,200 pricing opportunities by region, product family and product line against a $627M target, the same packaging-and-pricing-strategy loop this role runs for Creativity and Productivity offers.</div>
+      <div class="line">At <b>PriceKeel</b>, I built the guardrail engine and the audit trail a monetization decision gets checked against before it reaches Finance, the documentation discipline a new GenAI capability needs before it ships with a price attached.</div>
+      <div class="line">Both mean I have sat on the modeling side and the consensus-building side of the same pricing decision, not just one or the other.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">A Product Manager who defines pricing and packaging strategy, runs financial scenario models and wins executive approval in a complex matrixed org is describing this exact loop: segment the opportunity, model the scenario, document the decision so Finance, Engineering and Sales all trust it.</div>
+  </div>
+  <div class="brand">ADOBE MONETIZATION PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What the Monetization Strategy opening asks for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">Define and optimize pricing and packaging strategy for offers within the Creativity and Productivity segment.</div></div>
+      <div class="quote"><div class="q">Develop financial models that simulate customer behavior and project costs; scenario analysis estimating impact on market penetration, revenue and margin.</div></div>
+      <div class="quote"><div class="q">Develop and present arguments that articulate strategy and ROI to acquire executive approval.</div></div>
+      <div class="quote"><div class="q">Engage with engineering, finance, and operational teams on implementation within existing quote-to-cash systems.</div></div>
+    </div>
+    <div class="col">
+      <h3>My Proof</h3>
+      <div class="proof"><div class="p"><b>Pricing and packaging strategy:</b> segmented 1,200 pricing opportunities by region, product family and product line against a $627M target at Sensata, recovering $700K+ in margin in 2 quarters.</div></div>
+      <div class="proof"><div class="p"><b>Financial and scenario modeling:</b> built R-based regression models forecasting demand elasticity and profit-maximizing price points, and build inflection-point, market-penetration and margin scenario models at Applied Materials.</div></div>
+      <div class="proof"><div class="p"><b>Executive ROI argument:</b> built the leadership decks that won executive approval for every pricing move across a complex, matrixed Finance, Sales and Engineering organization at Sensata.</div></div>
+      <div class="proof"><div class="p"><b>Quote-to-cash and systems:</b> set up and run CRM and CPQ, forecast and pipeline reviews, and deal approvals at PriceKeel; partnered with Finance on AP26 revenue models and customer quotes at Sensata.</div></div>
+    </div>
+  </div>
+  <div class="brand">ADOBE MONETIZATION PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>Bleeders and Leakers: <span class="accent">segment every pricing opportunity before it reaches an executive review.</span></h2>
+  <div class="lede">Built as a BU-wide Power BI system covering 1,200 pricing opportunities against a $627M target across 3 regions, 4 product families and 20 product lines, with pipeline funnel, regional scorecards, win rate, avg $/win and stage distribution checked before leadership set the next quarter's targets.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$700K+</div>
+      <div class="lbl">Margin Recovered, 2 Quarters</div>
+      <div class="desc">Segmented pricing opportunities by region, product family and product line, the same packaging-and-pricing breakdown this role runs across Creativity and Productivity offers.</div>
+    </div>
+    <div class="stat">
+      <div class="n">53% to 61%</div>
+      <div class="lbl">Distributor Margin Lift</div>
+      <div class="desc">Repriced the channel packaging logic and documented it for governance review, so the new structure held past the first quarter.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$433M</div>
+      <div class="lbl">Margin Gaps Surfaced</div>
+      <div class="desc">Every gap traced to a specific record by salesperson and product line, the same segment-level detail an executive-ready ROI story needs.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">At PriceKeel that same instinct became the operating model: build the guardrail, model the scenario, document the decision. That is the discipline a monetization call on a new GenAI capability needs before it reaches Finance, not just the willingness to ship fast.</div>
+  <div class="brand">ADOBE MONETIZATION PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month owning monetization strategy at Adobe looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Learn the current packaging and GenAI monetization guardrails</div>
+      <div class="body">Sit with Pricing, Product Management and Finance to walk the current Creativity and Productivity packaging structure, the financial-model documentation standard, and shadow one scenario-analysis cycle end to end.</div>
+      <div class="why"><strong>Why first:</strong> the same instinct that had me learn PriceKeel's own CPQ and discount logic before building a guardrail on top of it.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Own a packaging and scenario-modeling cycle</div>
+      <div class="body">Take ownership of one offer's pricing and packaging analysis end to end: segment the opportunity, build the financial model, and present the market-penetration, revenue and margin scenario at the next executive review.</div>
+      <div class="why"><strong>Why now:</strong> the same segment-by-segment discipline that made the Bleeders and Leakers dashboard usable in a leadership review.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Close the quote-to-cash and sales-enablement loop</div>
+      <div class="body">Document one pricing decision's model assumptions, draft the sales play and training guideline for the new packaging, and run the post-mortem framework for the next pricing change.</div>
+      <div class="why"><strong>Why this fast:</strong> a governance trail only earns its keep if it gets re-checked every cycle instead of trusting last quarter's setup.</div>
+    </div>
+  </div>
+  <div class="brand">ADOBE MONETIZATION PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to turn pricing and packaging strategy for GenAI and agentic features into a financial model Finance and Engineering can execute, and a story that wins the room. I have already built that discipline, from both sides of the decision.</h2>
+  <div class="body">
+    <p>The core proof is Sensata: a Power BI system segmenting <strong>1,200 pricing opportunities against a $627M target</strong>, distributor margins lifted <strong>from 53% to 61%</strong>, and $700K+ in margin recovered in 2 quarters, all inside a complex, matrixed organization.</p>
+    <p>What is harder to find is someone who has also built the guardrail engine and audit trail behind a pricing decision from the ground up. <strong>I built that at PriceKeel</strong>, so the modeling and consensus-building discipline this role runs is not something I would need to learn on the job.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-pricing-ai.vercel.app/ref/adobe</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">ADOBE MONETIZATION PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
