@@ -1,0 +1,21 @@
+Subject: Chief of Staff, Product AI and Creative - the "do it anyway" seat
+
+Hi {Recruiter, Zee Labs},
+
+I do not usually write in before applying, but your posting rules out candidates who want a defined task list, and I have spent the last stretch building a company with none. At PriceKeel, the company I founded, I designed the guardrail engine, built the audit trail, and set up the CRM and CPQ stack myself, nobody assigned any of it.
+
+Quick proof, not a pitch:
+- Shipped an AI job-matching app, SwipeHire, start to finish: PRD, MVP, Python, OpenAI API, React, solo.
+- Use AI agents built on Claude daily at Applied Materials to automate market analysis.
+- Ran an 8-person team across 8 client accounts at Pixis, rebuilt a stalled funnel for 3x ROAS in a month.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/zee-labs
+
+If this sits with someone else on your team, a pointer is appreciated. Otherwise, 15 minutes would help confirm the fit.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

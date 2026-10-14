@@ -1,0 +1,21 @@
+Subject: Chief of Staff, Product AI and Creative - force multiplier, not a task list
+
+Hi {Co-Founder, Zee Labs},
+
+I do not normally reach out before applying, but your posting says this role is not for someone who would say "that's outside my role," and that is how I have worked lately. At PriceKeel, the company I founded, there was no spec waiting for me: I designed the guardrail engine, built the audit trail Finance checks pricing decisions against, and set up the CRM, CPQ and deal-approval process from zero.
+
+A few proof points instead of a pitch:
+- Built an AI job-matching platform, SwipeHire, from zero: PRD, MVP, Python, OpenAI API, React, no dedicated engineering team.
+- At Applied Materials I automate repetitive market analysis with AI agents built on Claude, daily, not occasionally.
+- Ran an 8-person team across 8 client accounts at Pixis, rebuilding a stalled fashion funnel, creative and media together, for 3x ROAS in a month.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/zee-labs
+
+If someone else on your team owns this hire, a pointer is fine. Otherwise, 15 minutes would help me see which of these problems is actually on fire first.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

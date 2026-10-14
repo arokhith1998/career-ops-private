@@ -1,0 +1,10 @@
+Hi, I do not normally reach out before applying, but a Chief of Staff brief that explicitly excludes anyone who would say "that's outside my role" is rare, and it matches how I built PriceKeel from scratch: the guardrail engine, the audit trail, the CRM and CPQ, all with nobody else to hand them to.
+
+Quick proof: shipped an AI job-matching app, SwipeHire, solo, from PRD to a working Python, OpenAI API and React build. I use AI agents built on Claude daily at Applied Materials, not occasionally. At Pixis I ran an 8-person team across 8 client accounts, rebuilding one stalled funnel, creative and media together, for 3x ROAS in a month.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/zee-labs
+
+Open to 15 minutes to see if this fits? Happy to be pointed elsewhere if it is not yours.
+
+Thank you,
+Adhithya Rokhith Bhaskar
