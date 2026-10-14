@@ -2,19 +2,18 @@ Subject: Translating Plaid's first ten minutes into a GTM program
 
 Hi {Hiring Manager, Plaid Product Marketing},
 
-I don't normally reach out before applying, but asking this role to shape product-market fit, pull the voice of the customer into roadmap decisions, and turn that into GTM programs Sales, Enablement and Growth can run from, is the motion I run already, not something I'd be learning in week one.
+I don't normally reach out before applying, but asking this role to shape product-market fit, pull customer voice into roadmap decisions, and turn that into GTM programs Sales and Growth can run from, is the motion I run already, not something I'd be learning in week one.
 
 Built you a 6-slide pitch deck so the proof fits on one read, along with a resume and cover letter mapped to this req.
 
 Proof points that carry over:
 - Owned the onboarding narrative and analytics stack for SwipeHire (GA4, GTM, funnel dashboards), ran 8+ A/B tests and 12+ user interviews, activation up 25%.
-- Ran 30+ customer interviews with OEMs and distributors at Sensata, and those findings shaped what Engineering built next on a launch worth $2M+ in first-year revenue.
-- Built the sales enablement decks and case studies for 50+ reps coming out of that launch, win rates up 30%.
-- At Applied Materials today, sizing markets with Sales and Engineering and automating competitive analysis with Claude agents.
+- Ran 30+ customer interviews with OEMs and distributors at Sensata, feeding a launch worth $2M+ in first-year revenue.
+- Built the sales enablement decks for 50+ reps coming out of that launch, win rates up 30%.
 
 Here's the portfolio: https://adhi-product-ai.vercel.app/ref/plaid
 
-Would 15 minutes work to walk through how I'd shape the onboarding narrative for Plaid's network, with the deck as backup? Happy to be redirected if I'm not talking to the right person.
+Would 15 minutes work to walk through the onboarding narrative, deck as backup? Happy to be redirected if I'm not the right contact.
 
 Thank you,
 
