@@ -1,0 +1,18 @@
+Subject: Where I'd dig first on your growth review
+
+Hi {Recruiter, Product},
+
+I don't usually message before applying, but PostHog's PM brief, judged on the monthly growth review instead of delivery, and explicitly open to someone who's coded before and now wants the commercial side, is a specific enough bet that I wanted to reach out directly.
+
+I'm running that exact loop today as founder of PriceKeel, deciding what the deal data says and acting on it with no PM between me and the problem. At Sensata I instrumented SQL and GA4 KPIs across 50,000+ connected devices, then ran an unassigned deep dive, Bleeders and Leakers, that recovered $700K in two quarters.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/posthog
+
+Worth 15 minutes on this req?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

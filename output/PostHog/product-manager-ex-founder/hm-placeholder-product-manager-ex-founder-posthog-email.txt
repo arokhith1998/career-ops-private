@@ -1,0 +1,18 @@
+Subject: Where the growth review data points next
+
+Hi {Team Lead, Product},
+
+I don't usually write in before applying, but the line that stopped me was that PMs here "don't engage in delivery almost at all" and get judged on the monthly growth review instead. That's a specific enough bet on how product work should run that I wanted to ask about it directly.
+
+I'm running that exact loop for my own company right now. As founder of PriceKeel, I decide what the deal data is telling me and act on it, with no handoff to anyone else. At Sensata I instrumented SQL and GA4 KPIs across 50,000+ connected devices, ran 30+ OEM and distributor interviews to find why specific accounts were churning, and used an unassigned data deep dive, Bleeders and Leakers, to recover $700K in two quarters. I also went up against incumbents many times Sensata's size and drove a 12% revenue lift through competitive benchmarking.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/posthog
+
+Would 15 minutes work to talk through where your product data points next?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

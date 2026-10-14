@@ -1,0 +1,18 @@
+Subject: PostHog PM role: built the thing, not managed it
+
+Hi {Recruiter, Product},
+
+I don't usually write in before applying, but your posting wants someone who's "written code before and now wants to focus on the product and commercial side," not a PRD writer, and that's the seat I'm sitting in right now.
+
+I'm running PriceKeel as founder, deciding what the deal data says and acting on it myself, with no PM layer between me and the problem. At Sensata I instrumented SQL and GA4 KPIs across 50,000+ connected devices to find which cohorts churned, then ran an unassigned deep dive, Bleeders and Leakers, that recovered $700K in two quarters nobody asked me to look for.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/posthog
+
+Worth 15 minutes if this req is still open? A pointer helps just as much if it's someone else's.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
