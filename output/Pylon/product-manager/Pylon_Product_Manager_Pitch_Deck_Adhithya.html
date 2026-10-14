@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Pylon Product Manager Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #0f766e; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 24pt; font-weight: 800; color: #0f172a; line-height: 1.16; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 20pt; font-weight: 800; color: #0f172a; line-height: 1.12; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #0f766e; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.8in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d5efec 100%); }
+  .cover h1 { font-size: 20pt; max-width: 11.5in; }
+  .cover .sub { font-size: 13pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 15pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.5in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 8.9pt; font-weight: 500; }
+  .tag strong { color: #0f766e; font-weight: 700; }
+  .cover .who { margin-top: 15pt; padding-top: 10pt; border-top: 1.5pt solid #0f766e; max-width: 9.5in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #0f766e; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #e6f5f3; border-left: 3pt solid #0f766e; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9pt; color: #0a5a53; font-style: italic; line-height: 1.38; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9pt; color: #334155; line-height: 1.42; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #0f766e; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.3pt; color: #334155; line-height: 1.46; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #e6f5f3; border-left: 4pt solid #0f766e; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.3pt; color: #0a5a53; line-height: 1.44; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0f766e; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 22pt; font-weight: 800; color: #0f766e; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.3pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.6pt; color: #64748b; line-height: 1.4; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0f766e; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #0f766e; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.3pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.8pt; color: #334155; line-height: 1.42; margin-bottom: 7pt; }
+  .card .why { font-size: 8.3pt; color: #64748b; line-height: 1.42; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #0f766e; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d5efec 100%); }
+  .close h2 { font-size: 22pt; max-width: 10.9in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.3pt; color: #334155; line-height: 1.52; max-width: 10.9in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #0f766e; font-weight: 700; }
+  .close .contact { margin-top: 15pt; font-size: 9.7pt; color: #475569; line-height: 1.58; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Pylon Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Pylon Product Manager</div>
+  <h1>Owning a product area on an agentic support platform means deciding, every week, what the agent handles alone and what still needs a human read. I have been running that exact judgment call, just on a different product.</h1>
+  <div class="sub">End-to-end product ownership, evidence-first roadmapping and AI-agent judgment from someone who has shipped two products from a blank page.</div>
+  <div class="tags">
+    <div class="tag"><strong>50+ users</strong> on SwipeHire, shipped zero-to-one (PRD to launch) solo</div>
+    <div class="tag"><strong>100+ feature backlog</strong> owned end to end at Sensata, time-to-market -20%</div>
+    <div class="tag"><strong>30+ interviews</strong> driving CSAT +22% before any roadmap call</div>
+    <div class="tag"><strong>8+ A/B tests, 12+ interviews</strong> shaping SwipeHire's onboarding flow</div>
+    <div class="tag"><strong>Claude AI agents</strong> in daily use automating repetitive analysis</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-product-ai.vercel.app/ref/pylon</div>
+  </div>
+  <div class="brand">PYLON PM PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>An agentic support product lives or dies on one judgment call: what the agent handles alone, and what still needs a human read, <span class="accent">repeated every week as trust shifts.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What losing that discipline runs into</h4>
+      <div class="line">A product area without that boundary does not fail loudly. It fails as an agent that over-automates and erodes customer trust, or under-automates and ships a dashboard nobody asked for.</div>
+      <div class="line">Spanning PDE to GTM means Product, Engineering, Sales and CS all read that boundary differently unless one person owns the definition and defends it with evidence.</div>
+      <div class="line">The fix is not a stricter policy. It is someone who treats discovery, scoping and the automate-versus-verify call as one job, not three separate handoffs.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run</h4>
+      <div class="line">At <b>Sensata</b>, I owned a 100+ feature backlog end to end with engineering in Agile across 3 regions, the same full-funnel ownership "own an entire product area" is asking for.</div>
+      <div class="line">At <b>SwipeHire</b>, I wrote the PRD, scoped the MVP and shipped AI-driven matching alone, then used 12+ interviews and 8+ A/B tests to decide what the AI should decide versus what the user still needed to see.</div>
+      <div class="line">Both mean I have made that automate-versus-verify call myself, not just reviewed someone else's.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">A Product Manager who owns a product area end to end, lives the customer persona, and starts with evidence is describing exactly this loop: decide what the agent can be trusted with, defend the call with data, and move the line as trust grows.</div>
+  </div>
+  <div class="brand">PYLON PM PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What the Product Manager opening asks for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">Own an entire product area end to end, from initial discovery and problem definition through scoping, execution, launch, adoption, and iteration.</div></div>
+      <div class="quote"><div class="q">Live and breathe one customer persona. Be the subject matter expert for that persona.</div></div>
+      <div class="quote"><div class="q">Span PDE to GTM, partnering with PMM, sales, and customer teams on positioning, launches, enablement.</div></div>
+      <div class="quote"><div class="q">Start with evidence. Talk to customers regularly and use calls, tickets, feature requests, product data.</div></div>
+    </div>
+    <div class="col">
+      <h3>My Proof</h3>
+      <div class="proof"><div class="p"><b>End-to-end ownership:</b> wrote the PRD, scoped the MVP and shipped SwipeHire zero-to-one to 50+ users; owned Sensata's 100+ feature backlog and roadmap across 3 regions.</div></div>
+      <div class="proof"><div class="p"><b>Persona depth:</b> ran 30+ structured OEM and distributor interviews at Sensata and 12+ job-seeker interviews on SwipeHire before trusting a roadmap call.</div></div>
+      <div class="proof"><div class="p"><b>PDE to GTM:</b> owned positioning, pricing, channel and launch for new sensing products, driving $2M+ first-year revenue, plus sales enablement for 50+ reps.</div></div>
+      <div class="proof"><div class="p"><b>Evidence-first:</b> 8+ A/B tests and SQL/GA4 cohort data on 50K+ devices, not instinct, decided what shipped and what didn't.</div></div>
+    </div>
+  </div>
+  <div class="brand">PYLON PM PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>SwipeHire: own the product area, decide what the AI handles, <span class="accent">verify with real users.</span></h2>
+  <div class="lede">Built solo from a blank page: wrote the PRD, scoped the MVP, and shipped AI-driven candidate-job matching and auto-tailored resumes on Python, OpenAI's API and React, then ran the GTM and analytics stack myself.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">50+</div>
+      <div class="lbl">Early Users Onboarded</div>
+      <div class="desc">Shipped zero-to-one with no team, the same full-stack ownership this role asks for on a single product area.</div>
+    </div>
+    <div class="stat">
+      <div class="n">12+</div>
+      <div class="lbl">User Interviews</div>
+      <div class="desc">Lived the job-seeker persona before writing a line of the matching logic, the "start with evidence" habit in practice.</div>
+    </div>
+    <div class="stat">
+      <div class="n">+25%</div>
+      <div class="lbl">Activation Lift</div>
+      <div class="desc">8+ A/B tests on onboarding decided what the AI auto-filled versus what the user still needed to confirm.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">At Sensata that same discipline scaled to a 100+ feature backlog across 3 regions: own the roadmap, verify with the persona, ship, and keep the loop running every quarter, not just at launch.</div>
+  <div class="brand">PYLON PM PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month owning a product area at Pylon looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Learn the persona and the current automate/verify line</div>
+      <div class="body">Sit with Support, Engineering and CS to live the target customer persona's workflow, read the tickets and feature requests already on file, and map where the agent currently hands off to a human.</div>
+      <div class="why"><strong>Why first:</strong> the same instinct that had me run 12+ interviews before touching SwipeHire's matching logic.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Own one scoping and launch cycle</div>
+      <div class="body">Take one piece of the product area from problem definition through a shipped change: scope it with Engineering, test the automate-versus-verify call with real usage data, and bring a point of view to defend in review.</div>
+      <div class="why"><strong>Why now:</strong> the same end-to-end habit that shipped SwipeHire's MVP without a team behind it.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Close the GTM loop and defend the next iteration</div>
+      <div class="body">Partner with PMM, sales and customer teams on positioning and enablement for what shipped, then bring the adoption data back to argue for (or against) the next move.</div>
+      <div class="why"><strong>Why this fast:</strong> a product area only earns trust if the loop keeps running past the first ship, not just at launch.</div>
+    </div>
+  </div>
+  <div class="brand">PYLON PM PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to own a product area end to end and decide what the agent can be trusted with. I have already run that loop twice, on two different products.</h2>
+  <div class="body">
+    <p>The core proof is SwipeHire: a zero-to-one build with <strong>50+ early users</strong>, a PRD and MVP I scoped and shipped alone, and <strong>12+ interviews plus 8+ A/B tests</strong> deciding what the product automated versus what the user still confirmed.</p>
+    <p>What scales that proof is Sensata, where the same discipline ran across a <strong>100+ feature backlog</strong> with engineering in Agile across 3 regions, cutting time-to-market 20%. Owning a persona, starting with evidence, and shipping fast is not new territory for me, it is the job I already do.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-product-ai.vercel.app/ref/pylon</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">PYLON PM PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
