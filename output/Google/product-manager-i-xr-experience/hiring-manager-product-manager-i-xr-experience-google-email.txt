@@ -5,14 +5,14 @@ Hi {Hiring Manager, Android XR Product},
 I don't normally reach out before applying, but the posting's framing, pairing lightweight XR devices with helpful AI, not just a new device but reimagining how people interact with the world, is the kind of product bet I want to be in the room for.
 
 Where I think I would add value fast:
-- Owned the 100+ feature backlog for a connected hardware launch across 3 regions with engineering and design in Agile, cutting time-to-market 20%.
-- Partnered with global distributors and retail channel teams on pricing and launch, lifting margins from 53% to 61% in under two quarters, close to the partner-facing work this role wants with eyewear brands.
-- Ran 30+ customer interviews with OEMs and distributors that lifted CSAT 22%, then built the roadmap from what we heard instead of what we assumed.
-- Automate the repetitive parts of PM analysis with AI agents on Claude, the same AI lens this role is putting directly into the consumer experience.
+- Owned a 100+ feature backlog for a hardware launch across 3 regions with engineering and design in Agile, cutting time-to-market 20%.
+- Partnered with distributors and retail channel teams on pricing and launch, lifting margins from 53% to 61% in under two quarters, close to the partner work this role wants with eyewear brands.
+- Ran 30+ customer interviews with OEMs and distributors that lifted CSAT 22%.
+- Automate repetitive PM analysis with AI agents on Claude, the same AI lens this role is putting into the product.
 
 Here's the portfolio: https://adhi-product-ai.vercel.app/ref/google
 
-Would you have 15 minutes to talk through how the retail consumer experience work is scoped? Happy to redirect if there is a better-suited opening on the team.
+Would you have 15 minutes to talk through how the retail experience work is scoped? Happy to redirect if there is a better-suited opening on the team.
 
 Thank you,
 
