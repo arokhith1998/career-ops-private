@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Google Product Marketing Manager, Fitbit Hardware Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #1a73e8; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 27pt; font-weight: 800; color: #0f172a; line-height: 1.14; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 20pt; font-weight: 800; color: #0f172a; line-height: 1.12; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #1a73e8; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.7in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #e8f0fe 100%); }
+  .cover h1 { font-size: 24pt; max-width: 11.3in; }
+  .cover .sub { font-size: 14pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 16pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #1a73e8; font-weight: 700; }
+  .cover .who { margin-top: 16pt; padding-top: 11pt; border-top: 1.5pt solid #1a73e8; max-width: 9.4in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #1a73e8; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #eaf1fd; border-left: 3pt solid #1a73e8; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #1e4ba0; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #1a73e8; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #eaf1fd; border-left: 4pt solid #1a73e8; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #1e4ba0; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a73e8; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 20pt; font-weight: 800; color: #1a73e8; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a73e8; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #1a73e8; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #1a73e8; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #e8f0fe 100%); }
+  .close h2 { font-size: 23pt; max-width: 10.6in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.6in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #1a73e8; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Google Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Google Product Marketing Manager, Fitbit Hardware</div>
+  <h1>A hardware and accessory portfolio has one pricing decision and one positioning decision for every SKU, not two separate ones made by two separate teams. I have already run that combined decision at a multi-$100M scale.</h1>
+  <div class="sub">Margin recovery and portfolio pricing on one side, end-to-end GTM and positioning on the other, both run by the same person.</div>
+  <div class="tags">
+    <div class="tag"><strong>$700K+ margin recovered</strong> in two quarters leading pricing and portfolio strategy at Sensata</div>
+    <div class="tag"><strong>53% to 61%</strong> distributor and channel margins repriced in under two quarters</div>
+    <div class="tag"><strong>$2M+ first-year revenue</strong> from an end-to-end GTM launch, positioning through channel</div>
+    <div class="tag"><strong>+12% YoY revenue, +8% market share</strong> from competitive price realignment</div>
+    <div class="tag"><strong>AI agents built on Claude</strong> automating my own recurring market and pricing analysis today</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-product-ai.vercel.app/ref/google</div>
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>The posting does not ask for a positioning writer and a pricing analyst. It asks for <span class="accent">one person who treats pricing, portfolio, and positioning as a single decision.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What that actually requires</h4>
+      <div class="line">Pricing, promotions, and portfolio calls made against the same revenue and margin targets that positioning and messaging have to carry, not handed off after Finance locks a number.</div>
+      <div class="line">A GTM plan that stays aligned across Design, Engineering, Brand, Sales, and regional teams from the first form-factor conversation, not from the launch deck onward.</div>
+      <div class="line">A narrative builder who can sit across from Finance and Merchandising one day and Engineering the next, in the same language both sides use.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run</h4>
+      <div class="line">At <b>Sensata</b>, I carried P&amp;L and revenue targets for a multi-$100M Industrial BU while also owning the positioning and GTM that shipped against those same targets, on the same product lines.</div>
+      <div class="line">I recovered <b>$700K+ in margin</b> and repriced distributor margins <b>53% to 61%</b> using the same competitive and willingness-to-pay data that fed the positioning work next door.</div>
+      <div class="line">At <b>Applied Materials</b> today, I automate my own recurring market and pricing analysis with AI agents built on Claude, so the forecast and the narrative stay in sync without a lag.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">The through-line: every pricing call I have made was built from the same customer and competitive data that fed the positioning next to it, never in a separate process.</div>
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The mandate, mapped</div>
+  <h2>What the posting asks for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Partner with Finance, PM, and Merchandising to optimize pricing, promotions, and portfolios to meet revenue and margin targets."</div></div>
+      <div class="quote"><div class="q">"Coordinate alignments across Design, Engineering, Brand, Sales, and regional teams to ensure flawless execution of campaigns and product launches."</div></div>
+      <div class="quote"><div class="q">"Develop and execute comprehensive, user-centric global GTM plans."</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>Sensata, margin and portfolio pricing:</b> recovered $700K+ in margin in two quarters and raised distributor margins 53% to 61%, carrying P&amp;L and revenue targets for a multi-$100M Industrial BU the whole time.</div></div>
+      <div class="proof"><div class="p"><b>Sensata, cross-functional launch coordination:</b> coordinated the product roadmap with Engineering in Agile across 3 regions, running a 100+ feature backlog that cut time-to-market 20%.</div></div>
+      <div class="proof"><div class="p"><b>Sensata, end-to-end GTM:</b> owned positioning, pricing, channel, and launch for a new product line across North America and Europe, closing the year at $2M+ revenue.</div></div>
+      <div class="proof"><div class="p"><b>Applied Materials, AI-productivity tools:</b> automate recurring market and pricing analysis with agents built on Claude, the exact preferred qualification this posting names.</div></div>
+    </div>
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>Margin recovery and GTM revenue are not two different skill sets. They are <span class="accent">the same data, pointed at two different line items.</span></h2>
+  <div class="lede">Same pattern on every product line at Sensata: read the competitive and customer data once, then use it to set the price and write the message in the same sitting.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$700K+</div>
+      <div class="lbl">Margin Recovered in Two Quarters</div>
+      <div class="desc">Led the Bleeders &amp; Leakers program at Sensata, negotiations built on competitive gaps and customer willingness-to-pay.</div>
+    </div>
+    <div class="stat">
+      <div class="n">53% to 61%</div>
+      <div class="lbl">Distributor and Channel Margins</div>
+      <div class="desc">Repriced parts sold through distribution in under two quarters, on top of the margin-recovery program.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$2M+</div>
+      <div class="lbl">First-Year Revenue, End-to-End GTM</div>
+      <div class="desc">Positioning, pricing, channel strategy, and launch execution shipped in one motion for a new sensing product line.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">The common thread: none of this was a pricing memo that sat in a folder separate from the launch plan. Each number closed the loop from competitive data to a price, a message, and a revenue result.</div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month on Fitbit's hardware and accessory portfolio looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Map the portfolio's pricing-to-positioning handoff</div>
+      <div class="body">Trace the last few device and accessory launches to find where pricing, promotion, and portfolio calls were made separately from positioning and messaging, and where that gap cost margin or launch alignment.</div>
+      <div class="why"><strong>Why first:</strong> the same first move behind the Sensata Bleeders &amp; Leakers program, find where the data and the decision disconnect before rebuilding either.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Run one SKU's margin and portfolio model end to end</div>
+      <div class="body">Pick one device or accessory line, build the pricing and promotion model against revenue and margin targets with Finance and Merchandising, and write the positioning and GTM plan from the same underlying data.</div>
+      <div class="why"><strong>Why now:</strong> the same combined pricing-and-positioning motion that recovered $700K+ in margin and shipped $2M+ in GTM revenue at Sensata, run as one process instead of two.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Stand up the recurring cross-functional cadence</div>
+      <div class="body">Institute the Design, Engineering, Brand, and Sales alignment cadence the posting asks for, and automate the first recurring market or competitive pull with an AI agent, the same habit keeping my own reporting moving at Applied Materials today.</div>
+      <div class="why"><strong>Why this fast:</strong> the earlier the cadence exists, the sooner the next launch avoids the same handoff gap found in Week 1.</div>
+    </div>
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to run pricing, portfolio, and positioning as one decision for Fitbit's hardware and accessory line. I have already run that combined decision, and put a number on each half.</h2>
+  <div class="body">
+    <p>The pricing and portfolio half: <strong>$700K+ in margin recovered</strong> and distributor margins moved <strong>53% to 61%</strong>, carrying P&amp;L and revenue targets for a multi-$100M Industrial BU at Sensata.</p>
+    <p>The positioning and GTM half: <strong>$2M+ first-year revenue</strong> from an end-to-end launch across North America and Europe, and <strong>+12% YoY revenue, +8% market share</strong> from competitive price realignment. At Applied Materials I now automate my own recurring market and pricing analysis with agents built on Claude, so the data behind both halves stays current without a lag.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-product-ai.vercel.app/ref/google</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
