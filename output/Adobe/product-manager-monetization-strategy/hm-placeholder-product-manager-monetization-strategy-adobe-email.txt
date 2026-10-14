@@ -1,0 +1,20 @@
+Subject: Pricing GenAI and agentic capabilities before the category has a benchmark
+
+Hi {Hiring Manager, Monetization Strategy},
+
+I do not normally cold-email a hiring manager, but this team prices GenAI and agentic capabilities before the category has a benchmark to anchor on, a harder brief than a packaging refresh with comps on the shelf.
+
+Built you a 6-slide pitch deck mapping that experience onto the req.
+
+At Sensata I built the pricing model behind a $627M target across 3 regions and 20 product lines, scored 1,200 opportunities, then recovered $700K+ in margin in two quarters and held distributor margins 53% to 61% past the quarter it shipped. That meant building the model, then building consensus across Sales, Finance and executives in a matrixed org, the two muscles this req needs. At Applied Materials I carry P&L targets and automate forecasting with Claude agents; at PriceKeel I run a pricing guardrail learned from closed-won and closed-lost deals.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/adobe
+
+If the segment's GenAI pricing model is still being scoped, I would like 15 minutes to hear how it is shaping up. A pointer elsewhere would help just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
