@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>AWS Product Marketing Manager, Technical (Amazon WorkSpaces) Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #ea580c; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 25pt; font-weight: 800; color: #0f172a; line-height: 1.16; letter-spacing: -0.4pt; margin-bottom: 8pt; }
+  h2 { font-size: 19.5pt; font-weight: 800; color: #0f172a; line-height: 1.14; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #ea580c; }
+  .lede { font-size: 11.5pt; color: #475569; max-width: 10.9in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #ffedd5 100%); }
+  .cover h1 { font-size: 23pt; max-width: 11.3in; }
+  .cover .sub { font-size: 13.5pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; max-width: 10.8in; }
+  .cover .tags { margin-top: 15pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9pt; font-weight: 500; }
+  .tag strong { color: #ea580c; font-weight: 700; }
+  .cover .who { margin-top: 15pt; padding-top: 10pt; border-top: 1.5pt solid #ea580c; max-width: 9.6in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #ea580c; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #fff7ed; border-left: 3pt solid #ea580c; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.3pt; color: #9a3412; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.2pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #ea580c; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.4pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 13pt; background: #fff7ed; border-left: 4pt solid #ea580c; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.3pt; color: #9a3412; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #ea580c; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 20pt; font-weight: 800; color: #ea580c; line-height: 1.05; margin-bottom: 4pt; letter-spacing: -0.8pt; }
+  .stat .lbl { font-size: 9.3pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.6pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #ea580c; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #ea580c; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.3pt; font-weight: 800; color: #0f172a; line-height: 1.18; margin-bottom: 7pt; }
+  .card .body { font-size: 8.8pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.3pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #ea580c; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #ffedd5 100%); }
+  .close h2 { font-size: 23pt; max-width: 10.8in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.3pt; color: #334155; line-height: 1.55; max-width: 10.8in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #ea580c; font-weight: 700; }
+  .close .contact { margin-top: 15pt; font-size: 9.7pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the AWS Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | AWS Product Marketing Manager, Technical, Amazon WorkSpaces</div>
+  <h1>WorkSpaces is selling five products (Personal, Pools, Applications, Secure Browsers, VDI Partners) against three incumbents, while opening an entirely new story about agentic AI desktops. That is a positioning problem I have already solved, just with sensors instead of servers.</h1>
+  <div class="sub">A technical PMM who turns multi-product infrastructure into one buyer story CIOs, CISOs and IT Ops actually trust.</div>
+  <div class="tags">
+    <div class="tag"><strong>$2M+ first-year revenue</strong> from an end-to-end GTM launch on a new technical product line at Sensata</div>
+    <div class="tag"><strong>+15% conversion</strong> turning raw technical specs into buyer-ready positioning for OEM and distributor engineers</div>
+    <div class="tag"><strong>+30% win rate</strong> from sales enablement built for 50+ reps against entrenched incumbents</div>
+    <div class="tag"><strong>AI agents built on Claude</strong> automating my own technical market analysis at Applied Materials today</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-product-ai.vercel.app/ref/aws</div>
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The problem, as I read it</div>
+  <h2>Five WorkSpaces products, three well-funded incumbents, and one new category story to tell at the same time. <span class="accent">That is a fragmentation risk, not just a content backlog.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What makes this hard right now</h4>
+      <div class="line">Persistent desktops, pooled desktops, application streaming and secure browsing each have their own buyer moment, but Citrix, Omnissa and Microsoft AVD all sell a simpler, single-product story against you.</div>
+      <div class="line">"Agentic AI desktops" is a new category claim. Said the wrong way to a CISO, it reads as a buzzword before it reads as infrastructure.</div>
+      <div class="line">IT decision-makers, security leaders and desktop admins each need a different proof point from the same underlying product.</div>
+    </div>
+    <div class="panel">
+      <h4>Why I have already run this exact problem</h4>
+      <div class="line">At <b>Sensata</b>, I owned positioning for a new sensing-product line sold into OEM and distributor engineers who had entrenched incumbent suppliers, turning technical specs into one buyer-ready story across regions.</div>
+      <div class="line">At <b>Applied Materials</b> today, I build the value-based pricing and market-sizing models that sit directly with Engineering, the same technical-depth work a CIO conversation demands.</div>
+      <div class="line">I am also building <b>PriceKeel</b>, my own B2B SaaS product, which keeps me on the buyer side of exactly this kind of infrastructure purchase decision.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">The through-line: translating fragmented technical capability into one story a skeptical technical buyer will defend to their own VP, the same work, different hardware.</div>
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The mandate, mapped</div>
+  <h2>What the posting asks for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Translate product capabilities into positioning and messaging that resonates with IT decision-makers, security leaders, and end-user computing teams."</div></div>
+      <div class="quote"><div class="q">"Create compelling content that earns trust with executive and technical buyers... TCO analyses."</div></div>
+      <div class="quote"><div class="q">"Serve as the domain authority... against Citrix, Omnissa (VMware), Microsoft Azure Virtual Desktop."</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>Sensata, technical-to-buyer translation:</b> built the KPI frameworks myself in SQL and GA4 across 50,000+ connected devices, then turned those specs into positioning that lifted conversion 15% on priority launches.</div></div>
+      <div class="proof"><div class="p"><b>Sensata, sales enablement vs. incumbents:</b> built decks, case studies and battlecards for 50+ reps, lifting win rates 30% against entrenched suppliers, the Citrix/Omnissa/AVD fight on different hardware.</div></div>
+      <div class="proof"><div class="p"><b>Sensata, executive trust:</b> briefed senior executives directly on multimillion-dollar customer quotes and competitive positioning calls.</div></div>
+      <div class="proof"><div class="p"><b>Applied Materials, agentic framing:</b> live market-sizing and pricing work with Engineering, automated with Claude AI agents, the direct analog to WorkSpaces' own agentic-AI expansion.</div></div>
+    </div>
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>Three numbers behind the same muscle: <span class="accent">turn technical depth into a story the skeptical buyer signs off on.</span></h2>
+  <div class="lede">The pattern that matters for WorkSpaces: own the positioning, arm the sellers against entrenched incumbents, then prove the story held with executives who had final sign-off.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$2M+</div>
+      <div class="lbl">First-Year Revenue, End-to-End GTM</div>
+      <div class="desc">Positioning, messaging, channel and launch built and shipped in one motion for a new technical product line across North America and Europe.</div>
+    </div>
+    <div class="stat">
+      <div class="n">+30% Win Rate</div>
+      <div class="lbl">Sales Enablement vs. Incumbents</div>
+      <div class="desc">Decks, case studies and competitive battlecards built for 50+ reps, used to win share back from entrenched suppliers.</div>
+    </div>
+    <div class="stat">
+      <div class="n">+12% YoY / +8% Share</div>
+      <div class="lbl">Price and Positioning Calls Briefed to Execs</div>
+      <div class="desc">Competitive benchmarking across 10+ players, briefed directly to senior leadership on multimillion-dollar accounts.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">None of these were a positioning deck that sat in a folder. Each one closed the loop from message to a number Sales or Engineering was accountable for.</div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month owning GTM for a WorkSpaces product slice looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Map the buyer-by-buyer gap</div>
+      <div class="body">Sit with Product, Solutions Architecture and Sales to pull apart what a CISO, an IT Ops lead and a desktop admin each need to hear differently about persistent vs. pooled desktops and secure browsing, then find where today's content blurs the three.</div>
+      <div class="why"><strong>Why first:</strong> the same first move behind the Sensata KPI work, find where the signal breaks before rebuilding the story.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Build the competitive battlecard, live</div>
+      <div class="body">Stand up the Citrix, Omnissa and Microsoft AVD battlecard and first-call deck with Sales and Field Enablement, grounded in a TCO analysis that survives the skeptical IT-director follow-up, not just the headline comparison.</div>
+      <div class="why"><strong>Why now:</strong> the same cross-functional build that moved Sensata's win rate 30% instead of shipping a deck no one used.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Name the agentic-desktop story without the buzzword</div>
+      <div class="body">Co-author the first agentic-workspaces positioning piece with Product, anchored in a concrete workload and TCO outcome a CIO can defend internally, then use an AI agent to keep the competitive-landscape tracker current every cycle.</div>
+      <div class="why"><strong>Why this fast:</strong> the same habit that keeps my own market-sizing reporting moving at Applied Materials today, not a plan for someday.</div>
+    </div>
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to make five products sound like one story to a buyer who has been burned by a desktop migration before. I have already run that exact translation, just on a different product line.</h2>
+  <div class="body">
+    <p>The positioning half: <strong>$2M+ first-year revenue</strong> and <strong>+15% conversion</strong> from turning raw technical specs into buyer-ready messaging for OEM and distributor engineers at Sensata, the same skeptical-buyer translation WorkSpaces needs for CIOs and CISOs.</p>
+    <p>The competitive and enablement half: <strong>+30% win rate</strong> from battlecards and first-call decks built for 50+ reps against entrenched incumbents, plus the live, Claude-agent-automated market work I run today at Applied Materials, the direct analog to WorkSpaces' own agentic-AI expansion.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-product-ai.vercel.app/ref/aws</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
