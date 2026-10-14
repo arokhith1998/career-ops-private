@@ -1,19 +1,13 @@
 source	sources	company	title	location	url	posted_ts	age_days	sponsorship_hint	salary	category
-websearch-agent	websearch-agent	?	Chief of Staff (GTM, AI startup, via Michael Page)	Bangalore, India	https://www.michaelpage.co.in/job-detail/chief-staff-gtm-ai-bangalore-5-day-wfo/ref/jn-072026-7072727	2026-10-13				chief_of_staff
-websearch-agent	websearch-agent	?	Chief of Staff (VC firm, via Michael Page)	Bangalore, India	https://www.michaelpage.co.in/job-detail/chief-staff/ref/jn-042026-7004201	2026-10-13				chief_of_staff
-websearch-agent	websearch-agent	?	CEO's Office Strategy (life insurer, via Michael Page)	Mumbai, India	https://www.michaelpage.co.in/job-detail/ceos-office-strategy/ref/jn-022026-6948231	2026-10-13				ceo_office
-websearch-agent	websearch-agent	Opvia	Chief of Staff	Remote, India	https://jobs.weekday.works/chief-of-staff-at-opvia-in-4417539533	2026-10-13				chief_of_staff
-websearch-agent	websearch-agent	Hike	Chief of Staff (CEO Office)	Delhi, India	https://web3.career/chief-of-staff-ceo-office-very-full-time-hike/27413	2026-10-13				chief_of_staff
-websearch-agent	websearch-agent	?	Chief of Staff (health tech, via Qrata)	Delhi NCR, India	https://cutshort.io/job/Chief-of-Staff-Delhi-Gurugram-Noida-Ghaziabad-Faridabad-Qrata-05hWXq0e	2026-10-13			20-50 LPA	chief_of_staff
-websearch-agent	websearch-agent	Windfall Data	Product Marketing Manager	San Francisco, CA	https://jobs.lever.co/windfalldata/d64fdf52-6821-4dd1-b3dd-745ffd018eed/apply	2026-10-13				marketing
-websearch-agent	websearch-agent	Loop AI	Product Marketing Manager	San Francisco, CA	https://jobs.lever.co/Loop%20AI/d0e35f91-e189-43f6-b3c9-9394d418ce24/apply	2026-10-13				marketing
-websearch-agent	websearch-agent	Hive	Chief of Staff	San Francisco, CA	https://jobs.lever.co/hive/45a75ef2-3a69-401d-8ca7-274dc554bb59	2026-10-13			$90K-$160K	chief_of_staff
-websearch-agent	websearch-agent	OpenAI	Competitive Intelligence Lead	San Francisco, CA	https://jobsbyculture.com/jobs/openai/competitive-intelligence-lead	2026-10-13				market_strategy
-websearch-agent	websearch-agent	Meta	Competitive Intelligence Research	Menlo Park/San Francisco, CA	https://scoutify.com/companies/meta/jobs/1339855/	2026-10-13			$177K-$247K	market_strategy
-websearch-agent	websearch-agent	Hireveda (client)	Executive Assistant / Chief of Staff (to CBO)	Bengaluru, India	https://hireveda.com/job/COS	2026-10-13				chief_of_staff
-websearch-agent	websearch-agent	Supersourcing (client)	Chief of Staff Strategy	Noida/Delhi NCR/Dubai, India	https://www.iimjobs.com/j/chief-of-staff-strategy-1737322	2026-10-13				chief_of_staff
-websearch-agent	websearch-agent	?	Chief of Staff (Founder's Office)	Gurgaon/Delhi NCR, India	https://www.iimjobs.com/j/chief-of-staff-founder039s-office-1730908	2026-10-13				founders_office
-websearch-agent	websearch-agent	The News Keeper	Chief of Staff	India (any location)	https://www.iimjobs.com/j/chief-of-staff-1699019	2026-10-13				chief_of_staff
-websearch-agent	websearch-agent	UP HRM Services (client)	Chief of Staff	Bangalore, India	https://www.iimjobs.com/j/chief-of-staff-1684101	2026-10-13				chief_of_staff
-websearch-agent	websearch-agent	JustAI	Chief of Staff (Founder's Office)		https://zerogtalent.com/space-jobs/justai/chief-of-staff-founders-office	2026-10-13			$60K-$120K	founders_office
-websearch-agent	websearch-agent	?	Chief of Staff (early-stage SaaS)	San Francisco, CA	https://underdog.io/jobs/chief-of-staff-3	2026-10-13			$120K-$200K	chief_of_staff
+websearch-agent	websearch-agent	Unacademy	Chief of Staff to CBO	Bengaluru, India	https://jobs.weekday.works/wkdymtavep	2026-10-14				chief_of_staff
+websearch-agent	websearch-agent	?	Chief of Staff (GTM, AI startup, via Michael Page)	Bangalore, India	https://www.michaelpage.co.in/job-detail/chief-staff-gtm-ai-bangalore-5-day-wfo/ref/jn-072026-7072727	2026-10-14				chief_of_staff
+websearch-agent	websearch-agent	Chtrbox	Chief of Staff to Founder and CEO	Mumbai, India	https://www.netinfluencer.com/jobs/chief-of-staff-at-chtrbox/	2026-10-14				chief_of_staff
+websearch-agent	websearch-agent	Opvia	Chief of Staff	Remote, India	https://jobs.weekday.works/chief-of-staff-at-opvia-in-4417539533	2026-10-14				chief_of_staff
+websearch-agent	websearch-agent	Hike	Chief of Staff (CEO Office)	Delhi, India	https://web3.career/chief-of-staff-ceo-office-very-full-time-hike/27413	2026-10-14				chief_of_staff
+websearch-agent	websearch-agent	?	CEO's Office Strategy Manager (BFSI, via Michael Page)	Gurgaon, India	https://www.michaelpage.co.in/job-detail/ceos-office-strategy-manager-delhi/ref/jn-082026-7076458	2026-10-14				ceo_office
+websearch-agent	websearch-agent	?	CEO's Office (fintech, via Michael Page)	Bengaluru, India	https://www.michaelpage.co.in/job-detail/ceos-office-fintech-bengaluru/ref/jn-082026-7079489	2026-10-14				ceo_office
+websearch-agent	websearch-agent	Ideashacks Ventures	Entrepreneur in Residence (Fundraising)	Delhi, India	https://cutshort.io/job/Entrepreneur-in-Residence-Fundraising-Delhi-Ideashacks-Ventures-Pvt-Ltd-uHKOrJmG	2026-10-14			4.8-6 LPA	entrepreneur_in_residence
+websearch-agent	websearch-agent	Aramya	Entrepreneur in Residence	Gurugram, India	https://careers.kula.ai/aramya/54477/	2026-10-14				entrepreneur_in_residence
+websearch-agent	websearch-agent	Finch	Product Marketing Manager	San Francisco / New York	https://jobs.lever.co/finch/5085ce27-f2e7-4863-b16c-e3b36ae8ae35	2026-10-14				marketing
+websearch-agent	websearch-agent	Loop AI	Product Marketing Manager	San Francisco, CA	https://jobs.lever.co/Loop%20AI/d0e35f91-e189-43f6-b3c9-9394d418ce24/apply	2026-10-14				marketing
+websearch-agent	websearch-agent	Windfall Data	Product Marketing Manager	San Francisco, CA	https://jobs.lever.co/windfalldata/d64fdf52-6821-4dd1-b3dd-745ffd018eed/apply	2026-10-14				marketing
