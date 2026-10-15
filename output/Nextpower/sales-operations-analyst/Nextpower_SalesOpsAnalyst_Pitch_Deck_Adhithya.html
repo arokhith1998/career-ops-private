@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Nextpower Sales Operations Analyst Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #0f766e; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 27pt; font-weight: 800; color: #0f172a; line-height: 1.14; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 20pt; font-weight: 800; color: #0f172a; line-height: 1.12; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #0f766e; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.8in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d5efec 100%); }
+  .cover h1 { font-size: 23pt; max-width: 11.6in; }
+  .cover .sub { font-size: 13pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 15pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.6in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9pt; font-weight: 500; }
+  .tag strong { color: #0f766e; font-weight: 700; }
+  .cover .who { margin-top: 15pt; padding-top: 10pt; border-top: 1.5pt solid #0f766e; max-width: 9.5in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #0f766e; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #e6f5f3; border-left: 3pt solid #0f766e; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.1pt; color: #0a5a53; font-style: italic; line-height: 1.38; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9pt; color: #334155; line-height: 1.42; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #0f766e; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #e6f5f3; border-left: 4pt solid #0f766e; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #0a5a53; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0f766e; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 23pt; font-weight: 800; color: #0f766e; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0f766e; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #0f766e; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #0f766e; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d5efec 100%); }
+  .close h2 { font-size: 24pt; max-width: 10.8in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.9in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #0f766e; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Nextpower Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Nextpower Sales Operations Analyst</div>
+  <h1>One seat here owns the bridge between early-stage product configurations and scalable CPQ systems, for every new BU Nextpower brings into its quoting process. I have already run every piece of that loop, just not under solar hardware yet.</h1>
+  <div class="sub">Quoting-logic ownership, CRM/CPQ system configuration and cross-functional documentation discipline from someone who already runs that loop end to end.</div>
+  <div class="tags">
+    <div class="tag"><strong>$700K+</strong> margin recovered in 2 quarters via deal-by-deal quoting-logic rebuild at Sensata</div>
+    <div class="tag"><strong>53% to 61%</strong> distributor margin lift from reworked configuration and discount logic</div>
+    <div class="tag"><strong>CRM + CPQ</strong> configuration, deal approvals and audit trail owned end to end, founder of PriceKeel</div>
+    <div class="tag"><strong>1,200 opportunities</strong> tracked against a $627M target across 3 regions, 4 product families, 20 lines</div>
+    <div class="tag"><strong>Claude AI agents</strong> automating recurring analysis at Applied Materials</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhithyabhaskar.vercel.app/ref/nextpower</div>
+  </div>
+  <div class="brand">NEXTPOWER SALES OPS PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>This posting is really three jobs held by one person: quoting-logic owner, CPQ bridge-builder and new-BU integrator, <span class="accent">across every product line Nextpower launches.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What losing that discipline runs into</h4>
+      <div class="line">A quoting tool built for one product does not fail loudly. It fails as a workaround nobody documented, a configuration rule that only works until the next BU shows up, and a CPQ migration that has to be reverse-engineered from someone's memory.</div>
+      <div class="line">Sales, Product, Finance and IT all touch the same quote, so a gap in quoting logic or documentation becomes everyone's delay at the next launch, not just one team's problem.</div>
+      <div class="line">The fix is not another spreadsheet. It is someone who treats quoting logic, CPQ bridging and new-BU documentation as one connected discipline instead of three separate jobs.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run</h4>
+      <div class="line">At <b>PriceKeel</b>, I set up and run the CRM, CPQ configuration and the audit trail myself, the same system-ownership and documentation loop this role holds for new BU integration.</div>
+      <div class="line">At <b>Sensata</b>, I rebuilt configuration and pricing logic inside the Bleeders and Leakers program and built the Power BI dashboard that made 1,200 opportunities auditable across 20 product lines.</div>
+      <div class="line">Both mean I have sat on the quoting side and the system-configuration side of the same bridge, not just one or the other.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">A Sales Operations Analyst who owns quoting tools, bridges to CPQ platforms and integrates new BUs into standard process is describing this exact loop: build the quoting logic, document it, make it portable into a system of record.</div>
+  </div>
+  <div class="brand">NEXTPOWER SALES OPS PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What the Sales Operations Analyst opening asks for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">Design, develop and maintain Excel-based quoting tools and quote automation workflows that improve quoting speed, accuracy, governance and scalability for new BUs.</div></div>
+      <div class="quote"><div class="q">Implement complex logic and configuration rules to support product structures, pricing models, approval workflows and regional requirements.</div></div>
+      <div class="quote"><div class="q">Serve as a bridge to enterprise quoting systems, ensuring quoting logic and configuration rules can be ported into or inform CPQ systems.</div></div>
+      <div class="quote"><div class="q">Support onboarding and integration of new BUs into standard quoting processes, including data mapping, training, testing, rollout support and change management.</div></div>
+    </div>
+    <div class="col">
+      <h3>My Proof</h3>
+      <div class="proof"><div class="p"><b>Quoting-logic rebuild:</b> reworked discount and configuration logic inside Sensata's Bleeders and Leakers program, recovering $700K+ in margin in 2 quarters.</div></div>
+      <div class="proof"><div class="p"><b>Complex configuration rules:</b> built a BU-wide Power BI price-increase model with rule-based logic flagging line items for repricing across 20 product lines.</div></div>
+      <div class="proof"><div class="p"><b>CPQ bridge:</b> set up and run PriceKeel's own CRM and CPQ configuration end to end, the same system-of-record ownership this seat needs to port quoting logic into.</div></div>
+      <div class="proof"><div class="p"><b>New-BU rollout and training:</b> owned GTM integration for new sensing products at Sensata (positioning, pricing, channel), then built sales enablement and training for 50+ reps ahead of rollout.</div></div>
+    </div>
+  </div>
+  <div class="brand">NEXTPOWER SALES OPS PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>Bleeders and Leakers: <span class="accent">make the quoting logic hold across every region and product line, not just one.</span></h2>
+  <div class="lede">Built as a dynamic, logic-driven Power BI system covering 1,200 pricing opportunities against a $627M target across 3 regions, 4 product families and 20 product lines, with configuration rules that stayed consistent as new segments were added.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$700K+</div>
+      <div class="lbl">Margin Recovered, 2 Quarters</div>
+      <div class="desc">Rebuilt the discount and approval logic behind each quote deal by deal, the same investigation this seat runs on every new BU's pricing structure.</div>
+    </div>
+    <div class="stat">
+      <div class="n">53% to 61%</div>
+      <div class="lbl">Distributor Margin Lift</div>
+      <div class="desc">Repriced the regional channel logic and documented it for governance review, so the new configuration rules held past the first quarter.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$433M</div>
+      <div class="lbl">Margin Gaps Surfaced</div>
+      <div class="desc">Every gap traced to a specific product line and region, the same segment-level detail a cross-BU quoting system needs to scale.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">At PriceKeel that same instinct became the operating model: I run the CRM, CPQ configuration and the audit trail myself, so the quoting tool and the documentation are never two different stories.</div>
+  <div class="brand">NEXTPOWER SALES OPS PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month owning quoting tools at Nextpower looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Learn the current quoting tools and rules</div>
+      <div class="body">Sit with the Sr Sales Operations Manager to walk the existing Excel quoting tools, configuration logic and approval workflows, and shadow one new-BU onboarding cycle end to end.</div>
+      <div class="why"><strong>Why first:</strong> the same instinct that had me learn PriceKeel's own CPQ configuration before building anything on top of it.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Own a product or BU quoting cycle</div>
+      <div class="body">Take ownership of one new product's quoting requirements end to end: map the configuration logic, build the automation workflow, and run it past Product, Finance and Sales for sign-off.</div>
+      <div class="why"><strong>Why now:</strong> the same cross-functional discipline that made the Bleeders and Leakers dashboard usable across 20 product lines.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Document the logic and start the CPQ bridge</div>
+      <div class="body">Write up the configuration assumptions and version-control notes behind one quoting tool, and flag which rules are ready to port into a CPQ or web-based platform next.</div>
+      <div class="why"><strong>Why this fast:</strong> a quoting tool only scales past its first BU if the logic behind it is documented before the next one arrives.</div>
+    </div>
+  </div>
+  <div class="brand">NEXTPOWER SALES OPS PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to keep quoting logic, CPQ bridging and new-BU integration honest across every product line. I have already built that discipline, from both sides of the quote.</h2>
+  <div class="body">
+    <p>The core proof is Sensata: a dynamic, logic-driven Power BI system tracking <strong>1,200 pricing opportunities against a $627M target</strong> across 3 regions, 4 product families and 20 product lines, with distributor margins lifted <strong>from 53% to 61%</strong> and $700K+ in margin recovered in 2 quarters.</p>
+    <p>What is harder to find is someone who has also spent the last several months owning the CRM, CPQ configuration and audit trail for his own company's deal flow. <strong>I built that at PriceKeel</strong>, so the system ownership and documentation discipline this role runs is not something I would need to learn on the job.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhithyabhaskar.vercel.app/ref/nextpower</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">NEXTPOWER SALES OPS PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
