@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Notion Product Manager, Connections Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #0f766e; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 23pt; font-weight: 800; color: #0f172a; line-height: 1.18; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 20pt; font-weight: 800; color: #0f172a; line-height: 1.12; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #0f766e; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.7in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #ccfbf1 100%); }
+  .cover h1 { font-size: 21pt; max-width: 11.6in; }
+  .cover .sub { font-size: 13pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 15pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #0f766e; font-weight: 700; }
+  .cover .who { margin-top: 15pt; padding-top: 11pt; border-top: 1.5pt solid #0f766e; max-width: 9.6in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #0f766e; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #ecfdf5; border-left: 3pt solid #0f766e; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #115e4c; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #0f766e; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #ecfdf5; border-left: 4pt solid #0f766e; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #115e4c; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0f766e; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 19pt; font-weight: 800; color: #0f766e; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0f766e; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #0f766e; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #0f766e; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #ccfbf1 100%); }
+  .close h2 { font-size: 22pt; max-width: 10.8in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.6in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #0f766e; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Notion Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Notion Product Manager, Connections</div>
+  <h1>Notion needs a Product Manager who can turn an ambiguous customer problem into a roadmap engineering ships against, at zero-to-one speed and at at-scale discipline. I have already run both halves of that motion, with a number on each.</h1>
+  <div class="sub">A 100+ feature roadmap owned at scale, and a zero-to-one AI product built solo, on the same resume.</div>
+  <div class="tags">
+    <div class="tag"><strong>100+ feature backlog</strong> owned with Engineering in Agile across 3 regions</div>
+    <div class="tag"><strong>30+ customer interviews</strong> behind a 22% CSAT lift</div>
+    <div class="tag"><strong>Zero-to-one build</strong>: SwipeHire, PRD to MVP to 50+ users, solo</div>
+    <div class="tag"><strong>AI agents built on Claude</strong> automating my own recurring analysis today</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-product-ai.vercel.app/ref/notion</div>
+  </div>
+  <div class="brand">PRODUCT PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>The posting is not "own one product area." It is finding the customer problem first, then building the strategy and the system <span class="accent">with no playbook handed to you.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What that actually requires</h4>
+      <div class="line">Uncovering the customer problems that define the next chapter, not inheriting a roadmap someone else already scoped.</div>
+      <div class="line">Making the hard calls between customer impact, business opportunity, technical complexity, speed and long-term quality, not deferring every tradeoff to engineering.</div>
+      <div class="line">Operating at both zero-to-one speed and at-scale discipline, and using AI as a working collaborator in research, decisions and execution, not a side experiment.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run</h4>
+      <div class="line">At <b>Sensata</b>, I defined the product roadmap for a sensor line and owned a 100+ feature backlog with Engineering in Agile across 3 regions, cutting time-to-market 20%.</div>
+      <div class="line">At <b>Sensata</b> again, 30+ structured interviews with OEMs and distributors set the roadmap, not a stakeholder request list, raising CSAT 22%.</div>
+      <div class="line">I built <b>SwipeHire</b> zero-to-one with no team: wrote the PRD, scoped the MVP, shipped it on the OpenAI API, and now automate my own recurring analysis with Claude agents daily.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">The through-line: every roadmap I have owned started with direct customer evidence, not a backlog handed down, and every build I have shipped had a number attached to it.</div>
+  </div>
+  <div class="brand">PRODUCT PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The mandate, mapped</div>
+  <h2>What the posting asks for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Uncover the customer problems and product opportunities that will define Notion's next chapter, then turn them into a focused strategy and roadmap."</div></div>
+      <div class="quote"><div class="q">"Make the hard calls, balancing customer impact, business opportunity, technical complexity, speed, and long-term product quality."</div></div>
+      <div class="quote"><div class="q">"Experience operating across both zero-to-one product development and the improvement of products at scale."</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>Sensata, roadmap and strategy:</b> defined the product roadmap for sensor solutions and owned a 100+ feature backlog with Engineering in Agile across 3 regions, accelerating releases 25%.</div></div>
+      <div class="proof"><div class="p"><b>Sensata, the hard calls:</b> balanced customer impact against technical complexity and speed across 50K+ connected devices, using SQL and GA4 cohort data to decide where to ship next.</div></div>
+      <div class="proof"><div class="p"><b>SwipeHire, zero-to-one:</b> wrote the PRD, scoped the MVP, and shipped an AI job-matching platform to 50+ users with no team behind me.</div></div>
+      <div class="proof"><div class="p"><b>Applied Materials, AI as collaborator:</b> automate my own recurring forecasting and pricing analysis with agents built on Claude, the same daily habit behind SwipeHire's OpenAI API build.</div></div>
+    </div>
+  </div>
+  <div class="brand">PRODUCT PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>Find the problem, build the system with engineering, then <span class="accent">put a number on it.</span></h2>
+  <div class="lede">Same pattern at scale and at zero: start from direct customer evidence, ship with engineering in the loop, then measure whether the roadmap call actually moved something the business cared about.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">100+ Features</div>
+      <div class="lbl">Backlog Owned Across 3 Regions</div>
+      <div class="desc">Product roadmap for sensor solutions, built and shipped with Engineering in Agile at Sensata, cutting time-to-market 20%.</div>
+    </div>
+    <div class="stat">
+      <div class="n">30+ Interviews</div>
+      <div class="lbl">Direct Customer Evidence, Not a Dashboard</div>
+      <div class="desc">Structured OEM and distributor conversations that set the roadmap and raised CSAT 22% at Sensata.</div>
+    </div>
+    <div class="stat">
+      <div class="n">50+ Users</div>
+      <div class="lbl">Zero-to-One, PRD to MVP to Launch</div>
+      <div class="desc">SwipeHire built solo on Python, the OpenAI API and React, with 12+ interviews and 8+ A/B tests driving a 25% activation lift.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">None of these was a roadmap slide that sat in a folder. Each one closed the loop from a customer conversation to a shipped feature to a measured outcome.</div>
+  <div class="brand">PRODUCT PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month on Notion's next-chapter roadmap looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Get directly in front of customers</div>
+      <div class="body">Run the first round of structured customer conversations across segments, the same discipline behind 30+ OEM and distributor interviews at Sensata, so the first strategy call is grounded in evidence, not an assumption.</div>
+      <div class="why"><strong>Why first:</strong> every roadmap I have owned started with direct customer evidence before a single feature got prioritized.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Build the strategy and roadmap with engineering</div>
+      <div class="body">Turn those conversations into a focused strategy and a roadmap built jointly with design, engineering and data science, not handed down after the fact, the same build-with-engineering motion behind the 100+ feature backlog at Sensata.</div>
+      <div class="why"><strong>Why now:</strong> the roadmap only holds if engineering helped shape the tradeoffs, not just the delivery dates.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Ship the first feature and instrument it</div>
+      <div class="body">Ship the first scoped feature end to end, then instrument adoption with the same cohort and funnel discipline that powered SwipeHire and the Sensata KPI frameworks, so the next roadmap call is evidence, not opinion.</div>
+      <div class="why"><strong>Why this fast:</strong> the same first-principles-to-launch motion behind building SwipeHire solo, not a plan for someday.</div>
+    </div>
+  </div>
+  <div class="brand">PRODUCT PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to find the problem, set the strategy and build it with engineering. I have already run that motion at scale and at zero, with a number on each.</h2>
+  <div class="body">
+    <p>The at-scale half: a <strong>100+ feature roadmap</strong> owned with Engineering in Agile across 3 regions at Sensata, grounded in 30+ direct customer interviews that raised CSAT 22% and cut time-to-market 20%.</p>
+    <p>The zero-to-one half: <strong>SwipeHire</strong>, an AI job-matching platform built solo from PRD to MVP to 50+ users. At Applied Materials today I automate my own recurring analysis with agents built on Claude, because the time saved should go into the next roadmap call, not the last report.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-product-ai.vercel.app/ref/notion</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">PRODUCT PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
