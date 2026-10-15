@@ -1,0 +1,20 @@
+Subject: Forecasting two segments and deal-approval routing, already muscle memory
+
+Hi {Hiring Manager, Drata Revenue Operations},
+
+I do not normally reach out before applying, but the line about forecasting cadence and coverage modeling across two distinct segments, paired with deal support and approval routing for Enterprise AEs, is a seat I already sit in, not a stretch I would be learning on the job.
+
+At PriceKeel I run that exact approval routing and pricing workflow myself: CRM, CPQ, forecast and pipeline reviews, with a guardrail engine that learns discount limits from each company's own closed-won and closed-lost deals.
+At Sensata I shaped AP26 revenue models directly with senior executives, including multimillion-dollar customer quotes and site-transition strategy, then raised distributor margins from 53% to 61% in under 2 quarters.
+At Applied Materials I carry P&L and revenue targets across OKR cycles and automate the repetitive forecasting work with Claude agents, freeing the time for the judgment calls a fast-scaling GTM team needs most.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/drata
+
+Worth 15 minutes to walk through the CRM, CPQ build and the dashboard live? No worries if this is not your req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

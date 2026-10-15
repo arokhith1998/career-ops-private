@@ -1,0 +1,20 @@
+Subject: Core GTM systems I built from zero, not inherited
+
+Hi {Recruiter, Drata Revenue Operations},
+
+I do not normally reach out before applying, but your posting's line about problems without a playbook, writing it as you go, is the only kind of revenue operations work I have actually done: built from a blank screen, not inherited.
+
+At PriceKeel I own CRM and CPQ, forecast and pipeline reviews, and deal approvals end to end, with an audit trail Finance can check.
+At Sensata I built the FY2026 Bleeders and Leakers Power BI dashboard, 1,200 opportunities against a $627M target across 3 regions, then recovered $700K+ in margin in 2 quarters off its findings.
+At Applied Materials I automate the repetitive forecasting analysis with Claude agents, the agentic habit your AI Enabled Solutions line is asking for.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/drata
+
+Worth 15 minutes to see if this req is a fit? Happy to be pointed elsewhere if it already has an owner.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
