@@ -1,0 +1,18 @@
+Subject: Validating pricing-agent outputs before they go final
+
+Hi {Recruiter, Gap Inc. Pricing Analytics},
+
+Your posting asks whoever owns this seat to validate pricing-agent outputs and catch them when they are wrong before a recommendation ships. I built the audit trail that does exactly that at PriceKeel, the company I founded: an evidence-backed record behind every AI-flagged discount exception before Finance signs off.
+
+At Sensata I reconciled in-season discount decisions against competitive position and willingness to pay, recovering $700K+ in margin in two quarters and raising distributor margins from 53% to 61%. I also built the FY2026 Bleeders and Leakers Power BI dashboard, reconciling 1,200 pricing opportunities against a $627M target and surfacing $433M in margin gaps for leadership to act on.
+
+Portfolio: adhi-pricing-ai.vercel.app/ref/gap-inc
+
+Open to 15 minutes to walk through it, or a pointer to whoever owns this req?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
