@@ -4,16 +4,16 @@
 **URL:** https://www.linkedin.com/jobs/view/4334453503
 **Via:** — (direct)
 **Archetype:** Growth / Performance Marketing (secondary fit per `config/profile.yml`)
-**Score:** 3.5/5
+**Score:** SKIP (corrected post-scoring; see below)
 **Legitimacy:** High Confidence
-**Work Auth:** ⛔ per posting text — see flagged contradiction in Block A (upstream visa-gate verdict: TIER-1, SPONSOR/BUILD)
-**PDF:** not generated — discover-phase scoring only; build decision deferred to the 09:00 build run per `config/nightly.yml` build_policy
+**Work Auth:** ⛔ No sponsorship — posting-level hard wall, quoted verbatim below
+**PDF:** not generated — skipped, never reaches the build queue
 **Batch ID:** N/A (nightly discover phase, report 1319)
 **Portfolio:** https://adhi-growth-ai.vercel.app/ref/verkada (Growth discipline; AI-forward posture — Verkada markets an "AI-powered platform" with agentic theft-deterrence features)
 
 ---
 
-⚠️ **Work-authorization data conflict (flag for operator review):** This posting's own text states an explicit sponsorship wall ("You must be independently authorized to work in the U.S. We are unable to sponsor or take over sponsorship of an employment visa for this role, at this time"), which reads as a per-posting ⛔ No sponsorship under `modes/oferta.md`'s Block A tiers. The batch input's upstream visa-gate verdict for this row is **SPONSOR/BUILD, TIER-1** — i.e., employer-level sponsorship evidence cleared this row to BUILD. Per task instructions this report does not re-litigate that gate decision, and the given tier is used for scoring below, but the posting-level wall is real, verbatim, and specific to this requisition. `modes/nightly-rules.md` section 12's skip-list scoping rule ("the exact title when the wall is on the posting, `*` only for a genuine employer-wide wall") suggests this should have been scoped as a per-title wall rather than cleared employer-wide — flagging this discrepancy for the pipeline operator rather than silently resolving it either way.
+⛔ **CORRECTED TO SKIP (2026-10-15, post-scoring review):** This posting's own text states an explicit req-level sponsorship wall: *"You must be independently authorized to work in the U.S. We are unable to sponsor or take over sponsorship of an employment visa for this role, at this time."* The scoring worker that produced the 3.5/no_deck score below correctly flagged this as a conflict with the upstream visa-gate's employer-level TIER-1/SPONSOR verdict but was instructed not to re-litigate that gate, so the row was initially queued. On review, `modes/nightly-rules.md` section 2's hard-wall rule ("no sponsorship now or in the future") applies to this exact requisition regardless of Verkada's employer-wide sponsor status (confirmed separately by a sibling Verkada req, "Senior Associate, Pricing & Commercial Operations," which explicitly states it DOES sponsor — proving this is a per-req carve-out, not an employer-wide wall). Added to `data/skip-list.tsv` scoped to this exact title; recorded SKIP in the seen-jobs ledger. **This role is not queued for build and should not be pursued.** The scoring analysis below is kept for the record but its score/band no longer apply.
 
 ---
 
@@ -25,8 +25,9 @@ role: "Growth Marketing Manager, Channel Technical Programs"
 score: 3.5
 legitimacy_tier: "High Confidence"
 archetype: "Growth / Performance Marketing"
-final_decision: "Consider"
-hard_stops: []
+final_decision: "Skip - req-level no-sponsorship wall (corrected 2026-10-15)"
+hard_stops:
+  - "JD states verbatim: \"You must be independently authorized to work in the U.S. We are unable to sponsor or take over sponsorship of an employment visa for this role, at this time.\" Req-level carve-out, see data/skip-list.tsv."
 soft_gaps:
   - "No direct channel-partner-program marketing experience (Technical Training & Certification, Premier Services Network, Partner Community); closest analogs are Pixis/Plug Power demand-gen and paid-channel work, which is end-customer-facing, not partner-program-facing"
   - "Posting requires onsite five days per week (San Mateo, CA); within candidate's Bay Area geography but a stricter attendance ask than most other roles in this batch"
