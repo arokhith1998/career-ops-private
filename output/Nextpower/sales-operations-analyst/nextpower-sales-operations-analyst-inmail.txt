@@ -1,0 +1,22 @@
+Subject: Already using AI to catch quoting exceptions before approval
+
+Hi {Recruiter, Sales Operations},
+
+I do not normally send InMail before applying, but your posting's interest in AI-powered quoting (intelligent autofill, anomaly detection) matches a system I already built, not a direction I am exploring.
+
+Built a 6-slide pitch deck mapping that work to this brief.
+
+As founder of PriceKeel I designed a guardrail engine with explainable configuration logic, learned from each company's own closed-won and closed-lost deals, to flag a discount exception before it reaches approval.
+At Sensata I built a dynamic, logic-driven Power BI dashboard tracking 1,200 pricing opportunities against a $627M target, recovering $700K+ in margin in 2 quarters.
+At Applied Materials I automate repetitive analysis with AI agents built on Claude.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/nextpower
+
+Worth 15 minutes on where the AI-quoting roadmap sits today?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

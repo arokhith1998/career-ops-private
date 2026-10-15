@@ -1,0 +1,23 @@
+Subject: Built the CPQ bridge already, not planning to build it someday
+
+Hi {Sr Sales Operations Manager},
+
+I don't normally message before applying, but the line in your posting about serving as "a bridge to enterprise quoting systems" that can be ported into or inform CPQ systems describes a seat I already sit in, not one I would be learning on the job.
+
+Built a 6-slide pitch deck mapping that work to this brief.
+
+I run CRM and CPQ configuration myself as founder of PriceKeel, including deal approvals, forecast and pipeline reviews, and the audit trail that documents every pricing exception for Finance, the same governance trail your posting asks this role to keep on quoting logic and configuration assumptions.
+At Sensata I built a dynamic, logic-driven Power BI dashboard tracking 1,200 pricing opportunities across 3 regions, 4 product families and 20 product lines, recovering $700K+ in margin in 2 quarters by rebuilding the configuration logic deal by deal.
+I also owned GTM integration for new sensing products across North America and Europe, the same new-product-to-process bridge this role runs for incoming BUs.
+At Applied Materials I partner daily with Sales, Engineering and Finance to turn field input into one forecasting model.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/nextpower
+
+Worth 15 minutes on how you're scoping the new BU integration work?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
