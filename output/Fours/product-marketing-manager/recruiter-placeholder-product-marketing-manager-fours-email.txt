@@ -1,0 +1,24 @@
+Subject: Built you a deck for Fours' first PMM hire
+
+Hi {Recruiter, Talent},
+
+I don't normally reach out before applying, but a req for the first PMM at a company already live with OpenAI, Anthropic, Snowflake and Workday, with no playbook to inherit, is rare enough to write in before I apply.
+
+Built you a 6-slide pitch deck so the proof fits on one read.
+
+A few points that map straight to the req:
+- Built the sales-enablement system and battlecards behind a Sensata launch for 50+ reps, lifting win rates 30%.
+- Ran competitive benchmarking across 10+ players that fed a 12% YoY price realignment.
+- Talked to 30+ OEMs and distributors directly to pressure-test positioning before launch.
+- Shipped a zero-to-one AI platform's GTM and ICP from a blank page, the same no-playbook mode this req runs on.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/fours
+
+Worth 15 minutes if this is your req, no worries if it already has an owner.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
