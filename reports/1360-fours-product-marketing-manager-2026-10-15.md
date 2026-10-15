@@ -7,6 +7,7 @@
 **Score:** 4.3/5
 **Legitimacy:** High Confidence
 **Work Auth:** ⚠️ Unstated (upstream tier: BUILD — cleared to build; the JD contains no sponsorship or citizenship language)
+**Portfolio:** https://adhi-product-ai.vercel.app/ref/fours (discipline: product marketing; posture: AI-forward, AI-powered orchestration platform)
 **PDF:** pending — not built this run (score phase only; build phase runs separately per `config/nightly.yml` schedule)
 
 ---

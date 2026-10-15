@@ -7,6 +7,7 @@
 **Score:** 4.2/5
 **Legitimacy:** High Confidence
 **Work Auth:** ⚠️ Unstated (upstream tier: BUILD — cleared to build, but neither this JD text nor a strong sponsorship signal was found; JD lists only a degree/experience requirement, not a citizenship or no-sponsorship line)
+**Portfolio:** https://adhithyabhaskar.vercel.app/ref/nextpower (discipline: RevOps/quoting-CPQ, unclear-discipline row routes to generalist regardless of AI posture)
 **PDF:** pending — not built this run (score phase only; build phase runs separately per `config/nightly.yml` schedule)
 
 ---

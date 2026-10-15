@@ -7,6 +7,7 @@
 **Score:** 1.8/5
 **Legitimacy:** High Confidence
 **Work Auth:** ⚠️ Unstated (upstream tier: BUILD, thin evidence — no sponsorship or citizenship language found anywhere in the posting)
+**Portfolio:** https://adhi-product-ai.vercel.app/ref/clickhouse (discipline: product management; posture: AI-forward — routed for the record only, no pack will be built at this score)
 **PDF:** pending — not built this run (score phase only; digest_only band does not queue for build regardless)
 
 ---

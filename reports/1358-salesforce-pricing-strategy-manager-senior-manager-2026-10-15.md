@@ -7,6 +7,7 @@
 **Score:** 4.1/5
 **Legitimacy:** Proceed with Caution
 **Work Auth:** ✅ Sponsors (upstream-cleared, public H-1B filing history; this JD text itself does not state a sponsorship line)
+**Portfolio:** https://adhi-pricing-ai.vercel.app/ref/salesforce (discipline: pricing/monetization/packaging; posture: AI-forward, Agentforce/"AI CRM" framing)
 **PDF:** pending — not built this run (score phase only; build phase runs separately per `config/nightly.yml` schedule)
 
 ---

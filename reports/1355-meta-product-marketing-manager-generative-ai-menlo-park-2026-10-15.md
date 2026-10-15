@@ -7,6 +7,7 @@
 **Score:** 3.8/5
 **Legitimacy:** High Confidence
 **Work Auth:** ✅ Sponsors (upstream-cleared, public H-1B filing history; this JD text itself does not state a sponsorship line)
+**Portfolio:** https://adhi-product-ai.vercel.app/ref/meta (discipline: product marketing/GTM; posture: AI-forward, Generative AI title)
 **PDF:** pending — not built this run (score phase only; build phase runs separately per `config/nightly.yml` schedule)
 
 ---
