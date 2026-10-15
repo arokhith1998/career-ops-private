@@ -1,0 +1,20 @@
+Subject: A market view that holds up under a risk check, not a hunch
+
+Hi {Hiring Manager, Generative AI Product Marketing},
+
+I do not usually message before applying, but the preferred qualifications here ask for integrating AI tools into real workflows and running risk, bias and accuracy checks on the output, which is the job I already have, not a skill I would pick up in week one.
+
+At Applied Materials I run recurring market-sizing and competitive analysis through AI agents built on Claude, then put each output through the same kind of quality review this role asks for before it shapes pricing or forecasting decisions leadership acts on.
+At Sensata I owned go-to-market end to end for a new sensing line sold to OEM engineers and distributor accounts at the same time, running 30+ structured interviews that fed product and launch decisions and arming 50+ reps who closed $2M+ in first-year revenue.
+Keeping prompt and context engineering sharp is a habit, not a line item, which matches how fast this role's scope across agents, models and Enterprise solutions is likely to move.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/meta
+
+Open to 15 minutes to compare notes on where a market view like this breaks down fastest? Glad to be redirected if someone else owns this req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
