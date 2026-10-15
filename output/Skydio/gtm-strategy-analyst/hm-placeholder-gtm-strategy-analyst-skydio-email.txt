@@ -1,0 +1,20 @@
+Subject: Defending a pricing model to the CFO and to the rep selling it
+
+Hi {Director, GTM Strategy},
+
+I do not normally reach out before applying, but your posting's line about defending a model to the CFO and then explaining the same pricing rationale to a rep on the phone is the exact split my last role ran on, not two audiences I would be learning to speak to at once.
+
+At Sensata I partnered with senior executives on AP26 revenue models and multimillion-dollar customer quotes, then turned the same math into language a rep could use on a call.
+I built a Power BI system ranking 1,200 pricing opportunities against a $627M target across 3 regions and 4 product families, surfacing $433M in margin gaps for leadership to prioritize.
+At Applied Materials I already build the AI-native workflows this role asks for, automating repetitive pricing analysis with Claude agents.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/skydio
+
+Open to 15 minutes on how the team is scoping the ROI and TCO modeling work, no worries if this already sits with someone else on your team.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
