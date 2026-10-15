@@ -1,0 +1,23 @@
+Subject: A guardrail engine for pricing exceptions, already built
+
+Hi {Hiring Manager, Pricing & Finance},
+
+I do not normally cold-email before applying, but your posting's ask to translate segment goals into scalable pricing frameworks is the exact problem I built PriceKeel to solve.
+
+Put together a 6-slide pitch deck so the proof reads in one sitting.
+
+Recovered $700K+ in margin in two quarters leading Sensata's Bleeders and Leakers program, ranking 1,200 pricing opportunities against a $627M target.
+Raised distributor and channel-partner margins from 53% to 61% in under two quarters, a framework replicated across product lines.
+Founded PriceKeel: it reads every live discount exception and recommends an explainable guardrail learned from a company's own closed-won and closed-lost deals, with an audit trail Finance can check.
+Shaped AP26 revenue models and multimillion-dollar customer quotes directly with senior Sensata executives on strategic enterprise accounts.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/openai
+
+Would welcome 15 minutes to walk through how that maps to your pricing work, glad to redirect if not the right desk.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
