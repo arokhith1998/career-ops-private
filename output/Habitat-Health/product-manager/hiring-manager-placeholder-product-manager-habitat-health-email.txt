@@ -1,0 +1,20 @@
+Subject: Product Manager, clinical and business apps: discovery that gets past the ticket queue
+
+Hi {Hiring Manager, Product},
+
+Your posting draws a line between gathering requirements and shaping what the roadmap should be, engaging end users directly instead of working off intake tickets. That distinction is why I wrote in: it is how I run product work, just in a different regulated industry.
+
+At Sensata I owned the roadmap for a sensor product line, writing requirements and acceptance criteria, then managing a 100+ feature backlog in Agile across 3 regions, which cut time-to-market 20% and lifted release speed 25%. I ran 30+ structured interviews with OEMs and distributors to surface workflow pain a ticket never would, then built the SQL and GA4 tracking that tied adoption to usage and lifted it 18%. At PriceKeel now, I run CRM and CPQ configuration directly with vendor teams to scope delivery and defend trade-offs with data.
+
+I've attached my resume and cover letter.
+
+Here's the portfolio: https://adhi-product.vercel.app/ref/habitat-health
+
+Would you have 15 minutes to talk through how discovery runs with your clinical and operations stakeholders? Happy to be pointed elsewhere if this sits with another team.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
