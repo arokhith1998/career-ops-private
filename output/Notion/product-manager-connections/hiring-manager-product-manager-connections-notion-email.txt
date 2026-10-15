@@ -1,0 +1,20 @@
+Subject: Product Manager, Connections - Adhithya Rokhith Bhaskar
+
+Hi {Hiring Manager, Connections},
+
+Your posting talks about raising the bar for product thinking by building principles and success measures that endure, not just shipping the next feature. That is a harder bar than most PM postings set, and it is why I am writing before applying.
+
+Built you a 6-slide pitch deck so the proof fits in one read.
+
+At Sensata I turned ambiguous sensor-line problems into a 100+ feature roadmap, working with engineering, design and data across 3 regions in Agile, and built KPI frameworks in SQL and GA4 across 50,000+ connected devices to see which cohorts were adopting. I also ran the zero-to-one half myself: SwipeHire, an AI job-matching platform built from a blank page in Python, the OpenAI API and React, to 50+ early users. At Applied Materials I build my own Claude agents to automate forecasting and pricing work, the AI fluency your posting asks for.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/notion
+
+If Connections sits with a different PM, a pointer would help. Otherwise, 15 minutes this week to walk through the deck.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
