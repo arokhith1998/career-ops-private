@@ -1,0 +1,20 @@
+Subject: Driving clarity in ambiguous problem spaces, with a number attached
+
+Hi {Hiring Manager, Generative AI Product Marketing},
+
+I don't usually message before applying, but "driving clarity in ambiguous problem spaces" is the line in this req that made me stop scrolling, because it is the actual job at Applied Materials, not a nice-to-have.
+
+There I size the semiconductor market with Sales, Engineering and Accounts, turning scattered field input into one forecast, and I run the AI agents built on Claude that handle the repetitive first pass so the review step this role asks for happens every cycle, not the occasional one.
+At Sensata I owned go-to-market for a new sensing line split between OEM engineers and distributor accounts: 30+ structured interviews fed the launch plan, 50+ reps got armed, $2M+ in first-year revenue.
+The scope here spans agents, models and Enterprise solutions, closer to that Sensata split than a single launch.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/meta
+
+Open to 15 minutes to see where a market view like this would break first? Happy to be redirected if someone else owns this req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
