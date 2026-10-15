@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>LinkedIn Product Marketing Manager, Job Seeker Audience Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #0a66c2; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 23pt; font-weight: 800; color: #0f172a; line-height: 1.18; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 19.5pt; font-weight: 800; color: #0f172a; line-height: 1.14; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #0a66c2; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.7in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #e0f2fe 100%); }
+  .cover h1 { font-size: 21.5pt; max-width: 11.6in; }
+  .cover .sub { font-size: 13.5pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 15pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #0a66c2; font-weight: 700; }
+  .cover .who { margin-top: 15pt; padding-top: 11pt; border-top: 1.5pt solid #0a66c2; max-width: 9.6in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #0a66c2; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #eef6fd; border-left: 3pt solid #0a66c2; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #0b4e85; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #0a66c2; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #eef6fd; border-left: 4pt solid #0a66c2; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #0b4e85; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0a66c2; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 19pt; font-weight: 800; color: #0a66c2; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0a66c2; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #0a66c2; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #0a66c2; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #e0f2fe 100%); }
+  .close h2 { font-size: 22pt; max-width: 10.9in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.6in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #0a66c2; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the LinkedIn Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | LinkedIn Product Marketing Manager, Job Seeker Audience</div>
+  <h1>Job seekers need a narrative that turns millions of individual searches into trust in one platform. I have already built that narrative from a blank page, for job seekers specifically, and run it again at marketplace scale.</h1>
+  <div class="sub">An AI job-search platform built for job seekers, and a $2M+ GTM built on 30+ voice-of-customer interviews, on the same resume.</div>
+  <div class="tags">
+    <div class="tag"><strong>50+ early users</strong> on an AI job-search platform built zero-to-one for job seekers</div>
+    <div class="tag"><strong>30+ customer interviews</strong> turned into roadmap decisions and a +22% CSAT lift</div>
+    <div class="tag"><strong>$2M+ first-year revenue</strong> from an audience-led GTM launch</div>
+    <div class="tag"><strong>10+-player competitive benchmark</strong> behind a 12% YoY price move</div>
+    <div class="tag"><strong>AI agents built on Claude</strong> automating my own recurring analysis today</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-product-ai.vercel.app/ref/linkedin</div>
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>This role is not "manage a launch calendar." It is becoming the voice of the job seeker inside Product, Design, Engineering and Research, with <span class="accent">a narrative no one else owns yet.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What that actually requires</h4>
+      <div class="line">Deep, repeated contact with job seekers themselves, qualitative and quantitative, because a roadmap built on dashboards alone misses why people actually searched in the first place.</div>
+      <div class="line">A differentiated narrative that travels: one story that works in a launch deck, a positioning doc and an exec review, not three separate versions of the truth.</div>
+      <div class="line">The discipline to turn audience insight into a product-investment argument, not just a campaign, because the real decision this role influences is what gets built next.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run</h4>
+      <div class="line">I built <b>an AI job-search platform for job seekers</b> from zero: the research, the ICP, the positioning and the product decisions were all mine to make.</div>
+      <div class="line">At <b>Sensata</b>, 30+ structured customer interviews fed directly into product roadmap decisions, not just messaging, and raised CSAT 22%.</div>
+      <div class="line">I have turned technical complexity into a story a non-technical buyer could act on immediately, lifting conversion 15% on priority launches.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">The through-line: every narrative I have built started with direct audience contact, not a dashboard, and ended with a product or revenue decision it changed.</div>
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The mandate, mapped</div>
+  <h2>What the posting asks for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Be the voice of the Job Seeker: develop a deep understanding of job seeker needs, motivations, pain points, and behaviors through qualitative and quantitative research."</div></div>
+      <div class="quote"><div class="q">"Influence product strategy and roadmap: partner with Product, Design, Engineering, and Research to identify unmet needs, market opportunities, and emerging trends."</div></div>
+      <div class="quote"><div class="q">"Lead go-to-market strategy and execution: own end-to-end go-to-market plans for new features, products, and insights."</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>SwipeHire, built for job seekers:</b> an AI job-search platform built zero-to-one, with auto-tailored resumes and visa-aware matching, onboarding 50+ early users.</div></div>
+      <div class="proof"><div class="p"><b>Sensata, voice of the customer:</b> 30+ structured interviews with OEMs and distributors fed straight into the product roadmap and raised CSAT 22%.</div></div>
+      <div class="proof"><div class="p"><b>Sensata, audience-led GTM:</b> owned positioning, messaging, channel and launch end to end for new sensing products, driving $2M+ in first-year revenue.</div></div>
+      <div class="proof"><div class="p"><b>Sensata, roadmap ownership:</b> defined and executed the product roadmap for an entire sensor line, managing a 100+ feature backlog with Engineering across 3 regions.</div></div>
+    </div>
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>Talk to the audience first, ship the narrative, then <span class="accent">put a number on it.</span></h2>
+  <div class="lede">Same pattern across a solo build and two roles at Sensata: get direct contact with the people who matter, turn it into a story and a roadmap argument, then measure whether it moved a number the business was accountable for.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">50+ Users</div>
+      <div class="lbl">AI Job-Search Platform, Zero to One</div>
+      <div class="desc">Built the ICP, positioning and product decisions for job seekers myself, with no team or playbook to inherit.</div>
+    </div>
+    <div class="stat">
+      <div class="n">30+ Interviews</div>
+      <div class="lbl">Voice of the Customer Into the Roadmap</div>
+      <div class="desc">Structured research with OEMs and distributors that shaped product decisions and lifted CSAT 22% at Sensata.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$2M+ Revenue</div>
+      <div class="lbl">Audience-Led GTM, End to End</div>
+      <div class="desc">Positioning, messaging, channel and launch owned start to finish for new sensing products across two continents.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">None of these was a research deck that sat in a folder. Each one closed the loop from audience insight to a product or revenue number leadership was accountable for.</div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month on the Job Seeker audience team looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Listen before narrating anything</div>
+      <div class="body">Pull the existing qualitative and quantitative research on job seeker needs, pain points and behaviors, then run the first round of direct conversations to find what the data alone cannot explain.</div>
+      <div class="why"><strong>Why first:</strong> the same discipline behind 30+ structured interviews at Sensata, audience contact before a single slide gets built.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Ship the first audience narrative</div>
+      <div class="body">Build the first differentiated positioning and messaging story with Product, Design and Research, one narrative that works in a roadmap review and a launch deck, not two different versions of the truth.</div>
+      <div class="why"><strong>Why now:</strong> the same translation that turned technical sensing features into a 15% conversion lift at Sensata.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Turn insight into a roadmap argument</div>
+      <div class="body">Package the research into a product-investment case for the next feature or insight launch, then automate the recurring reporting step with the first AI agent so the insight loop keeps running every cycle.</div>
+      <div class="why"><strong>Why this fast:</strong> the same habit that keeps my own competitive reporting moving at Applied Materials today, not a plan for someday.</div>
+    </div>
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to be the voice of the job seeker inside Product. I have already built that voice from scratch, for job seekers specifically, and run it again at marketplace scale.</h2>
+  <div class="body">
+    <p>The audience half: <strong>an AI job-search platform</strong> built zero-to-one for job seekers, 50+ early users, and 30+ structured customer interviews at Sensata that fed straight into product roadmap decisions and a 22% CSAT lift.</p>
+    <p>The GTM half: <strong>$2M+ in first-year revenue</strong> from an audience-led launch, plus a 10+-player competitive benchmark behind a 12% YoY price move. At Applied Materials I now automate my own recurring market analysis with agents built on Claude, because rebuilding the same report every cycle is time that should go into the next audience narrative.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-product-ai.vercel.app/ref/linkedin</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
