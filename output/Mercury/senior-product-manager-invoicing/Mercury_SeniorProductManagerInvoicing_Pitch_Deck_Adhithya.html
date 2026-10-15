@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Mercury Senior Product Manager, Invoicing Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #1a56db; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 24pt; font-weight: 800; color: #0f172a; line-height: 1.18; letter-spacing: -0.4pt; margin-bottom: 8pt; }
+  h2 { font-size: 19pt; font-weight: 800; color: #0f172a; line-height: 1.16; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #1a56db; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.8in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbeafe 100%); }
+  .cover h1 { font-size: 20.5pt; max-width: 11.3in; }
+  .cover .sub { font-size: 12.5pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; max-width: 10.9in; }
+  .cover .tags { margin-top: 15pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.6in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9pt; font-weight: 500; }
+  .tag strong { color: #1a56db; font-weight: 700; }
+  .cover .who { margin-top: 15pt; padding-top: 9pt; border-top: 1.5pt solid #1a56db; max-width: 9.6in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #1a56db; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #eff6ff; border-left: 3pt solid #1a56db; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #1e3a8a; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #1a56db; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.4pt; color: #334155; line-height: 1.46; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 13pt; background: #eff6ff; border-left: 4pt solid #1a56db; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #1e3a8a; line-height: 1.46; font-weight: 600; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #1a56db; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.3pt; font-weight: 800; color: #0f172a; line-height: 1.18; margin-bottom: 7pt; }
+  .card .body { font-size: 8.8pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.3pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #1a56db; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbeafe 100%); }
+  .close h2 { font-size: 20pt; max-width: 10.9in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.9in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #1a56db; font-weight: 700; }
+  .close .contact { margin-top: 15pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Mercury Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Mercury Senior Product Manager, Invoicing</div>
+  <h1>Invoicing already works. The next bet is which backlog item (accounting integrations, credit memos, promos) earns its complexity first, without losing the simplicity that won these customers.</h1>
+  <div class="sub">A roadmap-and-backlog discipline built end to end before: a 100+-feature backlog run with Engineering across 3 regions, 30+ customer interviews that reshaped what shipped, and an AI product built from PRD to launch on a live API.</div>
+  <div class="tags">
+    <div class="tag"><strong>100+-feature backlog</strong> - Sensata roadmap run with Engineering across 3 regions, releases 25% faster</div>
+    <div class="tag"><strong>30+ customer interviews</strong> - Sensata discovery that raised CSAT 22%</div>
+    <div class="tag"><strong>$2M+ GTM owned end to end</strong> - positioning through pricing through channel, Sensata</div>
+    <div class="tag"><strong>50K+ devices tracked</strong> - KPI frameworks lifting feature adoption 18%</div>
+    <div class="tag"><strong>Claude AI agents</strong> - automating repetitive analysis today at Applied Materials</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-product-ai.vercel.app/ref/mercury</div>
+  </div>
+  <div class="brand">MERCURY INVOICING PM PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>A product that already works has a harder roadmap problem than a greenfield one: every backlog item has to earn its complexity against the simplicity that won customers in the first place. <span class="accent">That is a sequencing discipline, not a shipping-speed one.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What that actually requires</h4>
+      <div class="line">Deciding what ships first across a known, sprawling backlog (integrations, templates, credit memos, promos) with no blank-slate excuse.</div>
+      <div class="line">Measuring the bet in active users, feature adoption and retention, not shipped-feature count.</div>
+      <div class="line">Keeping Engineering, Design, Data Science, Product Marketing, Support, Sales and Risk aligned behind one sequencing call.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already built at that layer</h4>
+      <div class="line">Owned a <b>100+-feature backlog</b> for Sensata's sensor roadmap with Engineering across 3 regions, cutting time-to-market 20% by deciding what mattered most each sprint.</div>
+      <div class="line">Built <b>KPI frameworks in SQL and GA4</b> across 50K+ connected devices to track the adoption and retention signals a feature actually needs to clear.</div>
+      <div class="line">Equipped reps with <b>sales enablement</b> and aligned Engineering, Sales and regional stakeholders behind one roadmap, lifting win rates 30%.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">The through-line: sequencing a sprawling, already-live backlog against adoption and retention math, not shipping as many features as possible, is the same discipline Sensata's roadmap ran on.</div>
+  </div>
+  <div class="brand">MERCURY INVOICING PM PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The mandate, mapped</div>
+  <h2>What the role covers, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">Own the roadmap for Mercury Invoicing across every surface: the dashboard, the builder and the payer experience.</div></div>
+      <div class="quote"><div class="q">Take on a full backlog of work we already know customers need: accounting integrations, invoice templates, credits and credit memos, promos and coupons.</div></div>
+      <div class="quote"><div class="q">Find where AI can make getting paid meaningfully better, without chasing hype.</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>Sensata roadmap:</b> 100+-feature backlog run with Engineering across 3 regions, releases 25% faster, time-to-market cut 20%.</div></div>
+      <div class="proof"><div class="p"><b>Sensata discovery:</b> 30+ customer interviews with OEMs and distributors, raising CSAT 22% by turning feedback into shipped changes.</div></div>
+      <div class="proof"><div class="p"><b>Applied Materials:</b> AI agents built on Claude automating repetitive analysis today, the same hype-free instinct the role asks for.</div></div>
+    </div>
+  </div>
+  <div class="brand">MERCURY INVOICING PM PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">A first pass at sequencing the backlog</div>
+  <h2>Accounting integrations, credit memos and promos all earn their place. <span class="accent">Which one earns it first is a product-judgment call, not a coin flip.</span></h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Accounting Integrations</div>
+      <div class="ttl">The widest segment unlock</div>
+      <div class="body">Technology and Professional Services customers likely already live inside QuickBooks, Xero or NetSuite; closing that loop removes a manual reconciliation step for the segment with the highest switching cost once it is automated away.</div>
+      <div class="why"><strong>Why first:</strong> the same segment-level adoption instinct that built KPI frameworks across 50K+ devices at Sensata, before feature count.</div>
+    </div>
+    <div class="card">
+      <div class="label">Credits &amp; Credit Memos</div>
+      <div class="ttl">The detail that protects trust, not the one that grows usage</div>
+      <div class="body">Invoices are money, and a credit memo is the moment a mistake becomes a customer-trust problem. It is the retention lever in the role's own growth metric, not the active-user one.</div>
+      <div class="why"><strong>Why next:</strong> the same close-attention discipline that carried multimillion-dollar customer quotes at Sensata without a pricing error reaching a customer.</div>
+    </div>
+    <div class="card">
+      <div class="label">Promos &amp; Coupons</div>
+      <div class="ttl">Sequence last, not never</div>
+      <div class="body">A promo or coupon changes how a payer interacts with the invoice itself, the riskiest surface to touch before the dashboard and builder are already earning trust on the basics.</div>
+      <div class="why"><strong>Why last:</strong> the same simplicity discipline that kept Sensata's 100+-feature backlog shipping 25% faster, a feature that is not load-bearing does not jump the queue.</div>
+    </div>
+  </div>
+  <div class="brand">MERCURY INVOICING PM PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month owning the Invoicing backlog would look like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Sit with customers already live on Invoicing</div>
+      <div class="body">Talk to Technology, Professional Services and Real Estate customers before writing a backlog order, the same customer-interview discipline that shaped Sensata's 100+-feature backlog.</div>
+      <div class="why"><strong>Why first:</strong> a sequencing call made before the customer conversation is a guess, not a plan.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Size each backlog bet against active users, adoption and retention</div>
+      <div class="body">Pair the interview signal with the three metrics the role is measured on, the same discipline that turned Sensata's KPI frameworks into an 18% adoption lift across 50K+ devices.</div>
+      <div class="why"><strong>Why now:</strong> a backlog item that cannot show its adoption case gets deprioritized the first time it competes for engineering time.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Ship the first bet already aligned with Engineering and Design</div>
+      <div class="body">Bring Engineering, Design and Data Science the sequencing call and the reasoning behind it together, the same cross-regional alignment that carried a $2M+ Sensata launch end to end.</div>
+      <div class="why"><strong>Why this fast:</strong> a PM who brings the reasoning, not just the ticket, ships fewer surprises to the team building it.</div>
+    </div>
+  </div>
+  <div class="brand">MERCURY INVOICING PM PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>Invoicing needs a PM who can sequence a sprawling, already-live backlog by judgment, not just inherit one. I have already run that discipline at scale.</h2>
+  <div class="body">
+    <p>The core proof is Sensata: a 100+-feature roadmap owned end to end with Engineering across 3 regions, cutting time-to-market 20% and shipping releases 25% faster, built on 30+ customer interviews that raised CSAT 22%.</p>
+    <p>What is harder to find is someone who has also carried the money-is-costly side directly: multimillion-dollar customer quotes shaped alongside senior executives, and a $2M+ product launch owned end to end from positioning through pricing through channel. I bring the same discipline to the Invoicing backlog, and I keep building with AI tools today, automating repetitive analysis with <strong>Claude agents</strong> at Applied Materials.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-product-ai.vercel.app/ref/mercury</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">MERCURY INVOICING PM PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
