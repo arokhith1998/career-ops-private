@@ -1,0 +1,18 @@
+Subject: The hypothesis-to-recommendation loop, already run at scale
+
+Hi {Recruiter, Pricing Strategy},
+
+Your Pricing Strategy req describes the job as hypothesis, analyze, validate, recommend. I ran that loop for two straight quarters at Sensata: the Bleeders and Leakers program ranked 1,200 pricing opportunities against a $627M target across 3 regions and 4 product families, recovered $700K+ in margin, and raised distributor and channel-partner margins from 53% to 61% once Sales and Finance signed off on the model.
+
+I'm now building PriceKeel, a decision-integrity layer for B2B SaaS deal pricing, the same guardrail thinking a new SKU or packaging model needs before it touches the existing base.
+
+Portfolio: adhi-pricing-ai.vercel.app/ref/salesforce
+
+Open to 15 minutes to walk through it, or a pointer to whoever owns this req?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
