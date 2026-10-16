@@ -1,0 +1,21 @@
+Subject: Owning specs for AI Core Services, not just backlog triage
+
+Hi {Hiring Manager, Tanium AI Core Services},
+
+I don't normally write in before applying, but "PMs author the specs that drive engineering execution" is the exact loop I run today, not a process I would be learning on day one.
+
+At Applied Materials, I use AI agents built on Claude to turn raw signal into forecasts and requirements instead of doing that triage by hand, the same shift from manual grooming to AI-assisted spec writing this role asks for.
+At Sensata, I owned the roadmap and a 100+ feature backlog with engineering across 3 regions, writing acceptance criteria myself and shipping releases 25% faster while cutting time-to-market 20%.
+That backlog order came from 30+ structured interviews with OEMs and distributors, not guesswork, and the fixes it drove lifted CSAT 22%.
+Every one of those calls moved through engineering, sales and distributor partners who did not report to me, the same influence-without-authority this req is asking for.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/tanium
+
+Would 15 minutes on how I would spec the first AI Core Services capability be useful? If this is not your req, a pointer helps just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
