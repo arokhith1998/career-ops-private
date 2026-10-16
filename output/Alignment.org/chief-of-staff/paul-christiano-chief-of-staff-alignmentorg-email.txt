@@ -1,0 +1,21 @@
+Subject: Chief of Staff, the ops stack I am already running for my own company
+
+Hi Paul,
+
+I do not normally reach out before applying, but your posting's line about ARC expecting AI to become the main way it scales, while still needing someone to define workflows rather than inherit them, is close to what I built this year at PriceKeel.
+
+A few proof points instead of a longer pitch:
+- Built PriceKeel's CRM, CPQ, forecast and deal approval process from a blank page, the audit trail a growing team runs hiring and governance on.
+- Hired and led an 8 person team at Pixis, carrying P&L targets and cutting client churn 50%.
+- At Applied Materials I build AI agents on Claude that act on forecasting and analysis instead of summarizing it.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/alignmentorg
+
+If someone else on the team owns this search, a pointer would help. Otherwise, 15 minutes on how ARC is sequencing the hiring push would be great.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
