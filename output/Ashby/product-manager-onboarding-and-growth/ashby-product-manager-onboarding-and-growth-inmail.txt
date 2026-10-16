@@ -1,0 +1,22 @@
+Subject: The PQL bridge between product and RevOps
+
+Hi {Recruiter, Growth Product},
+
+Most growth PM reqs lean on A/B tests. Yours says that will not get you to the right onboarding design here, research and product taste will, which is a harder brief and a more honest one.
+
+Built a 6-slide pitch deck on that bridge: product signals that actually predict adoption, routed into a PQL definition RevOps can act on.
+
+I scoped SwipeHire's onboarding zero to one, PRD to 50+ users, on 8+ A/B tests and 12+ interviews.
+At Sensata, I turned SQL and GA4 data from 50,000+ devices into the adoption metrics that fed a roadmap lifting CSAT 22%.
+At Pixis, I ran an 8-person CS team across 8 accounts and cut churn 50%.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/ashby
+
+Open to 15 minutes on where this req stands?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

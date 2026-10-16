@@ -1,0 +1,20 @@
+Subject: Not an A/B-testing seat, a research one
+
+Hi {Recruiter, Growth Product},
+
+I do not usually write in before applying, but Geo's framing, a research seat rather than an A/B-testing one, for the first team Ashby has built around growth and onboarding, pulled me off the sidelines.
+
+Built a 6-slide pitch deck on that handoff: where onboarding stops being Customer Success's manual save and becomes something product and email carry alone.
+
+I scoped and shipped SwipeHire's onboarding zero to one, PRD through MVP, running 8+ A/B tests and 12+ interviews before trusting the sequence, to 50+ users.
+At Sensata, 30+ structured interviews found the fix that lifted CSAT 22%.
+I turned SQL and GA4 data from 50,000+ connected devices into the KPI framework behind adoption signals, the same job as a PQL definition.
+
+If this req sits with your desk, 15 minutes would help. If not, a pointer to whoever owns it helps just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

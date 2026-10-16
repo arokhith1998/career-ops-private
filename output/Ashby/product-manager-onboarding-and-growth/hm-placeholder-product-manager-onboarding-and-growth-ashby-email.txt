@@ -1,0 +1,20 @@
+Subject: Productizing what Customer Success already built
+
+Hi {Hiring Manager, Growth Product},
+
+I do not usually reach out before applying, but the way this req is framed, Customer Success designed onboarding by hand and now needs a single owner to productize it, is a brief I already know how to run.
+
+Built you a 6-slide pitch deck on that handoff: where the product and transactional email layers pick up what a human conversation used to carry.
+
+I wrote the PRD and scoped SwipeHire's onboarding zero to one, then ran 8+ A/B tests and 12+ user interviews before shipping a fix, closing on 50+ early users.
+At Sensata, I turned SQL and GA4 telemetry from 50,000+ connected devices into the KPI framework that separated real adoption signals from noise, the same muscle a PQL definition needs.
+I ran an 8-person Customer Success team at Pixis across 8 accounts and cut churn 50%, so I know what this handoff looks like from the other side of the desk.
+
+Worth 15 minutes to see if the fit is real? Happy to be pointed elsewhere if this is not your req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
