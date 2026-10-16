@@ -1,0 +1,20 @@
+Subject: Owning the first-contact response rate, not managing an agency that does
+
+Hi {Recruiter, Develop Health},
+
+I do not normally reach out before applying, but "you ship it yourself, AI-first, without a review committee" is already how I work, not a change I would be making for this job.
+
+At Plug Power I automated the WordPress-to-Pardot lead flow myself, cutting cost per lead 50%, after running 15+ A/B tests across paid and landing pages on $100K/month in spend.
+At Pixis I set channel mix client by client across an 8-client, $15K-$90K/month portfolio, adding a channel only when the response data backed it, and cut churn 50%.
+At Applied Materials I run Claude agents on my own forecasting and reporting daily, the same ship-it-yourself habit a one-person provider-activation funnel needs.
+
+Here's the portfolio: https://adhi-growth-ai.vercel.app/ref/develop-health
+
+Worth 15 minutes if this is your req, no worries if it already has an owner.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
