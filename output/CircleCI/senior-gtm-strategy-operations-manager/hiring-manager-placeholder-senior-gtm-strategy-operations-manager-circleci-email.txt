@@ -1,0 +1,22 @@
+Subject: One person owning the dashboard, the model, and the agent behind it
+
+Hi {Hiring Manager, CircleCI GTM Strategy and Operations},
+
+I do not usually reach out before applying, but this req asks one person to own three things usually split across three hires: the dashboard, the model behind it, and the AI agent that keeps it fresh. I already run that stack as one person.
+
+Built the FY2026 Bleeders and Leakers Power BI dashboard at Sensata: 1,200 opportunities against a $627M target across 3 regions, 4 product families and 20 product lines, surfacing $433M in margin gaps.
+Shaped AP26 revenue models with senior executives, then ran the quarterly business reviews that kept Finance and Sales aligned on what a number meant.
+Build and deploy AI agents on Claude at Applied Materials to automate recurring reporting, the same line in your Operations Management section.
+
+Built you a 6-slide pitch deck so the proof fits on one read.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/circleci
+
+Worth 15 minutes to see if the fit is real, happy to be pointed elsewhere if this is not your req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

@@ -1,0 +1,13 @@
+Subject: The dashboard, forecast, and AI-agent loop your GTM Ops posting asks for
+
+I do not usually message before applying, but this req asks for the exact loop I already run day to day: a live dashboard, the forecasting model under it, and AI agents that keep the refresh cycle short.
+
+At Sensata I built the Bleeders and Leakers Power BI dashboard, tracking 1,200 opportunities against a $627M target across 3 regions, 4 product families and 20 product lines, then used what it surfaced to recover $700K+ in margin in two quarters. At Applied Materials I build and deploy AI agents on Claude to automate recurring reporting, the same responsibility named in your Operations Management section.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/circleci
+
+Worth 15 minutes to see if the fit is real?
+
+Thank you,
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
