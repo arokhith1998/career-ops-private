@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>CircleCI Senior GTM Strategy and Operations Manager Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #1a56db; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 32pt; font-weight: 800; color: #0f172a; line-height: 1.08; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 21pt; font-weight: 800; color: #0f172a; line-height: 1.1; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #1a56db; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.5in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbe7fb 100%); }
+  .cover h1 { font-size: 25pt; max-width: 11.4in; }
+  .cover .sub { font-size: 14pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 18pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #1a56db; font-weight: 700; }
+  .cover .who { margin-top: 18pt; padding-top: 11pt; border-top: 1.5pt solid #1a56db; max-width: 9in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #1a56db; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #eef3fc; border-left: 3pt solid #1a56db; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #123a91; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #1a56db; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #eef3fc; border-left: 4pt solid #1a56db; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #123a91; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 24pt; font-weight: 800; color: #1a56db; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #1a56db; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #1a56db; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbe7fb 100%); }
+  .close h2 { font-size: 26pt; max-width: 10.5in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.5in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #1a56db; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the CircleCI Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | CircleCI Senior GTM Strategy &amp; Operations Manager</div>
+  <h1>A GTM reporting layer only earns trust when the dashboards, the forecast and the refresh cycle all survive the next quarter without a rebuild. I already run that loop today.</h1>
+  <div class="sub">Dashboards, bottoms-up forecasting models and AI-agent workflow automation, built and run end to end, not described from the sidelines.</div>
+  <div class="tags">
+    <div class="tag"><strong>$627M</strong> pricing-opportunity target tracked live in a Power BI dashboard I built at Sensata</div>
+    <div class="tag"><strong>$433M</strong> in margin gaps surfaced from that dashboard for leadership to prioritize</div>
+    <div class="tag"><strong>$700K+</strong> recovered in 2 quarters acting on the dashboard's own findings</div>
+    <div class="tag"><strong>Claude AI agents</strong> automate my recurring reporting cycles today, at Applied Materials</div>
+    <div class="tag"><strong>CRM, CPQ, forecast reviews</strong> run end to end as founder of PriceKeel</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhithyabhaskar.vercel.app/ref/circleci</div>
+  </div>
+  <div class="brand">CIRCLECI GTM STRATEGY &amp; OPS</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>The hard part of a GTM analytics suite is not the first dashboard. It is <span class="accent">who keeps the refresh, the forecast and the metric definitions aligned every single cycle.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What a GTM Strategy and Operations team runs into</h4>
+      <div class="line">Bookings, pipeline, expansion and churn views get built for one quarterly business review, then the next cycle turns into a manual refresh because nobody owns the pipeline that feeds them.</div>
+      <div class="line">Finance, Sales and Marketing each keep their own version of a metric, so a bottoms-up forecast quietly drifts from the number Sales is actually carrying.</div>
+      <div class="line">The fix is not another one-off report. It is one owner who builds the dashboard, automates the refresh with AI agents, and closes the process gaps between teams before they show up in a business review.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run, hands on</h4>
+      <div class="line">At <b>Sensata</b>, I built the FY2026 Bleeders and Leakers Power BI dashboard myself: 1,200 opportunities against a $627M target, with its own win-rate and pipeline-stage reporting leadership could trust cycle over cycle.</div>
+      <div class="line">At <b>Applied Materials</b>, I automate the recurring part of that analysis with AI agents built on Claude, so a refresh is a review, not a rebuild.</div>
+      <div class="line">As founder of <b>PriceKeel</b>, I run the CRM, CPQ, forecast and pipeline reviews myself, so I know where a quote-to-close process gap actually lives.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">Own the revenue planning process, build the dashboards, automate the recurring workflows, and keep data integrity across the lifecycle: this is the exact loop I already run, not a step I would need to learn on the job.</div>
+  </div>
+  <div class="brand">CIRCLECI GTM STRATEGY &amp; OPS</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What the Senior GTM Strategy and Operations Manager opening asks for, and where the proof sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Own the annual and quarterly revenue planning process, establishing and tracking quotas and attainment, partnering with Finance and Sales leadership to develop bottoms-up forecasts."</div></div>
+      <div class="quote"><div class="q">"Build and maintain dynamic forecasting models that incorporate pipeline, bookings, expansion, and churn signals."</div></div>
+      <div class="quote"><div class="q">"Build and deploy AI agents to automate recurring workflows, streamline key business reporting, and so the team can focus on strategic work."</div></div>
+      <div class="quote"><div class="q">"Optimize end-to-end GTM processes, including lead management, opportunity management, and customer lifecycle workflows."</div></div>
+    </div>
+    <div class="col">
+      <h3>My Proof</h3>
+      <div class="proof"><div class="p"><b>Sensata Bleeders and Leakers dashboard:</b> an automated live view of 1,200 pricing opportunities against a $627M target, with its own pipeline funnel, win-rate and stage-distribution reporting built in.</div></div>
+      <div class="proof"><div class="p"><b>AP26 revenue models:</b> bottoms-up forecasting with multimillion-dollar customer quotes, built and aligned with senior executives and Finance.</div></div>
+      <div class="proof"><div class="p"><b>Applied Materials automation:</b> recurring forecasting and reporting work automated with AI agents built on Claude, cutting manual refresh work out of the cycle.</div></div>
+      <div class="proof"><div class="p"><b>PriceKeel's CRM, CPQ and audit trail:</b> the lead-to-close workflow and the data-integrity record Finance checks every pricing decision against.</div></div>
+    </div>
+  </div>
+  <div class="brand">CIRCLECI GTM STRATEGY &amp; OPS</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The Sensata proof, in depth</div>
+  <h2>One dashboard, one margin-recovery program, <span class="accent">one executive readout that leadership actually acted on.</span></h2>
+  <div class="lede">The FY2026 Bleeders and Leakers Power BI dashboard tracked 1,200 pricing opportunities against a $627M target across 3 regions, 4 product families and 20 product lines. It was not a one-time report: it ran as the live view the Industrial BU's pricing program worked from every cycle, with win-rate and stage-distribution reporting built in.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$627M</div>
+      <div class="lbl">Target Tracked Live</div>
+      <div class="desc">1,200 pricing opportunities across 3 regions, 4 product families and 20 product lines, with pipeline funnel and stage-distribution views.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$433M</div>
+      <div class="lbl">Margin Gaps Surfaced</div>
+      <div class="desc">Flagged for leadership to prioritize by salesperson and product line, the same operational-metrics flagging a quarterly business review needs.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$700K+</div>
+      <div class="lbl">Margin Recovered in 2 Quarters</div>
+      <div class="desc">The payoff of acting on the dashboard's own findings, not just building and shelving it.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">The common thread: build the automated view, surface what it finds for leadership, then close the loop by acting on it. That is the same loop I would bring to CircleCI's GTM analytics and forecasting suite.</div>
+  <div class="brand">CIRCLECI GTM STRATEGY &amp; OPS</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">How I would ramp into this seat</div>
+  <h2>A realistic first year, built around the role's own four workstreams.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">First Quarter</div>
+      <div class="ttl">Metric definitions aligned, first dashboard shipped</div>
+      <div class="body">Learn the bookings, pipeline and cost data sources, align Finance, Sales and Marketing on one set of metric definitions, and ship the first KPI dashboard against a real quota and attainment baseline.</div>
+      <div class="why"><strong>Why this is realistic:</strong> it is the same opening move behind the Sensata dashboard: align the definition first, then build the view everyone trusts.</div>
+    </div>
+    <div class="card">
+      <div class="label">Second Quarter</div>
+      <div class="ttl">Forecasting model live, first workflow automated</div>
+      <div class="body">Build the bottoms-up forecasting model incorporating pipeline, bookings, expansion and churn signals, then deploy the first AI agent to automate a recurring reporting cycle.</div>
+      <div class="why"><strong>Why now:</strong> the same automate-then-hand-off sequence that let Claude agents take the recurring analysis off my plate at Applied Materials.</div>
+    </div>
+    <div class="card">
+      <div class="label">Second Half</div>
+      <div class="ttl">GTM process gaps closed, suite trusted for planning</div>
+      <div class="body">Optimize the lead, opportunity and customer lifecycle workflows end to end, close the process gaps that cross Finance, Sales and Customer Success, and become the source business reviews route through.</div>
+      <div class="why"><strong>Why this sticks:</strong> the same trust the Sensata dashboard earned once it recovered $700K+ instead of just reporting a number.</div>
+    </div>
+  </div>
+  <div class="brand">CIRCLECI GTM STRATEGY &amp; OPS</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to own GTM analytics, forecasting and workflow automation end to end. I have already built that exact dashboard, automated the cycle behind it, and closed the loop on what it found.</h2>
+  <div class="body">
+    <p>The core proof is Sensata: a <strong>$627M target tracked live</strong> in a Power BI dashboard I built myself, <strong>$433M in margin gaps surfaced</strong> for leadership, and <strong>$700K+ recovered</strong> in two quarters acting on it.</p>
+    <p>What is harder to find is someone who already automates the recurring part of that work with AI agents and runs the CRM, CPQ and forecast reviews from the founder's seat. I run both today, which means the operating cadence this role asks for is not something I would need to build on the job.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhithyabhaskar.vercel.app/ref/circleci</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">CIRCLECI GTM STRATEGY &amp; OPS</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
