@@ -4,9 +4,9 @@ Hi {Recruiter, Ironclad Sales Operations},
 
 I do not normally reach out before applying, but the line about owning the operating cadence across segments and sales motions is work I am already doing, not a new discipline I would be picking up on the job.
 
-At Sensata I built the FY2026 Bleeders and Leakers Power BI dashboard: 1,200 pricing opportunities against a $627M target across 3 regions, 4 product families and 20 product lines, with win rate and stage distribution built in.
+At Sensata I built the FY2026 Bleeders and Leakers Power BI dashboard: 1,200 pricing opportunities against a $627M target across 3 regions, 4 product families and 20 product lines.
 At PriceKeel I set up and run the company's CRM and CPQ, forecast and pipeline reviews, and deal approvals.
-At Applied Materials I automate repetitive analysis work with AI agents built on Claude, the same instinct behind the AI-assisted forecasting this seat asks for.
+At Applied Materials I automate repetitive analysis with AI agents built on Claude, the instinct behind the AI-assisted forecasting this seat asks for.
 
 Built a 6-slide pitch deck mapping that work to Ironclad's pipeline and capacity question.
 
