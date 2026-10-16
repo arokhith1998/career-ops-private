@@ -2,11 +2,11 @@ Subject: ElevenCreative Enterprise PM - the admin layer and Ads Engine together
 
 Hi {Hiring Manager, Enterprise Product - ElevenCreative},
 
-I do not normally reach out before applying, but "impact not job titles" is a culture line I would rather prove than just like, and this req asking one person to own the admin and governance layer while shipping something like Ads Engine on top of it is exactly the shape of work I already run.
+I do not normally reach out before applying, but "impact not job titles" is a culture line I would rather prove than just like, and this req asking one person to own the admin and governance layer while shipping something like Ads Engine is exactly the shape of work I already run.
 
-- At PriceKeel, the company I founded, I designed and built the guardrail engine and the audit trail that gives Finance and RevOps evidence they can trust on every pricing decision, the same admin and governance substance this req names.
+- At PriceKeel, the company I founded, I designed and built the guardrail engine and audit trail that gives Finance and RevOps evidence they can trust on every pricing decision, the same admin and governance substance this req names.
 - At Sensata I owned a 100+ feature backlog in Agile across 3 regions and worked directly with a 50-rep sales team to turn their deal blockers into a prioritized roadmap.
-- At Applied Materials I size the semiconductor market and build value-based pricing models with Sales and Engineering, the same cross-functional pull this seat needs for pricing and packaging calls.
+- At Applied Materials I size the semiconductor market and build value-based pricing models with Sales and Engineering, the cross-functional pull this seat needs for pricing and packaging calls.
 
 Here's the portfolio: https://adhi-product-ai.vercel.app/ref/elevenlabs
 
