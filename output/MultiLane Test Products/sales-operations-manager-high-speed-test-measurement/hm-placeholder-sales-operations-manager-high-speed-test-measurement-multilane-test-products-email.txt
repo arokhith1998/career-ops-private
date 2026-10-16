@@ -1,0 +1,20 @@
+Subject: Building channel sales ops instead of inheriting it
+
+Hi {Hiring Manager, Sales Operations},
+
+I do not normally write in before applying, but a role chartered to build channel sales ops rather than maintain it, inside a brand-new Teradyne and MultiLane venture, is the kind of problem I keep choosing.
+
+At PriceKeel I own the CRM/CPQ system and deal-approval workflow end to end, the same build-from-scratch mandate behind your Salesforce administration and quote-governance lines.
+At Sensata I built the Bleeders and Leakers Power BI forecasting dashboard, ranking 1,200 opportunities against a $627M target across 3 regions and 4 product families, and raised distributor channel margins from 53% to 61% in under 2 quarters.
+At Applied Materials I automate recurring forecasting work with Claude-based AI agents, the pipeline discipline a lean team needs before it scales headcount.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/multilane-test-products
+
+Worth 15 minutes on how the channel program is being scoped, no worries if the timing is off.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
