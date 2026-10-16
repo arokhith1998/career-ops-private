@@ -1,0 +1,20 @@
+Subject: Prototyping AI copilots and call coaching is already how I work
+
+Hi {Hiring Manager, Health Insurance Sales Ops},
+
+I came across the Health Insurance Sales Operations Analyst opening, and the way the posting pairs owning metric definitions with sourcing net new AI and automation projects, rather than treating AI as a side task, is why I am writing before applying.
+
+At Sensata I owned the Bleeders and Leakers Power BI dashboard, a live view of 1,200 pricing opportunities against a $627M target, with win rate and stage distribution, surfacing $433M in margin gaps for leadership to prioritize.
+I joined Applied Materials recently, not actively looking, but I run Claude based AI agents there to automate recurring forecasting work, the habit your AI strategy line is asking for.
+At PriceKeel I set up and run CRM and CPQ, forecast and pipeline reviews, and deal approvals for a sales motion I am building from the ground up.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/gusto
+
+Open to 15 minutes if the timing works, and no worries if this sits with someone else on your team.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
