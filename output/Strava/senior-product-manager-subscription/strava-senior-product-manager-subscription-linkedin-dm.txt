@@ -1,0 +1,1 @@
+Modeled 3 subscription pricing tiers and ran A/B tests that lifted activation 25% on my own product, plus holdout-tested churn and ROAS work at Pixis. Open to a quick chat about the Subscription PM req? adhi-product.vercel.app/ref/strava

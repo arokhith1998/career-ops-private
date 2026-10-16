@@ -1,0 +1,18 @@
+Subject: Subscription strategy at Strava: owning conversion and retention as one loop
+
+Hi {Hiring Manager, Subscription Product},
+
+I don't normally reach out before applying, but the way this req folds free-to-paid conversion and long-term retention into one owned loop, instead of splitting them across two teams, is exactly how I have run subscription work day to day.
+
+I designed the full pricing-tier structure for SwipeHire, my own product, from competitor benchmarks and willingness-to-pay signals, then validated it with 8+ A/B tests that lifted activation 25%. At Sensata I owned a 100+ feature roadmap with Engineering across 3 regions, sequencing by business impact rather than engineering convenience. At Pixis I ran holdout testing to prove 3x ROAS and cut churn 50% through account strategy, the same churn-and-renewal discipline this role tracks.
+
+Here's the portfolio: https://adhi-product.vercel.app/ref/strava
+
+I would like 15 minutes to ask how you are currently sequencing pricing, packaging and renewal experiments, and where the next one should land. Happy to be pointed elsewhere if this sits with someone else on your team.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

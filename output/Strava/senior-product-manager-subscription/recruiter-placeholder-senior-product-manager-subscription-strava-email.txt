@@ -1,0 +1,18 @@
+Subject: Senior PM, Subscription at Strava: the pricing-and-packaging loop I already run
+
+Hi {Recruiter, Subscription/Product},
+
+I don't normally reach out before applying, but the req's line about running experiments across the full funnel, pricing and packaging to messaging, is close to what I built for my own product, not something I only read about.
+
+I modeled 3 subscription pricing tiers for SwipeHire from competitor benchmarks and willingness-to-pay signals, then ran 8+ A/B tests that lifted activation 25%. At Pixis I used holdout testing to validate 3x ROAS and cut client churn 50%. At Sensata I owned a 100+ feature roadmap with Engineering across 3 regions, the cross-functional sequencing a subscription PM needs.
+
+Here's the portfolio: https://adhi-product.vercel.app/ref/strava
+
+If this req is still open, I would like 15 minutes on how the team is splitting pricing, packaging and renewal experiments. A pointer to whoever owns it helps just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
