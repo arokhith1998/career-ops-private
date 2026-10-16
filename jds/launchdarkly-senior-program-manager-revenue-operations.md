@@ -26,7 +26,13 @@ LaunchDarkly is looking for a Senior Program Manager to help the Revenue Operati
 - Experience in B2B SaaS preferred.
 
 ## Work authorization / sponsorship / citizenship / clearance / degree / graduation year
-No sponsorship, visa, citizenship, clearance, or degree-field sentence found in the posting. The only notable security-adjacent content is a recruiting-scam warning: "Legitimate LaunchDarkly recruiters will never ask for money, fees, or banking information before making a job offer." (not a work-authorization statement; included for completeness per fraud-tell convention.)
+No sponsorship, visa, citizenship, clearance, or degree-field sentence found in the posting body text. The only notable security-adjacent content is a recruiting-scam warning: "Legitimate LaunchDarkly recruiters will never ask for money, fees, or banking information before making a job offer." (not a work-authorization statement; included for completeness per fraud-tell convention.)
+
+**Addendum (2026-10-16, re-extraction from the live Greenhouse application page HTML, not just the boards-api content field):** the application form itself carries two gating questions, verbatim:
+- "Are you legally authorized to work in the United States for LaunchDarkly?*"
+- "Do you now, or will you in the future, require sponsorship for employment to work legally for LaunchDarkly in the United States? (Note: This includes visa statuses such as H-1B, and applies even if you don't need sponsorship immediately but will in the future, i.e. OPT/CPT)*"
+
+These are application-intake questions, not a stated "no sponsorship" policy in the JD body - silence in the posting text itself still stands per the not-a-wall rule, but the downstream gate should know the form asks this directly.
 
 ## Comp
 Target pay ranges by Geographic Zone for Level 4:
