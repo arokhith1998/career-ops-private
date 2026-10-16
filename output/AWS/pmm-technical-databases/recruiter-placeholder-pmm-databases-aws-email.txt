@@ -1,0 +1,21 @@
+Subject: Technical PMM, AWS Databases (Job ID A10557825)
+
+Hi {Recruiter, AWS Databases PMMT},
+
+I do not normally reach out before applying, but Job ID A10557825 invites candidates whose "career hasn't followed a traditional path," and mine runs through semiconductors and industrial sensing, not cloud databases. I want to make that case directly.
+
+A few things that map to this req:
+- Built SQL and GA4 KPI frameworks across 50,000+ connected devices at Sensata, turning device data into the market intelligence behind a product launch.
+- Owned GTM (positioning, messaging, launch naming, channels) for a new engineering-heavy product line, driving $2M+ first-year revenue.
+- Automate forecasting and competitive analysis with Claude AI agents at Applied Materials, direct overlap with the preferred AI/ML qualification.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/aws
+
+Worth 15 minutes? Happy to be redirected if this isn't your req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

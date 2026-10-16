@@ -1,0 +1,21 @@
+Subject: Working backwards from the database buyer, not the spec sheet
+
+Hi {Hiring Manager, AWS Databases PMMT},
+
+I do not normally reach out before applying, but "work backwards from customer needs to influence product strategy across the AWS storage and data portfolio" describes the exact motion I run today, just in a different technical domain, and that is rare enough to write to you directly about.
+
+Direct evidence of fit:
+- Build competitive, value-based pricing and forecasting models at Applied Materials by synthesizing Sales and Engineering input into one market view, the same cross-functional synthesis a 200-plus-service portfolio needs.
+- At Sensata, built the KPI frameworks myself in SQL and GA4 across 50,000+ connected devices, the closest analog I have to turning technical telemetry into a customer-value narrative.
+- Owned positioning and messaging that reframed technical features as customer value, lifting conversion 15% on priority launches.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/aws
+
+Worth 15 minutes to compare notes on the database portfolio's positioning gaps? Happy to be pointed elsewhere if I have the wrong person.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
