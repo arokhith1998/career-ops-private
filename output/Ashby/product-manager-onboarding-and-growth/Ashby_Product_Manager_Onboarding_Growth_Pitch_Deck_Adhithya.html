@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Ashby Product Manager, Onboarding and Growth Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #0f766e; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 24pt; font-weight: 800; color: #0f172a; line-height: 1.16; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 20pt; font-weight: 800; color: #0f172a; line-height: 1.12; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #0f766e; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.8in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d5efec 100%); }
+  .cover h1 { font-size: 20pt; max-width: 11.5in; }
+  .cover .sub { font-size: 13pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 15pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.5in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 8.9pt; font-weight: 500; }
+  .tag strong { color: #0f766e; font-weight: 700; }
+  .cover .who { margin-top: 15pt; padding-top: 10pt; border-top: 1.5pt solid #0f766e; max-width: 9.5in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #0f766e; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #e6f5f3; border-left: 3pt solid #0f766e; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9pt; color: #0a5a53; font-style: italic; line-height: 1.38; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9pt; color: #334155; line-height: 1.42; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #0f766e; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.3pt; color: #334155; line-height: 1.46; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #e6f5f3; border-left: 4pt solid #0f766e; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.3pt; color: #0a5a53; line-height: 1.44; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0f766e; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 22pt; font-weight: 800; color: #0f766e; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.3pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.6pt; color: #64748b; line-height: 1.4; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0f766e; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #0f766e; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.3pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.8pt; color: #334155; line-height: 1.42; margin-bottom: 7pt; }
+  .card .why { font-size: 8.3pt; color: #64748b; line-height: 1.42; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #0f766e; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d5efec 100%); }
+  .close h2 { font-size: 22pt; max-width: 10.9in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.3pt; color: #334155; line-height: 1.52; max-width: 10.9in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #0f766e; font-weight: 700; }
+  .close .contact { margin-top: 15pt; font-size: 9.7pt; color: #475569; line-height: 1.58; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Ashby Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Ashby Product Manager, Onboarding and Growth</div>
+  <h1>Your surface area is outgrowing what Customer Success can onboard by hand. I have already owned that exact handoff, from a human-run process to a product and metrics that run it themselves.</h1>
+  <div class="sub">End-to-end onboarding ownership, research-first roadmapping and a Customer Success background, from someone who has shipped two products from a blank page.</div>
+  <div class="tags">
+    <div class="tag"><strong>50+ users</strong> onboarded on SwipeHire, built zero-to-one solo</div>
+    <div class="tag"><strong>100+ feature backlog</strong> owned end to end at Sensata, time-to-market -20%</div>
+    <div class="tag"><strong>30+ interviews</strong> found where onboarding broke, CSAT +22%</div>
+    <div class="tag"><strong>8-person CS team</strong>, 8 accounts, churn -50%</div>
+    <div class="tag"><strong>SQL/GA4 KPI framework</strong>, feature adoption +18%</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-product-ai.vercel.app/ref/ashby</div>
+  </div>
+  <div class="brand">ASHBY PM PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>Onboarding stops scaling the moment it depends on a person instead of a product, <span class="accent">and that moment looks like it has already arrived.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What happens without a single owner</h4>
+      <div class="line">A human-run onboarding motion scales with headcount, not with the product. As the surface area grows and new products launch, Customer Success keeps doing more individual hand-holding instead of the product doing more of the work.</div>
+      <div class="line">Without one owner, Product, Customer Success and RevOps each define "onboarded" differently, and a Product Qualified Lead gets defined three separate times before anyone routes it.</div>
+      <div class="line">The fix is not another dashboard. It is one person who treats discovery, the onboarding design and the adoption metric as a single job, not three handoffs.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run</h4>
+      <div class="line">At <b>Pixis</b>, I ran an 8-person Customer Success team across 8 accounts and cut churn 50% by building account strategy on actual usage data instead of renewal-date urgency, the same proactive, persona-deep relationship Ashby's CS team already owns.</div>
+      <div class="line">At <b>Sensata</b>, I turned raw SQL and GA4 usage data into a KPI framework that told us which signals actually predicted adoption, then owned the 100+ feature roadmap built on top of it.</div>
+      <div class="line">On <b>SwipeHire</b>, I owned onboarding from signup to first match alone, end to end, with no team to hand pieces to.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">A single owner for the customer journey, who defines adoption metrics independently, partners tightly with Customer Success, and owns the Product Qualified Lead definition with RevOps, is describing a job I have done in pieces across three roles and now want to do as one.</div>
+  </div>
+  <div class="brand">ASHBY PM PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What the onboarding and growth opening asks for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">Gain a deep understanding of the entire Customer Journey, then design a thoughtful onboarding experience for each role and stakeholder.</div></div>
+      <div class="quote"><div class="q">You'll be responsible for defining and tracking key metrics to assess whether onboarding helps customers realize value sooner.</div></div>
+      <div class="quote"><div class="q">Own the definition of a Product Qualified Lead and work with the RevOps team to determine how to route them.</div></div>
+      <div class="quote"><div class="q">Exceptional relationships with customer success teams; a growth strategy rooted in principled thinking, research and data, not just A/B testing.</div></div>
+    </div>
+    <div class="col">
+      <h3>My Proof</h3>
+      <div class="proof"><div class="p"><b>Customer journey depth:</b> owned SwipeHire's onboarding flow end to end from signup to first match, and ran 30+ OEM and distributor interviews at Sensata to map where onboarding actually broke.</div></div>
+      <div class="proof"><div class="p"><b>Adoption metrics, built solo:</b> turned SQL/GA4 data on 50K+ devices into a KPI framework that flagged high-intent cohorts and lifted feature adoption 18%, with no dedicated data team.</div></div>
+      <div class="proof"><div class="p"><b>PQL-adjacent discipline:</b> modeled where revenue value was leaking in Power BI and defended that definition with Sales before a dollar moved, the same rigor a PQL definition needs before RevOps will route against it.</div></div>
+      <div class="proof"><div class="p"><b>CS relationships, not theory:</b> was the Customer Success Manager running an 8-person team across 8 accounts, cutting churn 50% on usage-based account strategy, not test variants.</div></div>
+    </div>
+  </div>
+  <div class="brand">ASHBY PM PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>SwipeHire: own onboarding end to end, research first, <span class="accent">then verify with real users.</span></h2>
+  <div class="lede">Built solo from a blank page: wrote the PRD, scoped the MVP, and owned the onboarding flow from signup to first match on Python, OpenAI's API and React, with no team to hand pieces to.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">50+</div>
+      <div class="lbl">Early Users Onboarded</div>
+      <div class="desc">Shipped zero-to-one solo, the same full-stack ownership this role asks for across onboarding, email and feature changes.</div>
+    </div>
+    <div class="stat">
+      <div class="n">12+</div>
+      <div class="lbl">User Interviews</div>
+      <div class="desc">Found exactly where job seekers stalled in onboarding before touching the flow, "principled thinking and research" in practice, not a test guess.</div>
+    </div>
+    <div class="stat">
+      <div class="n">+25%</div>
+      <div class="lbl">Activation Lift</div>
+      <div class="desc">8+ A/B tests on the onboarding flow itself confirmed what the research found, evidence layered on evidence.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">At Sensata that same research-first discipline scaled to a 100+ feature backlog across 3 regions, owned end to end with engineering, cutting time-to-market 20% and lifting CSAT 22% off 30+ customer interviews.</div>
+  <div class="brand">ASHBY PM PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month owning onboarding and growth at Ashby looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Live the customer journey, role by role</div>
+      <div class="body">Sit with Customer Success on live onboarding calls, read the tickets and feature requests already on file, and map how onboarding differs for each role and stakeholder across an organization.</div>
+      <div class="why"><strong>Why first:</strong> the same instinct that had me run 30+ interviews at Sensata before trusting a roadmap call.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Draft the first adoption metric and PQL definition</div>
+      <div class="body">Partner with the data team to define a metric tied to customers realizing value sooner, not just activity, and bring RevOps a first-pass PQL definition built on real product signals to pressure-test.</div>
+      <div class="why"><strong>Why now:</strong> the same KPI-from-scratch work that shipped Sensata's adoption framework.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Ship one onboarding or transactional email change</div>
+      <div class="body">Take one piece of the onboarding experience, product feature or transactional email, from problem definition through a shipped change with engineering, and bring the adoption data back to defend the next move.</div>
+      <div class="why"><strong>Why this fast:</strong> the same end-to-end habit that shipped SwipeHire's MVP without a team behind it.</div>
+    </div>
+  </div>
+  <div class="brand">ASHBY PM PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring a single owner for the customer journey who can define adoption metrics and partner with Customer Success. I have already run both halves of that job.</h2>
+  <div class="body">
+    <p>The Customer Success half is literal: I ran an <strong>8-person CS team</strong> across 8 accounts and cut churn <strong>50%</strong> on usage-based account strategy, the exact partnership depth this role is built to productize into a product motion.</p>
+    <p>The product half is SwipeHire and Sensata: a zero-to-one onboarding flow built solo to <strong>50+ users</strong>, and a <strong>100+ feature backlog</strong> and SQL/GA4 adoption framework owned end to end at Sensata, cutting time-to-market 20% and lifting adoption 18%. Research first, evidence always, is not new territory, it is the job I already do.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-product-ai.vercel.app/ref/ashby</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">ASHBY PM PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
