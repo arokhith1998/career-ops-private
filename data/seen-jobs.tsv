@@ -1,42 +1,42 @@
 job_key	company	title	url	stage	verdict	first_seen	last_seen	times_seen	note
 linkedin.com/jobs/view/4480329707	Ambit Private Limited	Manager / Senior Manager - Group CEO's Office	https://www.linkedin.com/jobs/view/4480329707	dropped	DROP:below-3.0	2026-10-16	2026-10-17	8	
-linkedin.com/jobs/view/4470025236	Google	Senior Product Manager, Generative AI, Google Cloud	https://www.linkedin.com/jobs/view/4470025236	jd_extracted		2026-09-25	2026-10-17	4	
-linkedin.com/jobs/view/4470036025	Google	Senior Product Manager, Generative AI, Google Cloud	https://www.linkedin.com/jobs/view/4470036025	jd_extracted		2026-09-25	2026-10-17	4	
-linkedin.com/jobs/view/4449778495	Instrumentl	Senior Product Manager - Core	https://www.linkedin.com/jobs/view/4449778495	jd_extracted		2026-09-25	2026-10-17	4	
+linkedin.com/jobs/view/4470025236	Google	Senior Product Manager, Generative AI, Google Cloud	https://www.linkedin.com/jobs/view/4470025236	dropped	DROP:over-6-years-experience	2026-09-25	2026-10-17	5	
+linkedin.com/jobs/view/4470036025	Google	Senior Product Manager, Generative AI, Google Cloud	https://www.linkedin.com/jobs/view/4470036025	dropped	DROP:over-6-years-experience	2026-09-25	2026-10-17	5	
+linkedin.com/jobs/view/4449778495	Instrumentl	Senior Product Manager - Core	https://www.linkedin.com/jobs/view/4449778495	dropped	DROP:below-3.0	2026-09-25	2026-10-17	5	
 linkedin.com/jobs/view/4431982232	Palo Alto Networks	Senior Product Manager (SASE Cloud Infrastructure)	https://www.linkedin.com/jobs/view/4431982232	dropped	SKIP:posting-sponsorship-hard-wall	2026-09-25	2026-10-17	5	
-linkedin.com/jobs/view/4453111776	Salesforce	Senior Product Manager, Piper	https://www.linkedin.com/jobs/view/4453111776	jd_extracted		2026-09-25	2026-10-17	4	
-linkedin.com/jobs/view/4431471140	Everpure	Senior Product Manager, Data Management	https://www.linkedin.com/jobs/view/4431471140	jd_extracted		2026-09-25	2026-10-17	4	
+linkedin.com/jobs/view/4453111776	Salesforce	Senior Product Manager, Piper	https://www.linkedin.com/jobs/view/4453111776	dropped	DROP:below-3.0	2026-09-25	2026-10-17	5	
+linkedin.com/jobs/view/4431471140	Everpure	Senior Product Manager, Data Management	https://www.linkedin.com/jobs/view/4431471140	queued		2026-09-25	2026-10-17	5	
 linkedin.com/jobs/view/4470067475	Lightning AI	Senior Product Manager, AI Infrastructure	https://www.linkedin.com/jobs/view/4470067475	dropped	DROP:over-6-years-experience	2026-09-25	2026-10-17	5	
-linkedin.com/jobs/view/4454342603	Yelp	Product Marketing Manager, Consumer Growth Marketing	https://www.linkedin.com/jobs/view/4454342603	jd_extracted		2026-09-25	2026-10-17	4	
-linkedin.com/jobs/view/4453299564	Vapi	Senior Product Manager	https://www.linkedin.com/jobs/view/4453299564	jd_extracted		2026-09-25	2026-10-17	4	
-linkedin.com/jobs/view/4462713073	Amazon Web Services (AWS)	Account-Based Marketing Manager , NAMER Strategic Customer and Partner Marketing	https://www.linkedin.com/jobs/view/4462713073	jd_extracted		2026-09-25	2026-10-17	4	
-linkedin.com/jobs/view/4462808046	PayPal	Senior Product Manager, Braintree Mobile SDK (iOS & Android)	https://www.linkedin.com/jobs/view/4462808046	jd_extracted		2026-09-24	2026-10-17	4	
+linkedin.com/jobs/view/4454342603	Yelp	Product Marketing Manager, Consumer Growth Marketing	https://www.linkedin.com/jobs/view/4454342603	queued		2026-09-25	2026-10-17	5	
+linkedin.com/jobs/view/4453299564	Vapi	Senior Product Manager	https://www.linkedin.com/jobs/view/4453299564	dropped	DROP:below-3.0	2026-09-25	2026-10-17	5	
+linkedin.com/jobs/view/4462713073	Amazon Web Services (AWS)	Account-Based Marketing Manager , NAMER Strategic Customer and Partner Marketing	https://www.linkedin.com/jobs/view/4462713073	dropped	DROP:duplicate-of-4462723019	2026-09-25	2026-10-17	5	
+linkedin.com/jobs/view/4462808046	PayPal	Senior Product Manager, Braintree Mobile SDK (iOS & Android)	https://www.linkedin.com/jobs/view/4462808046	dropped	DROP:below-3.0	2026-09-24	2026-10-17	5	
 linkedin.com/jobs/view/4464054119	One Eighty Collective	Demand Generation Manager | ABM | SaaS	https://www.linkedin.com/jobs/view/4464054119	dropped	SKIP:employer-hidden-no-build	2026-10-17	2026-10-17	4	
-linkedin.com/jobs/view/4479610249	TikTok	Senior Product Manager-Content Product (POI Details)-TikTok Local Service	https://www.linkedin.com/jobs/view/4479610249	jd_extracted		2026-10-17	2026-10-17	3	
-linkedin.com/jobs/view/4463330377	Intuit	Staff Marketing Manager, Paid Search Mid-Market	https://www.linkedin.com/jobs/view/4463330377	jd_extracted		2026-10-17	2026-10-17	3	
-linkedin.com/jobs/view/4463335318	Intuit	Staff Marketing Manager, Paid Search Mid-Market	https://www.linkedin.com/jobs/view/4463335318	jd_extracted		2026-10-17	2026-10-17	3	
-linkedin.com/jobs/view/4450401236	Talkiatry	Senior Growth Marketing Manager, Paid Social	https://www.linkedin.com/jobs/view/4450401236	jd_extracted		2026-10-17	2026-10-17	3	
+linkedin.com/jobs/view/4479610249	TikTok	Senior Product Manager-Content Product (POI Details)-TikTok Local Service	https://www.linkedin.com/jobs/view/4479610249	queued		2026-10-17	2026-10-17	4	
+linkedin.com/jobs/view/4463330377	Intuit	Staff Marketing Manager, Paid Search Mid-Market	https://www.linkedin.com/jobs/view/4463330377	queued		2026-10-17	2026-10-17	4	
+linkedin.com/jobs/view/4463335318	Intuit	Staff Marketing Manager, Paid Search Mid-Market	https://www.linkedin.com/jobs/view/4463335318	dropped	DROP:duplicate-of-4463330377	2026-10-17	2026-10-17	4	
+linkedin.com/jobs/view/4450401236	Talkiatry	Senior Growth Marketing Manager, Paid Social	https://www.linkedin.com/jobs/view/4450401236	queued		2026-10-17	2026-10-17	4	
 linkedin.com/jobs/view/4477729267	TalentHop	Deal Desk Analyst	https://www.linkedin.com/jobs/view/4477729267	dropped	SKIP:employer-hidden-no-build	2026-10-17	2026-10-17	4	
 zapply.jobs/l/d/workday-allstate-allstate-careers-r35710	Allstate	Digital Product Manager - Data Security	https://zapply.jobs/l/d/workday-allstate-allstate-careers-R35710?s=gh-new-grad-jobs-2027	jd_extracted		2026-10-17	2026-10-17	3	
-linkedin.com/jobs/view/4469688375	Autodesk	AI Market and Competitive Intelligence Analyst	https://www.linkedin.com/jobs/view/4469688375	jd_extracted		2026-10-17	2026-10-17	3	
-linkedin.com/jobs/view/4479634846	NVIDIA	Sales Operations Analyst	https://www.linkedin.com/jobs/view/4479634846	jd_extracted		2026-10-17	2026-10-17	3	
-linkedin.com/jobs/view/4479651802	Skyne Beauty	Revenue Operations Analyst	https://www.linkedin.com/jobs/view/4479651802	jd_extracted		2026-10-17	2026-10-17	3	
-linkedin.com/jobs/view/4479650897	GlobalFoundries	Product Manager	https://www.linkedin.com/jobs/view/4479650897	jd_extracted		2026-10-17	2026-10-17	3	
+linkedin.com/jobs/view/4469688375	Autodesk	AI Market and Competitive Intelligence Analyst	https://www.linkedin.com/jobs/view/4469688375	queued		2026-10-17	2026-10-17	4	
+linkedin.com/jobs/view/4479634846	NVIDIA	Sales Operations Analyst	https://www.linkedin.com/jobs/view/4479634846	queued		2026-10-17	2026-10-17	4	
+linkedin.com/jobs/view/4479651802	Skyne Beauty	Revenue Operations Analyst	https://www.linkedin.com/jobs/view/4479651802	queued		2026-10-17	2026-10-17	4	
+linkedin.com/jobs/view/4479650897	GlobalFoundries	Product Manager	https://www.linkedin.com/jobs/view/4479650897	dropped	DROP:below-3.0	2026-10-17	2026-10-17	4	
 linkedin.com/jobs/view/4480806585	Modern Health	Senior Product Marketing Manager	https://www.linkedin.com/jobs/view/4480806585	dropped	SKIP:posting-sponsorship-hard-wall	2026-10-17	2026-10-17	4	
 linkedin.com/jobs/view/4480571424	Crusoe	Senior Digital Marketing Manager	https://www.linkedin.com/jobs/view/4480571424	dropped	DROP:over-6-years-experience	2026-10-17	2026-10-17	4	
-linkedin.com/jobs/view/4480588353	Gantri	Digital Marketing Manager (SF/LA/NYC)	https://www.linkedin.com/jobs/view/4480588353	jd_extracted		2026-10-17	2026-10-17	3	
+linkedin.com/jobs/view/4480588353	Gantri	Digital Marketing Manager (SF/LA/NYC)	https://www.linkedin.com/jobs/view/4480588353	queued		2026-10-17	2026-10-17	4	
 linkedin.com/jobs/view/4480806505	Genentech	Federal Pricing Manager	https://www.linkedin.com/jobs/view/4480806505	jd_extracted		2026-10-17	2026-10-17	3	
 linkedin.com/jobs/view/4479664160	Antaha	Founder's Office	https://www.linkedin.com/jobs/view/4479664160	dropped	DROP:below-comp-floor	2026-10-17	2026-10-17	4	
-linkedin.com/jobs/view/4453373510	Latham & Watkins	Senior Manager - Revenue Operations	https://www.linkedin.com/jobs/view/4453373510	jd_extracted		2026-10-17	2026-10-17	3	
-linkedin.com/jobs/view/4451919977	Tanium	Product Manager - Virtual & Physical Appliances	https://www.linkedin.com/jobs/view/4451919977	jd_extracted		2026-10-17	2026-10-17	3	
-linkedin.com/jobs/view/4477729563	Oscar Health	Senior Product Manager, Virtual Care	https://www.linkedin.com/jobs/view/4477729563	jd_extracted		2026-10-17	2026-10-17	3	
+linkedin.com/jobs/view/4453373510	Latham & Watkins	Senior Manager - Revenue Operations	https://www.linkedin.com/jobs/view/4453373510	dropped	DROP:below-3.0	2026-10-17	2026-10-17	4	
+linkedin.com/jobs/view/4451919977	Tanium	Product Manager - Virtual & Physical Appliances	https://www.linkedin.com/jobs/view/4451919977	queued		2026-10-17	2026-10-17	4	
+linkedin.com/jobs/view/4477729563	Oscar Health	Senior Product Manager, Virtual Care	https://www.linkedin.com/jobs/view/4477729563	queued		2026-10-17	2026-10-17	4	
 linkedin.com/jobs/view/4415989270	Affirm	Staff Product Manager, Affirm Bank	https://www.linkedin.com/jobs/view/4415989270	jd_extracted		2026-10-17	2026-10-17	3	
-linkedin.com/jobs/view/4451950675	AKASA	Sr. Product Manager	https://www.linkedin.com/jobs/view/4451950675	jd_extracted		2026-10-17	2026-10-17	3	
-linkedin.com/jobs/view/4479381758	Waymo	Growth Marketing Strategy Lead	https://www.linkedin.com/jobs/view/4479381758	jd_extracted		2026-10-17	2026-10-17	3	
-linkedin.com/jobs/view/4479398054	Waymo	Growth Marketing Strategy Lead	https://www.linkedin.com/jobs/view/4479398054	jd_extracted		2026-10-17	2026-10-17	3	
+linkedin.com/jobs/view/4451950675	AKASA	Sr. Product Manager	https://www.linkedin.com/jobs/view/4451950675	queued		2026-10-17	2026-10-17	4	
+linkedin.com/jobs/view/4479381758	Waymo	Growth Marketing Strategy Lead	https://www.linkedin.com/jobs/view/4479381758	dropped	DROP:below-3.0	2026-10-17	2026-10-17	4	
+linkedin.com/jobs/view/4479398054	Waymo	Growth Marketing Strategy Lead	https://www.linkedin.com/jobs/view/4479398054	dropped	DROP:below-3.0	2026-10-17	2026-10-17	4	
 linkedin.com/jobs/view/4479365404	SiTime	Product Marketing Manager	https://www.linkedin.com/jobs/view/4479365404	dropped	DROP:over-6-years-experience	2026-10-17	2026-10-17	4	
-linkedin.com/jobs/view/4480508083	Mintive	Founding Product Marketing Manager	https://www.linkedin.com/jobs/view/4480508083	jd_extracted		2026-10-17	2026-10-17	3	
-linkedin.com/jobs/view/4480391709	Mintive	Founding Product Marketing Manager	https://www.linkedin.com/jobs/view/4480391709	jd_extracted		2026-10-17	2026-10-17	3	
+linkedin.com/jobs/view/4480508083	Mintive	Founding Product Marketing Manager	https://www.linkedin.com/jobs/view/4480508083	dropped	DROP:duplicate-of-tracker-1272	2026-10-17	2026-10-17	4	
+linkedin.com/jobs/view/4480391709	Mintive	Founding Product Marketing Manager	https://www.linkedin.com/jobs/view/4480391709	dropped	DROP:duplicate-of-tracker-1272	2026-10-17	2026-10-17	4	
 linkedin.com/jobs/view/4480390506	groundcover	Technical Product Marketing Manager	https://www.linkedin.com/jobs/view/4480390506	shortlisted		2026-10-17	2026-10-17	1	
 linkedin.com/jobs/view/4443126045	Culture Amp	Senior Account Based Marketing Manager	https://www.linkedin.com/jobs/view/4443126045	shortlisted		2026-10-17	2026-10-17	1	
 linkedin.com/jobs/view/4480505136	Baseten	Field Marketing Manager	https://www.linkedin.com/jobs/view/4480505136	shortlisted		2026-10-17	2026-10-17	1	
@@ -611,18 +611,18 @@ linkedin.com/jobs/view/4449566978	Eaton	Program Management Leader	https://www.li
 linkedin.com/jobs/view/4477366309	Bradford Consultants LLP	Chief of Strategy	https://www.linkedin.com/jobs/view/4477366309	dropped	DROP:no-target-role-match	2026-10-17	2026-10-17	1	
 linkedin.com/jobs/view/4479373657	Scimplify	Senior Manager – R&D Program & Commercialization	https://www.linkedin.com/jobs/view/4479373657	dropped	DROP:no-target-role-match	2026-10-17	2026-10-17	1	
 linkedin.com/jobs/view/4477354973	Taggd	Program Manager - CHRO Office	https://www.linkedin.com/jobs/view/4477354973	dropped	DROP:no-target-role-match	2026-10-17	2026-10-17	1	
-linkedin.com/jobs/view/4461124113	Fictiv	Senior Product Manager	https://www.linkedin.com/jobs/view/4461124113	queued		2026-09-26	2026-10-17	18	
+linkedin.com/jobs/view/4461124113	Fictiv	Senior Product Manager	https://www.linkedin.com/jobs/view/4461124113	dropped	DROP:duplicate-of-tracker-401	2026-09-26	2026-10-17	19	
 linkedin.com/jobs/view/4426727474	Front	Senior Product Manager - AI	https://www.linkedin.com/jobs/view/4426727474	dropped	DROP:over-6-years-experience	2026-09-26	2026-10-17	4	
-linkedin.com/jobs/view/4463153435	Lyft	Pricing, Yield, & Sales Compensation Manager	https://www.linkedin.com/jobs/view/4463153435	jd_extracted		2026-09-26	2026-10-17	3	
+linkedin.com/jobs/view/4463153435	Lyft	Pricing, Yield, & Sales Compensation Manager	https://www.linkedin.com/jobs/view/4463153435	queued		2026-09-26	2026-10-17	4	
 linkedin.com/jobs/view/4461934278	Roblox	Revenue Operations Manager	https://www.linkedin.com/jobs/view/4461934278	dropped	DROP:over-6-years-experience	2026-09-26	2026-10-17	5	
-linkedin.com/jobs/view/4453385524	Benchling	GTM Strategy & Operations	https://www.linkedin.com/jobs/view/4453385524	jd_extracted		2026-09-26	2026-10-17	4	
-linkedin.com/jobs/view/4435377243	LegalZoom	Product Marketing, Senior Market Research Manager	https://www.linkedin.com/jobs/view/4435377243	jd_extracted		2026-09-26	2026-10-17	3	
-linkedin.com/jobs/view/4454009665	Rippling	Demand Generation Manager	https://www.linkedin.com/jobs/view/4454009665	jd_extracted		2026-09-26	2026-10-17	3	
+linkedin.com/jobs/view/4453385524	Benchling	GTM Strategy & Operations	https://www.linkedin.com/jobs/view/4453385524	dropped	DROP:below-3.0	2026-09-26	2026-10-17	5	
+linkedin.com/jobs/view/4435377243	LegalZoom	Product Marketing, Senior Market Research Manager	https://www.linkedin.com/jobs/view/4435377243	dropped	DROP:below-3.0	2026-09-26	2026-10-17	4	
+linkedin.com/jobs/view/4454009665	Rippling	Demand Generation Manager	https://www.linkedin.com/jobs/view/4454009665	queued		2026-09-26	2026-10-17	4	
 linkedin.com/jobs/view/4442911503	Roblox	Growth Marketing Manager Lead	https://www.linkedin.com/jobs/view/4442911503	dropped	DROP:over-6-years-experience	2026-09-26	2026-10-17	4	
 linkedin.com/jobs/view/4461926457	Glean	Senior Demand Generation Manager	https://www.linkedin.com/jobs/view/4461926457	jd_extracted		2026-09-26	2026-10-17	3	
-linkedin.com/jobs/view/4425927157	You.com	Technical Product Marketing Manager	https://www.linkedin.com/jobs/view/4425927157	jd_extracted		2026-09-25	2026-10-17	3	
-linkedin.com/jobs/view/4425976562	Vercel	Performance Marketing Manager	https://www.linkedin.com/jobs/view/4425976562	jd_extracted		2026-09-25	2026-10-17	4	
-linkedin.com/jobs/view/4462723019	Amazon Web Services (AWS)	Account-Based Marketing Manager , NAMER Strategic Customer and Partner Marketing	https://www.linkedin.com/jobs/view/4462723019	jd_extracted		2026-09-25	2026-10-17	3	
+linkedin.com/jobs/view/4425927157	You.com	Technical Product Marketing Manager	https://www.linkedin.com/jobs/view/4425927157	dropped	DROP:below-3.0	2026-09-25	2026-10-17	4	
+linkedin.com/jobs/view/4425976562	Vercel	Performance Marketing Manager	https://www.linkedin.com/jobs/view/4425976562	dropped	DROP:duplicate-of-tracker-147	2026-09-25	2026-10-17	5	
+linkedin.com/jobs/view/4462723019	Amazon Web Services (AWS)	Account-Based Marketing Manager , NAMER Strategic Customer and Partner Marketing	https://www.linkedin.com/jobs/view/4462723019	queued		2026-09-25	2026-10-17	4	
 linkedin.com/jobs/view/4460428009	C3 AI	Product Manager - C3 Generative AI	https://www.linkedin.com/jobs/view/4460428009	shortlisted		2026-09-25	2026-10-16	3	
 linkedin.com/jobs/view/4453058369	Samsung Semiconductor	Product Marketing Manager	https://www.linkedin.com/jobs/view/4453058369	dropped	DROP:already-tracked	2026-09-24	2026-10-16	10	
 linkedin.com/jobs/view/4452315288	Chime	Sr. Product Marketing Manager, Lending	https://www.linkedin.com/jobs/view/4452315288	dropped	DROP:already-tracked	2026-09-24	2026-10-16	9	
