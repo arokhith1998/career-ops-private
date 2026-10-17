@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Gantri Digital Marketing Manager Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #1a56db; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 32pt; font-weight: 800; color: #0f172a; line-height: 1.08; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 21pt; font-weight: 800; color: #0f172a; line-height: 1.1; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #1a56db; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.5in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbe7fb 100%); }
+  .cover h1 { font-size: 24pt; max-width: 11.4in; }
+  .cover .sub { font-size: 14pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 18pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #1a56db; font-weight: 700; }
+  .cover .who { margin-top: 18pt; padding-top: 11pt; border-top: 1.5pt solid #1a56db; max-width: 9in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #1a56db; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #eef3fc; border-left: 3pt solid #1a56db; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #123a91; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #1a56db; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #eef3fc; border-left: 4pt solid #1a56db; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #123a91; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 24pt; font-weight: 800; color: #1a56db; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #1a56db; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #1a56db; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbe7fb 100%); }
+  .close h2 { font-size: 26pt; max-width: 10.5in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.5in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #1a56db; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Gantri Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Gantri Digital Marketing Manager</div>
+  <h1>A DTC marketing engine is only as trustworthy as the system behind the dashboard. Here is the system I would bring on day one.</h1>
+  <div class="sub">Cross-channel reporting, paid media and email/SMS agency management, and structured testing programs, built once and automated, not rebuilt every cycle.</div>
+  <div class="tags">
+    <div class="tag"><strong>$100K/month</strong> Paid Search and Paid Social budgets owned at Plug Power, CPA down 25%</div>
+    <div class="tag"><strong>3x ROAS</strong> in one month for a fashion D2C brand at Pixis via full-funnel restructuring</div>
+    <div class="tag"><strong>16x ROAS</strong> at GenY Medium rebuilding Google Merchant Center and Meta catalog feeds</div>
+    <div class="tag"><strong>8-person team</strong> running paid media for 8 D2C clients at Pixis, the agency side of this exact relationship</div>
+    <div class="tag"><strong>Claude AI agents</strong> automate recurring reporting today, at Applied Materials</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-growth.vercel.app/ref/gantri</div>
+  </div>
+  <div class="brand">GANTRI DIGITAL MARKETING MANAGER</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>The risk in a DTC marketing engine is not the first campaign. It is <span class="accent">who keeps the agencies and the reporting accountable every cycle after.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What a DTC marketing engine runs into</h4>
+      <div class="line">Paid media and email/SMS agencies each optimize to their own brief, so CAC, ROAS and MER drift apart unless one person owns both relationships and the targets.</div>
+      <div class="line">Cross-channel reporting gets built once for a launch readout, then the next cycle is a manual pull because nobody owns the pixels, UTMs and server-side events feeding it.</div>
+      <div class="line">A testing roadmap stalls between agency check-ins unless someone is running the calendar, not just reviewing it after the fact.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run, hands on</h4>
+      <div class="line">At <b>Plug Power</b>, I automated the Mar-Tech stack (Salesforce, Adobe Analytics, GA, Google Tag Manager) into one closed-loop, cross-channel tracking and reporting system, not a deck I rebuilt by hand.</div>
+      <div class="line">At <b>Pixis</b>, an ad-tech platform, I hired and managed an 8-person team running paid media for 8 D2C clients at $15K-$90K/month each, the agency side of the exact relationship this role owns.</div>
+      <div class="line">At <b>Applied Materials</b>, I automate the recurring part of that reporting work with AI agents built on Claude today.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">Own paid media and email/SMS agency relationships, build cross-channel reporting, and run structured testing programs: this is describing the exact loop I already run, from both sides of the agency table.</div>
+  </div>
+  <div class="brand">GANTRI DIGITAL MARKETING MANAGER</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What the Digital Marketing Manager opening asks for, and where the proof sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Build and own cross-channel performance reporting using multi-touch attribution."</div></div>
+      <div class="quote"><div class="q">"Own paid media agency relationship (briefs, budgets, creative requests, testing roadmaps)."</div></div>
+      <div class="quote"><div class="q">"Own email/SMS agency relationship (campaign calendar, flows, segmentation, deliverability)."</div></div>
+      <div class="quote"><div class="q">"Run structured testing programs (audiences, creative, offers, landing pages)."</div></div>
+    </div>
+    <div class="col">
+      <h3>My Proof</h3>
+      <div class="proof"><div class="p"><b>Plug Power Mar-Tech automation:</b> Salesforce, Adobe Analytics, GA and Google Tag Manager tied into one closed-loop, cross-channel reporting system I built and owned.</div></div>
+      <div class="proof"><div class="p"><b>Pixis agency management:</b> hired and managed an 8-person team running paid media for 8 D2C client budgets, the same brief-budget-testing cadence from the agency's own side of the table.</div></div>
+      <div class="proof"><div class="p"><b>Lead-flow and email automation:</b> rebuilt the WordPress and Pardot lead flow at Plug Power (cost per lead down 50%) and led email and paid launch campaigns at Sensata (+35% qualified leads).</div></div>
+      <div class="proof"><div class="p"><b>Structured testing at scale:</b> 15+ A/B tests across 50+ inbound campaigns at Plug Power, plus full-funnel testing (shopping feed, bidding, creative, lookalikes) at Pixis.</div></div>
+    </div>
+  </div>
+  <div class="brand">GANTRI DIGITAL MARKETING MANAGER</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The DTC proof, in depth</div>
+  <h2>Three ROAS numbers, three different levers, <span class="accent">one habit: restructure the system, not just the ad.</span></h2>
+  <div class="lede">Each result below came from rebuilding how the channel fed the next decision, not from a single creative swap. That is the habit a catalog of Gantri-designed products rewards: fix the feed and the targeting logic once, and every SKU after it inherits the lift.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">3x ROAS</div>
+      <div class="lbl">Fashion D2C Brand, Pixis</div>
+      <div class="desc">Full-funnel restructuring in one month: shopping feed cleanup, smart bidding, creative refresh and lookalike expansion.</div>
+    </div>
+    <div class="stat">
+      <div class="n">16x ROAS</div>
+      <div class="lbl">D2C E-Commerce, GenY Medium</div>
+      <div class="desc">Rebuilt Google Merchant Center and Meta catalog feeds so the right product data reached the right auction.</div>
+    </div>
+    <div class="stat">
+      <div class="n">-25% CPA / -50% CPL</div>
+      <div class="lbl">$100K/Month Budgets, Plug Power</div>
+      <div class="desc">Bid optimization, structured A/B testing and an automated WordPress/Pardot lead flow across Google, Meta, Microsoft and LinkedIn.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">The common thread: own the feed, own the tracking, and let the testing roadmap compound instead of resetting every launch. That is the same loop I would bring to Gantri's DTC engine.</div>
+  <div class="brand">GANTRI DIGITAL MARKETING MANAGER</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">What success looks like, by timeline</div>
+  <h2>A builder of systems ships a plan, not just a first campaign. Here is mine.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">3 Months</div>
+      <div class="ttl">Stack mapped, tracking clean</div>
+      <div class="body">Audit pixels, UTMs and server-side events across the paid media and email/SMS agencies, set CAC/ROAS/MER and contribution-margin targets, and ship the first cross-channel reporting view.</div>
+      <div class="why"><strong>Why this is realistic:</strong> it is the same opening move behind the Plug Power Mar-Tech build: clean the tracking before trusting the numbers on top of it.</div>
+    </div>
+    <div class="card">
+      <div class="label">6 Months</div>
+      <div class="ttl">Testing roadmap running on a calendar</div>
+      <div class="body">Run structured tests across audiences, creative, offers and landing pages on a campaign calendar coordinated with product launches, with both agencies briefed against it.</div>
+      <div class="why"><strong>Why now:</strong> the same brief-to-test cadence I ran 15+ A/B tests on at Plug Power and the full-funnel tests I ran at Pixis.</div>
+    </div>
+    <div class="card">
+      <div class="label">12 Months</div>
+      <div class="ttl">System owned, agencies earning their retainer</div>
+      <div class="body">Own the full reporting and testing system end to end, with both agency relationships evaluated on the same CAC/ROAS/MER targets set in month one.</div>
+      <div class="why"><strong>Why this sticks:</strong> the same standard I held the Pixis agency-side team to, now applied from the client chair.</div>
+    </div>
+  </div>
+  <div class="brand">GANTRI DIGITAL MARKETING MANAGER</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring a builder of systems, not a firefighter. I have already built this exact system, twice, from two different chairs.</h2>
+  <div class="body">
+    <p>The core proof: <strong>$100K/month</strong> in paid budgets owned end to end at Plug Power, with CPA down 25% and cost per lead down 50% once the Mar-Tech stack became one closed-loop reporting system instead of a monthly rebuild.</p>
+    <p>The other half is the agency chair: at Pixis I hired and managed an <strong>8-person team running 8 D2C client budgets</strong>, which is why I know what a paid media and email/SMS agency relationship should deliver, not just what it should cost.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-growth.vercel.app/ref/gantri</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">GANTRI DIGITAL MARKETING MANAGER</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
