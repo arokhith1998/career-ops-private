@@ -1,5 +1,5 @@
 job_key	company	title	url	stage	verdict	first_seen	last_seen	times_seen	note
-linkedin.com/jobs/view/4480329707	Ambit Private Limited	Manager / Senior Manager - Group CEO's Office	https://www.linkedin.com/jobs/view/4480329707	queued		2026-10-16	2026-10-17	7	
+linkedin.com/jobs/view/4480329707	Ambit Private Limited	Manager / Senior Manager - Group CEO's Office	https://www.linkedin.com/jobs/view/4480329707	dropped	DROP:below-3.0	2026-10-16	2026-10-17	8	
 linkedin.com/jobs/view/4470025236	Google	Senior Product Manager, Generative AI, Google Cloud	https://www.linkedin.com/jobs/view/4470025236	jd_extracted		2026-09-25	2026-10-17	4	
 linkedin.com/jobs/view/4470036025	Google	Senior Product Manager, Generative AI, Google Cloud	https://www.linkedin.com/jobs/view/4470036025	jd_extracted		2026-09-25	2026-10-17	4	
 linkedin.com/jobs/view/4449778495	Instrumentl	Senior Product Manager - Core	https://www.linkedin.com/jobs/view/4449778495	jd_extracted		2026-09-25	2026-10-17	4	
@@ -26,7 +26,7 @@ linkedin.com/jobs/view/4480806585	Modern Health	Senior Product Marketing Manager
 linkedin.com/jobs/view/4480571424	Crusoe	Senior Digital Marketing Manager	https://www.linkedin.com/jobs/view/4480571424	dropped	DROP:over-6-years-experience	2026-10-17	2026-10-17	4	
 linkedin.com/jobs/view/4480588353	Gantri	Digital Marketing Manager (SF/LA/NYC)	https://www.linkedin.com/jobs/view/4480588353	jd_extracted		2026-10-17	2026-10-17	3	
 linkedin.com/jobs/view/4480806505	Genentech	Federal Pricing Manager	https://www.linkedin.com/jobs/view/4480806505	jd_extracted		2026-10-17	2026-10-17	3	
-linkedin.com/jobs/view/4479664160	Antaha	Founder's Office	https://www.linkedin.com/jobs/view/4479664160	jd_extracted		2026-10-17	2026-10-17	3	
+linkedin.com/jobs/view/4479664160	Antaha	Founder's Office	https://www.linkedin.com/jobs/view/4479664160	dropped	DROP:below-comp-floor	2026-10-17	2026-10-17	4	
 linkedin.com/jobs/view/4453373510	Latham & Watkins	Senior Manager - Revenue Operations	https://www.linkedin.com/jobs/view/4453373510	jd_extracted		2026-10-17	2026-10-17	3	
 linkedin.com/jobs/view/4451919977	Tanium	Product Manager - Virtual & Physical Appliances	https://www.linkedin.com/jobs/view/4451919977	jd_extracted		2026-10-17	2026-10-17	3	
 linkedin.com/jobs/view/4477729563	Oscar Health	Senior Product Manager, Virtual Care	https://www.linkedin.com/jobs/view/4477729563	jd_extracted		2026-10-17	2026-10-17	3	
