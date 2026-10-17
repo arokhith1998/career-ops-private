@@ -1,0 +1,22 @@
+Subject: The hard half of AI billing is trust, not the meter
+
+Hi {Hiring Manager, AI Monetization & Expansion},
+
+I don't normally reach out before applying, but the line that expansion, monetization and controls depend on each other, not three separate projects, is the real problem here, and I have already run that interdependency as a founder rather than read about it.
+
+At PriceKeel I designed a guardrail engine that recommends an explainable discount limit learned from each company's own closed-won and closed-lost deals, then built the audit trail that lets Finance sign off on the decision, the same trust a spend control needs from an admin.
+At SwipeHire I modeled 3 subscription pricing tiers from competitor benchmarks and willingness-to-pay signals, shipping them zero to one and onboarding 50+ early users.
+At Sensata I built a price-increase model that flagged where a change could lift profitability past 50%, the unit-economics habit variable AI usage needs.
+
+My honest opinion going in: metering the usage is the easy half, making the limit explainable enough that an admin trusts it without replaying every decision is the hard half.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/retool
+
+Worth 15 minutes to see if the fit is real, no worries if this is not your req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
