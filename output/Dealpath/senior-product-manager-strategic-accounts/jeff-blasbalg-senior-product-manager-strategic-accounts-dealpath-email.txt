@@ -1,0 +1,22 @@
+Subject: Strategic Accounts pod: a specific reason I am writing
+
+Hi Jeff,
+
+Your posting draws a clear line between real AI capability and AI slop, and says the bar is judgment, not speed. That is why I am reaching out directly instead of applying blind: judging AI output rather than defaulting to it is the actual hard part of the role you describe for the pod you run.
+
+Three places this maps to your Strategic Accounts roadmap:
+
+- At Applied Materials I run AI agents built on Claude for pricing and market analysis, then apply judgment on what ships into the forecast, not just faster output.
+- At Sensata I owned a 100+ feature backlog for OEM and distributor accounts end to end, running discovery directly with those accounts, which lifted CSAT 22%.
+- At Pixis I managed an 8-account portfolio and cut churn 50% by turning account health signal into roadmap priority early, the retention-and-expansion translation your biggest accounts need.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/dealpath
+
+Open to 15 minutes if the pod has room for a conversation, and glad to be pointed elsewhere if this req has moved on.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
