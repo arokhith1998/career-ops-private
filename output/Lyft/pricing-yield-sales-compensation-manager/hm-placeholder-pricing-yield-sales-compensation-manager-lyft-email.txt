@@ -1,0 +1,20 @@
+Subject: The vendor-accountability piece is the one most candidates skip
+
+Hi {Hiring Manager, Lyft Pricing & Yield},
+
+I do not normally reach out before applying, but owning CPM floors, holding a managed-service vendor to its margin commitments, and building the commission math that pays Ads and Business sellers, inside a function that is still being centralized, reads like three jobs most candidates have only run one lane of. I have run more than one lane.
+
+At Sensata I built a Power BI dashboard tracking 1,200 pricing opportunities against a $627M target, surfacing $433M in margin gaps for leadership to prioritize by salesperson and product line, the same visibility a vendor performance review needs.
+I also repriced parts sold through distribution against margin thresholds, recovering $700K+ in margin in two quarters.
+At PriceKeel, the company I founded, I set up the CRM, CPQ and deal-approval flow myself, so the systems-coordination piece between pricing and Accounting is not new ground.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/lyft
+
+Worth 15 minutes to see if the fit is real, happy to be pointed elsewhere if this is not your req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
