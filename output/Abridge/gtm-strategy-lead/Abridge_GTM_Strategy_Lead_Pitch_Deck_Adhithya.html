@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Abridge GTM Strategy Lead Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #1a56db; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 32pt; font-weight: 800; color: #0f172a; line-height: 1.08; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 21pt; font-weight: 800; color: #0f172a; line-height: 1.1; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #1a56db; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.5in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbe7fb 100%); }
+  .cover h1 { font-size: 23pt; max-width: 11.4in; }
+  .cover .sub { font-size: 14pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 18pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #1a56db; font-weight: 700; }
+  .cover .who { margin-top: 18pt; padding-top: 11pt; border-top: 1.5pt solid #1a56db; max-width: 9in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #1a56db; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #eef3fc; border-left: 3pt solid #1a56db; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #123a91; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #1a56db; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #eef3fc; border-left: 4pt solid #1a56db; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #123a91; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 24pt; font-weight: 800; color: #1a56db; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #1a56db; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #1a56db; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbe7fb 100%); }
+  .close h2 { font-size: 26pt; max-width: 10.5in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.5in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #1a56db; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Abridge Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Abridge GTM Strategy Lead</div>
+  <h1>The hardest part of pricing a new offer is that there is no comparable to point to. I already build that model from scratch, then hand Sales and Finance something they can run with.</h1>
+  <div class="sub">Commercial strategy for offers with no existing pricing precedent, from the first hypothesis to a price book Deal Desk can apply.</div>
+  <div class="tags">
+    <div class="tag"><strong>$700K+</strong> in margin recovered in 2 quarters at Sensata, no comparable to start from</div>
+    <div class="tag"><strong>53% to 61%</strong> distributor margins raised once the evidence called for a new structure</div>
+    <div class="tag"><strong>$2M+</strong> first-year revenue on a sensing line with no pricing precedent in that segment</div>
+    <div class="tag"><strong>PriceKeel</strong>, a guardrail engine built from each company's own closed-won and closed-lost deals</div>
+    <div class="tag"><strong>30+ buyer interviews</strong> run to build a pricing model from research, not benchmarks</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-pricing-ai.vercel.app/ref/abridge</div>
+  </div>
+  <div class="brand">ABRIDGE GTM STRATEGY LEAD</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>The hard part of this req is not pricing a product. It is pricing one <span class="accent">with no reference point to borrow from, then making the call stick.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What a commercial strategy function runs into</h4>
+      <div class="line">A new offer has no existing pricing unit, no comparable deal and no benchmark, so the default is to anchor to the nearest adjacent product even when it does not fit the buyer or the value.</div>
+      <div class="line">The commercial thesis, the economics and the field-ready offer all have to come from the same first draft, written by the person who did the analysis, not handed off halfway.</div>
+      <div class="line">The fix is not another pricing study. It is someone who builds the model from research, takes a position with the evidence available, and hands the business a rule it can apply without reinterpreting it.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run, hands on</h4>
+      <div class="line">At <b>PriceKeel</b>, I built a guardrail engine that recommends an explainable discount guardrail learned from each company's own closed-won and closed-lost deals, because no outside benchmark existed to borrow from.</div>
+      <div class="line">At <b>Sensata</b>, I set the price book and discount floors that Sales and Deal Desk then applied, and changed that structure once the evidence said the old one was wrong, raising distributor margins 53% to 61%.</div>
+      <div class="line">At <b>Sensata</b> again, I priced a new sensing line with no precedent in that segment from 30+ buyer interviews, then owned the GTM that carried it to $2M+ in first-year revenue.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">Define the offer, build the economics from research instead of a comparable, and hand the field a package a buyer can understand: this is the exact loop I already run, on both sides of a deal.</div>
+  </div>
+  <div class="brand">ABRIDGE GTM STRATEGY LEAD</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What the GTM Strategy Lead opening asks for, and where the proof sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Pricing a product with no existing reference point, such as a new category, a new buyer or a new pricing unit."</div></div>
+      <div class="quote"><div class="q">"You've set list prices, tiers or discount floors that a Deal Desk or sales team then applied, and changed a pricing model when the evidence called for it."</div></div>
+      <div class="quote"><div class="q">"Build a working model from incomplete inputs...combining account and usage data with external evidence."</div></div>
+      <div class="quote"><div class="q">"Ownership through completion...left other teams equipped to act."</div></div>
+    </div>
+    <div class="col">
+      <h3>My Proof</h3>
+      <div class="proof"><div class="p"><b>PriceKeel guardrail engine:</b> an explainable discount rule built from each company's own deal history, with no market benchmark to lean on.</div></div>
+      <div class="proof"><div class="p"><b>Sensata price book and repricing:</b> set the discount floors Deal Desk applied, then raised distributor margins 53% to 61% once the data called for a change.</div></div>
+      <div class="proof"><div class="p"><b>Bleeders &amp; Leakers model:</b> $700K+ in margin recovered in 2 quarters, built from account-level transaction data and competitive evidence.</div></div>
+      <div class="proof"><div class="p"><b>New sensing line GTM:</b> handed Sales and the field a package built from 30+ buyer interviews, not a comparable, that reached $2M+ in revenue.</div></div>
+    </div>
+  </div>
+  <div class="brand">ABRIDGE GTM STRATEGY LEAD</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The pricing-from-zero proof, in depth</div>
+  <h2>Three offers, three different starting points, <span class="accent">the same model-first discipline each time.</span></h2>
+  <div class="lede">The common thread: when there is no comparable, build the economics from the company's own data and the buyer's own words first, then write the first draft of the commercial case yourself.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$700K+</div>
+      <div class="lbl">Margin Recovered, 2 Quarters</div>
+      <div class="desc">At Sensata, leading the Bleeders &amp; Leakers program, built from account data and competitive evidence rather than a benchmark.</div>
+    </div>
+    <div class="stat">
+      <div class="n">53% to 61%</div>
+      <div class="lbl">Distributor Margins Repriced</div>
+      <div class="desc">In under 2 quarters, once the evidence called for a new discount structure that Deal Desk and Sales then ran on.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$2M+</div>
+      <div class="lbl">First-Year Revenue, New Line</div>
+      <div class="desc">A sensing product with no pricing precedent in that segment, priced from 30+ OEM and distributor interviews.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">Build the model, take a position, hand the business a rule it can apply: that is the same loop I would bring to Abridge's next offer.</div>
+  <div class="brand">ABRIDGE GTM STRATEGY LEAD</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">What success looks like, by your own timeline</div>
+  <h2>How I would ramp into segmentation, offer definition, and the first commercial launch.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">3 Months</div>
+      <div class="ttl">First offer modeled and tested</div>
+      <div class="body">Take one priority opportunity from hypothesis to a first draft of the commercial thesis, the economics and the target buyer, built from account data and direct buyer research, not a comparable.</div>
+      <div class="why"><strong>Why this is realistic:</strong> it is the same opening move behind the PriceKeel guardrail engine: build the model before reaching for a benchmark.</div>
+    </div>
+    <div class="card">
+      <div class="label">6 Months</div>
+      <div class="ttl">Price book and offer handed to the field</div>
+      <div class="body">Translate the pricing decision into terms Deal Desk and Finance can apply directly, and partner with Sales and Partner Success to test the first commercial argument in live customer conversations.</div>
+      <div class="why"><strong>Why now:</strong> the same handoff that let Sensata's Deal Desk run on my price book without reinterpreting it.</div>
+    </div>
+    <div class="card">
+      <div class="label">12 Months</div>
+      <div class="ttl">Pricing recommendations revisited on evidence</div>
+      <div class="body">Review pricing performance with Finance and Deal Desk against adoption and buying behavior, and change the model again where the results call for it, the same way distributor margins moved 53% to 61%.</div>
+      <div class="why"><strong>Why this sticks:</strong> commercial judgment that holds a position and changes it when the evidence warrants, not a one-time price list.</div>
+    </div>
+  </div>
+  <div class="brand">ABRIDGE GTM STRATEGY LEAD</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to price offers that have never been priced before. I have already built that exact model, on both sides of the deal, more than once.</h2>
+  <div class="body">
+    <p>The core proof is the loop itself: <strong>$700K+ in margin recovered</strong> at Sensata with no benchmark to lean on, <strong>distributor margins moved 53% to 61%</strong> once the evidence called for it, and <strong>$2M+ in first-year revenue</strong> on a new line priced from buyer research instead of a comparable.</p>
+    <p>What is harder to find is someone building that same discipline into a product today. PriceKeel exists because discount decisions on a brand-new offer need an explainable rule, not a guess, which means the model this role needs is not something I would build on the job, it is the one I already run.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-pricing-ai.vercel.app/ref/abridge</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">ABRIDGE GTM STRATEGY LEAD</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>

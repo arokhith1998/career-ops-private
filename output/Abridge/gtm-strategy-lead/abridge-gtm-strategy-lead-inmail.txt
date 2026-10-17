@@ -1,0 +1,20 @@
+Subject: Pricing offers that have never been priced before
+
+Hi {Hiring Manager, Commercial Strategy},
+
+Abridge's move from one product to a platform means pricing offers with no playbook yet, which is the loop I already run end to end, not just the analysis behind it.
+
+Built a 6-slide pitch deck so the proof fits on one read.
+
+At PriceKeel I built a guardrail engine from each company's own deal history since no outside benchmark existed. At Sensata I set the price book Deal Desk ran on, then repriced distributors from 53% to 61% once the evidence called for it.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/abridge
+
+Worth 15 minutes to see if the fit is real?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

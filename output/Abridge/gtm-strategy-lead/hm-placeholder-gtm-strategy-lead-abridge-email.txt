@@ -1,0 +1,22 @@
+Subject: The first draft on a priced-from-zero offer is work I already write myself
+
+Hi {Hiring Manager, Commercial Strategy},
+
+I don't normally cold-email before applying, but a brief that asks you to write the first draft of the commercial thesis yourself, not hand it off halfway, is exactly how I already work.
+
+Built a 6-slide pitch deck mapping that work to this brief.
+
+At Sensata I set the price book and discount floors Deal Desk applied directly, then moved distributor margins from 53% to 61% once the evidence called for a new structure.
+The Bleeders and Leakers model I built from account-level data recovered $700K+ in margin in two quarters with no benchmark to start from.
+At PriceKeel I'm running the same loop now: an explainable discount guardrail learned from a company's own deal history instead of a market comparable.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/abridge
+
+Worth 15 minutes on how the Commercial Strategy team is scoping the next offer? No worries if it's not your seat.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

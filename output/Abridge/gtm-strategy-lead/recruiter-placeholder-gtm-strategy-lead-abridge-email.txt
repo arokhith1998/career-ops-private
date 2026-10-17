@@ -1,0 +1,22 @@
+Subject: A pricing model for Abridge's platform leap, not a product tweak
+
+Hi {Recruiter, Commercial Strategy},
+
+I don't normally reach out before applying, but your posting names the exact problem I already solve: pricing an offer with no existing reference point, no established buyer, and no pricing unit to benchmark against.
+
+Built you a 6-slide pitch deck so the proof fits on one read.
+
+At PriceKeel I built a guardrail engine that recommends discount rules learned from a company's own closed-won and closed-lost deals, with no outside benchmark to lean on.
+At Sensata I recovered $700K+ in margin in two quarters, then raised distributor margins from 53% to 61% once the data called for a new structure.
+A new sensing line I priced from 30+ buyer interviews reached $2M+ in first-year revenue with no precedent in that segment.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/abridge
+
+Worth 15 minutes if this is your req, no worries if it already has an owner.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
