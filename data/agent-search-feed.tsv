@@ -1,10 +1,16 @@
 source	sources	company	title	location	url	posted_ts	age_days	sponsorship_hint	salary	category
-websearch-agent		Windfall Data	Product Marketing Manager	San Francisco, CA	https://jobs.lever.co/windfalldata/d64fdf52-6821-4dd1-b3dd-745ffd018eed/apply
-websearch-agent		Loop AI	Product Marketing Manager	San Francisco, CA	https://jobs.lever.co/Loop%20AI/d0e35f91-e189-43f6-b3c9-9394d418ce24/apply
-websearch-agent		Hike	Chief of Staff, CEO Office	Delhi, India	https://web3.career/chief-of-staff-ceo-office-very-full-time-hike/27413
-websearch-agent		Qureos	Head of Growth	Bangalore, India (remote)	https://jobs.hub71.com/companies/qureos-2/jobs/72432558-head-of-growth
-websearch-agent		Michael Page client	CEO's Office Strategy	Mumbai, India	https://www.michaelpage.co.in/job-detail/ceos-office-strategy/ref/jn-022026-6948231
-websearch-agent		Michael Page client	Chief Of Staff	India	https://www.michaelpage.co.in/job-detail/chief-staff/ref/jn-042026-7004201
-websearch-agent		Arogyam	Entrepreneur in Residence (EIR)	India	https://jobs.weekday.works/entrepreneur-in-residence-eir-at-arogyam-wkdyhg2p3n
-websearch-agent		D2C Insider	Entrepreneur in Residence	Gurugram, India	https://www.d2cinsider.com/careers/Entrepreneur-in-Residence
-websearch-agent		Hireveda client	Executive Assistant / Chief of Staff	Bengaluru, India	https://hireveda.com/job/COS
+websearch-agent	websearch-agent	Hike	Chief of Staff, CEO Office	Delhi, India	https://web3.career/chief-of-staff-ceo-office-very-full-time-hike/27413
+websearch-agent	websearch-agent	Opvia	Chief of Staff	Remote, India	https://jobs.weekday.works/chief-of-staff-at-opvia-in-4417539533
+websearch-agent	websearch-agent	Confidential (life insurance, via Michael Page)	CEO's Office Strategy	Mumbai, India	https://www.michaelpage.co.in/job-detail/ceos-office-strategy/ref/jn-022026-6948231
+websearch-agent	websearch-agent	Confidential (via UP HRM Services)	Chief of Staff	Bangalore, India	https://www.iimjobs.com/j/chief-of-staff-1699019
+websearch-agent	websearch-agent	Arogyam	Entrepreneur in Residence	Bangalore, India	https://jobs.weekday.works/entrepreneur-in-residence-eir-at-arogyam-wkdyhg2p3n
+websearch-agent	websearch-agent	Confidential (via recruiter)	Chief of Staff, Founder's Office	Gurugram/Delhi NCR, India	https://www.iimjobs.com/j/chief-of-staff-founder039s-office-1730908
+websearch-agent	websearch-agent	Chtrbox	Chief of Staff	Mumbai, India	https://www.iimjobs.com/j/chtrbox-chief-of-staff-1716494
+websearch-agent	websearch-agent	Confidential (via Derive Recruiting)	Chief of Staff	Bangalore, India	https://www.iimjobs.com/j/chief-of-staff-1684101
+websearch-agent	websearch-agent	JustAI	Chief of Staff, Founder's Office	India	https://zerogtalent.com/space-jobs/justai/chief-of-staff-founders-office
+websearch-agent	websearch-agent	D2C Insider (client)	Entrepreneur in Residence	Gurugram, India	https://www.d2cinsider.com/careers/Entrepreneur-in-Residence
+websearch-agent	websearch-agent	Airkit (Salesforce)	Pricing Strategy Manager/Senior Manager	San Francisco, CA	https://jobs.accel.com/companies/airkit-2/jobs/84487200-pricing-strategy-manager-senior-manager
+websearch-agent	websearch-agent	Fours	Product Marketing Manager	San Francisco, CA	https://jobs.lever.co/fours/0194b17b-3467-4f95-a07d-77b8e3d49e4d
+websearch-agent	websearch-agent	Windfall Data	Product Marketing Manager	San Francisco, CA	https://jobs.lever.co/windfalldata/d64fdf52-6821-4dd1-b3dd-745ffd018eed/apply
+websearch-agent	websearch-agent	Finch	Product Marketing Manager	San Francisco, CA	https://jobs.lever.co/finch/5085ce27-f2e7-4863-b16c-e3b36ae8ae35
+websearch-agent	websearch-agent	Demandbase	Manager, Deal Desk	Remote, US	https://jobs.firstmark.com/companies/demandbase/jobs/70343755-manager-deal-desk
