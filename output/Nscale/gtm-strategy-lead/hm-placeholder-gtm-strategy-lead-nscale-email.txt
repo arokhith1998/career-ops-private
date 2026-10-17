@@ -1,0 +1,21 @@
+Subject: Capacity sold-forward is a pricing problem wearing a GTM hat
+
+Hi {Hiring Manager, GTM Strategy and Planning, Nscale},
+
+I do not normally message before applying, but allocating scarce GPU capacity through the same operating cadence as pipeline reviews is the actual job, not a GTM title with ops attached on top. I have run that tension between demand, capacity and forecast before.
+
+At PriceKeel, the company I founded, I built the forecast and pipeline review methodology and the deal approval workflow a RevOps team would normally inherit, not design from zero.
+At Sensata I carried P&L and revenue targets for a multi-$100M business and shipped the FY2026 Power BI dashboard: 1,200 opportunities against a $627M target in one scorecard.
+I raised distributor and channel margins from 53% to 61% in two quarters by working the channel economics directly, the same muscle your capacity forum needs.
+At Applied Materials I run Claude agents on the recurring research so the launch retrospective gets written, not skipped.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/nscale
+
+Worth 15 minutes to see if the fit is real, happy to be pointed elsewhere if this is not your team.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
