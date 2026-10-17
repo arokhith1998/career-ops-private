@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Autodesk AI Market and Competitive Intelligence Analyst Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #1a56db; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 32pt; font-weight: 800; color: #0f172a; line-height: 1.08; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 21pt; font-weight: 800; color: #0f172a; line-height: 1.1; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #1a56db; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.5in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbe7fb 100%); }
+  .cover h1 { font-size: 24pt; max-width: 11.4in; }
+  .cover .sub { font-size: 14pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 18pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #1a56db; font-weight: 700; }
+  .cover .who { margin-top: 18pt; padding-top: 11pt; border-top: 1.5pt solid #1a56db; max-width: 9in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #1a56db; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #eef3fc; border-left: 3pt solid #1a56db; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #123a91; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #1a56db; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #eef3fc; border-left: 4pt solid #1a56db; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #123a91; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 24pt; font-weight: 800; color: #1a56db; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #1a56db; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #1a56db; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbe7fb 100%); }
+  .close h2 { font-size: 26pt; max-width: 10.5in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.5in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #1a56db; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Autodesk Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Autodesk AI Market and Competitive Intelligence Analyst</div>
+  <h1>A competitive-intelligence pipeline is only as current as whoever reruns it between refresh cycles. I already run that exact loop, today, without being asked twice.</h1>
+  <div class="sub">Automated research cycles, cross-functional competitive benchmarking, and executive synthesis as a daily habit, not a pitch.</div>
+  <div class="tags">
+    <div class="tag"><strong>10+ competitors</strong> benchmarked at Sensata, driving +8% market share</div>
+    <div class="tag"><strong>$433M</strong> in margin gaps surfaced from a live dashboard, for leadership to act on</div>
+    <div class="tag"><strong>Claude AI agents</strong> automate my recurring research pull today, at Applied Materials</div>
+    <div class="tag"><strong>150+ facilities, 10+ competitors</strong> analyzed building a TAM/SAM/SOM read for Safran's own leadership</div>
+    <div class="tag"><strong>Python, SQL, Power BI</strong> run behind every number above</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhithyabhaskar.vercel.app/ref/autodesk</div>
+  </div>
+  <div class="brand">AUTODESK AI MARKET &amp; CI ANALYST</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>The failure mode in competitive intelligence is not the first report. It is <span class="accent">who keeps the source list and refresh cadence alive after that report ships.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What a CI function runs into</h4>
+      <div class="line">A competitor teardown lands well once, then goes stale within a quarter because nobody owns the source monitoring and refresh cadence behind it.</div>
+      <div class="line">Market signals, product moves, pricing shifts, share changes, arrive from different functions, Sales, Engineering, Product, and never get synthesized into one point of view before a leader needs it.</div>
+      <div class="line">The fix is not one more report. It is one analyst who owns the pipeline, automates the refresh, and turns the signal into a point of view before the C-suite has to ask twice.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run, hands on</h4>
+      <div class="line">At <b>Applied Materials</b>, I size the semiconductor market with Sales, Engineering and Accounts, then automate the recurring part of that analysis with AI agents built on Claude, so a refresh is a review, not a rebuild.</div>
+      <div class="line">At <b>Sensata</b>, I benchmarked 10+ competitors to realign pricing against share shifts, driving +8% market share, and ran a multi-region competitive and customer research program that read purchasing patterns straight out of the field.</div>
+      <div class="line">At <b>Safran</b>, I led a 5-consultant team through a TAM/SAM/SOM build across 170 facilities and 10+ competitors, then presented the market-entry read to Safran's own leadership.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">Build automated systems that produce competitive intelligence, track how AI is reshaping the market, and turn it into a point of view for leaders: this is the exact loop I already run.</div>
+  </div>
+  <div class="brand">AUTODESK AI MARKET &amp; CI ANALYST</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What the AI Market and Competitive Intelligence Analyst opening asks for, and where the proof sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Build and maintain automated systems that produce competitive intelligence."</div></div>
+      <div class="quote"><div class="q">"You've built workflows, agents, or pipelines that run without you. Bring one to the interview."</div></div>
+      <div class="quote"><div class="q">"Synthesize qualitative and quantitative information into clear points of view."</div></div>
+      <div class="quote"><div class="q">"Produce recurring competitive intelligence...for leaders, including the C-suite."</div></div>
+    </div>
+    <div class="col">
+      <h3>My Proof</h3>
+      <div class="proof"><div class="p"><b>Applied Materials automation:</b> recurring market-sizing and forecasting analysis automated with AI agents built on Claude, so the refresh runs on its own cadence instead of a manual re-pull.</div></div>
+      <div class="proof"><div class="p"><b>A workflow that runs without me:</b> that same Claude-agent pipeline is the one I would bring to the interview and walk through.</div></div>
+      <div class="proof"><div class="p"><b>Sensata and Safran synthesis:</b> turned 10+ competitor benchmarks and 150+ facility records into one point of view for leadership, and for Safran's own executives.</div></div>
+      <div class="proof"><div class="p"><b>Executive readouts:</b> briefed senior executives directly on AP26 revenue models and multimillion-dollar customer quotes at Sensata.</div></div>
+    </div>
+  </div>
+  <div class="brand">AUTODESK AI MARKET &amp; CI ANALYST</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The competitive-intelligence proof, in depth</div>
+  <h2>One benchmarking program, one market-entry study, <span class="accent">one executive readout each time.</span></h2>
+  <div class="lede">The common thread across both programs: read the market and the competitor set first, then turn that read into a point of view a leader actually acts on, not a report that sits in a folder.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">10+</div>
+      <div class="lbl">Competitors Benchmarked</div>
+      <div class="desc">At Sensata, informing a pricing realignment that drove +12% YoY revenue and +8% market share.</div>
+    </div>
+    <div class="stat">
+      <div class="n">150+</div>
+      <div class="lbl">Facilities Analyzed</div>
+      <div class="desc">At Safran, alongside 10+ competitors, building a TAM/SAM/SOM model (170 facilities to a SAM of 28) presented to Safran's own leadership.</div>
+    </div>
+    <div class="stat">
+      <div class="n">30+</div>
+      <div class="lbl">OEM and Distributor Interviews</div>
+      <div class="desc">At Sensata, pressure-testing willingness to pay and surfacing competitive gaps ahead of a new product launch.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">Benchmark the field, synthesize it into one read, put it in front of the people who decide: that is the same loop I would bring to Autodesk's AI market and competitive intelligence work.</div>
+  <div class="brand">AUTODESK AI MARKET &amp; CI ANALYST</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">What success looks like, by your own timeline</div>
+  <h2>How I would ramp into source monitoring, recurring readouts, and coordinated research.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">3 Months</div>
+      <div class="ttl">Source monitoring and refresh cadence set</div>
+      <div class="body">Map the AI-market signals that matter across Manufacturing, AECO and Media and Entertainment, Sales, Engineering and Product partners included, and stand up the first automated refresh cadence behind them.</div>
+      <div class="why"><strong>Why this is realistic:</strong> it is the same opening move behind the Applied Materials pipeline: align the sources first, then automate the pull.</div>
+    </div>
+    <div class="card">
+      <div class="label">6 Months</div>
+      <div class="ttl">Recurring CI readout running on automation</div>
+      <div class="body">Get the core competitive-tracking view running on a standing refresh, deliver the first fast-turn analysis for leadership, and hand off the routine part of the pull so it runs without a manual re-check.</div>
+      <div class="why"><strong>Why now:</strong> the same automate-then-hand-off sequence that let Claude agents take the recurring research pull off my plate at Applied Materials.</div>
+    </div>
+    <div class="card">
+      <div class="label">12 Months</div>
+      <div class="ttl">Coordinating research, trusted by the C-suite</div>
+      <div class="body">Coordinate research and intelligence projects across functions, with a point of view the C-suite routes fast-turn questions through, not a report they have to chase.</div>
+      <div class="why"><strong>Why this sticks:</strong> the same trust the Safran study and the Sensata benchmarking earned once leadership started acting on the findings, not just reading them.</div>
+    </div>
+  </div>
+  <div class="brand">AUTODESK AI MARKET &amp; CI ANALYST</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to build the automated system behind competitive intelligence. I have already built that exact pipeline, benchmarked the field it needs to watch, and briefed the leaders who act on it.</h2>
+  <div class="body">
+    <p>The core proof is the loop itself: <strong>10+ competitors benchmarked</strong> at Sensata driving +8% market share, <strong>$433M in margin gaps surfaced</strong> from a dashboard I built, and a <strong>150+ facility, 10+ competitor</strong> TAM/SAM/SOM study I presented to Safran's own leadership.</p>
+    <p>What is harder to find is someone who already automates the recurring part of that work with the same AI-agent habit your posting asks for. I run that today at Applied Materials, which means the workflow this role wants to see is not something I would need to build on the job, it is the one I would bring to the interview.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhithyabhaskar.vercel.app/ref/autodesk</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">AUTODESK AI MARKET &amp; CI ANALYST</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
