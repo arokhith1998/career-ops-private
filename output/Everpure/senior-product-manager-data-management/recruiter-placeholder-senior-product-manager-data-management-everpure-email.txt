@@ -1,0 +1,20 @@
+Subject: The BI dashboard behind the Data Management brief
+
+Hi {Recruiter, Data Management},
+
+I do not usually write in before applying, but a Senior PM seat built around the former 1touch.io, shipping BI and datalake exports end to end under a Principal PM, is close enough to my own work that I wanted to reach out directly.
+
+I built Sensata's FY2026 Bleeders and Leakers Power BI dashboard: 1,200 pricing opportunities against a $627M target across 3 regions and 20 product lines, surfacing $433M in margin gaps for leadership.
+I ran 30+ customer interviews with OEMs and distributors, driving product changes that raised CSAT 22%.
+At Applied Materials I automate repetitive analysis with AI agents built on Claude, the genAI-applied-to-data instinct this role is asking for.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/everpure
+
+If this req sits with your desk, 15 minutes would help. If not, a pointer to whoever owns it helps just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

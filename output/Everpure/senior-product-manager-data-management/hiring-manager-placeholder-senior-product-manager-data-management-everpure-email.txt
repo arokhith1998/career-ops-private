@@ -1,0 +1,21 @@
+Subject: Owning a data product end to end, not just the dashboard
+
+Hi {Hiring Manager, Everpure Data Intelligence},
+
+I do not usually write in before applying, but a Senior PM brief that starts with customer discovery, then follows the same product through roadmap planning and an executive readout, is the full loop I already run, not a slice of it.
+
+I built Sensata's FY2026 Bleeders and Leakers Power BI dashboard end to end: 1,200 pricing opportunities against a $627M target across 3 regions and 20 product lines, surfacing $433M in margin gaps by salesperson and product line.
+I ran 30+ customer interviews with OEMs and distributors, turning the pain points they raised into product changes that lifted CSAT 22%.
+I partnered with senior executives on multimillion-dollar customer quotes, the same technical-deep-dive, customer-facing seat this role asks for.
+At Applied Materials I automate repetitive analysis with AI agents built on Claude, the genAI-applied-to-data instinct behind your roadmap.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/everpure
+
+Worth 15 minutes on where the Data Management roadmap is headed next? Happy to be pointed elsewhere if this is not your team.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
