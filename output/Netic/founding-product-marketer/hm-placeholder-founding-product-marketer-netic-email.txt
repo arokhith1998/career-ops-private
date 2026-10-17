@@ -1,0 +1,23 @@
+Subject: Founding Product Marketer - Adhithya Rokhith Bhaskar
+
+Hi {Hiring Manager, Founding Product Marketer, Netic},
+
+I don't normally reach out before applying, but "zero-to-one seat: no playbook or existing brand machine" is the seat I've been building toward, not managing someone else through it.
+
+A few things map directly:
+
+- At Applied Materials I run my own market research and competitive analysis through AI agents I built on Claude, the AI-native habit your posting asks for, then feed it straight into Sales and Engineering conversations.
+- I run PriceKeel, my own company, so I've sat alone with positioning, ICP and GTM with no one above me, the "founding a business" line in your "what you'll bring" section.
+- At Sensata I took a new product line from no existing playbook to $2M+ in first-year revenue, then armed 50+ reps with the battlecards and case studies that moved win rates up 30%.
+
+Here's the portfolio:
+https://adhi-product-ai.vercel.app/ref/netic
+
+If you're the right person for this, I'd love 15 minutes on how you're thinking about the first dozen personas. If not, a pointer to whoever owns it would help.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
