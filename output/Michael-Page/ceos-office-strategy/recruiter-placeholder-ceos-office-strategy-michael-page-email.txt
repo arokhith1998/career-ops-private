@@ -5,10 +5,10 @@ Hi {Recruiter, Michael Page},
 I don't usually reach out before applying, but this req's framing, turning market research into a strategic plan leadership can act on, is close to the loop I already run.
 
 Quick proof:
-- Founder and CEO of PriceKeel: I run my own CEO's office, own the CRM and pipeline reviews, and am raising the first round, with no team to hand any of it to.
-- At Sensata I built a Power BI dashboard ranking 1,200 pricing opportunities against a $627M target, surfacing $433M in margin risk, then closed $700K+ of it in two quarters.
-- Led a 5-consultant team at Simon Vision Consulting, sizing a market from 170 facilities to a SAM of 28, then presented the recommendation to Safran's leadership.
-- At Applied Materials I automate recurring pricing analysis with Claude based agents.
+- Founder and CEO of PriceKeel: I run my own CEO's office end to end, CRM, pipeline reviews, and the current raise.
+- At Sensata I built a dashboard ranking 1,200 pricing opportunities against a $627M target, then closed $700K+ of the margin risk it flagged in two quarters.
+- Led a 5-consultant team at Simon Vision Consulting, sizing a market to a SAM of 28, then presented it to Safran's leadership.
+- At Applied Materials I automate pricing analysis with Claude based agents.
 
 Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/confidential-michael-page
 
