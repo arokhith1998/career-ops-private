@@ -1,0 +1,21 @@
+Subject: Segment first, then design the reacquisition journey
+
+Hi {Hiring Manager, Growth Marketing},
+
+I do not normally reach out before applying, but the order in your posting, segmentation framework first, reacquisition journey second, is a sequence I already run, not a discipline I would pick up on this team.
+
+At Pixis I segmented an 8-client book in Amplitude and Tableau by engagement signal before building vertical retention and reacquisition playbooks, and that order cut client churn 50%.
+At Plug Power I ran 15+ growth experiments across Google, Microsoft and Meta on a $100K/month budget, landing -25% CPA and -50% cost per lead.
+At GenY Medium I rebuilt Google Merchant Center catalog feeds for D2C brands and delivered 16x ROAS through off-platform channels, the mid-funnel work tied to new Services users.
+At Applied Materials I run forecasting and reporting through Claude agents, so using AI for consumer insight is a habit, not a pitch.
+
+Here's the portfolio: https://adhi-growth-ai.vercel.app/ref/yelp
+
+Worth 15 minutes to see if the fit is real? Happy to be pointed elsewhere if this isn't your req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
