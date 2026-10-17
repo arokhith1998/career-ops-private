@@ -2,14 +2,13 @@ Subject: The reporting layer nobody actually owns end to end
 
 Hi {Hiring Manager, Brand},
 
-I joined Applied Materials recently and was not looking, but a role built around owning multi-touch attribution end to end, not a slice of it handed off between two agencies, is exactly the gap I keep finding at DTC brands, and part of why I started PriceKeel on the side.
+I joined Applied Materials recently and was not looking, but a role built around owning attribution end to end, not a slice handed off between two agencies, is exactly the ownership problem I keep solving, and part of why I started PriceKeel on the side.
 
 Built a 6-slide pitch deck mapping that work directly to the req.
 
-- At Plug Power I automated the Mar-Tech stack, Salesforce, Adobe Analytics, GA, Google Tag Manager, into one closed-loop system instead of a deck rebuilt by hand monthly, while running $100K/month in Paid Search and Paid Social; bid testing cut CPA 25%.
-- I have sat on the agency side of the exact relationship you are hiring for: at Pixis I managed an 8-person team running paid media for 8 D2C clients at $15K-$90K/month each.
-- A fashion D2C brand's full-funnel restructuring there, shopping feed cleanup through lookalike expansion, delivered 3x ROAS in one month, the same playbook a catalog of designed products rewards.
-- Catalog hygiene work at GenY Medium drove 16x ROAS by rebuilding Google Merchant Center and Meta feeds.
+- At Plug Power I automated the Mar-Tech stack, Salesforce, Adobe Analytics, GA, Google Tag Manager, into one closed-loop system instead of a deck rebuilt by hand monthly, while running $100K/month in Paid Search and Paid Social; CPA down 25%.
+- I have sat on the agency side of this exact relationship: at Pixis I managed an 8-person team running paid media for 8 D2C clients at $15K-$90K/month each.
+- A fashion D2C brand's full-funnel restructuring there, feed cleanup through lookalike expansion, delivered 3x ROAS in one month, the playbook a catalog of designed products rewards.
 
 Here's the portfolio: https://adhi-growth.vercel.app/ref/gantri
 
