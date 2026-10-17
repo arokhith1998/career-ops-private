@@ -1,55 +1,45 @@
 # Sales Operations Analyst - NVIDIA
 
-**Company:** NVIDIA (NVIDIA Corporation)
-**URL:** https://www.linkedin.com/jobs/view/4477943430
-**LinkedIn Job ID:** 4477943430
-**Req/Posting ID:** JR2027722
-**Posted:** "6 hours ago" (relative only); fetched 2026-10-13
+**URL:** https://www.linkedin.com/jobs/view/4479634846
+**Req ID:** JR2027317
 **Location:** Santa Clara, CA
-**Comp band (stated verbatim):** "The base salary range is 144,000 USD - 230,000 USD for Level 4, and 168,000 USD - 270,250 USD for Level 5."
-**Application window (stated verbatim):** "Applications for this job will be accepted at least until October 16, 2026. This posting is for an existing vacancy."
-**Track:** us | **Visa gate:** required
+**Posted:** "8 hours ago" (relative timestamp at extraction time; no absolute date shown). "Applications for this job will be accepted at least until October 20, 2026. This posting is for an existing vacancy."
+**Track:** us | **Visa gate:** required | **Extracted:** 2026-10-17
+**Legal entity:** Not stated
 
-## Work authorization / sponsorship / citizenship / clearance / degree / grad-year (verbatim)
-- "Bachelor's degree or equivalent experience in business or related field, advanced degree is highly preferred."
-- No sentence addresses work authorization, visa, sponsorship, citizenship, or clearance, beyond NVIDIA's standard non-discrimination clause.
+## Work Authorization Notes
+None stated on sponsorship, citizenship, permanent residency, or security clearance.
+Required degree: "Bachelor's degree or equivalent experience." No specific field stated. No graduation year stated.
 
-## Full JD Text (verbatim, as extracted)
+## Description
+We are looking for a Sales Operations Analyst to join our organization. As a key member of the Americas Sales Operations organization, you will play a crucial role in supporting NVIDIA's major OEM customers and strategic customers. This position offers an outstanding chance to create a significant impact in many areas, including customer interface, sales forecasting, supply and demand optimization, customer relationship management, and aligning customer expectations with company goals. Join us and be part of a highly dedicated team crafting the future of computing!
 
-We are seeking a strategic Sales Operations Analyst to drive forecasting excellence, process optimization, and advanced analytics initiatives across our global sales organization. In this role, you will support forecast accuracy improvements, lead sophisticated projects to streamline operational efficiency, and contribute AI/ML forecasting initiatives. You will collaborate closely with sales leadership, global account managers, and cross-functional partners in Finance, Marketing, and IT to ensure data integrity, deliver actionable insights, and align sales strategies with business goals!
+**What You'll Be Doing:**
+- Develop and implement sales operations strategies for OEM and strategic customers, including forecasting, sales account management, customer training, and education
+- Partner with regional sales executives to define and operationalize key processes for sales forecasting, reporting, analytics, and operations
+- Support account management teams throughout the sales cycle, including quotes, special pricing, deal tracking, rebates, end-of-life (EOL) terms, and revenue management
+- Collaborate with NVIDIA's Operations, Finance, Credit, Sales Management, and Product teams to maintain continuity of supply and drive process improvements
+- Develop and standardize business reporting to support strategic analysis and internal business reviews
+- Establish and maintain customer forecast and fulfillment metrics using historical data analysis, forecast waterfall analysis, and trend analysis
+- Contribute to the development of regional Sales Operations processes to streamline workflows and improve efficiency
+- Lead daily sales administration and account operations, including forecast management, customer demand fulfillment, customer-level supply commitments, and coordination of new product introductions (NPI), EOL transitions, and vendor-managed inventory (VMI) hub supply
 
-What You Will Be Doing
-- Improve forecast reliability and accuracy for enterprise products, with a focus on forecasting support and provide actionable insights for strategic and OEM accounts.
-- Incorporate data insights to guide sales strategies, inform business decisions, and align with forecasting objectives.
-- Lead global data reconciliation across CRM, financial, and forecasting systems to validate data, resolve discrepancies, and ensure consistent, reliable reporting.
-- Ensure data hygiene in Salesforce and forecasting platforms by managing product updates, system configurations, and conducting regular pipeline reviews.
-- Establish metrics to measure forecasting performance efficiency, pipeline health, and data quality, pinpointing areas for process improvements.
-- Provide hands-on support to the sales team by managing pipeline data, troubleshooting system issues, and delivering training and tools to enable efficient forecasting workflows.
-- Support forecasting projects, including AI/ML initiatives, process automation, and analytics improvements to improve sales projections and operational scalability.
+**What We Need To See:**
+- 5+ years Sales Operations experience with Tier One OEMs
+- Bachelor's degree or equivalent experience
+- Proven consultative and project management skills. Highly detailed oriented
+- Ability to maintain confidentiality of sensitive information
+- Capability to work efficiently in a dynamic high-tech environment
+- Knowledge of the semiconductor industry and experience in supply chain management
+- High energy and positive problem-solving attitude
+- Ability to multi-task and strong organizational skills
+- Self-motivated, creative, flexible, and able to use good judgment to accomplish tasks on schedule with minimal direction and supervision
+- Strong revenue reporting and sales/financial analytical skills
 
-What We Need To See
-- 8+ years of experience in Sales Operations, Business Operations, or Financial Analysis in a global high-growth tech environment.
-- Bachelor's degree or equivalent experience in business or related field, advanced degree is highly preferred.
-- Demonstrated expertise in sales forecasting process, data reconciliation, and operational process improvement.
-- Strong analytical and communication skills with the ability to translate complex data into actionable insights and effectively present them to all levels of customers.
-- Proven experience in project management, including leading cross-functional teams and ensuring timely, within-scope delivery of end-to-end forecasting projects.
-- Self-motivated with excellent problem-solving skills, able to work independently in a fast-paced environment.
-- Advanced Excel and proficiency in Salesforce, SAP, and Integrated Business Planning (IBP), experience with Python, SQL, or other data tools is a plus.
-- Background in supporting software and SaaS product lines in forecasting or revenue planning is highly preferred.
-- Hands-on experience or strong interest in AI/ML applications for sales forecasting and analytics is highly desirable.
+NVIDIA uses AI tools in its recruiting processes.
 
-Ways To Stand Out From The Crowd
-- Demonstrated history of providing valuable insights that directly impact strategic decision-making.
-- Strong leadership skills with experience leading cross-functional projects to drive alignment and operational improvements.
-- Adaptable to uncertainty and proactive in solving challenges, driving innovative and actionable solutions.
-- Practical experience supporting AI/ML forecasting models and sales process automation to improve operational efficiency and forecast capabilities.
+## Comp
+Base salary range: $92,000 USD - $143,750 USD, based on location, experience, and similar positions. Also eligible for equity and benefits.
 
-Your base salary will be determined based on your location, experience, and the pay of employees in similar positions. The base salary range is 144,000 USD - 230,000 USD for Level 4, and 168,000 USD - 270,250 USD for Level 5. You will also be eligible for equity and benefits.
-
-Applications for this job will be accepted at least until October 16, 2026. This posting is for an existing vacancy. NVIDIA uses AI tools in its recruiting processes.
-
-NVIDIA is committed to fostering an inclusive work environment and proud to be an equal opportunity employer. As we highly value diversity in our current and future employees, we do not discriminate (including in our hiring and promotion practices) on the basis of race, religion, color, national origin, gender, gender expression, sexual orientation, age, marital status, veteran status, disability status or any other characteristic protected by law.
-
-Req ID: JR2027722
-
-Seniority level: Not Applicable | Employment type: Full-time | Industries: Computer Hardware Manufacturing
+## Liveness
+Confirmed live via `browser-extract.mjs` against the LinkedIn jobs-guest endpoint (https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4479634846) -- full title, description, qualifications, req ID (JR2027317), and comp band returned. No closed/expired tell; explicit open-until date stated.
