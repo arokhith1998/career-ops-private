@@ -2,11 +2,11 @@ Subject: Expansion, monetization and controls, I already built this stack once
 
 Hi {Recruiter, Retool Product},
 
-I don't normally reach out before applying, but the way this role bundles expansion, monetization and controls into one seat, instead of treating pricing as a side project, is a system I have already built, not one I would be learning from scratch.
+I don't normally reach out before applying, but bundling expansion, monetization and controls into one seat is a system I have already built, not one I would be learning from scratch.
 
-At PriceKeel I designed a guardrail engine that recommends an explainable discount limit learned from each company's own closed-won and closed-lost deals, then built the audit trail Finance signs off on, the same governance shape metering and spend controls need for AI usage.
-At SwipeHire I modeled 3 subscription pricing tiers from competitor benchmarks and willingness-to-pay signals and shipped them zero to one, onboarding 50+ early users.
-At Sensata I built a price-increase model flagging where a change could lift profitability past 50%, the unit-economics habit this seat runs on.
+At PriceKeel I designed a guardrail engine recommending an explainable discount limit from each company's own closed-won and closed-lost deals, then built the audit trail Finance signs off on, the governance shape metering and spend controls need for AI usage.
+At SwipeHire I modeled 3 subscription pricing tiers from competitor benchmarks and willingness-to-pay signals, shipping zero to one to 50+ early users.
+At Sensata I built a price-increase model flagging where a change could lift profitability past 50%.
 
 Here's the portfolio: https://adhi-product-ai.vercel.app/ref/retool
 
