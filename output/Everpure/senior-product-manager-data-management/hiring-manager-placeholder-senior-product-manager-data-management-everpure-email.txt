@@ -2,7 +2,7 @@ Subject: Owning a data product end to end, not just the dashboard
 
 Hi {Hiring Manager, Everpure Data Intelligence},
 
-I do not usually write in before applying, but a Senior PM brief that starts with customer discovery, then follows the same product through roadmap planning and an executive readout, is the full loop I already run, not a slice of it.
+I do not usually write in before applying, but a Senior PM brief that starts with customer discovery and follows one product through roadmap planning and an executive readout is the full loop I already run.
 
 I built Sensata's FY2026 Bleeders and Leakers Power BI dashboard end to end: 1,200 pricing opportunities against a $627M target across 3 regions and 20 product lines, surfacing $433M in margin gaps by salesperson and product line.
 I ran 30+ customer interviews with OEMs and distributors, turning the pain points they raised into product changes that lifted CSAT 22%.
