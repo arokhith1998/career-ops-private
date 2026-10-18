@@ -1,0 +1,16 @@
+Subject: A margin-recovery program already running at pricing-lever scale
+
+Hi {Hiring Manager, Pricing Strategy},
+
+Most of this req reads like a system I already operate, not a skill set I'd be building for the first time. I ran a margin-recovery program at Sensata against a $627M target across 3 regions and 4 product families, surfacing $433M in gaps and recovering $700K+ in two quarters, then repriced through distribution with elasticity and competitive benchmarking to raise distributor margin from 53% to 61%. I also founded PriceKeel, an AI-driven pricing decision-integrity layer for B2B SaaS deal pricing, now in pilots, and run value-based pricing alongside Claude-based pricing-agent automation at Applied Materials.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/netflix
+
+Worth 15 minutes to see if the fit is real?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

@@ -1,0 +1,23 @@
+Subject: Pricing frameworks built alongside Finance and Data Science, not alone
+
+Hi {Hiring Manager, Pricing Strategy},
+
+I joined Applied Materials recently and was not looking, but a role chartered to build pricing frameworks alongside Finance, Strategy Planning & Analysis, Data Science and Consumer Insights, the exact cross-functional shape I already run, is why I'm writing before applying.
+
+Built a 6-slide pitch deck mapping that work to this brief.
+
+- At Sensata I built the framework and dashboard behind a margin-recovery program against a $627M target across 3 regions and 4 product families, surfacing $433M in gaps and recovering $700K+ in two quarters.
+- Repriced through distribution using elasticity models and competitive benchmarking across 10+ players, raising distributor margin from 53% to 61%.
+- Founded PriceKeel, an AI-driven pricing decision-integrity layer for B2B SaaS deal pricing, now in pilots.
+- At Applied Materials I pair value-based pricing work with Claude-based pricing-agent automation.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/netflix
+
+Worth 15 minutes on how the team is scoping the first few months, no worries if the timing is off.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
