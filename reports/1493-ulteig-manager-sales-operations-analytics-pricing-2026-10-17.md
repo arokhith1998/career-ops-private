@@ -4,9 +4,9 @@
 **URL:** https://www.linkedin.com/jobs/view/4466014079
 **Via:** —
 **Archetype:** Revenue Operations / Pricing hybrid (team-lead scope, over-leveled for the candidate's track)
-**Score:** 1.4/5
+**Score:** 1.6/5
 **Legitimacy:** High Confidence
-**Work Auth:** ⛔ No sponsorship (JD states: "Must have authorization to work permanently in the U.S.")
+**Work Auth:** ✅ BUILD, TIER-1 (visa-cache verdict, decided 2026-10-17 - reused here, not re-adjudicated; see note below)
 **Portfolio:** https://adhi-pricing-ai.vercel.app/ref/ulteig (discipline: pricing/RevOps analytics; posture: traditional — 80-year AEC engineering firm)
 **PDF:** not generated — score below the no-deck floor; digest only
 
@@ -17,12 +17,11 @@
 ```yaml
 company: "Ulteig"
 role: "Manager, Sales Operations Analytics & Pricing (US)"
-score: 1.4
+score: 1.6
 legitimacy_tier: "High Confidence"
 archetype: "Revenue Operations / Pricing"
 final_decision: "Discard — recommend against applying"
 hard_stops:
-  - "JD states verbatim: 'Must have authorization to work permanently in the U.S.' — this reads as a permanent-work-authorization demand, which the candidate's current STEM OPT status (temporary, pending future H-1B sponsorship) does not satisfy; no sponsorship language appears anywhere else in the posting"
   - "JD asks for 8-12+ years of progressive experience plus 3-5+ years leading an analytics/pricing team — far above the US track's 6-year ceiling and the candidate's individual-contributor background; this is a people-manager seat, not an IC analyst seat"
 soft_gaps:
   - "No formal direct-report team-leadership history on record (candidate has hired/managed teams at Pixis and SwipeHire, but not a dedicated analytics/pricing function)"
@@ -31,10 +30,9 @@ top_strengths:
   - "Sensata's distributor-margin realignment (53% to 61%) and the BU-wide Power BI price-increase model are direct analogs to 'rate analysis, margin analysis, pricing tools'"
 risk_level: "High"
 confidence: "Medium"
-next_action: "Do not apply — the stated work-authorization language and the seniority/scope gap are both independently disqualifying; flag for the human reviewer as a possible skip-list candidate (this report does not write to data/skip-list.tsv per its scoped-write boundary)"
-work_auth: "no_sponsorship"
+next_action: "Do not apply — the seniority/scope gap alone is disqualifying (visa status is not a blocker here; see work-authorization note below)"
+work_auth: "sponsor_tier1"
 discard_reasons:
-  - "JD's own work-authorization language reads as a permanent-status requirement the candidate's current OPT status does not meet"
   - "Severe over-leveling: 8-12+ years plus team-leadership scope vs. the candidate's ~5-year IC background"
 via: null
 company_confidential: false
@@ -62,11 +60,9 @@ risk_summary:
 
 **Geo-mismatch check:** No flag — location is stated generically as "United States" with no remote claim to contradict.
 
-**Work-authorization check:** The posting states, verbatim: **"Must have authorization to work permanently in the U.S."** This closely tracks `modes/oferta.md`'s own worked example of a ⛔-triggering phrase ("must have existing work authorization") — it demands permanent authorization rather than merely asking the lawful screening question ("are you authorized to work in the United States?" or "will you now or in the future require sponsorship?"). The candidate currently holds STEM OPT, a temporary status that will require future H-1B sponsorship — it does not constitute permanent work authorization. Rendered ⛔ **No sponsorship**, and recorded as a `hard_stop`. **This overrides the upstream visa-cache's BUILD, TIER-1 verdict** for this specific req, the same pattern the pipeline previously applied to Palo Alto Networks report #537: the upstream gate's keyword list does not contain this exact phrase, so the independent in-report JD read catches what automated matching missed.
+**Work-authorization check:** The posting states, verbatim: **"Must have authorization to work permanently in the U.S."** A scoring-pass draft of this report flagged that phrase as a hard sponsorship wall (treating "permanently" as excluding temporary OPT status) and scored the role a hard-stop skip on that basis. On review, that reading is overturned: this exact pipeline already ran a dedicated, evidence-backed visa-gate pass on this employer (`data/visa-cache.tsv`, decided 2026-10-17) that found the identical sentence verbatim across multiple OTHER Ulteig postings of varying seniority (Senior Urban Planner, Graduate Engineer, Senior Land Surveyor) — standard company-wide boilerplate, not a deliberate case-by-case exclusion — and corroborated that reading against Ulteig's own active, current H-1B filing history under its exact legal entity "Ulteig Engineers, Inc." (2 LCAs + 4/4 I-129 petitions approved in FY2026 alone, 22 petitions since 2009 at 95.5% approval). Per `modes/nightly-rules.md` section 2, a hard wall requires naming OPT/CPT explicitly or stating citizenship/permanent-residency/clearance — this phrase does neither, and the gate's own research rules it a **not a wall**, TIER-1/BUILD. The scoring step does not re-adjudicate the visa gate's verdict; it applies the gate's tier (TIER-3 downgrade, cap-exempt bonus) on top of it. TIER-1 here means no adjustment. Score driven entirely by the seniority/scope gap below.
 
-*(Separately checked against `templates/immigration-status-requirements.yml`'s US-federal row: that table's listed patterns — "US citizens only," "citizens or green-card holders only," "must be US citizen or permanent resident" — do not cover a bare "permanent work authorization" phrase without naming citizenship/permanent-residency status, so Block G's Immigration-Status Requirement Overreach signal does not fire here. This is a distinct, narrower check from Block A's sponsorship-tier classification above, which does fire.)*
-
-⛔ **No sponsorship:** JD states "Must have authorization to work permanently in the U.S." and role is outside your authorized_in (candidate's current status is temporary OPT, not permanent authorization)
+*(Separately checked against `templates/immigration-status-requirements.yml`'s US-federal row: that table's listed patterns — "US citizens only," "citizens or green-card holders only," "must be US citizen or permanent resident" — do not cover this phrase either, consistent with the above.)*
 
 ## B) Match with CV
 
@@ -76,11 +72,10 @@ risk_summary:
 | Build dashboards/tools for pricing performance, rate realization, margin trends | Sensata: "Built the FY2026 Bleeders & Leakers Power BI dashboard: 1,200 pricing opportunities against a $627M target... surfaced $433M in margin gaps"; "Built a BU-wide Power BI price-increase model" |
 | Forecasting, planning, scenario modeling tied to pricing assumptions | Sensata: "Partnered with senior executives on AP26 revenue models, site transition strategies" |
 | 8-12+ years of progressive experience, 3-5+ years leading an analytics/pricing team | ~5 years total experience, no dedicated people-management-of-analysts role on record — well below this floor |
-| Must have authorization to work permanently in the U.S. | Candidate holds STEM OPT (temporary); will require future H-1B sponsorship — does not meet this as stated |
+| Must have authorization to work permanently in the U.S. | Company-wide boilerplate, not a sponsorship wall — employer sponsors (TIER-1, see Block A) |
 
 **Gaps:**
-1. **Work authorization, as stated, is a hard blocker.** No honest mitigation exists short of the candidate confirming directly with Ulteig whether this phrase is boilerplate or a genuine no-sponsorship policy.
-2. **Seniority and scope.** 8-12+ years plus formal team leadership of analysts is a different career stage than the candidate's current IC-plus-founder profile. Not mitigable through reframing alone.
+1. **Seniority and scope.** 8-12+ years plus formal team leadership of analysts is a different career stage than the candidate's current IC-plus-founder profile. Not mitigable through reframing alone.
 
 ## C) Level and Strategy
 
@@ -107,7 +102,7 @@ Not recommended for a tailored resume pass given the compounding work-authorizat
 
 ## F) Interview Plan
 
-Not applicable — this role is not recommended for application. If the candidate independently confirms the work-authorization language is boilerplate rather than policy, re-run this evaluation; the seniority/scope gap would remain a separate, independent blocker.
+Not applicable — this role is not recommended for application. The seniority/scope gap is an independent blocker regardless of work authorization.
 
 ## G) Posting Legitimacy
 
@@ -136,7 +131,7 @@ Not applicable — this role is not recommended for application. If the candidat
 
 ## Cover Letter Draft
 
-Not generated — score is below 3.0 and the posting's own work-authorization language is a stated hard stop; per the Ethical Use policy, this role is explicitly not recommended for application. A cover letter would not resolve either the stated authorization requirement or the seniority gap.
+Not generated — score is below 3.0 per the Ethical Use policy; the seniority/scope gap (8-12+ years plus team-leadership vs. the candidate's ~5-year IC background) is not resolvable through a tailored cover letter.
 
 ---
 
