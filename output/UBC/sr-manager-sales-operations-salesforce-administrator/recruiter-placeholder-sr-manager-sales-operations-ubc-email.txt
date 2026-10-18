@@ -1,0 +1,22 @@
+Subject: Sr. Manager, Sales Operations - CRM and Predictive Analytics Background
+
+Hi {Recruiter, UBC},
+
+Your posting wants someone who can own the sales and marketing technology stack, not just administer it. I set up and run that stack myself as founder of PriceKeel, CRM, CPQ, forecast and pipeline reviews, and deal approvals, built from nothing rather than inherited.
+
+A few things that map directly:
+- Built a BU-wide Power BI price-increase model at Sensata flagging line items where a price change could lift profitability over 50%
+- Built the FY2026 Bleeders and Leakers dashboard (1,200 opportunities, $627M target), surfacing $433M in margin gaps for leadership
+- Run Claude-based AI agents at Applied Materials for repetitive GTM analysis, reviewing every output before it reaches a forecast
+- Hired, managed and mentored teams of up to 8 at once, working directly with vendor partners
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/ubc
+
+Worth 15 minutes if this is your req? Happy to be pointed to the right person if not.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

@@ -1,0 +1,22 @@
+Subject: Owning the CRM and Sales-Ops Stack, Not Just Administering It
+
+Hi {Hiring Manager, Sales Operations},
+
+Your req asks for someone to serve as the subject-matter expert for the CRM and marketing platforms, with predictive analytics on top. I set up and run that exact combination now as founder of PriceKeel: our CRM, CPQ, forecast and pipeline reviews, and deal approvals, with a compliance-ready audit trail Finance can check without asking me first.
+
+Related ground already covered:
+- Built a BU-wide Power BI price-increase model at Sensata flagging line items where a price change could lift profitability over 50%
+- Built the FY2026 Bleeders and Leakers dashboard (1,200 opportunities, $627M target across 3 regions), tracking pipeline-stage KPIs by salesperson
+- Run Claude-based AI agents at Applied Materials for repetitive GTM analysis, personally reviewing every output before it reaches a forecast
+- Hired, managed and mentored teams of up to 8 at once across vendor-partner relationships
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/ubc
+
+Could I get 15 minutes on your calendar? Happy to be redirected if this sits with someone else on the team.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
