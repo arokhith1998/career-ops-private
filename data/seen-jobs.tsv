@@ -1,19 +1,19 @@
 job_key	company	title	url	stage	verdict	first_seen	last_seen	times_seen	note
 linkedin.com/jobs/view/4423196384	Palo Alto Networks	Senior Product Manager (Cloud Delivered Security Services)	https://www.linkedin.com/jobs/view/4423196384	dropped	DROP:duplicate-existing-report-402	2026-09-26	2026-10-18	20	
-linkedin.com/jobs/view/4395468603	NVIDIA	Senior Product Marketing Manager, Industrial & Computational Engineering	https://www.linkedin.com/jobs/view/4395468603	jd_extracted		2026-09-27	2026-10-18	6	
+linkedin.com/jobs/view/4395468603	NVIDIA	Senior Product Marketing Manager, Industrial & Computational Engineering	https://www.linkedin.com/jobs/view/4395468603	dropped	DROP:over-experience-cap	2026-09-27	2026-10-18	8	
 linkedin.com/jobs/view/4453786144	EvenUp	Product Manager, AI Entities	https://www.linkedin.com/jobs/view/4453786144	dropped	DROP:below-3.0	2026-09-27	2026-10-18	5	
 linkedin.com/jobs/view/4461172085	Databricks	Sr. Product Marketing Manager, Lakewatch & Agentic Apps	https://www.linkedin.com/jobs/view/4461172085	dropped	DROP:below-3.0	2026-09-27	2026-10-18	5	
-linkedin.com/jobs/view/4463399745	Verkada	(Sr) Manager, Strategic Finance & Business Operations - GTM	https://www.linkedin.com/jobs/view/4463399745	shortlisted		2026-09-27	2026-10-18	4	
+linkedin.com/jobs/view/4463399745	Verkada	(Sr) Manager, Strategic Finance & Business Operations - GTM	https://www.linkedin.com/jobs/view/4463399745	jd_extracted		2026-09-27	2026-10-18	5	
 linkedin.com/jobs/view/4453279582	Docusign	Sr. Product Marketing Manager, AI Positioning	https://www.linkedin.com/jobs/view/4453279582	jd_extracted		2026-09-27	2026-10-18	4	
-linkedin.com/jobs/view/4470522141	Workday	Senior Product Manager, Pipedream	https://www.linkedin.com/jobs/view/4470522141	jd_extracted		2026-09-26	2026-10-18	6	
-linkedin.com/jobs/view/4472085577	Stripe	Product Marketing Manager, Revenue suite	https://www.linkedin.com/jobs/view/4472085577	jd_extracted		2026-09-26	2026-10-18	6	
-linkedin.com/jobs/view/4470713774	Bishop Fox	Product Marketing Manager	https://www.linkedin.com/jobs/view/4470713774	queued		2026-09-26	2026-10-18	7	
-linkedin.com/jobs/view/4472216027	Semgrep	Senior Revenue Operations Manager	https://www.linkedin.com/jobs/view/4472216027	queued		2026-09-26	2026-10-18	7	
+linkedin.com/jobs/view/4470522141	Workday	Senior Product Manager, Pipedream	https://www.linkedin.com/jobs/view/4470522141	dropped	DROP:over-experience-cap	2026-09-26	2026-10-18	8	
+linkedin.com/jobs/view/4472085577	Stripe	Product Marketing Manager, Revenue suite	https://www.linkedin.com/jobs/view/4472085577	dropped	DROP:over-experience-cap	2026-09-26	2026-10-18	8	
+linkedin.com/jobs/view/4470713774	Bishop Fox	Product Marketing Manager	https://www.linkedin.com/jobs/view/4470713774	queued		2026-09-26	2026-10-18	8	
+linkedin.com/jobs/view/4472216027	Semgrep	Senior Revenue Operations Manager	https://www.linkedin.com/jobs/view/4472216027	queued		2026-09-26	2026-10-18	8	
 linkedin.com/jobs/view/4470502247	Palo Alto Networks	Lead, Cortex GTM Strategy & Ops	https://www.linkedin.com/jobs/view/4470502247	queued		2026-09-26	2026-10-18	6	
 linkedin.com/jobs/view/4398096365	Drata	Senior Product Manager 2, Assurance	https://www.linkedin.com/jobs/view/4398096365	dropped	DROP:below-3.0	2026-09-26	2026-10-18	6	
 linkedin.com/jobs/view/4443498640	Otter.ai	Growth Marketing Manager, Paid Acquisition	https://www.linkedin.com/jobs/view/4443498640	jd_extracted		2026-09-26	2026-10-18	4	
 linkedin.com/jobs/view/4470727808	Intapp	Industry Product Marketing Manager	https://www.linkedin.com/jobs/view/4470727808	queued		2026-09-26	2026-10-18	5	
-linkedin.com/jobs/view/4448524785	Volta	Senior Product Marketing Manager	https://www.linkedin.com/jobs/view/4448524785	jd_extracted		2026-09-26	2026-10-18	6	
+linkedin.com/jobs/view/4448524785	Volta	Senior Product Marketing Manager	https://www.linkedin.com/jobs/view/4448524785	dropped	DROP:over-experience-cap	2026-09-26	2026-10-18	8	
 linkedin.com/jobs/view/4461938333	Glean	Senior Demand Generation Manager	https://www.linkedin.com/jobs/view/4461938333	jd_extracted		2026-09-26	2026-10-18	4	
 linkedin.com/jobs/view/3996837274	DoorDash	Product Manager (Multiple Levels)	https://www.linkedin.com/jobs/view/3996837274	queued		2026-09-25	2026-10-18	5	
 linkedin.com/jobs/view/4459546973	Chainguard	Deal Desk Analyst	https://www.linkedin.com/jobs/view/4459546973	queued		2026-09-24	2026-10-18	5	
@@ -24,23 +24,23 @@ linkedin.com/jobs/view/4443732399	Automation Anywhere	AI Product Manager	https:/
 linkedin.com/jobs/view/4480821449	Amazon Web Services (AWS)	Sr Technical Product Marketing Manager, AI/ML Product Marketing, AWS AI Marketing	https://www.linkedin.com/jobs/view/4480821449	dropped	DROP:below-3.0	2026-10-18	2026-10-18	4	
 linkedin.com/jobs/view/4477787710	TalentHop	Deal Desk Analyst	https://www.linkedin.com/jobs/view/4477787710	dropped	NO-BUILD:employer-hidden	2026-10-18	2026-10-18	4	
 linkedin.com/jobs/view/4468659244	Alkami Technology	Deal Desk Analyst	https://www.linkedin.com/jobs/view/4468659244	dropped	SKIP:no-sponsorship-this-req	2026-10-18	2026-10-18	4	
-linkedin.com/jobs/view/4479695328	Aidentifi	Business Operations | CEO’s Office	https://www.linkedin.com/jobs/view/4479695328	queued		2026-10-18	2026-10-18	6	
+linkedin.com/jobs/view/4479695328	Aidentifi	Business Operations | CEO’s Office	https://www.linkedin.com/jobs/view/4479695328	queued		2026-10-18	2026-10-18	7	
 linkedin.com/jobs/view/4471827670	SambaNova	Partner Marketing Manager	https://www.linkedin.com/jobs/view/4471827670	queued		2026-10-18	2026-10-18	4	
 zapply.jobs/l/d/workday-baxter-baxter-jr-211006	Baxter International	Tech IV, MNF Primary Packaging 12pm - 8:30pm	https://zapply.jobs/l/d/workday-baxter-baxter-JR-211006?s=gh-new-grad-jobs-2027	dropped	DROP:role-family-mismatch	2026-10-18	2026-10-18	4	
 linkedin.com/jobs/view/4462328454	NVIDIA	Product Manager - BioNeMo Inference	https://www.linkedin.com/jobs/view/4462328454	dropped	DROP:below-3.0	2026-10-18	2026-10-18	4	
-linkedin.com/jobs/view/4426203543	Roblox	Senior Product Manager, Compute Platform	https://www.linkedin.com/jobs/view/4426203543	jd_extracted		2026-10-18	2026-10-18	5	
+linkedin.com/jobs/view/4426203543	Roblox	Senior Product Manager, Compute Platform	https://www.linkedin.com/jobs/view/4426203543	dropped	DROP:over-experience-cap	2026-10-18	2026-10-18	7	
 linkedin.com/jobs/view/4445278558	Luma	Product Manager, Core Product	https://www.linkedin.com/jobs/view/4445278558	dropped	DROP:below-3.0	2026-10-18	2026-10-18	4	
-linkedin.com/jobs/view/4470339092	Google	Product Manager, Pixel Connectivity Experiences	https://www.linkedin.com/jobs/view/4470339092	queued		2026-10-18	2026-10-18	6	
+linkedin.com/jobs/view/4470339092	Google	Product Manager, Pixel Connectivity Experiences	https://www.linkedin.com/jobs/view/4470339092	queued		2026-10-18	2026-10-18	7	
 linkedin.com/jobs/view/4463660854	Amazon	Sr. Product Manager – Technical, Audio Wearables, Alexa Personal Devices	https://www.linkedin.com/jobs/view/4463660854	dropped	DROP:below-3.0	2026-10-18	2026-10-18	4	
-linkedin.com/jobs/view/4460746292	Mercury	Senior Product Manager - Reconciliation	https://www.linkedin.com/jobs/view/4460746292	jd_extracted		2026-10-18	2026-10-18	5	
-linkedin.com/jobs/view/4443193639	Figma	Product Manager, Acquisition	https://www.linkedin.com/jobs/view/4443193639	jd_extracted		2026-10-18	2026-10-18	5	
+linkedin.com/jobs/view/4460746292	Mercury	Senior Product Manager - Reconciliation	https://www.linkedin.com/jobs/view/4460746292	dropped	DROP:over-experience-cap	2026-10-18	2026-10-18	7	
+linkedin.com/jobs/view/4443193639	Figma	Product Manager, Acquisition	https://www.linkedin.com/jobs/view/4443193639	jd_extracted		2026-10-18	2026-10-18	6	
 linkedin.com/jobs/view/4470171581	Duck Creek Technologies	Senior Product Manager, Agentic Application	https://www.linkedin.com/jobs/view/4470171581	dropped	DROP:below-3.0	2026-10-18	2026-10-18	4	
 linkedin.com/jobs/view/4477799104	Oak Recruiting	Founding Growth & Content Lead (Growth Marketing, Social, Creators)	https://www.linkedin.com/jobs/view/4477799104	dropped	SKIP:no-sponsorship-future	2026-10-18	2026-10-18	4	
 linkedin.com/jobs/view/4477776164	Aquent	Brand Marketing Manager (device) [AQ-22607]	https://www.linkedin.com/jobs/view/4477776164	jd_extracted		2026-10-18	2026-10-18	3	
 linkedin.com/jobs/view/4444260510	Palo Alto Networks	Lead, GTM Strategy and Transformation	https://www.linkedin.com/jobs/view/4444260510	dropped	DROP:below-3.0	2026-10-18	2026-10-18	4	
-linkedin.com/jobs/view/4463328938	Rippling	Senior Lifecycle Marketing Manager	https://www.linkedin.com/jobs/view/4463328938	queued		2026-10-18	2026-10-18	6	
+linkedin.com/jobs/view/4463328938	Rippling	Senior Lifecycle Marketing Manager	https://www.linkedin.com/jobs/view/4463328938	queued		2026-10-18	2026-10-18	7	
 linkedin.com/jobs/view/4461928375	Linktree	Staff Product Manager, Growth (Acquisition)	https://www.linkedin.com/jobs/view/4461928375	jd_extracted		2026-10-18	2026-10-18	3	
-linkedin.com/jobs/view/4470742896	Google	Sales Operations Senior Associate, Global Product Solutions	https://www.linkedin.com/jobs/view/4470742896	shortlisted		2026-10-18	2026-10-18	3	
+linkedin.com/jobs/view/4470742896	Google	Sales Operations Senior Associate, Global Product Solutions	https://www.linkedin.com/jobs/view/4470742896	jd_extracted		2026-10-18	2026-10-18	4	
 linkedin.com/jobs/view/4477772920	Mahadeobari Tea Co. Pvt. Ltd	Business Manager and EA – Founder’s Office	https://www.linkedin.com/jobs/view/4477772920	dropped	DROP:below-3.0	2026-10-18	2026-10-18	4	
 linkedin.com/jobs/view/4479686368	Veeam Software	Senior Competitive Intelligence Manager	https://www.linkedin.com/jobs/view/4479686368	shortlisted		2026-10-18	2026-10-18	1	
 zapply.jobs/l/d/workday-td-td-bank-careers-r_1516192	TD Bank	Relationship Banker I (74th & Broadway) 30 Hours	https://zapply.jobs/l/d/workday-td-td-bank-careers-R_1516192?s=gh-new-grad-jobs-2027	dropped	DROP:no-target-role-match	2026-10-18	2026-10-18	1	
@@ -285,27 +285,27 @@ linkedin.com/jobs/view/4479630432	DocsDocs Technologies	Founder's Office – Ope
 jobs.accel.com/companies/airkit-2/jobs/84487200-pricing-strategy-manager-senior-manager	Airkit (Salesforce)	Pricing Strategy Manager/Senior Manager	https://jobs.accel.com/companies/airkit-2/jobs/84487200-pricing-strategy-manager-senior-manager	dropped	DROP:duplicate-of-tracker-1358-rescored-4.2	2026-10-17	2026-10-18	4	
 job-boards.greenhouse.io/gleanwork/jobs/4533468005	Glean	Senior Demand Generation Manager	https://job-boards.greenhouse.io/gleanwork/jobs/4533468005	dropped	BUILT	2026-09-25	2026-10-18	8	
 boards.greenhouse.io/figma/jobs/6119781004?gh_jid=6119781004	Figma	Product Manager, Acquisition	https://boards.greenhouse.io/figma/jobs/6119781004?gh_jid=6119781004	dropped	BUILT	2026-09-25	2026-10-18	9	
-linkedin.com/jobs/view/4406217033	BitGo	Product Marketing Manager	https://www.linkedin.com/jobs/view/4406217033	shortlisted		2026-09-27	2026-10-18	3	
-linkedin.com/jobs/view/4450829898	Netflix	Pricing Strategy Manager	https://www.linkedin.com/jobs/view/4450829898	shortlisted		2026-09-27	2026-10-18	3	
-linkedin.com/jobs/view/4433125286	DoorDash	Dasher Marketing Manager - New Bets	https://www.linkedin.com/jobs/view/4433125286	shortlisted		2026-09-27	2026-10-18	3	
-linkedin.com/jobs/view/4461933508	Happen Bank	Product Marketing Manager, New Initiatives	https://www.linkedin.com/jobs/view/4461933508	shortlisted		2026-09-26	2026-10-18	3	
-linkedin.com/jobs/view/4470181064	Meta	Product Marketing Manager, Pricing (Subscriptions)	https://www.linkedin.com/jobs/view/4470181064	shortlisted		2026-09-26	2026-10-18	3	
-linkedin.com/jobs/view/4463198173	Guidewire Software	Senior Product Marketing Manager, ClaimCenter	https://www.linkedin.com/jobs/view/4463198173	shortlisted		2026-10-18	2026-10-18	2	
-linkedin.com/jobs/view/4479683749	Evlo AI	Revenue Operations Analyst	https://www.linkedin.com/jobs/view/4479683749	shortlisted		2026-10-18	2026-10-18	2	
-linkedin.com/jobs/view/4461168106	Databricks	Sr. Product Marketing Manager, Lakewatch & Agentic Apps	https://www.linkedin.com/jobs/view/4461168106	shortlisted		2026-10-18	2026-10-18	2	
-linkedin.com/jobs/view/4479900615	NVIDIA	Sales Operations Analyst	https://www.linkedin.com/jobs/view/4479900615	shortlisted		2026-10-18	2026-10-18	2	
-linkedin.com/jobs/view/4417450671	Supermicro	Product Manager, Motherboard	https://www.linkedin.com/jobs/view/4417450671	shortlisted		2026-10-18	2026-10-18	2	
-linkedin.com/jobs/view/4478219247	Fat Pig Ventures	Founder’s Office Associate	https://www.linkedin.com/jobs/view/4478219247	shortlisted		2026-10-18	2026-10-18	2	
-linkedin.com/jobs/view/4479679855	RemoteHunter	Product Marketing Manager, Strategic Partnerships	https://www.linkedin.com/jobs/view/4479679855	shortlisted		2026-10-18	2026-10-18	2	
-linkedin.com/jobs/view/4477781987	TalentHop	Technical Marketing Manager	https://www.linkedin.com/jobs/view/4477781987	shortlisted		2026-10-18	2026-10-18	2	
-linkedin.com/jobs/view/4479680990	CHEManager International	Applied Scientist- Pricing, Dynamic Pricing & Offer Selection	https://www.linkedin.com/jobs/view/4479680990	shortlisted		2026-10-18	2026-10-18	2	
-linkedin.com/jobs/view/4472099387	Fleetio	Senior Revenue Operations Analyst	https://www.linkedin.com/jobs/view/4472099387	shortlisted		2026-10-18	2026-10-18	2	
-linkedin.com/jobs/view/4472073771	UBC	Sr. Manager, Sales Operations - Salesforce Administrator	https://www.linkedin.com/jobs/view/4472073771	shortlisted		2026-10-18	2026-10-18	2	
-linkedin.com/jobs/view/4477797267	TalentHop	Senior Program Manager, Revenue Operations	https://www.linkedin.com/jobs/view/4477797267	shortlisted		2026-10-18	2026-10-18	2	
-linkedin.com/jobs/view/4472250439	Skylo	Senior Product Manager, Services	https://www.linkedin.com/jobs/view/4472250439	shortlisted		2026-10-18	2026-10-18	2	
-zapply.jobs/l/d/workday-globalfoundries-external-jr-2605415	GlobalFoundries	Product Manager	https://zapply.jobs/l/d/workday-globalfoundries-external-JR-2605415?s=gh-new-grad-jobs-2027	shortlisted		2026-10-18	2026-10-18	2	
-linkedin.com/jobs/view/4477785524	Story99	Founder's Office Role	https://www.linkedin.com/jobs/view/4477785524	shortlisted		2026-10-18	2026-10-18	2	
-linkedin.com/jobs/view/4472087511	Stripe	Strategy & Operations Business Partner, Customer Success	https://www.linkedin.com/jobs/view/4472087511	shortlisted		2026-10-18	2026-10-18	2	
+linkedin.com/jobs/view/4406217033	BitGo	Product Marketing Manager	https://www.linkedin.com/jobs/view/4406217033	jd_extracted		2026-09-27	2026-10-18	4	
+linkedin.com/jobs/view/4450829898	Netflix	Pricing Strategy Manager	https://www.linkedin.com/jobs/view/4450829898	jd_extracted		2026-09-27	2026-10-18	4	
+linkedin.com/jobs/view/4433125286	DoorDash	Dasher Marketing Manager - New Bets	https://www.linkedin.com/jobs/view/4433125286	jd_extracted		2026-09-27	2026-10-18	4	
+linkedin.com/jobs/view/4461933508	Happen Bank	Product Marketing Manager, New Initiatives	https://www.linkedin.com/jobs/view/4461933508	jd_extracted		2026-09-26	2026-10-18	4	
+linkedin.com/jobs/view/4470181064	Meta	Product Marketing Manager, Pricing (Subscriptions)	https://www.linkedin.com/jobs/view/4470181064	jd_extracted		2026-09-26	2026-10-18	4	
+linkedin.com/jobs/view/4463198173	Guidewire Software	Senior Product Marketing Manager, ClaimCenter	https://www.linkedin.com/jobs/view/4463198173	dropped	DROP:over-experience-cap	2026-10-18	2026-10-18	4	
+linkedin.com/jobs/view/4479683749	Evlo AI	Revenue Operations Analyst	https://www.linkedin.com/jobs/view/4479683749	jd_extracted		2026-10-18	2026-10-18	3	
+linkedin.com/jobs/view/4461168106	Databricks	Sr. Product Marketing Manager, Lakewatch & Agentic Apps	https://www.linkedin.com/jobs/view/4461168106	jd_extracted		2026-10-18	2026-10-18	3	
+linkedin.com/jobs/view/4479900615	NVIDIA	Sales Operations Analyst	https://www.linkedin.com/jobs/view/4479900615	jd_extracted		2026-10-18	2026-10-18	3	
+linkedin.com/jobs/view/4417450671	Supermicro	Product Manager, Motherboard	https://www.linkedin.com/jobs/view/4417450671	jd_extracted		2026-10-18	2026-10-18	3	
+linkedin.com/jobs/view/4478219247	Fat Pig Ventures	Founder’s Office Associate	https://www.linkedin.com/jobs/view/4478219247	jd_extracted		2026-10-18	2026-10-18	3	
+linkedin.com/jobs/view/4479679855	RemoteHunter	Product Marketing Manager, Strategic Partnerships	https://www.linkedin.com/jobs/view/4479679855	jd_extracted		2026-10-18	2026-10-18	3	
+linkedin.com/jobs/view/4477781987	TalentHop	Technical Marketing Manager	https://www.linkedin.com/jobs/view/4477781987	jd_extracted		2026-10-18	2026-10-18	3	
+linkedin.com/jobs/view/4479680990	CHEManager International	Applied Scientist- Pricing, Dynamic Pricing & Offer Selection	https://www.linkedin.com/jobs/view/4479680990	jd_extracted		2026-10-18	2026-10-18	3	
+linkedin.com/jobs/view/4472099387	Fleetio	Senior Revenue Operations Analyst	https://www.linkedin.com/jobs/view/4472099387	jd_extracted		2026-10-18	2026-10-18	3	
+linkedin.com/jobs/view/4472073771	UBC	Sr. Manager, Sales Operations - Salesforce Administrator	https://www.linkedin.com/jobs/view/4472073771	jd_extracted		2026-10-18	2026-10-18	3	
+linkedin.com/jobs/view/4477797267	TalentHop	Senior Program Manager, Revenue Operations	https://www.linkedin.com/jobs/view/4477797267	jd_extracted		2026-10-18	2026-10-18	3	
+linkedin.com/jobs/view/4472250439	Skylo	Senior Product Manager, Services	https://www.linkedin.com/jobs/view/4472250439	dropped	DROP:over-experience-cap	2026-10-18	2026-10-18	4	
+zapply.jobs/l/d/workday-globalfoundries-external-jr-2605415	GlobalFoundries	Product Manager	https://zapply.jobs/l/d/workday-globalfoundries-external-JR-2605415?s=gh-new-grad-jobs-2027	dropped	DROP:over-experience-cap	2026-10-18	2026-10-18	4	
+linkedin.com/jobs/view/4477785524	Story99	Founder's Office Role	https://www.linkedin.com/jobs/view/4477785524	jd_extracted		2026-10-18	2026-10-18	3	
+linkedin.com/jobs/view/4472087511	Stripe	Strategy & Operations Business Partner, Customer Success	https://www.linkedin.com/jobs/view/4472087511	dropped	DROP:over-experience-cap	2026-10-18	2026-10-18	4	
 zapply.jobs/l/d/workday-cisco-cisco-careers-2027224	Cisco	Virtual Sales Account Executive - Splunk Federal Civilian (Remote)	https://zapply.jobs/l/d/workday-cisco-cisco-careers-2027224?s=gh-new-grad-jobs-2027	dropped	DROP:no-target-role-match	2026-10-18	2026-10-18	1	
 zapply.jobs/l/d/workday-redhat-jobs-r-058949	Red Hat	Sales Account Manager 2	https://zapply.jobs/l/d/workday-redhat-jobs-R-058949?s=gh-new-grad-jobs-2027	dropped	DROP:no-target-role-match	2026-10-18	2026-10-18	1	
 zapply.jobs/l/d/workday-bbinsurance-careers-r26_0000001804	Brown & Brown Insurance	Assistant Broker	https://zapply.jobs/l/d/workday-bbinsurance-careers-R26_0000001804?s=gh-new-grad-jobs-2027	dropped	DROP:no-target-role-match	2026-10-18	2026-10-18	1	
