@@ -6,7 +6,7 @@ Your posting says most RevOps roles hand you a playbook and ask you to run it, a
 
 Built you a 6-slide pitch deck so the proof fits on one read.
 
-At Sensata I owned deal desk as Pricing Lead, structuring non-standard deals and recovering $700K+ in margin in two quarters while moving channel-partner margins from 53% to 61%. I also built the Power BI view tracking 1,200 pricing opportunities against a $627M target by region and product line, the pipeline-visibility work your territory and performance sections ask for. At Applied Materials I run Claude-based agents on recurring revenue analysis instead of rebuilding models by hand, which is the AI-native bar your posting sets.
+At Sensata I owned deal desk as Pricing Lead, structuring non-standard deals and recovering $700K+ in margin in two quarters while moving channel-partner margins from 53% to 61%. I also built the Power BI view tracking 1,200 pricing opportunities against a $627M target, the pipeline-visibility work your territory and performance sections ask for. At Applied Materials I run Claude-based agents on recurring revenue analysis instead of rebuilding models by hand, the AI-native bar your posting sets.
 
 Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/appsflyer
 
