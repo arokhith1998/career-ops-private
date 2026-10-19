@@ -1,0 +1,28 @@
+Subject: Airwallex Ad Tech & Measurement: geo holdouts over another dashboard
+
+Hi {Hiring Manager, Ad Tech & Measurement},
+
+"Design lift tests, geo experiments, and holdouts, and develop leading indicators of lead quality" is a line I rarely see spelled out this plainly in a performance marketing req, so I am reaching out before applying through the portal.
+
+I built a 6-slide deck arguing the proof fits this exact build, not a generic measurement pitch.
+
+Some of what is in it:
+
+At Plug Power, designed 15+ A/B tests with audience and geo holdouts across 50+ inbound campaigns, tying SEM and social spend to MQL and stage-1 opportunities instead of clicks.
+
+Automated the Salesforce, Adobe Analytics, GA and Google Tag Manager stack end to end, troubleshooting tracking issues and cutting CPA 25%.
+
+At Sensata, instrumented KPI and measurement frameworks in SQL and GA4 across 50K+ connected devices to surface high-intent cohorts.
+
+Run AI agents built on Claude in production today at Applied Materials, so tagging-governance work does not eat the strategy half of this seat.
+
+Here's the portfolio: https://adhi-growth-ai.vercel.app/ref/airwallex
+
+I would like 15 minutes to hear how your team is sequencing the CRM-to-media integration work, and whether the Plug Power holdout design is close enough to be useful here. The deck's first-month plan slide covers that if it is faster than a resume. If this is not your req, no hard feelings.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
