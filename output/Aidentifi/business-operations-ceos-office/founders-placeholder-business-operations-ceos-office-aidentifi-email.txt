@@ -1,0 +1,21 @@
+Subject: Most "AI-native ops" posts describe the dashboard, not the gate
+
+Hi {Founders, Aidentifi},
+
+Most companies calling themselves AI-native have bolted a dashboard onto the same approval process they ran before. Your posting's real question, how an AI-native company should actually operate, only has an honest answer once the system is the approval gate itself. I built that version at PriceKeel: the CRM, CPQ, pipeline reviews and deal approvals, run by me as the sole operator, where the audit trail is the record of the decision, not a summary of it.
+
+A few more data points against the scope:
+- At Applied Materials I partner with Sales, Engineering and Accounts on every market-sizing model, then automate the repetitive half with Claude agents.
+- At Sensata I built a price-increase model and a dashboard surfacing $433M in margin gaps for leadership to prioritize.
+- At Plug Power I owned $100K/month budgets and presented the plans to the leadership team for approval.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/aidentifi
+
+Worth 15 minutes on what is breaking in the system right now, happy to be pointed elsewhere if this already has an owner.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

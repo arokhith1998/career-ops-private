@@ -1,0 +1,21 @@
+Subject: The question in your posting, how an AI-native company should actually operate
+
+Hi {Recruiter, Aidentifi},
+
+I do not usually write in before applying, but Business Operations inside a CEO's Office is ground I already operate on through PriceKeel, not something I would be learning cold here.
+
+A few things that map onto the posting:
+- At PriceKeel I set up and run the company's own CRM, CPQ, forecast reviews and deal approvals myself, the same operator relationship to a system this role asks for.
+- At Applied Materials I automate repetitive market-sizing and forecasting work with Claude agents, the kind of AI doing real workflow this team wants.
+- At Sensata I built the FY2026 pricing dashboard ranking 1,200 opportunities against a $627M target across 3 regions, the management information this seat is asked to produce.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/aidentifi
+
+Worth 15 minutes if this req is still open, no worries if it already has an owner.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
