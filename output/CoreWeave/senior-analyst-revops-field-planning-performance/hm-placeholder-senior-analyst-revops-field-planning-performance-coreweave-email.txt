@@ -1,0 +1,20 @@
+Subject: Predictive forecasting, not just forecast reviews, in your RevOps posting
+
+Hi {Hiring Manager, RevOps Field Planning and Performance},
+
+I don't normally reach out before applying, but the line asking someone to build predictive forecasting and long-range revenue models, not just review them, is what made me write first.
+
+Built you a 6-slide pitch deck so the proof fits on one read.
+
+At Sensata I built the Bleeders and Leakers Power BI dashboard, a live view of 1,200 pricing opportunities against a $627M target across 3 regions, 4 product families and 20 product lines, surfacing $433M in margin shortfalls by salesperson and product line so leadership knew where to push. That program recovered $700K+ in two quarters. At Applied Materials I run Claude-based AI agents to automate recurring forecasting and market sizing instead of rebuilding models every cycle, the AI-first habit this posting asks for. I'm also running PriceKeel's own forecast and pipeline reviews from scratch, so building it myself isn't new.
+
+Here's the portfolio: https://adhi-growth-ai.vercel.app/ref/coreweave
+
+Worth 15 minutes to see if the fit is real, and no worries if this sits with someone else on your team.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
