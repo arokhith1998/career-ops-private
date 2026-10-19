@@ -1,0 +1,20 @@
+Subject: Customer zero before customer facing, that is the brief I want
+
+Hi {Recruiter, Enterprise AI},
+
+I do not usually write in before applying, but a team that builds AI products for its own GTM org first, then ships the lessons to customers, is a sharper brief than the usual roadmap-ownership req.
+
+I built PriceKeel's guardrail engine to turn structured deal data into an explainable discount recommendation, the same data-to-decision loop this charter runs for sales workflows.
+At Applied Materials I automate forecasting and market sizing with AI agents built on Claude, across multiple product groups.
+I built a Power BI model at Sensata ranking 1,200 pricing opportunities against a $627M target, surfacing $433M in gaps for leadership to act on first.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/snowflake
+
+Worth 15 minutes to see if this req sits with your desk, or a pointer if it does not.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

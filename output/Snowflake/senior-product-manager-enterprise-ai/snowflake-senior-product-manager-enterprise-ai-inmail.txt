@@ -1,0 +1,20 @@
+Subject: AI driven workflow automation, the part I already run
+
+Hi {Recruiter, Enterprise AI},
+
+I do not usually send a note before applying, but a role that ties product work directly to AI driven workflow automation for internal teams first, then for external customers, is close to what I already do day to day.
+
+At Applied Materials I automate forecasting and market sizing with AI agents built on Claude across multiple product groups.
+I founded PriceKeel, a guardrail engine that reads live deal data and produces an audit trail Finance can act on.
+I built a Power BI model at Sensata surfacing $433M in margin gaps across 3 regions for leadership to prioritize.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/snowflake
+
+Worth 15 minutes if this sits with you, or a pointer if it does not.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

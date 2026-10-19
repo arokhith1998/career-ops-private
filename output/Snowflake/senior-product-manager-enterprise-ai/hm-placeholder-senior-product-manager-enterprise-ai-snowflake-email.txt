@@ -1,0 +1,20 @@
+Subject: The ranking problem behind the roadmap
+
+Hi {Hiring Manager, Enterprise AI},
+
+I do not normally write in before applying, but running a data driven prioritization process across a flood of inbound feature requests, instead of a backlog ranked by who asked loudest, is the kind of problem that pulled me in more than the feature list itself.
+
+I scoped and shipped SwipeHire zero to one on the OpenAI API, from PRD to MVP, running 8+ A/B tests and 12+ user interviews for a 25% activation lift.
+I ran a 100+ feature backlog in Agile across 3 regions at Sensata, cutting time-to-market 20% and accelerating releases 25%.
+At Applied Materials I build forecasting and market sizing models across multiple product groups, automated with AI agents built on Claude.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/snowflake
+
+Worth 15 minutes if this req sits with you, or a pointer if it does not.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
