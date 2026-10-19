@@ -2,13 +2,13 @@ Subject: Airwallex Ad Tech & Measurement: the CRM line, not the DV360 line
 
 Hi {Recruiter, Performance Marketing},
 
-The line that got me was "work with Marketing Operations and RevOps to tie media signals to CRM lifecycle stages and offline conversions." Most ad tech postings stop at pixel hygiene. This one asks the stack to answer to the CRM, which is the harder half of the job and the part I have actually built, so I am writing before the portal form.
+The line that got me was "tie media signals to CRM lifecycle stages and offline conversions." Most ad tech postings stop at pixel hygiene; this one asks the stack to answer to the CRM, so I am writing before the portal form.
 
-I put together a 6-slide deck mapping that build to what this req owns.
+I built a 6-slide deck mapping that work to this req.
 
-A few pieces of it:
+A few pieces:
 
-At Plug Power, automated the Salesforce, Adobe Analytics, GA and Google Tag Manager stack for closed-loop reporting, tying media signals to CRM lifecycle stage and cutting CPA 25%.
+At Plug Power, automated the Salesforce, Adobe Analytics, GA and Google Tag Manager stack for closed-loop reporting, cutting CPA 25%.
 
 Designed 15+ A/B tests with audience and geo holdouts across 50+ inbound campaigns, building leading indicators of lead quality instead of raw conversion counts.
 
@@ -16,7 +16,7 @@ Ran programmatic and retail-media audiences (Amazon Ads, Criteo) for 8 client ac
 
 Here's the portfolio: https://adhi-growth-ai.vercel.app/ref/airwallex
 
-If this is your req, 15 minutes on the Plug Power measurement build would help. If it sits on someone else's desk, a pointer would too.
+If this is your req, 15 minutes on the Plug Power build would help. If not, a pointer would too.
 
 Thank you,
 
