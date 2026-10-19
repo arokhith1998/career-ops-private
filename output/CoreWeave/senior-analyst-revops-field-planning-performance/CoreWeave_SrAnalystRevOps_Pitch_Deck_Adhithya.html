@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>CoreWeave Senior Analyst, RevOps Field Planning and Performance Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #1a56db; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 28pt; font-weight: 800; color: #0f172a; line-height: 1.1; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 21pt; font-weight: 800; color: #0f172a; line-height: 1.1; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #1a56db; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.5in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbe7fb 100%); }
+  .cover h1 { font-size: 24pt; max-width: 11.6in; }
+  .cover .sub { font-size: 14pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 16pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.6in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #1a56db; font-weight: 700; }
+  .cover .who { margin-top: 16pt; padding-top: 11pt; border-top: 1.5pt solid #1a56db; max-width: 9.5in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #1a56db; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #eef3fc; border-left: 3pt solid #1a56db; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #123a91; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #1a56db; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #eef3fc; border-left: 4pt solid #1a56db; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #123a91; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 24pt; font-weight: 800; color: #1a56db; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #1a56db; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #1a56db; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbe7fb 100%); }
+  .close h2 { font-size: 25pt; max-width: 10.8in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.8in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #1a56db; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the CoreWeave Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | CoreWeave Senior Analyst, RevOps Field Planning and Performance</div>
+  <h1>A newly public AI hyperscaler scaling its Global Field Organization needs someone who already turns rep-level and regional performance data into the scorecard leadership acts on, not another forecast review that restates last quarter.</h1>
+  <div class="sub">Field performance analytics, forecasting and AI-driven RevOps, built and run hands on, not delegated.</div>
+  <div class="tags">
+    <div class="tag"><strong>1,200</strong> opportunities tracked in a win-rate and stage-distribution dashboard at Sensata</div>
+    <div class="tag"><strong>$433M</strong> in margin gaps surfaced for leadership to prioritize by salesperson and product line</div>
+    <div class="tag"><strong>$700K+</strong> recovered in 2 quarters acting on that same performance data</div>
+    <div class="tag"><strong>PriceKeel</strong> - runs CRM, CPQ and forecast reviews, founder to admin</div>
+    <div class="tag"><strong>Claude AI agents</strong> automate recurring forecasting and reporting work today</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-growth-ai.vercel.app/ref/coreweave</div>
+  </div>
+  <div class="brand">COREWEAVE REVOPS</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>The risk in a scaling Global Field Organization is not a lack of data. It is <span class="accent">performance gaps nobody surfaces until the QBR.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What a scaling field org runs into</h4>
+      <div class="line">Sales performance data sits in the CRM, the forecasting tool and a dozen spreadsheets, but nobody owns turning it into a scorecard that flags a rep, team or regional gap before the quarter closes.</div>
+      <div class="line">Territory, quota and segmentation plans get built once at scale-up speed, then nobody revisits coverage as new verticals and geographies get added.</div>
+      <div class="line">The fix is not another dashboard review. It is one analyst who owns the performance data end to end: the scorecard, the root cause, and the recommendation that actually gets executed.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run, hands on</h4>
+      <div class="line">At <b>Sensata</b>, I built the Bleeders and Leakers dashboard across 1,200 opportunities and a $627M target, surfacing $433M in margin gaps by salesperson and product line for leadership to prioritize.</div>
+      <div class="line">I ran the win-rate, average $/win and stage-distribution analysis behind that dashboard, the same pipeline conversion and sales cycle work a field performance scorecard needs.</div>
+      <div class="line">I run that same analytical loop today as founder of <b>PriceKeel</b>: CRM, CPQ, forecast and pipeline reviews, with an audit trail Finance can check without asking me first.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">Monitoring sales performance across segments, verticals and geographies, and turning rep-level gaps into data-backed recommendations, is describing this exact loop: build the scorecard, spot the shortfall, drive the fix.</div>
+  </div>
+  <div class="brand">COREWEAVE REVOPS</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What the Senior Analyst, RevOps opening asks for, and where the proof sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Monitor, analyze, and report on sales performance metrics across segments, verticals, and geographies."</div></div>
+      <div class="quote"><div class="q">"Identify performance gaps at the rep, team, and regional level, and propose data-backed recommendations."</div></div>
+      <div class="quote"><div class="q">"Use AI tools (LLMs, AI copilots, workflow automation) to accelerate analysis, reporting, and forecasting."</div></div>
+    </div>
+    <div class="col">
+      <h3>My Proof</h3>
+      <div class="proof"><div class="p"><b>Sensata Bleeders and Leakers:</b> win rate, average $/win and stage distribution by salesperson across 3 regions, 4 product families and 20 product lines.</div></div>
+      <div class="proof"><div class="p"><b>$433M in margin gaps surfaced:</b> prioritized by salesperson and product line, the exact rep, team and regional gap-finding this role asks for.</div></div>
+      <div class="proof"><div class="p"><b>Claude AI agents, not a pilot:</b> automate recurring forecasting and reporting work at Applied Materials today.</div></div>
+      <div class="proof"><div class="p"><b>PriceKeel CRM and CPQ:</b> run hands-on as founder, including the forecast and pipeline reviews behind every deal.</div></div>
+    </div>
+  </div>
+  <div class="brand">COREWEAVE REVOPS</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The Sensata proof, in depth</div>
+  <h2>One scorecard, one root-cause program, <span class="accent">one margin number leadership could act on.</span></h2>
+  <div class="lede">The Bleeders and Leakers program started as a pricing initiative but ran on the same spine this req describes: segment and regionalize the pipeline, score win rate and stage distribution by salesperson, and turn the worst gaps into a recommendation Sales Leadership would actually act on at the next QBR.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$433M</div>
+      <div class="lbl">Margin Gaps Surfaced</div>
+      <div class="desc">Prioritized by salesperson and product line across 1,200 opportunities and a $627M target, so leadership knew exactly where to act first.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$700K+</div>
+      <div class="lbl">Margin Recovered in 2 Quarters</div>
+      <div class="desc">Acting on the dashboard's own findings, not just reporting them: the same close-the-loop standard a field performance scorecard has to meet.</div>
+    </div>
+    <div class="stat">
+      <div class="n">53% to 61%</div>
+      <div class="lbl">Distributor Margin Lift</div>
+      <div class="desc">Raised by repricing parts sold through distribution, the channel and coverage layer underneath territory and segmentation planning.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">The common thread: build the scorecard, spot the shortfall, recover the number, then repeat it in the next QBR. That is the loop I would bring to CoreWeave's Field Planning and Performance team.</div>
+  <div class="brand">COREWEAVE REVOPS</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month on CoreWeave's Field Planning and Performance team looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Trace the current scorecard</div>
+      <div class="body">Map today's sales performance reporting across segments, verticals and geographies end to end, and flag where a rep, team or regional gap is already visible in the data but not yet in a deck.</div>
+      <div class="why"><strong>Why first:</strong> a shortfall is usually visible in the pipeline data before anyone names it. Same move that started the Bleeders and Leakers program at Sensata.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Ship the shortfall analysis</div>
+      <div class="body">Build the win/loss, pipeline conversion and sales cycle analysis behind the worst gap, and bring Sales Leadership and RevOps a data-backed recommendation they can act on at the next QBR.</div>
+      <div class="why"><strong>Why now:</strong> the same sequence, surface then act, recovered $700K+ in margin in 2 quarters at Sensata.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Wire it into forecasting</div>
+      <div class="body">Fold the finding into the long-range revenue model and forecast review, and partner with Sales Enablement on the rep skill gap the data points to.</div>
+      <div class="why"><strong>Why this fast:</strong> a gap nobody forecasts against reappears next quarter. Wiring it in is the step that makes the fix stick.</div>
+    </div>
+  </div>
+  <div class="brand">COREWEAVE REVOPS</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are scaling a Global Field Organization and need enterprise-grade rigor without losing startup speed. I have already built that scorecard, found that gap, and recovered the number behind it.</h2>
+  <div class="body">
+    <p>The core proof is Sensata's Bleeders and Leakers program: <strong>$433M in margin gaps surfaced</strong> by salesperson and product line, and <strong>$700K+ recovered in 2 quarters</strong> acting on it.</p>
+    <p>What is harder to find is someone who runs that same loop today. I operate <strong>CRM, CPQ and forecast reviews as founder of PriceKeel</strong>, and I already automate recurring forecasting and reporting work with <strong>Claude AI agents</strong> at Applied Materials, so the AI-first habit behind this role is not something I would need to build on the job.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-growth-ai.vercel.app/ref/coreweave</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">COREWEAVE REVOPS</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
