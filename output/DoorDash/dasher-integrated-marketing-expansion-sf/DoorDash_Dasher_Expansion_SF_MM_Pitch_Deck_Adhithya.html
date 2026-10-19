@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>DoorDash Manager, Dasher Integrated Marketing - Expansion & New Business Bets (San Francisco) Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #0e7490; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 27pt; font-weight: 800; color: #0f172a; line-height: 1.14; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 20pt; font-weight: 800; color: #0f172a; line-height: 1.12; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #0e7490; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.7in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #cffafe 100%); }
+  .cover h1 { font-size: 23pt; max-width: 11.3in; }
+  .cover .sub { font-size: 13pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 16pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #0e7490; font-weight: 700; }
+  .cover .who { margin-top: 16pt; padding-top: 11pt; border-top: 1.5pt solid #0e7490; max-width: 9.6in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #0e7490; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #ecfeff; border-left: 3pt solid #0e7490; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #155e75; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #0e7490; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #ecfeff; border-left: 4pt solid #0e7490; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #155e75; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0e7490; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 20pt; font-weight: 800; color: #0e7490; line-height: 1.08; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0e7490; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #0e7490; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #0e7490; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #cffafe 100%); }
+  .close h2 { font-size: 22pt; max-width: 10.6in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.6in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #0e7490; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the DoorDash Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | DoorDash Manager, Dasher Integrated Marketing - Expansion &amp; New Business Bets (San Francisco)</div>
+  <h1>The posting opens with sizing the Dasher audience and picking which segment to prioritize. I have run that exact sizing motion twice, once on a market and once on a sensing-product line that closed its first year at $2M+.</h1>
+  <div class="sub">A 5-consultant TAM/SAM/SOM study that cut 170 facilities to a SAM of 28, a one-view market model built with Sales and Engineering, and 30+ interviews that decided a positioning before it shipped.</div>
+  <div class="tags">
+    <div class="tag"><strong>170 to SAM 28</strong> TAM/SAM/SOM sizing led for Safran across 4 verticals</div>
+    <div class="tag"><strong>One market view</strong> built with Sales, Engineering and Accounts at Applied Materials</div>
+    <div class="tag"><strong>30+ interviews</strong> with OEMs and distributors before a positioning was written</div>
+    <div class="tag"><strong>$2M+ first-year revenue</strong> from the GTM that followed at Sensata</div>
+    <div class="tag"><strong>AI agents built on Claude</strong> automating my own recurring analysis today</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-product-ai.vercel.app/ref/doordash</div>
+  </div>
+  <div class="brand">DASHER EXPANSION SF PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>Before a single campaign runs, someone has to decide <span class="accent">which Dasher segment is worth a pilot's budget in the first place.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What the posting actually asks for</h4>
+      <div class="line">Define and size target Dasher audiences and cohorts for each new earning opportunity, including TAM and which segments to prioritize first.</div>
+      <div class="line">Turn that sizing into hypotheses, run primary research against it, and translate the findings into positioning and roadmap input.</div>
+      <div class="line">Set success criteria before a pilot runs, then decide honestly whether to scale, iterate or stop.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already sized, the same way</h4>
+      <div class="line">At <b>Applied Materials</b>, I turned scattered Sales, Engineering and Accounts input into one addressable-market view before pricing or messaging touched it.</div>
+      <div class="line">At <b>Safran</b> (Simon Vision Consulting), I led 5 consultants through TAM/SAM/SOM sizing from 170 facilities to a SAM of 28, with personas across 4 verticals.</div>
+      <div class="line">At <b>Sensata</b>, that sizing fed a GTM I owned end to end, hypothesis to pilot to scale, to a $2M+ first year.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">The through-line: the segment gets sized and tested before a dollar goes into the launch, on every build on this page.</div>
+  </div>
+  <div class="brand">DASHER EXPANSION SF PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The mandate, mapped</div>
+  <h2>What the posting asks for, in its own words, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Define and size target Dasher audiences and cohorts for new earning opportunities, including TAM and which audience segments to prioritize."</div></div>
+      <div class="quote"><div class="q">"Own product-market fit work: form hypotheses, design and run research, and translate findings into positioning."</div></div>
+      <div class="quote"><div class="q">"Run small-scale pilots to validate demand before investing in a national launch; decide whether to scale, iterate or stop."</div></div>
+      <div class="quote"><div class="q">"Mentor and influence cross-functional partners as the marketing lead for new business bets."</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>Safran TAM/SAM/SOM, 170 to 28:</b> led 5 consultants through sizing and segmentation, personas across 4 verticals, positioning for 3 B2B product lines.</div></div>
+      <div class="proof"><div class="p"><b>Applied Materials, one market view:</b> turned Sales, Engineering and Accounts input into a single addressable-market model feeding pricing and forecasting.</div></div>
+      <div class="proof"><div class="p"><b>Sensata GTM, new sensing products:</b> sized the market, ran 30+ interviews, then scaled positioning to $2M+ first-year revenue.</div></div>
+      <div class="proof"><div class="p"><b>Hired and managed an 8-person team at Pixis:</b> set the tone and playbooks for 8 client accounts, the same mentoring this role expects across Product, Brand, CRM and Operations.</div></div>
+    </div>
+  </div>
+  <div class="brand">DASHER EXPANSION SF PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>Size the segment first, then let the <span class="accent">numbers decide whether it earns a national launch.</span></h2>
+  <div class="lede">Three different environments, same sequence: size the market, test the segment, let the answer decide the next move before the spend goes up.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">170 to SAM 28</div>
+      <div class="lbl">Facilities Sized Down To A Real Segment</div>
+      <div class="desc">TAM/SAM/SOM study led for Safran, with personas across 4 verticals and positioning for 3 product lines.</div>
+    </div>
+    <div class="stat">
+      <div class="n">30+ Interviews</div>
+      <div class="lbl">Before The Positioning Was Written</div>
+      <div class="desc">Structured willingness-to-pay research with OEMs and distributors at Sensata, run before the launch plan, not validated after it.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$2M+ Revenue</div>
+      <div class="lbl">First Year, Sizing To Pilot To Scale</div>
+      <div class="desc">The full arc this role runs on a new Dasher earning opportunity, owned end to end at Sensata.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">None of these numbers existed before someone sized the audience first. That is the habit, not a one-time result.</div>
+  <div class="brand">DASHER EXPANSION SF PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month sizing and testing a new Dasher earning opportunity looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Size the audience and pick the segment</div>
+      <div class="body">Pull what Dashers are already saying about the newest earning opportunity (support tickets, forums, UXR and Audience Insights data), size the TAM, and rank the segments worth a pilot's budget first.</div>
+      <div class="why"><strong>Why first:</strong> the same TAM-to-segment motion behind the Safran study and the Applied Materials market model.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Run the primary research and set success criteria</div>
+      <div class="body">Design and run the surveys, interviews and concept tests that confirm or kill the segment hypothesis, working with Product, Design and Strategy &amp; Ops to set the pilot's success criteria before it launches.</div>
+      <div class="why"><strong>Why now:</strong> the same 30+-interview discipline that decided Sensata's positioning before it shipped.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Launch the pilot and instrument the scale decision</div>
+      <div class="body">Ship the small-scale pilot across in-app, owned and earned channels, wire the SQL/GA4 read that tells scale from iterate from stop, and bring an AI-agent-automated version of that report, the same habit running at Applied Materials today.</div>
+      <div class="why"><strong>Why this fast:</strong> a scale decision only holds up once the segment behind it was sized correctly.</div>
+    </div>
+  </div>
+  <div class="brand">DASHER EXPANSION SF PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to size a segment correctly before a pilot ever gets a national budget. I have run that sizing twice, then followed it all the way to a $2M+ first year.</h2>
+  <div class="body">
+    <p>At <strong>Safran</strong>, a TAM/SAM/SOM study that cut 170 facilities to a SAM of 28 across 4 verticals. At <strong>Applied Materials</strong>, one market view built from Sales, Engineering and Accounts input that now feeds pricing and forecasting.</p>
+    <p>At <strong>Sensata</strong>, that same sizing discipline fed a GTM I owned end to end: 30+ interviews before a positioning line was written, and a first year that closed at <strong>$2M+</strong> in revenue on a conversion lift of <strong>+15%</strong>. I automate the repeatable part of that analysis today with AI agents built on Claude, so research time goes to the segment nobody has sized yet.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-product-ai.vercel.app/ref/doordash</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">DASHER EXPANSION SF PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
