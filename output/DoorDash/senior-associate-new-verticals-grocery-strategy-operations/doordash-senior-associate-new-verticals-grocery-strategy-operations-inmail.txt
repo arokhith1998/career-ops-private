@@ -1,0 +1,20 @@
+Subject: The onboarding number that predicts a second Grocery order
+
+Hi {Hiring Manager, DoorDash Grocery Strategy & Operations},
+
+Before a new consumer's onboarding journey can be personalized, someone has to find the one metric that actually predicts a second order and build the dashboard that tracks it weekly. That is the part of this role I have already run, not just read about.
+
+At Sensata I built the FY2026 Bleeders and Leakers dashboard in Power BI, tracking 1,200 pricing opportunities against a $627M target across 3 regions, reviewed weekly, surfacing $433M in margin gaps. Before that, I ran 30+ structured interviews with OEMs and distributors before committing to a positioning, which lifted conversion 15%. At Applied Materials I now build AI agent workflows on Claude that automate the repeatable half of that analysis.
+
+I also put together a short deck mapping that work to Grocery's funnel.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/doordash
+
+Open to 15 minutes on which part of the funnel needs that read next?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

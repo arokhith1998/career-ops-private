@@ -1,0 +1,22 @@
+Subject: Grocery onboarding, built with the AI habit this posting asks for
+
+Hi {Hiring Manager, DoorDash Grocery Strategy & Operations},
+
+Your posting says this role's scope will keep shifting as AI tools get more capable, and wants someone who finds that exciting rather than unsettling. That's why I'm writing before applying: turning recurring analysis over to AI agents is already how I spend my week at Applied Materials.
+
+Built a 6-slide pitch deck mapping that habit to Grocery's onboarding-to-retention funnel.
+
+- Built the FY2026 Bleeders and Leakers dashboard in Power BI at Sensata: 1,200 pricing opportunities against a $627M target, reviewed weekly, surfacing $433M in margin gaps.
+- Ran 30+ structured interviews with OEMs and distributors before committing to a positioning that lifted conversion 15%, the same discipline behind reading what makes a new consumer place a second order.
+- At Applied Materials I build the AI agent workflows that turn days of recurring market analysis into an afternoon.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/doordash
+
+Worth 15 minutes on which part of the Grocery funnel, onboarding or retention, is closest to its next pilot decision. No worries if this already has an owner.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

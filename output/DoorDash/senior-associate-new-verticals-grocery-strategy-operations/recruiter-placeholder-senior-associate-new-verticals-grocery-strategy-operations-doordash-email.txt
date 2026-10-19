@@ -1,0 +1,22 @@
+Subject: Quick fit check on the Grocery Strategy & Operations req
+
+Hi {Recruiter, DoorDash},
+
+I don't normally reach out before applying, but the line "you let data win arguments, and you're comfortable pulling your own data in SQL and building models in excel" reads like a description of work I already do, not something I'd be learning on the job.
+
+Built a 6-slide pitch deck so the proof fits on one read.
+
+- Built the FY2026 Bleeders and Leakers dashboard in Power BI at Sensata: 1,200 pricing opportunities against a $627M target, reviewed weekly, surfacing $433M in margin gaps.
+- Ran 30+ structured interviews with OEMs and distributors before committing to a positioning that lifted conversion 15%.
+- At Applied Materials I build AI agent workflows on Claude that automate the repeatable half of market-sizing work.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/doordash
+
+Worth 15 minutes if this is your req, no worries if it already has an owner.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
