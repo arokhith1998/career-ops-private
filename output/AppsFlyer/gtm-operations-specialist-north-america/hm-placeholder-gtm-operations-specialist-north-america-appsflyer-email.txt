@@ -1,0 +1,20 @@
+Subject: The "optimize the playbook, not just run it" line in your posting
+
+Hi {Hiring Manager, GTM Operations},
+
+Your posting says most RevOps roles hand you a playbook and ask you to run it, and this one asks you to rebuild it. That's the shape of what I did at PriceKeel: I set up the company's CRM, CPQ, forecast and pipeline reviews, and deal approvals from scratch, with an audit trail Finance could stand behind.
+
+Built you a 6-slide pitch deck so the proof fits on one read.
+
+At Sensata I owned deal desk as Pricing Lead, structuring non-standard deals and recovering $700K+ in margin in two quarters while moving channel-partner margins from 53% to 61%. I also built the Power BI view tracking 1,200 pricing opportunities against a $627M target by region and product line, the pipeline-visibility work your territory and performance sections ask for. At Applied Materials I run Claude-based agents on recurring revenue analysis instead of rebuilding models by hand, which is the AI-native bar your posting sets.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/appsflyer
+
+Open to 15 minutes if the timing works, and no worries if this sits with someone else on your team.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

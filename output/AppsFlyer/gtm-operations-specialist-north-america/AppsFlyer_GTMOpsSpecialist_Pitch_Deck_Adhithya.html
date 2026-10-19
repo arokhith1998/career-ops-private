@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>AppsFlyer GTM Operations Specialist Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #1a56db; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 27pt; font-weight: 800; color: #0f172a; line-height: 1.12; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 21pt; font-weight: 800; color: #0f172a; line-height: 1.1; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #1a56db; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.8in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dce7ff 100%); }
+  .cover h1 { font-size: 27pt; max-width: 11.3in; }
+  .cover .sub { font-size: 14pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 18pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #1a56db; font-weight: 700; }
+  .cover .who { margin-top: 18pt; padding-top: 11pt; border-top: 1.5pt solid #1a56db; max-width: 9.8in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #1a56db; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #eaf0ff; border-left: 3pt solid #1a56db; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #0037ad; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #1a56db; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #eaf0ff; border-left: 4pt solid #1a56db; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #0037ad; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 24pt; font-weight: 800; color: #1a56db; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #1a56db; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #1a56db; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dce7ff 100%); }
+  .close h2 { font-size: 25pt; max-width: 10.6in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.9in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #1a56db; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the AppsFlyer Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | AppsFlyer GTM Operations Specialist, North America</div>
+  <h1>Deal desk and pipeline visibility are usually two different jobs. I have already built both as one system, with AI embedded in the workflow, not bolted on.</h1>
+  <div class="sub">CRM, CPQ, forecast reviews and deal approvals, built and run by one operator, measured on AppsFlyer's own stack as a customer.</div>
+  <div class="tags">
+    <div class="tag"><strong>$700K+ margin</strong> recovered in 2 quarters structuring non-standard deals at Sensata</div>
+    <div class="tag"><strong>CRM + CPQ + deal approvals</strong> built and run end to end as founder of PriceKeel</div>
+    <div class="tag"><strong>AppsFlyer + Adjust</strong> ran iOS app UA on your own measurement stack at Pixis</div>
+    <div class="tag"><strong>Claude AI agents</strong> automate recurring revenue analysis at Applied Materials today</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhithyabhaskar.vercel.app/ref/appsflyer</div>
+  </div>
+  <div class="brand">APPSFLYER GTM OPERATIONS</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>Most RevOps hires inherit a playbook. <span class="accent">This req asks someone to rebuild how pipeline, deals and comp actually work.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What makes that hard</h4>
+      <div class="line">Deal desk speed and margin protection usually fight each other: structure a deal fast enough for an AE to close it, without creating a precedent that erodes the next ten deals.</div>
+      <div class="line">"AI embedded in the revenue motion" is a different ask than "AI as a side project." It means comp-exception workflows and pipeline-risk synthesis run through AI by default, not as a demo someone built once.</div>
+      <div class="line">Pipeline and territory visibility tools only earn trust if they survive the first hard question a sales leader asks about why a region is underperforming.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run, at smaller scale</h4>
+      <div class="line">At <b>Sensata</b>, I structured non-standard commercial deals under real margin pressure, recovering $700K+ in 2 quarters while raising channel-partner margins from 53% to 61%.</div>
+      <div class="line">At <b>PriceKeel</b>, I built the CRM, CPQ, forecast and pipeline review process, and the deal-approval workflow, from nothing, plus the audit trail that lets Finance defend every call.</div>
+      <div class="line">At <b>Applied Materials</b>, I automate recurring revenue and market analysis with Claude AI agents today, not as a pilot, as the operating default.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">A GTM Operations Specialist who sits at the center of commercial conversations, with a real seat at the table, is describing deal desk, pipeline visibility and AI-native workflow as one job. I have already run all three.</div>
+  </div>
+  <div class="brand">APPSFLYER GTM OPERATIONS</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What the GTM Operations Specialist opening asks for, and where the proof sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"You'll be the go-to for structuring non-standard deals, managing approval workflows... while protecting margin and maintaining compliance with pricing and contracting policies."</div></div>
+      <div class="quote"><div class="q">"We want someone already using AI daily, whether that's AI-assisted account health briefs... synthesizing pipeline risk across hundreds of deals, or automating comp exception workflows."</div></div>
+      <div class="quote"><div class="q">"You'll run regular pipeline reviews, identify gaps and risks, and build the visibility tools that help managers and leaders make better decisions faster."</div></div>
+    </div>
+    <div class="col">
+      <h3>My Proof</h3>
+      <div class="proof"><div class="p"><b>Deal desk and margin protection, together:</b> $700K+ recovered in 2 quarters at Sensata by structuring non-standard commercial deals against competitive gaps and willingness to pay, not spreadsheet guesswork.</div></div>
+      <div class="proof"><div class="p"><b>AI embedded, not bolted on:</b> daily Claude-agent automation of recurring revenue analysis at Applied Materials, the exact habit this posting is screening for.</div></div>
+      <div class="proof"><div class="p"><b>Pipeline visibility that survives scrutiny:</b> built the FY2026 Power BI dashboard tracking 1,200 pricing opportunities against a $627M target, by region, salesperson and product line.</div></div>
+      <div class="proof"><div class="p"><b>Already your customer:</b> ran iOS app paid UA on AppsFlyer and Adjust at Pixis, so the measurement platform this role sits inside is a tool I have used, not one I would be learning.</div></div>
+    </div>
+  </div>
+  <div class="brand">APPSFLYER GTM OPERATIONS</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>One deal-desk operator, three systems: <span class="accent">pipeline visibility, margin protection and deal infrastructure.</span></h2>
+  <div class="lede">At Sensata, the Bleeders & Leakers program turned a $627M pricing target into something a sales leader could act on: a Power BI dashboard tracking 1,200 opportunities with win rate, average dollar-per-win and stage distribution, by salesperson and by product line, across 3 regions.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$700K+</div>
+      <div class="lbl">Margin Recovered, 2 Quarters</div>
+      <div class="desc">Structured non-standard commercial deals around competitive gaps and customer willingness to pay, not a blanket discount cut.</div>
+    </div>
+    <div class="stat">
+      <div class="n">53% to 61%</div>
+      <div class="lbl">Channel Margin, Under 2 Quarters</div>
+      <div class="desc">Repriced parts sold through distribution, the same margin-governance muscle a deal-desk role is built to use on every exception.</div>
+    </div>
+    <div class="stat">
+      <div class="n">1,200 deals</div>
+      <div class="lbl">Tracked Against a $627M Target</div>
+      <div class="desc">One dashboard, three regions, four product families, twenty product lines; pipeline funnel and stage distribution in one view.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">As founder of PriceKeel, that same discipline became the product: a decision-integrity layer that runs CRM, CPQ, forecast reviews and deal approvals, with an audit trail Finance can actually use, selling directly against the legacy deal-desk tooling this role would otherwise inherit.</div>
+  <div class="brand">APPSFLYER GTM OPERATIONS</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month inside AppsFlyer's GTM engine looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Map the deal-desk and AI workflow</div>
+      <div class="body">Sit with Sales, Finance and Customer Success to walk the current approval chain, pricing policy guardrails and the comp-exception and pipeline-risk workflows already running on AI, then find where they disagree.</div>
+      <div class="why"><strong>Why first:</strong> the same CRM/CPQ-and-audit-trail mapping I ran building PriceKeel from nothing.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Ship one AI-embedded exception workflow</div>
+      <div class="body">Take one recurring deal-desk exception, a discount tier or approval routing rule, and automate the first pass with AI so AEs get a fast, consistent answer instead of a queue.</div>
+      <div class="why"><strong>Why now:</strong> the same instinct that turned repetitive market analysis into a standing Claude-agent workflow at Applied Materials.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Build the standing pipeline dashboard</div>
+      <div class="body">Ship a Salesforce-sourced pipeline and territory view for sales leadership that surfaces win rate, stage risk and dollar-per-win by rep and region, so the next "why is this region underperforming" question has an answer before it's asked.</div>
+      <div class="why"><strong>Why this fast:</strong> the same dashboard discipline that surfaced $433M in margin gaps for Sensata leadership to prioritize.</div>
+    </div>
+  </div>
+  <div class="brand">APPSFLYER GTM OPERATIONS</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to make pipeline, deals and AI-embedded workflow one system. I have already built that system twice, and used your product as a customer.</h2>
+  <div class="body">
+    <p>The core proof is two-sided: <strong>$700K+ in margin recovered</strong> structuring non-standard deals at Sensata, and a <strong>CRM, CPQ, forecast-review and deal-approval system built from scratch</strong> as founder of PriceKeel, with an audit trail Finance can actually use.</p>
+    <p>What is harder to find is someone who has already used AppsFlyer's own measurement stack as a customer and already runs AI as the operating default, not the pilot. <strong>Both of those are already true here</strong>, so the ramp this role would otherwise budget for does not apply.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhithyabhaskar.vercel.app/ref/appsflyer</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">APPSFLYER GTM OPERATIONS</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
