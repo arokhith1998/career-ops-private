@@ -1,0 +1,18 @@
+Subject: A live territory and margin view already running at $627M scale
+
+Hi {Hiring Manager, Revenue Operations},
+
+Most of this req reads like a system I already operate: segmentation, territory diagnostics and the stakeholder trust that comes with being an advisor, not a dashboard owner. At Sensata I ran a live Power BI view, 1,200 pricing opportunities tracked against a $627M target, $433M in margin gaps surfaced, feeding a program that recovered $700K+ in two quarters. I also run my own CRM and CPQ at PriceKeel end to end.
+
+Built a 6-slide pitch deck mapping that system to Cribl's segmentation, territory and business-review work.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/cribl
+
+Worth 15 minutes to see if the fit is real?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

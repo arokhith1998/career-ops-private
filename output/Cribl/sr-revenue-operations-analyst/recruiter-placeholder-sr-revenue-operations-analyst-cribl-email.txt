@@ -1,0 +1,20 @@
+Subject: Segmentation, territory and comp-plan math for Cribl's Sales org
+
+Hi {Recruiter, Revenue Operations},
+
+I do not normally reach out before applying, but a Senior Analyst req that runs segmentation models and territory design through to being a strategic advisor to Sales VPs is a wider mandate than most RevOps analyst postings carry, and it is the one I already run.
+
+Built you a 6-slide pitch deck so the proof fits on one read.
+
+At Sensata I built the Bleeders and Leakers Power BI dashboard, segmenting 1,200 pricing opportunities by region, product line and salesperson against a $627M target, the same account and territory diagnostics a comp-plan cycle needs. I run my own CRM and CPQ at PriceKeel end to end, including the audit trail Finance checks.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/cribl
+
+Worth 15 minutes this week? If this is not your req, a pointer to whoever owns it would help.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
