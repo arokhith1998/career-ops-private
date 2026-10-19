@@ -2,14 +2,14 @@ Subject: Framework one day, in-app copy the next, for the SF Expansion Pod
 
 Hi {Hiring Manager, Dasher Integrated Marketing},
 
-Running PriceKeel alongside Applied Materials means I already live the flex this SF req calls out, developing GTM frameworks one day and writing in-app copy the next, so the Expansion & New Business Bets opening stood out the moment I read it.
+Running PriceKeel alongside Applied Materials means I already live the flex this SF req calls out, GTM frameworks one day, in-app copy the next, so the Expansion & New Business Bets opening stood out the moment I read it.
 
 Built a 6-slide pitch deck mapping that flex to the Expansion Pod's current bets.
 
-- At Sensata I owned both ends: ran 30+ OEM and distributor interviews to size a brand-new sensing line, then wrote the launch positioning myself and scaled it to $2M+ in year-one revenue.
-- That same interview-led positioning lifted conversion 15% on the launches that followed it.
-- I shipped SwipeHire solo, PRD to MVP to pricing tiers to GTM copy, the same single-owner mode a Parcels or Catering pilot needs before it earns a national rollout.
-- At Applied Materials I build forecasting models and run market sizing with Claude-agent automation built in, the same self-serve data habit the req asks for.
+- At Sensata I owned both ends: ran 30+ OEM and distributor interviews to size a brand-new sensing line, then wrote the launch positioning that scaled it to $2M+ in year-one revenue.
+- That same interview-led positioning lifted conversion 15% on the launches after it.
+- I shipped SwipeHire solo, PRD to MVP to pricing tiers to GTM copy, the same single-owner mode a Parcels or Catering pilot needs before a national rollout.
+- At Applied Materials I build forecasting models and run market sizing with Claude-agent automation built in, the self-serve habit the req asks for.
 
 Here's the portfolio: https://adhi-product-ai.vercel.app/ref/doordash
 
