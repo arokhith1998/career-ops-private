@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Cribl Revenue Operations Senior Analyst Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #1a56db; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 32pt; font-weight: 800; color: #0f172a; line-height: 1.08; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 21pt; font-weight: 800; color: #0f172a; line-height: 1.1; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #1a56db; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.5in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbe7fb 100%); }
+  .cover h1 { font-size: 27pt; max-width: 11.4in; }
+  .cover .sub { font-size: 14pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 18pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #1a56db; font-weight: 700; }
+  .cover .who { margin-top: 18pt; padding-top: 11pt; border-top: 1.5pt solid #1a56db; max-width: 9in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #1a56db; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #eef3fc; border-left: 3pt solid #1a56db; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #123a91; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #1a56db; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #eef3fc; border-left: 4pt solid #1a56db; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #123a91; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 24pt; font-weight: 800; color: #1a56db; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #1a56db; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #1a56db; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbe7fb 100%); }
+  .close h2 { font-size: 26pt; max-width: 10.5in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.5in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #1a56db; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Cribl Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Cribl Revenue Operations Senior Analyst</div>
+  <h1>Segmentation and territory models are only as trustworthy as the account and opportunity data under them. I already build that data integrity before the model gets built on top of it.</h1>
+  <div class="sub">Pipeline diagnostics, Salesforce data integrity, and the business reviews that turn both into decisions a Sales VP will act on.</div>
+  <div class="tags">
+    <div class="tag"><strong>$700K+</strong> margin recovered in 2 quarters off a segmented pipeline at Sensata</div>
+    <div class="tag"><strong>1,200</strong> opportunities segmented by region, product line and rep against a $627M target</div>
+    <div class="tag"><strong>PriceKeel</strong> - runs the CRM, CPQ and audit trail behind every deal, founder to admin</div>
+    <div class="tag"><strong>53% to 61%</strong> channel margin lift from the same data-driven repricing work</div>
+    <div class="tag"><strong>Claude AI agents</strong> automate recurring reporting work today</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhithyabhaskar.vercel.app/ref/cribl</div>
+  </div>
+  <div class="brand">CRIBL REVENUE OPS</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>The risk in a fast-growing, remote-first GTM org is not that segmentation models exist. It is that <span class="accent">the account and territory data under them drifts as the team scales.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What a scaling multi-timezone sales org runs into</h4>
+      <div class="line">Segmentation, territory design and compensation plans get modeled once for annual planning, then nobody keeps the underlying account, opportunity and territory data synced to them as reps, deals and quotas change week to week.</div>
+      <div class="line">Salesforce, Gong and Omni dashboards quietly drift apart from each other: a field goes stale on one side and nobody notices until a VP questions a number in a business review.</div>
+      <div class="line">The fix is not another dashboard. It is one person who owns the data-quality work before the strategic model gets built on top of it, and who can defend the number when a VP asks.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run, hands on</h4>
+      <div class="line">At <b>Sensata</b>, I built the Power BI layer that segmented 1,200 opportunities by region, product line and salesperson, so a $627M target stopped being one blended number and became a diagnosable pipeline.</div>
+      <div class="line">At <b>PriceKeel</b>, I run CRM and CPQ myself and documented the audit trail Finance and Sales check every discount decision against, the same discipline a Salesforce workflow needs to stay trustworthy at scale.</div>
+      <div class="line">At <b>Plug Power</b>, I automated the Mar-Tech stack across Salesforce, Adobe Analytics, GA and Google Tag Manager so closed-loop reporting ran without a manual reconciliation every week.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">Segmentation models, territory design and compensation plans are only as good as the account, opportunity and territory data under them. I build that data integrity first, then the model a Sales VP can actually trust in a business review.</div>
+  </div>
+  <div class="brand">CRIBL REVENUE OPS</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What the Revenue Operations Senior Analyst opening asks for, and where the proof sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Develop segmentation models, territory design and compensation plans to support annual planning."</div></div>
+      <div class="quote"><div class="q">"Act as a strategic advisor to Sales VPs through business reviews and pipeline diagnostics."</div></div>
+      <div class="quote"><div class="q">"Maintain Salesforce, Gong and Omni dashboards, and drive CRM workflow and data-quality improvements."</div></div>
+      <div class="quote"><div class="q">"Maintain the integrity of account, opportunity and territory data across Sales, Finance, Marketing and People."</div></div>
+    </div>
+    <div class="col">
+      <h3>My Proof</h3>
+      <div class="proof"><div class="p"><b>Sensata Bleeders and Leakers:</b> built the Power BI dashboard segmenting 1,200 opportunities by region, product line and salesperson, with win-rate, avg $/win and stage-distribution reporting for leadership.</div></div>
+      <div class="proof"><div class="p"><b>PriceKeel CRM and CPQ:</b> set up and run the company's own CRM and CPQ, and documented the audit trail Finance checks every discount call against.</div></div>
+      <div class="proof"><div class="p"><b>Applied Materials business reviews:</b> build forecasting and market-sizing models across multiple product groups and run the weekly and quarterly business reviews that brief senior stakeholders.</div></div>
+      <div class="proof"><div class="p"><b>Plug Power data integrity:</b> automated the Mar-Tech stack (Salesforce, Adobe Analytics, GA, Google Tag Manager) for closed-loop reporting that did not drift between systems.</div></div>
+    </div>
+  </div>
+  <div class="brand">CRIBL REVENUE OPS</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The Sensata proof, in depth</div>
+  <h2>One segmented pipeline, one margin-recovery program, <span class="accent">one set of numbers a Sales VP could act on.</span></h2>
+  <div class="lede">The Bleeders and Leakers program started as a messy, blended pipeline number and ended as a dashboard a VP could interrogate by region, product line or rep. I built the segmentation, ran the margin-recovery program on top of it, and then shaped the revenue models senior executives used for planning. That is the same chain Cribl's annual planning cycle needs: segmentation and territory data that holds up under a direct question in a business review.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">1,200</div>
+      <div class="lbl">Opportunities Segmented</div>
+      <div class="desc">By region, product line and salesperson against a $627M target across 3 regions, 4 product families and 20 product lines, with win-rate and stage-distribution reporting.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$700K+</div>
+      <div class="lbl">Margin Recovered in 2 Quarters</div>
+      <div class="desc">Running the Bleeders and Leakers program on that segmented data, surfacing $433M in margin gaps for leadership to prioritize by rep and product line.</div>
+    </div>
+    <div class="stat">
+      <div class="n">53% to 61%</div>
+      <div class="lbl">Channel Margin Lift</div>
+      <div class="desc">Repricing parts sold through distribution in under 2 quarters, using the same region and product-line segmentation as the underlying diagnostic.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">The common thread: segment the data first, run the analysis on top of it, then defend the number with the VP who has to act on it. That is the loop I would bring to Cribl's territory, compensation and business-review cycle.</div>
+  <div class="brand">CRIBL REVENUE OPS</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month on Cribl's Revenue Operations team looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Trace today's segmentation and data integrity</div>
+      <div class="body">Map how account, opportunity and territory data flows into the Salesforce, Gong and Omni dashboards today, and flag where a field or definition has drifted between systems before it shows up as a wrong number in a business review.</div>
+      <div class="why"><strong>Why first:</strong> the drift is usually visible in the raw data before anyone names it, the same move that started the Bleeders and Leakers segmentation at Sensata.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Fix the highest-drift workflow</div>
+      <div class="body">Rebuild the CRM workflow or data-quality rule causing the worst drift, document the change, and pressure-test it with the Sales VP and Finance it feeds before it goes live in a business review.</div>
+      <div class="why"><strong>Why now:</strong> the same sequence, segment then fix then document, recovered $700K+ in margin at Sensata and held up past the first quarter.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Run the first pipeline diagnostic</div>
+      <div class="body">Bring the cleaned segmentation into the next business review as a pipeline diagnostic a Sales VP can act on directly, and set the cadence for keeping territory and account data in sync going forward.</div>
+      <div class="why"><strong>Why this fast:</strong> a data fix nobody sees in a real business review does not stick. Putting it in front of a VP in week 4 is what makes it permanent.</div>
+    </div>
+  </div>
+  <div class="brand">CRIBL REVENUE OPS</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to make segmentation, territory and compensation planning defensible in the room. I have already built and run that exact chain, from the raw data to the business review.</h2>
+  <div class="body">
+    <p>The core proof is Sensata: a <strong>Power BI dashboard segmenting 1,200 opportunities</strong> by region, product line and salesperson against a $627M target, and a <strong>$700K+ margin recovery program</strong> built on top of it.</p>
+    <p>What is harder to find is someone who also runs the data layer underneath that kind of model today. I set up and operate <strong>CRM, CPQ and the audit trail behind it as founder of PriceKeel</strong>, which means the data-integrity instinct this role needs is not something I would develop on the job.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhithyabhaskar.vercel.app/ref/cribl</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">CRIBL REVENUE OPS</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
