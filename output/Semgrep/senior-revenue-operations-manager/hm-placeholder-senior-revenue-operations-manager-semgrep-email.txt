@@ -1,0 +1,20 @@
+Subject: Sequencing a seat-to-consumption rebuild Finance can trust on day one
+
+Hi {Head of Revenue Operations, Semgrep},
+
+I don't usually reach out before applying, but owning the data model for consumption pricing, usage rating, minimum commitments and true-ups while directing a 3rd-party Salesforce team's roadmap is a rebuild most RevOps hires inherit halfway through, not architect from the ground up, and it's the sequencing problem I think about daily.
+
+Founder of PriceKeel: I run the company's own CRM and CPQ, write the data model behind every discount exception, and built the audit trail that gives Finance evidence for a pricing decision instead of a verbal explanation after the fact.
+At Sensata I redesigned the discount and escalation matrix underneath a margin-recovery program, fixing the approval layer before the rate card changed, and recovered $700K+ in two quarters.
+At Applied Materials I automate forecasting and reporting with agentic workflows built on Claude, close to the AI native evaluation lens this role wants pointed at deal-desk tooling.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/semgrep
+
+Worth 15 minutes on how I would sequence the first 90 days? Happy to be redirected if this isn't your req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

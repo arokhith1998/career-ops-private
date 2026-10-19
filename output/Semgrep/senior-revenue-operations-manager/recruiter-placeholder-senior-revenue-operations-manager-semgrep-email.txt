@@ -1,0 +1,20 @@
+Subject: Fix the approval matrix before the rate card changes
+
+Hi {Recruiter, Semgrep Revenue Operations},
+
+I don't usually reach out before applying, but the way this req is scoped, owning the architecture of your revenue systems through a seat-to-consumption transition, is the exact problem I already run, not one I would be learning on the job.
+
+At Sensata I rebuilt the discount and escalation matrix on the Bleeders and Leakers program, resetting thresholds against competitive gaps, and recovered $700K+ in margin in two quarters.
+At PriceKeel, the company I founded, I run our own CRM and CPQ end to end, writing the data model and audit trail behind every discount exception.
+At Plug Power I wrote the exact specs behind Salesforce and Adobe Analytics automation and directed that build, the same handoff a 3rd-party admin team needs.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/semgrep
+
+Worth 15 minutes if this is your req, no worries if it already has an owner.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

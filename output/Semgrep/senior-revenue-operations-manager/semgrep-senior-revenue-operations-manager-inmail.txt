@@ -1,0 +1,20 @@
+Subject: An AI native lens for deal desk and admin workload
+
+Hi {Recruiter, Semgrep Revenue Operations},
+
+Most RevOps reqs ask for a system owner. Yours asks for someone who can also evaluate agentic tools against deal-desk and admin workload, which is the part I actually spend my days on now.
+
+At PriceKeel I built the guardrail engine and audit trail that gives Finance evidence behind a pricing decision instead of a verbal explanation after the fact.
+At Applied Materials I automate forecasting and reporting with Claude-built agents, the same evaluation habit I would point at your Salesforce admin team's queue.
+At Sensata I redesigned a discount and escalation matrix that recovered $700K+ in margin in two quarters.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/semgrep
+
+Worth 15 minutes to see if this is your req?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
