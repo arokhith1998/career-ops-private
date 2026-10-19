@@ -1,29 +1,29 @@
 job_key	company	title	url	stage	verdict	first_seen	last_seen	times_seen	note
-linkedin.com/jobs/view/4463675086	Amazon Web Services (AWS)	Account-Based Marketing Manager , NAMER Strategic Customer and Partner Marketing	https://www.linkedin.com/jobs/view/4463675086	queued		2026-09-27	2026-10-19	19	
-linkedin.com/jobs/view/4444623213	NVIDIA	Senior Technical Product Marketing Manager - AI Infrastructure	https://www.linkedin.com/jobs/view/4444623213	jd_extracted		2026-09-28	2026-10-19	4	
-linkedin.com/jobs/view/4413371283	VIZIO	(USA) Manager, Product Marketing	https://www.linkedin.com/jobs/view/4413371283	jd_extracted		2026-09-28	2026-10-19	4	
+linkedin.com/jobs/view/4463675086	Amazon Web Services (AWS)	Account-Based Marketing Manager , NAMER Strategic Customer and Partner Marketing	https://www.linkedin.com/jobs/view/4463675086	dropped	DROP:duplicate-of-tracked-role-443	2026-09-27	2026-10-19	20	
+linkedin.com/jobs/view/4444623213	NVIDIA	Senior Technical Product Marketing Manager - AI Infrastructure	https://www.linkedin.com/jobs/view/4444623213	dropped	DROP:below-3.0	2026-09-28	2026-10-19	5	
+linkedin.com/jobs/view/4413371283	VIZIO	(USA) Manager, Product Marketing	https://www.linkedin.com/jobs/view/4413371283	queued		2026-09-28	2026-10-19	5	
 linkedin.com/jobs/view/4451292251	onsemi	Product Marketing Management - Compute Multiphase Controllers	https://www.linkedin.com/jobs/view/4451292251	dropped	DROP:over-cap	2026-09-28	2026-10-19	5	
 linkedin.com/jobs/view/4417047188	Rakuten Viki	Lead, Strategy and Business Operations	https://www.linkedin.com/jobs/view/4417047188	dropped	DROP:over-cap	2026-09-28	2026-10-19	5	
-linkedin.com/jobs/view/4357990997	Airwallex	Manager, Performance Marketing, Ad Tech & Measurement	https://www.linkedin.com/jobs/view/4357990997	jd_extracted		2026-09-28	2026-10-19	4	
-linkedin.com/jobs/view/4426931047	Cytek Biosciences	Sr. Product Manager, Instruments and Software	https://www.linkedin.com/jobs/view/4426931047	jd_extracted		2026-09-28	2026-10-19	4	
-linkedin.com/jobs/view/4424858104	Meta	Competitive Intelligence Lead	https://www.linkedin.com/jobs/view/4424858104	jd_extracted		2026-09-28	2026-10-19	4	
+linkedin.com/jobs/view/4357990997	Airwallex	Manager, Performance Marketing, Ad Tech & Measurement	https://www.linkedin.com/jobs/view/4357990997	queued		2026-09-28	2026-10-19	5	
+linkedin.com/jobs/view/4426931047	Cytek Biosciences	Sr. Product Manager, Instruments and Software	https://www.linkedin.com/jobs/view/4426931047	dropped	DROP:below-3.0	2026-09-28	2026-10-19	5	
+linkedin.com/jobs/view/4424858104	Meta	Competitive Intelligence Lead	https://www.linkedin.com/jobs/view/4424858104	dropped	DROP:duplicate-of-tracked-role-428	2026-09-28	2026-10-19	5	
 linkedin.com/jobs/view/4441893121	C3 AI	Product Marketing Manager	https://www.linkedin.com/jobs/view/4441893121	dropped	SKIP:req-level-no-sponsorship-wall	2026-09-27	2026-10-19	5	
 linkedin.com/jobs/view/4462344052	Cadence	Deal Desk Finance Manager	https://www.linkedin.com/jobs/view/4462344052	dropped	DROP:over-cap	2026-09-27	2026-10-19	5	
-linkedin.com/jobs/view/4405995981	BitGo	Product Marketing Manager	https://www.linkedin.com/jobs/view/4405995981	jd_extracted		2026-09-27	2026-10-19	4	
+linkedin.com/jobs/view/4405995981	BitGo	Product Marketing Manager	https://www.linkedin.com/jobs/view/4405995981	queued		2026-09-27	2026-10-19	5	
 linkedin.com/jobs/view/4444074587	Walmart Connect	Senior Manager, Product Marketing - Offsite DSP	https://www.linkedin.com/jobs/view/4444074587	dropped	DROP:over-cap	2026-09-27	2026-10-19	5	
-linkedin.com/jobs/view/4463661754	Amazon Web Services (AWS)	Account-Based Marketing Manager , NAMER Strategic Customer and Partner Marketing	https://www.linkedin.com/jobs/view/4463661754	jd_extracted		2026-09-27	2026-10-19	4	
-linkedin.com/jobs/view/4461176021	Databricks	Sr. Product Marketing Manager, Lakewatch & Agentic Apps	https://www.linkedin.com/jobs/view/4461176021	jd_extracted		2026-09-26	2026-10-19	4	
+linkedin.com/jobs/view/4463661754	Amazon Web Services (AWS)	Account-Based Marketing Manager , NAMER Strategic Customer and Partner Marketing	https://www.linkedin.com/jobs/view/4463661754	queued		2026-09-27	2026-10-19	5	
+linkedin.com/jobs/view/4461176021	Databricks	Sr. Product Marketing Manager, Lakewatch & Agentic Apps	https://www.linkedin.com/jobs/view/4461176021	dropped	DROP:duplicate-of-tracked-role-1487	2026-09-26	2026-10-19	5	
 linkedin.com/jobs/view/4453902015	Veeam Software	Field Marketing Manager, US West & Canada	https://www.linkedin.com/jobs/view/4453902015	dropped	DROP:over-cap	2026-09-26	2026-10-19	5	
 linkedin.com/jobs/view/4474672516	KW Partners	Chief of Staff - Product & Go-to-Market	https://www.linkedin.com/jobs/view/4474672516	dropped	SKIP:no-build-double-hidden-employer	2026-10-19	2026-10-19	4	
-linkedin.com/jobs/view/4479948697	FINAGG Technologies Private Limited	Chief of Staff to the Co-Founder & CEO	https://www.linkedin.com/jobs/view/4479948697	jd_extracted		2026-10-19	2026-10-19	3	
-linkedin.com/jobs/view/4478242657	Enrich Labs	Head of Growth Marketing	https://www.linkedin.com/jobs/view/4478242657	jd_extracted		2026-10-19	2026-10-19	3	
-linkedin.com/jobs/view/4479964095	Talasha	Manager- Founders Office	https://www.linkedin.com/jobs/view/4479964095	jd_extracted		2026-10-19	2026-10-19	3	
-linkedin.com/jobs/view/4480945225	Ananant Systems Private Limited	Founders' Office Associate – Operations and Compliance	https://www.linkedin.com/jobs/view/4480945225	jd_extracted		2026-10-19	2026-10-19	3	
-linkedin.com/jobs/view/4480878415	Cisco	Engineering Product Manager, Cisco Partner Incentive - Hybrid	https://www.linkedin.com/jobs/view/4480878415	jd_extracted		2026-10-19	2026-10-19	3	
-linkedin.com/jobs/view/4480904771	Blacksmith Agency	Growth Marketing Manager (Remote, Philadelphia)	https://www.linkedin.com/jobs/view/4480904771	jd_extracted		2026-10-19	2026-10-19	3	
-linkedin.com/jobs/view/4480916234	Blacksmith Agency	Demand Generation Manager (Remote, Denver)	https://www.linkedin.com/jobs/view/4480916234	jd_extracted		2026-10-19	2026-10-19	3	
-linkedin.com/jobs/view/4479936500	The 1970 Shop	Chief of Staff	https://www.linkedin.com/jobs/view/4479936500	jd_extracted		2026-10-19	2026-10-19	3	
-linkedin.com/jobs/view/4405596824	DoorDash	Senior Associate, New Verticals - Grocery Strategy & Operations	https://www.linkedin.com/jobs/view/4405596824	jd_extracted		2026-10-19	2026-10-19	3	
+linkedin.com/jobs/view/4479948697	FINAGG Technologies Private Limited	Chief of Staff to the Co-Founder & CEO	https://www.linkedin.com/jobs/view/4479948697	queued		2026-10-19	2026-10-19	4	
+linkedin.com/jobs/view/4478242657	Enrich Labs	Head of Growth Marketing	https://www.linkedin.com/jobs/view/4478242657	queued		2026-10-19	2026-10-19	4	
+linkedin.com/jobs/view/4479964095	Talasha	Manager- Founders Office	https://www.linkedin.com/jobs/view/4479964095	dropped	DROP:below-comp-floor	2026-10-19	2026-10-19	4	
+linkedin.com/jobs/view/4480945225	Ananant Systems Private Limited	Founders' Office Associate – Operations and Compliance	https://www.linkedin.com/jobs/view/4480945225	dropped	DROP:below-comp-floor	2026-10-19	2026-10-19	4	
+linkedin.com/jobs/view/4480878415	Cisco	Engineering Product Manager, Cisco Partner Incentive - Hybrid	https://www.linkedin.com/jobs/view/4480878415	queued		2026-10-19	2026-10-19	4	
+linkedin.com/jobs/view/4480904771	Blacksmith Agency	Growth Marketing Manager (Remote, Philadelphia)	https://www.linkedin.com/jobs/view/4480904771	queued		2026-10-19	2026-10-19	4	
+linkedin.com/jobs/view/4480916234	Blacksmith Agency	Demand Generation Manager (Remote, Denver)	https://www.linkedin.com/jobs/view/4480916234	queued		2026-10-19	2026-10-19	4	
+linkedin.com/jobs/view/4479936500	The 1970 Shop	Chief of Staff	https://www.linkedin.com/jobs/view/4479936500	queued		2026-10-19	2026-10-19	4	
+linkedin.com/jobs/view/4405596824	DoorDash	Senior Associate, New Verticals - Grocery Strategy & Operations	https://www.linkedin.com/jobs/view/4405596824	queued		2026-10-19	2026-10-19	4	
 zapply.jobs/l/d/workday-wf-wellsfargojobs-r-581930	Wells Fargo	Relationship Banker Miami Springs FL	https://zapply.jobs/l/d/workday-wf-wellsfargojobs-R-581930?s=gh-new-grad-jobs-2027	dropped	DROP:no-target-role-match	2026-10-19	2026-10-19	1	
 zapply.jobs/l/d/workday-jj-jj-r-103629	Johnson & Johnson	Quality Data Science Co-Op , Summer 2027	https://zapply.jobs/l/d/workday-jj-jj-R-103629?s=gh-new-grad-jobs-2027	dropped	DROP:intern-coop-phd	2026-10-19	2026-10-19	1	
 zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01875586	RTX	Mechanical Engineer I (Onsite)	https://zapply.jobs/l/d/workday-globalhr-rec-rtx-ext-gateway-01875586?s=gh-new-grad-jobs-2027	dropped	DROP:no-target-role-match	2026-10-19	2026-10-19	1	
@@ -241,7 +241,7 @@ linkedin.com/jobs/view/4478229591	Hired	Product Analytics Associate	https://www.
 linkedin.com/jobs/view/4479961597	SMARTANK	EA to the Director	https://www.linkedin.com/jobs/view/4479961597	dropped	DROP:no-target-role-match	2026-10-19	2026-10-19	1	
 linkedin.com/jobs/view/4478226573	Finedge Training Institute (A Unit of FinCareer Edtech Technologies Private Limited)	Co-Founder & Investor	https://www.linkedin.com/jobs/view/4478226573	dropped	DROP:no-target-role-match	2026-10-19	2026-10-19	1	
 linkedin.com/jobs/view/4478210860	HDA TECH GROWTH PVT LTD	Executive Personal Assistant	https://www.linkedin.com/jobs/view/4478210860	dropped	DROP:no-target-role-match	2026-10-19	2026-10-19	1	
-lenskartcareers.recruitee.com/o/2rd9whnlf8	Lenskart	Entrepreneur in Residence	https://lenskartcareers.recruitee.com/o/2rd9whnlf8	queued		2026-10-08	2026-10-19	18	
+lenskartcareers.recruitee.com/o/2rd9whnlf8	Lenskart	Entrepreneur in Residence	https://lenskartcareers.recruitee.com/o/2rd9whnlf8	dropped	DROP:duplicate-of-tracked-role-940	2026-10-08	2026-10-19	19	
 linkedin.com/jobs/view/4423196384	Palo Alto Networks	Senior Product Manager (Cloud Delivered Security Services)	https://www.linkedin.com/jobs/view/4423196384	dropped	DROP:duplicate-existing-report-402	2026-09-26	2026-10-18	20	
 linkedin.com/jobs/view/4395468603	NVIDIA	Senior Product Marketing Manager, Industrial & Computational Engineering	https://www.linkedin.com/jobs/view/4395468603	dropped	DROP:over-experience-cap	2026-09-27	2026-10-18	8	
 linkedin.com/jobs/view/4453786144	EvenUp	Product Manager, AI Entities	https://www.linkedin.com/jobs/view/4453786144	dropped	DROP:below-3.0	2026-09-27	2026-10-18	5	

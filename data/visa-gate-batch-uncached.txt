@@ -1,5 +1,0 @@
-company	verdict	tier	reason
-C3 AI	SKIP	TIER-1	JD states verbatim "Candidates must be authorized to work in the United States without the need for current or future company sponsorship" - req-level hard wall, scoped to this title only; employer sponsors company-wide elsewhere (99 LCAs FY2025).
-KW Partners	SKIP	NO-BUILD	Recruiter "KW Partners" unconfirmable as a real entity (no LinkedIn/Crunchbase/filing record) and the end-client employer is never named anywhere in the JD; gate cannot run on an unknown principal.
-Cytek Biosciences	BUILD	TIER-1	JD silent on sponsorship/citizenship; employer (Cytek Biosciences, Inc.) has a current FY2025 LCA + PERM filing continuing a 2021/2023/2024 multi-year pattern - thin volume but real and current.
-VIZIO	BUILD	TIER-1	JD silent on sponsorship/citizenship; VIZIO Inc. and the separate VIZIO Services, LLC both show multi-year LCA/PERM history, now Walmart-owned (Walmart itself already cached TIER-1 in this file).
