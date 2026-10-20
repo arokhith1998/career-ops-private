@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>GrabOn Founder's Office Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #1a56db; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 25pt; font-weight: 800; color: #0f172a; line-height: 1.17; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 19pt; font-weight: 800; color: #0f172a; line-height: 1.16; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #1a56db; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.8in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbeafe 100%); }
+  .cover h1 { font-size: 22pt; max-width: 11.3in; }
+  .cover .sub { font-size: 13pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; max-width: 10.8in; }
+  .cover .tags { margin-top: 16pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.6in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9pt; font-weight: 500; }
+  .tag strong { color: #1a56db; font-weight: 700; }
+  .cover .who { margin-top: 16pt; padding-top: 10pt; border-top: 1.5pt solid #1a56db; max-width: 9.4in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #1a56db; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #eff6ff; border-left: 3pt solid #1a56db; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #1e3a8a; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #1a56db; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.4pt; color: #334155; line-height: 1.46; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 13pt; background: #eff6ff; border-left: 4pt solid #1a56db; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #1e3a8a; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 20pt; font-weight: 800; color: #1a56db; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.3pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.6pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #1a56db; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.3pt; font-weight: 800; color: #0f172a; line-height: 1.18; margin-bottom: 7pt; }
+  .card .body { font-size: 8.8pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.3pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #1a56db; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbeafe 100%); }
+  .close h2 { font-size: 22pt; max-width: 10.9in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.8in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #1a56db; font-weight: 700; }
+  .close .contact { margin-top: 15pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the GrabOn Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | GrabOn Founder's Office</div>
+  <h1>Three tracks, one proof: I have already shipped the MVP, run the AI-agent automation, and owned the partner portfolio each one asks for.</h1>
+  <div class="sub">A record of taking an ambiguous mandate to a shipped, measured outcome, built solo on a product of my own and inside a multi-$100M business.</div>
+  <div class="tags">
+    <div class="tag"><strong>SwipeHire</strong> zero-to-one build, 50+ users, activation +25%</div>
+    <div class="tag"><strong>AI agents on Claude</strong> in daily production use at Applied Materials</div>
+    <div class="tag"><strong>8-client, $15K-$90K/mo</strong> partner portfolio owned at Pixis, churn -50%</div>
+    <div class="tag"><strong>PriceKeel</strong> founder and CEO, running pilots and raising the first round</div>
+    <div class="tag"><strong>$433M shortlist / $700K+</strong> margin program built and negotiated at Sensata</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-product-ai.vercel.app/ref/grabon</div>
+  </div>
+  <div class="brand">GRABON FOUNDER'S OFFICE PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>A Founder's Office seat does not get handed a clean lane. The job is <span class="accent">picking the initiative, shipping it, then proving the number.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What that actually requires</h4>
+      <div class="line">Taking an idea with no existing owner and no template, then building and launching a real version of it in front of real users instead of presenting a plan for one.</div>
+      <div class="line">Finding the repetitive, manual work inside a process and redesigning it with AI tools and agents, not just talking about automation.</div>
+      <div class="line">Acquiring and managing a portfolio of partner or distribution relationships end to end, with the numbers to show which ones to scale.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run, at that exact layer</h4>
+      <div class="line">Built <b>SwipeHire</b> zero-to-one: wrote the PRD, scoped the MVP, and validated it with 12+ interviews and 8+ A/B tests before onboarding 50+ real users.</div>
+      <div class="line">Automate repetitive analysis with <b>AI agents built on Claude</b> at Applied Materials today, and built SwipeHire itself on the OpenAI API.</div>
+      <div class="line">Hired and managed an <b>8-person team owning 8 client accounts</b> at Pixis, running retail media and partner strategy that cut churn 50%.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">The through-line: all three of your tracks already have a shipped, measured proof point behind them, not a claim to test on the job.</div>
+  </div>
+  <div class="brand">GRABON FOUNDER'S OFFICE PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What the GrabOn Founder's Office posting asks for, track by track, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Validate ideas quickly with real users/merchants/creators/customers; build/launch MVPs rather than relying on presentations."</div></div>
+      <div class="quote"><div class="q">"Track 2: identify repetitive manual processes, redesign with AI/agents/automation; build AI-powered workflows."</div></div>
+      <div class="quote"><div class="q">"Track 3: help new products acquire brands/partners/creators/audiences; build partnerships/commercial relationships."</div></div>
+      <div class="quote"><div class="q">"Define success metrics and review regularly; take independent decisions; decide to scale/change/discontinue."</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>MVPs over presentations:</b> shipped SwipeHire, an AI job-matching platform, zero-to-one and validated it with 12+ user interviews and 8+ A/B tests before scaling to 50+ users.</div></div>
+      <div class="proof"><div class="p"><b>AI/agent redesign:</b> automate repetitive analysis work with AI agents built on Claude at Applied Materials, after building SwipeHire itself on the OpenAI API.</div></div>
+      <div class="proof"><div class="p"><b>Partnership/distribution ownership:</b> hired and managed an 8-client, $15K-$90K/month-per-client portfolio at Pixis across retail media and iOS UA, cutting churn 50%.</div></div>
+      <div class="proof"><div class="p"><b>Metrics and independent calls:</b> run the OKR cadence at Applied Materials and took the Bleeders and Leakers program at Sensata to a $433M shortlist and $700K+ recovered, deciding case by case.</div></div>
+    </div>
+  </div>
+  <div class="brand">GRABON FOUNDER'S OFFICE PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>SwipeHire: an idea with no owner and no template, to a <span class="accent">shipped product with real users and a measured lift.</span></h2>
+  <div class="lede">Built as the sole owner of a product with no existing team, no existing users and no existing playbook, the same starting point a Founder's Office initiative looks like on day one.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">12+ / 8+</div>
+      <div class="lbl">Interviews &amp; A/B Tests</div>
+      <div class="desc">Validated the MVP with real users before investing further in the build.</div>
+    </div>
+    <div class="stat">
+      <div class="n">50+</div>
+      <div class="lbl">Early Users Onboarded</div>
+      <div class="desc">Live product, not a prototype, with a real GTM and analytics stack behind it.</div>
+    </div>
+    <div class="stat">
+      <div class="n">+25%</div>
+      <div class="lbl">Activation Lift</div>
+      <div class="desc">From funnel work on GA4 and GTM event tracking, iterated off the validation cycle.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">The same instinct runs through PriceKeel and Pixis: scope the smallest real version first, put it in front of real users or clients, then decide what to build next from what they actually do.</div>
+  <div class="brand">GRABON FOUNDER'S OFFICE PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 90 days</div>
+  <h2>What taking ownership of a GrabOn initiative would look like in practice.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Weeks 1-2</div>
+      <div class="ttl">Pick the initiative and the real users</div>
+      <div class="body">Sit with the team already touching the problem, across GrabOn, GrabCash or GrabShare, to find the one initiative with the clearest unmet need, the same audit that grounded SwipeHire before a line of code existed.</div>
+      <div class="why"><strong>Why first:</strong> an MVP built on an assumed problem is the fastest way to ship the wrong thing fast.</div>
+    </div>
+    <div class="card">
+      <div class="label">Weeks 3-6</div>
+      <div class="ttl">Ship the first real version</div>
+      <div class="body">Build and launch an early version in front of real users, merchants or partners, with success metrics defined up front, the same validate-then-scale sequence that took SwipeHire from PRD to 50+ users.</div>
+      <div class="why"><strong>Why now:</strong> a shipped version with one real metric beats a deck with ten projected ones.</div>
+    </div>
+    <div class="card">
+      <div class="label">Weeks 7-12</div>
+      <div class="ttl">Decide, then build the cadence</div>
+      <div class="body">Use the first metrics to make the scale/change/stop call independently, then set up the review cadence and any AI/agent automation that keeps the initiative running without rebuilding the analysis from scratch each cycle.</div>
+      <div class="why"><strong>Why this fast:</strong> a cadence only earns trust once it has already moved one real decision.</div>
+    </div>
+  </div>
+  <div class="brand">GRABON FOUNDER'S OFFICE PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>GrabOn's Founder's Office needs someone who treats "own an initiative end to end" as a track record, not a job title. I have already run all three tracks.</h2>
+  <div class="body">
+    <p>The core proof is SwipeHire and Pixis together: a <strong>zero-to-one product shipped and validated with real users</strong>, and a <strong>partner portfolio hired, managed and turned around</strong> with the numbers to show it, backed by daily, hands-on use of AI agents at Applied Materials and the independent decision-making of running PriceKeel as its founder.</p>
+    <p>What is harder to find is someone who has already done the build, the automation and the partnership ownership separately, each with its own measured outcome, rather than claiming all three from one job description. That is what makes the next few months of ambiguity less of a risk.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-product-ai.vercel.app/ref/grabon</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">GRABON FOUNDER'S OFFICE PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
