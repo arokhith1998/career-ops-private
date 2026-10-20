@@ -1,0 +1,22 @@
+Subject: Three Founder's Office seats, one track I already run
+
+Hi {Recruiter, InspireLabs},
+
+I don't normally write in before applying, but a Founder's Office posting that opens three seats and splits them into named tracks (product ownership, AI automation, growth distribution), inside a bootstrapped portfolio of GrabOn, GrabCash and GrabShare, is close to how I already operate.
+
+Built you a 6-slide pitch deck so the proof fits on one read.
+
+I wrote the PRD, scoped the MVP and shipped an AI job-matching platform solo, validating it with 12 user interviews and 8 A/B tests.
+I automate repetitive analysis work with Claude-built AI agents at Applied Materials instead of running it by hand.
+I turned a vague margin mandate at Sensata into a $433M shortlist, then recovered $700K+ in two quarters.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/grabon
+
+If this req sits with your desk, 15 minutes would help; if not, a pointer to whoever owns it helps just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
