@@ -1,0 +1,22 @@
+Subject: Chairing the monetization committee, not just running deal desk
+
+Hi {Hiring Manager, Deal Desk},
+
+I joined Applied Materials recently and wasn't looking, but a deal desk seat that also chairs the monetization committee on pricing and packaging, with real executive visibility, plus the pricing-decision tooling I'm building at PriceKeel, made me reach out.
+
+Built you a 6-slide pitch deck so the proof fits on one read.
+
+Designed the guardrail engine at PriceKeel that recommends an explainable discount guardrail learned from each company's own closed-won and closed-lost deals, the same approval-matrix thinking this role is building.
+Recovered $700K+ in margin in 2 quarters at Sensata running the Bleeders & Leakers program, then raised distributor and channel-partner margins from 53% to 61%.
+Partnered with senior executives on multimillion-dollar customer quotes and AP26 revenue models at Sensata while carrying P&L and revenue targets for a multi-$100M business.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/hex
+
+If Deal Desk reports to you, 15 minutes on where the monetization committee needs the most help first would be useful. If not, a pointer to whoever owns it helps just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
