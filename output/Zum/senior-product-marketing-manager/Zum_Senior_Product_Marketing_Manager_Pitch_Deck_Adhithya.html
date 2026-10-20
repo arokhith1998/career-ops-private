@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Zum Senior Product Marketing Manager Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #7c3aed; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 24pt; font-weight: 800; color: #0f172a; line-height: 1.16; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 20pt; font-weight: 800; color: #0f172a; line-height: 1.12; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #7c3aed; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.7in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #ede9fe 100%); }
+  .cover h1 { font-size: 21.5pt; max-width: 11.6in; }
+  .cover .sub { font-size: 13.5pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 15pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #7c3aed; font-weight: 700; }
+  .cover .who { margin-top: 15pt; padding-top: 11pt; border-top: 1.5pt solid #7c3aed; max-width: 9.4in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #7c3aed; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #f3effe; border-left: 3pt solid #7c3aed; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #5b21b6; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #7c3aed; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #f3effe; border-left: 4pt solid #7c3aed; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #5b21b6; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #7c3aed; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 20pt; font-weight: 800; color: #7c3aed; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #7c3aed; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #7c3aed; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #7c3aed; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #ede9fe 100%); }
+  .close h2 { font-size: 23pt; max-width: 10.8in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.6in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #7c3aed; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Zum Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Zum Senior Product Marketing Manager</div>
+  <h1>Zum needs positioning that lands with three different buyers, transportation directors, operations leaders and procurement teams, and a sales-enablement system Sales can win stalled deals with. I have already built both pieces, twice, with no playbook to start from.</h1>
+  <div class="sub">A battlecard-and-benchmarking system built from zero, and a zero-to-one AI startup GTM, on the same resume.</div>
+  <div class="tags">
+    <div class="tag"><strong>+30% win rate</strong> from a sales-enablement system built for 50+ reps at Sensata</div>
+    <div class="tag"><strong>10+-player benchmarking</strong> behind a 12% YoY price realignment</div>
+    <div class="tag"><strong>$2M+ first-year revenue</strong> from an end-to-end GTM launch</div>
+    <div class="tag"><strong>30+ win/loss interviews</strong> behind a 15% conversion lift</div>
+    <div class="tag"><strong>AI agents built on Claude</strong> automating my own recurring analysis at Applied Materials</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-product.vercel.app/ref/zum</div>
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>The mandate is not "describe the product." It is building positioning for three distinct buyers and a sales-enablement system from zero, with <span class="accent">no playbook to copy.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What that actually requires</h4>
+      <div class="line">A messaging framework that speaks differently to a transportation director, an operations leader and a procurement team, built once and reused across launches, not rewritten per deal.</div>
+      <div class="line">A sales-enablement library, battlecards, objection handling, pitch decks, one-pagers, ROI frameworks, that Sales reaches for mid-deal and leadership can point stalled deals at.</div>
+      <div class="line">Competitive intelligence as a running discipline, briefs and battlecards that stay current as new entrants and positioning shifts show up, not a one-time landscape doc.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run</h4>
+      <div class="line">At <b>Sensata</b>, I built the messaging framework that spoke differently to OEM engineering buyers and distributor partners, pressure-tested with 30+ win/loss interviews, for a 15% conversion lift.</div>
+      <div class="line">At <b>Sensata</b> again, I built the battlecard, case-study and launch-deck system for 50+ reps from scratch, moving win rates 30%.</div>
+      <div class="line">I ran 10+-player competitive benchmarking that fed a 12% YoY price realignment, plus ongoing EMEA/US competitor tracking.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">The through-line: every system I have built started with no existing playbook, and ended with a number Sales or Product leadership could point to.</div>
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The mandate, mapped</div>
+  <h2>What the posting asks for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Translate capabilities for each persona: district transportation directors, operations leaders, and procurement teams."</div></div>
+      <div class="quote"><div class="q">"Build and maintain a sales enablement library: battlecards, objection handling, pitch decks, one-pagers, ROI frameworks... partner with Sales leadership on stalled deals."</div></div>
+      <div class="quote"><div class="q">"Monitor the competitive landscape, positioning shifts, and new entrants; produce competitive briefs and battlecards."</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>Sensata, persona-specific positioning:</b> messaging frameworks built from scratch for OEM engineering buyers and distributor partners, lifting conversion 15%.</div></div>
+      <div class="proof"><div class="p"><b>Sensata, the sales-enablement system:</b> battlecards, decks and case studies for 50+ reps, moving win rates 30%.</div></div>
+      <div class="proof"><div class="p"><b>Sensata, competitive intelligence:</b> 10+-player benchmarking behind a 12% YoY price realignment, plus EMEA/US competitor tracking feeding positioning decisions.</div></div>
+      <div class="proof"><div class="p"><b>Sensata, buyer research:</b> 30+ structured win/loss interviews with OEMs and distributors, the habit that keeps messaging honest before it ships.</div></div>
+    </div>
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>Map the buyer, build the enablement system, then <span class="accent">put a number on it.</span></h2>
+  <div class="lede">Same pattern across two Sensata launches and a solo startup: build the persona-specific message, ship the enablement asset, then measure whether it moved a number Sales or Product leadership was accountable for.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">+30% Win Rate</div>
+      <div class="lbl">Sales-Enablement System for 50+ Reps</div>
+      <div class="desc">Battlecards, pitch decks and case studies built from scratch for live sensing-product launches at Sensata.</div>
+    </div>
+    <div class="stat">
+      <div class="n">15% Conversion Lift</div>
+      <div class="lbl">Persona-Specific Positioning, Stress-Tested</div>
+      <div class="desc">30+ win/loss interviews with OEM and distributor buyers shaped the messaging before launch.</div>
+    </div>
+    <div class="stat">
+      <div class="n">10+ Players</div>
+      <div class="lbl">Competitive Benchmarking Behind a Price Move</div>
+      <div class="desc">Fed a 12% YoY revenue and 8% market-share gain through price-realignment decisions at Sensata.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">None of these was a positioning doc that sat in a folder. Each one closed the loop from message to a number the business was accountable for.</div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month building Zum's persona messaging and sales-enablement system looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Map the three-persona buying committee</div>
+      <div class="body">Interview recent closed-won and closed-lost deals to separate what moves a transportation director from what moves an operations leader or a procurement team, the same win/loss discipline behind the 30+-interview program at Sensata.</div>
+      <div class="why"><strong>Why first:</strong> message before you build the battlecard, not after.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Ship the first sales-enablement system</div>
+      <div class="body">Build the first battlecard, objection-handling guide and ROI one-pager directly with Sales, versioned once as a reusable system instead of rebuilt per rep per stalled deal.</div>
+      <div class="why"><strong>Why now:</strong> the same build that moved Sensata's win rate 30% instead of a deck no rep opened twice.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Stand up the competitive-intelligence loop</div>
+      <div class="body">Institute the running benchmarking discipline behind the 10+-player competitive program at Sensata, pointed at Zum's own competitive set, then automate the reporting step with the first AI agent so briefs ship every cycle, not once a quarter.</div>
+      <div class="why"><strong>Why this fast:</strong> the same habit that keeps my own reporting moving at Applied Materials today, not a plan for someday.</div>
+    </div>
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to build persona messaging and a sales-enablement system from zero. I have already built both, with a number on each one.</h2>
+  <div class="body">
+    <p>The positioning half: <strong>15% conversion lift</strong> from a persona-specific messaging framework stress-tested with 30+ win/loss interviews, built with no existing playbook.</p>
+    <p>The enablement and intelligence half: <strong>+30% win rate</strong> from a battlecard-and-case-study system for 50+ reps, plus <strong>10+-player competitive benchmarking</strong> behind a 12% YoY price move. At Applied Materials I now automate my own recurring competitive analysis with agents built on Claude, because rebuilding the same report every cycle is time that should go into the next battlecard.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-product.vercel.app/ref/zum</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
