@@ -1,0 +1,20 @@
+Subject: The governance problem under Issuance is one I already run
+
+Hi {Hiring Manager, Stripe Issuance},
+
+I do not normally reach out before applying, but making tough prioritization calls on reserves, rewards and smart contracts while legal and compliance sign off is the shape of what I already do, not five disciplines I would be learning at once.
+
+At Sensata I recovered $700K+ in margin in two quarters by building a guardrail and a record Finance could sign off on, the closest real analog to launching trust-sensitive financial decisions at scale.
+I owned a 100+ feature backlog with Engineering in Agile across 3 regions, cutting releases 25% and time-to-market 20%, then ran 30+ interviews with OEMs and distributors in international markets to find where the platform broke before it broke for customers.
+SwipeHire shows I can take a product from a blank PRD to real users myself, in Python and the OpenAI API.
+
+Here's the portfolio: https://adhi-product.vercel.app/ref/stripe
+
+Worth 15 minutes to see if the fit is real? Happy to be pointed elsewhere if this is not your req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

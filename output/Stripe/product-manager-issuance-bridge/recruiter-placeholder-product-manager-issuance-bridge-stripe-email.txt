@@ -1,0 +1,20 @@
+Subject: Reserve and mint/burn calls need the same audit trail I already built
+
+Hi {Recruiter, Stripe Bridge},
+
+I do not normally reach out before applying, but owning reserves management and mint/burn infrastructure for compliant stablecoins is close to a trust problem I already solved on the finance side, not one I would be learning on this job.
+
+At Sensata I built the audit trail behind a $700K+ margin recovery in two quarters, a record Finance could sign off on without re-deriving the logic.
+I turned a 100+ feature backlog into a sensor platform shipped 25% faster across 3 regions with Engineering in Agile.
+SwipeHire shows I can run ideation to launch solo: PRD to a Python and OpenAI API MVP, three tiers priced off willingness-to-pay data, 50+ users onboarded.
+
+Here's the portfolio: https://adhi-product.vercel.app/ref/stripe
+
+Worth 15 minutes if this is your req, no worries if it already has an owner.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
