@@ -1,0 +1,21 @@
+Subject: Turning Signal Labs' BI team into a number everyone trusts
+
+{Hiring Manager, Signal Labs}
+
+Most Chief of Staff postings ask someone to keep a cadence running. Yours asks for someone to build the BI team that cadence runs on, and to push back on senior leaders once the numbers say something different than the room wants. That split is why I am writing before applying.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/signal-labs
+
+Where that split has already played out:
+- Built a Power BI view tracking 1,200 pricing opportunities against a $627M target across 3 regions, surfacing $433M in margin gaps leadership used to reallocate.
+- Partnered directly with senior executives on revenue models and site-transition strategy for a multi-$100M business unit, the kind of ambiguity-to-a-number work a founder's Chief of Staff gets handed daily.
+- Now running that same discipline for my own company, PriceKeel, setting up forecast reviews and deal approvals from nothing.
+
+If the BI-team build is still open, I would value 20 minutes on how you want the first dashboard to land.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
