@@ -1,0 +1,20 @@
+Subject: Mission control for complex deals is the system I already built
+
+Hi {Recruiter, Planet Global Deal Desk},
+
+I don't normally reach out before applying, but the line about this seat acting as mission control for your most complex, strategic customer deals describes a system I already built, not one I would be learning on the job.
+
+At PriceKeel I designed a guardrail engine that learns discount rules from closed won and lost deals, built the Finance auditable evidence trail behind it, and run the CRM, CPQ and deal approvals myself.
+At Sensata I led Bleeders and Leakers, recovering $700K+ in margin in two quarters and raising distributor margins from 53% to 61%, backed by a dashboard across 1,200 opportunities and a $627M target.
+At Applied Materials I automate deal adjacent analysis with Claude agents, the AI instinct your posting names directly.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/planet
+
+Worth 15 minutes if this is your req, happy to be redirected if it is not.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

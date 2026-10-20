@@ -1,0 +1,20 @@
+Subject: Deal Committees move fast when the business rules are already built
+
+Hi {Hiring Manager, Planet Global Deal Desk},
+
+I don't normally reach out before applying, but your posting's emphasis on standardizing business rules and driving fast, formal Deal Committees for emergent needs reads like the exact problem PriceKeel exists to solve, not a function I would be assembling from scratch here.
+
+At PriceKeel I built the guardrail engine and the CRM, CPQ and deal approval workflow underneath it, plus the Finance auditable evidence trail that lets a human pricing decision survive an audit.
+At Sensata I partnered directly with senior executives on AP26 revenue models and multimillion dollar customer quotes, then built the FY2026 Power BI dashboard across 1,200 opportunities and a $627M target that surfaced $433M in margin gaps for leadership to prioritize.
+At Applied Materials I carry P&L and revenue targets while automating repetitive analysis with Claude agents, the AI forward habit your posting calls out directly.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/planet
+
+Worth 15 minutes to see if the scope lines up, no worries if it is not your seat.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
