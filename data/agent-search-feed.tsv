@@ -1,10 +1,6 @@
 source	sources	company	title	location	url	posted_ts	age_days	sponsorship_hint	salary	category
-websearch-agent	websearch-agent	Hive	Chief of Staff	San Francisco, CA	https://jobs.lever.co/hive/45a75ef2-3a69-401d-8ca7-274dc554bb59			chief_of_staff
-websearch-agent	websearch-agent	Hike	Chief of Staff (CEO Office)	Delhi, India	https://web3.career/chief-of-staff-ceo-office-very-full-time-hike/27413			ceo_office
-websearch-agent	websearch-agent	Opvia	Chief of Staff	Remote, India	https://jobs.weekday.works/chief-of-staff-at-opvia-in-4417539533			chief_of_staff
-websearch-agent	websearch-agent	Cognitensor	Technical Entrepreneur in Residence (EIR)	Delhi, India	https://jobs.techstars.com/companies/cognitensor-2/jobs/68905929-technical-entrepreneur-in-residence-eir			entrepreneur_in_residence
-websearch-agent	websearch-agent	Figr	Founder's Office	Bengaluru, Karnataka, India	https://careers.antler.co/companies/figr/jobs/91699210-founder-s-office			founders_office
-websearch-agent	websearch-agent	Confidential (iimjobs posting)	Chief of Staff - Strategy	Bengaluru, Karnataka, India	https://www.iimjobs.com/j/chief-of-staff-strategy-1737322			chief_of_staff
-websearch-agent	websearch-agent	Derive Recruiting	Chief of Staff	Bengaluru, Karnataka, India	https://www.iimjobs.com/j/chief-of-staff-1684101			chief_of_staff
-websearch-agent	websearch-agent	UP HRM Services	Chief of Staff	Bengaluru, Karnataka, India	https://www.iimjobs.com/j/chief-of-staff-1699019			chief_of_staff
-websearch-agent	websearch-agent	Hireveda	Executive Assistant / Chief of Staff to CBO	Bengaluru, Karnataka, India	https://hireveda.com/job/COS			chief_of_staff
+websearch-agent	websearch-agent	Opvia	Chief of Staff	Remote, India	https://jobs.weekday.works/chief-of-staff-at-opvia-in-4417539533						
+websearch-agent	websearch-agent	Confidential (via Qrata)	Chief of Staff	Delhi NCR, India	https://cutshort.io/job/Chief-of-Staff-Delhi-Gurugram-Noida-Ghaziabad-Faridabad-Qrata-05hWXq0e						
+websearch-agent	websearch-agent	Figr	Founder's Office	Bengaluru, India	https://careers.antler.co/companies/figr/jobs/91699210-founder-s-office						
+websearch-agent	websearch-agent	Hive	Chief of Staff	San Francisco, CA	https://jobs.lever.co/hive/45a75ef2-3a69-401d-8ca7-274dc554bb59						
+websearch-agent	websearch-agent	Windfall Data	Product Marketing Manager	San Francisco, CA	https://jobs.lever.co/windfalldata/d64fdf52-6821-4dd1-b3dd-745ffd018eed						
