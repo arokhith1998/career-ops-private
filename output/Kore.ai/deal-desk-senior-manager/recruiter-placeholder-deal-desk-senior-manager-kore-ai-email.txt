@@ -2,11 +2,11 @@ Subject: Deal Desk, Senior Manager - the HubSpot/DealHub line caught my eye
 
 Hi {Recruiter, Deal Desk},
 
-I do not normally reach out before applying, but naming HubSpot and DealHub in the same line as the commercial approval framework told me this req is specific, not boilerplate, and it maps to work I already run end to end.
+I do not normally reach out before applying, but naming HubSpot and DealHub next to the commercial approval framework told me this req is specific, work I already run end to end.
 
-At Sensata I drafted and reviewed multimillion-dollar customer quotes and order forms for a multi-$100M industrial book, tracking win rate, approval turnaround and discount trends across 3 regions and 20 product lines for leadership.
-I founded PriceKeel to run the CRM, CPQ, forecast review and deal-approval loop myself, with a guardrail engine that scores each discount exception against closed-won and closed-lost precedent and an audit trail Finance can check on demand.
-I recovered $700K+ in margin in two quarters running Sensata's Bleeders and Leakers program, closing discount exceptions against competitive gaps.
+At Sensata I drafted and reviewed multimillion-dollar customer quotes and order forms for a multi-$100M industrial book, tracking approval turnaround and discount trends across 3 regions.
+I founded PriceKeel to run the CRM, CPQ, forecast review and deal-approval loop myself, with a guardrail engine scoring each discount exception against closed-won and closed-lost precedent.
+I recovered $700K+ in margin in two quarters at Sensata running the Bleeders and Leakers program.
 I automate deal and pricing analysis with AI agents built on Claude, a direct match for Kore.ai's own platform.
 
 Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/kore-ai
