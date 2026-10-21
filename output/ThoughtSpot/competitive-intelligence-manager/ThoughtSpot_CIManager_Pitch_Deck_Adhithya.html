@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>ThoughtSpot Competitive Intelligence Manager Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #b45309; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 27pt; font-weight: 800; color: #0f172a; line-height: 1.14; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 20pt; font-weight: 800; color: #0f172a; line-height: 1.12; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #b45309; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.7in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #fde8cf 100%); }
+  .cover h1 { font-size: 24pt; max-width: 11.3in; }
+  .cover .sub { font-size: 13.5pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 16pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.2pt; font-weight: 500; }
+  .tag strong { color: #b45309; font-weight: 700; }
+  .cover .who { margin-top: 16pt; padding-top: 10pt; border-top: 1.5pt solid #b45309; max-width: 9.4in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #b45309; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #fef3e2; border-left: 3pt solid #b45309; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #8a4a08; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #b45309; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #fef3e2; border-left: 4pt solid #b45309; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #8a4a08; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #b45309; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 20pt; font-weight: 800; color: #b45309; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #b45309; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #b45309; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #b45309; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #fde8cf 100%); }
+  .close h2 { font-size: 23pt; max-width: 10.8in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.8in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #b45309; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the ThoughtSpot Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | ThoughtSpot Competitive Intelligence Manager</div>
+  <h1>Reps need the newest competitive answer before the next AI-analytics launch lands, not three quarters later. I have already built that pipeline, twice.</h1>
+  <div class="sub">Competitive benchmarking, battlecard upkeep, win/loss analysis and executive reporting, the pieces the posting names, each with a proof point attached.</div>
+  <div class="tags">
+    <div class="tag"><strong>10+ competitors benchmarked</strong>, +8% market share and +12% YoY revenue at Sensata</div>
+    <div class="tag"><strong>170 facilities to a SAM of 28</strong>, 10+ competitor teardown for Safran</div>
+    <div class="tag"><strong>EMEA and US competitor reads</strong> turned into win/loss-style calls at Sensata</div>
+    <div class="tag"><strong>Sales enablement for 50 reps</strong>, lifting win rates 30% at Sensata</div>
+    <div class="tag"><strong>Semiconductor market intel</strong> with Sales and Engineering at Applied Materials today</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhithyabhaskar.vercel.app/ref/thoughtspot</div>
+  </div>
+  <div class="brand">COMPETITIVE INTELLIGENCE PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>The job is not "watch the market." It is <span class="accent">turn a competitor's new move into a battlecard update and a talking point before the next deal needs it.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What that actually requires</h4>
+      <div class="line">Competitors in AI analytics ship fast. A battlecard or quick-reference guide that was accurate last quarter can cost a deal this quarter if nobody refreshes it.</div>
+      <div class="line">The refresh has to turn into messaging, launch and pricing insights sales can use cold, not a research memo that sits in a shared drive.</div>
+      <div class="line">None of it counts until reps are trained on the new positioning and the win/loss story reaches executives in a form they can act on.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run</h4>
+      <div class="line">At <b>Sensata</b>, I benchmarked 10+ competitors across channel, pricing and market share and turned the read into a pricing realignment that drove +12% YoY revenue and +8% market share.</div>
+      <div class="line">At <b>Sensata</b> again, I built sales enablement materials (decks, case studies) for a 50-rep team and briefed senior executives with competitive talking points on live deals.</div>
+      <div class="line">At <b>Applied Materials</b> today, I track competitive and demand inflection points with Sales and Engineering, the same monitor-and-brief loop this role runs on.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">The through-line: every competitive read I have shipped turned into a sales-facing artifact and an executive-facing number, not a research note that stayed mine.</div>
+  </div>
+  <div class="brand">COMPETITIVE INTELLIGENCE PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The mandate, mapped</div>
+  <h2>What the posting asks for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Monitor competitors and provide messaging, launch, roadmap, and pricing insights."</div></div>
+      <div class="quote"><div class="q">"Maintain sales battlecards and quick-reference guides, and support major deals with talking points."</div></div>
+      <div class="quote"><div class="q">"Train sales and marketing on competitive positioning."</div></div>
+      <div class="quote"><div class="q">"Report win/loss analysis and market insights to executives, and support PMM with market assessments."</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>Sensata, competitive benchmarking:</b> 10+ competitors benchmarked on channel, pricing and market share, feeding the pricing and messaging calls behind +12% YoY revenue.</div></div>
+      <div class="proof"><div class="p"><b>Sensata, sales enablement:</b> decks and case studies built for 50 reps, lifting win rates 30%, plus competitive talking points briefed to senior executives.</div></div>
+      <div class="proof"><div class="p"><b>Sensata, win/loss-style reads:</b> EMEA and US competitor and customer analysis turned into revenue-opportunity calls for category leadership.</div></div>
+      <div class="proof"><div class="p"><b>Safran project, market assessments:</b> 150+ facilities and 10+ competitors analyzed, pricing-strategy assessments presented to leadership.</div></div>
+    </div>
+  </div>
+  <div class="brand">COMPETITIVE INTELLIGENCE PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The monitor-to-deal loop, in depth</div>
+  <h2>A competitor move becomes a battlecard line, the battlecard becomes a rep's talking point, and <span class="accent">the talking point wins the deal.</span></h2>
+  <div class="lede">Same loop, three stages, each with a measured result: competitive benchmarking, sales enablement, and the executive-facing story that closes it.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">+8% Market Share</div>
+      <div class="lbl">Sensata, 10+ Competitor Benchmark</div>
+      <div class="desc">Pricing realigned on a competitive benchmark across 10+ players, closing with +12% YoY revenue alongside the share gain.</div>
+    </div>
+    <div class="stat">
+      <div class="n">30% Win-Rate Lift</div>
+      <div class="lbl">Sensata, Sales Enablement for 50 Reps</div>
+      <div class="desc">Decks and case studies built for a 50-rep team, kept current with competitive talking points for executive-level deals.</div>
+    </div>
+    <div class="stat">
+      <div class="n">170 to a SAM of 28</div>
+      <div class="lbl">Safran, Global Market Sizing</div>
+      <div class="desc">150+ target facilities and 10+ competitors analyzed across 4 verticals, with market assessments presented to leadership.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">None of these stages ran alone. The benchmark fed the enablement materials, and the enablement materials fed the executive win/loss story, one pipeline, not three separate reports.</div>
+  <div class="brand">COMPETITIVE INTELLIGENCE PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month on ThoughtSpot's Competitive Intelligence function looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Map the current battlecards and win/loss sources</div>
+      <div class="body">Sit with Sales, Field Marketing and Sales Engineering to find which battlecards and quick-reference guides are stale, and which deals have the clearest win/loss signal to mine first.</div>
+      <div class="why"><strong>Why first:</strong> the same first move that turned Sensata's EMEA and US competitor reads into one clear view before proposing anything new.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Ship the first refreshed battlecard and talking points</div>
+      <div class="body">Rebuild the battlecard on the AI-analytics competitor with the newest launch, messaging and pricing insights, and arm the sales team with talking points for the next live deal.</div>
+      <div class="why"><strong>Why now:</strong> the same discipline that turned Sensata's 10+ competitor benchmark into +12% YoY revenue.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Train the team and report the first win/loss read</div>
+      <div class="body">Run the first competitive-positioning training with sales and marketing, then present the first win/loss analysis and market assessment to executives on a live quarter.</div>
+      <div class="why"><strong>Why this fast:</strong> the same cadence that carries the leadership decks and OKRs behind every quarterly review at Applied Materials and Sensata.</div>
+    </div>
+  </div>
+  <div class="brand">COMPETITIVE INTELLIGENCE PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to turn a fast-moving competitive set into battlecards, talking points and a win/loss story executives can act on. I have already run that loop in two different industries.</h2>
+  <div class="body">
+    <p>The core proof is one Sensata loop run at scale: a 10+ competitor benchmark that fed a pricing realignment, driving <strong>+12% YoY revenue and +8% market share</strong>, paired with sales enablement materials for a 50-rep team that lifted <strong>win rates 30%</strong>.</p>
+    <p>What carries into ThoughtSpot is the global-comparison habit behind the Safran project, 170 facilities sized down to a SAM of 28 with pricing-strategy assessments presented to leadership, and the storytelling habit behind every leadership deck I have built since. At Applied Materials today I automate the recurring version of that competitive reporting with AI agents built on Claude, so the hours go into the next battlecard refresh, not rebuilding the last one.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhithyabhaskar.vercel.app/ref/thoughtspot</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">COMPETITIVE INTELLIGENCE PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
