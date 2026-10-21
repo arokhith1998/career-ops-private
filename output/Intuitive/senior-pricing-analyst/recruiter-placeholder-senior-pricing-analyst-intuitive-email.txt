@@ -1,0 +1,21 @@
+Subject: The price council line in your posting is work I already run
+
+Hi {Recruiter, Pricing & Customer Finance},
+
+I do not normally reach out before applying, but the line asking someone to support business units through the price council process with elasticity testing and willingness-to-pay analysis describes exactly how I spend my days now, not a skill I would be building on the job.
+
+At Sensata I led the Bleeders and Leakers program, recovering $700K+ in margin in 2 quarters through willingness-to-pay and competitive-gap analysis.
+I built the Power BI dashboard behind it: 1,200 pricing opportunities against a $627M target, surfacing $433M in margin gaps for leadership to prioritize.
+I raised distributor and channel-partner margins from 53% to 61% in under 2 quarters through targeted repricing.
+I founded PriceKeel, a pricing guardrail engine that learns from a company's own closed-won and closed-lost deals, the same willingness-to-pay signal your posting names.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/intuitive
+
+Worth 15 minutes if this req sits with you, no worries if it already has an owner.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
