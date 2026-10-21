@@ -1,0 +1,19 @@
+Subject: The agency handoff line in your posting
+
+Hi {Founder, Keycard},
+
+I don't normally reach out before applying, but the line about an agency running your GTM systems today, with the first hire bringing that work in-house alone, is the exact seat I already sit in.
+
+I run PriceKeel's CRM, CPQ, forecast reviews and deal approvals myself as the company's only ops person, the same build-the-v1-yourself motion your posting describes.
+At Sensata, I built a Power BI dashboard tracking 1,200 pricing opportunities against a $627M target across 3 regions, then used it to recover $700K+ in margin in two quarters.
+I raised distributor margins from 53% to 61% the same way, deal by deal, through Sales and Finance sign-off on enterprise accounts.
+At Applied Materials, I automate recurring analysis with Claude agents, the same instinct your event-lead and PQL-alert work asks for.
+
+Worth 15 minutes on how you're sequencing the HubSpot takeover from the agency, no worries if this lands with someone else on the team.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
