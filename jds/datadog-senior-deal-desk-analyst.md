@@ -9,6 +9,14 @@
 ## Work authorization / sponsorship / clearance / degree statements (verbatim)
 No sentence about work authorization, sponsorship, citizenship, clearance, or degree/graduation-year requirements was found in the extracted JD text. Silent on the topic.
 
+## Mirror (LinkedIn, same req, confirmed 2026-10-21)
+https://www.linkedin.com/jobs/view/4481792728 -- same title, same San
+Francisco hybrid location, and the same stated comp band ($94,000-$125,000
+USD), so treated as the same requisition surfaced via a different channel,
+not a distinct second opening. The evaluation re-run against this mirror
+(report #1608, 2026-10-21) scored 3.9/5, updating tracker row #567 (was
+3.7/5) via merge-tracker.mjs's company+title match.
+
 ## Full JD text
 
 This is a growth position supporting Datadog's expanding business through cross-functional collaboration with Sales Operations, Billing, Contracts, and Legal teams on quoting and deal structuring.
