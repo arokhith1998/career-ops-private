@@ -1,0 +1,21 @@
+Subject: Customer interviews plus SQL, not one or the other
+
+Hi {Hiring Manager, NewsBreak Local Ads},
+
+I do not normally reach out before applying, but the requirement to use advertiser interviews, consumer research, SQL analysis, and experiments to prioritize local-ads opportunities describes how I already work, not a habit I would be building on the job.
+
+At Sensata I ran 30+ customer interviews with OEMs and distributors, then built SQL and GA4 KPI frameworks across 50K+ connected devices to turn those conversations into prioritized product decisions.
+At Pixis I owned P&L and revenue targets across an 8-client, $15K-$90K-per-month-per-client portfolio, using Amplitude and Tableau across 30+ campaigns to lift ROAS 40%.
+At GenY Medium I rebuilt catalog feeds for 16x ROAS, the discovery-to-conversion path this role's consumer-discovery work is chasing.
+At Applied Materials I automate forecasting and reporting with Claude agents, the AI-assisted workflow your local-ads AI section is scoping.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/newsbreak
+
+Worth 15 minutes to see if the fit is real? Happy to be pointed elsewhere if this isn't your req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
