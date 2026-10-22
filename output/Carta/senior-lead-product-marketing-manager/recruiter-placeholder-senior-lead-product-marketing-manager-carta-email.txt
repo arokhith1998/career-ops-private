@@ -1,0 +1,21 @@
+Subject: Lead PMM req, PE/VC buyer intelligence - Carta
+
+Hi {Recruiter, Product Marketing},
+
+I do not normally reach out before applying, but your req treats personas as a living system, refreshed from call data and win/loss signal rather than built once, and that is the muscle I run.
+
+A few proof points mapped to the req:
+- At Sensata I ran 30+ OEM and distributor interviews on a new launch, turned the signal into positioning, and lifted CSAT 22% and conversion 15%.
+- I built the enablement layer behind it, case studies and objection handling 50+ reps used, moving win rates 30%.
+- At Applied Materials I ship Claude agents that run market and competitive analysis on their own, the build-not-just-prompt bar your posting sets.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/carta
+
+Worth 15 minutes if this is your req, no worries if it already has an owner.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

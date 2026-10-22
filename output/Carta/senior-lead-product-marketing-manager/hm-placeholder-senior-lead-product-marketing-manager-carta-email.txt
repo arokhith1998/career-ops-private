@@ -1,0 +1,21 @@
+Subject: Persona intelligence that stays current, not a quarterly deck
+
+Hi {Product Marketing Lead, Carta},
+
+I joined Applied Materials recently and was not looking, but pairing full-funnel messaging with Sales Enablement and Demand Gen, while owning the AI layer that keeps persona intelligence current, is close to work I already run, so I reached out directly.
+
+A few proof points mapped to the req:
+- At Sensata I built the enablement layer first, case studies and talk tracks 50+ reps used, moving win rates 30% and driving $2M+ first-year revenue on a new launch.
+- Before that I ran 30+ OEM and distributor interviews and competitive analysis across EMEA and the US, turning it into messaging that lifted conversion 15%.
+- At Applied Materials I run Claude agents against repetitive market and competitive analysis; at PriceKeel I built a guardrail engine that learns from closed-won and closed-lost deals, the same instinct persona work that cannot go stale needs.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/carta
+
+Worth 15 minutes on how you are scoping audience intelligence, no worries if the timing is off.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
