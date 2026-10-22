@@ -1,0 +1,20 @@
+Subject: Solving performance mysteries is the part nobody mentions until the dashboard breaks
+
+Hi {Field Pricing Strategy Lead, Workday},
+
+I do not normally reach out before applying, but solving mysteries on performance trends and proposing next steps to leadership is a problem I already built a system around, not a new exercise.
+
+At Sensata I built the FY2026 Bleeders and Leakers Power BI dashboard, tracking 1,200 pricing opportunities against a $627M target across 3 regions, 4 product families and 20 product lines, surfacing $433M in margin gaps so leadership could prioritize by rep and product line.
+Running PriceKeel, my own pricing venture, I configure the CRM, CPQ and deal-approval workflow myself, the same quote-to-cash and Order Form territory this role tests against.
+That same Sensata program recovered $700K+ in margin in two quarters and raised distributor margins from 53% to 61%.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/workday
+
+Worth 20 minutes to compare notes on the pricing model work? Glad to be redirected if this sits with someone else.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
