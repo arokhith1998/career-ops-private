@@ -706,10 +706,10 @@ linkedin.com/jobs/view/4482097228	Amazon	Sr Business Analyst, Competitive Intell
 linkedin.com/jobs/view/4482149410	Opensity Solutions	Market Research Assistant	https://www.linkedin.com/jobs/view/4482149410	dropped	DROP:seniority-out-of-band	2026-10-22	2026-10-22	1	
 linkedin.com/jobs/view/4459419495	Refresco	Category Manager - Commercialization	https://www.linkedin.com/jobs/view/4459419495	dropped	DROP:no-target-role-match	2026-10-22	2026-10-22	1	
 linkedin.com/jobs/view/4481126031	Basecamp Research	Market Product Lead	https://www.linkedin.com/jobs/view/4481126031	dropped	DROP:no-target-role-match	2026-10-22	2026-10-22	1	
-job-boards.greenhouse.io/pagerduty/jobs/6220984004	PagerDuty	Principle CS Strategy & Operations Manager	https://job-boards.greenhouse.io/pagerduty/jobs/6220984004	queued		2026-10-20	2026-10-22	8	
-boards.greenhouse.io/robinhood/jobs/8265728?gh_jid=8265728	Robinhood	Senior Product Manager, Advisor Marketplace	https://boards.greenhouse.io/robinhood/jobs/8265728?t=gh_src=&gh_jid=8265728	visa_gated		2026-10-21	2026-10-22	6	
-brex.com/careers/8895839002?gh_jid=8895839002	Brex	Senior Field Marketing Manager	https://www.brex.com/careers/8895839002?gh_jid=8895839002	queued		2026-10-21	2026-10-22	7	
-jobs.lever.co/loop%20ai/d0e35f91-e189-43f6-b3c9-9394d418ce24	Loop AI	Product Marketing Manager	https://jobs.lever.co/Loop%20AI/d0e35f91-e189-43f6-b3c9-9394d418ce24	queued		2026-10-09	2026-10-22	11	
+job-boards.greenhouse.io/pagerduty/jobs/6220984004	PagerDuty	Principle CS Strategy & Operations Manager	https://job-boards.greenhouse.io/pagerduty/jobs/6220984004	dropped	DROP:already-queued-dup	2026-10-20	2026-10-22	9	
+boards.greenhouse.io/robinhood/jobs/8265728?gh_jid=8265728	Robinhood	Senior Product Manager, Advisor Marketplace	https://boards.greenhouse.io/robinhood/jobs/8265728?t=gh_src=&gh_jid=8265728	dropped	DROP:already-queued-dup	2026-10-21	2026-10-22	7	
+brex.com/careers/8895839002?gh_jid=8895839002	Brex	Senior Field Marketing Manager	https://www.brex.com/careers/8895839002?gh_jid=8895839002	dropped	DROP:already-tracked-dup	2026-10-21	2026-10-22	8	
+jobs.lever.co/loop%20ai/d0e35f91-e189-43f6-b3c9-9394d418ce24	Loop AI	Product Marketing Manager	https://jobs.lever.co/Loop%20AI/d0e35f91-e189-43f6-b3c9-9394d418ce24	dropped	DROP:already-tracked-dup	2026-10-09	2026-10-22	12	
 linkedin.com/jobs/view/4472850207	Campfire	Technical GTM Strategy & Operations Lead	https://www.linkedin.com/jobs/view/4472850207	jd_extracted		2026-10-02	2026-10-22	3	
 linkedin.com/jobs/view/4443600729	Aiven	Product Marketing Manager AI	https://www.linkedin.com/jobs/view/4443600729	jd_extracted		2026-10-01	2026-10-22	3	
 linkedin.com/jobs/view/4464927359	Amazon Web Services (AWS)	Product Marketing Manager, Tech, AWS Data Foundations Product Marketing	https://www.linkedin.com/jobs/view/4464927359	jd_extracted		2026-10-01	2026-10-22	3	
