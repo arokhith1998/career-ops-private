@@ -1,0 +1,22 @@
+Subject: Working backwards from the data-foundation buyer, not the spec sheet
+
+Hi {Hiring Manager, AWS Data Foundations PMMT},
+
+I do not normally reach out before applying, but "shape the future of data foundation for agentic AI" describes work I already run today, just for a different buyer.
+
+Direct evidence of fit:
+- Automate forecasting and competitive analysis with Claude AI agents at Applied Materials, hands-on practice with the agentic AI workflows this role is building a foundation for.
+- Built the KPI frameworks myself in SQL and GA4 across 50,000+ connected devices at Sensata, the segmentation and customer-profile work this req lists as preferred.
+- Owned GTM end to end for a new, engineering-heavy product line (positioning, messaging, launch moments, channel), driving $2M+ first-year revenue.
+- Armed 50+ reps with technical sales enablement that lifted win rates 30%, the enablement motion this role scales to thousands of sellers.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/aws
+
+Worth 15 minutes to compare notes on the data portfolio's positioning? Happy to be pointed elsewhere if I have the wrong person.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
