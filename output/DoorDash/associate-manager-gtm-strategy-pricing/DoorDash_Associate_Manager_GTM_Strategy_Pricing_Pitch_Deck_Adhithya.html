@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>DoorDash Associate Manager GTM Strategy and Pricing Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #b91c1c; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 25pt; font-weight: 800; color: #0f172a; line-height: 1.16; letter-spacing: -0.4pt; margin-bottom: 8pt; }
+  h2 { font-size: 20pt; font-weight: 800; color: #0f172a; line-height: 1.12; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #b91c1c; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.8in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #fde3e3 100%); }
+  .cover h1 { font-size: 23pt; max-width: 11.6in; }
+  .cover .sub { font-size: 13pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 16pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.6in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.1pt; font-weight: 500; }
+  .tag strong { color: #b91c1c; font-weight: 700; }
+  .cover .who { margin-top: 16pt; padding-top: 10pt; border-top: 1.5pt solid #b91c1c; max-width: 9.5in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #b91c1c; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #fdeaea; border-left: 3pt solid #b91c1c; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.2pt; color: #7f1d1d; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.1pt; color: #334155; line-height: 1.44; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #b91c1c; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #fdeaea; border-left: 4pt solid #b91c1c; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #7f1d1d; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #b91c1c; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 23pt; font-weight: 800; color: #b91c1c; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #b91c1c; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #b91c1c; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #b91c1c; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #fde3e3 100%); }
+  .close h2 { font-size: 24pt; max-width: 10.8in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.9in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #b91c1c; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the DoorDash Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | DoorDash Associate Manager, GTM Strategy &amp; Pricing</div>
+  <h1>Drive's newest business line needs pricing models, playbooks and a margin-protection process before anyone has written the rate card. I have already built all three, from zero, more than once.</h1>
+  <div class="sub">Deal-level pricing judgment, zero-to-one playbook building and AI-assisted analysis from someone who treats speed to revenue and margin protection as the same job, not two.</div>
+  <div class="tags">
+    <div class="tag"><strong>$700K+</strong> margin recovered in 2 quarters by root-causing margin gaps at Sensata</div>
+    <div class="tag"><strong>53% to 61%</strong> distributor margin lift from repriced discount logic</div>
+    <div class="tag"><strong>CRM + CPQ + deal approvals</strong> set up and run from zero, founder of PriceKeel</div>
+    <div class="tag"><strong>1,200 opportunities</strong> tracked against a $627M target across 3 regions, 20 product lines</div>
+    <div class="tag"><strong>Claude AI agents</strong> automating recurring pricing analysis at Applied Materials</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-pricing-ai.vercel.app/ref/doordash</div>
+  </div>
+  <div class="brand">DOORDASH GTM &amp; PRICING PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>A brand-new business line does not get a pricing playbook for free. Someone has to build it <span class="accent">while the deals are already closing.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What losing that discipline runs into</h4>
+      <div class="line">A new line without a pricing model does not fail loudly. It fails as a deal priced on gut feel, a margin that slips because nobody root-caused the first bad quarter, and a Sales team improvising terms deal by deal because the playbook does not exist yet.</div>
+      <div class="line">Business Development, Logistics, Product and Engineering all touch the same new line, so a gap in pricing structure becomes everyone's guessing game the first time a deal gets contested.</div>
+      <div class="line">The fix is not a spreadsheet after the fact. It is someone who treats pricing, process and margin protection as one build, started on day one.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run</h4>
+      <div class="line">At <b>Sensata</b>, I led the Bleeders and Leakers program: root-causing margin gaps against competitive data and customer willingness to pay, recovering $700K+ in margin in 2 quarters and raising distributor margins from 53% to 61% while the business kept scaling.</div>
+      <div class="line">At <b>PriceKeel</b>, I set up and run the CRM, CPQ and deal approvals myself, the same playbook-from-zero discipline a brand-new business line needs on day one.</div>
+      <div class="line">Both mean I have built the pricing structure and protected the margin on the same business, not handed one off to someone else.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">An Associate Manager who strategizes, builds, analyzes and influences across Business Development, Logistics, Product and Engineering to scale a new business line is describing exactly that build, done under speed-to-revenue pressure, not after it.</div>
+  </div>
+  <div class="brand">DOORDASH GTM &amp; PRICING PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What the Associate Manager opening asks for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">Understand the needs of our partners, prioritize those needs by impact, assess tradeoffs, and design solutions to drive both speed and quality outcomes.</div></div>
+      <div class="quote"><div class="q">Bring structure to undefined opportunities by creating and implementing high-impact playbooks, models, processes, and tools.</div></div>
+      <div class="quote"><div class="q">Solve key problems with a data-driven, first-principles approach: identification, sizing, pricing, impact, root causing, trade offs.</div></div>
+      <div class="quote"><div class="q">Work cross-functionally with Business Development, Logistics, Product, and Engineering teams to rapidly scale new business.</div></div>
+    </div>
+    <div class="col">
+      <h3>My Proof</h3>
+      <div class="proof"><div class="p"><b>Strategize, by impact:</b> the Bleeders and Leakers dashboard at Sensata ranked $433M in margin gaps by salesperson and product line so leadership prioritized the highest-impact fixes first.</div></div>
+      <div class="proof"><div class="p"><b>Build, from undefined:</b> set up PriceKeel's CRM, CPQ and deal approvals from zero, and built the FY2026 Bleeders and Leakers Power BI dashboard covering 1,200 opportunities against a $627M target.</div></div>
+      <div class="proof"><div class="p"><b>Analyze, first-principles:</b> build forecasting and market-sizing models in SQL and Excel at Applied Materials, and root-caused the margin gaps behind Sensata's $700K+ recovery.</div></div>
+      <div class="proof"><div class="p"><b>Influence, cross-functionally:</b> shaped AP26 revenue models and multimillion-dollar customer quotes with senior executives, and partnered Sales, Engineering and Accounts into one pricing view at Applied Materials.</div></div>
+    </div>
+  </div>
+  <div class="brand">DOORDASH GTM &amp; PRICING PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>Bleeders and Leakers: <span class="accent">turn an undefined margin problem into a prioritized, auditable playbook.</span></h2>
+  <div class="lede">Built as a BU-wide Power BI system covering 1,200 pricing opportunities against a $627M target across 3 regions, 4 product families and 20 product lines, with win rate, avg $/win and stage distribution checked before leadership set the next quarter's targets.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$700K+</div>
+      <div class="lbl">Margin Recovered, 2 Quarters</div>
+      <div class="desc">Root-caused against competitive gaps and each customer's own deal history, the same first-principles discipline this seat needs for a line with no pricing history yet.</div>
+    </div>
+    <div class="stat">
+      <div class="n">53% to 61%</div>
+      <div class="lbl">Distributor Margin Lift</div>
+      <div class="desc">Repriced the channel logic while volume kept scaling, protecting margin instead of trading it away for speed to revenue.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$433M</div>
+      <div class="lbl">Margin Gaps Surfaced</div>
+      <div class="desc">Every gap traced to a specific deal by salesperson and product line, the segment-level detail a new business line's first dashboard needs.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">At PriceKeel that same instinct became the operating model: I build the pricing structure, the CRM/CPQ system and the deal approvals myself, so the playbook and the margin protection are never two separate projects.</div>
+  <div class="brand">DOORDASH GTM &amp; PRICING PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month owning pricing for Drive's new business line looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Learn the product, operations and merchants</div>
+      <div class="body">Sit with Sales and Business Development on live deals for the new line, map the current pricing and quoting process end to end, and pull the first data cut on where margin is already leaking.</div>
+      <div class="why"><strong>Why first:</strong> the same groundwork that let me root-cause Sensata's margin gaps before proposing a single fix.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Build the first pricing model and playbook</div>
+      <div class="body">Stand up a pricing model for one segment of the new line, document the playbook so Sales can run it without me, and present the first speed-to-revenue read to the cross-functional team.</div>
+      <div class="why"><strong>Why now:</strong> the same build-from-zero discipline that stood up PriceKeel's CRM, CPQ and deal approvals in month one.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Tighten the margin-protection process</div>
+      <div class="body">Turn the first month's pricing data into a lightweight dashboard flagging deals at risk of margin leakage, and hand Sales one guardrail to apply before the next pricing review.</div>
+      <div class="why"><strong>Why this fast:</strong> a margin guardrail only earns its keep once it is checked every cycle, the same cadence behind Sensata's dashboard.</div>
+    </div>
+  </div>
+  <div class="brand">DOORDASH GTM &amp; PRICING PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to price a new business line from zero while protecting margin and accelerating speed to revenue. I have already built that playbook, more than once.</h2>
+  <div class="body">
+    <p>The core proof is Sensata: a Power BI system tracking <strong>1,200 pricing opportunities against a $627M target</strong>, distributor margins lifted <strong>from 53% to 61%</strong>, and $700K+ in margin recovered in 2 quarters by root-causing gaps against competitive data and customer willingness to pay.</p>
+    <p>What is harder to find is someone who has also spent the last several months building that same discipline from zero for his own company. <strong>I built PriceKeel's CRM, CPQ and deal approvals myself</strong>, so standing up pricing structure for a line with no playbook yet is not something I would need to learn on the job.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-pricing-ai.vercel.app/ref/doordash</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">DOORDASH GTM &amp; PRICING PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
