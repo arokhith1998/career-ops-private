@@ -59,8 +59,10 @@ Seniority level: Not Applicable | Employment type: Full-time | Industries: Techn
 
 No other sentence about sponsorship, citizenship, or clearance appears in the posting. Degree requirement: "BA/BS degree in a relevant field (e.g., Marketing, Business, Communications, or related field)"; MBA listed as preferred, not required. No graduation year is stated.
 
-**Note for Agent 3:** posting asks for 12+ years of full-time Product Marketing experience, which is well above the US-track mid-level band (<=6 years) in modes/nightly-rules.md. Flagging for scoring; not dropped here per this session's scope (extraction only).
-
 ## Comp
 
 $190,000/yr - $258,000/yr base + bonus + equity + benefits.
+
+## Extraction notes
+
+Posting asks for 12+ years of full-time Product Marketing experience, which is well above the US-track mid-level band (<=6 years) in modes/nightly-rules.md. Flagging for scoring; not dropped here per this session's scope (extraction only).

@@ -48,7 +48,7 @@ Individual compensation is determined by skills, qualifications, experience, and
 
 Verbatim: "Meta participates in the E-Verify program in certain locations, as required by law." No sentence about sponsorship or citizenship or clearance. Degree line, quoted verbatim: "BA/BS in a quantitative field (data science, computer science, economics, finance, etc.) or an equivalent degree/experience." No graduation year mentioned.
 
-## Note for Agent 3
+## Extraction notes
 
 "9+ years of experience" required (minimum qualification) - well above the US-track ceiling (<=6 years). Flagging only, not scoring.
 

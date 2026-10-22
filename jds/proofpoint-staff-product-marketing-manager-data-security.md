@@ -56,8 +56,10 @@ Base Pay Ranges
 
 No sentence about work authorization, visa sponsorship, citizenship, or security clearance appears in the posting. Degree requirement (verbatim): "A bachelor's degree is required; a technical concentration or MBA is a plus." No graduation year is stated.
 
-**Note for Agent 3:** title is "Staff" and the posting asks for 12+ years of product marketing experience, well above the US-track mid-level band (<=6 years) in modes/nightly-rules.md. Flagging for scoring; not dropped here per this session's scope (extraction only).
-
 ## Comp
 
 Tiered by location: SF Bay Area/NYC Metro $187,700-$275,275; CA (excl. SF Bay Area)/CO/CT/IL/DC Metro/MD/MA/NJ/TX/WA/VA/AK $151,000-$221,430; all other locations $137,000-$200,915. May be eligible for variable compensation and/or equity.
+
+## Extraction notes
+
+Title is "Staff" and the posting asks for 12+ years of product marketing experience, well above the US-track mid-level band (<=6 years) in modes/nightly-rules.md. Flagging for scoring; not dropped here per this session's scope (extraction only).

@@ -63,7 +63,7 @@ Advanced Energy is also committed to providing reasonable accommodations in our 
 
 No sentence about work authorization, sponsorship, citizenship, or clearance appears in the posting. Education line, quoted verbatim: "Master's Degree in Electrical Engineering or equivalent (e.g. Physics, Computer Engineering), Bachelor's Degree will be considered with sufficient experience." No graduation year mentioned.
 
-## Note for Agent 3
+## Extraction notes
 
 Experience line asks "8+ years" - above the US-track ceiling (<=6 years); and the required degree field is Electrical Engineering / technical, which does not match the candidate's BE + MS Marketing Analytics background. Flagging only, not scoring.
 

@@ -35,6 +35,6 @@ The role is a Consumer Product Marketing Manager position on Facebook's Marketin
 
 **Work authorization note (verbatim):** "Meta participates in the E-Verify program in certain locations, as required by law."
 
-## Flag for downstream agents (not actioned here)
+## Extraction notes
 
 "12+ years of full-time product marketing experience" is far above the US-track years band (max 6 years per modes/nightly-rules.md) and the title "Lead" reads senior. Flagging prominently for Agent 3/evaluator; not filtered at this extraction step per this agent's mandate (seniority/years gating belongs to nightly-shortlist.mjs upstream and check-jd-experience.mjs downstream, not this step).

@@ -51,7 +51,7 @@ NVIDIA is committed to fostering a diverse work environment and proud to be an e
 
 No sentence about work authorization, sponsorship, citizenship, or clearance appears in the posting. Degree lines, quoted verbatim: "Bachelor's degree in computer science, computer engineering, or a similar technical field, or equivalent experience" and "Master's Degree, MBA or equivalent experience in Engineering or Computer Science" (stand-out, not required). No graduation year mentioned.
 
-## Note for Agent 3
+## Extraction notes
 
 "Over 8 years of professional experience" required - above the US-track ceiling (<=6 years), and the required degree field (CS/CE/technical) does not match the candidate's background. Flagging only, not scoring. The "accepted at least until April 14, 2026" apply-before-date plus hyper-specific stack language are the PERM-advertisement tells named in modes/nightly-rules.md section 3 - flagging for Agent 3 to weigh, not auto-skipping here since the title/seniority gate already passed it through to this batch.
 
