@@ -173,3 +173,10 @@ Semiconductor Manufacturing
 JD body states "Minimum of 8 years of experience in semiconductor industry" -- over the
 us-track 6-year JD-body cap. Recommend DROP:over-8-years-experience; excluded from
 data/extracted.tsv.
+
+
+---
+check-jd-experience.mjs false negative (manual override, 2026-10-23): JD states
+"Minimum of 8 years of experience in semiconductor industry" -- over the
+us-track max_years (6) ceiling. Dropped from data/gated.tsv and recorded
+DROP:over-8-years-experience in data/seen-jobs.tsv before scoring.
