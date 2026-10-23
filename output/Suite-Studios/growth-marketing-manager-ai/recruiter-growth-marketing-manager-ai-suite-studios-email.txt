@@ -1,0 +1,18 @@
+Subject: Growth Marketing Manager, AI - two shipped AI products behind the role's AI mandate
+
+Hi {Recruiter, Growth Marketing},
+
+I do not usually write before applying, but the JD line about establishing AI as an operational foundation across the marketing function is the rarest ask on a growth role this year. Built you a 6-slide pitch deck so the proof fits on one read.
+
+Three quick proofs. I built and shipped SwipeHire, an AI matching product on Python, the OpenAI API, and React, instrumented with GA4, GTM, and Amplitude from day one: 8 A/B tests, 25% activation lift. NSE Paper-Trading Bot is a second shipped AI product, Claude API as an agentic reasoning layer over rule-based scoring. At Pixis, I trained eight enterprise marketers on AI bidding and creative tools through weekly client CFO reviews.
+
+Here's the portfolio: adhi-growth-ai.vercel.app/ref/suite-studios
+
+Worth 15 minutes if this req is still open, no worries if it already moved past this stage.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

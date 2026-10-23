@@ -1,0 +1,18 @@
+Subject: Growth Marketing Manager, AI - built the AI operationalization the JD asks for, twice
+
+Hi {Hiring Manager, Marketing},
+
+I do not usually write before applying, but your line about establishing AI as an operational foundation across the marketing function is the rarest ask on a growth JD this year. Most candidates have used AI tools; few have shipped one or trained a team to run on it. Built you a 6-slide pitch deck mapping both to this role.
+
+Four proofs. SwipeHire: an AI matching product I built solo on Python, the OpenAI API, and React, GA4, GTM, and Amplitude instrumented day one, 8 A/B tests, 25% activation lift. NSE Paper-Trading Bot: a second shipped AI product, Claude API as an agentic reasoning layer over rule-based scoring. At Pixis, I trained eight enterprise marketers on AI bidding and creative tools through weekly client CFO reviews. At Sensata, a 30-plus interview customer-story pipeline fed a positioning rewrite and lifted sales win rate 30%.
+
+Here's the portfolio: adhi-growth-ai.vercel.app/ref/suite-studios
+
+15 minutes to walk through the deck, or tell me it is not your req and I will leave it there.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
