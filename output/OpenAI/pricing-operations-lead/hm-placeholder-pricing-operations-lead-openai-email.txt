@@ -1,0 +1,22 @@
+Subject: A requirement-intake system for pricing, already built
+
+Hi {Hiring Manager, Pricing & Monetization},
+
+I do not normally message before applying, but owning requirement intake for the pricing team, and turning it into specs billing and revenue systems can build against, is the backbone I already built at PriceKeel, not a new motion to learn here.
+
+Built a 6-slide pitch deck mapping that system to this brief.
+
+Founded PriceKeel: set up its CRM and CPQ configuration and deal approvals, then built the audit trail giving Finance line-by-line evidence for every pricing exception.
+Recovered $700K+ in margin in two quarters at Sensata leading the Bleeders and Leakers program end to end, intake through sign-off.
+Built the FY2026 tracking dashboard managing 1,200 pricing opportunities against a $627M target across 3 regions and 20 product lines, with governance and issue tracking built in.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/openai
+
+Would welcome 15 minutes to walk through how that maps to your launch-readiness work, glad to redirect if it is not the right desk.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
