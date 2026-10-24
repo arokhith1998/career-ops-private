@@ -1,0 +1,22 @@
+Subject: Positioning for an Agentic CDP, not just a warehouse-native one
+
+Hi {Hiring Manager, Product Marketing},
+
+The line that stopped me was the shift from collecting and activating customer data to a platform that reasons over it and takes action. That's a positioning problem before it's a feature list, the kind of pivot I want to be inside early, not reading about after the fact.
+
+A few places I've done that kind of work:
+- Owned GTM end to end for a new sensing product line at Sensata: positioning, pricing, channel, launch, $2M+ first-year revenue.
+- Built the competitive program and sales enablement that lifted win rates 30% for 50+ reps.
+- At Applied Materials I run Claude-based agents automating market-sizing and forecasting, the same "streamlined processes with AI" habit your posting asks for.
+- At Pixis I delivered 3x ROAS in a month through a full-funnel rebuild, covering the growth-path route too.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/rudderstack
+
+If you're the right person for this, I'd welcome 15 minutes on where positioning needs to move first.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
