@@ -1,0 +1,23 @@
+Subject: Deciding when the agent acts versus asks is a problem I already run
+
+Hi {Hiring Manager, Career Agents},
+
+I do not normally reach out before applying, but your line about deciding when the agent acts on its own, when it asks, and how members approve what it does, is a design problem I am solving right now at PriceKeel, not one I would learn on the job.
+
+No deck this round, the resume and cover letter built for this req carry the same proof points.
+
+A few proof points mapped to the req:
+- At PriceKeel, I built an explainable guardrail engine with an audit trail Finance can read, the show-your-work trust layer a member-facing agent needs before it acts unsupervised.
+- I shipped SwipeHire, an AI job-matching agent, zero-to-one: PRD, MVP, 8+ A/B tests, 12+ interviews deciding what to build, cut, or double down on, activation up 25%.
+- At Sensata, 30+ OEM interviews became a roadmap call and a CSAT lift of 22%, the member-research-to-decision loop this role runs weekly.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/linkedin
+
+Worth 15 minutes on how the team scopes trust boundaries today, no worries if the timing is off.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

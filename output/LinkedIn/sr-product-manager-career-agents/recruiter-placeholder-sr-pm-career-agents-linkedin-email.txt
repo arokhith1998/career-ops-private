@@ -1,0 +1,23 @@
+Subject: Built a career agent before this req existed
+
+Hi {Recruiter, Career Agents},
+
+I do not normally reach out before applying, but this req holds one person accountable for whether the agent works for members, not whether it ships, and that is the bar I already hold myself to.
+
+No deck this round, the resume and cover letter built for this req carry the same proof points.
+
+A few proof points mapped to the req:
+- I shipped SwipeHire, an AI job-matching agent, zero-to-one: PRD, MVP, 8+ A/B tests, 12+ interviews deciding what to build or cut, activation up 25%.
+- At Sensata, a SQL and GA4 framework across 50K+ devices showed which changes moved real metrics, feeding roadmap calls that raised CSAT 22%.
+- I carry pricing models at Applied Materials, automated with Claude AI agents, the fast-prototype habit a weekly-ship team needs.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/linkedin
+
+Worth 15 minutes, no worries if it already has an owner.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
