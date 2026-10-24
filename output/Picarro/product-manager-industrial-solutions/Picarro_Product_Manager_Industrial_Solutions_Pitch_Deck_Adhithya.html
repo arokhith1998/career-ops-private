@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Picarro Product Manager Industrial Solutions Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #1a56db; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 24pt; font-weight: 800; color: #0f172a; line-height: 1.16; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 19pt; font-weight: 800; color: #0f172a; line-height: 1.16; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #1a56db; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.8in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbeafe 100%); }
+  .cover h1 { font-size: 21.5pt; max-width: 11.4in; }
+  .cover .sub { font-size: 12.5pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; max-width: 10.9in; }
+  .cover .tags { margin-top: 15pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.6in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9pt; font-weight: 500; }
+  .tag strong { color: #1a56db; font-weight: 700; }
+  .cover .who { margin-top: 15pt; padding-top: 9pt; border-top: 1.5pt solid #1a56db; max-width: 9.6in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #1a56db; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #eff6ff; border-left: 3pt solid #1a56db; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.3pt; color: #1e3a8a; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #1a56db; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.3pt; color: #334155; line-height: 1.46; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 13pt; background: #eff6ff; border-left: 4pt solid #1a56db; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #1e3a8a; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 16pt; font-weight: 800; color: #1a56db; line-height: 1.15; margin-bottom: 4pt; letter-spacing: -0.5pt; }
+  .stat .lbl { font-size: 9.3pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.6pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #1a56db; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.3pt; font-weight: 800; color: #0f172a; line-height: 1.18; margin-bottom: 7pt; }
+  .card .body { font-size: 8.8pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.3pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #1a56db; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbeafe 100%); }
+  .close h2 { font-size: 20pt; max-width: 10.9in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.9in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #1a56db; font-weight: 700; }
+  .close .contact { margin-top: 15pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Picarro Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Picarro Product Manager, Industrial Solutions</div>
+  <h1>Fenceline and workplace-monitoring features do not ship on a sprint calendar. They ship against an EPA or OSHA deadline. I already run the roadmap, backlog and discovery loop that ships features on someone else's clock, not just my own.</h1>
+  <div class="sub">Built from a 100+ feature industrial-sensor backlog, 30+ customer interviews, and a product I shipped zero-to-one off my own PRD.</div>
+  <div class="tags">
+    <div class="tag"><strong>100+ Feature Backlog</strong> - owned end to end in Agile across 3 regions at Sensata</div>
+    <div class="tag"><strong>30+ Customer Interviews</strong> - OEMs and distributors, CSAT +22%</div>
+    <div class="tag"><strong>Zero-to-One PRD to MVP</strong> - SwipeHire, 50+ users, activation +25%</div>
+    <div class="tag"><strong>$2M+ GTM Revenue</strong> - new sensing-product launch owned end to end</div>
+    <div class="tag"><strong>AI Agents Built on Claude</strong> - automating recurring analysis today</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-product-ai.vercel.app/ref/picarro</div>
+  </div>
+  <div class="brand">INDUSTRIAL SOLUTIONS PM PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>Owning a feature end to end here means reading a regulatory clock, not just a sprint calendar. <span class="accent">The backlog has to move at the EPA's and OSHA's pace, not only engineering's.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What that actually requires</h4>
+      <div class="line">A roadmap that balances near-term compliance deadlines against longer-term platform investment, re-prioritized as the regulatory picture moves.</div>
+      <div class="line">Requirements and prototypes built from structured customer discovery, not assumption, before engineering investment scales up.</div>
+      <div class="line">A product owner who can run Agile sprint ceremonies and still own positioning, sales enablement and competitive intel once the feature ships.</div>
+    </div>
+    <div class="panel">
+      <h4>What I already run</h4>
+      <div class="line">At <b>Sensata</b>, I owned the product roadmap for sensor solutions and ran a 100+ feature backlog with engineering in Agile sprint cycles across 3 regions, cutting time-to-market 20%.</div>
+      <div class="line">On <b>SwipeHire</b>, I wrote the PRD and scoped the MVP myself, then ran 12+ user interviews and 8+ A/B tests before letting build scope grow.</div>
+      <div class="line">At <b>Applied Materials</b>, I build AI agents on Claude to automate the recurring analysis that would otherwise eat the time a roadmap needs.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">The through-line: the roadmap, the discovery discipline and the AI-forward habit are not something to grow into here. They are the system I already run.</div>
+  </div>
+  <div class="brand">INDUSTRIAL SOLUTIONS PM PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The mandate, mapped</div>
+  <h2>What the posting asks for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Set priorities and shape the Industrial Solutions roadmap, balancing near-term customer needs and compliance deadlines with longer-term platform investments."</div></div>
+      <div class="quote"><div class="q">"Conduct structured customer interviews, synthesize field data, and maintain a current view of EPA rulemaking, OSHA requirements, and emerging monitoring technologies."</div></div>
+      <div class="quote"><div class="q">"Serve as the product owner in Agile sprint cycles... Partner closely with R&amp;D, engineering, data science, QA, and field teams."</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>Sensata, roadmap and backlog:</b> owned the product roadmap for sensor solutions, managing a 100+ feature backlog with engineering in Agile across 3 regions, releases 25% faster.</div></div>
+      <div class="proof"><div class="p"><b>Sensata, structured discovery:</b> ran 30+ customer interviews with OEMs and distributors, turning field insight into requirements that raised CSAT 22%.</div></div>
+      <div class="proof"><div class="p"><b>Sensata, Agile product ownership:</b> ran sprint ceremonies and backlog grooming while also owning sales enablement and competitive intel for 50+ reps.</div></div>
+    </div>
+  </div>
+  <div class="brand">INDUSTRIAL SOLUTIONS PM PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>Discover the constraint, ship the requirement, then <span class="accent">put a number on the result.</span></h2>
+  <div class="lede">Same pattern across a 100+ feature industrial backlog and a product I built alone from a blank page: discover the real constraint, ship the requirement, then measure whether it moved.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">100+ Feature Backlog</div>
+      <div class="lbl">Agile Across 3 Regions</div>
+      <div class="desc">Owned the roadmap for industrial sensing products at Sensata; releases 25% faster, time-to-market cut 20%.</div>
+    </div>
+    <div class="stat">
+      <div class="n">30+ Interviews</div>
+      <div class="lbl">OEM &amp; Distributor Discovery</div>
+      <div class="desc">Structured customer discovery turned into product requirements that raised CSAT 22%.</div>
+    </div>
+    <div class="stat">
+      <div class="n">Zero-to-One PRD</div>
+      <div class="lbl">SwipeHire, 50+ Users</div>
+      <div class="desc">Wrote the PRD, scoped the MVP, and shipped it myself before asking anyone else to build it.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">Each one closed the loop from discovery to a number, not a requirements doc that sat in a folder.</div>
+  <div class="brand">INDUSTRIAL SOLUTIONS PM PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month on the Industrial Solutions roadmap would look like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Map the compliance clock</div>
+      <div class="body">Build the first view of where fenceline and workplace-monitoring customers sit against EPA and OSHA deadlines, so the first prioritization call is built on the clock, not a guess.</div>
+      <div class="why"><strong>Why first:</strong> the same first move behind the EMEA/US competitive mapping I ran at Sensata, read the landscape before committing the backlog.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Ship the first requirement and prototype</div>
+      <div class="body">Write the first PRD and a low-fidelity prototype directly with R&amp;D and engineering, tested with customers before build scope locks in.</div>
+      <div class="why"><strong>Why now:</strong> the same sequence that shipped SwipeHire's MVP on 12+ interviews and 8+ A/B tests before scaling build.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Stand up the success-metrics loop</div>
+      <div class="body">Define the post-launch metrics before the first feature ships, then automate the recurring reporting with an AI agent so the read happens every sprint, not once a quarter.</div>
+      <div class="why"><strong>Why this fast:</strong> the same habit already running on my own market analysis at Applied Materials.</div>
+    </div>
+  </div>
+  <div class="brand">INDUSTRIAL SOLUTIONS PM PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone who already owns a roadmap against someone else's clock, runs the discovery that de-risks it, and ships requirements engineering can build. I have run all three, with a number on each.</h2>
+  <div class="body">
+    <p>The roadmap half: <strong>100+ feature backlog</strong> owned end to end in Agile across 3 regions at Sensata, releases 25% faster and time-to-market cut 20%.</p>
+    <p>The discovery half: <strong>30+ structured customer interviews</strong> that raised CSAT 22%, plus a product built zero-to-one off my own PRD, SwipeHire, now at 50+ users. I automate my own recurring analysis with AI agents built on Claude today, because a roadmap racing a regulatory deadline cannot wait on a manual report.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-product-ai.vercel.app/ref/picarro</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">INDUSTRIAL SOLUTIONS PM PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
