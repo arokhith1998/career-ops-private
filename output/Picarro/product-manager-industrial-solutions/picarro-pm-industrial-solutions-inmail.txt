@@ -1,0 +1,24 @@
+Subject: Industrial Solutions PM: proof before the pitch
+
+Hi Recruiter, Picarro,
+
+Picarro's Industrial Solutions req asks for someone who owns features end to end against EPA and OSHA deadlines, not just a backlog. That is the job I already run, so here is proof instead of enthusiasm.
+
+Built a 6-slide pitch deck so the case fits one read.
+
+A few anchors:
+- Owned a 100+ feature sensor backlog in Agile across 3 regions at Sensata, releases 25% faster.
+- Ran 30+ OEM and distributor interviews that raised CSAT 22% once turned into requirements.
+- Shipped SwipeHire zero to one, my own PRD, 50+ users, before any engineering handoff.
+- Build AI agents on Claude at Applied Materials to automate recurring analysis.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/picarro
+
+Worth 15 minutes if this is live on your side.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

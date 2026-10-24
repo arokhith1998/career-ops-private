@@ -1,0 +1,24 @@
+Subject: Industrial Solutions PM: CRDS roadmap, not just a cover letter
+
+Hi Hiring Manager, Industrial Solutions,
+
+Fenceline and workplace monitoring are not sprint-calendar problems, they are regulatory-calendar problems: EPA and OSHA set the deadline, not the roadmap. That is the exact tension your Industrial Solutions PM posting describes, and it is the shape of the job I already run.
+
+Built a 6-slide pitch deck so the fit is a one-read case instead of a pitch.
+
+A few anchors:
+- At Sensata, owned the roadmap for a 100+ feature sensor backlog across 3 regions, cutting time-to-market 20%.
+- Ran 30+ structured OEM and distributor interviews that became requirements, raising CSAT 22%.
+- Wrote the PRD, scoped the MVP, and shipped SwipeHire to 50+ users off 12+ interviews and 8+ A/B tests, before asking anyone else to build.
+- Automate recurring market analysis at Applied Materials with AI agents built on Claude.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/picarro
+
+Open to 15 minutes if useful, and no worries if this sits with someone else on your team.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
