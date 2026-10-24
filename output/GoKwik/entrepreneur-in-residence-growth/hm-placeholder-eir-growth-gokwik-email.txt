@@ -2,17 +2,17 @@ Subject: Entrepreneur in Residence - Growth - one portfolio, one weekly review c
 
 Hi {Hiring Manager, Growth},
 
-I don't normally reach out before applying, but an EIR brief that owns weekly business reviews across a portfolio of founders, not one P&L, is closer to running several accounts at once than a single growth hire, and that's the shape of my year at Pixis.
+I don't normally reach out before applying, but an EIR brief that owns weekly business reviews across a portfolio of founders, not one P&L, runs closer to several accounts at once than one growth hire, and that's the shape of my year at Pixis.
 
 A few data points instead of a pitch:
 - Carried 8 D2C client P&Ls at once at Pixis, reading funnel and unit-economics data weekly to decide which account got attention next.
 - Rebuilt one client's funnel for 3x ROAS in a month while holding the other 7 steady.
-- Built the Bleeders and Leakers margin tracker at Sensata across 1,200 opportunities against a $627M target, recovering $700K in two quarters on the same logic.
-- Run my own 90-day plan weekly right now building PriceKeel, using Claude agents to automate the reporting that eats a growth week.
+- Built the Bleeders and Leakers margin tracker at Sensata across 1,200 opportunities against a $627M target, recovering $700K in two quarters.
+- Run my own 90-day plan weekly building PriceKeel, using Claude agents to automate the reporting that eats a growth week.
 
 Resume and cover letter attached. Here's the portfolio: https://adhi-growth-ai.vercel.app/ref/gokwik
 
-If a growth lead below you owns this hire, a pointer is fine; otherwise 15 minutes on one current portfolio business would help me show how I'd build its plan.
+If a growth lead below you owns this hire, a pointer is fine; otherwise 15 minutes on one portfolio business would help me show how I'd build its plan.
 
 Thank you,
 
