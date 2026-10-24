@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>DoorDash Associate Manager, New Verticals - Affordability Strategy & Operations Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #b91c1c; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 27pt; font-weight: 800; color: #0f172a; line-height: 1.14; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 20pt; font-weight: 800; color: #0f172a; line-height: 1.12; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #b91c1c; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.7in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #fee2e2 100%); }
+  .cover h1 { font-size: 22pt; max-width: 11.3in; }
+  .cover .sub { font-size: 14pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 16pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #b91c1c; font-weight: 700; }
+  .cover .who { margin-top: 16pt; padding-top: 11pt; border-top: 1.5pt solid #b91c1c; max-width: 9.4in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #b91c1c; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #fef2f2; border-left: 3pt solid #b91c1c; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #991b1b; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #b91c1c; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #fef2f2; border-left: 4pt solid #b91c1c; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #991b1b; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #b91c1c; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 20pt; font-weight: 800; color: #b91c1c; line-height: 1.08; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #b91c1c; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #b91c1c; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #b91c1c; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #fee2e2 100%); }
+  .close h2 { font-size: 22pt; max-width: 10.6in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.6in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #b91c1c; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the DoorDash Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | DoorDash Associate Manager, New Verticals - Affordability Strategy &amp; Operations</div>
+  <h1>The posting asks for someone who reads the full P&amp;L, order and pricing data to find where fee structure can move without losing the business. I built that exact model at Sensata, at a $627M scale, and recovered $700K+ in two quarters running what it found.</h1>
+  <div class="sub">A pricing-and-margin model built from scratch, a channel-margin repricing program, and the Claude-agent habit already running at Applied Materials.</div>
+  <div class="tags">
+    <div class="tag"><strong>$627M target</strong> structured from 1,200 untracked opportunities at Sensata</div>
+    <div class="tag"><strong>$700K+ margin</strong> recovered in 2 quarters from that structure</div>
+    <div class="tag"><strong>53% to 61%</strong> distributor margins raised in under 2 quarters</div>
+    <div class="tag"><strong>PriceKeel:</strong> owns CRM, CPQ, forecast reviews and deal approvals, with an audit trail Finance can read</div>
+    <div class="tag"><strong>AI agents built on Claude</strong> automating my own pricing analysis today</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhithyabhaskar.vercel.app/ref/doordash</div>
+  </div>
+  <div class="brand">AFFORDABILITY STRATEGY PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>This req is not "monitor a fee dashboard." It is <span class="accent">owning the P&amp;L-to-pricing-decision pipeline on a lever that reaches millions of customers.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What the posting actually asks for</h4>
+      <div class="line">Read the full P&amp;L, order and pricing data to find where a fee change moves affordability without losing margin.</div>
+      <div class="line">Partner with Finance and Analytics to forecast the consumer and financial impact of a pricing change, then design the A/B test that proves it.</div>
+      <div class="line">Use AI tools like Claude and Cursor to automate the analysis and move faster, and own the metrics and dashboards other teams rely on.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already built, the same way</h4>
+      <div class="line">At <b>Sensata</b>, I turned a $627M target and 1,200 untracked pricing opportunities into a structured, prioritized plan that surfaced $433M in margin gaps and recovered $700K+ in two quarters.</div>
+      <div class="line">On the channel side, I repriced parts sold through distribution and raised margins from <b>53% to 61%</b> in under two quarters, backed by competitive benchmarking across 10+ players.</div>
+      <div class="line">At <b>Applied Materials</b> today, I automate repetitive pricing and forecasting analysis with AI agents built on Claude; at <b>PriceKeel</b>, I run the CRM, CPQ, forecast reviews and deal approvals myself, with an audit trail Finance can read.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">The through-line: every build on this page started as scattered P&amp;L, order or pricing data with no model built yet, and ended as a number Finance could act on.</div>
+  </div>
+  <div class="brand">AFFORDABILITY STRATEGY PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The mandate, mapped</div>
+  <h2>What the posting asks for, line by line, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Understand end to end financials... to drive changes to how we make DoorDash more affordable."</div></div>
+      <div class="quote"><div class="q">"Partner with Finance and Analytics in forecasting consumer and financial impacts, building pricing models, design A/B tests."</div></div>
+      <div class="quote"><div class="q">"Leveraging AI tools like Claude and Cursor to automate and move faster."</div></div>
+      <div class="quote"><div class="q">"Own the metrics and dashboards for your programs, sharing with partners across the New Verticals organization."</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>Sensata Bleeders and Leakers:</b> turned a $627M target and 1,200 untracked opportunities into a prioritized plan, surfacing $433M in margin gaps and recovering $700K+ in two quarters.</div></div>
+      <div class="proof"><div class="p"><b>Sensata channel margin program:</b> repriced parts sold through distribution, 53% to 61% margins, backed by competitive benchmarking across 10+ players.</div></div>
+      <div class="proof"><div class="p"><b>Applied Materials:</b> automates repetitive pricing and forecasting analysis with AI agents built on Claude.</div></div>
+      <div class="proof"><div class="p"><b>Plug Power and PriceKeel:</b> ran 15+ A/B tests tying results to measurable CPA and conversion gains; PriceKeel's audit trail is the dashboard model this role needs for Finance.</div></div>
+    </div>
+  </div>
+  <div class="brand">AFFORDABILITY STRATEGY PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>Structure the data first, then let the <span class="accent">numbers carry the pricing decision instead of a hunch.</span></h2>
+  <div class="lede">Three different environments, same pattern: find the fee or margin lever nobody has modeled yet, build the structure before anyone asks for one, then put a number on the outcome that Finance or leadership can audit.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$627M Target</div>
+      <div class="lbl">Structured From 1,200 Untracked Opportunities</div>
+      <div class="desc">Sensata's Bleeders and Leakers Power BI model, built from scratch, with no existing method to extend.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$700K+ Recovered</div>
+      <div class="lbl">In Two Quarters, From That Structure</div>
+      <div class="desc">Margin-recovery negotiations run directly off the dashboard's prioritization, not off a hunch about which deals mattered.</div>
+    </div>
+    <div class="stat">
+      <div class="n">53% to 61%</div>
+      <div class="lbl">Distributor Margins, Under 2 Quarters</div>
+      <div class="desc">Channel repricing backed by competitive benchmarking across 10+ players, the closest analog to two-sided fee economics.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">None of these started with a dashboard already built. Each one started as P&amp;L, order or pricing data nobody had structured yet, and ended as a lever leadership could pull.</div>
+  <div class="brand">AFFORDABILITY STRATEGY PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month on DoorDash's fee and affordability data looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Map the P&amp;L for the first fee lever</div>
+      <div class="body">Pull order, pricing and P&amp;L data for the fee structure furthest along, and build the same opportunity-sizing view that scoped Sensata's $627M target, this time against fee and affordability impact.</div>
+      <div class="why"><strong>Why first:</strong> the same first move behind every build on this page, structure the data before touching the lever.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Build the pricing model, design the A/B test</div>
+      <div class="body">Partner with Finance and Analytics to forecast the consumer and financial impact of the change, then design the A/B test that will prove it, the same forecast-then-test sequence behind the 53% to 61% distributor repricing.</div>
+      <div class="why"><strong>Why now:</strong> a fee change is a bet; the model and the test are what make it a calculated one.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Launch the test, wire the dashboard, bring an AI agent</div>
+      <div class="body">Ship the A/B test, build the metrics and dashboard the rest of New Verticals will read, and bring the first Claude-agent pass at automating that readout, the same habit running at Applied Materials today.</div>
+      <div class="why"><strong>Why this fast:</strong> a dashboard only earns trust once it updates itself and the team can see it.</div>
+    </div>
+  </div>
+  <div class="brand">AFFORDABILITY STRATEGY PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to turn P&amp;L, order and pricing data into a fee and affordability lever that reaches millions of customers. I have already run that exact model, at a $627M scale, twice.</h2>
+  <div class="body">
+    <p>Sensata's <strong>$627M</strong> Bleeders and Leakers program, structured from 1,200 untracked opportunities, recovered <strong>$700K+</strong> in two quarters; the channel half raised distributor margins from <strong>53% to 61%</strong>, backed by competitive benchmarking across 10+ players.</p>
+    <p>PriceKeel runs that same pricing-decision pipeline today, CRM to CPQ to deal approval to an audit trail Finance can read, and Applied Materials automates the repetitive side of it with AI agents built on Claude, so more hours go to the fee lever that actually moves the P&amp;L.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhithyabhaskar.vercel.app/ref/doordash</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">AFFORDABILITY STRATEGY PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
