@@ -1,8 +1,8 @@
-# Marketing Manager, AWS Agentic AI Developer Tools - AWS (East Palo Alto)
+# Marketing Manager, AWS Agentic AI Developer Tools - AWS (San Francisco)
 
-**URL:** https://www.linkedin.com/jobs/view/4455901818
+**URL:** https://www.linkedin.com/jobs/view/4455907837
 **Company:** Amazon Web Services (AWS), legal entity stated on posting: Amazon Web Services, Inc.
-**Location(s):** East Palo Alto, CA (LinkedIn listing field); also posted for San Francisco, CA as a separate listing, same Job ID - see aws-marketing-manager-agentic-ai-developer-tools-sf.md. NOTE (verbatim from body, discrepancy flagged): "This role may sit in the following locations only: Seattle, WA, USA | San Francisco, CA, USA | Santa Clara, CA, USA Relocation offered to these locations only from within the USA only." East Palo Alto is not among the body's stated eligible locations despite being the listing's location field.
+**Location(s):** San Francisco, CA (LinkedIn listing field); also posted for East Palo Alto, CA as a separate listing, same Job ID - see aws-marketing-manager-agentic-ai-developer-tools-east-palo-alto.md; identical JD body. NOTE (verbatim from body): "This role may sit in the following locations only: Seattle, WA, USA | San Francisco, CA, USA | Santa Clara, CA, USA Relocation offered to these locations only from within the USA only." (San Francisco is within the body's stated eligible locations; the East Palo Alto sibling listing is not.)
 **Posted:** 16 hours ago (relative to fetch time 2026-10-24)
 **Seniority level (LinkedIn criteria):** Mid-Senior level
 **Employment type:** Full-time
