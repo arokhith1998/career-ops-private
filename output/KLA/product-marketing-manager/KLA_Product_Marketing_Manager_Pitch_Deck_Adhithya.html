@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>KLA Product Marketing Manager Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #0e7490; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 24pt; font-weight: 800; color: #0f172a; line-height: 1.16; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 20pt; font-weight: 800; color: #0f172a; line-height: 1.12; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #0e7490; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.7in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #cffafe 100%); }
+  .cover h1 { font-size: 22.5pt; max-width: 11.5in; }
+  .cover .sub { font-size: 13.5pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 15pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #0e7490; font-weight: 700; }
+  .cover .who { margin-top: 15pt; padding-top: 11pt; border-top: 1.5pt solid #0e7490; max-width: 9.4in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #0e7490; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #ecfeff; border-left: 3pt solid #0e7490; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #155e75; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #0e7490; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #ecfeff; border-left: 4pt solid #0e7490; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #155e75; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0e7490; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 20pt; font-weight: 800; color: #0e7490; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0e7490; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #0e7490; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #0e7490; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #cffafe 100%); }
+  .close h2 { font-size: 23pt; max-width: 10.8in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.6in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #0e7490; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the KLA Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | KLA Product Marketing Manager</div>
+  <h1>Broadband Plasma needs a product marketer who already speaks the semiconductor manufacturing market's language, maps its competitive terrain, and turns NPI launches into enablement sales reps actually use. I run that exact sequence today.</h1>
+  <div class="sub">Live semiconductor-market context plus a product marketing track record, on the same resume.</div>
+  <div class="tags">
+    <div class="tag"><strong>$2M+ first-year revenue</strong> from an end-to-end NPI launch at Sensata</div>
+    <div class="tag"><strong>+30% win rate</strong> from a sales-enablement system built for 50+ reps</div>
+    <div class="tag"><strong>10+-player benchmarking</strong> behind a 12% YoY competitive price move</div>
+    <div class="tag"><strong>Live semiconductor market sizing</strong> today at Applied Materials</div>
+    <div class="tag"><strong>AI agents built on Claude</strong> automating my own recurring market analysis</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-product-ai.vercel.app/ref/kla</div>
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>The role is not "write a launch deck." It is reading an inflection point in the semiconductor manufacturing market and turning it into positioning, content and enablement <span class="accent">before the window closes.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What that actually requires</h4>
+      <div class="line">Market analysis and competitive-landscape assessment that is current, not a quarterly snapshot, because advanced-node demand inflects faster than a positioning doc can get stale.</div>
+      <div class="line">Go-to-market plans for new product introductions built end to end: launch strategy, content, sales enablement and demand generation, not handed off piecemeal.</div>
+      <div class="line">Collateral a technical buyer actually trusts, because logic, foundry and memory customers can tell when a datasheet is overselling the physics.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run</h4>
+      <div class="line">At <b>Applied Materials</b>, I size the semiconductor manufacturing market today and build value-based pricing that tracks demand inflection points as they happen, not after.</div>
+      <div class="line">At <b>Sensata</b>, I owned go-to-market end to end for a new sensing product line, positioning through launch, closing the year at $2M+ in first-year revenue.</div>
+      <div class="line">At <b>Sensata</b> again, I built the sales-enablement decks and case studies that moved win rates 30% for 50+ reps carrying a technical sale.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">The through-line: I already read this market's inflection points for a living, and I already know how to turn that reading into a launch sales can carry.</div>
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The mandate, mapped</div>
+  <h2>What the posting asks for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Lead global product marketing strategy including market analysis, competitive landscape assessment, and customer segmentation."</div></div>
+      <div class="quote"><div class="q">"Develop and manage go-to-market plans for new product introductions (NPIs), including launch strategy, content creation, sales enablement, and demand generation."</div></div>
+      <div class="quote"><div class="q">"Conduct market research and analyze industry trends, customer needs, and competitive activities to identify new opportunities."</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>Applied Materials, live market sizing:</b> size the semiconductor manufacturing market today in partnership with Sales, Engineering and Accounts, turning field input into one view that informs pricing and strategy.</div></div>
+      <div class="proof"><div class="p"><b>Sensata, NPI go-to-market:</b> owned positioning, pricing, channel and launch for new sensing products across North America and Europe, driving $2M+ first-year revenue.</div></div>
+      <div class="proof"><div class="p"><b>Sensata, market research and competitive intel:</b> ran competitor and customer analysis across EMEA and the US, feeding a 12% YoY price realignment against 10+ competitors.</div></div>
+    </div>
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>Read the market, build the launch, then <span class="accent">put a number on it.</span></h2>
+  <div class="lede">Same pattern across a live semiconductor role and a prior NPI launch: read the market's inflection point, ship the positioning and enablement, then measure whether it moved a number the business was accountable for.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$2M+ Revenue</div>
+      <div class="lbl">End-to-End NPI Go-to-Market</div>
+      <div class="desc">Positioning, pricing, channel and launch execution owned start to finish for Sensata's new sensing products.</div>
+    </div>
+    <div class="stat">
+      <div class="n">+30% Win Rate</div>
+      <div class="lbl">Sales-Enablement System for 50+ Reps</div>
+      <div class="desc">Battlecards, decks and case studies built from scratch for a technical, multi-region sales team.</div>
+    </div>
+    <div class="stat">
+      <div class="n">Live Market Sizing</div>
+      <div class="lbl">Semiconductor Manufacturing, Today</div>
+      <div class="desc">Value-based pricing and inflection-point forecasting for process equipment at Applied Materials, in the same industry KLA sells into.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">None of these was a positioning doc that sat in a folder. Each one closed the loop from market read to a number leadership could point to.</div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month on the Broadband Plasma product marketing seat looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Read the competitive and customer landscape</div>
+      <div class="body">Build the first logic, foundry and memory customer segmentation plus a competitive map against the optical-inspection landscape, so the first positioning move is built on where BBP actually wins, not a guess.</div>
+      <div class="why"><strong>Why first:</strong> the same first move behind the EMEA/US competitive analysis at Sensata, map before you message.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Ship the first NPI launch and enablement package</div>
+      <div class="body">Build the first positioning brief, datasheet and case-study set directly with product management and sales, versioned as a reusable system for the next NPI instead of rebuilt per launch.</div>
+      <div class="why"><strong>Why now:</strong> the same build that moved Sensata's win rate 30% instead of a deck no rep opened twice.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Stand up the recurring market-intelligence loop</div>
+      <div class="body">Institute the direct customer- and market-research discipline behind my current Applied Materials work, pointed at BBP's own accounts, then automate the reporting step with an AI agent so the read ships every cycle, not once a quarter.</div>
+      <div class="why"><strong>Why this fast:</strong> the same habit that keeps my own market-sizing reporting moving today, not a plan for someday.</div>
+    </div>
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone who already reads the semiconductor manufacturing market for a living and already knows how to turn that read into a launch sales can carry. I have run both halves, with a number on each one.</h2>
+  <div class="body">
+    <p>The market half: <strong>live semiconductor-market sizing and value-based pricing</strong> at Applied Materials today, tracking the same kind of demand inflection points that drive advanced-node inspection budgets.</p>
+    <p>The launch half: <strong>$2M+ first-year revenue</strong> from an NPI go-to-market I owned end to end at Sensata, plus the sales-enablement system that moved win rates 30% for 50+ reps. I now automate my own recurring market analysis with agents built on Claude, because rebuilding the same report every cycle is time that should go into the next launch.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-product-ai.vercel.app/ref/kla</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
