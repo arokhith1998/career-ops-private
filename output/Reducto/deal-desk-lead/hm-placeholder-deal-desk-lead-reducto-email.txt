@@ -1,0 +1,23 @@
+Subject: You already automate this; I have been running it from zero
+
+Hi {Hiring Manager, Deal Desk},
+
+I do not normally message before applying, but "turning recurring exceptions into better rules, integrations and guidance" is the exact loop I run at PriceKeel.
+
+Built you a 6-slide pitch deck so the proof fits on one read.
+
+I built PriceKeel's guardrail engine that reads a live discount exception inside the deal platform and recommends a path forward, then wrote the audit trail Finance uses as evidence.
+At Sensata I owned deal approvals across a multi-$100M business, recovering $700K+ in margin in two quarters against a $627M-target pipeline of 1,200 opportunities.
+I partnered with senior executives on AP26 revenue models and customer quotes, the same non-standard commercial review this seat runs against terms and payment structures.
+At Applied Materials I run Claude AI agents against recurring analysis instead of rebuilding checks by hand.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/reducto
+
+Worth 15 minutes on how the deal desk function is taking shape? Happy to be redirected if a teammate owns this req instead.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
