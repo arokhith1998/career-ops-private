@@ -1,66 +1,57 @@
-# Sr. Product Manager, Databricks AI — Databricks
+# Sr. Product Manager, Databricks AI - Databricks
 
-**URL:** https://databricks.com/company/careers/open-positions/job?gh_jid=8136071002
-**Location:** San Francisco, California
-**Last updated:** 2026-09-02T00:10:35-04:00
-**Track:** us | visa_gate: required | **Extracted:** 2026-09-20
-**Legal entity:** Databricks, Inc.
-**Comp:** Not stated on posting
+**URL:** https://www.linkedin.com/jobs/view/4297753021
+**Company:** Databricks
+**Location:** San Francisco, CA
+**Req ID:** RDQ127R47
+**Posted:** "20 hours ago" relative timestamp as of fetch on 2026-10-24 (no absolute date on page)
+**Applicants shown:** Over 200 applicants
+**Seniority level (LinkedIn field):** Mid-Senior level
+**Employment type:** Full-time
+**Industry:** Software Development
+**Comp band stated:** Zone 1 Pay Range $156,600-$215,250 USD, plus eligibility for annual performance bonus and equity
 
-**Extraction method:** Greenhouse public boards-api JSON (`boards-api.greenhouse.io/v1/boards/databricks/jobs/8136071002?content=true`), confirmed present in the live job list (877 total open reqs).
+---
 
-## Work authorization / degree / clearance — verbatim sentences found
-No sentence in this posting mentions work authorization, visa sponsorship, citizenship, security clearance, required degree field, or graduation year.
-
-## Full Job Description (verbatim, HTML stripped)
+## Full JD text (verbatim, scraped via LinkedIn jobs-guest API)
 
 RDQ127R47
 
-At Databricks, we are passionate about enabling every organization to harness the power of data and AI. Our mission is to build the best platform for developing, deploying, and operating AI applications at scale—so customers can use intelligence to transform their businesses.
+At Databricks, we are passionate about enabling every organization to harness the power of data and AI. Our mission is to build the best platform for developing, deploying, and operating AI applications at scale-so customers can use intelligence to transform their businesses.
 
-More about the Team:
+More About The Team
 
 The Databricks AI team is at the forefront of shaping how enterprises leverage AI. Our mission is to create foundational capabilities that empower customers to develop agents and models, orchestrate complex workflows, and seamlessly integrate AI into their data and applications. The AI industry is evolving rapidly, and our work demands both first-principles thinking and the agility to adapt to these changes. We are not just building features; we are fundamentally transforming how the world builds with AI.
 
-The impact you will have:
+The Impact You Will Have
 
-- Shape the future of enterprise AI: Define and drive the vision for how Databricks helps customers harness generative AI, agents, and new workloads that don’t exist yet
-
+- Shape the future of enterprise AI: Define and drive the vision for how Databricks helps customers harness generative AI, agents, and new workloads that don't exist yet
 - Turn breakthroughs into products: Partner with world-class engineering and research teams to transform cutting-edge AI advancements into practical, trusted tools for millions of users.
-
-- Expand what’s possible for customers: Engage directly with data and AI leaders to uncover new use cases — then design products that make the once-impossible accessible and repeatable.
-
+- Expand what's possible for customers: Engage directly with data and AI leaders to uncover new use cases - then design products that make the once-impossible accessible and repeatable.
 - Be the voice of vision and execution: From concept to launch, you will inspire the roadmap, guide engineering, and tell the story of how Databricks AI is changing what customers can achieve.
-
 - Build for scale and longevity: Define the strategy and principles that will guide Databricks AI for years, even as the industry evolves at unprecedented speed.
 
-What we look for:
+What We Look For
 
 - 5+ years of product management or equivalent experience, preferably with enterprise SaaS or developer platforms.
-
 - Strong technical background in computer science, AI/ML, or related engineering fields (educational or professional).
-
 - Proven ability to partner with senior engineers and research leaders, going deep on technical concepts while maintaining clarity on customer value.
-
 - Track record of bringing products from vision to launch in fast-moving, competitive spaces.
-
-- Strong analytical skills—comfortable working with SQL, product usage data, and operational dashboards.
-
+- Strong analytical skills-comfortable working with SQL, product usage data, and operational dashboards.
 - Excellent communication and storytelling skills to engage diverse stakeholders (customers, engineering, go-to-market).
-
-- Bonus: exposure to building AI/ML or generative AI–powered products.
-
- 
+- Bonus: exposure to building AI/ML or generative AI-powered products.
 
 Pay Range Transparency
 
-Databricks is committed to fair and equitable compensation practices. The pay range(s) for this role is listed below and represents the expected salary range for non-commissionable roles or on-target earnings for commissionable roles.  Actual compensation packages are based on several factors that are unique to each candidate, including but not limited to job-related skills, depth of experience, relevant certifications and training, and specific work location. Based on the factors above, Databricks anticipates utilizing the full width of the range. The total compensation package for this position may also include eligibility for annual performance bonus, equity, and the benefits listed above. For more information regarding which range your location is in visit our page here.
+Databricks is committed to fair and equitable compensation practices. The pay range(s) for this role is listed below and represents the expected salary range for non-commissionable roles or on-target earnings for commissionable roles. Actual compensation packages are based on several factors that are unique to each candidate, including but not limited to job-related skills, depth of experience, relevant certifications and training, and specific work location. Based on the factors above, Databricks anticipates utilizing the full width of the range. The total compensation package for this position may also include eligibility for annual performance bonus, equity, and the benefits listed above. For more information regarding which range your location is in visit our page here.
 
- 
+Zone 1 Pay Range
 
-Zone 1 Pay Range$156,600—$215,250 USDAbout Databricks
+$156,600-$215,250 USD
 
-Databricks is the Data and AI company. More than 20,000 organizations worldwide — including adidas, AT&T, Bayer, Block, Mastercard, Rivian, Unilever, and 70% of the Fortune 500 — rely on the Databricks Data + AI Platform to build and scale data and AI apps, analytics and agents. Headquartered in San Francisco with 30+ offices around the globe, Databricks offers a unified platform that includes Genie, Lakebase, Agent Bricks, Lakeflow, Lakehouse, and Unity Catalog. To learn more, follow Databricks on LinkedIn, X, YouTube, and Instagram.
+About Databricks
+
+Databricks is the Data and AI company. More than 20,000 organizations worldwide - including adidas, AT&T, Bayer, Block, Mastercard, Rivian, Unilever, and 70% of the Fortune 500 - rely on the Databricks Data + AI Platform to build and scale data and AI apps, analytics and agents. Headquartered in San Francisco with 30+ offices around the globe, Databricks offers a unified platform that includes Genie, Lakebase, Agent Bricks, Lakeflow, Lakehouse, and Unity Catalog. To learn more, follow Databricks on LinkedIn, X, YouTube, and Instagram.
 
 Benefits
 
@@ -73,3 +64,25 @@ At Databricks, we are committed to fostering a diverse and inclusive culture whe
 Compliance
 
 If access to export-controlled technology or source code is required for performance of job duties, it is within Employer's discretion whether to apply for a U.S. government license for such positions, and Employer may decline to proceed with an applicant on this basis alone.
+
+---
+
+## Work authorization / sponsorship / citizenship / clearance / degree / graduation year
+
+Verbatim sentences found:
+
+- "Strong technical background in computer science, AI/ML, or related
+  engineering fields (educational or professional)." (degree-adjacent
+  requirement; not a strict degree mandate - "educational or professional"
+  background accepted)
+- "If access to export-controlled technology or source code is required for
+  performance of job duties, it is within Employer's discretion whether to
+  apply for a U.S. government license for such positions, and Employer may
+  decline to proceed with an applicant on this basis alone." (conditional
+  export-control clause; does not state this role itself requires export
+  control access)
+
+No graduation year, citizenship, or security-clearance language appears.
+
+## Experience requirement note
+"5+ years of product management or equivalent experience" (stated minimum: 5+ years).
