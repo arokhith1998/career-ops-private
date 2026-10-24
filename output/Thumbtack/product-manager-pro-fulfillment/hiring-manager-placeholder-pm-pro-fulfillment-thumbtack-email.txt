@@ -1,0 +1,18 @@
+Subject: Pro Fulfillment: the deep-learnings-as-a-metric line
+
+Hi {Hiring Manager, Pro Fulfillment},
+
+Your posting treats deep learnings as a core metric, not a soft add-on next to the usual dashboard numbers, which is a harder bar to hire for than most PM reqs set, and it is why I am writing before I apply instead of after.
+
+I shipped SwipeHire, a two-sided AI job-matching product, from PRD to MVP, running 8+ A/B tests and 12+ user interviews to decide what to build or cut, and activation moved 25%. At Sensata I owned the roadmap for a 100+ feature backlog across 3 regions, and 30+ OEM and distributor interviews told me where the product was failing users before the backlog did, a read that lifted CSAT 22%. I now run forecasting and pricing models at Applied Materials with Claude AI agents handling the repetitive analysis, so the judgment stays mine, which is close to the discerning-judgment-of-AI line in your posting.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/thumbtack
+
+If Pro Fulfillment is the kind of ownership you are hiring for, I would value 15 minutes.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
