@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>OpenAI Pricing Operations Lead Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #1a56db; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 27pt; font-weight: 800; color: #0f172a; line-height: 1.15; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 19pt; font-weight: 800; color: #0f172a; line-height: 1.16; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #1a56db; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.8in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbeafe 100%); }
+  .cover h1 { font-size: 20pt; max-width: 11.3in; }
+  .cover .sub { font-size: 12pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; max-width: 10.9in; }
+  .cover .tags { margin-top: 15pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.6in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9pt; font-weight: 500; }
+  .tag strong { color: #1a56db; font-weight: 700; }
+  .cover .who { margin-top: 15pt; padding-top: 9pt; border-top: 1.5pt solid #1a56db; max-width: 9.6in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #1a56db; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #eff6ff; border-left: 3pt solid #1a56db; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #1e3a8a; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #1a56db; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.4pt; color: #334155; line-height: 1.46; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 13pt; background: #eff6ff; border-left: 4pt solid #1a56db; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #1e3a8a; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 16pt; font-weight: 800; color: #1a56db; line-height: 1.15; margin-bottom: 4pt; letter-spacing: -0.5pt; }
+  .stat .lbl { font-size: 9.3pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.6pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #1a56db; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.3pt; font-weight: 800; color: #0f172a; line-height: 1.18; margin-bottom: 7pt; }
+  .card .body { font-size: 8.8pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.3pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #1a56db; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbeafe 100%); }
+  .close h2 { font-size: 20pt; max-width: 10.9in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.9in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #1a56db; font-weight: 700; }
+  .close .contact { margin-top: 15pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the OpenAI Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | OpenAI Pricing Operations Lead</div>
+  <h1>A pricing decision is only as strong as the operating backbone that carries it from approval to launch. I have already built that backbone twice, once inside a multi-$100M BU and once from a blank system.</h1>
+  <div class="sub">Built from the CRM, CPQ, and deal-approval stack running PriceKeel today, and the Bleeders and Leakers requirement-intake program that recovered $700K+ in margin in two quarters at Sensata.</div>
+  <div class="tags">
+    <div class="tag"><strong>CRM, CPQ &amp; Deal Approvals</strong> - set up and run end to end at PriceKeel</div>
+    <div class="tag"><strong>Finance Audit Trail</strong> - evidence-backed review for every pricing exception</div>
+    <div class="tag"><strong>$700K+ Recovered</strong> - Sensata Bleeders &amp; Leakers requirement-intake program</div>
+    <div class="tag"><strong>1,200 Opportunities Tracked</strong> - against a $627M target, with sign-off and issue tracking</div>
+    <div class="tag"><strong>Claude AI Agents</strong> - automating recurring pricing analysis today</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-pricing-ai.vercel.app/ref/openai</div>
+  </div>
+  <div class="brand">OPENAI PRICING OPS PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>Translating pricing strategy into billing, quoting, and revenue-system requirements is a program-management and systems habit. <span class="accent">It is not a reporting function, and it does not build itself.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What that actually requires</h4>
+      <div class="line">Turning approved pricing and packaging decisions into business requirements Product, Engineering, Billing, Finance, and GTM can all build against without re-litigating intent.</div>
+      <div class="line">Managing dependencies, scope tradeoffs, and testing needs across those same teams so a launch date holds.</div>
+      <div class="line">Standing up lightweight governance (documentation, sign-offs, issue tracking) that scales as pricing complexity grows, instead of a new exception process per launch.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already built at that layer</h4>
+      <div class="line">Set up and run <b>PriceKeel's CRM, CPQ configuration, and deal approvals</b> end to end, with an audit trail Finance can check line by line for every exception.</div>
+      <div class="line">Led <b>Sensata's Bleeders and Leakers program</b>: requirement intake through sign-off, recovering $700K+ in margin in two quarters.</div>
+      <div class="line">Built the <b>FY2026 tracking dashboard</b> that prioritized 1,200 pricing opportunities against a $627M target with built-in issue tracking across 3 regions.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">The through-line: requirement intake, governance, and launch readiness are not a gap to grow into here. They are the system I already run.</div>
+  </div>
+  <div class="brand">OPENAI PRICING OPS PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The mandate, mapped</div>
+  <h2>What the role covers, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">Translate pricing strategy, policies, and launch decisions into clear business requirements for billing, quoting, revenue, and related systems teams.</div></div>
+      <div class="quote"><div class="q">Own pricing-related requirement intake and prioritization, ensuring requests are clear, well managed, and tied to business needs.</div></div>
+      <div class="quote"><div class="q">Identify recurring friction in pricing execution and drive improvements that reduce ambiguity, delays, and rework.</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>PriceKeel:</b> built the CRM, CPQ configuration, deal approvals, and audit trail from a blank system, the literal operating backbone for pricing implementation.</div></div>
+      <div class="proof"><div class="p"><b>Sensata Bleeders &amp; Leakers:</b> 1,200 pricing opportunities prioritized against a $627M target, with sign-off and issue tracking built in.</div></div>
+      <div class="proof"><div class="p"><b>Sensata promotion:</b> rebuilt pricing-execution handoffs end to end, promoted from Product &amp; Growth Marketing to Pricing Lead in 10 months.</div></div>
+    </div>
+  </div>
+  <div class="brand">OPENAI PRICING OPS PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The closed-loop proof, in depth</div>
+  <h2>PriceKeel: the operating backbone built <span class="accent">from the exception up, not handed a finished policy.</span></h2>
+  <div class="lede">Built as the decision-integrity layer that reads a live discount exception inside the deal platform, the same intake-to-sign-off loop a scalable pricing-operations function runs on.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">CRM, CPQ &amp; Deal Approvals</div>
+      <div class="lbl">Set Up and Run End to End</div>
+      <div class="desc">The system of record for every pricing decision from approval through launch, built without a finished system to inherit.</div>
+    </div>
+    <div class="stat">
+      <div class="n">Finance Audit Trail</div>
+      <div class="lbl">Evidence-Backed Exception Review</div>
+      <div class="desc">Records the human pricing decision with evidence Finance can check line by line, replacing legacy CPQ reporting.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$700K+ Recovered</div>
+      <div class="lbl">Sensata Bleeders &amp; Leakers, 2 Quarters</div>
+      <div class="desc">The requirement-intake and sign-off discipline the guardrail engine now automates was built and run by hand first.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">The same discipline carries into Applied Materials, where I align Sales, Engineering, and Accounts into one pricing and forecasting framework and automate the recurring analysis with Claude AI agents today.</div>
+  <div class="brand">OPENAI PRICING OPS PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month inside OpenAI's Pricing &amp; Monetization operations seat would look like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Map the current pricing-to-billing handoff</div>
+      <div class="body">Trace where a pricing decision today loses clarity on its way to a billing or quoting system requirement, the same first step that found $700K in Sensata's Bleeders &amp; Leakers program.</div>
+      <div class="why"><strong>Why first:</strong> a governance process built before the handoff is mapped fixes the wrong friction point.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Stand up lightweight governance</div>
+      <div class="body">Put documentation, sign-offs, and issue tracking around requirement intake, the same discipline that prioritized 1,200 pricing opportunities against a $627M target at Sensata.</div>
+      <div class="why"><strong>Why now:</strong> a requirement without a sign-off owner gets reworked, not shipped.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Turn the launch backlog into one prioritized queue</div>
+      <div class="body">Translate pending SKU, packaging, and billing-configuration requests into one ranked requirement queue instead of parallel exception threads, the same framework discipline behind PriceKeel's guardrail engine.</div>
+      <div class="why"><strong>Why this fast:</strong> a queue built once scales to the next launch without a rebuild.</div>
+    </div>
+  </div>
+  <div class="brand">OPENAI PRICING OPS PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>Pricing operations here needs someone who has already carried a decision from approval through a production system, not just documented the decision. I have.</h2>
+  <div class="body">
+    <p>The core proof is Sensata: the Bleeders and Leakers program recovered <strong>$700K+ in margin in two quarters</strong> by running requirement intake and sign-off end to end across 1,200 pricing opportunities and a $627M target, the same operational discipline this role scales across billing, quoting, and revenue systems.</p>
+    <p>What is harder to find is someone who has also built the system directly: PriceKeel's CRM, CPQ configuration, deal approvals, and Finance-auditable audit trail, built from a blank system rather than inherited. I bring that same build-and-govern habit to pricing operations here, and I keep building with AI tools today, automating recurring analysis with <strong>Claude agents</strong> at Applied Materials.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-pricing-ai.vercel.app/ref/openai</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">OPENAI PRICING OPS PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
