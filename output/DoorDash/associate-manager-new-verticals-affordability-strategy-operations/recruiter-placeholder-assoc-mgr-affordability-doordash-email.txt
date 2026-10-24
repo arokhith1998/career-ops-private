@@ -2,11 +2,11 @@ Subject: Forecasting fee changes before they ship
 
 Hi {Recruiter, New Verticals Affordability},
 
-I don't normally write in before applying, but this req asks for someone who partners with Finance to forecast a fee change, then tracks actuals against that projection, and that loop is exactly how I already work.
+I don't normally write in before applying, but this req asks for someone who partners with Finance to forecast a fee change and track actuals once it is live, the loop I already run.
 
 At Sensata I built the Bleeders and Leakers program from scratch: 1,200 opportunities against a $627M target, $433M in margin gaps surfaced, $700K+ recovered in two quarters.
-I also repriced distributor margins 53% to 61% while adding 12% YoY revenue, backed by competitive benchmarking against 10+ players.
-At Applied Materials I automate the repetitive half of that forecasting work with Claude agents, the AI-forward approach this role calls for.
+I also repriced distributor margins 53% to 61% while adding 12% YoY revenue, backed by benchmarking against 10+ players.
+At Applied Materials I automate the repetitive half of that forecasting work with Claude agents.
 
 Built a 6-slide pitch deck mapping this background to the req's own language.
 
