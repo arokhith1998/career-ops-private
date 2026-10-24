@@ -1,8 +1,8 @@
-# Evaluation: Amazon Web Services (AWS) — Portfolio Marketing Manager, Frontier AI Engineering and Services
+# Evaluation: Amazon Web Services (AWS) - Portfolio Marketing Manager, Frontier AI Engineering and Services
 
 **Date:** 2026-10-24
 **URL:** https://www.linkedin.com/jobs/view/4465354411
-**Via:** — (direct)
+**Via:** - (direct)
 **Archetype:** Product / Strategic Marketing
 **Score:** 3.8/5
 **Legitimacy:** Proceed with Caution
@@ -166,10 +166,10 @@ Overlaps the candidate's stated target range ($90K-130K) well, though the low en
 
 | Signal | Status |
 |--------|--------|
-| Posting legitimacy | ⚠️ Proceed with Caution — 2026 Amazon-wide layoffs named marketing among affected functions |
+| Posting legitimacy | ⚠️ Proceed with Caution - 2026 Amazon-wide layoffs named marketing among affected functions |
 | Employment classification | ✅ clear |
-| Culture screen | ⚠️ caution — 2026 Amazon layoffs (~16,000+ roles) named store tech, sales, and marketing among affected teams |
-| Interview red flags | — no interview sessions yet |
+| Culture screen | ⚠️ caution - 2026 Amazon layoffs (~16,000+ roles) named store tech, sales, and marketing among affected teams |
+| Interview red flags | - no interview sessions yet |
 | AI claims vs. infrastructure | ✅ consistent |
 
 ## Cover Letter Draft

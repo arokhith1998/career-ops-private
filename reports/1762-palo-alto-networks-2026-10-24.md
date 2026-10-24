@@ -1,8 +1,8 @@
-# Evaluation: Palo Alto Networks — Senior Product Manager (Prisma AIRS, AI Runtime Security API)
+# Evaluation: Palo Alto Networks - Senior Product Manager (Prisma AIRS, AI Runtime Security API)
 
 **Date:** 2026-10-24
 **URL:** https://www.linkedin.com/jobs/view/4453487253
-**Via:** — (direct)
+**Via:** - (direct)
 **Archetype:** Product Manager (PM / Growth PM)
 **Score:** 2.1/5
 **Legitimacy:** High Confidence
@@ -158,7 +158,7 @@ Given the hard-stop finding, a full 6-10 story bank is not built; two honest tal
 | Posting legitimacy | ✅ High Confidence |
 | Employment classification | ✅ clear |
 | Culture screen | ✅ pass |
-| Interview red flags | — no interview sessions yet |
+| Interview red flags | - no interview sessions yet |
 | AI claims vs. infrastructure | ✅ consistent |
 
 ## Cover Letter Draft
