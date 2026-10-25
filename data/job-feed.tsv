@@ -1,37 +1,50 @@
 source	sources	company	title	location	url	posted_ts	age_days	sponsorship_hint	salary	category
-simplify	simplify	Jerry	Product Manager-in-Training	Palo Alto, CA	https://jobs.ashbyhq.com/jerry.ai/827b77fc-8777-4908-bcf9-b7a8c19c306d/application?embed=true	1792713600	1.46			Product
-zapply-ng	zapply-ng	Danaher	Associate Product Manager - Strategic Programs & Partnerships	USA - Remote	https://zapply.jobs/l/d/workday-danaher-danaherjobs-R1321073?s=gh-new-grad-jobs-2027	1792667033	2.00			New Grad
-board:greenhouse	board:greenhouse	Glean	Product Manager, AI Quality	San Francisco Bay Area	https://job-boards.greenhouse.io/gleanwork/jobs/4525519005	2026-10-23	1.5			
-board:ashby	board:ashby	Plaid	Product Marketing Manager - Credit	San Francisco HQ	https://jobs.ashbyhq.com/plaid/5b5ff8c1-f0c2-41b6-958a-dad63a71d784	2026-10-23	1.5			
-board:greenhouse	board:greenhouse	TaskRabbit	Senior Product Manager	San Francisco, California, United States	https://job-boards.greenhouse.io/taskrabbit/jobs/8301199	2026-10-23	1.5			
-linkedin	linkedin	Voice Arena	Chief of Staff, Voice Arena	Gurugram, Haryana, India	https://www.linkedin.com/jobs/view/4482612762	2026-10-24	0.46			
-linkedin	linkedin	Pluto	Founder's Office - Operations	Gurugram, Haryana, India	https://www.linkedin.com/jobs/view/4481682090	2026-10-23	1.46			
-linkedin	linkedin	INTIGLY	Chief of Staff ( Creative Industry/Agency experience is must)	Bengaluru, Karnataka, India	https://www.linkedin.com/jobs/view/4482399685	2026-10-24	0.46			
-linkedin	linkedin	Shooting Stars Foundation	Founders Office Senior Associate	India	https://www.linkedin.com/jobs/view/4481953833	2026-10-23	1.46			
-linkedin	linkedin	Zylu	Head of Growth (B2B)	Bengaluru South, Karnataka, India	https://www.linkedin.com/jobs/view/4482601588	2026-10-24	0.46			
-linkedin	linkedin	Effora | Beauty & Wellness	Founder’s Office: Growth Generalist (0 to 1, Execution)	Noida, Uttar Pradesh, India	https://www.linkedin.com/jobs/view/4481922809	2026-10-23	1.46			
-linkedin	linkedin	ZorSpeaker	Founder's Office Associate	Jaipur, Rajasthan, India	https://www.linkedin.com/jobs/view/4482370684	2026-10-24	0.46			
-linkedin	linkedin	GoKwik	Entrepreneur in Residence - Growth	Bengaluru, Karnataka, India	https://www.linkedin.com/jobs/view/4481686542	2026-10-23	1.46			
-linkedin	linkedin	Fast Code AI	Founders Office Analyst	Bengaluru, Karnataka, India	https://www.linkedin.com/jobs/view/4482347308	2026-10-24	0.46			
-linkedin	linkedin	Outset	Product Marketing Manager	San Francisco, CA	https://www.linkedin.com/jobs/view/4463933329	2026-10-23	1.46			
-linkedin	linkedin	Plaid	Product Marketing Manager - Credit	San Francisco Bay Area	https://www.linkedin.com/jobs/view/4483308526	2026-10-24	0.46			
-linkedin	linkedin	KLA	Product Marketing Manager	Milpitas, CA	https://www.linkedin.com/jobs/view/4481027267	2026-10-24	0.46			
-linkedin	linkedin	Meta	Consumer Product Marketing Manager, AI	Menlo Park, CA	https://www.linkedin.com/jobs/view/4463416862	2026-10-23	1.46			
-linkedin	linkedin	Verkada	Product Marketing Manager, Workplace	San Mateo, CA	https://www.linkedin.com/jobs/view/4465832364	2026-10-23	1.46			
-linkedin	linkedin	Sol	Product Marketing Manager	San Francisco, CA	https://www.linkedin.com/jobs/view/4483151069	2026-10-23	1.46			
-linkedin	linkedin	Amazon	Sr. Marketing Manager, Bee	San Francisco, CA	https://www.linkedin.com/jobs/view/4455912127	2026-10-23	1.46			
-linkedin	linkedin	Suno	Senior / Staff Product Marketing Manager, New Bets	San Francisco, CA	https://www.linkedin.com/jobs/view/4480691876	2026-10-23	1.46			
-linkedin	linkedin	Amazon Music	Sr. Product Marketing Manager, Experimentation and CX, Content Marketing	San Francisco, CA	https://www.linkedin.com/jobs/view/4455911556	2026-10-23	1.46			
-linkedin	linkedin	Molex	Technical Marketing Manager	Fremont, CA	https://www.linkedin.com/jobs/view/4408891205	2026-10-23	1.46			
-linkedin	linkedin	LinkedIn	Senior Integrated Marketing Manager II, Readiness & Activation Strategy	San Francisco, CA	https://www.linkedin.com/jobs/view/4457021305	2026-10-24	0.46			
-linkedin	linkedin	Amphenol	Senior Product Manager	Fremont, CA	https://www.linkedin.com/jobs/view/4456959333	2026-10-23	1.46			
-linkedin	linkedin	Advanced Solutions International, Inc.	Product Marketing Manager	United States	https://www.linkedin.com/jobs/view/4481960984	2026-10-23	1.46			
-linkedin	linkedin	SalaryGuide	Product Marketing Manager	United States	https://www.linkedin.com/jobs/view/4482885341	2026-10-23	1.46			
-linkedin	linkedin	MadCap Software, Inc.	Product Marketing Manager	United States	https://www.linkedin.com/jobs/view/4481673915	2026-10-23	1.46			
-linkedin	linkedin	Imprivata	Product Marketing Manager	United States	https://www.linkedin.com/jobs/view/4444512703	2026-10-23	1.46			
-linkedin	linkedin	Scale AI	Enterprise Pricing Manager	San Francisco Bay Area	https://www.linkedin.com/jobs/view/4456416439	2026-10-23	1.46			
-linkedin	linkedin	Apollo.io	Senior Manager, Finance & Strategy - Go-To-Market	San Francisco, CA	https://www.linkedin.com/jobs/view/4474521927	2026-10-23	1.46			
-linkedin	linkedin	Uber	Manager, Acquisition Strategy & Operations	San Francisco, CA	https://www.linkedin.com/jobs/view/4474565589	2026-10-23	1.46			
-linkedin	linkedin	Google	Product Strategy and Operations Lead, AI and Infrastructure	Sunnyvale, CA	https://www.linkedin.com/jobs/view/4427711296	2026-10-23	1.46			
-websearch-agent	websearch-agent	Jobgether (partner-managed client)	Competitive Intelligence Manager	Remote, US	https://jobs.lever.co/jobgether/131d6906-fd19-4835-9e68-e626d7ea57b9					
-websearch-agent	websearch-agent	OpenAI	Competitive Intelligence Lead	San Francisco, CA	https://openai.com/careers/competitive-intelligence-lead-san-francisco/					
+zapply-ng	zapply-ng	Danaher	Associate Product Manager - Strategic Programs & Partnerships	USA - Remote	https://zapply.jobs/l/d/workday-danaher-danaherjobs-R1321073?s=gh-new-grad-jobs-2027	1792649632	3.00			New Grad
+board:greenhouse	board:greenhouse	Glean	Product Manager, AI Quality	San Francisco Bay Area	https://job-boards.greenhouse.io/gleanwork/jobs/4525519005	2026-10-23	2.3			
+board:ashby	board:ashby	Plaid	Product Marketing Manager - Credit	San Francisco HQ	https://jobs.ashbyhq.com/plaid/5b5ff8c1-f0c2-41b6-958a-dad63a71d784	2026-10-23	2.3			
+linkedin	linkedin	Scale AI	Revenue Operations Manager	San Francisco Bay Area	https://www.linkedin.com/jobs/view/4475001423	2026-10-24	1.26			
+linkedin	linkedin	OpenAI	GTM Strategy & Operations, Professional Services	San Francisco, CA	https://www.linkedin.com/jobs/view/4444514838	2026-10-24	1.26			
+linkedin	linkedin	Instawork	Business Operations Associate, AI & Automation	San Francisco, CA	https://www.linkedin.com/jobs/view/4474780919	2026-10-24	1.26			
+linkedin	linkedin	Amazon	Deal and Contract Ops Manager, eero Business Operations	San Francisco, CA	https://www.linkedin.com/jobs/view/4475057397	2026-10-24	1.26			
+linkedin	linkedin	DICK'S Sporting Goods	Senior Manager, Monetization- Tooling & Operation (REMOTE)	United States	https://www.linkedin.com/jobs/view/4473419220	2026-10-24	1.26			
+linkedin	linkedin	Factory	Product Manager	San Francisco, CA	https://www.linkedin.com/jobs/view/4475078595	2026-10-24	1.26			
+linkedin	linkedin	Robinhood	Senior Product Manager, Crypto Wallet	Menlo Park, CA	https://www.linkedin.com/jobs/view/4445060381	2026-10-24	1.26			
+linkedin	linkedin	Benchling	Product Manager, Growth, Scientific AI Models	San Francisco, CA	https://www.linkedin.com/jobs/view/4437895350	2026-10-24	1.26			
+linkedin	linkedin	NVIDIA	Senior Product Manager, AI Software Defined Networking	Santa Clara, CA	https://www.linkedin.com/jobs/view/4456072319	2026-10-24	1.26			
+linkedin	linkedin	BioRender	Senior Product Manager, Growth	San Francisco, CA	https://www.linkedin.com/jobs/view/4483340769	2026-10-24	1.26			
+linkedin	linkedin	NetSuite	Senior Product Manager, NetSuite AI-Enhanced Administration & Agent Management	Redwood City, CA	https://www.linkedin.com/jobs/view/4473187730	2026-10-24	1.26			
+linkedin	linkedin	Everpure	Senior Product Manager – AI & Workflow Automation, Pure1	Santa Clara, CA	https://www.linkedin.com/jobs/view/4436850192	2026-10-24	1.26			
+linkedin	linkedin	Roku	Senior Product Manager, Advertising – Supply Integrations	San Jose, CA	https://www.linkedin.com/jobs/view/4438285706	2026-10-24	1.26			
+linkedin	linkedin	TikTok	Senior Product Manager, Lead Ads (Mandarin Speaker)	San Jose, CA	https://www.linkedin.com/jobs/view/4482641974	2026-10-24	1.26			
+linkedin	linkedin	Procore Technologies	Senior Product Manager, Domain Team Enablement	San Francisco, CA	https://www.linkedin.com/jobs/view/4446881241	2026-10-24	1.26			
+linkedin	linkedin	General Motors	Staff Product Manager - AV Capabilities	Sunnyvale, CA	https://www.linkedin.com/jobs/view/4389263219	2026-10-24	1.26			
+linkedin	linkedin	Ema	Product Manager	San Francisco Bay Area	https://www.linkedin.com/jobs/view/4473196443	2026-10-24	1.26			
+linkedin	linkedin	Intuitive	Staff Product Manager - New Robotic Platform	Sunnyvale, CA	https://www.linkedin.com/jobs/view/4456758878	2026-10-24	1.26			
+linkedin	linkedin	Rubrik	Senior IT Product Manager, CPQ	Palo Alto, CA	https://www.linkedin.com/jobs/view/4456773417	2026-10-24	1.26			
+linkedin	linkedin	The Trade Desk	Staff Product Manager, Generalist	San Francisco, CA	https://www.linkedin.com/jobs/view/4409300177	2026-10-24	1.26			
+linkedin	linkedin	AMD	Product Marketing Manager - Cloud Infrastructure	Santa Clara, CA	https://www.linkedin.com/jobs/view/4473409205	2026-10-24	1.26			
+linkedin	linkedin	MKS Inc.	Product Marketing Manager	Milpitas, CA	https://www.linkedin.com/jobs/view/4464220912	2026-10-24	1.26			
+linkedin	linkedin	Oblq	Sr Product Marketing Mgr., Go To Market	San Francisco Bay Area	https://www.linkedin.com/jobs/view/4482654861	2026-10-24	1.26			
+linkedin	linkedin	Cisco	Technical Product Marketing Manager, Cisco Wireless	San Jose, CA	https://www.linkedin.com/jobs/view/4472479737	2026-10-24	1.26			
+linkedin	linkedin	KLA	Senior Product Marketing Manager	Milpitas, CA	https://www.linkedin.com/jobs/view/4473193214	2026-10-24	1.26			
+linkedin	linkedin	Meta	Competitive Intelligence Program Manager	Menlo Park, CA	https://www.linkedin.com/jobs/view/4464274892	2026-10-24	1.26			
+linkedin	linkedin	Molex	Global Product Manager	Fremont, CA	https://www.linkedin.com/jobs/view/4473197394	2026-10-24	1.26			
+linkedin	linkedin	Addepar	Growth Marketing Manager - SFOs	Mountain View, CA	https://www.linkedin.com/jobs/view/4430147909	2026-10-24	1.26			
+linkedin	linkedin	Notion	Lifecycle Marketing Manager, Campaign Strategy & Execution	San Francisco, CA	https://www.linkedin.com/jobs/view/4475041148	2026-10-24	1.26			
+linkedin	linkedin	Gusto	Senior Performance Marketing Manager, Paid Social	Burlingame, CA	https://www.linkedin.com/jobs/view/4465859950	2026-10-24	1.26			
+linkedin	linkedin	Amazon Web Services (AWS)	Sr. Partner Marketing Manager, AI Partner Marketing	San Francisco, CA	https://www.linkedin.com/jobs/view/4475004289	2026-10-24	1.26			
+linkedin	linkedin	Meta	Developer Marketing Manager	San Francisco, CA	https://www.linkedin.com/jobs/view/4481027987	2026-10-24	1.26			
+linkedin	linkedin	Box	Sales Strategy and Operations Manager	Redwood City, CA	https://www.linkedin.com/jobs/view/4465882037	2026-10-24	1.26			
+linkedin	linkedin	Turo	Lead Product Manager, Guest – Discovery & Search	San Francisco, CA	https://www.linkedin.com/jobs/view/4435332613	2026-10-24	1.26			
+linkedin	linkedin	AMD	ISV Partner Marketing Manager	Santa Clara, CA	https://www.linkedin.com/jobs/view/4434575610	2026-10-24	1.26			
+linkedin	linkedin	Braze	Senior Partner Marketing Manager	San Francisco, CA	https://www.linkedin.com/jobs/view/4456772317	2026-10-24	1.26			
+linkedin	linkedin	Airwallex	Senior Product Marketing Manager, Payments	San Francisco, CA	https://www.linkedin.com/jobs/view/4445062503	2026-10-24	1.26			
+linkedin	linkedin	Five9	Senior Audience Marketing Manager	United States	https://www.linkedin.com/jobs/view/4473824806	2026-10-24	1.26			
+linkedin	linkedin	NinjaOne	Latin America Marketing Manager	Greater Tampa Bay Area	https://www.linkedin.com/jobs/view/4457046008	2026-10-24	1.26			
+linkedin	linkedin	Adyen	Commercial Counsel, Deal Desk	San Francisco, CA	https://www.linkedin.com/jobs/view/4465186291	2026-10-24	1.26			
+linkedin	linkedin	Husch Blackwell	Pricing Analyst	Oakland, CA	https://www.linkedin.com/jobs/view/4473827663	2026-10-24	1.26			
+linkedin	linkedin	Notion	Chief of Staff, Sales	San Francisco, CA	https://www.linkedin.com/jobs/view/4465882021	2026-10-24	1.26			
+linkedin	linkedin	RemoteHunter	Deal Desk Manager	United States	https://www.linkedin.com/jobs/view/4482641775	2026-10-24	1.26			
+linkedin	linkedin	Voice Arena	Chief of Staff, Voice Arena	Gurugram, Haryana, India	https://www.linkedin.com/jobs/view/4482612762	2026-10-24	1.26			
+linkedin	linkedin	EXL	Senior Manager - Chief of staff office to PHP geo and HLS ops head	Noida, Uttar Pradesh, India	https://www.linkedin.com/jobs/view/4446726246	2026-10-24	1.26			
+linkedin	linkedin	HouseEazy	Founders Office Associate	Pune District, Maharashtra, India	https://www.linkedin.com/jobs/view/4482664956	2026-10-25	0.26			
