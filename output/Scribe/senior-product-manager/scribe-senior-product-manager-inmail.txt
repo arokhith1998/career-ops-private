@@ -1,0 +1,20 @@
+Subject: Thriving in autonomy on a problem that is still zero-to-one
+
+Hi {Recruiter, Scribe},
+
+I do not usually send a note before applying, but the ask to thrive in autonomy, defining the roadmap and defending the trade-offs rather than just shipping what is handed to you, is the version of this job I already do, not the stretch part.
+
+I shipped SwipeHire zero-to-one on Python, OpenAI's API and React, auto-generating a candidate's resume straight from their raw history instead of asking them to write one.
+I run a 100+ feature backlog for sensor solutions at Sensata and turned 30+ OEM and distributor interviews into a fix that lifted CSAT 22%.
+At Applied Materials I build and run analysis agents on Claude, the same AI-tinkering habit the posting is looking for.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/scribe
+
+Worth 15 minutes on the Autocapture req?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

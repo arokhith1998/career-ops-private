@@ -1,0 +1,1 @@
+Hi, I shipped SwipeHire zero-to-one (Python, OpenAI API, React), auto-generating resumes from raw history instead of asking users to write them, close to Autocapture's own bet. I own the roadmap at Sensata with Engineering. Portfolio: adhi-product-ai.vercel.app/ref/scribe Open to connecting?

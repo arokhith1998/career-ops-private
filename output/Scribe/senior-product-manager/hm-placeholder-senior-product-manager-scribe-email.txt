@@ -1,0 +1,20 @@
+Subject: The feature-factory warning in your posting is the part I agree with most
+
+Hi {Hiring Manager, Product},
+
+I do not normally reach out before applying, but the line asking PMs to measure the impact of every release and leave the feature factory mindset at the door is a discipline I already run, not a mindset shift I would need coaching into.
+
+I shipped SwipeHire zero-to-one on Python, OpenAI's API and React: it captured a candidate's raw history and turned it straight into a tailored resume, the same capture-to-record bet Autocapture is building toward, just at a different scale.
+I own the roadmap and a 100+ feature backlog for sensor solutions at Sensata, running 30+ structured interviews with OEMs and distributors before committing to a fix, work that cut time-to-market 20% and lifted CSAT 22%.
+At Applied Materials I build and run analysis agents on Claude every week, the same tinkering habit the posting wants in a PM who is developing real taste for AI.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/scribe
+
+Worth 15 minutes on the Autocapture roadmap? Happy to be redirected if this is not your req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

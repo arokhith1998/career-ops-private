@@ -1,0 +1,20 @@
+Subject: Autocapture's bet is one I already shipped at smaller scale
+
+Hi {Recruiter, Scribe},
+
+I do not normally reach out before applying, but the line about Scribe understanding work as it happens, so nobody has to remember to record it, is close to a problem I already built.
+
+I shipped SwipeHire zero-to-one on Python, OpenAI's API and React: it captured a candidate's raw history and auto-generated a tailored resume instead of asking them to write one, the same capture-to-record bet Autocapture is making at a larger scale.
+I own the product roadmap and a 100+ feature backlog for sensor solutions at Sensata, partnering with Engineering in Agile across 3 regions.
+At Applied Materials I automate repetitive analysis with agents built on Claude, the habit behind actively experimenting with AI tools the posting asks for.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/scribe
+
+Worth 15 minutes to see if this is your req? Happy to be pointed elsewhere if not.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
