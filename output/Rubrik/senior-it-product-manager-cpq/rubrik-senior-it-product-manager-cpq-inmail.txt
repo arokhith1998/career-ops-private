@@ -1,0 +1,20 @@
+Subject: A human-in-the-loop CPQ engine I already run
+
+Hi {Hiring Manager, CPQ Product},
+
+I don't normally reach out before applying, but a req asking for a CPQ rules engine to move toward AI agents with human-in-the-loop checkpoints across multi-product and partner channels is the exact machine I already built, not a new one to learn.
+
+At PriceKeel, the company I'm building now, I designed that guardrail engine myself: it recommends a discount guardrail from closed-won and closed-lost deals, with every human override logged for Finance. At Sensata I raised distributor and channel-partner margins 53% to 61% and ran a 100+ feature product roadmap with Engineering in Agile, accelerating releases 25%.
+
+Built a 6-slide pitch deck so the proof fits on one read.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/rubrik
+
+Worth 15 minutes if this is your req?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

@@ -1,0 +1,23 @@
+Subject: Your CPQ rules engine and the machine I already run
+
+Hi {Hiring Manager, CPQ Product},
+
+I don't normally reach out before applying, but a req that asks for a rules-based CPQ engine to move toward AI agents with human-in-the-loop checkpoints, across multi-product and partner channels, is the system I already run.
+
+Built you a 6-slide pitch deck so the proof fits on one read.
+
+A few points that map to the req:
+- At PriceKeel, the company I'm building now, I designed the guardrail engine myself: it recommends a discount guardrail learned from closed-won and closed-lost deals, with every human override logged in an audit trail Finance can check.
+- At Sensata I raised distributor and channel-partner margins from 53% to 61% in under two quarters, negotiating multimillion-dollar quotes with senior executives.
+- Also at Sensata, I owned a 100+ feature product roadmap with Engineering in Agile across 3 regions, accelerating releases 25%.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/rubrik
+
+Worth 15 minutes on how the rules-engine rebuild is being sequenced, no worries if this isn't your req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
