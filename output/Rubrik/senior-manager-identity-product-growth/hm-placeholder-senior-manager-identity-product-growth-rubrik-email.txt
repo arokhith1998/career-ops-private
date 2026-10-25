@@ -1,0 +1,21 @@
+Subject: Scaling one retention motion from SMB to Fortune 500
+
+Hi {Hiring Manager, Product Growth},
+
+I don't normally reach out before applying, but a role that has to make one retention motion work for a fast-growing SMB account and a Fortune 500 account at the same time is the segmentation problem I have been solving since Pixis, not a new one to learn on the job.
+
+A few points that map to the req:
+- At Pixis I cut client churn 50% through proactive account strategy and vertical playbooks, then fed voice-of-customer insights straight back to product.
+- At Sensata I turned a $627M pricing target and 1,200 tracked opportunities into $700K+ of recovered margin in two quarters, the same translation from model to executive-facing content your posting asks for.
+- PriceKeel, the company I am building now, is a governance layer that scores every pricing exception against closed-won and closed-lost deals, sold directly to RevOps, Sales leadership and Finance.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/rubrik
+
+Worth 15 minutes on how the team is splitting the SMB and enterprise playbooks?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
