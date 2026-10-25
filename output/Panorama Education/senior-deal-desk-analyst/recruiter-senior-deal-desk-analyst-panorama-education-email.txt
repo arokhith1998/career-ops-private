@@ -1,0 +1,22 @@
+Subject: Senior Deal Desk Analyst - already run this exception review
+
+Hi {Recruiter, Panorama Education},
+
+I do not normally reach out before applying, but your posting's line about scaling Deal Desk "without slowing the sales process" is the exact problem I spent last year solving at Sensata.
+
+Quick proof:
+- Recovered $700K+ in margin in two quarters running a pricing exception review against non-standard discount and structure requests.
+- Built the Power BI dashboard behind it: 1,200 pricing opportunities against a $627M target across 3 regions and 20 product lines.
+- Built my own startup's CRM, CPQ and approval matrix with a full audit trail, so Salesforce plus CPQ is familiar ground.
+- Built sales enablement materials for 50+ reps that lifted win rates 30%.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/panorama-education
+
+If you own this req, I would value 15 minutes this week. If not, a pointer to whoever runs Deal Desk hiring would help.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
