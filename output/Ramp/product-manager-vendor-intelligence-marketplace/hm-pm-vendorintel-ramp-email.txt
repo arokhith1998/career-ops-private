@@ -1,0 +1,20 @@
+Subject: Evaluation standards for AI-based contract analysis
+
+Hi {Hiring Manager, Vendor Intelligence & Marketplace},
+
+I don't normally write in before applying, but pairing in-product moments that surface benchmarks and alternatives at renewal with a standing partnership alongside data science on extraction and normalization pipelines is a tighter product-plus-data mandate than most AI-contract reqs carry.
+
+I built the Power BI pricing-intelligence dashboard at Sensata that turned 1,200 raw pricing opportunities into $433M in flagged margin gaps across 3 regions and 20 product lines, the same structured-data-into-decision work contract intelligence runs on.
+I ran 30+ customer interviews and SQL/GA4 cohort analysis at Sensata to decide what belonged in a 100+ feature backlog, shipping the right features and cutting time-to-market 20%.
+On my own product, SwipeHire, I built the AI matching engine (OpenAI API) that extracted structured signal from resumes and job postings to generate auto-tailored matches, then ran 8+ A/B tests to validate it, zero-to-one to 50+ users.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/ramp
+
+Worth 15 minutes to see if the fit is real? Happy to be pointed elsewhere if this isn't your req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

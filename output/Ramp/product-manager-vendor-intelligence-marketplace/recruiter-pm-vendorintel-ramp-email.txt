@@ -1,0 +1,20 @@
+Subject: Price benchmarking, contract intelligence and a marketplace, one req
+
+Hi {Recruiter, Vendor Intelligence & Marketplace},
+
+I don't normally write in before applying, but a single PM role that owns price benchmarking, contract intelligence and a two-sided buyer-vendor marketplace, right after Ramp closed $750M at a $44B valuation, reads like a build-the-category mandate, not a maintain-the-roadmap one.
+
+I built the FY2026 Bleeders & Leakers Power BI dashboard at Sensata: $433M in margin gaps across 1,200 pricing opportunities, recovering $700K+ in two quarters through competitive benchmarking.
+I owned the sensor product roadmap and a 100+ feature backlog at Sensata, running 30+ customer interviews and SQL/GA4 cohort work that lifted feature adoption 18%.
+I shipped an AI matching engine (OpenAI API) on SwipeHire: parses resumes and job postings into auto-tailored matches for both sides of a marketplace, zero-to-one to 50+ users.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/ramp
+
+Worth 15 minutes on this req?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

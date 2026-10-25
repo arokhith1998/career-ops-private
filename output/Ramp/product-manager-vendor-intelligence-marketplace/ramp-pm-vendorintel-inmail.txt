@@ -1,0 +1,19 @@
+Subject: Contract intelligence and a marketplace, one PM seat
+
+Hi {Hiring Manager, Vendor Intelligence & Marketplace},
+
+I don't normally message before applying, but pairing price benchmarking and contract intelligence with a two-sided buyer-vendor marketplace in one PM seat, backed by a standing partnership with data science on extraction pipelines, is a build-the-category brief I'd want to run.
+
+I built the FY2026 Bleeders & Leakers dashboard at Sensata, surfacing $433M in margin gaps across 1,200 pricing opportunities and recovering $700K+ in margin in two quarters.
+I shipped an AI matching engine (OpenAI API) on SwipeHire that parsed resumes and job postings into auto-tailored matches, zero-to-one to 50+ users.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/ramp
+
+Worth 15 minutes?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
