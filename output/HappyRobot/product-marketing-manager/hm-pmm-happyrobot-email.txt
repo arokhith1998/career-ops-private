@@ -1,0 +1,22 @@
+Subject: Enablement and messaging for an AI workforce platform growing 5x
+
+Hi {Head of Growth, HappyRobot},
+
+The line that stopped me was "AI workforce," not another AI feature on a dashboard, but infrastructure DHL and Kuehne+Nagel already trust to run one. Backed by a16z and YC, past $200M raised and 5x revenue growth since your last round, this is the launch problem I want inside, not reading about from outside.
+
+A few places I've done that kind of work:
+- Owned GTM end to end for a new sensing line at Sensata: positioning, pricing, channel, launch, $2M+ first-year revenue.
+- Built the messaging framework and competitive program behind a 30% win-rate lift for 50+ reps, with release notes and case studies that kept the story consistent.
+- Ran 30+ discovery interviews with OEMs and distributors, the enterprise-buyer research your logistics customer base rewards.
+- At Applied Materials I run Claude-based agents automating market analysis, the AI-native habit a team selling AI workforces should want from its own PMM.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/happyrobot
+
+If you're the right person for this req, I'd welcome 15 minutes on which feature launch needs a tighter messaging-to-adoption loop first.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
