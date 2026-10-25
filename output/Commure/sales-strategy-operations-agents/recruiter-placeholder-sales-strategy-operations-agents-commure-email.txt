@@ -1,0 +1,18 @@
+Subject: The CRM-to-forecast system you're hiring someone to build
+
+Hi {Recruiter, Sales Strategy & Operations},
+
+I don't normally reach out before applying, but a Call Center Agents team small enough that one person shapes the whole sales motion, selling into a market crowded with well-funded competitors, is scope I already run solo, not scope I'd need to grow into.
+
+At PriceKeel I own the CRM and CPQ myself: deal-stage definitions, forecast and pipeline reviews, and every deal approval, so there is one audit trail instead of a dozen spreadsheets.
+At Sensata I built the scorecard that ranked 1,200 opportunities by stage and win rate, then trained 50+ reps on it every time a product line shipped, lifting win rates 30%.
+At Applied Materials I'm already automating the recurring parts of forecasting with Claude AI agents instead of rebuilding models by hand each cycle.
+
+Worth 15 minutes if this req sits with you, no worries if it's already landed elsewhere.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
