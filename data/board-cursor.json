@@ -1,18 +1,8 @@
 {
   "cursor": 0,
-  "sweep": 77,
+  "sweep": 78,
   "universe_rows": 173,
   "runs": [
-    {
-      "at": "2026-10-15T06:12:22.546Z",
-      "from": 0,
-      "to": 0,
-      "sweep": 57,
-      "considered": 173,
-      "probed": 44,
-      "resolved": 0,
-      "emitted": 129
-    },
     {
       "at": "2026-10-15T11:17:04.755Z",
       "from": 0,
@@ -198,6 +188,16 @@
       "from": 0,
       "to": 0,
       "sweep": 76,
+      "considered": 173,
+      "probed": 44,
+      "resolved": 0,
+      "emitted": 129
+    },
+    {
+      "at": "2026-10-25T11:03:22.649Z",
+      "from": 0,
+      "to": 0,
+      "sweep": 77,
       "considered": 173,
       "probed": 44,
       "resolved": 0,
