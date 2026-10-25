@@ -1,0 +1,20 @@
+Subject: Validate, then ship, then measure, is the loop I already run
+
+Hi {Recruiter, Protegrity Talent},
+
+I do not normally reach out before applying, but the line about turning conversational assistants and policy advisors into something customers trust inside a security product, not a demo, is work I have already shipped.
+
+I built SwipeHire zero-to-one on the OpenAI API: wrote the PRD, shipped auto-tailored resumes, then validated it with 50+ early users before iterating on what drove activation.
+At Sensata I ran 30+ customer interviews with OEMs and distributors, then tracked the KPI frameworks once features shipped, the same validate-build-measure loop your posting describes.
+At Applied Materials I run AI agents built on Claude to automate analysis with a human check before anything ships, the pattern a policy advisor needs before it reaches a customer.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/protegrity
+
+Worth 15 minutes if this is your req, no worries if it already has an owner.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

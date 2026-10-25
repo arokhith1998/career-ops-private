@@ -1,0 +1,20 @@
+Subject: Agentic features that ship with a human check, not just a demo
+
+Hi {Hiring Manager, Protegrity GenAI Product},
+
+I do not normally reach out before applying, but the way this role is scoped, owning conversational assistants and agentic solutions end to end inside an installed security product, is a lifecycle I have already run.
+
+I built SwipeHire zero-to-one on the OpenAI API: wrote the PRD, scoped the MVP, shipped auto-tailored resumes, then validated it with 50+ early users before iterating on what drove activation.
+At Sensata I owned a 100+ feature backlog end to end with Engineering in Agile across 3 regions, cutting time-to-market 20%, and built the KPI frameworks that tied features to a 22% CSAT lift.
+At Applied Materials I run AI agents built on Claude to automate analysis with a human check before anything ships, the exact pattern a policy advisor needs before it reaches a customer.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/protegrity
+
+Open to 15 minutes on where the roadmap needs the most proof right now?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

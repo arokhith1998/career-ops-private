@@ -1,0 +1,18 @@
+Subject: Design-partner validation before scale, not after
+
+Hi {Recruiter, Protegrity Talent},
+
+I do not normally send this before applying, but the nice-to-have about running customer pilots and design partner programs before scaling a feature is a motion I have already run, not a new one.
+
+At Sensata I ran 30+ customer interviews with OEMs and distributors to pick what to build, then tracked adoption against a 22% CSAT lift and a 20% cut in time-to-market once features shipped.
+I built SwipeHire zero-to-one on the OpenAI API, running it past 50+ early users before iterating on what drove activation, the same pilot-first discipline before a bigger launch.
+At Applied Materials I pair forecasting models with AI agents built on Claude, so a feature's business case and its rollout stay tied to the same numbers.
+
+Worth 15 minutes if this is your req?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
