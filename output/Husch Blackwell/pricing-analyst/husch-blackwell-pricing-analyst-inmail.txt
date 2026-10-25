@@ -1,0 +1,16 @@
+Subject: Pricing Analyst - turning a pricing database into something a Partner reads
+
+I do not normally send an InMail before applying, but a role built around turning a pricing database into reports the Pricing team can act on is close to the exact problem I already solved at Sensata, not a new one.
+
+I built the FY2026 Bleeders and Leakers dashboard in Power BI there, ranking 1,200 pricing opportunities against a $627M target across 3 regions and 4 product families, and used it to recover $700K in margin in 2 quarters. I run the same discipline today at PriceKeel, the company I founded, where I built the guardrail engine that scores a discount exception against a company's own closed-won and closed-lost history.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/husch-blackwell
+
+Worth 15 minutes to see if this req sits with you? If not, a pointer to whoever owns it helps just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

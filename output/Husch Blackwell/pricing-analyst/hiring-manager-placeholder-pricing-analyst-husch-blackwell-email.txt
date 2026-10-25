@@ -1,0 +1,20 @@
+Subject: Pricing Analyst - the alternative-fee-proposal line
+
+Hi {Hiring Manager, Pricing},
+
+I do not usually write in before applying, but the alternative-fee-proposal estimate line in your posting stopped me. Defending a flat-fee number to a Partner and defending a discount guardrail to Finance are the same exercise with different words, and that is the seat I have been sitting in.
+
+At Sensata I ran the Bleeders and Leakers program: a Power BI dashboard tracking 1,200 pricing opportunities against a $627M target, surfacing $433M in margin gaps for leadership. It recovered $700K in margin in 2 quarters and moved distributor margins from 53% to 61%.
+Before that I owned client-level profitability for an 8-client portfolio at Pixis, each with its own monthly number I had to defend in a review.
+I am also building PriceKeel, a tool that scores a discount exception against a guardrail with an audit trail, so rate defensibility is a daily habit for me.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/husch-blackwell
+
+Could we find 15 minutes? Happy to be redirected to whoever owns this req if it is not you.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
