@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Rubrik Senior IT Product Manager, CPQ Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #1a56db; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 24pt; font-weight: 800; color: #0f172a; line-height: 1.16; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 20pt; font-weight: 800; color: #0f172a; line-height: 1.12; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #1a56db; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.7in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbe7fb 100%); }
+  .cover h1 { font-size: 22pt; max-width: 11.6in; }
+  .cover .sub { font-size: 13.5pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 15pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #1a56db; font-weight: 700; }
+  .cover .who { margin-top: 15pt; padding-top: 11pt; border-top: 1.5pt solid #1a56db; max-width: 9.6in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #1a56db; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #eef3fc; border-left: 3pt solid #1a56db; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #1e3a8a; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #1a56db; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #eef3fc; border-left: 4pt solid #1a56db; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #1e3a8a; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 18pt; font-weight: 800; color: #1a56db; line-height: 1.1; margin-bottom: 4pt; letter-spacing: -0.5pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #1a56db; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #1a56db; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbe7fb 100%); }
+  .close h2 { font-size: 22pt; max-width: 11in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.8in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #1a56db; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Rubrik Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Rubrik Senior IT Product Manager, CPQ</div>
+  <h1>Rubrik's CPQ roadmap needs its rules engine moved toward AI agents with human-in-the-loop checkpoints. I already built that exact machine, end to end, as PriceKeel's guardrail engine.</h1>
+  <div class="sub">A working human-in-the-loop guardrail for deal pricing, and the multi-product, multi-channel quote-to-cash work it has to simplify, on the same resume.</div>
+  <div class="tags">
+    <div class="tag"><strong>Human-in-the-loop guardrail engine</strong> built from scratch at PriceKeel</div>
+    <div class="tag"><strong>Audit trail</strong> Finance can check on every pricing exception</div>
+    <div class="tag"><strong>53% to 61% channel margins</strong> raised at Sensata</div>
+    <div class="tag"><strong>Multimillion-dollar customer quotes</strong> negotiated directly</div>
+    <div class="tag"><strong>AI agents built on Claude</strong> automating my own recurring analysis today</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-pricing-ai.vercel.app/ref/rubrik</div>
+  </div>
+  <div class="brand">CPQ PRODUCT PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>The req is not "administer a quoting tool." It is moving a rules-based CPQ engine toward AI agents with human-in-the-loop checkpoints, across multi-product and partner channels, <span class="accent">without losing Finance's trust in the exception trail.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What that actually requires</h4>
+      <div class="line">A rules engine redesigned so an AI agent can recommend a pricing or discount action, but a human still signs it every time, the only way Product, Sales, Finance, Deal Desk and channel leaders trust the output.</div>
+      <div class="line">An audit trail that survives a Finance review: who overrode what, against which evidence, not a log nobody opens.</div>
+      <div class="line">Quote-to-cash that stays simple as product lines, partner tiers and channel structures multiply, not a workaround built per channel.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run</h4>
+      <div class="line">At <b>PriceKeel</b>, I designed the guardrail engine myself: it recommends a discount guardrail learned from each company's own closed-won and closed-lost deals, and logs every human override.</div>
+      <div class="line">At <b>Sensata</b>, I repriced parts sold through distribution and raised distributor and channel-partner margins 53% to 61%, keeping quotes consistent across regions and product lines.</div>
+      <div class="line">At <b>Applied Materials</b>, I run AI agents built on Claude against my own recurring pricing and quoting analysis, the same human-plus-agent workflow this role is scoping.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">The through-line: every system here pairs an AI recommendation with a human decision a reviewer can audit later, not an agent making the call alone.</div>
+  </div>
+  <div class="brand">CPQ PRODUCT PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The mandate, mapped</div>
+  <h2>What the role covers, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">Own CPQ product vision and roadmap for the quoting, configuration and pricing tools that sales and channel partners run on.</div></div>
+      <div class="quote"><div class="q">Move the rules engine toward AI agents with human-in-the-loop checkpoints.</div></div>
+      <div class="quote"><div class="q">Simplify quote-to-cash across multi-product and multi-partner channels.</div></div>
+      <div class="quote"><div class="q">Preferred: enterprise PM experience, B2B sales process knowledge, agentic workflows.</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>PriceKeel, CPQ ownership:</b> founded and run the CRM, CPQ and deal-approval workflow myself, roadmap to rules engine, solo.</div></div>
+      <div class="proof"><div class="p"><b>PriceKeel, guardrail engine:</b> the human-in-the-loop, agentic pricing pattern, already built and in pilots with early customers.</div></div>
+      <div class="proof"><div class="p"><b>Sensata, channel repricing:</b> distributor and channel-partner margins raised 53% to 61%, multimillion-dollar customer quotes negotiated directly.</div></div>
+      <div class="proof"><div class="p"><b>Sensata, product roadmap:</b> a 100+ feature backlog run with Engineering in Agile across 3 regions, releases 25% faster.</div></div>
+    </div>
+  </div>
+  <div class="brand">CPQ PRODUCT PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>Build the guardrail, simplify the channel quote, then <span class="accent">put a number on both.</span></h2>
+  <div class="lede">Same pattern across a founder build and an enterprise pricing seat: design the human-in-the-loop decision point, simplify the quote path around it, then measure whether the business trusted the number enough to act on it.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">Human-in-the-Loop</div>
+      <div class="lbl">Guardrail Engine Built From Scratch</div>
+      <div class="desc">PriceKeel's rules engine recommends a discount guardrail from closed-won and closed-lost precedent; every override is logged for Finance.</div>
+    </div>
+    <div class="stat">
+      <div class="n">53% to 61%</div>
+      <div class="lbl">Distributor and Channel Margins Raised</div>
+      <div class="desc">Repriced parts sold through distribution at Sensata in under two quarters, without breaking existing channel-partner quotes.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$700K+ Recovered</div>
+      <div class="lbl">Margin in Two Quarters</div>
+      <div class="desc">Bleeders and Leakers program: 1,200 pricing opportunities against a $627M target, $433M in margin gaps surfaced for leadership.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">None of these stayed a roadmap slide. Each one shipped as a system Finance, Sales or a channel partner actually used.</div>
+  <div class="brand">CPQ PRODUCT PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month on Rubrik's CPQ roadmap looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Map the rules engine and its stakeholders</div>
+      <div class="body">Walk the quoting and configuration rules engine end to end with Product, Sales, Finance, Deal Desk and channel leaders, so the first AI-agent checkpoint targets the quote type with the most manual review today, not a guess.</div>
+      <div class="why"><strong>Why first:</strong> the same first move behind PriceKeel's guardrail engine, map the exception pattern before automating around it.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Ship the first human-in-the-loop checkpoint</div>
+      <div class="body">Stand up one AI-agent recommendation, with a human sign-off and a logged override, on the highest-volume quote or discount type identified in week one.</div>
+      <div class="why"><strong>Why now:</strong> the exact guardrail-plus-audit-trail pattern already running at PriceKeel, not a net-new design.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Simplify one multi-partner quote path</div>
+      <div class="body">Pick one multi-product, multi-channel quote flow and cut it down the way the distributor repricing work did at Sensata: fewer manual exceptions, same or better margin.</div>
+      <div class="why"><strong>Why this fast:</strong> the same channel-quote discipline that moved Sensata's distributor margins 53% to 61%.</div>
+    </div>
+  </div>
+  <div class="brand">CPQ PRODUCT PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>Rubrik needs a CPQ rules engine that trusts an AI agent's recommendation and still keeps a human signature on every quote. I have already built and run that exact machine.</h2>
+  <div class="body">
+    <p>The agentic half: <strong>PriceKeel's guardrail engine</strong> recommends a discount guardrail learned from closed-won and closed-lost deals, with every human override logged in an audit trail Finance can check on demand.</p>
+    <p>The quote-to-cash half: <strong>distributor and channel-partner margins raised from 53% to 61%</strong> at Sensata, multimillion-dollar customer quotes negotiated directly with senior executives, and a <strong>$700K+ margin recovery</strong> in two quarters built on a Power BI program tracking 1,200 opportunities against a $627M target. At Applied Materials I already run AI agents built on Claude against my own recurring pricing analysis, so the human-plus-agent workflow this role needs is not new to me.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-pricing-ai.vercel.app/ref/rubrik</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">CPQ PRODUCT PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
