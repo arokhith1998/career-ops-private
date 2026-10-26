@@ -1,0 +1,21 @@
+Subject: Splitting lifecycle strategy from copy is the right call
+
+Hi {Hiring Manager, Lifecycle Marketing},
+
+I do not normally reach out before applying, but scoping one owner for the roadmap, segmentation and team while Creative keeps the copy is exactly how a guest journey program should be split, and it is the part of the req I want to run.
+
+At Pixis I hired and managed an 8-person team across 8 D2C accounts, carrying P&L and reporting retention recommendations to senior management each quarter; that account strategy cut client churn 50%.
+At Plug Power I automated the WordPress and Pardot lead flow into a nurture sequence, cutting cost per lead 50%, then automated the surrounding Mar-Tech stack for closed-loop reporting.
+At Sensata I built KPI and segmentation frameworks in SQL and GA4 across 50K+ connected devices, and that cohort-first read lifted feature adoption 18%.
+At Applied Materials I carry revenue targets, the same forecasting discipline a nurture roadmap runs on.
+
+Here's the portfolio: https://adhi-growth.vercel.app/ref/backroads
+
+Open to 15 minutes on where retention is weakest in the guest journey right now?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
