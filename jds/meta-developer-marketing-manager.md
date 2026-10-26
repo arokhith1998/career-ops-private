@@ -1,16 +1,22 @@
-# Meta - Developer Marketing Manager
+# Developer Marketing Manager
 
 **Company:** Meta
-**URL:** https://www.linkedin.com/jobs/view/4481027987
-**Req/Posting ID:** None shown; LinkedIn job id 4481027987
-**Posted:** "20 hours ago" (relative, fetched 2026-10-25)
-**Location(s):** San Francisco, CA
-**Employment Type:** Full-time
-**Comp band (stated):** $124,000-$178,000/yr base + bonus/equity/benefits (unquantified)
-**Track:** us | **Visa gate:** required
+**URL:** https://www.linkedin.com/jobs/view/4463966624
+**Location:** Menlo Park, CA
+**Req/Job ID:** none shown (LinkedIn posting id 4463966624); 26 applicants at fetch time
+**Posted:** "17 hours ago" (relative only)
+**Comp:** $124,000-$178,000/yr, plus bonus/equity/benefits
+**Experience:** 7+ years of experience in technology or developer marketing
+**Seniority/type:** Not applicable (listed), Full-time, Technology/Information/Internet
 
-## Work authorization / sponsorship / citizenship / clearance / degree / grad-year language (verbatim)
-No sentence on sponsorship/visa/OPT/CPT/citizenship/clearance/degree field/grad year. Related: "Meta participates in the E-Verify program in certain locations, as required by law."
+## Summary
+Grows awareness/adoption/sentiment for Meta's AI solutions among developers (including enterprises). Builds/runs Meta AI platform marketing plan; produces developer assets/digital campaigns; manages creative/strategy/ops agencies; plans developer events; produces technical content (tutorials, case studies, developer guides) with dev-relations/product.
 
-## Job Description (summary)
-Grows awareness/adoption/sentiment toward Meta's AI solutions among developers (incl. enterprises): platform marketing plans, developer-facing assets, creative/strategy agency management, events/campaigns, works with product marketing/developer relations. Requires 7+ years technology/developer marketing, GenAI product launches, direct developer engagement, content/digital marketing.
+## Eligibility
+No degree requirement stated.
+
+## Work authorization / visa / citizenship / clearance
+Only mention is that Meta participates in E-Verify in certain locations, as required by law.
+
+## Over-cap flag
+7+ years stated minimum exceeds the US-track cap (max_years: 6). Expected to drop at `check-jd-experience.mjs --over-only`.
