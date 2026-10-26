@@ -1,31 +1,31 @@
 job_key	company	title	url	stage	verdict	first_seen	last_seen	times_seen	note
 linkedin.com/jobs/view/4438522291	Supermicro	Product Marketing Manager	https://www.linkedin.com/jobs/view/4438522291	queued		2026-10-05	2026-10-26	8	
 linkedin.com/jobs/view/4465188564	Envoy	Demand Generation Manager	https://www.linkedin.com/jobs/view/4465188564	queued		2026-10-04	2026-10-26	20	
-linkedin.com/jobs/view/4196162752	Sesame	Product Manager, Hardware	https://www.linkedin.com/jobs/view/4196162752	jd_extracted		2026-10-05	2026-10-26	4	
+linkedin.com/jobs/view/4196162752	Sesame	Product Manager, Hardware	https://www.linkedin.com/jobs/view/4196162752	dropped	DROP:below-3.0	2026-10-05	2026-10-26	5	
 linkedin.com/jobs/view/4410896325	MediaTek	Technology Marketing Manager - Datacenter	https://www.linkedin.com/jobs/view/4410896325	dropped	DROP:over-cap	2026-10-05	2026-10-26	5	
-linkedin.com/jobs/view/4411247108	Replit	Senior/Product Marketing Manager	https://www.linkedin.com/jobs/view/4411247108	jd_extracted		2026-10-05	2026-10-26	4	
-linkedin.com/jobs/view/4437586567	Harvey	Senior Product Marketing Manager, Core	https://www.linkedin.com/jobs/view/4437586567	jd_extracted		2026-10-05	2026-10-26	4	
-linkedin.com/jobs/view/4447203725	Jacobs	Proposal Manager, Geographic Sales Operations - NorCal U.S.	https://www.linkedin.com/jobs/view/4447203725	jd_extracted		2026-10-05	2026-10-26	4	
-linkedin.com/jobs/view/4420685741	Picarro	Product Manager, Natural Gas	https://www.linkedin.com/jobs/view/4420685741	jd_extracted		2026-10-05	2026-10-26	4	
+linkedin.com/jobs/view/4411247108	Replit	Senior/Product Marketing Manager	https://www.linkedin.com/jobs/view/4411247108	queued		2026-10-05	2026-10-26	5	
+linkedin.com/jobs/view/4437586567	Harvey	Senior Product Marketing Manager, Core	https://www.linkedin.com/jobs/view/4437586567	queued		2026-10-05	2026-10-26	5	
+linkedin.com/jobs/view/4447203725	Jacobs	Proposal Manager, Geographic Sales Operations - NorCal U.S.	https://www.linkedin.com/jobs/view/4447203725	dropped	DROP:below-3.0	2026-10-05	2026-10-26	5	
+linkedin.com/jobs/view/4420685741	Picarro	Product Manager, Natural Gas	https://www.linkedin.com/jobs/view/4420685741	dropped	DROP:below-3.0	2026-10-05	2026-10-26	5	
 linkedin.com/jobs/view/4447587355	SquareTrade	Digital Product Manager, Voice	https://www.linkedin.com/jobs/view/4447587355	dropped	SKIP:no-sponsorship-stated	2026-10-05	2026-10-26	5	
 linkedin.com/jobs/view/4447559075	Altera	Compute Interconnect IP Planner (Product Manager)	https://www.linkedin.com/jobs/view/4447559075	dropped	DROP:over-cap	2026-10-05	2026-10-26	5	
-linkedin.com/jobs/view/4475351893	Cisco	Sr. Technical Product Marketing Manager, AI and AgenticOps	https://www.linkedin.com/jobs/view/4475351893	jd_extracted		2026-10-04	2026-10-26	4	
-linkedin.com/jobs/view/4465150470	Cytek Biosciences	Sales Operations Data Analyst	https://www.linkedin.com/jobs/view/4465150470	jd_extracted		2026-10-04	2026-10-26	4	
+linkedin.com/jobs/view/4475351893	Cisco	Sr. Technical Product Marketing Manager, AI and AgenticOps	https://www.linkedin.com/jobs/view/4475351893	dropped	DROP:below-3.0	2026-10-04	2026-10-26	5	
+linkedin.com/jobs/view/4465150470	Cytek Biosciences	Sales Operations Data Analyst	https://www.linkedin.com/jobs/view/4465150470	queued		2026-10-04	2026-10-26	5	
 linkedin.com/jobs/view/4447097825	Supermicro	Sr. Product Manager	https://www.linkedin.com/jobs/view/4447097825	dropped	DROP:over-cap	2026-10-04	2026-10-26	5	
 linkedin.com/jobs/view/4463966624	Meta	Developer Marketing Manager	https://www.linkedin.com/jobs/view/4463966624	dropped	DROP:over-cap	2026-10-04	2026-10-26	5	
-linkedin.com/jobs/view/4447242223	Backroads	Lifecycle Marketing Manager	https://www.linkedin.com/jobs/view/4447242223	jd_extracted		2026-10-04	2026-10-26	4	
-linkedin.com/jobs/view/4482922453	interface.ai	Senior Product Manager	https://www.linkedin.com/jobs/view/4482922453	jd_extracted		2026-10-26	2026-10-26	3	
-linkedin.com/jobs/view/4455343611	Synack	Product Manager, AI	https://www.linkedin.com/jobs/view/4455343611	jd_extracted		2026-10-26	2026-10-26	3	
-linkedin.com/jobs/view/4466415314	Amazon	Senior Product Manager – Technical (PMT), Devices & Services Sustainability	https://www.linkedin.com/jobs/view/4466415314	jd_extracted		2026-10-26	2026-10-26	3	
-linkedin.com/jobs/view/4475351653	IronRidge - An Enstall Company	Product Manager - Engineered Hardware	https://www.linkedin.com/jobs/view/4475351653	jd_extracted		2026-10-26	2026-10-26	3	
+linkedin.com/jobs/view/4447242223	Backroads	Lifecycle Marketing Manager	https://www.linkedin.com/jobs/view/4447242223	queued		2026-10-04	2026-10-26	5	
+linkedin.com/jobs/view/4482922453	interface.ai	Senior Product Manager	https://www.linkedin.com/jobs/view/4482922453	queued		2026-10-26	2026-10-26	4	
+linkedin.com/jobs/view/4455343611	Synack	Product Manager, AI	https://www.linkedin.com/jobs/view/4455343611	dropped	DROP:below-3.0	2026-10-26	2026-10-26	4	
+linkedin.com/jobs/view/4466415314	Amazon	Senior Product Manager – Technical (PMT), Devices & Services Sustainability	https://www.linkedin.com/jobs/view/4466415314	dropped	DROP:below-3.0	2026-10-26	2026-10-26	4	
+linkedin.com/jobs/view/4475351653	IronRidge - An Enstall Company	Product Manager - Engineered Hardware	https://www.linkedin.com/jobs/view/4475351653	dropped	DROP:below-3.0	2026-10-26	2026-10-26	4	
 linkedin.com/jobs/view/4483399157	Four Pillars Talent	Sales Operations Manager, Contracts & Deal Desk	https://www.linkedin.com/jobs/view/4483399157	dropped	SKIP:no-sponsorship-stated	2026-10-26	2026-10-26	4	
-linkedin.com/jobs/view/4482931105	TikTok	Product Manager Graduate (TikTok LIVE - Platform Trust And Ecosystem) - 2027 Start	https://www.linkedin.com/jobs/view/4482931105	jd_extracted		2026-10-26	2026-10-26	3	
-linkedin.com/jobs/view/4482908908	Oblq	Sr. Product Marketing Mgr., Go To Market	https://www.linkedin.com/jobs/view/4482908908	jd_extracted		2026-10-26	2026-10-26	3	
+linkedin.com/jobs/view/4482931105	TikTok	Product Manager Graduate (TikTok LIVE - Platform Trust And Ecosystem) - 2027 Start	https://www.linkedin.com/jobs/view/4482931105	dropped	DROP:below-3.0	2026-10-26	2026-10-26	4	
+linkedin.com/jobs/view/4482908908	Oblq	Sr. Product Marketing Mgr., Go To Market	https://www.linkedin.com/jobs/view/4482908908	queued		2026-10-26	2026-10-26	4	
 linkedin.com/jobs/view/4483522746	Gong	Sr. Revenue Marketing Manager, Commercial & Mid-Market	https://www.linkedin.com/jobs/view/4483522746	dropped	DROP:over-cap	2026-10-26	2026-10-26	4	
-linkedin.com/jobs/view/4482920343	Antora Energy	Product Manager	https://www.linkedin.com/jobs/view/4482920343	jd_extracted		2026-10-26	2026-10-26	3	
+linkedin.com/jobs/view/4482920343	Antora Energy	Product Manager	https://www.linkedin.com/jobs/view/4482920343	dropped	DROP:below-3.0	2026-10-26	2026-10-26	4	
 linkedin.com/jobs/view/4482923204	Antaha	Founder's Office (Psychologist)	https://www.linkedin.com/jobs/view/4482923204	dropped	DROP:below-comp-floor	2026-10-26	2026-10-26	4	
-linkedin.com/jobs/view/4482901640	Wingy	Founder's Office	https://www.linkedin.com/jobs/view/4482901640	jd_extracted		2026-10-26	2026-10-26	3	
-linkedin.com/jobs/view/4457503819	Coinbase	Product Manager II, Workspace and Multi-User	https://www.linkedin.com/jobs/view/4457503819	jd_extracted		2026-10-26	2026-10-26	3	
+linkedin.com/jobs/view/4482901640	Wingy	Founder's Office	https://www.linkedin.com/jobs/view/4482901640	queued		2026-10-26	2026-10-26	4	
+linkedin.com/jobs/view/4457503819	Coinbase	Product Manager II, Workspace and Multi-User	https://www.linkedin.com/jobs/view/4457503819	dropped	DROP:below-3.0	2026-10-26	2026-10-26	4	
 linkedin.com/jobs/view/4454654256	Netflix	Technology Product Manager 6 - TV Platform and Device Technologies	https://www.linkedin.com/jobs/view/4454654256	dropped	DROP:over-cap	2026-10-26	2026-10-26	4	
 linkedin.com/jobs/view/4473888236	NVIDIA	Senior Product Manager, Switchyard	https://www.linkedin.com/jobs/view/4473888236	dropped	DROP:over-cap	2026-10-26	2026-10-26	4	
 linkedin.com/jobs/view/4466352348	Snowflake	STAFF PRODUCT MANAGER	https://www.linkedin.com/jobs/view/4466352348	dropped	DROP:over-cap	2026-10-26	2026-10-26	4	
@@ -34,16 +34,16 @@ linkedin.com/jobs/view/4483387485	Synopsys Inc	Product Manager - Verdi Debug Pla
 linkedin.com/jobs/view/4483395961	Fieldguide	Senior Product Marketing Manager, Risk Advisory	https://www.linkedin.com/jobs/view/4483395961	dropped	DROP:over-cap	2026-10-26	2026-10-26	4	
 linkedin.com/jobs/view/4482905265	Cadence	PCIe and CXL Controller IP Senior Product Manager	https://www.linkedin.com/jobs/view/4482905265	dropped	DROP:over-cap	2026-10-26	2026-10-26	4	
 linkedin.com/jobs/view/4347416924	Zettabyte	Outbound Product Manager	https://www.linkedin.com/jobs/view/4347416924	dropped	SKIP:no-sponsorship-stated	2026-10-26	2026-10-26	4	
-linkedin.com/jobs/view/4466426211	Amazon Web Services (AWS)	Sr. Partner Marketing Manager, NAMER Strategic Customer and Partner Marketing	https://www.linkedin.com/jobs/view/4466426211	jd_extracted		2026-10-26	2026-10-26	3	
+linkedin.com/jobs/view/4466426211	Amazon Web Services (AWS)	Sr. Partner Marketing Manager, NAMER Strategic Customer and Partner Marketing	https://www.linkedin.com/jobs/view/4466426211	dropped	DROP:below-3.0	2026-10-26	2026-10-26	4	
 linkedin.com/jobs/view/4466417246	Amazon Web Services (AWS)	Sr. Partner Marketing Manager, NAMER Strategic Customer and Partner Marketing	https://www.linkedin.com/jobs/view/4466417246	dropped	DROP:duplicate-req	2026-10-26	2026-10-26	4	
 linkedin.com/jobs/view/4483513191	Fieldguide	Senior Product Marketing Manager, Corporate Internal Audit	https://www.linkedin.com/jobs/view/4483513191	dropped	DROP:over-cap	2026-10-26	2026-10-26	4	
-linkedin.com/jobs/view/4482675662	Haystack	Marketing Manager	https://www.linkedin.com/jobs/view/4482675662	jd_extracted		2026-10-26	2026-10-26	3	
-linkedin.com/jobs/view/4483367906	Elantis	Renewals Operations Specialist – Sales Operations & Salesforce	https://www.linkedin.com/jobs/view/4483367906	jd_extracted		2026-10-26	2026-10-26	3	
+linkedin.com/jobs/view/4482675662	Haystack	Marketing Manager	https://www.linkedin.com/jobs/view/4482675662	queued		2026-10-26	2026-10-26	4	
+linkedin.com/jobs/view/4483367906	Elantis	Renewals Operations Specialist – Sales Operations & Salesforce	https://www.linkedin.com/jobs/view/4483367906	dropped	DROP:below-3.0	2026-10-26	2026-10-26	4	
 linkedin.com/jobs/view/4482936308	Jobgether	Advisor, Competitive Intelligence – Inside-the-Data-Center Technologies	https://www.linkedin.com/jobs/view/4482936308	dropped	NO-BUILD:employer-hidden	2026-10-26	2026-10-26	4	
-linkedin.com/jobs/view/4481410223	Joveo	Senior Associate - CEO's Office	https://www.linkedin.com/jobs/view/4481410223	jd_extracted		2026-10-26	2026-10-26	3	
-linkedin.com/jobs/view/4481089226	Kanikanna	Founder's Office	https://www.linkedin.com/jobs/view/4481089226	jd_extracted		2026-10-26	2026-10-26	3	
-linkedin.com/jobs/view/4482694203	ElloMind	Founder's Office – Operations & Execution	https://www.linkedin.com/jobs/view/4482694203	jd_extracted		2026-10-26	2026-10-26	3	
-linkedin.com/jobs/view/4482692451	Ciena	Advisor, Competitive Intelligence – Inside-the-Data-Center Technologies	https://www.linkedin.com/jobs/view/4482692451	jd_extracted		2026-10-26	2026-10-26	3	
+linkedin.com/jobs/view/4481410223	Joveo	Senior Associate - CEO's Office	https://www.linkedin.com/jobs/view/4481410223	queued		2026-10-26	2026-10-26	4	
+linkedin.com/jobs/view/4481089226	Kanikanna	Founder's Office	https://www.linkedin.com/jobs/view/4481089226	dropped	DROP:below-3.0	2026-10-26	2026-10-26	4	
+linkedin.com/jobs/view/4482694203	ElloMind	Founder's Office – Operations & Execution	https://www.linkedin.com/jobs/view/4482694203	dropped	DROP:below-3.0	2026-10-26	2026-10-26	4	
+linkedin.com/jobs/view/4482692451	Ciena	Advisor, Competitive Intelligence – Inside-the-Data-Center Technologies	https://www.linkedin.com/jobs/view/4482692451	queued		2026-10-26	2026-10-26	4	
 zapply.jobs/l/d/workday-menasha-menashacorp-r16550	Menasha Corporation	General Labor - 3rd Shift	https://zapply.jobs/l/d/workday-menasha-menashacorp-R16550?s=gh-new-grad-jobs-2027	dropped	DROP:no-target-role-match	2026-10-26	2026-10-26	1	
 zapply.jobs/l/d/workday-wf-wellsfargojobs-r-582886	Wells Fargo	Core Banking Modernization Product Delivery Governance	https://zapply.jobs/l/d/workday-wf-wellsfargojobs-R-582886?s=gh-new-grad-jobs-2027	dropped	DROP:no-target-role-match	2026-10-26	2026-10-26	1	
 zapply.jobs/l/d/workday-wf-wellsfargojobs-r-580057	Wells Fargo	Relationship Banker - Huntsville, AL	https://zapply.jobs/l/d/workday-wf-wellsfargojobs-R-580057?s=gh-new-grad-jobs-2027	dropped	DROP:no-target-role-match	2026-10-26	2026-10-26	1	
