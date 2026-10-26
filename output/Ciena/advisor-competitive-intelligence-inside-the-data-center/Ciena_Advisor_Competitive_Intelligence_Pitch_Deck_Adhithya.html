@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Ciena Advisor, Competitive Intelligence Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #1a56db; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 32pt; font-weight: 800; color: #0f172a; line-height: 1.08; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 21pt; font-weight: 800; color: #0f172a; line-height: 1.1; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #1a56db; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.5in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbe7fb 100%); }
+  .cover h1 { font-size: 23pt; max-width: 11.4in; }
+  .cover .sub { font-size: 14pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 18pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #1a56db; font-weight: 700; }
+  .cover .who { margin-top: 18pt; padding-top: 11pt; border-top: 1.5pt solid #1a56db; max-width: 9in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #1a56db; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #eef3fc; border-left: 3pt solid #1a56db; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #123a91; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #1a56db; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #eef3fc; border-left: 4pt solid #1a56db; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #123a91; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 24pt; font-weight: 800; color: #1a56db; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #1a56db; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #1a56db; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbe7fb 100%); }
+  .close h2 { font-size: 26pt; max-width: 10.5in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.5in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #1a56db; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Ciena Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Ciena Advisor, Competitive Intelligence - Inside-the-Data-Center Technologies</div>
+  <h1>Competitive intelligence only earns its keep if it changes a decision before a rival ships. I already run that loop on hardware markets just as technical as yours.</h1>
+  <div class="sub">Competitive benchmarking tied to a revenue outcome, structured market sizing, and AI tools built into the research workflow today, not as a pilot.</div>
+  <div class="tags">
+    <div class="tag"><strong>+12% YoY revenue, +8% share</strong> from benchmarking 10+ competitors at Sensata and repricing against their moves</div>
+    <div class="tag"><strong>10+ competitors, 150+ facilities</strong> assessed for Safran's market-entry case, briefed directly to their leadership</div>
+    <div class="tag"><strong>$433M</strong> in margin gaps surfaced from a dashboard I built for leadership to act on</div>
+    <div class="tag"><strong>Claude AI agents</strong> automate my recurring research and briefing work today, at Applied Materials</div>
+    <div class="tag"><strong>Semiconductor market sizing</strong> with Sales, Engineering and Accounts, the same multi-stakeholder loop as Sales, PLM and the CTO office</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhithyabhaskar.vercel.app/ref/ciena</div>
+  </div>
+  <div class="brand">CIENA COMPETITIVE INTELLIGENCE</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>Competitive intelligence that sits in a slide deck is a history lesson. Competitive intelligence that <span class="accent">reaches Sales, PLM and the CTO office before the next launch</span> is a weapon.</h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What a fast-moving, technical hardware market does to a CI function</h4>
+      <div class="line">Signal on a rival's next move in AI cluster architectures, coherent optics or pluggable optics arrives in pieces, from Sales, Marketing, PLM, the CTO office and R&amp;D, each with their own angle and urgency.</div>
+      <div class="line">Without one person owning the synthesis, battlecards go stale, messaging drifts between teams, and the briefing reaches an executive after the decision window, not before it.</div>
+      <div class="line">The fix is not another one-off competitor slide. It is one analyst who owns the synthesis, keeps the briefing current, and ties every finding back to a decision someone is about to make.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run, hands on</h4>
+      <div class="line">At <b>Sensata</b>, I benchmarked 10+ competitors across the Industrial BU and turned the findings into a repricing call that drove +12% YoY revenue and +8% market share, not a report that sat unread.</div>
+      <div class="line">At <b>Applied Materials</b>, I size a fast-moving technical market with Sales, Engineering and Accounts, the same cross-functional input loop this role runs with Sales, Marketing, PLM, CTO and R&amp;D.</div>
+      <div class="line">At <b>Safran</b>, I led a 5-consultant team that benchmarked 10+ competitors across 150+ facilities and briefed the result straight to leadership.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">Analyze competitors' strategy and moves, align messaging across Sales, Marketing, PLM, CTO and R&amp;D, and produce briefings that get acted on: this is the exact loop I already run, just on a different hardware category.</div>
+  </div>
+  <div class="brand">CIENA COMPETITIVE INTELLIGENCE</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What the Advisor, Competitive Intelligence opening asks for, and where the proof sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Leads competitive efforts on Inside-the-Data-Center (ITDC) technologies: AI cluster architectures, coherent optics, pluggable optics, SerDes, silicon photonics."</div></div>
+      <div class="quote"><div class="q">"Analyzes competitors' strategy and moves."</div></div>
+      <div class="quote"><div class="q">"Supports Sales, Marketing, PLM, CTO and R&amp;D with competitive intelligence; aligns messaging."</div></div>
+      <div class="quote"><div class="q">"Produces briefings and content, uses AI tools for content development."</div></div>
+    </div>
+    <div class="col">
+      <h3>My Proof</h3>
+      <div class="proof"><div class="p"><b>Sensata competitive benchmarking:</b> 10+ players tracked and turned into a repricing recommendation that drove +12% YoY revenue and +8% market share.</div></div>
+      <div class="proof"><div class="p"><b>Applied Materials market sizing:</b> semiconductor market sized with Sales, Engineering and Accounts, the same multi-stakeholder input this req runs across Sales, Marketing, PLM, CTO and R&amp;D.</div></div>
+      <div class="proof"><div class="p"><b>Safran market-entry briefing:</b> 10+ competitors and 150+ facilities assessed, with the recommendation presented directly to leadership.</div></div>
+      <div class="proof"><div class="p"><b>AI tooling for content:</b> recurring research and briefing work already automated with AI agents built on Claude at Applied Materials.</div></div>
+    </div>
+  </div>
+  <div class="brand">CIENA COMPETITIVE INTELLIGENCE</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The Sensata proof, in depth</div>
+  <h2>One benchmarking program, one repricing call, <span class="accent">a revenue and share number leadership could point to.</span></h2>
+  <div class="lede">The Bleeders and Leakers program benchmarked 10+ key players across the Industrial BU, then used the competitive gaps and customer willingness-to-pay data underneath that benchmarking to decide where to reprice. It was not filed as a report; it ran as the input to an actual pricing call.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">10+</div>
+      <div class="lbl">Competitors Benchmarked</div>
+      <div class="desc">Tracked across the Industrial BU to find where competitive gaps and customer willingness-to-pay data pointed to a repricing opportunity.</div>
+    </div>
+    <div class="stat">
+      <div class="n">+12% YoY</div>
+      <div class="lbl">Revenue Driven</div>
+      <div class="desc">From price realignment informed directly by that competitive read, not a separate decision made later.</div>
+    </div>
+    <div class="stat">
+      <div class="n">+8 pts</div>
+      <div class="lbl">Market Share Gained</div>
+      <div class="desc">The business outcome of acting on the competitive benchmarking, the same bar a CI briefing should clear.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">The common thread: track the competitors, tie the finding to a decision someone is about to make, then close the loop by measuring what happened after. That is the same loop I would bring to Ciena's ITDC competitive coverage.</div>
+  <div class="brand">CIENA COMPETITIVE INTELLIGENCE</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">What success looks like, on a realistic timeline</div>
+  <h2>How I would ramp into ITDC coverage without losing momentum on day one.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">3 Months</div>
+      <div class="ttl">ITDC landscape mapped, first briefings shipped</div>
+      <div class="body">Apply the same structured-sizing method behind the Safran engagement to map the named rivals in AI cluster architectures, coherent optics and pluggable optics, and ship the first set of briefings aligned with Sales and PLM.</div>
+      <div class="why"><strong>Why this is realistic:</strong> it is the same opening move as Safran: assess the landscape and competitors first, then brief leadership on what it means.</div>
+    </div>
+    <div class="card">
+      <div class="label">6 Months</div>
+      <div class="ttl">Monitoring cadence running, content automated</div>
+      <div class="body">Stand up a recurring competitive-monitoring cadence across the named rivals, and automate the repetitive research and content pulls with AI tooling, freeing time for the synthesis that actually needs judgment.</div>
+      <div class="why"><strong>Why now:</strong> the same automate-then-synthesize sequence Claude agents already run for me at Applied Materials.</div>
+    </div>
+    <div class="card">
+      <div class="label">12 Months</div>
+      <div class="ttl">The team's go-to before a competitive move needs a response</div>
+      <div class="body">Be the person Sales, Marketing, PLM, the CTO office and R&amp;D route to before reacting to a rival's launch, with messaging alignment measurably faster than it was on day one.</div>
+      <div class="why"><strong>Why this sticks:</strong> the same trust the Sensata benchmarking earned once it moved revenue and share, not just a slide.</div>
+    </div>
+  </div>
+  <div class="brand">CIENA COMPETITIVE INTELLIGENCE</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to turn ITDC competitive signal into briefings that change a decision. I have already run that exact loop, on a different, equally technical hardware market.</h2>
+  <div class="body">
+    <p>The core proof is Sensata: <strong>10+ competitors benchmarked</strong> into a repricing call that drove <strong>+12% YoY revenue and +8% market share</strong>, plus a 5-consultant Safran engagement that briefed 10+ competitors and 150+ facilities straight to leadership.</p>
+    <p>What is harder to find is someone who already automates the recurring part of that research with the same AI tools your posting names for content development. I run that today at Applied Materials, which means the habit this role asks for is not something I would need to build on the job.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhithyabhaskar.vercel.app/ref/ciena</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">CIENA COMPETITIVE INTELLIGENCE</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
