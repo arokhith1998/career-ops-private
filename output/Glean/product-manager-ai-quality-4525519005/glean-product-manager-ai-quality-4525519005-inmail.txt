@@ -1,0 +1,18 @@
+Subject: Provider relationships and usage math are the same two problems
+
+Hi {Recruiter or Hiring Manager, Model Hub},
+
+I do not normally send an InMail before applying, but the Model Hub req asks one person to manage relationships with inference and model providers and own projections of LLM usage, cost and capacity planning, and I have run that same pairing at a smaller scale.
+
+I modeled 3 subscription tiers for an AI platform against real per-user API cost, then checked the price against willingness-to-pay signals from 12+ user interviews. At Sensata I owned the roadmap and built the forecasting models that told Engineering what to ship next, confirmed against 30+ OEM and distributor interviews, lifting feature adoption 18% across 50,000+ connected devices. At Applied Materials I turn technical specs into one shared forecasting and capacity model across Engineering, Sales and Accounts.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/glean
+
+Worth 15 minutes on this req? Glad to be pointed elsewhere if it is not yours.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

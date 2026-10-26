@@ -1,0 +1,1 @@
+Hi, I price and forecast against real usage: modeled 3 pricing tiers for an AI platform against per-user API cost, then ran forecasting models at Sensata across 50,000+ connected devices. Saw the Glean Model Hub PM role. Portfolio: adhi-product-ai.vercel.app/ref/glean Open to connecting?

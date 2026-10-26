@@ -1,0 +1,20 @@
+Subject: Who owns usage, cost and capacity before a customer picks a model
+
+Hi {Recruiter, Model Hub},
+
+I do not normally reach out before applying, but owning projections of LLM usage, cost and capacity planning before a customer picks a model is a problem I already run, just on hardware.
+
+I modeled 3 subscription tiers for SwipeHire against actual per-user API cost, then checked the price against willingness-to-pay signals from 12+ interviews.
+At Sensata I owned a 100+ feature backlog and built the forecasting models that told Engineering what to ship next, checked against 30+ OEM and distributor interviews, lifting CSAT 22% and feature adoption 18% across 50,000+ connected devices.
+At Applied Materials I build Claude agents for market forecasting and review their output before it reaches a P&L number, the same discipline a growing LLM portfolio needs.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/glean
+
+Worth 15 minutes on the Model Hub req? Happy to be pointed elsewhere if it is not yours.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

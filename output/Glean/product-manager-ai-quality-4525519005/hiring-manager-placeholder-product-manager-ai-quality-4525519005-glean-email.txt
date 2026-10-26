@@ -1,0 +1,20 @@
+Subject: Who owns the call when a provider relationship changes the roadmap
+
+Hi {Hiring Manager, Model Hub},
+
+I do not normally message before applying, but this req pairs two jobs most PMs split: managing relationships with inference and model providers, and owning the customer upgrade-adoption journey for new LLMs. I have run that pairing on a smaller provider, the OpenAI API.
+
+I modeled 3 subscription tiers for SwipeHire against real per-user API cost, then checked the price against willingness-to-pay signals from 12+ interviews, because a usage model only holds up if you can also sell the upgrade.
+At Sensata I owned the roadmap for a 100+ feature backlog and ran 30+ OEM and distributor interviews that lifted feature adoption 18% across 50,000+ connected devices once the upgrade path was right.
+At Applied Materials I partner with Engineering, Sales and Accounts to turn technical specs into one shared forecasting and capacity model, the same loop a growing LLM portfolio runs on.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/glean
+
+If the Model Hub req is yours, 15 minutes would help. If it sits with someone else, a pointer would too.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
