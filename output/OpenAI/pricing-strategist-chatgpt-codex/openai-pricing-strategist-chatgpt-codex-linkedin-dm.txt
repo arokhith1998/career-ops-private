@@ -1,0 +1,1 @@
+Hi, saw the Chat and Codex Pricing and Monetization req on usage limits, credits and overages. I run PriceKeel, an explainable pricing-guardrail engine, and modeled subscription tiers for SwipeHire from willingness-to-pay data. Portfolio: adhi-pricing-ai.vercel.app/ref/openai Open to 15 minutes?

@@ -1,0 +1,20 @@
+Subject: Packaging usage limits and overages for a model that gets cheaper weekly
+
+Hi {Hiring Manager, Chat & Codex Pricing & Monetization},
+
+I do not normally cold-email before applying, but packaging usage limits, credits and overages for a product whose unit costs shift with every model release is a different problem than deal pricing, and it is the one I keep choosing to work on.
+
+Modeled three subscription tiers for SwipeHire straight from competitor benchmarks and willingness-to-pay interviews, then ran the A/B tests that picked the winner before the first users onboarded.
+Founded PriceKeel: it reads every live pricing exception and recommends an explainable guardrail learned from a company's own closed-won and closed-lost deals, with a Finance-checkable audit trail.
+Recovered $700K+ in margin in two quarters leading Sensata's Bleeders and Leakers program against a $627M target, then raised channel margins from 53% to 61% on the back of it.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/openai
+
+Would welcome 15 minutes on how that maps to Chat and Codex's pricing surface, glad to redirect if I have the wrong desk.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

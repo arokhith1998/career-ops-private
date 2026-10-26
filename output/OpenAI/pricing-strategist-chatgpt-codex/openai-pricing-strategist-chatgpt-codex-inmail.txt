@@ -1,0 +1,20 @@
+Subject: A guardrail engine built for exactly this kind of pricing call
+
+Hi {Hiring Manager, Chat & Codex Pricing & Monetization},
+
+I do not normally message before applying, but a role built around usage limits, credits, overages and new monetization models is close to the discipline I already run, not a new skill to learn on the job.
+
+Founded PriceKeel, a discount-guardrail engine that reads every live pricing exception and recommends an explainable limit with a Finance-checkable audit trail.
+Modeled three subscription tiers for SwipeHire from competitor benchmarks and willingness-to-pay interviews, then A/B tested which packaging actually converted.
+Recovered $700K+ in margin in two quarters leading Sensata's Bleeders and Leakers program against a $627M target.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/openai
+
+Worth 15 minutes to see if the fit is real?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
