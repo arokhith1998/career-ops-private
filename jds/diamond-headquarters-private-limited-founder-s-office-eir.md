@@ -1,0 +1,25 @@
+# Founder's Office - EIR
+
+**Company:** Diamond Headquarters Private Limited
+**URL:** https://www.linkedin.com/jobs/view/4481478142
+**Location:** Mumbai, Maharashtra, India
+**Track:** india
+**Req/Job ID:** none shown
+**Comp (extracted):** Not stated in extracted text.
+**Experience (extracted):** Not clearly stated in extracted text; see full JD text below.
+
+## Work authorization / visa / citizenship / clearance
+No explicit sponsorship, OPT/CPT, citizenship, or clearance language found in the extracted text.
+
+## Full JD text (extracted, nightly discover cloud run 2026-10-26/27)
+eLocation: Mumbai & PuneEmployment Type: Full TimeReports To: FoundersAbout RINGS & IRINGS & I is a seven-year-old made-to-order diamond jewellery brand, founded by engineers with a belief that jewellery does not need to be built around inventory.We are building a technology-led jewellery experience where customers can:Access live, dynamic pricingPersonalize designs live in 3DBuild and configure jewellery through Build Your Own experiencesChoose across multiple materials, diamonds and specifications without being restricted by stocked inventoryMake informed decisions with education and transparency at the centre of the buying journeyOver the last year, RINGS & I has scaled rapidly, and we have an aggressive three-year growth plan across multiple cities.Role SummaryFounder’s Office is for people who enjoy figuring things out from zero.You may have tried building something of your own before. You may have always wanted to. Or you may simply know that you are not someone who wants to spend years waiting for the next designation before taking on bigger problems.This role will work directly with the founders on high-priority growth problems, initially across Marketing, Ops, Fulfilment, RevOps.You will pick up a problem, understand it deeply, build the playbook, test it on ground and take it far enough that it can become a repeatable business function. You can go ahead and pick the next problem or lead the vertical you solved for.Why this role exists?RINGS & I is scaling fast.Founders cannot personally figure out every new market, channel, partnership, activation or growth opportunity as the organisation expands.We therefore need people who can think like founders without needing to be founders immediately.People who can take an ambiguous problem and move it from:Nothing → Hypothesis → Pilot → Learning → Repeatable PlaybookThe role exists to create that additional problem-solving capacity around the founders.What will you own?You will take ownership of one high-priority growth area at a time and be expected to create measurable progress within approximately six months.Assignments may include:Achieving EBITDA % for the studioIncreasing throughput of a single studioTest a new audience setTest and set a new marketing channelHelp build LTVSet up fulfilment systemsThe objective is not merely to coordinate these activities.The objective is to figure out what works, prove it, and build something the organisation can scale.What does success look like?Success in Founder’s Office is simple:Can you take an undefined business problem and turn it into a working, measurable playbook?The specific KPIs will depend on the problem you own.Who should join Founder's Office?This role is likely to work for you if:You have relentless grit and do not give up easily.You enjoy problems where the answer does not already exist.You naturally ask, “How can we make this happen?”You are comfortable getting your hands dirty and executing, not only strategising.You move fast and learn through doing.You want responsibility to grow much faster than your designation.You would rather build something meaningful in one organisation than repeatedly change companies for the next title.You take ownership even when multiple teams or external partners are involved.You do not restrict yourself to job role, location but marry outcomeYou have been Head Girl/Boy, Student or General Secretory at School/College and you are a natural leaderHaving attempted entrepreneurship, built a side project, led something from zero, or shown similar evidence of a founder mindset would be highly valued.What is in it for you?Founder’s Office offers unusually high exposure early in your career.You will get:Direct strategic exposure to the founders & cross-functional aspect of BusinessFreedom to test, learn and buildOpportunities to work across functions rather than inside a narrow job boundaryFirst-hand experience of scaling a consumer retail business across citiesThe opportunity to build a function or capability from zeroA fast growth path when you demonstrate the ability to own larger outcomesThe intent is not for someone to remain in Founder’s Office indefinitely.Build something → prove it → own a larger mandate.Your next role should emerge from what you successfully build.
+Show more
+Show less
+Seniority level
+Executive
+Employment type
+Full-time
+Industries
+Luxury Goods & Jewelry
+Referrals increase your chances of interviewing at Diamond Headquarters Private Limited by 2x
+See who you know

@@ -1,0 +1,25 @@
+# Sales Operations Analyst
+
+**Company:** Intel
+**URL:** https://www.linkedin.com/jobs/view/4483252492
+**Location:** Santa Clara, CA
+**Track:** us
+**Req/Job ID:** none shown
+**Comp (extracted):** $81,010.00 - 164,880.00 USDThe range displayed on this job posti
+**Experience (extracted):** 3+ years of experience in the semiconductor or manufacturing industry.
+
+## Work authorization / visa / citizenship / clearance
+No explicit sponsorship, OPT/CPT, citizenship, or clearance language found in the extracted text.
+
+## Full JD text (extracted, nightly discover cloud run 2026-10-26/27)
+e supply and revenue while achieving mutual business objectives. Manage the sales process and back-office, act as the communication conduit between the Customer, Sales, and the Factory to optimize revenue and supply.Partner cross-functionally within and across sales teams to ensure data quality, availability, and governance.Develop, implement, and enhance business processes for customer supply chain management and compliance measurements.Manage order types/invoice points, expedite requests, change requests and RMAs.Core CompetenciesAbility to collaborate effectively within a team setting.Strong analytical skills to synthesize complex data into clear, actionable insights.Excellent Communication Skills.QualificationsThe Minimum qualifications are required to be initially considered for this position. Minimum qualifications listed below would be obtained through a combination of industry relevant job experience, internship experience and / or schoolwork/classes/research. The preferred qualifications are in addition to the minimum requirements and are considered a plus factor in identifying top candidates.Minimum QualificationsBachelor's degree in Business, Supply Chain Management, Engineering, Finance, or a related field.3+ years of experience in the semiconductor or manufacturing industry.3+ years of experience working with SAP, including expertise in SAP Sales and Distribution (Order Management).3+ years of experience managing order processes from creation to invoicing.Preferred QualificationsMBA or an advanced degree in Supply Chain Management, Engineering, Finance or in a related field of study.Experience with semiconductor wafer foundry operations, and industry best practices.Certification in SAP S/4 HANA (SD) or hands-on experience with SAP Sales and Distribution modules.Advanced Excel expertise, with the ability to handle large datasets and perform detailed data analysis.Experience with ERP systems commonly used in semiconductor manufacturing (such as SAP S/4 HANA).Join Intel's dynamic and collaborative team to make a meaningful impact on our sales operations and contribute to innovative solutions that shape the future of technology.Job TypeExperienced HireShiftShift 1 (United States of America)Primary Location:US, California, FolsomAdditional Locations:US, Arizona, Phoenix, US, California, Santa Clara, US, Texas, AustinPosting StatementAll qualified applicants will receive consideration for employment without regard to race, color, religion, religious creed, sex, national origin, ancestry, age, physical or mental disability, medical condition, genetic information, military and veteran status, marital status, pregnancy, gender, gender expression, gender identity, sexual orientation, or any other characteristic protected by local law, regulation, or ordinance.Position of TrustN/ABenefitsWe offer a total compensation package that ranks among the best in the industry. It consists of competitive pay, stock bonuses, and benefit programs which include health, retirement, and vacation. Find out more about the benefits of working at Intel.Annual Salary Range for jobs which could be performed in the US: $81,010.00 - 164,880.00 USDThe range displayed on this job posting reflects the minimum and maximum target compensation for the position across all US locations. Within the range, individual pay is determined by work location and additional factors, including job-related skills, experience, and relevant education or training. Your recruiter can share more about the specific compensation range for your preferred location during the hiring process.Work Model for this RoleThis role will be eligible for our hybrid work model which allows employees to split their time between working on-site at their assigned Intel site and off-site. * Job posting details (such as work model, location or time type) are subject to change.ADDITIONAL INFORMATION: Intel is committed to Responsible Business Alliance (RBA) compliance and ethical hiring practices. We do not charge any fees during our hiring process. Candidates should never be required to pay recruitment fees, medical examination fees, or any other charges as a condition of employment. If you are asked to pay any fees during our hiring process, please report this immediately to your recruiter.
+Show more
+Show less
+Seniority level
+Not Applicable
+Employment type
+Full-time
+Industries
+Semiconductor Manufacturing
+Referrals increase your chances of interviewing at Intel by 2x
+See who you know

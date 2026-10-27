@@ -1,16 +1,21 @@
 source	sources	company	title	location	url	posted_ts	age_days	sponsorship_hint	salary	category
-websearch-agent	websearch-agent	Michael Page (client confidential)	Chief of Staff (GTM) | AI	Bangalore, India	https://www.michaelpage.co.in/job-detail/chief-staff-gtm-ai-bangalore-5-day-wfo/ref/jn-072026-7072727			not-applicable		chief_of_staff
-websearch-agent	websearch-agent	Grant Thornton Bharat	Chief of Staff (Office Managing Partner)	Bengaluru, India	https://jobs.weekday.works/wkdyu4hrpe			not-applicable		chief_of_staff
-websearch-agent	websearch-agent	Chtrbox	Chief of Staff	India	https://www.netinfluencer.com/jobs/chief-of-staff-at-chtrbox/			not-applicable		chief_of_staff
-websearch-agent	websearch-agent	Hike	Chief of Staff, CEO Office	Delhi, India	https://web3.career/chief-of-staff-ceo-office-very-full-time-hike/27413			not-applicable		ceo_office
-websearch-agent	websearch-agent	Figr (Antler)	Founder's Office	India	https://careers.antler.co/companies/figr/jobs/91699210-founder-s-office			not-applicable		founders_office
-websearch-agent	websearch-agent	Michael Page (client confidential, fintech)	CEO's Office | Fintech	Bengaluru, India	https://www.michaelpage.co.in/job-detail/ceos-office-fintech-bengaluru/ref/jn-082026-7079489			not-applicable		ceo_office
-websearch-agent	websearch-agent	Michael Page (client confidential, life insurance)	CEO's Office Strategy	Mumbai, India	https://www.michaelpage.co.in/job-detail/ceos-office-strategy/ref/jn-022026-6948231			not-applicable		ceo_office
-websearch-agent	websearch-agent	Michael Page (client confidential)	Chief Of Staff	India	https://www.michaelpage.co.in/job-detail/chief-staff/ref/jn-042026-7004201			not-applicable		chief_of_staff
-websearch-agent	websearch-agent	HeliT Consulting (food co. client)	Chief of Staff - Founder's Office	Gurugram, India	https://www.iimjobs.com/j/chief-of-staff-founder039s-office-1740611			not-applicable		founders_office
-websearch-agent	websearch-agent	We-Ace (client)	Chief of Staff to Founder	Gurgaon, India	https://www.iimjobs.com/j/chief-of-staff-to-founder-startup-1706867			not-applicable		chief_of_staff
-websearch-agent	websearch-agent	Arogyam	Entrepreneur in Residence (EIR)	India	https://jobs.weekday.works/entrepreneur-in-residence-eir-at-arogyam-wkdyhg2p3n			not-applicable		entrepreneur_in_residence
-websearch-agent	websearch-agent	Windfall	Product Marketing Manager	San Francisco, CA	https://jobs.lever.co/windfalldata/d64fdf52-6821-4dd1-b3dd-745ffd018eed/apply			required		marketing
-websearch-agent	websearch-agent	Unnamed verified company (via UP HRM/iimjobs)	Chief of Staff - Founder's Office	Gurugram, India	https://www.iimjobs.com/j/chief-of-staff-founder039s-office-1730908			not-applicable		founders_office
-websearch-agent	websearch-agent	UP HRM Services (client)	Chief of Staff	Bangalore, India	https://www.iimjobs.com/j/chief-of-staff-1699019			not-applicable		chief_of_staff
-websearch-agent	websearch-agent	JustAI	Chief of Staff, Founders Office	India	https://zerogtalent.com/space-jobs/justai/chief-of-staff-founders-office			not-applicable		founders_office
+websearch-agent	websearch-agent	Michael Page (client, AI GTM)	Chief of Staff (GTM)	Bangalore, India	https://www.michaelpage.co.in/job-detail/chief-staff-gtm-ai-bangalore-5-day-wfo/ref/jn-072026-7072727
+websearch-agent	websearch-agent	Grant Thornton Bharat	Chief of Staff	Bengaluru, India	https://jobs.weekday.works/wkdyu4hrpe
+websearch-agent	websearch-agent	Unacademy	Chief of Staff	Bengaluru, India	https://jobs.weekday.works/wkdymtavep
+websearch-agent	websearch-agent	Lenskart	Entrepreneur in Residence	Bangalore, India	https://lenskartcareers.recruitee.com/o/2rd9whnlf8
+websearch-agent	websearch-agent	Whizzo	Growth Head	Bengaluru, India	https://app.semesteria.com/jobs/growth-head-bengaluru-whizzo-b0efff3a-059f-4a83-9508-568d960cfd84
+websearch-agent	websearch-agent	Talentiser (client)	Head of Growth	Hyderabad, India	https://app.semesteria.com/jobs/head-of-growth-hyderabad-talentiser-c9c674ec-3479-45aa-ba0a-1ea4d7452188
+websearch-agent	websearch-agent	Cold chain startup (via iimjobs)	Founder's Office	Bangalore, India	https://www.iimjobs.com/j/founder039s-office-role-cold-chain-startup-iim-iit-isb-1728882
+websearch-agent	websearch-agent	Fairfax Centre for Free Enterprise	Associate, Founder's Office	Delhi NCR, India	https://www.iimjobs.com/j/fairfax-centre-for-free-enterprise-associate-founder039s-office-consulting-domain-iim-isb-xlri-fms-1724769
+websearch-agent	websearch-agent	Michael Page (client)	Chief of Staff	India	https://www.michaelpage.co.in/job-detail/chief-staff/ref/jn-042026-6999746
+websearch-agent	websearch-agent	Google	Product Strategy and Operations Lead, Market Intelligence	San Francisco, CA	https://jobs.anitab.org/companies/google-24698/jobs/84325043-product-strategy-and-operations-lead-market-intelligence			176000-257000
+websearch-agent	websearch-agent	Equal Ventures (portfolio companies)	Chief of Staff	Remote, USA	https://www.builtinsf.com/job/chief-staff/10449581
+websearch-agent	websearch-agent	Hireveda (client)	Chief of Staff / EA to CBO	Bengaluru, India	https://hireveda.com/job/COS
+websearch-agent	websearch-agent	Home decor brand (via iimjobs)	Founder's Office	Noida / Delhi NCR, India	https://www.iimjobs.com/j/founder039s-office-role-home-decor-1693119
+websearch-agent	websearch-agent	Right Brain (via iimjobs)	Founder's Office	Delhi NCR, India	https://www.iimjobs.com/j/founder039s-office-role-1704021
+websearch-agent	websearch-agent	Fintech travel company (via FlexJobs)	Senior Pricing Manager	San Francisco, CA	https://www.flexjobs.com/HostedJob.aspx?id=2000443			150000-160000
+websearch-agent	websearch-agent	Unknown (via VirtualVocations)	Pricing Manager	Remote, US	https://www.virtualvocations.com/job/pricing-manager-3225891-i.html
+websearch-agent	websearch-agent	Unknown (via VirtualVocations)	Pricing Manager	Remote, US	https://www.virtualvocations.com/job/pricing-manager-3234987-i.html
+websearch-agent	websearch-agent	Unknown (via VirtualVocations)	Pricing Manager	Remote, US	https://www.virtualvocations.com/job/pricing-manager-3251796-i.html
+websearch-agent	websearch-agent	Unknown (via VirtualVocations)	Senior Revenue Operations Manager	Remote, US	https://www.virtualvocations.com/job/senior-revenue-operations-manager-3113137-i.html
+websearch-agent	websearch-agent	Unknown (via VirtualVocations)	GTM Manager	Remote, US	https://www.virtualvocations.com/job/gtm-manager-3038060-i.html

@@ -1,0 +1,25 @@
+# Marketing Manager [AQ-23978]
+
+**Company:** Aquent
+**URL:** https://www.linkedin.com/jobs/view/4481435995
+**Location:** San Francisco, CA
+**Track:** us
+**Req/Job ID:** none shown
+**Comp (extracted):** Not stated in extracted text.
+**Experience (extracted):** Not clearly stated in extracted text; see full JD text below.
+
+## Work authorization / visa / citizenship / clearance
+No explicit sponsorship, OPT/CPT, citizenship, or clearance language found in the extracted text.
+
+## Full JD text (extracted, nightly discover cloud run 2026-10-26/27)
+eading global consumer brand company, renowned for its innovative approach and significant impact across multiple well-known brands. This organization is at the forefront of shaping consumer experiences, driven by a commitment to excellence and a forward-thinking digital strategy. Join us in contributing to a dynamic environment where your expertise will directly influence the future of commerce and brand engagement.We are seeking a highly skilled and strategic professional to lead and optimize creator affiliate programs, playing a pivotal role in the evolution of our client’s digital marketing ecosystem. This is an incredible opportunity to directly impact the success of multiple well-known consumer brands, translating creator influence into tangible business growth and shaping the future of creator commerce. You will be instrumental in driving substantial revenue growth and fostering powerful connections within the creator economy.What You’ll DoDrive substantial growth in creator affiliate partnerships and directly attributable revenue across a diverse portfolio of consumer brands.Oversee and manage all creator affiliate activities on leading platforms, ensuring peak performance and strategic alignment.Lead the full lifecycle of creator engagement, from strategic recruitment and seamless onboarding to dynamic activation and effective re-engagement initiatives.Cultivate and maintain strong direct communication channels and enduring relationships with key creators.Continuously monitor and analyze affiliate performance, identifying key insights and opportunities for optimization to maximize results and achieve ambitious goals.Develop and present strategic recommendations based on in-depth market trends and comprehensive creator performance analytics.Collaborate closely with external agency partners to ensure seamless execution and robust accountability of all program initiatives.Support the overarching creator affiliate strategy for a diverse and impactful portfolio of consumer brands.What You’ll Bring5+ years of dedicated influencer/creator marketing experience, with a significant and demonstrable focus on affiliate marketing.Proven track record of successfully managing revenue-producing creator/affiliate programs, clearly distinct from brand awareness campaigns.Hands-on expertise with leading creator commerce platforms such as ShopMy and LTK.Extensive experience in recruiting, activating, and fostering strong, productive relationships with creators and influencers.Deep understanding of the evolving affiliate marketing and creator commerce landscapes.Demonstrated ability to meticulously analyze affiliate performance data and translate complex insights into actionable, strategic recommendations for continuous improvement.Exceptional ability to manage multiple brands and competing priorities simultaneously, thriving in a fast-paced environment.Strong communication, stakeholder management, and influencing skills to effectively drive consensus and action across diverse teams.Stand Out WithExperience managing affiliate marketing budgets, demonstrating fiscal responsibility and strategic allocation.Familiarity with additional affiliate platforms such as Impact, Rakuten, or CJ Affiliate.An existing robust network of creator/influencer relationships within the affiliate space.Background within the fashion retail, apparel, or beauty industries.This role is ideal for an enterprising, solution-oriented specialist who thrives on proactively identifying and solving complex problems. You possess strong strategic thinking coupled with a hands-on execution style, and you are confident influencing stakeholders across multiple brands and teams. Your excellent communication skills and executive presence enable you to challenge recommendations and bring informed points of view based on your industry expertise, making a tangible impact on the success of our client’s initiatives.Client DescriptionGlobal retail company specializing in apparel and accessories. The company focuses on casual, stylish, and affordable fashion, catering to a broad customer base. With an emphasis on sustainability, inclusivity, and digital transformation, our client continues to evolve its business to meet changing consumer needs.
+Show more
+Show less
+Seniority level
+Not Applicable
+Employment type
+Contract
+Industries
+Retail, Online and Mail Order Retail, and Retail Apparel and Fashion
+Referrals increase your chances of interviewing at Aquent by 2x
+See who you know

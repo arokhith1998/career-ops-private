@@ -1,0 +1,25 @@
+# Founder’s Office (GTM+Growth)
+
+**Company:** OLake
+**URL:** https://www.linkedin.com/jobs/view/4482987895
+**Location:** Bengaluru, Karnataka, India
+**Track:** india
+**Req/Job ID:** none shown
+**Comp (extracted):** Not stated in extracted text.
+**Experience (extracted):** Not clearly stated in extracted text; see full JD text below.
+
+## Work authorization / visa / citizenship / clearance
+- "Pick which conferences to attend, sponsor or speak at, and write the talks and CFPs."
+
+## Full JD text (extracted, nightly discover cloud run 2026-10-26/27)
+eOLake is an open-source CDC tool that replicates production databases into Apache Iceberg lakehouses and keeps those tables fast to query. It supports sources such as Postgres, MySQL, MongoDB, Oracle, MSSQL and DB2, and runs without Spark, Flink or Debezium in the path.Our users are data engineers and data platform teams around the world.Why this role existsOLake has strong developer interest, but more people star the repo than run it. This role closes that gap. You will get OLake in front of the right engineers, wherever they spend time online, and make sure what they find is accurate enough to earn a try. They read benchmarks, check the repo, and can smell marketing fluff from a mile away. Everything we put out has to hold up to that reader.This is a hands-on lead role. You set the strategy with the founders, and you also write, ship, measure and show up at events yourself. You work closely with product and engineering, because a claim that engineers can't verify does more harm than no claim at all.What you'll ownDeveloper marketing and content. Own the content calendar, including technical blogs, comparison pages and SEO. Ship the blogs with engineering, and make each one useful to an engineer before it mentions OLake. Take part honestly on Reddit and data engineering forums, and build relationships with newsletter writers and creators in the space.Video and YouTube. Run a weekly live series where internal teams demo features and reproduce benchmarks. Bring in guest speakers on lakehouse setups and migrations. Produce product videos and short-form clips.Community and field. Grow the Apache Iceberg meetups in India and help start them in other APAC countries. Pick which conferences to attend, sponsor or speak at, and write the talks and CFPs.Positioning and narrative. Own website and homepage copy, and the positioning for new features and products. Keep every performance claim consistent across the site and backed by a published benchmark. Build a story that works for a global audience, not just India.Growth analytics and activation. Run the measurement stack: GA4, UTM conventions, Looker Studio reports, PostHog experiments and Mixpanel product telemetry. Use it to find which use cases and companies are active, and run the plan that turns stars into active users. Evaluate new tools against a clear decision scorecard.Leadership and planning. Lead a team of 2 and help them grow. Set the team's OKRs and run them in 2-month cycles. Turn founder-level strategy into plans the team can execute.Your first 90 daysYou'll start with a running motion, so the first three months are about learning it and taking it over.Days 1–30: Learn the product well enough to explain CDC, Iceberg delete formats and compaction to an engineer. Read the handover doc and meet the team, founders and key community contacts.Days 31–60: Take over the content calendar and the weekly motions. Run the next Iceberg meetup.Days 61–90: Lead your first OKR cycle review and set the next cycle's priorities with the founders.What we're looking for:Must-haves2-4 years in product, developer or growth marketing at a B2B SaaS company, in a role where you owned outcomes, not just tasksTechnical depth: you can read a benchmark, understand CDC, and explain why OLake differs from Debezium or Airbyte without looking it upWriting that engineers trust, whether it's a blog, a landing page, a Reddit comment or a cold emailComfort pulling your own numbers from analytics and product toolsExperience leading or mentoring at least one personHigh agency: you move without tight briefs and are comfortable with ambiguityNice-to-havesExperience with developer tools, open source or data infrastructureYou've spoken at, run or organised community eventsComfort on camera or hosting live sessionsA shipped project you can point to: a ranking comparison page, a community program, or a campaign that drove adoptionTools and what you'll get:Tools you'll use: GA4, Looker Studio, PostHog, Mixpanel, the Docusaurus website, GitHub, Slack, Reddit and YouTube.What you'll get:A budget and the freedom to run experimentsA product engineers already like, in a category that is still being definedCash, meaningful ESOPs and a performance-linked component, with exact numbers discussed with shortlisted candidates
+Show more
+Show less
+Seniority level
+Executive
+Employment type
+Full-time
+Industries
+Data Infrastructure and Analytics
+Referrals increase your chances of interviewing at OLake by 2x
+See who you know
