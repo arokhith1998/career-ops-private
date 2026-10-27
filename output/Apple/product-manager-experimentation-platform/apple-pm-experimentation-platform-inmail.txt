@@ -1,0 +1,18 @@
+Subject: A 100+ feature backlog, run on a KPI framework instead of a gut call
+
+Hi {Apple Ads Experimentation Team},
+
+Your Product Manager, Experimentation Platform posting asks for someone who can define metrics, build statistical frameworks for trustworthy experiments, and drive cultural adoption of data-driven decisions across product and engineering. At Sensata I ran a 100+ feature backlog in Agile across 3 regions, defining the KPI framework in SQL and GA4 that lifted feature adoption 18% and cut time-to-market 20%.
+
+I have run structured A/B testing at every stop since: 15+ tests at Plug Power, 8+ on SwipeHire with 12+ user interviews, and Amplitude/Tableau analysis across 30+ campaigns that lifted ROAS 40% at Pixis. I also build the pricing case that turns an experiment result into a revenue number, including a BU-wide Power BI price-increase model at Sensata.
+
+Built a 6-slide deck mapping this directly to your req: adhi-product-ai.vercel.app/ref/apple
+
+Open to 15 minutes if this is your req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

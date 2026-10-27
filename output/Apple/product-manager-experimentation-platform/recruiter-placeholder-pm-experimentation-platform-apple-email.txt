@@ -1,0 +1,22 @@
+Subject: A 100+ feature backlog, run on a KPI framework instead of a gut call
+
+Hi {Recruiter, Apple Ads},
+
+I don't normally reach out before applying, but your team's work, statistical frameworks for trustworthy experiments and driving cultural adoption of data-driven decisions, is the discipline I have run across three different product roles.
+
+Built you a 6-slide pitch deck so the proof fits on one read.
+
+At Sensata I ran a 100+ feature backlog in Agile across 3 regions, defining the KPI framework in SQL and GA4 that lifted feature adoption 18% and cut time-to-market 20%.
+I have run structured A/B testing at scale: 15+ tests at Plug Power, 8+ on SwipeHire, and Amplitude/Tableau analysis across 30+ campaigns that lifted ROAS 40% at Pixis.
+I also build the pricing case that turns an experiment result into a revenue number, including a BU-wide Power BI price-increase model at Sensata.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/apple
+
+Worth 15 minutes if this is your req, no worries if it already has an owner.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

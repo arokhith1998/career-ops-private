@@ -1,0 +1,20 @@
+Subject: I built a two-sided marketplace zero-to-one, then ran a 100+ feature enterprise backlog
+
+Hi {Recruiter, Traba},
+
+I don't normally reach out before applying, but your posting's ask, a marketplace operator who understands liquidity, matching and trust on both sides, is exactly what I built at SwipeHire.
+
+I shipped SwipeHire, a two-sided job-matching marketplace, zero-to-one, balancing job-seeker supply against employer demand, then ran 8+ A/B tests and 12+ interviews until activation lifted 25%.
+At Sensata I ran a 100+ feature backlog for enterprise OEM and distributor customers across 3 regions, navigating the same layered procurement and operational rollout this req describes.
+I prototype with AI agents built on Claude rather than just adding them to a stack, the AI-native habit your posting asks for.
+
+Here's the portfolio: https://adhi-product.vercel.app/ref/traba
+
+Worth 15 minutes if this is your req, no worries if it already has an owner.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

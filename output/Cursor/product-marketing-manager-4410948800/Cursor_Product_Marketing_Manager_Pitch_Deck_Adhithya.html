@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Cursor Product Marketing Manager Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #0d5c8c; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 32pt; font-weight: 800; color: #0f172a; line-height: 1.08; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 21pt; font-weight: 800; color: #0f172a; line-height: 1.1; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #0d5c8c; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.5in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d6e8f3 100%); }
+  .cover h1 { font-size: 32pt; max-width: 11in; }
+  .cover .sub { font-size: 14pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 18pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #0d5c8c; font-weight: 700; }
+  .cover .who { margin-top: 18pt; padding-top: 11pt; border-top: 1.5pt solid #0d5c8c; max-width: 9.5in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #0d5c8c; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #e8f1f8; border-left: 3pt solid #0d5c8c; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #0d5c8c; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #0d5c8c; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #e8f1f8; border-left: 4pt solid #0d5c8c; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #0d5c8c; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0d5c8c; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 24pt; font-weight: 800; color: #0d5c8c; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0d5c8c; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #0d5c8c; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #0d5c8c; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d6e8f3 100%); }
+  .close h2 { font-size: 26pt; max-width: 10.5in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.8in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #0d5c8c; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Cursor Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Cursor Product Marketing Manager</div>
+  <h1>Developers do not need more marketing. They need a technical story they would tell their own team. I have already built that translation layer, twice.</h1>
+  <div class="sub">GTM, positioning and launch work for technical products, with the pricing and analytics depth to defend the number behind the story.</div>
+  <div class="tags">
+    <div class="tag"><strong>$2M+</strong> first-year revenue from an end-to-end GTM launch on a technical product</div>
+    <div class="tag"><strong>30+</strong> OEM and distributor interviews turned into launch-ready positioning</div>
+    <div class="tag"><strong>50+</strong> reps enabled, +30% win rate from sales enablement built from scratch</div>
+    <div class="tag"><strong>SwipeHire:</strong> an AI developer product shipped zero-to-one, 25% activation lift</div>
+    <div class="tag"><strong>Claude AI agents</strong> automating recurring market and pricing analysis today</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-product-ai.vercel.app/ref/cursor</div>
+  </div>
+  <div class="brand">CURSOR PRODUCT MARKETING</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>A technical product does not sell itself. It needs someone who can <span class="accent">sit in the code and the go-to-market room on the same day.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What a developer-tools PMM role runs into</h4>
+      <div class="line">The product is genuinely complex, so positioning written without real technical intuition reads as marketing fluff to the exact audience it is meant to win.</div>
+      <div class="line">Launches, GTM enablement and growth experiments all need the same narrative to hold, across blog posts, sales materials and community content, without drifting between teams.</div>
+      <div class="line">A fast-moving, ambiguous environment means the PMM has to push back on product thinking, not just translate decisions made elsewhere.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run, at comparable scale</h4>
+      <div class="line">At <b>Sensata</b>, I owned end-to-end GTM for new sensing products, a genuinely technical category, turning engineering capability into $2M+ of first-year revenue.</div>
+      <div class="line">I ran 30+ interviews with OEMs and distributors to find the real workflows behind a sale, then built the sales enablement that lifted win rates 30% for 50+ reps.</div>
+      <div class="line">I built my own developer-facing AI product, <b>SwipeHire</b>, from PRD to shipped, running the experiments that grew it.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">This req asks for someone who translates technical products into developer stories, owns launches end to end, and runs growth experiments. That is the same loop above, run on an engineering-heavy product and on a product I built myself.</div>
+  </div>
+  <div class="brand">CURSOR PRODUCT MARKETING</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What the Product Marketing Manager opening asks for, and where the proof sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Turn complex AI + developer workflows into simple, compelling narratives."</div></div>
+      <div class="quote"><div class="q">"Own end-to-end go-to-market strategy for new features and major releases."</div></div>
+      <div class="quote"><div class="q">"Identify and test new channels to reach developers... run experiments to improve conversion across the funnel."</div></div>
+    </div>
+    <div class="col">
+      <h3>My Proof</h3>
+      <div class="proof"><div class="p"><b>Sensata GTM:</b> owned positioning, pricing, channel and launch for new sensing products end to end, driving $2M+ first-year revenue on a technical product line.</div></div>
+      <div class="proof"><div class="p"><b>Technical-to-buyer translation:</b> 30+ interviews with OEMs and distributors turned into value propositions that lifted conversion 15% on priority launches.</div></div>
+      <div class="proof"><div class="p"><b>SwipeHire:</b> shipped an AI job-matching platform zero-to-one, then ran 8+ A/B tests and 12+ user interviews that lifted activation 25%, the exact experiment loop this req asks for.</div></div>
+      <div class="proof"><div class="p"><b>Claude AI agents:</b> automate recurring market and pricing analysis at Applied Materials today, the same technical fluency this seat needs.</div></div>
+    </div>
+  </div>
+  <div class="brand">CURSOR PRODUCT MARKETING</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The Sensata proof, in depth</div>
+  <h2>A technical launch, owned end to end: <span class="accent">positioning, pricing, channel and enablement, not just a press release.</span></h2>
+  <div class="lede">Owned go-to-market for new sensing products across North America and Europe: positioning, pricing, channel strategy and launch execution, on a genuinely technical category sold to OEMs and distributors.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$2M+</div>
+      <div class="lbl">First-Year Revenue</div>
+      <div class="desc">The result of owning the full GTM motion, not just writing the launch copy.</div>
+    </div>
+    <div class="stat">
+      <div class="n">30+</div>
+      <div class="lbl">OEM &amp; Distributor Interviews</div>
+      <div class="desc">The source material for a positioning narrative that actually matched how buyers talk about the product.</div>
+    </div>
+    <div class="stat">
+      <div class="n">+30%</div>
+      <div class="lbl">Win Rate from Sales Enablement</div>
+      <div class="desc">Built for 50+ reps, so the technical narrative held consistently outside the room I was in.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">The same muscle runs SwipeHire: an AI job-matching platform I shipped zero-to-one, then grew with 8+ A/B tests and 12+ user interviews that lifted activation 25%, the channel-testing and conversion-experiment work this req lists under Growth and Distribution.</div>
+  <div class="brand">CURSOR PRODUCT MARKETING</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month on Cursor's product marketing team looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Learn the product like a power user</div>
+      <div class="body">Sit with Product, Engineering and Developer Relations to understand the current feature set, the competitive landscape, and where today's positioning already resonates with developers versus where it reads generic.</div>
+      <div class="why"><strong>Why first:</strong> the same move that made the Sensata launches land, talk to the people closest to the product before writing anything.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Ship the first narrative</div>
+      <div class="body">Pair with Developer Relations on one piece of high-signal technical content, a guide or comparison, and test it against real developer feedback before the next release.</div>
+      <div class="why"><strong>Why now:</strong> content tested with real users, not written in a vacuum, is what made the SwipeHire activation gain hold.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Run the first growth experiment</div>
+      <div class="body">Pick one channel or onboarding step and run a structured test, the same experiment discipline that grew SwipeHire's activation 25%, now applied to a live Cursor funnel.</div>
+      <div class="why"><strong>Why this fast:</strong> a PMM earns product and GTM trust by shipping something measurable, not by presenting a plan.</div>
+    </div>
+  </div>
+  <div class="brand">CURSOR PRODUCT MARKETING</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to make a technical product sound like something developers want to use. I have already done that, on a harder product.</h2>
+  <div class="body">
+    <p>The core proof is Sensata: <strong>$2M+ first-year revenue</strong> from an end-to-end GTM launch on a genuinely technical product, built on 30+ real buyer interviews and sales enablement that lifted win rates 30% for 50+ reps.</p>
+    <p>What is harder to find is someone who has also built the product side of that story: <strong>SwipeHire</strong>, an AI developer tool shipped zero-to-one and grown through real experiments, plus the pricing and analytics depth I run today at Applied Materials with Claude AI agents already in the workflow.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-product-ai.vercel.app/ref/cursor</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">CURSOR PRODUCT MARKETING</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>

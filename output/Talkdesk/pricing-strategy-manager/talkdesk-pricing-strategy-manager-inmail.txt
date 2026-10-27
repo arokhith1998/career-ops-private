@@ -1,0 +1,18 @@
+Subject: A guardrail engine for your Pricing Committee's documentation problem
+
+Hi {Pricing Strategy Team, Talkdesk},
+
+Your Pricing Strategy Manager posting describes a specific loop: prep PMs for Pricing Committee, keep documentation as the source of truth, and cascade approved changes into SFDC/CPQ and sales enablement without the thread going stale. I built that loop as a company at PriceKeel, designing a guardrail engine and a Finance-reviewable audit trail for every discount exception, with CRM, CPQ and deal approvals set up around it.
+
+The analytics side is not new either. At Sensata I shipped the FY2026 Bleeders & Leakers Power BI dashboard, ranking 1,200 pricing opportunities against a $627M target across 3 regions and 20 product lines, and used the discounting analysis inside it to recover $700K+ in margin in two quarters and lift distributor margins from 53% to 61%.
+
+Built a 6-slide deck mapping this to Talkdesk's req directly: adhi-pricing-ai.vercel.app/ref/talkdesk
+
+Open to 15 minutes if this is your req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

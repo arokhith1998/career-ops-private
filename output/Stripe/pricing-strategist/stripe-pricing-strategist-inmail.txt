@@ -1,0 +1,18 @@
+Subject: A $627M pricing model, built from scratch, for your Pricing Strategy req
+
+Hi {Pricing Strategy Team, Stripe},
+
+Your Pricing Strategist posting asks for someone who can build financial models evaluating pricing changes on revenue, margin and user behavior, then drive alignment across Finance, Legal, Product and GTM to bring them to execution. At Sensata I built the FY2026 Bleeders & Leakers Power BI dashboard, ranking 1,200 pricing opportunities against a $627M target, and used that model to recover $700K+ in margin in two quarters and lift distributor margins from 53% to 61%, carrying the alignment work through AP26 revenue models with senior executives.
+
+At PriceKeel I now build the scalable-process half of this req as a company: a guardrail engine and audit trail that bring structure and consistency to recurring pricing decisions.
+
+Built a 6-slide deck mapping this directly to your req: adhi-pricing-ai.vercel.app/ref/stripe
+
+Open to 15 minutes if this is your req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

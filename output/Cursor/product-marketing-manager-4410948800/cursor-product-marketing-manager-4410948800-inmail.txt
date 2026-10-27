@@ -1,0 +1,18 @@
+Subject: A technical launch that turned into $2M+, before I ever wrote marketing copy
+
+Hi {Product Marketing Team, Cursor},
+
+Your Product Marketing Manager posting asks for someone who can turn deeply technical products into stories that resonate with developers, then carry that story through launches, GTM enablement and growth experiments. I have been doing exactly that on a genuinely technical product: at Sensata I owned end-to-end GTM for new sensing products, positioning, pricing, channel and launch, turning engineering capability into $2M+ of first-year revenue and a 30% win-rate lift across 50+ reps.
+
+I also built my own developer-facing AI product. SwipeHire is a job-matching platform I shipped zero-to-one in Python, OpenAI's API and React, then grew 25% through real A/B tests and user interviews, the same experiment-driven distribution work your Growth and Distribution section describes.
+
+Built a 6-slide deck mapping this directly to Cursor's req: adhi-product-ai.vercel.app/ref/cursor
+
+Open to 15 minutes if this is your req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

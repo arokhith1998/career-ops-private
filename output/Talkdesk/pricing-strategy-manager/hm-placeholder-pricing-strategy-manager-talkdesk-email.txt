@@ -1,0 +1,22 @@
+Subject: Pricing Committee documentation that survives the handoff to CPQ
+
+Hi {Hiring Manager, Pricing Strategy},
+
+I don't normally reach out before applying, but your req's ask, prepare PMs for Pricing Committee, keep documentation as the source of truth, and cascade changes into SFDC/CPQ and sales enablement, is the exact loop I built as a company.
+
+Built you a 6-slide pitch deck so the proof fits on one read.
+
+At PriceKeel I designed the guardrail engine and audit trail that make a discount decision defensible to Finance, and set up the CRM, CPQ and deal-approval flow it runs on.
+At Sensata my Bleeders & Leakers dashboard ran discounting analysis on 1,200 opportunities against a $627M target, recovering $700K+ in two quarters and lifting distributor margins 53% to 61%.
+I have also sat on the other side of the table your req describes: giving direct, structured feedback to Product Managers on pricing proposals before they reach committee.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/talkdesk
+
+Open to 15 minutes if this is your team's req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

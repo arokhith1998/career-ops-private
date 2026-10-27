@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Apple Product Manager, Experimentation Platform Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #0d5c8c; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 32pt; font-weight: 800; color: #0f172a; line-height: 1.08; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 21pt; font-weight: 800; color: #0f172a; line-height: 1.1; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #0d5c8c; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.5in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d6e8f3 100%); }
+  .cover h1 { font-size: 32pt; max-width: 11in; }
+  .cover .sub { font-size: 14pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 18pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #0d5c8c; font-weight: 700; }
+  .cover .who { margin-top: 18pt; padding-top: 11pt; border-top: 1.5pt solid #0d5c8c; max-width: 9.5in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #0d5c8c; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #e8f1f8; border-left: 3pt solid #0d5c8c; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #0d5c8c; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #0d5c8c; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #e8f1f8; border-left: 4pt solid #0d5c8c; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #0d5c8c; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0d5c8c; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 24pt; font-weight: 800; color: #0d5c8c; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0d5c8c; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #0d5c8c; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #0d5c8c; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d6e8f3 100%); }
+  .close h2 { font-size: 26pt; max-width: 10.5in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.8in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #0d5c8c; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Apple Ads Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Apple Product Manager, Experimentation Platform</div>
+  <h1>A platform that governs online controlled experiments only earns trust once a PM can define the metric, run the test, and let the result win the argument. I have already run that discipline, repeatedly.</h1>
+  <div class="sub">Structured A/B testing, SQL-grounded KPI definition, and the cross-functional pull to ship a roadmap engineering and data science trust.</div>
+  <div class="tags">
+    <div class="tag"><strong>100+</strong> feature backlog run in Agile across 3 regions, time-to-market cut 20%</div>
+    <div class="tag"><strong>15+ / 8+ / 30+</strong> A/B tests and campaign experiments run across three roles</div>
+    <div class="tag"><strong>18%</strong> feature adoption lift from a KPI framework built in SQL and GA4</div>
+    <div class="tag"><strong>40% ROAS lift</strong> from Amplitude/Tableau experiment analysis at Pixis</div>
+    <div class="tag"><strong>Claude AI agents</strong> automating recurring data analysis at Applied Materials</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-product-ai.vercel.app/ref/apple</div>
+  </div>
+  <div class="brand">APPLE ADS EXPERIMENTATION</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>An experimentation platform is not a dashboard. It is a <span class="accent">trust system that has to survive contact with real product and engineering teams.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What an experimentation-platform PM runs into</h4>
+      <div class="line">Defining a success metric is easy. Getting product, engineering and data science teams to actually adopt data-driven decisions over opinion is the real, repeated work.</div>
+      <div class="line">An experiment is only as trustworthy as its guardrails: anomaly detection, diagnostics and a standard methodology have to exist before the first real result gets acted on.</div>
+      <div class="line">Ad tech specifically means the number eventually has to translate into a revenue and margin case, not just a statistically significant lift.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run, at comparable scale</h4>
+      <div class="line">At <b>Sensata</b>, I ran a 100+ feature backlog in Agile across 3 regions, grounding every call in a KPI framework built in SQL and GA4 across 50K+ devices.</div>
+      <div class="line">I have run structured A/B testing at three different stops: <b>15+ tests</b> at Plug Power, <b>8+ tests</b> on SwipeHire, and Amplitude/Tableau analysis across <b>30+ campaigns</b> at Pixis.</div>
+      <div class="line">At <b>Applied Materials</b> now, I build the value-based pricing case that turns an experiment result into a revenue number, automating the recurring analysis with Claude AI agents.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">This req asks for statistical frameworks, guardrail monitoring, and cultural adoption of data-driven decisions across product and engineering. That is the same loop above, run repeatedly across three different product contexts.</div>
+  </div>
+  <div class="brand">APPLE ADS EXPERIMENTATION</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What the Experimentation Platform opening asks for, and where the proof sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Define key metrics to measure success of the platform... implement and rapidly iterate on the roadmap."</div></div>
+      <div class="quote"><div class="q">"Develop automated solutions for experiment diagnostics, anomaly detection, and guardrail monitoring."</div></div>
+      <div class="quote"><div class="q">"Drive cultural adoption of data-driven decision making across product and engineering teams."</div></div>
+    </div>
+    <div class="col">
+      <h3>My Proof</h3>
+      <div class="proof"><div class="p"><b>Sensata's 100+ feature backlog:</b> defined the KPI framework in SQL and GA4 that moved it, lifting feature adoption 18% and cutting time-to-market 20%.</div></div>
+      <div class="proof"><div class="p"><b>Structured A/B testing at scale:</b> 15+ tests at Plug Power, 8+ tests and 12+ interviews on SwipeHire, 30+ campaigns analyzed in Amplitude/Tableau at Pixis.</div></div>
+      <div class="proof"><div class="p"><b>Cross-functional adoption:</b> partnered with Sales, Engineering and Accounts at Applied Materials to turn technical and field input into one data-driven view.</div></div>
+      <div class="proof"><div class="p"><b>Revenue translation:</b> built a BU-wide Power BI price-increase model at Sensata flagging where a change lifts profitability over 50%.</div></div>
+    </div>
+  </div>
+  <div class="brand">APPLE ADS EXPERIMENTATION</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The Sensata proof, in depth</div>
+  <h2>A 100+ feature backlog: <span class="accent">run on a KPI framework, not a gut call.</span></h2>
+  <div class="lede">Defined and executed the product roadmap for sensor solutions in automotive and industrial segments, managing a 100+ feature backlog with Engineering in Agile across 3 regions.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">18%</div>
+      <div class="lbl">Feature Adoption Lift</div>
+      <div class="desc">From a KPI framework in SQL and GA4 across 50K+ connected devices identifying high-intent cohorts.</div>
+    </div>
+    <div class="stat">
+      <div class="n">25%</div>
+      <div class="lbl">Faster Releases</div>
+      <div class="desc">The roadmap discipline that came from managing the backlog against measurable targets, not a wish list.</div>
+    </div>
+    <div class="stat">
+      <div class="n">20%</div>
+      <div class="lbl">Time-to-Market Cut</div>
+      <div class="desc">The compounding result of the first two numbers, measured and reported, not assumed.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">The same experiment discipline runs through SwipeHire (8+ A/B tests, 12+ user interviews, 25% activation lift) and Pixis (Amplitude/Tableau across 30+ campaigns, 40% ROAS lift), the channel-agnostic habit this req asks a PM to bring to Apple Ads.</div>
+  <div class="brand">APPLE ADS EXPERIMENTATION</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month on Apple Ads' experimentation platform team looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Map the current experiment lifecycle</div>
+      <div class="body">Sit with Product, Engineering and Data Science to learn how an experiment currently moves from hypothesis to guardrail monitoring to decision, and where today's process already has structure versus where it is still manual.</div>
+      <div class="why"><strong>Why first:</strong> the same move that made the Sensata KPI framework hold, map what exists before building anything new.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Ship one guardrail improvement</div>
+      <div class="body">Pick the most-cited pain point in experiment diagnostics or anomaly detection and ship a fix, pressure-tested against 1 to 2 live experiments before rolling it out platform-wide.</div>
+      <div class="why"><strong>Why now:</strong> shipping against a real experiment, not a hypothetical, is what made the 18% adoption lift at Sensata hold.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Drive the first adoption win</div>
+      <div class="body">Partner with one product team to run their next decision through the platform's standard methodology end to end, then document it as the reference case for cultural adoption.</div>
+      <div class="why"><strong>Why this fast:</strong> a platform earns trust once one team has seen the standard methodology win an argument.</div>
+    </div>
+  </div>
+  <div class="brand">APPLE ADS EXPERIMENTATION</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to make data-driven decision-making the default, not the exception. I have already run that discipline, three times over.</h2>
+  <div class="body">
+    <p>The core proof is Sensata: a <strong>100+ feature backlog</strong> run on a KPI framework in SQL and GA4, lifting feature adoption <strong>18%</strong> and cutting time-to-market <strong>20%</strong>, backed by structured A/B testing at every other stop (<strong>15+</strong> tests at Plug Power, <strong>8+</strong> on SwipeHire, <strong>30+</strong> campaigns analyzed at Pixis).</p>
+    <p>What is harder to find is someone who also carries the pricing and financial fluency to turn an experiment result into a revenue case: a <strong>BU-wide Power BI price-increase model</strong> at Sensata, and value-based pricing at Applied Materials today, already run with Claude AI agents in the workflow.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-product-ai.vercel.app/ref/apple</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">APPLE ADS EXPERIMENTATION</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>

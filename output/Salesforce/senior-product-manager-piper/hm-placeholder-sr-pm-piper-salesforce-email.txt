@@ -1,0 +1,20 @@
+Subject: Measuring an AI agent's conversation quality like a product metric, not a vibe
+
+Hi {Hiring Manager, Piper Product Team},
+
+I don't normally reach out before applying, but your req's framing, own Piper's conversation quality, define what great looks like, build the systems to measure it, is a loop I have already run on a smaller AI product of my own.
+
+I built SwipeHire, an AI product on the OpenAI API, zero-to-one: defined what good matching looked like, then ran 8+ A/B tests and 12+ user interviews until activation lifted 25%, closing the loop on real feedback the way your req describes.
+At Sensata I turned 30+ customer interviews into testable requirements, raising CSAT 22% across a 100+ feature backlog in a fast-moving B2B SaaS environment.
+My BE in Mechanical Engineering gives me the technical literacy to work closely with AI engineers on design discussions, not just translate their output.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/salesforce
+
+Open to 15 minutes if this is your req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

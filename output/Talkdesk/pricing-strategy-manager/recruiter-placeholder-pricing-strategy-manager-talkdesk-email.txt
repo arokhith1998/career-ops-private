@@ -1,0 +1,22 @@
+Subject: A guardrail engine for your Pricing Committee's documentation problem
+
+Hi {Recruiter, Talkdesk Pricing},
+
+I don't normally reach out before applying, but your posting's line about maintaining pricing documentation as the source of truth and cascading changes to SFDC/CPQ is a problem I have built the product for, not just worked around.
+
+Built you a 6-slide pitch deck so the proof fits on one read.
+
+At PriceKeel I designed a guardrail engine and a Finance-reviewable audit trail for discount exceptions, with the CRM/CPQ and deal-approval flow set up around it.
+At Sensata I ran the Bleeders & Leakers program: discounting analysis on 1,200 opportunities against a $627M target, recovering $700K+ in two quarters and lifting distributor margins 53% to 61%.
+I partnered with senior executives on multimillion-dollar customer quotes and AP26 revenue models, the direct-feedback-to-PMs seat your req describes.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/talkdesk
+
+Worth 15 minutes if this is your req, no worries if it already has an owner.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

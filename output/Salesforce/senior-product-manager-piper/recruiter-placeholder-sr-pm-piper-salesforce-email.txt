@@ -1,0 +1,20 @@
+Subject: I built an AI product on OpenAI's API, then measured and improved it like a test
+
+Hi {Recruiter, Qualified by Salesforce},
+
+I don't normally reach out before applying, but your req's ask, turn ambiguity into testable requirements for an AI agent's behavior and close the loop on real-world feedback, is work I have already done on my own AI product.
+
+I built SwipeHire on the OpenAI API from day one, defined what good matching looked like, then ran 8+ A/B tests and 12+ user interviews until activation lifted 25%.
+At Sensata I turned 30+ customer interviews into testable product requirements, closing the loop to raise CSAT 22% across a 100+ feature backlog.
+I use AI agents built on Claude across my full PM workflow today, from synthesizing analysis to prototyping.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/salesforce
+
+Worth 15 minutes if this is your req, no worries if it already has an owner.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

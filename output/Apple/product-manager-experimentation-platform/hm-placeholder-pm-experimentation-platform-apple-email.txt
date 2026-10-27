@@ -1,0 +1,22 @@
+Subject: Guardrails that earn trust for data-driven decisions, not just a dashboard
+
+Hi {Hiring Manager, Apple Ads Experimentation},
+
+I don't normally reach out before applying, but your req's framing, define key metrics, develop automated guardrail monitoring, and drive cultural adoption of data-driven decisions across product and engineering, is a loop I have run repeatedly, not just once.
+
+Built you a 6-slide pitch deck so the proof fits on one read.
+
+At Sensata I ran a 100+ feature backlog in Agile across 3 regions, grounded in a KPI framework in SQL and GA4 across 50K+ connected devices that lifted feature adoption 18%.
+I have run structured experiments at every stop since: 15+ A/B tests at Plug Power, 8+ on SwipeHire with 12+ user interviews, and Amplitude/Tableau analysis across 30+ campaigns at Pixis.
+At Applied Materials now I partner with Sales and Engineering to turn technical input into one data-driven view, the cross-functional pull this seat needs.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/apple
+
+Open to 15 minutes if this is your team's req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
