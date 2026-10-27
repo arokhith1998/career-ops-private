@@ -1,0 +1,20 @@
+Subject: Built the lifecycle flow, not just the strategy deck
+
+Hi {Hiring Manager, Quizlet Lifecycle Marketing},
+
+I don't normally reach out before applying, but your line that you care whether someone can build, not which tool they learned on, is the reason I am writing directly instead of just applying.
+
+At Plug Power I built the WordPress and Pardot lead flow myself, end to end, cutting cost per lead 50%, then ran 15+ A/B tests on what that flow fed.
+At Sensata I built the SQL and GA4 segmentation frameworks behind a +35% qualified-lead launch, the same measurement discipline a program needs to decide what earns a place in someone's inbox.
+At Applied Materials I now automate the repetitive half of reporting and copy iteration with AI agents built on Claude.
+
+Here's the portfolio: https://adhi-growth-ai.vercel.app/ref/quizlet
+
+Worth 15 minutes if this is your req? Happy to be pointed elsewhere if not.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

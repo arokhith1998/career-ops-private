@@ -1,0 +1,20 @@
+Subject: Customer-level profitability and margin recovery, run end to end
+
+Hi {Hiring Manager, Hyve Solutions Sales Operations},
+
+I don't normally reach out before applying, but your req's ask to own customer-level profitability, flag risks early and drive corrective action with senior stakeholders is close enough to what I run today that I wanted to flag it directly.
+
+At Sensata I recovered $700K+ in margin in 2 quarters leading the Bleeders & Leakers program, and raised distributor and channel-partner margins from 53% to 61% by repricing parts sold through distribution.
+I built the FY2026 Power BI dashboard behind that program, ranking 1,200 pricing opportunities against a $627M target across 3 regions and surfacing $433M in margin gaps by salesperson and product line.
+At Applied Materials I now automate the repetitive half of that analysis with AI agents built on Claude.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/hyve-solutions
+
+Worth 15 minutes if this is your req? Happy to be pointed elsewhere if not.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
