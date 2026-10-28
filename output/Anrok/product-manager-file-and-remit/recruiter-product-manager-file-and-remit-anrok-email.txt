@@ -1,0 +1,21 @@
+Subject: Build the filing platform that runs itself
+
+Hi {Recruiter, Talent},
+
+I do not normally reach out before applying, but a PM seat built around "file every return in the world" and "open Anrok to the world" is rare enough to write in before I apply.
+
+A few points that map straight to the req:
+- At Sensata I ran the Bleeders and Leakers program, tracking 1,200 revenue decisions against a $627M target and recovering $700K+ in margin, the closest analog to money movement where a mistake costs a customer money.
+- I built the Claude AI-agent automation now live at Applied Materials, the same instinct behind putting AI at the center of filing.
+- I built SwipeHire myself, Python and the OpenAI API, zero to one to 50+ users, a direct answer to the something-you-built-with-AI ask.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/anrok
+
+Worth 15 minutes if this is your req, no worries if someone else owns it.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

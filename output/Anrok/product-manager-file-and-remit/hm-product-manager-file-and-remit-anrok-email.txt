@@ -1,0 +1,22 @@
+Subject: The GM instinct behind the last mile of tax compliance
+
+Hi {Hiring Manager, File and Remit},
+
+I do not normally reach out before applying, but "everything else Anrok does builds up to this" is the kind of ownership line that made me want to flag myself first.
+
+A few points that map straight to the req:
+- At Sensata I ran the Bleeders and Leakers program end to end, tracking 1,200 revenue decisions against a $627M target and recovering $700K+ in margin, the same stakes as a last mile where a mistake costs a customer money.
+- I built the Claude AI-agent automation running at Applied Materials today, the same instinct behind agents that repair filing automation.
+- I am also running my own venture, PriceKeel, a decision-integrity layer for B2B deal pricing, the GM habit of owning a problem end to end.
+- I built SwipeHire on Python and the OpenAI API, zero to one to 50+ users, the concrete version of the something-you-built-with-AI ask.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/anrok
+
+Worth 15 minutes on how you are scoping the first few months, no worries if the timing is off.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

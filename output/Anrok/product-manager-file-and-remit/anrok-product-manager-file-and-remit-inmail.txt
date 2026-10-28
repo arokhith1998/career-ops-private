@@ -1,0 +1,18 @@
+Subject: Last-mile tax infrastructure, not a landing-page PM req
+
+Hi {Recruiter, Talent},
+
+This is not a feature-backlog PM seat, it is building a filing platform that runs itself and remittance rails that work from a local bank account in a dozen currencies. That is the kind of end-to-end ownership I keep ending up in.
+
+At Sensata I ran the Bleeders and Leakers program, tracking 1,200 revenue decisions against a $627M target and recovering $700K+ in margin, the same weight as a last mile where a mistake costs a customer money. I built the Claude AI-agent automation now live at Applied Materials, the same instinct behind agents that catch and repair filing problems on their own. I also built SwipeHire myself, Python and the OpenAI API, zero to one to 50+ users.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/anrok
+
+Open to 15 minutes on where filing volume is breaking the current systems first?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
