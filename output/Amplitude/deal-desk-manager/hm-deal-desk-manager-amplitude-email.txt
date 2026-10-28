@@ -1,0 +1,21 @@
+Subject: The checkpoint before a non-standard deal closes
+
+Hi {Hiring Manager, Deal Desk},
+
+I do not normally reach out before applying, but "serve as a strategic advisor on complex enterprise opportunities" is close enough to what I already do that I wanted to flag myself before the form.
+
+A few points that map straight to the req:
+- At Sensata I led the Bleeders and Leakers program end to end, tracking 1,200 pricing decisions against a $627M target and recovering $700K+ in margin by restructuring non-standard distributor terms against competitive gaps and customer willingness to pay.
+- I am also founder of PriceKeel, a decision-integrity layer for B2B deal pricing that flags a non-standard discount or packaging request before it reaches final review, with an audit trail Finance can rely on.
+- I built the Claude AI-agent automation now running at Applied Materials, the same instinct behind scaling a quote-to-order process with AI.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/amplitude
+
+Worth 15 minutes on how you are scoping the first few months, no worries if the timing is off.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

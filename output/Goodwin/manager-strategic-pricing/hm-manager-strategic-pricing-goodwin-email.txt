@@ -1,0 +1,21 @@
+Subject: Pricing proposals that survive a client's own CFO
+
+Hi {Hiring Manager, Client Value},
+
+I do not normally reach out before applying, but mentoring analysts on pricing while also running live fee negotiations is a combination I already live in, so I wanted to flag myself before the form.
+
+A few points that map straight to the req:
+- At Sensata I built the Bleeders and Leakers benchmarking model, modeling 1,200 pricing decisions against a $627M target and surfacing $433M in margin gaps by account, recovering $700K+ in margin in two quarters.
+- I raised distributor and channel margins from 53% to 61% by restructuring pricing terms and documenting the new logic so Finance could enforce and benchmark it, the same audit trail a fee proposal needs to survive client scrutiny.
+- I am founder of PriceKeel, building an AI-enabled pricing and benchmarking tool right now, and I automate repetitive pricing analysis with Claude AI agents at Applied Materials.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/goodwin
+
+Worth 15 minutes on how the team is scoping AI-enabled pricing tools this year, no worries if the timing is off.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

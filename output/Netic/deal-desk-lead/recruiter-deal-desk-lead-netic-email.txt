@@ -1,0 +1,21 @@
+Subject: Building the approval matrix from zero, twice
+
+Hi {Recruiter, Talent},
+
+I do not normally reach out before applying, but "there's no approval matrix, pricing playbook or deal review process yet, you'll design all three" is a sentence I could have written about my own week.
+
+A few points that map straight to the req:
+- I am founder of PriceKeel, building a deal desk from zero right now: a guardrail engine with no inherited playbook, learned from each company's own closed-won and closed-lost deals.
+- At Sensata I modeled deal economics at the deal and portfolio level, tracking 1,200 pricing decisions against a $627M target and recovering $700K+ in margin by restructuring discount and multi-year terms.
+- I built the Claude AI-agent automation now running at Applied Materials, the same automate-approvals-as-volume-grows instinct behind the CPQ standards this role sets.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/netic
+
+Worth 15 minutes if this is your req, no worries if someone else owns it.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

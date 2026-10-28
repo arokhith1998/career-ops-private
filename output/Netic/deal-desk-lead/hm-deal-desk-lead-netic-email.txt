@@ -1,0 +1,21 @@
+Subject: No process to tune here, a process to invent
+
+Hi {Hiring Manager, Deal Desk},
+
+I do not normally reach out before applying, but "you'll be Netic's first Deal Desk hire" is the kind of zero-to-one ownership line that made me want to flag myself first.
+
+A few points that map straight to the req:
+- I am founder of PriceKeel, building a deal desk from zero right now, the same approval matrix and guardrail engine this role asks someone to design from scratch.
+- At Sensata I ran the Bleeders and Leakers program, modeling 1,200 deal-level pricing decisions against a $627M target and surfacing $433M in margin gaps by rep and product line, recovering $700K+ in margin in two quarters.
+- I built the Claude AI-agent automation now running at Applied Materials, the same instinct behind automating approvals as volume grows.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/netic
+
+Worth 15 minutes on where discounting is leaking margin today, no worries if the timing is off.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

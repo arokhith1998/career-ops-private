@@ -1,0 +1,21 @@
+Subject: Deal Desk built on the system that recovered $700K in margin
+
+Hi {Recruiter, Talent},
+
+I do not normally reach out before applying, but a Deal Desk seat at a company whose own values page leads with "operate from a place of humility" and "put the customer at the center" made me want to flag myself first.
+
+A few points that map straight to the req:
+- At Sensata I ran the Bleeders and Leakers program, tracking 1,200 pricing decisions against a $627M target and recovering $700K+ in margin by restructuring non-standard distributor terms, the same deal-structuring work this role owns.
+- I am founder of PriceKeel, a decision-integrity layer for B2B deal pricing that flags a non-standard discount before it reaches final approval, the exact checkpoint a Deal Desk runs across Sales, Finance and Legal.
+- I run the CRM and Salesforce CPQ configuration myself, so I know what breaks in a quote-to-order process left to manual judgment.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/amplitude
+
+Worth 15 minutes if this is your req, no worries if someone else owns it.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
