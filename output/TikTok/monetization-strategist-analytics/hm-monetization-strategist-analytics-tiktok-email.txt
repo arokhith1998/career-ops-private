@@ -1,0 +1,23 @@
+Subject: Attribution that survives a PM, an engineer and a sales lead asking why
+
+Hi {Hiring Manager, Monetization Products},
+
+I do not normally cold-email before applying, but a seat built around turning "quantitative attribution methods" into a number a PM, an engineer and a sales lead all trust is close to work I already run, not a new skill to learn on the job.
+
+Built a 6-slide pitch deck mapping that work to this brief.
+
+At Sensata I built a Power BI model scoring 1,200 pricing opportunities against a $627M target, surfacing $433M in gaps for leadership to prioritize.
+At Pixis I ran iOS app attribution through Appsflyer and Adjust, then used Amplitude and Tableau to lift ROAS 40% across 30+ campaigns.
+I built KPI frameworks in SQL and GA4 on 50K+ connected devices to find the adoption signal buried in the noise.
+At Applied Materials I still partner with Sales, Engineering and Accounts on every sizing model, the same cross-functional range this seat needs.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/tiktok
+
+Worth 15 minutes on how the team is scoping the attribution work?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

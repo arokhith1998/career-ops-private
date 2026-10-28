@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>TikTok Monetization Strategist (Analytics) Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #c2185b; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 30pt; font-weight: 800; color: #0f172a; line-height: 1.1; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 21pt; font-weight: 800; color: #0f172a; line-height: 1.1; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #c2185b; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.5in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #fbdce7 100%); }
+  .cover h1 { font-size: 30pt; max-width: 11.2in; }
+  .cover .sub { font-size: 14pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 18pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #c2185b; font-weight: 700; }
+  .cover .who { margin-top: 18pt; padding-top: 11pt; border-top: 1.5pt solid #c2185b; max-width: 9.5in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #c2185b; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #fde8ee; border-left: 3pt solid #c2185b; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #c2185b; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #c2185b; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #fde8ee; border-left: 4pt solid #c2185b; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #c2185b; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #c2185b; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 24pt; font-weight: 800; color: #c2185b; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #c2185b; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #c2185b; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #c2185b; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #fbdce7 100%); }
+  .close h2 { font-size: 26pt; max-width: 10.5in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.8in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #c2185b; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the TikTok Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | TikTok Monetization Strategist (Analytics)</div>
+  <h1>A monetization data science team does not need another dashboard. It needs a metrics framework that tells risk apart from opportunity before the quarter closes. I have built exactly that model, twice.</h1>
+  <div class="sub">Metrics-framework design, statistical attribution and the SQL/Power BI discipline to turn monetization data into a decision.</div>
+  <div class="tags">
+    <div class="tag"><strong>$627M</strong> pricing-opportunity model built from scratch, scoring 1,200 line items</div>
+    <div class="tag"><strong>$433M</strong> in margin gaps surfaced for leadership to prioritize</div>
+    <div class="tag"><strong>$700K+</strong> recovered in 2 quarters once the model's calls were acted on</div>
+    <div class="tag"><strong>Appsflyer + Adjust</strong> mobile attribution run across an 8-client ad portfolio</div>
+    <div class="tag"><strong>Guardrail engine</strong> that scores every exception as risk or opportunity, built as a company at PriceKeel</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-pricing-ai.vercel.app/ref/tiktok</div>
+  </div>
+  <div class="brand">TIKTOK MONETIZATION ANALYTICS</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>A monetization team never runs out of signal. It runs out of time to turn signal into a framework <span class="accent">before the trend goes stale.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What a monetization data science team runs into</h4>
+      <div class="line">Every commercial product throws off more events than anyone can read by hand; the job is building the metrics framework that separates a real risk or opportunity from noise, fast.</div>
+      <div class="line">Attribution is the hard part. A trend that looks causal in one cut of the data often is not, and a wrong call shapes the next quarter's goal-setting.</div>
+      <div class="line">The output has to move PMs, engineering, sales and strategy at the same time, or the research sits in a deck no one acts on.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run, at comparable scale</h4>
+      <div class="line">At <b>Sensata</b>, I built a $627M-opportunity Power BI model from 1,200 raw line items, scoring each one and surfacing $433M in margin gaps leadership could act on.</div>
+      <div class="line">At <b>Pixis</b>, I ran mobile and retail-media attribution (Appsflyer, Adjust, Amazon Ads, Criteo) across an 8-client ad portfolio, then used Amplitude and Tableau to separate signal from noise.</div>
+      <div class="line">At <b>PriceKeel</b>, I built the risk-versus-opportunity classifier itself: a guardrail engine and audit trail that make the call defensible, not just directional.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">This req asks for metrics frameworks, statistical attribution and research that moves business goal-setting. That is the exact loop above, run on monetization data instead of industrial pricing data.</div>
+  </div>
+  <div class="brand">TIKTOK MONETIZATION ANALYTICS</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What the Monetization Strategist opening asks for, and where the proof sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Design metrics frameworks for commercial products, analyze key trends, and plan research topics that improve monetization ROI."</div></div>
+      <div class="quote"><div class="q">"Fluency in SQL/Hive and R or Python; knowledge of quantitative attribution methods."</div></div>
+      <div class="quote"><div class="q">"Works with PMs, engineering, sales and strategy teams on risk/opportunity identification."</div></div>
+    </div>
+    <div class="col">
+      <h3>My Proof</h3>
+      <div class="proof"><div class="p"><b>Bleeders and Leakers model at Sensata:</b> a metrics framework turning 1,200 pricing opportunities into $433M in margin gaps surfaced and $700K+ recovered.</div></div>
+      <div class="proof"><div class="p"><b>SQL and GA4 KPI frameworks:</b> built on 50K+ connected devices at Sensata to find the adoption signal buried in the noise.</div></div>
+      <div class="proof"><div class="p"><b>Attribution in production:</b> Appsflyer and Adjust for mobile UA, Amplitude and Tableau for behavioral analysis, at Pixis.</div></div>
+      <div class="proof"><div class="p"><b>Cross-functional reach:</b> AP26 revenue models and multimillion-dollar customer quotes carried with senior executives and Sales at Sensata.</div></div>
+    </div>
+  </div>
+  <div class="brand">TIKTOK MONETIZATION ANALYTICS</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The Sensata proof, in depth</div>
+  <h2>Bleeders and Leakers: <span class="accent">a metrics framework that turned into a number leadership acted on.</span></h2>
+  <div class="lede">Built as a BU-wide Power BI system covering 1,200 pricing opportunities against a $627M target across 3 regions, 4 product families and 20 product lines, with pipeline funnel, win rate and stage distribution.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$433M</div>
+      <div class="lbl">Margin Gaps Surfaced</div>
+      <div class="desc">The model's job: separate a real opportunity from noise across 1,200 line items in one view.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$700K+</div>
+      <div class="lbl">Margin Recovered in 2 Quarters</div>
+      <div class="desc">Closed through alignment with Sales and Finance, grounded in competitive gaps and willingness to pay.</div>
+    </div>
+    <div class="stat">
+      <div class="n">53% to 61%</div>
+      <div class="lbl">Distributor Margin Lift</div>
+      <div class="desc">Repricing executed and brought to leadership for sign-off, not just modeled.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">The same model also flagged line items where a price change could lift profitability more than 50%, a recurring trend-and-opportunity scan close to this req's "analyze key trends" responsibility.</div>
+  <div class="brand">TIKTOK MONETIZATION ANALYTICS</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month on TikTok's Monetization Products data science team looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Learn how a monetization call gets made today</div>
+      <div class="body">Sit with the Monetization Products PMs, engineering and strategy teams to map how a recent risk/opportunity call moved from raw data to a decision, and where the metrics framework already exists versus where it is still ad hoc.</div>
+      <div class="why"><strong>Why first:</strong> the same move that started the PriceKeel guardrail engine, map what is missing before building anything new.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Build the first attribution-backed framework</div>
+      <div class="body">Take one live monetization trend and build the metrics framework scoring it as risk or opportunity, using SQL and the team's data visualization stack, pressure-tested with the PM and sales partners before it reaches a research topic.</div>
+      <div class="why"><strong>Why now:</strong> building it against a real trend, not in a vacuum, is what made the $433M in margin gaps hold at Sensata.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Ship a research topic that moves goal-setting</div>
+      <div class="body">Turn that framework into a research topic recommendation with a clear monetization-ROI number attached, so the next business goal-setting cycle starts from a model instead of an anecdote.</div>
+      <div class="why"><strong>Why this fast:</strong> a monetization analytics function only scales once its calls are defensible enough for Finance and Sales to act on without a rerun.</div>
+    </div>
+  </div>
+  <div class="brand">TIKTOK MONETIZATION ANALYTICS</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to turn monetization data into a metrics framework that tells risk apart from opportunity. I have already run that loop at comparable scale.</h2>
+  <div class="body">
+    <p>The core proof is Sensata: a <strong>$627M-opportunity Power BI model</strong> built from scratch, scoring 1,200 line items and surfacing <strong>$433M in margin gaps</strong>, with $700K+ recovered once leadership acted on it.</p>
+    <p>What is harder to find is someone who has also run attribution as a production problem: <strong>Appsflyer and Adjust</strong> for mobile UA, <strong>Amplitude and Tableau</strong> for behavioral analysis, at Pixis, and who has built the risk-versus-opportunity classifier itself as a company at <strong>PriceKeel</strong>.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-pricing-ai.vercel.app/ref/tiktok</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">TIKTOK MONETIZATION ANALYTICS</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
