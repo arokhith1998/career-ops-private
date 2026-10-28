@@ -6,7 +6,7 @@ Your posting's own line, analyzing results and presenting key insights to execut
 
 Built you a 6-slide pitch deck so the proof fits on one read.
 
-At Sensata I recovered $700K+ in margin in two quarters leading the Bleeders and Leakers program, negotiating off competitive gaps and customer willingness to pay, then turned that same data set into a Power BI dashboard tracking 1,200 pricing opportunities against a $627M target across 3 regions and 20 product lines, surfacing $433M in margin gaps for leadership to prioritize. Before that, I led 5 consultants through a TAM/SAM/SOM study for Safran, narrowing 170 facilities to a SAM of 28 and presenting the findings to their leadership directly. At Applied Materials I now automate that same forecasting and market sizing work with Claude based AI agents.
+At Sensata I recovered $700K+ in margin in two quarters leading the Bleeders and Leakers program, negotiating off competitive gaps and customer willingness to pay, then turned that same data set into a Power BI dashboard tracking 1,200 pricing opportunities against a $627M target, surfacing $433M in margin gaps for leadership to prioritize. Before that, I led 5 consultants through a TAM/SAM/SOM study for Safran, narrowing 170 facilities to a SAM of 28 and presenting the findings to their leadership directly. At Applied Materials I now automate that same forecasting and market sizing work with Claude based AI agents.
 
 Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/google
 
