@@ -1,0 +1,20 @@
+Subject: The telemetry-to-PRD loop your posting describes, already built
+
+Hi {Recruiter, Cisco Product Management},
+
+I do not normally reach out before applying, but the line about turning telemetry analysis into product requirement documents for Fortune 500 accounts reads like a job I already did, not one I would be learning on the clock.
+
+At Sensata I read telemetry from 50,000+ connected devices in SQL and GA4 to drive a 100+ feature backlog, accelerating releases 25% and cutting time to market 20%, with adoption up 18%.
+At Applied Materials I run AI agents built on Claude to automate the forecasting grind, the same agentic AI acceleration your posting asks a PM to bring to discovery and early access programs.
+I also wrote the PRD and scoped the MVP for SwipeHire zero to one, with no team handed to me.
+
+Here's the portfolio: https://adhi-product.vercel.app/ref/cisco
+
+Worth 15 minutes if this is your req, no worries if it already has an owner.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

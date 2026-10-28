@@ -1,0 +1,18 @@
+Subject: Agentic AI inside the PM workflow, not a slide, a daily habit
+
+Hi {Recruiter, Cisco Talent Acquisition},
+
+Your posting asks for agentic AI inside the PM workflow itself, speeding up discovery, feedback synthesis and delivery cycles, not as a line on a resume. That is exactly how I already work, not a new tool I would be adopting on this job.
+
+At Applied Materials I built AI agents on Claude to automate the repetitive side of forecasting and market research, freeing time for the judgment calls on pricing and roadmap timing. At Sensata I used telemetry from 50,000+ connected devices to drive a 100+ feature backlog, cutting time to market 20%. I also wrote the PRD and scoped the MVP for SwipeHire zero to one, with no team handed to me.
+
+Here's the portfolio: https://adhi-product.vercel.app/ref/cisco
+
+Open to 15 minutes on where the agentic AI workflow gaps sit right now?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
