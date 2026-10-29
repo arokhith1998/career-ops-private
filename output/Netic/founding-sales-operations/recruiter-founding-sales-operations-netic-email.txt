@@ -2,12 +2,12 @@ Subject: Carving territories from a capacity model, not a template
 
 Hi {Recruiter, Talent},
 
-I do not normally reach out before applying, but "one week you're carving territories from a capacity model, the next you're tracing why pipeline coverage dropped in one segment" is close to a description of my current week.
+I do not normally reach out before applying, but "carving territories from a capacity model one week, tracing why pipeline coverage dropped the next" is close to a description of my current week.
 
 A few points that map straight to the req:
-- I am founder of PriceKeel, building the CRM, CPQ configuration and forecast/pipeline-review system from zero, the same first-sales-ops build this role asks for.
-- At Sensata I built the Bleeders and Leakers sales metrics layer: 1,200 opportunities tracked against a $627M target across 3 regions, 4 product families and 20 product lines, recovering $700K+ in margin in two quarters by finding where deals were leaking by segment and rep.
-- I automated the Salesforce, Adobe Analytics and Google Analytics stack at Plug Power for closed-loop reporting, the same admin-level Salesforce fluency this role runs on day to day.
+- I am founder of PriceKeel, building the CRM, CPQ and forecast/pipeline-review system from zero, the same first-sales-ops build this role asks for.
+- At Sensata I built the Bleeders and Leakers metrics layer: 1,200 opportunities against a $627M target, recovering $700K+ in margin in two quarters by finding where deals leaked by segment and rep.
+- I automated Salesforce, Adobe Analytics and GA at Plug Power for closed-loop reporting, the same admin-level Salesforce fluency this role runs on.
 
 Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/netic
 
