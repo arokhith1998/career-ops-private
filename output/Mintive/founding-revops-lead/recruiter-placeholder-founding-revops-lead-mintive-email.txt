@@ -5,9 +5,9 @@ Hi {Recruiter, Mintive},
 I do not normally reach out before applying, but "you'd rather build the machine than feed it" describes what I am doing right now, not something I would need to learn on the job.
 
 A few points that map straight to the req:
-- I am founder of PriceKeel, building our CRM, CPQ configuration and forecast/pipeline-review system from zero, the same founding build this role asks for before the Head of Revenue has a system to inherit.
-- At Sensata I built the Bleeders and Leakers metrics layer: 1,200 opportunities tracked against a $627M target, recovering $700K+ in margin in two quarters by settling pricing disputes from the data instead of precedent.
-- At Applied Materials I run Claude agent workflows daily to automate market-sizing and forecasting analysis, the agent-native habit this role runs on.
+- Founder of PriceKeel, building our CRM, CPQ and forecast/pipeline-review system from zero, the same founding build this role asks for before the Head of Revenue has a system to inherit.
+- At Sensata I built the Bleeders and Leakers metrics layer: 1,200 opportunities against a $627M target, recovering $700K+ in margin in two quarters by settling pricing disputes from data instead of precedent.
+- At Applied Materials I run Claude agent workflows daily to automate forecasting analysis, the agent-native habit this role runs on.
 
 Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/mintive
 
