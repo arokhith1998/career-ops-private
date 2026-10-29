@@ -1,0 +1,23 @@
+Subject: Built the agent before the req asked for proof
+
+Hi {Hiring Manager, Demandbase Growth Marketing},
+
+I don't normally reach out before applying, but "part operator and part builder" is a rare split to see in one req, and it's the exact way I already work.
+
+Built you a 6-slide pitch deck so the proof fits on one read.
+
+I run Claude agents at Applied Materials today to automate recurring analysis and reporting, and before that I built SwipeHire, an AI job-matching platform end to end on Python and the OpenAI API, the shipped-and-in-use bar your posting sets for every candidate.
+At Plug Power I managed a paid media agency against CPA, not clicks, running $100K/month across Google, Meta and LinkedIn and cutting CPA 25% through creative and audience testing.
+At Sensata I built SQL and GA4 KPI frameworks that tracked funnels from channel to close, the same ad-to-MAP-to-CRM-to-pipeline thread your measurement section calls out.
+At Pixis I ran an 8-client paid-media portfolio to pipeline targets, hitting 3x ROAS in one month.
+
+Here's the portfolio: https://adhi-growth-ai.vercel.app/ref/demandbase
+
+Open to 15 minutes if this is your team's req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
