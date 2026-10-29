@@ -1,0 +1,21 @@
+Subject: Revenue and Pricing Finance Analyst - production workflows, not one-off decks
+
+Hi {Hiring Manager, Product FP&A},
+
+Your posting draws a line between ad hoc prototypes and production-ready, systematized reporting, and that line is where I spend most of my time. At PriceKeel, the company I founded, I built the pricing exception workflow myself, CRM, CPQ and forecast reviews, with an audit trail that makes every exception explainable to Finance instead of recreated after the fact.
+
+A few more data points for the team:
+- Built a BU-wide Power BI price-increase model that flagged line items where a price change could lift profitability more than 50%.
+- A related model turned 1,200 pricing opportunities into one source of truth and helped recover $700K plus in margin in two quarters.
+- At Applied Materials I carry forecasting and revenue models across product groups and automate the repetitive analysis with Claude agents.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/nvidia
+
+Open to 15 minutes if the Revenue Analytics team's data model work is a fit, no hard feelings if the req has moved on.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: github.com/arokhith1998

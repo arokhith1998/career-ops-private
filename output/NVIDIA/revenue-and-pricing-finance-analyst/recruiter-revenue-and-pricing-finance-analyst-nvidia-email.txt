@@ -1,0 +1,21 @@
+Subject: Revenue and Pricing Finance Analyst - one source of truth for pricing and rebates
+
+Hi {Recruiter, Sales Finance Revenue Analytics},
+
+I do not normally reach out before applying, but consolidating pricing and rebate data from multiple systems into one source of truth is a problem I already run.
+
+A few numbers from that work:
+- Built a pricing data model across 1,200 opportunities and 3 regions into one Power BI view against a $627M target, surfacing $433M in margin gaps.
+- That model recovered $700K plus in margin within two quarters by reconciling what each system said about the same deal.
+- At Applied Materials I run forecasting and revenue models across product groups, automated with Claude agents.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/nvidia
+
+If not your req, a pointer to whoever owns Revenue Analytics would help. Otherwise, 15 minutes on the model?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: github.com/arokhith1998
