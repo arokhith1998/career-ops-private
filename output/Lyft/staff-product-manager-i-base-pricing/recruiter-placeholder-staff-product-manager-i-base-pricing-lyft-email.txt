@@ -2,23 +2,17 @@ Subject: The trust gap under a pricing model is the part I already closed
 
 Hi {Recruiter, Lyft Pricing},
 
-I do not usually send a note before applying, but Base Pricing's framing stopped me: a machine-learning stack recommends a price change, and the harder job is getting a market manager to trust it enough to actually ship it.
+I do not usually write in before applying, but Base Pricing's framing stopped me: a model recommends a price, and the harder job is getting a market manager to trust it enough to ship it.
 
 Built you a 6-slide pitch deck so the proof fits in one read.
 
-At Sensata I led the Bleeders and Leakers program, ranking 1,200 pricing opportunities against a $627M target across 3 regions, 4 product families, and 20 product lines.
+At Sensata I ranked 1,200 pricing opportunities against a $627M target, then got the team to act: $700K in margin recovered in two quarters, distributor margins up from 53% to 61%, and a 12% revenue lift against 10+ competitors.
 
-Getting market and sales leadership to act on what that dashboard surfaced, rather than filing it away, recovered $700K in margin in two quarters and raised distributor margins from 53% to 61%.
-
-That same pricing realignment, backed by competitive benchmarking against 10+ players, drove a 12% revenue lift and an 8% market share gain.
-
-PriceKeel, the company I founded, reads a live discount exception and recommends an explainable guardrail with an audit trail Finance can use instead of taking a black box on faith, the same bar Base Pricing's impact-estimation models have to clear with market management teams.
-
-At Applied Materials I size markets with Sales and Engineering and build competitive, value-based pricing across multiple product groups, forecasting the inflection points where a price needs to move before demand does.
+PriceKeel, which I founded, recommends an explainable, audit-trailed guardrail instead of a black box, the same trust bar Base Pricing's models have to clear.
 
 Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/lyft
 
-If this is your req, I would value 15 minutes to see if the fit is real. If it already has an owner, a pointer in the right direction is plenty.
+If this is your req, I would value 15 minutes. If not, a pointer is plenty.
 
 Thank you,
 
