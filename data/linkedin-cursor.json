@@ -1,22 +1,6 @@
 {
-  "cursor": 0,
+  "cursor": 8,
   "runs": [
-    {
-      "at": "2026-10-19T06:21:13.243Z",
-      "terms": [
-        "us:Strategic Marketing",
-        "us:Market Strategy",
-        "us:Competitive Intelligence",
-        "us:Growth Marketing Manager",
-        "us:Deal Desk",
-        "india:Chief of Staff",
-        "india:Head of Growth",
-        "india:Founder's Office"
-      ],
-      "queries": 26,
-      "rows": 205,
-      "health": "ok"
-    },
     {
       "at": "2026-10-19T11:07:43.240Z",
       "terms": [
@@ -319,6 +303,22 @@
       ],
       "queries": 22,
       "rows": 177,
+      "health": "ok"
+    },
+    {
+      "at": "2026-10-29T11:04:38.177Z",
+      "terms": [
+        "us:Product Marketing Manager",
+        "us:Pricing Manager",
+        "us:Pricing Strategy",
+        "us:Revenue Operations",
+        "us:Product Manager",
+        "us:Strategic Marketing",
+        "us:Market Strategy",
+        "us:Competitive Intelligence"
+      ],
+      "queries": 32,
+      "rows": 215,
       "health": "ok"
     }
   ]
