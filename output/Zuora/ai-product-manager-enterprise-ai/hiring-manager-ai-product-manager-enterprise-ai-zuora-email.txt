@@ -1,0 +1,21 @@
+Subject: Enterprise AI Product Manager, req P105623 - a governance angle worth 15 minutes
+
+Hi {Hiring Manager, Enterprise AI Team},
+
+Your team guards frontier model platforms and a growing portfolio of agents, and the posting pairs that with a self-service learning hub for ZEOs. That pairing, governance plus enablement in one product, is the exact split I already run.
+
+- At PriceKeel I built the explainable discount guardrail and audit trail that lets Finance review the pricing decision behind it, the same governance muscle your access controls need.
+- At Sensata I ran 30+ customer interviews into a 100+ feature backlog, shipping with engineering across 3 regions, cutting time to market 20%.
+- At Applied Materials I automate recurring analysis with Claude-built AI agents daily.
+- Sales enablement I built lifted adoption 30% among 50+ reps, the training half of this role.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/zuora
+
+If the team already has this covered, no worries at all. If not, 15 minutes to compare notes on the ZEO learning problem?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
