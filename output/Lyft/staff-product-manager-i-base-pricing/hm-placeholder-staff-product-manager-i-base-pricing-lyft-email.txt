@@ -1,0 +1,28 @@
+Subject: Where "one price" stops making sense, I have already drawn that line
+
+Hi {Hiring Manager, Lyft Base Pricing},
+
+I do not usually write in before applying, but determining the optimal granularity for base pricing, by time, location, and ride type, is a decision I have made before, just with regions and product lines standing in for ride type.
+
+I built a 6-slide pitch deck so the proof fits in one read rather than a call.
+
+At Sensata I built the FY2026 pricing dashboard spanning 3 regions, 4 product families, and 20 product lines, which meant deciding exactly where the line between one price and many should sit before the model stopped being useful.
+
+That decision, paired with competitive benchmarking against 10+ players, drove a 12% revenue lift and an 8% market share gain.
+
+The underlying Bleeders and Leakers program recovered $700K in margin in two quarters and raised distributor margins from 53% to 61%.
+
+At Applied Materials I build competitive, value-based pricing across multiple product groups and forecast the inflection points where a price needs to move ahead of demand, the same forward-looking posture base pricing needs as the fleet shifts toward a hybrid network with autonomous vehicles.
+
+The harder problem underneath all of it is trust: getting a market manager, or an executive, to act on what a model recommends. PriceKeel, which I founded, exists for exactly that, reading a live discount exception and recommending an explainable guardrail with an audit trail Finance can use instead of taking a black box on faith.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/lyft
+
+Worth 15 minutes to see if the fit is real? Happy to be pointed elsewhere if this is not your req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
