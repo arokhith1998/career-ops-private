@@ -1,0 +1,20 @@
+Subject: Email, in-app and Slack should agree on what adoption means
+
+Hi {Hiring Manager, Commercial Lifecycle Marketing},
+
+I do not normally cold-email a hiring manager, but one journey spanning email, in-app prompts and Slack for 14k+ Commercial accounts only works if those three channels agree on what counts as progress, and that cross-channel discipline is what I already run.
+
+No deck here, the resume and cover letter carry the proof.
+
+At Plug Power I automated the WordPress and Pardot lead flow into one path, cutting cost per lead 50% while running 15+ A/B tests to validate small before scaling, the exact loop this role runs on. At Sensata I built SQL and GA4 KPI frameworks across 50K+ connected devices, isolating the usage signals that predicted adoption and lifting it 18%. At Applied Materials I run repetitive analysis through Claude agents daily, so prototyping with AI is already a habit.
+
+Here's the portfolio: https://adhi-growth-ai.vercel.app/ref/pagerduty
+
+Worth 15 minutes on how Sales, CS and Product currently disagree about the next best action? No worries if this already has an owner.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
