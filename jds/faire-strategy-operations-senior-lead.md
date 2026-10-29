@@ -13,9 +13,6 @@
 ## Work authorization / sponsorship / citizenship / clearance / degree / grad-year sentences (verbatim)
 No sentence on work authorization, sponsorship, visa, citizenship, clearance, required degree field, or graduation year found in the extracted text.
 
-## EXPERIENCE GATE: OVER CAP
-JD states "8+ years of relevant work experience in an analytical and strategic role across analytics, consulting, product, business operations, or finance" -- exceeds the US-track cap of 6 years (config/nightly.yml -> tracks.us.max_years). Flagged OVER by check-jd-experience.mjs convention; excluded from data/extracted-batch-2.tsv.
-
 ## Full JD Text
 
 About Faire
@@ -71,3 +68,6 @@ Faire provides equal employment opportunities (EEO) to all employees and applica
 
 ## Liveness
 Active. Sign-in wall for full application but posting content visible, no closed/expired notice. Confirmed 2026-10-29.
+
+## Extraction notes
+JD's own "8+ years of relevant work experience" line (see Qualifications above) is the binding requirement figure; this exceeds the US-track ceiling, so this posting is excluded from data/extracted-batch-2.tsv.
