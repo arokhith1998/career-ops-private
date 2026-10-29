@@ -1,0 +1,22 @@
+Subject: Every number has an owner, a definition, and a consequence
+
+Hi {Head of Revenue, Mintive},
+
+I do not normally reach out before applying, but "every number has an owner, a definition, and a consequence" is exactly how I already run things, not a line I am adopting for the interview.
+
+A few points that map straight to the req:
+- At Sensata I built the FY2026 Bleeders and Leakers Power BI layer, the closest thing that org had to a single source of truth: 1,200 opportunities against a $627M target, win rate and stage broken out by rep, and I settled pricing disputes from that data instead of precedent, recovering $700K+ in margin in two quarters.
+- I am founder of PriceKeel, standing up CRM, CPQ configuration and the forecast/pipeline-review cadence from zero, so Finance can audit a pricing call instead of taking it on faith, the same founding build this role owns.
+- At Applied Materials I automate repetitive revenue and market-sizing analysis with Claude agents daily, so building agents that act is not a new habit.
+- At Sensata I also raised distributor and channel-partner margins from 53% to 61% by resolving channel-attribution disputes and making the call stick, the same kind of partner and co-sell number this role will need settled and kept settled.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/mintive
+
+Worth 15 minutes on how you want the data foundation prioritized against the agent backlog, no worries if this already has an owner.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
