@@ -1,0 +1,20 @@
+Subject: A tracker with baseline, target and owner is not new to me
+
+Hi {Recruiter, SiteRecon},
+
+I do not normally reach out before applying, but the job's own tracker spec, baseline, target, current result and owner for every initiative, is a format I already build, not one I would be learning here.
+
+At Sensata I built a Power BI dashboard tracking 1,200 pricing opportunities against a $627M target across 3 regions and 20 product lines, surfacing $433M in margin gaps for leadership.
+I run PriceKeel's own CRM, CPQ and deal-approval workflow end to end, so I know what a tracker needs to survive daily use, not just a demo.
+At Applied Materials I partner with Sales, Engineering and Accounts on forecasting models and automate the reporting with Claude agents.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/siterecon
+
+Worth 15 minutes if this is your req, happy to be pointed elsewhere if not.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
