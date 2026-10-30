@@ -1,0 +1,22 @@
+Subject: Built in code, not clicked together, is already how I work
+
+Hi {Recruiter, Revenue Operations},
+
+I do not normally reach out before applying, but a founding RevOps brief that insists ops gets built in code, versioned in a repo, instead of clicked together, is exactly how I already run my own company's stack.
+
+Built you a 6-slide pitch deck so the proof fits on one read.
+
+At Sensata I built the Bleeders and Leakers pipeline from scratch, ranking 1,200 opportunities against a $627M target and recovering $700K+ in margin in 2 quarters.
+I raised distributor margins from 53% to 61% and drove +12% YoY revenue off that pipeline.
+At PriceKeel I run my own CRM, CPQ, forecast and pipeline reviews end to end, the same build-in-code standard this req asks for.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/wispr-flow
+
+Worth 15 minutes on where the Revenue Operations req stands? No worries if it already has an owner.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

@@ -1,0 +1,22 @@
+Subject: A billion-person voice interface needs ops built the same way
+
+Hi {VP of Revenue Operations, Wispr Flow},
+
+I do not normally message before applying, but being the first RevOps hire under a stated goal of a billion daily users is the seat I already built for myself at PriceKeel: systems and plays from zero, not someone else's opinions to clean up.
+
+Built you a 6-slide pitch deck mapping that scope to Wispr specifically.
+
+At PriceKeel I own deal desk and quote-to-cash end to end: deal structure, discount approvals, and the handoff from closed-won to billed, for my own GTM motion.
+At Sensata I built the Bleeders and Leakers pipeline from scratch, ranking 1,200 opportunities against a $627M target, recovered $700K+ in margin in 2 quarters, and raised distributor margins from 53% to 61%.
+At Applied Materials I run AI agents on Claude against the revenue model instead of clicking through it, in code and versioned in a repo, the standard a founding function needs on day one.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/wispr-flow
+
+Worth 15 minutes on how you are sequencing the first 90 days?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
