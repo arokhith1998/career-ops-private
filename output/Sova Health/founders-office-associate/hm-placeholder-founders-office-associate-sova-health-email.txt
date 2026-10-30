@@ -1,0 +1,22 @@
+Subject: Sova's founder's office problem: no one above me to clarify scope either
+
+Hi {Hiring Manager, Founder's Office},
+
+I don't normally cold-email before applying, but your posting wants a specific kind of ambiguity: problems with no existing owner, momentum that depends on one person building structure as they go. I run that shape of problem for PriceKeel, the company I founded, where there is no cofounder to hand anything off to.
+
+A few data points instead of a pitch:
+- Run PriceKeel's full operating system solo: CRM and CPQ, forecast and pipeline reviews, deal approvals, and the investor materials behind the raise.
+- At Sensata, built a Power BI dashboard tracking 1,200 pricing opportunities against a $627M target, then closed $700K of that gap in two quarters.
+- Led a 5-consultant team narrowing 170 facilities to a 28-facility target list for Safran, then presented the recommendation to their leadership.
+- At Applied Materials I automate repetitive market research with Claude agents, the instinct your posting flags as a bonus.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/sova-health
+
+Open to 15 minutes on what the founders need owned first; a pointer works too.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
