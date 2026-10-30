@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Deepgram Senior Manager, Deal Desk Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #0d5c8c; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 28pt; font-weight: 800; color: #0f172a; line-height: 1.12; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 21pt; font-weight: 800; color: #0f172a; line-height: 1.1; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #0d5c8c; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.5in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d6e8f3 100%); }
+  .cover h1 { font-size: 28pt; max-width: 11.4in; }
+  .cover .sub { font-size: 14pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 18pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #0d5c8c; font-weight: 700; }
+  .cover .who { margin-top: 18pt; padding-top: 11pt; border-top: 1.5pt solid #0d5c8c; max-width: 9.5in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #0d5c8c; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #e8f1f8; border-left: 3pt solid #0d5c8c; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #0d5c8c; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #0d5c8c; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #e8f1f8; border-left: 4pt solid #0d5c8c; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #0d5c8c; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0d5c8c; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 24pt; font-weight: 800; color: #0d5c8c; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0d5c8c; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #0d5c8c; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #0d5c8c; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d6e8f3 100%); }
+  .close h2 { font-size: 25pt; max-width: 10.5in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.8in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #0d5c8c; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Deepgram Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Deepgram Senior Manager, Deal Desk</div>
+  <h1>A usage-based voice platform selling self-serve, enterprise and marketplace deals at once needs a desk that answers same-day, not a control function that slows Sales down. I have built that desk once already, and run the margin discipline behind it twice.</h1>
+  <div class="sub">Approval matrix and playbook design, discount governance, CPQ build-out, deal-margin insight, and an AI agent that takes the first pass so the human call is the one that matters.</div>
+  <div class="tags">
+    <div class="tag"><strong>PriceKeel</strong>: a guardrail engine built from scratch that governs discount exceptions</div>
+    <div class="tag"><strong>$700K+</strong> in margin recovered in 2 quarters negotiating discount exceptions</div>
+    <div class="tag"><strong>53% to 61%</strong> distributor margin lift through channel repricing</div>
+    <div class="tag"><strong>$627M</strong> pipeline, 1,200 opportunities, scored by win rate and discount band</div>
+    <div class="tag"><strong>Claude AI agents</strong> running first-pass analysis today at Applied Materials</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-pricing-ai.vercel.app/ref/deepgram</div>
+  </div>
+  <div class="brand">DEEPGRAM SENIOR MANAGER, DEAL DESK</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>Building a deal desk from zero is not a staffing problem. It is a design problem: <span class="accent">get the rules wrong and the desk becomes the bottleneck it was supposed to remove.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What a ground-up desk runs into</h4>
+      <div class="line">Self-serve, enterprise commitments and marketplace deals each need a different approval path, so one playbook has to flex without turning into three sets of exceptions.</div>
+      <div class="line">Without a pre-approved matrix, every non-standard deal becomes an executive-review meeting, which is the opposite of helping Sales win faster.</div>
+      <div class="line">Deal margin and realized discount have to be visible by segment before anyone can say which discounts are actually defensible, not just which ones felt reasonable.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already built and run</h4>
+      <div class="line">At <b>PriceKeel</b>, I designed the guardrail engine itself: a rule set that reads a live discount exception against a company's own closed-won and closed-lost deals and recommends an explainable path.</div>
+      <div class="line">At <b>Sensata</b>, I ran the margin side at scale: $700K+ recovered in 2 quarters and distributor margins lifted 53% to 61%, both decided deal by deal against documented competitive and willingness-to-pay data.</div>
+      <div class="line">At <b>Applied Materials</b> now, AI agents built on Claude take the first pass on repetitive pricing analysis so my call is the one that moves the deal, the exact loop this desk needs.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">This req asks for an approval matrix and playbook most deals never need, same-day answers on the rest, deal-margin and discount-band visibility, audit-ready records in Salesforce, and an AI agent doing the first-pass review. That is the guardrail engine, run at Sensata's scale, done again for Deepgram.</div>
+  </div>
+  <div class="brand">DEEPGRAM SENIOR MANAGER, DEAL DESK</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What the Senior Manager, Deal Desk opening asks for, and where the proof sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Build the desk: approval matrix, pre-approved playbook, and credit and promo guidelines, so most deals need no approval."</div></div>
+      <div class="quote"><div class="q">"Build pricing insight: deal margin, realized discount, and win rate by discount band."</div></div>
+      <div class="quote"><div class="q">"Use AI to run the desk: an agent does the first-pass review; you make the call and improve the rules. Build out CPQ in Salesforce."</div></div>
+    </div>
+    <div class="col">
+      <h3>My Proof</h3>
+      <div class="proof"><div class="p"><b>PriceKeel's guardrail engine:</b> an explainable rule set built from a company's own closed-won and closed-lost deals, the approval-matrix logic this req is asking to build from zero.</div></div>
+      <div class="proof"><div class="p"><b>Bleeders and Leakers at Sensata:</b> 1,200 opportunities scored against a $627M target with win rate and stage distribution by salesperson and product line, surfacing $433M in margin gaps.</div></div>
+      <div class="proof"><div class="p"><b>Claude AI agents at Applied Materials:</b> first-pass automation on repetitive pricing analysis today, the same agent-reviews-then-I-decide loop this desk is built to run.</div></div>
+      <div class="proof"><div class="p"><b>CRM and CPQ ownership at PriceKeel:</b> set up and run end to end, plus the audit trail that keeps every approval and term ready for Finance to review.</div></div>
+    </div>
+  </div>
+  <div class="brand">DEEPGRAM SENIOR MANAGER, DEAL DESK</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The Sensata proof, in depth</div>
+  <h2>Bleeders and Leakers: <span class="accent">deal-margin and discount-band visibility across a $627M book.</span></h2>
+  <div class="lede">Built as a BU-wide Power BI system covering 1,200 pricing opportunities against a $627M target across 3 regions, 4 product families and 20 product lines, scored by win rate, avg $/win and stage distribution by salesperson and product line, exactly the deal-margin and discount-band view this req asks the desk to build.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$433M</div>
+      <div class="lbl">Margin Gaps Surfaced</div>
+      <div class="desc">Ranked every pricing risk into one view instead of chasing anecdotes deal by deal.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$700K+</div>
+      <div class="lbl">Margin Recovered in 2 Quarters</div>
+      <div class="desc">Closed by reviewing non-standard deals and making the call on documented competitive gaps.</div>
+    </div>
+    <div class="stat">
+      <div class="n">53% to 61%</div>
+      <div class="lbl">Distributor Margin Lift</div>
+      <div class="desc">A repricing program run through channel partners, the credit-and-promo-guideline half of the same work.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">The same seat shaped multimillion-dollar customer quotes and AP26 revenue models alongside senior executives. The thread running through all of it: a playbook that resolves most deals on its own, and a same-day answer on the ones that need a human call.</div>
+  <div class="brand">DEEPGRAM SENIOR MANAGER, DEAL DESK</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month building Deepgram's deal desk looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Map deal margin and realized discount by segment</div>
+      <div class="body">Sit with Sales, Customer Success and Finance to build one view of deal margin, realized discount and win rate across self-serve, enterprise and marketplace deals, the same first move behind the Bleeders and Leakers dashboard at Sensata.</div>
+      <div class="why"><strong>Why first:</strong> an approval matrix is only as good as the margin data it is built on.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Ship the approval matrix and playbook</div>
+      <div class="body">Draft the pre-approved playbook and credit and promo guidelines so most deals clear without review, and start giving same-day answers on the non-standard ones, the guardrail-engine logic already built once at PriceKeel.</div>
+      <div class="why"><strong>Why now:</strong> building the matrix against real deal data, not in a vacuum, is what made the 53% to 61% distributor gain hold at Sensata.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Stand up the AI first-pass and start the CPQ build</div>
+      <div class="body">Put an AI agent on first-pass review of non-standard deals so the human call is the one that counts, and begin building the playbook and approvals into Salesforce CPQ so they live in the quote.</div>
+      <div class="why"><strong>Why this fast:</strong> the same habit that keeps Claude agents running recurring pricing analysis at Applied Materials today.</div>
+    </div>
+  </div>
+  <div class="brand">DEEPGRAM SENIOR MANAGER, DEAL DESK</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to build a deal desk from zero. I have built the rule set that governs discount exceptions from zero already, and run the margin discipline behind it at a much larger scale.</h2>
+  <div class="body">
+    <p>The core proof is Sensata: <strong>$700K+ recovered in 2 quarters</strong> and a <strong>53% to 61% distributor margin lift</strong>, both run through a deal-margin and discount-band system built against a $627M-opportunity Power BI pipeline.</p>
+    <p>What is harder to find is someone who has also designed the desk's own rule set: at <strong>PriceKeel</strong> I built the guardrail engine that explains a discount decision to Finance, and at <strong>Applied Materials</strong> I run Claude AI agents on the first pass of repetitive pricing analysis every day, the exact pairing this req asks for.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-pricing-ai.vercel.app/ref/deepgram</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">DEEPGRAM SENIOR MANAGER, DEAL DESK</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
