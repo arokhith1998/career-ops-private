@@ -1,0 +1,20 @@
+Subject: Co-marketing playbooks are the lever most appstores skip
+
+Hi {Hiring Manager, Ring Appstore},
+
+I do not normally reach out before applying, but the line about building co-marketing playbooks so developers can promote their own apps is the part most appstore teams treat as an afterthought, and I think it is actually the growth lever.
+
+At Sensata I built that exact playbook, decks, case studies, battlecards, for third-party OEM and distributor partners, and 50+ of their reps used it to lift win rates 30% against entrenched incumbents.
+At Pixis I ran the customer-side half of a similar two-sided problem: iOS app paid UA through Appsflyer and Adjust, plus retail media on Amazon Ads and Criteo, for D2C clients.
+At Applied Materials I build the SQL and GA4-style KPI frameworks that feed cadenced business reviews, the same reporting rhythm this role is built on.
+
+Here's the portfolio: https://adhi-product.vercel.app/ref/amazon
+
+Worth 15 minutes on how you are thinking about the developer side specifically? Glad to be pointed elsewhere if I have the wrong team.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
