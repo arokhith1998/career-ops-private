@@ -1,0 +1,20 @@
+Subject: The agent-does-first-pass line in your Deal Desk posting
+
+Hi {Hiring Manager, Deal Desk / Finance},
+
+I don't normally reach out before applying, but your posting's line that an agent does the first-pass review and you make the call and improve the rules is a loop I already run, not one I would be learning on the job.
+
+Built you a 6-slide pitch deck so the proof fits on one read.
+
+At Applied Materials I run Claude-built agents against pricing and forecasting analysis, then tighten the rules the agent gets wrong. I founded PriceKeel on the same idea, a guardrail engine that reads a discount exception against closed-won and closed-lost deals and recommends an explainable path, so routine deals clear without a meeting. I also set up PriceKeel's own CRM and CPQ, forecast and pipeline reviews, and the audit trail that keeps approvals Finance-ready, the same build your desk needs in Salesforce.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/deepgram
+
+Open to 15 minutes this week, and no worries if this sits with someone else on your team.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
