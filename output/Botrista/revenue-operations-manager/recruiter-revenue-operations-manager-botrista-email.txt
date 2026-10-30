@@ -4,11 +4,11 @@ Hi {Recruiter, Botrista},
 
 I do not usually write in before applying, but this req lists Salesforce administration, lead routing and data governance ahead of the strategy sections, and that order usually means the seat is built to own the system, not just report on it.
 
-I run that loop already. I own CRM and CPQ configuration end to end at my own company, including discount approvals and the audit trail behind every pricing decision. At Sensata I built a Power BI pipeline tracking 1,200 opportunities against a $627M target by win rate, stage and dollar-per-win, which surfaced $433M in margin gaps and helped recover $700K+ in two quarters. I carry P&L targets now and run the OKR cadence end to end, and I have started automating the recurring reports with Claude agents instead of rebuilding them by hand.
+I run that loop already: I own CRM and CPQ configuration end to end at my own company, including discount approvals and the audit trail behind every pricing decision. At Sensata I built a Power BI pipeline tracking 1,200 opportunities against a $627M target by win rate and stage, surfacing $433M in margin gaps and helping recover $700K+ in two quarters. I carry P&L targets now and run the OKR cadence end to end.
 
 Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/botrista
 
-Worth 15 minutes if this req is still open on your desk, and no worries at all if it already moved to someone else's.
+Worth 15 minutes if this req is still open, and no worries if it already moved to someone else's desk.
 
 Thank you,
 
