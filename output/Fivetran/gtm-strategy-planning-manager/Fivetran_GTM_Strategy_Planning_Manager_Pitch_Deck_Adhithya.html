@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Fivetran GTM Strategy & Planning Manager Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #0b6e4f; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 28pt; font-weight: 800; color: #0f172a; line-height: 1.15; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 21pt; font-weight: 800; color: #0f172a; line-height: 1.15; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #0b6e4f; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.8in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d7ece0 100%); }
+  .cover h1 { font-size: 28pt; max-width: 11.6in; }
+  .cover .sub { font-size: 13.5pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; max-width: 11in; }
+  .cover .tags { margin-top: 16pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.6in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.1pt; font-weight: 500; }
+  .tag strong { color: #0b6e4f; font-weight: 700; }
+  .cover .who { margin-top: 16pt; padding-top: 10pt; border-top: 1.5pt solid #0b6e4f; max-width: 9.8in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #0b6e4f; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #e6f3ec; border-left: 3pt solid #0b6e4f; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.3pt; color: #0b6e4f; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.2pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #0b6e4f; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.4pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #e6f3ec; border-left: 4pt solid #0b6e4f; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.3pt; color: #0b6e4f; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0b6e4f; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 23pt; font-weight: 800; color: #0b6e4f; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.4pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.6pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0b6e4f; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #0b6e4f; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.3pt; font-weight: 800; color: #0f172a; line-height: 1.18; margin-bottom: 7pt; }
+  .card .body { font-size: 8.8pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.3pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #0b6e4f; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d7ece0 100%); }
+  .close h2 { font-size: 25pt; max-width: 10.8in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.4pt; color: #334155; line-height: 1.55; max-width: 11in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #0b6e4f; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.7pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Fivetran Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Fivetran GTM Strategy & Planning Manager</div>
+  <h1>Fivetran and dbt Labs are becoming one GTM system. Someone has to turn two sets of quotas, territories and installed bases into one bottoms-up plan the field can run on.</h1>
+  <div class="sub">Quota setting, territory design and capacity and headcount planning, built from a multi-region pipeline model and run personally today as a CRM, CPQ and forecast-review operator.</div>
+  <div class="tags">
+    <div class="tag"><strong>$627M</strong> pipeline modeled across 1,200 opportunities and 3 regions</div>
+    <div class="tag"><strong>$433M</strong> in margin gaps surfaced, <strong>$700K+</strong> recovered in 2 quarters</div>
+    <div class="tag">AP26 revenue models and site-transition strategy with Sales and Finance</div>
+    <div class="tag">Runs CRM, CPQ and forecast and pipeline reviews today, as a founder</div>
+    <div class="tag"><strong>Claude AI agents</strong> automating recurring revenue analysis</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhithyabhaskar.vercel.app/ref/fivetran</div>
+  </div>
+  <div class="brand">FIVETRAN GTM STRATEGY &amp; PLANNING</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>A GTM Strategy &amp; Planning seat does not lack candidates who can build a quota model from a template. It lacks <span class="accent">someone who has already turned one ambiguous top-down number into a defensible operating plan, while the structure underneath it was still moving.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What this seat runs into right now</h4>
+      <div class="line">Fivetran and dbt Labs are combining go-to-market teams, so quota, territory and installed-base segmentation decisions all have to reconcile across two systems before the field notices a gap in coverage.</div>
+      <div class="line">A top-down revenue number only holds up if the bottoms-up territory and capacity math under it survives contact with Sales, Finance and People at the same time.</div>
+      <div class="line">Most GTM planning candidates have built one quota or territory model from a stable org chart. Fewer have had to defend a capacity read while the org chart itself was still being redrawn.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run, at comparable scale</h4>
+      <div class="line">At <b>Sensata</b>, built a Power BI system validating a <b>$627M</b> pipeline across 3 regions, 4 product families and 20 product lines, scored by salesperson and product line, the exact productivity and attainment read a territory model has to produce every quarter.</div>
+      <div class="line">Partnered with senior executives on <b>AP26 revenue models</b> and site-transition strategy, turning one operating structure into another without the revenue plan losing integrity.</div>
+      <div class="line">Run the <b>CRM, CPQ, forecast and pipeline review</b> cadence personally today as founder of PriceKeel, the standing operating rhythm a GTM planning team runs every quarter.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">This req asks for quota-setting, territory design and headcount planning that reconciles top-down revenue targets into a bottoms-up plan Sales, Finance and People can all defend. That is the loop above, run across two different revenue books at once.</div>
+  </div>
+  <div class="brand">FIVETRAN GTM STRATEGY &amp; PLANNING</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What the GTM Strategy &amp; Planning opening asks for, and where the proof sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Support annual and quarterly sales quota-setting... contributing to the top-down/bottoms-up reconciliation across AMER, EMEA, and APAC."</div></div>
+      <div class="quote"><div class="q">"Help apply and maintain the framework for designing territories that are balanced... supporting coverage targets."</div></div>
+      <div class="quote"><div class="q">"Contribute to headcount planning... tying ramp assumptions and capacity to the revenue plan."</div></div>
+      <div class="quote"><div class="q">"Produce recurring capacity, attainment, and productivity analyses that inform in-year adjustments to territories and headcount."</div></div>
+    </div>
+    <div class="col">
+      <h3>My Proof</h3>
+      <div class="proof"><div class="p"><b>Bleeders and Leakers at Sensata:</b> 1,200 opportunities validated against a $627M target across 3 regions, scored by salesperson and product line, the same productivity and attainment read this req asks for quarterly.</div></div>
+      <div class="proof"><div class="p"><b>AP26 revenue models and site-transition strategy:</b> built with senior executives across Sales and Finance, the coverage and headcount tradeoff this role owns.</div></div>
+      <div class="proof"><div class="p"><b>8-person team across 8 client accounts at Pixis:</b> carried P&amp;L and revenue targets against a headcount-to-book-of-business ratio, the same balance a territory model has to hold.</div></div>
+      <div class="proof"><div class="p"><b>$100K/month budgets at Plug Power:</b> owned across multiple business units, building the plans and forecasts presented to leadership for quarterly approval.</div></div>
+    </div>
+  </div>
+  <div class="brand">FIVETRAN GTM STRATEGY &amp; PLANNING</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The Sensata proof, in depth</div>
+  <h2>Bleeders and Leakers: <span class="accent">a $627M pipeline validated region by region, scored seller by seller.</span></h2>
+  <div class="lede">Built as a Power BI system covering 1,200 pricing opportunities against a $627M target across 3 regions, 4 product families and 20 product lines, with pipeline funnel, regional scorecards, win rate, avg $/win and stage distribution scored by salesperson and product line, a direct analog to the attainment and productivity reads this req needs every quarter.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$433M</div>
+      <div class="lbl">Margin Gaps Surfaced</div>
+      <div class="desc">Ranked every risk into one view instead of chasing it region by region.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$700K+</div>
+      <div class="lbl">Recovered in 2 Quarters</div>
+      <div class="desc">Closed through the same productivity read a capacity model needs to catch early.</div>
+    </div>
+    <div class="stat">
+      <div class="n">53% to 61%</div>
+      <div class="lbl">Distributor Margin Lift</div>
+      <div class="desc">A coverage and channel-partner program run through the same regional structure a territory model has to protect.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">The same seat carried AP26 revenue models and site-transition strategy alongside senior executives across Sales and Finance, turning one ambiguous top-down number into an operating plan the field could run on.</div>
+  <div class="brand">FIVETRAN GTM STRATEGY &amp; PLANNING</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month on Fivetran's GTM Strategy &amp; Planning team looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Map the combined installed base</div>
+      <div class="body">Sit with Field Operations and Sales leadership to build one segmentation view across Commercial, Enterprise and the overlay teams, the same first move that built the Bleeders and Leakers dashboard at Sensata.</div>
+      <div class="why"><strong>Why first:</strong> a quota or territory model is only as good as the segmentation it is built on.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Pressure-test the first reconciliation</div>
+      <div class="body">Run the top-down revenue number against 2 to 3 live AMER, EMEA and APAC coverage scenarios with Sales and Finance, and draft the first defensible bottoms-up operating plan.</div>
+      <div class="why"><strong>Why now:</strong> building the plan against a real scenario, not a template, is what made the 53% to 61% distributor gain hold at Sensata.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Ship the first capacity and attainment read</div>
+      <div class="body">Automate one recurring piece of the productivity-tracking workflow, and present the first in-year adjustment recommendation to Sales leadership and Finance.</div>
+      <div class="why"><strong>Why this fast:</strong> the same habit that keeps Claude agents running recurring revenue analysis at Applied Materials today.</div>
+    </div>
+  </div>
+  <div class="brand">FIVETRAN GTM STRATEGY &amp; PLANNING</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are reconciling two GTM systems into one plan. I have already turned an ambiguous top-down number into a defensible operating plan, more than once.</h2>
+  <div class="body">
+    <p>The core proof is Sensata: a <strong>$627M pipeline</strong> validated across 3 regions and scored by salesperson, feeding directly into <strong>AP26 revenue models and site-transition strategy</strong> built alongside senior executives across Sales and Finance.</p>
+    <p>What is harder to find is someone running that same discipline right now: as founder of <strong>PriceKeel</strong>, I run the CRM, CPQ and forecast and pipeline review cadence myself with an audit trail Finance can stand behind, and at <strong>Applied Materials</strong>, I reconcile demand signals from Sales, Engineering and Accounts into one shared forecasting model, automated in part with Claude AI agents.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhithyabhaskar.vercel.app/ref/fivetran</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">FIVETRAN GTM STRATEGY &amp; PLANNING</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
