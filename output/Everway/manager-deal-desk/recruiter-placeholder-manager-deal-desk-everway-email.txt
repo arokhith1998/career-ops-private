@@ -1,0 +1,20 @@
+Subject: Your posting already describes PriceKeel's product
+
+Hi {Recruiter, Talent Acquisition},
+
+I don't normally reach out before applying, but "define the commercial rules, benchmarks and exception logic for AI-assisted deal review" is the company I run day to day, not an adjacent skill.
+
+- At Sensata I owned the Bleeders and Leakers deal-approval program, recovering $700K+ in margin in two quarters and raising channel margins from 53% to 61%.
+- PriceKeel reads a live discount exception inside the deal platform, recommends a threshold from closed-won and closed-lost history, and logs the audit trail Finance signs off on.
+- At Applied Materials I run Claude AI agents against recurring pricing analysis today.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/everway
+
+Worth 15 minutes if this req is still open? Happy to be redirected if someone else owns Deal Desk hiring.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
