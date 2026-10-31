@@ -1,0 +1,23 @@
+Subject: The portfolio line in Envoy's PMM req
+
+Hi {Recruiter, Talent},
+
+I don't normally reach out before applying, but your posting asks for a portfolio before anything else, which is rare for a PMM req, so I built one instead of just attaching a resume.
+
+Built you a 6-slide pitch deck so the proof fits on one read.
+
+- Built the battlecards and launch training behind a Sensata product launch for 50+ reps, lifting win rates 30%.
+- Ran 30+ structured win/loss interviews with OEMs and distributors inside a compliance-heavy industrial market, the closest analog I have to security and visitor management.
+- Architected end-to-end GTM, narrative, launch tiering, cross-functional workbacks, for a launch that drove $2M+ first-year revenue.
+- Already build the AI agents a PMM function would otherwise just use.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/envoy
+
+Worth 15 minutes if this is your req, no worries if it already has an owner.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
