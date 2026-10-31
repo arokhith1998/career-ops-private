@@ -1,0 +1,20 @@
+Subject: Creative performance analysis is my favorite kind of mess
+
+Hi {Hiring Manager, Whatnot Growth Marketing},
+
+I do not normally reach out before applying, but the way this role is scoped, being the DRI on structural problems like localization and brand-fit auditing that nobody owns yet, is exactly the kind of mess I keep choosing to clean up.
+
+At Pixis I used Amplitude and Tableau to analyze 30+ campaigns, lifting ROAS 40% by isolating which creative and channel combinations actually drove outcomes, not just which ones ran.
+At Sensata I built KPI frameworks in SQL and GA4 where none existed across 50K+ connected devices, then turned 30+ field interviews into launch positioning that lifted conversion 15%.
+At Applied Materials I partner with Engineering and Sales on forecasting and market-sizing models and automate the recurring analysis with Claude agents, so the system keeps running instead of needing to be rebuilt every cycle.
+
+Here's the portfolio: https://adhi-growth-ai.vercel.app/ref/whatnot
+
+Worth 15 minutes to see if the fit is real? Happy to be pointed elsewhere if this isn't your req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
