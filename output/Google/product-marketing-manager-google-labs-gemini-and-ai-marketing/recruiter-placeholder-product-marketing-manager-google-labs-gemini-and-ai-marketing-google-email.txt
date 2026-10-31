@@ -1,0 +1,22 @@
+Subject: 0-to-1 at the speed of Labs is the GTM motion I already run
+
+Hi {Recruiter, Google Labs},
+
+I don't normally reach out before applying, but "0-to-1 go-to-market execution at the speed of Labs" is a specific enough bar that I wanted to show the pattern, not just claim it.
+
+Built you a 6-slide pitch deck so the proof fits on one read.
+
+At Sensata I took a new sensing line from zero to $2M+ first-year revenue, writing the positioning and running the launch across Engineering, Sales and distribution partners in one motion.
+I built the SQL and GA4 frameworks that tracked adoption on 50,000+ connected devices post-launch, surfacing the cohorts worth listening to and lifting feature adoption 18%.
+At Applied Materials I automate my own forecasting and market analysis with AI agents built on Claude.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/google
+
+Worth 15 minutes if this is your req, no worries if it already has an owner.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

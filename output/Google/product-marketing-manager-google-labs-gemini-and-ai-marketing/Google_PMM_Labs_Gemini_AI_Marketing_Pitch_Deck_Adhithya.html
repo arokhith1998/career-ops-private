@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Google Product Marketing Manager, Google Labs, Gemini and AI Marketing Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #1a73e8; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 27pt; font-weight: 800; color: #0f172a; line-height: 1.14; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 20pt; font-weight: 800; color: #0f172a; line-height: 1.12; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #1a73e8; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.7in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #e8f0fe 100%); }
+  .cover h1 { font-size: 23pt; max-width: 11.3in; }
+  .cover .sub { font-size: 14pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 16pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #1a73e8; font-weight: 700; }
+  .cover .who { margin-top: 16pt; padding-top: 11pt; border-top: 1.5pt solid #1a73e8; max-width: 9.4in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #1a73e8; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #eaf1fd; border-left: 3pt solid #1a73e8; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #1e4ba0; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #1a73e8; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #eaf1fd; border-left: 4pt solid #1a73e8; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #1e4ba0; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a73e8; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 20pt; font-weight: 800; color: #1a73e8; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a73e8; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #1a73e8; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #1a73e8; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #e8f0fe 100%); }
+  .close h2 { font-size: 23pt; max-width: 10.6in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.6in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #1a73e8; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Google Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Google Product Marketing Manager, Google Labs, Gemini and AI Marketing</div>
+  <h1>Labs ships emerging AI research at a speed most positioning processes cannot match. I have already run naming, launch, and post-launch adoption measurement as one motion, not three handoffs.</h1>
+  <div class="sub">0-to-1 positioning for technical capability on one side, the SQL and GA4 adoption loop that tells you if it worked on the other, both run by the same person.</div>
+  <div class="tags">
+    <div class="tag"><strong>$2M+ first-year revenue</strong> from a 0-to-1 go-to-market launch, positioning through channel</div>
+    <div class="tag"><strong>+18% feature adoption</strong> found by building the post-launch SQL + GA4 measurement loop myself</div>
+    <div class="tag"><strong>30+ customer interviews</strong> turned into a continuous early-adopter feedback channel</div>
+    <div class="tag"><strong>+15% conversion</strong> from positioning that turned deep technical capability into buyer language</div>
+    <div class="tag"><strong>AI agents built on Claude</strong> automating my own recurring market and pricing analysis today</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-product-ai.vercel.app/ref/google</div>
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>The posting does not ask for a namer and a measurer handed off in sequence. It asks for <span class="accent">one person who treats positioning and post-launch adoption as the same feedback loop.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What that actually requires</h4>
+      <div class="line">Core positioning, naming, and value propositions written fast enough to keep pace with research that is still finding its final shape, not written after the shape is locked.</div>
+      <div class="line">A read on post-launch adoption, sentiment, and experiment uplift that feeds back into the narrative in real time, not a quarterly report that arrives after the next launch has already shipped.</div>
+      <div class="line">Early-adopter communities (creators, developers, power users) treated as a standing feedback channel into the roadmap, not a one-time beta list.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run</h4>
+      <div class="line">At <b>Sensata</b>, I wrote the positioning and value propositions for a new product line while the technical capability behind it was still being finalized, shipping a single 0-to-1 go-to-market motion across North America and Europe.</div>
+      <div class="line">I built the <b>SQL + GA4 adoption framework myself</b> after launch, across 50,000+ connected devices, and used what it found to lift feature adoption 18% rather than waiting on a separate analytics team.</div>
+      <div class="line">At <b>Applied Materials</b> today, I automate my own recurring market and pricing analysis with AI agents built on Claude, the same AI-productivity habit this posting names as a preferred qualification.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">The through-line: every narrative I have written was built from the same post-launch data that then told me whether the narrative worked, run by one person, never two separate teams.</div>
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The mandate, mapped</div>
+  <h2>What the posting asks for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Define core positioning, naming, and value propositions that translate complex, emerging AI research into compelling, intuitive, and mainstream narratives."</div></div>
+      <div class="quote"><div class="q">"Monitor post-launch adoption, sentiment, and uplift across experiments, using real-time user insights to continuously iterate on marketing strategies."</div></div>
+      <div class="quote"><div class="q">"Cultivate active early-adopter communities across creators, developers, and power users to build continuous feedback channels."</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>Sensata, positioning for deep technical capability:</b> turned a new product line's technical detail into buyer-ready value propositions, lifting conversion 15% on priority launches.</div></div>
+      <div class="proof"><div class="p"><b>Sensata, post-launch adoption loop:</b> built the SQL + GA4 KPI framework across 50,000+ connected devices that surfaced the high-intent cohorts driving an 18% adoption lift, iterating on strategy from the data rather than a hunch.</div></div>
+      <div class="proof"><div class="p"><b>Sensata, early-adopter communities:</b> ran 30+ interviews with OEMs and distributors that became a continuous feedback channel into the roadmap, raising CSAT 22%.</div></div>
+      <div class="proof"><div class="p"><b>SwipeHire, 0-to-1 with real users:</b> built an AI job-matching platform zero-to-one and grew an early-adopter community of 50+ users, running 8+ A/B tests that lifted activation 25%.</div></div>
+    </div>
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>Positioning and adoption measurement are not two different skill sets. They are <span class="accent">the same feedback loop, read from two different ends.</span></h2>
+  <div class="lede">Same pattern on every launch at Sensata: write the narrative, build the instrument that tells you if it landed, and let that instrument shape the next narrative.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$2M+</div>
+      <div class="lbl">First-Year Revenue, 0-to-1 GTM</div>
+      <div class="desc">Positioning, messaging, channel, and launch shipped in one motion for a new sensing product line across North America and Europe.</div>
+    </div>
+    <div class="stat">
+      <div class="n">+18%</div>
+      <div class="lbl">Feature Adoption, Post-Launch</div>
+      <div class="desc">Built the SQL + GA4 measurement framework myself across 50,000+ connected devices and acted on what it found.</div>
+    </div>
+    <div class="stat">
+      <div class="n">30+</div>
+      <div class="lbl">Interviews Turned Into a Feedback Channel</div>
+      <div class="desc">OEM and distributor interviews fed straight back into the roadmap, raising CSAT 22%.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">The common thread: none of this was a positioning brief handed off to a separate analytics team. Each number closed the loop from narrative to data and back to the next narrative.</div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month on Google Labs' Gemini and AI marketing work looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Map the positioning-to-adoption handoff</div>
+      <div class="body">Trace the last few Labs launches to find where naming and positioning were finalized before post-launch adoption data existed, and where that gap cost early momentum or a clear narrative.</div>
+      <div class="why"><strong>Why first:</strong> the same first move that found the gap between pricing data and positioning work at Sensata, before rebuilding either.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Run one feature's narrative and adoption loop end to end</div>
+      <div class="body">Pick one Labs feature, write the core positioning and naming with Product, Engineering, and Research, then build the real-time adoption and sentiment read that feeds straight back into the narrative.</div>
+      <div class="why"><strong>Why now:</strong> the same combined positioning-and-measurement motion that lifted feature adoption 18% at Sensata, run at the speed Labs needs.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Stand up the early-adopter feedback channel</div>
+      <div class="body">Convert the first wave of creators, developers, and power users into a standing feedback channel into the roadmap, the same continuous-interview habit that raised CSAT 22% at Sensata, and automate the first recurring data pull with an AI agent.</div>
+      <div class="why"><strong>Why this fast:</strong> the earlier the channel exists, the sooner the next launch's narrative is built on real signal instead of a guess.</div>
+    </div>
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to write the narrative and read the adoption data as one job, at the speed Labs moves. I have already run that combined motion, and put a number on each half.</h2>
+  <div class="body">
+    <p>The narrative half: <strong>$2M+ first-year revenue</strong> from a 0-to-1 go-to-market launch and <strong>+15% conversion</strong> from positioning that turned deep technical capability into buyer language, both at Sensata.</p>
+    <p>The adoption half: <strong>+18% feature adoption</strong> from a post-launch SQL + GA4 framework I built myself, and <strong>30+ interviews</strong> turned into a continuous early-adopter feedback channel. At Applied Materials I now automate my own recurring market and pricing analysis with agents built on Claude, so the data behind both halves stays current without a lag.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-product-ai.vercel.app/ref/google</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
