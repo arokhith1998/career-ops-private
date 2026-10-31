@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Fin Senior Sales Operations Manager Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #0d5c8c; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 27pt; font-weight: 800; color: #0f172a; line-height: 1.12; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 21pt; font-weight: 800; color: #0f172a; line-height: 1.1; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #0d5c8c; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.5in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d6e8f3 100%); }
+  .cover h1 { font-size: 26pt; max-width: 11.4in; }
+  .cover .sub { font-size: 14pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 18pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #0d5c8c; font-weight: 700; }
+  .cover .who { margin-top: 18pt; padding-top: 11pt; border-top: 1.5pt solid #0d5c8c; max-width: 9.5in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #0d5c8c; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #e8f1f8; border-left: 3pt solid #0d5c8c; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #0d5c8c; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #0d5c8c; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #e8f1f8; border-left: 4pt solid #0d5c8c; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #0d5c8c; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0d5c8c; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 24pt; font-weight: 800; color: #0d5c8c; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0d5c8c; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #0d5c8c; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #0d5c8c; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d6e8f3 100%); }
+  .close h2 { font-size: 24pt; max-width: 10.5in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.8in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #0d5c8c; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Fin Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Fin Senior Sales Operations Manager</div>
+  <h1>A GTM engine scaling as fast as Fin's AI product needs operating rhythms that scale without multiplying headcount. I have already built those rhythms once from zero, and run the margin discipline behind them at a much larger scale.</h1>
+  <div class="sub">Forecasting and pipeline reporting, capacity and segmentation analysis, CRM and BI systems, and an AI agent that takes the first pass so the human call is the one that matters.</div>
+  <div class="tags">
+    <div class="tag"><strong>$627M</strong> pipeline, 1,200 opportunities, scored by win rate, stage and salesperson</div>
+    <div class="tag"><strong>PriceKeel</strong>: CRM, CPQ, forecast and pipeline reviews, deal approvals, built from scratch</div>
+    <div class="tag"><strong>$700K+</strong> in margin recovered in 2 quarters acting on that pipeline data</div>
+    <div class="tag"><strong>+30% win rate, +35% leads</strong> from sales enablement and KPI systems built for 50+ reps</div>
+    <div class="tag"><strong>Claude AI agents</strong> running first-pass forecasting analysis today at Applied Materials</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhithyabhaskar.vercel.app/ref/fin</div>
+  </div>
+  <div class="brand">FIN SENIOR SALES OPERATIONS MANAGER</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>Owning sales operations end to end is not a reporting job. It is a design job: <span class="accent">get the data model and the operating cadence wrong and the system becomes the bottleneck it was built to remove.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What a scaling GTM engine runs into</h4>
+      <div class="line">Forecasting, pipeline, territory and quota data live in different systems, so one source of truth has to be built before leadership can trust any dashboard.</div>
+      <div class="line">Without consistent metric definitions and governance, every business review becomes a debate about whose number is right instead of what to do next.</div>
+      <div class="line">Manual reporting does not scale with headcount flat, so the operating cadence has to be designed to run itself as the sales org grows.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already built and run</h4>
+      <div class="line">At <b>Sensata</b>, I built the Bleeders and Leakers system: 1,200 opportunities scored against a $627M target by win rate, stage and salesperson, the funnel-health and capacity view this role is asking to build.</div>
+      <div class="line">At <b>PriceKeel</b>, I run the CRM, CPQ, forecast and pipeline reviews, and the approval governance myself, end to end, for a live platform.</div>
+      <div class="line">At <b>Applied Materials</b> now, AI agents built on Claude take the first pass on repetitive forecasting work so my call is the one that moves the number, the exact loop this seat needs.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">This req asks for forecasting, pipeline reporting, territory and quota planning, compensation reporting, scalable systems across CRM and BI, data governance with Business Systems and Data Engineering, and AI used to cut manual work without adding headcount. That is the Bleeders and Leakers system, run again for Fin.</div>
+  </div>
+  <div class="brand">FIN SENIOR SALES OPERATIONS MANAGER</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What the Senior Sales Operations Manager opening asks for, and where the proof sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Own forecasting processes, pipeline reporting, quota models, attainment tracking, and performance insights."</div></div>
+      <div class="quote"><div class="q">"Lead territory planning, segmentation, coverage, and capacity analysis to support efficient allocation of sales resources."</div></div>
+      <div class="quote"><div class="q">"Use AI tools and automation thoughtfully to reduce manual work and increase the speed and quality of sales execution."</div></div>
+    </div>
+    <div class="col">
+      <h3>My Proof</h3>
+      <div class="proof"><div class="p"><b>Bleeders and Leakers at Sensata:</b> 1,200 opportunities scored against a $627M target with win rate, avg $/win and stage distribution by salesperson and product line, the forecasting and attainment view this req asks the seat to own.</div></div>
+      <div class="proof"><div class="p"><b>Safran segmentation project:</b> narrowed TAM/SAM/SOM from 170 facilities to a SAM of 28 across 4 verticals, the coverage and capacity-allocation analysis a territory plan runs on.</div></div>
+      <div class="proof"><div class="p"><b>Claude AI agents at Applied Materials:</b> first-pass automation on repetitive forecasting and pricing analysis today, the same reduce-manual-work pattern this req names directly.</div></div>
+      <div class="proof"><div class="p"><b>CRM and CPQ ownership at PriceKeel:</b> set up and run end to end, including the audit trail and governance documentation Finance and Business Systems can review.</div></div>
+    </div>
+  </div>
+  <div class="brand">FIN SENIOR SALES OPERATIONS MANAGER</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The Sensata proof, in depth</div>
+  <h2>Bleeders and Leakers: <span class="accent">funnel health, capacity and attainment visibility across a $627M book.</span></h2>
+  <div class="lede">Built as a BU-wide Power BI system covering 1,200 pipeline opportunities against a $627M target across 3 regions, 4 product families and 20 product lines, scored by win rate, avg $/win and stage distribution by salesperson and product line, the same capacity and productivity view this req asks the seat to build and maintain.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$433M</div>
+      <div class="lbl">Margin Gaps Surfaced</div>
+      <div class="desc">Ranked every pricing and discount risk into one view instead of chasing anecdotes deal by deal.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$700K+</div>
+      <div class="lbl">Margin Recovered in 2 Quarters</div>
+      <div class="desc">Closed by acting on the dashboard's own attainment and discount-band signals.</div>
+    </div>
+    <div class="stat">
+      <div class="n">53% to 61%</div>
+      <div class="lbl">Distributor Margin Lift</div>
+      <div class="desc">A channel-partner repricing program run off the same capacity and segmentation data.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">The same seat built sales enablement and KPI frameworks that lifted rep win rates 30% and qualified leads 35%, the rep-facing half of a system most Sales Ops seats only build from the reporting side.</div>
+  <div class="brand">FIN SENIOR SALES OPERATIONS MANAGER</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month inside Fin's Sales Operations seat looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Map the forecasting and pipeline data model</div>
+      <div class="body">Sit with Sales, Finance and Business Systems to build one view of pipeline, quota attainment and win rate by segment, the same first move behind the Bleeders and Leakers dashboard at Sensata.</div>
+      <div class="why"><strong>Why first:</strong> territory and compensation decisions are only as good as the data model behind them.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Ship the capacity and territory view</div>
+      <div class="body">Draft the territory, segmentation and coverage analysis against real pipeline data, and start the governance and documentation layer for the metrics it depends on.</div>
+      <div class="why"><strong>Why now:</strong> building the plan against real deal data, not in a vacuum, is what made the Sensata margin gains hold.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Stand up the AI first-pass and the CRM/BI build-out</div>
+      <div class="body">Put an AI agent on first-pass reporting and data-quality checks so manual work drops, and begin building the dashboards into Salesforce and BI so leaders self-serve the answer.</div>
+      <div class="why"><strong>Why this fast:</strong> the same habit that keeps Claude agents running recurring forecasting analysis at Applied Materials today.</div>
+    </div>
+  </div>
+  <div class="brand">FIN SENIOR SALES OPERATIONS MANAGER</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to own forecasting, pipeline, territory and compensation reporting for a GTM engine that cannot scale headcount linearly. I have built that exact system once already, and run the margin discipline behind it at a much larger scale.</h2>
+  <div class="body">
+    <p>The core proof is Sensata: a <strong>$627M-opportunity Power BI pipeline</strong> scored by win rate, stage and salesperson, and <strong>$700K+ in margin recovered in 2 quarters</strong> acting on what it surfaced.</p>
+    <p>What is harder to find is someone who also runs the systems side: at <strong>PriceKeel</strong> I own the CRM, CPQ and forecast-review process end to end, and at <strong>Applied Materials</strong> I run Claude AI agents on the first pass of repetitive forecasting work every day, the exact pairing this req asks for.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhithyabhaskar.vercel.app/ref/fin</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">FIN SENIOR SALES OPERATIONS MANAGER</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
