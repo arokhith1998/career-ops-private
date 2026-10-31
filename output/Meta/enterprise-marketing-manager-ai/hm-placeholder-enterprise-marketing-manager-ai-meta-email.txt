@@ -1,0 +1,18 @@
+Subject: Building programs where no playbook exists yet
+
+Hi {Hiring Manager, Enterprise Marketing},
+
+I joined Applied Materials a few months ago and was not looking, but the line about building new programs from the ground up where a framework does not exist yet is close to what I am doing nights and weekends at PriceKeel, so I am reaching out anyway.
+
+At Sensata I built the sales enablement layer, decks, battlecards and case studies, for 50+ reps and watched win rates rise 30%. The harder part was translating pricing logic into language a technical buyer's procurement team would accept, which is the same translation this role is asking for with CTOs and Chief AI Officers. At Applied Materials I now run that same analysis through Claude AI agents so the output keeps pace with how fast the model lineup moves.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/meta
+
+If this is your req, worth 15 minutes. If not, a nudge toward the right person would help.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
