@@ -1,0 +1,22 @@
+Subject: Revenue Operations Manager: funnel friction is a diagnosis job, not a dashboard job
+
+Hi {Director of Strategy & Operations, Revenue Operations},
+
+The line that stood out was "find and fix funnel friction," because most RevOps postings stop at reporting where deals stall and skip the fixing part. That is the half of the job I have actually built.
+
+Built the FY26 Bleeders and Leakers Power BI model at Sensata end to end: 1,200 pricing opportunities against a $627M target, surfacing $433M in margin gaps by salesperson and product line, and recovered $700K+ in two quarters once the forecast calls could act on it.
+
+Ran the Salesforce and Adobe Analytics cleanup at Plug Power that made closed-loop reporting trustworthy again.
+
+I run AI agents built on Claude in production at Applied Materials today, the builder mindset your posting asks for, not a tool list.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/handshake
+
+The deck's last slide lays out a first 30-60-90 for the new business cadence. Open to 15 minutes; if this sits with someone else, a pointer would help.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

@@ -1,0 +1,1 @@
+Hi, I built Sensata's pipeline and forecast model (1,200 opps vs a $627M target, one shared win-rate and stage-conversion definition) and run Claude agents in production at Applied Materials. Saw the Revenue Operations Manager posting. Portfolio: adhithyabhaskar.vercel.app/ref/handshake

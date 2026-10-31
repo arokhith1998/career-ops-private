@@ -1,0 +1,20 @@
+Subject: Pipeline math for new business coverage, already built once
+
+Hi {Recruiter, Revenue Operations},
+
+I do not usually send a note before applying, but owning the pipeline, forecast and productivity read for a new business sales org, with no reporting line into the reps, is the exact seat I already run day to day.
+
+Built the FY26 Bleeders and Leakers Power BI model at Sensata: 1,200 opportunities against a $627M target, one win-rate and stage-conversion definition, surfacing $433M in margin gaps by rep and product line.
+
+Automated the Salesforce and Adobe Analytics stack at Plug Power so forecast calls ran on clean data, and I build with Claude agents in production at Applied Materials today.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/handshake
+
+If 15 minutes works, I would like to walk through how that dashboard maps onto Mid-Market and Strategic Corporate coverage.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
