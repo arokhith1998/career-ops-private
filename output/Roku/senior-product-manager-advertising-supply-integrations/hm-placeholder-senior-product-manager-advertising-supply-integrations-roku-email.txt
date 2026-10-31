@@ -1,0 +1,20 @@
+Subject: Standardizing publisher integrations is a roadmap problem first
+
+Hi {Hiring Manager, Supply Integrations},
+
+I do not normally reach out before applying, but pairing publisher onboarding with deciding which signals are worth enriching the ad request with is a product problem I already run, not two separate jobs stitched into one req.
+
+At Sensata I owned the roadmap and a 100+ feature backlog for sensor integrations, standardizing how new launches moved through channel and distributor partners across 3 regions and cutting time-to-market 20%.
+At Pixis I managed an 8-client, $15K-$90K/month programmatic and DSP portfolio, the demand-side version of judging which signal actually drives value versus which one just looks good in a dashboard.
+At Applied Materials I automate repetitive analysis with AI agents built on Claude, the same habit I would bring to standardizing integrations at scale.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/roku
+
+Worth 15 minutes to see if the fit is real? Happy to be pointed elsewhere if this is not your req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

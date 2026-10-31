@@ -1,0 +1,20 @@
+Subject: Modeling supply-demand elasticity is a problem I already solved
+
+Hi {Recruiter, Supply Integrations},
+
+I do not normally reach out before applying, but the line about modeling supply-demand elasticity across publisher integrations reads like a dashboard I already built, not a skill I would learn on the req.
+
+At Sensata I built a Power BI price-increase model flagging line items where pricing and routing changes could lift profitability 50%, then led the rollout that recovered $700K+ in margin in two quarters.
+At Pixis I ran programmatic and DSP campaigns across an 8-client, $15K-$90K/month portfolio, the demand-side mirror of deciding which publisher signal is worth paying for.
+At Sensata I also built SQL and GA4 signal frameworks across 50K+ connected devices to separate real adoption signal from noise.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/roku
+
+Worth 15 minutes if this is your req, no worries if it already has an owner.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
