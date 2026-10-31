@@ -1,0 +1,28 @@
+Subject: The CRM-to-compensation translation line in Fin's Sales Ops posting
+
+Hi {Hiring Manager, Sales Operations},
+
+Your posting asks one person to own forecasting, territory planning and compensation reporting end to end, then translate all three into scalable CRM, BI and planning systems, and that ownership span is unusual enough that I wanted to write before applying instead of after.
+
+Scaling the GTM engine behind an AI agent that is already outperforming on the market is a different operating problem than scaling a normal SaaS pipeline, and that is the part of this req I actually want to work on.
+
+Built you a 6-slide pitch deck so the proof fits on one read, mapped to the programs this role owns rather than a generic resume walk.
+
+Surfaced $433M in margin gaps on a live Power BI view at Sensata and then recovered $700K+ of it myself in two quarters, the surface-to-close loop your posting wants from reporting.
+Partnered with Finance and senior leadership on AP26 revenue models and multimillion-dollar customer quotes, the same Finance-Sales handoff your compensation and quota planning line describes.
+Built sales enablement and KPI frameworks that lifted win rates 30% and qualified leads 35%, so I know what a sales org does with the reporting an ops seat hands it.
+Run Claude-based AI agents at Applied Materials to cut manual forecasting work, the AI fluency habit your posting asks for rather than a checkbox skill.
+
+I also built my own CRM, CPQ and forecast review cadence as founder of PriceKeel, including an audit trail Finance can check after the fact, so the governance side of this role is not new territory either.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/fin
+
+Open to 20 minutes to see if the fit holds up past this email.
+If this sits with someone else on your team, a pointer their way would help, and the deck stands on its own either way.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

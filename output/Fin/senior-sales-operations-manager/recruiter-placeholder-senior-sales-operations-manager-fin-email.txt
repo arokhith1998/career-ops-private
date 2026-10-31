@@ -1,0 +1,28 @@
+Subject: Senior Sales Operations Manager, Fin - the detail-to-boardroom range in your posting
+
+Hi {Recruiter, Sales Operations},
+
+I don't normally message a recruiter before applying, but your posting asks for someone who moves comfortably between detailed analysis and executive-level recommendations in the same week, and that is closer to a description of how I already work than a list of requirements.
+
+Fin becoming part of Salesforce and still being asked to scale an Agentforce-era GTM engine the same quarter is the kind of moment where operating rhythm matters more than headcount, which is exactly the tradeoff your posting is written around.
+
+Built you a 6-slide pitch deck so the proof fits on one read, mapped to the forecasting, territory and compensation reporting pieces of this role.
+
+Built the Bleeders and Leakers Power BI dashboard at Sensata: 1,200 pricing opportunities scored against a $627M target across 3 regions and 20 product lines, by rep and by product line.
+Recovered $700K+ in margin in two quarters off that same dashboard, raising distributor and channel-partner margins from 53% to 61%.
+Run the CRM, CPQ and forecast review cadence myself as founder of PriceKeel, including the audit trail Finance can check after the fact.
+Automate recurring forecasting and market sizing with Claude-based AI agents at Applied Materials, the habit your AI fluency line is asking for.
+
+None of that is sales engineering theater; it is the same translation your posting wants from CRM and BI into a model Finance, Sales leadership and Business Systems all trust without a re-explain every quarter.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/fin
+
+Worth 20 minutes this week to see whether this maps to what you are actually hiring for?
+If this sits with someone else on your team, a pointer their way would help, and the deck stands on its own either way.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
