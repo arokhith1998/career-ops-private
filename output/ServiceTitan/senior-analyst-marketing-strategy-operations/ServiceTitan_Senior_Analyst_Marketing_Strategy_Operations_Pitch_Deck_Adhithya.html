@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>ServiceTitan Senior Analyst, Marketing Strategy & Operations Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #0d5c8c; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 27pt; font-weight: 800; color: #0f172a; line-height: 1.12; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 21pt; font-weight: 800; color: #0f172a; line-height: 1.1; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #0d5c8c; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.5in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d6e8f3 100%); }
+  .cover h1 { font-size: 25pt; max-width: 11.4in; }
+  .cover .sub { font-size: 14pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 18pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #0d5c8c; font-weight: 700; }
+  .cover .who { margin-top: 18pt; padding-top: 11pt; border-top: 1.5pt solid #0d5c8c; max-width: 9.5in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #0d5c8c; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #e8f1f8; border-left: 3pt solid #0d5c8c; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #0d5c8c; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #0d5c8c; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #e8f1f8; border-left: 4pt solid #0d5c8c; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #0d5c8c; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0d5c8c; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 24pt; font-weight: 800; color: #0d5c8c; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0d5c8c; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #0d5c8c; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #0d5c8c; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d6e8f3 100%); }
+  .close h2 { font-size: 24pt; max-width: 10.5in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.8in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #0d5c8c; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the ServiceTitan Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | ServiceTitan Senior Analyst, Marketing Strategy &amp; Operations</div>
+  <h1>Funnel performance, ROI modeling and planning are one connected job, not three. I have already built the dashboard, the margin recovery and the AI-leverage loop this seat is asking one analyst to run solo.</h1>
+  <div class="sub">SQL and Power BI/Tableau reporting, ambiguous-question-to-plan execution, and Claude AI agents already running the first pass on recurring analysis.</div>
+  <div class="tags">
+    <div class="tag"><strong>$627M</strong> pipeline, 1,200 opportunities, scored by win rate, stage and salesperson</div>
+    <div class="tag"><strong>$433M</strong> in margin gaps surfaced, turned into a ranked, stakeholder-ready plan</div>
+    <div class="tag"><strong>$700K+</strong> in margin recovered in 2 quarters driving that plan myself</div>
+    <div class="tag"><strong>Claude AI agents</strong> running first-pass recurring analysis today at Applied Materials</div>
+    <div class="tag"><strong>Salesforce &amp; HubSpot</strong> on the revenue-systems side since Plug Power</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhithyabhaskar.vercel.app/ref/servicetitan</div>
+  </div>
+  <div class="brand">SERVICETITAN SENIOR ANALYST, MARKETING STRATEGY &amp; OPERATIONS</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>Owning funnel, ROI and planning for one function is not a reporting job. It is a design job: <span class="accent">get the data model wrong and every business review becomes a debate about whose number is right.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What this seat is actually asking for</h4>
+      <div class="line">Translate ambiguous, cross-functional questions into a clear analysis and a plan, then drive that plan yourself, not hand it to someone else to execute.</div>
+      <div class="line">Build the SQL and BI datasets that give leadership one trusted view of Marketing's health instead of three competing spreadsheets.</div>
+      <div class="line">Use AI to create leverage: automate recurring reporting so the time saved goes to the judgment-heavy work, what to build and why it matters.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already built and run</h4>
+      <div class="line">At <b>Sensata</b>, I built the Bleeders and Leakers system: 1,200 opportunities scored against a $627M target by win rate, stage and salesperson, the funnel-health view this role is asking to build from scratch.</div>
+      <div class="line">I took that dashboard's $433M in margin gaps to a ranked recommendation, then drove the plan myself to $700K+ recovered, the identify-to-execute arc this req names directly.</div>
+      <div class="line">At <b>Applied Materials</b> now, Claude AI agents take the first pass on recurring forecasting work so my call is the one that moves the number.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">This req asks for funnel performance, ROI modeling, planning, SQL/Tableau dashboards, AI-driven reporting leverage, and HubSpot/Salesforce fluency, owned end to end by one analyst. That is the Bleeders and Leakers system, run again for ServiceTitan's Revenue Strategy and Operations team.</div>
+  </div>
+  <div class="brand">SERVICETITAN SENIOR ANALYST, MARKETING STRATEGY &amp; OPERATIONS</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What the Senior Analyst, Marketing Strategy &amp; Operations opening asks for, and where the proof sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Drive three connected areas: funnel performance, ROI modeling, and planning... translate ambiguous, cross-functional questions into clear analysis and a plan, and drive that plan yourself."</div></div>
+      <div class="quote"><div class="q">"Build SQL/Tableau datasets and dashboards from various data sources that give leadership a trusted view of Marketing's health."</div></div>
+      <div class="quote"><div class="q">"Use AI to create leverage: automate recurring reporting and analysis, build tools and templates the broader team adopts."</div></div>
+    </div>
+    <div class="col">
+      <h3>My Proof</h3>
+      <div class="proof"><div class="p"><b>Bleeders and Leakers at Sensata:</b> 1,200 opportunities scored against a $627M target with win rate, avg $/win and stage distribution by salesperson and product line, the funnel-health and forecasting view this req asks the seat to own.</div></div>
+      <div class="proof"><div class="p"><b>$433M to $700K+:</b> turned the dashboard's margin gaps into a ranked, stakeholder-ready recommendation, then drove it myself to $700K+ recovered in 2 quarters, the identification-through-execution arc this req asks for.</div></div>
+      <div class="proof"><div class="p"><b>Claude AI agents at Applied Materials:</b> first-pass automation on recurring forecasting and pricing analysis today, redirecting the time saved to the judgment-heavy calls, the exact AI-leverage pattern this req names.</div></div>
+      <div class="proof"><div class="p"><b>Salesforce and HubSpot:</b> ran the pipeline data and lead-flow reporting behind these systems since Plug Power, the CRM fluency this req prefers.</div></div>
+    </div>
+  </div>
+  <div class="brand">SERVICETITAN SENIOR ANALYST, MARKETING STRATEGY &amp; OPERATIONS</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The Sensata proof, in depth</div>
+  <h2>Bleeders and Leakers: <span class="accent">funnel health, ROI and forecasting visibility across a $627M book.</span></h2>
+  <div class="lede">Built as a BU-wide Power BI system covering 1,200 pipeline opportunities against a $627M target across 3 regions, 4 product families and 20 product lines, scored by win rate, avg $/win and stage distribution by salesperson and product line, the same "so what" reporting this req asks the seat to build and own.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$433M</div>
+      <div class="lbl">Margin Gaps Surfaced</div>
+      <div class="desc">Ranked every pricing and discount risk into one view instead of chasing anecdotes deal by deal.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$700K+</div>
+      <div class="lbl">Margin Recovered in 2 Quarters</div>
+      <div class="desc">Closed by driving the plan myself, acting on the dashboard's own signals.</div>
+    </div>
+    <div class="stat">
+      <div class="n">53% to 61%</div>
+      <div class="lbl">Distributor Margin Lift</div>
+      <div class="desc">A repricing program run off the same funnel and segmentation data.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">The same seat built KPI frameworks in SQL and GA4 that lifted qualified leads 35%, the campaign-to-pipeline half of funnel performance most ops seats only see from the reporting side.</div>
+  <div class="brand">SERVICETITAN SENIOR ANALYST, MARKETING STRATEGY &amp; OPERATIONS</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month inside ServiceTitan's Revenue Strategy &amp; Operations seat looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Map the funnel and reporting data model</div>
+      <div class="body">Sit with Marketing, Sales and Business Systems to pull SQL/Tableau datasets into one trusted view of funnel health, attribution and spend, the same first move behind the Bleeders and Leakers dashboard at Sensata.</div>
+      <div class="why"><strong>Why first:</strong> ROI modeling and planning decisions are only as good as the data model behind them.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Ship the first readout and ROI model</div>
+      <div class="body">Stand up the weekly/monthly business-review cadence and the first ROI model against real spend data, with a stakeholder-ready "so what" for each number, not just the number itself.</div>
+      <div class="why"><strong>Why now:</strong> building the plan against real data, not in a vacuum, is what made the Sensata margin gains hold.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Put AI on the recurring reporting</div>
+      <div class="body">Put an AI agent on first-pass recurring reporting and data-quality checks, document the process for the team, and redirect the time saved to the next high-impact special project.</div>
+      <div class="why"><strong>Why this fast:</strong> the same habit that keeps Claude agents running recurring forecasting analysis at Applied Materials today.</div>
+    </div>
+  </div>
+  <div class="brand">SERVICETITAN SENIOR ANALYST, MARKETING STRATEGY &amp; OPERATIONS</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring one analyst to own funnel performance, ROI modeling and planning end to end. I have already built that exact system once, at a larger scale, and driven the plan myself to a result.</h2>
+  <div class="body">
+    <p>The core proof is Sensata: a <strong>$627M-opportunity Power BI pipeline</strong> scored by win rate, stage and salesperson, and <strong>$700K+ in margin recovered in 2 quarters</strong> driving the plan it surfaced myself.</p>
+    <p>What is harder to find is someone who also runs the AI-leverage side: at <strong>Applied Materials</strong> I run Claude AI agents on the first pass of recurring forecasting work every day, redirecting the time saved to the judgment calls, the exact pairing this req asks for.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhithyabhaskar.vercel.app/ref/servicetitan</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">SERVICETITAN SENIOR ANALYST, MARKETING STRATEGY &amp; OPERATIONS</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
