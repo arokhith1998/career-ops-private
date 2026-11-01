@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Pepper Entrepreneur in Residence Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #7c2d12; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 31pt; font-weight: 800; color: #0f172a; line-height: 1.1; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 21pt; font-weight: 800; color: #0f172a; line-height: 1.1; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #a63603; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.5in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #fbe4d3 100%); }
+  .cover h1 { font-size: 30pt; max-width: 11.3in; }
+  .cover .sub { font-size: 14pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 18pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #a63603; font-weight: 700; }
+  .cover .who { margin-top: 18pt; padding-top: 11pt; border-top: 1.5pt solid #a63603; max-width: 9.5in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #a63603; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #fef1e7; border-left: 3pt solid #a63603; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #a63603; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #a63603; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #fef1e7; border-left: 4pt solid #a63603; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #a63603; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #a63603; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 24pt; font-weight: 800; color: #a63603; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #a63603; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #a63603; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #a63603; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #fbe4d3 100%); }
+  .close h2 { font-size: 26pt; max-width: 10.5in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.8in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #a63603; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Pepper Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Pepper Entrepreneur in Residence</div>
+  <h1>You called this an operating seat, not a strategy seat. I am running one right now, and I have already fixed a function nobody owned inside a public company.</h1>
+  <div class="sub">Founder-grade zero-to-one ownership, plus the operating discipline that makes performance legible in a day.</div>
+  <div class="tags">
+    <div class="tag"><strong>Founder &amp; CEO</strong> of PriceKeel, building and running the business from zero</div>
+    <div class="tag"><strong>$700K+</strong> margin recovered in 2 quarters, a function nobody owned at Sensata</div>
+    <div class="tag"><strong>Manual to AI-first:</strong> converted a repetitive workflow to Claude agents at Applied Materials</div>
+    <div class="tag"><strong>8-person team</strong> hired and managed across 8 client accounts, churn cut 50%</div>
+    <div class="tag"><strong>53% to 61%</strong> distributor margin lift, a fix that held past the first cycle</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhithyabhaskar.vercel.app/ref/pepper</div>
+  </div>
+  <div class="brand">PEPPER ENTREPRENEUR IN RESIDENCE</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>An Entrepreneur in Residence at Pepper gets handed two different problems: the one that does not exist yet, and <span class="accent">the one that exists but has no owner.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What the seat actually demands</h4>
+      <div class="line">A business line that needs to be rebuilt from zero has no backlog to inherit and no revenue model until someone writes one. That is a founder problem.</div>
+      <div class="line">A function that is founder-led, ad-hoc or held together by heroics is the harder twin: the team and the process already half-exist, and the job is to step in, stabilize it, and hand it off clean.</div>
+      <div class="line">Both need the same person to take a sentence instead of a brief, write the playbook, run it, prove it, then make it someone else's job.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run, on both sides of that problem</h4>
+      <div class="line">At <b>PriceKeel</b>, I am building a product from inception right now: designed the guardrail engine and audit trail, set up the CRM, CPQ and deal-approval process from zero, and am running pilots while raising the first round.</div>
+      <div class="line">At <b>Sensata</b>, I took a margin line with no real owner and built the Bleeders and Leakers program from scratch, then handed the reporting cadence to the team once it ran on its own.</div>
+      <div class="line">Both took the same discipline: a number nobody had mapped, a team pointed at the highest-leverage fix, and a handoff that stuck.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">A founder who builds from zero and an operator who fixes an unowned function are not two different profiles. It is one operating pattern, run on both a founding problem and a fixing problem, which is exactly the range this seat asks for.</div>
+  </div>
+  <div class="brand">PEPPER ENTREPRENEUR IN RESIDENCE</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What the Founder's Office is asking for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"A founder who built and ran something, or an operator who has owned Ops, Strategy, or Customer Success end to end and been accountable for the number."</div></div>
+      <div class="quote"><div class="q">"Rebuild how work gets done with AI... identify the highest-leverage workflows and rebuild them AI-first."</div></div>
+      <div class="quote"><div class="q">"Own customer outcomes where it counts. Get into live accounts, especially US enterprise, and fix retention and expansion mechanics at the root."</div></div>
+    </div>
+    <div class="col">
+      <h3>My Proof</h3>
+      <div class="proof"><div class="p"><b>PriceKeel, founded and run today:</b> a product built from inception, with its own guardrail engine, audit trail, CRM, CPQ and deal-approval process, in pilots and raising its first round.</div></div>
+      <div class="proof"><div class="p"><b>Applied Materials:</b> converted a manual, repetitive analysis workflow into one run by agents built on Claude, the same AI-first rebuild this seat asks for.</div></div>
+      <div class="proof"><div class="p"><b>Sensata Bleeders and Leakers:</b> a margin line with no owner, now $700K+ recovered in 2 quarters and distributor margins lifted 53% to 61%.</div></div>
+      <div class="proof"><div class="p"><b>Pixis:</b> hired and directed an 8-person team across 8 client accounts, cutting churn 50% by fixing retention mechanics at the root.</div></div>
+    </div>
+  </div>
+  <div class="brand">PEPPER ENTREPRENEUR IN RESIDENCE</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The Sensata proof, in depth</div>
+  <h2>Bleeders and Leakers: <span class="accent">find the number nobody mapped, fix it, make it hold without you.</span></h2>
+  <div class="lede">Built as a BU-wide Power BI system covering 1,200 pricing opportunities against a $627M target across 3 regions, 4 product families and 20 product lines, with pipeline funnel, win rate and stage distribution by salesperson and product line.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$433M</div>
+      <div class="lbl">Margin Opportunity Surfaced</div>
+      <div class="desc">The dashboard's job: rank every underperforming line into a case leadership could act on, instead of chasing anecdotes account by account.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$700K+</div>
+      <div class="lbl">Margin Recovered in 2 Quarters</div>
+      <div class="desc">Closed through negotiations grounded in competitive data and documented customer willingness to pay, not across-the-board price hikes.</div>
+    </div>
+    <div class="stat">
+      <div class="n">53% to 61%</div>
+      <div class="lbl">Distributor Margin Lift</div>
+      <div class="desc">Repriced the channel logic itself, so the fix held past the first cycle instead of drifting back within a quarter.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">The same seat carried AP26 revenue models and multimillion-dollar customer quotes alongside senior executives, plus the leadership decks and OKR cadence that kept a multi-$100M business aligned, then promotion in 10 months once the program ran without daily oversight. The pattern: find the number, build the process around fixing it, then hand it off.</div>
+  <div class="brand">PEPPER ENTREPRENEUR IN RESIDENCE</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month as Pepper's Entrepreneur in Residence looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Map what is unowned</div>
+      <div class="body">Sit with the Founder and the COE team to find which business lines, functions and manual workflows are ad-hoc or held together by heroics, and get into live US enterprise accounts to hear retention and churn firsthand.</div>
+      <div class="why"><strong>Why first:</strong> the strongest opportunity is usually visible in what already exists. Same move that started the Bleeders and Leakers program at Sensata.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Build the operating layer</div>
+      <div class="body">Turn the highest-leverage workflow into a definition, a dashboard and a review cadence the Founder can see within 24 hours, and partner with product and engineering to rebuild the manual steps AI-first.</div>
+      <div class="why"><strong>Why now:</strong> building the model with the real stakeholders in the room, not in a vacuum, is what made the 53% to 61% distributor gain stick.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Ship v1 and build the bench</div>
+      <div class="body">Launch a working v1 rather than wait for a perfect plan, measure it against margin, CAC, retention or payback, then start hiring and coaching whoever takes it over next.</div>
+      <div class="why"><strong>Why this fast:</strong> a function only counts as fixed once it can run without you in the room, and you have already moved to the next problem.</div>
+    </div>
+  </div>
+  <div class="brand">PEPPER ENTREPRENEUR IN RESIDENCE</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to take a sentence and come back with a plan. I have already done that founding a company, and I have already done it fixing a function nobody owned.</h2>
+  <div class="body">
+    <p>The founding half of the proof is live today: <strong>PriceKeel</strong>, built from inception, with its own guardrail engine, audit trail and deal-approval process, now in pilots while I raise the company's first round.</p>
+    <p>The unowned-function half is Sensata: <strong>$700K+ recovered in 2 quarters</strong> and distributor margins lifted <strong>from 53% to 61%</strong>, both handed off clean once they ran on their own. I am already converting manual work to AI-first at Applied Materials, and I already know what it takes to fix US-facing retention at the root from cutting client churn 50% at Pixis.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhithyabhaskar.vercel.app/ref/pepper</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">PEPPER ENTREPRENEUR IN RESIDENCE</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
