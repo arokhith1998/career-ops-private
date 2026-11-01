@@ -2,17 +2,16 @@ Subject: Pulling my own data instead of waiting for a number
 
 Hi {Recruiter, Marketplace Strategy & Operations},
 
-I don't normally reach out before applying, but the line asking for someone who lets data win arguments and is comfortable pulling their own data in SQL and modeling in Excel is exactly how I already work, not a skill I would be growing into.
+I don't normally reach out before applying, but the line asking for someone who lets data win arguments and pulls their own data in SQL and Excel is exactly how I already work.
 
-A few reference points mapped to Restaurant Growth:
-- Built the FY2026 Bleeders and Leakers Power BI dashboard from scratch at Sensata, tracking 1,200 pricing opportunities against a $627M target, surfacing $433M in margin gaps for leadership to act on.
-- Took a new sensing product line from zero (positioning, pricing, channel) to $2M+ in first-year revenue, the 0 to 1 pattern this seat is built around.
-- Raised distributor margins from 53% to 61% in under two quarters by negotiating off competitive and willingness-to-pay data instead of list price, the same muscle as negotiating new merchant partnerships.
-- Set up and run PriceKeel's own CRM, forecast reviews and deal approvals end to end since May.
+A few reference points:
+- Built Sensata's Bleeders and Leakers Power BI dashboard from scratch: 1,200 pricing opportunities against a $627M target, surfacing $433M in margin gaps.
+- Took a new sensing product line from zero to $2M+ in first-year revenue, the 0 to 1 shape this seat is built around.
+- Raised distributor margins from 53% to 61% in under two quarters, negotiating off competitive and willingness-to-pay data instead of list price.
 
 Resume and cover letter attached. Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/doordash
 
-If Restaurant Growth sits with someone else on your team, a pointer would help; otherwise I would welcome 15 minutes.
+If Restaurant Growth sits with someone else, a pointer would help; otherwise I would welcome 15 minutes.
 
 Thank you,
 
