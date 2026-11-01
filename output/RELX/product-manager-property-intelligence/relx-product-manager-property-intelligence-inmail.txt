@@ -1,0 +1,20 @@
+Subject: KPI dashboards + agentic workflows for Property Intelligence
+
+Hi {Recruiter, Property Intelligence},
+
+I do not usually message before applying, but R119974's pairing of KPI reporting on product adoption with building out agentic workflows for the wider product team is a combination I already run day to day, not two separate asks.
+
+I shipped the FY2026 Bleeders and Leakers Power BI dashboard at Sensata, tracking 1,200 pricing opportunities against a $627M target across 3 regions and 20 product lines.
+I automate repetitive analysis with Claude-built agents at Applied Materials.
+I ran 30+ customer interviews at Sensata that fed a 100+ feature backlog, lifting CSAT 22% and adoption 18%.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/relx
+
+Worth 15 minutes on R119974?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
