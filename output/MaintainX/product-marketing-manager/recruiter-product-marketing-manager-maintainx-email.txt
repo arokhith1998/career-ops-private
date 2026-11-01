@@ -1,0 +1,22 @@
+Subject: Product Marketing Manager, MaintainX Operations Solutions
+
+Hi {Recruiter, Product Marketing},
+
+Your posting says a launch lands right when a technician goes home on time. I ran that same translation work at Sensata for two years, taking sensing-product launches from early customer interviews through general availability, so sales and the people on the floor got the same story at the same time.
+
+A few places this maps directly to the req:
+- Owned GTM for new sensing products end to end, driving $2M+ first-year revenue and a 30% rep win-rate lift on contested deals, backed by collateral built for 50+ reps.
+- Built SQL and GA4 KPI frameworks across 50K+ connected industrial devices to tell real adoption from a trial click, the same question a weekly adoption goal is asking.
+- Ran Amplitude and Tableau against 30+ campaigns to find adoption signal inside user behavior, tools your posting names directly.
+- Now at Applied Materials, turning multi-product-group market sizing into one view for Sales and Engineering, clearing the repetitive analysis with Claude agents.
+
+Here's the portfolio: https://adhi-product.vercel.app/ref/maintainx
+
+Open to 15 minutes on which P1 or P2 launch could use a hand first. If this lands on someone else's desk, a pointer their way would help.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

@@ -1,0 +1,22 @@
+Subject: Positioning handoff for your P1 and P2 launches
+
+Hi {Director, Product Marketing},
+
+Autodesk calling operations the phase that tells you what actually happened is the line that made me write in. I have spent two years on the handoff you are describing, turning what engineering builds into language sales and customers already use before a launch ships.
+
+Where that overlaps with your team:
+- Owned GTM for new sensing products at Sensata end to end (positioning, pricing, channel, launch), driving $2M+ first-year revenue and a 30% rep win-rate lift on contested deals.
+- Wrote the messaging framework that turned a sensing capability from an engineering spec into one story a procurement buyer and a field technician both understood.
+- Built SQL and GA4 KPI frameworks across 50K+ connected industrial devices and ran Amplitude and Tableau against 30+ campaigns, so I can own an adoption number and defend it in a weekly review.
+- At Applied Materials now, sizing a fast-moving market across multiple product groups and clearing the busywork with Claude agents so the launch story gets the time.
+
+Here's the portfolio: https://adhi-product.vercel.app/ref/maintainx
+
+Would value 15 minutes on how a P1 or P2 launch runs on your team today. Happy to be redirected if this sits with someone else.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
