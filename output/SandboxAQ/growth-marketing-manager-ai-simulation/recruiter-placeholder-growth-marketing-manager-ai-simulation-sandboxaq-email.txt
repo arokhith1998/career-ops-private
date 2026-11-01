@@ -1,0 +1,21 @@
+Subject: A growth engine built from zero, not improved from one
+
+Hi {Recruiter, SandboxAQ Talent},
+
+I do not normally reach out before applying, but a request to build a full-funnel growth engine from the ground up for computational chemists and drug discovery leaders is a problem I have already solved for a different hard-to-reach technical audience, not one I would be testing for the first time.
+
+At Plug Power I owned $100K/month across paid search and social, automating the Pardot-to-Salesforce lead flow myself and cutting CPA 25% and cost per lead 50%.
+At Sensata I built the SQL and GA4 funnel and attribution model behind 50K+ connected industrial devices, then turned sensor specs into positioning engineers actually read.
+At Applied Materials I run Claude AI agents against repetitive market analysis, the habit a from-scratch reporting stack needs.
+At Pixis I kept attribution honest across 30+ campaigns and 8 client accounts, each on its own cost-per-pipeline target.
+
+Here's the portfolio: https://adhi-growth-ai.vercel.app/ref/sandboxaq
+
+Worth 15 minutes if this is your req, no worries if it already has an owner.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
