@@ -2,13 +2,12 @@ Subject: Positioning handoff for your P1 and P2 launches
 
 Hi {Director, Product Marketing},
 
-Autodesk calling operations the phase that tells you what actually happened is the line that made me write in. I have spent two years on the handoff you are describing, turning what engineering builds into language sales and customers already use before a launch ships.
+Autodesk calling operations the phase that tells you what actually happened is the line that made me write in. I spent two years on that exact handoff at Sensata, turning engineering builds into language sales and customers already used before launch.
 
-Where that overlaps with your team:
-- Owned GTM for new sensing products at Sensata end to end (positioning, pricing, channel, launch), driving $2M+ first-year revenue and a 30% rep win-rate lift on contested deals.
-- Wrote the messaging framework that turned a sensing capability from an engineering spec into one story a procurement buyer and a field technician both understood.
-- Built SQL and GA4 KPI frameworks across 50K+ connected industrial devices and ran Amplitude and Tableau against 30+ campaigns, so I can own an adoption number and defend it in a weekly review.
-- At Applied Materials now, sizing a fast-moving market across multiple product groups and clearing the busywork with Claude agents so the launch story gets the time.
+- Owned GTM for new sensing products end to end (positioning, pricing, channel, launch): $2M+ first-year revenue and a 30% rep win-rate lift on contested deals.
+- Wrote the messaging that turned a sensing capability from an engineering spec into one story a procurement buyer and a field technician both understood.
+- Built SQL and GA4 KPI frameworks across 50K+ connected devices, then ran Amplitude and Tableau against 30+ campaigns to own an adoption number and defend it weekly.
+- At Applied Materials now, sizing a market across multiple product groups and clearing busywork with Claude agents so the launch story gets the time.
 
 Here's the portfolio: https://adhi-product.vercel.app/ref/maintainx
 
