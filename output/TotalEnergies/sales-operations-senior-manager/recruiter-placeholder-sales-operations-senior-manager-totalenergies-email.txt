@@ -1,0 +1,20 @@
+Subject: Running CRM and the PPA valuation model as one job, not two
+
+Hi {Recruiter, Corporate PPAs},
+
+I do not normally reach out before applying, but a req that pairs CRM and funnel ownership with keeping a PPA valuation model current is work I already run end to end, not a role I would be learning in pieces.
+
+At Sensata I built a $627M-target valuation model in SQL-fed Power BI across 1,200 opportunities, surfacing $433M in margin gaps and recovering $700K+ in 2 quarters.
+I spent a year inside renewable energy at Plug Power, owning $100K/month budgets and the leadership-facing forecasts behind them.
+At PriceKeel I run the CRM, pipeline and approval workflow myself, with an audit trail Finance can check against, and I have hired and managed teams at two companies.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/totalenergies
+
+Worth 15 minutes if this is your req, no worries if it already has an owner.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
