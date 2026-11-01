@@ -1,6 +1,6 @@
 job_key	company	title	url	stage	verdict	first_seen	last_seen	times_seen	note
 zapply.jobs/l/d/workday-relx-relx-r119974	RELX	Product Manager, Property Intelligence	https://zapply.jobs/l/d/workday-relx-relx-R119974?s=gh-new-grad-jobs-2027	queued		2026-10-30	2026-11-01	17	
-zapply.jobs/l/d/workday-relx-risksolutions-r119974	LexisNexis Risk Solutions	Product Manager, Property Intelligence	https://zapply.jobs/l/d/workday-relx-risksolutions-R119974?s=gh-new-grad-jobs-2027	queued		2026-10-30	2026-11-01	17	
+zapply.jobs/l/d/workday-relx-risksolutions-r119974	LexisNexis Risk Solutions	Product Manager, Property Intelligence	https://zapply.jobs/l/d/workday-relx-risksolutions-R119974?s=gh-new-grad-jobs-2027	dropped	SKIP:dup-req-of-RELX-R119974	2026-10-30	2026-11-01	18	
 zapply.jobs/l/d/oracle-citizens-financial-49510	Citizens Financial Group	Private Bank, Deposit/Liquidity Product Manager	https://zapply.jobs/l/d/oracle-citizens-financial-49510?s=gh-new-grad-jobs-2027	queued		2026-10-30	2026-11-01	15	
 jobs.ashbyhq.com/baseten/1e0cdfba-8271-4e95-ac86-02bc7d8d3cca	Baseten	Technical Product Marketing Manager	https://jobs.ashbyhq.com/baseten/1e0cdfba-8271-4e95-ac86-02bc7d8d3cca	queued		2026-10-30	2026-11-01	11	
 linkedin.com/jobs/view/4431896388	DoorDash	Senior Associate, Marketplace - Restaurant Growth Strategy & Operations	https://www.linkedin.com/jobs/view/4431896388	queued		2026-10-31	2026-11-01	7	
@@ -397,6 +397,7 @@ linkedin.com/jobs/view/4483972710	FinnovationZ	Business Operation	https://www.li
 linkedin.com/jobs/view/4450331299	Nordson Corporation	Senior Manager, Program Management	https://www.linkedin.com/jobs/view/4450331299	dropped	DROP:no-target-role-match	2026-11-01	2026-11-01	1	
 linkedin.com/jobs/view/4477807957	nVent	Managing Director, India	https://www.linkedin.com/jobs/view/4477807957	dropped	DROP:no-target-role-match	2026-11-01	2026-11-01	1	
 jobs.lever.co/lumindigital/c8561e39-9499-45f5-bb09-8363450eecbf/apply	Lumin Digital	GTM Monetization & Pricing Strategist	https://jobs.lever.co/LuminDigital/c8561e39-9499-45f5-bb09-8363450eecbf/apply	queued		2026-11-01	2026-11-01	3	
+linkedin.com/jobs/view/4482537709	Applied Materials	Product Marketing IV - (B4)	https://www.linkedin.com/jobs/view/4482537709	dropped	SKIP:internal-mobility-needs-candidate-confirm	2026-10-29	2026-11-01	8	
 linkedin.com/jobs/view/4485310019	E2M	Chief of Staff	https://www.linkedin.com/jobs/view/4485310019	dropped	DROP:duplicate-of-tracker-2047	2026-10-30	2026-10-31	8	
 navan.com/careers/openings?gh_jid=8304478	Navan	Senior Performance Marketing Manager (Part-time)	https://navan.com/careers/openings?gh_jid=8304478	dropped	DROP:over-years-cap	2026-10-30	2026-10-31	4	
 zapply.jobs/l/d/apple-200692348	Apple	Product Manager, AppleCare	https://zapply.jobs/l/d/apple-200692348?s=gh-new-grad-jobs-2027	dropped	DROP:duplicate-of-tracker-2016	2026-10-29	2026-10-31	10	
@@ -1405,7 +1406,6 @@ linkedin.com/jobs/view/4476375878	Fivetran	GTM Strategy & Planning Manager	https
 linkedin.com/jobs/view/4484466955	Versapay	Revenue Operations Manager	https://www.linkedin.com/jobs/view/4484466955	queued		2026-10-29	2026-10-31	7	
 linkedin.com/jobs/view/4484458486	Amazon Web Services (AWS)	Sr Product Marketing Manager, Tech - Security and Growth , AWS Product Marketing	https://www.linkedin.com/jobs/view/4484458486	queued		2026-10-29	2026-10-31	7	
 linkedin.com/jobs/view/4465233946	Vagaro	Senior Creative Strategist, Growth Marketing	https://www.linkedin.com/jobs/view/4465233946	queued		2026-10-29	2026-10-31	7	
-linkedin.com/jobs/view/4482537709	Applied Materials	Product Marketing IV - (B4)	https://www.linkedin.com/jobs/view/4482537709	queued		2026-10-29	2026-10-31	7	
 linkedin.com/jobs/view/4482572035	DoorDash	Senior Associate, Strategy & Operations, DoorDash for Business (Merchant)	https://www.linkedin.com/jobs/view/4482572035	queued		2026-10-29	2026-10-31	7	
 jobs.workable.com/jobs/732e5b77-61c5-404f-9e4f-538f937b6ef6	Botrista	Revenue Operations Manager	https://jobs.workable.com/jobs/732e5b77-61c5-404f-9e4f-538f937b6ef6	built	BUILT	2026-10-29	2026-10-31	6	no_deck pack built output/Botrista/revenue-operations-manager/; us-revops profile, portfolio adhithyabhaskar.vercel.app/ref/botrista (generalist); ATS 80/100 OK, f-pattern 0, page-fit 10.90in; outreach drafted 0 findings, placeholders used
 linkedin.com/jobs/view/4482246849	Netic	Founding Sales Operations	https://www.linkedin.com/jobs/view/4482246849	built	BUILT	2026-10-28	2026-10-31	11	
