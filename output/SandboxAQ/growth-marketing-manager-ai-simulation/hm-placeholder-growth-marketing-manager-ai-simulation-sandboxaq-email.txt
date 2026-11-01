@@ -4,10 +4,9 @@ Hi {Hiring Manager, AI Simulation Marketing},
 
 I do not normally reach out before applying, but a growth seat built around computational chemists and materials R&D leaders, an audience that already thinks in physics and chemistry, is the technical-to-buyer translation work I already run, not a skill I would be picking up on this req.
 
-At Sensata I built the SQL and GA4 attribution model behind 50K+ connected industrial devices, then turned sensor specifications into positioning that engineers and OEM buyers actually read, lifting conversion 15% on priority launches.
+At Sensata I built the SQL and GA4 attribution model behind 50K+ connected industrial devices, then turned sensor specifications into positioning that engineers and OEM buyers actually read, lifting conversion 15%.
 At Plug Power I owned $100K/month across paid search and social, cutting CPA 25% and cost per lead 50% by automating the lead-nurture flow myself.
 At Pixis I used Amplitude and Tableau to keep funnel and attribution honest across 30+ campaigns and 8 client accounts, each on its own cost-per-pipeline target.
-At Applied Materials I run Claude AI agents against repetitive market analysis, the same habit a from-scratch reporting stack needs.
 
 Here's the portfolio: https://adhi-growth-ai.vercel.app/ref/sandboxaq
 
