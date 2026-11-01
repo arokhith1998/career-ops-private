@@ -2,7 +2,7 @@ Subject: Running CRM and the PPA valuation model as one job, not two
 
 Hi {Recruiter, Corporate PPAs},
 
-I do not normally reach out before applying, but a req that pairs CRM and funnel ownership with keeping a PPA valuation model current is work I already run end to end, not a role I would be learning in pieces.
+I do not normally reach out before applying, but a req that pairs CRM and funnel ownership with keeping a PPA valuation model current is work I already run end to end.
 
 At Sensata I built a $627M-target valuation model in SQL-fed Power BI across 1,200 opportunities, surfacing $433M in margin gaps and recovering $700K+ in 2 quarters.
 I spent a year inside renewable energy at Plug Power, owning $100K/month budgets and the leadership-facing forecasts behind them.
