@@ -1,28 +1,40 @@
 source	sources	company	title	location	url	posted_ts	age_days	sponsorship_hint	salary	category
-zapply-ng	zapply-ng	RELX	Product Manager, Property Intelligence	Remote - USA - Nationwide	https://zapply.jobs/l/d/workday-relx-relx-R119974?s=gh-new-grad-jobs-2027	1793340610	2.00			New Grad
-zapply-ng	zapply-ng	LexisNexis Risk Solutions	Product Manager, Property Intelligence	Remote - USA - Nationwide	https://zapply.jobs/l/d/workday-relx-risksolutions-R119974?s=gh-new-grad-jobs-2027	1793340610	2.00			New Grad
-zapply-ng	zapply-ng	Citizens Financial Group	Private Bank, Deposit/Liquidity Product Manager	United States	https://zapply.jobs/l/d/oracle-citizens-financial-49510?s=gh-new-grad-jobs-2027	1793254210	3.00			New Grad
-board:ashby	board:ashby	Baseten	Technical Product Marketing Manager	San Francisco	https://jobs.ashbyhq.com/baseten/1e0cdfba-8271-4e95-ac86-02bc7d8d3cca	2026-10-29	3.3			
-linkedin	linkedin	Pepper	Senior Manager - Founder's Office	Mumbai, Maharashtra, India	https://www.linkedin.com/jobs/view/4462806051	2026-10-31	1.26			
-linkedin	linkedin	Sports Paddock	Founder's Office	Bengaluru, Karnataka, India	https://www.linkedin.com/jobs/view/4485131689	2026-10-31	1.26			
-linkedin	linkedin	Techdome	Founder’s Office Associate (Execution & Strategy)	Hyderabad, Telangana, India	https://www.linkedin.com/jobs/view/4485162314	2026-10-31	1.26			
-linkedin	linkedin	VRD Source	Founder's Office - Senior | Portfolio Management Services | Powai / Bandra, Mumbai	Mumbai, Maharashtra, India	https://www.linkedin.com/jobs/view/4483954056	2026-11-01	0.26			
-linkedin	linkedin	Pepper	Entrepreneur in Residence	Mumbai, Maharashtra, India	https://www.linkedin.com/jobs/view/4485154829	2026-10-31	1.26			
-linkedin	linkedin	Leucine - AI for Pharma	Founder's Office - Generalist	Bengaluru, Karnataka, India	https://www.linkedin.com/jobs/view/4485904600	2026-10-31	1.26			
-linkedin	linkedin	Biotastic Health Systems (Ice Code Recovery)	Founders Office Executive	Greater Chennai Area	https://www.linkedin.com/jobs/view/4485173109	2026-10-31	1.26			
-linkedin	linkedin	Design Chief	Personal Assistant (Founder's Office)	Karnataka, India	https://www.linkedin.com/jobs/view/4485159704	2026-10-31	1.26			
-linkedin	linkedin	Cloudflare	Technical Product Marketing Manager	San Francisco, CA	https://www.linkedin.com/jobs/view/4475260028	2026-10-31	1.26			
-linkedin	linkedin	Zscaler	Product Marketing Manager - AI Protect	Santa Clara, CA	https://www.linkedin.com/jobs/view/4435304748	2026-10-31	1.26			
-linkedin	linkedin	Amazon Music	Sr. Product Marketing Manager, Amazon Music Audiobooks, Amazon Music Spoken Word	San Francisco, CA	https://www.linkedin.com/jobs/view/4478000140	2026-10-31	1.26			
-linkedin	linkedin	MaintainX	Product Marketing Manager	San Francisco, CA	https://www.linkedin.com/jobs/view/4476863530	2026-10-31	1.26			
-linkedin	linkedin	Perplexity	Product Marketing Manager, Partnerships	San Francisco, CA	https://www.linkedin.com/jobs/view/4468008498	2026-10-31	1.26			
-linkedin	linkedin	Coherent Corp.	Senior Product Manager	Fremont, CA	https://www.linkedin.com/jobs/view/4447331035	2026-10-31	1.26			
-linkedin	linkedin	Handshake	Senior Marketing Manager - Fellows	San Francisco, CA	https://www.linkedin.com/jobs/view/4477870124	2026-10-31	1.26			
-linkedin	linkedin	Dot Compliance	Marketing Manager, AI Solutions	United States	https://www.linkedin.com/jobs/view/4483870754	2026-11-01	0.26			
-linkedin	linkedin	Perplexity	Solutions Product Marketing Manager	San Francisco, CA	https://www.linkedin.com/jobs/view/4467889988	2026-10-31	1.26			
-linkedin	linkedin	Hitachi Vantara	Solutions Product Marketing Manager	United States	https://www.linkedin.com/jobs/view/4469142047	2026-10-31	1.26			
-linkedin	linkedin	Ramp	Senior Product Marketing Manager - New Products	San Francisco, CA	https://www.linkedin.com/jobs/view/4450639255	2026-10-31	1.26			
-linkedin	linkedin	Mecka	Manager, Strategic Finance & Deal Desk	San Francisco, CA	https://www.linkedin.com/jobs/view/4485944191	2026-11-01	0.26			
-linkedin	linkedin	BoF Careers	Gap Manager - Pricing Enablement (Athleta)	San Francisco, CA	https://www.linkedin.com/jobs/view/4485176377	2026-11-01	0.26			
-linkedin	linkedin	Stanley Black & Decker, Inc.	Americas Pricing Manager	United States	https://www.linkedin.com/jobs/view/4477817951	2026-10-31	1.26			
-linkedin	linkedin	DoorDash	Senior Associate, Marketplace - Restaurant Growth Strategy & Operations	San Francisco, CA	https://www.linkedin.com/jobs/view/4431896388	2026-10-31	1.26			
+zapply-ng	zapply-ng	RELX	Product Manager, Property Intelligence	Remote - USA - Nationwide	https://zapply.jobs/l/d/workday-relx-relx-R119974?s=gh-new-grad-jobs-2027	1793271791	3.00			New Grad
+zapply-ng	zapply-ng	LexisNexis Risk Solutions	Product Manager, Property Intelligence	Remote - USA - Nationwide	https://zapply.jobs/l/d/workday-relx-risksolutions-R119974?s=gh-new-grad-jobs-2027	1793271791	3.00			New Grad
+zapply-ng	zapply-ng	Citizens Financial Group	Private Bank, Deposit/Liquidity Product Manager	United States	https://zapply.jobs/l/d/oracle-citizens-financial-49510?s=gh-new-grad-jobs-2027	1793271791	3.00			New Grad
+board:ashby	board:ashby	Baseten	Technical Product Marketing Manager	San Francisco	https://jobs.ashbyhq.com/baseten/1e0cdfba-8271-4e95-ac86-02bc7d8d3cca	2026-10-29	3.5			
+linkedin	linkedin	TotalEnergies	Sales Operations Senior Manager	Berkeley, CA	https://www.linkedin.com/jobs/view/4403555273	2026-10-31	1.46			
+linkedin	linkedin	Whatnot	Strategy and Operations Manager, Revenue Operations	San Francisco, CA	https://www.linkedin.com/jobs/view/4390402206	2026-10-31	1.46			
+linkedin	linkedin	Roboflow	Sales Operations Analyst	United States	https://www.linkedin.com/jobs/view/4485935244	2026-11-01	0.46			
+linkedin	linkedin	Veeva Systems	Product Manager - Vault CRM Suite	Pleasanton, CA	https://www.linkedin.com/jobs/view/4440667419	2026-10-31	1.46			
+linkedin	linkedin	HP	Senior Product Manager – Commerce & Payment	Palo Alto, CA	https://www.linkedin.com/jobs/view/4485934017	2026-10-31	1.46			
+linkedin	linkedin	Rillet	Product Manager	San Francisco, CA	https://www.linkedin.com/jobs/view/4450600676	2026-10-31	1.46			
+linkedin	linkedin	Alchemy	Senior Product Manager - Developer Platform	San Francisco, CA	https://www.linkedin.com/jobs/view/4457742304	2026-10-31	1.46			
+linkedin	linkedin	MongoDB	Senior Product Manager	San Francisco, CA	https://www.linkedin.com/jobs/view/4460146488	2026-10-31	1.46			
+linkedin	linkedin	Harvey	Senior/Staff Product Manager, Vault	San Francisco, CA	https://www.linkedin.com/jobs/view/4485152586	2026-10-31	1.46			
+linkedin	linkedin	Meta	Product Manager	San Francisco, CA	https://www.linkedin.com/jobs/view/4436667333	2026-10-31	1.46			
+linkedin	linkedin	Harvey	Senior Product Manager, Embedded Experiences	San Francisco, CA	https://www.linkedin.com/jobs/view/4485161526	2026-10-31	1.46			
+linkedin	linkedin	Levelpath	Product Manager (San Francisco)	San Francisco, CA	https://www.linkedin.com/jobs/view/4467908424	2026-10-31	1.46			
+linkedin	linkedin	TikTok	Senior Product Manager (PC & Desktop Recommendation) - TikTok Growth (San Jose)	San Jose, CA	https://www.linkedin.com/jobs/view/4485173535	2026-10-31	1.46			
+linkedin	linkedin	Stampli	Sr. AI-Native Product Manager, Finance Innovation	Mountain View, CA	https://www.linkedin.com/jobs/view/4442447048	2026-11-01	0.46			
+linkedin	linkedin	Decagon	Product Manager, Enterprise Agent Platform	San Francisco, CA	https://www.linkedin.com/jobs/view/4450534095	2026-11-01	0.46			
+linkedin	linkedin	Tekion Corp	Lead Product Manager	Pleasanton, CA	https://www.linkedin.com/jobs/view/4468832272	2026-10-31	1.46			
+linkedin	linkedin	Evlo AI	Marketing Manager	San Francisco, CA	https://www.linkedin.com/jobs/view/4485169634	2026-10-31	1.46			
+linkedin	linkedin	Amazon Music	Sr. Product Marketing Manager, Amazon Music Audiobooks, Amazon Music Spoken Word	San Francisco, CA	https://www.linkedin.com/jobs/view/4478000140	2026-10-31	1.46			
+linkedin	linkedin	Afresh	Senior Demand Generation & Growth Strategist	San Francisco, CA	https://www.linkedin.com/jobs/view/4455399067	2026-10-31	1.46			
+linkedin	linkedin	Harvey	Senior Product Marketing Manager, Core	San Francisco, CA	https://www.linkedin.com/jobs/view/4485171389	2026-10-31	1.46			
+linkedin	linkedin	Harvey	Senior Product Marketing Manager, Solutions	San Francisco, CA	https://www.linkedin.com/jobs/view/4485160510	2026-10-31	1.46			
+linkedin	linkedin	Ramp	Senior Product Marketing Manager - New Products	San Francisco, CA	https://www.linkedin.com/jobs/view/4450639255	2026-10-31	1.46			
+linkedin	linkedin	Fivetran	Growth Marketing Strategy & Planning Manager	Oakland, CA	https://www.linkedin.com/jobs/view/4476392187	2026-10-31	1.46			
+linkedin	linkedin	MaintainX	Product Marketing Manager	San Francisco, CA	https://www.linkedin.com/jobs/view/4476863530	2026-10-31	1.46			
+linkedin	linkedin	DoorDash	Associate Manager, AI Research Lab Strategy & Operations	Sunnyvale, CA	https://www.linkedin.com/jobs/view/4438746468	2026-11-01	0.46			
+linkedin	linkedin	Varonis	Competitive Intelligence Analyst	United States	https://www.linkedin.com/jobs/view/4432150205	2026-10-31	1.46			
+linkedin	linkedin	Intellicia	GTM Manager, US	United States	https://www.linkedin.com/jobs/view/4483982252	2026-11-01	0.46			
+linkedin	linkedin	Skyne Beauty	Senior CRM & Lifecycle Marketing Manager	San Francisco, CA	https://www.linkedin.com/jobs/view/4485912309	2026-10-31	1.46			
+linkedin	linkedin	RemoteHunter	Senior Digital Marketing Manager, Associations	United States	https://www.linkedin.com/jobs/view/4485153568	2026-10-31	1.46			
+linkedin	linkedin	Mecka	Manager, Strategic Finance & Deal Desk	San Francisco, CA	https://www.linkedin.com/jobs/view/4485944191	2026-11-01	0.46			
+linkedin	linkedin	RemoteHunter	Sales Operations Associate	United States	https://www.linkedin.com/jobs/view/4485150928	2026-10-31	1.46			
+linkedin	linkedin	Pepper	Senior Manager - Founder's Office	Mumbai, Maharashtra, India	https://www.linkedin.com/jobs/view/4462806051	2026-10-31	1.46			
+linkedin	linkedin	VRD Source	Founder's Office - Senior | Portfolio Management Services | Powai / Bandra, Mumbai	Mumbai, Maharashtra, India	https://www.linkedin.com/jobs/view/4483954056	2026-11-01	0.46			
+linkedin	linkedin	Pepper	Entrepreneur in Residence	Mumbai, Maharashtra, India	https://www.linkedin.com/jobs/view/4485154829	2026-10-31	1.46			
+websearch-agent	websearch-agent	Lumin Digital	GTM Monetization & Pricing Strategist	Remote, United States	https://jobs.lever.co/LuminDigital/c8561e39-9499-45f5-bb09-8363450eecbf/apply					
