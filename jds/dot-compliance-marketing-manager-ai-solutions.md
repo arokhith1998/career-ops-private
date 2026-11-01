@@ -1,42 +1,58 @@
-# Marketing Manager, AI Solutions - Dot Compliance
+# Marketing Manager, AI Solutions
 
 **Company:** Dot Compliance
-**Title:** Marketing Manager, AI Solutions
-**URL:** https://www.linkedin.com/jobs/view/4466877926
 **Location:** United States
-**Posted date:** approx. 2026-09-28 (posted "23 hours ago" at fetch time on 2026-09-29)
-**Employment Type:** Full-time
-**Seniority Level (LinkedIn field):** Not Applicable
-**Job Function:** Marketing and Sales
-**Industry:** Software Development
-**Extraction method:** WebFetch on linkedin.com/jobs/view page. Not browser-confirmed (Playwright TLS blocked in this sandbox); WebFetch-sourced, unconfirmed liveness beyond the fetch succeeding with full JD text.
-**Comp:** Not specified in posting.
+**URL:** https://www.linkedin.com/jobs/view/4483870754
+**Posted:** 2 hours ago
+**Source:** linkedin.com/jobs-guest (public JD API)
 
-## Description
+---
 
-Dot Compliance is building an Agentic AI unit to serve the life sciences sector. They seek a marketing manager to lead go-to-market strategy for autonomous AI agents targeting pharma, biotech, and medical device companies. The role involves developing positioning and messaging for AI products, partnering with product and sales teams, creating sales enablement materials, and tracking pipeline impact.
+AI is transforming regulated life sciences, and Dot Compliance is at the absolute forefront. We are building a dedicated Agentic AI unit to deliver autonomous AI agents to pharma, biotech, and medical device innovators. We're seeking a proactive Marketing Manager to lead the go-to-market charge for our new agentic unit, translate complex AI capabilities into compelling narratives, partner closely with Product and Sales, and build the launch playbook that drives market adoption. 
 
-## Key Responsibilities
+What You'll Do
 
-- Execute 0-to-1 go-to-market strategies for new agentic features
-- Develop positioning tailored to regulated life sciences buyers
-- Translate technical AI capabilities into customer value propositions
-- Collaborate on demand generation campaigns and content
-- Create sales materials (decks, one-pagers, battlecards)
-- Monitor pipeline and revenue impact metrics
-- Utilize modern AI tools to streamline workflows
-- Stay informed on AI and agentic trends in life sciences
+- Build and execute 0-to-1 go-to-market strategies for new agentic features and product launches. 
+- Develop positioning, messaging, and narrative for our agentic AI products, tailored to regulated life sciences buyers.
+- Partner with product and sales teams to translate technical AI capabilities into customer-facing value propositions.
+- Collaborate with the demand generation team on campaigns, content, and programs to support the agentic unit.
+- Create sales enablement materials (decks, one-pagers, battlecards) for the new offering.
+- Track and report on pipeline and revenue impact of agentic-unit marketing efforts.
+- Leverage modern AI tools and platforms to streamline marketing workflows, content generation, and strategy development. 
+- Stay current on AI/agentic trends in the life sciences space to inform strategy.
 
-## Requirements
+Requirements:
 
-- "3+ years in B2B SaaS/tech marketing, ideally with product marketing experience"
-- Proven execution of 0-to-1 product launches
-- Experience marketing technical or AI-driven products to enterprise buyers
-- Strong writing and messaging capabilities
-- Familiarity with AI platforms and productivity tools
-- Cross-functional collaboration skills
-- Ability to manage communications across EMEA and US time zones
+- 3+ years in B2B SaaS/tech marketing, ideally with product marketing experience.
+- Proven track record of executing 0-to-1 product or category launches, taking offerings from concept to market. 
+- Experience marketing technical or AI-driven products to enterprise buyers.
+- Strong writing and messaging skills, able to make complex technical capabilities clear and compelling.
+- Familiarity with AI platforms and productivity tools (e.g., ChatGPT, Claude, Jasper, Midjourney, or marketing automation AI features) to accelerate execution. 
+- Comfort working cross-functionally with product, sales, demand gen, and revenue operations.
+- Proven ability to work flexibly across overlapping time zones, specifically managing meetings and communication with stakeholders in EMEA (CET/GMT) and US East Coast (EST).
 
-## Work authorization / sponsorship / citizenship / clearance / degree / grad-year language
+ Show more
 
-None stated. No mentions of work authorization, sponsorship, citizenship, clearance requirements, or degree/graduation-year specifications found in the posting.
+ Show less
+
+ -
+
+ Seniority level
+
+ Not Applicable
+
+ -
+
+ Employment type
+
+ Full-time
+
+ -
+
+ Industries
+
+ Software Development
+
+ Referrals increase your chances of interviewing at Dot Compliance by 2x
+
+ See who you know
