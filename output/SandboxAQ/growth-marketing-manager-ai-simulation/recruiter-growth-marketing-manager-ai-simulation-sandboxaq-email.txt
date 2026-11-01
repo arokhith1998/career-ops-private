@@ -1,0 +1,20 @@
+Subject: Growth Marketing Manager, AI Simulation - built this kind of funnel from zero before
+
+To: {Recruiter, AI Simulation Marketing}
+
+I do not usually write in before applying, but a full-funnel demand engine built from zero for computational chemists and materials R&D leads, not typical B2B buyers, is specific enough to flag myself directly.
+
+- At Sensata I built a Power BI pipeline-attribution dashboard from scratch, tying 1,200 opportunities to a $627M target and surfacing $433M in margin gaps for leadership.
+- At Plug Power I automated the WordPress and Pardot lead flow, cutting cost per lead 50% and lifting organic search 35%.
+- At Sensata I turned technical features on 50K+ connected devices into customer value, lifting conversion 15%, the translation AQBioSim and AQChemSim need for chemists.
+
+Here's the portfolio: https://adhi-growth-ai.vercel.app/ref/sandboxaq
+
+If you have 15 minutes this week, I would like to hear how AISim is sequencing this build, or get pointed to whoever owns it.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

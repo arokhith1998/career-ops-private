@@ -1,0 +1,20 @@
+Subject: AQBioSim and AQChemSim pipeline - where I would start
+
+To: {Hiring Manager, AI Simulation Demand Generation}
+
+I do not usually reach out before applying, but marketing physics-grounded models to computational chemists and drug discovery leads is a translation problem more than a channel problem, and that gap is what I keep gravitating toward.
+
+- At Sensata I built KPI frameworks in SQL and GA4 across 50K+ connected industrial devices, turning technical features into customer value that lifted conversion 15% for an engineering buyer.
+- I built the FY2026 Power BI pipeline-attribution dashboard from scratch, tying 1,200 opportunities to a $627M target and surfacing $433M in margin gaps, the same funnel discipline your posting calls out.
+- At Applied Materials I automate recurring analysis with Claude AI agents, and I built the Plug Power Mar-Tech stack (Salesforce, Adobe Analytics, Google Tag Manager) for closed-loop reporting.
+
+Here's the portfolio: https://adhi-growth-ai.vercel.app/ref/sandboxaq
+
+Would you have 15 minutes this week to talk through how you are sequencing this build? If I am not the right fit for where AISim is right now, I would rather know than keep guessing.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
