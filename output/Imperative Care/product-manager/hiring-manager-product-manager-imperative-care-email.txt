@@ -2,7 +2,7 @@ Subject: Product pipeline for stroke and vascular care, a prioritization questio
 
 Hi {Hiring Manager, Product Management},
 
-Your team is commercializing the Zoom 4S catheter and the rest of the stroke and vascular portfolio on fresh financing, and the hardest part of that stage is rarely the device engineering, it's deciding which clinician pain point earns the next roadmap slot. That is the call I made weekly on Sensata's sensing products.
+Your team is commercializing the Zoom 4S catheter and the stroke and vascular portfolio on fresh financing, and the hardest part of that stage is rarely the device engineering, it's deciding which clinician pain point earns the next roadmap slot. That is the call I made weekly on Sensata's sensing products.
 
 A few things from my background that map to this req:
 - Ran 30+ structured interviews with OEMs and distributors, converting findings into a 100+ feature backlog that cut time-to-market 20% and lifted CSAT 22%.
@@ -11,7 +11,7 @@ A few things from my background that map to this req:
 
 Here's the portfolio: https://adhi-product.vercel.app/ref/imperative-care
 
-Genuinely curious how you weigh physician input against engineering constraints on the next release. Open to 20 minutes if useful, no hard feelings if the req already has a lead inside.
+Genuinely curious how you weigh physician input against engineering constraints on the next release. Open to 20 minutes, no hard feelings if the req already has a lead.
 
 Thank you,
 
