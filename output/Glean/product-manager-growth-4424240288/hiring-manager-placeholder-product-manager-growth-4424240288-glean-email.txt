@@ -1,0 +1,20 @@
+Subject: Onboarding flows I can spec, not just describe
+
+Hi {Hiring Manager, Product Growth},
+
+I do not normally message before applying, but the way you frame this seat, someone who designs the actual onboarding flow and interaction pattern rather than staying at a high conceptual level, is exactly how I work, not a stretch for me.
+
+I wrote the PRD and scoped SwipeHire's onboarding loop zero to one, specifying every screen and prompt, then ran 8+ A/B tests that lifted first-session activation 25% across its first 50+ users.
+At Pixis I owned P&L on an 8-client, $15K-$90K/month AI ad-platform book: cut churn 50% through account-level retention design, then rebuilt one account's funnel, feed, bidding, creative, lookalikes, to 3x ROAS in a month.
+I also used Amplitude and Tableau across 30+ campaigns there to turn raw usage data into a 40% ROAS lift, the instrumentation habit a real experimentation culture runs on.
+
+Here's the portfolio: https://adhi-growth-ai.vercel.app/ref/glean
+
+Open to 15 minutes on how you are sequencing the roadmap, happy to be pointed elsewhere if this is not your seat.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
