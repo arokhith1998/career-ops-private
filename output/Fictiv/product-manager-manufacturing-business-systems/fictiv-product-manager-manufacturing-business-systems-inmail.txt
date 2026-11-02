@@ -1,0 +1,18 @@
+Subject: Manufacturing business systems, built from the opportunity side first
+
+Hi {Hiring Manager / Recruiter, Manufacturing Business Systems},
+
+Your posting asks for someone who researches internal pain points before touching a system, not after, and that order of operations is the part most PM candidates skip.
+
+At Sensata I started from the opportunity, not the tool: I built the Bleeders and Leakers Power BI dashboard, 1,200 opportunities against a $627M target across 3 regions and 20 lines, surfacing $433M in margin gaps before anyone touched a config screen. I owned a 100+ feature backlog in Agile with engineering across 3 regions, cutting time to market 20%. At PriceKeel I'm building a CRM, CPQ and deal-approval system from scratch for a growing desk, the same build-from-zero instinct a PLM/ERP landscape still taking shape needs.
+
+Here's the portfolio: https://adhi-product.vercel.app/ref/fictiv
+
+Worth a 15-minute call to see where this fits? Happy to be pointed elsewhere.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

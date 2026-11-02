@@ -1,0 +1,20 @@
+Subject: The line between solution implementation and IT support
+
+Hi {Hiring Manager, Manufacturing Business Systems},
+
+Your posting draws a hard line between solution implementation and IT support, and that's why I'm writing before I apply: scoping what a system investment buys the business, then owning it through launch, is the part I already run, not the part I'd learn here.
+
+At PriceKeel I'm building the CRM, CPQ, forecast and deal-approval system a growing desk needs from scratch, audit trail included, the instinct a PLM/ERP landscape still being built over time needs.
+At Sensata I built the Bleeders and Leakers Power BI dashboard: 1,200 opportunities against a $627M target across 3 regions and 20 lines, surfacing $433M in margin gaps leadership used to prioritize investment.
+I owned a 100+ feature backlog in Agile with engineering across 3 regions, cutting time to market 20%, the cadence a roadmap split across US and India teams runs on.
+
+Here's the portfolio: https://adhi-product.vercel.app/ref/fictiv
+
+Worth 15 minutes on where the systems roadmap is bending hardest right now? Happy to be redirected if this isn't your req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
