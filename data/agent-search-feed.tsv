@@ -1,9 +1,13 @@
 source	sources	company	title	location	url	posted_ts	age_days	sponsorship_hint	salary	category
-websearch-agent	websearch-agent	Grant Thornton Bharat LLP	Chief of Staff to Office Managing Partner	Bengaluru, Karnataka, India	https://jobs.weekday.works/wkdyu4hrpe			chief_of_staff
-websearch-agent	websearch-agent	Michael Page (client)	Chief of Staff (GTM, AI)	Bangalore, Karnataka, India	https://www.michaelpage.co.in/job-detail/chief-staff-gtm-ai-bangalore-5-day-wfo/ref/jn-072026-7072727			chief_of_staff
-websearch-agent	websearch-agent	Cube	Chief of Staff	Bengaluru, Karnataka, India	https://jobs.weekday.works/chief-of-staff-at-cube-4389824375			chief_of_staff
-websearch-agent	websearch-agent	Hike	Chief of Staff, CEO Office	New Delhi, India	https://web3.career/chief-of-staff-ceo-office-very-full-time-hike/27413			chief_of_staff
-websearch-agent	websearch-agent	Figr	Founder's Office	Bengaluru, Karnataka, India	https://careers.antler.co/companies/figr/jobs/91699210-founder-s-office			founders_office
-websearch-agent	websearch-agent	Michael Page (client)	CEO's Office, Fintech	Bengaluru, Karnataka, India	https://www.michaelpage.co.in/job-detail/ceos-office-fintech-bengaluru/ref/jn-082026-7079489			ceo_office
-websearch-agent	websearch-agent	The Social Lions	Founder's Office Executive	Mumbai, Maharashtra, India	https://cutshort.io/job/Founder-s-Office-Executive-Mumbai-The-Social-Lions-epmTzLAF			founders_office
-websearch-agent	websearch-agent	Alignment.org	Chief of Staff	Berkeley, CA	https://jobs.lever.co/alignment.org/92a375c0-e47e-4505-bacc-03eea7772d80			chief_of_staff
+websearch-agent	websearch-agent	?	Chief of Staff (GTM, AI) [via Michael Page, confidential AI mobile-testing client]	Bengaluru, Karnataka, India	https://www.michaelpage.co.in/job-detail/chief-staff-gtm-ai-bangalore-5-day-wfo/ref/jn-072026-7072727					chief_of_staff
+websearch-agent	websearch-agent	Cube	Chief of Staff	Bengaluru, Karnataka, India	https://jobs.weekday.works/chief-of-staff-at-cube-4389824375					chief_of_staff
+websearch-agent	websearch-agent	Grant Thornton Bharat LLP	Chief of Staff (to Bengaluru Office Managing Partner)	Bengaluru, Karnataka, India	https://jobs.weekday.works/wkdyu4hrpe					chief_of_staff
+websearch-agent	websearch-agent	Opvia	Chief of Staff	Remote, India	https://jobs.weekday.works/chief-of-staff-at-opvia-in-4417539533					chief_of_staff
+websearch-agent	websearch-agent	?	Head of Growth Marketing [via Michael Page, confidential consumer fintech client]	Bengaluru, Karnataka, India	https://www.michaelpage.co.in/job-detail/head-growth-marketing-fintech-bengaluru/ref/jn-072026-7067569					head_of_growth
+websearch-agent	websearch-agent	?	CEO's Office, Fintech [via Michael Page, confidential client]	Bengaluru, Karnataka, India	https://www.michaelpage.co.in/job-detail/ceos-office-fintech-bengaluru/ref/jn-082026-7079489					ceo_office
+websearch-agent	websearch-agent	?	Chief of Staff [via Qrata agency, confidential health tech client]	Delhi/Gurugram/Noida/Ghaziabad/Faridabad, India	https://cutshort.io/job/Chief-of-Staff-Delhi-Gurugram-Noida-Ghaziabad-Faridabad-Qrata-05hWXq0e					chief_of_staff
+websearch-agent	websearch-agent	Demandbase	Manager, Deal Desk	US - Remote	https://jobs.firstmark.com/companies/demandbase/jobs/70343755-manager-deal-desk					pricing
+websearch-agent	websearch-agent	Loop AI	Product Marketing Manager	San Francisco, CA (on-site)	https://jobs.lever.co/Loop%20AI/d0e35f91-e189-43f6-b3c9-9394d418ce24/apply					marketing
+websearch-agent	websearch-agent	Windfall	Product Marketing Manager	San Francisco, CA	https://jobs.lever.co/windfalldata/d64fdf52-6821-4dd1-b3dd-745ffd018eed/apply					marketing
+websearch-agent	websearch-agent	Desire2Learn	Strategic Partnership Manager	San Francisco, CA / Remote	https://jobs.lever.co/d2l/bd1b446e-80d1-4743-9be6-d771078990a6/apply					marketing
+websearch-agent	websearch-agent	Toole Design	Strategic Partnership Manager	San Francisco, CA (hybrid)	https://jobs.lever.co/toole/5430f567-93cf-4c08-8083-cec82c44c1ff/apply					marketing
