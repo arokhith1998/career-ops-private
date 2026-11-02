@@ -1,22 +1,6 @@
 {
-  "cursor": 11,
+  "cursor": 4,
   "runs": [
-    {
-      "at": "2026-10-23T06:12:25.168Z",
-      "terms": [
-        "us:Pricing Manager",
-        "us:Pricing Strategy",
-        "us:Revenue Operations",
-        "us:Product Manager",
-        "us:Strategic Marketing",
-        "us:Market Strategy",
-        "us:Competitive Intelligence",
-        "us:Growth Marketing Manager"
-      ],
-      "queries": 32,
-      "rows": 233,
-      "health": "ok"
-    },
     {
       "at": "2026-10-23T11:05:02.290Z",
       "terms": [
@@ -319,6 +303,22 @@
       ],
       "queries": 30,
       "rows": 195,
+      "health": "ok"
+    },
+    {
+      "at": "2026-11-02T06:21:53.968Z",
+      "terms": [
+        "india:Head of Growth",
+        "india:Founder's Office",
+        "india:CEO Office",
+        "india:Entrepreneur in Residence",
+        "us:Product Marketing Manager",
+        "us:Pricing Manager",
+        "us:Pricing Strategy",
+        "us:Revenue Operations"
+      ],
+      "queries": 24,
+      "rows": 122,
       "health": "ok"
     }
   ]
