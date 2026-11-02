@@ -2,16 +2,16 @@ Subject: Naming pricing and RevOps tooling as my industry for the Builder PM req
 
 Hi {Hiring Manager, Computer Product},
 
-Your JD's build line stuck with me: curious people make things to show the world new answers to problems no one else questioned. I've spent two builds doing exactly that in one industry: pricing and RevOps tooling for B2B SaaS, where discount approvals and deal desk math still run on spreadsheets and gut calls.
+Your JD's build line stuck with me: curious people make things to show the world new answers to problems no one else questioned. I've spent two builds doing that in one industry: pricing and RevOps tooling for B2B SaaS, where discount approvals still run on spreadsheets and gut calls.
 
-Proof points that map to what you're asking for:
-- Founded PriceKeel: wrote the spec, shipped the guardrail engine and the audit trail Finance now treats as evidence, and run CRM, CPQ and deal approvals myself end to end.
+Proof points:
+- Founded PriceKeel: wrote the spec, shipped the guardrail engine and the audit trail Finance now treats as evidence, running CRM, CPQ and deal approvals end to end.
 - Took SwipeHire from PRD to 50+ users, running 8+ A/B tests on the activation loop that lifted first session activation 25%, the data driven flywheel your posting calls for.
-- At Applied Materials, I steer Claude agents toward the highest value output on forecasting work that used to be manual, close to steering nondeterministic models toward high value outcomes.
+- At Applied Materials, I steer Claude agents toward the highest value output on forecasting work, close to steering nondeterministic models toward high value outcomes.
 
 Here's the portfolio: https://adhi-product-ai.vercel.app/ref/perplexity
 
-Open to 15 minutes if pricing and RevOps tooling is worth a conversation for Computer. If the industry focus doesn't fit this req, no worries either way.
+Open to 15 minutes if pricing and RevOps tooling is worth a conversation for Computer. If not, no worries either way.
 
 Thank you,
 
