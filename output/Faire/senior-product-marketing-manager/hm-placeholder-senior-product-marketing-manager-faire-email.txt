@@ -1,0 +1,20 @@
+Subject: Holding the thread across launches, not shipping one at a time
+
+Hi {Hiring Manager, Product Marketing},
+
+Your posting names a habit I don't see spelled out often: surfacing one coherent narrative across multiple launches instead of a stack of individual product stories. I built that habit at Sensata, owning GTM end to end, positioning through launch, for a new sensing-product line across North America and Europe, turning three regional launches into one narrative that drove $2M+ in first-year revenue.
+
+The posting also asks for comfort shipping "directionally right" on 70% of the information. I ran 30+ structured interviews with OEMs and distributors before every positioning call, not to reach certainty but to get a defensible read fast enough to launch on schedule, lifting CSAT 22% and conversion 15%.
+
+At Applied Materials I automate my own recurring market analysis with Claude AI agents instead of rebuilding the same report each cycle, the habit this posting asks PMMs to bring to the team's AI practice.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/faire
+
+Open to 15 minutes on how the product area is scoped?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
