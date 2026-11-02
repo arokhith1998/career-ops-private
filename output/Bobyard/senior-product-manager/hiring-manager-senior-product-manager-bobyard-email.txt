@@ -1,0 +1,21 @@
+Subject: Where I would push back on "automate the estimator"
+
+Hi {Hiring Manager, Product, Bobyard},
+
+Construction estimating is one of those workflows everyone assumes is ready for full automation, and I do not think it is yet. That is the same call I make between models and humans at Applied Materials most weeks, so I wanted to write directly instead of only applying.
+
+What I would bring:
+- Shipped SwipeHire zero to one, thesis to a working product with 50+ users, with no handoffs and no one else's roadmap to inherit.
+- Spent real time with OEMs and distributors at Sensata, 30+ structured interviews, turning an unfamiliar workflow into fixes that lifted CSAT 22% and cut time-to-market 20%.
+- Build the Claude agents at Applied Materials that decide where automation runs unsupervised and where a person stays in the loop.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/bobyard
+
+Worth 15 minutes if this product area still needs an owner. If your search has moved past this stage, no hard feelings.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

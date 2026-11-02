@@ -1,0 +1,21 @@
+Subject: Senior PM req, Bobyard (job 4403400897)
+
+Hi {Recruiter, Bobyard},
+
+I do not usually write in before applying, but your line about needing someone who brings order to shifting priorities, not a finished playbook, is what got me. That is the job I gave myself building SwipeHire.
+
+Anchors:
+- Shipped SwipeHire zero to one, PRD to MVP to 50+ users, no handoffs: 8+ A/B tests and 12+ interviews turned conflicting feedback into a 25% activation lift.
+- Own the sensor roadmap and a 100+ feature backlog at Sensata, deciding what ships with engineering across 3 regions.
+- At Applied Materials I build the Claude agents deciding where a model runs unsupervised and where a person stays in the loop, the tradeoff behind your computer vision and estimator split.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/bobyard
+
+Worth 15 minutes if this req is open and a fit, otherwise no worries.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
