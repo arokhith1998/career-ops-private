@@ -1,0 +1,20 @@
+Subject: The milliseconds problem in your Real-Time req
+
+Hi {Recruiter, Product Manager - Real Time},
+
+Your posting draws the line sharply: catch the event, check it against everything already known, answer before the window closes. I have run the data side of that race, just at industrial rather than web speed.
+
+Built SQL and GA4 KPI frameworks that mined event-level signal off 50K+ connected industrial devices at Sensata, catching cohorts worth acting on before the signal went stale, lifting feature adoption 18%.
+Partnered directly with Engineering on the forecasting work behind a 100+ feature backlog, shipping 25% faster.
+Carry P&L and revenue targets today at Applied Materials while building the forecasting models Engineering and Sales both plan against.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/hightouch
+
+If this req sits with your desk, 15 minutes would help. If it's someone else's, a pointer their way would too.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

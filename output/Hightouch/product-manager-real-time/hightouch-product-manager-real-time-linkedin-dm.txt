@@ -1,0 +1,1 @@
+Hi, your Real-Time req frames this as a milliseconds problem: catch the event, check it, answer before the window closes. I ran that same race on industrial telemetry at Sensata, 50K+ connected devices, SQL and GA4 cohorts shipped before signal went stale. Portfolio: adhi-product-ai.vercel.app/ref/hightouch Open to 15 min?

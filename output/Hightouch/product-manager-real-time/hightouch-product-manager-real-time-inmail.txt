@@ -1,0 +1,18 @@
+Subject: Milliseconds is an infrastructure bet, and I have made similar ones
+
+Hi {Recruiter, Product Manager - Real Time},
+
+I do not usually message before applying, but the line "you'll decide where it goes from here" for Real-Time Evaluation and the Personalization API is a bigger bet than most PM reqs make, and it is close to work I already run.
+
+At Sensata I partnered directly with Engineering on the forecasting and architecture tradeoffs behind a 100+ feature backlog, and built SQL and GA4 frameworks that mined event signal off 50K+ connected industrial devices to catch cohorts before the signal went stale, lifting adoption 18%. I ran the customer evidence side too, 30+ OEM interviews that reset CSAT 22% once the stated ask and the real signal stopped matching. At Applied Materials I carry P&L targets while building the forecasting models Engineering and Sales both plan against.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/hightouch
+
+Worth 15 minutes on this req?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
