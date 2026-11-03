@@ -1,0 +1,20 @@
+Subject: The operational foundation for AI Units is the hard part
+
+Hi {Hiring Manager, Renewals & Consumption},
+
+I do not normally cold-email before applying, but a program this early where the policy, the billing mechanics and the exception playbook are all being written at once, with Product, Billing and Account Teams all needing a straight answer, is the exact shape of work I already run.
+
+At Sensata I owned the Bleeders and Leakers program: I built a Power BI dashboard ranking 1,200 pricing exceptions against a $627M target across 3 regions and 4 product lines, then resolved the account-specific calls with Sales and Finance myself, recovering $700K+ in margin in 2 quarters.
+I also raised distributor margins 53% to 61% in under 2 quarters by repricing account by account, not by policy memo.
+At Applied Materials I translate ambiguous field and technical input into one forecasting model across product groups, automating the reporting with Claude agents so the model stays current.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/box
+
+Worth 15 minutes on how the team is scoping the exception playbook? Happy to be pointed to the right owner if this has moved.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
