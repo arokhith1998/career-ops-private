@@ -1,0 +1,22 @@
+Subject: The "why isn't an agent doing this" line in your Strategy and Ops posting
+
+Hi {Recruiter, Talent Team},
+
+I don't normally reach out before applying, but your posting asks this seat to look at every B2B step and ask why isn't an agent doing it. That's close to a job I already have.
+
+Built you a 6-slide pitch deck so the proof fits on one read.
+
+- At Applied Materials I run Claude-based AI agents on recurring forecasting instead of rebuilding models by hand each cycle.
+- At Sensata I took a single-region pricing pilot to a Power BI playbook three regions reused, recovering $700K+ in two quarters.
+- As founder of PriceKeel I'm running early customer pilots and owning the pricing call end to end.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/earnin
+
+Worth 15 minutes this week? A pointer to whoever owns this req also helps.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
