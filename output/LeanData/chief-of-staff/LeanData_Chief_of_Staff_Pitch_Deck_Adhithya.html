@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>LeanData Chief of Staff Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #1a56db; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 25pt; font-weight: 800; color: #0f172a; line-height: 1.17; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 19pt; font-weight: 800; color: #0f172a; line-height: 1.16; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #1a56db; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.8in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbeafe 100%); }
+  .cover h1 { font-size: 22pt; max-width: 11.3in; }
+  .cover .sub { font-size: 13pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; max-width: 10.8in; }
+  .cover .tags { margin-top: 16pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.6in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9pt; font-weight: 500; }
+  .tag strong { color: #1a56db; font-weight: 700; }
+  .cover .who { margin-top: 16pt; padding-top: 10pt; border-top: 1.5pt solid #1a56db; max-width: 9.8in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #1a56db; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #eff6ff; border-left: 3pt solid #1a56db; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #1e3a8a; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #1a56db; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.4pt; color: #334155; line-height: 1.46; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 13pt; background: #eff6ff; border-left: 4pt solid #1a56db; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #1e3a8a; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 20pt; font-weight: 800; color: #1a56db; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.3pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.6pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #1a56db; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.3pt; font-weight: 800; color: #0f172a; line-height: 1.18; margin-bottom: 7pt; }
+  .card .body { font-size: 8.8pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.3pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #1a56db; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbeafe 100%); }
+  .close h2 { font-size: 22pt; max-width: 10.9in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.8in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #1a56db; font-weight: 700; }
+  .close .contact { margin-top: 15pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the LeanData Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | LeanData Chief of Staff</div>
+  <h1>A Chief of Staff seat built on being a trusted partner to the CEO needs someone who already runs that seat, for a company of his own.</h1>
+  <div class="sub">A record of owning OKR cadences, QBRs and the leadership decks behind them across four roles, including as the CEO's only right hand.</div>
+  <div class="tags">
+    <div class="tag"><strong>PriceKeel</strong> Founder and CEO, the literal trusted-partner-to-the-CEO seat, run solo</div>
+    <div class="tag"><strong>4 roles</strong> running the identical OKR and QBR cadence, weekly and quarterly</div>
+    <div class="tag"><strong>$433M shortlist</strong> built from an unstaffed margin mandate with no prior owner</div>
+    <div class="tag"><strong>$700K+ / 2Q</strong> recovered once that mandate had structure and a cadence</div>
+    <div class="tag"><strong>53% to 61%</strong> distributor and channel-partner margins, built on new partnerships</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhithyabhaskar.vercel.app/ref/leandata</div>
+  </div>
+  <div class="brand">LEANDATA CHIEF OF STAFF PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>A Chief of Staff seat does not arrive with a clean lane. The job is <span class="accent">picking the right domain each week, then closing it out.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What that actually requires</h4>
+      <div class="line">Partnering with the CEO to assess progress against the annual plan, then coordinating and executing OKRs across the company, not just inside one function.</div>
+      <div class="line">Owning QBRs end to end: defining the structure, the metrics and the cadence, not attending a meeting someone else built.</div>
+      <div class="line">Running the rhythm of the business: task follow-through, scheduling the key meetings, and preparing the materials behind them.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run, at that exact layer</h4>
+      <div class="line">Ran the identical <b>OKR and QBR cadence</b>, weekly and quarterly business reviews plus the leadership decks behind them, at four separate stops.</div>
+      <div class="line">Took <b>Bleeders and Leakers</b> from an unstaffed mandate to a $433M shortlist and $700K+ recovered, the same temporary-owner instinct this seat asks for.</div>
+      <div class="line">Founded and runs <b>PriceKeel</b> solo: CEO, CRM/CPQ owner and fundraising lead in one seat, the most literal version of "trusted partner to the CEO" available.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">The through-line: I already run this seat for a company of my own, and have run its exact cadence inside three other companies before anyone called it a Chief of Staff job.</div>
+  </div>
+  <div class="brand">LEANDATA CHIEF OF STAFF PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What LeanData's Chief of Staff opening asks for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Partner with CEO to assess company progress vs. the annual plan... Coordinate and execute OKRs."</div></div>
+      <div class="quote"><div class="q">"Own quarterly business reviews (QBRs): define structure, metrics, and cadence."</div></div>
+      <div class="quote"><div class="q">"Responsible for the rhythm of the business, including task follow through, scheduling key meetings and preparing advance materials."</div></div>
+      <div class="quote"><div class="q">"Serve as temporary owner for unstaffed experimental projects."</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>Strategic planning and OKRs:</b> ran the OKR cadence and leadership decks behind weekly and quarterly reviews at Applied Materials, Sensata, Plug Power and Pixis, four roles running.</div></div>
+      <div class="proof"><div class="p"><b>QBR ownership:</b> built the Bleeders and Leakers dashboard from zero, the structure, metrics and cadence behind a $433M shortlist and $700K+ recovered.</div></div>
+      <div class="proof"><div class="p"><b>Rhythm of the business:</b> runs CRM, CPQ and deal approvals personally at PriceKeel, with no team to hand the follow-through to.</div></div>
+      <div class="proof"><div class="p"><b>Temporary ownership of unstaffed work:</b> PriceKeel's own next build, a margin layer on top of the guardrail engine, is a self-assigned unstaffed initiative.</div></div>
+    </div>
+  </div>
+  <div class="brand">LEANDATA CHIEF OF STAFF PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>Bleeders and Leakers: an unstaffed margin mandate turned into a <span class="accent">QBR-ready number, the same structure this seat owns.</span></h2>
+  <div class="lede">Built as the first owner of a program with no dashboard, no cadence and no metrics defined yet, the same starting point most "figure this out" Chief of Staff priorities begin from.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$700K+ / 2Q</div>
+      <div class="lbl">Margin Recovered</div>
+      <div class="desc">Negotiated from competitive gaps and customer willingness to pay, against a $627M target.</div>
+    </div>
+    <div class="stat">
+      <div class="n">53% to 61%</div>
+      <div class="lbl">Partner Margin Lift</div>
+      <div class="desc">Built the distributor and channel-partner relationships that made repricing possible in under 2 quarters.</div>
+    </div>
+    <div class="stat">
+      <div class="n">4 Roles</div>
+      <div class="lbl">OKR &amp; QBR Ownership</div>
+      <div class="desc">Ran the identical weekly and quarterly cadence and leadership decks at Applied Materials, Sensata, Plug Power and Pixis.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">The same discipline runs through PriceKeel: define the structure first, so the cadence keeps producing a number without anyone rebuilding it every quarter.</div>
+  <div class="brand">LEANDATA CHIEF OF STAFF PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First six months, mapped to LeanData's own milestones</div>
+  <h2>How the first six months would actually run, against the timeline LeanData already posted.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">First Month</div>
+      <div class="ttl">Shadow the real signal</div>
+      <div class="body">Onboard into strategy and operations, shadow the CEO and E-team's actual workflows, the same audit that grounded the Bleeders and Leakers program before a dashboard existed.</div>
+      <div class="why"><strong>Why first:</strong> a cadence built on assumptions instead of the real workflow is the fastest way to lose the executive team's trust.</div>
+    </div>
+    <div class="card">
+      <div class="label">First 3 Months</div>
+      <div class="ttl">Implement the OKR and meeting cadence</div>
+      <div class="body">Stand up the OKR and weekly E-team meeting cadence, and bring a CEO playbook recommendation built on four roles of running that exact rhythm already.</div>
+      <div class="why"><strong>Why now:</strong> a cadence only earns trust once it is implemented, not proposed.</div>
+    </div>
+    <div class="card">
+      <div class="label">First 6 Months</div>
+      <div class="ttl">Own the QBR and board prep</div>
+      <div class="body">Lead execution on the strategic initiatives already in motion, and take direct ownership of QBRs and board prep: the structure, metrics and cadence this seat is built around.</div>
+      <div class="why"><strong>Why this fast:</strong> Bleeders and Leakers went from unowned to a $433M shortlist on a similar timeline.</div>
+    </div>
+  </div>
+  <div class="brand">LEANDATA CHIEF OF STAFF PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>LeanData needs a right hand who already runs this seat, for a company of his own and for three others. I already do.</h2>
+  <div class="body">
+    <p>The core proof is Sensata and PriceKeel together: a <strong>$700K+ margin program</strong> built from zero structure into a QBR-ready number, and a company of his own where he is the CEO's only trusted partner, owning CRM, CPQ and fundraising personally.</p>
+    <p>What is harder to find is someone who has run that exact OKR and QBR cadence inside three other companies too, Applied Materials, Plug Power and Pixis, so the pattern is not a one-off. That repetition, more than any single number, is what a two-year Chief of Staff seat needs most.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhithyabhaskar.vercel.app/ref/leandata</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">LEANDATA CHIEF OF STAFF PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
