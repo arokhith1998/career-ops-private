@@ -2,12 +2,12 @@ Subject: Not just one piece of the delivery journey
 
 Hi {Hiring Manager, DoorDash for Business},
 
-I don't normally reach out before applying, but shaping the experience for clients, dashers and merchants across the entire journey, not just one piece of it, is the opposite of most strategy and ops postings, which hand you one metric and one lever.
+I don't normally reach out before applying, but shaping the experience for clients, dashers and merchants across the entire journey, not just one piece of it, is rare in a strategy and ops posting.
 
 A few reference points:
-- Built the SQL and GA4 KPI framework behind a 0 to 1 Sensata product launch: 30+ structured OEM and distributor interviews first, then a framework that lifted feature adoption 18% across 50K+ connected devices and scaled across North America and Europe.
-- At Applied Materials, I partner with Sales, Engineering and Accounts to build one market model none of us could build alone, the same cross-functional pull this seat needs across Sales, Product, Engineering and Business Development.
-- Ran 15+ A/B tests at Plug Power before scaling spend company-wide, cutting CPA 25% and lifting conversion 20%, proof before scale rather than scale before proof.
+- Built Sensata's SQL and GA4 KPI framework for a 0 to 1 product launch: 30+ OEM and distributor interviews first, then feature adoption up 18% across 50K+ connected devices, scaled across North America and Europe.
+- At Applied Materials, I partner with Sales, Engineering and Accounts to build one market model none of us could build alone, the same cross-functional pull this seat needs across Sales, Product, Engineering and BD.
+- Ran 15+ A/B tests at Plug Power before scaling spend company-wide, cutting CPA 25% and lifting conversion 20%, proof before scale.
 
 Resume and cover letter attached. Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/doordash
 
