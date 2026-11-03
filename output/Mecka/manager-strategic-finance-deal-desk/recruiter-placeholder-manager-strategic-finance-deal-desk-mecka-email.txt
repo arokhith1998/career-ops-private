@@ -1,0 +1,22 @@
+Subject: Built the exact guardrail engine this deal desk needs
+
+Hi {Recruiter, Strategic Finance},
+
+I don't normally reach out before applying, but building a deal desk from scratch, one front door for pricing with standard intake and approval thresholds, is work I have already done twice.
+
+A few points that map to the req:
+- Founded PriceKeel's guardrail engine, reviewing every discount exception before final approval.
+- Recovered $700K+ in margin in 2 quarters at Sensata leading the Bleeders and Leakers deal-review program.
+- Raised distributor margins 53% to 61% by repricing account by account, not by policy memo.
+- Automate pricing and forecasting analysis daily with AI agents built on Claude.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/mecka
+
+Worth 15 minutes if this is your req, no worries if it already has an owner.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
