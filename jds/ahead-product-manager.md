@@ -11,5 +11,33 @@
 ## Work authorization / visa / citizenship / clearance
 No explicit sponsorship, OPT/CPT, citizenship, or clearance language found in the extracted text.
 
+## Real role content (re-extracted 2026-11-03, original nightly cloud-discover capture below was EEO/accommodation boilerplate only)
+
+**Role:** Product Manager, Hatch and Unity (AHEAD platforms for IT asset intelligence and management).
+
+**Responsibilities:**
+- Own the full product lifecycle, from concept through launch and ongoing enhancements.
+- Help shape product strategy and maintain the roadmap, communicating it to internal and external audiences.
+- Define requirements based on real user problems and validated feedback.
+- Work with UI/UX designers on intuitive, user-centered experiences.
+- Coordinate launches with customer success, marketing, operations, and finance.
+- Explore how AI can improve the product experience.
+- Run user feedback sessions and iterate quickly.
+- Drive product communications with marketing and enablement teams.
+- Stay engaged with clients, end users, and internal users to identify improvements.
+
+**Qualifications:**
+- Demonstrated experience shipping high-impact features or managing platform-level launches.
+- Strong product discovery skills.
+- Clear communication with executives, engineers, and other stakeholders.
+- Experience turning vision into wireframes and prototypes with UI/UX teams.
+- Sound judgment balancing user value, technical feasibility, and business needs.
+- Familiarity with agile development, iterative releases, and cross-functional team rituals.
+- Nice to have: background in SaaS, software development, internal tools, or platform product management.
+
+**Tools/technologies referenced:** analytics tools, dashboards, usage data, current AI toolsets and approaches, agile development practices. No specific named software stack.
+
+**Location/comp (public posting, not candidate-facing):** hybrid, multiple US metros; 150K-200K annually on-target earnings. Source: AHEAD Lever posting mirrored via Built In (listing since delisted; content verified 2026-11-03).
+
 ## Full JD text (extracted, nightly discover cloud run 2026-10-26/27)
 ic or Latino)A person having origins in any of the original peoples of the Far East, Southeast Asia, or the Indian Subcontinent, including, for example, Cambodia, China, India, Japan, Korea, Malaysia, Pakistan, the Philippine Islands, Thailand, and Vietnam.American Indian or Alaska Native (Not Hispanic or Latino)A person having origins in any of the original peoples of North and South America (including Central America), and who maintain tribal affiliation or community attachment.Two or More Races (Not Hispanic or Latino)All persons who identify with more than one of the above five races.Self-identification of veteran status (Completion is voluntary and will not subject you to adverse treatment)AHEAD is a Government contractor subject to the Section 4212 of the Vietnam Era Veterans’ Readjustment Assistance Act of 1974, as amended by the Jobs for Veterans Act of 2002, which requires Government contractors to take affirmative action to employ and advance in employment: (1) Disabled veterans – A veteran who served on active duty in the U.S. military and is entitled to disability compensation (or who but for the receipt of military retired pay would be entitled to disability compensation) under laws administered by the Secretary of Veterans Affairs, or was discharged or released from active duty because of a service-connected disability; (2) Recently separated veteran – A veteran separated during the three-year period beginning on the date of the veteran's discharge or release from active duty in the U.S military, ground, naval, or air service; (3) Active duty wartime or campaign badge veteran – A veteran who served on active duty in the U.S. military during a war, or in a campaign or expedition for which a campaign badge was authorized under the laws administered by the Department of Defense; (4) Armed forces service medal veteran – A veteran who, while serving on active duty in the U.S. military ground, naval, or air service, participated in a United States military operation for which an Armed Forces service medal was awarded pursuant to Executive Order 12985 (61 Fed. Reg. 1209). If you believe that you belong to any of the categories of protected veterans, please indicate by making the appropriate selection.Veteran statusSelect ...I identify as one or more of the classifications of protected veteran listed aboveI am not a protected veteranI decline to self-identify for protected veteran statusVoluntary self-identification of disabilityForm CC-305 / OMB Control Number 1250-0005 / Expires 04/30/2026Why are you being asked to complete this form?We are a federal contractor or subcontractor. The law requires us to provide equal employment opportunity to qualified people with disabilities. We have a goal of having at least 7% of our workers as people with disabilities. The law says we must measure our progress towards this goal. To do this, we must ask applicants and employees if they have a disability or have ever had one. People can become disabled, so we need to ask this question at least every five years.Completing this form is voluntary, and we hope that you will choose to do so. Your answer is confidential. No one who makes hiring decisions will see it. Your decision to complete the form and your answer will not harm you in any way. If you want to learn more about the law or this form, visit the U.S. Department of Labor’s Office of Federal Contract Compliance Programs (OFCCP) website at www.dol.gov/ofccp.How do you know if you have a disability?A disability is a condition that substantially limits one or more of your “major life activities.” If you have or have ever had such a condition, you are a person with a disability. Disabilities include, but are not limited to:Alcohol or other substance use disorder (not currently using drugs illegally)Autoimmune disorder, for example, lupus, fibromyalgia, rheumatoid arthritis, HIV/AIDSBlind or low visionCancer (past or present)Cardiovascular or heart diseaseCeliac diseaseCerebral palsyDeaf or serious difficulty hearingDiabetesDisfigurement, for example, disfigurement caused by burns, wounds, accidents, or congenital disordersEpilepsy or other seizure disorderGastrointestinal disorders, for example, Crohn's Disease, irritable bowel syndromeIntellectual or developmental disabilityMental health conditions, for example, depression, bipolar disorder, anxiety disorder, schizophrenia, PTSDMissing limbs or partially missing limbsMobility impairment, benefiting from the use of a whee…
