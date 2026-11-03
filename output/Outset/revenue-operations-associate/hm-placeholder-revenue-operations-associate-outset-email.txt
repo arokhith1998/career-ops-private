@@ -1,0 +1,21 @@
+Subject: Right hand to the one person who's been running all of RevOps
+
+Hi {Director of Revenue Operations, Outset},
+
+I don't normally email before applying, but being the second person on a team where one person has been running Salesforce, the HubSpot sync, ARR reporting and deal desk alone is a scope question I want to answer, not a risk I'm weighing.
+
+At PriceKeel I own CRM and CPQ configuration end to end and built the audit trail that gives Finance evidence behind every pricing exception, the same discipline order forms and discount checks need here.
+At Sensata I built the dashboard that ranked 1,200 pricing opportunities against a $627M target, surfaced $433M in gaps, and raised distributor margins from 53% to 61% in two quarters, reporting every number straight to leadership.
+I built KPI frameworks in SQL and GA4 across 50K+ connected devices to catch adoption signals before they became a problem in someone's report.
+At Applied Materials, Claude agents already clear the repetitive half of my week.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/outset
+
+Worth 15 minutes on how you're planning to split ownership as the team grows?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
