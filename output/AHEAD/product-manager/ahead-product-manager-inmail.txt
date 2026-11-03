@@ -1,0 +1,16 @@
+Subject: Hatch and Unity: full lifecycle ownership, validated-feedback requirements
+
+Hi {Recruiter or Hiring Manager, Product},
+
+Your posting asks for someone who owns the full product lifecycle and writes requirements from "real user problems and validated feedback" rather than a feature wishlist. I ran that exact loop at Sensata, owning the roadmap for a sensor product line: 30+ structured interviews with OEMs and distributors before every call, then a 100+ feature backlog managed with engineering in Agile across 3 regions, cutting time-to-market 20% and lifting CSAT 22%. On the AI side this posting asks PMs to explore, I automate my own market analysis with Claude AI agents at Applied Materials today, and I built an AI job-matching platform, SwipeHire, zero to one, from PRD through 50+ onboarded users.
+
+Here's the portfolio: https://adhi-product.vercel.app/ref/ahead
+
+Worth 15 minutes to see if Hatch or Unity's PM seat is still open?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

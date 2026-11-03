@@ -1,0 +1,18 @@
+Subject: Hatch and Unity: requirements built from validated feedback, not a backlog wishlist
+
+Hi {Hiring Manager, Product},
+
+Your posting asks for requirements "based on real user problems and validated feedback," not a stack of feature requests, and that is the discipline I built running sensor-product roadmaps at Sensata, not a smaller analog of it.
+
+I ran 30+ structured interviews with OEMs and distributors before every roadmap call, then managed the resulting 100+ feature backlog with engineering in Agile across 3 regions, accelerating releases 25% and lifting CSAT 22%. I also already own the "AI in the product experience" half of this req: at Applied Materials I automate my own market analysis with Claude AI agents, and I built an AI job-matching platform, SwipeHire, zero to one, from PRD through 50+ onboarded users.
+
+Here's the portfolio: https://adhi-product.vercel.app/ref/ahead
+
+Open to 15 minutes on how Hatch and Unity's roadmap is scoped right now?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
