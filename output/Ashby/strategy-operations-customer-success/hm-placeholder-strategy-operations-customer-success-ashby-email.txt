@@ -1,0 +1,18 @@
+Subject: The early-warning line in your Customer Success Strategy and Operations posting
+
+Hi {Hiring Manager, Strategy and Operations, Customer Success},
+
+I came across the Strategy and Operations, Customer Success opening, and the way your posting separates reporting health score and sentiment from actually using them for early warning, instead of a dashboard nobody reads, is why I'm writing before applying.
+
+At Sensata I owned the Bleeders and Leakers Power BI dashboard, a live view tracking 1,200 pricing opportunities against a $627M target across 3 regions and 20 product lines, surfacing $433M in margin gaps before they turned into lost revenue. At Pixis I ran the retention side directly: hired and managed an 8-person team across 8 client accounts and cut churn 50% by diagnosing the real risk driver behind each account before building the playbook that fixed it. HubSpot and Salesforce are already in my CRM toolkit from that work.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/ashby
+
+Open to 15 minutes if the timing works, and no worries if this sits with someone else on your team.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
