@@ -1,0 +1,22 @@
+Subject: Baseten's "one story across four products" problem is the one I run
+
+Hi {Recruiter, Talent},
+
+I don't normally reach out before applying, but the line about owning positioning across inference, Model APIs, training and post-training, and the platform, while keeping one story consistent across all of them, is the exact shape of work I've been doing under different titles.
+
+A few points that map to the req:
+- At Sensata, benchmarked 10+ competitors across an industrial BU and used it to realign pricing and positioning, helping drive +12% YoY revenue and +8% market share.
+- Built the battlecards and objection handling a 50-rep sales team actually used, lifting win rates 30%.
+- At Applied Materials, build forecasting models across multiple product groups and now automate that analysis with Claude agents, the same fast-context-switch muscle this role needs.
+- Ran the competitive teardown and positioning work for SwipeHire, an AI job-matching platform I built end to end.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/baseten
+
+Worth 15 minutes if this is your req, no worries if it already has an owner.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
