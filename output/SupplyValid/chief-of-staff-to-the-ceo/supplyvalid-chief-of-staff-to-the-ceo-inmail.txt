@@ -1,0 +1,19 @@
+Subject: Did we carry out the decisions we made
+
+Hi {Group CEO, SupplyValid},
+
+Your posting names a performance metric most teams never write down: did we carry out the decisions we made. That is the exact failure mode I have spent the last two quarters closing.
+
+At Sensata I led the Bleeders and Leakers program, recovering $700K+ in margin by turning pricing decisions into tracked, enforced negotiations instead of meeting notes, and I built the dashboard that ranked 1,200 opportunities against a $627M target so leadership could see execution, not just intent.
+At PriceKeel I am building the audit trail that proves a pricing decision actually happened, the same decision-integrity gap your multi-entity governance and commercial architecture work would run into.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/supplyvalid
+
+Worth 15 minutes to see if this maps to how you are tracking follow-through across the group?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
