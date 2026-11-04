@@ -1,0 +1,22 @@
+Subject: Every non-standard quote already runs through me at PriceKeel
+
+Hi {Hiring Manager, Deal Desk},
+
+I don't normally cold-email a hiring manager, but a seat where "every non-standard quote, discount request and custom term runs through you" is the exact mandate I gave myself when I started PriceKeel.
+
+Built a 6-slide pitch deck mapping that work to this brief.
+
+PriceKeel is a discount-governance layer that reads live exceptions, recommends an explainable guardrail from closed-won and closed-lost history, and logs the decision with evidence Finance can audit, the same approval matrix this role needs.
+At Sensata I recovered $700K+ in margin in 2 quarters and raised distributor margins from 53% to 61%, then partnered with senior executives on multimillion-dollar customer quotes, work that sits right where deal terms meet revenue recognition and margin.
+I carried P&L and revenue targets, so I know which approval rules protect the business and which just slow deals down.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/parallel-web-systems
+
+Worth 15 minutes on how you're structuring the approval matrix, even if the timing is off on your end?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
