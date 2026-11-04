@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Zscaler Senior Product Pricing Manager Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #0a6cff; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 30pt; font-weight: 800; color: #0f172a; line-height: 1.1; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 21pt; font-weight: 800; color: #0f172a; line-height: 1.1; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #0a6cff; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.5in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d9e8ff 100%); }
+  .cover h1 { font-size: 27pt; max-width: 11.2in; }
+  .cover .sub { font-size: 13.5pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 16pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #0a6cff; font-weight: 700; }
+  .cover .who { margin-top: 16pt; padding-top: 11pt; border-top: 1.5pt solid #0a6cff; max-width: 9.5in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #0a6cff; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #eaf2ff; border-left: 3pt solid #0a6cff; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #0b4fb8; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #0a6cff; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #eaf2ff; border-left: 4pt solid #0a6cff; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #0b4fb8; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0a6cff; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 22pt; font-weight: 800; color: #0a6cff; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0a6cff; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #0a6cff; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #0a6cff; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d9e8ff 100%); }
+  .close h2 { font-size: 25pt; max-width: 10.6in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.6in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #0a6cff; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Zscaler Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Zscaler Senior Product Pricing Manager</div>
+  <h1>Zscaler's pricing and packaging team needs someone who turns deal, pipeline and renewal data into a business case fast enough to keep pace across regions, segments and channels. I have already run that exact program, with a number on it.</h1>
+  <div class="sub">Pricing analytics, margin recovery and AI-built pricing tooling from someone who builds this exact product on the side.</div>
+  <div class="tags">
+    <div class="tag"><strong>$700K+</strong> margin recovered in 2 quarters, Sensata Bleeders and Leakers program</div>
+    <div class="tag"><strong>53% to 61%</strong> distributor margin lift via repricing logic that stuck</div>
+    <div class="tag"><strong>PriceKeel</strong> - founder of an AI-built discount-guardrail engine and Finance audit trail</div>
+    <div class="tag"><strong>+12% YoY / +8% share</strong> via price realignment benchmarked against 10+ competitors</div>
+    <div class="tag"><strong>AI agents built on Claude</strong> automating recurring pricing analysis</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-pricing-ai.vercel.app/ref/zscaler</div>
+  </div>
+  <div class="brand">ZSCALER PRICING</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>The problem is not that Zscaler lacks a pricing framework. It is that <span class="accent">deal, pipeline, renewal and usage data for a SASE platform change faster than any quarterly pricing review can track, and someone has to turn that into a business case Sales, Product and Finance all act on.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What this seat actually requires</h4>
+      <div class="line">Analyzing deal, pipeline, renewal and product-usage data continuously to catch commercial risk and opportunity before it shows up in a quarterly review.</div>
+      <div class="line">Building business cases and financial models that survive contact with Sales, Product, Finance and Marketing, not a spreadsheet that only the pricing team trusts.</div>
+      <div class="line">Keeping pricing execution consistent across regions, segments and sales channels as the product line and the go-to-market motion both keep expanding.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run</h4>
+      <div class="line">At <b>Sensata</b>, I built a BU-wide Power BI system tracking 1,200 pricing opportunities against a $627M target across 3 regions and 20 product lines, the same deal/pipeline data discipline this seat runs company-wide.</div>
+      <div class="line">At <b>PriceKeel</b>, I built an AI-powered guardrail engine and Finance audit trail from zero, the development of an AI-built tool that moves pricing strategy execution forward this posting calls out by name.</div>
+      <div class="line">I partnered directly with senior executives on <b>AP26 revenue models</b> and multimillion-dollar customer quotes, the same business-case rigor this role brings to Zscaler's leadership team.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">The through-line: every pricing system I have touched started with "this data needs to become a decision, not a deck" and ended with a number leadership could act on.</div>
+  </div>
+  <div class="brand">ZSCALER PRICING</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The mandate, mapped</div>
+  <h2>What the posting asks for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Analyze deal, pipeline, renewal, and product-usage data to identify commercial opportunities and risks."</div></div>
+      <div class="quote"><div class="q">"Build business cases and financial models to evaluate strategic initiatives... drive consistent pricing strategy execution across regions, segments, and sales channels."</div></div>
+      <div class="quote"><div class="q">"Demonstrated curiosity and active exploration of AI tools... development of AI built tools that move pricing strategy execution forward."</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>Deal/pipeline/renewal data to commercial decisions:</b> built the FY2026 Bleeders and Leakers Power BI dashboard surfacing $433M in margin gaps across 1,200 pricing opportunities for leadership to prioritize.</div></div>
+      <div class="proof"><div class="p"><b>Business cases that hold up cross-functionally:</b> partnered with senior executives on AP26 revenue models and multimillion-dollar customer quotes, and closed $700K+ of recovered margin through deal-by-deal negotiation.</div></div>
+      <div class="proof"><div class="p"><b>Consistent execution across regions and channels:</b> raised distributor and channel-partner margins from 53% to 61% by repricing parts sold through distribution so the gain held past renewal.</div></div>
+      <div class="proof"><div class="p"><b>AI tools and AI-built tooling:</b> founded PriceKeel's AI-built guardrail engine and automate my own recurring pricing analysis with AI agents built on Claude at Applied Materials.</div></div>
+    </div>
+  </div>
+  <div class="brand">ZSCALER PRICING</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The Sensata proof, in depth</div>
+  <h2>Bleeders and Leakers: <span class="accent">find the margin leak, build the case, close it, make it hold.</span></h2>
+  <div class="lede">Built as a BU-wide Power BI system covering 1,200 pricing opportunities against a $627M target across 3 regions, 4 product families and 20 product lines, with pipeline funnel, win rate and stage distribution by product line, so leadership could prioritize instead of chasing anecdotes.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$433M</div>
+      <div class="lbl">Margin Shortfall Surfaced</div>
+      <div class="desc">Ranked every pricing opportunity by competitive gap and customer willingness to pay, the same data-to-decision triage a pricing analytics seat runs continuously.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$700K+</div>
+      <div class="lbl">Margin Recovered in 2 Quarters</div>
+      <div class="desc">Closed through deal-by-deal negotiation on a documented business case, not an across-the-board policy change.</div>
+    </div>
+    <div class="stat">
+      <div class="n">53% to 61%</div>
+      <div class="lbl">Distributor Margin Lift</div>
+      <div class="desc">Repriced the channel logic itself, so the gain held past the first renewal cycle instead of drifting back.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">The same BU also drove +12% YoY revenue and +8% market share through price realignment benchmarked against 10+ competitors. The common thread: every fix was built on data, priced as a business case, and measured after it shipped.</div>
+  <div class="brand">ZSCALER PRICING</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month inside Zscaler's pricing and packaging team looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Map the deal, pipeline and renewal data that already exists</div>
+      <div class="body">Sit with Sales, Product and Finance to find where today's commercial opportunities and risks already show up in the data but are not yet surfaced as a decision, the same discovery step that started the Bleeders and Leakers program at Sensata.</div>
+      <div class="why"><strong>Why first:</strong> find the leak in the data before naming the fix.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Ship the first business case and financial model</div>
+      <div class="body">Build the first business case for a strategic pricing or packaging initiative, pressure-test the financial model with Product and Finance, and ship it as a recommendation Sales can execute consistently across regions and segments.</div>
+      <div class="why"><strong>Why now:</strong> the same deal-by-deal modeling discipline that made the 53% to 61% distributor gain stick instead of drift back.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Bring an AI-built tool into the workflow</div>
+      <div class="body">Automate the recurring parts of that analysis with an AI agent, so the next pricing review starts from a flagged opportunity instead of a blank spreadsheet, the same habit that moves pricing strategy execution forward rather than waiting on it.</div>
+      <div class="why"><strong>Why this fast:</strong> the same AI-agent habit that keeps my own recurring reporting moving at Applied Materials today, not a plan for someday.</div>
+    </div>
+  </div>
+  <div class="brand">ZSCALER PRICING</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to turn deal, pipeline and renewal data into business cases that hold up across regions, segments and channels. I have already run that program, with a number on it each time.</h2>
+  <div class="body">
+    <p>The margin half: <strong>$700K+ recovered in 2 quarters</strong> and distributor margins lifted <strong>from 53% to 61%</strong> at Sensata, plus +12% YoY revenue and +8% market share through price realignment benchmarked against 10+ competitors.</p>
+    <p>The build half: <strong>PriceKeel's AI-built guardrail engine</strong> and Finance audit trail, built from zero, running my own CRM, CPQ and deal approvals end to end. At Applied Materials I automate my own recurring pricing analysis with AI agents built on Claude instead of rebuilding the same report every cycle.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-pricing-ai.vercel.app/ref/zscaler</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">ZSCALER PRICING</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
