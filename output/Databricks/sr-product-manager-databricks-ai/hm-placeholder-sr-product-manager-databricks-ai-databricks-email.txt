@@ -1,0 +1,20 @@
+Subject: Defining the agent product vision, not just shipping the roadmap
+
+Hi {Hiring Manager, Databricks AI},
+
+I do not usually write in before applying, but owning the vision for agent and model capabilities, then engaging customers to find the next use case worth building, is the exact split this seat asks for and the one I already run day to day.
+
+I built SwipeHire zero to one: wrote the PRD, scoped the MVP on the OpenAI API, and shipped AI job matching plus auto-tailored resumes to 50+ early users on my own call.
+At Sensata I ran 30+ structured interviews with OEMs and distributors to find the next use case, then owned the 100+ feature roadmap that followed, releasing 25% faster across 3 regions.
+At Applied Materials I sit with Engineering, Sales and Accounts on market sizing and forecasting, the technical-plus-customer split this seat is built on, and I run my own Claude agents against that recurring analysis.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/databricks
+
+Worth 15 minutes to see if the fit is real, happy to be pointed elsewhere if this is not your req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

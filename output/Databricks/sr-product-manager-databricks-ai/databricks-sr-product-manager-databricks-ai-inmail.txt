@@ -1,0 +1,18 @@
+Subject: An agent product built zero to one, before the PM title
+
+Hi {Recruiter, Databricks AI},
+
+Most of this req reads like a loop I already run: take an AI capability, decide what a customer can use today, and own it concept to launch. I built SwipeHire that way, wrote the PRD, scoped the MVP on the OpenAI API, and shipped AI job matching to 50+ early users with no team behind me.
+
+At Sensata I owned a 100+ feature roadmap with engineering across 3 regions, releasing 25% faster, backed by SQL and GA4 frameworks across 50K+ connected devices. At Applied Materials I sit with Engineering, Sales and Accounts on forecasting models today, and I run my own Claude agents against the recurring analysis.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/databricks
+
+Worth 15 minutes to see if this is a fit?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Databricks Sr. Product Manager, Databricks AI Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #b2460c; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 27pt; font-weight: 800; color: #0f172a; line-height: 1.14; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 20pt; font-weight: 800; color: #0f172a; line-height: 1.12; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #b2460c; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.7in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #fde9da 100%); }
+  .cover h1 { font-size: 24pt; max-width: 11.3in; }
+  .cover .sub { font-size: 14pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 16pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #b2460c; font-weight: 700; }
+  .cover .who { margin-top: 16pt; padding-top: 11pt; border-top: 1.5pt solid #b2460c; max-width: 9.4in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #b2460c; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #fdf0e7; border-left: 3pt solid #b2460c; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #7c2d12; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #b2460c; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #fdf0e7; border-left: 4pt solid #b2460c; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #7c2d12; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #b2460c; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 20pt; font-weight: 800; color: #b2460c; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #b2460c; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #b2460c; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #b2460c; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #fde9da 100%); }
+  .close h2 { font-size: 23pt; max-width: 10.6in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.6in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #b2460c; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Databricks Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Databricks Sr. Product Manager, Databricks AI</div>
+  <h1>Enterprise generative AI moves faster than most roadmaps can absorb it. The hard part is not the model advance, it is turning that advance into a product a customer will trust with real workflows before the window closes. I have already run that exact loop, twice.</h1>
+  <div class="sub">One AI product built zero-to-one on an LLM API, and one enterprise roadmap shipped 25% faster with the same customer-engaged discipline.</div>
+  <div class="tags">
+    <div class="tag"><strong>Zero-to-one AI build</strong> on the OpenAI API: PRD to 50+ shipped users</div>
+    <div class="tag"><strong>100+ item roadmap</strong> shipped 25% faster across 3 regions in Agile</div>
+    <div class="tag"><strong>30+ customer interviews</strong> turned into new-use-case roadmap calls</div>
+    <div class="tag"><strong>SQL + GA4 KPI frameworks</strong> across 50K+ connected devices</div>
+    <div class="tag"><strong>AI agents built on Claude</strong> automating my own recurring analysis today</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-product-ai.vercel.app/ref/databricks</div>
+  </div>
+  <div class="brand">AI PRODUCT PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>The Databricks AI mandate is not "write the agent spec." It is owning the <span class="accent">full loop from a research capability to a product a customer will run in production.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What that actually requires</h4>
+      <div class="line">A PM who can sit with engineering and research on what is technically buildable right now, not just what the roadmap deck says is buildable.</div>
+      <div class="line">Direct customer contact to find which agent or model capability is worth shipping first, not a backlog ranked by internal opinion.</div>
+      <div class="line">An analytics discipline (SQL, usage data) that tells you whether a shipped capability is actually being adopted, not just demoed well.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run</h4>
+      <div class="line">I built <b>SwipeHire</b> zero-to-one on the OpenAI API: wrote the PRD, scoped the MVP, shipped it to 50+ users, the same concept-to-launch arc this role asks for applied to an AI product specifically.</div>
+      <div class="line">At <b>Sensata</b>, I ran 30+ structured customer interviews with OEMs and distributors to find new use cases before committing roadmap, then shipped against a 100+ item backlog 25% faster.</div>
+      <div class="line">At <b>Applied Materials</b> today, I integrate AI agents built on Claude into my own recurring analysis, the same instinct for turning an AI capability into a working tool, pointed at my own job.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">The through-line: every roadmap call I have made started with a customer conversation and ended with a number in SQL, whether the product was an AI matching tool or an industrial sensor line.</div>
+  </div>
+  <div class="brand">AI PRODUCT PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The mandate, mapped</div>
+  <h2>What the posting asks for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Define the vision for enterprise generative AI and agent products... guide the roadmap from concept to launch."</div></div>
+      <div class="quote"><div class="q">"Work closely with engineering and research to turn advances into products."</div></div>
+      <div class="quote"><div class="q">"Engage with customers to identify new use cases... comfort with SQL and product analytics."</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>SwipeHire, concept to launch:</b> wrote the PRD, scoped the MVP and shipped an AI job-matching product zero-to-one on the OpenAI API, to 50+ users.</div></div>
+      <div class="proof"><div class="p"><b>Sensata, roadmap owned with engineering:</b> defined the product vision for sensor solutions and ran a 100+ item backlog with engineering in Agile across 3 regions, 25% faster releases.</div></div>
+      <div class="proof"><div class="p"><b>Sensata, customer-sourced use cases:</b> 30+ structured interviews with OEMs and distributors surfaced the use cases that became roadmap commitments, raising CSAT 22%.</div></div>
+      <div class="proof"><div class="p"><b>SQL and product analytics:</b> built KPI frameworks in SQL and GA4 across 50K+ connected devices to tell adoption from a good demo.</div></div>
+    </div>
+  </div>
+  <div class="brand">AI PRODUCT PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>Ship the capability, prove the adoption, then <span class="accent">go back to the customer for the next use case.</span></h2>
+  <div class="lede">The same three-step loop twice: build the thing zero-to-one, instrument it so the data tells the truth, then let customer contact decide what ships next.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">50+ Users</div>
+      <div class="lbl">Zero-to-One AI Product, Concept to Launch</div>
+      <div class="desc">SwipeHire: PRD, MVP and ship on the OpenAI API, with no playbook and no team to hand any of it to.</div>
+    </div>
+    <div class="stat">
+      <div class="n">25% Faster</div>
+      <div class="lbl">100+ Item Roadmap, 3 Regions, Agile</div>
+      <div class="desc">Sensata sensor-product roadmap, shipped with engineering across North America, Europe and APAC-equivalent regions.</div>
+    </div>
+    <div class="stat">
+      <div class="n">30+ Interviews</div>
+      <div class="lbl">Customer-Sourced Use Cases, Not Guesses</div>
+      <div class="desc">Structured OEM and distributor conversations that became roadmap commitments, raising CSAT 22%.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">None of these were a roadmap slide that sat in a deck. Each one closed the loop from a technical capability to a number a customer or a business actually felt.</div>
+  <div class="brand">AI PRODUCT PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month owning an agent or model product at Databricks AI looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Sit with engineering and research on what ships next</div>
+      <div class="body">Map the current agent/model capabilities closest to production readiness, and find where a capability is technically done but has no customer-facing use case attached yet.</div>
+      <div class="why"><strong>Why first:</strong> the same move behind the SwipeHire PRD: separate what is technically done from what a customer can actually use, before committing a roadmap slot.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Run customer conversations on the use case most likely to ship first</div>
+      <div class="body">Go direct to 10-15 target customers or internal champions to pressure-test which agent workflow earns a place on the roadmap first, the same discipline behind Sensata's 30+ OEM interviews.</div>
+      <div class="why"><strong>Why now:</strong> a roadmap built from internal opinion ships the wrong thing well; one built from direct customer contact ships the right thing fast.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Stand up the SQL-based adoption signal</div>
+      <div class="body">Build the usage-analytics view that separates a well-demoed capability from one customers actually keep using, then automate its reporting with an AI agent so the signal updates every cycle.</div>
+      <div class="why"><strong>Why this fast:</strong> the same SQL-and-GA4 habit from Sensata, and the same Claude-agent automation already running at Applied Materials today, not a plan for someday.</div>
+    </div>
+  </div>
+  <div class="brand">AI PRODUCT PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to turn Databricks AI's model and agent capabilities into products customers trust with real workflows. I have run that exact loop, concept to launch, more than once.</h2>
+  <div class="body">
+    <p>The build half: <strong>SwipeHire</strong>, an AI product written, scoped and shipped zero-to-one on the OpenAI API to 50+ users, with no existing playbook to lean on.</p>
+    <p>The enterprise half: Sensata's sensor-product roadmap, a <strong>100+ item backlog shipped 25% faster</strong> across 3 regions with engineering in Agile, built on 30+ customer interviews that found the use cases worth shipping. At Applied Materials today I integrate AI agents built on Claude into my own recurring analysis, because the instinct to turn a capability into a working tool should not stop at the product boundary.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-product-ai.vercel.app/ref/databricks</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">AI PRODUCT PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
