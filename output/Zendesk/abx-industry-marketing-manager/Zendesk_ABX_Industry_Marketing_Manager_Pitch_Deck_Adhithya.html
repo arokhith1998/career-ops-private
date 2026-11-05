@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Zendesk ABX &amp; Industry Marketing Manager Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #0f766e; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 24pt; font-weight: 800; color: #0f172a; line-height: 1.16; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 20pt; font-weight: 800; color: #0f172a; line-height: 1.12; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #0f766e; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.7in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #ccfbf1 100%); }
+  .cover h1 { font-size: 22pt; max-width: 11.5in; }
+  .cover .sub { font-size: 13.5pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 15pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #0f766e; font-weight: 700; }
+  .cover .who { margin-top: 15pt; padding-top: 11pt; border-top: 1.5pt solid #0f766e; max-width: 9.4in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #0f766e; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #f0fdfa; border-left: 3pt solid #0f766e; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #115e59; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #0f766e; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #f0fdfa; border-left: 4pt solid #0f766e; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #115e59; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0f766e; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 19pt; font-weight: 800; color: #0f766e; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0f766e; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #0f766e; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #0f766e; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #ccfbf1 100%); }
+  .close h2 { font-size: 23pt; max-width: 10.8in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.6in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #0f766e; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Zendesk Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Zendesk ABX &amp; Industry Marketing Manager</div>
+  <h1>Zendesk needs one person who can run the full ABX loop: the industry play, the campaign kit, the account-tier paid media and the dashboard that proves it moved pipeline. I have already run every piece of that loop, just not yet under one title.</h1>
+  <div class="sub">An industry GTM launch, an account-tier paid media book, and an engagement-signal pipeline dashboard, on the same resume.</div>
+  <div class="tags">
+    <div class="tag"><strong>$2M+ first-year revenue</strong> from an industry-specific GTM play at Sensata</div>
+    <div class="tag"><strong>+30% win rate</strong> from a campaign kit built for 50+ reps</div>
+    <div class="tag"><strong>8-client paid media book</strong> run at once, $15K-$90K per account per month</div>
+    <div class="tag"><strong>1,200-opportunity pipeline dashboard</strong> across 3 regions in Power BI</div>
+    <div class="tag"><strong>AI agents built on Claude</strong> automating my own campaign analysis today</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-product-ai.vercel.app/ref/zendesk</div>
+  </div>
+  <div class="brand">ABX &amp; INDUSTRY MARKETING PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>The role is not one campaign type. It is an <span class="accent">operating model</span>: 1:1, 1:few and scaled programs, each needing its own play, kit and media plan, all tied back to one pipeline number.</h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What that actually requires</h4>
+      <div class="line">An industry-specific play built once, positioning, pricing, channel and launch together, not assembled fresh per account tier.</div>
+      <div class="line">Paid media run across several account books at the same time, not one campaign waiting for the last one to close.</div>
+      <div class="line">A pipeline-impact dashboard built BEFORE the quarterly review, so the ABX motion has a number before anyone asks for one.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run</h4>
+      <div class="line">At <b>Sensata</b>, I built the industry play for new sensing products, positioning through launch, as one motion, driving $2M+ first-year revenue.</div>
+      <div class="line">At <b>Plug Power and Pixis</b>, I ran paid media across an 8-client and multi-business-unit book at once, $15K-$90K per account per month.</div>
+      <div class="line">At <b>Sensata</b> again, I built the FY2026 pipeline dashboard before leadership asked, 1,200 opportunities, 3 regions, funnel stage and win rate.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">The through-line: every piece of the ABX loop, industry play, account-tier media, pipeline dashboard, already has my name on it. It is the "under one title" part that is new.</div>
+  </div>
+  <div class="brand">ABX &amp; INDUSTRY MARKETING PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The mandate, mapped</div>
+  <h2>What the posting asks for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Build the ABX operating model across 1:1, 1:few, and scaled programs; develop global industry plays, campaign kits, sales enablement."</div></div>
+      <div class="quote"><div class="q">"Lead paid media strategy for priority-account and cohort campaigns."</div></div>
+      <div class="quote"><div class="q">"Measure pipeline impact and build AI-enabled campaign workflows."</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>Sensata, the industry play and kit:</b> a sensing-product GTM launch (positioning, pricing, channel, launch) handed to 50+ reps as battlecards and case studies, moving win rate 30%.</div></div>
+      <div class="proof"><div class="p"><b>Plug Power and Pixis, account-tier paid media:</b> Paid Search/Social across Google, Microsoft, Meta and LinkedIn for priority-account campaigns, plus an 8-client paid media book, $15K-$90K per account per month.</div></div>
+      <div class="proof"><div class="p"><b>Sensata, pipeline impact:</b> a Power BI dashboard tracking 1,200 opportunities against a $627M target across 3 regions, with funnel stage and win rate by region.</div></div>
+      <div class="proof"><div class="p"><b>Applied Materials, AI-enabled workflows:</b> automating recurring campaign and market analysis with AI agents built on Claude, through responsible AI use, today.</div></div>
+    </div>
+  </div>
+  <div class="brand">ABX &amp; INDUSTRY MARKETING PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>Build the play, run the account-tier media, then put a <span class="accent">pipeline number</span> on it.</h2>
+  <div class="lede">Same pattern across three companies: build the industry-specific play or media book first, then measure whether it moved a pipeline or revenue number leadership was accountable for.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$2M+ Revenue</div>
+      <div class="lbl">Industry-Specific GTM Play, Zero to Launch</div>
+      <div class="desc">Positioning, pricing, channel and launch owned end to end for new sensing products across North America and Europe.</div>
+    </div>
+    <div class="stat">
+      <div class="n">+30% Win Rate</div>
+      <div class="lbl">Campaign Kit for 50+ Reps</div>
+      <div class="desc">Battlecards, decks and case studies built from scratch, armed to a live sales team mid-launch.</div>
+    </div>
+    <div class="stat">
+      <div class="n">1,200 Opportunities</div>
+      <div class="lbl">Pipeline-Impact Dashboard, 3 Regions</div>
+      <div class="desc">Power BI build tracking a $627M target with funnel stage, win rate and regional scorecards for leadership.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">None of these sat in a slide deck waiting for a quarterly review. Each one closed the loop from campaign to a number the business already had its eyes on.</div>
+  <div class="brand">ABX &amp; INDUSTRY MARKETING PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month building Zendesk's ABX operating model looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Map the account tiers and the first industry play</div>
+      <div class="body">Pair with Sales and Operations to segment the priority-account list into 1:1, 1:few and scaled tiers, then draft the first industry-specific play (positioning, pricing, channel, launch) for the highest-priority vertical.</div>
+      <div class="why"><strong>Why first:</strong> the same first move behind the Sensata sensing-product play, build the segmentation before the campaign.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Ship the first campaign kit and media plan</div>
+      <div class="body">Build the first campaign kit (battlecards, one-pagers, case studies) with Sales, and stand up the paid media plan for that account tier across the ABM advertising platforms already in place.</div>
+      <div class="why"><strong>Why now:</strong> the same build that moved Sensata's win rate 30%, paired with the account-tier media book run at Plug Power and Pixis.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Stand up the pipeline-impact dashboard</div>
+      <div class="body">Build the first engagement-signal and pipeline dashboard tying the new play and media spend to pipeline stage and win rate, then automate the recurring reporting step with the first AI agent.</div>
+      <div class="why"><strong>Why this fast:</strong> the same FY2026 dashboard discipline from Sensata, paired with the AI-agent habit already running at Applied Materials.</div>
+    </div>
+  </div>
+  <div class="brand">ABX &amp; INDUSTRY MARKETING PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to run the full ABX loop end to end. I have already run every piece of it, industry play, campaign kit, account-tier media, pipeline dashboard, just not yet under one title.</h2>
+  <div class="body">
+    <p>The play-and-kit half: <strong>$2M+ first-year revenue</strong> from an industry-specific GTM launch at Sensata, handed to 50+ reps as a campaign kit that lifted win rate 30%.</p>
+    <p>The media-and-measurement half: an <strong>8-client paid media book</strong> run at once across Plug Power and Pixis, plus a <strong>1,200-opportunity pipeline dashboard</strong> built in Power BI across 3 regions. At Applied Materials I now automate my own recurring campaign and market analysis with AI agents built on Claude, through responsible AI use, because rebuilding the same report every cycle is time that should go into the next industry play.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-product-ai.vercel.app/ref/zendesk</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">ABX &amp; INDUSTRY MARKETING PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
