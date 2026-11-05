@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Alcatraz Sr. Product Marketing Manager Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  :root { --page-margin: 0; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #0c4a6e; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 32pt; font-weight: 800; color: #0f172a; line-height: 1.08; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 21pt; font-weight: 800; color: #0f172a; line-height: 1.1; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #0c4a6e; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.5in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d6e8f2 100%); }
+  .cover h1 { font-size: 29pt; max-width: 11.3in; }
+  .cover .sub { font-size: 14pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 18pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #0c4a6e; font-weight: 700; }
+  .cover .who { margin-top: 18pt; padding-top: 11pt; border-top: 1.5pt solid #0c4a6e; max-width: 9.5in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #0c4a6e; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #e8f1f8; border-left: 3pt solid #0c4a6e; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #0c4a6e; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #0c4a6e; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #e8f1f8; border-left: 4pt solid #0c4a6e; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #0c4a6e; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0c4a6e; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 24pt; font-weight: 800; color: #0c4a6e; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0c4a6e; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #0c4a6e; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #0c4a6e; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d6e8f2 100%); }
+  .close h2 { font-size: 24pt; max-width: 10.8in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.8in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #0c4a6e; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="eyebrow">Pitch Deck | Alcatraz Sr. Product Marketing Manager</div>
+  <h1>Facial-authentication access control sells into four different buyers at once. I have already built the engine that turns one product into four buyer-specific stories, shipped it to 50+ reps, and watched win rates move.</h1>
+  <div class="sub">Positioning, launches, battlecards and win/loss, built by a marketer who runs the AI-tools-to-automate-workflows habit day to day.</div>
+  <div class="tags">
+    <div class="tag"><strong>$2M+</strong> first-year revenue from a GTM owned end to end at Sensata</div>
+    <div class="tag"><strong>+30% win rate</strong> from sales enablement and battlecards built for 50+ reps</div>
+    <div class="tag"><strong>+15% conversion</strong> after a positioning rewrite on priority launches</div>
+    <div class="tag"><strong>AI agents on Claude</strong> run the recurring go-to-market analysis today</div>
+    <div class="tag"><strong>30+ interviews</strong> pressure-tested messaging before launch, not after</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-product-ai.vercel.app/ref/alcatraz</div>
+  </div>
+  <div class="brand">ALCATRAZ PRODUCT MARKETING</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>One product, four buyers. Security, IT, facilities and the executive sponsor <span class="accent">all need a different reason to say yes.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What a posting like this one runs into</h4>
+      <div class="line">A privacy-first facial-authentication product has to read as a security upgrade to the security team, an integration decision to IT, a day-to-day operations change to facilities, and a budget line to the executive sponsor, often inside the same deal.</div>
+      <div class="line">Every launch and every feature needs its own translation pass for that buyer list, plus the demand-gen content, battlecards and demo videos sales actually uses, not a deck that sits in a shared drive.</div>
+      <div class="line">The fix is the same one lean, high-growth product marketing teams reach for: AI tools that automate the repeatable half of the workflow, so the team's time goes into the translation work only a person can do.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run, at smaller scale</h4>
+      <div class="line">At <b>Sensata</b>, I owned the GTM for a new sensing line end to end across North America and Europe: positioning, pricing, channel and launch, closing the year at $2M+ revenue.</div>
+      <div class="line">I rewrote the positioning so technical sensor capability read as buyer value for engineering, operations and executive audiences, lifting conversion <b>15%</b>, then built the battlecards and enablement <b>50+ reps</b> carried into the field.</div>
+      <div class="line">I run the AI-tools-to-automate-workflows habit daily at <b>Applied Materials</b>, automating recurring go-to-market analysis with agents built on Claude instead of doing it by hand every cycle.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">Positioning for security, IT, facilities and executive audiences, leading GTM planning and launches, translating technical concepts into stories, and building the demand-gen content and sales enablement that follows, is the exact loop above: position it for the buyer in the room, enable sales, measure what won, template it, repeat.</div>
+  </div>
+  <div class="brand">ALCATRAZ PRODUCT MARKETING</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What the Sr. Product Marketing Manager opening asks for, and where the proof sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Create positioning and messaging for security, IT, facilities and executive audiences."</div></div>
+      <div class="quote"><div class="q">"Lead go-to-market planning and launches for new products and features."</div></div>
+      <div class="quote"><div class="q">"Translate technical concepts into stories; produce demand-gen content and sales enablement, including battlecards, pitch decks and demo videos."</div></div>
+      <div class="quote"><div class="q">"Conduct market research, competitive analysis and win/loss programs; track program performance."</div></div>
+      <div class="quote"><div class="q">5-7+ years in product marketing, ideally B2B SaaS or enterprise tech; experience using AI tools to automate workflows.</div></div>
+    </div>
+    <div class="col">
+      <h3>My Proof</h3>
+      <div class="proof"><div class="p"><b>Sensata GTM, owned end to end:</b> positioning, pricing, channel and launch for a new sensing line across North America and Europe, closing the year at $2M+ first-year revenue.</div></div>
+      <div class="proof"><div class="p"><b>Positioning rewrite for a technical audience:</b> turned sensor capability into buyer-ready value for engineering, operations and executives, lifting conversion 15%, after 30+ interviews with OEMs and distributors.</div></div>
+      <div class="proof"><div class="p"><b>Sales enablement built, not handed off:</b> battlecards, decks and case studies for 50+ reps, lifting win rates 30%.</div></div>
+      <div class="proof"><div class="p"><b>Competitive tracking feeding roadmaps:</b> tracked competitive activity and program performance across EMEA and the US at Sensata, feeding results back into GTM and product roadmaps.</div></div>
+      <div class="proof"><div class="p"><b>AI tools automating the workflow today:</b> AI agents built on Claude run recurring go-to-market analysis at Applied Materials; shipped an AI product (SwipeHire) solo, PRD to launch.</div></div>
+    </div>
+  </div>
+  <div class="brand">ALCATRAZ PRODUCT MARKETING</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The Sensata proof, in depth</div>
+  <h2>One launch, the whole loop: <span class="accent">position it, enable sales, measure it, feed it back.</span></h2>
+  <div class="lede">GTM owned end to end for a new sensing line across North America and Europe: positioning, pricing, channel decisions and launch sequencing, with competitor and customer tracking across EMEA and the US feeding every call back into the roadmap.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$2M+</div>
+      <div class="lbl">First-Year Revenue</div>
+      <div class="desc">The GTM for the new sensing line, owned end to end rather than handed off in pieces across teams.</div>
+    </div>
+    <div class="stat">
+      <div class="n">+30%</div>
+      <div class="lbl">Win Rate, 50+ Reps Enabled</div>
+      <div class="desc">Battlecards, case studies and decks built so sales could carry the positioning into the room themselves.</div>
+    </div>
+    <div class="stat">
+      <div class="n">+15%</div>
+      <div class="lbl">Conversion on Priority Launches</div>
+      <div class="desc">A positioning rewrite that turned deeply technical detail into language buyers acted on.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">The positioning itself came from 30+ customer interviews with OEMs and distributors run before launch, not after, and the competitive and program-performance tracking that followed is the same win/loss discipline this role asks for, just running on a different product.</div>
+  <div class="brand">ALCATRAZ PRODUCT MARKETING</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month on Alcatraz's product marketing team looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Learn the current motion</div>
+      <div class="body">Sit with the Head of Product Marketing, sales and product to map which battlecards, win/loss notes and demand-gen content exist today for each buyer (security, IT, facilities, executive), and which of it is actually winning deals.</div>
+      <div class="why"><strong>Why first:</strong> the strongest positioning pattern is usually visible in what already closed. Same move that drove the 15% conversion lift at Sensata.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Ship one launch, one buyer, end to end</div>
+      <div class="body">Take one upcoming feature or launch through positioning, the sales playbook (battlecard, deck, demo video) and buyer-specific translation for one audience, working directly with sales and product.</div>
+      <div class="why"><strong>Why now:</strong> building the story on a live launch, not a hypothetical, is what made the Sensata enablement actually get used by 50+ reps.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Stand up the win/loss and AI-first loop</div>
+      <div class="body">Template the win/loss intake and program-performance tracking, then automate the recurring half (competitive scans, report rollups) with AI tools, so the system runs on its own between launches.</div>
+      <div class="why"><strong>Why this fast:</strong> a win/loss program only earns its name once it is feeding the next positioning pass, not sitting in a spreadsheet nobody opens.</div>
+    </div>
+  </div>
+  <div class="brand">ALCATRAZ PRODUCT MARKETING</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to make one product read right to four different buyers, and to keep proving it with win/loss data. I have already run that loop once, and I run the AI-first habit every day that keeps it fast.</h2>
+  <div class="body">
+    <p>The core proof is Sensata: a GTM owned end to end to <strong>$2M+ first-year revenue</strong>, a positioning rewrite that lifted conversion <strong>15%</strong>, and sales enablement that moved win rates <strong>30%</strong> across 50+ reps, all pressure-tested with 30+ customer interviews before launch.</p>
+    <p>What is harder to find is someone who already runs the AI-tools-to-automate-workflows half too. <strong>AI agents built on Claude handle my recurring go-to-market analysis right now</strong> at Applied Materials, and I shipped an AI product solo from PRD to launch, so the automation habit is not something I would need to learn on the job.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-product-ai.vercel.app/ref/alcatraz</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">ALCATRAZ PRODUCT MARKETING</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
