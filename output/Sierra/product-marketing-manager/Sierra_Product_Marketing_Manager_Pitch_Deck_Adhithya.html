@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Sierra Product Marketing Manager Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #0c5f4c; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 32pt; font-weight: 800; color: #0f172a; line-height: 1.08; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 21pt; font-weight: 800; color: #0f172a; line-height: 1.1; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #0c5f4c; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.5in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d3ede2 100%); }
+  .cover h1 { font-size: 31pt; max-width: 11.3in; }
+  .cover .sub { font-size: 14pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 18pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #0c5f4c; font-weight: 700; }
+  .cover .who { margin-top: 18pt; padding-top: 11pt; border-top: 1.5pt solid #0c5f4c; max-width: 9.5in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #0c5f4c; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #eaf6f0; border-left: 3pt solid #0c5f4c; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #0c5f4c; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #0c5f4c; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #eaf6f0; border-left: 4pt solid #0c5f4c; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #0c5f4c; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0c5f4c; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 24pt; font-weight: 800; color: #0c5f4c; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0c5f4c; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #0c5f4c; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #0c5f4c; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d3ede2 100%); }
+  .close h2 { font-size: 25pt; max-width: 10.8in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.8in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #0c5f4c; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Sierra Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Sierra Product Marketing Manager</div>
+  <h1>Every new agent launch needs its own buyer-specific story. I have already built that story, shipped it to 50+ reps, and watched win rates move.</h1>
+  <div class="sub">Positioning, launches and sales enablement, built by a marketer who also automates the repetitive half with AI agents.</div>
+  <div class="tags">
+    <div class="tag"><strong>$2M+</strong> first-year revenue from a GTM owned end to end at Sensata</div>
+    <div class="tag"><strong>+30% win rate</strong> from sales enablement built for 50+ reps</div>
+    <div class="tag"><strong>+15% conversion</strong> on priority launches after a positioning rewrite</div>
+    <div class="tag"><strong>Claude AI agents</strong> run the recurring go-to-market analysis today</div>
+    <div class="tag"><strong>16x ROAS</strong> rebuilding product feeds and catalog data at GenY</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-product-ai.vercel.app/ref/sierra</div>
+  </div>
+  <div class="brand">SIERRA PRODUCT MARKETING</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>The hard part is not writing one good launch. It is making the next one fast <span class="accent">without losing the buyer-specific translation.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What a lean, evolving team runs into</h4>
+      <div class="line">Sierra's agents sit in front of different industries and buyers, so every launch needs its own positioning, its own sales playbook, and its own industry or persona translation before a rep can use it.</div>
+      <div class="line">A lean team cannot rebuild every deck, landing page and demo from scratch each cycle. Going broad across channels or deep on one area, as the role describes, both demand a system, not a one-off.</div>
+      <div class="line">The fix is AI-first automations and templates: a way to turn the pattern that already closed deals into something the next launch starts from, instead of a blank page.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run, at smaller scale</h4>
+      <div class="line">At <b>Sensata</b>, I owned the GTM for a new sensing line end to end across North America and Europe: positioning, pricing, channel and launch, closing the year at $2M+ revenue.</div>
+      <div class="line">I rewrote the positioning so technical sensor capability read as buyer value, lifting conversion <b>15%</b> on priority launches, then built the enablement <b>50+ reps</b> carried into the field.</div>
+      <div class="line">I run the AI-first habit daily at <b>Applied Materials</b>, automating recurring go-to-market analysis with agents built on Claude instead of doing it by hand every cycle.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">Shaping messaging and positioning for features, products, industries and buyers, then building the sales playbooks and AI-first templates that make the next launch faster, is the exact loop above: position it, enable sales, measure it, template it, repeat.</div>
+  </div>
+  <div class="brand">SIERRA PRODUCT MARKETING</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What the Product Marketing Manager opening asks for, and where the proof sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Shape messaging and positioning for features, products, industries and buyers."</div></div>
+      <div class="quote"><div class="q">"Lead product launches, including industry- and buyer-specific translation."</div></div>
+      <div class="quote"><div class="q">"Build sales playbooks and assets: decks, landing pages, demos. Build AI-first automations and templates."</div></div>
+      <div class="quote"><div class="q">4+ years of product marketing, fluency with tools like ChatGPT or Claude, comfort on a lean, evolving team.</div></div>
+    </div>
+    <div class="col">
+      <h3>My Proof</h3>
+      <div class="proof"><div class="p"><b>Sensata GTM, owned end to end:</b> positioning, pricing, channel and launch for a new sensing line across North America and Europe, closing the year at $2M+ first-year revenue.</div></div>
+      <div class="proof"><div class="p"><b>Positioning rewrite:</b> turned technical sensor capability into buyer-ready value, lifting conversion 15% on priority launches, after 30+ interviews with OEMs and distributors.</div></div>
+      <div class="proof"><div class="p"><b>Sales enablement built, not just handed off:</b> decks, case studies and playbooks for 50+ reps, lifting win rates 30%.</div></div>
+      <div class="proof"><div class="p"><b>AI-first automation today:</b> AI agents built on Claude run recurring go-to-market analysis at Applied Materials; shipped an AI product (SwipeHire) solo, PRD to launch.</div></div>
+    </div>
+  </div>
+  <div class="brand">SIERRA PRODUCT MARKETING</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The Sensata proof, in depth</div>
+  <h2>One launch, the whole loop: <span class="accent">position it, enable sales, measure it.</span></h2>
+  <div class="lede">GTM owned end to end for a new sensing line across North America and Europe: positioning, pricing, channel decisions and launch sequencing, with competitor and customer tracking across EMEA and the US feeding every call.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$2M+</div>
+      <div class="lbl">First-Year Revenue</div>
+      <div class="desc">The GTM for the new sensing line, owned end to end rather than handed off in pieces to other teams.</div>
+    </div>
+    <div class="stat">
+      <div class="n">+30%</div>
+      <div class="lbl">Win Rate, 50+ Reps Enabled</div>
+      <div class="desc">Decks, case studies and playbooks built so sales could carry the positioning into the room themselves.</div>
+    </div>
+    <div class="stat">
+      <div class="n">+15%</div>
+      <div class="lbl">Conversion on Priority Launches</div>
+      <div class="desc">A positioning rewrite that turned technical sensor detail into language buyers acted on.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">The positioning itself came from 30+ customer interviews with OEMs and distributors run before launch, not after, so the messaging was pressure-tested against real buyer language instead of a guess.</div>
+  <div class="brand">SIERRA PRODUCT MARKETING</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month on Sierra's product marketing team looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Learn the current launch motion</div>
+      <div class="body">Sit with product, sales and agent development to map which industries, personas and launches are live right now, and which messaging has actually closed deals versus just shipped.</div>
+      <div class="why"><strong>Why first:</strong> the strongest positioning pattern is usually visible in what already closed. Same move that drove the 15% conversion lift at Sensata.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Ship one launch end to end</div>
+      <div class="body">Take one upcoming feature or industry launch through positioning, the sales playbook (deck, landing page, demo) and buyer-specific translation, working directly with sales and agent development.</div>
+      <div class="why"><strong>Why now:</strong> building the story on a live launch, not a hypothetical, is what made the Sensata enablement actually get used by 50+ reps.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Template the AI-first system</div>
+      <div class="body">Turn what worked into a reusable AI-first automation, built with Claude or ChatGPT, so the next launch or industry translation starts from a template instead of a blank page.</div>
+      <div class="why"><strong>Why this fast:</strong> a template only earns its name once a second launch runs through it without a rebuild.</div>
+    </div>
+  </div>
+  <div class="brand">SIERRA PRODUCT MARKETING</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to make launches repeatable without losing the buyer-specific edge. I have already run that loop once, and I run the AI-first habit every day that keeps it fast.</h2>
+  <div class="body">
+    <p>The core proof is Sensata: a GTM owned end to end to <strong>$2M+ first-year revenue</strong>, a positioning rewrite that lifted conversion <strong>15%</strong>, and sales enablement that moved win rates <strong>30%</strong> across 50+ reps, all pressure-tested with 30+ customer interviews before launch.</p>
+    <p>What is harder to find is someone who already runs the AI-first half too. <strong>AI agents built on Claude handle my recurring go-to-market analysis right now</strong> at Applied Materials, and I shipped an AI product solo from PRD to launch, so the automation-and-template habit is not something I would need to learn on the job.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-product-ai.vercel.app/ref/sierra</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">SIERRA PRODUCT MARKETING</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
