@@ -1,0 +1,20 @@
+Subject: Building the AI agents that free reps to sell, not just supporting the CRM
+
+Hi {Senior Director of Strategy and Operations, Coram AI},
+
+I came across the Revenue Operations Manager opening, and the line about owning a problem from an ambiguous start through implementation and measurable results, not just administering a ticket queue, is why I'm writing before applying.
+
+At PriceKeel I built a guardrail engine that recommends an explainable discount boundary from each company's own closed-won and closed-lost deals, then logs every override with evidence Finance can audit, the same judgment and adoption problem a HubSpot and Salesloft/Nooks stack runs on daily.
+At Sensata I owned a Power BI dashboard tracking 1,200 pricing opportunities against a $627M target, surfacing $433M in margin gaps that fed a program recovering $700K+ in two quarters.
+At Applied Materials I run Claude-built agents that automate recurring revenue analysis, the same build versus buy judgment this role asks for.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/coram-ai
+
+Open to 15 minutes if the timing works, and no worries if this sits with someone else on the team.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

@@ -1,0 +1,20 @@
+Subject: Salesloft, Nooks and HubSpot in one GTM engine, not three disconnected ones
+
+Hi {Recruiter, Revenue Operations},
+
+I don't normally reach out before applying, but listing Claude Cowork in the stack, next to a req that wants someone building AI agents for reps rather than just using one, tells me this team already lives the problem it's hiring for.
+
+At PriceKeel I run the company's own CRM, CPQ, pipeline reviews and deal approvals end to end, the same object and workflow ownership this HubSpot and Salesloft/Nooks stack needs.
+At Applied Materials I run Claude-built agents to automate recurring revenue analysis, the build half of the buy versus build call this role keeps making.
+At Sensata I built a Power BI view tracking 1,200 pricing opportunities against a $627M target, turning rep and system data into process fixes leadership could act on.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/coram-ai
+
+Worth 15 minutes if this is your req, no worries if it sits with someone else.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

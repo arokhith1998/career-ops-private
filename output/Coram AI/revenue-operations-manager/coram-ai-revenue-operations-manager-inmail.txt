@@ -1,0 +1,16 @@
+Subject: Directing AI agents for reps, not just administering the CRM they use
+
+Hi {Hiring Manager, Revenue Operations},
+
+Most of this req reads like a system I already run, not a skill set I'd need to build. I own CRM, CPQ, pipeline reviews and deal approvals myself at PriceKeel, the same object and workflow ownership your HubSpot and Salesloft/Nooks stack needs. At Applied Materials I run Claude-built agents to automate recurring revenue analysis instead of asking reps to do it by hand. At Sensata I built a Power BI dashboard tracking 1,200 pricing opportunities against a $627M target, turning rep and system data into process fixes leadership acted on.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/coram-ai
+
+Worth 15 minutes to see if the fit is real?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
