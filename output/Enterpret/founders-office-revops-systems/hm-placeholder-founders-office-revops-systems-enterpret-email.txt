@@ -6,7 +6,7 @@ I don't usually write in before applying, but Enterpret's pitch is one clean kno
 
 - Built and run the CRM, CPQ, deal approvals and pipeline reviews for my own company, PriceKeel, including an audit trail Finance can check line by line.
 - Recovered $700K+ in margin in two quarters leading Sensata's Bleeders and Leakers pipeline, 1,200 opportunities tracked against a $627M target.
-- Raised distributor margins from 53% to 61% by fixing how deals got priced and approved, not just flagging the gap.
+- Raised distributor margins from 53% to 61% by fixing how deals got priced and approved, not just reporting on it.
 - Build forecasting models at Applied Materials and run Claude-built AI agents to automate my own analysis, the AI-tools discipline your posting asks for.
 
 Open to 15 minutes this week? Happy to be redirected if this sits with someone else on the team.
