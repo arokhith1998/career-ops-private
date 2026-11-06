@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>GHX Pricing Manager Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #0a6cff; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 32pt; font-weight: 800; color: #0f172a; line-height: 1.08; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 21pt; font-weight: 800; color: #0f172a; line-height: 1.1; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #0a6cff; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.5in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d9e8ff 100%); }
+  .cover h1 { font-size: 30pt; max-width: 11.2in; }
+  .cover .sub { font-size: 14pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 18pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #0a6cff; font-weight: 700; }
+  .cover .who { margin-top: 18pt; padding-top: 11pt; border-top: 1.5pt solid #0a6cff; max-width: 9.5in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #0a6cff; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #eaf2ff; border-left: 3pt solid #0a6cff; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #0b4fb8; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #0a6cff; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #eaf2ff; border-left: 4pt solid #0a6cff; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #0b4fb8; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0a6cff; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 24pt; font-weight: 800; color: #0a6cff; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0a6cff; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #0a6cff; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #0a6cff; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d9e8ff 100%); }
+  .close h2 { font-size: 25pt; max-width: 10.7in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.5in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #0a6cff; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the GHX Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | GHX Pricing Manager</div>
+  <h1>Your commercialization process needs one owner for SKUs, CPQ and discount governance at once. I already run that loop, for a pricing platform I built myself.</h1>
+  <div class="sub">SKU-to-CPQ governance, catalog rationalization and pricing analytics from someone who builds this exact tooling on the side.</div>
+  <div class="tags">
+    <div class="tag"><strong>$433M</strong> margin gaps surfaced via Sensata's catalog-pricing Power BI dashboard</div>
+    <div class="tag"><strong>$700K+</strong> margin recovered in 2 quarters, Bleeders and Leakers program</div>
+    <div class="tag"><strong>53% to 61%</strong> distributor margin lift via repriced catalog logic</div>
+    <div class="tag"><strong>PriceKeel</strong> - founder who owns a CRM/CPQ, pricing rules and deal-approval system</div>
+    <div class="tag"><strong>Claude AI agents</strong> automating recurring pricing analysis today</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-pricing-ai.vercel.app/ref/ghx</div>
+  </div>
+  <div class="brand">GHX PRICING MANAGER</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>The problem is not that GHX lacks pricing data. It is that <span class="accent">SKUs, pricing rules and discount approvals live in three different places, so no one owns the whole commercialization loop.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What owning commercialization at a multi-product platform runs into</h4>
+      <div class="line">A SKU library that grows faster than its governance: every new offering needs requirements, pricing rules and approval workflows before anyone can sell it, and a missed rule shows up as an in-flight contract exception months later.</div>
+      <div class="line">CPQ configuration, discount approvals and pricing strategy sit in different teams' heads, Product, Sales, Deal Desk, Contract Ops and FP&A, so a process only scales if all of them can work off the same source of truth.</div>
+      <div class="line">Catalog rationalization is a one-time audit until someone builds the governance that keeps it rationalized: naming conventions, intake workflows and hygiene reviews that outlive the audit itself.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run, building this exact system</h4>
+      <div class="line">At <b>PriceKeel</b>, I set up and run the company's own CRM and CPQ, pricing rules, deal approvals and forecast and pipeline reviews, the same SKU-to-CPQ loop this role owns end to end.</div>
+      <div class="line">I designed the <b>audit trail</b> that gives Finance evidence for every discount exception, selling it against legacy CPQ and deal-desk tooling, the same governance gap a commercialization playbook exists to close.</div>
+      <div class="line">At <b>Sensata</b>, I built a BU-wide Power BI system ranking 1,200 pricing opportunities against a $627M target across 3 regions, 4 product families and 20 product lines, the same catalog-and-discount rationalization instinct a SKU audit asks for.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">A Product Commercialization Manager who owns the SKU lifecycle in CPQ, rationalizes the catalog with real sales and discounting data, and builds the governance that keeps it rationalized, is describing one connected loop. I have built that loop twice: once inside a company's pricing organization, once as the founder who had to build the tooling from scratch.</div>
+  </div>
+  <div class="brand">GHX PRICING MANAGER</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What the Product Commercialization Manager opening asks for, and where the proof sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Own the full SKU lifecycle in CPQ... including product catalog management, pricing rules, approval workflows, and SKU configuration."</div></div>
+      <div class="quote"><div class="q">"Lead a structured cross-functional SKU audit... analyze historical sales data and discounting patterns, rationalize the catalog."</div></div>
+      <div class="quote"><div class="q">"Quantify the revenue, margin, and ARR/MRR impact of proposed pricing and SKU changes before release."</div></div>
+      <div class="quote"><div class="q">"Own the AI and automation innovation roadmap for SKU and commercialization processes."</div></div>
+    </div>
+    <div class="col">
+      <h3>My Proof</h3>
+      <div class="proof"><div class="p"><b>SKU lifecycle, pricing rules, approval workflows:</b> own PriceKeel's CRM/CPQ end to end, including pricing rules and deal approvals, plus the audit trail that documents every discount exception for Finance.</div></div>
+      <div class="proof"><div class="p"><b>Catalog audit, sales and discounting analysis:</b> built Sensata's Bleeders and Leakers dashboard, 1,200 opportunities ranked against a $627M target, surfacing $433M in margin gaps by product line.</div></div>
+      <div class="proof"><div class="p"><b>Quantify revenue and margin impact:</b> recovered $700K+ in margin in 2 quarters and raised distributor margins from 53% to 61% by repricing the catalog logic itself, not a one-time hike.</div></div>
+      <div class="proof"><div class="p"><b>AI and automation roadmap:</b> automate recurring pricing analysis today at Applied Materials with Claude-built AI agents, the same automation-first bias this role asks for in CPQ and commercialization.</div></div>
+    </div>
+  </div>
+  <div class="brand">GHX PRICING MANAGER</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The Sensata proof, in depth</div>
+  <h2>Bleeders and Leakers: <span class="accent">find the margin leak in the catalog, close it, make the fix hold.</span></h2>
+  <div class="lede">Built as a BU-wide Power BI system covering 1,200 pricing opportunities against a $627M target across 3 regions, 4 product families and 20 product lines, with pipeline funnel, win rate and stage distribution by region and product line, the same catalog-depth analysis a SKU rationalization audit runs at.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$433M</div>
+      <div class="lbl">Margin Shortfall Surfaced</div>
+      <div class="desc">Ranked every pricing opportunity by competitive gap and customer willingness to pay so leadership could prioritize which SKUs and product lines to fix first, instead of chasing anecdotes.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$700K+</div>
+      <div class="lbl">Margin Recovered in 2 Quarters</div>
+      <div class="desc">Closed through cross-functional negotiations with Sales and Finance built on competitive analysis, SKU by SKU, not an across-the-board price hike.</div>
+    </div>
+    <div class="stat">
+      <div class="n">53% to 61%</div>
+      <div class="lbl">Distributor Margin Lift</div>
+      <div class="desc">Repriced the channel logic itself inside the catalog, so the gain outlived the initial fix instead of drifting back within a quarter.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">The same BU also ran a financial model flagging line items where a price change could lift profitability more than 50%, and multimillion-dollar customer quotes built alongside senior executives on the business's most strategic accounts. The common thread: every fix was traced to a specific SKU or product line, and every fix was measured after it shipped.</div>
+  <div class="brand">GHX PRICING MANAGER</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month owning GHX's commercialization process looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Map the SKU and discount surface</div>
+      <div class="body">Pull the last quarter's SKU creation requests, discount exceptions and pricing changes by product line. Sit with Product Management, Deal Desk, Contract Ops and FP&A to hear where the current CPQ setup breaks down on a real deal.</div>
+      <div class="why"><strong>Why first:</strong> the leak is usually visible in the data before anyone has named it out loud. Same move that started the Bleeders and Leakers program.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Audit and pressure-test</div>
+      <div class="body">Run a structured SKU audit against historical sales and discounting data, rationalize the top offenders, then document the governance, naming conventions, intake workflow and approval rules, that keeps the catalog clean after the audit ends.</div>
+      <div class="why"><strong>Why now:</strong> modeling against a hard target, then verifying the fix cross-functionally, is what made the 53% to 61% distributor gain stick instead of drifting back.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Ship the playbook, start the automation roadmap</div>
+      <div class="body">Turn the audit into the commercialization playbook's first version, the single source of truth for pricing, SKUs and business rules, and flag the first AI/automation opportunity in CPQ worth prioritizing.</div>
+      <div class="why"><strong>Why this fast:</strong> a playbook only earns adoption once it saves someone a real decision, the same instinct behind PriceKeel's audit trail.</div>
+    </div>
+  </div>
+  <div class="brand">GHX PRICING MANAGER</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring the owner of one commercialization loop: SKUs, CPQ, discounting and governance together. I already run that loop for a pricing platform I built from scratch.</h2>
+  <div class="body">
+    <p>The core proof is Sensata: <strong>$700K+ in margin recovered in 2 quarters</strong>, distributor margins lifted <strong>from 53% to 61%</strong>, and <strong>$433M</strong> in margin gaps surfaced across 1,200 pricing opportunities ranked against a $627M target, all traced to specific SKUs and product lines.</p>
+    <p>What is harder to find is someone who has also spent the last several months building the CPQ, pricing-rules and discount-governance system a commercialization team eventually wants internally. <strong>I am building that at PriceKeel right now</strong>, so the systems-oriented rigor this role asks for is not something I would need to develop on the job.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-pricing-ai.vercel.app/ref/ghx</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">GHX PRICING MANAGER</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
