@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Stuut Product Marketing Manager Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #1a56db; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 24pt; font-weight: 800; color: #0f172a; line-height: 1.18; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 20pt; font-weight: 800; color: #0f172a; line-height: 1.14; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #1a56db; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.7in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%); }
+  .cover h1 { font-size: 22pt; max-width: 11.4in; }
+  .cover .sub { font-size: 13.5pt; color: #475569; margin-top: 5pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 15pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.5in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.1pt; font-weight: 500; }
+  .tag strong { color: #1a56db; font-weight: 700; }
+  .cover .who { margin-top: 15pt; padding-top: 10pt; border-top: 1.5pt solid #1a56db; max-width: 9.6in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #1a56db; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #eef2ff; border-left: 3pt solid #1a56db; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.3pt; color: #3730a3; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.1pt; color: #334155; line-height: 1.44; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #1a56db; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.4pt; color: #334155; line-height: 1.46; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #eef2ff; border-left: 4pt solid #1a56db; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #3730a3; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 21pt; font-weight: 800; color: #1a56db; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.6pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #1a56db; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.3pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.7pt; color: #334155; line-height: 1.42; margin-bottom: 7pt; }
+  .card .why { font-size: 8.3pt; color: #64748b; line-height: 1.42; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #1a56db; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%); }
+  .close h2 { font-size: 22pt; max-width: 10.8in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.3pt; color: #334155; line-height: 1.54; max-width: 10.8in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #1a56db; font-weight: 700; }
+  .close .contact { margin-top: 15pt; font-size: 9.7pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Stuut Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Stuut Product Marketing Manager</div>
+  <h1>Every Stuut release needs a skeptical AR or finance buyer to trust the agent's claim without a follow-up call. Turning technical capability into that exact story is the work I already do.</h1>
+  <div class="sub">A launch, enablement and customer-proof system built from sensors, pricing programs and now AI agents, mapped onto the T1/T2/T3 motion Stuut runs today.</div>
+  <div class="tags">
+    <div class="tag"><strong>$2M+ first-year revenue</strong> on an end-to-end GTM launch (Sensata)</div>
+    <div class="tag"><strong>+30% win rate</strong> on enablement rebuilt after live rep feedback</div>
+    <div class="tag"><strong>1,200 opportunities, $627M target</strong> scored by win rate and stage</div>
+    <div class="tag"><strong>30+ customer interviews</strong> turned into case-study evidence, CSAT +22%</div>
+    <div class="tag"><strong>AI agents built on Claude</strong> checked and signed off by me, today</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-product-ai.vercel.app/ref/stuut</div>
+  </div>
+  <div class="brand">LAUNCH &amp; PROOF GTM PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>A launch does not land because the agent is good. It lands because Sales, CS and the buyer all <span class="accent">trust the same story at the same time.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What that actually requires</h4>
+      <div class="line">A tiered launch process that keeps leadership, Sales and CS informed about what is shipping, when, and what changes for the buyer, not a calendar nobody reads.</div>
+      <div class="line">Enablement materials reps actually use in a live call, plus a feedback loop that rewrites the weak ones instead of leaving them in the drive.</div>
+      <div class="line">A customer-proof pipeline: beta customers and agreed success metrics before release, then 30/60/90-day results that become a case study, not a slide that ages out.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run</h4>
+      <div class="line">At <b>Sensata</b>, I owned end-to-end GTM for a new product line, positioning through channel through release, to $2M+ first-year revenue.</div>
+      <div class="line">I built sales enablement, decks, demo scripts, win/loss debriefs, for 50+ reps, then rewrote it after rep feedback and win rates moved 30%.</div>
+      <div class="line">I ran 30+ structured customer interviews that became case-study evidence and lifted CSAT 22%.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">The through-line: every launch I have shipped had to survive a buyer who takes the evidence, not the pitch, at face value.</div>
+  </div>
+  <div class="brand">LAUNCH &amp; PROOF GTM PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The mandate, mapped</div>
+  <h2>What the posting asks for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Translate how the agent works into clear messaging, demos, and practical sales tools."</div></div>
+      <div class="quote"><div class="q">"Build and maintain a searchable proof library organized by persona, use case, and outcome."</div></div>
+      <div class="quote"><div class="q">"You use AI tools to accelerate research and production while checking accuracy and making the final decisions yourself."</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>Applied Materials, AI-agent judgment:</b> runs AI agents built on Claude on recurring market analysis, checks the output, makes the final call before it reaches leadership.</div></div>
+      <div class="proof"><div class="p"><b>Sensata, proof pipeline:</b> 30+ OEM and distributor interviews turned into case-study evidence that raised CSAT 22%.</div></div>
+      <div class="proof"><div class="p"><b>Sensata, enablement adopted:</b> decks, demo scripts and win/loss debriefs for 50+ reps, rewritten after feedback, win rates up 30%.</div></div>
+      <div class="proof"><div class="p"><b>Sensata Pricing, buyer-credible numbers:</b> multimillion-dollar customer quotes negotiated directly with senior executives.</div></div>
+    </div>
+  </div>
+  <div class="brand">LAUNCH &amp; PROOF GTM PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>The same launch-to-proof loop Stuut needs, <span class="accent">run on sensors and on pricing before it ever touched AI.</span></h2>
+  <div class="lede">Same pattern across two companies: launch to a skeptical buyer, enable the reps who sell it, then close the loop with evidence instead of adjectives.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$2M+</div>
+      <div class="lbl">First-Year Revenue, End-to-End GTM</div>
+      <div class="desc">Owned positioning, pricing, channel and launch for a new Sensata sensing line across North America and Europe.</div>
+    </div>
+    <div class="stat">
+      <div class="n">+30%</div>
+      <div class="lbl">Win Rate After Enablement Rewrite</div>
+      <div class="desc">Decks, demo scripts and win/loss debriefs for 50+ reps, rebuilt once after live feedback from the field.</div>
+    </div>
+    <div class="stat">
+      <div class="n">1,200</div>
+      <div class="lbl">Opportunities Scored Against $627M</div>
+      <div class="desc">Sensata's Bleeders &amp; Leakers pipeline: win rate, avg $/win and stage distribution by region and product line.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">None of this sat in a folder. Each number closed a loop a Sales, CS or Finance stakeholder was accountable for, the same accountability an AR or finance buyer brings to a Stuut launch.</div>
+  <div class="brand">LAUNCH &amp; PROOF GTM PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month owning launch and proof at Stuut looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Map the launch backlog and the buyer objections</div>
+      <div class="body">Pull the last several T1/T2/T3 launches and the call reviews behind them to find exactly where an AR or finance buyer stalled before trusting the agent's claim.</div>
+      <div class="why"><strong>Why first:</strong> the same discovery move behind Sensata's 30+ OEM interviews.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Ship the dual messaging brief</div>
+      <div class="body">Draft the buyer case (what the agent does, where a person stays involved, why that matters) and the operator case (how CS and Sales demo it live), pressure-tested with reps on real calls.</div>
+      <div class="why"><strong>Why now:</strong> the same rewrite-after-feedback loop that moved Sensata's win rate 30%.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Stand up the proof library</div>
+      <div class="body">Recruit beta customers and agree success metrics before the next release, with a 30/60/90-day capture cadence so case studies ship with the launch instead of months behind it.</div>
+      <div class="why"><strong>Why this fast:</strong> the same validate-and-approve discipline behind every number I have put in front of a CFO.</div>
+    </div>
+  </div>
+  <div class="brand">LAUNCH &amp; PROOF GTM PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>Stuut's buyer needs evidence, not adjectives, before they trust the agent. I run that exact translation today.</h2>
+  <div class="body">
+    <p>The launch half: <strong>end-to-end GTM</strong> for a new Sensata product line to $2M+ first-year revenue, plus sales enablement rebuilt after live rep feedback that lifted win rates 30% for 50+ reps.</p>
+    <p>The proof half: <strong>30+ customer interviews</strong> turned into case-study evidence (CSAT +22%), and a Bleeders &amp; Leakers pricing pipeline that scored <strong>1,200 opportunities against a $627M target</strong>. At Applied Materials today I run AI agents built on Claude and sign off on what they produce before it reaches leadership.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-product-ai.vercel.app/ref/stuut</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">LAUNCH &amp; PROOF GTM PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
