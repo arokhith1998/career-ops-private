@@ -1,0 +1,22 @@
+Subject: Pricing Manager - the SKU audit and AI roadmap pairing
+
+Hi {Hiring Manager, GHX Commercialization},
+
+I do not usually reach out before applying, but owning the SKU audit and the AI automation roadmap in one seat, not split across two, is a pairing I rarely see, and why I am writing before I hit submit.
+
+Put together a 6-slide pitch deck so the pattern-match sits in one read.
+
+- Founded PriceKeel to own SKU and pricing governance end to end: CRM/CPQ, discount-guardrail rules, and the audit trail Finance signs off on before a deal desk sees it.
+- Ran Sensata's catalog-side pricing audit, the Bleeders and Leakers program: $700K+ margin recovered in 2 quarters, distributor margins moved from 53% to 61%.
+- The Power BI dashboard behind it tracked 1,200 opportunities against a $627M target and surfaced $433M in margin gaps by product line and rep.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/ghx
+
+If 15 minutes makes sense on your side, I would welcome it. If someone else owns this req, a pointer would help.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
