@@ -1,0 +1,24 @@
+Subject: Senior PMM, Payments: adoption told differently by region, not just launched once
+
+Hi {Hiring Manager, Payments Product Marketing},
+
+Your posting treats customer touchpoints, web, email and presentations, and regional adoption as one connected job, not a launch-then-move-on job. That loop between customer-facing content and what each region actually adopts is the part I have built before, so I am reaching out directly instead of waiting on a form.
+
+Some of what sits behind that:
+
+I ran 30+ structured interviews with OEM and distributor customers at Sensata before writing a word of positioning, then built the SQL and GA4 frameworks that showed which regional segments actually adopted versus which ones just said yes in the room.
+
+I turned technical specs into customer-facing content across web, email and sales presentations for a global launch, lifting conversion 15% on priority launches and keeping the pitch consistent end to end.
+
+I run AI agents built on Claude in production today at Applied Materials, so the repetitive side of that regional read gets automated instead of eating into the next launch.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/airwallex
+
+I would like 15 minutes to hear how your team measures adoption across regions for Payments, and whether this is the right shape of proof. If this is not your seat, a pointer would help too.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
