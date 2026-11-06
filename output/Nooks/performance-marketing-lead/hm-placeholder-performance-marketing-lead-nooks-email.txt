@@ -2,11 +2,11 @@ Subject: Value-based bidding on your CRM's offline conversions is a closed-loop 
 
 Hi {Head of Growth Marketing, Nooks},
 
-The line on value-based bidding against offline conversions pulled from your own CRM caught me, because that gap between ad platform and revenue data is one I spent a year closing at Plug Power, not a skill I'm stretching to claim.
+The line on value-based bidding against offline conversions pulled from your CRM caught me, because that gap between ad platform and revenue data is one I spent a year closing at Plug Power, not a skill I'm stretching to claim.
 
-At Plug Power I owned Google and Microsoft Ads account structure, bidding and copy across $100K/month budgets, automated the Salesforce, Adobe Analytics and GA stack into one closed-loop reporting system, and cut CPA 25% through bid optimization and A/B testing.
-At Pixis I hired and ran an 8-person team across 8 client accounts at $15K-$90K/month each, used Amplitude and Tableau on 30+ campaigns to lift ROAS 40%, and delivered 3x ROAS in a month for a fashion brand through a full-funnel rebuild.
-At Applied Materials I run Claude-built agents daily to automate recurring analysis, the same AI fluency this req names a must-have, not a nice-to-have.
+At Plug Power I owned Google and Microsoft Ads account structure, bidding and copy across $100K/month budgets, automated the Salesforce, Adobe Analytics and GA stack into one closed-loop reporting system, and cut CPA 25% through bid optimization.
+At Pixis I hired and ran an 8-person team across 8 client accounts at $15K-$90K/month each, used Amplitude and Tableau to lift ROAS 40%, and delivered 3x ROAS in a month for a fashion brand via a full-funnel rebuild.
+At Applied Materials I run Claude-built agents daily to automate recurring analysis, the fluency this req names a must-have.
 
 Here's the portfolio: https://adhi-growth-ai.vercel.app/ref/nooks
 
