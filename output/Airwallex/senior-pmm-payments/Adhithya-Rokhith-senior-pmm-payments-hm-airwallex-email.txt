@@ -8,13 +8,11 @@ Some of what sits behind that:
 
 I ran 30+ structured interviews with OEM and distributor customers at Sensata before writing a word of positioning, then built the SQL and GA4 frameworks that showed which regional segments actually adopted versus which ones just said yes in the room.
 
-I turned technical specs into customer-facing content across web, email and sales presentations for a global launch, lifting conversion 15% on priority launches and keeping the pitch consistent end to end.
-
-I run AI agents built on Claude in production today at Applied Materials, so the repetitive side of that regional read gets automated instead of eating into the next launch.
+I turned technical specs into customer-facing content across web, email and sales presentations for a global launch, lifting conversion 15% and keeping the pitch consistent end to end.
 
 Here's the portfolio: https://adhi-product-ai.vercel.app/ref/airwallex
 
-I would like 15 minutes to hear how your team measures adoption across regions for Payments, and whether this is the right shape of proof. If this is not your seat, a pointer would help too.
+I would like 15 minutes to hear how your team measures adoption across regions for Payments. If this is not your seat, a pointer would help too.
 
 Thank you,
 
