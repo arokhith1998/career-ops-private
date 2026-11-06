@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>PandaDoc Senior Product Marketing Manager, CPQ Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #1a56db; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 25pt; font-weight: 800; color: #0f172a; line-height: 1.16; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 20pt; font-weight: 800; color: #0f172a; line-height: 1.14; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #1a56db; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.7in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%); }
+  .cover h1 { font-size: 23pt; max-width: 11.4in; }
+  .cover .sub { font-size: 13.5pt; color: #475569; margin-top: 5pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 15pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.5in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.1pt; font-weight: 500; }
+  .tag strong { color: #1a56db; font-weight: 700; }
+  .cover .who { margin-top: 15pt; padding-top: 10pt; border-top: 1.5pt solid #1a56db; max-width: 9.6in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #1a56db; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #eef2ff; border-left: 3pt solid #1a56db; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.3pt; color: #3730a3; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.1pt; color: #334155; line-height: 1.44; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #1a56db; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.4pt; color: #334155; line-height: 1.46; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #eef2ff; border-left: 4pt solid #1a56db; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #3730a3; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 21pt; font-weight: 800; color: #1a56db; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.6pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #1a56db; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.3pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.7pt; color: #334155; line-height: 1.42; margin-bottom: 7pt; }
+  .card .why { font-size: 8.3pt; color: #64748b; line-height: 1.42; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #1a56db; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%); }
+  .close h2 { font-size: 23pt; max-width: 10.8in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.3pt; color: #334155; line-height: 1.54; max-width: 10.8in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #1a56db; font-weight: 700; }
+  .close .contact { margin-top: 15pt; font-size: 9.7pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the PandaDoc Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | PandaDoc Senior Product Marketing Manager, CPQ</div>
+  <h1>CPQ is the one line in your suite that lives inside a build-vs-buy decision every single deal cycle. I have been on the other side of that exact decision, as the founder who has to win it.</h1>
+  <div class="sub">A CPQ and deal-desk product built and sold to the same RevOps, Sales and Finance buyers this role markets to, plus the pricing-program numbers a Sales leader actually asks for.</div>
+  <div class="tags">
+    <div class="tag"><strong>$627M pipeline, 1,200 opportunities</strong> scored by win rate (Sensata Bleeders &amp; Leakers)</div>
+    <div class="tag"><strong>$700K+ margin recovered</strong> in 2 quarters</div>
+    <div class="tag"><strong>53% to 61% channel margin</strong> on distributor repricing</div>
+    <div class="tag"><strong>$2M+ first-year revenue</strong> on an end-to-end GTM launch</div>
+    <div class="tag"><strong>AI agents built on Claude</strong> automating my own pricing analysis today</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-pricing-ai.vercel.app/ref/pandadoc</div>
+  </div>
+  <div class="brand">CPQ GO-TO-MARKET PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>CPQ does not sell itself on features. It sells on <span class="accent">the build-vs-buy math and the trust a RevOps leader needs before touching production pricing.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What that actually requires</h4>
+      <div class="line">A narrative that answers "why not build this ourselves" before a Sales or RevOps leader finishes the thought, backed by ROI and implementation-speed proof, not adjectives.</div>
+      <div class="line">An AI claim standard precise enough that a RevOps leader can repeat it to a CFO without hedging on where the AI helps and where a person still checks the output.</div>
+      <div class="line">A dual-track message: one build for the budget holder evaluating ROI and competitive fit, a second for the operator who configures and runs the system daily.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run</h4>
+      <div class="line">At <b>PriceKeel</b>, I built and sell a CPQ and deal-desk layer into exactly this build-vs-buy conversation, writing the positioning from zero with no inherited playbook.</div>
+      <div class="line">At <b>Sensata</b>, I built and ran the Bleeders &amp; Leakers pricing program: a Power BI pipeline scoring 1,200 opportunities against a $627M target by win rate and stage.</div>
+      <div class="line">At <b>Applied Materials</b> today, I run AI agents built on Claude against my own recurring market and pricing analysis.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">The through-line: every pricing or CPQ narrative I have shipped had to survive a skeptical RevOps or Finance buyer asking for the math, not just the story.</div>
+  </div>
+  <div class="brand">CPQ GO-TO-MARKET PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The mandate, mapped</div>
+  <h2>What the posting asks for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"You'll run a dual-track GTM motion that speaks to both the business buyer who owns the budget and the technical operator who will configure and manage the system."</div></div>
+      <div class="quote"><div class="q">"Translate what our AI features do into outcomes a RevOps leader can defend to a CFO."</div></div>
+      <div class="quote"><div class="q">"Progress before the plan is finished... you have shipped work without a process to lean on."</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>PriceKeel, dual-track positioning:</b> the ROI and build-vs-buy case for budget holders, the guardrail-configuration case for the operators who run it day to day.</div></div>
+      <div class="proof"><div class="p"><b>PriceKeel, AI trust standard:</b> built the audit trail behind every AI-flagged quote exception so the evidence, not the adjective, carries the claim.</div></div>
+      <div class="proof"><div class="p"><b>PriceKeel, zero to first brief:</b> wrote the GTM narrative and pricing brief from scratch, correcting course in market with no inherited playbook.</div></div>
+      <div class="proof"><div class="p"><b>Sensata, win-rate and stage data:</b> Bleeders &amp; Leakers scored 1,200 opportunities by win rate, avg $/win and stage distribution across 3 regions.</div></div>
+    </div>
+  </div>
+  <div class="brand">CPQ GO-TO-MARKET PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>The same quote-to-close math a CPQ buyer runs on PandaDoc, <span class="accent">proven on both sides of the deal.</span></h2>
+  <div class="lede">Same pattern across two companies: build or price the deal mechanics, defend the number to Finance, then close the loop with Sales on what actually won.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$627M</div>
+      <div class="lbl">Pipeline Target, Scored by Win Rate</div>
+      <div class="desc">Sensata's Bleeders &amp; Leakers program: 1,200 opportunities, win rate, avg $/win and stage distribution across 3 regions and 20 product lines.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$700K+</div>
+      <div class="lbl">Margin Recovered in 2 Quarters</div>
+      <div class="desc">A negotiation playbook built on competitive gaps and willingness-to-pay data, used directly against Sales' live deals.</div>
+    </div>
+    <div class="stat">
+      <div class="n">53% to 61%</div>
+      <div class="lbl">Channel Margin, Under 2 Quarters</div>
+      <div class="desc">Distributor repricing negotiated directly with senior executives on live multimillion-dollar customer quotes.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">None of this is a positioning doc that sat in a folder. Each number closed a loop a RevOps, Sales or Finance stakeholder was accountable for, the same accountability a CPQ buyer brings to PandaDoc's table.</div>
+  <div class="brand">CPQ GO-TO-MARKET PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month owning CPQ GTM at PandaDoc looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Map the build-vs-buy objection list</div>
+      <div class="body">Pull the last 10-15 closed-lost and closed-won CPQ evaluations to find the exact ROI, implementation-speed and trust objections Sales leaders and RevOps raise before committing.</div>
+      <div class="why"><strong>Why first:</strong> the same discovery move that let me write PriceKeel's first brief with no inherited playbook.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Ship the dual-track positioning brief</div>
+      <div class="body">Draft the budget-holder case (ROI, implementation speed, competitive differentiation) and the operator case (configuration, guardrails, day-to-day control) side by side, then pressure-test both with Sales on live deals.</div>
+      <div class="why"><strong>Why now:</strong> the same split I run every week pitching PriceKeel to a CFO and a RevOps admin at once.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Stand up the AI-claim trust standard</div>
+      <div class="body">Write the evidence bar every AI-positioning claim about CPQ has to clear before Sales repeats it, paired with a win/loss debrief cadence so positioning keeps sharpening after launch.</div>
+      <div class="why"><strong>Why this fast:</strong> the same audit-trail discipline behind PriceKeel's AI guardrail claims.</div>
+    </div>
+  </div>
+  <div class="brand">CPQ GO-TO-MARKET PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>PandaDoc's CPQ buyer asks for the ROI math before they trust the pitch. I run that exact math today, on both sides of the deal.</h2>
+  <div class="body">
+    <p>The build-vs-buy half: <strong>PriceKeel</strong> is a CPQ and deal-desk product I built and sell into the same RevOps, Sales and Finance evaluation PandaDoc's buyers run, with the AI-guardrail audit trail that backs every claim with evidence instead of adjectives.</p>
+    <p>The pricing-program half: Sensata's Bleeders &amp; Leakers pipeline scored <strong>1,200 opportunities against a $627M target</strong>, recovered <strong>$700K+ in margin in 2 quarters</strong>, and raised channel margins <strong>53% to 61%</strong>, the same win-rate and quote-level thinking a CPQ GTM strategy runs on. At Applied Materials I run AI agents built on Claude against my own recurring analysis today.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-pricing-ai.vercel.app/ref/pandadoc</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">CPQ GO-TO-MARKET PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
