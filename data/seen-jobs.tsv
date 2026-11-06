@@ -2,7 +2,7 @@ job_key	company	title	url	stage	verdict	first_seen	last_seen	times_seen	note
 linkedin.com/jobs/view/4482167331	Docker, Inc	Sales Operations Manager	https://www.linkedin.com/jobs/view/4482167331	dropped	SKIP:visa-sponsorship-not-available	2026-10-22	2026-11-06	5	
 linkedin.com/jobs/view/4473540703	SoFi	Senior Product Manager	https://www.linkedin.com/jobs/view/4473540703	shortlisted		2026-10-22	2026-11-06	2	
 linkedin.com/jobs/view/4432125533	Snowflake	Senior Product Manager - Applied AI	https://www.linkedin.com/jobs/view/4432125533	dropped	DROP:over-cap	2026-09-23	2026-11-06	7	
-linkedin.com/jobs/view/4479729451	Verkada	Senior Associate, Pricing & Commercial Operations	https://www.linkedin.com/jobs/view/4479729451	queued		2026-10-15	2026-11-06	15	
+linkedin.com/jobs/view/4479729451	Verkada	Senior Associate, Pricing & Commercial Operations	https://www.linkedin.com/jobs/view/4479729451	built	BUILT	2026-10-15	2026-11-06	16	
 linkedin.com/jobs/view/4477016287	Marvell Technology	Sr. Staff Manager, Market Intelligence	https://www.linkedin.com/jobs/view/4477016287	shortlisted		2026-10-15	2026-11-06	2	
 linkedin.com/jobs/view/4478489621	ICIMS	Competitive Intelligence Program Manager	https://www.linkedin.com/jobs/view/4478489621	shortlisted		2026-10-15	2026-11-06	2	
 linkedin.com/jobs/view/4479218701	Learneo	Senior Associate, Strategy & Market Intelligence	https://www.linkedin.com/jobs/view/4479218701	shortlisted		2026-10-15	2026-11-06	2	
@@ -643,7 +643,7 @@ coinbase.com/careers/positions/7980600?gh_jid=7980600	Coinbase	Business Operatio
 getmereferred.com/job-listing/head-of-growth-bikai-bengaluru-5-to-10-years-experience-fe752457-133b-44ab-9c24-4f1938e8df9a	Bikai	Head of Growth	https://getmereferred.com/job-listing/head-of-growth-bikai-bengaluru-5-to-10-years-experience-fe752457-133b-44ab-9c24-4f1938e8df9a	queued		2026-11-05	2026-11-06	7	
 getmereferred.com/job-listing/head-of-growth-earlystage-fintech-portfolio-company-peak-xv-partners-delhi-5-to-7-years-experience-0a556f30-f800-4c25-b9fe-44415c6fade9	Peak XV portfolio fintech	Head of Growth	https://getmereferred.com/job-listing/head-of-growth-earlystage-fintech-portfolio-company-peak-xv-partners-delhi-5-to-7-years-experience-0a556f30-f800-4c25-b9fe-44415c6fade9	queued		2026-11-05	2026-11-06	7	
 linkedin.com/jobs/view/4471401541	Rubrik	Senior Product Manager, Control Plane, RSC-G & Government	https://www.linkedin.com/jobs/view/4471401541	dropped	DROP:below-3.0	2026-09-24	2026-11-06	23	
-linkedin.com/jobs/view/4470633945	Logitech	Global eB2B Channel Marketing Manager	https://www.linkedin.com/jobs/view/4470633945	queued		2026-09-23	2026-11-06	22	
+linkedin.com/jobs/view/4470633945	Logitech	Global eB2B Channel Marketing Manager	https://www.linkedin.com/jobs/view/4470633945	built	BUILT	2026-09-23	2026-11-06	23	
 linkedin.com/jobs/view/4470685166	VistaPrint	Pricing & Promotion Lead - US Remote	https://www.linkedin.com/jobs/view/4470685166	queued		2026-09-23	2026-11-06	22	
 linkedin.com/jobs/view/4478433863	Micron Technology	Market Intelligence Manager	https://www.linkedin.com/jobs/view/4478433863	built	BUILT	2026-10-15	2026-11-06	10	
 boards.greenhouse.io/robinhood/jobs/8044746?gh_jid=8044746	Robinhood	Staff Product Manager, Banking	https://boards.greenhouse.io/robinhood/jobs/8044746?t=gh_src=&gh_jid=8044746	dropped	DROP:below-3.0	2026-11-05	2026-11-06	7	
@@ -1028,7 +1028,7 @@ linkedin.com/jobs/view/4484559850	The Free Spirits Company	Sr. Marketing Manager
 linkedin.com/jobs/view/4478760230	Supermicro	Technical Marketing Manager - Enterprise AI	https://www.linkedin.com/jobs/view/4478760230	queued		2026-10-13	2026-11-06	12	
 linkedin.com/jobs/view/4486441045	PhoenixAI (the original creator of StarRocks)	Performance Marketing Manager	https://www.linkedin.com/jobs/view/4486441045	dropped	SKIP:duplicate-cross-posted-same-req-as-tracker-row-2090	2026-11-03	2026-11-06	9	
 linkedin.com/jobs/view/4484375769	Sony Interactive Entertainment	Lifecycle Marketing Manager	https://www.linkedin.com/jobs/view/4484375769	built	BUILT	2026-11-03	2026-11-06	9	
-linkedin.com/jobs/view/4486458295	Instacart	Deal Desk Specialist	https://www.linkedin.com/jobs/view/4486458295	dropped	SKIP:duplicate-cross-posted-same-req-as-tracker-row-2171-gh-jid-8347895	2026-11-03	2026-11-06	9	
+linkedin.com/jobs/view/4486458295	Instacart	Deal Desk Specialist	https://www.linkedin.com/jobs/view/4486458295	dropped	SKIP:duplicate-cross-posted-same-req-as-tracker-row-2171-gh-jid-8347895	2026-11-03	2026-11-06	10	
 zapply.jobs/l/d/workday-amat-external-r2632609	Applied Materials	Product Marketing	https://zapply.jobs/l/d/workday-amat-external-R2632609?s=gh-new-grad-jobs-2027	queued		2026-11-03	2026-11-06	8	
 linkedin.com/jobs/view/4486814540	Skyne Beauty	Senior Brand & Content Marketing Manager	https://www.linkedin.com/jobs/view/4486814540	queued		2026-11-03	2026-11-06	8	
 zapply.jobs/l/d/ashby-ashby-d46e79d4-43fd-477f-aa06-25b604715223	Ashby	Strategy & Operations, Customer Success	https://zapply.jobs/l/d/ashby-ashby-d46e79d4-43fd-477f-aa06-25b604715223?s=gh-new-grad-jobs-2027	built	BUILT	2026-11-03	2026-11-06	9	
