@@ -1,0 +1,22 @@
+Subject: Senior Product Manager, Auto Retail / Auto Finance (R-00498) - Adhithya Rokhith Bhaskar
+
+Hi {Hiring Manager, Auto Retail},
+
+Turning initial adoption into dealers choosing Upstart for every financing opportunity is a harder problem than getting a dealer to sign up once, and that line in your posting is what made me write before applying.
+
+At Sensata I turned 30+ interviews with OEMs and distributors into a 100+ feature backlog across 3 regions, cutting time-to-market 20% and lifting feature adoption 18%.
+
+I shipped SwipeHire zero-to-one, PRD through launch, then ran 8+ A/B tests against onboarding that lifted activation 25% among 50+ early users, the same activation-to-engagement gap your team is closing for dealership workflows.
+
+At Plug Power I connected Salesforce, Adobe Analytics, GA and Google Tag Manager into one closed-loop reporting stack, the same shape as wiring Upstart into the CRM and dealer management systems your dealers already run.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/upstart
+
+If 15 minutes makes sense to compare notes on the dealer activation build, I would welcome it, and no worries if this sits with someone else on your team.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
