@@ -2,12 +2,12 @@ Subject: Reading demand into a pricing call Sales can act on
 
 Hi {Hiring Manager, DRAM Product Marketing},
 
-Your posting is specific about where influence sits: shape pricing by customer and segment, inform allocation and production build plans, and distill analyst reports into one message Sales can act on. That chain, market read to pricing call to Sales argument, is the job I already run on the broader semiconductor side.
+Your posting is specific about where influence sits: shape pricing by customer and segment, inform allocation and production build plans, and distill analyst reports into one message Sales can act on. That chain, market read to pricing call to Sales argument, is the job I run on the semiconductor side today.
 
 Built you a 6-slide pitch deck so the proof fits on one read.
 
 At Applied Materials, I size a fast-growing semiconductor market with Sales, Engineering and Accounts, then build the forecasting and value-based pricing models that keep multiple product groups in step with demand.
-At Sensata, I benchmarked 10+ competitors to model market share and realign pricing by segment, moving revenue 12% and share 8 points on a multi-$100M business, then built the customer quotes that let Sales close with senior executives.
+At Sensata, I benchmarked 10+ competitors to realign pricing by segment, moving revenue 12% and share 8 points on a multi-$100M business, then built the customer quotes that let Sales close with senior executives.
 I automate the recurring competitive analysis with Claude-built AI agents instead of rebuilding the same report every cycle.
 
 Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/samsung-semiconductor
