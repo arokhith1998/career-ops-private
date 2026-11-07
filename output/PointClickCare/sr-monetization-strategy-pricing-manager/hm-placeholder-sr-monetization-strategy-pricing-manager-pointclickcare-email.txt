@@ -1,0 +1,22 @@
+Subject: Monetizing new products before launch, not after
+
+Hi {Hiring Manager, Monetization Strategy & Pricing},
+
+Your posting splits the job in two: support pricing on what already ships, then monetize what is still launching. I have already run both halves, not just the business-analysis side a Director's team usually sees first.
+
+Built you a 6-slide pitch deck mapping that two-sided range to this req.
+
+At Sensata's Product and Growth Marketing team I owned GTM and pricing for a new sensing-product line across North America and Europe, running 30+ OEM and distributor interviews to test willingness to pay before launch, driving $2M+ in first-year revenue.
+Moving into Pricing Lead, I built the margin-recovery side too: a Power BI program ranking 1,200 opportunities against a $627M target that recovered $700K+ in two quarters and lifted distributor margins from 53% to 61%.
+I am also building PriceKeel now, a discount-guardrail engine with an audit trail Finance can sign off on, close to the complex-deal-support work this team owns for PointClickCare's provider customers.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/pointclickcare
+
+Open to 15 minutes on how the team is scoping the new-product monetization work?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
