@@ -1,0 +1,20 @@
+Subject: Built for the manually-configured-market-by-market line
+
+Hi {Recruiter, EG Advertising},
+
+I do not normally message before applying, but moving supply campaigns off a manually configured, market-by-market model and into a guided, agentic workflow is specific enough that I wanted to flag the overlap directly.
+
+At Applied Materials I build AI agents on Claude to automate market and competitive analysis, the same manual-to-guided shift this role wants inside campaign configuration.
+At Sensata I own a 100+ feature backlog and built the launch process moving partners across 3 regions through onboarding, cutting time-to-market 20%.
+At Pixis I ran an 8-client ad portfolio across Amazon Ads, Criteo and a DSP stack, rebuilding the funnel for 3x ROAS.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/expedia-group
+
+Worth 15 minutes on this req?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
