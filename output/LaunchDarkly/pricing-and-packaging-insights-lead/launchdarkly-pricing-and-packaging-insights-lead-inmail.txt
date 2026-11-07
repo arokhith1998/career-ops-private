@@ -1,0 +1,18 @@
+Subject: Signal from anecdote, the field-evidence problem I already solved
+
+Hi {Recruiter, Pricing and Packaging Insights Lead},
+
+Your posting asks for the authority on separating isolated anecdotes from repeatable pricing signal across AEs, SEs, CS and deal desk. I ran that exact loop at Sensata: the Bleeders and Leakers program recovered $700K+ in margin in two quarters and raised distributor margins from 53% to 61%, built on hundreds of deal reviews, not survey averages.
+
+I'm now building PriceKeel, a decision-integrity layer that reads discount exceptions and recommends guardrails from a company's own closed-won and closed-lost history, the same evidence-to-recommendation path your role is asked to own.
+
+Portfolio: adhi-pricing-ai.vercel.app/ref/launchdarkly
+
+Open to 15 minutes, or a pointer to whoever owns this req?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

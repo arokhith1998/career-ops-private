@@ -1,0 +1,21 @@
+Subject: The field-evidence system of record your posting asks for, I already built one
+
+Hi {Hiring Manager, Pricing and Packaging},
+
+I joined Applied Materials a few months ago and was not looking, but the line about owning "the organization's structured system of record for field evidence, decisions, and open questions" is close to what I already build.
+
+PriceKeel, the company I founded, reads a live discount exception inside the deal platform and recommends a guardrail learned from a company's own closed-won and closed-lost deals, with an audit trail that makes the call defensible to Finance.
+
+That same anecdote-versus-pattern judgment is what I ran at Sensata: leading the Bleeders and Leakers program across hundreds of deals, recovering $700K+ in margin in two quarters and raising distributor margins from 53% to 61%.
+Before that, 30+ structured interviews with OEMs and distributors ahead of a launch turned into pricing and channel decisions behind $2M+ in first-year revenue.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/launchdarkly
+
+Would 15 minutes work this week to see if the fit is real? No worries if this sits with someone else's desk.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
