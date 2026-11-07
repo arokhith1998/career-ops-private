@@ -1,73 +1,51 @@
-# Databricks - Sr. Product Manager, Data Engineering
+# Sr. Product Manager, Data Engineering - Databricks
 
+**Company:** Databricks
+**Title:** Sr. Product Manager, Data Engineering
 **URL:** https://databricks.com/company/careers/open-positions/job?gh_jid=6322654002
-**Original shortlist URL:** https://databricks.com/company/careers/open-positions/job?gh_jid=6322654002
-**Req ID:** P-8
-**Posted / first published:** 2022-08-11T14:18:36-04:00
-**Last updated:** 2026-09-21T13:22:12-04:00
-**Location:** San Francisco, California
-**Track:** us
-**Visa gate:** required
-**Stated comp band:** not stated
+**Req/Posting ID:** P-8 (Greenhouse job id 6322654002)
+**Location(s):** San Francisco, California
+**Posted / updated date:** Greenhouse API `updated_at` = 2026-09-21T13:22:12-04:00
+**Employment type:** Full-time
+**Comp band (verbatim):** "Local Pay Range: $115,400 - $204,200 USD"
+**Track:** us | **Visa gate:** required
+**Source:** boards-api.greenhouse.io/v1/boards/databricks/jobs/6322654002, extracted 2026-11-07
 
-## Verbatim: work authorization / sponsorship / citizenship / clearance / degree / graduation year
-> More than 20,000 organizations worldwide — including adidas, AT&T, Bayer, Block, Mastercard, Rivian, Unilever, and 70% of the Fortune 500 — rely on the Databricks Data + AI Platform to build and scale data and AI apps, analytics and agents.
+## Work authorization / sponsorship / citizenship / clearance / degree / grad-year (verbatim)
+- No sentence directly addresses visa sponsorship, citizenship, or work authorization for this req.
+- Conditional export-control clause (verbatim): "If access to export-controlled technology or source code is required for performance of job duties, it is within Employer's discretion whether to apply for a U.S. government license for such positions, and Employer may decline to proceed with an applicant on this basis alone."
+- Educational background (verbatim): "Educational or professional background in computer science or related engineering fields." No graduation year stated.
+- Required years of experience (verbatim): "5+ years of product management and related experience with enterprise or SaaS products." (5, under the us-track cap of 6.) Also notes: "A background in Data Engineering is a plus but not required."
 
-## Full JD text (source: Greenhouse public job-board API, content=true)
-P-8
+## Full JD text (verbatim, as extracted)
 
-At Databricks, we are passionate about enabling data teams to solve the world’s toughest problems — from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world’s best data and AI infrastructure platform so our customers can use deep data insights to improve their business.
+At Databricks, we are passionate about enabling data teams to solve the world's toughest problems - from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and AI infrastructure platform so our customers can use deep data insights to improve their business.
 
 Data Engineering is foundational and among the largest scale workloads on the Databrick Data Intelligence Platform. We are reinventing Data Engineering with Lakeflow - a unified product and experience for simple data ingestion, declarative data transformation, and real-time streaming. In this role, you will lead product management for a core Lakeflow product area. You will own and drive all aspects of product management including vision, strategy, roadmap, execution, and go-to-marketing. In addition, you will partner closely with various Databricks product teams to enable Data Engineering for the overall Databrick product portfolio including data science, data warehousing, business intelligence, and machine learning products.
 
 The impact you will have
-
 - Lead product management for one of the fastest growing products and businesses at Databricks
-
 - Make company wide impact by driving Data Engineering across the Databricks product portfolio
-
 - Develop and deepen understanding of and expertise in Data Engineering, a foundational domain in the data and AI industry
-
 - Define, shape, and drive the future of data processing, data applications, and data pipelines
-
 - Own the full life cycle of product development from ideation to requirements, development, pricing, launch, and go-to-market.
 
 What We Look For
-
 - 5+ years of product management and related experience with enterprise or SaaS products.
-
 - Educational or professional background in computer science or related engineering fields.
-
 - Ability to partner with senior technical leaders from Engineering, while going deep on technical concepts.
-
 - Track record of delivering products with cross-functional teams common to enterprise software industry (field engineering, sales, marketing, partnerships, etc.)
-
 - Analytical skills to make data-driven decisions (e.g. analyze product usage)
-
 - Excellent communication skills to clearly and concisely communicate complex topics to diverse stakeholders (engineers, customers, etc.) in written and verbal form
-
 - A background in Data Engineering is a plus but not required.
 
+Pay Range Transparency: Databricks is committed to fair and equitable compensation practices.
 
+Local Pay Range: $115,400 - $204,200 USD
 
-Pay Range Transparency
+About Databricks: Databricks is the Data and AI company. More than 20,000 organizations worldwide rely on the Databricks Data + AI Platform to build and scale data and AI apps, analytics and agents.
 
-Databricks is committed to fair and equitable compensation practices. The pay range(s) for this role is listed below and represents the expected salary range for non-commissionable roles or on-target earnings for commissionable roles. Actual compensation packages are based on several factors that are unique to each candidate, including but not limited to job-related skills, depth of experience, relevant certifications and training, and specific work location. Based on the factors above, Databricks anticipates utilizing the full width of the range. The total compensation package for this position may also include eligibility for annual performance bonus, equity, and the benefits listed above. For more information regarding which range your location is in visit our page here.
+Compliance: If access to export-controlled technology or source code is required for performance of job duties, it is within Employer's discretion whether to apply for a U.S. government license for such positions, and Employer may decline to proceed with an applicant on this basis alone.
 
-
-
-Local Pay Range$115,400—$204,200 USDAbout Databricks
-
-Databricks is the Data and AI company. More than 20,000 organizations worldwide — including adidas, AT&T, Bayer, Block, Mastercard, Rivian, Unilever, and 70% of the Fortune 500 — rely on the Databricks Data + AI Platform to build and scale data and AI apps, analytics and agents. Headquartered in San Francisco with 30+ offices around the globe, Databricks offers a unified platform that includes Genie, Lakebase, Agent Bricks, Lakeflow, Lakehouse, and Unity Catalog. To learn more, follow Databricks on LinkedIn, X, YouTube, and Instagram.
-
-Benefits
-
-At Databricks, we strive to provide comprehensive benefits and perks that meet the needs of all of our employees. For specific details on the benefits offered in your region click here.
-
-Our Commitment to Diversity and Inclusion
-
-At Databricks, we are committed to fostering a diverse and inclusive culture where everyone can excel. We take great care to ensure that our hiring practices are inclusive and meet equal employment opportunity standards. Individuals looking for employment at Databricks are considered without regard to age, color, disability, ethnicity, family or marital status, gender identity or expression, language, national origin, physical and mental ability, political affiliation, race, religion, sexual orientation, socio-economic status, veteran status, and other protected characteristics.
-
-Compliance
-
-If access to export-controlled technology or source code is required for performance of job duties, it is within Employer's discretion whether to apply for a U.S. government license for such positions, and Employer may decline to proceed with an applicant on this basis alone.
+## Extraction notes
+Fetched via the Greenhouse public API (boards-api.greenhouse.io), confirmed live (full content returned). No off-platform redirect, no mandated subject line, req number (P-8) present. One of ten Databricks product/strategy reqs on this shortlist; see the Compute Platform JD file for the note on the four sibling reqs dropped for exceeding the us-track 6-year experience cap.
