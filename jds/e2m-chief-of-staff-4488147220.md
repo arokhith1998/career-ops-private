@@ -3,10 +3,12 @@
 **Company:** E2M (E2M Solutions)
 **Title:** Chief of Staff
 **URL:** https://www.linkedin.com/jobs/view/4488147220
-**Req ID:** not stated
+**Req ID:** not stated. LinkedIn job id 4488147220.
 **Posted date:** relative only, "1 day ago" at capture time (2026-11-07); 32 applicants
 **Location(s):** Ahmedabad, India (Hybrid / Office-Based); shortlist row lists broader "Gujarat, India"
 **Comp band:** not stated
+
+**NOTE FOR AGENT 3 / TRACKER:** An existing JD file `jds/e2m-chief-of-staff.md` already covers E2M Chief of Staff under LinkedIn job id 4485310019 (extracted 2026-10-30). The full JD body text below is word-for-word identical to that earlier extraction. This is almost certainly the same requisition re-surfaced under a new LinkedIn posting id, not a second distinct opening. Neither posting states a req/job number, so there is no ID to disambiguate them per the tracker's `REQ_NUMBER_RE` convention; treat this as a duplicate of the existing E2M Chief of Staff entry rather than a new opening.
 
 ## Work authorization / sponsorship / citizenship / clearance / degree / graduation year (verbatim)
 
