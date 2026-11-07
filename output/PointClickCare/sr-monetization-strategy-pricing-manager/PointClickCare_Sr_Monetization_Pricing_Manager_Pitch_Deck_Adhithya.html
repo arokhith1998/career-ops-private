@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>PointClickCare Sr. Monetization Strategy &amp; Pricing Manager Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #0f6b4f; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 30pt; font-weight: 800; color: #0f172a; line-height: 1.1; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 21pt; font-weight: 800; color: #0f172a; line-height: 1.1; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #0f6b4f; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.5in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d9efe5 100%); }
+  .cover h1 { font-size: 29pt; max-width: 11.3in; }
+  .cover .sub { font-size: 13.5pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 16pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #0f6b4f; font-weight: 700; }
+  .cover .who { margin-top: 16pt; padding-top: 10pt; border-top: 1.5pt solid #0f6b4f; max-width: 9.8in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #0f6b4f; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #eafaf1; border-left: 3pt solid #0f6b4f; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #0a4a38; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #0f6b4f; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #eafaf1; border-left: 4pt solid #0f6b4f; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #0a4a38; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0f6b4f; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 24pt; font-weight: 800; color: #0f6b4f; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0f6b4f; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #0f6b4f; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #0f6b4f; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d9efe5 100%); }
+  .close h2 { font-size: 25pt; max-width: 10.5in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.8in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #0f6b4f; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the PointClickCare Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | PointClickCare Sr. Monetization Strategy &amp; Pricing Manager</div>
+  <h1>PointClickCare prices and packages one platform across 30,000 provider orgs and a 400+ partner Marketplace. I have already run that exact multi-segment pricing problem, and I build the tool that governs it.</h1>
+  <div class="sub">Pricing and packaging strategy, new-product monetization, and AI-driven financial modeling from someone who also builds pricing tools on the side.</div>
+  <div class="tags">
+    <div class="tag"><strong>$700K+</strong> margin recovered in 2 quarters, Sensata Bleeders and Leakers program</div>
+    <div class="tag"><strong>53% to 61%</strong> distributor margin lift via repricing logic that stuck</div>
+    <div class="tag"><strong>1,200</strong> pricing opportunities ranked against a $627M target, 3 regions</div>
+    <div class="tag"><strong>PriceKeel</strong> - founder of a decision-integrity layer for B2B deal pricing</div>
+    <div class="tag"><strong>+12% YoY revenue, +8% share</strong> via price realignment vs. 10+ competitors</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-pricing-ai.vercel.app/ref/pointclickcare</div>
+  </div>
+  <div class="brand">POINTCLICKCARE PRICING</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>The problem is not that PointClickCare lacks pricing data. It is that <span class="accent">packaging one platform across many provider segments multiplies every pricing decision.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What pricing across many segments and partners runs into</h4>
+      <div class="line">Post-acute and long-term care providers range from small operators to large enterprise groups, so one packaging and discounting framework has to flex without turning into a different deal every time.</div>
+      <div class="line">A 400+ partner Marketplace means a new-product monetization call also touches partner economics, not just the core platform price, so the math has more moving pieces than a single-SKU product.</div>
+      <div class="line">Without one pricing logic that Product, Sales, RevOps and Finance all hold to, running AI tools faster through pricing models just produces a worse decision faster, not a better one.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run, at smaller scale</h4>
+      <div class="line">At <b>Sensata</b>, I led global pricing and packaging strategy for a multi-$100M Industrial BU across multiple product lines at once, the same many-segments-one-logic problem.</div>
+      <div class="line">I ran the <b>Bleeders and Leakers program</b>: a Power BI system that ranked pricing opportunities by region and product family against a hard revenue target, so leadership knew exactly where to act.</div>
+      <div class="line">I am building <b>PriceKeel</b> now: an audit trail that gives Finance evidence for every discount decision, because the leak comes back if nobody can explain why the last exception was approved.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">A Senior Monetization Strategy &amp; Pricing Manager who develops pricing and packaging strategy, monetizes new products, and tracks ASP, discount rate, attach rate and margin impact with AI tools across Product, Marketing, Sales, RevOps and Finance, is describing this exact loop: one pricing logic for many segments and partners, proven with a model, held together across teams.</div>
+  </div>
+  <div class="brand">POINTCLICKCARE PRICING</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What the Sr. Monetization Strategy &amp; Pricing Manager opening asks for, and where the proof sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Develop, optimize and execute pricing and packaging strategies...own select pricing projects and support the Director in broader strategic initiatives."</div></div>
+      <div class="quote"><div class="q">"Partner cross-functionally to support the monetization and go-to-market strategy for new product offerings and feature launches."</div></div>
+      <div class="quote"><div class="q">"Leverage AI tools to develop pricing models...and track key pricing and monetization KPIs (ASP, ARPU, discount rates, price realization, attach rates, margin impact)."</div></div>
+    </div>
+    <div class="col">
+      <h3>My Proof</h3>
+      <div class="proof"><div class="p"><b>Pricing and packaging strategy:</b> led the development of global pricing and packaging strategy for Sensata's Industrial BU, a multi-$100M business spanning multiple product lines, while carrying P&amp;L and revenue targets.</div></div>
+      <div class="proof"><div class="p"><b>New-product monetization:</b> owned the GTM and monetization strategy for new sensing products at Sensata, driving $2M+ first-year revenue and running 30+ willingness-to-pay interviews before launch.</div></div>
+      <div class="proof"><div class="p"><b>AI-driven pricing models and KPI tracking:</b> automate pricing analysis and market research with AI agents built on Claude at Applied Materials, and built the Power BI system monitoring win rate, avg $/win, stage distribution and margin impact across 1,200 opportunities.</div></div>
+      <div class="proof"><div class="p"><b>Cross-functional collaboration and complex-deal support:</b> the 53% to 61% distributor repricing needed sign-off from Finance on the model and Sales on what a partner would accept; PriceKeel's audit trail does the same for every discount exception today.</div></div>
+    </div>
+  </div>
+  <div class="brand">POINTCLICKCARE PRICING</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The Sensata proof, in depth</div>
+  <h2>Bleeders and Leakers: <span class="accent">find the leak, close it, make it hold.</span></h2>
+  <div class="lede">Built as a BU-wide Power BI system covering 1,200 pricing opportunities against a $627M target across 3 regions, 4 product families and 20 product lines, with pipeline funnel, win rate and stage distribution by salesperson and product line.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$433M</div>
+      <div class="lbl">Margin Gaps Surfaced</div>
+      <div class="desc">The dashboard's job: rank every pricing opportunity by competitive gap and customer willingness to pay so leadership could prioritize instead of chasing anecdotes.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$700K+</div>
+      <div class="lbl">Margin Recovered in 2 Quarters</div>
+      <div class="desc">Closed through cross-functional negotiations built on competitive analysis, not an across-the-board price hike.</div>
+    </div>
+    <div class="stat">
+      <div class="n">53% to 61%</div>
+      <div class="lbl">Distributor Margin Lift</div>
+      <div class="desc">Repriced the channel's discounting framework itself, so the gain outlived the initial repricing pass instead of drifting back within a quarter.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">The same BU also ran a financial model flagging line items where a price change could lift profitability more than 50%, and multimillion-dollar customer quotes built alongside senior executives. The common thread: every fix crossed at least two functions, and every fix was measured after it shipped, the same discipline a platform billing 30,000 provider organizations needs before a packaging change goes live.</div>
+  <div class="brand">POINTCLICKCARE PRICING</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month on PointClickCare's monetization and pricing desk looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Map the packaging landscape</div>
+      <div class="body">Pull the last 90 days of discount exceptions and new-feature monetization asks across provider segments and the Marketplace. Sit with Product, Sales and Finance to hear where one packaging rule breaks down on a mixed-segment deal.</div>
+      <div class="why"><strong>Why first:</strong> the leak is usually visible in the data before anyone has named it out loud. Same move that started the Bleeders and Leakers program.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Build the AI-assisted model and pressure-test</div>
+      <div class="body">Build a financial model tracking ASP, discount rate, attach rate and margin impact for one real pricing or packaging question, then pressure-test it with Sales and RevOps before proposing a fix with a documented, agreed reason.</div>
+      <div class="why"><strong>Why now:</strong> modeling against a hard target, then verifying the fix cross-functionally, is what made the 53% to 61% distributor gain stick.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Make it repeatable</div>
+      <div class="body">Turn the one-off fix into a template: a discounting framework, a sales-enablement one-pager, and a KPI dashboard Sales and Finance both sign off on before the next packaging question comes in.</div>
+      <div class="why"><strong>Why this fast:</strong> pricing strategy matters less if it only works once. Repeatability is the actual ask behind "support the Director in broader strategic initiatives."</div>
+    </div>
+  </div>
+  <div class="brand">POINTCLICKCARE PRICING</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to run pricing and packaging strategy across 30,000 provider orgs and a 400+ partner Marketplace. I have already run that exact problem at smaller scale, and I am building the tool for the next scale up.</h2>
+  <div class="body">
+    <p>The core proof is Sensata: <strong>$700K+ in margin recovered in 2 quarters</strong>, distributor margins lifted <strong>from 53% to 61%</strong>, and <strong>+12% YoY revenue with +8% market share</strong> from price realignment against 10+ competitors, all run cross-functionally with Sales and Finance while carrying P&amp;L targets for the BU.</p>
+    <p>What is harder to find is someone who already runs the "leverage AI tools for pricing models" part of this req today. <strong>I automate pricing analysis and market research with Claude agents at Applied Materials</strong>, and I am building PriceKeel's discount-governance product on the side, so the AI-driven, cross-functional pricing instinct this role asks for is not something I would need to develop on the job.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-pricing-ai.vercel.app/ref/pointclickcare</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">POINTCLICKCARE PRICING</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
