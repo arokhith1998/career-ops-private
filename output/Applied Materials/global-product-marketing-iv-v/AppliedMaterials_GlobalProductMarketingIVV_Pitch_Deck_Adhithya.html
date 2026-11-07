@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Applied Materials Global Product Marketing IV/V Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #1a56db; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 27pt; font-weight: 800; color: #0f172a; line-height: 1.14; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 20pt; font-weight: 800; color: #0f172a; line-height: 1.12; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #1a56db; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.7in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbeafe 100%); }
+  .cover h1 { font-size: 24pt; max-width: 11.3in; }
+  .cover .sub { font-size: 14pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 16pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #1a56db; font-weight: 700; }
+  .cover .who { margin-top: 16pt; padding-top: 11pt; border-top: 1.5pt solid #1a56db; max-width: 9.6in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #1a56db; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #eff6ff; border-left: 3pt solid #1a56db; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #1e40af; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #1a56db; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #eff6ff; border-left: 4pt solid #1a56db; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #1e40af; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 21pt; font-weight: 800; color: #1a56db; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #1a56db; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #1a56db; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbeafe 100%); }
+  .close h2 { font-size: 24pt; max-width: 10.6in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.6in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #1a56db; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Applied Materials Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Applied Materials Global Product Marketing IV/V</div>
+  <h1>This req asks for three things at once: competitive analysis sharp enough to drive Red Team Analysis, pricing strategy disciplined enough to protect margin, and enough range with Engineering, Manufacturing and Sales to carry a product through its full life cycle. I already run all three.</h1>
+  <div class="sub">A margin-recovery program, a Red Team-style benchmarking habit, and a cross-functional product backlog, on the same calendar as everything else.</div>
+  <div class="tags">
+    <div class="tag"><strong>$700K+ margin recovered</strong> in 2 quarters leading Sensata's Bleeders and Leakers program</div>
+    <div class="tag"><strong>Competitive analysis across 10+ key players</strong>, a one-person Red Team against pricing and share moves</div>
+    <div class="tag"><strong>+12% YoY revenue, +8% market share</strong> from price realignment</div>
+    <div class="tag"><strong>100+ feature backlog</strong> aligned with Engineering and Manufacturing across 3 regions, -20% time-to-market</div>
+    <div class="tag"><strong>AI agents built on Claude</strong> automating recurring market and competitive analysis</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-product-ai.vercel.app/ref/applied-materials</div>
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>The req reads as one title. It is really <span class="accent">three disciplines that have to run as one loop.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What the role actually requires</h4>
+      <div class="line">Complex-scope business and marketing plans that assess market penetration and product positioning well enough to drive competitive advantage, not just describe the market.</div>
+      <div class="line">Complex competitive analysis for specific products or product lines, including Red Team Analysis against the field's own moves.</div>
+      <div class="line">Pricing strategies that protect a leadership position in market share while still enhancing profit margins, partnered with Engineering, Manufacturing and Sales through the product's full life cycle.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run</h4>
+      <div class="line">At <b>Sensata</b>, I ran competitive benchmarking across 10+ key players and used it to realign price into +12% YoY revenue and +8% market share, the Red Team habit this req names directly.</div>
+      <div class="line">I led the <b>Bleeders and Leakers</b> program to $700K+ in margin recovered in two quarters, then rebuilt distributor and channel-partner pricing from 53% to 61% margin.</div>
+      <div class="line">I aligned <b>Engineering and Manufacturing</b> on a 100+ feature product backlog across 3 regions, and today I size new-product investment decisions with Sales, Engineering and Accounts.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">The through-line: every pricing call I have made was built on competitive analysis I ran myself first, not a market view handed to me by someone else.</div>
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The mandate, mapped</div>
+  <h2>What the posting asks for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Develops complex scope business and marketing plans, assesses market penetration and product positioning to drive competitive advantage, revenue and market share."</div></div>
+      <div class="quote"><div class="q">"Conducts complex competitive analysis for specific products or product lines. Drives Red Team Analysis."</div></div>
+      <div class="quote"><div class="q">"Assists with complex pricing strategies to build and protect a leadership position in market share while enhancing profit margins."</div></div>
+      <div class="quote"><div class="q">"Partners with Engineering, Manufacturing and Sales to develop new products and enhance existing products."</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>Sensata, price realignment:</b> +12% YoY revenue and +8% market share, built on a competitive-benchmarking refresh across 10+ key players.</div></div>
+      <div class="proof"><div class="p"><b>Sensata, Red Team-style analysis:</b> ran competitive analysis as a one-person function against competitor pricing and share moves, the same analytical posture this req calls Red Team Analysis.</div></div>
+      <div class="proof"><div class="p"><b>Sensata, margin and leadership position:</b> $700K+ margin recovered in 2 quarters, distributor and channel-partner margins raised from 53% to 61%.</div></div>
+      <div class="proof"><div class="p"><b>Sensata and current role, cross-functional build:</b> aligned Engineering and Manufacturing on a 100+ feature backlog across 3 regions; today size investment decisions with Sales, Engineering and Accounts.</div></div>
+    </div>
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>Run the competitive analysis first, then let the pricing call and the <span class="accent">cross-functional build follow it, not the other way around.</span></h2>
+  <div class="lede">Same pattern across every stop: benchmark the field, make the pricing or positioning call from that benchmark, then carry it through Engineering, Manufacturing and Sales until it ships.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$700K+</div>
+      <div class="lbl">Margin Recovered in 2 Quarters</div>
+      <div class="desc">Led the Bleeders and Leakers program at Sensata, then raised distributor and channel-partner margins from 53% to 61% on top of it.</div>
+    </div>
+    <div class="stat">
+      <div class="n">10+ Key Players</div>
+      <div class="lbl">Competitive Benchmarking, Red Team Style</div>
+      <div class="desc">Ran complex competitive analysis against pricing and share moves across the field, turning it into a price realignment that drove +12% YoY revenue and +8% market share.</div>
+    </div>
+    <div class="stat">
+      <div class="n">100+ Features</div>
+      <div class="lbl">Backlog Aligned With Engineering &amp; Manufacturing</div>
+      <div class="desc">Managed across 3 regions, cutting time-to-market 20%, the cross-functional build this req runs across new and existing products.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">None of these were a market view handed down from someone else. Each one started with me running the analysis, then making the call.</div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month owning this mandate looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Map the current competitive and pricing picture</div>
+      <div class="body">Pull the existing Red Team Analysis, pricing tools and competitive benchmarks for the assigned product lines, and find where market penetration and positioning data is thin or stale.</div>
+      <div class="why"><strong>Why first:</strong> the same first move behind the Sensata benchmarking refresh, know the field before recommending a price or positioning change.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Run one complex competitive analysis end to end</div>
+      <div class="body">Pick the highest-stakes product line, rebuild the Red Team view against 10+ real competitors, and turn it into a specific pricing or positioning recommendation with Engineering, Manufacturing and Sales.</div>
+      <div class="why"><strong>Why now:</strong> the same build that moved Sensata's price realignment to +12% YoY revenue and +8% market share.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Stand up the recurring reporting loop</div>
+      <div class="body">Automate the repetitive side of that competitive and market analysis with the first AI agent, built on Claude, so the Red Team view refreshes every cycle instead of once.</div>
+      <div class="why"><strong>Why this fast:</strong> the same habit that keeps my own market and competitive reporting moving today.</div>
+    </div>
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>This req is three disciplines stitched into one title: Red Team competitive analysis, margin-protecting pricing strategy, and a cross-functional build with Engineering, Manufacturing and Sales. I have already put a number on each one.</h2>
+  <div class="body">
+    <p>The competitive-analysis half: <strong>10+ key players</strong> benchmarked at Sensata, turned into a price realignment that drove <strong>+12% YoY revenue and +8% market share</strong>.</p>
+    <p>The pricing half: <strong>$700K+ in margin recovered</strong> in two quarters leading the Bleeders and Leakers program, plus distributor margins raised from 53% to 61%. The cross-functional half: a <strong>100+ feature backlog</strong> aligned with Engineering and Manufacturing across 3 regions, and AI agents built on Claude now automating the recurring analysis behind all of it.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-product-ai.vercel.app/ref/applied-materials</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
