@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Samsung Semiconductor Product Marketing Manager DRAM Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #1a56db; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 23pt; font-weight: 800; color: #0f172a; line-height: 1.18; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 20pt; font-weight: 800; color: #0f172a; line-height: 1.12; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #1a56db; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.7in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%); }
+  .cover h1 { font-size: 21.5pt; max-width: 11.6in; }
+  .cover .sub { font-size: 13pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 15pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #1a56db; font-weight: 700; }
+  .cover .who { margin-top: 15pt; padding-top: 11pt; border-top: 1.5pt solid #1a56db; max-width: 9.6in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #1a56db; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #eef2ff; border-left: 3pt solid #1a56db; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #1e3a8a; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #1a56db; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #eef2ff; border-left: 4pt solid #1a56db; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #1e3a8a; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 19pt; font-weight: 800; color: #1a56db; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #1a56db; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #1a56db; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%); }
+  .close h2 { font-size: 22pt; max-width: 11in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.8in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #1a56db; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Samsung Semiconductor Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Samsung Semiconductor Product Marketing Manager, DRAM</div>
+  <h1>The DRAM team needs one person turning customer demand, forecasts and competitive share into a pricing call Sales can defend, and a supply signal Engineering can plan around. I run that exact loop today.</h1>
+  <div class="sub">Market sizing, value-based pricing and competitive benchmarking, run cross-functionally with Sales, Engineering and Accounts, on one resume.</div>
+  <div class="tags">
+    <div class="tag"><strong>10+-player benchmarking</strong> behind a 12% YoY revenue, 8-point share swing at Sensata</div>
+    <div class="tag"><strong>Multimillion-dollar customer quotes</strong> built with senior executives to arm Sales for negotiation</div>
+    <div class="tag"><strong>Semiconductor market sizing</strong> with Sales, Engineering and Accounts at Applied Materials today</div>
+    <div class="tag"><strong>+30% win rate</strong> from a sales-enablement system built for 50+ reps</div>
+    <div class="tag"><strong>AI agents built on Claude</strong> automating recurring market and competitive analysis</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhithyabhaskar.vercel.app/ref/samsung-semiconductor</div>
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>The DRAM mandate is not "track the market." It is turning a demand signal into a pricing decision and a supply plan, <span class="accent">before the negotiation starts.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What that actually requires</h4>
+      <div class="line">Segment demand and TAM read closely enough to catch a gap before a competitor does, not a quarterly report that arrives after the decision window closes.</div>
+      <div class="line">A pricing strategy that holds up customer by customer and segment by segment, fed by field feedback, not a single list price applied everywhere.</div>
+      <div class="line">A distilled, one-message version of the analysis, built for a sales conversation and a cross-functional planning meeting with HQ, not a 40-slide report nobody opens twice.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run</h4>
+      <div class="line">At <b>Applied Materials</b>, I size a semiconductor market with Sales, Engineering and Accounts in the room, turning field input into one forecast the group plans against.</div>
+      <div class="line">At <b>Sensata</b>, I benchmarked 10+ competitors to model market share and realign pricing by segment, moving revenue 12% and share 8 points on a multi-$100M business.</div>
+      <div class="line">At <b>Sensata</b> again, I built the multimillion-dollar customer quotes that armed Sales to close with senior executives already in the room.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">The through-line: every pricing or forecasting model I have built was designed to get used in the next negotiation, not filed after the next review.</div>
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The mandate, mapped</div>
+  <h2>What the posting asks for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Track customer and market trends, identify gaps and opportunities, and analyze segment demand and TAM."</div></div>
+      <div class="quote"><div class="q">"Develop pricing strategies by customer and segment, using feedback from the field to finalize decisions."</div></div>
+      <div class="quote"><div class="q">"Distill analyst reports into key messages and model competitive TAM, SAM and market share."</div></div>
+      <div class="quote"><div class="q">"Partner with technical teams to build positioning and data-backed analysis that sharpens our competitive edge."</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>Applied Materials, segment demand and TAM:</b> sizes a fast-growing semiconductor market with Sales, Engineering and Accounts, feeding a forecast across multiple product groups.</div></div>
+      <div class="proof"><div class="p"><b>Sensata, pricing by segment:</b> realigned pricing off field feedback and 10+-player benchmarking, moving revenue 12% and share 8 points.</div></div>
+      <div class="proof"><div class="p"><b>Sensata, competitive share modeling:</b> a $627M-target, 1,200-opportunity pricing dashboard that surfaced $433M in margin gaps for leadership to prioritize.</div></div>
+      <div class="proof"><div class="p"><b>Sensata, technical partnership:</b> built multimillion-dollar customer quotes and sales enablement with technical teams, lifting a 50-rep team's win rate 30%.</div></div>
+    </div>
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>Read the segment, reprice it, then <span class="accent">put a number Sales can use on it.</span></h2>
+  <div class="lede">The same three-step pattern across two companies: size the demand and the competitive field, turn that into a pricing or quote decision, then measure whether it moved a number the business was accountable for.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">+12% Revenue, +8% Share</div>
+      <div class="lbl">10+-Player Competitive Benchmarking</div>
+      <div class="desc">Fed a segment-level pricing realignment across a multi-$100M Industrial BU at Sensata.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$627M Target</div>
+      <div class="lbl">1,200-Opportunity Pricing Dashboard</div>
+      <div class="desc">Tracked across 3 regions and 20 product lines, surfacing $433M in margin gaps for leadership.</div>
+    </div>
+    <div class="stat">
+      <div class="n">+30% Win Rate</div>
+      <div class="lbl">Sales-Enablement System, 50+ Reps</div>
+      <div class="desc">Customer quotes, battlecards and case studies built with technical teams at Sensata.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">At Applied Materials that same loop runs today: market sizing and value-based pricing with Sales, Engineering and Accounts, with AI agents built on Claude automating the recurring analysis underneath it.</div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month on the DRAM team looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Map segment demand and the competitive TAM/SAM</div>
+      <div class="body">Build the first customer and segment demand read, distilling analyst reports and field input into one TAM/SAM/share model, the same first move behind the 10+-player benchmarking at Sensata.</div>
+      <div class="why"><strong>Why first:</strong> every pricing or supply call downstream depends on this model being right before anyone negotiates off it.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Turn the model into a pricing-by-segment call</div>
+      <div class="body">Work field feedback into customer- and segment-level pricing decisions and the quotes and data Sales needs to negotiate, the same build that moved Sensata's revenue 12% and share 8 points.</div>
+      <div class="why"><strong>Why now:</strong> a model nobody can negotiate off of is just a report.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Stand up the recurring forecast-to-pricing loop</div>
+      <div class="body">Institute the cross-functional cadence with Sales, Engineering, Accounts and HQ behind the Applied Materials model, then automate the recurring analysis with an AI agent so the loop refreshes every cycle instead of every negotiation.</div>
+      <div class="why"><strong>Why this fast:</strong> the same habit that keeps my own reporting moving at Applied Materials today, not a plan for someday.</div>
+    </div>
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>Samsung DRAM needs the market-read-to-pricing loop run with Sales, Engineering and HQ in the room. I already run that loop, with a number on each step.</h2>
+  <div class="body">
+    <p>The read-the-market half: <strong>semiconductor market sizing</strong> with Sales, Engineering and Accounts at Applied Materials, plus the forecasting models that keep multiple product groups in step with demand.</p>
+    <p>The pricing-and-sales half: <strong>10+-player competitive benchmarking</strong> behind a 12% YoY revenue and 8-point share move at Sensata, and the multimillion-dollar customer quotes and sales enablement that took a 50-rep team's win rate up 30%. I automate the recurring analysis underneath all of it with AI agents built on Claude.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhithyabhaskar.vercel.app/ref/samsung-semiconductor</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
