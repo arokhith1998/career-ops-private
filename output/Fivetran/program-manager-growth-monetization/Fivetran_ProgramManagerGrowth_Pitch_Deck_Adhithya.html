@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Fivetran Program Manager, Growth, Monetization & Strategic Initiatives Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #1d4ed8; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 27pt; font-weight: 800; color: #0f172a; line-height: 1.14; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 20pt; font-weight: 800; color: #0f172a; line-height: 1.12; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #1d4ed8; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.7in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbeafe 100%); }
+  .cover h1 { font-size: 23pt; max-width: 11.3in; }
+  .cover .sub { font-size: 14pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 16pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #1d4ed8; font-weight: 700; }
+  .cover .who { margin-top: 16pt; padding-top: 11pt; border-top: 1.5pt solid #1d4ed8; max-width: 9.4in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #1d4ed8; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .col .line { font-size: 9.6pt; color: #334155; line-height: 1.48; margin-bottom: 9pt; }
+  .col .line b { color: #0f172a; font-weight: 700; }
+  .quote { background: #eff6ff; border-left: 3pt solid #1d4ed8; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #1e40af; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .bridge { margin-top: 14pt; background: #eff6ff; border-left: 4pt solid #1d4ed8; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #1e40af; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1d4ed8; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 21pt; font-weight: 800; color: #1d4ed8; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1d4ed8; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #1d4ed8; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.3pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.8pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.3pt; color: #64748b; line-height: 1.42; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #1d4ed8; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbeafe 100%); }
+  .close h2 { font-size: 23pt; max-width: 10.8in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.8in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #1d4ed8; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Fivetran Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Fivetran Program Manager, Growth, Monetization &amp; Strategic Initiatives</div>
+  <h1>Fivetran and dbt Labs are running two pricing playbooks through one integration right now. I have already built the governance cadence that turns a messy pricing backlog into a shipped, trackable program.</h1>
+  <div class="sub">A $627M-target pricing governance program built from scratch, and the escalation cadence that recovered $700K+ in margin in two quarters.</div>
+  <div class="tags">
+    <div class="tag"><strong>$627M target tracked</strong> across 1,200 pricing opportunities, 3 regions, 20 product lines</div>
+    <div class="tag"><strong>$700K+ recovered</strong> by resolving cross-functional pricing escalations in 2 quarters</div>
+    <div class="tag"><strong>53% to 61% margin</strong> shipped through a repricing program, not a recommendation</div>
+    <div class="tag"><strong>Own CRM, CPQ, deal approvals</strong> end to end today at PriceKeel</div>
+    <div class="tag"><strong>Sales, Engineering, Finance</strong> partnership built into every forecasting model I run</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-pricing-ai.vercel.app/ref/fivetran</div>
+  </div>
+  <div class="brand">PRICING &amp; PROGRAM PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>The req does not ask for a pricing analyst. It asks for the person who turns pricing strategy into a <span class="accent">governed, shipped program</span> while two orgs merge underneath it.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What that actually requires</h3>
+      <div class="line">A governance cadence, meetings, decision rights, and an escalation path, that holds together while Fivetran and dbt Labs reconcile two separate pricing playbooks into one.</div>
+      <div class="line">Cross-functional pull from Analytics, Product, Sales, Product Marketing, RevOps, Finance and Engineering, because a pricing commitment touches all seven on the way to shipping.</div>
+      <div class="line">An operator who tracks commitments end to end and reports the outcome, not someone who hands off a recommendation and waits to hear what happened.</div>
+    </div>
+    <div class="col">
+      <h3>What I have already run</h3>
+      <div class="line">At <b>Sensata</b>, I built the FY2026 Bleeders and Leakers governance cadence from scratch, no existing tool answered the question, tracking 1,200 opportunities against a $627M target.</div>
+      <div class="line">At <b>Applied Materials</b>, I partner directly with Sales, Engineering and Accounts to turn scattered field input into one shared forecasting view, the same partner list this role names.</div>
+      <div class="line">At <b>PriceKeel</b>, I run the CRM, CPQ, forecast and pipeline reviews and deal approvals myself, the operating cadence a pricing program runs on, not a slide describing one.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">The through-line: every pricing program I have run closed the loop from governance cadence to recovered margin, it did not stop at the recommendation.</div>
+  </div>
+  <div class="brand">PRICING &amp; PROGRAM PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The mandate, mapped</div>
+  <h2>What the posting asks for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Own the cross-functional execution that turns pricing strategy into well-governed, shipped programs."</div></div>
+      <div class="quote"><div class="q">"Track program deliverables and commitments end to end."</div></div>
+      <div class="quote"><div class="q">"Manage sales escalations and the cross-functional coordination required to resolve them."</div></div>
+      <div class="quote"><div class="q">"Expand upon and further operationalize Fivetran's pricing and program management playbooks."</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>Sensata, governed and shipped:</b> built the FY2026 Bleeders and Leakers cadence end to end, tracking 1,200 opportunities against a $627M target across 3 regions and 20 product lines.</div></div>
+      <div class="proof"><div class="p"><b>Sensata, escalations resolved:</b> closed cross-functional pricing escalations with Sales, recovering $700K+ in margin in 2 quarters, then shipped a repricing program that raised distributor margins from 53% to 61%.</div></div>
+      <div class="proof"><div class="p"><b>PriceKeel, playbook operationalized:</b> built the audit trail and guardrail engine Finance can review for every pricing decision, running CRM, CPQ and deal approvals as one governed loop.</div></div>
+      <div class="proof"><div class="p"><b>Applied Materials, cross-functional by design:</b> partners with Sales, Engineering and Accounts on every forecasting and market-sizing model, the exact function list this role names.</div></div>
+    </div>
+  </div>
+  <div class="brand">PRICING &amp; PROGRAM PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>Build the governance cadence, resolve the escalation, then <span class="accent">ship the margin it was designed to catch.</span></h2>
+  <div class="lede">The same three-step pattern, run twice at Sensata and running today at PriceKeel: build the tracking system that did not exist, resolve the cross-functional escalations it surfaces, then report the outcome leadership acted on.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$627M Target</div>
+      <div class="lbl">Governance Cadence Built From Scratch</div>
+      <div class="desc">1,200 pricing opportunities tracked against a $627M target across 3 regions and 20 product lines, surfacing $433M in margin gaps for leadership to prioritize.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$700K+ Recovered</div>
+      <div class="lbl">Sales Escalations Resolved</div>
+      <div class="desc">Cross-functional escalation resolution with Sales in 2 quarters, the exact coordination loop this role owns end to end.</div>
+    </div>
+    <div class="stat">
+      <div class="n">53% to 61%</div>
+      <div class="lbl">Shipped Repricing Program</div>
+      <div class="desc">Distributor and channel-partner margins raised in under 2 quarters, a program outcome reported to leadership, not a one-off recommendation.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">None of these stopped at a deck in a folder. Each one closed the loop from an ungoverned backlog to a number leadership could point to.</div>
+  <div class="brand">PRICING &amp; PROGRAM PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month on Fivetran's pricing and monetization program looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Map the combined pricing backlog</div>
+      <div class="body">Pull the current state of pricing and monetization commitments across both the Fivetran and dbt Labs playbooks, find what is already tracked and where a decision still lives in someone's inbox.</div>
+      <div class="why"><strong>Why first:</strong> the same first move behind the Sensata dashboard, size what exists before building the cadence on top of it.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Stand up the governance cadence</div>
+      <div class="body">Set the meetings, decision rights and escalation path connecting Product, Sales, Engineering, RevOps, Product Marketing and Finance around pricing commitments, with Analytics feeding the pricing-impact view.</div>
+      <div class="why"><strong>Why now:</strong> the same cadence that resolved Sensata's sales escalations and the partnership running today across Sales, Engineering and Accounts at Applied Materials.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Ship the first operationalized playbook piece</div>
+      <div class="body">Turn one rollout plan, escalation runbook, or closed-lost-due-to-pricing report into a repeatable artifact leadership can reuse next cycle, not a one-off deliverable.</div>
+      <div class="why"><strong>Why this fast:</strong> the same discipline that turned Sensata's tracking system into a program leadership acted on and PriceKeel's audit trail into something Finance can review today.</div>
+    </div>
+  </div>
+  <div class="brand">PRICING &amp; PROGRAM PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to turn pricing strategy into a governed, shipped program while two playbooks merge into one. I have already built that cadence, resolved the escalations it surfaced, and shipped the margin it was designed to catch.</h2>
+  <div class="body">
+    <p>The governance half: a <strong>$627M-target cadence built from scratch</strong>, tracking 1,200 opportunities across 3 regions and 20 product lines, and the escalation resolution behind <strong>$700K+ recovered</strong> in 2 quarters at Sensata.</p>
+    <p>The operating half: running <strong>CRM, CPQ, forecast and pipeline reviews and deal approvals</strong> as one governed loop at PriceKeel today, and partnering with Sales, Engineering and Accounts on every forecasting model at Applied Materials, the exact partner list this role names.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-pricing-ai.vercel.app/ref/fivetran</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">PRICING &amp; PROGRAM PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
