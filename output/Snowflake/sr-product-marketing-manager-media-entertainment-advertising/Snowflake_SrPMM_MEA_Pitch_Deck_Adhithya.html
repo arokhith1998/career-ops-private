@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Snowflake Sr PMM, Media Entertainment and Advertising Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #1859c4; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 27pt; font-weight: 800; color: #0f172a; line-height: 1.14; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 20pt; font-weight: 800; color: #0f172a; line-height: 1.12; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #1859c4; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.8in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d7e6fa 100%); }
+  .cover h1 { font-size: 23pt; max-width: 11.4in; }
+  .cover .sub { font-size: 13.5pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 16pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.1pt; font-weight: 500; }
+  .tag strong { color: #1859c4; font-weight: 700; }
+  .cover .who { margin-top: 16pt; padding-top: 10pt; border-top: 1.5pt solid #1859c4; max-width: 9.5in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #1859c4; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #e8f0fc; border-left: 3pt solid #1859c4; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.3pt; color: #10407f; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.2pt; color: #334155; line-height: 1.44; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #1859c4; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #e8f0fc; border-left: 4pt solid #1859c4; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #10407f; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1859c4; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 23pt; font-weight: 800; color: #1859c4; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1859c4; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #1859c4; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #1859c4; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d7e6fa 100%); }
+  .close h2 { font-size: 24pt; max-width: 10.8in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.9in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #1859c4; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Snowflake Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Snowflake Sr PMM, Media, Entertainment and Advertising</div>
+  <h1>Orchestrating GTM across regions and personas, enabling the field at scale, and translating platform value into business value: three things I already do in one Applied Materials forecasting seat, not three separate jobs.</h1>
+  <div class="sub">Field enablement that moved win rates, global launches that held up across regions, and a Claude-run forecasting practice built to scale program execution without scaling headcount.</div>
+  <div class="tags">
+    <div class="tag"><strong>50+ reps</strong> equipped with enablement material that lifted win rates 30% at Sensata</div>
+    <div class="tag"><strong>$2M+</strong> first-year revenue from a GTM launch aligned across North America and Europe</div>
+    <div class="tag"><strong>8-client portfolio</strong> running retail-media and performance programs at Pixis, persona by persona</div>
+    <div class="tag"><strong>Claude AI agents</strong> acting on market analysis and forecasting at Applied Materials, not just reporting it</div>
+    <div class="tag"><strong>30+ customer interviews</strong> surfacing regional insight that reshaped a product roadmap</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-product-ai.vercel.app/ref/snowflake</div>
+  </div>
+  <div class="brand">SNOWFLAKE MEA PMM PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>Your posting asks for one person who can scale global programs, amplify regional priorities, and still make the message land with Media leaders. <span class="accent">Most GTM careers only build one of those three.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>Where that breaks for most candidates</h4>
+      <div class="line">A GTM program that works globally often loses the regional nuance that makes it land with a specific persona. A regional specialist, in turn, rarely has the cross-functional reach to scale a program past their own patch.</div>
+      <div class="line">Media, Entertainment and Advertising buyers in particular notice when a platform pitch has not been translated into their own business language, not a generic data-platform pitch recycled across verticals.</div>
+      <div class="line">The fix is not more content. It is one person who has actually run the regional-to-global loop before, not just briefed it to a field team.</div>
+    </div>
+    <div class="panel">
+      <h4>What I already run</h4>
+      <div class="line">At <b>Sensata</b>, I drove GTM for new product launches across North America and Europe, aligning global launch strategy to regional execution on the ground, the same loop this role calls orchestration.</div>
+      <div class="line">At <b>Pixis</b>, I ran persona-by-persona retail-media and performance programs across an 8-client portfolio in international, non-English markets, each with its own P&amp;L target.</div>
+      <div class="line">Both sides mean I have sat in the global-plan seat and the regional-execution seat on the same program, not just handed one to the other.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">Co-owning MEA strategy, running big-bet campaigns, enabling the field at scale, translating platform value into business value: that is one connected loop. Set the plan, enable the team, prove the outcome.</div>
+  </div>
+  <div class="brand">SNOWFLAKE MEA PMM PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What the Sr PMM, Media, Entertainment and Advertising opening asks for, next to where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">Co-own and align MEA persona strategy, ensuring plans reflect customer insight and empower the field to execute with impact.</div></div>
+      <div class="quote"><div class="q">Develop and execute "big bets": net-new integrated campaigns and targeted sales plays that accelerate adoption.</div></div>
+      <div class="quote"><div class="q">Enable the field at scale with programs, sales plays and messaging that drive pipeline and revenue outcomes.</div></div>
+      <div class="quote"><div class="q">Translate platform value into business value statements that resonate with MEA decision-makers.</div></div>
+    </div>
+    <div class="col">
+      <h3>My Proof</h3>
+      <div class="proof"><div class="p"><b>Persona strategy and customer insight:</b> ran 30+ customer interviews with OEMs and distributors at Sensata, surfacing regional insight that reshaped the roadmap and lifted CSAT 22%.</div></div>
+      <div class="proof"><div class="p"><b>Big-bet campaigns:</b> drove GTM for new sensing-product launches across North America and Europe at Sensata, positioning, pricing and channel together, for $2M+ first-year revenue.</div></div>
+      <div class="proof"><div class="p"><b>Field enablement at scale:</b> equipped 50+ reps with decks, case studies and sales plays they used unchanged in the field, lifting win rates 30%.</div></div>
+      <div class="proof"><div class="p"><b>Translating value for decision-makers:</b> at Applied Materials, aligns market sizing across Sales, Engineering and Accounts, and translates technical capability into value-based pricing and business-value statements for decision-makers.</div></div>
+    </div>
+  </div>
+  <div class="brand">SNOWFLAKE MEA PMM PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>Field enablement at Sensata: <span class="accent">material reps used unchanged, because it was already built from the regional insight they needed.</span></h2>
+  <div class="lede">Built from 30+ customer interviews with OEMs and distributors across regions, the enablement kit (decks, case studies, sales plays) went straight into the field without local rework, because the regional voice was already in it.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">30%</div>
+      <div class="lbl">Win Rate Lift</div>
+      <div class="desc">Across 50+ reps who used the enablement material as delivered, the same field-scale outcome this role's "enable the field" pillar asks for.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$2M+</div>
+      <div class="lbl">First-Year Launch Revenue</div>
+      <div class="desc">A new sensing-product launch aligned across North America and Europe on positioning, pricing and channel together, not sequenced region by region.</div>
+    </div>
+    <div class="stat">
+      <div class="n">22%</div>
+      <div class="lbl">CSAT Lift From Customer Insight</div>
+      <div class="desc">Regional interview insight fed back into the roadmap, the same translation this posting asks for between field signal and global direction.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">At Applied Materials, that same regional-to-global discipline now runs on Claude AI agents that act on market and forecasting analysis directly, so the translation from technical capability to business-value statement happens faster, not slower, as the program scales.</div>
+  <div class="brand">SNOWFLAKE MEA PMM PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month orchestrating MEA GTM at Snowflake looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Map the MEA persona and account landscape</div>
+      <div class="body">Sit with Account teams, Field Marketing, Technical Sales and Industry specialists to learn the current MEA messaging, sales plays and the "big bets" already in flight, and shadow one live cross-functional working group end to end.</div>
+      <div class="why"><strong>Why first:</strong> the same groundwork that had me run 30+ customer interviews at Sensata before touching the roadmap.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Ship one field-enablement asset against a live sales play</div>
+      <div class="body">Take one MEA sales play already in motion and ship enablement (messaging, business-value statement, case study) a rep can use unchanged this quarter, then track it against pipeline and revenue outcomes.</div>
+      <div class="why"><strong>Why now:</strong> the same build-it-so-the-field-can-use-it-as-is discipline that lifted Sensata win rates 30%.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Scope one net-new "big bet" integrated campaign</div>
+      <div class="body">Identify one net-new campaign opportunity for a priority MEA sub-vertical, write the regional-to-global alignment plan, and bring cross-functional working groups in before execution starts.</div>
+      <div class="why"><strong>Why this fast:</strong> a big bet only earns its name if the cross-functional alignment is set before launch, the same order Sensata's cross-region launches ran in.</div>
+    </div>
+  </div>
+  <div class="brand">SNOWFLAKE MEA PMM PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to make global MEA programs land with a specific regional buyer, not just scale past them. I have already run that loop, from both sides.</h2>
+  <div class="body">
+    <p>The core proof is Sensata: enablement that <strong>50+ reps used unchanged</strong> to lift win rates <strong>30%</strong>, a cross-region launch worth <strong>$2M+ in first-year revenue</strong>, and 30+ customer interviews that fed regional insight back into the roadmap.</p>
+    <p>What is harder to find is someone who has also run that same persona-by-persona discipline internationally. <strong>I built that at Pixis</strong>, running retail-media and performance programs across an 8-client portfolio in non-English markets, so the regional amplification this role asks for is not something I would need to learn on the job.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-product-ai.vercel.app/ref/snowflake</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">SNOWFLAKE MEA PMM PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
