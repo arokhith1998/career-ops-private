@@ -30,9 +30,8 @@ soft_gaps:
   - "7+ years product management experience on technical platforms/infrastructure/data products required - above the US-track 6-year ceiling and above the candidate's ~5 years total, with no formal dedicated PM title history"
   - "No financial-reconciliation, bank-charter, or audit-tooling product experience; closest analog is PriceKeel's own auditable decision-trail design, a different domain"
 top_strengths:
-  - "PriceKeel: built an audit trail recording the human pricing decision with evidence Finance can audit - a loose conceptual analog to reconciliation/controls thinking"
+  - "PriceKeel: built an audit trail recording the human pricing decision with evidence Finance can audit - a loose conceptual analog to reconciliation/controls thinking (does not substitute for hands-on fintech-infrastructure PM depth)"
   - "Sensata: carried P&L and revenue targets for a multi-$100M business, with cross-functional partnership across Product, Engineering, Sales, and Accounts"
-top_strengths_note: "Neither strength substitutes for hands-on fintech-infrastructure PM depth"
 risk_level: "Medium"
 confidence: "Medium"
 next_action: "Digest only - specialist domain plus seniority gap make this a poor-fit stretch; no build warranted"
