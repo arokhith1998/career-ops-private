@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Fivetran Enterprise Demand Generation Lead Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #7c3aed; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 24pt; font-weight: 800; color: #0f172a; line-height: 1.16; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 20pt; font-weight: 800; color: #0f172a; line-height: 1.12; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #7c3aed; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.7in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #ede9fe 100%); }
+  .cover h1 { font-size: 21pt; max-width: 11.6in; }
+  .cover .sub { font-size: 13pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 15pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.1pt; font-weight: 500; }
+  .tag strong { color: #7c3aed; font-weight: 700; }
+  .cover .who { margin-top: 15pt; padding-top: 11pt; border-top: 1.5pt solid #7c3aed; max-width: 9.4in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #7c3aed; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #f3effe; border-left: 3pt solid #7c3aed; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #5b21b6; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #7c3aed; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #f3effe; border-left: 4pt solid #7c3aed; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #5b21b6; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #7c3aed; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 19pt; font-weight: 800; color: #7c3aed; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #7c3aed; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #7c3aed; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #7c3aed; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #ede9fe 100%); }
+  .close h2 { font-size: 21.5pt; max-width: 11in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.8in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #7c3aed; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Fivetran Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Fivetran Enterprise Demand Generation Lead - North America</div>
+  <h1>Fivetran needs someone who owns the AMER Enterprise pipeline number end to end, from the first paid-social touchpoint to the Stage 1 opportunity, not a media plan that stops at the lead. I already run that full chain.</h1>
+  <div class="sub">A paid-acquisition-to-pipeline system built and measured at $100K/month scale, plus the Claude-run reporting loop that keeps it honest every week.</div>
+  <div class="tags">
+    <div class="tag"><strong>-25% CPA</strong> from $100K/month paid budgets across Google, Microsoft, Meta and LinkedIn</div>
+    <div class="tag"><strong>15+ A/B tests</strong> tied directly to MQL quality and Stage 1 opportunity volume</div>
+    <div class="tag"><strong>+35% qualified leads</strong> from paid and content launch programs at Sensata</div>
+    <div class="tag"><strong>Churn -50%</strong> from reallocating an 8-client, $15K-90K/month paid-media portfolio</div>
+    <div class="tag"><strong>AI agents built on Claude</strong> automating my own recurring reporting at Applied Materials</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-growth-ai.vercel.app/ref/fivetran</div>
+  </div>
+  <div class="brand">DEMAND GENERATION PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>The role is not "run paid social." It is owning the AMER Enterprise pipeline number from the first touchpoint through the Stage 1 opportunity, with <span class="accent">budget that moves toward whatever gets there fastest.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What that actually requires</h4>
+      <div class="line">A paid-social and content motion across LinkedIn, Meta and adjacent channels, judged by MQL and Stage 1 output, not clicks or form fills.</div>
+      <div class="line">Budget that shifts weekly toward whatever channel, audience or offer is converting, pulled from whatever is not.</div>
+      <div class="line">A funnel view that explains the touchpoint-to-MQL-to-opportunity drop-off, not just a final lead count.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run</h4>
+      <div class="line">At <b>Plug Power</b>, I owned $100K/month across Google, Microsoft, Meta and LinkedIn and ran 15+ A/B tests tied directly to MQL quality and Stage 1 volume.</div>
+      <div class="line">At <b>Pixis</b>, I reallocated an 8-client, $15K-90K/month portfolio toward what converted, cutting churn 50% in the process.</div>
+      <div class="line">At <b>Sensata</b>, paid and content launch programs drove +35% qualified leads, built on SQL and GA4 funnel work underneath them.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">The through-line: every budget I have run got judged by what happened after the click, and got reallocated the same week based on that answer.</div>
+  </div>
+  <div class="brand">DEMAND GENERATION PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The mandate, mapped</div>
+  <h2>What the posting asks for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Own the AMER Enterprise pipeline target for your programs, translating S1 goals into actionable touchpoint, MQL, and campaign plans."</div></div>
+      <div class="quote"><div class="q">"Launch and optimize paid media campaigns across Meta, Reddit, and LinkedIn, managing audiences, creative, budgets, and performance."</div></div>
+      <div class="quote"><div class="q">"Allocate program budgets based on pipeline impact, balancing acquisition volume, lead quality, and efficiency."</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>Plug Power, the pipeline translation:</b> $100K/month across Google, Microsoft, Meta and LinkedIn, with 15+ A/B tests tied to MQL quality and Stage 1 volume, not just lead count.</div></div>
+      <div class="proof"><div class="p"><b>Plug Power, the platform execution:</b> owned audiences, creative, bids and budgets across four paid channels at once, cutting CPA 25%.</div></div>
+      <div class="proof"><div class="p"><b>Pixis, the budget-reallocation discipline:</b> shifted an 8-client, $15K-90K/month portfolio toward what converted, the same volume-quality-efficiency balance this role runs on.</div></div>
+      <div class="proof"><div class="p"><b>Applied Materials, the AI-assisted version:</b> automate the recurring reporting with Claude agents so the reallocation call ships faster, not slower.</div></div>
+    </div>
+  </div>
+  <div class="brand">DEMAND GENERATION PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>Own the budget, test fast, then <span class="accent">move money toward what is producing pipeline.</span></h2>
+  <div class="lede">Same pattern across three companies: own the number, run the test, and reallocate the same week based on what the funnel says, not the quarter.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">-25% CPA</div>
+      <div class="lbl">$100K/Month Across 4 Paid Channels</div>
+      <div class="desc">Google, Microsoft, Meta and LinkedIn budgets owned end to end at Plug Power, with bid and creative decisions made weekly.</div>
+    </div>
+    <div class="stat">
+      <div class="n">15+ A/B Tests</div>
+      <div class="lbl">Tied to MQL and Stage 1 Volume</div>
+      <div class="desc">Test-and-learn cycles at Plug Power judged by pipeline-stage opportunities, not click-through rate.</div>
+    </div>
+    <div class="stat">
+      <div class="n">Churn -50%</div>
+      <div class="lbl">Budget Reallocated Across 8 Clients</div>
+      <div class="desc">Pixis portfolio ($15K-90K/month per client) shifted toward what converted, away from what did not.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">None of these were media reports that sat in a deck. Each one moved a pipeline number leadership was accountable for.</div>
+  <div class="brand">DEMAND GENERATION PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month on the AMER Enterprise pipeline number looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Map the touchpoint-to-S1 funnel</div>
+      <div class="body">Build the first touchpoint-to-MQL-to-Stage-1 view for the AMER Enterprise motion, so budget decisions start from where the funnel actually breaks, not a guess.</div>
+      <div class="why"><strong>Why first:</strong> the same diagnostic that let 15+ A/B tests at Plug Power target the stage that needed it, not the whole funnel at once.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Launch and tune the paid-social programs</div>
+      <div class="body">Stand up or tighten the LinkedIn and Meta programs against priority Enterprise accounts and buying groups, with Reddit and content-syndication tests queued behind whichever channel shows the fastest signal.</div>
+      <div class="why"><strong>Why now:</strong> the same channel-by-channel reallocation that cut Pixis churn 50% and Plug Power's CPA 25%.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Automate the reporting loop</div>
+      <div class="body">Stand up the weekly pipeline-impact report (touchpoint, MQL, Stage 1, cost per stage) and put the first Claude agent behind its recurring parts.</div>
+      <div class="why"><strong>Why this fast:</strong> the same AI-assisted reporting habit already running at Applied Materials today, not a plan for someday.</div>
+    </div>
+  </div>
+  <div class="brand">DEMAND GENERATION PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to own the AMER Enterprise pipeline number end to end, from the first paid-social touchpoint to the Stage 1 opportunity. I have already run that full chain.</h2>
+  <div class="body">
+    <p>The execution half: <strong>$100K/month across four paid channels</strong> at Plug Power, cutting CPA 25% through 15+ A/B tests tied to MQL and Stage 1 volume, not click-through rate.</p>
+    <p>The reallocation half: an <strong>8-client, $15K-90K/month portfolio</strong> at Pixis shifted toward what converted, cutting churn 50%, plus the Claude-run reporting habit I already use at Applied Materials to keep that call moving every week instead of every quarter.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-growth-ai.vercel.app/ref/fivetran</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">DEMAND GENERATION PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
