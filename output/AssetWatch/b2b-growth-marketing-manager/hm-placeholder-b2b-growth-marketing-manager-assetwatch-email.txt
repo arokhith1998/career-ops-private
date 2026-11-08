@@ -1,0 +1,20 @@
+Subject: Reliability engineers buy differently than software buyers do
+
+Hi {Hiring Manager, AssetWatch Marketing},
+
+I do not normally reach out before applying, but pairing HubSpot campaign ownership with CAN-SPAM and GDPR rigor in the same posting reads like a team scaling demand generation for buyers who think in uptime and failure rates, not software ROI, and that is a different funnel to build than a typical B2B SaaS one.
+
+At Sensata I built a demand funnel from zero for connected industrial sensors sold through OEMs and distributors, no existing playbook, turning email and paid launch campaigns into +35% qualified leads and instrumenting the KPI framework in SQL and GA4 myself.
+At Plug Power I ran Paid Search and Social across four platforms with 15+ A/B tests, cutting CPA 25% while keeping nurture email CAN-SPAM compliant.
+At Applied Materials I partner with Engineering on forecasting models, the cross-functional habit a RevOps-aligned demand seat runs on.
+
+Here's the portfolio: https://adhi-growth.vercel.app/ref/assetwatch
+
+If this is your req, worth 15 minutes to compare notes on the reliability-engineer funnel specifically.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

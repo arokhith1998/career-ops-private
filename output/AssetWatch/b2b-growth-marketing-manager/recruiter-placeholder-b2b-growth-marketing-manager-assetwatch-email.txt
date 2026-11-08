@@ -1,0 +1,20 @@
+Subject: A managed service wrapped around sensors is a different sell than straight SaaS
+
+Hi {Recruiter, AssetWatch Marketing},
+
+I do not normally reach out before applying, but owning full-funnel HubSpot demand campaigns for a company that bundles sensors, software and a dedicated engineer into one service is a buyer story I have already built, not a new one.
+
+At Sensata I built the KPI framework in SQL and GA4 for 50,000+ connected industrial sensors sold through OEMs and distributors, with no existing demand playbook, and turned launch campaigns into +35% qualified leads.
+At Plug Power I owned $100K/month budgets across Paid Search and Social, cutting CPA 25%, then automated the lead flow myself to cut cost per lead 50%.
+At Applied Materials I automate my own reporting with Claude agents, the habit that keeps a HubSpot dashboard current without a dedicated analyst.
+
+Here's the portfolio: https://adhi-growth.vercel.app/ref/assetwatch
+
+Worth 15 minutes if this is your req, happy to be pointed elsewhere if not.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
