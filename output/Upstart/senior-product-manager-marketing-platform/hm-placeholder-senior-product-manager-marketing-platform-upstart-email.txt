@@ -1,0 +1,21 @@
+Subject: Ranking channel investments by expected impact, not by who asked loudest
+
+Hi {Hiring Manager, Marketing Platform},
+
+I don't normally reach out before applying, but the way this role is framed, improving measurement and attribution reliability so investments get ranked by their contribution to originations and acquisition cost, is the exact ranking problem I already run.
+
+- Built a Power BI model at Sensata that scored 1,200 pricing opportunities against a $627M target across 3 regions and 4 product families, surfacing $433M in margin gaps so leadership could prioritize by expected impact
+- Carried P&L for an 8-client, $15K-$90K/month paid portfolio at Pixis across Google, Meta, retail media and iOS UA, using Amplitude and Tableau to decide where incremental spend actually moved ROAS, lifting it 40%
+- Forecast demand inflection points across product groups at Applied Materials, and automate the repetitive analysis behind those calls with Claude AI agents, always with a human checking the output
+- Shipped SwipeHire zero-to-one, running 8+ A/B tests to quantify what moved activation before scaling it
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/upstart
+
+Could I get 15 minutes on how the team is weighing reliability against speed on the measurement side right now? No worries if this isn't your req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

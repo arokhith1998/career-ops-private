@@ -1,0 +1,18 @@
+Subject: Self-service campaign tooling, from someone who has already built it
+
+Hi {Recruiter, Talent Acquisition},
+
+Making campaign execution more self-service by cutting dependence on technical teams is a specific ask, and it is the one I already shipped at Plug Power: automating the WordPress-to-Pardot lead flow so marketing stopped waiting on an engineer to move a lead, cutting cost per lead 50%.
+
+That sits on top of roadmap work I carry today. At Sensata I owned a 100+ feature backlog with Engineering across 3 regions, turning workflow bottlenecks found in 30+ OEM and distributor interviews into shipped fixes that cut time-to-market 20%. At Pixis I carried P&L for an 8-client, $15K-$90K/month portfolio across Google, Meta, retail media and iOS UA, using Amplitude and Tableau to decide where spend actually worked.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/upstart
+
+Open to 15 minutes on where the manual handoffs are costing the team the most right now?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
