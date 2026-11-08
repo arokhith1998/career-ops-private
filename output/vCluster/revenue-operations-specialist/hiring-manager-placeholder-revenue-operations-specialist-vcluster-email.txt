@@ -1,0 +1,18 @@
+Subject: vCluster's Revenue Operations seat: systems built now, not patched later
+
+Hi {Hiring Manager, Revenue Operations},
+
+I do not normally cold-email a hiring manager, but a small RevOps team at an inflection point, building the systems that decide how the company sells for years, is the stage I look for, not the one with the process already locked in.
+
+At Sensata I built the Bleeders and Leakers Power BI dashboard from scratch, ranking 1,200 opportunities against a $627M target and surfacing $433M in margin gaps for leadership, then recovered $700K+ of it in two quarters by rewriting the discount logic behind the numbers. At PriceKeel I set up and run CRM, CPQ, forecast reviews and deal approvals end to end, the same quote-to-cash spine this seat owns. I also built sales enablement for 50+ reps that lifted win rates 30%, the same reduce-the-repeat-question instinct this role is asking for.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/vcluster
+
+If the team is still scoping this seat, I would like 15 minutes on where the quote-to-cash handoff breaks most often. A pointer elsewhere would help just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
