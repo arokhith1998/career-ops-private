@@ -1,28 +1,28 @@
 job_key	company	title	url	stage	verdict	first_seen	last_seen	times_seen	note
-fivetran.com/careers/job?gh_jid=8198254003	Fivetran	Lifecycle Marketing Manager	https://www.fivetran.com/careers/job?gh_jid=8198254003	queued		2026-11-07	2026-11-08	8	
-zapply.jobs/l/d/workday-cisco-cisco-careers-2027608	Cisco	Technical Product Manager - Support / TAC	https://zapply.jobs/l/d/workday-cisco-cisco-careers-2027608?s=gh-new-grad-jobs-2027	queued		2026-11-07	2026-11-08	7	
-linkedin.com/jobs/view/3996837274	DoorDash	Product Manager (Multiple Levels)	https://www.linkedin.com/jobs/view/3996837274	queued		2026-09-25	2026-11-08	22	
+fivetran.com/careers/job?gh_jid=8198254003	Fivetran	Lifecycle Marketing Manager	https://www.fivetran.com/careers/job?gh_jid=8198254003	queued		2026-11-07	2026-11-08	9	
+zapply.jobs/l/d/workday-cisco-cisco-careers-2027608	Cisco	Technical Product Manager - Support / TAC	https://zapply.jobs/l/d/workday-cisco-cisco-careers-2027608?s=gh-new-grad-jobs-2027	queued		2026-11-07	2026-11-08	8	
+linkedin.com/jobs/view/3996837274	DoorDash	Product Manager (Multiple Levels)	https://www.linkedin.com/jobs/view/3996837274	queued		2026-09-25	2026-11-08	23	
 linkedin.com/jobs/view/4443498640	Otter.ai	Growth Marketing Manager, Paid Acquisition	https://www.linkedin.com/jobs/view/4443498640	dropped	DROP:over-6-years-experience (7+ years, exceeds US track cap)	2026-09-26	2026-11-08	7	
 linkedin.com/jobs/view/4461938333	Glean	Senior Demand Generation Manager	https://www.linkedin.com/jobs/view/4461938333	jd_extracted		2026-09-26	2026-11-08	6	
 linkedin.com/jobs/view/4442914690	McAfee	Senior Product Manager – Artificial Intelligence	https://www.linkedin.com/jobs/view/4442914690	dropped	DROP:duplicate-posting-already-queued (same req as linkedin.com/jobs/view/4450357789, score 2.6 digest_only)	2026-09-24	2026-11-08	4	
-zapply.jobs/l/d/workday-cisco-cisco-careers-2027604	Cisco	Technical Product Manager - AI Native Professional Services	https://zapply.jobs/l/d/workday-cisco-cisco-careers-2027604?s=gh-new-grad-jobs-2027	jd_extracted		2026-11-08	2026-11-08	3	
-linkedin.com/jobs/view/4480562688	Designs for Health	Senior CRM Sales Operations Analyst	https://www.linkedin.com/jobs/view/4480562688	jd_extracted		2026-11-08	2026-11-08	3	
+zapply.jobs/l/d/workday-cisco-cisco-careers-2027604	Cisco	Technical Product Manager - AI Native Professional Services	https://zapply.jobs/l/d/workday-cisco-cisco-careers-2027604?s=gh-new-grad-jobs-2027	dropped	DROP:below-3.0	2026-11-08	2026-11-08	4	
+linkedin.com/jobs/view/4480562688	Designs for Health	Senior CRM Sales Operations Analyst	https://www.linkedin.com/jobs/view/4480562688	queued		2026-11-08	2026-11-08	4	
 linkedin.com/jobs/view/4479605355	Roblox	Senior Product Manager, UGC Marketplace	https://www.linkedin.com/jobs/view/4479605355	dropped	SKIP:req-level-hard-wall-no-future-h1b-sponsorship	2026-11-08	2026-11-08	4	
 linkedin.com/jobs/view/4472869503	Spot AI	Product Manager, Industrial AI	https://www.linkedin.com/jobs/view/4472869503	dropped	SKIP:req-level-hard-wall-no-sponsorship	2026-11-08	2026-11-08	4	
 linkedin.com/jobs/view/4412235867	ŌURA	Staff Product Manager, Hardware	https://www.linkedin.com/jobs/view/4412235867	dropped	DROP:over-6-years-experience (10+ years in product management, exceeds US track cap)	2026-11-08	2026-11-08	3	
-linkedin.com/jobs/view/4442945123	Abnormal AI	Senior Product Marketing Manager - Core Products	https://www.linkedin.com/jobs/view/4442945123	jd_extracted		2026-11-08	2026-11-08	3	
+linkedin.com/jobs/view/4442945123	Abnormal AI	Senior Product Marketing Manager - Core Products	https://www.linkedin.com/jobs/view/4442945123	queued		2026-11-08	2026-11-08	4	
 linkedin.com/jobs/view/4488742952	Snowflake	Senior Product Manager: Extensible Compute	https://www.linkedin.com/jobs/view/4488742952	dropped	DROP:duplicate-posting-linkedin-mirror (same req as jobs.ashbyhq.com/snowflake/ba140960-361c-4357-8a8e-e4825f0d200b, extracting the Ashby original instead)	2026-11-08	2026-11-08	3	
-linkedin.com/jobs/view/4434728677	Canonical	Senior Sales Operations Analyst	https://www.linkedin.com/jobs/view/4434728677	jd_extracted		2026-11-08	2026-11-08	3	
+linkedin.com/jobs/view/4434728677	Canonical	Senior Sales Operations Analyst	https://www.linkedin.com/jobs/view/4434728677	queued		2026-11-08	2026-11-08	4	
 linkedin.com/jobs/view/4485219453	EverCommerce	EverPro - Senior Manager, Sales Operations	https://www.linkedin.com/jobs/view/4485219453	dropped	DROP:over-6-years-experience (8+ years in B2B SaaS sales/revenue operations, exceeds US track cap)	2026-11-08	2026-11-08	3	
 linkedin.com/jobs/view/4470716225	Omnissa	Senior Product Manager	https://www.linkedin.com/jobs/view/4470716225	dropped	SKIP:req-level-hard-wall-no-sponsorship	2026-11-08	2026-11-08	4	
 linkedin.com/jobs/view/4486641931	Applied Materials	Global Product Marketing IV/V	https://www.linkedin.com/jobs/view/4486641931	dropped	DROP:duplicate-posting-already-queued (same req as zapply.jobs workday R2633241, score 4.3 full_pack)	2026-11-08	2026-11-08	3	
 linkedin.com/jobs/view/4470734702	Intapp	Industry Product Marketing Manager	https://www.linkedin.com/jobs/view/4470734702	dropped	DROP:duplicate-posting-already-built (same req as linkedin.com/jobs/view/4470727808)	2026-11-08	2026-11-08	3	
 linkedin.com/jobs/view/4479636605	Newsela	Senior Product Marketing Manager, Core (Remote, US)	https://www.linkedin.com/jobs/view/4479636605	dropped	DROP:over-6-years-experience (7+ years preferred, exceeds US track cap)	2026-11-08	2026-11-08	3	
-linkedin.com/jobs/view/4488495798	Runway	Enterprise Demand Generation Marketing Manager	https://www.linkedin.com/jobs/view/4488495798	jd_extracted		2026-11-08	2026-11-08	3	
-linkedin.com/jobs/view/4486651134	goadgo	Senior Growth Marketing Manager	https://www.linkedin.com/jobs/view/4486651134	jd_extracted		2026-11-08	2026-11-08	3	
-linkedin.com/jobs/view/4488708455	Nectar	Senior Growth / Demand Generation Manager	https://www.linkedin.com/jobs/view/4488708455	jd_extracted		2026-11-08	2026-11-08	3	
-linkedin.com/jobs/view/4480574839	CooperSurgical	Marketing Manager STEM Revenue Optimization & Pipeline Management	https://www.linkedin.com/jobs/view/4480574839	jd_extracted		2026-11-08	2026-11-08	3	
-jobs.ashbyhq.com/snowflake/ba140960-361c-4357-8a8e-e4825f0d200b	Snowflake	Senior Product Manager: Extensible Compute	https://jobs.ashbyhq.com/snowflake/ba140960-361c-4357-8a8e-e4825f0d200b	jd_extracted		2026-11-08	2026-11-08	3	
+linkedin.com/jobs/view/4488495798	Runway	Enterprise Demand Generation Marketing Manager	https://www.linkedin.com/jobs/view/4488495798	queued		2026-11-08	2026-11-08	4	
+linkedin.com/jobs/view/4486651134	goadgo	Senior Growth Marketing Manager	https://www.linkedin.com/jobs/view/4486651134	queued		2026-11-08	2026-11-08	4	
+linkedin.com/jobs/view/4488708455	Nectar	Senior Growth / Demand Generation Manager	https://www.linkedin.com/jobs/view/4488708455	queued		2026-11-08	2026-11-08	4	
+linkedin.com/jobs/view/4480574839	CooperSurgical	Marketing Manager STEM Revenue Optimization & Pipeline Management	https://www.linkedin.com/jobs/view/4480574839	queued		2026-11-08	2026-11-08	4	
+jobs.ashbyhq.com/snowflake/ba140960-361c-4357-8a8e-e4825f0d200b	Snowflake	Senior Product Manager: Extensible Compute	https://jobs.ashbyhq.com/snowflake/ba140960-361c-4357-8a8e-e4825f0d200b	dropped	DROP:below-3.0	2026-11-08	2026-11-08	4	
 linkedin.com/jobs/view/4480585829	Paylocity	Competitive Intelligence Manager	https://www.linkedin.com/jobs/view/4480585829	dropped	DROP:outside-target-metro	2026-10-17	2026-11-08	2	
 zapply.jobs/l/d/workday-marvell-marvellcareers-2603788	Marvell	Design For Test Intern, MS - Summer 2027	https://zapply.jobs/l/d/workday-marvell-marvellcareers-2603788?s=gh-new-grad-jobs-2027	dropped	DROP:intern-coop-phd	2026-11-08	2026-11-08	1	
 zapply.jobs/l/d/workday-equinix-external-jr-164551	Equinix	Interconnection Sales Specialist (Public Sector)	https://zapply.jobs/l/d/workday-equinix-external-JR-164551?s=gh-new-grad-jobs-2027	dropped	DROP:no-target-role-match	2026-11-08	2026-11-08	1	
@@ -223,7 +223,7 @@ linkedin.com/jobs/view/4480586075	Altec	Sales Liaison - Quoting	https://www.link
 jobs.weekday.works/entrepreneur-in-residence-at-indian-startup-school-4393025035	Indian Startup School	Entrepreneur in Residence	https://jobs.weekday.works/entrepreneur-in-residence-at-indian-startup-school-4393025035	dropped	DROP:intern-coop-phd (listed job type Internship)	2026-11-08	2026-11-08	2	
 themuse.com/jobs/adyen/strategic-pricing-manager	Adyen	Strategic Pricing Manager	https://www.themuse.com/jobs/adyen/strategic-pricing-manager	dropped	DROP:duplicate-posting-already-built (same req as linkedin.com/jobs/view/4458911460)	2026-11-08	2026-11-08	2	
 builtin.com/job/revenue-operations-manager/8250974	Whatnot	Revenue Operations Manager, Compensation	https://builtin.com/job/revenue-operations-manager/8250974	dropped	DROP:closed-posting (removed per page, and company is actually Bobyard not Whatnot per source mismatch)	2026-11-08	2026-11-08	2	
-getmereferred.com/job-listing/head-of-growth-agapi-clothing-inc-bengaluru-5-to-10-years-experience-27a3d001-21f8-4a37-9a23-3ec6c587250f	Agapi Clothing	Head of Growth	https://getmereferred.com/job-listing/head-of-growth-agapi-clothing-inc-bengaluru-5-to-10-years-experience-27a3d001-21f8-4a37-9a23-3ec6c587250f	jd_extracted		2026-11-08	2026-11-08	2	
+getmereferred.com/job-listing/head-of-growth-agapi-clothing-inc-bengaluru-5-to-10-years-experience-27a3d001-21f8-4a37-9a23-3ec6c587250f	Agapi Clothing	Head of Growth	https://getmereferred.com/job-listing/head-of-growth-agapi-clothing-inc-bengaluru-5-to-10-years-experience-27a3d001-21f8-4a37-9a23-3ec6c587250f	dropped	DROP:stale-posting (posted 2026-08-01, ~99 days old, exceeds the websearch sweep's ~14-day freshness window; scoring was done before this check caught it, report/tracker-addition reverted)	2026-11-08	2026-11-08	3	
 careers.inc42.com/jobs/a6epnqtzzaun/entrepreneur-in-residence-eir-griffin-club	Griffin Club (Inc42)	Entrepreneur in Residence (EIR)	https://careers.inc42.com/jobs/A6EPnQtZzAUN/entrepreneur-in-residence-eir-griffin-club	dropped	DROP:dead-link (redirects to generic careers search, not a specific posting)	2026-11-08	2026-11-08	2	
 app.semesteria.com/jobs/entrepreneur-new-delhi-flashspace-5a64285a-d88b-4772-bf4e-607e608df239	FlashSpace	Entrepreneur in Residence	https://app.semesteria.com/jobs/entrepreneur-new-delhi-flashspace-5a64285a-d88b-4772-bf4e-607e608df239	dropped	DROP:stale-posting (8 months old per listing)	2026-11-08	2026-11-08	2	
 cutshort.io/job/founder-s-executive-mumbai-the-social-lions-qhhtf6u5	The Social Lions	Founder's Executive	https://cutshort.io/job/Founder-s-Executive-Mumbai-The-Social-Lions-Qhhtf6u5	dropped	DROP:no-target-role-match	2026-11-08	2026-11-08	1	
@@ -231,29 +231,485 @@ app.joinrise.co/jobs/clari-strategic-pricing-manager-remote-ggoy	Clari	Strategic
 job-boards.greenhouse.io/gleanwork/jobs/4533468005	Glean	Senior Demand Generation Manager	https://job-boards.greenhouse.io/gleanwork/jobs/4533468005	dropped	BUILT	2026-09-25	2026-11-08	9	
 d2cinsider.com/careers/entrepreneur-in-residence	D2C Insider	Entrepreneur in Residence	https://www.d2cinsider.com/careers/Entrepreneur-in-Residence	dropped	DROP:below-comp-floor	2026-10-10	2026-11-08	4	
 job-boards.greenhouse.io/gleanwork/jobs/4730945005	Glean	Senior Demand Generation Manager	https://job-boards.greenhouse.io/gleanwork/jobs/4730945005	built	BUILT	2026-09-25	2026-11-08	9	
+linkedin.com/jobs/view/4455574110	Versa Networks	Sr. Product Marketing Manager	https://www.linkedin.com/jobs/view/4455574110	queued		2026-10-01	2026-11-08	8	
+linkedin.com/jobs/view/4487363596	Samsung Semiconductor	Product Marketing Manager	https://www.linkedin.com/jobs/view/4487363596	built	BUILT	2026-11-07	2026-11-08	7	
+linkedin.com/jobs/view/4479114955	PointClickCare	Sr. Monetization Strategy & Pricing Manager (US)	https://www.linkedin.com/jobs/view/4479114955	built	BUILT	2026-11-07	2026-11-08	7	
+linkedin.com/jobs/view/4486296083	Oscar Health	Senior Product Manager, Marketplace	https://www.linkedin.com/jobs/view/4486296083	queued		2026-11-07	2026-11-08	6	
+linkedin.com/jobs/view/4447729354	Handshake	Senior Product Marketing Manager, Enterprise AI	https://www.linkedin.com/jobs/view/4447729354	queued		2026-11-07	2026-11-08	6	
+linkedin.com/jobs/view/4486281548	AssemblyAI	Product Marketing Manager	https://www.linkedin.com/jobs/view/4486281548	dropped	DROP:duplicate-of-tracker-2381	2026-11-07	2026-11-08	11	
+linkedin.com/jobs/view/4486273889	AssemblyAI	Growth Marketing Manager, Paid Demand & ABM	https://www.linkedin.com/jobs/view/4486273889	queued		2026-11-07	2026-11-08	6	
+fivetran.com/careers/job?gh_jid=8031705003	Fivetran	Senior Pricing & Monetization Data Scientist	https://www.fivetran.com/careers/job?gh_jid=8031705003	dropped	DROP:duplicate-of-tracker-2376	2026-11-07	2026-11-08	10	
+job-boards.greenhouse.io/launchdarkly/jobs/7978447003	LaunchDarkly	Pricing and Packaging Insights Lead	https://job-boards.greenhouse.io/launchdarkly/jobs/7978447003	built	BUILT	2026-11-07	2026-11-08	8	
+careers.upstart.com/jobs?gh_jid=8359066	Upstart	Senior Product Manager	https://careers.upstart.com/jobs?gh_jid=8359066	built	BUILT	2026-11-07	2026-11-08	8	
+zapply.jobs/l/d/apple-200693340	Apple	Product Manager, OS Platforms	https://zapply.jobs/l/d/apple-200693340?s=gh-new-grad-jobs-2027	built	BUILT	2026-11-07	2026-11-08	8	
+fivetran.com/careers/job?gh_jid=8198244003	Fivetran	Enterprise Demand Generation Lead — North America	https://www.fivetran.com/careers/job?gh_jid=8198244003	built	BUILT	2026-11-07	2026-11-08	8	
+blackhawknetwork.jibeapply.com/jobs/27263	Blackhawk Network Holdings	Associate Product Manager - Technology	https://blackhawknetwork.jibeapply.com/jobs/27263?icims=1	dropped	DROP:already-evaluated	2026-11-04	2026-11-08	25	
+coinbase.com/careers/positions/7980600?gh_jid=7980600	Coinbase	Business Operations, Senior Associate	https://www.coinbase.com/careers/positions/7980600?gh_jid=7980600	dropped	DROP:already-evaluated	2026-11-03	2026-11-08	22	
+getmereferred.com/job-listing/head-of-growth-bikai-bengaluru-5-to-10-years-experience-fe752457-133b-44ab-9c24-4f1938e8df9a	Bikai	Head of Growth	https://getmereferred.com/job-listing/head-of-growth-bikai-bengaluru-5-to-10-years-experience-fe752457-133b-44ab-9c24-4f1938e8df9a	dropped	DROP:already-evaluated	2026-11-05	2026-11-08	12	
+getmereferred.com/job-listing/head-of-growth-earlystage-fintech-portfolio-company-peak-xv-partners-delhi-5-to-7-years-experience-0a556f30-f800-4c25-b9fe-44415c6fade9	Peak XV portfolio fintech	Head of Growth	https://getmereferred.com/job-listing/head-of-growth-earlystage-fintech-portfolio-company-peak-xv-partners-delhi-5-to-7-years-experience-0a556f30-f800-4c25-b9fe-44415c6fade9	dropped	DROP:already-queued	2026-11-05	2026-11-08	13	
+linkedin.com/jobs/view/4460626122	Cohere	Product Manager, Managed North	https://www.linkedin.com/jobs/view/4460626122	dropped	DROP:below-3.0	2026-09-24	2026-11-08	28	
+linkedin.com/jobs/view/4459991214	Legora	Senior Product Marketing Manager, Pricing and Packaging	https://www.linkedin.com/jobs/view/4459991214	dropped	DROP:below-3.0	2026-09-25	2026-11-08	24	
+jobs.weekday.works/chief-of-staff-at-sri-krishna-education-trust-4413535403	Sri Krishna Education Trust	Chief of Staff	https://jobs.weekday.works/chief-of-staff-at-sri-krishna-education-trust-4413535403	dropped	DROP:already-evaluated	2026-11-04	2026-11-08	11	
+jobs.weekday.works/chief-of-staff-%25e2%2580%2594-office-of-the-ceo-us-healthcare-at-neolytix-4411613867	Neolytix	Chief of Staff (Office of the CEO, US Healthcare)	https://jobs.weekday.works/chief-of-staff-%25E2%2580%2594-office-of-the-ceo-us-healthcare-at-neolytix-4411613867	built	BUILT	2026-11-07	2026-11-08	6	
+jobera.com/job/quicksell-head-of-growth-9c6067fe	Quicksell	Head of Growth	https://jobera.com/job/quicksell-head-of-growth-9c6067fe/	queued		2026-11-07	2026-11-08	5	
+getmereferred.com/job-listing/founders-office-confidential-jobs-bengaluru-2-to-5-years-experience-1d526443-1ea4-4880-8fac-f43f040f0899	Confidential	Founder's Office	https://getmereferred.com/job-listing/founders-office-confidential-jobs-bengaluru-2-to-5-years-experience-1d526443-1ea4-4880-8fac-f43f040f0899	built	BUILT	2026-11-07	2026-11-08	9	
+linkedin.com/jobs/view/4478712281	Ever.Ag	Senior Revenue Operations Analyst	https://www.linkedin.com/jobs/view/4478712281	queued		2026-10-17	2026-11-08	7	
+linkedin.com/jobs/view/4487383869	Expedia Group	Sr. Product Manager, EG Advertising - Travel Supply Campaigns	https://www.linkedin.com/jobs/view/4487383869	built	BUILT	2026-11-07	2026-11-08	7	
+zapply.jobs/l/d/workday-amat-external-r2633241	Applied Materials	Global Product Marketing IV/V	https://zapply.jobs/l/d/workday-amat-external-R2633241?s=gh-new-grad-jobs-2027	built	BUILT	2026-11-07	2026-11-08	7	
+linkedin.com/jobs/view/4488155807	FRND	Chief of Staff	https://www.linkedin.com/jobs/view/4488155807	built	BUILT	2026-11-07	2026-11-08	7	
+linkedin.com/jobs/view/4486295377	eBay	Manager, Product Marketing - eBay Live	https://www.linkedin.com/jobs/view/4486295377	queued		2026-11-07	2026-11-08	6	
+linkedin.com/jobs/view/4487398408	SolarSquare	Entrepreneur in Residence - Sales Strategy	https://www.linkedin.com/jobs/view/4487398408	queued		2026-11-07	2026-11-08	6	
+linkedin.com/jobs/view/4486263035	Sure	Founder's Office	https://www.linkedin.com/jobs/view/4486263035	built	BUILT	2026-11-07	2026-11-08	7	
+linkedin.com/jobs/view/4479729451	Verkada	Senior Associate, Pricing & Commercial Operations	https://www.linkedin.com/jobs/view/4479729451	built	BUILT	2026-10-15	2026-11-08	18	
+job-boards.greenhouse.io/pandadoc/jobs/8351559	PandaDoc	Senior Product Marketing Manager, CPQ	https://job-boards.greenhouse.io/pandadoc/jobs/8351559	built	BUILT	2026-11-06	2026-11-08	12	
+job-boards.greenhouse.io/pandadoc/jobs/8351533	PandaDoc	Senior Product Marketing Manager, Workflows	https://job-boards.greenhouse.io/pandadoc/jobs/8351533	built	BUILT	2026-11-06	2026-11-08	12	
+linkedin.com/jobs/view/4488058644	Mintive	Founding RevOps Lead	https://www.linkedin.com/jobs/view/4488058644	dropped	DROP:below-3.0	2026-11-06	2026-11-08	12	
+linkedin.com/jobs/view/4488075662	SmartSuite	Revenue Operations Analyst (Remote)	https://www.linkedin.com/jobs/view/4488075662	queued		2026-11-06	2026-11-08	7	
+linkedin.com/jobs/view/4487794344	Stuut	Product Marketing Manager	https://www.linkedin.com/jobs/view/4487794344	built	BUILT	2026-11-06	2026-11-08	11	
+linkedin.com/jobs/view/4465278007	GHX	Pricing Manager	https://www.linkedin.com/jobs/view/4465278007	built	BUILT	2026-11-06	2026-11-08	8	
+linkedin.com/jobs/view/4478825157	RingCentral	Senior Analyst, Strategy & Business Operations - Customer, Pricing & Packaging	https://www.linkedin.com/jobs/view/4478825157	queued		2026-11-06	2026-11-08	7	
+linkedin.com/jobs/view/4488037920	Braze	Sales Operations Lead	https://www.linkedin.com/jobs/view/4488037920	built	BUILT	2026-11-06	2026-11-08	11	
+linkedin.com/jobs/view/4474080967	Wayve	Product Marketing Manager	https://www.linkedin.com/jobs/view/4474080967	queued		2026-11-06	2026-11-08	6	
+linkedin.com/jobs/view/4486786776	TikTok	Product Strategy & Operations Manager, Branding (Ads) - GBS	https://www.linkedin.com/jobs/view/4486786776	queued		2026-11-06	2026-11-08	6	
+careers.upstart.com/jobs?gh_jid=8350000	Upstart	Senior Product Manager, Marketing Platform	https://careers.upstart.com/jobs?gh_jid=8350000	queued		2026-11-04	2026-11-08	21	
+linkedin.com/jobs/view/4471401541	Rubrik	Senior Product Manager, Control Plane, RSC-G & Government	https://www.linkedin.com/jobs/view/4471401541	dropped	DROP:below-3.0	2026-09-24	2026-11-08	25	
+linkedin.com/jobs/view/4470633945	Logitech	Global eB2B Channel Marketing Manager	https://www.linkedin.com/jobs/view/4470633945	built	BUILT	2026-09-23	2026-11-08	25	
+linkedin.com/jobs/view/4470685166	VistaPrint	Pricing & Promotion Lead - US Remote	https://www.linkedin.com/jobs/view/4470685166	queued		2026-09-23	2026-11-08	24	
+linkedin.com/jobs/view/4478433863	Micron Technology	Market Intelligence Manager	https://www.linkedin.com/jobs/view/4478433863	built	BUILT	2026-10-15	2026-11-08	12	
+linkedin.com/jobs/view/4363194490	SPAN	Senior Software Product Manager - Homeowner	https://www.linkedin.com/jobs/view/4363194490	queued		2026-11-04	2026-11-08	10	
+linkedin.com/jobs/view/4469992964	Avathon	Corporate Strategist, Go-to-Market Strategy	https://www.linkedin.com/jobs/view/4469992964	queued		2026-09-22	2026-11-08	26	
+linkedin.com/jobs/view/4487555940	HP	Product Management Marketing Manager and Strategy for Consumer PC	https://www.linkedin.com/jobs/view/4487555940	built	BUILT	2026-11-05	2026-11-08	12	
+linkedin.com/jobs/view/4487542976	Mintive	Founding RevOps Lead	https://www.linkedin.com/jobs/view/4487542976	dropped	SKIP:duplicate-of-built-4484484844	2026-11-05	2026-11-08	12	
+linkedin.com/jobs/view/4479219005	Venmo	Lead Product Manager, Venmo Credit Card and Lending	https://www.linkedin.com/jobs/view/4479219005	queued		2026-11-05	2026-11-08	8	
+linkedin.com/jobs/view/4487514905	Amazon Web Services (AWS)	Product Marketing Manager — Tech, AWS Product Marketing	https://www.linkedin.com/jobs/view/4487514905	queued		2026-11-05	2026-11-08	8	
+linkedin.com/jobs/view/4487284301	Sierra	Product Marketing Manager	https://www.linkedin.com/jobs/view/4487284301	built	BUILT	2026-11-05	2026-11-08	12	
+linkedin.com/jobs/view/4485094541	Alcatraz	Sr. Product Marketing Manager	https://www.linkedin.com/jobs/view/4485094541	built	BUILT	2026-11-05	2026-11-08	9	
+linkedin.com/jobs/view/4476612920	vCluster	Revenue Operations Specialist	https://www.linkedin.com/jobs/view/4476612920	queued		2026-11-05	2026-11-08	9	
+linkedin.com/jobs/view/4485085297	TargetHR	Founder’s Office – Business & P&L	https://www.linkedin.com/jobs/view/4485085297	queued		2026-11-05	2026-11-08	10	
+jobs.ashbyhq.com/harvey/21b528c7-ca25-4caf-9b19-9709e2caab50	Harvey	Field Marketing Manager	https://jobs.ashbyhq.com/harvey/21b528c7-ca25-4caf-9b19-9709e2caab50	dropped	DROP:below-3.0	2026-11-03	2026-11-08	19	
+jobs.ashbyhq.com/plaid/6b08e0e9-2159-4002-bf54-b30dd5bda80c	Plaid	Business Operations	https://jobs.ashbyhq.com/plaid/6b08e0e9-2159-4002-bf54-b30dd5bda80c	built	BUILT	2026-11-03	2026-11-08	15	
+jobs.ashbyhq.com/cursor/5729deab-ba2b-4a39-bbdd-c981287d8515	Anysphere (Cursor)	Performance Marketing Manager	https://jobs.ashbyhq.com/cursor/5729deab-ba2b-4a39-bbdd-c981287d8515	dropped	DROP:known-skip (visa gate ruled it out)	2026-11-03	2026-11-08	13	
+jobs.ashbyhq.com/elevenlabs/a0389dc2-77d8-439b-960b-2acb8712991e	ElevenLabs	Enterprise Deployment - Chief of Staff	https://jobs.ashbyhq.com/elevenlabs/a0389dc2-77d8-439b-960b-2acb8712991e	dropped	DROP:below-3.0	2026-11-03	2026-11-08	12	
+databricks.com/company/careers/open-positions/job?gh_jid=8136071002	Databricks	Sr. Product Manager, Databricks AI	https://databricks.com/company/careers/open-positions/job?gh_jid=8136071002	built	BUILT	2026-11-04	2026-11-08	9	
+jobs.weekday.works/chief-of-staff-to-ceo-at-bureau-4386830544	Bureau	Chief of Staff to CEO	https://jobs.weekday.works/chief-of-staff-to-ceo-at-bureau-4386830544	built	BUILT	2026-11-04	2026-11-08	11	
+getmereferred.com/job-listing/manager-ceos-office-scry-ai-gurugram-5-to-10-years-experience-ef3bfae2-284f-4e0b-a744-4f734739ae91	Scry AI	Manager, CEO's Office	https://getmereferred.com/job-listing/manager-ceos-office-scry-ai-gurugram-5-to-10-years-experience-ef3bfae2-284f-4e0b-a744-4f734739ae91	dropped	DROP:no-target-role-match	2026-11-05	2026-11-08	8	
+cutshort.io/job/founder-s-office-growth-revenue-iit-college-only-bengaluru-bangalore-talent-pro--rgu736fu	Talent Pro client	Founder's Office - Growth & Revenue	https://cutshort.io/job/Founder-s-Office-Growth-Revenue-IIT-college-only-Bengaluru-Bangalore-Talent-Pro--RGu736fU	built	BUILT	2026-11-05	2026-11-08	8	
+linkedin.com/jobs/view/4486820744	Entrust Family Office	Chief of Staff - Founders' Office	https://www.linkedin.com/jobs/view/4486820744	queued		2026-11-03	2026-11-08	13	
+linkedin.com/jobs/view/4434082950	Kikoff	Senior Product Marketing Manager, Consumer	https://www.linkedin.com/jobs/view/4434082950	built	BUILT	2026-09-22	2026-11-08	11	
+jobs.ashbyhq.com/langchain/6a53f11d-5446-4ca2-baf5-c4b84d4986a7	LangChain	Performance Marketing Manager, Paid Search & AI Advertising	https://jobs.ashbyhq.com/langchain/6a53f11d-5446-4ca2-baf5-c4b84d4986a7	built	BUILT	2026-11-04	2026-11-08	13	
+linkedin.com/jobs/view/4484249085	ZynnexAI	Chief of Staff	https://www.linkedin.com/jobs/view/4484249085	built	BUILT	2026-11-04	2026-11-08	13	
+linkedin.com/jobs/view/4486851279	ResolveAI	Product Marketing Manager	https://www.linkedin.com/jobs/view/4486851279	built	BUILT	2026-11-04	2026-11-08	10	
+linkedin.com/jobs/view/4487070684	Parallel Web Systems	Deal Desk Manager	https://www.linkedin.com/jobs/view/4487070684	built	BUILT	2026-11-04	2026-11-08	13	
+linkedin.com/jobs/view/4487056757	Mintive	Founding RevOps Lead	https://www.linkedin.com/jobs/view/4487056757	queued		2026-11-04	2026-11-08	12	
+linkedin.com/jobs/view/4487033192	Coram AI	Revenue Operations Manager	https://www.linkedin.com/jobs/view/4487033192	built	BUILT	2026-11-04	2026-11-08	10	
+linkedin.com/jobs/view/4486060794	Empromptu.ai	Founding Growth Marketing Manager	https://www.linkedin.com/jobs/view/4486060794	queued		2026-11-04	2026-11-08	12	
+linkedin.com/jobs/view/4486861262	Otavo.ai	Entrepreneur in Residence	https://www.linkedin.com/jobs/view/4486861262	queued		2026-11-04	2026-11-08	12	
+linkedin.com/jobs/view/4484642292	Branly.ai	Entrepreneur in Residence (EIR), Growth and Revenue	https://www.linkedin.com/jobs/view/4484642292	queued		2026-11-04	2026-11-08	9	
+linkedin.com/jobs/view/4485061010	Littelfuse	Global Product Manager	https://www.linkedin.com/jobs/view/4485061010	queued		2026-11-04	2026-11-08	9	
+linkedin.com/jobs/view/4487222029	Zscaler	Senior Product Pricing Manager	https://www.linkedin.com/jobs/view/4487222029	built	BUILT	2026-11-04	2026-11-08	10	
+linkedin.com/jobs/view/4486328408	Applied Intuition	Product Manager - Data Engine	https://www.linkedin.com/jobs/view/4486328408	queued		2026-11-04	2026-11-08	9	
+coinbase.com/careers/positions/8348406?gh_jid=8348406	Coinbase	Senior Product Manager, Risk	https://www.coinbase.com/careers/positions/8348406?gh_jid=8348406	dropped	DROP:over-cap:7yrs-stated-cap6	2026-11-04	2026-11-08	13	
+linkedin.com/jobs/view/4487054982	Genentech	Marketing Manager, Ophthalmology Marketing	https://www.linkedin.com/jobs/view/4487054982	queued		2026-11-04	2026-11-08	12	
+linkedin.com/jobs/view/4484679451	TPI Global Solutions	Sales Operations Analyst - OEM	https://www.linkedin.com/jobs/view/4484679451	dropped	DROP:below-3.0	2026-11-04	2026-11-08	10	
+linkedin.com/jobs/view/4484674871	CoreWeave	Senior Finance Analyst, Go-to-Market (GTM) Finance	https://www.linkedin.com/jobs/view/4484674871	built	BUILT	2026-11-04	2026-11-08	11	
+linkedin.com/jobs/view/4470220924	Uber	Product Manager II - Payments	https://www.linkedin.com/jobs/view/4470220924	queued		2026-09-22	2026-11-08	9	
+instacart.careers/job?gh_jid=8347895	Instacart	Deal Desk Specialist	https://instacart.careers/job/?gh_jid=8347895	built	BUILT	2026-11-03	2026-11-08	14	
+linkedin.com/jobs/view/4486449624	Brain Co.	Sales Operations Manager	https://www.linkedin.com/jobs/view/4486449624	built	BUILT	2026-11-03	2026-11-08	14	
+linkedin.com/jobs/view/4486409238	Mintive	Founding RevOps Lead	https://www.linkedin.com/jobs/view/4486409238	queued		2026-11-03	2026-11-08	11	
+linkedin.com/jobs/view/4484625106	Walmart	(USA) Senior Product Manager - Fulfillment	https://www.linkedin.com/jobs/view/4484625106	queued		2026-11-03	2026-11-08	11	
+linkedin.com/jobs/view/4462030453	Ambient.ai	Senior Product Manager	https://www.linkedin.com/jobs/view/4462030453	queued		2026-11-03	2026-11-08	11	
+linkedin.com/jobs/view/4485763325	Tempus AI	Senior Product Manager	https://www.linkedin.com/jobs/view/4485763325	queued		2026-11-03	2026-11-08	11	
+linkedin.com/jobs/view/4486802600	Salesforce	Sr. Manager, Pricing Analytics & Strategy	https://www.linkedin.com/jobs/view/4486802600	queued		2026-11-03	2026-11-08	11	
+linkedin.com/jobs/view/4484609959	Outset	Revenue Operations Associate	https://www.linkedin.com/jobs/view/4484609959	built	BUILT	2026-11-03	2026-11-08	12	
+linkedin.com/jobs/view/4486014173	Google	Senior Product Manager, Discover Recommendations	https://www.linkedin.com/jobs/view/4486014173	queued		2026-11-03	2026-11-08	11	
+linkedin.com/jobs/view/4486496767	Salesforce	Senior Agentic Product Manager - MeshMesh	https://www.linkedin.com/jobs/view/4486496767	queued		2026-11-03	2026-11-08	11	
+linkedin.com/jobs/view/4485793943	Happen Bank	Sr Product Manager, Financial Crimes Compliance (FCC)	https://www.linkedin.com/jobs/view/4485793943	queued		2026-11-03	2026-11-08	11	
+linkedin.com/jobs/view/4485720784	Good Health Company	Chief of Staff - US Shift	https://www.linkedin.com/jobs/view/4485720784	queued		2026-11-03	2026-11-08	12	
+linkedin.com/jobs/view/4485772714	SupplyValid	Chief of Staff to the CEO	https://www.linkedin.com/jobs/view/4485772714	built	BUILT	2026-11-03	2026-11-08	14	
+linkedin.com/jobs/view/4485791472	Anthropic	Product Marketing Manager, Platform	https://www.linkedin.com/jobs/view/4485791472	queued		2026-11-03	2026-11-08	11	
+linkedin.com/jobs/view/4484392151	Applied Materials	Product Marketing Manager	https://www.linkedin.com/jobs/view/4484392151	queued		2026-11-03	2026-11-08	11	
+linkedin.com/jobs/view/4469794887	Virtuous	Product Marketing Manager- Intelligence	https://www.linkedin.com/jobs/view/4469794887	queued		2026-11-03	2026-11-08	11	
+linkedin.com/jobs/view/4484364505	Square	Senior Manager, GTM Strategy & Operations, Square	https://www.linkedin.com/jobs/view/4484364505	queued		2026-11-03	2026-11-08	11	
+linkedin.com/jobs/view/4484371136	TipTop Things Limited	Senior Manager - Founder's Office	https://www.linkedin.com/jobs/view/4484371136	queued		2026-11-03	2026-11-08	13	
+linkedin.com/jobs/view/4483861946	Pawzz Foundation	Founder's Office & Venture Building Partner	https://www.linkedin.com/jobs/view/4483861946	queued		2026-11-03	2026-11-08	13	
+jobs.ashbyhq.com/baseten/1e0cdfba-8271-4e95-ac86-02bc7d8d3cca	Baseten	Technical Product Marketing Manager	https://jobs.ashbyhq.com/baseten/1e0cdfba-8271-4e95-ac86-02bc7d8d3cca	built	BUILT	2026-10-30	2026-11-08	30	
+linkedin.com/jobs/view/4486140731	Refold AI	Product Marketing Manager	https://www.linkedin.com/jobs/view/4486140731	queued		2026-11-02	2026-11-08	13	
+linkedin.com/jobs/view/4450720928	Intuit	Money Revenue Strategy & Operations	https://www.linkedin.com/jobs/view/4450720928	queued		2026-09-21	2026-11-08	14	
+linkedin.com/jobs/view/4450357789	McAfee	Senior Product Manager – Artificial Intelligence	https://www.linkedin.com/jobs/view/4450357789	queued		2026-09-20	2026-11-08	11	
+linkedin.com/jobs/view/4464679965	Box	Strategy and Operations Manager, Consumption Products	https://www.linkedin.com/jobs/view/4464679965	built	BUILT	2026-11-03	2026-11-08	11	
+zapply.jobs/l/d/oracle-citizens-financial-49510	Citizens Financial Group	Private Bank, Deposit/Liquidity Product Manager	https://zapply.jobs/l/d/oracle-citizens-financial-49510?s=gh-new-grad-jobs-2027	queued		2026-10-30	2026-11-08	30	
+linkedin.com/jobs/view/4485430798	Volopay	Founder’s Office - Partnerships & Growth	https://www.linkedin.com/jobs/view/4485430798	queued		2026-11-02	2026-11-08	13	
+linkedin.com/jobs/view/4485406000	Scapia	Founders Office ( Reports to Chief of Staff)	https://www.linkedin.com/jobs/view/4485406000	queued		2026-11-02	2026-11-08	13	
+linkedin.com/jobs/view/4484303037	Riitek	Founders Office	https://www.linkedin.com/jobs/view/4484303037	queued		2026-11-02	2026-11-08	16	
+linkedin.com/jobs/view/4435304748	Zscaler	Product Marketing Manager - AI Protect	https://www.linkedin.com/jobs/view/4435304748	queued		2026-10-11	2026-11-08	27	
+linkedin.com/jobs/view/4478000140	Amazon Music	Sr. Product Marketing Manager, Amazon Music Audiobooks, Amazon Music Spoken Word	https://www.linkedin.com/jobs/view/4478000140	queued		2026-10-10	2026-11-08	30	
+linkedin.com/jobs/view/4475260028	Cloudflare	Technical Product Marketing Manager	https://www.linkedin.com/jobs/view/4475260028	queued		2026-10-10	2026-11-08	26	
+linkedin.com/jobs/view/4485944191	Mecka	Manager, Strategic Finance & Deal Desk	https://www.linkedin.com/jobs/view/4485944191	built	BUILT	2026-11-01	2026-11-08	17	
+linkedin.com/jobs/view/4483954056	VRD Source	Founder's Office - Senior | Portfolio Management Services | Powai / Bandra, Mumbai	https://www.linkedin.com/jobs/view/4483954056	built	BUILT	2026-11-01	2026-11-08	17	
+linkedin.com/jobs/view/4485176377	BoF Careers	Gap Manager - Pricing Enablement (Athleta)	https://www.linkedin.com/jobs/view/4485176377	queued		2026-11-01	2026-11-08	13	
+linkedin.com/jobs/view/4485131689	Sports Paddock	Founder's Office	https://www.linkedin.com/jobs/view/4485131689	queued		2026-11-01	2026-11-08	13	
+linkedin.com/jobs/view/4440667419	Veeva Systems	Product Manager - Vault CRM Suite	https://www.linkedin.com/jobs/view/4440667419	queued		2026-11-01	2026-11-08	13	
+linkedin.com/jobs/view/4485169634	Evlo AI	Marketing Manager	https://www.linkedin.com/jobs/view/4485169634	queued		2026-11-01	2026-11-08	13	
+linkedin.com/jobs/view/4485912309	Skyne Beauty	Senior CRM & Lifecycle Marketing Manager	https://www.linkedin.com/jobs/view/4485912309	queued		2026-11-01	2026-11-08	13	
+linkedin.com/jobs/view/4485935244	Roboflow	Sales Operations Analyst	https://www.linkedin.com/jobs/view/4485935244	queued		2026-11-01	2026-11-08	13	
+linkedin.com/jobs/view/4483982252	Intellicia	GTM Manager, US	https://www.linkedin.com/jobs/view/4483982252	queued		2026-11-01	2026-11-08	13	
+linkedin.com/jobs/view/4457742304	Alchemy	Senior Product Manager - Developer Platform	https://www.linkedin.com/jobs/view/4457742304	queued		2026-11-01	2026-11-08	13	
+linkedin.com/jobs/view/4460146488	MongoDB	Senior Product Manager	https://www.linkedin.com/jobs/view/4460146488	queued		2026-11-01	2026-11-08	13	
+linkedin.com/jobs/view/4467908424	Levelpath	Product Manager (San Francisco)	https://www.linkedin.com/jobs/view/4467908424	queued		2026-11-01	2026-11-08	13	
+linkedin.com/jobs/view/4485310019	E2M	Chief of Staff	https://www.linkedin.com/jobs/view/4485310019	dropped	DROP:duplicate-of-tracker-2047	2026-10-30	2026-11-08	17	
+linkedin.com/jobs/view/4485368242	Abridge	Revenue Operations Manager	https://www.linkedin.com/jobs/view/4485368242	queued		2026-10-31	2026-11-08	15	
+linkedin.com/jobs/view/4484841015	Good Health Company	Chief of Staff	https://www.linkedin.com/jobs/view/4484841015	queued		2026-10-31	2026-11-08	13	
+linkedin.com/jobs/view/4485619956	MotherDuck	Product Marketing Manager	https://www.linkedin.com/jobs/view/4485619956	queued		2026-10-31	2026-11-08	13	
+linkedin.com/jobs/view/4485650193	PhoenixAI (the original creator of StarRocks)	Performance Marketing Manager	https://www.linkedin.com/jobs/view/4485650193	built	BUILT	2026-10-31	2026-11-08	14	
+linkedin.com/jobs/view/4485122983	Ambarella Inc	Senior Product Marketing Manager	https://www.linkedin.com/jobs/view/4485122983	queued		2026-10-31	2026-11-08	13	
+linkedin.com/jobs/view/4485666527	Color	Engagement Marketing Manager	https://www.linkedin.com/jobs/view/4485666527	queued		2026-10-31	2026-11-08	13	
+linkedin.com/jobs/view/4466895958	Resonate	Senior Demand Generation Manager	https://www.linkedin.com/jobs/view/4466895958	queued		2026-10-31	2026-11-08	13	
+linkedin.com/jobs/view/4484887050	KQED	Business Operations Analyst	https://www.linkedin.com/jobs/view/4484887050	queued		2026-10-31	2026-11-08	13	
+linkedin.com/jobs/view/4484956873	Highwire	Channel Marketing Manager (Contract)	https://www.linkedin.com/jobs/view/4484956873	queued		2026-10-30	2026-11-08	14	
+linkedin.com/jobs/view/4432482073	Snowflake	Field Marketing Manager - West	https://www.linkedin.com/jobs/view/4432482073	queued		2026-10-30	2026-11-08	14	
+linkedin.com/jobs/view/4482599776	Zylu	Growth Head.	https://www.linkedin.com/jobs/view/4482599776	queued		2026-10-30	2026-11-08	14	
+linkedin.com/jobs/view/4485235793	Arena	Product Marketing Manager	https://www.linkedin.com/jobs/view/4485235793	queued		2026-10-30	2026-11-08	14	
+linkedin.com/jobs/view/4484572148	Morphe	Product Marketing Manager	https://www.linkedin.com/jobs/view/4484572148	dropped	DROP:below-3.0	2026-10-30	2026-11-08	14	
+linkedin.com/jobs/view/4484944253	PropSarathi	Founder’s Office Lead	https://www.linkedin.com/jobs/view/4484944253	queued		2026-10-30	2026-11-08	14	
+job-boards.greenhouse.io/scaleai/jobs/4748328005	ScaleAI	Product Marketing Lead, Enterprise	https://job-boards.greenhouse.io/scaleai/jobs/4748328005	dropped	DROP:duplicate-of-tracker-1986	2026-10-29	2026-11-08	21	
+boards.greenhouse.io/figma/jobs/6235320004?gh_jid=6235320004	Figma	Sales Operations Manager	https://boards.greenhouse.io/figma/jobs/6235320004?gh_jid=6235320004	dropped	DROP:duplicate-of-tracker-1994	2026-10-29	2026-11-08	21	
+jobs.ashbyhq.com/harvey/bc94becd-102e-49a1-abdc-5ce42076a68d	Harvey	Senior Product Manager, Embedded Experiences	https://jobs.ashbyhq.com/harvey/bc94becd-102e-49a1-abdc-5ce42076a68d	dropped	DROP:duplicate-of-tracker-1924	2026-10-28	2026-11-08	22	
+linkedin.com/jobs/view/4460045443	Wealthfront	Senior Marketing Manager - Strategic Partnerships	https://www.linkedin.com/jobs/view/4460045443	dropped	DROP:below-3.0	2026-09-23	2026-11-08	16	
+linkedin.com/jobs/view/4483877712	SalesMonk.ai	Founder's Office - Fulfillment Lead	https://www.linkedin.com/jobs/view/4483877712	queued		2026-10-29	2026-11-08	15	
+linkedin.com/jobs/view/4484783030	Endor Labs	Technical Product Marketing Manager	https://www.linkedin.com/jobs/view/4484783030	dropped	DROP:below-3.0	2026-10-29	2026-11-08	15	
+coinbase.com/careers/positions/8318557?gh_jid=8318557	Coinbase	Senior Enterprise Product Manager, FP&A	https://www.coinbase.com/careers/positions/8318557?gh_jid=8318557	dropped	DROP:below-3.0	2026-10-29	2026-11-08	15	
+linkedin.com/jobs/view/4474999273	Intapp	Senior Product Marketing Manager, Compliance Solutions	https://www.linkedin.com/jobs/view/4474999273	queued		2026-10-29	2026-11-08	15	
+linkedin.com/jobs/view/4484723117	Blacksmith Agency	Growth Marketing Manager (Remote, Washington)	https://www.linkedin.com/jobs/view/4484723117	queued		2026-10-29	2026-11-08	15	
+linkedin.com/jobs/view/4483882153	Elevation Capital	Chief of Staff	https://www.linkedin.com/jobs/view/4483882153	built	BUILT	2026-10-29	2026-11-08	16	
+linkedin.com/jobs/view/4482292212	Hey Recruiting Agency	Chief of Staff	https://www.linkedin.com/jobs/view/4482292212	dropped	DROP:below-3.0	2026-10-29	2026-11-08	15	
+linkedin.com/jobs/view/4483867288	Z47 Portfolio Company	Head of Growth	https://www.linkedin.com/jobs/view/4483867288	dropped	DROP:below-3.0	2026-10-29	2026-11-08	15	
+mongodb.com/careers/job?gh_jid=8327081	MongoDB	Product Manager 2, Source2Pay	https://www.mongodb.com/careers/job/?gh_jid=8327081	dropped	DROP:below-3.0	2026-10-29	2026-11-08	15	
+linkedin.com/jobs/view/4483872022	Antal International	Head – Founder's Office	https://www.linkedin.com/jobs/view/4483872022	dropped	DROP:below-3.0	2026-10-29	2026-11-08	15	
+jobs.apple.com/en-us/details/200690599/product-manager-generative-ai-ai-data-platforms-aidp	Apple	Product Manager - Generative AI, Ai & Data Platforms (AiDP)	https://jobs.apple.com/en-us/details/200690599/product-manager-generative-ai-ai-data-platforms-aidp	dropped	DROP:below-3.0	2026-10-29	2026-11-08	13	
+zapply.jobs/l/d/lever-thinkahead-4adc622d-3611-4707-a996-cff0c313b106	AHEAD	Product Manager	https://zapply.jobs/l/d/lever-thinkahead-4adc622d-3611-4707-a996-cff0c313b106?s=gh-new-grad-jobs-2027	built	BUILT	2026-10-27	2026-11-08	28	
+linkedin.com/jobs/view/4476564836	Rakuten Rewards	Product Marketing Manager	https://www.linkedin.com/jobs/view/4476564836	queued		2026-10-08	2026-11-08	17	
+linkedin.com/jobs/view/4484466955	Versapay	Revenue Operations Manager	https://www.linkedin.com/jobs/view/4484466955	queued		2026-10-29	2026-11-08	16	
+linkedin.com/jobs/view/4484458486	Amazon Web Services (AWS)	Sr Product Marketing Manager, Tech - Security and Growth , AWS Product Marketing	https://www.linkedin.com/jobs/view/4484458486	queued		2026-10-29	2026-11-08	16	
+linkedin.com/jobs/view/4465233946	Vagaro	Senior Creative Strategist, Growth Marketing	https://www.linkedin.com/jobs/view/4465233946	queued		2026-10-29	2026-11-08	16	
+linkedin.com/jobs/view/4482572035	DoorDash	Senior Associate, Strategy & Operations, DoorDash for Business (Merchant)	https://www.linkedin.com/jobs/view/4482572035	built	BUILT	2026-10-29	2026-11-08	17	
+linkedin.com/jobs/view/4483613295	Soulace Consulting Pvt Ltd	Chief Of Staff to CEO's Office	https://www.linkedin.com/jobs/view/4483613295	queued		2026-10-27	2026-11-08	19	
+linkedin.com/jobs/view/4467128989	GigaDevice Semiconductor Inc.	Regional Marketing Manager	https://www.linkedin.com/jobs/view/4467128989	queued		2026-10-28	2026-11-08	15	
+linkedin.com/jobs/view/4467452087	Cisco	Paid Media Marketing Manager	https://www.linkedin.com/jobs/view/4467452087	built	BUILT	2026-10-28	2026-11-08	16	
+linkedin.com/jobs/view/4481889357	InfrOS	Product Marketing Manager	https://www.linkedin.com/jobs/view/4481889357	queued		2026-10-28	2026-11-08	17	
+linkedin.com/jobs/view/4439058105	Anrok	Product Marketing Lead	https://www.linkedin.com/jobs/view/4439058105	built	BUILT	2026-10-28	2026-11-08	16	
+linkedin.com/jobs/view/4484200241	Cogent	Revenue Operations Lead, West	https://www.linkedin.com/jobs/view/4484200241	built	BUILT	2026-10-28	2026-11-08	19	
+linkedin.com/jobs/view/4484226277	Blacksmith Agency	Growth Marketing Manager (Remote, San Diego)	https://www.linkedin.com/jobs/view/4484226277	queued		2026-10-28	2026-11-08	15	
+linkedin.com/jobs/view/4484221638	Blacksmith Agency	Growth Marketing Manager (Remote, San Antonio)	https://www.linkedin.com/jobs/view/4484221638	queued		2026-10-28	2026-11-08	15	
+linkedin.com/jobs/view/4484012895	Corenza for HRs	Founder Office	https://www.linkedin.com/jobs/view/4484012895	queued		2026-10-28	2026-11-08	15	
+linkedin.com/jobs/view/4465188564	Envoy	Demand Generation Manager	https://www.linkedin.com/jobs/view/4465188564	queued		2026-10-04	2026-11-08	35	
+linkedin.com/jobs/view/4483293114	DrWell® Connect	Growth Marketing Manager	https://www.linkedin.com/jobs/view/4483293114	queued		2026-10-27	2026-11-08	16	
+linkedin.com/jobs/view/4483245357	ByteDance	Card Growth Strategy Product Manager - Global Payment	https://www.linkedin.com/jobs/view/4483245357	queued		2026-10-27	2026-11-08	16	
+linkedin.com/jobs/view/4481477809	InfrOS	Product Marketing Manager	https://www.linkedin.com/jobs/view/4481477809	queued		2026-10-27	2026-11-08	16	
+linkedin.com/jobs/view/4483252492	Intel	Sales Operations Analyst	https://www.linkedin.com/jobs/view/4483252492	queued		2026-10-27	2026-11-08	16	
+linkedin.com/jobs/view/4482986611	Techdome	Founder’s Office: Strategy & Execution Associate	https://www.linkedin.com/jobs/view/4482986611	queued		2026-10-27	2026-11-08	16	
+linkedin.com/jobs/view/4482989966	ENEG Mobility	Founder's Office	https://www.linkedin.com/jobs/view/4482989966	queued		2026-10-27	2026-11-08	16	
+linkedin.com/jobs/view/4438522291	Supermicro	Product Marketing Manager	https://www.linkedin.com/jobs/view/4438522291	queued		2026-10-05	2026-11-08	21	
+linkedin.com/jobs/view/4196162752	Sesame	Product Manager, Hardware	https://www.linkedin.com/jobs/view/4196162752	dropped	DROP:below-3.0	2026-10-05	2026-11-08	18	
+linkedin.com/jobs/view/4411247108	Replit	Senior/Product Marketing Manager	https://www.linkedin.com/jobs/view/4411247108	queued		2026-10-05	2026-11-08	21	
+linkedin.com/jobs/view/4437586567	Harvey	Senior Product Marketing Manager, Core	https://www.linkedin.com/jobs/view/4437586567	queued		2026-10-05	2026-11-08	21	
+linkedin.com/jobs/view/4447203725	Jacobs	Proposal Manager, Geographic Sales Operations - NorCal U.S.	https://www.linkedin.com/jobs/view/4447203725	dropped	DROP:below-3.0	2026-10-05	2026-11-08	18	
+linkedin.com/jobs/view/4420685741	Picarro	Product Manager, Natural Gas	https://www.linkedin.com/jobs/view/4420685741	dropped	DROP:below-3.0	2026-10-05	2026-11-08	18	
+linkedin.com/jobs/view/4475351893	Cisco	Sr. Technical Product Marketing Manager, AI and AgenticOps	https://www.linkedin.com/jobs/view/4475351893	dropped	DROP:below-3.0	2026-10-04	2026-11-08	18	
+linkedin.com/jobs/view/4465150470	Cytek Biosciences	Sales Operations Data Analyst	https://www.linkedin.com/jobs/view/4465150470	queued		2026-10-04	2026-11-08	21	
+linkedin.com/jobs/view/4482922453	interface.ai	Senior Product Manager	https://www.linkedin.com/jobs/view/4482922453	queued		2026-10-26	2026-11-08	20	
+linkedin.com/jobs/view/4455343611	Synack	Product Manager, AI	https://www.linkedin.com/jobs/view/4455343611	dropped	DROP:below-3.0	2026-10-26	2026-11-08	17	
+linkedin.com/jobs/view/4466415314	Amazon	Senior Product Manager – Technical (PMT), Devices & Services Sustainability	https://www.linkedin.com/jobs/view/4466415314	dropped	DROP:below-3.0	2026-10-26	2026-11-08	17	
+linkedin.com/jobs/view/4475351653	IronRidge - An Enstall Company	Product Manager - Engineered Hardware	https://www.linkedin.com/jobs/view/4475351653	dropped	DROP:below-3.0	2026-10-26	2026-11-08	17	
+linkedin.com/jobs/view/4482931105	TikTok	Product Manager Graduate (TikTok LIVE - Platform Trust And Ecosystem) - 2027 Start	https://www.linkedin.com/jobs/view/4482931105	dropped	DROP:below-3.0	2026-10-26	2026-11-08	17	
+linkedin.com/jobs/view/4482920343	Antora Energy	Product Manager	https://www.linkedin.com/jobs/view/4482920343	dropped	DROP:below-3.0	2026-10-26	2026-11-08	17	
+linkedin.com/jobs/view/4482901640	Wingy	Founder's Office	https://www.linkedin.com/jobs/view/4482901640	queued		2026-10-26	2026-11-08	20	
+linkedin.com/jobs/view/4457503819	Coinbase	Product Manager II, Workspace and Multi-User	https://www.linkedin.com/jobs/view/4457503819	dropped	DROP:below-3.0	2026-10-26	2026-11-08	17	
+linkedin.com/jobs/view/4466426211	Amazon Web Services (AWS)	Sr. Partner Marketing Manager, NAMER Strategic Customer and Partner Marketing	https://www.linkedin.com/jobs/view/4466426211	dropped	DROP:below-3.0	2026-10-26	2026-11-08	17	
+linkedin.com/jobs/view/4482675662	Haystack	Marketing Manager	https://www.linkedin.com/jobs/view/4482675662	queued		2026-10-26	2026-11-08	17	
+linkedin.com/jobs/view/4483367906	Elantis	Renewals Operations Specialist – Sales Operations & Salesforce	https://www.linkedin.com/jobs/view/4483367906	dropped	DROP:below-3.0	2026-10-26	2026-11-08	17	
+linkedin.com/jobs/view/4481410223	Joveo	Senior Associate - CEO's Office	https://www.linkedin.com/jobs/view/4481410223	queued		2026-10-26	2026-11-08	20	
+linkedin.com/jobs/view/4481089226	Kanikanna	Founder's Office	https://www.linkedin.com/jobs/view/4481089226	dropped	DROP:below-3.0	2026-10-26	2026-11-08	17	
+linkedin.com/jobs/view/4482694203	ElloMind	Founder's Office – Operations & Execution	https://www.linkedin.com/jobs/view/4482694203	dropped	DROP:below-3.0	2026-10-26	2026-11-08	17	
+linkedin.com/jobs/view/4456654585	Commence	Pricing Manager	https://www.linkedin.com/jobs/view/4456654585	queued		2026-10-05	2026-11-08	18	
+jobs.weekday.works/wkdyu4hrpe	Grant Thornton Bharat LLP	Chief of Staff to Office Managing Partner	https://jobs.weekday.works/wkdyu4hrpe	dropped	DROP:duplicate-of-tracked-row-1635	2026-10-22	2026-11-08	26	
+zapply.jobs/l/d/workday-danaher-danaherjobs-r1321073	Danaher	Associate Product Manager - Strategic Programs & Partnerships	https://zapply.jobs/l/d/workday-danaher-danaherjobs-R1321073?s=gh-new-grad-jobs-2027	dropped	DROP:duplicate-already-queued-tracker-1655	2026-10-22	2026-11-08	38	
+linkedin.com/jobs/view/4464220912	MKS Inc.	Product Marketing Manager	https://www.linkedin.com/jobs/view/4464220912	dropped	DROP:below-3.0	2026-10-04	2026-11-08	34	
+linkedin.com/jobs/view/4482612762	Voice Arena	Chief of Staff, Voice Arena	https://www.linkedin.com/jobs/view/4482612762	dropped	DROP:duplicate-already-queued-tracker-1778	2026-10-24	2026-11-08	22	
+linkedin.com/jobs/view/4436850192	Everpure	Senior Product Manager – AI & Workflow Automation, Pure1	https://www.linkedin.com/jobs/view/4436850192	queued		2026-10-04	2026-11-08	18	
+linkedin.com/jobs/view/4473187730	NetSuite	Senior Product Manager, NetSuite AI-Enhanced Administration & Agent Management	https://www.linkedin.com/jobs/view/4473187730	queued		2026-10-03	2026-11-08	18	
+linkedin.com/jobs/view/4475057397	Amazon	Deal and Contract Ops Manager, eero Business Operations	https://www.linkedin.com/jobs/view/4475057397	queued		2026-10-03	2026-11-08	21	
+linkedin.com/jobs/view/4474780919	Instawork	Business Operations Associate, AI & Automation	https://www.linkedin.com/jobs/view/4474780919	queued		2026-10-25	2026-11-08	20	
+linkedin.com/jobs/view/4475004289	Amazon Web Services (AWS)	Sr. Partner Marketing Manager, AI Partner Marketing	https://www.linkedin.com/jobs/view/4475004289	queued		2026-10-25	2026-11-08	17	
+linkedin.com/jobs/view/4473196443	Ema	Product Manager	https://www.linkedin.com/jobs/view/4473196443	queued		2026-10-25	2026-11-08	17	
+linkedin.com/jobs/view/4435332613	Turo	Lead Product Manager, Guest – Discovery & Search	https://www.linkedin.com/jobs/view/4435332613	queued		2026-10-25	2026-11-08	17	
+linkedin.com/jobs/view/4456772317	Braze	Senior Partner Marketing Manager	https://www.linkedin.com/jobs/view/4456772317	queued		2026-10-25	2026-11-08	17	
+linkedin.com/jobs/view/4464274892	Meta	Competitive Intelligence Program Manager	https://www.linkedin.com/jobs/view/4464274892	queued		2026-10-25	2026-11-08	17	
+linkedin.com/jobs/view/4463931244	GoodRx	GTM Manager, Media Strategy & Execution	https://www.linkedin.com/jobs/view/4463931244	queued		2026-10-25	2026-11-08	17	
+linkedin.com/jobs/view/4455907837	Amazon Web Services (AWS)	Marketing Manager, AWS Agentic AI Developer Tools	https://www.linkedin.com/jobs/view/4455907837	queued		2026-10-02	2026-11-08	18	
+linkedin.com/jobs/view/4470739211	ASUS	Sr. Product Marketing Specialist - Consumer Laptop	https://www.linkedin.com/jobs/view/4470739211	queued		2026-09-26	2026-11-08	18	
+linkedin.com/jobs/view/4483179926	Ambience Healthcare	Product Manager, Emergency Department Platform	https://www.linkedin.com/jobs/view/4483179926	queued		2026-10-24	2026-11-08	17	
+linkedin.com/jobs/view/4482328080	Juicebox	Growth Marketing Manager	https://www.linkedin.com/jobs/view/4482328080	queued		2026-10-24	2026-11-08	17	
+apply.workable.com/fmx/j/d5c8eeabc3/apply	Facilities Management Express	Technical Product Manager	https://apply.workable.com/fmx/j/D5C8EEABC3/apply	dropped	DROP:below-3.0	2026-10-22	2026-11-08	32	
+zapply.jobs/l/d/google-143083158491800262	Google	Product Manager, Search Intelligence	https://zapply.jobs/l/d/google-143083158491800262?s=gh-new-grad-jobs-2027	dropped	DROP:below-3.0	2026-10-22	2026-11-08	26	
+linkedin.com/jobs/view/4474541139	Atlassian	Manager, Deal Desk	https://www.linkedin.com/jobs/view/4474541139	queued		2026-10-23	2026-11-08	20	
+careers-page.com/ttukoffer/job/x94x537r	ttukoffer (client)	Head of Growth and Distribution	https://careers-page.com/ttukoffer/job/X94X537R	dropped	DROP:duplicate-of-tracked-row-1191	2026-10-12	2026-11-08	24	
+linkedin.com/jobs/view/4465843867	Skydio	Senior Product Manager, Dock Hardware Platform	https://www.linkedin.com/jobs/view/4465843867	queued		2026-10-03	2026-11-08	17	
+linkedin.com/jobs/view/4481196979	BoF Careers	Gap Inc. Analyst - Pricing Optimization	https://www.linkedin.com/jobs/view/4481196979	queued		2026-10-22	2026-11-08	22	
+linkedin.com/jobs/view/4472187780	MGT Insurance	Insurance Product Manager	https://www.linkedin.com/jobs/view/4472187780	queued		2026-10-01	2026-11-08	20	
+linkedin.com/jobs/view/4463520476	Thirdlove	Growth Marketing Manager: Paid Search and Display	https://www.linkedin.com/jobs/view/4463520476	queued		2026-10-01	2026-11-08	20	
+linkedin.com/jobs/view/4446540146	Dexmate	Growth Marketing Manager	https://www.linkedin.com/jobs/view/4446540146	queued		2026-10-01	2026-11-08	20	
+linkedin.com/jobs/view/4480065938	EY	Manager - AI Product Manager	https://www.linkedin.com/jobs/view/4480065938	queued		2026-10-23	2026-11-08	19	
+linkedin.com/jobs/view/4480087164	EY	Manager - AI Product Manager	https://www.linkedin.com/jobs/view/4480087164	queued		2026-10-23	2026-11-08	19	
+linkedin.com/jobs/view/4359079170	Zūm	Senior Product Manager	https://www.linkedin.com/jobs/view/4359079170	queued		2026-10-23	2026-11-08	19	
+linkedin.com/jobs/view/4429778671	Finch	Product Marketing Manager	https://www.linkedin.com/jobs/view/4429778671	queued		2026-10-02	2026-11-08	19	
+linkedin.com/jobs/view/4452514053	Palo Alto Networks	Senior Product Manager - Business Applications AI	https://www.linkedin.com/jobs/view/4452514053	queued		2026-10-23	2026-11-08	18	
+linkedin.com/jobs/view/4480043428	SalesMonk.ai	Founder's Office - Fulfillment Lead	https://www.linkedin.com/jobs/view/4480043428	queued		2026-10-23	2026-11-08	18	
+linkedin.com/jobs/view/4481371235	KUKA	Chief of Staff – MD’s Office	https://www.linkedin.com/jobs/view/4481371235	queued		2026-10-23	2026-11-08	18	
+linkedin.com/jobs/view/4480026778	Bharti AXA Life Insurance	Head of Growth	https://www.linkedin.com/jobs/view/4480026778	queued		2026-10-23	2026-11-08	18	
+linkedin.com/jobs/view/4482703208	Stable	Product Marketing Manager	https://www.linkedin.com/jobs/view/4482703208	queued		2026-10-23	2026-11-08	18	
+linkedin.com/jobs/view/4479467178	Cloudflare	GTM Data Specialist, Consumption & Revenue Operations	https://www.linkedin.com/jobs/view/4479467178	queued		2026-10-22	2026-11-08	20	
+linkedin.com/jobs/view/4479463344	Applied Materials	Product Manager III	https://www.linkedin.com/jobs/view/4479463344	queued		2026-10-22	2026-11-08	23	
+linkedin.com/jobs/view/4469126775	Feathery	Product Marketing Manager (US Remote)	https://www.linkedin.com/jobs/view/4469126775	queued		2026-10-22	2026-11-08	24	
+brex.com/careers/8895839002?gh_jid=8895839002	Brex	Senior Field Marketing Manager	https://www.brex.com/careers/8895839002?gh_jid=8895839002	dropped	DROP:already-tracked-dup	2026-10-21	2026-11-08	24	
+linkedin.com/jobs/view/4473573133	Amazon Web Services (AWS)	Senior Marketing Manager, Security and Growth , AWS Product Marketing	https://www.linkedin.com/jobs/view/4473573133	queued		2026-09-30	2026-11-08	20	
+linkedin.com/jobs/view/4479420814	Air Apps	Digital Marketing Manager	https://www.linkedin.com/jobs/view/4479420814	queued		2026-10-22	2026-11-08	19	
+linkedin.com/jobs/view/4480703050	Ascendion	Marketing Manager	https://www.linkedin.com/jobs/view/4480703050	queued		2026-10-22	2026-11-08	22	
+linkedin.com/jobs/view/4482449162	Groq	Technical Product Marketing Manager	https://www.linkedin.com/jobs/view/4482449162	queued		2026-10-22	2026-11-08	19	
+linkedin.com/jobs/view/4481322007	ConsultBae	Founder’s Office – Business Planning & Analysis | IIM/IIT/SRCC	https://www.linkedin.com/jobs/view/4481322007	queued		2026-10-22	2026-11-08	19	
+linkedin.com/jobs/view/4482163097	ManageCasa	Growth Marketing Manager	https://www.linkedin.com/jobs/view/4482163097	queued		2026-10-22	2026-11-08	19	
+linkedin.com/jobs/view/4482120267	Upwind Security	Product Marketing Manager	https://www.linkedin.com/jobs/view/4482120267	queued		2026-10-22	2026-11-08	19	
+about.nextdoor.com/careers-list?gh_jid=8259945	Nextdoor	Product Marketing Lead	https://about.nextdoor.com/careers-list/?gh_jid=8259945	dropped	DROP:duplicate-of-tracked-role-1603	2026-10-20	2026-11-08	25	
+linkedin.com/jobs/view/4454444400	Peregrine	Deal Desk & Pricing Analyst	https://www.linkedin.com/jobs/view/4454444400	queued		2026-09-30	2026-11-08	22	
+linkedin.com/jobs/view/4482047478	Skyne Beauty	E-commerce & Growth Marketing Manager	https://www.linkedin.com/jobs/view/4482047478	queued		2026-10-21	2026-11-08	21	
+linkedin.com/jobs/view/4482032697	Lovart AI	Growth & Integrated Marketing Manager, North America	https://www.linkedin.com/jobs/view/4482032697	queued		2026-10-21	2026-11-08	21	
+linkedin.com/jobs/view/4478942978	Superhuman	Senior Lifecycle Marketing Manager	https://www.linkedin.com/jobs/view/4478942978	queued		2026-10-21	2026-11-08	21	
+linkedin.com/jobs/view/4478905782	Cash App	Lifecycle Marketing Manager	https://www.linkedin.com/jobs/view/4478905782	queued		2026-10-21	2026-11-08	21	
+linkedin.com/jobs/view/4480714764	Google	Lifecycle Marketing Manager, Google Gemini	https://www.linkedin.com/jobs/view/4480714764	queued		2026-10-21	2026-11-08	21	
+linkedin.com/jobs/view/4474840857	Array	Digital Marketing Manager	https://www.linkedin.com/jobs/view/4474840857	queued		2026-10-21	2026-11-08	21	
+job-boards.greenhouse.io/robinhood/jobs/8265728	Robinhood	Senior Product Manager, Advisor Marketplace	https://job-boards.greenhouse.io/robinhood/jobs/8265728	queued		2026-10-21	2026-11-08	17	
+linkedin.com/jobs/view/4480961796	Rebel Foods	Founders Office - Associate/Manager	https://www.linkedin.com/jobs/view/4480961796	queued		2026-10-20	2026-11-08	21	
+linkedin.com/jobs/view/4466140950	Anthropic	Product Marketing Manager, Platform	https://www.linkedin.com/jobs/view/4466140950	queued		2026-10-07	2026-11-08	28	
+linkedin.com/jobs/view/4471393390	Anthropic	Solutions Marketing Manager, Cybersecurity	https://www.linkedin.com/jobs/view/4471393390	queued		2026-09-29	2026-11-08	35	
+linkedin.com/jobs/view/4480218448	Google	Product Marketing Manager, Cloud AI, Gemini Enterprise	https://www.linkedin.com/jobs/view/4480218448	queued		2026-10-20	2026-11-08	20	
+linkedin.com/jobs/view/4480212714	Google	Product Marketing Manager, Cloud AI, Gemini Enterprise	https://www.linkedin.com/jobs/view/4480212714	queued		2026-10-20	2026-11-08	20	
+linkedin.com/jobs/view/4481293801	Amazon	Sr. Product Marketing Manager, Ads Marketing	https://www.linkedin.com/jobs/view/4481293801	queued		2026-10-20	2026-11-08	20	
+linkedin.com/jobs/view/4481538029	Nerdio	Senior Revenue Operations Manager	https://www.linkedin.com/jobs/view/4481538029	queued		2026-10-20	2026-11-08	20	
+linkedin.com/jobs/view/4478634695	Clerkie	Product Manager	https://www.linkedin.com/jobs/view/4478634695	queued		2026-10-20	2026-11-08	20	
+linkedin.com/jobs/view/4481290006	Roo	Revenue Operations Analyst	https://www.linkedin.com/jobs/view/4481290006	queued		2026-10-20	2026-11-08	20	
+linkedin.com/jobs/view/4478615725	impact.com	Senior Revenue Operations Analyst	https://www.linkedin.com/jobs/view/4478615725	queued		2026-10-20	2026-11-08	20	
+linkedin.com/jobs/view/4480205969	Google	Product Manager II, Geo Guidance Experience	https://www.linkedin.com/jobs/view/4480205969	queued		2026-10-20	2026-11-08	20	
+linkedin.com/jobs/view/4456051265	Rundoo	Growth Marketing Manager	https://www.linkedin.com/jobs/view/4456051265	queued		2026-10-04	2026-11-08	32	
+linkedin.com/jobs/view/4476905196	Navitus Health Solutions	Manager, Pricing and Underwriting	https://www.linkedin.com/jobs/view/4476905196	queued		2026-10-08	2026-11-08	26	
+linkedin.com/jobs/view/4474481995	Lyten	Manager, Sales Operations & Order Administration	https://www.linkedin.com/jobs/view/4474481995	queued		2026-10-08	2026-11-08	25	
+linkedin.com/jobs/view/4477110179	Mélange Digital	Chief of Staff to the Chief Executive Officer	https://www.linkedin.com/jobs/view/4477110179	queued		2026-10-08	2026-11-08	25	
+linkedin.com/jobs/view/4474458001	Com Olho	Founder's Office	https://www.linkedin.com/jobs/view/4474458001	queued		2026-10-08	2026-11-08	25	
+linkedin.com/posts/hunger-inc-hospitality_hungerinc-hiring-wearehiring-activity-7498261774341861376-x-ry	Hunger Inc.	Chief of Staff, New Store Development & Expansion	https://www.linkedin.com/posts/hunger-inc-hospitality_hungerinc-hiring-wearehiring-activity-7498261774341861376-X-Ry?utm_source=share&utm_medium=member_desktop&rcm=ACoAACyt6owBgCJAq-TByNiprZWFxqH4aBa72eo	dropped	DROP:no-real-jd-announcement-post	2026-09-22	2026-11-08	50	
+linkedin.com/jobs/view/4476102315	EarnIn	Senior Growth Marketing Manager, Paid Social	https://www.linkedin.com/jobs/view/4476102315	queued		2026-10-06	2026-11-08	27	
+linkedin.com/jobs/view/4473645473	Puffy	Marketing Manager , AI-First (Remote)	https://www.linkedin.com/jobs/view/4473645473	queued		2026-10-06	2026-11-08	27	
+linkedin.com/jobs/view/4474630814	Access Legal	100% Remote Senior Growth Marketing Manager	https://www.linkedin.com/jobs/view/4474630814	queued		2026-10-06	2026-11-08	27	
+linkedin.com/jobs/view/4474653576	Runlayer	Demand Generation Lead	https://www.linkedin.com/jobs/view/4474653576	queued		2026-10-06	2026-11-08	27	
+linkedin.com/jobs/view/4476110175	Arango	Senior Manager, Demand Generation, Digital & Performance Marketing - USA	https://www.linkedin.com/jobs/view/4476110175	queued		2026-10-06	2026-11-08	27	
+linkedin.com/jobs/view/4470552436	Meta	Product Marketing Manager, Threads	https://www.linkedin.com/jobs/view/4470552436	queued		2026-09-26	2026-11-08	35	
+linkedin.com/jobs/view/4436647696	Walmart	(USA) Senior Product Manager	https://www.linkedin.com/jobs/view/4436647696	queued		2026-10-05	2026-11-08	27	
+jobs.ashbyhq.com/sapiom/5a91ce90-ce03-492b-85ce-caa480d11dee/application	Sapiom	Growth Marketing Manager	https://jobs.ashbyhq.com/sapiom/5a91ce90-ce03-492b-85ce-caa480d11dee/application	queued		2026-10-05	2026-11-08	27	
+linkedin.com/posts/madhuri-kalburgi_we-are-hiring-for-the-position-of-chief-of-activity-7495355502021865472-fm5p	leading marketing agencies	Chief of Staff to the CEO	https://www.linkedin.com/posts/madhuri-kalburgi_we-are-hiring-for-the-position-of-chief-of-activity-7495355502021865472-FM5P?utm_source=share&utm_medium=member_desktop&rcm=ACoAACyt6owBgCJAq-TByNiprZWFxqH4aBa72eo	queued		2026-09-22	2026-11-08	44	
+linkedin.com/jobs/view/4473885992	Javelin Venture Partners	Senior Manager, Brand & Product Marketing	https://www.linkedin.com/jobs/view/4473885992	queued		2026-10-04	2026-11-08	31	
+linkedin.com/jobs/view/4473879089	DICHIT	Founder’s Office – Senior: Growth, Strategy & Partnerships	https://www.linkedin.com/jobs/view/4473879089	queued		2026-10-04	2026-11-08	31	
+linkedin.com/jobs/view/4410083611	Rubrik	Staff Product Manager, IT - GTM	https://www.linkedin.com/jobs/view/4410083611	queued		2026-10-04	2026-11-08	29	
+linkedin.com/jobs/view/4457378109	Pinterest	Sr. Ads Product Marketing Manager- Ads Delivery	https://www.linkedin.com/jobs/view/4457378109	queued		2026-10-04	2026-11-08	31	
+linkedin.com/jobs/view/4408891205	Molex	Technical Marketing Manager	https://www.linkedin.com/jobs/view/4408891205	dropped	QUEUED-DUP:already-row-723	2026-10-03	2026-11-08	34	
+linkedin.com/jobs/view/4475047645	Vibrant Wellness	Revenue Operations Specialist	https://www.linkedin.com/jobs/view/4475047645	queued		2026-10-03	2026-11-08	30	
+jobs.ashbyhq.com/lance/a4d0d349-2642-4f96-b8aa-f283366a1507	Lance	Product Marketing Manager	https://jobs.ashbyhq.com/Lance/a4d0d349-2642-4f96-b8aa-f283366a1507	queued		2026-10-03	2026-11-08	30	
+jobs.ashbyhq.com/herondata/ee2e9119-aac9-4341-b3aa-07b6db636de9	Heron Data	Chief of Staff	https://jobs.ashbyhq.com/herondata/ee2e9119-aac9-4341-b3aa-07b6db636de9	queued		2026-10-03	2026-11-08	30	
+linkedin.com/jobs/view/4472816001	Assemble	Revenue Operations Lead	https://www.linkedin.com/jobs/view/4472816001	queued		2026-10-02	2026-11-08	31	
+linkedin.com/posts/sonisha-kukreja_shot-at-building-a-100bn-consumer-fintech-activity-7495430035118551040-npaw	a consumer fintech startup	CoS + Founder’s Office.	https://www.linkedin.com/posts/sonisha-kukreja_shot-at-building-a-100bn-consumer-fintech-activity-7495430035118551040-NpaW?utm_source=share&utm_medium=member_desktop&rcm=ACoAACyt6owBgCJAq-TByNiprZWFxqH4aBa72eo	queued		2026-09-20	2026-11-08	36	
+instahyre.com/job-394118-growth-founders-office-at-gushwork-bangalore	Gushwork	Growth - Founder's Office	https://www.instahyre.com/job-394118-growth-founders-office-at-gushwork-bangalore/	queued		2026-09-20	2026-11-08	34	
+linkedin.com/jobs/view/4472804538	Phihong Technology USA	Marketing Manager - Mon-Fri Onsite in Fremont	https://www.linkedin.com/jobs/view/4472804538	queued		2026-10-02	2026-11-08	29	
+instahyre.com/job-390874-head-of-growth-at-coral-academy-work-from-home	Coral Academy	Head of Growth	https://www.instahyre.com/job-390874-head-of-growth-at-coral-academy-work-from-home/	dropped	DROP:below-3.0	2026-09-19	2026-11-08	45	
+linkedin.com/jobs/view/4473945183	BY Recruiting	Revenue Operations / GTM Engineer	https://www.linkedin.com/jobs/view/4473945183	queued		2026-10-01	2026-11-08	31	
+linkedin.com/jobs/view/4452857445	Chime	Sr. Product Marketing Manager, Trust & Safety	https://www.linkedin.com/jobs/view/4452857445	queued		2026-10-01	2026-11-08	31	
+linkedin.com/jobs/view/4465031795	NMI	Integrated Marketing Manager - Gateway & Verticals	https://www.linkedin.com/jobs/view/4465031795	queued		2026-10-01	2026-11-08	31	
+jobs.lever.co/redoxengine/16433cf3-3226-4e9e-b04e-71c85af443a7	Redox	Senior Product Manager - Interoperability Engine & Commercial Strategy	https://jobs.lever.co/redoxengine/16433cf3-3226-4e9e-b04e-71c85af443a7	queued		2026-10-01	2026-11-08	31	
+naukri.com/job-listings-chief-of-staff-strategy-operations-refex-industries-limited-chennai-5-to-10-years-200426903314	Refex Industries Limited	Chief of Staff - Strategy & Operations	https://www.naukri.com/job-listings-chief-of-staff-strategy-operations-refex-industries-limited-chennai-5-to-10-years-200426903314	queued		2026-09-23	2026-11-08	35	
+linkedin.com/jobs/view/4466877926	Dot Compliance	Marketing Manager, AI Solutions	https://www.linkedin.com/jobs/view/4466877926	queued		2026-09-22	2026-11-08	34	
+iimjobs.com/j/chief-of-staff-founder039s-office-program-manager-startup-d2c-1667484	Confidential (Startup/D2C)	Chief of Staff / Founder's Office / Program Manager	https://www.iimjobs.com/j/chief-of-staff-founder039s-office-program-manager-startup-d2c-1667484	queued		2026-09-29	2026-11-08	33	
+instahyre.com/job-281217-head-of-growth-at-lendenclub-mumbai	LenDenClub	Head of Growth	https://www.instahyre.com/job-281217-head-of-growth-at-lendenclub-mumbai/	queued		2026-09-29	2026-11-08	33	
+linkedin.com/jobs/view/4362465337	Tarro	Product Manager	https://www.linkedin.com/jobs/view/4362465337	queued		2026-09-29	2026-11-08	32	
+linkedin.com/jobs/view/4464089621	Left Field Labs	Senior Growth Marketing Manager	https://www.linkedin.com/jobs/view/4464089621	queued		2026-09-29	2026-11-08	32	
+jobs.lever.co/epoch-ai/9abe93df-26a3-4bd4-9253-d2ef9b011d51	Epoch AI	Product Manager, Website	https://jobs.lever.co/epoch-ai/9abe93df-26a3-4bd4-9253-d2ef9b011d51	queued		2026-09-28	2026-11-08	33	
+jobs.ashbyhq.com/palette-media/e8f17204-0ef7-4190-954a-f4c1338ff5f9	Palette Media	Revenue Operations Manager	https://jobs.ashbyhq.com/palette-media/e8f17204-0ef7-4190-954a-f4c1338ff5f9	queued		2026-09-27	2026-11-08	35	
+jobs.ashbyhq.com/smalls/adff6305-722b-46c7-b2c4-3bb612e0c85c	Smalls	Product Manager, Growth	https://jobs.ashbyhq.com/smalls/adff6305-722b-46c7-b2c4-3bb612e0c85c	queued		2026-09-25	2026-11-08	35	
+job-boards.greenhouse.io/centerforartificialintelligencesafetyinc/jobs/4342209009	Center for AI Safety	Product Manager, Agentic Products	https://job-boards.greenhouse.io/centerforartificialintelligencesafetyinc/jobs/4342209009	queued		2026-09-22	2026-11-08	37	
+linkedin.com/jobs/view/4469279002	Vika Talent Solutions	Senior Product Manager - FAANG	https://www.linkedin.com/jobs/view/4469279002	queued		2026-09-23	2026-11-08	35	
+linkedin.com/jobs/view/4470486040	Corgi	Strategy and Operations Associate	https://www.linkedin.com/jobs/view/4470486040	queued		2026-09-23	2026-11-08	35	
+linkedin.com/jobs/view/4470977384	Casechek	Product Marketing Manager	https://www.linkedin.com/jobs/view/4470977384	queued		2026-09-24	2026-11-08	34	
+linkedin.com/jobs/view/4445150970	Novidea	Regional Growth Marketing Manager	https://www.linkedin.com/jobs/view/4445150970	queued		2026-09-30	2026-11-08	32	
+naukri.com/job-listings-executive-assistant-chief-of-staff-to-ceo-drb-foods-new-delhi-5-to-8-years-130426002017	DRB Foods	Executive Assistant / Chief of Staff to CEO	https://www.naukri.com/job-listings-executive-assistant-chief-of-staff-to-ceo-drb-foods-new-delhi-5-to-8-years-130426002017	queued		2026-09-30	2026-11-08	32	
+linkedin.com/jobs/view/4476151666	Flai	Revenue Operations	https://www.linkedin.com/jobs/view/4476151666	queued		2026-10-06	2026-11-08	26	
+linkedin.com/jobs/view/4474661405	Fanatics	Product Manager – Ecommerce Home Page	https://www.linkedin.com/jobs/view/4474661405	queued		2026-10-06	2026-11-08	26	
+linkedin.com/jobs/view/4466560043	Braze	Senior Staff Monetization and Pricing Strategist	https://www.linkedin.com/jobs/view/4466560043	queued		2026-10-08	2026-11-08	26	
+linkedin.com/jobs/view/4425986475	Prosper Marketplace	Sr. Product Manager, Core Experience	https://www.linkedin.com/jobs/view/4425986475	queued		2026-10-08	2026-11-08	24	
+linkedin.com/jobs/view/4476908987	General Medicine	Product Manager, Consumer	https://www.linkedin.com/jobs/view/4476908987	queued		2026-10-08	2026-11-08	24	
+linkedin.com/jobs/view/4439943808	Peregrine	Technical Product Marketing Lead	https://www.linkedin.com/jobs/view/4439943808	queued		2026-10-08	2026-11-08	23	
+linkedin.com/jobs/view/4476793338	Fours (formerly Suger)	Growth Marketing Manager	https://www.linkedin.com/jobs/view/4476793338	queued		2026-10-08	2026-11-08	23	
+linkedin.com/jobs/view/4467917170	Amazon Web Services (AWS)	Sr. Partner Marketing Manager, Public Sector Strategy, AWS Industry Partner Marketing	https://www.linkedin.com/jobs/view/4467917170	queued		2026-10-08	2026-11-08	23	
+linkedin.com/jobs/view/4479948697	FINAGG Technologies Private Limited	Chief of Staff to the Co-Founder & CEO	https://www.linkedin.com/jobs/view/4479948697	queued		2026-10-19	2026-11-08	23	
+linkedin.com/jobs/view/4480916234	Blacksmith Agency	Demand Generation Manager (Remote, Denver)	https://www.linkedin.com/jobs/view/4480916234	queued		2026-10-19	2026-11-08	20	
+linkedin.com/jobs/view/4471827670	SambaNova	Partner Marketing Manager	https://www.linkedin.com/jobs/view/4471827670	queued		2026-10-18	2026-11-08	23	
+linkedin.com/jobs/view/4369297333	Anrok	Product Manager, Activation	https://www.linkedin.com/jobs/view/4369297333	queued		2026-09-28	2026-11-08	21	
+linkedin.com/jobs/view/4442763079	Uber	Product Manager II, Agentic AI	https://www.linkedin.com/jobs/view/4442763079	queued		2026-09-27	2026-11-08	21	
+linkedin.com/jobs/view/4480972177	Intuit	Staff Product Manager - QuickBooks Capital Marketplace	https://www.linkedin.com/jobs/view/4480972177	queued		2026-10-19	2026-11-08	20	
+linkedin.com/jobs/view/4365601610	OVERJET	Lead Product Manager, New Products	https://www.linkedin.com/jobs/view/4365601610	queued		2026-10-19	2026-11-08	20	
+google.com/about/careers/applications/jobs/results/136073823404335814	Google	Product Manager, aiEDU	https://www.google.com/about/careers/applications/jobs/results/136073823404335814	queued		2026-10-19	2026-11-08	17	
+linkedin.com/jobs/view/4463399745	Verkada	(Sr) Manager, Strategic Finance & Business Operations - GTM	https://www.linkedin.com/jobs/view/4463399745	queued		2026-09-27	2026-11-08	22	
+linkedin.com/jobs/view/4477789938	Arogin Fintech p Ltd	Executive Officer Founder's Office	https://www.linkedin.com/jobs/view/4477789938	queued		2026-10-18	2026-11-08	20	
+linkedin.com/jobs/view/4479610249	TikTok	Senior Product Manager-Content Product (POI Details)-TikTok Local Service	https://www.linkedin.com/jobs/view/4479610249	queued		2026-10-17	2026-11-08	20	
+linkedin.com/jobs/view/4463330377	Intuit	Staff Marketing Manager, Paid Search Mid-Market	https://www.linkedin.com/jobs/view/4463330377	queued		2026-10-17	2026-11-08	20	
+linkedin.com/jobs/view/4451919977	Tanium	Product Manager - Virtual & Physical Appliances	https://www.linkedin.com/jobs/view/4451919977	queued		2026-10-17	2026-11-08	20	
+linkedin.com/jobs/view/4477729563	Oscar Health	Senior Product Manager, Virtual Care	https://www.linkedin.com/jobs/view/4477729563	queued		2026-10-17	2026-11-08	20	
+linkedin.com/jobs/view/4451950675	AKASA	Sr. Product Manager	https://www.linkedin.com/jobs/view/4451950675	queued		2026-10-17	2026-11-08	20	
+linkedin.com/jobs/view/4454009665	Rippling	Demand Generation Manager	https://www.linkedin.com/jobs/view/4454009665	queued		2026-09-26	2026-11-08	20	
+linkedin.com/jobs/view/4479316638	interface.ai	Senior Product Manager	https://www.linkedin.com/jobs/view/4479316638	queued		2026-10-16	2026-11-08	20	
+linkedin.com/jobs/view/4474110621	Inkitt	Senior CRM Lifecycle Marketing Manager	https://www.linkedin.com/jobs/view/4474110621	queued		2026-10-16	2026-11-08	20	
+linkedin.com/jobs/view/4479154133	Evlo AI	Revenue Operations Analyst	https://www.linkedin.com/jobs/view/4479154133	queued		2026-10-16	2026-11-08	20	
+linkedin.com/jobs/view/4480147209	Andromeda	Revenue Operations Lead	https://www.linkedin.com/jobs/view/4480147209	queued		2026-10-16	2026-11-08	20	
+jobs.apple.com/en-us/details/200689066/solutions-ai-product-manager	Apple	Solutions AI Product Manager	https://jobs.apple.com/en-us/details/200689066/solutions-ai-product-manager	queued		2026-10-16	2026-11-08	18	
+linkedin.com/jobs/view/4479890044	Cisco	Product Marketing Manager, Switching	https://www.linkedin.com/jobs/view/4479890044	queued		2026-10-16	2026-11-08	20	
+linkedin.com/jobs/view/4468908997	Carta	Performance Marketing Manager	https://www.linkedin.com/jobs/view/4468908997	queued		2026-09-23	2026-11-08	22	
+linkedin.com/jobs/view/4470620205	Decagon	Growth Marketing Manager, Web & Search	https://www.linkedin.com/jobs/view/4470620205	queued		2026-09-23	2026-11-08	26	
+linkedin.com/jobs/view/4479792081	Globeia	Chief of Staff	https://www.linkedin.com/jobs/view/4479792081	queued		2026-10-15	2026-11-08	22	
+linkedin.com/jobs/view/4478772139	Gap	Analyst - Pricing Analytics	https://www.linkedin.com/jobs/view/4478772139	queued		2026-10-14	2026-11-08	21	
+linkedin.com/jobs/view/4478435054	Earthful.me	D2C Growth Head	https://www.linkedin.com/jobs/view/4478435054	queued	queued	2026-10-14	2026-11-08	21	
+linkedin.com/jobs/view/4478140106	RagaAI Inc	Founder's Office – Strategy, GTM & Corporate Development	https://www.linkedin.com/jobs/view/4478140106	queued	queued	2026-10-14	2026-11-08	21	
+linkedin.com/jobs/view/4476655117	Kotak Neo	Chief of Staff - Product	https://www.linkedin.com/jobs/view/4476655117	queued	queued	2026-10-14	2026-11-08	21	
+linkedin.com/jobs/view/4479274480	TokenPulse Inc.	Senior Product Marketing Manager	https://www.linkedin.com/jobs/view/4479274480	queued	queued	2026-10-14	2026-11-08	21	
+linkedin.com/jobs/view/4476448597	Dream Cricket (formerly Dream Game Studios)	Head of Growth	https://www.linkedin.com/jobs/view/4476448597	queued	queued	2026-10-14	2026-11-08	21	
+linkedin.com/jobs/view/4434050817	World	Product Manager, World ID	https://www.linkedin.com/jobs/view/4434050817	queued		2026-09-21	2026-11-08	22	scored 3.1, tracker #1245
+linkedin.com/jobs/view/4432151163	Varonis	Senior Product Marketing Manager	https://www.linkedin.com/jobs/view/4432151163	queued		2026-09-21	2026-11-08	22	
+linkedin.com/jobs/view/4477964647	Soch Street	Chief of Staff	https://www.linkedin.com/jobs/view/4477964647	queued	QUEUED	2026-10-13	2026-11-08	21	Report 1254, score 3.0/5, no_deck; via Soch Street, end client undisclosed (deep tech aerospace startup)
+linkedin.com/jobs/view/4460808731	Amazon Web Services (AWS)	Specialist Strategy & Sales Operations Lead, Specialist Strategy & Sales Operations	https://www.linkedin.com/jobs/view/4460808731	queued		2026-09-20	2026-11-08	22	
+linkedin.com/jobs/view/4468033442	Flashpoint	Senior Product Marketing Manager	https://www.linkedin.com/jobs/view/4468033442	queued		2026-10-11	2026-11-08	24	
+linkedin.com/jobs/view/4472095531	Bobyard	Lifecycle Marketing Manager	https://www.linkedin.com/jobs/view/4472095531	queued		2026-09-26	2026-11-08	24	
+linkedin.com/jobs/view/4469193976	Amazon Web Services (AWS)	Sr. Partner Marketing Manager, Global ISV Partner Marketing	https://www.linkedin.com/jobs/view/4469193976	queued		2026-10-11	2026-11-08	23	
+linkedin.com/jobs/view/4475677744	MetaMorph	Head of Growth - Marketplaces | 5 to 10 yrs | FMCG | Mumbai	https://www.linkedin.com/jobs/view/4475677744	queued		2026-10-12	2026-11-08	20	
+linkedin.com/jobs/view/4475614175	PayU	Chief of Staff - PayU Finance	https://www.linkedin.com/jobs/view/4475614175	queued		2026-10-10	2026-11-08	25	
+linkedin.com/jobs/view/4474895491	GUS Global Services India Pvt. Ltd.	Senior Manager Strategic Projects - CEO's Office	https://www.linkedin.com/jobs/view/4474895491	queued		2026-10-09	2026-11-08	25	
+jobs.weekday.works/wkdyv3fww7	Weekday (client, confidential)	Chief of Staff / Founder's Office	https://jobs.weekday.works/wkdyv3fww7	queued		2026-10-10	2026-11-08	22	
+linkedin.com/jobs/view/4404394566	Suite Studios	Demand Generation Manager, AI	https://www.linkedin.com/jobs/view/4404394566	queued		2026-10-10	2026-11-08	26	
+linkedin.com/jobs/view/4438478968	Meta	Product Manager, Central Product	https://www.linkedin.com/jobs/view/4438478968	queued		2026-10-10	2026-11-08	22	
+zapply.jobs/l/d/workday-zayo-zayo-careers-r0017247	Zayo	Technical Product Manager	https://zapply.jobs/l/d/workday-zayo-zayo-careers-R0017247?s=gh-new-grad-jobs-2027	queued	BUILD	2026-10-09	2026-11-08	23	
+linkedin.com/jobs/view/4477431383	Salt Security	Technical Product Marketing Manager	https://www.linkedin.com/jobs/view/4477431383	queued	BUILD	2026-10-09	2026-11-08	23	
+linkedin.com/jobs/view/4449091926	O'Melveny & Myers LLP	Pricing Manager	https://www.linkedin.com/jobs/view/4449091926	queued	BUILD	2026-10-09	2026-11-08	24	
+linkedin.com/jobs/view/4477160088	Newtrace	Senior Associate - Founder's Office	https://www.linkedin.com/jobs/view/4477160088	queued	BUILD	2026-10-09	2026-11-08	23	
+linkedin.com/jobs/view/4474835109	Okta	Senior Product Manager, Okta for AI Agents	https://www.linkedin.com/jobs/view/4474835109	queued		2026-10-09	2026-11-08	23	
+linkedin.com/jobs/view/4457742808	Just Appraised	Growth Marketer / Demand Generation Manager	https://www.linkedin.com/jobs/view/4457742808	queued		2026-10-09	2026-11-08	23	
+linkedin.com/jobs/view/4477488505	Petra Security	Senior Product Marketing Manager	https://www.linkedin.com/jobs/view/4477488505	queued		2026-10-09	2026-11-08	22	
+instahyre.com/job-145488-head-of-growth-at-tranzact-mumbai	Tranzact	Head of Growth	https://www.instahyre.com/job-145488-head-of-growth-at-tranzact-mumbai/	dropped	DROP:duplicate-of-tracker-114	2026-09-19	2026-11-08	44	
+instahyre.com/job-344579-head-of-growth-at-safle-work-from-home	Safle	Head of Growth	https://www.instahyre.com/job-344579-head-of-growth-at-safle-work-from-home/	dropped	DROP:below-3.0	2026-09-19	2026-11-08	44	
+instahyre.com/job-220807-head-of-growth-at-mainstreet-mumbai	Mainstreet	Head of Growth	https://www.instahyre.com/job-220807-head-of-growth-at-mainstreet-mumbai/	queued		2026-09-19	2026-11-08	43	
+linkedin.com/jobs/view/4469041453	Sharon McMahon Education	Digital Marketing Manager	https://www.linkedin.com/jobs/view/4469041453	queued		2026-09-23	2026-11-08	34	
+cutshort.io/job/founder-s-office-chief-of-staff-strategy-operations-mumbai-worli-mumbai-bengaluru-bangalore-magma-consultancy-dl96jeop	Magma Consultancy	Founder's Office - Chief of Staff, Strategy and Operations	https://cutshort.io/job/Founder-s-Office-Chief-of-Staff-Strategy-Operations-Mumbai-Worli-Mumbai-Bengaluru-Bangalore-magma-consultancy-dL96JEoP	dropped	DROP:already-tracked-duplicate	2026-09-19	2026-11-08	40	
+instahyre.com/job-125335-head-of-growth-product-at-bukukas-bangalore	BukuKas	Head of Growth Product	https://www.instahyre.com/job-125335-head-of-growth-product-at-bukukas-bangalore/	queued		2026-09-19	2026-11-08	39	
+instahyre.com/job-11179-head-of-growth-at-instahyre-delhi	Instahyre	Head of Growth	https://www.instahyre.com/job-11179-head-of-growth-at-instahyre-delhi/	queued		2026-09-19	2026-11-08	39	
+linkedin.com/jobs/view/4433020234	Cyngn	Senior Product Manager, Cyngn Insight & Fleet Management	https://www.linkedin.com/jobs/view/4433020234	queued		2026-09-19	2026-11-08	39	
+linkedin.com/jobs/view/4444512703	Imprivata	Product Marketing Manager	https://www.linkedin.com/jobs/view/4444512703	queued	queued	2026-10-24	2026-11-08	17	
+jobs.lever.co/thinkahead/4adc622d-3611-4707-a996-cff0c313b106/apply	AHEAD	Product Manager	https://jobs.lever.co/thinkahead/4adc622d-3611-4707-a996-cff0c313b106/apply	queued		2026-10-27	2026-11-08	13	
+zapply.jobs/l/d/ashby-openai-e5c39e03-6121-47be-8bd3-f6128557b38f	OpenAI	GTM Strategy & Operations, Policy	https://zapply.jobs/l/d/ashby-openai-e5c39e03-6121-47be-8bd3-f6128557b38f?s=gh-new-grad-jobs-2027	queued		2026-10-27	2026-11-08	16	
+linkedin.com/jobs/view/4483265702	OpenTrack	AI-Native RevOps	https://www.linkedin.com/jobs/view/4483265702	queued		2026-10-27	2026-11-08	16	
+linkedin.com/jobs/view/4483611747	Xtalks	Senior Product Manager, Digital Products	https://www.linkedin.com/jobs/view/4483611747	queued		2026-10-27	2026-11-08	16	
+linkedin.com/jobs/view/4455864317	Orchard	Sales Operations Engineer	https://www.linkedin.com/jobs/view/4455864317	queued		2026-10-27	2026-11-08	16	
+linkedin.com/jobs/view/4483752370	Uber	Sr Product Manager - Tech	https://www.linkedin.com/jobs/view/4483752370	queued		2026-10-27	2026-11-08	16	
+linkedin.com/jobs/view/4457712870	Chalk	Product Manager	https://www.linkedin.com/jobs/view/4457712870	queued		2026-10-27	2026-11-08	16	
+linkedin.com/jobs/view/4379481147	Archer	Product Manager, Digital Technology	https://www.linkedin.com/jobs/view/4379481147	queued		2026-10-27	2026-11-08	16	
+linkedin.com/jobs/view/4458292887	Gusto	Product Marketing Leader - Innovation & Experimentation	https://www.linkedin.com/jobs/view/4458292887	queued		2026-10-07	2026-11-08	16	
+linkedin.com/jobs/view/4475886023	Hightouch	Product Manager, Real Time	https://www.linkedin.com/jobs/view/4475886023	built	BUILT	2026-10-06	2026-11-08	17	
+linkedin.com/jobs/view/4484427098	Intuit	Senior Staff Product Manager - AI Driven API Management Platform	https://www.linkedin.com/jobs/view/4484427098	queued		2026-10-28	2026-11-08	15	
+linkedin.com/jobs/view/4482011582	NinjaTech AI	Marketing Manager	https://www.linkedin.com/jobs/view/4482011582	queued		2026-10-28	2026-11-08	15	
+linkedin.com/jobs/view/4484283247	SoGal Ventures	Senior Manager, Revenue Operations & Analytics	https://www.linkedin.com/jobs/view/4484283247	queued		2026-10-28	2026-11-08	15	
+linkedin.com/jobs/view/4484239091	SpaceX Super Intelligence	Senior Product Manager, Commerce Platform	https://www.linkedin.com/jobs/view/4484239091	queued		2026-10-28	2026-11-08	15	
+linkedin.com/jobs/view/4484260367	Socket	Revenue Operations Manager	https://www.linkedin.com/jobs/view/4484260367	queued		2026-10-28	2026-11-08	15	
+linkedin.com/jobs/view/4484253805	Alt	Revenue Operations Associate	https://www.linkedin.com/jobs/view/4484253805	queued		2026-10-28	2026-11-08	15	
+linkedin.com/jobs/view/4474804035	Databricks	Sr. Product Manager, Lakebase	https://www.linkedin.com/jobs/view/4474804035	dropped	DROP:below-3.0	2026-10-08	2026-11-08	14	
+linkedin.com/jobs/view/4485270522	Joby Aviation	Senior Product Manager - Near Aircraft Tools and Applications	https://www.linkedin.com/jobs/view/4485270522	dropped	DROP:below-3.0	2026-10-30	2026-11-08	13	
+linkedin.com/jobs/view/4483406136	Sony Interactive Entertainment	Product Manager, Data & Intelligence	https://www.linkedin.com/jobs/view/4483406136	dropped	DROP:below-3.0	2026-10-30	2026-11-08	13	
+linkedin.com/jobs/view/4485321024	SUNA	Solution Marketing Manager(Capacitor)	https://www.linkedin.com/jobs/view/4485321024	dropped	DROP:below-3.0	2026-10-30	2026-11-08	13	
+linkedin.com/jobs/view/4483076996	Workday	Product Manager, Technical	https://www.linkedin.com/jobs/view/4483076996	dropped	DROP:below-3.0	2026-10-30	2026-11-08	13	
+linkedin.com/jobs/view/4457284933	Okta	Senior Product Manager - Policies	https://www.linkedin.com/jobs/view/4457284933	dropped	DROP:below-3.0	2026-10-30	2026-11-08	13	
+linkedin.com/jobs/view/4448566048	McAfee	Senior Product Manager – Protections	https://www.linkedin.com/jobs/view/4448566048	dropped	DROP:below-3.0	2026-10-30	2026-11-08	13	
+linkedin.com/jobs/view/4474458389	Instagram	Product Manager	https://www.linkedin.com/jobs/view/4474458389	dropped	DROP:below-3.0	2026-10-30	2026-11-08	13	
+linkedin.com/jobs/view/4484963653	Roku	Senior Product Manager, Advertising – Exchange Optimization	https://www.linkedin.com/jobs/view/4484963653	dropped	DROP:below-3.0	2026-10-30	2026-11-08	13	
+linkedin.com/jobs/view/4484559850	The Free Spirits Company	Sr. Marketing Manager	https://www.linkedin.com/jobs/view/4484559850	queued	QUEUED	2026-10-30	2026-11-08	13	
+linkedin.com/jobs/view/4478760230	Supermicro	Technical Marketing Manager - Enterprise AI	https://www.linkedin.com/jobs/view/4478760230	queued		2026-10-13	2026-11-08	14	
+linkedin.com/jobs/view/4486441045	PhoenixAI (the original creator of StarRocks)	Performance Marketing Manager	https://www.linkedin.com/jobs/view/4486441045	dropped	SKIP:duplicate-cross-posted-same-req-as-tracker-row-2090	2026-11-03	2026-11-08	11	
+linkedin.com/jobs/view/4484375769	Sony Interactive Entertainment	Lifecycle Marketing Manager	https://www.linkedin.com/jobs/view/4484375769	built	BUILT	2026-11-03	2026-11-08	11	
+linkedin.com/jobs/view/4486458295	Instacart	Deal Desk Specialist	https://www.linkedin.com/jobs/view/4486458295	dropped	SKIP:duplicate-cross-posted-same-req-as-tracker-row-2171-gh-jid-8347895	2026-11-03	2026-11-08	12	
+zapply.jobs/l/d/workday-amat-external-r2632609	Applied Materials	Product Marketing	https://zapply.jobs/l/d/workday-amat-external-R2632609?s=gh-new-grad-jobs-2027	queued		2026-11-03	2026-11-08	10	
+linkedin.com/jobs/view/4486814540	Skyne Beauty	Senior Brand & Content Marketing Manager	https://www.linkedin.com/jobs/view/4486814540	queued		2026-11-03	2026-11-08	10	
+zapply.jobs/l/d/ashby-ashby-d46e79d4-43fd-477f-aa06-25b604715223	Ashby	Strategy & Operations, Customer Success	https://zapply.jobs/l/d/ashby-ashby-d46e79d4-43fd-477f-aa06-25b604715223?s=gh-new-grad-jobs-2027	built	BUILT	2026-11-03	2026-11-08	11	
+linkedin.com/jobs/view/4486837574	Snapmint	Director - Founder's Office	https://www.linkedin.com/jobs/view/4486837574	built	BUILT	2026-11-03	2026-11-08	11	
+linkedin.com/jobs/view/4484392874	Openprise	Sr. Product Marketing Manager	https://www.linkedin.com/jobs/view/4484392874	built	BUILT	2026-11-03	2026-11-08	11	
+linkedin.com/jobs/view/4486471704	Waabi	Growth and Demand Marketing Manager	https://www.linkedin.com/jobs/view/4486471704	queued		2026-11-03	2026-11-08	10	
+linkedin.com/jobs/view/4486404507	MatrixCare	Marketing Manager, Demand Generation	https://www.linkedin.com/jobs/view/4486404507	queued		2026-11-03	2026-11-08	10	
+linkedin.com/jobs/view/4484352770	People Equation	Head of Growth	https://www.linkedin.com/jobs/view/4484352770	queued		2026-11-03	2026-11-08	10	
+linkedin.com/jobs/view/4480521086	EarnIn	Senior Strategy & Operations Manager	https://www.linkedin.com/jobs/view/4480521086	built	BUILT	2026-11-03	2026-11-08	11	
+jobs.ashbyhq.com/leandata/46138c47-ee37-4abb-b8b0-d9d6c2b64300	LeanData	Chief of Staff	https://jobs.ashbyhq.com/leandata/46138c47-ee37-4abb-b8b0-d9d6c2b64300	built	BUILT	2026-11-03	2026-11-08	11	
+jobs.ashbyhq.com/notion/0d000633-4a69-4dae-ab5f-da19b5ab8cc0	Notion	Business Operations & Strategy	https://jobs.ashbyhq.com/notion/0d000633-4a69-4dae-ab5f-da19b5ab8cc0	built	BUILT	2026-11-03	2026-11-08	11	
+linkedin.com/jobs/view/4468170746	Thumbtack	Growth Marketing Manager, Paid Social	https://www.linkedin.com/jobs/view/4468170746	queued		2026-09-22	2026-11-08	10	
+linkedin.com/jobs/view/4486351063	Stealth Startup - Deep Tech	Head of Growth	https://www.linkedin.com/jobs/view/4486351063	queued		2026-11-04	2026-11-08	9	
+linkedin.com/jobs/view/4486885399	NewBridge Fintech	Chief of Staff	https://www.linkedin.com/jobs/view/4486885399	queued		2026-11-04	2026-11-08	9	
+linkedin.com/jobs/view/4486840461	Perit AI (YC F26)	Founder's Office Associate	https://www.linkedin.com/jobs/view/4486840461	queued		2026-11-04	2026-11-08	9	
+linkedin.com/jobs/view/4487221085	Parspec	Demand Generation Manager	https://www.linkedin.com/jobs/view/4487221085	queued		2026-11-04	2026-11-08	9	
+linkedin.com/jobs/view/4486345302	Nooks	Performance Marketing Lead	https://www.linkedin.com/jobs/view/4486345302	built	BUILT	2026-11-04	2026-11-08	10	
+linkedin.com/jobs/view/4485053769	Intellectual Capital HR Consulting Pvt. Ltd.	Chief of Staff	https://www.linkedin.com/jobs/view/4485053769	queued		2026-11-04	2026-11-08	9	
+linkedin.com/jobs/view/4486360473	Curefoods	Financial Planning Analyst_CXO Office	https://www.linkedin.com/jobs/view/4486360473	queued		2026-11-04	2026-11-08	9	
+linkedin.com/jobs/view/4486867861	Halcyon	Product Marketing Manager	https://www.linkedin.com/jobs/view/4486867861	queued		2026-11-04	2026-11-08	9	
+linkedin.com/jobs/view/4487028980	Zilliz	Growth Marketing Manager	https://www.linkedin.com/jobs/view/4487028980	queued		2026-11-04	2026-11-08	9	
+linkedin.com/jobs/view/4478168912	Title Nine	GROWTH MARKETING MANAGER	https://www.linkedin.com/jobs/view/4478168912	queued		2026-11-04	2026-11-08	9	
+linkedin.com/jobs/view/4484603161	WeLaunch	Founder's Office	https://www.linkedin.com/jobs/view/4484603161	queued		2026-11-04	2026-11-08	9	
+linkedin.com/jobs/view/4469022993	AssetWatch®	B2B Growth Marketing Manager – Industrial/SaaS	https://www.linkedin.com/jobs/view/4469022993	queued		2026-09-23	2026-11-08	9	
+linkedin.com/jobs/view/4486582987	Knowmax	Growth Leader, CEO’s Office | Enterprise AI SaaS	https://www.linkedin.com/jobs/view/4486582987	queued		2026-11-05	2026-11-08	8	
+linkedin.com/jobs/view/4486391412	Heads Up For Tails	Founder's Office Associate	https://www.linkedin.com/jobs/view/4486391412	dropped	DROP:below-3.0	2026-11-05	2026-11-08	8	
+linkedin.com/jobs/view/4487503488	Enterpret	Founder's Office: Revenue Operations & Systems (RevOps)	https://www.linkedin.com/jobs/view/4487503488	built	BUILT	2026-11-05	2026-11-08	9	
+linkedin.com/jobs/view/4486582703	Haystack	Growth Marketing Manager	https://www.linkedin.com/jobs/view/4486582703	queued		2026-11-05	2026-11-08	8	
+linkedin.com/jobs/view/4405266064	Adams Clinical	Sales Operations Associate	https://www.linkedin.com/jobs/view/4405266064	queued		2026-11-05	2026-11-08	8	
+linkedin.com/jobs/view/4486336862	MANTARA	Founder's Office- Chief Of Staff	https://www.linkedin.com/jobs/view/4486336862	queued		2026-11-05	2026-11-08	8	
+linkedin.com/jobs/view/4486599657	Neofox Media	Chief of Staff	https://www.linkedin.com/jobs/view/4486599657	queued		2026-11-05	2026-11-08	8	
+linkedin.com/jobs/view/4486576719	Ranqo	Head of Growth	https://www.linkedin.com/jobs/view/4486576719	queued		2026-11-05	2026-11-08	8	
+linkedin.com/jobs/view/4486576860	Soulace Consulting Pvt Ltd	Sr. Manager to CEO's Office	https://www.linkedin.com/jobs/view/4486576860	queued		2026-11-05	2026-11-08	8	
+linkedin.com/jobs/view/4487726004	HuntingCube	Founder's Office	https://www.linkedin.com/jobs/view/4487726004	dropped	DROP:below-comp-floor	2026-11-05	2026-11-08	8	
+linkedin.com/jobs/view/4485091145	Uni Seoul	Founder's Office - Senior Associate	https://www.linkedin.com/jobs/view/4485091145	queued		2026-11-05	2026-11-08	8	
+linkedin.com/jobs/view/4487708985	Altera Institute	Founder's Office	https://www.linkedin.com/jobs/view/4487708985	queued		2026-11-05	2026-11-08	8	
+linkedin.com/jobs/view/4487731568	Puretech Digital - A Genesis Company	Associate - Founder's Office	https://www.linkedin.com/jobs/view/4487731568	dropped	DROP:below-3.0	2026-11-05	2026-11-08	8	
+linkedin.com/jobs/view/4486343712	CurlSeK	Associate - Founder’s Office (Growth & Business Development)	https://www.linkedin.com/jobs/view/4486343712	dropped	DROP:below-3.0	2026-11-05	2026-11-08	8	
+linkedin.com/jobs/view/4486570936	A3 Mediacom	Founder's Office	https://www.linkedin.com/jobs/view/4486570936	dropped	DROP:below-3.0	2026-11-05	2026-11-08	8	
+linkedin.com/jobs/view/4485816018	Prorata	Founder's office - Business Head	https://www.linkedin.com/jobs/view/4485816018	dropped	DROP:below-3.0	2026-11-05	2026-11-08	8	
+linkedin.com/jobs/view/4476603221	Zendesk	ABX & Industry Marketing Manager	https://www.linkedin.com/jobs/view/4476603221	built	BUILT	2026-11-05	2026-11-08	9	
+linkedin.com/jobs/view/4487520906	Samsara	Senior Marketing Manager - Public Sector	https://www.linkedin.com/jobs/view/4487520906	queued		2026-11-05	2026-11-08	8	
+linkedin.com/jobs/view/4487561331	Bounce	Senior Product Manager, Demand Growth	https://www.linkedin.com/jobs/view/4487561331	queued		2026-11-05	2026-11-08	8	
+linkedin.com/jobs/view/4486578874	Cosma Fertility	Entrepreneur in Residence (EIR) – Healthcare & Growth	https://www.linkedin.com/jobs/view/4486578874	dropped	DROP:below-comp-floor	2026-11-05	2026-11-08	8	
+linkedin.com/jobs/view/4479261660	F&G	Manager, Competitive Intelligence	https://www.linkedin.com/jobs/view/4479261660	queued		2026-11-05	2026-11-08	8	
+linkedin.com/jobs/view/4445062503	Airwallex	Senior Product Marketing Manager	https://www.linkedin.com/jobs/view/4445062503	dropped	DROP:over-cap-7y-cap6	2026-10-03	2026-11-08	10	
+jobs.ashbyhq.com/snowflake/5220aae8-7fd1-4374-8b8f-4f27f8573791	Snowflake	Sr Product Marketing Manager, Media, Entertainment and Advertising	https://jobs.ashbyhq.com/snowflake/5220aae8-7fd1-4374-8b8f-4f27f8573791	built	BUILT	2026-10-14	2026-11-08	20	CORRECTED 2026-11-07 cloud build: the 2026-10-14 DROP:duplicate-of-tracker-row verdict was superseded by the 2026-11-05 re-eval into tracker row 2325 (report 2325, score 4.1, full_pack); full_pack BUILT this run (resume+cover letter already on disk, deck added and verified this run) in output/Snowflake/sr-product-marketing-manager-media-entertainment-advertising/. Stale DROP left in place elsewhere would have blocked re-queueing; corrected here since the physical pack and tracker row both confirm this is a real, built opening.
+fivetran.com/careers/job?gh_jid=7997442003	Fivetran	Program Manager, Growth, Monetization & Strategic Initiatives	https://www.fivetran.com/careers/job?gh_jid=7997442003	built	BUILT	2026-09-23	2026-11-08	12	
+jobs.apple.com/en-us/details/200693179/product-manager-access-platform-in-apple-wallet	Apple	Product Manager, Access Platform in Apple Wallet	https://jobs.apple.com/en-us/details/200693179/product-manager-access-platform-in-apple-wallet	queued		2026-11-06	2026-11-08	4	
+linkedin.com/jobs/view/4476966807	Assort Health	Senior Manager, Demand Generation	https://www.linkedin.com/jobs/view/4476966807	built	BUILT	2026-10-08	2026-11-08	8	
+linkedin.com/jobs/view/4486966628	ProSessed AI	Founder's Office – Growth & GTM	https://www.linkedin.com/jobs/view/4486966628	queued		2026-11-06	2026-11-08	6	
+linkedin.com/jobs/view/4485839295	TestRail	Growth Marketing Manager	https://www.linkedin.com/jobs/view/4485839295	queued		2026-11-06	2026-11-08	6	
+fivetran.com/careers/job?gh_jid=7806295003	Fivetran	Senior Pricing Data Scientist	https://www.fivetran.com/careers/job?gh_jid=7806295003	queued		2026-11-06	2026-11-08	6	
+linkedin.com/jobs/view/4488121934	Stranger Soccer	Head of Growth and Operations	https://www.linkedin.com/jobs/view/4488121934	queued		2026-11-06	2026-11-08	6	
+linkedin.com/jobs/view/4487745936	Origin	Founder's Office, Marketing Associate	https://www.linkedin.com/jobs/view/4487745936	built	BUILT	2026-11-06	2026-11-08	7	
 linkedin.com/jobs/view/4461797067	Turo	Staff Data Scientist, Dynamic Pricing	https://www.linkedin.com/jobs/view/4461797067	shortlisted		2026-09-23	2026-11-07	4	
 linkedin.com/jobs/view/4479147964	Google	Senior Product Manager, AI Models and Agentic Platform, Google Distributed Cloud	https://www.linkedin.com/jobs/view/4479147964	jd_extracted		2026-10-16	2026-11-07	5	
-linkedin.com/jobs/view/4455574110	Versa Networks	Sr. Product Marketing Manager	https://www.linkedin.com/jobs/view/4455574110	queued		2026-10-01	2026-11-07	7	
 linkedin.com/jobs/view/4462748916	Intuit	Staff Product Manager - QuickBooks Mobile	https://www.linkedin.com/jobs/view/4462748916	shortlisted		2026-09-25	2026-11-07	2	
 linkedin.com/jobs/view/4488496087	Zscaler	Senior Manager, AMS Deal Desk	https://www.linkedin.com/jobs/view/4488496087	dropped	DROP:over-years-cap-7-plus-vs-6	2026-11-07	2026-11-07	9	
-linkedin.com/jobs/view/4487363596	Samsung Semiconductor	Product Marketing Manager	https://www.linkedin.com/jobs/view/4487363596	built	BUILT	2026-11-07	2026-11-07	6	
-linkedin.com/jobs/view/4479114955	PointClickCare	Sr. Monetization Strategy & Pricing Manager (US)	https://www.linkedin.com/jobs/view/4479114955	built	BUILT	2026-11-07	2026-11-07	6	
 linkedin.com/jobs/view/4488401119	Fivetran	Senior Pricing & Monetization Data Scientist	https://www.linkedin.com/jobs/view/4488401119	jd_extracted		2026-11-07	2026-11-07	3	
-linkedin.com/jobs/view/4486296083	Oscar Health	Senior Product Manager, Marketplace	https://www.linkedin.com/jobs/view/4486296083	queued		2026-11-07	2026-11-07	5	
-linkedin.com/jobs/view/4447729354	Handshake	Senior Product Marketing Manager, Enterprise AI	https://www.linkedin.com/jobs/view/4447729354	queued		2026-11-07	2026-11-07	5	
-linkedin.com/jobs/view/4486281548	AssemblyAI	Product Marketing Manager	https://www.linkedin.com/jobs/view/4486281548	dropped	DROP:duplicate-of-tracker-2381	2026-11-07	2026-11-07	10	
-linkedin.com/jobs/view/4486273889	AssemblyAI	Growth Marketing Manager, Paid Demand & ABM	https://www.linkedin.com/jobs/view/4486273889	queued		2026-11-07	2026-11-07	5	
-fivetran.com/careers/job?gh_jid=8031705003	Fivetran	Senior Pricing & Monetization Data Scientist	https://www.fivetran.com/careers/job?gh_jid=8031705003	dropped	DROP:duplicate-of-tracker-2376	2026-11-07	2026-11-07	9	
 job-boards.greenhouse.io/tintai/jobs/4751433005	Tint	Associate Product Manager	https://job-boards.greenhouse.io/tintai/jobs/4751433005	dropped	SKIP:visa-hard-wall	2026-11-07	2026-11-07	4	
 zapply.jobs/l/d/workday-cisco-cisco-careers-2029628	Cisco	Engineering Product Manager	https://zapply.jobs/l/d/workday-cisco-cisco-careers-2029628?s=gh-new-grad-jobs-2027	dropped	DROP:below-3.0	2026-11-07	2026-11-07	8	
 linkedin.com/jobs/view/4486614621	Applied Materials	Senior Product Manager, Applied Global Services	https://www.linkedin.com/jobs/view/4486614621	dropped	DROP:below-3.0	2026-11-07	2026-11-07	4	
 linkedin.com/jobs/view/4486615470	Palo Alto Networks	Sr. Sales Operations Analyst, Commercial & Growth Markets	https://www.linkedin.com/jobs/view/4486615470	dropped	SKIP:no-sponsorship-stated-this-req	2026-11-07	2026-11-07	5	
 linkedin.com/jobs/view/4487384500	Envoy	Senior Demand Marketing Manager, Velocity	https://www.linkedin.com/jobs/view/4487384500	shortlisted		2026-11-07	2026-11-07	1	
 linkedin.com/jobs/view/4488457890	Roo	Senior Growth Marketing Manager (Veterinarians)	https://www.linkedin.com/jobs/view/4488457890	shortlisted		2026-11-07	2026-11-07	1	
-job-boards.greenhouse.io/launchdarkly/jobs/7978447003	LaunchDarkly	Pricing and Packaging Insights Lead	https://job-boards.greenhouse.io/launchdarkly/jobs/7978447003	built	BUILT	2026-11-07	2026-11-07	7	
 coinbase.com/careers/positions/8360386?gh_jid=8360386	Coinbase	Senior Product Manager	https://www.coinbase.com/careers/positions/8360386?gh_jid=8360386	dropped	DROP:over-years-cap-7-plus-vs-6	2026-11-07	2026-11-07	7	
-careers.upstart.com/jobs?gh_jid=8359066	Upstart	Senior Product Manager	https://careers.upstart.com/jobs?gh_jid=8359066	built	BUILT	2026-11-07	2026-11-07	7	
-zapply.jobs/l/d/apple-200693340	Apple	Product Manager, OS Platforms	https://zapply.jobs/l/d/apple-200693340?s=gh-new-grad-jobs-2027	built	BUILT	2026-11-07	2026-11-07	7	
 linkedin.com/jobs/view/4470025911	Restaurant Technologies	Senior Manager, Pricing	https://www.linkedin.com/jobs/view/4470025911	shortlisted		2026-11-07	2026-11-07	1	
 linkedin.com/jobs/view/4488190667	Tekion Corp	Sales Operations Manager	https://www.linkedin.com/jobs/view/4488190667	shortlisted		2026-11-07	2026-11-07	1	
 linkedin.com/jobs/view/4479891303	Intuit	Staff Business Operations Manager	https://www.linkedin.com/jobs/view/4479891303	shortlisted		2026-11-07	2026-11-07	1	
@@ -278,7 +734,6 @@ linkedin.com/jobs/view/4486977855	Griting	Marketing Manager — Data Solution	ht
 linkedin.com/jobs/view/4488194687	Snyk	Senior Field & Partner Marketing Manager	https://www.linkedin.com/jobs/view/4488194687	shortlisted		2026-11-07	2026-11-07	1	
 linkedin.com/jobs/view/4479169905	Google	Brand Marketing Manager, Educator Social	https://www.linkedin.com/jobs/view/4479169905	shortlisted		2026-11-07	2026-11-07	1	
 linkedin.com/jobs/view/4488400836	Blacksmith Agency	Growth Marketing Manager (Remote, Miami)	https://www.linkedin.com/jobs/view/4488400836	shortlisted		2026-11-07	2026-11-07	1	
-fivetran.com/careers/job?gh_jid=8198244003	Fivetran	Enterprise Demand Generation Lead — North America	https://www.fivetran.com/careers/job?gh_jid=8198244003	built	BUILT	2026-11-07	2026-11-07	7	
 linkedin.com/jobs/view/4486299236	Ross Stores, Inc.	Analyst, Real Estate Market Research	https://www.linkedin.com/jobs/view/4486299236	shortlisted		2026-11-07	2026-11-07	1	
 asm.com/open-vacancies?gh_jid=5029228101	ASM	Intern - Product Intelligence Engineering - AI/ML	https://www.asm.com/open-vacancies/?gh_jid=5029228101	dropped	DROP:intern-coop-phd	2026-11-07	2026-11-07	1	
 zapply.jobs/l/d/adp-d5856577-9203177476507_1	d5856577	Data Center Construction Security Officer	https://zapply.jobs/l/d/adp-d5856577-9203177476507_1?s=gh-new-grad-jobs-2027	dropped	DROP:no-target-role-match	2026-11-07	2026-11-07	1	
@@ -921,13 +1376,6 @@ linkedin.com/jobs/view/4460614079	Perry Ellis International	TikTok Growth and So
 linkedin.com/jobs/view/4488162857	GOVX	Campaign Marketing Manager	https://www.linkedin.com/jobs/view/4488162857	dropped	DROP:outside-target-metro	2026-11-07	2026-11-07	1	
 linkedin.com/jobs/view/4488475876	Stripe	Integrated Campaigns Manager	https://www.linkedin.com/jobs/view/4488475876	dropped	DROP:no-target-role-match	2026-11-07	2026-11-07	1	
 zapply.jobs/l/d/apple-200693179	Apple	Product Manager, Access Platform in Apple Wallet	https://zapply.jobs/l/d/apple-200693179?s=gh-new-grad-jobs-2027	dropped	DROP:already-evaluated	2026-11-06	2026-11-07	10	
-blackhawknetwork.jibeapply.com/jobs/27263	Blackhawk Network Holdings	Associate Product Manager - Technology	https://blackhawknetwork.jibeapply.com/jobs/27263?icims=1	dropped	DROP:already-evaluated	2026-11-04	2026-11-07	24	
-coinbase.com/careers/positions/7980600?gh_jid=7980600	Coinbase	Business Operations, Senior Associate	https://www.coinbase.com/careers/positions/7980600?gh_jid=7980600	dropped	DROP:already-evaluated	2026-11-03	2026-11-07	21	
-getmereferred.com/job-listing/head-of-growth-bikai-bengaluru-5-to-10-years-experience-fe752457-133b-44ab-9c24-4f1938e8df9a	Bikai	Head of Growth	https://getmereferred.com/job-listing/head-of-growth-bikai-bengaluru-5-to-10-years-experience-fe752457-133b-44ab-9c24-4f1938e8df9a	dropped	DROP:already-evaluated	2026-11-05	2026-11-07	11	
-getmereferred.com/job-listing/head-of-growth-earlystage-fintech-portfolio-company-peak-xv-partners-delhi-5-to-7-years-experience-0a556f30-f800-4c25-b9fe-44415c6fade9	Peak XV portfolio fintech	Head of Growth	https://getmereferred.com/job-listing/head-of-growth-earlystage-fintech-portfolio-company-peak-xv-partners-delhi-5-to-7-years-experience-0a556f30-f800-4c25-b9fe-44415c6fade9	dropped	DROP:already-queued	2026-11-05	2026-11-07	12	
-linkedin.com/jobs/view/4460626122	Cohere	Product Manager, Managed North	https://www.linkedin.com/jobs/view/4460626122	dropped	DROP:below-3.0	2026-09-24	2026-11-07	27	
-linkedin.com/jobs/view/4459991214	Legora	Senior Product Marketing Manager, Pricing and Packaging	https://www.linkedin.com/jobs/view/4459991214	dropped	DROP:below-3.0	2026-09-25	2026-11-07	23	
-jobs.weekday.works/chief-of-staff-at-sri-krishna-education-trust-4413535403	Sri Krishna Education Trust	Chief of Staff	https://jobs.weekday.works/chief-of-staff-at-sri-krishna-education-trust-4413535403	dropped	DROP:already-evaluated	2026-11-04	2026-11-07	10	
 databricks.com/company/careers/open-positions/job?gh_jid=8200462002	Databricks	Sr. Product Manager, Compute Platform	https://databricks.com/company/careers/open-positions/job?gh_jid=8200462002	dropped	DROP:already-evaluated	2026-11-06	2026-11-07	4	
 databricks.com/company/careers/open-positions/job?gh_jid=7680573002	Databricks	Sr. Product Manager, Databricks Free Edition	https://databricks.com/company/careers/open-positions/job?gh_jid=7680573002	dropped	DROP:already-evaluated	2026-11-06	2026-11-07	4	
 databricks.com/company/careers/open-positions/job?gh_jid=8326513002	Databricks	Sr. Product Manager, Databricks Repos	https://databricks.com/company/careers/open-positions/job?gh_jid=8326513002	dropped	DROP:already-evaluated	2026-11-06	2026-11-07	4	
@@ -946,36 +1394,26 @@ linkedin.com/jobs/view/4480316734	Procore Technologies	Group Product Marketing M
 andsimple.co/jobs/chief-of-staff-to-the-chairman-single-family-office-delhi	Confidential	Chief of Staff to the Chairman (Single Family Office)	https://andsimple.co/jobs/chief-of-staff-to-the-chairman-single-family-office-delhi	dropped	DROP:below-3.0	2026-11-07	2026-11-07	3	
 sonara.ai/job-details/53b4026e-8a8b-f68a-ab6c-3a144329b8a8	Confidential	Product Marketing Manager	https://www.sonara.ai/job-details/53b4026e-8a8b-f68a-ab6c-3a144329b8a8	jd_extracted		2026-11-07	2026-11-07	2	
 flexjobs.com/publicjobs/product-marketing-manager-931d47bd-173f-4e36-81a8-338cde210fd6	Confidential	Product Marketing Manager	https://www.flexjobs.com/publicjobs/product-marketing-manager-931d47bd-173f-4e36-81a8-338cde210fd6	jd_extracted		2026-11-07	2026-11-07	2	
-jobs.weekday.works/chief-of-staff-%25e2%2580%2594-office-of-the-ceo-us-healthcare-at-neolytix-4411613867	Neolytix	Chief of Staff (Office of the CEO, US Healthcare)	https://jobs.weekday.works/chief-of-staff-%25E2%2580%2594-office-of-the-ceo-us-healthcare-at-neolytix-4411613867	built	BUILT	2026-11-07	2026-11-07	5	
-jobera.com/job/quicksell-head-of-growth-9c6067fe	Quicksell	Head of Growth	https://jobera.com/job/quicksell-head-of-growth-9c6067fe/	queued		2026-11-07	2026-11-07	4	
 iimjobs.com/j/refex-group-chief-of-staff-iim-isb-mdi-fms-2-5-yrs-1438870	Refex Group	Chief of Staff	https://iimjobs.com/j/refex-group-chief-of-staff-iim-isb-mdi-fms-2-5-yrs-1438870	jd_extracted		2026-11-07	2026-11-07	2	
 iimjobs.com/j/chief-of-staff-bfsi-iim-isb-mdi-fms-1672585	Confidential (iimjobs)	Chief of Staff (BFSI)	https://www.iimjobs.com/j/chief-of-staff-bfsi-iim-isb-mdi-fms-1672585	jd_extracted		2026-11-07	2026-11-07	2	
 iimjobs.com/j/chief-of-staff-1497522	Confidential (iimjobs)	Chief of Staff	https://iimjobs.com/j/chief-of-staff-1497522	jd_extracted		2026-11-07	2026-11-07	2	
 cutshort.io/job/head-of-growth-bangalore-unnati-lbktg2w9	Unnati (client)	Head of Growth	https://cutshort.io/job/Head-of-Growth-Bangalore-Unnati-LbKtG2W9	dropped	DROP:below-comp-floor	2026-11-07	2026-11-07	3	
 purpose.jobs/discover/companies/salesforce-2/jobs/78918396-pricing-strategy-manager-senior-manager	Salesforce	Pricing Strategy, Manager/Senior Manager	https://www.purpose.jobs/discover/companies/salesforce-2/jobs/78918396-pricing-strategy-manager-senior-manager	dropped	DROP:already-evaluated	2026-11-07	2026-11-07	3	
-getmereferred.com/job-listing/founders-office-confidential-jobs-bengaluru-2-to-5-years-experience-1d526443-1ea4-4880-8fac-f43f040f0899	Confidential	Founder's Office	https://getmereferred.com/job-listing/founders-office-confidential-jobs-bengaluru-2-to-5-years-experience-1d526443-1ea4-4880-8fac-f43f040f0899	built	BUILT	2026-11-07	2026-11-07	8	
 jobs.weekday.works/founders-office-at-mir%25c3%25b3r-4387705235	Miror	Founder's Office	https://jobs.weekday.works/founders-office-at-mir%25C3%25B3r-4387705235	dropped	DROP:below-comp-floor	2026-11-07	2026-11-07	3	
 jobs.jobvite.com/ness/job/opbwzfwf	Ness	Manager/Senior Manager, Strategic Initiatives (CEO Office)	https://jobs.jobvite.com/ness/job/opBWzfwf	dropped	DROP:dead-404	2026-11-07	2026-11-07	5	
 builtinsf.com/job/intelligence-manager/8807411	Perkins Coie	Market & Competitive Intelligence Manager	https://www.builtinsf.com/job/intelligence-manager/8807411	jd_extracted		2026-11-07	2026-11-07	2	
-linkedin.com/jobs/view/4478712281	Ever.Ag	Senior Revenue Operations Analyst	https://www.linkedin.com/jobs/view/4478712281	queued		2026-10-17	2026-11-07	6	
 linkedin.com/jobs/view/4440197934	Ohalo	Global Crop Product Manager	https://www.linkedin.com/jobs/view/4440197934	dropped	SKIP:no-sponsorship-stated	2026-09-25	2026-11-07	5	
-linkedin.com/jobs/view/4487383869	Expedia Group	Sr. Product Manager, EG Advertising - Travel Supply Campaigns	https://www.linkedin.com/jobs/view/4487383869	built	BUILT	2026-11-07	2026-11-07	6	
 linkedin.com/jobs/view/4488455639	Simit Bhagat Studios	Founders Office in Mumbai	https://www.linkedin.com/jobs/view/4488455639	dropped	DROP:below-comp-floor	2026-11-07	2026-11-07	5	
 linkedin.com/jobs/view/4486625226	Grow That Brand	Founders Office (Marketing & Ecommerce) @ Grow That Brand	https://www.linkedin.com/jobs/view/4486625226	dropped	DROP:below-comp-floor	2026-11-07	2026-11-07	5	
 linkedin.com/jobs/view/4487345454	Heads Up For Tails	Chief Of Staff to the CEO | Food Manufacturing Unit	https://www.linkedin.com/jobs/view/4487345454	dropped	DROP:below-3.0	2026-11-07	2026-11-07	5	
 linkedin.com/jobs/view/4452076196	OpenAI	Product Marketing Lead, API Models & Research	https://www.linkedin.com/jobs/view/4452076196	dropped	DROP:below-3.0	2026-11-07	2026-11-07	5	
 linkedin.com/jobs/view/4487319404	RecruitBots AI	Founder’s Office Associate — AI Generalist & New Products	https://www.linkedin.com/jobs/view/4487319404	dropped	DROP:below-comp-floor-inr-5-10-lpa-stated	2026-11-07	2026-11-07	5	
-zapply.jobs/l/d/workday-amat-external-r2633241	Applied Materials	Global Product Marketing IV/V	https://zapply.jobs/l/d/workday-amat-external-R2633241?s=gh-new-grad-jobs-2027	built	BUILT	2026-11-07	2026-11-07	6	
 linkedin.com/jobs/view/4487397810	VERA	Founders Office	https://www.linkedin.com/jobs/view/4487397810	dropped	DROP:below-comp-floor	2026-11-07	2026-11-07	5	
 linkedin.com/jobs/view/4488476420	JSIMPLE	Executive Assistant & Operations Coordinator · CEO's Office	https://www.linkedin.com/jobs/view/4488476420	dropped	DROP:below-comp-floor	2026-11-07	2026-11-07	5	
 linkedin.com/jobs/view/4487386601	Light Hill Capital	Executive Assistant / Secretary (Founder’s Office)	https://www.linkedin.com/jobs/view/4487386601	dropped	DROP:below-comp-floor	2026-11-07	2026-11-07	5	
-linkedin.com/jobs/view/4488155807	FRND	Chief of Staff	https://www.linkedin.com/jobs/view/4488155807	built	BUILT	2026-11-07	2026-11-07	6	
 linkedin.com/jobs/view/4488147220	E2M	Chief of Staff	https://www.linkedin.com/jobs/view/4488147220	dropped	DROP:duplicate-of-tracker-2047	2026-11-07	2026-11-07	4	
 linkedin.com/jobs/view/4486972827	PINKVILLA	Senior EA / Chief of Staff	https://www.linkedin.com/jobs/view/4486972827	dropped	DROP:below-comp-floor	2026-11-07	2026-11-07	5	
-linkedin.com/jobs/view/4486295377	eBay	Manager, Product Marketing - eBay Live	https://www.linkedin.com/jobs/view/4486295377	queued		2026-11-07	2026-11-07	5	
 linkedin.com/jobs/view/4466621462	TechnologyAdvice	Product Marketing Manager	https://www.linkedin.com/jobs/view/4466621462	dropped	SKIP:no-sponsorship-stated	2026-11-07	2026-11-07	4	
-linkedin.com/jobs/view/4487398408	SolarSquare	Entrepreneur in Residence - Sales Strategy	https://www.linkedin.com/jobs/view/4487398408	queued		2026-11-07	2026-11-07	5	
-linkedin.com/jobs/view/4486263035	Sure	Founder's Office	https://www.linkedin.com/jobs/view/4486263035	built	BUILT	2026-11-07	2026-11-07	6	
 linkedin.com/jobs/view/4486240080	Without®	Founder's Office Associate	https://www.linkedin.com/jobs/view/4486240080	dropped	DROP:below-comp-floor-inr-4-6-lpa-stated	2026-11-07	2026-11-07	5	
 job-boards.greenhouse.io/mercury/jobs/6181121004	Mercury	Senior Product Manager - Reconciliation	https://job-boards.greenhouse.io/mercury/jobs/6181121004	dropped	DROP:below-3.0	2026-11-07	2026-11-07	5	
 job-boards.greenhouse.io/mercury/jobs/6148371004	Mercury	Senior Product Manager - Users	https://job-boards.greenhouse.io/mercury/jobs/6148371004	dropped	DROP:below-3.0	2026-11-07	2026-11-07	5	
@@ -1307,444 +1745,6 @@ jobs.lever.co/finch/5085ce27-f2e7-4863-b16c-e3b36ae8ae35	Finch	Product Marketing
 builtinsf.com/job/pricing-manager/9448889	Wilson Sonsini Goodrich & Rosati	Pricing Manager	https://www.builtinsf.com/job/pricing-manager/9448889	dropped	DROP:dead-removed-aug-2026	2026-11-05	2026-11-07	5	
 jaspercolin.com/join-us/job-details/4	Jasper Colin	Chief of Staff / CEO's Office Strategy Consultant	https://www.jaspercolin.com/join-us/job-details/4	dropped	DROP:below-comp-floor	2026-11-07	2026-11-07	4	
 revopscareers.com/job/granola-revenue-operations-lead-us-san-francisco-california-united-states	Granola	Revenue Operations Lead, US	https://revopscareers.com/job/granola-revenue-operations-lead-us-san-francisco-california-united-states/	dropped	DROP:dead-redirects-to-generic-listing	2026-11-07	2026-11-07	3	
-linkedin.com/jobs/view/4479729451	Verkada	Senior Associate, Pricing & Commercial Operations	https://www.linkedin.com/jobs/view/4479729451	built	BUILT	2026-10-15	2026-11-07	17	
-job-boards.greenhouse.io/pandadoc/jobs/8351559	PandaDoc	Senior Product Marketing Manager, CPQ	https://job-boards.greenhouse.io/pandadoc/jobs/8351559	built	BUILT	2026-11-06	2026-11-07	11	
-job-boards.greenhouse.io/pandadoc/jobs/8351533	PandaDoc	Senior Product Marketing Manager, Workflows	https://job-boards.greenhouse.io/pandadoc/jobs/8351533	built	BUILT	2026-11-06	2026-11-07	11	
-linkedin.com/jobs/view/4488058644	Mintive	Founding RevOps Lead	https://www.linkedin.com/jobs/view/4488058644	dropped	DROP:below-3.0	2026-11-06	2026-11-07	11	
-linkedin.com/jobs/view/4488075662	SmartSuite	Revenue Operations Analyst (Remote)	https://www.linkedin.com/jobs/view/4488075662	queued		2026-11-06	2026-11-07	6	
-linkedin.com/jobs/view/4487794344	Stuut	Product Marketing Manager	https://www.linkedin.com/jobs/view/4487794344	built	BUILT	2026-11-06	2026-11-07	10	
-linkedin.com/jobs/view/4465278007	GHX	Pricing Manager	https://www.linkedin.com/jobs/view/4465278007	built	BUILT	2026-11-06	2026-11-07	7	
-linkedin.com/jobs/view/4478825157	RingCentral	Senior Analyst, Strategy & Business Operations - Customer, Pricing & Packaging	https://www.linkedin.com/jobs/view/4478825157	queued		2026-11-06	2026-11-07	6	
-linkedin.com/jobs/view/4488037920	Braze	Sales Operations Lead	https://www.linkedin.com/jobs/view/4488037920	built	BUILT	2026-11-06	2026-11-07	10	
-linkedin.com/jobs/view/4474080967	Wayve	Product Marketing Manager	https://www.linkedin.com/jobs/view/4474080967	queued		2026-11-06	2026-11-07	5	
-linkedin.com/jobs/view/4486786776	TikTok	Product Strategy & Operations Manager, Branding (Ads) - GBS	https://www.linkedin.com/jobs/view/4486786776	queued		2026-11-06	2026-11-07	5	
-careers.upstart.com/jobs?gh_jid=8350000	Upstart	Senior Product Manager, Marketing Platform	https://careers.upstart.com/jobs?gh_jid=8350000	queued		2026-11-04	2026-11-07	20	
-linkedin.com/jobs/view/4471401541	Rubrik	Senior Product Manager, Control Plane, RSC-G & Government	https://www.linkedin.com/jobs/view/4471401541	dropped	DROP:below-3.0	2026-09-24	2026-11-07	24	
-linkedin.com/jobs/view/4470633945	Logitech	Global eB2B Channel Marketing Manager	https://www.linkedin.com/jobs/view/4470633945	built	BUILT	2026-09-23	2026-11-07	24	
-linkedin.com/jobs/view/4470685166	VistaPrint	Pricing & Promotion Lead - US Remote	https://www.linkedin.com/jobs/view/4470685166	queued		2026-09-23	2026-11-07	23	
-linkedin.com/jobs/view/4478433863	Micron Technology	Market Intelligence Manager	https://www.linkedin.com/jobs/view/4478433863	built	BUILT	2026-10-15	2026-11-07	11	
-linkedin.com/jobs/view/4363194490	SPAN	Senior Software Product Manager - Homeowner	https://www.linkedin.com/jobs/view/4363194490	queued		2026-11-04	2026-11-07	9	
-linkedin.com/jobs/view/4469992964	Avathon	Corporate Strategist, Go-to-Market Strategy	https://www.linkedin.com/jobs/view/4469992964	queued		2026-09-22	2026-11-07	25	
-linkedin.com/jobs/view/4487555940	HP	Product Management Marketing Manager and Strategy for Consumer PC	https://www.linkedin.com/jobs/view/4487555940	built	BUILT	2026-11-05	2026-11-07	11	
-linkedin.com/jobs/view/4487542976	Mintive	Founding RevOps Lead	https://www.linkedin.com/jobs/view/4487542976	dropped	SKIP:duplicate-of-built-4484484844	2026-11-05	2026-11-07	11	
-linkedin.com/jobs/view/4479219005	Venmo	Lead Product Manager, Venmo Credit Card and Lending	https://www.linkedin.com/jobs/view/4479219005	queued		2026-11-05	2026-11-07	7	
-linkedin.com/jobs/view/4487514905	Amazon Web Services (AWS)	Product Marketing Manager — Tech, AWS Product Marketing	https://www.linkedin.com/jobs/view/4487514905	queued		2026-11-05	2026-11-07	7	
-linkedin.com/jobs/view/4487284301	Sierra	Product Marketing Manager	https://www.linkedin.com/jobs/view/4487284301	built	BUILT	2026-11-05	2026-11-07	11	
-linkedin.com/jobs/view/4485094541	Alcatraz	Sr. Product Marketing Manager	https://www.linkedin.com/jobs/view/4485094541	built	BUILT	2026-11-05	2026-11-07	8	
-linkedin.com/jobs/view/4476612920	vCluster	Revenue Operations Specialist	https://www.linkedin.com/jobs/view/4476612920	queued		2026-11-05	2026-11-07	8	
-linkedin.com/jobs/view/4485085297	TargetHR	Founder’s Office – Business & P&L	https://www.linkedin.com/jobs/view/4485085297	queued		2026-11-05	2026-11-07	9	
-jobs.ashbyhq.com/harvey/21b528c7-ca25-4caf-9b19-9709e2caab50	Harvey	Field Marketing Manager	https://jobs.ashbyhq.com/harvey/21b528c7-ca25-4caf-9b19-9709e2caab50	dropped	DROP:below-3.0	2026-11-03	2026-11-07	18	
-jobs.ashbyhq.com/plaid/6b08e0e9-2159-4002-bf54-b30dd5bda80c	Plaid	Business Operations	https://jobs.ashbyhq.com/plaid/6b08e0e9-2159-4002-bf54-b30dd5bda80c	built	BUILT	2026-11-03	2026-11-07	14	
-jobs.ashbyhq.com/cursor/5729deab-ba2b-4a39-bbdd-c981287d8515	Anysphere (Cursor)	Performance Marketing Manager	https://jobs.ashbyhq.com/cursor/5729deab-ba2b-4a39-bbdd-c981287d8515	dropped	DROP:known-skip (visa gate ruled it out)	2026-11-03	2026-11-07	12	
-jobs.ashbyhq.com/elevenlabs/a0389dc2-77d8-439b-960b-2acb8712991e	ElevenLabs	Enterprise Deployment - Chief of Staff	https://jobs.ashbyhq.com/elevenlabs/a0389dc2-77d8-439b-960b-2acb8712991e	dropped	DROP:below-3.0	2026-11-03	2026-11-07	11	
-databricks.com/company/careers/open-positions/job?gh_jid=8136071002	Databricks	Sr. Product Manager, Databricks AI	https://databricks.com/company/careers/open-positions/job?gh_jid=8136071002	built	BUILT	2026-11-04	2026-11-07	8	
-jobs.weekday.works/chief-of-staff-to-ceo-at-bureau-4386830544	Bureau	Chief of Staff to CEO	https://jobs.weekday.works/chief-of-staff-to-ceo-at-bureau-4386830544	built	BUILT	2026-11-04	2026-11-07	10	
-getmereferred.com/job-listing/manager-ceos-office-scry-ai-gurugram-5-to-10-years-experience-ef3bfae2-284f-4e0b-a744-4f734739ae91	Scry AI	Manager, CEO's Office	https://getmereferred.com/job-listing/manager-ceos-office-scry-ai-gurugram-5-to-10-years-experience-ef3bfae2-284f-4e0b-a744-4f734739ae91	dropped	DROP:no-target-role-match	2026-11-05	2026-11-07	7	
-cutshort.io/job/founder-s-office-growth-revenue-iit-college-only-bengaluru-bangalore-talent-pro--rgu736fu	Talent Pro client	Founder's Office - Growth & Revenue	https://cutshort.io/job/Founder-s-Office-Growth-Revenue-IIT-college-only-Bengaluru-Bangalore-Talent-Pro--RGu736fU	built	BUILT	2026-11-05	2026-11-07	7	
-linkedin.com/jobs/view/4486820744	Entrust Family Office	Chief of Staff - Founders' Office	https://www.linkedin.com/jobs/view/4486820744	queued		2026-11-03	2026-11-07	12	
-linkedin.com/jobs/view/4434082950	Kikoff	Senior Product Marketing Manager, Consumer	https://www.linkedin.com/jobs/view/4434082950	built	BUILT	2026-09-22	2026-11-07	10	
-jobs.ashbyhq.com/langchain/6a53f11d-5446-4ca2-baf5-c4b84d4986a7	LangChain	Performance Marketing Manager, Paid Search & AI Advertising	https://jobs.ashbyhq.com/langchain/6a53f11d-5446-4ca2-baf5-c4b84d4986a7	built	BUILT	2026-11-04	2026-11-07	12	
-linkedin.com/jobs/view/4484249085	ZynnexAI	Chief of Staff	https://www.linkedin.com/jobs/view/4484249085	built	BUILT	2026-11-04	2026-11-07	12	
-linkedin.com/jobs/view/4486851279	ResolveAI	Product Marketing Manager	https://www.linkedin.com/jobs/view/4486851279	built	BUILT	2026-11-04	2026-11-07	9	
-linkedin.com/jobs/view/4487070684	Parallel Web Systems	Deal Desk Manager	https://www.linkedin.com/jobs/view/4487070684	built	BUILT	2026-11-04	2026-11-07	12	
-linkedin.com/jobs/view/4487056757	Mintive	Founding RevOps Lead	https://www.linkedin.com/jobs/view/4487056757	queued		2026-11-04	2026-11-07	11	
-linkedin.com/jobs/view/4487033192	Coram AI	Revenue Operations Manager	https://www.linkedin.com/jobs/view/4487033192	built	BUILT	2026-11-04	2026-11-07	9	
-linkedin.com/jobs/view/4486060794	Empromptu.ai	Founding Growth Marketing Manager	https://www.linkedin.com/jobs/view/4486060794	queued		2026-11-04	2026-11-07	11	
-linkedin.com/jobs/view/4486861262	Otavo.ai	Entrepreneur in Residence	https://www.linkedin.com/jobs/view/4486861262	queued		2026-11-04	2026-11-07	11	
-linkedin.com/jobs/view/4484642292	Branly.ai	Entrepreneur in Residence (EIR), Growth and Revenue	https://www.linkedin.com/jobs/view/4484642292	queued		2026-11-04	2026-11-07	8	
-linkedin.com/jobs/view/4485061010	Littelfuse	Global Product Manager	https://www.linkedin.com/jobs/view/4485061010	queued		2026-11-04	2026-11-07	8	
-linkedin.com/jobs/view/4487222029	Zscaler	Senior Product Pricing Manager	https://www.linkedin.com/jobs/view/4487222029	built	BUILT	2026-11-04	2026-11-07	9	
-linkedin.com/jobs/view/4486328408	Applied Intuition	Product Manager - Data Engine	https://www.linkedin.com/jobs/view/4486328408	queued		2026-11-04	2026-11-07	8	
-coinbase.com/careers/positions/8348406?gh_jid=8348406	Coinbase	Senior Product Manager, Risk	https://www.coinbase.com/careers/positions/8348406?gh_jid=8348406	dropped	DROP:over-cap:7yrs-stated-cap6	2026-11-04	2026-11-07	12	
-linkedin.com/jobs/view/4487054982	Genentech	Marketing Manager, Ophthalmology Marketing	https://www.linkedin.com/jobs/view/4487054982	queued		2026-11-04	2026-11-07	11	
-linkedin.com/jobs/view/4484679451	TPI Global Solutions	Sales Operations Analyst - OEM	https://www.linkedin.com/jobs/view/4484679451	dropped	DROP:below-3.0	2026-11-04	2026-11-07	9	
-linkedin.com/jobs/view/4484674871	CoreWeave	Senior Finance Analyst, Go-to-Market (GTM) Finance	https://www.linkedin.com/jobs/view/4484674871	built	BUILT	2026-11-04	2026-11-07	10	
-linkedin.com/jobs/view/4470220924	Uber	Product Manager II - Payments	https://www.linkedin.com/jobs/view/4470220924	queued		2026-09-22	2026-11-07	8	
-instacart.careers/job?gh_jid=8347895	Instacart	Deal Desk Specialist	https://instacart.careers/job/?gh_jid=8347895	built	BUILT	2026-11-03	2026-11-07	13	
-linkedin.com/jobs/view/4486449624	Brain Co.	Sales Operations Manager	https://www.linkedin.com/jobs/view/4486449624	built	BUILT	2026-11-03	2026-11-07	13	
-linkedin.com/jobs/view/4486409238	Mintive	Founding RevOps Lead	https://www.linkedin.com/jobs/view/4486409238	queued		2026-11-03	2026-11-07	10	
-linkedin.com/jobs/view/4484625106	Walmart	(USA) Senior Product Manager - Fulfillment	https://www.linkedin.com/jobs/view/4484625106	queued		2026-11-03	2026-11-07	10	
-linkedin.com/jobs/view/4462030453	Ambient.ai	Senior Product Manager	https://www.linkedin.com/jobs/view/4462030453	queued		2026-11-03	2026-11-07	10	
-linkedin.com/jobs/view/4485763325	Tempus AI	Senior Product Manager	https://www.linkedin.com/jobs/view/4485763325	queued		2026-11-03	2026-11-07	10	
-linkedin.com/jobs/view/4486802600	Salesforce	Sr. Manager, Pricing Analytics & Strategy	https://www.linkedin.com/jobs/view/4486802600	queued		2026-11-03	2026-11-07	10	
-linkedin.com/jobs/view/4484609959	Outset	Revenue Operations Associate	https://www.linkedin.com/jobs/view/4484609959	built	BUILT	2026-11-03	2026-11-07	11	
-linkedin.com/jobs/view/4486014173	Google	Senior Product Manager, Discover Recommendations	https://www.linkedin.com/jobs/view/4486014173	queued		2026-11-03	2026-11-07	10	
-linkedin.com/jobs/view/4486496767	Salesforce	Senior Agentic Product Manager - MeshMesh	https://www.linkedin.com/jobs/view/4486496767	queued		2026-11-03	2026-11-07	10	
-linkedin.com/jobs/view/4485793943	Happen Bank	Sr Product Manager, Financial Crimes Compliance (FCC)	https://www.linkedin.com/jobs/view/4485793943	queued		2026-11-03	2026-11-07	10	
-linkedin.com/jobs/view/4485720784	Good Health Company	Chief of Staff - US Shift	https://www.linkedin.com/jobs/view/4485720784	queued		2026-11-03	2026-11-07	11	
-linkedin.com/jobs/view/4485772714	SupplyValid	Chief of Staff to the CEO	https://www.linkedin.com/jobs/view/4485772714	built	BUILT	2026-11-03	2026-11-07	13	
-linkedin.com/jobs/view/4485791472	Anthropic	Product Marketing Manager, Platform	https://www.linkedin.com/jobs/view/4485791472	queued		2026-11-03	2026-11-07	10	
-linkedin.com/jobs/view/4484392151	Applied Materials	Product Marketing Manager	https://www.linkedin.com/jobs/view/4484392151	queued		2026-11-03	2026-11-07	10	
-linkedin.com/jobs/view/4469794887	Virtuous	Product Marketing Manager- Intelligence	https://www.linkedin.com/jobs/view/4469794887	queued		2026-11-03	2026-11-07	10	
-linkedin.com/jobs/view/4484364505	Square	Senior Manager, GTM Strategy & Operations, Square	https://www.linkedin.com/jobs/view/4484364505	queued		2026-11-03	2026-11-07	10	
-linkedin.com/jobs/view/4484371136	TipTop Things Limited	Senior Manager - Founder's Office	https://www.linkedin.com/jobs/view/4484371136	queued		2026-11-03	2026-11-07	12	
-linkedin.com/jobs/view/4483861946	Pawzz Foundation	Founder's Office & Venture Building Partner	https://www.linkedin.com/jobs/view/4483861946	queued		2026-11-03	2026-11-07	12	
-jobs.ashbyhq.com/baseten/1e0cdfba-8271-4e95-ac86-02bc7d8d3cca	Baseten	Technical Product Marketing Manager	https://jobs.ashbyhq.com/baseten/1e0cdfba-8271-4e95-ac86-02bc7d8d3cca	built	BUILT	2026-10-30	2026-11-07	29	
-linkedin.com/jobs/view/4486140731	Refold AI	Product Marketing Manager	https://www.linkedin.com/jobs/view/4486140731	queued		2026-11-02	2026-11-07	12	
-linkedin.com/jobs/view/4450720928	Intuit	Money Revenue Strategy & Operations	https://www.linkedin.com/jobs/view/4450720928	queued		2026-09-21	2026-11-07	13	
-linkedin.com/jobs/view/4450357789	McAfee	Senior Product Manager – Artificial Intelligence	https://www.linkedin.com/jobs/view/4450357789	queued		2026-09-20	2026-11-07	10	
-linkedin.com/jobs/view/4464679965	Box	Strategy and Operations Manager, Consumption Products	https://www.linkedin.com/jobs/view/4464679965	built	BUILT	2026-11-03	2026-11-07	10	
-zapply.jobs/l/d/oracle-citizens-financial-49510	Citizens Financial Group	Private Bank, Deposit/Liquidity Product Manager	https://zapply.jobs/l/d/oracle-citizens-financial-49510?s=gh-new-grad-jobs-2027	queued		2026-10-30	2026-11-07	29	
-linkedin.com/jobs/view/4485430798	Volopay	Founder’s Office - Partnerships & Growth	https://www.linkedin.com/jobs/view/4485430798	queued		2026-11-02	2026-11-07	12	
-linkedin.com/jobs/view/4485406000	Scapia	Founders Office ( Reports to Chief of Staff)	https://www.linkedin.com/jobs/view/4485406000	queued		2026-11-02	2026-11-07	12	
-linkedin.com/jobs/view/4484303037	Riitek	Founders Office	https://www.linkedin.com/jobs/view/4484303037	queued		2026-11-02	2026-11-07	15	
-linkedin.com/jobs/view/4435304748	Zscaler	Product Marketing Manager - AI Protect	https://www.linkedin.com/jobs/view/4435304748	queued		2026-10-11	2026-11-07	26	
-linkedin.com/jobs/view/4478000140	Amazon Music	Sr. Product Marketing Manager, Amazon Music Audiobooks, Amazon Music Spoken Word	https://www.linkedin.com/jobs/view/4478000140	queued		2026-10-10	2026-11-07	29	
-linkedin.com/jobs/view/4475260028	Cloudflare	Technical Product Marketing Manager	https://www.linkedin.com/jobs/view/4475260028	queued		2026-10-10	2026-11-07	25	
-linkedin.com/jobs/view/4485944191	Mecka	Manager, Strategic Finance & Deal Desk	https://www.linkedin.com/jobs/view/4485944191	built	BUILT	2026-11-01	2026-11-07	16	
-linkedin.com/jobs/view/4483954056	VRD Source	Founder's Office - Senior | Portfolio Management Services | Powai / Bandra, Mumbai	https://www.linkedin.com/jobs/view/4483954056	built	BUILT	2026-11-01	2026-11-07	16	
-linkedin.com/jobs/view/4485176377	BoF Careers	Gap Manager - Pricing Enablement (Athleta)	https://www.linkedin.com/jobs/view/4485176377	queued		2026-11-01	2026-11-07	12	
-linkedin.com/jobs/view/4485131689	Sports Paddock	Founder's Office	https://www.linkedin.com/jobs/view/4485131689	queued		2026-11-01	2026-11-07	12	
-linkedin.com/jobs/view/4440667419	Veeva Systems	Product Manager - Vault CRM Suite	https://www.linkedin.com/jobs/view/4440667419	queued		2026-11-01	2026-11-07	12	
-linkedin.com/jobs/view/4485169634	Evlo AI	Marketing Manager	https://www.linkedin.com/jobs/view/4485169634	queued		2026-11-01	2026-11-07	12	
-linkedin.com/jobs/view/4485912309	Skyne Beauty	Senior CRM & Lifecycle Marketing Manager	https://www.linkedin.com/jobs/view/4485912309	queued		2026-11-01	2026-11-07	12	
-linkedin.com/jobs/view/4485935244	Roboflow	Sales Operations Analyst	https://www.linkedin.com/jobs/view/4485935244	queued		2026-11-01	2026-11-07	12	
-linkedin.com/jobs/view/4483982252	Intellicia	GTM Manager, US	https://www.linkedin.com/jobs/view/4483982252	queued		2026-11-01	2026-11-07	12	
-linkedin.com/jobs/view/4457742304	Alchemy	Senior Product Manager - Developer Platform	https://www.linkedin.com/jobs/view/4457742304	queued		2026-11-01	2026-11-07	12	
-linkedin.com/jobs/view/4460146488	MongoDB	Senior Product Manager	https://www.linkedin.com/jobs/view/4460146488	queued		2026-11-01	2026-11-07	12	
-linkedin.com/jobs/view/4467908424	Levelpath	Product Manager (San Francisco)	https://www.linkedin.com/jobs/view/4467908424	queued		2026-11-01	2026-11-07	12	
-linkedin.com/jobs/view/4485310019	E2M	Chief of Staff	https://www.linkedin.com/jobs/view/4485310019	dropped	DROP:duplicate-of-tracker-2047	2026-10-30	2026-11-07	16	
-linkedin.com/jobs/view/4485368242	Abridge	Revenue Operations Manager	https://www.linkedin.com/jobs/view/4485368242	queued		2026-10-31	2026-11-07	14	
-linkedin.com/jobs/view/4484841015	Good Health Company	Chief of Staff	https://www.linkedin.com/jobs/view/4484841015	queued		2026-10-31	2026-11-07	12	
-linkedin.com/jobs/view/4485619956	MotherDuck	Product Marketing Manager	https://www.linkedin.com/jobs/view/4485619956	queued		2026-10-31	2026-11-07	12	
-linkedin.com/jobs/view/4485650193	PhoenixAI (the original creator of StarRocks)	Performance Marketing Manager	https://www.linkedin.com/jobs/view/4485650193	built	BUILT	2026-10-31	2026-11-07	13	
-linkedin.com/jobs/view/4485122983	Ambarella Inc	Senior Product Marketing Manager	https://www.linkedin.com/jobs/view/4485122983	queued		2026-10-31	2026-11-07	12	
-linkedin.com/jobs/view/4485666527	Color	Engagement Marketing Manager	https://www.linkedin.com/jobs/view/4485666527	queued		2026-10-31	2026-11-07	12	
-linkedin.com/jobs/view/4466895958	Resonate	Senior Demand Generation Manager	https://www.linkedin.com/jobs/view/4466895958	queued		2026-10-31	2026-11-07	12	
-linkedin.com/jobs/view/4484887050	KQED	Business Operations Analyst	https://www.linkedin.com/jobs/view/4484887050	queued		2026-10-31	2026-11-07	12	
-linkedin.com/jobs/view/4484956873	Highwire	Channel Marketing Manager (Contract)	https://www.linkedin.com/jobs/view/4484956873	queued		2026-10-30	2026-11-07	13	
-linkedin.com/jobs/view/4432482073	Snowflake	Field Marketing Manager - West	https://www.linkedin.com/jobs/view/4432482073	queued		2026-10-30	2026-11-07	13	
-linkedin.com/jobs/view/4482599776	Zylu	Growth Head.	https://www.linkedin.com/jobs/view/4482599776	queued		2026-10-30	2026-11-07	13	
-linkedin.com/jobs/view/4485235793	Arena	Product Marketing Manager	https://www.linkedin.com/jobs/view/4485235793	queued		2026-10-30	2026-11-07	13	
-linkedin.com/jobs/view/4484572148	Morphe	Product Marketing Manager	https://www.linkedin.com/jobs/view/4484572148	dropped	DROP:below-3.0	2026-10-30	2026-11-07	13	
-linkedin.com/jobs/view/4484944253	PropSarathi	Founder’s Office Lead	https://www.linkedin.com/jobs/view/4484944253	queued		2026-10-30	2026-11-07	13	
-job-boards.greenhouse.io/scaleai/jobs/4748328005	ScaleAI	Product Marketing Lead, Enterprise	https://job-boards.greenhouse.io/scaleai/jobs/4748328005	dropped	DROP:duplicate-of-tracker-1986	2026-10-29	2026-11-07	20	
-boards.greenhouse.io/figma/jobs/6235320004?gh_jid=6235320004	Figma	Sales Operations Manager	https://boards.greenhouse.io/figma/jobs/6235320004?gh_jid=6235320004	dropped	DROP:duplicate-of-tracker-1994	2026-10-29	2026-11-07	20	
-jobs.ashbyhq.com/harvey/bc94becd-102e-49a1-abdc-5ce42076a68d	Harvey	Senior Product Manager, Embedded Experiences	https://jobs.ashbyhq.com/harvey/bc94becd-102e-49a1-abdc-5ce42076a68d	dropped	DROP:duplicate-of-tracker-1924	2026-10-28	2026-11-07	21	
-linkedin.com/jobs/view/4460045443	Wealthfront	Senior Marketing Manager - Strategic Partnerships	https://www.linkedin.com/jobs/view/4460045443	dropped	DROP:below-3.0	2026-09-23	2026-11-07	15	
-linkedin.com/jobs/view/4483877712	SalesMonk.ai	Founder's Office - Fulfillment Lead	https://www.linkedin.com/jobs/view/4483877712	queued		2026-10-29	2026-11-07	14	
-linkedin.com/jobs/view/4484783030	Endor Labs	Technical Product Marketing Manager	https://www.linkedin.com/jobs/view/4484783030	dropped	DROP:below-3.0	2026-10-29	2026-11-07	14	
-coinbase.com/careers/positions/8318557?gh_jid=8318557	Coinbase	Senior Enterprise Product Manager, FP&A	https://www.coinbase.com/careers/positions/8318557?gh_jid=8318557	dropped	DROP:below-3.0	2026-10-29	2026-11-07	14	
-linkedin.com/jobs/view/4474999273	Intapp	Senior Product Marketing Manager, Compliance Solutions	https://www.linkedin.com/jobs/view/4474999273	queued		2026-10-29	2026-11-07	14	
-linkedin.com/jobs/view/4484723117	Blacksmith Agency	Growth Marketing Manager (Remote, Washington)	https://www.linkedin.com/jobs/view/4484723117	queued		2026-10-29	2026-11-07	14	
-linkedin.com/jobs/view/4483882153	Elevation Capital	Chief of Staff	https://www.linkedin.com/jobs/view/4483882153	built	BUILT	2026-10-29	2026-11-07	15	
-linkedin.com/jobs/view/4482292212	Hey Recruiting Agency	Chief of Staff	https://www.linkedin.com/jobs/view/4482292212	dropped	DROP:below-3.0	2026-10-29	2026-11-07	14	
-linkedin.com/jobs/view/4483867288	Z47 Portfolio Company	Head of Growth	https://www.linkedin.com/jobs/view/4483867288	dropped	DROP:below-3.0	2026-10-29	2026-11-07	14	
-mongodb.com/careers/job?gh_jid=8327081	MongoDB	Product Manager 2, Source2Pay	https://www.mongodb.com/careers/job/?gh_jid=8327081	dropped	DROP:below-3.0	2026-10-29	2026-11-07	14	
-linkedin.com/jobs/view/4483872022	Antal International	Head – Founder's Office	https://www.linkedin.com/jobs/view/4483872022	dropped	DROP:below-3.0	2026-10-29	2026-11-07	14	
-jobs.apple.com/en-us/details/200690599/product-manager-generative-ai-ai-data-platforms-aidp	Apple	Product Manager - Generative AI, Ai & Data Platforms (AiDP)	https://jobs.apple.com/en-us/details/200690599/product-manager-generative-ai-ai-data-platforms-aidp	dropped	DROP:below-3.0	2026-10-29	2026-11-07	12	
-zapply.jobs/l/d/lever-thinkahead-4adc622d-3611-4707-a996-cff0c313b106	AHEAD	Product Manager	https://zapply.jobs/l/d/lever-thinkahead-4adc622d-3611-4707-a996-cff0c313b106?s=gh-new-grad-jobs-2027	built	BUILT	2026-10-27	2026-11-07	27	
-linkedin.com/jobs/view/4476564836	Rakuten Rewards	Product Marketing Manager	https://www.linkedin.com/jobs/view/4476564836	queued		2026-10-08	2026-11-07	16	
-linkedin.com/jobs/view/4484466955	Versapay	Revenue Operations Manager	https://www.linkedin.com/jobs/view/4484466955	queued		2026-10-29	2026-11-07	15	
-linkedin.com/jobs/view/4484458486	Amazon Web Services (AWS)	Sr Product Marketing Manager, Tech - Security and Growth , AWS Product Marketing	https://www.linkedin.com/jobs/view/4484458486	queued		2026-10-29	2026-11-07	15	
-linkedin.com/jobs/view/4465233946	Vagaro	Senior Creative Strategist, Growth Marketing	https://www.linkedin.com/jobs/view/4465233946	queued		2026-10-29	2026-11-07	15	
-linkedin.com/jobs/view/4482572035	DoorDash	Senior Associate, Strategy & Operations, DoorDash for Business (Merchant)	https://www.linkedin.com/jobs/view/4482572035	built	BUILT	2026-10-29	2026-11-07	16	
-linkedin.com/jobs/view/4483613295	Soulace Consulting Pvt Ltd	Chief Of Staff to CEO's Office	https://www.linkedin.com/jobs/view/4483613295	queued		2026-10-27	2026-11-07	18	
-linkedin.com/jobs/view/4467128989	GigaDevice Semiconductor Inc.	Regional Marketing Manager	https://www.linkedin.com/jobs/view/4467128989	queued		2026-10-28	2026-11-07	14	
-linkedin.com/jobs/view/4467452087	Cisco	Paid Media Marketing Manager	https://www.linkedin.com/jobs/view/4467452087	built	BUILT	2026-10-28	2026-11-07	15	
-linkedin.com/jobs/view/4481889357	InfrOS	Product Marketing Manager	https://www.linkedin.com/jobs/view/4481889357	queued		2026-10-28	2026-11-07	16	
-linkedin.com/jobs/view/4439058105	Anrok	Product Marketing Lead	https://www.linkedin.com/jobs/view/4439058105	built	BUILT	2026-10-28	2026-11-07	15	
-linkedin.com/jobs/view/4484200241	Cogent	Revenue Operations Lead, West	https://www.linkedin.com/jobs/view/4484200241	built	BUILT	2026-10-28	2026-11-07	18	
-linkedin.com/jobs/view/4484226277	Blacksmith Agency	Growth Marketing Manager (Remote, San Diego)	https://www.linkedin.com/jobs/view/4484226277	queued		2026-10-28	2026-11-07	14	
-linkedin.com/jobs/view/4484221638	Blacksmith Agency	Growth Marketing Manager (Remote, San Antonio)	https://www.linkedin.com/jobs/view/4484221638	queued		2026-10-28	2026-11-07	14	
-linkedin.com/jobs/view/4484012895	Corenza for HRs	Founder Office	https://www.linkedin.com/jobs/view/4484012895	queued		2026-10-28	2026-11-07	14	
-linkedin.com/jobs/view/4465188564	Envoy	Demand Generation Manager	https://www.linkedin.com/jobs/view/4465188564	queued		2026-10-04	2026-11-07	34	
-linkedin.com/jobs/view/4483293114	DrWell® Connect	Growth Marketing Manager	https://www.linkedin.com/jobs/view/4483293114	queued		2026-10-27	2026-11-07	15	
-linkedin.com/jobs/view/4483245357	ByteDance	Card Growth Strategy Product Manager - Global Payment	https://www.linkedin.com/jobs/view/4483245357	queued		2026-10-27	2026-11-07	15	
-linkedin.com/jobs/view/4481477809	InfrOS	Product Marketing Manager	https://www.linkedin.com/jobs/view/4481477809	queued		2026-10-27	2026-11-07	15	
-linkedin.com/jobs/view/4483252492	Intel	Sales Operations Analyst	https://www.linkedin.com/jobs/view/4483252492	queued		2026-10-27	2026-11-07	15	
-linkedin.com/jobs/view/4482986611	Techdome	Founder’s Office: Strategy & Execution Associate	https://www.linkedin.com/jobs/view/4482986611	queued		2026-10-27	2026-11-07	15	
-linkedin.com/jobs/view/4482989966	ENEG Mobility	Founder's Office	https://www.linkedin.com/jobs/view/4482989966	queued		2026-10-27	2026-11-07	15	
-linkedin.com/jobs/view/4438522291	Supermicro	Product Marketing Manager	https://www.linkedin.com/jobs/view/4438522291	queued		2026-10-05	2026-11-07	20	
-linkedin.com/jobs/view/4196162752	Sesame	Product Manager, Hardware	https://www.linkedin.com/jobs/view/4196162752	dropped	DROP:below-3.0	2026-10-05	2026-11-07	17	
-linkedin.com/jobs/view/4411247108	Replit	Senior/Product Marketing Manager	https://www.linkedin.com/jobs/view/4411247108	queued		2026-10-05	2026-11-07	20	
-linkedin.com/jobs/view/4437586567	Harvey	Senior Product Marketing Manager, Core	https://www.linkedin.com/jobs/view/4437586567	queued		2026-10-05	2026-11-07	20	
-linkedin.com/jobs/view/4447203725	Jacobs	Proposal Manager, Geographic Sales Operations - NorCal U.S.	https://www.linkedin.com/jobs/view/4447203725	dropped	DROP:below-3.0	2026-10-05	2026-11-07	17	
-linkedin.com/jobs/view/4420685741	Picarro	Product Manager, Natural Gas	https://www.linkedin.com/jobs/view/4420685741	dropped	DROP:below-3.0	2026-10-05	2026-11-07	17	
-linkedin.com/jobs/view/4475351893	Cisco	Sr. Technical Product Marketing Manager, AI and AgenticOps	https://www.linkedin.com/jobs/view/4475351893	dropped	DROP:below-3.0	2026-10-04	2026-11-07	17	
-linkedin.com/jobs/view/4465150470	Cytek Biosciences	Sales Operations Data Analyst	https://www.linkedin.com/jobs/view/4465150470	queued		2026-10-04	2026-11-07	20	
-linkedin.com/jobs/view/4482922453	interface.ai	Senior Product Manager	https://www.linkedin.com/jobs/view/4482922453	queued		2026-10-26	2026-11-07	19	
-linkedin.com/jobs/view/4455343611	Synack	Product Manager, AI	https://www.linkedin.com/jobs/view/4455343611	dropped	DROP:below-3.0	2026-10-26	2026-11-07	16	
-linkedin.com/jobs/view/4466415314	Amazon	Senior Product Manager – Technical (PMT), Devices & Services Sustainability	https://www.linkedin.com/jobs/view/4466415314	dropped	DROP:below-3.0	2026-10-26	2026-11-07	16	
-linkedin.com/jobs/view/4475351653	IronRidge - An Enstall Company	Product Manager - Engineered Hardware	https://www.linkedin.com/jobs/view/4475351653	dropped	DROP:below-3.0	2026-10-26	2026-11-07	16	
-linkedin.com/jobs/view/4482931105	TikTok	Product Manager Graduate (TikTok LIVE - Platform Trust And Ecosystem) - 2027 Start	https://www.linkedin.com/jobs/view/4482931105	dropped	DROP:below-3.0	2026-10-26	2026-11-07	16	
-linkedin.com/jobs/view/4482920343	Antora Energy	Product Manager	https://www.linkedin.com/jobs/view/4482920343	dropped	DROP:below-3.0	2026-10-26	2026-11-07	16	
-linkedin.com/jobs/view/4482901640	Wingy	Founder's Office	https://www.linkedin.com/jobs/view/4482901640	queued		2026-10-26	2026-11-07	19	
-linkedin.com/jobs/view/4457503819	Coinbase	Product Manager II, Workspace and Multi-User	https://www.linkedin.com/jobs/view/4457503819	dropped	DROP:below-3.0	2026-10-26	2026-11-07	16	
-linkedin.com/jobs/view/4466426211	Amazon Web Services (AWS)	Sr. Partner Marketing Manager, NAMER Strategic Customer and Partner Marketing	https://www.linkedin.com/jobs/view/4466426211	dropped	DROP:below-3.0	2026-10-26	2026-11-07	16	
-linkedin.com/jobs/view/4482675662	Haystack	Marketing Manager	https://www.linkedin.com/jobs/view/4482675662	queued		2026-10-26	2026-11-07	16	
-linkedin.com/jobs/view/4483367906	Elantis	Renewals Operations Specialist – Sales Operations & Salesforce	https://www.linkedin.com/jobs/view/4483367906	dropped	DROP:below-3.0	2026-10-26	2026-11-07	16	
-linkedin.com/jobs/view/4481410223	Joveo	Senior Associate - CEO's Office	https://www.linkedin.com/jobs/view/4481410223	queued		2026-10-26	2026-11-07	19	
-linkedin.com/jobs/view/4481089226	Kanikanna	Founder's Office	https://www.linkedin.com/jobs/view/4481089226	dropped	DROP:below-3.0	2026-10-26	2026-11-07	16	
-linkedin.com/jobs/view/4482694203	ElloMind	Founder's Office – Operations & Execution	https://www.linkedin.com/jobs/view/4482694203	dropped	DROP:below-3.0	2026-10-26	2026-11-07	16	
-linkedin.com/jobs/view/4456654585	Commence	Pricing Manager	https://www.linkedin.com/jobs/view/4456654585	queued		2026-10-05	2026-11-07	17	
-jobs.weekday.works/wkdyu4hrpe	Grant Thornton Bharat LLP	Chief of Staff to Office Managing Partner	https://jobs.weekday.works/wkdyu4hrpe	dropped	DROP:duplicate-of-tracked-row-1635	2026-10-22	2026-11-07	25	
-zapply.jobs/l/d/workday-danaher-danaherjobs-r1321073	Danaher	Associate Product Manager - Strategic Programs & Partnerships	https://zapply.jobs/l/d/workday-danaher-danaherjobs-R1321073?s=gh-new-grad-jobs-2027	dropped	DROP:duplicate-already-queued-tracker-1655	2026-10-22	2026-11-07	37	
-linkedin.com/jobs/view/4464220912	MKS Inc.	Product Marketing Manager	https://www.linkedin.com/jobs/view/4464220912	dropped	DROP:below-3.0	2026-10-04	2026-11-07	33	
-linkedin.com/jobs/view/4482612762	Voice Arena	Chief of Staff, Voice Arena	https://www.linkedin.com/jobs/view/4482612762	dropped	DROP:duplicate-already-queued-tracker-1778	2026-10-24	2026-11-07	21	
-linkedin.com/jobs/view/4436850192	Everpure	Senior Product Manager – AI & Workflow Automation, Pure1	https://www.linkedin.com/jobs/view/4436850192	queued		2026-10-04	2026-11-07	17	
-linkedin.com/jobs/view/4473187730	NetSuite	Senior Product Manager, NetSuite AI-Enhanced Administration & Agent Management	https://www.linkedin.com/jobs/view/4473187730	queued		2026-10-03	2026-11-07	17	
-linkedin.com/jobs/view/4475057397	Amazon	Deal and Contract Ops Manager, eero Business Operations	https://www.linkedin.com/jobs/view/4475057397	queued		2026-10-03	2026-11-07	20	
-linkedin.com/jobs/view/4474780919	Instawork	Business Operations Associate, AI & Automation	https://www.linkedin.com/jobs/view/4474780919	queued		2026-10-25	2026-11-07	19	
-linkedin.com/jobs/view/4475004289	Amazon Web Services (AWS)	Sr. Partner Marketing Manager, AI Partner Marketing	https://www.linkedin.com/jobs/view/4475004289	queued		2026-10-25	2026-11-07	16	
-linkedin.com/jobs/view/4473196443	Ema	Product Manager	https://www.linkedin.com/jobs/view/4473196443	queued		2026-10-25	2026-11-07	16	
-linkedin.com/jobs/view/4435332613	Turo	Lead Product Manager, Guest – Discovery & Search	https://www.linkedin.com/jobs/view/4435332613	queued		2026-10-25	2026-11-07	16	
-linkedin.com/jobs/view/4456772317	Braze	Senior Partner Marketing Manager	https://www.linkedin.com/jobs/view/4456772317	queued		2026-10-25	2026-11-07	16	
-linkedin.com/jobs/view/4464274892	Meta	Competitive Intelligence Program Manager	https://www.linkedin.com/jobs/view/4464274892	queued		2026-10-25	2026-11-07	16	
-linkedin.com/jobs/view/4463931244	GoodRx	GTM Manager, Media Strategy & Execution	https://www.linkedin.com/jobs/view/4463931244	queued		2026-10-25	2026-11-07	16	
-linkedin.com/jobs/view/4455907837	Amazon Web Services (AWS)	Marketing Manager, AWS Agentic AI Developer Tools	https://www.linkedin.com/jobs/view/4455907837	queued		2026-10-02	2026-11-07	17	
-linkedin.com/jobs/view/4470739211	ASUS	Sr. Product Marketing Specialist - Consumer Laptop	https://www.linkedin.com/jobs/view/4470739211	queued		2026-09-26	2026-11-07	17	
-linkedin.com/jobs/view/4483179926	Ambience Healthcare	Product Manager, Emergency Department Platform	https://www.linkedin.com/jobs/view/4483179926	queued		2026-10-24	2026-11-07	16	
-linkedin.com/jobs/view/4482328080	Juicebox	Growth Marketing Manager	https://www.linkedin.com/jobs/view/4482328080	queued		2026-10-24	2026-11-07	16	
-apply.workable.com/fmx/j/d5c8eeabc3/apply	Facilities Management Express	Technical Product Manager	https://apply.workable.com/fmx/j/D5C8EEABC3/apply	dropped	DROP:below-3.0	2026-10-22	2026-11-07	31	
-zapply.jobs/l/d/google-143083158491800262	Google	Product Manager, Search Intelligence	https://zapply.jobs/l/d/google-143083158491800262?s=gh-new-grad-jobs-2027	dropped	DROP:below-3.0	2026-10-22	2026-11-07	25	
-linkedin.com/jobs/view/4474541139	Atlassian	Manager, Deal Desk	https://www.linkedin.com/jobs/view/4474541139	queued		2026-10-23	2026-11-07	19	
-careers-page.com/ttukoffer/job/x94x537r	ttukoffer (client)	Head of Growth and Distribution	https://careers-page.com/ttukoffer/job/X94X537R	dropped	DROP:duplicate-of-tracked-row-1191	2026-10-12	2026-11-07	23	
-linkedin.com/jobs/view/4465843867	Skydio	Senior Product Manager, Dock Hardware Platform	https://www.linkedin.com/jobs/view/4465843867	queued		2026-10-03	2026-11-07	16	
-linkedin.com/jobs/view/4481196979	BoF Careers	Gap Inc. Analyst - Pricing Optimization	https://www.linkedin.com/jobs/view/4481196979	queued		2026-10-22	2026-11-07	21	
-linkedin.com/jobs/view/4472187780	MGT Insurance	Insurance Product Manager	https://www.linkedin.com/jobs/view/4472187780	queued		2026-10-01	2026-11-07	19	
-linkedin.com/jobs/view/4463520476	Thirdlove	Growth Marketing Manager: Paid Search and Display	https://www.linkedin.com/jobs/view/4463520476	queued		2026-10-01	2026-11-07	19	
-linkedin.com/jobs/view/4446540146	Dexmate	Growth Marketing Manager	https://www.linkedin.com/jobs/view/4446540146	queued		2026-10-01	2026-11-07	19	
-linkedin.com/jobs/view/4480065938	EY	Manager - AI Product Manager	https://www.linkedin.com/jobs/view/4480065938	queued		2026-10-23	2026-11-07	18	
-linkedin.com/jobs/view/4480087164	EY	Manager - AI Product Manager	https://www.linkedin.com/jobs/view/4480087164	queued		2026-10-23	2026-11-07	18	
-linkedin.com/jobs/view/4359079170	Zūm	Senior Product Manager	https://www.linkedin.com/jobs/view/4359079170	queued		2026-10-23	2026-11-07	18	
-linkedin.com/jobs/view/4429778671	Finch	Product Marketing Manager	https://www.linkedin.com/jobs/view/4429778671	queued		2026-10-02	2026-11-07	18	
-linkedin.com/jobs/view/4452514053	Palo Alto Networks	Senior Product Manager - Business Applications AI	https://www.linkedin.com/jobs/view/4452514053	queued		2026-10-23	2026-11-07	17	
-linkedin.com/jobs/view/4480043428	SalesMonk.ai	Founder's Office - Fulfillment Lead	https://www.linkedin.com/jobs/view/4480043428	queued		2026-10-23	2026-11-07	17	
-linkedin.com/jobs/view/4481371235	KUKA	Chief of Staff – MD’s Office	https://www.linkedin.com/jobs/view/4481371235	queued		2026-10-23	2026-11-07	17	
-linkedin.com/jobs/view/4480026778	Bharti AXA Life Insurance	Head of Growth	https://www.linkedin.com/jobs/view/4480026778	queued		2026-10-23	2026-11-07	17	
-linkedin.com/jobs/view/4482703208	Stable	Product Marketing Manager	https://www.linkedin.com/jobs/view/4482703208	queued		2026-10-23	2026-11-07	17	
-linkedin.com/jobs/view/4479467178	Cloudflare	GTM Data Specialist, Consumption & Revenue Operations	https://www.linkedin.com/jobs/view/4479467178	queued		2026-10-22	2026-11-07	19	
-linkedin.com/jobs/view/4479463344	Applied Materials	Product Manager III	https://www.linkedin.com/jobs/view/4479463344	queued		2026-10-22	2026-11-07	22	
-linkedin.com/jobs/view/4469126775	Feathery	Product Marketing Manager (US Remote)	https://www.linkedin.com/jobs/view/4469126775	queued		2026-10-22	2026-11-07	23	
-brex.com/careers/8895839002?gh_jid=8895839002	Brex	Senior Field Marketing Manager	https://www.brex.com/careers/8895839002?gh_jid=8895839002	dropped	DROP:already-tracked-dup	2026-10-21	2026-11-07	23	
-linkedin.com/jobs/view/4473573133	Amazon Web Services (AWS)	Senior Marketing Manager, Security and Growth , AWS Product Marketing	https://www.linkedin.com/jobs/view/4473573133	queued		2026-09-30	2026-11-07	19	
-linkedin.com/jobs/view/4479420814	Air Apps	Digital Marketing Manager	https://www.linkedin.com/jobs/view/4479420814	queued		2026-10-22	2026-11-07	18	
-linkedin.com/jobs/view/4480703050	Ascendion	Marketing Manager	https://www.linkedin.com/jobs/view/4480703050	queued		2026-10-22	2026-11-07	21	
-linkedin.com/jobs/view/4482449162	Groq	Technical Product Marketing Manager	https://www.linkedin.com/jobs/view/4482449162	queued		2026-10-22	2026-11-07	18	
-linkedin.com/jobs/view/4481322007	ConsultBae	Founder’s Office – Business Planning & Analysis | IIM/IIT/SRCC	https://www.linkedin.com/jobs/view/4481322007	queued		2026-10-22	2026-11-07	18	
-linkedin.com/jobs/view/4482163097	ManageCasa	Growth Marketing Manager	https://www.linkedin.com/jobs/view/4482163097	queued		2026-10-22	2026-11-07	18	
-linkedin.com/jobs/view/4482120267	Upwind Security	Product Marketing Manager	https://www.linkedin.com/jobs/view/4482120267	queued		2026-10-22	2026-11-07	18	
-about.nextdoor.com/careers-list?gh_jid=8259945	Nextdoor	Product Marketing Lead	https://about.nextdoor.com/careers-list/?gh_jid=8259945	dropped	DROP:duplicate-of-tracked-role-1603	2026-10-20	2026-11-07	24	
-linkedin.com/jobs/view/4454444400	Peregrine	Deal Desk & Pricing Analyst	https://www.linkedin.com/jobs/view/4454444400	queued		2026-09-30	2026-11-07	21	
-linkedin.com/jobs/view/4482047478	Skyne Beauty	E-commerce & Growth Marketing Manager	https://www.linkedin.com/jobs/view/4482047478	queued		2026-10-21	2026-11-07	20	
-linkedin.com/jobs/view/4482032697	Lovart AI	Growth & Integrated Marketing Manager, North America	https://www.linkedin.com/jobs/view/4482032697	queued		2026-10-21	2026-11-07	20	
-linkedin.com/jobs/view/4478942978	Superhuman	Senior Lifecycle Marketing Manager	https://www.linkedin.com/jobs/view/4478942978	queued		2026-10-21	2026-11-07	20	
-linkedin.com/jobs/view/4478905782	Cash App	Lifecycle Marketing Manager	https://www.linkedin.com/jobs/view/4478905782	queued		2026-10-21	2026-11-07	20	
-linkedin.com/jobs/view/4480714764	Google	Lifecycle Marketing Manager, Google Gemini	https://www.linkedin.com/jobs/view/4480714764	queued		2026-10-21	2026-11-07	20	
-linkedin.com/jobs/view/4474840857	Array	Digital Marketing Manager	https://www.linkedin.com/jobs/view/4474840857	queued		2026-10-21	2026-11-07	20	
-job-boards.greenhouse.io/robinhood/jobs/8265728	Robinhood	Senior Product Manager, Advisor Marketplace	https://job-boards.greenhouse.io/robinhood/jobs/8265728	queued		2026-10-21	2026-11-07	16	
-linkedin.com/jobs/view/4480961796	Rebel Foods	Founders Office - Associate/Manager	https://www.linkedin.com/jobs/view/4480961796	queued		2026-10-20	2026-11-07	20	
-linkedin.com/jobs/view/4466140950	Anthropic	Product Marketing Manager, Platform	https://www.linkedin.com/jobs/view/4466140950	queued		2026-10-07	2026-11-07	27	
-linkedin.com/jobs/view/4471393390	Anthropic	Solutions Marketing Manager, Cybersecurity	https://www.linkedin.com/jobs/view/4471393390	queued		2026-09-29	2026-11-07	34	
-linkedin.com/jobs/view/4480218448	Google	Product Marketing Manager, Cloud AI, Gemini Enterprise	https://www.linkedin.com/jobs/view/4480218448	queued		2026-10-20	2026-11-07	19	
-linkedin.com/jobs/view/4480212714	Google	Product Marketing Manager, Cloud AI, Gemini Enterprise	https://www.linkedin.com/jobs/view/4480212714	queued		2026-10-20	2026-11-07	19	
-linkedin.com/jobs/view/4481293801	Amazon	Sr. Product Marketing Manager, Ads Marketing	https://www.linkedin.com/jobs/view/4481293801	queued		2026-10-20	2026-11-07	19	
-linkedin.com/jobs/view/4481538029	Nerdio	Senior Revenue Operations Manager	https://www.linkedin.com/jobs/view/4481538029	queued		2026-10-20	2026-11-07	19	
-linkedin.com/jobs/view/4478634695	Clerkie	Product Manager	https://www.linkedin.com/jobs/view/4478634695	queued		2026-10-20	2026-11-07	19	
-linkedin.com/jobs/view/4481290006	Roo	Revenue Operations Analyst	https://www.linkedin.com/jobs/view/4481290006	queued		2026-10-20	2026-11-07	19	
-linkedin.com/jobs/view/4478615725	impact.com	Senior Revenue Operations Analyst	https://www.linkedin.com/jobs/view/4478615725	queued		2026-10-20	2026-11-07	19	
-linkedin.com/jobs/view/4480205969	Google	Product Manager II, Geo Guidance Experience	https://www.linkedin.com/jobs/view/4480205969	queued		2026-10-20	2026-11-07	19	
-linkedin.com/jobs/view/4456051265	Rundoo	Growth Marketing Manager	https://www.linkedin.com/jobs/view/4456051265	queued		2026-10-04	2026-11-07	31	
-linkedin.com/jobs/view/4476905196	Navitus Health Solutions	Manager, Pricing and Underwriting	https://www.linkedin.com/jobs/view/4476905196	queued		2026-10-08	2026-11-07	25	
-linkedin.com/jobs/view/4474481995	Lyten	Manager, Sales Operations & Order Administration	https://www.linkedin.com/jobs/view/4474481995	queued		2026-10-08	2026-11-07	24	
-linkedin.com/jobs/view/4477110179	Mélange Digital	Chief of Staff to the Chief Executive Officer	https://www.linkedin.com/jobs/view/4477110179	queued		2026-10-08	2026-11-07	24	
-linkedin.com/jobs/view/4474458001	Com Olho	Founder's Office	https://www.linkedin.com/jobs/view/4474458001	queued		2026-10-08	2026-11-07	24	
-linkedin.com/posts/hunger-inc-hospitality_hungerinc-hiring-wearehiring-activity-7498261774341861376-x-ry	Hunger Inc.	Chief of Staff, New Store Development & Expansion	https://www.linkedin.com/posts/hunger-inc-hospitality_hungerinc-hiring-wearehiring-activity-7498261774341861376-X-Ry?utm_source=share&utm_medium=member_desktop&rcm=ACoAACyt6owBgCJAq-TByNiprZWFxqH4aBa72eo	dropped	DROP:no-real-jd-announcement-post	2026-09-22	2026-11-07	49	
-linkedin.com/jobs/view/4476102315	EarnIn	Senior Growth Marketing Manager, Paid Social	https://www.linkedin.com/jobs/view/4476102315	queued		2026-10-06	2026-11-07	26	
-linkedin.com/jobs/view/4473645473	Puffy	Marketing Manager , AI-First (Remote)	https://www.linkedin.com/jobs/view/4473645473	queued		2026-10-06	2026-11-07	26	
-linkedin.com/jobs/view/4474630814	Access Legal	100% Remote Senior Growth Marketing Manager	https://www.linkedin.com/jobs/view/4474630814	queued		2026-10-06	2026-11-07	26	
-linkedin.com/jobs/view/4474653576	Runlayer	Demand Generation Lead	https://www.linkedin.com/jobs/view/4474653576	queued		2026-10-06	2026-11-07	26	
-linkedin.com/jobs/view/4476110175	Arango	Senior Manager, Demand Generation, Digital & Performance Marketing - USA	https://www.linkedin.com/jobs/view/4476110175	queued		2026-10-06	2026-11-07	26	
-linkedin.com/jobs/view/4470552436	Meta	Product Marketing Manager, Threads	https://www.linkedin.com/jobs/view/4470552436	queued		2026-09-26	2026-11-07	34	
-linkedin.com/jobs/view/4436647696	Walmart	(USA) Senior Product Manager	https://www.linkedin.com/jobs/view/4436647696	queued		2026-10-05	2026-11-07	26	
-jobs.ashbyhq.com/sapiom/5a91ce90-ce03-492b-85ce-caa480d11dee/application	Sapiom	Growth Marketing Manager	https://jobs.ashbyhq.com/sapiom/5a91ce90-ce03-492b-85ce-caa480d11dee/application	queued		2026-10-05	2026-11-07	26	
-linkedin.com/posts/madhuri-kalburgi_we-are-hiring-for-the-position-of-chief-of-activity-7495355502021865472-fm5p	leading marketing agencies	Chief of Staff to the CEO	https://www.linkedin.com/posts/madhuri-kalburgi_we-are-hiring-for-the-position-of-chief-of-activity-7495355502021865472-FM5P?utm_source=share&utm_medium=member_desktop&rcm=ACoAACyt6owBgCJAq-TByNiprZWFxqH4aBa72eo	queued		2026-09-22	2026-11-07	43	
-linkedin.com/jobs/view/4473885992	Javelin Venture Partners	Senior Manager, Brand & Product Marketing	https://www.linkedin.com/jobs/view/4473885992	queued		2026-10-04	2026-11-07	30	
-linkedin.com/jobs/view/4473879089	DICHIT	Founder’s Office – Senior: Growth, Strategy & Partnerships	https://www.linkedin.com/jobs/view/4473879089	queued		2026-10-04	2026-11-07	30	
-linkedin.com/jobs/view/4410083611	Rubrik	Staff Product Manager, IT - GTM	https://www.linkedin.com/jobs/view/4410083611	queued		2026-10-04	2026-11-07	28	
-linkedin.com/jobs/view/4457378109	Pinterest	Sr. Ads Product Marketing Manager- Ads Delivery	https://www.linkedin.com/jobs/view/4457378109	queued		2026-10-04	2026-11-07	30	
-linkedin.com/jobs/view/4408891205	Molex	Technical Marketing Manager	https://www.linkedin.com/jobs/view/4408891205	dropped	QUEUED-DUP:already-row-723	2026-10-03	2026-11-07	33	
-linkedin.com/jobs/view/4475047645	Vibrant Wellness	Revenue Operations Specialist	https://www.linkedin.com/jobs/view/4475047645	queued		2026-10-03	2026-11-07	29	
-jobs.ashbyhq.com/lance/a4d0d349-2642-4f96-b8aa-f283366a1507	Lance	Product Marketing Manager	https://jobs.ashbyhq.com/Lance/a4d0d349-2642-4f96-b8aa-f283366a1507	queued		2026-10-03	2026-11-07	29	
-jobs.ashbyhq.com/herondata/ee2e9119-aac9-4341-b3aa-07b6db636de9	Heron Data	Chief of Staff	https://jobs.ashbyhq.com/herondata/ee2e9119-aac9-4341-b3aa-07b6db636de9	queued		2026-10-03	2026-11-07	29	
-linkedin.com/jobs/view/4472816001	Assemble	Revenue Operations Lead	https://www.linkedin.com/jobs/view/4472816001	queued		2026-10-02	2026-11-07	30	
-linkedin.com/posts/sonisha-kukreja_shot-at-building-a-100bn-consumer-fintech-activity-7495430035118551040-npaw	a consumer fintech startup	CoS + Founder’s Office.	https://www.linkedin.com/posts/sonisha-kukreja_shot-at-building-a-100bn-consumer-fintech-activity-7495430035118551040-NpaW?utm_source=share&utm_medium=member_desktop&rcm=ACoAACyt6owBgCJAq-TByNiprZWFxqH4aBa72eo	queued		2026-09-20	2026-11-07	35	
-instahyre.com/job-394118-growth-founders-office-at-gushwork-bangalore	Gushwork	Growth - Founder's Office	https://www.instahyre.com/job-394118-growth-founders-office-at-gushwork-bangalore/	queued		2026-09-20	2026-11-07	33	
-linkedin.com/jobs/view/4472804538	Phihong Technology USA	Marketing Manager - Mon-Fri Onsite in Fremont	https://www.linkedin.com/jobs/view/4472804538	queued		2026-10-02	2026-11-07	28	
-instahyre.com/job-390874-head-of-growth-at-coral-academy-work-from-home	Coral Academy	Head of Growth	https://www.instahyre.com/job-390874-head-of-growth-at-coral-academy-work-from-home/	dropped	DROP:below-3.0	2026-09-19	2026-11-07	44	
-linkedin.com/jobs/view/4473945183	BY Recruiting	Revenue Operations / GTM Engineer	https://www.linkedin.com/jobs/view/4473945183	queued		2026-10-01	2026-11-07	30	
-linkedin.com/jobs/view/4452857445	Chime	Sr. Product Marketing Manager, Trust & Safety	https://www.linkedin.com/jobs/view/4452857445	queued		2026-10-01	2026-11-07	30	
-linkedin.com/jobs/view/4465031795	NMI	Integrated Marketing Manager - Gateway & Verticals	https://www.linkedin.com/jobs/view/4465031795	queued		2026-10-01	2026-11-07	30	
-jobs.lever.co/redoxengine/16433cf3-3226-4e9e-b04e-71c85af443a7	Redox	Senior Product Manager - Interoperability Engine & Commercial Strategy	https://jobs.lever.co/redoxengine/16433cf3-3226-4e9e-b04e-71c85af443a7	queued		2026-10-01	2026-11-07	30	
-naukri.com/job-listings-chief-of-staff-strategy-operations-refex-industries-limited-chennai-5-to-10-years-200426903314	Refex Industries Limited	Chief of Staff - Strategy & Operations	https://www.naukri.com/job-listings-chief-of-staff-strategy-operations-refex-industries-limited-chennai-5-to-10-years-200426903314	queued		2026-09-23	2026-11-07	34	
-linkedin.com/jobs/view/4466877926	Dot Compliance	Marketing Manager, AI Solutions	https://www.linkedin.com/jobs/view/4466877926	queued		2026-09-22	2026-11-07	33	
-iimjobs.com/j/chief-of-staff-founder039s-office-program-manager-startup-d2c-1667484	Confidential (Startup/D2C)	Chief of Staff / Founder's Office / Program Manager	https://www.iimjobs.com/j/chief-of-staff-founder039s-office-program-manager-startup-d2c-1667484	queued		2026-09-29	2026-11-07	32	
-instahyre.com/job-281217-head-of-growth-at-lendenclub-mumbai	LenDenClub	Head of Growth	https://www.instahyre.com/job-281217-head-of-growth-at-lendenclub-mumbai/	queued		2026-09-29	2026-11-07	32	
-linkedin.com/jobs/view/4362465337	Tarro	Product Manager	https://www.linkedin.com/jobs/view/4362465337	queued		2026-09-29	2026-11-07	31	
-linkedin.com/jobs/view/4464089621	Left Field Labs	Senior Growth Marketing Manager	https://www.linkedin.com/jobs/view/4464089621	queued		2026-09-29	2026-11-07	31	
-jobs.lever.co/epoch-ai/9abe93df-26a3-4bd4-9253-d2ef9b011d51	Epoch AI	Product Manager, Website	https://jobs.lever.co/epoch-ai/9abe93df-26a3-4bd4-9253-d2ef9b011d51	queued		2026-09-28	2026-11-07	32	
-jobs.ashbyhq.com/palette-media/e8f17204-0ef7-4190-954a-f4c1338ff5f9	Palette Media	Revenue Operations Manager	https://jobs.ashbyhq.com/palette-media/e8f17204-0ef7-4190-954a-f4c1338ff5f9	queued		2026-09-27	2026-11-07	34	
-jobs.ashbyhq.com/smalls/adff6305-722b-46c7-b2c4-3bb612e0c85c	Smalls	Product Manager, Growth	https://jobs.ashbyhq.com/smalls/adff6305-722b-46c7-b2c4-3bb612e0c85c	queued		2026-09-25	2026-11-07	34	
-job-boards.greenhouse.io/centerforartificialintelligencesafetyinc/jobs/4342209009	Center for AI Safety	Product Manager, Agentic Products	https://job-boards.greenhouse.io/centerforartificialintelligencesafetyinc/jobs/4342209009	queued		2026-09-22	2026-11-07	36	
-linkedin.com/jobs/view/4469279002	Vika Talent Solutions	Senior Product Manager - FAANG	https://www.linkedin.com/jobs/view/4469279002	queued		2026-09-23	2026-11-07	34	
-linkedin.com/jobs/view/4470486040	Corgi	Strategy and Operations Associate	https://www.linkedin.com/jobs/view/4470486040	queued		2026-09-23	2026-11-07	34	
-linkedin.com/jobs/view/4470977384	Casechek	Product Marketing Manager	https://www.linkedin.com/jobs/view/4470977384	queued		2026-09-24	2026-11-07	33	
-linkedin.com/jobs/view/4445150970	Novidea	Regional Growth Marketing Manager	https://www.linkedin.com/jobs/view/4445150970	queued		2026-09-30	2026-11-07	31	
-naukri.com/job-listings-executive-assistant-chief-of-staff-to-ceo-drb-foods-new-delhi-5-to-8-years-130426002017	DRB Foods	Executive Assistant / Chief of Staff to CEO	https://www.naukri.com/job-listings-executive-assistant-chief-of-staff-to-ceo-drb-foods-new-delhi-5-to-8-years-130426002017	queued		2026-09-30	2026-11-07	31	
-linkedin.com/jobs/view/4476151666	Flai	Revenue Operations	https://www.linkedin.com/jobs/view/4476151666	queued		2026-10-06	2026-11-07	25	
-linkedin.com/jobs/view/4474661405	Fanatics	Product Manager – Ecommerce Home Page	https://www.linkedin.com/jobs/view/4474661405	queued		2026-10-06	2026-11-07	25	
-linkedin.com/jobs/view/4466560043	Braze	Senior Staff Monetization and Pricing Strategist	https://www.linkedin.com/jobs/view/4466560043	queued		2026-10-08	2026-11-07	25	
-linkedin.com/jobs/view/4425986475	Prosper Marketplace	Sr. Product Manager, Core Experience	https://www.linkedin.com/jobs/view/4425986475	queued		2026-10-08	2026-11-07	23	
-linkedin.com/jobs/view/4476908987	General Medicine	Product Manager, Consumer	https://www.linkedin.com/jobs/view/4476908987	queued		2026-10-08	2026-11-07	23	
-linkedin.com/jobs/view/4439943808	Peregrine	Technical Product Marketing Lead	https://www.linkedin.com/jobs/view/4439943808	queued		2026-10-08	2026-11-07	22	
-linkedin.com/jobs/view/4476793338	Fours (formerly Suger)	Growth Marketing Manager	https://www.linkedin.com/jobs/view/4476793338	queued		2026-10-08	2026-11-07	22	
-linkedin.com/jobs/view/4467917170	Amazon Web Services (AWS)	Sr. Partner Marketing Manager, Public Sector Strategy, AWS Industry Partner Marketing	https://www.linkedin.com/jobs/view/4467917170	queued		2026-10-08	2026-11-07	22	
-linkedin.com/jobs/view/4479948697	FINAGG Technologies Private Limited	Chief of Staff to the Co-Founder & CEO	https://www.linkedin.com/jobs/view/4479948697	queued		2026-10-19	2026-11-07	22	
-linkedin.com/jobs/view/4480916234	Blacksmith Agency	Demand Generation Manager (Remote, Denver)	https://www.linkedin.com/jobs/view/4480916234	queued		2026-10-19	2026-11-07	19	
-linkedin.com/jobs/view/4471827670	SambaNova	Partner Marketing Manager	https://www.linkedin.com/jobs/view/4471827670	queued		2026-10-18	2026-11-07	22	
-linkedin.com/jobs/view/4369297333	Anrok	Product Manager, Activation	https://www.linkedin.com/jobs/view/4369297333	queued		2026-09-28	2026-11-07	20	
-linkedin.com/jobs/view/4442763079	Uber	Product Manager II, Agentic AI	https://www.linkedin.com/jobs/view/4442763079	queued		2026-09-27	2026-11-07	20	
-linkedin.com/jobs/view/4480972177	Intuit	Staff Product Manager - QuickBooks Capital Marketplace	https://www.linkedin.com/jobs/view/4480972177	queued		2026-10-19	2026-11-07	19	
-linkedin.com/jobs/view/4365601610	OVERJET	Lead Product Manager, New Products	https://www.linkedin.com/jobs/view/4365601610	queued		2026-10-19	2026-11-07	19	
-google.com/about/careers/applications/jobs/results/136073823404335814	Google	Product Manager, aiEDU	https://www.google.com/about/careers/applications/jobs/results/136073823404335814	queued		2026-10-19	2026-11-07	16	
-linkedin.com/jobs/view/4463399745	Verkada	(Sr) Manager, Strategic Finance & Business Operations - GTM	https://www.linkedin.com/jobs/view/4463399745	queued		2026-09-27	2026-11-07	21	
-linkedin.com/jobs/view/4477789938	Arogin Fintech p Ltd	Executive Officer Founder's Office	https://www.linkedin.com/jobs/view/4477789938	queued		2026-10-18	2026-11-07	19	
-linkedin.com/jobs/view/4479610249	TikTok	Senior Product Manager-Content Product (POI Details)-TikTok Local Service	https://www.linkedin.com/jobs/view/4479610249	queued		2026-10-17	2026-11-07	19	
-linkedin.com/jobs/view/4463330377	Intuit	Staff Marketing Manager, Paid Search Mid-Market	https://www.linkedin.com/jobs/view/4463330377	queued		2026-10-17	2026-11-07	19	
-linkedin.com/jobs/view/4451919977	Tanium	Product Manager - Virtual & Physical Appliances	https://www.linkedin.com/jobs/view/4451919977	queued		2026-10-17	2026-11-07	19	
-linkedin.com/jobs/view/4477729563	Oscar Health	Senior Product Manager, Virtual Care	https://www.linkedin.com/jobs/view/4477729563	queued		2026-10-17	2026-11-07	19	
-linkedin.com/jobs/view/4451950675	AKASA	Sr. Product Manager	https://www.linkedin.com/jobs/view/4451950675	queued		2026-10-17	2026-11-07	19	
-linkedin.com/jobs/view/4454009665	Rippling	Demand Generation Manager	https://www.linkedin.com/jobs/view/4454009665	queued		2026-09-26	2026-11-07	19	
-linkedin.com/jobs/view/4479316638	interface.ai	Senior Product Manager	https://www.linkedin.com/jobs/view/4479316638	queued		2026-10-16	2026-11-07	19	
-linkedin.com/jobs/view/4474110621	Inkitt	Senior CRM Lifecycle Marketing Manager	https://www.linkedin.com/jobs/view/4474110621	queued		2026-10-16	2026-11-07	19	
-linkedin.com/jobs/view/4479154133	Evlo AI	Revenue Operations Analyst	https://www.linkedin.com/jobs/view/4479154133	queued		2026-10-16	2026-11-07	19	
-linkedin.com/jobs/view/4480147209	Andromeda	Revenue Operations Lead	https://www.linkedin.com/jobs/view/4480147209	queued		2026-10-16	2026-11-07	19	
-jobs.apple.com/en-us/details/200689066/solutions-ai-product-manager	Apple	Solutions AI Product Manager	https://jobs.apple.com/en-us/details/200689066/solutions-ai-product-manager	queued		2026-10-16	2026-11-07	17	
-linkedin.com/jobs/view/4479890044	Cisco	Product Marketing Manager, Switching	https://www.linkedin.com/jobs/view/4479890044	queued		2026-10-16	2026-11-07	19	
-linkedin.com/jobs/view/4468908997	Carta	Performance Marketing Manager	https://www.linkedin.com/jobs/view/4468908997	queued		2026-09-23	2026-11-07	21	
-linkedin.com/jobs/view/4470620205	Decagon	Growth Marketing Manager, Web & Search	https://www.linkedin.com/jobs/view/4470620205	queued		2026-09-23	2026-11-07	25	
-linkedin.com/jobs/view/4479792081	Globeia	Chief of Staff	https://www.linkedin.com/jobs/view/4479792081	queued		2026-10-15	2026-11-07	21	
-linkedin.com/jobs/view/4478772139	Gap	Analyst - Pricing Analytics	https://www.linkedin.com/jobs/view/4478772139	queued		2026-10-14	2026-11-07	20	
-linkedin.com/jobs/view/4478435054	Earthful.me	D2C Growth Head	https://www.linkedin.com/jobs/view/4478435054	queued	queued	2026-10-14	2026-11-07	20	
-linkedin.com/jobs/view/4478140106	RagaAI Inc	Founder's Office – Strategy, GTM & Corporate Development	https://www.linkedin.com/jobs/view/4478140106	queued	queued	2026-10-14	2026-11-07	20	
-linkedin.com/jobs/view/4476655117	Kotak Neo	Chief of Staff - Product	https://www.linkedin.com/jobs/view/4476655117	queued	queued	2026-10-14	2026-11-07	20	
-linkedin.com/jobs/view/4479274480	TokenPulse Inc.	Senior Product Marketing Manager	https://www.linkedin.com/jobs/view/4479274480	queued	queued	2026-10-14	2026-11-07	20	
-linkedin.com/jobs/view/4476448597	Dream Cricket (formerly Dream Game Studios)	Head of Growth	https://www.linkedin.com/jobs/view/4476448597	queued	queued	2026-10-14	2026-11-07	20	
-linkedin.com/jobs/view/4434050817	World	Product Manager, World ID	https://www.linkedin.com/jobs/view/4434050817	queued		2026-09-21	2026-11-07	21	scored 3.1, tracker #1245
-linkedin.com/jobs/view/4432151163	Varonis	Senior Product Marketing Manager	https://www.linkedin.com/jobs/view/4432151163	queued		2026-09-21	2026-11-07	21	
-linkedin.com/jobs/view/4477964647	Soch Street	Chief of Staff	https://www.linkedin.com/jobs/view/4477964647	queued	QUEUED	2026-10-13	2026-11-07	20	Report 1254, score 3.0/5, no_deck; via Soch Street, end client undisclosed (deep tech aerospace startup)
-linkedin.com/jobs/view/4460808731	Amazon Web Services (AWS)	Specialist Strategy & Sales Operations Lead, Specialist Strategy & Sales Operations	https://www.linkedin.com/jobs/view/4460808731	queued		2026-09-20	2026-11-07	21	
-linkedin.com/jobs/view/4468033442	Flashpoint	Senior Product Marketing Manager	https://www.linkedin.com/jobs/view/4468033442	queued		2026-10-11	2026-11-07	23	
-linkedin.com/jobs/view/4472095531	Bobyard	Lifecycle Marketing Manager	https://www.linkedin.com/jobs/view/4472095531	queued		2026-09-26	2026-11-07	23	
-linkedin.com/jobs/view/4469193976	Amazon Web Services (AWS)	Sr. Partner Marketing Manager, Global ISV Partner Marketing	https://www.linkedin.com/jobs/view/4469193976	queued		2026-10-11	2026-11-07	22	
-linkedin.com/jobs/view/4475677744	MetaMorph	Head of Growth - Marketplaces | 5 to 10 yrs | FMCG | Mumbai	https://www.linkedin.com/jobs/view/4475677744	queued		2026-10-12	2026-11-07	19	
-linkedin.com/jobs/view/4475614175	PayU	Chief of Staff - PayU Finance	https://www.linkedin.com/jobs/view/4475614175	queued		2026-10-10	2026-11-07	24	
-linkedin.com/jobs/view/4474895491	GUS Global Services India Pvt. Ltd.	Senior Manager Strategic Projects - CEO's Office	https://www.linkedin.com/jobs/view/4474895491	queued		2026-10-09	2026-11-07	24	
-jobs.weekday.works/wkdyv3fww7	Weekday (client, confidential)	Chief of Staff / Founder's Office	https://jobs.weekday.works/wkdyv3fww7	queued		2026-10-10	2026-11-07	21	
-linkedin.com/jobs/view/4404394566	Suite Studios	Demand Generation Manager, AI	https://www.linkedin.com/jobs/view/4404394566	queued		2026-10-10	2026-11-07	25	
-linkedin.com/jobs/view/4438478968	Meta	Product Manager, Central Product	https://www.linkedin.com/jobs/view/4438478968	queued		2026-10-10	2026-11-07	21	
-zapply.jobs/l/d/workday-zayo-zayo-careers-r0017247	Zayo	Technical Product Manager	https://zapply.jobs/l/d/workday-zayo-zayo-careers-R0017247?s=gh-new-grad-jobs-2027	queued	BUILD	2026-10-09	2026-11-07	22	
-linkedin.com/jobs/view/4477431383	Salt Security	Technical Product Marketing Manager	https://www.linkedin.com/jobs/view/4477431383	queued	BUILD	2026-10-09	2026-11-07	22	
-linkedin.com/jobs/view/4449091926	O'Melveny & Myers LLP	Pricing Manager	https://www.linkedin.com/jobs/view/4449091926	queued	BUILD	2026-10-09	2026-11-07	23	
-linkedin.com/jobs/view/4477160088	Newtrace	Senior Associate - Founder's Office	https://www.linkedin.com/jobs/view/4477160088	queued	BUILD	2026-10-09	2026-11-07	22	
-linkedin.com/jobs/view/4474835109	Okta	Senior Product Manager, Okta for AI Agents	https://www.linkedin.com/jobs/view/4474835109	queued		2026-10-09	2026-11-07	22	
-linkedin.com/jobs/view/4457742808	Just Appraised	Growth Marketer / Demand Generation Manager	https://www.linkedin.com/jobs/view/4457742808	queued		2026-10-09	2026-11-07	22	
-linkedin.com/jobs/view/4477488505	Petra Security	Senior Product Marketing Manager	https://www.linkedin.com/jobs/view/4477488505	queued		2026-10-09	2026-11-07	21	
-instahyre.com/job-145488-head-of-growth-at-tranzact-mumbai	Tranzact	Head of Growth	https://www.instahyre.com/job-145488-head-of-growth-at-tranzact-mumbai/	dropped	DROP:duplicate-of-tracker-114	2026-09-19	2026-11-07	43	
-instahyre.com/job-344579-head-of-growth-at-safle-work-from-home	Safle	Head of Growth	https://www.instahyre.com/job-344579-head-of-growth-at-safle-work-from-home/	dropped	DROP:below-3.0	2026-09-19	2026-11-07	43	
-instahyre.com/job-220807-head-of-growth-at-mainstreet-mumbai	Mainstreet	Head of Growth	https://www.instahyre.com/job-220807-head-of-growth-at-mainstreet-mumbai/	queued		2026-09-19	2026-11-07	42	
-linkedin.com/jobs/view/4469041453	Sharon McMahon Education	Digital Marketing Manager	https://www.linkedin.com/jobs/view/4469041453	queued		2026-09-23	2026-11-07	33	
-cutshort.io/job/founder-s-office-chief-of-staff-strategy-operations-mumbai-worli-mumbai-bengaluru-bangalore-magma-consultancy-dl96jeop	Magma Consultancy	Founder's Office - Chief of Staff, Strategy and Operations	https://cutshort.io/job/Founder-s-Office-Chief-of-Staff-Strategy-Operations-Mumbai-Worli-Mumbai-Bengaluru-Bangalore-magma-consultancy-dL96JEoP	dropped	DROP:already-tracked-duplicate	2026-09-19	2026-11-07	39	
-instahyre.com/job-125335-head-of-growth-product-at-bukukas-bangalore	BukuKas	Head of Growth Product	https://www.instahyre.com/job-125335-head-of-growth-product-at-bukukas-bangalore/	queued		2026-09-19	2026-11-07	38	
-instahyre.com/job-11179-head-of-growth-at-instahyre-delhi	Instahyre	Head of Growth	https://www.instahyre.com/job-11179-head-of-growth-at-instahyre-delhi/	queued		2026-09-19	2026-11-07	38	
-linkedin.com/jobs/view/4433020234	Cyngn	Senior Product Manager, Cyngn Insight & Fleet Management	https://www.linkedin.com/jobs/view/4433020234	queued		2026-09-19	2026-11-07	38	
-linkedin.com/jobs/view/4444512703	Imprivata	Product Marketing Manager	https://www.linkedin.com/jobs/view/4444512703	queued	queued	2026-10-24	2026-11-07	16	
-jobs.lever.co/thinkahead/4adc622d-3611-4707-a996-cff0c313b106/apply	AHEAD	Product Manager	https://jobs.lever.co/thinkahead/4adc622d-3611-4707-a996-cff0c313b106/apply	queued		2026-10-27	2026-11-07	12	
-zapply.jobs/l/d/ashby-openai-e5c39e03-6121-47be-8bd3-f6128557b38f	OpenAI	GTM Strategy & Operations, Policy	https://zapply.jobs/l/d/ashby-openai-e5c39e03-6121-47be-8bd3-f6128557b38f?s=gh-new-grad-jobs-2027	queued		2026-10-27	2026-11-07	15	
-linkedin.com/jobs/view/4483265702	OpenTrack	AI-Native RevOps	https://www.linkedin.com/jobs/view/4483265702	queued		2026-10-27	2026-11-07	15	
-linkedin.com/jobs/view/4483611747	Xtalks	Senior Product Manager, Digital Products	https://www.linkedin.com/jobs/view/4483611747	queued		2026-10-27	2026-11-07	15	
-linkedin.com/jobs/view/4455864317	Orchard	Sales Operations Engineer	https://www.linkedin.com/jobs/view/4455864317	queued		2026-10-27	2026-11-07	15	
-linkedin.com/jobs/view/4483752370	Uber	Sr Product Manager - Tech	https://www.linkedin.com/jobs/view/4483752370	queued		2026-10-27	2026-11-07	15	
-linkedin.com/jobs/view/4457712870	Chalk	Product Manager	https://www.linkedin.com/jobs/view/4457712870	queued		2026-10-27	2026-11-07	15	
-linkedin.com/jobs/view/4379481147	Archer	Product Manager, Digital Technology	https://www.linkedin.com/jobs/view/4379481147	queued		2026-10-27	2026-11-07	15	
-linkedin.com/jobs/view/4458292887	Gusto	Product Marketing Leader - Innovation & Experimentation	https://www.linkedin.com/jobs/view/4458292887	queued		2026-10-07	2026-11-07	15	
-linkedin.com/jobs/view/4475886023	Hightouch	Product Manager, Real Time	https://www.linkedin.com/jobs/view/4475886023	built	BUILT	2026-10-06	2026-11-07	16	
-linkedin.com/jobs/view/4484427098	Intuit	Senior Staff Product Manager - AI Driven API Management Platform	https://www.linkedin.com/jobs/view/4484427098	queued		2026-10-28	2026-11-07	14	
-linkedin.com/jobs/view/4482011582	NinjaTech AI	Marketing Manager	https://www.linkedin.com/jobs/view/4482011582	queued		2026-10-28	2026-11-07	14	
-linkedin.com/jobs/view/4484283247	SoGal Ventures	Senior Manager, Revenue Operations & Analytics	https://www.linkedin.com/jobs/view/4484283247	queued		2026-10-28	2026-11-07	14	
-linkedin.com/jobs/view/4484239091	SpaceX Super Intelligence	Senior Product Manager, Commerce Platform	https://www.linkedin.com/jobs/view/4484239091	queued		2026-10-28	2026-11-07	14	
-linkedin.com/jobs/view/4484260367	Socket	Revenue Operations Manager	https://www.linkedin.com/jobs/view/4484260367	queued		2026-10-28	2026-11-07	14	
-linkedin.com/jobs/view/4484253805	Alt	Revenue Operations Associate	https://www.linkedin.com/jobs/view/4484253805	queued		2026-10-28	2026-11-07	14	
-linkedin.com/jobs/view/4474804035	Databricks	Sr. Product Manager, Lakebase	https://www.linkedin.com/jobs/view/4474804035	dropped	DROP:below-3.0	2026-10-08	2026-11-07	13	
-linkedin.com/jobs/view/4485270522	Joby Aviation	Senior Product Manager - Near Aircraft Tools and Applications	https://www.linkedin.com/jobs/view/4485270522	dropped	DROP:below-3.0	2026-10-30	2026-11-07	12	
-linkedin.com/jobs/view/4483406136	Sony Interactive Entertainment	Product Manager, Data & Intelligence	https://www.linkedin.com/jobs/view/4483406136	dropped	DROP:below-3.0	2026-10-30	2026-11-07	12	
-linkedin.com/jobs/view/4485321024	SUNA	Solution Marketing Manager(Capacitor)	https://www.linkedin.com/jobs/view/4485321024	dropped	DROP:below-3.0	2026-10-30	2026-11-07	12	
-linkedin.com/jobs/view/4483076996	Workday	Product Manager, Technical	https://www.linkedin.com/jobs/view/4483076996	dropped	DROP:below-3.0	2026-10-30	2026-11-07	12	
-linkedin.com/jobs/view/4457284933	Okta	Senior Product Manager - Policies	https://www.linkedin.com/jobs/view/4457284933	dropped	DROP:below-3.0	2026-10-30	2026-11-07	12	
-linkedin.com/jobs/view/4448566048	McAfee	Senior Product Manager – Protections	https://www.linkedin.com/jobs/view/4448566048	dropped	DROP:below-3.0	2026-10-30	2026-11-07	12	
-linkedin.com/jobs/view/4474458389	Instagram	Product Manager	https://www.linkedin.com/jobs/view/4474458389	dropped	DROP:below-3.0	2026-10-30	2026-11-07	12	
-linkedin.com/jobs/view/4484963653	Roku	Senior Product Manager, Advertising – Exchange Optimization	https://www.linkedin.com/jobs/view/4484963653	dropped	DROP:below-3.0	2026-10-30	2026-11-07	12	
-linkedin.com/jobs/view/4484559850	The Free Spirits Company	Sr. Marketing Manager	https://www.linkedin.com/jobs/view/4484559850	queued	QUEUED	2026-10-30	2026-11-07	12	
-linkedin.com/jobs/view/4478760230	Supermicro	Technical Marketing Manager - Enterprise AI	https://www.linkedin.com/jobs/view/4478760230	queued		2026-10-13	2026-11-07	13	
-linkedin.com/jobs/view/4486441045	PhoenixAI (the original creator of StarRocks)	Performance Marketing Manager	https://www.linkedin.com/jobs/view/4486441045	dropped	SKIP:duplicate-cross-posted-same-req-as-tracker-row-2090	2026-11-03	2026-11-07	10	
-linkedin.com/jobs/view/4484375769	Sony Interactive Entertainment	Lifecycle Marketing Manager	https://www.linkedin.com/jobs/view/4484375769	built	BUILT	2026-11-03	2026-11-07	10	
-linkedin.com/jobs/view/4486458295	Instacart	Deal Desk Specialist	https://www.linkedin.com/jobs/view/4486458295	dropped	SKIP:duplicate-cross-posted-same-req-as-tracker-row-2171-gh-jid-8347895	2026-11-03	2026-11-07	11	
-zapply.jobs/l/d/workday-amat-external-r2632609	Applied Materials	Product Marketing	https://zapply.jobs/l/d/workday-amat-external-R2632609?s=gh-new-grad-jobs-2027	queued		2026-11-03	2026-11-07	9	
-linkedin.com/jobs/view/4486814540	Skyne Beauty	Senior Brand & Content Marketing Manager	https://www.linkedin.com/jobs/view/4486814540	queued		2026-11-03	2026-11-07	9	
-zapply.jobs/l/d/ashby-ashby-d46e79d4-43fd-477f-aa06-25b604715223	Ashby	Strategy & Operations, Customer Success	https://zapply.jobs/l/d/ashby-ashby-d46e79d4-43fd-477f-aa06-25b604715223?s=gh-new-grad-jobs-2027	built	BUILT	2026-11-03	2026-11-07	10	
-linkedin.com/jobs/view/4486837574	Snapmint	Director - Founder's Office	https://www.linkedin.com/jobs/view/4486837574	built	BUILT	2026-11-03	2026-11-07	10	
-linkedin.com/jobs/view/4484392874	Openprise	Sr. Product Marketing Manager	https://www.linkedin.com/jobs/view/4484392874	built	BUILT	2026-11-03	2026-11-07	10	
-linkedin.com/jobs/view/4486471704	Waabi	Growth and Demand Marketing Manager	https://www.linkedin.com/jobs/view/4486471704	queued		2026-11-03	2026-11-07	9	
-linkedin.com/jobs/view/4486404507	MatrixCare	Marketing Manager, Demand Generation	https://www.linkedin.com/jobs/view/4486404507	queued		2026-11-03	2026-11-07	9	
-linkedin.com/jobs/view/4484352770	People Equation	Head of Growth	https://www.linkedin.com/jobs/view/4484352770	queued		2026-11-03	2026-11-07	9	
-linkedin.com/jobs/view/4480521086	EarnIn	Senior Strategy & Operations Manager	https://www.linkedin.com/jobs/view/4480521086	built	BUILT	2026-11-03	2026-11-07	10	
-jobs.ashbyhq.com/leandata/46138c47-ee37-4abb-b8b0-d9d6c2b64300	LeanData	Chief of Staff	https://jobs.ashbyhq.com/leandata/46138c47-ee37-4abb-b8b0-d9d6c2b64300	built	BUILT	2026-11-03	2026-11-07	10	
-jobs.ashbyhq.com/notion/0d000633-4a69-4dae-ab5f-da19b5ab8cc0	Notion	Business Operations & Strategy	https://jobs.ashbyhq.com/notion/0d000633-4a69-4dae-ab5f-da19b5ab8cc0	built	BUILT	2026-11-03	2026-11-07	10	
-linkedin.com/jobs/view/4468170746	Thumbtack	Growth Marketing Manager, Paid Social	https://www.linkedin.com/jobs/view/4468170746	queued		2026-09-22	2026-11-07	9	
-linkedin.com/jobs/view/4486351063	Stealth Startup - Deep Tech	Head of Growth	https://www.linkedin.com/jobs/view/4486351063	queued		2026-11-04	2026-11-07	8	
-linkedin.com/jobs/view/4486885399	NewBridge Fintech	Chief of Staff	https://www.linkedin.com/jobs/view/4486885399	queued		2026-11-04	2026-11-07	8	
-linkedin.com/jobs/view/4486840461	Perit AI (YC F26)	Founder's Office Associate	https://www.linkedin.com/jobs/view/4486840461	queued		2026-11-04	2026-11-07	8	
-linkedin.com/jobs/view/4487221085	Parspec	Demand Generation Manager	https://www.linkedin.com/jobs/view/4487221085	queued		2026-11-04	2026-11-07	8	
-linkedin.com/jobs/view/4486345302	Nooks	Performance Marketing Lead	https://www.linkedin.com/jobs/view/4486345302	built	BUILT	2026-11-04	2026-11-07	9	
-linkedin.com/jobs/view/4485053769	Intellectual Capital HR Consulting Pvt. Ltd.	Chief of Staff	https://www.linkedin.com/jobs/view/4485053769	queued		2026-11-04	2026-11-07	8	
-linkedin.com/jobs/view/4486360473	Curefoods	Financial Planning Analyst_CXO Office	https://www.linkedin.com/jobs/view/4486360473	queued		2026-11-04	2026-11-07	8	
-linkedin.com/jobs/view/4486867861	Halcyon	Product Marketing Manager	https://www.linkedin.com/jobs/view/4486867861	queued		2026-11-04	2026-11-07	8	
-linkedin.com/jobs/view/4487028980	Zilliz	Growth Marketing Manager	https://www.linkedin.com/jobs/view/4487028980	queued		2026-11-04	2026-11-07	8	
-linkedin.com/jobs/view/4478168912	Title Nine	GROWTH MARKETING MANAGER	https://www.linkedin.com/jobs/view/4478168912	queued		2026-11-04	2026-11-07	8	
-linkedin.com/jobs/view/4484603161	WeLaunch	Founder's Office	https://www.linkedin.com/jobs/view/4484603161	queued		2026-11-04	2026-11-07	8	
-linkedin.com/jobs/view/4469022993	AssetWatch®	B2B Growth Marketing Manager – Industrial/SaaS	https://www.linkedin.com/jobs/view/4469022993	queued		2026-09-23	2026-11-07	8	
-linkedin.com/jobs/view/4486582987	Knowmax	Growth Leader, CEO’s Office | Enterprise AI SaaS	https://www.linkedin.com/jobs/view/4486582987	queued		2026-11-05	2026-11-07	7	
-linkedin.com/jobs/view/4486391412	Heads Up For Tails	Founder's Office Associate	https://www.linkedin.com/jobs/view/4486391412	dropped	DROP:below-3.0	2026-11-05	2026-11-07	7	
-linkedin.com/jobs/view/4487503488	Enterpret	Founder's Office: Revenue Operations & Systems (RevOps)	https://www.linkedin.com/jobs/view/4487503488	built	BUILT	2026-11-05	2026-11-07	8	
-linkedin.com/jobs/view/4486582703	Haystack	Growth Marketing Manager	https://www.linkedin.com/jobs/view/4486582703	queued		2026-11-05	2026-11-07	7	
-linkedin.com/jobs/view/4405266064	Adams Clinical	Sales Operations Associate	https://www.linkedin.com/jobs/view/4405266064	queued		2026-11-05	2026-11-07	7	
-linkedin.com/jobs/view/4486336862	MANTARA	Founder's Office- Chief Of Staff	https://www.linkedin.com/jobs/view/4486336862	queued		2026-11-05	2026-11-07	7	
-linkedin.com/jobs/view/4486599657	Neofox Media	Chief of Staff	https://www.linkedin.com/jobs/view/4486599657	queued		2026-11-05	2026-11-07	7	
-linkedin.com/jobs/view/4486576719	Ranqo	Head of Growth	https://www.linkedin.com/jobs/view/4486576719	queued		2026-11-05	2026-11-07	7	
-linkedin.com/jobs/view/4486576860	Soulace Consulting Pvt Ltd	Sr. Manager to CEO's Office	https://www.linkedin.com/jobs/view/4486576860	queued		2026-11-05	2026-11-07	7	
-linkedin.com/jobs/view/4487726004	HuntingCube	Founder's Office	https://www.linkedin.com/jobs/view/4487726004	dropped	DROP:below-comp-floor	2026-11-05	2026-11-07	7	
-linkedin.com/jobs/view/4485091145	Uni Seoul	Founder's Office - Senior Associate	https://www.linkedin.com/jobs/view/4485091145	queued		2026-11-05	2026-11-07	7	
-linkedin.com/jobs/view/4487708985	Altera Institute	Founder's Office	https://www.linkedin.com/jobs/view/4487708985	queued		2026-11-05	2026-11-07	7	
-linkedin.com/jobs/view/4487731568	Puretech Digital - A Genesis Company	Associate - Founder's Office	https://www.linkedin.com/jobs/view/4487731568	dropped	DROP:below-3.0	2026-11-05	2026-11-07	7	
-linkedin.com/jobs/view/4486343712	CurlSeK	Associate - Founder’s Office (Growth & Business Development)	https://www.linkedin.com/jobs/view/4486343712	dropped	DROP:below-3.0	2026-11-05	2026-11-07	7	
-linkedin.com/jobs/view/4486570936	A3 Mediacom	Founder's Office	https://www.linkedin.com/jobs/view/4486570936	dropped	DROP:below-3.0	2026-11-05	2026-11-07	7	
-linkedin.com/jobs/view/4485816018	Prorata	Founder's office - Business Head	https://www.linkedin.com/jobs/view/4485816018	dropped	DROP:below-3.0	2026-11-05	2026-11-07	7	
-linkedin.com/jobs/view/4476603221	Zendesk	ABX & Industry Marketing Manager	https://www.linkedin.com/jobs/view/4476603221	built	BUILT	2026-11-05	2026-11-07	8	
-linkedin.com/jobs/view/4487520906	Samsara	Senior Marketing Manager - Public Sector	https://www.linkedin.com/jobs/view/4487520906	queued		2026-11-05	2026-11-07	7	
-linkedin.com/jobs/view/4487561331	Bounce	Senior Product Manager, Demand Growth	https://www.linkedin.com/jobs/view/4487561331	queued		2026-11-05	2026-11-07	7	
-linkedin.com/jobs/view/4486578874	Cosma Fertility	Entrepreneur in Residence (EIR) – Healthcare & Growth	https://www.linkedin.com/jobs/view/4486578874	dropped	DROP:below-comp-floor	2026-11-05	2026-11-07	7	
-linkedin.com/jobs/view/4479261660	F&G	Manager, Competitive Intelligence	https://www.linkedin.com/jobs/view/4479261660	queued		2026-11-05	2026-11-07	7	
-linkedin.com/jobs/view/4445062503	Airwallex	Senior Product Marketing Manager	https://www.linkedin.com/jobs/view/4445062503	dropped	DROP:over-cap-7y-cap6	2026-10-03	2026-11-07	9	
-jobs.ashbyhq.com/snowflake/5220aae8-7fd1-4374-8b8f-4f27f8573791	Snowflake	Sr Product Marketing Manager, Media, Entertainment and Advertising	https://jobs.ashbyhq.com/snowflake/5220aae8-7fd1-4374-8b8f-4f27f8573791	built	BUILT	2026-10-14	2026-11-07	19	CORRECTED 2026-11-07 cloud build: the 2026-10-14 DROP:duplicate-of-tracker-row verdict was superseded by the 2026-11-05 re-eval into tracker row 2325 (report 2325, score 4.1, full_pack); full_pack BUILT this run (resume+cover letter already on disk, deck added and verified this run) in output/Snowflake/sr-product-marketing-manager-media-entertainment-advertising/. Stale DROP left in place elsewhere would have blocked re-queueing; corrected here since the physical pack and tracker row both confirm this is a real, built opening.
-fivetran.com/careers/job?gh_jid=7997442003	Fivetran	Program Manager, Growth, Monetization & Strategic Initiatives	https://www.fivetran.com/careers/job?gh_jid=7997442003	built	BUILT	2026-09-23	2026-11-07	11	
-jobs.apple.com/en-us/details/200693179/product-manager-access-platform-in-apple-wallet	Apple	Product Manager, Access Platform in Apple Wallet	https://jobs.apple.com/en-us/details/200693179/product-manager-access-platform-in-apple-wallet	queued		2026-11-06	2026-11-07	3	
-linkedin.com/jobs/view/4476966807	Assort Health	Senior Manager, Demand Generation	https://www.linkedin.com/jobs/view/4476966807	built	BUILT	2026-10-08	2026-11-07	7	
-linkedin.com/jobs/view/4486966628	ProSessed AI	Founder's Office – Growth & GTM	https://www.linkedin.com/jobs/view/4486966628	queued		2026-11-06	2026-11-07	5	
-linkedin.com/jobs/view/4485839295	TestRail	Growth Marketing Manager	https://www.linkedin.com/jobs/view/4485839295	queued		2026-11-06	2026-11-07	5	
-fivetran.com/careers/job?gh_jid=7806295003	Fivetran	Senior Pricing Data Scientist	https://www.fivetran.com/careers/job?gh_jid=7806295003	queued		2026-11-06	2026-11-07	5	
-linkedin.com/jobs/view/4488121934	Stranger Soccer	Head of Growth and Operations	https://www.linkedin.com/jobs/view/4488121934	queued		2026-11-06	2026-11-07	5	
-linkedin.com/jobs/view/4487745936	Origin	Founder's Office, Marketing Associate	https://www.linkedin.com/jobs/view/4487745936	built	BUILT	2026-11-06	2026-11-07	6	
 linkedin.com/jobs/view/4482167331	Docker, Inc	Sales Operations Manager	https://www.linkedin.com/jobs/view/4482167331	dropped	SKIP:visa-sponsorship-not-available	2026-10-22	2026-11-06	5	
 linkedin.com/jobs/view/4473540703	SoFi	Senior Product Manager	https://www.linkedin.com/jobs/view/4473540703	shortlisted		2026-10-22	2026-11-06	2	
 linkedin.com/jobs/view/4432125533	Snowflake	Senior Product Manager - Applied AI	https://www.linkedin.com/jobs/view/4432125533	dropped	DROP:over-cap	2026-09-23	2026-11-06	7	
