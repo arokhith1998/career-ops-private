@@ -4,9 +4,9 @@ Hi {Recruiter, Talent Acquisition},
 
 I don't normally reach out before applying, but the line about connecting today's investments to a more effective marketing platform, instead of buying new tools, is close to what I spend most days doing.
 
-- Automated the Mar-Tech stack at Plug Power (Salesforce, Adobe Analytics, GA, Google Tag Manager) into one closed-loop reporting view, then automated the WordPress-to-Pardot lead flow so marketing stopped waiting on an engineer, cutting cost per lead 50%
-- Owned a 100+ feature roadmap with Engineering across 3 regions at Sensata, turning stakeholder needs into prioritized investments that accelerated releases 25% and cut time-to-market 20%
-- Ran an 8-client, $15K-$90K/month paid portfolio at Pixis, using Amplitude and Tableau to read cross-channel performance and reallocate spend, lifting ROAS 40%
+- Automated Plug Power's Mar-Tech stack (Salesforce, Adobe Analytics, GA, Google Tag Manager) for closed-loop reporting, then automated the WordPress-to-Pardot lead flow so marketing stopped waiting on an engineer, cutting cost per lead 50%
+- Owned a 100+ feature roadmap with Engineering across 3 regions at Sensata, accelerating releases 25% and cutting time-to-market 20%
+- Ran an 8-client, $15K-$90K/month paid portfolio at Pixis, using Amplitude and Tableau to reallocate spend and lift ROAS 40%
 - Build Claude AI agents today for repetitive analysis, with a human checking every output
 
 Here's the portfolio: https://adhi-product-ai.vercel.app/ref/upstart

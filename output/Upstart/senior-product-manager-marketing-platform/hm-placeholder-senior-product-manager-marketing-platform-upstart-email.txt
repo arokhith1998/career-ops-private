@@ -4,8 +4,8 @@ Hi {Hiring Manager, Marketing Platform},
 
 I don't normally reach out before applying, but the way this role is framed, improving measurement and attribution reliability so investments get ranked by their contribution to originations and acquisition cost, is the exact ranking problem I already run.
 
-- Built a Power BI model at Sensata that scored 1,200 pricing opportunities against a $627M target across 3 regions and 4 product families, surfacing $433M in margin gaps so leadership could prioritize by expected impact
-- Carried P&L for an 8-client, $15K-$90K/month paid portfolio at Pixis across Google, Meta, retail media and iOS UA, using Amplitude and Tableau to decide where incremental spend actually moved ROAS, lifting it 40%
+- Built a Power BI model at Sensata that scored 1,200 pricing opportunities against a $627M target across 3 regions, surfacing $433M in margin gaps for leadership to prioritize by expected impact
+- Carried P&L for an 8-client, $15K-$90K/month paid portfolio at Pixis, using Amplitude and Tableau to decide where incremental spend actually moved ROAS, lifting it 40%
 - Forecast demand inflection points across product groups at Applied Materials, and automate the repetitive analysis behind those calls with Claude AI agents, always with a human checking the output
 - Shipped SwipeHire zero-to-one, running 8+ A/B tests to quantify what moved activation before scaling it
 
