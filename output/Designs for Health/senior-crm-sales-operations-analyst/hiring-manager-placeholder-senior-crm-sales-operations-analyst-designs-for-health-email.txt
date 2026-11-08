@@ -1,0 +1,22 @@
+Subject: Designs for Health, Senior CRM Sales Ops Analyst: reconciling HubSpot, NetSuite and Snowflake before a number moves
+
+Hi {Hiring Manager, Sales Operations},
+
+I do not normally cold-email a hiring manager, but a seat spanning B2B, B2C and DTC on one HubSpot instance, with Marketing, IT, Data, Finance and Customer Service all touching the same records, is the governance problem I already run, not a new one.
+
+No deck here, the resume and cover letter carry the proof trail.
+
+At Sensata I built the Bleeders and Leakers Power BI pipeline, 1,200 opportunities against a $627M target, which only held up because every stage reconciled across 3 regions and 20 product lines before it reached leadership.
+At PriceKeel I own CRM and CPQ end to end, forecast and pipeline reviews, deal approvals, and an audit trail Finance can stand behind.
+At Plug Power I automated the WordPress and Pardot lead flow across Salesforce, Adobe Analytics and GA, the same integration troubleshooting your HubSpot, NetSuite and Snowflake stack will demand when the data does not line up on its own.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/designs-for-health
+
+If the team is still scoping this seat, I would like 15 minutes on which integration is the noisiest one right now.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

@@ -1,0 +1,22 @@
+Subject: Senior CRM Sales Ops Analyst, Designs for Health: owning HubSpot governance, not just using it
+
+Hi {Recruiter, Sales Operations},
+
+I do not normally cold-email before applying, but a posting that names Badger Maps as its own owned system, not just HubSpot, reads like real governance work, not a title.
+
+No deck here, the resume and cover letter carry the proof trail.
+
+At Sensata I built the Bleeders and Leakers Power BI pipeline, 1,200 opportunities against a $627M target, reconciled across 3 regions and 20 product lines.
+At PriceKeel I run CRM and CPQ end to end: forecast reviews, deal approvals, and the audit trail Finance needs.
+At Plug Power I automated the Pardot lead flow across Salesforce, Adobe Analytics and GA, the same integration troubleshooting HubSpot, NetSuite and Snowflake will need.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/designs-for-health
+
+Worth 15 minutes if this req is still yours, no worries if someone else owns it.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
