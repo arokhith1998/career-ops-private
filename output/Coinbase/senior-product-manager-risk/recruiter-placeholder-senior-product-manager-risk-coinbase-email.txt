@@ -1,0 +1,21 @@
+Subject: The speed-versus-coverage call on risk is one I already make
+
+Hi {Recruiter, Talent Acquisition},
+
+I do not normally reach out before applying, but the line about staying ahead of evolving threats while keeping the experience fast and frictionless is a trade-off I run day to day, not one I am guessing at.
+
+- Owned the roadmap and a 100+ feature backlog with Engineering across 3 regions, making speed-vs-coverage calls that cut time-to-market 20% and accelerated releases 25%
+- Built SQL and GA4 detection logic across 50K+ connected devices that flagged high-intent cohorts and adoption signals, lifting feature adoption 18%
+- Shipped SwipeHire zero-to-one, running 8+ A/B tests to quantify what moved activation before scaling it
+- Automate recurring analysis with Claude AI agents today, with a human checking every output
+
+Here's the portfolio: https://adhi-product.vercel.app/ref/coinbase
+
+Worth 15 minutes this week? Happy to be pointed to whoever owns this req if it is not you.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

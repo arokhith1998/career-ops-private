@@ -1,0 +1,16 @@
+Subject: Forecasting where the threat moves next, not patching the last one
+
+Hi {Recruiter, Talent Acquisition},
+
+I do not usually message before applying, but shaping long-term risk strategy by reading industry trends and emerging threat vectors, rather than only reacting to the last fraud pattern, is work I already run at Applied Materials, forecasting demand inflection points across multiple product groups so roadmap calls stay ahead of where the market is moving. At Sensata I built the Power BI model that ranked profitability opportunities by expected impact against 10+ competitors, and translated those calls into leadership presentations, not just engineering tickets. I also build Claude AI agents for the repetitive analysis underneath that work, with a human checking every output.
+
+Here's the portfolio: https://adhi-product.vercel.app/ref/coinbase
+
+Open to 15 minutes on how the Risk roadmap is reading the next threat vector?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

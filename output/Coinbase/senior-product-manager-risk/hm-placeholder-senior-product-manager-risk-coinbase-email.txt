@@ -1,0 +1,21 @@
+Subject: Ranking cases by expected loss is a prioritization problem I've built before
+
+Hi {Hiring Manager, Risk},
+
+I do not normally reach out before applying, but your posting's split, reducing customer losses while keeping the experience frictionless, is a trade-off I make against real usage data, not a comparison read off a slide.
+
+- Built a BU-wide Power BI model at Sensata that flagged line items where a change could lift profitability over 50%, the same expected-impact ranking a risk model uses to prioritize cases by expected loss
+- Instrumented SQL and GA4 KPI frameworks across 50K+ connected devices, running the detection logic that surfaced high-intent cohorts and adoption signals, the same signal-to-requirement translation your Risk Analytics and ML partners need
+- Owned a 100+ feature roadmap with Engineering across 3 regions, trading speed against coverage to cut time-to-market 20%
+- Shipped SwipeHire zero-to-one, running 8+ A/B tests and 12+ interviews to quantify what moved activation before scaling it wide
+
+Here's the portfolio: https://adhi-product.vercel.app/ref/coinbase
+
+Could I get 15 minutes on how you are measuring detection accuracy against friction today? No worries if this sits with someone else on the team.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
