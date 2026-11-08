@@ -3,8 +3,8 @@
 **Date:** 2026-11-07
 **URL:** https://www.linkedin.com/jobs/view/4442945123
 **Via:** — (direct)
-**Archetype:** Product / Strategic Marketing (primary fit)
-**Score:** 3.1/5
+**Archetype:** Product / Strategic Marketing
+**Score:** 3.0/5
 **Legitimacy:** High Confidence
 **Work Auth:** Sponsor (TIER-1, cached)
 **PDF:** none (nightly discover run) - queued no_deck
@@ -17,25 +17,24 @@
 ```yaml
 company: "Abnormal AI, Inc."
 role: "Senior Product Marketing Manager - Core Products"
-score: 3.1
+score: 3.0
 track: "us"
 visa_status: "sponsor (cached; TIER-1)"
 tier: "TIER-1"
 band: "no_deck"
 advertised_comp: "$153,000-$220,000 (JD-stated)"
-archetype: "Product / Strategic Marketing (primary fit)"
+archetype: "Product / Strategic Marketing"
 final_decision: "Queue (no_deck)"
 hard_stops: []
 soft_gaps:
-  - "JD requires 5 years at a B2B SaaS cybersecurity company specifically; candidate has no cybersecurity-industry background (semiconductors, industrial tech, D2C, clean energy) - a real domain gap, not just a tool gap"
-  - "JD asks for writing samples of external cybersecurity content; candidate has no public cybersecurity writing"
+  - "JD states a hard requirement of 5+ years at a B2B SaaS cybersecurity company, including 3+ years in PMM - candidate has zero cybersecurity industry experience (background is semiconductors/industrial tech/D2C); this is a real domain gap, not a tool-of-trade question"
 top_strengths:
-  - "Sensata: owned positioning and messaging turning technical features into customer value propositions, +15% conversion on priority launches - directly matches 'develop differentiated messaging and positioning'"
-  - "Sensata: built sales enablement (decks, case studies) for 50+ reps, +30% win rates - matches 'enable sales and channel partners'"
-  - "Applied Materials: automates repetitive analysis with Claude AI agents - resonates with Abnormal AI's own AI-native product category, a narrative hook even without direct cybersecurity experience"
+  - "Sensata: owned positioning and messaging that turned technical features into customer value propositions, lifting conversion 15% on priority launches - directly matches 'differentiated messaging and positioning'"
+  - "Sensata: built sales enablement (decks, case studies) for 50+ reps, improving win rates 30% - matches 'enable sales and channel partners'"
+  - "Applied Materials: built competitive, value-based pricing for a fast-growing market and forecast its inflection points - transfers to translating technical complexity for buyers"
 risk_level: "Medium"
 confidence: "Medium"
-next_action: "Queue no_deck - strong PMM mechanics match offset by a genuine industry-specific (cybersecurity) experience gap"
+next_action: "Queue no_deck - strong PMM mechanics transfer (positioning, launches, sales enablement), but the stated cybersecurity-industry requirement is a genuine domain gap worth flagging to the candidate before they invest in this one"
 work_auth: "sponsors"
 discard_reasons: []
 via: null
@@ -52,37 +51,37 @@ risk_summary:
 
 | Field | Value |
 |---|---|
-| Archetype | Product / Strategic Marketing (primary fit) |
-| Company | Abnormal AI - B2B SaaS email/cybersecurity security platform. |
-| Seniority | 5+ years B2B SaaS, 3+ in PMM, cybersecurity-specific - above the candidate's general PMM band on the industry-specificity axis. |
-| Remote/Location | United States (no city/state stated). |
-| Culture screen | Not evaluated - no team-size or org-structure signal in the JD. |
+| Archetype | Product / Strategic Marketing |
+| Company | Abnormal AI - B2B SaaS cybersecurity company (email security platform). |
+| Seniority | Senior PMM owning core-product positioning, launches, and sales enablement; matches the candidate's band in scope, but the stated 5+ yr requirement is specifically in cybersecurity. |
+| Remote/Location | United States (no city/state stated in the posting). |
+| Culture screen | Not evaluated - no team-size or stability signal in the JD beyond "mentors other product marketers." |
 | CV Variant | `cv-variants/us-product-marketing.md` |
-| Portfolio | https://adhi-product-ai.vercel.app/ref/abnormal-ai (AI-native security company) |
-| TL;DR | Strong PMM mechanics match (positioning, launches, sales enablement) undercut by a real cybersecurity-industry gap the JD states as a hard requirement. |
+| Portfolio | https://adhi-product-ai.vercel.app/ref/abnormal-ai (AI-native security platform) |
+| TL;DR | Strong PMM mechanics match (positioning, launch strategy, sales enablement), offset by an explicit, stated 5+ year B2B SaaS cybersecurity requirement the candidate does not meet. |
 
-**Work-authorization check:** Sponsor (TIER-1, cached) - JD silent on sponsorship; legal entity Abnormal AI, Inc. (formerly Abnormal Security Corporation) confirmed as an active multi-year H1B LCA filer under both names.
+**Work-authorization check:** Sponsor (TIER-1, cached) - legal entity confirmed as a consistent multi-year H1B LCA filer under both its current and prior legal names; JD itself is silent on sponsorship.
 
 ## B) Match with CV
 
 | JD requirement | CV evidence |
 |---|---|
-| Differentiated messaging and positioning | Sensata: positioning/messaging turning technical features into value props, +15% conversion |
-| Internal/external product launches, sales enablement | Sensata: sales enablement (decks, case studies) for 50+ reps, +30% win rates |
-| Drive pipeline through acquisition/upsell messaging | Sensata GTM: $2M+ first-year revenue on new sensing products via positioning/channel/launch |
-| Customer research, launch strategies | Sensata: 30+ customer interviews with OEMs/distributors, +22% CSAT |
-| 5 years at a B2B SaaS cybersecurity company, 3+ in PMM | No cybersecurity-industry experience - gap |
-| Writing samples of external cybersecurity content | None - gap |
+| Develop differentiated messaging and positioning | Sensata: positioning/messaging that turned technical features into customer value propositions, +15% conversion on priority launches |
+| Run internal/external product launches, sales enablement | Sensata: built sales enablement (decks, case studies) for 50+ reps, +30% win rates |
+| Drive pipeline through acquisition and upsell messaging | Plug Power: owned marketing budgets/plans presented for leadership approval; Pixis: -50% client churn through account strategy |
+| Explain complex technical topics to buyers | Applied Materials: value-based pricing and inflection-point forecasting for a fast-growing technical market |
+| Conduct customer research | Sensata: ran 30+ customer interviews with OEMs/distributors to find pain points |
+| 5+ years at a B2B SaaS cybersecurity company, writing samples of external cybersecurity content | No direct match - candidate's domain experience is semiconductors, industrial tech, and D2C e-commerce, not cybersecurity |
 
-**Gaps:** The cybersecurity-industry requirement is explicit and specific (not a tool gap, an industry-domain gap). The underlying PMM craft (positioning, launches, sales enablement) is strongly demonstrated, but the candidate has never worked in security.
+**Gaps:** The cybersecurity-industry requirement is explicit and specific (not a generic "SaaS" ask), and the candidate has no cybersecurity proof points to cite. This is a real domain gap worth flagging to the candidate rather than a question to paper over with analogy.
 
 ## C) Level and Strategy
 
-**Level detected:** Senior PMM, industry-specific - above the candidate's general-PMM band on domain specificity. **Sell senior without lying:** lead with the Sensata positioning/sales-enablement wins and frame the Applied Materials Claude-automation work as direct familiarity with AI-native product categories, bridging the security-specific gap via adjacent B2B SaaS launch experience rather than claiming security expertise that doesn't exist.
+**Level detected:** Senior IC PMM with mentorship scope - matches the candidate's natural level. **Sell senior without lying:** lead with the Sensata sales-enablement win-rate lift and the Applied Materials technical-market pricing work; do not claim cybersecurity depth that isn't there.
 
 ## D) Comp and Demand
 
-**Company type:** Growth-stage/VC-backed cybersecurity unicorn - Medium-High confidence.
+**Company type:** Growth-stage/VC-backed startup (well-funded, high-profile in the cybersecurity space) - Medium-High confidence.
 **Compensation reliability:** High - JD states a direct base range.
 
 | Advertised (JD) | $153,000 - $220,000 | JD |
@@ -92,11 +91,11 @@ At and above the candidate's $90K-130K target range.
 
 ## E) Customization Plan
 
-Lead Summary with the Sensata sales-enablement win-rate lift and positioning work, framed as "turns technical product capability into customer-facing value propositions that move win rates."
+Lead Summary with the Sensata sales-enablement and positioning wins; do not claim cybersecurity-specific experience the candidate does not have.
 
 ## F) Interview Plan
 
-Prepare a STAR story on the Sensata positioning/messaging work (+15% conversion) and one on the sales-enablement build (+30% win rates). Expect a red-flag question on cybersecurity-industry fit; answer by naming the AI-native product pattern-match (Applied Materials automation work, PriceKeel) as the fastest on-ramp.
+Prepare a STAR story on the Sensata sales-enablement build (50+ reps, +30% win rate) and be ready to directly address the cybersecurity-domain gap with a learning-agility framing.
 
 ## G) Posting Legitimacy
 
@@ -104,9 +103,9 @@ Prepare a STAR story on the Sensata positioning/messaging work (+15% conversion)
 
 | Signal | Finding |
 |---|---|
-| Posting freshness | LinkedIn "16 hours ago" at fetch time, over 200 applicants - fresh, high interest |
-| Description quality | Specific requirements (B2B SaaS security, writing samples), realistic 5-yr bar, named seniority mentoring duty |
-| Apply path | Active Apply button, no closure notice |
+| Posting freshness | "16 hours ago" at fetch time, over 200 applicants - fresh and clearly real demand |
+| Description quality | Specific responsibilities (launch strategy, sales plays, content types named), realistic 5+/3+ yr bands for a senior seat |
+| Apply path | Active LinkedIn apply button, no closure notice |
 
 **Employment classification:** Not evaluated.
 
