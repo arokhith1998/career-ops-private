@@ -2,16 +2,16 @@ Subject: Demand Generation Manager - CPL numbers I still carry cold
 
 Hi {Recruiter, Demand Generation},
 
-Your posting asks for someone who knows their own CPL and MQL to SQL numbers without pulling up a dashboard. That line is rare enough in a demand gen req that it stopped me mid scroll, since those are the numbers I still carry cold too.
+Your posting asks for someone who knows their own CPL and MQL to SQL numbers without pulling up a dashboard. That line stopped me mid scroll, since those are the numbers I still carry cold too.
 
-A few proof points that map straight to the role:
+Proof points that map straight to the role:
 - At Plug Power I ran $100K/month in paid budgets across Google, Microsoft, Meta and LinkedIn solo, no agency layer, cutting CPA 25% across 15+ A/B tests.
-- I built the Pardot lead routing and scoring myself, not briefed to someone else, cutting cost per lead 50%.
+- I built the Pardot lead routing and scoring myself, cutting cost per lead 50%.
 - At Sensata I narrowed 170 target facilities to a serviceable market of 28 and mapped four buying committee personas, the groundwork enterprise ABM runs on.
 
 Here's the portfolio: https://adhi-growth-ai.vercel.app/ref/parspec
 
-If this req is yours, I'd value 15 minutes. If it sits with someone else on your team, a pointer their way would help a lot.
+If this req is yours, I'd value 15 minutes. If not, a pointer to whoever owns it would help.
 
 Thank you,
 
