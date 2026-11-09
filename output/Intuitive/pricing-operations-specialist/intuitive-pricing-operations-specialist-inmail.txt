@@ -1,0 +1,21 @@
+Subject: A pricing-ops deck built around GPO and IDN contract terms
+
+Hi {Hiring Manager, Pricing Operations},
+
+I do not normally message before applying, but asking for someone who can activate GPO and IDN contract terms in CPQ and keep the resulting controls audit-ready is a narrower combination than most pricing-ops postings ask for, and it is close to what I already run.
+
+Built a 6-slide pitch deck mapping that work to this brief.
+
+At Sensata I recovered $700K+ in margin in two quarters tracing discrepancies across quote, order and invoice to the root system condition, then raised distributor and channel-partner margins from 53% to 61% administering contracted and tiered pricing terms.
+At PriceKeel I run my own CPQ guardrail engine and the audit trail behind every exception.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/intuitive
+
+Worth 15 minutes if this req is still open?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
