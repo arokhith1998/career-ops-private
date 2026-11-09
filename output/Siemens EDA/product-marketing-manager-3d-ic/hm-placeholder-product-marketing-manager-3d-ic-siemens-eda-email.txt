@@ -1,0 +1,22 @@
+Subject: The 2.5/3D IC market is the one I price on the materials side
+
+Hi {Hiring Manager, Innovator3D IC Product Marketing},
+
+I don't normally write in before applying, but Innovator3D IC's "right first time" heterogeneous chiplet integration is the same demand curve I work on daily at Applied Materials, one layer down the stack from where EBS sells.
+
+Where that overlap gets useful to this team:
+
+At Applied Materials I size the semiconductor market and build competitive, value-based pricing, forecasting the inflection points before they show up in a quarter's numbers.
+At Sensata I ran 30+ OEM and distributor interviews, turning technical features into value propositions that lifted conversion 15% on priority launches, the same translation this req asks for.
+I also automate recurring market analysis with Claude AI agents at Applied Materials instead of rebuilding the same read by hand each cycle.
+
+Here's the portfolio: https://adhi-product.vercel.app/ref/siemens-eda
+
+Open to 15 minutes on how the Innovator3D IC positioning work is scoped this year? If it sits elsewhere, a pointer helps.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
