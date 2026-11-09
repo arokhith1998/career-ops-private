@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Sierra GTM Operations, Pricing Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #0d5c8c; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 27pt; font-weight: 800; color: #0f172a; line-height: 1.14; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 21pt; font-weight: 800; color: #0f172a; line-height: 1.1; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #0d5c8c; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.6in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d6e8f3 100%); }
+  .cover h1 { font-size: 26pt; max-width: 11.5in; }
+  .cover .sub { font-size: 13.5pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; max-width: 11in; }
+  .cover .tags { margin-top: 18pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #0d5c8c; font-weight: 700; }
+  .cover .who { margin-top: 18pt; padding-top: 11pt; border-top: 1.5pt solid #0d5c8c; max-width: 9.5in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #0d5c8c; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #0d5c8c; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #e8f1f8; border-left: 4pt solid #0d5c8c; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #0d5c8c; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0d5c8c; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 24pt; font-weight: 800; color: #0d5c8c; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0d5c8c; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #0d5c8c; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #0d5c8c; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d6e8f3 100%); }
+  .close h2 { font-size: 25pt; max-width: 10.6in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.9in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #0d5c8c; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Sierra Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Sierra GTM Operations, Pricing</div>
+  <h1>Scaling outcomes-based pricing across more Fortune 500 deals without losing deal-desk rigor on any one of them.</h1>
+  <div class="sub">A commercial-modeling and negotiation framework built from a multi-$100M industrial pricing book, applied to Sierra's enterprise agent deals.</div>
+  <div class="tags">
+    <div class="tag"><strong>$700K+</strong> in margin recovered in 2 quarters by connecting pricing to measured customer value</div>
+    <div class="tag"><strong>53% to 61%</strong> margin lift negotiated across an entire distribution network</div>
+    <div class="tag"><strong>$627M</strong> pricing book modeled across 1,200 opportunities, 3 regions, 20 product lines</div>
+    <div class="tag"><strong>Builds and sells</strong> a deal-pricing guardrail engine as a founder, into RevOps, Sales and Finance</div>
+    <div class="tag"><strong>Claude AI agents</strong> automating recurring pricing analysis</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-pricing-ai.vercel.app/ref/sierra</div>
+  </div>
+  <div class="brand">SIERRA GTM OPERATIONS, PRICING</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The problem this deck solves</div>
+  <h2>Outcomes-based pricing scales a lot of enterprise conversations at once. The hard part is <span class="accent">keeping deal-desk rigor identical on the tenth negotiation as on the first.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What breaks as deal volume grows</h4>
+      <div class="line">Every outcomes-based deal needs its own ROI case tied to that customer's actual metrics, so the commercial model cannot be a copy-paste template without losing credibility with Finance and the customer.</div>
+      <div class="line">Negotiation leverage comes from knowing exactly where the gap is between what a customer currently pays for the problem and what Sierra's outcome is worth, deal by deal, not from a standard discount ladder.</div>
+      <div class="line">A business case that convinces one Fortune 500 buyer does not automatically convince the next; each one needs its own evidence, built fast enough to not stall the sales cycle.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run, at comparable scale</h4>
+      <div class="line">At <b>Sensata</b>, I built a $627M commercial model covering 1,200 pricing opportunities across 3 regions and 20 product lines, each one scored on its own competitive gap and customer willingness to pay, not a flat rule.</div>
+      <div class="line">I sat in the room for the <b>multimillion-dollar customer quotes</b> that model fed, negotiating with senior executives on both sides of the table.</div>
+      <div class="line">As founder of <b>PriceKeel</b>, I sell a pricing business case myself, every week, into RevOps, Sales leadership and Finance who did not ask for a change.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">This req asks for pricing strategy on major enterprise opportunities, commercial models and ROI analyses tied to measurable customer value, and sound judgment in high-stakes negotiations. That is the loop above, already run at scale.</div>
+  </div>
+  <div class="brand">SIERRA GTM OPERATIONS, PRICING</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What this opening asks for, and where the proof sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="proof"><div class="p">Lead pricing strategy for major enterprise opportunities, from early customer discussions through negotiation and close.</div></div>
+      <div class="proof"><div class="p">Develop commercial models and ROI analyses connecting Sierra's performance to measurable customer value.</div></div>
+      <div class="proof"><div class="p">Bring clear analysis and sound judgment to high-stakes customer negotiations.</div></div>
+      <div class="proof"><div class="p">Partner across Sales, Operations, Product, Finance and Legal to turn new capabilities into scalable commercial offerings.</div></div>
+    </div>
+    <div class="col">
+      <h3>My Proof</h3>
+      <div class="proof"><div class="p"><b>Bleeders and Leakers at Sensata:</b> led a commercial model from first competitive read through to a negotiated, closed quote, recovering $700K+ in 2 quarters.</div></div>
+      <div class="proof"><div class="p"><b>53% to 61% distributor margins:</b> an ROI case built on measurable customer value, negotiated across an entire channel, not one account.</div></div>
+      <div class="proof"><div class="p"><b>Multimillion-dollar customer quotes and AP26 revenue models:</b> built and defended alongside senior executives for a multi-$100M BU.</div></div>
+      <div class="proof"><div class="p"><b>PriceKeel:</b> cross-functional selling into RevOps, Sales leadership and Finance, the same partnership this role runs across Sales, Operations, Product, Finance and Legal.</div></div>
+    </div>
+  </div>
+  <div class="brand">SIERRA GTM OPERATIONS, PRICING</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>Bleeders and Leakers: <span class="accent">a cross-product pricing and negotiation program against a $627M book.</span></h2>
+  <div class="lede">Built as a commercial model covering 1,200 pricing opportunities against a $627M target across 3 regions, 4 product families and 20 product lines, scoring each opportunity on competitive gap and customer willingness to pay, then turning the highest-value ones into negotiated outcomes.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$433M</div>
+      <div class="lbl">Margin Gaps Surfaced</div>
+      <div class="desc">Ranked every pricing opportunity into one view so leadership could prioritize where a negotiation was worth the time.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$700K+</div>
+      <div class="lbl">Margin Recovered in 2 Quarters</div>
+      <div class="desc">Closed by connecting each negotiation to the customer's own measurable value, not a standard discount rule.</div>
+    </div>
+    <div class="stat">
+      <div class="n">53% to 61%</div>
+      <div class="lbl">Distributor Margin Lift</div>
+      <div class="desc">A channel-wide repricing negotiation, built on the same ROI logic as a single enterprise deal, run at scale.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">The same model fed multimillion-dollar customer quotes and AP26 revenue models negotiated directly with senior executives. The common thread: every deal's commercial case was built from that customer's own numbers, not a shared template.</div>
+  <div class="brand">SIERRA GTM OPERATIONS, PRICING</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month on Sierra's enterprise pricing deals looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Learn the live pipeline and the commercial-model inputs</div>
+      <div class="body">Sit with Sales, Operations and Finance on the open Fortune 500 opportunities, mapping what data each outcomes-based ROI case already draws on and where the model's inputs are thin.</div>
+      <div class="why"><strong>Why first:</strong> the same first move behind the Bleeders and Leakers commercial model at Sensata.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Build the ROI case for the highest-stakes live negotiation</div>
+      <div class="body">Take one active enterprise negotiation, build the commercial model connecting Sierra's performance to that customer's measurable value, and bring it into the room alongside Sales and Legal.</div>
+      <div class="why"><strong>Why now:</strong> the same deal-by-deal rigor that made the $700K recovery at Sensata hold under negotiation.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Turn the model into a repeatable commercial offering</div>
+      <div class="body">Package the ROI framework from that first deal into a scalable commercial offering Sales can reuse on the next Fortune 500 opportunity, with Product and Finance signed off.</div>
+      <div class="why"><strong>Why this fast:</strong> the same discipline of selling a pricing change to people who did not ask for one, run every week at PriceKeel.</div>
+    </div>
+  </div>
+  <div class="brand">SIERRA GTM OPERATIONS, PRICING</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to make outcomes-based pricing hold up under Fortune 500 scrutiny, deal after deal. I have already built and run that model once, at scale.</h2>
+  <div class="body">
+    <p>The core proof is Sensata: <strong>$700K+ recovered in 2 quarters</strong> and a <strong>53% to 61% distributor margin lift</strong>, both negotiated off a $627M-opportunity commercial model built deal by deal, not off a template.</p>
+    <p>What is harder to find is someone who also sells the pricing case itself: as founder of <strong>PriceKeel</strong>, I build and pitch a deal-pricing guardrail engine into RevOps, Sales leadership and Finance every week, and at <strong>Applied Materials</strong> I automate recurring pricing analysis with Claude AI agents, the same operating habit that keeps a commercial model credible as deal volume scales.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-pricing-ai.vercel.app/ref/sierra</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">SIERRA GTM OPERATIONS, PRICING</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
