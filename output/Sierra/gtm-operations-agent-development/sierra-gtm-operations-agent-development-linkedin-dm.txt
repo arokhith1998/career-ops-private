@@ -1,0 +1,3 @@
+Built PriceKeel's CRM/CPQ/forecast-review/deal-approval flow from zero and run Claude-driven forecasting at Applied Materials, close match for Agent Dev's operating cadence and the Claude Code/Cursor/Codex tooling ask. Portfolio:
+adhithyabhaskar.vercel.app/ref/sierra
+Open to 15 minutes if useful.

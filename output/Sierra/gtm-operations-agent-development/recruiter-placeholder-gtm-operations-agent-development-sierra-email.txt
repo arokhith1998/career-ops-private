@@ -1,0 +1,20 @@
+Subject: Agent Dev Strategy and Ops, before I apply
+
+Hi {Recruiter, Agent Development},
+
+I do not normally reach out before applying, but "bring the same operational rigor to Agent Dev that powers Sales" is exactly the build I like, so I wanted to flag my application directly.
+
+A few things map closely:
+
+- Founded PriceKeel and built its CRM, CPQ, forecast-review, deal-approval, and audit-trail flow from zero, the operating-cadence muscle this role needs.
+- Built a Power BI dashboard at Sensata giving leadership live visibility into pipeline health, deployment progress, and margin bleed.
+- At Applied Materials now, I use Claude to automate forecasting and account-review work, the same AI-native habit (Claude Code, Cursor, Codex) the JD calls out.
+
+Could we find 15 minutes this week? If you are not the right contact, a pointer to whoever is would help just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

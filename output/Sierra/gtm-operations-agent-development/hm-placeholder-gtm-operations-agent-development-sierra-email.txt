@@ -1,0 +1,20 @@
+Subject: Whitespace and expansion motion, before I apply
+
+Hi {Hiring Manager, Agent Development},
+
+I do not normally reach out before applying, but "drive account expansion strategy, identify whitespace, build repeatable motions" reads close to what I already build, so I wanted to write directly instead of dropping into a queue.
+
+A few things map to the req:
+
+- As founder of PriceKeel, I built the CRM, CPQ, forecast-review, deal-approval, and audit-trail system from scratch, the operating cadence and governance layer this role stands up for Agent Dev.
+- At Sensata, I built a Power BI dashboard leadership used to track pipeline, deployment progress, and margin bleed across the Industrial BU.
+- At Applied Materials now, I use Claude to automate forecasting and account-review work, the AI-native tooling comfort (Claude Code, Cursor, Codex) the JD lists as a plus.
+
+If you have 15 minutes this week or next, I would like to hear how Agent Dev is sequencing its expansion motions. If this sits with someone else on your team, happy to be redirected.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
