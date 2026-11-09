@@ -1,0 +1,21 @@
+Subject: Access's hard part is the partner, not the architecture
+
+Hi {Hiring Manager, Access Platform / Apple Wallet},
+
+I don't normally reach out before applying, but the role's mandate stuck with me: owning the commercial and ecosystem strategy behind Access, not just the roadmap. My read is that the hardest part of a two-sided platform like this is rarely the NFC handshake, it's convincing a hotel chain or an office badge vendor that onboarding is worth their engineering time. That's a partner value problem before it's a product one.
+
+A few lines on fit:
+At Sensata I owned a 100+ feature sensor roadmap across 3 regions in Agile, shipping 25% faster, while running 30+ OEM and distributor interviews that shaped what got built.
+At SwipeHire I wrote the PRD and MVP from zero, then modeled 3 subscription pricing tiers against competitor benchmarks, the pricing work this role names directly.
+I'm currently at Applied Materials automating analysis with Claude agents while carrying P&L targets.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/apple
+
+If 15 minutes makes sense I'd welcome it, no worries if this sits with someone else on the team.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
