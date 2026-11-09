@@ -1,0 +1,21 @@
+Subject: Revenue Strategy & Operations - a note before I apply
+
+Hi {Hiring Manager, Revenue Strategy and Operations},
+
+"Impact not job titles" is an easy line for a careers page and a harder one to build a team around, especially when the req also wants fluency in Sigma and dashboard automation for a pre- or post-sale pod. That's what made me write in before applying.
+
+Three things that line up with the role:
+- Founded PriceKeel and built its CRM, CPQ, forecast and pipeline reviews, deal approvals, and the audit trail that lets Finance check every pricing call.
+- Built Sensata's FY26 Bleeders & Leakers Power BI dashboard, 1,200 opportunities against a $627M target, recovering $700K+ in margin in two quarters.
+- At Applied Materials I automate pricing and market-sizing analysis with Claude AI agents, the same AI-first posture ElevenLabs applies across engineering, growth and ops.
+
+I'd like 15 minutes to see if the pod I'd land on is a real fit. If it's not yours to route, a nudge to the right person helps too.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/elevenlabs
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

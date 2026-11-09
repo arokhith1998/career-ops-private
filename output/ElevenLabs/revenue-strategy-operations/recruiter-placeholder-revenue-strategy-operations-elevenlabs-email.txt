@@ -1,0 +1,21 @@
+Subject: Revenue Strategy & Operations - reaching out before applying
+
+Hi {Recruiter, Revenue Strategy and Operations},
+
+Your team runs GTM Strategy and Operations as pods by function, not by title, and the req asks for someone who can turn a Sigma dashboard into a lever a pod partner acts on. That's why I'm writing before I apply.
+
+A few things I've built that map directly:
+- Stood up the CRM, CPQ, forecast reviews, deal approvals and audit trail for PriceKeel, the pricing layer I founded, end to end.
+- Built Sensata's Bleeders & Leakers Power BI dashboard against a $627M target, recovering $700K+ in margin in two quarters.
+- At Applied Materials I automate pricing and market analysis with Claude AI agents, the same AI-first spirit ElevenLabs states for every function.
+
+I'd value 15 minutes. If this isn't your req, a pointer to whoever owns it helps just as much.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/elevenlabs
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
