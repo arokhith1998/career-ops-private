@@ -1,25 +1,19 @@
-# Product Marketing Manager - Wayve
+# Wayve - Product Marketing Manager
 
 **Company:** Wayve
 **Title:** Product Marketing Manager
-**URL:** https://www.linkedin.com/jobs/view/4474080967
-**Req ID:** LinkedIn job posting ID 4474080967 (no separate employer req number shown)
-**Posted:** 18 hours ago
-**Location:** Sunnyvale, CA
-**Comp band:** Not stated in posting
-**Seniority level (LinkedIn criteria):** Not Applicable
-**Employment type (LinkedIn criteria):** Full-time
-**Track:** us
-**Visa gate:** required
-**Source:** LinkedIn guest API (linkedin.com/jobs-guest/jobs/api/jobPosting/4474080967), extracted via curl + static HTML parse, 2026-11-06
-**Liveness:** confirmed live - full title, company and JD body loaded; no "no longer accepting applications" or closed-job signal present.
+**URL:** https://www.linkedin.com/jobs/view/4488835318
+**Req/Posting ID:** LinkedIn job id 4488835318
+**Posted Date:** 4 hours ago (per LinkedIn page at extraction time)
+**Location(s):** Sunnyvale, CA
+**Seniority level:** Not Applicable | **Employment type:** Full-time
+**Source:** linkedin.com/jobs-guest/jobs/api/jobPosting/4488835318
+**Track:** us | **Visa gate:** required
 
-## Work authorization / sponsorship / citizenship / clearance / required degree field / graduation year (verbatim)
+## Work authorization / sponsorship / citizenship / clearance / degree / grad-year sentences (verbatim)
+"✈️ Relocation support and visa sponsorship where applicable"
 
-> ✈️ Relocation support and visa sponsorship where applicable
-> At Wayve we're committed to creating a diverse, fair and respectful culture that is inclusive of everyone based on their unique skills and perspectives, and regardless of sex, race, religion or belief, ethnic or national origin, disability, age, citizenship, marital, domestic or civil partnership status, sexual orientation, gender identity, veteran status, pregnancy or related condition (including breastfeeding) or any other basis as protected by applicable law.
-
-## Full Job Description
+## Full JD Text
 
 Before the detail, here's the challenge you'd help us solve.
 

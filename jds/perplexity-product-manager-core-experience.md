@@ -2,12 +2,12 @@
 
 **Company:** Perplexity
 **Title:** Product Manager, Core Experience
-**URL:** https://jobs.ashbyhq.com/perplexity/6f3c5131-2efa-400c-8248-44203a4dbfbb
+**URL:** https://jobs.ashbyhq.com/Perplexity/6f3c5131-2efa-400c-8248-44203a4dbfbb
 **Req/Posting ID:** Ashby id 6f3c5131-2efa-400c-8248-44203a4dbfbb
 **Posted Date:** 2026-09-02T16:40:29.905+00:00
 **Location(s):** San Francisco
 **Comp Band Stated:** $230K – $330K • Offers Equity
-**Source:** Ashby posting-api job-board (api.ashbyhq.com/posting-api/job-board/perplexity?includeCompensation=true), matched by id; direct page confirmed live via WebFetch.
+**Source:** api.ashbyhq.com/posting-api/job-board/perplexity?includeCompensation=true (Ashby posting-api job-board, matched by id, isListed=true)
 **Track:** us | **Visa gate:** required
 
 ## Work authorization / sponsorship / citizenship / clearance / degree / grad-year sentences (verbatim)
@@ -19,11 +19,15 @@ In 2026, we launched Computer, the defining product for the new era of agentic A
 
 Product Managers at Perplexity work closely with design and engineering, focusing on the core agentic and search experiences. The ideal candidate should have strong communication and writing skills, the ability to envision innovative technology, and willingness to reimagine work to be more efficient and creative. Ideal candidates have a passion in a particular industry that they are domain experts in: in the application please highlight which industry you are most interested in innovating.
 
-The RoleThe Core Experience team owns the foundational interactions that define how people use Perplexity every day. This includes how users begin and continue work, understand what the product is doing, navigate and find what they need, manage their context and preferences, collaborate with others, and return to ongoing work across platforms.
+The Role
+
+The Core Experience team owns the foundational interactions that define how people use Perplexity every day. This includes how users begin and continue work, understand what the product is doing, navigate and find what they need, manage their context and preferences, collaborate with others, and return to ongoing work across platforms.
 
 You will identify the highest-leverage user problems, translate them into clear product direction, and partner closely with design, engineering, data science, and research to deliver experiences that feel fast, intuitive, cohesive, and dependable. This role requires strong product judgment, deep user empathy, analytical rigor, and an exceptional eye for detail.
 
-What You'll Do- Anticipate opportunities for innovation and value in enterprise industries.
+What You'll Do
+
+- Anticipate opportunities for innovation and value in enterprise industries.
 
 - Envision new experiences and deliver a long-term vision.
 
@@ -59,7 +63,9 @@ Qualifications
 
 - 4+ years of product management experience.
 
-Our MissionPerplexity's mission is to power curiosity. Curious people are the people who drive change in the world. Driving change is a continuous cycle of learning, building, and integrating.
+Our Mission
+
+Perplexity's mission is to power curiosity. Curious people are the people who drive change in the world. Driving change is a continuous cycle of learning, building, and integrating.
 
 Learn: curious people constantly learn new things by asking more. They question the status quo in their own expertise and they constantly learn outside of it. Research is essential to them and never ending.
 
