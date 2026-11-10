@@ -1,0 +1,20 @@
+Subject: A line that already crosses Data Engine's shared-platform problem
+
+Hi {Recruiter, Data Engine},
+
+I do not normally reach out before applying, but Data Engine asking for someone to own ingestion through dataset delivery, not just the roadmap, for teams that do not report to the person who owns it, is exactly the reconciling-competing-needs problem I already run.
+
+At Sensata I owned the roadmap for a new sensing-product line and a 100+ feature backlog, deciding which capabilities to build once as shared platform and which to leave program-specific, cutting time-to-market 20%.
+I ran 30+ customer interviews before committing to a bet, then built KPI frameworks in SQL and GA4 across 50K+ devices to separate real adoption from stalled rollout.
+I also set pricing and commercial terms for a multi-$100M business unit, the same packaging judgment this role's external roadmap will need.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/applied-intuition
+
+Worth 15 minutes if this is your req, no worries if it already has an owner.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

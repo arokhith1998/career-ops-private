@@ -1,0 +1,20 @@
+Subject: The shared-platform tradeoffs you are asking someone to own
+
+Hi {Hiring Manager, Data Engine},
+
+I do not normally cold-email before applying, but a brief that asks someone to decide what becomes a shared capability versus what stays program-specific, across teams that do not report to you, is exactly the ownership call I already make.
+
+At Sensata I owned the sensing-product roadmap and a 100+ feature backlog across 3 regions, shipping the shared pieces once and leaving the rest alone, which cut time-to-market 20% and accelerated releases 25%.
+I ran 30+ customer interviews with OEMs and distributors before committing to a bet, then instrumented KPI frameworks in SQL and GA4 across 50K+ connected devices to tell real adoption from stalled rollout.
+As Pricing Lead I also set commercial terms for a multi-$100M business unit and recovered $700K+ in margin in two quarters, the packaging judgment a platform moving toward external customers will need.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/applied-intuition
+
+Worth 15 minutes on how you are scoping the external half of this role, no worries if this already has an owner.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

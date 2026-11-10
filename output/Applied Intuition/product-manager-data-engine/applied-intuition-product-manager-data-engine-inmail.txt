@@ -1,0 +1,18 @@
+Subject: Data Engine's shared-platform tradeoff, from someone who already makes that call
+
+Hi {Recruiter/Hiring Manager, Data Engine},
+
+Deciding what a platform builds once as a shared capability and what it leaves program-specific, for teams that do not report to you, is the exact ownership call behind this posting.
+
+At Sensata I owned a 100+ feature product roadmap across 3 regions, cutting time-to-market 20%, and built KPI frameworks in SQL and GA4 across 50K+ devices to separate real adoption from stalled rollout. As Pricing Lead I set commercial terms for a multi-$100M business unit, the packaging instinct this role's external roadmap needs.
+
+Portfolio: adhi-product-ai.vercel.app/ref/applied-intuition
+
+Open to 15 minutes if this seat, or a related one on the platform side, is still open.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
