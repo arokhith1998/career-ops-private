@@ -1,0 +1,20 @@
+Subject: Manager, Deal Desk at Netradyne: coaching sales away from reflexive discounts
+
+Hi {Sr. Director, Revenue Operations},
+
+I do not normally cold-email a hiring manager, but coaching sales on alternatives to discounting while owning price book governance and ASC 606 calls is a tension I have carried inside a multi-$100M business.
+
+Built a 6-slide deck mapping that tension to deals I have already worked.
+
+At Sensata I built the BU-wide Power BI price-increase model flagging line items where a change could lift profitability over 50%, and recovered $700K+ in margin in two quarters by fixing the underlying discount logic. At PriceKeel I run deal approvals and a guardrail engine built on closed-won and closed-lost history, and I am automating the kind of repetitive deal analysis your team would hand to Business Systems, using Claude agents in my day job at Applied Materials.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/netradyne
+
+If the team is still scoping this seat, I would like 15 minutes to hear what the highest-friction deal type looks like right now. The deck covers the rest.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
