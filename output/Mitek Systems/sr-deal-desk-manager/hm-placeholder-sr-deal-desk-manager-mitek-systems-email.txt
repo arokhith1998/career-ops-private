@@ -1,0 +1,20 @@
+Subject: The Deal Desk governance you are asking someone to design
+
+Hi {Hiring Manager, Deal Desk},
+
+I do not normally cold-email before applying, but a brief that asks someone to design the policies and systems behind pricing approvals, not just run them, is exactly the kind of build I already own end to end.
+
+I founded PriceKeel to run that other half myself: I set up and run the CRM, CPQ, forecast reviews and deal approvals, with a guardrail engine that scores each discount exception against a company's own closed-won and closed-lost precedent, plus an audit trail Finance can check on demand.
+At Sensata I drafted and reviewed multimillion-dollar customer quotes and order forms for a multi-$100M industrial book, and raised distributor and channel-partner margins from 53% to 61% in under two quarters.
+I also built the FY2026 Bleeders and Leakers Power BI dashboard, tracking 1,200 pricing opportunities against a $627M target and surfacing $433M in margin gaps across 3 regions and 20 product lines.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/mitek-systems
+
+Worth 15 minutes on how the team is scoping the Deal Desk rebuild, no worries if this already has an owner.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
