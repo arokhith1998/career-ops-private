@@ -1,10 +1,16 @@
-Hi {Marketing Lead, Sierra},
+Subject: PMM application: in-person team, AI-first brief
 
-I don't usually write in before applying, but Sierra calling itself "primarily an in-person company" while hiring a PMM to build AI-first automations is a combination worth reaching out about directly.
+Hi Ally,
 
-A quick read on fit: I owned GTM for a new sensing product line at Sensata, positioning through launch, driving $2M+ in first-year revenue; the sales enablement from that same research moved win rates 30% across 50+ reps. I also already live in the AI-first part of the brief, running Claude agents on repetitive analysis at Applied Materials and shipping an AI job-matching platform solo, PRD to launch.
+I applied for the Product Marketing Manager role this week. Sierra calling itself "primarily an in-person company" while hiring a PMM to build AI-first automations is a combination worth writing about directly.
 
-Built a 6-slide pitch deck so the proof fits on one read: https://adhi-product-ai.vercel.app/ref/sierra
+Built you a 6-slide pitch deck so the proof fits on one read.
+
+- Owned GTM for new sensing products at Sensata, positioning through launch, driving $2M+ in first-year revenue.
+- Built sales enablement for 50+ reps that improved win rates 30%.
+- Run Claude agents on repetitive analysis at Applied Materials and built an AI job-matching platform zero to one, PRD to launch.
+
+Here is the portfolio: https://adhi-product-ai.vercel.app/ref/sierra
 
 Open to 15 minutes this week? Glad to be redirected if this sits with someone else on the team.
 

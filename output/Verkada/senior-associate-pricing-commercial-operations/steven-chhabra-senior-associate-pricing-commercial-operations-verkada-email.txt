@@ -1,0 +1,23 @@
+Subject: Applied for Senior Associate, Pricing & Commercial Ops: margin math across channels
+
+Hi Steven,
+
+I don't normally write after hitting submit, but I applied for the Senior Associate, Pricing & Commercial Operations role this week, and balancing revenue against margin across products, channels, segments and geographies is the exact tradeoff I ran at Sensata's Industrial BU.
+
+Built you a 6-slide pitch deck so the proof fits on one read.
+
+- Led pricing for a multi-$100M business spanning 3 regions, 4 product families and 20 product lines.
+- Built the Bleeders and Leakers Power BI dashboard: 1,200 pricing opportunities against a $627M target, $433M in margin gaps surfaced.
+- Raised distributor and channel-partner margins from 53% to 61% in under two quarters by repricing parts sold through distribution.
+- Founded PriceKeel, a discount-guardrail engine with an audit trail Finance can review, the discipline a growing Deal Desk needs.
+
+Here is the portfolio: https://adhi-pricing-ai.vercel.app/ref/verkada
+
+If 15 minutes makes sense, I'd welcome it. If someone else owns this req, a pointer would help.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

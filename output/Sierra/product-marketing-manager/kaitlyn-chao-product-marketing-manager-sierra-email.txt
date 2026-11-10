@@ -1,14 +1,16 @@
-Subject: The in-person bet behind Sierra's AI-first PMM seat
+Subject: Applied for PMM: the in-person bet behind Sierra's AI-first seat
 
 Hi Kaitlyn,
 
-I don't usually write in before applying, but Sierra staying "primarily an in-person company" while asking the PMM hire to build AI-first automations is a deliberate choice, not a default one, and that made me reach out. Built you a 6-slide pitch deck so the proof fits on one read.
+I applied for the Product Marketing Manager role this week. Sierra staying "primarily an in-person company" while asking the PMM hire to build AI-first automations is a deliberate choice, not a default one, and that's why I'm writing.
 
-- Owned GTM for a new sensing product line at Sensata end to end, positioning through launch, driving $2M+ in first-year revenue.
-- Rewrote technical capability into language buyers acted on, lifting conversion 15% on priority launches; the enablement from that same research moved win rates 30% across 50+ reps.
-- Already run AI-first automations day to day: Claude agents handle my analysis at Applied Materials, plus an AI job-matching platform I built solo.
+Built you a 6-slide pitch deck so the proof fits on one read.
 
-Here's the portfolio: https://adhi-product-ai.vercel.app/ref/sierra
+- Owned GTM for new sensing products at Sensata end to end, positioning through launch, driving $2M+ in first-year revenue.
+- Turned technical features into value propositions that lifted conversion 15% on priority launches, and built sales enablement for 50+ reps that improved win rates 30%.
+- Already run AI-first automations: Claude agents handle repetitive analysis at Applied Materials, and I built an AI job-matching platform zero to one.
+
+Here is the portfolio: https://adhi-product-ai.vercel.app/ref/sierra
 
 Would 15 minutes work this week? Happy to be pointed elsewhere if this req sits with someone else.
 

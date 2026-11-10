@@ -1,0 +1,23 @@
+Subject: Applied for Pricing Operations Specialist: CPQ guardrails and the GenAI line
+
+Hi Nick,
+
+I applied for the Pricing Operations Specialist role this week. The preferred line about using generative AI for process automation caught me, since I run Claude agents against analysis work in my day job right now, not as a side project.
+
+Built you a 6-slide pitch deck so the proof fits on one read.
+
+- Recovered $700K+ in margin in two quarters leading Sensata's Bleeders and Leakers pricing program.
+- Raised distributor and channel-partner margins from 53% to 61% by repricing parts sold through distribution.
+- At PriceKeel, set up and run CRM and CPQ and deal approvals, plus a guardrail engine and the audit trail Finance reviews behind each exception.
+- Built a Power BI dashboard tracking 1,200 opportunities against a $627M target, surfacing $433M in margin gaps.
+
+Here is the portfolio: https://adhi-pricing-ai.vercel.app/ref/intuitive
+
+Worth 15 minutes to see if this fits your team?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

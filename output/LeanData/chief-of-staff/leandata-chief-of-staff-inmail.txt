@@ -1,15 +1,15 @@
-Subject: A pricing dashboard built from scratch, mapped to your Chief of Staff brief
+Subject: Chief of Staff application: the month-three OKR and QBR line
 
-Hi {Hiring Manager, Office of the CEO},
+Hi Katy,
 
-I do not normally message before applying, but a Chief of Staff posting that spells out First Month, First 3 Months and First 6 Months milestones this specifically is rare, and the OKR and QBR line in month three is work I already own, not a skill I would be ramping into.
+I applied for the Chief of Staff role this week. Few CoS postings spell out First Month, First 3 Months and First 6 Months this clearly, and the OKR and QBR work in month three is something I already own, not something I'd be ramping into.
 
-Built a 6-slide pitch deck mapping that work to this brief.
+Built you a 6-slide pitch deck so the proof fits on one read.
 
-At Sensata I built a margin-recovery dashboard from scratch, ranking 1,200 opportunities against a $627M target, surfaced $433M in gaps, and recovered $700K+ in two quarters.
-At Applied Materials and Plug Power I carry P&L targets and run the OKR and quarterly review cadence directly, the exact rhythm-of-the-business scope described here.
+- Sensata: built a margin-recovery dashboard ranking 1,200 opportunities against a $627M target; surfaced $433M in gaps and recovered $700K+ in two quarters.
+- Applied Materials: carry P&L and revenue targets and run the OKR and quarterly review cadence directly.
 
-Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/leandata
+Here is the portfolio: https://adhithyabhaskar.vercel.app/ref/leandata
 
 Worth 15 minutes to see if the fit is real?
 
