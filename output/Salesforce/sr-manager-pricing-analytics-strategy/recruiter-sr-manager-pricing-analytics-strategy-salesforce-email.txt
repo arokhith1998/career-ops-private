@@ -1,0 +1,20 @@
+Subject: Sr. Manager, Pricing Analytics & Strategy - the measurement system part
+
+Hi {Recruiter, Pricing Analytics},
+
+I don't usually reach out before applying, but your posting's ask to measure pricing impact and run evidence-based evaluations of monetization drivers is the exact loop I ran at Sensata for two straight quarters.
+
+Built and owned the FY2026 Bleeders and Leakers Power BI dashboard: 1,200 pricing opportunities tracked against a $627M target across 3 regions and 4 product families, surfacing $433M in margin gaps for leadership.
+Converted that visibility into $700K+ recovered in two quarters by validating each pricing hypothesis with Sales and Finance before it shipped.
+Already automate repetitive pricing analysis with Claude-based AI agents at Applied Materials, the direction your posting points the team's workflows.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/salesforce
+
+If this req is yours, I'd like 15 minutes on the dashboard. If not, a pointer to whoever owns it would help.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

@@ -1,0 +1,21 @@
+Subject: Corporate Strategy's pricing measurement framework
+
+Hi {Hiring Manager, Corporate Strategy},
+
+I don't normally reach out before applying, but your posting's ask to build frameworks that measure Corporate Strategy priorities is close to a system I built and ran myself, not one I only analyzed from outside.
+
+Ranked 1,200 pricing opportunities against a $627M target across 3 regions and 4 product families inside a Power BI dashboard that gave leadership pipeline, win-rate and stage views without a status meeting.
+Converted that visibility into $700K+ in recovered margin in two quarters, and raised distributor and channel-partner margins from 53% to 61% on willingness-to-pay data Sales and Finance signed off on first.
+At Applied Materials I now automate the reporting layer itself with Claude-based AI agents, the direction your posting points analytics work toward.
+Founding PriceKeel, a decision-integrity layer for B2B SaaS deal pricing, is the same enablement problem your posting names for Deal Desk, renewals and field sellers.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/salesforce
+
+If this req sits with your team, I'd value 15 minutes on how the framework maps to Corporate Strategy's current priorities.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

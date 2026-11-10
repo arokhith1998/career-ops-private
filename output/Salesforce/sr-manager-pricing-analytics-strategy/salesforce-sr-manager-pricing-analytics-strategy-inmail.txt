@@ -1,0 +1,18 @@
+Subject: The measurement framework behind $700K+ recovered
+
+Hi {Recruiter, Pricing Analytics},
+
+Your posting asks for evidence-based evaluation of monetization drivers and scalable reporting that tracks pricing initiative health. I built exactly that at Sensata: the Bleeders and Leakers Power BI dashboard ranked 1,200 pricing opportunities against a $627M target across 3 regions and 4 product families, surfacing $433M in margin gaps and converting $700K+ of that into recovered margin in two quarters.
+
+I'm now building PriceKeel, a decision-integrity layer for B2B SaaS deal pricing, the same enablement work your posting describes for Deal Desk and field sellers.
+
+Portfolio: adhi-pricing-ai.vercel.app/ref/salesforce
+
+Open to 15 minutes to walk through it, or a pointer to whoever owns this req?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
