@@ -1,0 +1,18 @@
+Subject: Serverless, translated for developers, from someone who already runs that loop
+
+Hi {Recruiter/Hiring Manager, AWS Product Marketing},
+
+Turning a serverless architecture decision into a narrative a developer trusts is the translation problem behind this posting, and it is the one I already run.
+
+At Sensata I built positioning straight from the engineering spec for a new connected-sensor line, driving $2M+ in first-year revenue and lifting conversion 15%, grounded in 30+ customer interviews and a KPI framework (SQL, GA4) across 50K+ connected devices.
+
+Portfolio: adhi-product-ai.vercel.app/ref/aws
+
+Open to 15 minutes if this seat, or a related one on AWS Product Marketing, is still open.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

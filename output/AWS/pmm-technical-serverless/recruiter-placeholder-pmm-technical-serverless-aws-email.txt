@@ -1,0 +1,20 @@
+Subject: Translating serverless architecture into a narrative developers trust
+
+Hi {Recruiter, AWS Product Marketing},
+
+I do not normally reach out before applying, but marketing a developer-facing portfolio like Lambda, EventBridge and Step Functions straight from the architecture, not a summary of it, is exactly the translation work I do.
+
+At Sensata I built positioning for a new connected-sensor line straight from the engineering spec, lifting conversion 15% and driving $2M+ in first-year revenue.
+I instrumented KPI frameworks in SQL and GA4 across 50K+ connected devices to separate real technical adoption from stalled rollout, and ran 30+ customer interviews before committing to a launch bet.
+I also present multimillion-dollar customer quotes and revenue models directly to senior executives as Pricing Lead today.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/aws
+
+Worth 15 minutes if this is your req, no worries if it already has an owner.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
