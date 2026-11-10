@@ -1,0 +1,20 @@
+Subject: One Marketing Manager owning automation, CRM and SEO/SEM end to end
+
+Hi {Hiring Manager, Marketing},
+
+Your posting asks one Marketing Manager to own marketing automation, Salesforce CRM workflows and SEO/SEM instead of splitting that across a team, which is closer to how I have actually worked than most "manager" titles are. At Plug Power I rebuilt the WordPress-to-Pardot-to-Salesforce flow myself, including closed-loop reporting across Adobe Analytics and Google Tag Manager, and cut cost per lead 50%.
+
+I also ran the $100K/month paid budget across Google Ads, Microsoft Ads, Meta and LinkedIn myself; bid optimization and A/B testing brought CPA down 25%, and SEMRush and Moz work lifted organic visibility 35%. At Sensata I owned positioning that turned sensor specs into customer language, lifting conversion 15% on priority launches, backed by KPI frameworks I built in SQL and GA4.
+
+At Applied Materials I automate my own reporting with AI agents built on Claude instead of rebuilding the same analysis every cycle, the habit a team built around training AI systems should want in its marketing seat.
+
+Here's the portfolio: https://adhi-growth-ai.vercel.app/ref/evlo-ai
+
+Open to 15 minutes on how this seat is scoped?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
