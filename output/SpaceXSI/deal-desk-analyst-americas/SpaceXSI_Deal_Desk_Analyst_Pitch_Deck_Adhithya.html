@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>SpaceXSI Deal Desk Analyst Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #0a6cff; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 26pt; font-weight: 800; color: #0f172a; line-height: 1.12; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 21pt; font-weight: 800; color: #0f172a; line-height: 1.1; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #0a6cff; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.5in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d9e8ff 100%); }
+  .cover h1 { font-size: 24pt; max-width: 11.2in; }
+  .cover .sub { font-size: 13pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 16pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #0a6cff; font-weight: 700; }
+  .cover .who { margin-top: 16pt; padding-top: 11pt; border-top: 1.5pt solid #0a6cff; max-width: 9.5in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #0a6cff; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #eaf2ff; border-left: 3pt solid #0a6cff; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #0b4fb8; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #0a6cff; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #eaf2ff; border-left: 4pt solid #0a6cff; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #0b4fb8; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0a6cff; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 22pt; font-weight: 800; color: #0a6cff; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0a6cff; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #0a6cff; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #0a6cff; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d9e8ff 100%); }
+  .close h2 { font-size: 23pt; max-width: 10.9in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.6in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #0a6cff; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the SpaceXSI Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | SpaceXSI Deal Desk Analyst</div>
+  <h1>SpaceXSI's deal desk needs someone who can close a non-standard enterprise deal with executives today, then turn that exception into an approval workflow and playbook so the next ten reps do not need you in the room. I already run that exact loop.</h1>
+  <div class="sub">Deal strategy, pattern-spotting analytics and AI-built deal-approval tooling from someone who built a deal desk from zero on the side.</div>
+  <div class="tags">
+    <div class="tag"><strong>$700K+</strong> margin recovered in 2 quarters, Sensata Bleeders and Leakers program</div>
+    <div class="tag"><strong>Multimillion-dollar customer quotes</strong> and AP26 revenue models closed with executives on non-standard terms</div>
+    <div class="tag"><strong>PriceKeel</strong> - founder running my own CRM, CPQ, approval workflow and audit trail</div>
+    <div class="tag"><strong>$627M</strong> deal-pricing opportunity dashboard across 3 regions, 20 product lines</div>
+    <div class="tag"><strong>AI agents built on Claude</strong> automating recurring deal and pricing analysis</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-pricing-ai.vercel.app/ref/spacexsi</div>
+  </div>
+  <div class="brand">SPACEXSI DEAL DESK</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>The hard part of this seat is not closing one enterprise deal. It is <span class="accent">turning every non-standard exception into an approval workflow, contracting playbook and pricing guardrail while sales keeps closing at volume.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What this seat actually requires</h4>
+      <div class="line">Structuring and closing complex enterprise deals across pricing, competitive positioning, negotiation approach, contract structure and executive engagement, partnering across Sales, Legal, Finance and Business Operations.</div>
+      <div class="line">Systematizing approval workflows, contracting playbooks, pricing guardrails and sales enablement so the deal desk is not the bottleneck as deal volume scales across the Americas team.</div>
+      <div class="line">Partnering with the GTM systems team to improve the tools already in place, Salesforce, Ironclad and pricing infrastructure, without needing to build them alone.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run</h4>
+      <div class="line">At <b>Sensata</b>, I closed AP26 revenue models and multimillion-dollar customer quotes with senior executives on non-standard terms for a multi-$100M business, the same executive-engagement muscle this seat runs deal by deal.</div>
+      <div class="line">At <b>PriceKeel</b>, I built the discount guardrail and approval matrix from zero, running my own CRM, CPQ and quote-to-approval workflow end to end with a Finance audit trail on every exception.</div>
+      <div class="line">At Sensata I built a BU-wide Power BI system tracking 1,200 pricing opportunities against a $627M target, the same pattern-spotting-for-finance discipline this seat is asked to run company-wide.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">The through-line: every deal desk system I have touched started with "this exception needs a rule, not a one-off approval" and ended with a number leadership could act on.</div>
+  </div>
+  <div class="brand">SPACEXSI DEAL DESK</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The mandate, mapped</div>
+  <h2>What the posting asks for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Partner with Americas sales, legal, finance, and revenue operations to structure, negotiate, and close complex enterprise deals."</div></div>
+      <div class="quote"><div class="q">"Help evolve our pricing model and deal frameworks... surfacing the patterns to finance and leadership, and driving the changes through."</div></div>
+      <div class="quote"><div class="q">"Lead cross-functional projects that systematize how we operate at scale: approval workflows, contracting playbooks, pricing guardrails, sales enablement materials, deal desk operating cadence."</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>Cross-functional deal structuring:</b> closed multimillion-dollar customer quotes and AP26 revenue models with senior executives across Sales and Finance on non-standard Sensata deal terms.</div></div>
+      <div class="proof"><div class="p"><b>Evolving the pricing model:</b> built competitive, value-based pricing at Applied Materials and raised distributor margins from 53% to 61% at Sensata by repricing the model itself, not a one-time discount.</div></div>
+      <div class="proof"><div class="p"><b>Systematizing at scale:</b> founded PriceKeel's guardrail engine and approval matrix from zero, running CRM, CPQ and the Finance audit trail end to end, the same approval-workflow and playbook build this role asks for.</div></div>
+      <div class="proof"><div class="p"><b>Pattern-spotting for finance and leadership:</b> built the FY2026 Bleeders and Leakers dashboard surfacing $433M in margin gaps across 1,200 opportunities for leadership to prioritize.</div></div>
+    </div>
+  </div>
+  <div class="brand">SPACEXSI DEAL DESK</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The Sensata proof, in depth</div>
+  <h2>Bleeders and Leakers: <span class="accent">find the margin leak, price the fix, close it with executives, make the number hold.</span></h2>
+  <div class="lede">Built as a BU-wide Power BI system covering 1,200 pricing opportunities against a $627M target across 3 regions, 4 product families and 20 product lines, with pipeline funnel, win rate and stage distribution by product line, so leadership could prioritize deals instead of chasing anecdotes.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$433M</div>
+      <div class="lbl">Margin Shortfall Surfaced</div>
+      <div class="desc">Ranked every pricing opportunity by competitive gap and customer willingness to pay, the same deal-triage call a deal desk makes on every escalated exception.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$700K+</div>
+      <div class="lbl">Margin Recovered in 2 Quarters</div>
+      <div class="desc">Closed through deal-by-deal negotiation on a documented business case, not an across-the-board discount change.</div>
+    </div>
+    <div class="stat">
+      <div class="n">53% to 61%</div>
+      <div class="lbl">Distributor Margin Lift</div>
+      <div class="desc">Repriced the renewal terms themselves, so the gain held past the first renewal cycle instead of drifting back.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">The same BU also closed AP26 revenue models and multimillion-dollar customer quotes on non-standard terms with senior executives, driving +12% YoY revenue and +8% market share. The common thread: every deal was priced on data, approved against a matrix, and measured after it closed.</div>
+  <div class="brand">SPACEXSI DEAL DESK</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month inside SpaceXSI's Americas deal desk looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Map today's approval workflows, playbooks and guardrails</div>
+      <div class="body">Sit with Sales, Legal, Finance and the GTM systems team to find where exceptions already escalate informally inside Salesforce and Ironclad instead of against a matrix, the same discovery step that started the Bleeders and Leakers program at Sensata.</div>
+      <div class="why"><strong>Why first:</strong> find the leak in the workflow before naming the fix.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Ship the first deal-pattern report to finance and leadership</div>
+      <div class="body">Build the first dashboard surfacing deal-flow trends across reps, then coach reps on deal strategy, competitive positioning and negotiation approach using that data, the same deal-by-deal discipline that made the 53% to 61% distributor gain stick instead of drift back.</div>
+      <div class="why"><strong>Why now:</strong> a documented pattern moves faster through finance than an anecdote does.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Turn the first repeat exception into a playbook</div>
+      <div class="body">Partner with the GTM systems team to automate the recurring approval-matrix check with an AI agent, so the next quote starts from a flagged exception instead of a manual review, the same AI-agent habit that keeps my own recurring pricing analysis moving at Applied Materials today.</div>
+      <div class="why"><strong>Why this fast:</strong> the same guardrail-engine thinking that runs PriceKeel's own deal approvals, not a plan for someday.</div>
+    </div>
+  </div>
+  <div class="brand">SPACEXSI DEAL DESK</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to close complex enterprise deals with executives and turn every repeat exception into a workflow the whole Americas team can run on. I have already built that exact loop, with a number on it each time.</h2>
+  <div class="body">
+    <p>The deal half: <strong>multimillion-dollar customer quotes and AP26 revenue models</strong> closed with senior executives at Sensata, plus <strong>$700K+ recovered in 2 quarters</strong> and distributor margins lifted <strong>from 53% to 61%</strong>, driving +12% YoY revenue and +8% market share.</p>
+    <p>The build half: <strong>PriceKeel's guardrail engine, approval matrix and Finance audit trail</strong>, built from zero, running my own CRM, CPQ and quote-to-approval workflow end to end. At Applied Materials I automate my own recurring pricing analysis with AI agents built on Claude instead of rebuilding the same report every cycle.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-pricing-ai.vercel.app/ref/spacexsi</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">SPACEXSI DEAL DESK</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
