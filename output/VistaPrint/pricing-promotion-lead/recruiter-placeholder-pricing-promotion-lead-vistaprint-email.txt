@@ -1,0 +1,20 @@
+Subject: A pricing guardrail engine built for exactly this automation problem
+
+Hi {Recruiter, Pricing and Promotions},
+
+I do not normally reach out before applying, but integrating AI tools into pricing execution, not just running the numbers by hand, is the exact problem I built a company to solve.
+
+At PriceKeel I designed a guardrail engine that scores every discount exception against a company's own closed-won and closed-lost precedent, with an audit trail Finance can check on demand.
+At Sensata I recovered $700K+ in margin in two quarters and raised distributor margins from 53% to 61%, backed by a Power BI dashboard scoring 1,200 opportunities against a $627M target.
+I also automate my own pricing analysis today with AI agents built on Claude.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/vistaprint
+
+Worth 15 minutes if this is your req, no worries if it already has an owner.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

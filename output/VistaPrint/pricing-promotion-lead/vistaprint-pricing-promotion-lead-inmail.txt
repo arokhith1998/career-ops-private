@@ -1,0 +1,18 @@
+Subject: Automated pricing and promotion, from someone who already built the engine
+
+Hi {Recruiter/Hiring Manager, Pricing and Promotions},
+
+Integrating AI tools and automated workflows into pricing execution, not just running the numbers by hand, is the problem behind this posting, and it is the one I already solved.
+
+At PriceKeel I designed a guardrail engine and audit trail that decide what a discount should actually be. At Sensata I recovered $700K+ in margin in two quarters and raised distributor margins from 53% to 61%, backed by a Power BI dashboard scoring 1,200 opportunities against a $627M target.
+
+Portfolio: adhi-pricing-ai.vercel.app/ref/vistaprint
+
+Open to 15 minutes if this seat, or a related one on the pricing team, is still open.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

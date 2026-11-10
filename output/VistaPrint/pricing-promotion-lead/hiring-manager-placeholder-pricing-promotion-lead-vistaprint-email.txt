@@ -1,0 +1,20 @@
+Subject: The automated pricing framework you are asking someone to build
+
+Hi {Hiring Manager, Pricing and Promotions},
+
+I do not normally cold-email before applying, but a brief asking someone to deploy AI tools and automated workflows to scale pricing capability is a build I already own end to end.
+
+At PriceKeel I designed the guardrail engine and audit trail that decide what a discount should actually be, replacing manual review entirely.
+At Sensata I recovered $700K+ in margin in two quarters and raised distributor margins from 53% to 61%, instrumented through a Power BI dashboard scoring 1,200 opportunities against a $627M target and a separate price-increase model.
+I presented multimillion-dollar customer quotes directly to senior executives, the same executive-level recommendation work this role calls for.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/vistaprint
+
+Worth 15 minutes on how the team is scoping NA's promotional calendar, no worries if this already has an owner.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
