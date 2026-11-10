@@ -1,0 +1,16 @@
+Subject: Lifecycle Marketing Manager, Socure: the guardrail sentence, not the agent headline
+
+Hi {Hiring Manager, Lifecycle Marketing},
+
+I do not normally cold-email a hiring manager, but "set guardrails: brand voice, compliance review, human approval, monitoring" is the line in your posting I want to be evaluated against, not the "build an agent" headline every candidate will pitch you this month. Built you a 6-slide pitch deck so the proof fits on one read.
+
+At Sensata, I built a KPI framework in SQL and GA4 across 50K+ connected devices that flagged accounts stalling before they churned, feeding +35% qualified leads into email and launch campaigns, the same entry-and-exit-rule thinking a trigger program runs on. The Power BI dashboard I shipped there tracked 1,200 opportunities against a $627M target by stage and region, the signal-to-SQL visibility your roadmap gets measured on. At Applied Materials, I already run research and drafting through agents built on Claude, the discipline behind handing Sales a warm account with context instead of a bare list.
+
+If the seat is still open, I would like 15 minutes on which signal you would prototype first. A pointer elsewhere would help just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

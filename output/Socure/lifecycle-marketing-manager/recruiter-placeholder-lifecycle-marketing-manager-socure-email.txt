@@ -1,0 +1,16 @@
+Subject: Lifecycle Marketing Manager, Socure: build the agent, not configure the sequence
+
+Hi {Recruiter, Lifecycle Marketing},
+
+I do not normally cold-email before applying, but your posting draws a line I care about: define the signal, then build the AI agent that acts on it, not configure a static nurture sequence someone else designed. Built you a 6-slide pitch deck so the proof fits on one read.
+
+At Plug Power, I automated the WordPress-to-Pardot lead flow into a signal-triggered send that cut cost per lead 50%, tied to SQL work linking signal strength to Salesforce stage 1 opportunities. At Applied Materials, I already run market and competitive research through agents built on Claude, the same AI-agent habit this seat asks for. At Pixis, I ran the retention side of that loop: re-engagement and channel playbooks that cut client churn 50% across an 8-client portfolio.
+
+If this req is still open, I would like 15 minutes on which signal to prototype first. A pointer to the right person helps just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

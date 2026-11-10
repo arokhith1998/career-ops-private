@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Socure Lifecycle Marketing Manager Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #7c3aed; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 24pt; font-weight: 800; color: #0f172a; line-height: 1.16; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 20pt; font-weight: 800; color: #0f172a; line-height: 1.12; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #7c3aed; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.7in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #ede9fe 100%); }
+  .cover h1 { font-size: 21.5pt; max-width: 11.5in; }
+  .cover .sub { font-size: 13.5pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 15pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #7c3aed; font-weight: 700; }
+  .cover .who { margin-top: 15pt; padding-top: 11pt; border-top: 1.5pt solid #7c3aed; max-width: 9.6in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #7c3aed; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #f3effe; border-left: 3pt solid #7c3aed; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #5b21b6; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #7c3aed; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #f3effe; border-left: 4pt solid #7c3aed; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #5b21b6; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #7c3aed; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 20pt; font-weight: 800; color: #7c3aed; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #7c3aed; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #7c3aed; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #7c3aed; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #ede9fe 100%); }
+  .close h2 { font-size: 22pt; max-width: 10.9in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.6in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #7c3aed; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Socure Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Socure Lifecycle Marketing Manager</div>
+  <h1>Socure needs someone who turns a buying signal into an AI agent that researches the account, drafts the message and hands a warm lead to Sales, not someone who manages a nurture calendar. I built that discipline by hand before "agent" was the word for it, and I run the AI-agent half of it in production today.</h1>
+  <div class="sub">A signal-triggered lead-flow system that halved cost per lead, and a Claude-agent habit already shipping, on the same resume.</div>
+  <div class="tags">
+    <div class="tag"><strong>50% Lower Cost Per Lead</strong> from a signal-triggered lead-flow automation at Plug Power</div>
+    <div class="tag"><strong>+35% Qualified Leads</strong> from signal-led email and launch campaigns at Sensata</div>
+    <div class="tag"><strong>50% Client Churn Cut</strong> across an 8-client retention portfolio at Pixis</div>
+    <div class="tag"><strong>AI Agents Built on Claude</strong> automating my own recurring work today at Applied Materials</div>
+    <div class="tag"><strong>1,200-Opportunity Pipeline Dashboard</strong> tracking signal-to-SQL movement at Sensata</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-growth-ai.vercel.app/ref/socure</div>
+  </div>
+  <div class="brand">LIFECYCLE MARKETING PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>The role is not "manage a nurture calendar." It is building the signal-to-agent-to-SDR system that decides who hears from Socure, when, and with <span class="accent">what message.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What that actually requires</h4>
+      <div class="line">A ranked set of first- and third-party signals, web/content engagement, webinar behavior, intent data, Salesforce stage movement, turned into triggers with real entry and exit rules, not one static score.</div>
+      <div class="line">AI agents that research the account, draft the message and choose the channel, with brand-voice and compliance guardrails and a human approval step, not a fire-and-forget bot.</div>
+      <div class="line">Email owned as a channel end to end, signal-triggered sends, nurture, re-engagement and expansion programs, measured on signal-to-meeting and signal-to-SQL, not open rate.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run</h4>
+      <div class="line">At <b>Plug Power</b>, I automated the WordPress-to-Pardot lead flow into a signal-triggered send, cutting cost per lead 50%, then tied SEM performance to MQL quality and stage 1 Salesforce opportunities.</div>
+      <div class="line">At <b>Applied Materials</b>, I run AI agents built on Claude against recurring analysis work today, the same Claude-first prototyping habit this role is built on.</div>
+      <div class="line">At <b>Sensata</b>, I built the KPI framework in SQL and GA4 that flagged high-intent signals before accounts stalled, feeding +35% qualified leads out of email and launch campaigns.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">The through-line: every system I have built started with a signal, not a calendar date, and ended with a number Sales or Marketing Ops could point to.</div>
+  </div>
+  <div class="brand">LIFECYCLE MARKETING PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The mandate, mapped</div>
+  <h2>What the posting asks for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Define/rank first- and third-party signals... turn them into triggers with entry/exit rules."</div></div>
+      <div class="quote"><div class="q">"Design and deploy AI agents... prototype with Claude, Clay, Zapier/n8n."</div></div>
+      <div class="quote"><div class="q">"Own email as a channel: signal-triggered sends, nurture, re-engagement, customer/expansion programs."</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>Plug Power, the signal-to-send system:</b> automated a WordPress+Pardot lead flow into a signal-triggered send, cutting cost per lead 50%, SEM tied to MQL quality and Salesforce stage movement.</div></div>
+      <div class="proof"><div class="p"><b>Applied Materials, the agent habit:</b> automates repetitive market and competitive analysis with AI agents built on Claude, the same Claude-first pattern this role asks for.</div></div>
+      <div class="proof"><div class="p"><b>Sensata, email as a channel:</b> led email and paid launch campaigns for new sensing products, generating +35% qualified leads, on top of a SQL/GA4 signal framework across 50K+ devices.</div></div>
+    </div>
+  </div>
+  <div class="brand">LIFECYCLE MARKETING PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>Map the signal, automate the send, then <span class="accent">put a number on it.</span></h2>
+  <div class="lede">Same pattern across three companies: find the signal before it becomes a stalled account, ship the automated program against it, then measure whether it moved a number Sales or Marketing Ops was accountable for.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">50% Lower CPL</div>
+      <div class="lbl">Signal-Triggered Lead-Flow Automation</div>
+      <div class="desc">Automated the WordPress-to-Pardot flow at Plug Power into a signal-triggered send, cutting cost per lead in half.</div>
+    </div>
+    <div class="stat">
+      <div class="n">+35% Qualified Leads</div>
+      <div class="lbl">Email &amp; Launch Campaigns, Signal-Led</div>
+      <div class="desc">Built on a SQL/GA4 KPI framework across 50K+ connected devices that flagged high-intent accounts first, at Sensata.</div>
+    </div>
+    <div class="stat">
+      <div class="n">50% Churn Cut</div>
+      <div class="lbl">Retention &amp; Re-Engagement, 8-Client Portfolio</div>
+      <div class="desc">Proactive account strategy and channel playbooks that kept at-risk accounts inside the funnel at Pixis.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">None of these was a one-time campaign. Each one closed the loop from signal to a number Sales or Marketing Ops was accountable for.</div>
+  <div class="brand">LIFECYCLE MARKETING PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month building Socure's signal-to-agent-to-SDR system looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Map the signal stack end to end</div>
+      <div class="body">Rank the first- and third-party signals already live in Salesforce and web/content engagement data, and write entry and exit rules for the first trigger, so the first AI agent acts on a real signal, not a guess.</div>
+      <div class="why"><strong>Why first:</strong> the same first move behind the Plug Power lead-flow automation, define the trigger before you automate the send.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Ship the first signal-triggered agent</div>
+      <div class="body">Build the first AI agent, research the account, draft the message, choose the channel, route the warm one to SDRs with context, with brand-voice and compliance guardrails and a human approval step, prototyped on Claude.</div>
+      <div class="why"><strong>Why now:</strong> the same Claude-first prototyping habit already running in production at Applied Materials.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Stand up the measurement loop</div>
+      <div class="body">Instrument signal-to-meeting and signal-to-SQL tracking against the pipeline-dashboard discipline built at Sensata (1,200 opportunities, $627M target, by stage and region), then feed results back into the trigger rules.</div>
+      <div class="why"><strong>Why this fast:</strong> the same pipeline-velocity view this role is accountable for, built once already.</div>
+    </div>
+  </div>
+  <div class="brand">LIFECYCLE MARKETING PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to build the signal-to-agent-to-SDR system behind Socure's pipeline, not inherit one. I have already built the pieces separately, and they are ready to be built together here.</h2>
+  <div class="body">
+    <p>The automation half: <strong>50% lower cost per lead</strong> from a signal-triggered lead-flow system built at Plug Power, with SEM and SQL work tying signal strength to MQL quality and Salesforce stage movement.</p>
+    <p>The agent half: AI agents built on <strong>Claude</strong> running my own recurring analysis today at Applied Materials, plus the KPI-framework and pipeline-dashboard discipline from Sensata that turns a signal into a number Marketing Ops can track.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-growth-ai.vercel.app/ref/socure</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">LIFECYCLE MARKETING PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
