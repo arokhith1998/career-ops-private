@@ -1,0 +1,20 @@
+Subject: Customer Success Strategy & Ops: segmentation and signal to play, already built
+
+Hi {Recruiter, SpaceXSI Customer Success},
+
+I do not normally reach out before applying, but your posting splits this seat into building the segmentation and coverage model, then turning usage into activation, expansion and retention plays, and that is the split I already run, not one half of it.
+
+At Sensata I built the Bleeders and Leakers dashboard, segmenting 1,200 opportunities across 3 regions against a $627M target for frontline teams and leadership.
+At Sensata I also mined KPI frameworks in SQL and GA4 across 50K+ connected devices, lifting feature adoption 18% and raising CSAT 22%.
+At Pixis I ran an 8-person team across 8 accounts, cutting churn 50% by turning account signals into repeatable playbooks.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/spacexsi
+
+Worth 15 minutes on how this seat is scoped? A pointer elsewhere would help just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
