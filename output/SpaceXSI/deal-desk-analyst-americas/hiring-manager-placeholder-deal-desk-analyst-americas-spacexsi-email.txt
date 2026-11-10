@@ -1,0 +1,22 @@
+Subject: The pattern-spotting half of this Deal Desk seat, already proven
+
+Hi {Hiring Manager, SpaceXSI Deal Desk},
+
+I do not normally cold-email a hiring manager, but "spotting trends across your deal flow, surfacing the patterns to finance and leadership, and driving the changes through" is a loop I already run, not a theory of how I would run it.
+
+Built you a 6-slide pitch deck so the proof fits on one read.
+
+At Sensata I built the Bleeders and Leakers Power BI system, 1,200 opportunities tracked against a $627M target across 3 regions, surfacing $433M in margin gaps so leadership could prioritize instead of guess, then recovered $700K+ in margin in two quarters and raised distributor margins from 53% to 61% by fixing the underlying terms.
+At PriceKeel I own CRM, CPQ and deal approvals end to end, including the guardrail engine and the audit trail Finance checks afterward.
+At Applied Materials I run Claude AI agents against that same kind of recurring analysis.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/spacexsi
+
+If the team is still scoping this seat, I would like 15 minutes to hear what the highest-friction deal type looks like right now. The deck walks through the rest, and a pointer elsewhere would help just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
