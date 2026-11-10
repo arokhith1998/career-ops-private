@@ -1,0 +1,18 @@
+Subject: Built the developer-facing product before anyone asked
+
+Hi {Hiring Manager, SpaceXSI Product Marketing},
+
+"Partner with Developer Relations to create high-signal content for technical audiences" is a loop I already ran solo, not a skill I am promising to pick up. I built an AI job-matching platform end to end, Python, OpenAI API, React, wrote the PRD, shipped auto-tailored resumes, and ran its own GTM and positioning, including competitor teardowns and pricing.
+
+At Sensata I translated specs only an OEM's own engineers understood into messaging distributors could repeat, lifting conversion 15% on priority launches, then built the sales enablement that let 50+ reps sell without me in the room.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/spacexsi
+
+Worth 15 minutes to see if the fit is real?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
