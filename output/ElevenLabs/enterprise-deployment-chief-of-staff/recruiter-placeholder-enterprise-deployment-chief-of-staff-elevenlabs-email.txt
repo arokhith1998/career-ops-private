@@ -2,12 +2,12 @@ Subject: Enterprise Deployment Chief of Staff - a note before I apply
 
 Hi {Recruiter, Enterprise Deployment},
 
-I do not normally write in before applying, but this req splits staffing people by geography, priority, capacity and skill from tracking OKRs and coverage gaps as two separate muscles, and that is close to how I already run operations.
+I do not normally write in before applying, but this req splits staffing people by geography, priority, capacity and skill from tracking OKRs and coverage gaps, and that split is close to how I already run operations.
 
 A few things that map directly:
-- Hired and staffed an 8-person team across 8 client accounts by capacity and skill fit at Pixis, carrying P&L targets at the same time.
-- Built Sensata's Bleeders and Leakers Power BI dashboard, 1,200 opportunities across 3 regions and 20 product lines against a $627M target, the kind of coverage map that flags a gap before anyone has to ask.
-- Run PriceKeel's own CRM, CPQ and deal-approval workflow end to end as founder, the operating cadence a growing team needs once spreadsheets stop working.
+- Hired and staffed an 8-person team across 8 client accounts by capacity and skill fit at Pixis, carrying P&L targets too.
+- Built Sensata's Bleeders and Leakers Power BI dashboard, 1,200 opportunities across 3 regions and 20 product lines against a $627M target, the coverage map that flags a gap before anyone has to ask.
+- Run PriceKeel's own CRM, CPQ and deal-approval workflow end to end as founder, the cadence a growing team needs once spreadsheets stop working.
 
 Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/elevenlabs
 

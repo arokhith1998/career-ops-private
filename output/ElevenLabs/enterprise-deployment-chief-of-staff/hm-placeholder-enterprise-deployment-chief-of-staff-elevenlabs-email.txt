@@ -2,12 +2,12 @@ Subject: Enterprise Deployment Chief of Staff - staffing by skill, not by title
 
 Hi {Hiring Manager, Enterprise Deployment},
 
-"Impact not job titles" is an easy line for a careers page and a harder one to build a team around, especially when the Chief of Staff also has to know each person well enough to staff them by geography, priority and capacity. That line is what made me write in before applying.
+"Impact not job titles" is an easy line for a careers page and a harder one to build a team around, especially when the Chief of Staff also has to staff people by geography, priority and capacity. That line is what made me write in before applying.
 
 A few things that line up with the role:
 - At Pixis I hired and staffed an 8-person team across 8 client accounts by capacity and skill fit, while carrying P&L and revenue targets myself.
-- At Sensata I built the Bleeders and Leakers Power BI dashboard, 1,200 opportunities across 3 regions and 20 product lines against a $627M target, tracking performance until a coverage gap surfaced before anyone had to ask.
-- I run PriceKeel's own CRM, CPQ and deal-approval workflow end to end as founder, the kind of standardized process that outlasts the person who built it, which is what "bring organization to this fast-growing team" means in practice.
+- At Sensata I built the Bleeders and Leakers Power BI dashboard, 1,200 opportunities across 3 regions and 20 product lines against a $627M target, tracking performance until a coverage gap surfaced before anyone asked.
+- I run PriceKeel's own CRM, CPQ and deal-approval workflow end to end as founder, the kind of process that outlasts the person who built it, which is what "bring organization to this fast-growing team" means in practice.
 
 Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/elevenlabs
 
