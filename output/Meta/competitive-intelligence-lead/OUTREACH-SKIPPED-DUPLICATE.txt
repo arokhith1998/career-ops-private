@@ -1,0 +1,27 @@
+OUTREACH SKIPPED: DUPLICATE REQ
+
+This pack (output/Meta/competitive-intelligence-lead/, LinkedIn job id 4470561185,
+Burlingame listing) is a cross-post of the same underlying Meta Competitive
+Intelligence Lead requisition already packed on 2026-10-02 at:
+
+  output/Meta/competitive-intelligence-lead-menlo-park/
+
+The JD and comp are word-for-word identical between the two listings. Outreach
+was already drafted against that pack (same portfolio URL, same proof points):
+
+  - recruiter-placeholder-competitive-intelligence-lead-meta-email.txt
+  - hm-placeholder-competitive-intelligence-lead-meta-email.txt
+  - meta-competitive-intelligence-lead-linkedin-dm.txt
+
+No new outreach files were drafted in this folder to avoid sending two
+independent cold-outreach threads (recruiter email, HM email, LinkedIn DM) for
+one open req, which would look like spam to the same Meta team.
+
+If you apply off this Burlingame listing specifically (job id 4470561185)
+rather than the Menlo Park one, reuse the drafts in the menlo-park folder as-is
+- they reference the role and company generically, not a specific location, and
+the portfolio link (https://adhithyabhaskar.vercel.app/ref/meta) is the same.
+
+Resume and cover letter for this specific listing were still built here:
+  - Adhithya_Rokhith_Meta_CompetitiveIntelLead.pdf
+  - CoverLetter_Meta_CompetitiveIntelLead.pdf
