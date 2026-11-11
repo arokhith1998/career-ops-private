@@ -20,7 +20,7 @@ one open req, which would look like spam to the same Meta team.
 If you apply off this Burlingame listing specifically (job id 4470561185)
 rather than the Menlo Park one, reuse the drafts in the menlo-park folder as-is
 - they reference the role and company generically, not a specific location, and
-the portfolio link (https://adhithyabhaskar.vercel.app/ref/meta) is the same.
+the portfolio link - https://adhithyabhaskar.vercel.app/ref/meta - is the same.
 
 Resume and cover letter for this specific listing were still built here:
   - Adhithya_Rokhith_Meta_CompetitiveIntelLead.pdf

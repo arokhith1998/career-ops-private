@@ -1,0 +1,16 @@
+Subject: A funnel and subscription builder, not just a reader of the dashboard
+
+Hi {Recruiter or Hiring Manager, Paid Marketing},
+
+Your Growth team's mandate, optimizing web presence, funnel experiences and custom landing pages to acquire and retain high-value customers, is the exact loop I already run. I modeled 3 subscription pricing tiers and owned the GTM and funnel-analytics stack (GA4, GTM, dashboards) for a zero-to-one launch, lifting activation 25% across 8+ A/B tests. I also built KPI frameworks in SQL and GA4 across 50K+ connected devices that surfaced the drop-off points and high-intent cohorts behind an 18% adoption lift, and ran Paid Search and Social bid tests that cut CPA 25%.
+
+Here's the portfolio: https://adhi-growth.vercel.app/ref/robinhood
+
+Worth 15 minutes to see if the premium-segment funnel work is still open?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

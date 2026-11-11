@@ -1,0 +1,20 @@
+Subject: A funnel and subscription builder for the Growth team's premium push
+
+Hi {Recruiter, Paid Marketing},
+
+I don't normally write in before applying, but your team's mandate is specific: "optimizing web presence, funnel experiences, and custom landing pages to acquire and retain highly active customers." That is the loop I already run.
+
+Modeled 3 subscription pricing tiers and owned the GTM and funnel-analytics stack for a zero-to-one launch, lifting activation 25% across 8+ A/B tests.
+Built KPI frameworks in SQL and GA4 across 50K+ connected devices, surfacing drop-off points and high-intent cohorts behind an 18% adoption lift.
+Optimized Paid Search and Social bid strategy across Google, Microsoft, Meta and LinkedIn Ads, 15+ A/B tests, cutting CPA 25%.
+
+Here's the portfolio: https://adhi-growth.vercel.app/ref/robinhood
+
+If this req sits with your desk, 15 minutes would help. If not, a pointer to whoever owns it helps just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
