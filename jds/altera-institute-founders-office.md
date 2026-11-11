@@ -4,6 +4,9 @@
 entity; not to be confused with Altera the semiconductor/FPGA company, which has separate, unrelated
 cached JDs in this repo under jds/altera-*.md)
 **URL:** https://www.linkedin.com/jobs/view/4487708985
+
+## DUPLICATE FLAG (2026-11-11 run)
+Shortlist row this run: `https://www.linkedin.com/jobs/view/4489911315` (same title "Founder's Office", same company Altera Institute). Fetched and compared word-for-word via the LinkedIn guest API: identical body text (Digiaccel Learning / PGP strategic-initiatives role, "MBA with at least 3 years" requirement, same "Why Join Us?" section). Same underlying posting reposted under a new LinkedIn listing ID, not a second opening. No new JD file created; both shortlist rows point here.
 **Location:** Gurugram, Haryana, India
 **Employment type:** Full-time
 **Seniority level:** Mid-Senior level

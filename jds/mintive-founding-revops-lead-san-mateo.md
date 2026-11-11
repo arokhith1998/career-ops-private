@@ -16,6 +16,13 @@ graduation year found in the JD text.
 
 This posting's JD body is byte-for-byte identical to the San Francisco listing (https://www.linkedin.com/jobs/view/4487053895), same title/company, differing only in the listed location (San Mateo, CA here vs San Francisco, CA there). See jds/mintive-founding-revops-lead-sf.md. Treat as the same requisition posted twice; score once.
 
+**DUPLICATE FLAG (2026-11-11 run):** Shortlist row this run,
+`https://www.linkedin.com/jobs/view/4487839431` (titled "Founding RevOps Lead",
+San Mateo, CA), fetched and compared word-for-word via the LinkedIn guest API:
+byte-for-byte identical body to the text below. Same underlying posting under
+yet another new LinkedIn listing ID, part of Mintive's recurring repost
+pattern already tracked across this file family. No new JD file created.
+
 ## Full JD Text
 
 About Us

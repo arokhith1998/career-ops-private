@@ -74,3 +74,6 @@ This role is based out of our San Francisco office. We are an office-first compa
 
 - Source: LinkedIn jobs-guest API (`linkedin.com/jobs-guest/jobs/api/jobPosting/4458911460`), fetched 2026-10-31.
 - Liveness: confirmed live (title, company, full description and criteria rendered; no authwall/closed-posting signal).
+
+## DUPLICATE FLAG (2026-11-11 run)
+Shortlist row this run: `https://job-boards.greenhouse.io/adyen/jobs/8078192` (San Francisco, Strategic Pricing Manager). Fetched and compared word-for-word: identical body text, identical "$145,000.00 - $200,000.00" comp band, identical "office-first... do not offer remote-only roles" closing line. This is the same requisition cross-posted on Adyen's own Greenhouse board and on LinkedIn, not two separate openings. No new JD file created; both shortlist rows point here.

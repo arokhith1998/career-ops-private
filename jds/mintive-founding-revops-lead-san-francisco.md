@@ -16,6 +16,15 @@
 listings is byte-for-byte identical; only the location tag differs. Flagging
 for the next step to dedupe/decide which (or both) to carry forward.
 
+**DUPLICATE FLAG (2026-11-11 run):** Shortlist row this run,
+`https://www.linkedin.com/jobs/view/4487848090` (titled "Founding RevOps Lead",
+San Francisco, CA), fetched and compared word-for-word via the LinkedIn
+guest API: byte-for-byte identical body to the text below (same "About Us",
+same "4+ years in RevOps" line, same closing "agent apply" line). Same
+underlying posting under yet another new LinkedIn listing ID, part of
+Mintive's recurring repost pattern already tracked across this file family.
+No new JD file created.
+
 ---
 
 ## Full JD text (verbatim, scraped via LinkedIn jobs-guest API)

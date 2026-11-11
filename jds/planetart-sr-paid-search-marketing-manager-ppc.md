@@ -13,6 +13,9 @@
 ## Liveness
 Live. Full description and requirements rendered; no closed/expired marker.
 
+## DUPLICATE FLAG (2026-11-11 run)
+Shortlist row this run: `https://www.linkedin.com/jobs/view/4489623502`, titled "Senior Paid Search Marketing Manager" (no "Sr." / no "(PPC)" in the title). Fetched via headless browser (`browser-extract.mjs`, since the LinkedIn guest API returned a bot-challenge redirect for this id) and compared word-for-word: identical body text and identical "$95,000.00/yr - $115,000.00/yr" comp band. Same underlying posting reposted under a new LinkedIn listing ID with a trimmed title, not a second opening. No new JD file created; both shortlist rows point here.
+
 ## Full JD text (verbatim)
 
 Company And Vision

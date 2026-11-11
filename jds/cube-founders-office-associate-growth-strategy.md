@@ -13,6 +13,9 @@
 **Track:** india | **Visa gate:** not-applicable
 **Source:** LinkedIn guest API (linkedin.com/jobs-guest/jobs/api/jobPosting/4481605119)
 
+## DUPLICATE FLAG (2026-11-11 run, additional)
+Shortlist row this run: `https://www.linkedin.com/jobs/view/4488622062` (title "Founder's Office Associate", same company Cube). Fetched and compared word-for-word via the LinkedIn guest API: identical body text (same "Recent graduates (Class of 2024, 2025 or 2026)", same HSR Layout Bangalore location, same "As per industry standards" comp line). Same underlying posting reposted under a new LinkedIn listing ID, not a second opening. No new JD file created; this shortlist row and the two already noted below all point here.
+
 ## DUPLICATE FLAG (important for Agent 3 / tracker dedup)
 `jds/cube-founder-s-office-associate.md` already exists in this repo for Cube's "Founder's Office Associate" role (sourced from Wellfound, ~1 month old at the time it was captured, same HSR Layout Bengaluru location, same "recent graduates Class of 2024-2026" and "industry standard" comp language). This LinkedIn posting is almost certainly the same recurring opening, now reposted/refreshed under a new LinkedIn job id. That earlier file itself already carries an unresolved note about a separate "Cube - Chief of Staff" row in the tracker/ledger history. Do not create a second tracker row for Cube's Founder's Office Associate; reconcile against the existing file and any existing tracker row before evaluating.
 

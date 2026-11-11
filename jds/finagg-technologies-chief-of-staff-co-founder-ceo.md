@@ -1,6 +1,9 @@
 # Chief of Staff to the Co-Founder & CEO — FINAGG Technologies Private Limited
 
 **URL:** https://www.linkedin.com/jobs/view/4479948697
+
+## DUPLICATE FLAG (2026-11-11 run)
+Shortlist row this run: `https://www.linkedin.com/jobs/view/4488655357` (same title, same company, Noida). Fetched and compared word-for-word via the LinkedIn guest API: identical body text (same "6 to 10 years" requirement, same apply-by-email instructions to nipun@finagg.in / shirankla@finagg.in). This is the same posting reposted under a new LinkedIn listing ID, not a second opening. No new JD file created; both shortlist rows point here.
 **Location:** Noida, Uttar Pradesh, India (page header also showed a "Council Bluffs, IA" search-location label, inconsistent with the posting body)
 **Posted:** 3 hours before extraction, 76 applicants
 **Track:** india | **Visa gate:** not-applicable | **Extracted:** 2026-10-19
