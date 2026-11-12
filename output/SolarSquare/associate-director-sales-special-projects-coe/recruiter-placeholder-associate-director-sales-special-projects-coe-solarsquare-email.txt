@@ -2,13 +2,13 @@ Subject: Governance before the next city, not after
 
 Hi {Recruiter, Talent Acquisition},
 
-I do not usually write in before applying, but a COE brief that asks for SOPs and governance built before SolarSquare adds its next cities, not patched in once things break, is a sequencing problem I have already run, not the generic process-excellence brief most ops reqs default to.
+I do not usually write in before applying, but this COE brief asks for governance built before SolarSquare's next cities, not patched in after things break - a sequencing problem I have already run, not the generic process-excellence brief most ops reqs default to.
 
 A few numbers instead of a pitch:
-- Built a Power BI dashboard at Sensata across 3 regions and 4 product families that surfaced $433M in margin gaps and helped recover $700K+ in two quarters.
+- Built a Power BI dashboard at Sensata across 3 regions and 4 product families, surfacing $433M in margin gaps and recovering $700K+ in two quarters.
 - Founded PriceKeel and built its deal-approval governance and audit trail from scratch while raising the company's first round.
 - Led a 5-consultant cross-functional engagement at Safran and presented findings directly to leadership.
-- Ran market sizing across Sales, Engineering and Accounts at Applied Materials, the same cross-functional pull this seat needs.
+- Ran market sizing across Sales, Engineering and Accounts at Applied Materials.
 
 Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/solarsquare
 
