@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Anakin Founder's Office, Product and GTM Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #4338ca; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 27pt; font-weight: 800; color: #0f172a; line-height: 1.14; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 20pt; font-weight: 800; color: #0f172a; line-height: 1.12; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #4338ca; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.7in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%); }
+  .cover h1 { font-size: 23pt; max-width: 11.3in; }
+  .cover .sub { font-size: 14pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 16pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #4338ca; font-weight: 700; }
+  .cover .who { margin-top: 16pt; padding-top: 11pt; border-top: 1.5pt solid #4338ca; max-width: 9.4in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #4338ca; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #eef2ff; border-left: 3pt solid #4338ca; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #3730a3; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .line { font-size: 9.3pt; color: #334155; line-height: 1.46; padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .line b { color: #0f172a; font-weight: 700; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #4338ca; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 22pt; font-weight: 800; color: #4338ca; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #4338ca; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #4338ca; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #4338ca; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%); }
+  .close h2 { font-size: 24pt; max-width: 10.6in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.6in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #4338ca; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Anakin Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Anakin Founder's Office, Product and GTM</div>
+  <h1>Not a strategy-only seat. I build the product, run the GTM, and own the number myself, because that is exactly what I do at my own company right now.</h1>
+  <div class="sub">A B2B SaaS product built end to end at PriceKeel, and a 3x ROAS full-funnel fix delivered in a single month at Pixis.</div>
+  <div class="tags">
+    <div class="tag"><strong>B2B SaaS product built end to end</strong>: PriceKeel, product, CRM/CPQ, fundraising</div>
+    <div class="tag"><strong>$700K+ recovered</strong> from a GTM/revenue program built with no existing tool</div>
+    <div class="tag"><strong>3x ROAS in one month</strong> from a full-funnel growth restructure, not a single lever</div>
+    <div class="tag"><strong>SwipeHire shipped 0-to-1</strong>: PRD to 50+ users, hands-on, no delegation</div>
+    <div class="tag"><strong>AI agents built on Claude</strong> automating my own recurring analysis</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhithyabhaskar.vercel.app/ref/anakin</div>
+  </div>
+  <div class="brand">FOUNDER'S OFFICE PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>The job is not "coordinate across teams." It is <span class="accent">connecting product development to GTM execution and owning the outcome yourself.</span></h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What that actually requires</h3>
+      <div class="line">Hands-on ownership of execution, not delegation and coordination, from problem definition to measurable business impact.</div>
+      <div class="line">Growth experiments that become repeatable playbooks, not one-off campaigns.</div>
+      <div class="line">GTM and revenue programs that are data-backed and tied to a real business outcome.</div>
+    </div>
+    <div class="col">
+      <h3>What I have already run</h3>
+      <div class="line">At <b>PriceKeel</b>, I built a B2B SaaS product end to end: the guardrail engine's design, the CRM/CPQ, and the pipeline connecting product to GTM, with no delegation layer.</div>
+      <div class="line">At <b>Pixis</b>, I turned an underperforming account into 3x ROAS in one month through a full-funnel restructure, not a single-lever tweak.</div>
+      <div class="line">At <b>Sensata</b>, I converted a vague margin mandate into a structured execution plan that recovered $700K+ in two quarters.</div>
+    </div>
+  </div>
+  <div class="bridge" style="margin-top: 14pt; background: #eef2ff; border-left: 4pt solid #4338ca; padding: 11pt 16pt;">
+    <div class="t" style="font-size: 10.5pt; color: #3730a3; line-height: 1.46; font-weight: 600;">The through-line: every initiative I have run started as an ambiguous problem with no playbook, and ended as a measurable outcome I owned myself, not one I coordinated from the side.</div>
+  </div>
+  <div class="brand">FOUNDER'S OFFICE PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The mandate, mapped</div>
+  <h2>What the posting asks for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Lead 0 to 1 and 1 to N initiatives that connect product development with growth and customer acquisition."</div></div>
+      <div class="quote"><div class="q">"Drive experiments across landing pages, outbound/ABM, conversion optimization, and paid acquisition... build repeatable playbooks."</div></div>
+      <div class="quote"><div class="q">"Drive cross-functional GTM initiatives focused on funnel efficiency, pipeline management, and revenue conversion."</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>0-to-1 product, SwipeHire:</b> wrote the PRD, scoped the MVP, shipped it to 50+ early users myself, then ran 8+ A/B tests on the funnel.</div></div>
+      <div class="proof"><div class="p"><b>Repeatable growth playbook, Pixis:</b> full-funnel restructure (feed cleanup, smart bidding, creative refresh, lookalikes) that delivered 3x ROAS in one month, not a one-off campaign.</div></div>
+      <div class="proof"><div class="p"><b>GTM and revenue program, Sensata:</b> built the Bleeders and Leakers dashboard and closed it into $700K+ recovered in two quarters.</div></div>
+      <div class="proof"><div class="p"><b>Product-to-GTM pipeline, PriceKeel:</b> CRM/CPQ and deal approvals built so product decisions connect directly to revenue.</div></div>
+    </div>
+  </div>
+  <div class="brand">FOUNDER'S OFFICE PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>Build the product, run the growth experiment, then <span class="accent">tie it to a revenue number.</span></h2>
+  <div class="lede">The same three-step pattern, run at PriceKeel, Pixis and Sensata: ship something from zero, find the one lever that actually moves the number, then connect it back to a measurable business outcome.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">50+ Users</div>
+      <div class="lbl">0-to-1 Product, SwipeHire</div>
+      <div class="desc">PRD to MVP to first 50 users, with 8+ A/B tests run on the funnel to validate activation.</div>
+    </div>
+    <div class="stat">
+      <div class="n">3x ROAS</div>
+      <div class="lbl">Full-Funnel Growth Fix, Pixis</div>
+      <div class="desc">One month, one account, a complete funnel restructure instead of a single-lever tweak.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$700K+ Recovered</div>
+      <div class="lbl">GTM/Revenue Program, Sensata</div>
+      <div class="desc">1,200 opportunities ranked against a $627M target, closed through direct negotiation.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">None of these sat in a strategy deck. Each one was built, shipped and tied to a number a real team depended on.</div>
+  <div class="brand">FOUNDER'S OFFICE PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month in Anakin's Founder's Office looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Map one product-to-GTM gap</div>
+      <div class="body">Find where product development and growth acquisition are not yet connected, the same first move behind PriceKeel's CRM/CPQ build.</div>
+      <div class="why"><strong>Why first:</strong> size the real gap before building the fix.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Ship the fix and run the growth experiment</div>
+      <div class="body">Build the feature or funnel fix hands-on, then run the experiment the way the Pixis full-funnel restructure was run, cleanup, test, scale what works.</div>
+      <div class="why"><strong>Why now:</strong> a repeatable playbook beats a one-off campaign.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Tie it to a revenue number and report it</div>
+      <div class="body">Apply the Sensata Bleeders and Leakers discipline to measure the initiative's business impact, and bring leadership a clear read: what changed, why, and what is next.</div>
+      <div class="why"><strong>Why this fast:</strong> success here is outcomes delivered, not activities completed.</div>
+    </div>
+  </div>
+  <div class="brand">FOUNDER'S OFFICE PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to connect product to GTM and own the outcome. I already do that at my own company, with the number attached.</h2>
+  <div class="body">
+    <p>The product half: <strong>a B2B SaaS product built end to end</strong> at PriceKeel, and <strong>SwipeHire shipped 0-to-1</strong> to 50+ users with no delegation layer.</p>
+    <p>The growth and GTM half: <strong>3x ROAS in one month</strong> at Pixis from a full-funnel fix, and <strong>$700K+ recovered in two quarters</strong> at Sensata from a GTM/revenue program built from scratch.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhithyabhaskar.vercel.app/ref/anakin</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">FOUNDER'S OFFICE PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+Subject: Design it, build it, own it, already did
+
+Hi {Hiring Manager, Revenue Operations},
+
+Your req is built around a blank canvas, not a maintained process. I would rather show you what I have already built from one than describe it.
+
+Designed PriceKeel's guardrail engine, CRM, CPQ, forecast and deal-approval process from zero as founder, with no existing infrastructure to inherit.
+Built Sensata's Bleeders and Leakers dashboard, a self-serve executive view of 1,200 opportunities against a $627M target, then closed $700K+ of it in two quarters.
+Raised distributor margins 53% to 61% by fixing the pricing logic itself, the "guardrails built to move fast without leaking margin" discipline this role names.
+Architect and ship GTM AI agents built on Claude at Applied Materials today, productionized, not prototyped.
+
+Open to 15 minutes on which system, forecast, deal desk, or dashboard, you are most trying to ship first?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

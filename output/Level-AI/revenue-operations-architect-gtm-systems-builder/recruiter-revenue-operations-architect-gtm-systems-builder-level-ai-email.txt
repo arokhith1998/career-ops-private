@@ -1,0 +1,20 @@
+Subject: I built the machine, not just maintained one
+
+Hi {Recruiter, Revenue Operations},
+
+I don't normally write in before applying, but your line "if you've only maintained a machine someone else built, this isn't the fit" is exactly the bar I clear, not the one I'd be stretching for.
+
+Designed and built PriceKeel's guardrail engine, CRM, CPQ, forecast and deal-approval process from a blank canvas as founder.
+Built Sensata's Bleeders and Leakers dashboard (1,200 opportunities, $627M target) and recovered $700K+ in margin in two quarters.
+Architect and ship GTM AI agents built on Claude at Applied Materials today, core stack, not a novelty.
+
+Here's the portfolio: https://adhi-growth-ai.vercel.app/ref/level-ai
+
+If this req sits with your desk, 15 minutes would help. If not, a pointer to whoever owns it helps just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

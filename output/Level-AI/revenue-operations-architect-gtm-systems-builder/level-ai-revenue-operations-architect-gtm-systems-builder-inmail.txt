@@ -1,0 +1,16 @@
+Subject: Design it, build it, own it, already did
+
+Hi {Recruiter or Hiring Manager, Revenue Operations},
+
+Your RevOps Architect req is explicit: this is a builder role, and if you've only maintained a machine someone else built, it isn't the fit. I designed PriceKeel's guardrail engine, CRM, CPQ, forecast and deal-approval process from a blank canvas as founder. At Sensata I built the Bleeders and Leakers dashboard, a self-serve executive view of 1,200 opportunities against a $627M target, and closed $700K+ of it in two quarters. I also architect and ship GTM AI agents built on Claude at Applied Materials today, productionized, not prototyped.
+
+Here's the portfolio: https://adhi-growth-ai.vercel.app/ref/level-ai
+
+Worth 15 minutes to see if this req is still open?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Hinge Health Product Marketing Manager, New Verticals Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #0f766e; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 27pt; font-weight: 800; color: #0f172a; line-height: 1.14; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 20pt; font-weight: 800; color: #0f172a; line-height: 1.12; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #0f766e; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.7in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #ccfbf1 100%); }
+  .cover h1 { font-size: 23pt; max-width: 11.3in; }
+  .cover .sub { font-size: 14pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 16pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #0f766e; font-weight: 700; }
+  .cover .who { margin-top: 16pt; padding-top: 11pt; border-top: 1.5pt solid #0f766e; max-width: 9.4in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #0f766e; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #f0fdfa; border-left: 3pt solid #0f766e; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #115e59; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .line { font-size: 9.3pt; color: #334155; line-height: 1.46; padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .line b { color: #0f172a; font-weight: 700; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0f766e; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 22pt; font-weight: 800; color: #0f766e; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0f766e; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #0f766e; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #0f766e; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #ccfbf1 100%); }
+  .close h2 { font-size: 24pt; max-width: 10.6in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.6in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #0f766e; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Hinge Health Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Hinge Health Product Marketing Manager, New Verticals</div>
+  <h1>Turning complex products into clear stories is not a new ask for me. I took a product line with no established GTM motion to $2M+ in first-year revenue doing exactly that.</h1>
+  <div class="sub">A 30% win-rate lift from enablement built for 50+ reps, and a 15% conversion lift from turning technical specs into customer value.</div>
+  <div class="tags">
+    <div class="tag"><strong>$2M+ first-year revenue</strong> from a new product line with no existing GTM motion</div>
+    <div class="tag"><strong>+30% win rate</strong> from sales enablement built for 50+ reps on a technical product</div>
+    <div class="tag"><strong>+15% conversion</strong> from turning technical specs into customer value</div>
+    <div class="tag"><strong>+22% CSAT</strong> from 30+ customer interviews turned into product fixes</div>
+    <div class="tag"><strong>AI agents built on Claude</strong> automating my own recurring analysis</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-product.vercel.app/ref/hinge-health</div>
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>The job is not "write the messaging." It is <span class="accent">building the approval case and the enablement that gets a new vertical adopted.</span></h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What that actually requires</h3>
+      <div class="line">Fast product expertise, turned into clear positioning and objection-handling for approval conversations, not just a feature list.</div>
+      <div class="line">Enablement that reps and client teams actually use, built from real field feedback, not written once and forgotten.</div>
+      <div class="line">Adoption measured separately from approval coverage, with the data to prove the launch is working.</div>
+    </div>
+    <div class="col">
+      <h3>What I have already run</h3>
+      <div class="line">At <b>Sensata</b>, I took a new sensing-product line with no established GTM motion to $2M+ in first-year revenue, owning positioning, pricing, channel and launch end to end.</div>
+      <div class="line">I turned technical sensor specs into customer-facing value propositions that lifted conversion 15%, then built the enablement that got 50+ reps to actually sell it.</div>
+      <div class="line">I ran 30+ customer interviews to find where the story broke, and the fixes those interviews drove raised CSAT 22%.</div>
+    </div>
+  </div>
+  <div class="bridge" style="margin-top: 14pt; background: #f0fdfa; border-left: 4pt solid #0f766e; padding: 11pt 16pt;">
+    <div class="t" style="font-size: 10.5pt; color: #115e59; line-height: 1.46; font-weight: 600;">The through-line: every launch I have owned started with no established GTM motion, and ended with a real adoption number, not just a messaging doc.</div>
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The mandate, mapped</div>
+  <h2>What the posting asks for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Create and improve messaging, FAQs, and objection-handling resources for health-plan approvals and client conversations."</div></div>
+      <div class="quote"><div class="q">"Drive client readiness and adoption through launch communications and live enablement."</div></div>
+      <div class="quote"><div class="q">"Define what adoption looks like with Client Success, and track adoption separately from approval coverage."</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>Approval-ready messaging, Sensata:</b> turned technical sensor specs into customer-facing value propositions that lifted conversion 15%.</div></div>
+      <div class="proof"><div class="p"><b>Live enablement, Sensata:</b> built decks, case studies and objection-handling resources for 50+ reps, lifting win rates 30%.</div></div>
+      <div class="proof"><div class="p"><b>Adoption vs. reach, Sensata:</b> built SQL and GA4 KPI frameworks across 50K+ connected devices that separated real adoption signal from noise, lifting feature adoption 18%.</div></div>
+      <div class="proof"><div class="p"><b>Influence without authority, Applied Materials:</b> turns Sales, Engineering and Accounts input into one view today with no reporting line over any of them.</div></div>
+    </div>
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>Build the story, equip the field, then <span class="accent">prove the adoption number.</span></h2>
+  <div class="lede">The same three-step pattern, run at Sensata: turn a technical product into a story, build the enablement that gets it sold, then measure whether it actually landed.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$2M+ Revenue</div>
+      <div class="lbl">New-Vertical GTM, Sensata</div>
+      <div class="desc">A sensing-product line with no established GTM motion, taken from zero to $2M+ in first-year revenue.</div>
+    </div>
+    <div class="stat">
+      <div class="n">+30% Win Rate</div>
+      <div class="lbl">Field Enablement, 50+ Reps</div>
+      <div class="desc">Decks, case studies and objection-handling resources built for reps selling a technical product with no consistent story.</div>
+    </div>
+    <div class="stat">
+      <div class="n">+22% CSAT</div>
+      <div class="lbl">Voice of Customer, 30+ Interviews</div>
+      <div class="desc">OEM and distributor interviews turned directly into product fixes, closing the loop from feedback to adoption.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">None of these were a messaging deck that sat in a folder. Each one became a story reps used in the field and a number Client Success could track.</div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month on Hinge Health's New Verticals team looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Build product expertise and the approval map</div>
+      <div class="body">Learn the new vertical's differentiators and the specific objections health plans and clients are likely to raise, the same fast-ramp discipline behind the Sensata launch.</div>
+      <div class="why"><strong>Why first:</strong> the approval story has to be right before any enablement goes out.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Ship the first enablement and run live sessions</div>
+      <div class="body">Build the decks, FAQs and objection-handling resources Client Success needs, then run the live enablement sessions that got Sensata's reps to 30% higher win rates.</div>
+      <div class="why"><strong>Why now:</strong> enablement only works if the field is in the room for it, not reading a doc alone.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Define adoption separately from approval coverage</div>
+      <div class="body">Set the adoption measures with Client Success and build the KPI framework that separates real usage from reach, the same discipline that surfaced 18% adoption lift at Sensata.</div>
+      <div class="why"><strong>Why this fast:</strong> leadership needs a concise read on progress and risk from week one, not month three.</div>
+    </div>
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to turn a complex product into a clear story and get it adopted. I have already run that loop, with the revenue and the adoption number attached.</h2>
+  <div class="body">
+    <p>The story half: <strong>$2M+ in first-year revenue</strong> from a new product line with no established GTM motion, and a <strong>15% conversion lift</strong> from turning technical specs into customer value.</p>
+    <p>The adoption half: <strong>+30% win rate</strong> from field enablement built for 50+ reps, and the SQL/GA4 discipline that separates real adoption from reach, exactly what this role's year-one goals ask for.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-product.vercel.app/ref/hinge-health</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>

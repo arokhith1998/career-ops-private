@@ -1,0 +1,16 @@
+Subject: Builds the Deal Desk process, not just the queue
+
+Hi {Recruiter or Hiring Manager, Deal Desk},
+
+Your Senior Deal Desk Analyst req asks for someone who leads complex deals today while designing the process that scales tomorrow. I built PriceKeel's CRM, CPQ and deal-approval process from zero and run every non-standard exception through it myself. At Sensata I modeled deal economics across 1,200 opportunities against a $627M target and closed $700K+ of margin in two quarters, then raised distributor margins 53% to 61% by fixing the pricing logic itself rather than issuing overrides. I partner with Sales, Engineering and Accounts at Applied Materials today, the same cross-functional influence this role runs on.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/iterable
+
+Worth 15 minutes to see if this req is still open?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Iterable Senior Deal Desk Analyst Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #6d28d9; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 27pt; font-weight: 800; color: #0f172a; line-height: 1.14; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 20pt; font-weight: 800; color: #0f172a; line-height: 1.12; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #6d28d9; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.7in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #ede9fe 100%); }
+  .cover h1 { font-size: 23pt; max-width: 11.3in; }
+  .cover .sub { font-size: 14pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 16pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #6d28d9; font-weight: 700; }
+  .cover .who { margin-top: 16pt; padding-top: 11pt; border-top: 1.5pt solid #6d28d9; max-width: 9.4in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #6d28d9; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #f5f3ff; border-left: 3pt solid #6d28d9; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #5b21b6; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .line { font-size: 9.3pt; color: #334155; line-height: 1.46; padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .line b { color: #0f172a; font-weight: 700; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #6d28d9; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 22pt; font-weight: 800; color: #6d28d9; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #6d28d9; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #6d28d9; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #6d28d9; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #ede9fe 100%); }
+  .close h2 { font-size: 24pt; max-width: 10.6in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.6in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #6d28d9; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Iterable Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Iterable Senior Deal Desk Analyst</div>
+  <h1>Your Deal Desk needs someone who can build the process and run the deals through it at the same time. I have already done both, with the margin recovered to prove it.</h1>
+  <div class="sub">A $700K+ margin program built from zero at Sensata, and a CPQ and deal-approval process I built and run today at PriceKeel.</div>
+  <div class="tags">
+    <div class="tag"><strong>$700K+ recovered</strong> from 1,200 deal-economics models built with no existing tool</div>
+    <div class="tag"><strong>53% to 61%</strong> distributor margins raised by fixing pricing logic, not overriding it</div>
+    <div class="tag"><strong>CRM/CPQ built from zero</strong> and run end to end as founder, PriceKeel</div>
+    <div class="tag"><strong>50+ reps equipped</strong> with sales enablement that lifted win rates 30%</div>
+    <div class="tag"><strong>AI agents built on Claude</strong> automating my own recurring analysis</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-pricing-ai.vercel.app/ref/iterable</div>
+  </div>
+  <div class="brand">DEAL DESK PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>The job is not "process the queue." It is <span class="accent">building the system and making the judgment call on every exception that runs through it.</span></h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What that actually requires</h3>
+      <div class="line">A CPQ and approval process built well enough that Sales, Finance and Legal all trust it, not just a queue someone else designed.</div>
+      <div class="line">Deal economics modeled in enough depth to recommend a structure, not just approve or reject a discount request.</div>
+      <div class="line">The judgment to know when to make the call, when to push back, and when to escalate.</div>
+    </div>
+    <div class="col">
+      <h3>What I have already run</h3>
+      <div class="line">At <b>PriceKeel</b>, I built the CRM, CPQ and deal-approval process from zero and run every exception through it myself.</div>
+      <div class="line">At <b>Sensata</b>, I modeled deal economics across 1,200 opportunities and closed $700K+ of margin in two quarters by recommending structures that worked for both sides.</div>
+      <div class="line">At <b>Applied Materials</b>, I turn competing Sales, Engineering and Accounts input into one view leadership can act on, without needing authority over any of them.</div>
+    </div>
+  </div>
+  <div class="bridge" style="margin-top: 14pt; background: #f5f3ff; border-left: 4pt solid #6d28d9; padding: 11pt 16pt;">
+    <div class="t" style="font-size: 10.5pt; color: #5b21b6; line-height: 1.46; font-weight: 600;">The through-line: every deal-desk system I have touched went from ad hoc overrides to a documented, trusted process, and the margin number moved every time.</div>
+  </div>
+  <div class="brand">DEAL DESK PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The mandate, mapped</div>
+  <h2>What the posting asks for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Model deal economics, including margin, attach rate, and payment terms, and propose alternatives when a deal falls short of targets."</div></div>
+      <div class="quote"><div class="q">"Spot bottlenecks in quoting, approvals, and contracting, then design and roll out the fix, including automation and AI-assisted workflows."</div></div>
+      <div class="quote"><div class="q">"Strong working knowledge of the Salesforce data model... hands-on experience with CPQ."</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>Deal-economics modeling, Sensata:</b> built the Bleeders and Leakers dashboard across 1,200 opportunities, then closed $700K+ of it, not just flagged the gap.</div></div>
+      <div class="proof"><div class="p"><b>Bottleneck to fix, Sensata:</b> raised distributor margins 53% to 61% by rebuilding the pricing logic itself, not a one-time override.</div></div>
+      <div class="proof"><div class="p"><b>CPQ and Salesforce fluency, PriceKeel:</b> built and configured the CRM, CPQ and approval process from a blank page.</div></div>
+      <div class="proof"><div class="p"><b>AI-assisted workflow:</b> automate repetitive deal review with Claude AI agents at Applied Materials today.</div></div>
+    </div>
+  </div>
+  <div class="brand">DEAL DESK PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>Model the economics, close the deal, then <span class="accent">fix the process so the next one is faster.</span></h2>
+  <div class="lede">The same three-step pattern, run at Sensata and PriceKeel: build the model that shows where margin is leaking, close the deal on the structure that actually works, then fix the process behind it.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$700K+ Recovered</div>
+      <div class="lbl">Deal Economics, Sensata</div>
+      <div class="desc">1,200 opportunities ranked against a $627M target, then closed through direct negotiation on competitive gaps and willingness to pay.</div>
+    </div>
+    <div class="stat">
+      <div class="n">53% to 61%</div>
+      <div class="lbl">Margin Fix, Not Override</div>
+      <div class="desc">Distributor and channel-partner margins raised by correcting the pricing and approval logic itself.</div>
+    </div>
+    <div class="stat">
+      <div class="n">CPQ Built From Zero</div>
+      <div class="lbl">Process Ownership, PriceKeel</div>
+      <div class="desc">CRM, CPQ and deal-approval process designed and run end to end, with an audit trail Finance can trust.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">None of these sat in a dashboard. Each one closed the loop from a modeled number to a signed deal or a fixed process.</div>
+  <div class="brand">DEAL DESK PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month on Iterable's Deal Desk looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Map the quote-to-order path and the queue</div>
+      <div class="body">Walk the current CPQ, approval and contracting flow end to end, and find where deals actually stall against the Deal Desk SLA.</div>
+      <div class="why"><strong>Why first:</strong> the same first move behind the PriceKeel CPQ build, see the real path before changing it.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Own the first complex, non-standard deals</div>
+      <div class="body">Take ownership of live Deal Desk escalations, modeling margin and attach rate the way the Bleeders and Leakers program did, and recommend structures that close.</div>
+      <div class="why"><strong>Why now:</strong> credibility with Sales comes from closing real deals first, not from a process memo.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Fix the first process bottleneck</div>
+      <div class="body">Apply the same discipline that fixed Sensata's distributor-margin logic to the highest-friction step in Iterable's quoting or approval flow, with metrics to prove it worked.</div>
+      <div class="why"><strong>Why this fast:</strong> a bias for action without waiting on perfect data, the same call made at every seat so far.</div>
+    </div>
+  </div>
+  <div class="brand">DEAL DESK PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to build the Deal Desk while running it. I have already done both, with the margin recovered to prove it.</h2>
+  <div class="body">
+    <p>The deal-economics half: <strong>$700K+ recovered in two quarters</strong> at Sensata, and <strong>53% to 61% margin raised</strong> by fixing pricing logic, not overriding it.</p>
+    <p>The process half: <strong>CRM, CPQ and deal-approval process built from zero</strong> at PriceKeel, the exact "build how Deal Desk scales" half of this mandate.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-pricing-ai.vercel.app/ref/iterable</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">DEAL DESK PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>BeatO Entrepreneur in Residence Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #0e7490; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 27pt; font-weight: 800; color: #0f172a; line-height: 1.14; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 20pt; font-weight: 800; color: #0f172a; line-height: 1.12; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #0e7490; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.7in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #cffafe 100%); }
+  .cover h1 { font-size: 23pt; max-width: 11.3in; }
+  .cover .sub { font-size: 14pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 16pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #0e7490; font-weight: 700; }
+  .cover .who { margin-top: 16pt; padding-top: 11pt; border-top: 1.5pt solid #0e7490; max-width: 9.4in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #0e7490; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #ecfeff; border-left: 3pt solid #0e7490; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #155e75; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .line { font-size: 9.3pt; color: #334155; line-height: 1.46; padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .line b { color: #0f172a; font-weight: 700; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0e7490; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 22pt; font-weight: 800; color: #0e7490; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0e7490; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #0e7490; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #0e7490; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #cffafe 100%); }
+  .close h2 { font-size: 24pt; max-width: 10.6in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.6in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #0e7490; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the BeatO Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | BeatO Entrepreneur in Residence</div>
+  <h1>Your next growth engine needs someone who owns the full P&amp;L from zero to meaningful revenue, not just the launch plan. I have run that loop twice already, with the number attached.</h1>
+  <div class="sub">A $700K+ margin program built from zero at Sensata, and a live B2B SaaS P&amp;L I own and run today at PriceKeel.</div>
+  <div class="tags">
+    <div class="tag"><strong>Own the P&amp;L, right now</strong>: PriceKeel, built, piloted and raising its first round</div>
+    <div class="tag"><strong>$700K+ recovered</strong> from a margin program built with no existing tool</div>
+    <div class="tag"><strong>$2M+ first-year revenue</strong> from a product line taken zero to launch at Sensata</div>
+    <div class="tag"><strong>Zero-to-one shipped</strong>: SwipeHire, PRD to 50+ users</div>
+    <div class="tag"><strong>AI agents built on Claude</strong> automating my own recurring analysis</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhithyabhaskar.vercel.app/ref/beato</div>
+  </div>
+  <div class="brand">ENTREPRENEUR IN RESIDENCE PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>The job is not "launch a product." It is <span class="accent">owning the P&amp;L from a raw hypothesis through validation to a real growth engine.</span></h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What that actually requires</h3>
+      <div class="line">Define the customer, the offer and the pricing, then validate it cheaply before spending real budget on it.</div>
+      <div class="line">Own the full P&L once it works: revenue, margins, unit economics and burn, not just the top-line number.</div>
+      <div class="line">Assemble and lead a team using the company's existing product, supply chain and operations capability.</div>
+    </div>
+    <div class="col">
+      <h3>What I have already run</h3>
+      <div class="line">At <b>PriceKeel</b>, I own the full P&L today: product, pricing, pipeline and fundraising, built and validated with real pilot customers before scaling.</div>
+      <div class="line">At <b>Sensata</b>, I turned a vague margin mandate into the Bleeders and Leakers program, recovering $700K+ in two quarters, and separately took a new product line to $2M+ in first-year revenue.</div>
+      <div class="line">At <b>Pixis</b>, I hired and managed an 8-person team running 8 client P&Ls, carrying revenue targets across the whole portfolio.</div>
+    </div>
+  </div>
+  <div class="bridge" style="margin-top: 14pt; background: #ecfeff; border-left: 4pt solid #0e7490; padding: 11pt 16pt;">
+    <div class="t" style="font-size: 10.5pt; color: #155e75; line-height: 1.46; font-weight: 600;">The through-line: every P&L I have carried started with no existing playbook and ended with a number leadership could act on, not a plan that stayed on a slide.</div>
+  </div>
+  <div class="brand">ENTREPRENEUR IN RESIDENCE PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The mandate, mapped</div>
+  <h2>What the posting asks for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Validate the idea quickly through low-cost experiments; scale only what evidence supports."</div></div>
+      <div class="quote"><div class="q">"Own the full P&L: revenue, margins, unit economics, burn."</div></div>
+      <div class="quote"><div class="q">"Assemble and lead the team, using the company's product, clinical, supply chain, operations capabilities."</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>Validate before scaling, PriceKeel:</b> ran pilots with real customers before expanding the product, the same low-cost-experiment discipline this role asks for.</div></div>
+      <div class="proof"><div class="p"><b>P&L ownership, Sensata:</b> carried revenue and margin targets on a multi-$100M business, recovering $700K+ in two quarters.</div></div>
+      <div class="proof"><div class="p"><b>Zero to meaningful revenue, Sensata:</b> took a new sensing-product line from launch to $2M+ in first-year revenue.</div></div>
+      <div class="proof"><div class="p"><b>Team assembly, Pixis:</b> hired and managed an 8-person team running 8 client accounts on real P&L and retention targets.</div></div>
+    </div>
+  </div>
+  <div class="brand">ENTREPRENEUR IN RESIDENCE PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>Validate cheap, then own the number, then <span class="accent">build the team around it.</span></h2>
+  <div class="lede">The same three-step pattern, run at PriceKeel and Sensata and on SwipeHire: test the hypothesis before spending real money, carry the P&L once it proves out, then hire the team that scales it.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$700K+ Recovered</div>
+      <div class="lbl">P&L Ownership, Sensata</div>
+      <div class="desc">1,200 opportunities ranked against a $627M target, closed through direct negotiation, no existing tool to start from.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$2M+ Revenue</div>
+      <div class="lbl">Zero-to-Launch, Sensata</div>
+      <div class="desc">A new sensing-product line taken from zero to $2M+ in first-year revenue across North America and Europe.</div>
+    </div>
+    <div class="stat">
+      <div class="n">50+ Users</div>
+      <div class="lbl">Validated Before Scaling, SwipeHire</div>
+      <div class="desc">PRD to MVP to first 50 users, with 3 pricing tiers tested against real willingness-to-pay signals before expansion.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">None of these were a plan that sat in a deck. Each one became a working pilot, a signed outcome, or a P&L a real team depended on.</div>
+  <div class="brand">ENTREPRENEUR IN RESIDENCE PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month inside BeatO's new growth vertical looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Define the customer, offer and price</div>
+      <div class="body">Pull BeatO's existing user base and supply chain capability, and frame the new vertical's first testable hypothesis the way PriceKeel's first pilot was framed.</div>
+      <div class="why"><strong>Why first:</strong> the same first move behind every build I have run, size the real question before spending on it.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Run the low-cost experiment</div>
+      <div class="body">Validate the offer with a small set of real users before committing budget, the same discipline that got SwipeHire to 50+ users before any paid scaling.</div>
+      <div class="why"><strong>Why now:</strong> evidence before spend, not the other way around.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Own the P&L and start the team</div>
+      <div class="body">Apply the Sensata margin-recovery discipline to the unit economics of the new vertical, and start assembling the team it needs to scale.</div>
+      <div class="why"><strong>Why this fast:</strong> a bias for action without waiting on perfect data, the same call made at every seat so far.</div>
+    </div>
+  </div>
+  <div class="brand">ENTREPRENEUR IN RESIDENCE PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to own a P&amp;L from a raw hypothesis to a real growth engine. I have run that loop twice already, with the number attached.</h2>
+  <div class="body">
+    <p>The P&L half: <strong>$700K+ recovered in two quarters</strong> at Sensata by turning an ambiguous margin mandate into signed outcomes, and <strong>$2M+ in first-year revenue</strong> from a product line taken zero to launch.</p>
+    <p>The builder half: <strong>PriceKeel, live and raising its first round</strong>, and <strong>SwipeHire, shipped zero-to-one</strong> to 50+ early users, validated before scaling, exactly as this role asks.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhithyabhaskar.vercel.app/ref/beato</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">ENTREPRENEUR IN RESIDENCE PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
