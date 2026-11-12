@@ -669,8 +669,8 @@ jobs.ashbyhq.com/baseten/8c49e4ee-615d-4ef8-a189-8c9da532e33a	Baseten	Product Ma
 sofi.com/careers/job/8201080003?gh_jid=8201080003	SoFi	Senior Web Marketing Manager	https://sofi.com/careers/job/8201080003?gh_jid=8201080003	dropped	DROP:over-cap	2026-11-12	2026-11-12	3	
 purpose.jobs/discover/companies/ashby/jobs/92981922-product-manager-onboarding-and-growth	Ashby	Product Manager, Onboarding and Growth	https://www.purpose.jobs/discover/companies/ashby/jobs/92981922-product-manager-onboarding-and-growth	dropped	DROP:duplicate-of-tracker-1377	2026-11-12	2026-11-12	3	
 zapply.jobs/l/d/google-81255526670705350	Google	Product Manager, YouTube Youth Content Quality, Responsible Growth	https://zapply.jobs/l/d/google-81255526670705350?s=gh-new-grad-jobs-2027	jd_extracted		2026-11-12	2026-11-12	2	
-workatastartup.com/jobs/76808	Clinikally	Chief of Staff	https://www.workatastartup.com/jobs/76808	jd_extracted		2026-11-12	2026-11-12	2	
-jobs.weekday.works/chief-of-staff-to-the-ceo-immediate-joiners-only-at-factori-com-wkdy7clj1l	Factori	Chief of Staff to the CEO	https://jobs.weekday.works/chief-of-staff-to-the-ceo-immediate-joiners-only-at-factori-com-wkdy7clj1l	jd_extracted		2026-11-12	2026-11-12	2	
+workatastartup.com/jobs/76808	Clinikally	Chief of Staff	https://www.workatastartup.com/jobs/76808	dropped	DROP:below-comp-floor	2026-11-12	2026-11-12	3	
+jobs.weekday.works/chief-of-staff-to-the-ceo-immediate-joiners-only-at-factori-com-wkdy7clj1l	Factori	Chief of Staff to the CEO	https://jobs.weekday.works/chief-of-staff-to-the-ceo-immediate-joiners-only-at-factori-com-wkdy7clj1l	dropped	DROP:below-comp-floor	2026-11-12	2026-11-12	3	
 apply.workable.com/lokal-app/jobs/view/2359872e31.md	Lokal	Head of Growth Marketing	https://apply.workable.com/lokal-app/jobs/view/2359872E31.md	jd_extracted		2026-11-12	2026-11-12	2	
 workingnomads.com/jobs/chief-of-staff-india-elevenlabs	ElevenLabs	Chief of Staff	https://www.workingnomads.com/jobs/chief-of-staff-india-elevenlabs	jd_extracted		2026-11-12	2026-11-12	2	
 linkedin.com/jobs/view/4487839431	Mintive	Founding RevOps Lead	https://www.linkedin.com/jobs/view/4487839431	dropped	DROP:duplicate-of-tracker-1756	2026-11-11	2026-11-12	6	
@@ -681,6 +681,9 @@ jobs.ashbyhq.com/snowflake/b071b406-6bd0-4def-ba95-380b1cbf6de5	Snowflake	Senior
 linkedin.com/jobs/view/4432035873	Snowflake	Senior Product Manager - AI Migrations	https://www.linkedin.com/jobs/view/4432035873	dropped	BUILT	2026-10-09	2026-11-12	8	
 jobs.apple.com/en-us/details/200618437/product-manager-siri-ai	Apple	Product Manager, Siri AI	https://jobs.apple.com/en-us/details/200618437/product-manager-siri-ai	dropped	DROP:duplicate-of-tracker-2529	2026-11-12	2026-11-12	1	
 job-boards.greenhouse.io/tenstorrent/jobs/4969360007	Tenstorrent	Product Manager- Enterprise Platform	https://job-boards.greenhouse.io/tenstorrent/jobs/4969360007	dropped	DROP:duplicate-of-tracker-2542	2026-11-12	2026-11-12	1	
+linkedin.com/jobs/view/4489915536	Avangarde	CEO's Office	https://www.linkedin.com/jobs/view/4489915536	dropped	DROP:below-comp-floor	2026-11-11	2026-11-12	6	
+linkedin.com/jobs/view/4487451989	SkillDzire	Founder's Office Executive	https://www.linkedin.com/jobs/view/4487451989	dropped	DROP:below-comp-floor	2026-11-11	2026-11-12	6	
+linkedin.com/jobs/view/4488672499	Triverse Advertising Pvt. Ltd.	Assistant Manager - Founder's Office	https://www.linkedin.com/jobs/view/4488672499	dropped	DROP:below-comp-floor	2026-11-11	2026-11-12	6	
 boards.greenhouse.io/robinhood/jobs/8334663?gh_jid=8334663	Robinhood	Senior Product Manager, Paid Marketing	https://boards.greenhouse.io/robinhood/jobs/8334663?t=gh_src=&gh_jid=8334663	built	BUILT	2026-11-10	2026-11-11	17	jd extracted 2026-11-10 nightly run, agent2
 linkedin.com/jobs/view/4489428145	Tivity Health	Growth Marketing Manager - remote opportunity	https://www.linkedin.com/jobs/view/4489428145	queued		2026-11-10	2026-11-11	10	jd extracted 2026-11-10 nightly run, agent2
 linkedin.com/jobs/view/4478905782	Cash App	Lifecycle Marketing Manager	https://www.linkedin.com/jobs/view/4478905782	queued		2026-10-21	2026-11-11	31	
@@ -1656,9 +1659,6 @@ linkedin.com/jobs/view/4489624870	Plaid	Product Manager - Account Verification	h
 linkedin.com/jobs/view/4488848671	Hewlett Packard Enterprise	Senior Product Manager, Data Center & AI Networking Hardware	https://www.linkedin.com/jobs/view/4488848671	shortlisted		2026-11-11	2026-11-11	1	
 linkedin.com/jobs/view/4488652871	Serval	Product Marketing Manager- Customer Advocacy	https://www.linkedin.com/jobs/view/4488652871	shortlisted		2026-11-11	2026-11-11	1	
 linkedin.com/jobs/view/4489673502	Socure	Senior Product Manager, Identity Graph Platform Products	https://www.linkedin.com/jobs/view/4489673502	shortlisted		2026-11-11	2026-11-11	1	
-linkedin.com/jobs/view/4489915536	Avangarde	CEO's Office	https://www.linkedin.com/jobs/view/4489915536	dropped	DROP:below-comp-floor	2026-11-11	2026-11-11	5	
-linkedin.com/jobs/view/4487451989	SkillDzire	Founder's Office Executive	https://www.linkedin.com/jobs/view/4487451989	dropped	DROP:below-comp-floor	2026-11-11	2026-11-11	5	
-linkedin.com/jobs/view/4488672499	Triverse Advertising Pvt. Ltd.	Assistant Manager - Founder's Office	https://www.linkedin.com/jobs/view/4488672499	dropped	DROP:below-comp-floor	2026-11-11	2026-11-11	5	
 linkedin.com/jobs/view/4488660733	HireQuotient	Founder’s Office (GTM)	https://www.linkedin.com/jobs/view/4488660733	queued		2026-11-11	2026-11-11	5	
 linkedin.com/jobs/view/4488659930	WORKFUTR SQUARE	Role: Associate – CEO's Office (Business Operations)	https://www.linkedin.com/jobs/view/4488659930	dropped	DROP:below-3.0	2026-11-11	2026-11-11	5	
 linkedin.com/jobs/view/4488349163	TikTok	B2B Integrated Marketing Manager - TikTok Local Services	https://www.linkedin.com/jobs/view/4488349163	dropped	DROP:below-3.0	2026-11-11	2026-11-11	5	
