@@ -1,12 +1,13 @@
 source	sources	company	title	location	url	posted_ts	age_days	sponsorship_hint	salary	category
-websearch-agent	websearch-agent	Clinikally	Chief of Staff	Gurugram, Haryana, India	https://www.ycombinator.com/companies/clinikally/jobs/bq21ts8-chief-of-staff
-websearch-agent	websearch-agent	Zamp	Founder's Office, Strategy & Operations	Bengaluru, Karnataka, India	https://careers.kula.ai/zamp-ai/14858/
-websearch-agent	websearch-agent	Niveshak AI	Head of Growth Marketing	Mumbai, Maharashtra, India	https://www.iimjobs.com/j/niveshak-ai-head-growth-marketing-iit-iim-bits-nit-isb-1697470
-websearch-agent	websearch-agent	Two Brothers Organic Farms	Chief of Staff, Strategy & Growth	Mumbai, Maharashtra, India	https://www.iimjobs.com/j/two-brothers-chief-of-staff-strategy-and-growth-1664450
-websearch-agent	websearch-agent	Lenskart	General Manager, CEO Office	India	https://lenskartcareers.recruitee.com/o/ceos-office-4
-websearch-agent	websearch-agent	Incedo	Associate, Office of the CEO	Gurugram, Haryana, India	https://jobs.weekday.works/associate-office-of-the-ceo-at-incedo-inc-4389060786
-websearch-agent	websearch-agent	Adyen	Strategic Pricing Manager	San Francisco, CA	https://job-boards.greenhouse.io/adyen/jobs/8078192
-websearch-agent	websearch-agent	Windfall Data	Product Marketing Manager	San Francisco, CA	https://jobs.lever.co/windfalldata/d64fdf52-6821-4dd1-b3dd-745ffd018eed/apply
-websearch-agent	websearch-agent	Finch	Product Marketing Manager	San Francisco, CA	https://jobs.lever.co/finch/5085ce27-f2e7-4863-b16c-e3b36ae8ae35
-websearch-agent	websearch-agent	Anaconda	Deal Desk Manager	Remote - United States	https://www.builtinsf.com/job/deal-desk-manager/8579731
-websearch-agent	websearch-agent	Vercel	Senior Deal Desk Analyst	San Francisco, CA	https://www.workingnomads.com/jobs/senior-analyst-deal-desk-vercel-405002
+websearch-agent		Clinikally	Chief of Staff	Gurugram, India	https://www.workatastartup.com/jobs/76808					chief_of_staff
+websearch-agent		Factori	Chief of Staff to the CEO	India	https://jobs.weekday.works/chief-of-staff-to-the-ceo-immediate-joiners-only-at-factori-com-wkdy7clj1l				up to 12 LPA	chief_of_staff
+websearch-agent		Zamp	Founder's Office, Strategy & Operations	Bengaluru / Gurugram, India	https://careers.kula.ai/zamp-ai/14858/					founders_office
+websearch-agent		Incedo	Associate, Office of the CEO	Gurugram, India	https://jobs.weekday.works/associate-office-of-the-ceo-at-incedo-inc-4389060786					ceo_office
+websearch-agent		Snapmint	Manager, Founders Office	Mumbai / Bengaluru, India	https://jobs.weekday.works/manager-founders-office-at-snapmint-4409157639					founders_office
+websearch-agent		Lokal	Head of Growth Marketing	Bengaluru, India	https://apply.workable.com/lokal-app/jobs/view/2359872E31.md					head_of_growth
+websearch-agent		NextWave STEM	Entrepreneur in Residence (EIR), Founder's Office	India (remote)	https://jobs.weekday.works/entrepreneur-in-residence-eir-%25E2%2580%2593-founder%25E2%2580%2599s-office-at-nextwave-stem-4418343773					entrepreneur_in_residence
+websearch-agent		ElevenLabs	Chief of Staff	India	https://www.workingnomads.com/jobs/chief-of-staff-india-elevenlabs					chief_of_staff
+websearch-agent		Salesforce	Pricing Strategy Manager/Senior Manager	San Francisco, CA	https://www.purpose.jobs/discover/companies/salesforce-2/jobs/78918396-pricing-strategy-manager-senior-manager			$123,100-$227,000	pricing
+websearch-agent		Ashby	Product Manager, Onboarding and Growth	Remote - US	https://www.purpose.jobs/discover/companies/ashby/jobs/92981922-product-manager-onboarding-and-growth			$180k-$260k	product
+websearch-agent		Vercel	Senior Analyst, Deal Desk	San Francisco Bay Area, CA	https://www.workingnomads.com/jobs/senior-analyst-deal-desk-vercel-405002					pricing
+websearch-agent		Clari	Strategic Pricing Manager	San Francisco Bay Area, CA (remote)	https://app.joinrise.co/jobs/clari-strategic-pricing-manager-remote-ggoy					pricing
