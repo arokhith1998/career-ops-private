@@ -1,6 +1,6 @@
 job_key	company	title	url	stage	verdict	first_seen	last_seen	times_seen	note
-linkedin.com/jobs/view/4489904855	Stemz Healthcare	Entrepreneur in Residence (EIR)	https://www.linkedin.com/jobs/view/4489904855	jd_extracted		2026-11-11	2026-11-12	4	
-linkedin.com/jobs/view/4489081111	AiSteth	Chief of Staff	https://www.linkedin.com/jobs/view/4489081111	jd_extracted		2026-11-12	2026-11-12	3	
+linkedin.com/jobs/view/4489904855	Stemz Healthcare	Entrepreneur in Residence (EIR)	https://www.linkedin.com/jobs/view/4489904855	queued		2026-11-11	2026-11-12	5	
+linkedin.com/jobs/view/4489081111	AiSteth	Chief of Staff	https://www.linkedin.com/jobs/view/4489081111	queued		2026-11-12	2026-11-12	4	
 linkedin.com/jobs/view/4490073454	Sia Experience	Partner Marketing Manager, AI Products & Strategic Technology Partnerships (Contract)	https://www.linkedin.com/jobs/view/4490073454	shortlisted		2026-11-12	2026-11-12	1	
 zapply.jobs/l/d/ashby-baseten-0a6f7d46-a0c3-4020-a697-e1bf1a8aeafa	Baseten	Product Manager, Training Platform	https://zapply.jobs/l/d/ashby-baseten-0a6f7d46-a0c3-4020-a697-e1bf1a8aeafa?s=gh-new-grad-jobs-2027	shortlisted		2026-11-12	2026-11-12	1	
 linkedin.com/jobs/view/4488688440	Heads Up For Tails	Chief Of Staff to the CEO | Food Manufacturing Unit	https://www.linkedin.com/jobs/view/4488688440	dropped	DROP:duplicate-of-tracker-2388	2026-11-12	2026-11-12	4	
@@ -48,7 +48,7 @@ linkedin.com/jobs/view/4489000408	i-Pharm Consulting	Senior Product Manager	http
 linkedin.com/jobs/view/4480478222	Qualcomm	Staff Product Manager - Wireless Infrastructure Networking	https://www.linkedin.com/jobs/view/4480478222	shortlisted		2026-11-12	2026-11-12	1	
 linkedin.com/jobs/view/4489041004	IXL Learning	IXL Product Manager	https://www.linkedin.com/jobs/view/4489041004	shortlisted		2026-11-12	2026-11-12	1	
 linkedin.com/jobs/view/4490305149	30 Sundays	Entrepreneur in Residence	https://www.linkedin.com/jobs/view/4490305149	dropped	DROP:below-comp-floor	2026-11-12	2026-11-12	4	
-linkedin.com/jobs/view/4489941251	2070 Health	Entrepreneur In Residence	https://www.linkedin.com/jobs/view/4489941251	jd_extracted		2026-11-12	2026-11-12	3	
+linkedin.com/jobs/view/4489941251	2070 Health	Entrepreneur In Residence	https://www.linkedin.com/jobs/view/4489941251	queued		2026-11-12	2026-11-12	4	
 metacareers.com/jobs/997597222780035	Meta	Research Scientist Intern - Foundation Model Optimization - PhD	https://www.metacareers.com/jobs/997597222780035	dropped	DROP:intern-coop-phd	2026-11-12	2026-11-12	1	
 lifeattiktok.com/search/7706693387932633397	TikTok	Machine Learning Engineer Intern - E-Commerce Recommendation Mall - 2027 Start	https://lifeattiktok.com/search/7706693387932633397	dropped	DROP:intern-coop-phd	2026-11-12	2026-11-12	1	
 jobs.smartrecruiters.com/aristanetworks/744000160961018-data-analytics-intern	Arista Networks	Data Analytics Intern	https://jobs.smartrecruiters.com/AristaNetworks/744000160961018-data-analytics-intern?oga=true	dropped	DROP:intern-coop-phd	2026-11-12	2026-11-12	1	
@@ -643,35 +643,35 @@ coinbase.com/careers/positions/8374607?gh_jid=8374607	Coinbase	Senior Product Ma
 instacart.careers/job?gh_jid=8373034	Instacart	Senior Product Manager, Instacart Business - Growth	https://instacart.careers/job/?gh_jid=8373034	queued		2026-11-11	2026-11-12	10	
 zapply.jobs/l/d/greenhouse-tenstorrent-4969360007	Tenstorrent	Product Manager- Enterprise Platform	https://zapply.jobs/l/d/greenhouse-tenstorrent-4969360007?s=gh-new-grad-jobs-2027	queued		2026-11-11	2026-11-12	10	
 fivetran.com/careers/job?gh_jid=8200741003	Fivetran	Senior Marketing Manager, Commercial	https://www.fivetran.com/careers/job?gh_jid=8200741003	queued		2026-11-11	2026-11-12	7	
-mongodb.com/careers/job?gh_jid=8371294	MongoDB	Growth Marketing Lead	https://www.mongodb.com/careers/job/?gh_jid=8371294	jd_extracted		2026-11-11	2026-11-12	3	
+mongodb.com/careers/job?gh_jid=8371294	MongoDB	Growth Marketing Lead	https://www.mongodb.com/careers/job/?gh_jid=8371294	queued		2026-11-11	2026-11-12	4	
 jobs.weekday.works/manager-founders-office-at-snapmint-4409157639	Snapmint	Manager, Founder's Office	https://jobs.weekday.works/manager-founders-office-at-snapmint-4409157639	queued		2026-11-09	2026-11-12	7	
-linkedin.com/jobs/view/4478924249	DoorDash	Associate Manager, New Verticals - Retail Merchandising Strategy & Operations	https://www.linkedin.com/jobs/view/4478924249	jd_extracted		2026-11-11	2026-11-12	3	
+linkedin.com/jobs/view/4478924249	DoorDash	Associate Manager, New Verticals - Retail Merchandising Strategy & Operations	https://www.linkedin.com/jobs/view/4478924249	queued		2026-11-11	2026-11-12	4	
 linkedin.com/jobs/view/4489928281	Agora	Product Marketing Manager	https://www.linkedin.com/jobs/view/4489928281	queued		2026-11-11	2026-11-12	7	
-linkedin.com/jobs/view/4488668973	Intel	Senior Sales Operations Analyst	https://www.linkedin.com/jobs/view/4488668973	jd_extracted		2026-11-11	2026-11-12	3	
+linkedin.com/jobs/view/4488668973	Intel	Senior Sales Operations Analyst	https://www.linkedin.com/jobs/view/4488668973	dropped	DROP:duplicate-of-tracker-1878	2026-11-11	2026-11-12	4	
 linkedin.com/jobs/view/4482012223	Snowflake	Senior Product Manager - Streamlit	https://www.linkedin.com/jobs/view/4482012223	jd_extracted		2026-11-11	2026-11-12	3	
 linkedin.com/jobs/view/4454934932	GEICO	Product Manager, Self-Service Data Platform	https://www.linkedin.com/jobs/view/4454934932	dropped	SKIP:req-level-no-sponsorship-geico-sponsors-company-wide	2026-11-11	2026-11-12	4	
-linkedin.com/jobs/view/4481799953	Cohesity	Partner Marketing Manager	https://www.linkedin.com/jobs/view/4481799953	jd_extracted		2026-11-11	2026-11-12	3	
+linkedin.com/jobs/view/4481799953	Cohesity	Partner Marketing Manager	https://www.linkedin.com/jobs/view/4481799953	queued		2026-11-11	2026-11-12	4	
 boards.greenhouse.io/figma/jobs/5711595004?gh_jid=5711595004	Figma	Product Designer, Growth & Monetization	https://boards.greenhouse.io/figma/jobs/5711595004?gh_jid=5711595004	dropped	DROP:duplicate-of-tracker-462	2026-11-11	2026-11-12	4	
 boards.greenhouse.io/figma/jobs/5989185004?gh_jid=5989185004	Figma	Product Manager, AI Growth	https://boards.greenhouse.io/figma/jobs/5989185004?gh_jid=5989185004	dropped	DROP:over-cap	2026-11-11	2026-11-12	4	
 api.smartrecruiters.com/v1/companies/freshworks/postings/744000144399138	Freshworks	Deal Desk Strategy Manager	https://api.smartrecruiters.com/v1/companies/freshworks/postings/744000144399138	dropped	DROP:over-cap	2026-11-11	2026-11-12	4	
 jobs.ashbyhq.com/snowflake/e6e81afb-2b0f-48ad-8457-fb7ba213f289	Snowflake	Technical Product Marketing Lead, AI Data Cloud	https://jobs.ashbyhq.com/snowflake/e6e81afb-2b0f-48ad-8457-fb7ba213f289	dropped	DROP:over-cap	2026-11-11	2026-11-12	4	
 jobs.ashbyhq.com/snowflake/8e88251e-e77e-428e-bccf-dc1ccadc22ef	Snowflake	Senior Product Manager - AI Migrations	https://jobs.ashbyhq.com/snowflake/8e88251e-e77e-428e-bccf-dc1ccadc22ef	jd_extracted		2026-11-11	2026-11-12	3	
 jobs.ashbyhq.com/snowflake/5ee9f5f0-2942-4c17-81bf-f2ffec3a64b9	Snowflake	Senior Product Manager - Enterprise AI	https://jobs.ashbyhq.com/snowflake/5ee9f5f0-2942-4c17-81bf-f2ffec3a64b9	jd_extracted		2026-11-11	2026-11-12	3	
-linkedin.com/jobs/view/4480787847	Google	Product Manager, Google Wallet Digital Identity Lead	https://www.linkedin.com/jobs/view/4480787847	jd_extracted		2026-10-22	2026-11-12	3	
+linkedin.com/jobs/view/4480787847	Google	Product Manager, Google Wallet Digital Identity Lead	https://www.linkedin.com/jobs/view/4480787847	queued		2026-10-22	2026-11-12	4	
 linkedin.com/jobs/view/4429690414	Windfall	Product Marketing Manager	https://www.linkedin.com/jobs/view/4429690414	dropped	DROP:duplicate-of-tracker-99	2026-10-03	2026-11-12	4	
-linkedin.com/jobs/view/4471221596	Hinge Health	Product Marketing Manager, New Verticals	https://www.linkedin.com/jobs/view/4471221596	jd_extracted		2026-09-29	2026-11-12	3	
+linkedin.com/jobs/view/4471221596	Hinge Health	Product Marketing Manager, New Verticals	https://www.linkedin.com/jobs/view/4471221596	queued		2026-09-29	2026-11-12	4	
 linkedin.com/jobs/view/4385652723	Reevo	Builder - Product Marketing Lead	https://www.linkedin.com/jobs/view/4385652723	dropped	DROP:duplicate-of-tracker-93	2026-09-29	2026-11-12	4	
 linkedin.com/jobs/view/4490046400	Stripe	Staff Product Manager, Foundation Pillar	https://www.linkedin.com/jobs/view/4490046400	dropped	DROP:over-cap	2026-11-12	2026-11-12	3	
-linkedin.com/jobs/view/4490033754	Pramaana Labs	Product Manager	https://www.linkedin.com/jobs/view/4490033754	jd_extracted		2026-11-12	2026-11-12	2	
-linkedin.com/jobs/view/4478692718	Meta	Product Manager, Machine Learning	https://www.linkedin.com/jobs/view/4478692718	jd_extracted		2026-11-12	2026-11-12	2	
-jobs.ashbyhq.com/baseten/36f9e1be-a876-478b-b7ce-fa216ba12972	Baseten	Product Manager, Inference Platform	https://jobs.ashbyhq.com/baseten/36f9e1be-a876-478b-b7ce-fa216ba12972	jd_extracted		2026-11-12	2026-11-12	2	
-jobs.ashbyhq.com/baseten/8c49e4ee-615d-4ef8-a189-8c9da532e33a	Baseten	Product Manager, Inference Experience	https://jobs.ashbyhq.com/baseten/8c49e4ee-615d-4ef8-a189-8c9da532e33a	jd_extracted		2026-11-12	2026-11-12	2	
+linkedin.com/jobs/view/4490033754	Pramaana Labs	Product Manager	https://www.linkedin.com/jobs/view/4490033754	dropped	DROP:below-3.0	2026-11-12	2026-11-12	3	
+linkedin.com/jobs/view/4478692718	Meta	Product Manager, Machine Learning	https://www.linkedin.com/jobs/view/4478692718	dropped	DROP:below-3.0	2026-11-12	2026-11-12	3	
+jobs.ashbyhq.com/baseten/36f9e1be-a876-478b-b7ce-fa216ba12972	Baseten	Product Manager, Inference Platform	https://jobs.ashbyhq.com/baseten/36f9e1be-a876-478b-b7ce-fa216ba12972	dropped	DROP:below-3.0	2026-11-12	2026-11-12	3	
+jobs.ashbyhq.com/baseten/8c49e4ee-615d-4ef8-a189-8c9da532e33a	Baseten	Product Manager, Inference Experience	https://jobs.ashbyhq.com/baseten/8c49e4ee-615d-4ef8-a189-8c9da532e33a	dropped	DROP:below-3.0	2026-11-12	2026-11-12	3	
 sofi.com/careers/job/8201080003?gh_jid=8201080003	SoFi	Senior Web Marketing Manager	https://sofi.com/careers/job/8201080003?gh_jid=8201080003	dropped	DROP:over-cap	2026-11-12	2026-11-12	3	
 purpose.jobs/discover/companies/ashby/jobs/92981922-product-manager-onboarding-and-growth	Ashby	Product Manager, Onboarding and Growth	https://www.purpose.jobs/discover/companies/ashby/jobs/92981922-product-manager-onboarding-and-growth	dropped	DROP:duplicate-of-tracker-1377	2026-11-12	2026-11-12	3	
-zapply.jobs/l/d/google-81255526670705350	Google	Product Manager, YouTube Youth Content Quality, Responsible Growth	https://zapply.jobs/l/d/google-81255526670705350?s=gh-new-grad-jobs-2027	jd_extracted		2026-11-12	2026-11-12	2	
+zapply.jobs/l/d/google-81255526670705350	Google	Product Manager, YouTube Youth Content Quality, Responsible Growth	https://zapply.jobs/l/d/google-81255526670705350?s=gh-new-grad-jobs-2027	dropped	DROP:below-3.0	2026-11-12	2026-11-12	3	
 workatastartup.com/jobs/76808	Clinikally	Chief of Staff	https://www.workatastartup.com/jobs/76808	dropped	DROP:below-comp-floor	2026-11-12	2026-11-12	3	
 jobs.weekday.works/chief-of-staff-to-the-ceo-immediate-joiners-only-at-factori-com-wkdy7clj1l	Factori	Chief of Staff to the CEO	https://jobs.weekday.works/chief-of-staff-to-the-ceo-immediate-joiners-only-at-factori-com-wkdy7clj1l	dropped	DROP:below-comp-floor	2026-11-12	2026-11-12	3	
-apply.workable.com/lokal-app/jobs/view/2359872e31.md	Lokal	Head of Growth Marketing	https://apply.workable.com/lokal-app/jobs/view/2359872E31.md	jd_extracted		2026-11-12	2026-11-12	2	
+apply.workable.com/lokal-app/jobs/view/2359872e31.md	Lokal	Head of Growth Marketing	https://apply.workable.com/lokal-app/jobs/view/2359872E31.md	queued		2026-11-12	2026-11-12	3	
 workingnomads.com/jobs/chief-of-staff-india-elevenlabs	ElevenLabs	Chief of Staff	https://www.workingnomads.com/jobs/chief-of-staff-india-elevenlabs	jd_extracted		2026-11-12	2026-11-12	2	
 linkedin.com/jobs/view/4487839431	Mintive	Founding RevOps Lead	https://www.linkedin.com/jobs/view/4487839431	dropped	DROP:duplicate-of-tracker-1756	2026-11-11	2026-11-12	6	
 linkedin.com/jobs/view/4487848090	Mintive	Founding RevOps Lead	https://www.linkedin.com/jobs/view/4487848090	dropped	DROP:duplicate-of-tracker-1756	2026-11-11	2026-11-12	6	
