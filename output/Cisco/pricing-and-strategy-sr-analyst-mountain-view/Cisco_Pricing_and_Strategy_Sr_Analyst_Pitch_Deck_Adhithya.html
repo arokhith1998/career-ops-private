@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Cisco Pricing and Strategy Sr. Analyst Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #00693c; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 32pt; font-weight: 800; color: #0f172a; line-height: 1.08; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 21pt; font-weight: 800; color: #0f172a; line-height: 1.1; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #00693c; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.5in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d7f0e3 100%); }
+  .cover h1 { font-size: 33pt; max-width: 10.8in; }
+  .cover .sub { font-size: 14pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 18pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #00693c; font-weight: 700; }
+  .cover .who { margin-top: 18pt; padding-top: 11pt; border-top: 1.5pt solid #00693c; max-width: 9.3in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #00693c; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #eefaf3; border-left: 3pt solid #00693c; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #045c39; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #00693c; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #eefaf3; border-left: 4pt solid #00693c; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #045c39; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #00693c; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 24pt; font-weight: 800; color: #00693c; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #00693c; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #00693c; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #00693c; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d7f0e3 100%); }
+  .close h2 { font-size: 26pt; max-width: 10.5in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.5in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #00693c; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Cisco Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Cisco Pricing and Strategy Sr. Analyst</div>
+  <h1>Price elasticity and willingness to pay already paid for themselves once. Here is the receipt, and where I would point that lens at your security portfolio.</h1>
+  <div class="sub">Pricing strategy, monetization and discount governance from someone who builds the pricing tool on the side.</div>
+  <div class="tags">
+    <div class="tag"><strong>$700K+</strong> margin recovered in 2 quarters via elasticity and WTP-driven negotiation</div>
+    <div class="tag"><strong>53% to 61%</strong> distributor margin lift from repriced pricing logic</div>
+    <div class="tag"><strong>1,200</strong> pricing opportunities ranked against a $627M target, 3 regions</div>
+    <div class="tag"><strong>PriceKeel</strong> - founder, subscription/consumption deal-pricing product</div>
+    <div class="tag"><strong>+12% YoY revenue, +8% share</strong> via global price realignment vs. 10+ players</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-pricing-ai.vercel.app/ref/cisco</div>
+  </div>
+  <div class="brand">CISCO PRICING STRATEGY MV</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>A security portfolio this size does not have a pricing-data problem. It has a <span class="accent">willingness-to-pay problem.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What a portfolio like this runs into</h4>
+      <div class="line">Hardware, software and services sold across multiple licensing and consumption models mean elasticity looks different in every segment, and a single discount KPI dashboard cannot say why.</div>
+      <div class="line">Annual pricing reviews surface the symptom (margin drift, a discount creeping up) without always surfacing the underlying willingness-to-pay or competitive shift that caused it.</div>
+      <div class="line">The fix is not another chart. It is a repeatable way to test elasticity, read the competitive and market signal, and turn both into pricing logic the team can defend.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run, at smaller scale</h4>
+      <div class="line">At <b>Sensata</b>, I ran the Bleeders and Leakers program: willingness-to-pay and competitive-gap data ranked against a hard revenue target, by region and product line.</div>
+      <div class="line">I tested and refined the underlying pricing logic itself, which is why the <b>53 percent to 61 percent</b> distributor gain held past the first quarter instead of drifting back.</div>
+      <div class="line">I am now building <b>PriceKeel</b>, a subscription and consumption deal-pricing product, so I have run the elasticity exercise on both a hardware BU and a SaaS pricing model.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">Support pricing and monetization strategy, analyze buyer behavior and willingness to pay, build scalable pricing tools, monitor discount KPIs. That is the same loop I ran at Sensata, just applied to a smaller portfolio than Cisco's.</div>
+  </div>
+  <div class="brand">CISCO PRICING STRATEGY MV</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What the Pricing Strategy and Monetization team asks for, and where the proof sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Analyze buyer behavior, price elasticity, and willingness to pay."</div></div>
+      <div class="quote"><div class="q">"Help build scalable pricing tools" and "monitor pricing/discount KPIs."</div></div>
+      <div class="quote"><div class="q">Preferred: subscription, consumption and licensing models; AI/ML-driven pricing; global pricing exposure.</div></div>
+    </div>
+    <div class="col">
+      <h3>My Proof</h3>
+      <div class="proof"><div class="p"><b>Bleeders and Leakers program at Sensata:</b> built the Power BI tool, ranked 1,200 opportunities against a $627M target, then closed $700K+ of it on elasticity and WTP data in 2 quarters.</div></div>
+      <div class="proof"><div class="p"><b>Scalable pricing tool, built once and reused:</b> a BU-wide price-increase model flagging where a change lifts profitability more than 50 percent, run across 3 regions and 20 product lines.</div></div>
+      <div class="proof"><div class="p"><b>Subscription and licensing analog:</b> PriceKeel's CRM/CPQ and deal-approval workflow is the consumption-pricing muscle a hardware-only background would not otherwise have.</div></div>
+      <div class="proof"><div class="p"><b>AI/ML-driven pricing, already in motion:</b> automate recurring pricing analysis with AI agents built on Claude at Applied Materials today.</div></div>
+    </div>
+  </div>
+  <div class="brand">CISCO PRICING STRATEGY MV</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The Sensata proof, in depth</div>
+  <h2>Bleeders and Leakers: <span class="accent">elasticity data in, defensible pricing logic out.</span></h2>
+  <div class="lede">A BU-wide Power BI system covering 1,200 pricing opportunities against a $627M target across 3 regions, 4 product families and 20 product lines, with pipeline funnel, win rate and discount KPIs reported to leadership weekly.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$433M</div>
+      <div class="lbl">Margin Gaps Surfaced</div>
+      <div class="desc">Every opportunity ranked by the willingness-to-pay and competitive-gap signal behind it, not by anecdote, so leadership could prioritize by salesperson and product line.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$700K+</div>
+      <div class="lbl">Margin Recovered in 2 Quarters</div>
+      <div class="desc">Closed through negotiations built on documented elasticity and willingness-to-pay data, not an across-the-board price increase.</div>
+    </div>
+    <div class="stat">
+      <div class="n">53% to 61%</div>
+      <div class="lbl">Distributor Margin Lift</div>
+      <div class="desc">Came from testing and refining the channel pricing logic itself, the same "test and refine pricing logic" ask in this posting.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">The same cycle also produced AP26 revenue models and multimillion-dollar customer quotes presented to senior executives, plus a global pricing mandate across multiple product lines and regions, the executive-presentation and global-pricing-exposure preferences this posting names directly.</div>
+  <div class="brand">CISCO PRICING STRATEGY MV</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month on this pricing desk looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Read the elasticity signal</div>
+      <div class="body">Pull the last pricing review's discount KPIs and competitive data by product line and licensing model. Sit with the pricing and finance teams to find where willingness-to-pay data is thin or contradicts the current discount guardrails.</div>
+      <div class="why"><strong>Why first:</strong> the same move that opened the Bleeders and Leakers program: find where the data is quiet before proposing a fix.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Build and test the pricing tool</div>
+      <div class="body">Build or extend a scalable pricing model that ranks opportunities against the elasticity and competitive data, then test one pricing-logic change against a single product line before scaling it.</div>
+      <div class="why"><strong>Why now:</strong> ranking against a hard signal, then testing before scaling, is what made the 53% to 61% distributor gain hold.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Ship the KPI view</div>
+      <div class="body">Turn the test into a discount KPI view the team monitors on a recurring cadence, with the elasticity and willingness-to-pay logic documented well enough to survive the next annual pricing review.</div>
+      <div class="why"><strong>Why this fast:</strong> a pricing tool only earns its name if it gets monitored after the first win, not just built once.</div>
+    </div>
+  </div>
+  <div class="brand">CISCO PRICING STRATEGY MV</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to read elasticity and willingness to pay, then make pricing logic that holds. I have already run that loop, at meaningful scale.</h2>
+  <div class="body">
+    <p>The core proof is Sensata: <strong>$700K+ in margin recovered in 2 quarters</strong> on elasticity and willingness-to-pay data, distributor margins lifted <strong>from 53% to 61%</strong> through repriced logic, and <strong>+12% YoY revenue with +8% market share</strong> from a global price realignment against 10+ competitors.</p>
+    <p>What is harder to find is someone who has run that same exercise on a subscription and consumption pricing model, not just hardware. <strong>PriceKeel is that second data point</strong>, and the AI/ML-driven pricing habit (Claude agents at Applied Materials) is already part of how I work, not something to pick up on the job.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-pricing-ai.vercel.app/ref/cisco</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">CISCO PRICING STRATEGY MV</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
