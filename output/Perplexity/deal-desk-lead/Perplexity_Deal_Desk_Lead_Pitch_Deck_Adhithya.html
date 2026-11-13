@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Perplexity Deal Desk Lead Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #0a6cff; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 30pt; font-weight: 800; color: #0f172a; line-height: 1.1; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 21pt; font-weight: 800; color: #0f172a; line-height: 1.1; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #0a6cff; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.5in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d9e8ff 100%); }
+  .cover h1 { font-size: 27pt; max-width: 11.2in; }
+  .cover .sub { font-size: 13.5pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 16pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #0a6cff; font-weight: 700; }
+  .cover .who { margin-top: 16pt; padding-top: 11pt; border-top: 1.5pt solid #0a6cff; max-width: 9.5in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #0a6cff; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #eaf2ff; border-left: 3pt solid #0a6cff; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #0b4fb8; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #0a6cff; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #eaf2ff; border-left: 4pt solid #0a6cff; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #0b4fb8; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0a6cff; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 22pt; font-weight: 800; color: #0a6cff; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0a6cff; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #0a6cff; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #0a6cff; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d9e8ff 100%); }
+  .close h2 { font-size: 25pt; max-width: 10.6in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.6in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #0a6cff; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Perplexity Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Perplexity Deal Desk Lead</div>
+  <h1>Every nonstandard quote at a fast-growing AI company needs one person who can structure the deal, defend the number, and keep pace with how fast the field moves. I have already built that exact system, twice.</h1>
+  <div class="sub">Deal-desk tooling, margin recovery and quote-to-order ownership from someone who builds this exact product on the side.</div>
+  <div class="tags">
+    <div class="tag"><strong>$700K+</strong> margin recovered in 2 quarters, Sensata Bleeders and Leakers program</div>
+    <div class="tag"><strong>53% to 61%</strong> distributor margin lift via repricing logic that stuck</div>
+    <div class="tag"><strong>PriceKeel</strong> - founder of a discount-guardrail engine and Finance audit trail</div>
+    <div class="tag"><strong>AP26 revenue models</strong> and multimillion-dollar customer quotes closed with senior executives</div>
+    <div class="tag"><strong>AI agents built on Claude</strong> automating recurring deal and margin review</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-pricing-ai.vercel.app/ref/perplexity</div>
+  </div>
+  <div class="brand">PERPLEXITY DEAL DESK</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>The problem is not that Perplexity lacks a pricing policy. It is that <span class="accent">a Deal Desk function built from zero has to keep pace with how fast an AI-native company closes deals, without becoming the thing Sales routes around.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What building a Deal Desk from zero actually requires</h4>
+      <div class="line">An approval framework and quote-to-order workflow that Sales, Finance and Legal all trust enough to move fast on, not a policy document nobody opens before a live call.</div>
+      <div class="line">A way to model each deal's economics, discounts, commitments and payment terms, that an account executive can get a workable alternative from in minutes, not a flat yes or no after escalation.</div>
+      <div class="line">Business requirements and acceptance criteria for the quote-to-order system itself, with someone willing to run business acceptance testing and sign off, not just configure a tool someone else specced.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run</h4>
+      <div class="line">At <b>PriceKeel</b>, I built the discount-guardrail engine and Finance audit trail from zero, the exact approval-framework-plus-audit-trail this seat stands up for Perplexity.</div>
+      <div class="line">At <b>Sensata</b>, I recovered $700K+ in margin in 2 quarters negotiating nonstandard terms deal by deal, and closed AP26 revenue models and multimillion-dollar customer quotes directly with senior executives.</div>
+      <div class="line">I own my own <b>CRM, CPQ, forecast and pipeline reviews</b> and quote-to-order requirements at PriceKeel instead of inheriting someone else's stack, the same build-from-zero mandate this role carries.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">The through-line: every Deal Desk system I have touched started with a nonstandard request that needed a fast, defensible call, and ended with a rule Legal, Finance and Sales could all act on without waiting on me.</div>
+  </div>
+  <div class="brand">PERPLEXITY DEAL DESK</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The mandate, mapped</div>
+  <h2>What the posting asks for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Own Deal Desk end to end and build the team as we grow... bring Sales, Finance, and Legal together to resolve issues quickly."</div></div>
+      <div class="quote"><div class="q">"Structure deals and balance trade-offs... offering practical alternatives rather than a simple yes or no."</div></div>
+      <div class="quote"><div class="q">"Own quote-to-order requirements and delivery... owning business acceptance testing and sign-off."</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>Build the function, bring Sales/Finance/Legal together:</b> built PriceKeel's guardrail engine and quote-to-order logic from zero, selling that exact tooling to RevOps, Sales leadership and Finance.</div></div>
+      <div class="proof"><div class="p"><b>Structure deals and balance trade-offs:</b> recovered $700K+ in margin in 2 quarters at Sensata by deciding, deal by deal, where to hold firm and where to bend against competitive gaps and customer willingness to pay.</div></div>
+      <div class="proof"><div class="p"><b>Own quote-to-order requirements and acceptance:</b> defines the business requirements and acceptance criteria behind PriceKeel's own CRM, CPQ and deal-approval workflow, holding its systems accountable for delivery.</div></div>
+      <div class="proof"><div class="p"><b>Build and hire the team:</b> hired and managed an 8-person team at Pixis and closed AP26 revenue models and multimillion-dollar customer quotes with senior Sensata executives.</div></div>
+    </div>
+  </div>
+  <div class="brand">PERPLEXITY DEAL DESK</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The Sensata proof, in depth</div>
+  <h2>Bleeders and Leakers: <span class="accent">find the margin leak, close it, make it hold.</span></h2>
+  <div class="lede">Built as a BU-wide Power BI system covering 1,200 pricing opportunities against a $627M target across 3 regions, 4 product families and 20 product lines, with pipeline funnel, win rate and stage distribution by product line, so leadership could prioritize instead of chasing anecdotes.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$433M</div>
+      <div class="lbl">Margin Shortfall Surfaced</div>
+      <div class="desc">Ranked every pricing opportunity by competitive gap and customer willingness to pay, the same triage an approval framework needs to decide which deals escalate.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$700K+</div>
+      <div class="lbl">Margin Recovered in 2 Quarters</div>
+      <div class="desc">Closed through deal-by-deal negotiation on nonstandard terms, not an across-the-board policy change.</div>
+    </div>
+    <div class="stat">
+      <div class="n">53% to 61%</div>
+      <div class="lbl">Distributor Margin Lift</div>
+      <div class="desc">Repriced the channel logic itself, so the gain held past the first quarter instead of drifting back under renewal pressure.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">The same BU also ran AP26 revenue models and multimillion-dollar customer quotes alongside senior executives on its highest-value accounts. The common thread: every fix was deal-specific, and every fix was measured after it shipped, not left as a policy memo.</div>
+  <div class="brand">PERPLEXITY DEAL DESK</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month building Perplexity's Deal Desk from zero looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Map every nonstandard request from last quarter</div>
+      <div class="body">Pull every discount exception, custom term and escalation AEs requested last quarter, sit with Sales, Finance and Legal to find exactly where today's process creates friction before writing a single rule.</div>
+      <div class="why"><strong>Why first:</strong> the same move that started the Bleeders and Leakers program at Sensata, find the leak before naming the fix.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Ship the first approval framework and playbook</div>
+      <div class="body">Build the first approval framework and discount guardrail for the highest-volume deal type, pressure-test it live with an AE under quarter-end pressure, and ship it as a rule Legal and Finance can both act on without waiting on a person.</div>
+      <div class="why"><strong>Why now:</strong> the same deal-by-deal modeling discipline that made the 53% to 61% distributor gain stick instead of drift back.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Define acceptance criteria, automate the easy call</div>
+      <div class="body">Write the business requirements and acceptance criteria for the first quote-to-order fix, hold Systems accountable for shipping it, and let the CPQ enforce the rule on its own so only genuine exceptions reach a human.</div>
+      <div class="why"><strong>Why this fast:</strong> the same AI-agent habit that keeps my own recurring reporting moving at Applied Materials today, not a plan for someday.</div>
+    </div>
+  </div>
+  <div class="brand">PERPLEXITY DEAL DESK</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to build Perplexity's Deal Desk from zero and own deal velocity, terms discipline and approval frameworks while hiring the team behind it. I have already built that system twice, with a number on it each time.</h2>
+  <div class="body">
+    <p>The margin half: <strong>$700K+ recovered in 2 quarters</strong> and distributor margins lifted <strong>from 53% to 61%</strong> at Sensata, closed through deal-by-deal negotiation rather than a policy memo, plus AP26 revenue models and multimillion-dollar customer quotes closed with senior executives.</p>
+    <p>The build half: <strong>PriceKeel's guardrail engine and audit trail</strong>, built from zero so Finance and Legal can act on every call, owning my own CRM, CPQ and quote-to-order requirements end to end. At Applied Materials I automate my own recurring pricing analysis with AI agents built on Claude instead of rebuilding the same report every cycle.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-pricing-ai.vercel.app/ref/perplexity</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">PERPLEXITY DEAL DESK</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
