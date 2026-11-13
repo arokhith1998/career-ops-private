@@ -1,0 +1,16 @@
+Subject: Sales enablement for a product developers have to trust first
+
+Hi {Recruiter, Talent Acquisition},
+
+Real-time and conversational AI are APIs a developer has to trust before they integrate, which usually means positioning has to survive a technical cross-exam, not just read well on a page.
+
+I have done that cross-exam work directly: competitive benchmarking across 10+ players at Sensata fed the battlecards that armed 50+ reps and moved win rates 30%, and 30+ structured interviews with OEM and distributor engineers kept that positioning honest before it reached a customer. I also built the KPI framework (SQL, GA4) that told Product which adoption signals on 50K+ connected devices actually mattered, and I now run Claude AI agents at Applied Materials to keep that research current without the manual grind.
+
+Open to 15 minutes on where the RTC and Conversational AI narrative is hardest to land right now?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

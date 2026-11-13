@@ -1,0 +1,20 @@
+Subject: The battlecard gap in RTC and Conversational AI launches
+
+Hi {Hiring Manager, Product Marketing},
+
+Your posting asks for someone who turns a roadmap conversation into a customer outcome, not a press release. That is the step most PMM hires skip, and the one I keep getting asked to own.
+
+At Sensata I owned positioning and messaging for a new sensing product line into general availability, translating sensor specs into the value case that drove $2M+ in year-one revenue, and built the KPI framework in SQL and GA4 across 50K+ connected devices that told Product which adoption signals mattered. I ran 30+ interviews with OEM and distributor buyers to pressure-test that narrative before it reached a customer, and built the battlecards and case studies that lifted field win rates 30% across 50+ reps. At Applied Materials I now automate the research grind with Claude AI agents, freeing time for the harder judgment calls on positioning.
+
+Resume and cover letter are attached.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/agora
+
+Open to 15 minutes on where the RTC and Conversational AI story is hardest to tell right now?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
