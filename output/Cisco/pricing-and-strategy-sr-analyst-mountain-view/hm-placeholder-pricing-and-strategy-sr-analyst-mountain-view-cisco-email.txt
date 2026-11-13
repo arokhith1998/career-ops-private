@@ -1,0 +1,23 @@
+Subject: Your security portfolio's pricing problem is willingness-to-pay, not data
+
+Hi {Hiring Manager, Pricing Strategy and Monetization},
+
+I do not normally message a hiring manager before applying, but a security portfolio spanning hardware, software and consumption licensing is exactly the willingness-to-pay problem I already ran at scale, not one I would be learning on the job.
+
+Built a 6-slide pitch deck mapping that work directly to your team's brief.
+
+At Sensata I built the Bleeders and Leakers program, ranking 1,200 pricing opportunities against a $627M target across three regions and surfacing $433M in margin gaps.
+I closed $700K+ of that in two quarters and lifted distributor margins from 53% to 61% by rebuilding the pricing logic itself, not just the number on the invoice.
+That same realignment, benchmarked against 10+ competitors, drove +12% YoY revenue and +8% market share.
+PriceKeel, the deal-pricing product I am building now, is the subscription and consumption analog your licensing models need.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/cisco
+
+Worth 15 minutes on how the team is scoping this work?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
