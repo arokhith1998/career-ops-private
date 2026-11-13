@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Ceribell Sr. Manager of Commercial Strategy and Operations Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #0d5c8c; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 28pt; font-weight: 800; color: #0f172a; line-height: 1.12; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 21pt; font-weight: 800; color: #0f172a; line-height: 1.1; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #0d5c8c; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.5in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d6e8f3 100%); }
+  .cover h1 { font-size: 28pt; max-width: 11.4in; }
+  .cover .sub { font-size: 14pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 18pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #0d5c8c; font-weight: 700; }
+  .cover .who { margin-top: 18pt; padding-top: 11pt; border-top: 1.5pt solid #0d5c8c; max-width: 9.5in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #0d5c8c; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #e8f1f8; border-left: 3pt solid #0d5c8c; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #0d5c8c; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #0d5c8c; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #e8f1f8; border-left: 4pt solid #0d5c8c; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #0d5c8c; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0d5c8c; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 24pt; font-weight: 800; color: #0d5c8c; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0d5c8c; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #0d5c8c; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #0d5c8c; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d6e8f3 100%); }
+  .close h2 { font-size: 25pt; max-width: 10.5in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.8in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #0d5c8c; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Ceribell Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Ceribell Sr. Manager of Commercial Strategy and Operations</div>
+  <h1>A commercial strategy seat needs someone who already turns a forecast, territory or pipeline signal into a call leadership can act on. I have run that loop against a $627M book.</h1>
+  <div class="sub">Capacity and PO forecasting models, territory design, pipeline cadence reviews, and the dashboards and executive packages that align VPs, Regional Directors and Territory Managers.</div>
+  <div class="tags">
+    <div class="tag"><strong>$627M</strong> pipeline, 1,200 opportunities, $433M in margin gaps surfaced</div>
+    <div class="tag"><strong>$700K+</strong> recovered in 2 quarters through root-cause pricing fixes</div>
+    <div class="tag"><strong>53% to 61%</strong> distributor margin lift via territory-design repricing</div>
+    <div class="tag"><strong>AP26 revenue models</strong> built alongside senior executives</div>
+    <div class="tag"><strong>Claude AI agents</strong> automating recurring forecasting and analysis</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhithyabhaskar.vercel.app/ref/ceribell</div>
+  </div>
+  <div class="brand">CERIBELL SR. MANAGER, COMMERCIAL STRATEGY AND OPERATIONS</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>A commercial strategy seat does not lack candidates who can build a dashboard. It lacks <span class="accent">someone who has already run forecasting, territory and pipeline calls against a nine-figure book, and shipped the executive package behind each one.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What this seat runs into</h4>
+      <div class="line">A capacity or PO forecast has to turn into a recommendation before the quarter closes, not after, and it has to survive contact with VPs, Regional Directors and Territory Managers at once.</div>
+      <div class="line">Territory and coverage calls need a diagnostic framework behind them, not a one-off spreadsheet, or the next restructuring repeats the same root cause.</div>
+      <div class="line">Most candidates have built a dashboard. Fewer have owned the business outcome when the pricing or territory call behind it was wrong.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run, at comparable scale</h4>
+      <div class="line">At <b>Sensata</b>, I built a $627M-target pipeline dashboard and ran the root-cause and territory-repricing calls it surfaced, closing $700K+ in two quarters.</div>
+      <div class="line">At <b>Applied Materials</b> now, I build forecasting and market-sizing models across product groups and automate the recurring analysis with Claude AI agents.</div>
+      <div class="line">At <b>PriceKeel</b>, I run CRM, CPQ, forecast and pipeline reviews and deal approvals myself, the full operating stack this seat partners across.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">This req asks for capacity and PO forecasting, territory design and coverage strategy, pipeline cadence reviews, KPIs and dashboards, root-cause analysis, genAI-enabled automation, and executive review packages. That is the loop above, run against a real nine-figure book.</div>
+  </div>
+  <div class="brand">CERIBELL SR. MANAGER, COMMERCIAL STRATEGY AND OPERATIONS</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What the Commercial Strategy and Operations opening asks for, and where the proof sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Drive forecasting, territory design, and capacity models, while establishing operational KPIs, dashboards, and strategic performance metrics."</div></div>
+      <div class="quote"><div class="q">"Conduct root-cause analysis on quarterly performance; develop repeatable diagnostic frameworks; draft presentations for VP reviews."</div></div>
+      <div class="quote"><div class="q">"Hands-on experience using generative AI tools (e.g., Claude, ChatGPT, Copilot) and automation."</div></div>
+    </div>
+    <div class="col">
+      <h3>My Proof</h3>
+      <div class="proof"><div class="p"><b>Bleeders and Leakers at Sensata:</b> capacity, forecasting and KPI dashboard against a $627M target, with pipeline funnel, win rate and stage distribution for executive review.</div></div>
+      <div class="proof"><div class="p"><b>$700K+ recovered, 53% to 61% distributor margins:</b> root-cause analysis and territory-design repricing calls, not a one-off fix.</div></div>
+      <div class="proof"><div class="p"><b>AP26 revenue models and OKR/quarterly review cadence:</b> built and presented alongside senior executives, the VP-review and forecast-accuracy discipline this role runs on.</div></div>
+      <div class="proof"><div class="p"><b>Claude AI agents automating recurring analysis:</b> the generative-AI and automation line this posting names directly, running today at Applied Materials.</div></div>
+    </div>
+  </div>
+  <div class="brand">CERIBELL SR. MANAGER, COMMERCIAL STRATEGY AND OPERATIONS</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The Sensata proof, in depth</div>
+  <h2>Bleeders and Leakers: <span class="accent">capacity, forecasting and territory calls against a $627M book.</span></h2>
+  <div class="lede">Built as a Power BI system covering 1,200 pricing opportunities against a $627M target across 3 regions, 4 product families and 20 product lines, with pipeline funnel, win rate, avg $/win and stage distribution feeding the monthly executive review package.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$433M</div>
+      <div class="lbl">Margin Gaps Surfaced</div>
+      <div class="desc">Root-cause analysis ranked every risk into one view instead of chasing anecdotes region by region.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$700K+</div>
+      <div class="lbl">Recovered in 2 Quarters</div>
+      <div class="desc">Closed through diagnostic frameworks built from competitive gaps and documented willingness to pay.</div>
+    </div>
+    <div class="stat">
+      <div class="n">53% to 61%</div>
+      <div class="lbl">Distributor Margin Lift</div>
+      <div class="desc">A territory-design and coverage-strategy call, run through the distribution channel.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">The same seat carried AP26 revenue models and multimillion-dollar customer quotes alongside senior executives. The common thread: every case started from a forecast or territory signal and ended in a recommendation leadership could act on.</div>
+  <div class="brand">CERIBELL SR. MANAGER, COMMERCIAL STRATEGY AND OPERATIONS</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month on Ceribell's commercial strategy desk looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Map capacity and pipeline by territory</div>
+      <div class="body">Sit with VPs, Regional Directors and Territory Managers to build one view of capacity, forecast and pipeline health by territory, the same first move that built the Bleeders and Leakers dashboard at Sensata.</div>
+      <div class="why"><strong>Why first:</strong> a forecasting or territory call is only as good as the capacity-and-pipeline view it is built on.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Run the first root-cause pass</div>
+      <div class="body">Pressure-test 2 to 3 live performance or coverage gaps with Sales and Operations, and draft the diagnostic framework and business case for the first recommended call.</div>
+      <div class="why"><strong>Why now:</strong> building the recommendation against a real signal, not in a vacuum, is what made the 53% to 61% distributor gain hold at Sensata.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Ship the first executive review package</div>
+      <div class="body">Identify one genAI-enabled workflow to automate in the forecasting or KPI-reporting cycle, and present the first VP-review package that aligns Sales, Finance and Operations.</div>
+      <div class="why"><strong>Why this fast:</strong> the same habit that keeps Claude agents running recurring forecasting analysis at Applied Materials today.</div>
+    </div>
+  </div>
+  <div class="brand">CERIBELL SR. MANAGER, COMMERCIAL STRATEGY AND OPERATIONS</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to turn capacity, territory and pipeline signals into calls your commercial leadership can act on. I have been running that loop against a nine-figure book for a year.</h2>
+  <div class="body">
+    <p>The core proof is Sensata: <strong>$700K+ recovered in 2 quarters</strong> and a <strong>53% to 61% distributor margin lift</strong>, both run through a $627M-target Power BI pipeline I built myself.</p>
+    <p>What is harder to find is someone running that same discipline right now: at <strong>Applied Materials</strong>, I build forecasting models and automate recurring analysis with Claude AI agents, and at <strong>PriceKeel</strong> I run the full CRM, CPQ, forecast and deal-approval stack I sell into RevOps, Sales and Finance without anyone assigning me the work.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhithyabhaskar.vercel.app/ref/ceribell</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">CERIBELL SR. MANAGER, COMMERCIAL STRATEGY AND OPERATIONS</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
