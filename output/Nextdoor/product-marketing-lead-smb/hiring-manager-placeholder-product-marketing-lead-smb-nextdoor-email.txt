@@ -1,0 +1,22 @@
+Subject: Zero-to-one requirements for a buyer who hasn't trusted the algorithm yet
+
+Hi {Hiring Manager, SMB Product Marketing},
+
+Your posting asks for the voice of the small business owner inside 0-to-1 product requirements, not a marketer translating specs after the fact. That ordering is the hard part: my 30+ customer interviews at Sensata changed the backlog I co-owned with Engineering before launch, and that same ownership closed $2M+ in first-year revenue.
+
+I've grown adoption without paid spend too. At Plug Power I automated the WordPress-to-Pardot lead flow, cutting cost per lead 50% while organic visibility rose 35%. At Pixis I managed 8 small-business accounts at $15K-$90K a month and cut churn 50% once plans matched how each owner's business actually made money, the same read on motivation your posting asks for.
+
+AI is a daily collaborator for me: I run Claude agents at Applied Materials for market sizing and forecasting, and I'm building PriceKeel, my own pricing company, on that instinct.
+
+Resume and cover letter are attached.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/nextdoor
+
+Could we find 15 minutes to talk through where the SMB funnel is leaking most? Happy to be pointed elsewhere if this sits with a different team.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
