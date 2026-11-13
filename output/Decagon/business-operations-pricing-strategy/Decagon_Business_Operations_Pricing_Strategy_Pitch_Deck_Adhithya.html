@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Decagon Business Operations, Pricing Strategy Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #0f766e; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 24pt; font-weight: 800; color: #0f172a; line-height: 1.16; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 20pt; font-weight: 800; color: #0f172a; line-height: 1.12; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #0f766e; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.8in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d5efec 100%); }
+  .cover h1 { font-size: 23pt; max-width: 11.4in; }
+  .cover .sub { font-size: 13pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 15pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9pt; font-weight: 500; }
+  .tag strong { color: #0f766e; font-weight: 700; }
+  .cover .who { margin-top: 15pt; padding-top: 10pt; border-top: 1.5pt solid #0f766e; max-width: 9.5in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #0f766e; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #e6f5f3; border-left: 3pt solid #0f766e; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.3pt; color: #0a5a53; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.2pt; color: #334155; line-height: 1.44; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #0f766e; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #e6f5f3; border-left: 4pt solid #0f766e; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #0a5a53; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0f766e; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 23pt; font-weight: 800; color: #0f766e; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0f766e; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #0f766e; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #0f766e; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d5efec 100%); }
+  .close h2 { font-size: 23pt; max-width: 10.8in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.9in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #0f766e; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Decagon Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Decagon Business Operations, Pricing Strategy</div>
+  <h1>One seat in your Founder's Office owns pricing and packaging strategy, end-to-end deal strategy, and the internal commercial process that has to hold up as Decagon scales. I have already built and run that exact loop, for a company I founded.</h1>
+  <div class="sub">Pricing and packaging strategy, deal strategy from proposal to close, and commercial-process building from someone who has run all three for his own deal platform, not just one of them for someone else's.</div>
+  <div class="tags">
+    <div class="tag"><strong>$700K+</strong> margin recovered in 2 quarters leading Sensata's Bleeders &amp; Leakers program</div>
+    <div class="tag"><strong>53% to 61%</strong> distributor margin lift from repriced discount logic</div>
+    <div class="tag"><strong>CRM + CPQ + deal approvals</strong> set up and run end to end, founder of PriceKeel</div>
+    <div class="tag"><strong>$627M target, 1,200 deals</strong> tracked across 3 regions, 4 product families, 20 lines</div>
+    <div class="tag"><strong>Claude AI agents</strong> automating recurring pricing analysis at Applied Materials</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-pricing-ai.vercel.app/ref/decagon</div>
+  </div>
+  <div class="brand">DECAGON PRICING PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>Pricing a fast-growing agentic AI platform is really three jobs held by one Founder's Office generalist, <span class="accent">not three separate hires.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What losing that connection runs into</h4>
+      <div class="line">Pricing and packaging strategy that is not tied to the deal desk becomes a rate card nobody trusts by the second renewal.</div>
+      <div class="line">Deal strategy that is not tied to an internal process becomes a proposal AEs write from memory instead of a system Finance can stand behind.</div>
+      <div class="line">The fix is not another pricing memo. It is one generalist who treats packaging, deal strategy and the internal process as a single connected loop.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run</h4>
+      <div class="line">At <b>PriceKeel</b>, I built the pricing and packaging strategy, the deal-approvals process, and the CRM/CPQ system it all runs on, myself, end to end.</div>
+      <div class="line">At <b>Sensata</b>, I led global pricing strategy for a multi-$100M BU and built the Bleeders and Leakers program that turned deal-by-deal negotiation into a repeatable internal process.</div>
+      <div class="line">Both mean I have sat on the strategy side and the process-building side of the same loop, not just one or the other.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">A Business Operations seat that develops pricing and packaging strategy, owns end-to-end deal strategy, and builds internal commercial processes to match growth is describing this exact loop, run once already at two different scales.</div>
+  </div>
+  <div class="brand">DECAGON PRICING PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What the Founder's Office pricing and commercial-strategy seat asks for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">Work to develop and refine Decagon's pricing and packaging strategy.</div></div>
+      <div class="quote"><div class="q">Own end-to-end deal strategy for enterprise opportunities, partnering directly with account executives and sales leaders to build proposals and drive deals to close.</div></div>
+      <div class="quote"><div class="q">Build and scale internal pricing and commercial processes to match Decagon's growth.</div></div>
+      <div class="quote"><div class="q">Be a thought leader in how to price agentic AI solutions.</div></div>
+    </div>
+    <div class="col">
+      <h3>My Proof</h3>
+      <div class="proof"><div class="p"><b>Pricing and packaging strategy:</b> designed PriceKeel's guardrail engine and packaging from zero; built the Bleeders and Leakers program at Sensata into a repeatable pricing process from scratch.</div></div>
+      <div class="proof"><div class="p"><b>End-to-end deal strategy:</b> negotiated multimillion-dollar customer proposals that closed deals and partnered with senior executives on AP26 revenue models at Sensata; run PriceKeel's own deal-approvals process today.</div></div>
+      <div class="proof"><div class="p"><b>Internal commercial processes at scale:</b> set up and run PriceKeel's CRM, CPQ, forecast and pipeline reviews alone; built the BU-wide Power BI price-increase model at Sensata.</div></div>
+      <div class="proof"><div class="p"><b>Pricing agentic AI:</b> PriceKeel is itself an AI-native pricing-decision product, and I automate recurring pricing analysis with AI agents built on Claude at Applied Materials.</div></div>
+    </div>
+  </div>
+  <div class="brand">DECAGON PRICING PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>Bleeders and Leakers: <span class="accent">turn deal-by-deal negotiation into a process that scales past one person.</span></h2>
+  <div class="lede">Built as a BU-wide Power BI system covering 1,200 pricing opportunities against a $627M target across 3 regions, 4 product families and 20 product lines, with profitability by segment checked before leadership set the next quarter's targets.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$700K+</div>
+      <div class="lbl">Margin Recovered, 2 Quarters</div>
+      <div class="desc">Deal-strategy negotiation built on competitive gaps and each customer's own willingness to pay, not a rate-card markdown.</div>
+    </div>
+    <div class="stat">
+      <div class="n">53% to 61%</div>
+      <div class="lbl">Distributor Margin Lift</div>
+      <div class="desc">Repriced the channel logic and documented it as an internal process, so the new discount limits held past the first quarter.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$433M</div>
+      <div class="lbl">Margin Gaps Surfaced</div>
+      <div class="desc">Every gap traced to a specific deal by salesperson and product line, the same segment-level detail an enterprise GTM org needs.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">At PriceKeel that same instinct became the operating model: I build the pricing and packaging strategy, run the deal-approvals process, and own the CRM and CPQ configuration myself, so the strategy and the process are never two separate jobs.</div>
+  <div class="brand">DECAGON PRICING PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month inside Decagon's Founder's Office could look like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Learn the current GTM motion and pricing logic</div>
+      <div class="body">Sit with the GTM team and the rest of the Founder's Office to map the current pricing and packaging structure, the deal-approval path, and where proposals stall on the way to close.</div>
+      <div class="why"><strong>Why first:</strong> the same instinct that had me map PriceKeel's own deal-approvals process before building the guardrail engine on top of it.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Own one enterprise deal strategy end to end</div>
+      <div class="body">Take one live enterprise opportunity from proposal to close, partnering directly with the account executive, and document the pricing and packaging logic behind the proposal as a reusable process.</div>
+      <div class="why"><strong>Why now:</strong> the same deal-by-deal discipline that made the Bleeders and Leakers program repeatable instead of a one-off win.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Scale one commercial process to match growth</div>
+      <div class="body">Turn that first deal's pricing logic into a documented internal process the next account executive can run without relearning it, and flag one agentic-AI pricing question worth a Founder's Office review.</div>
+      <div class="why"><strong>Why this fast:</strong> a commercial process only earns its keep once it survives being run by someone other than the person who built it.</div>
+    </div>
+  </div>
+  <div class="brand">DECAGON PRICING PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to own pricing and packaging strategy, deal strategy, and the commercial process behind both. I have already built that loop, for a company I run myself.</h2>
+  <div class="body">
+    <p>The core proof is Sensata: a Power BI system tracking <strong>1,200 pricing opportunities against a $627M target</strong>, distributor margins lifted <strong>from 53% to 61%</strong>, and $700K+ in margin recovered in 2 quarters through deal-by-deal negotiation turned into a repeatable process.</p>
+    <p>What is harder to find is someone who has also spent the last several months owning the pricing strategy, deal-approvals process and CRM/CPQ system for his own company's deal flow. <strong>I built that at PriceKeel</strong>, so the strategy-to-process loop this role runs is not something I would need to learn on the job.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-pricing-ai.vercel.app/ref/decagon</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">DECAGON PRICING PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
