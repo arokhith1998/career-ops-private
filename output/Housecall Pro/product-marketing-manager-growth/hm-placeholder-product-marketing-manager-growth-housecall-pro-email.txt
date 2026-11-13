@@ -1,0 +1,21 @@
+Subject: Feature triage and onboarding experiments are one skill, not two
+
+Hi {Hiring Manager, Housecall Pro Growth},
+
+I do not normally reach out before applying, but this role bundles two things I already run together: deciding how and when a new feature ships, and testing the onboarding and paywall flow it ships into.
+
+At Sensata I owned a 100+ feature product roadmap with Engineering, the same how-and-when-it-ships call this seat makes for every platform update.
+At Sensata I also ran 30+ interviews with new customers and ones showing early churn signals, which raised CSAT 22% by fixing the friction they actually named.
+At SwipeHire I built the onboarding flow itself, then ran 8+ A/B tests and 12+ interviews against it, moving activation 25% for the first 50+ users.
+At Applied Materials I run Claude agents to automate the cohort and funnel analysis this kind of work depends on day to day.
+
+Here's the portfolio: https://adhi-growth-ai.vercel.app/ref/housecall-pro
+
+Worth 15 minutes to see if the fit is real? Happy to be pointed elsewhere if this is not your req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

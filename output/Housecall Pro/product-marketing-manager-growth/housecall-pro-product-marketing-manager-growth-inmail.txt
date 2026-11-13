@@ -1,0 +1,16 @@
+Subject: One seat owning trial, onboarding and activation end to end
+
+Hi {Recruiter or Hiring Manager, Housecall Pro Growth},
+
+Your posting asks for someone who owns go-to-market for free trial, onboarding and activation together, not three separate owners handing a Pro off along the way. I built that exact loop at SwipeHire: owned the onboarding flow for a zero-to-one product, then ran 8+ A/B tests and 12+ user interviews against it, moving activation 25% for the first 50+ users. At Sensata I built the KPI frameworks in SQL and GA4 behind that kind of funnel work across 50K+ connected devices, lifting feature adoption 18%, and ran the new-customer and early-churn interview loop the posting names directly, raising CSAT 22%.
+
+Here's the portfolio: https://adhi-growth-ai.vercel.app/ref/housecall-pro
+
+Worth 15 minutes to see if the role is still open?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
