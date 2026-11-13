@@ -1,0 +1,21 @@
+Subject: The AI-checkpoint line in Envoy's Deal Desk req
+
+Hi {Recruiter, Talent},
+
+I don't normally reach out before applying, but your posting asks the Deal Desk Manager to evaluate AI tools for quote completeness and contract discrepancies, and that is already my daily workflow, not something to ramp into.
+
+A few points that map straight to the req:
+- At Sensata I ran the Bleeders and Leakers program: 1,200 pricing decisions against a $627M target, recovering $700K+ in margin and raising distributor margins from 53% to 61% by restructuring non-standard terms.
+- I'm founder of PriceKeel, running CRM, CPQ, deal approvals and pipeline reviews myself for a B2B SaaS pricing product, the same quote-to-cash loop this seat owns.
+- At Applied Materials I built the Claude AI agents now flagging similar quote and contract issues.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/envoy
+
+Worth 15 minutes if this is your req, no worries if someone else owns it.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

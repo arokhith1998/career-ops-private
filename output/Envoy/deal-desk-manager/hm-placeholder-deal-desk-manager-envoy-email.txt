@@ -1,0 +1,21 @@
+Subject: Connecting deal mechanics to the bigger quote-to-cash picture
+
+Hi {Hiring Manager, Deal Desk},
+
+I don't normally reach out before applying, but "connect individual transactions to broader business needs and independently lead improvements from planning through rollout" describes work I already run, not a stretch for me.
+
+A few points that map straight to the req:
+- At Sensata I led the Bleeders and Leakers program end to end: 1,200 pricing opportunities ranked against a $627M target, recovering $700K+ in margin and lifting distributor margins from 53% to 61% through non-standard-term restructuring.
+- I'm also founder of PriceKeel, running CRM, CPQ, deal approvals and pipeline reviews myself for a B2B SaaS pricing product, so quote-to-cash isn't theoretical for me.
+- The Claude AI agents I built at Applied Materials catch the same kind of quote-completeness and contract-discrepancy issues your posting wants evaluated and automated.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/envoy
+
+Worth 15 minutes on where the quote-to-cash friction shows up most right now, no worries if the timing is off.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
