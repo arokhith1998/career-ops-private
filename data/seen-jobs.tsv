@@ -1,5 +1,5 @@
 job_key	company	title	url	stage	verdict	first_seen	last_seen	times_seen	note
-zapply.jobs/l/d/ashby-baseten-0a6f7d46-a0c3-4020-a697-e1bf1a8aeafa	Baseten	Product Manager, Training Platform	https://zapply.jobs/l/d/ashby-baseten-0a6f7d46-a0c3-4020-a697-e1bf1a8aeafa?s=gh-new-grad-jobs-2027	jd_extracted		2026-11-12	2026-11-13	6	
+zapply.jobs/l/d/ashby-baseten-0a6f7d46-a0c3-4020-a697-e1bf1a8aeafa	Baseten	Product Manager, Training Platform	https://zapply.jobs/l/d/ashby-baseten-0a6f7d46-a0c3-4020-a697-e1bf1a8aeafa?s=gh-new-grad-jobs-2027	dropped	DROP:below-3.0	2026-11-12	2026-11-13	7	
 linkedin.com/jobs/view/4469794887	Virtuous	Product Marketing Manager- Intelligence	https://www.linkedin.com/jobs/view/4469794887	queued		2026-11-03	2026-11-13	18	jd extracted 2026-11-10 nightly run, agent2
 linkedin.com/jobs/view/4484392151	Applied Materials	Product Marketing Manager	https://www.linkedin.com/jobs/view/4484392151	queued		2026-11-03	2026-11-13	15	
 linkedin.com/jobs/view/4472158551	Veeva Systems	Senior Product Manager - Vault QMS	https://www.linkedin.com/jobs/view/4472158551	shortlisted		2026-10-22	2026-11-13	2	
@@ -8,26 +8,26 @@ linkedin.com/jobs/view/4471980184	NVIDIA	Senior Product Marketing Manager, DSX O
 linkedin.com/jobs/view/4455526077	Obsidian Security	Sr Product Marketing Manager - Tech Alliances	https://www.linkedin.com/jobs/view/4455526077	shortlisted		2026-10-01	2026-11-13	2	
 linkedin.com/jobs/view/4473988838	Uber	Sr Product Manager - Maps ML	https://www.linkedin.com/jobs/view/4473988838	shortlisted		2026-10-01	2026-11-13	2	
 linkedin.com/jobs/view/4471963419	Agiloft	Manager, Product and Packaging	https://www.linkedin.com/jobs/view/4471963419	shortlisted		2026-09-30	2026-11-13	2	
-zapply.jobs/l/d/greenhouse-reddit-8367400	Reddit	Product Manager, AI Foundations	https://zapply.jobs/l/d/greenhouse-reddit-8367400?s=gh-new-grad-jobs-2027	jd_extracted		2026-11-13	2026-11-13	3	
-linkedin.com/jobs/view/4488907050	Chime	Sr. Product Marketing Manager, Lending	https://www.linkedin.com/jobs/view/4488907050	jd_extracted		2026-11-13	2026-11-13	3	
-zapply.jobs/l/d/greenhouse-reddit-8148055	Reddit	Product Manager, Ecosystem Relevance	https://zapply.jobs/l/d/greenhouse-reddit-8148055?s=gh-new-grad-jobs-2027	jd_extracted		2026-11-13	2026-11-13	3	
-linkedin.com/jobs/view/4481163073	Abnormal AI	Product Marketing Manager	https://www.linkedin.com/jobs/view/4481163073	jd_extracted		2026-11-13	2026-11-13	3	
-linkedin.com/jobs/view/4489286984	Envoy	Deal Desk Manager	https://www.linkedin.com/jobs/view/4489286984	jd_extracted		2026-11-13	2026-11-13	3	
-linkedin.com/jobs/view/4490546147	Benchling	Product Manager, Growth, Scientific AI Models	https://www.linkedin.com/jobs/view/4490546147	jd_extracted		2026-11-13	2026-11-13	3	
-linkedin.com/jobs/view/4454413436	Together AI	Senior Product Manager, Inference	https://www.linkedin.com/jobs/view/4454413436	jd_extracted		2026-11-13	2026-11-13	3	
-mongodb.com/careers/job?gh_jid=8367103	MongoDB	Startup Lifecycle Marketing Lead	https://www.mongodb.com/careers/job/?gh_jid=8367103	jd_extracted		2026-11-13	2026-11-13	3	
-linkedin.com/jobs/view/4489538369	Ceribell │ AI-Powered Point-of-Care EEG	Sr. Manager of Commercial Strategy and Operations	https://www.linkedin.com/jobs/view/4489538369	jd_extracted		2026-11-13	2026-11-13	3	
+zapply.jobs/l/d/greenhouse-reddit-8367400	Reddit	Product Manager, AI Foundations	https://zapply.jobs/l/d/greenhouse-reddit-8367400?s=gh-new-grad-jobs-2027	dropped	DROP:below-3.0	2026-11-13	2026-11-13	4	
+linkedin.com/jobs/view/4488907050	Chime	Sr. Product Marketing Manager, Lending	https://www.linkedin.com/jobs/view/4488907050	queued		2026-11-13	2026-11-13	4	
+zapply.jobs/l/d/greenhouse-reddit-8148055	Reddit	Product Manager, Ecosystem Relevance	https://zapply.jobs/l/d/greenhouse-reddit-8148055?s=gh-new-grad-jobs-2027	dropped	DROP:below-3.0	2026-11-13	2026-11-13	4	
+linkedin.com/jobs/view/4481163073	Abnormal AI	Product Marketing Manager	https://www.linkedin.com/jobs/view/4481163073	queued		2026-11-13	2026-11-13	4	
+linkedin.com/jobs/view/4489286984	Envoy	Deal Desk Manager	https://www.linkedin.com/jobs/view/4489286984	queued		2026-11-13	2026-11-13	4	
+linkedin.com/jobs/view/4490546147	Benchling	Product Manager, Growth, Scientific AI Models	https://www.linkedin.com/jobs/view/4490546147	dropped	DROP:below-3.0	2026-11-13	2026-11-13	4	
+linkedin.com/jobs/view/4454413436	Together AI	Senior Product Manager, Inference	https://www.linkedin.com/jobs/view/4454413436	dropped	DROP:below-3.0	2026-11-13	2026-11-13	4	
+mongodb.com/careers/job?gh_jid=8367103	MongoDB	Startup Lifecycle Marketing Lead	https://www.mongodb.com/careers/job/?gh_jid=8367103	dropped	DROP:below-3.0	2026-11-13	2026-11-13	4	
+linkedin.com/jobs/view/4489538369	Ceribell │ AI-Powered Point-of-Care EEG	Sr. Manager of Commercial Strategy and Operations	https://www.linkedin.com/jobs/view/4489538369	queued		2026-11-13	2026-11-13	4	
 linkedin.com/jobs/view/4490352522	LatentView Analytics	Senior Market Researcher, AI & Research Ecosystem	https://www.linkedin.com/jobs/view/4490352522	jd_extracted		2026-11-13	2026-11-13	3	
-linkedin.com/jobs/view/4490530980	Housecall Pro	Product Marketing Manager (Growth)	https://www.linkedin.com/jobs/view/4490530980	jd_extracted		2026-11-13	2026-11-13	3	
+linkedin.com/jobs/view/4490530980	Housecall Pro	Product Marketing Manager (Growth)	https://www.linkedin.com/jobs/view/4490530980	queued		2026-11-13	2026-11-13	4	
 linkedin.com/jobs/view/4490399602	Amazon Web Services (AWS)	Sr. Field Sales Ops Lead, US Industries, Sales Operations & Strategy, AWS	https://www.linkedin.com/jobs/view/4490399602	dropped	DROP:over-cap	2026-11-13	2026-11-13	4	
 linkedin.com/jobs/view/4489538437	Jobgether	Revenue Operations manager	https://www.linkedin.com/jobs/view/4489538437	dropped	SKIP:visa-wall-or-no-build	2026-11-13	2026-11-13	4	
-linkedin.com/jobs/view/4490504366	Amazon Web Services (AWS)	Senior Product Manager - Technical, Amazon Kinesis Data Streams	https://www.linkedin.com/jobs/view/4490504366	jd_extracted		2026-11-13	2026-11-13	3	
-jobs.ashbyhq.com/perplexity/e916f0c8-5a31-4bb6-b4e3-7c4a64b95fda	Perplexity	Growth GTM Engineer, Revenue Operations	https://jobs.ashbyhq.com/Perplexity/e916f0c8-5a31-4bb6-b4e3-7c4a64b95fda	jd_extracted		2026-11-13	2026-11-13	3	
+linkedin.com/jobs/view/4490504366	Amazon Web Services (AWS)	Senior Product Manager - Technical, Amazon Kinesis Data Streams	https://www.linkedin.com/jobs/view/4490504366	dropped	DROP:below-3.0	2026-11-13	2026-11-13	4	
+jobs.ashbyhq.com/perplexity/e916f0c8-5a31-4bb6-b4e3-7c4a64b95fda	Perplexity	Growth GTM Engineer, Revenue Operations	https://jobs.ashbyhq.com/Perplexity/e916f0c8-5a31-4bb6-b4e3-7c4a64b95fda	dropped	DROP:below-3.0	2026-11-13	2026-11-13	4	
 job-boards.greenhouse.io/lithic/jobs/6258282004	Lithic	Staff Product Manager, Privacy	https://job-boards.greenhouse.io/lithic/jobs/6258282004	dropped	SKIP:visa-wall-or-no-build	2026-11-13	2026-11-13	4	
-zapply.jobs/l/d/apple-200694612	Apple	Product Manager, Employee Experience & Productivity	https://zapply.jobs/l/d/apple-200694612?s=gh-new-grad-jobs-2027	jd_extracted		2026-11-13	2026-11-13	3	
+zapply.jobs/l/d/apple-200694612	Apple	Product Manager, Employee Experience & Productivity	https://zapply.jobs/l/d/apple-200694612?s=gh-new-grad-jobs-2027	dropped	DROP:below-3.0	2026-11-13	2026-11-13	4	
 zapply.jobs/l/d/eightfold-micron-45500942	Micron	Product Manager	https://zapply.jobs/l/d/eightfold-micron-45500942?s=gh-new-grad-jobs-2027	dropped	SKIP:visa-wall-or-no-build	2026-11-13	2026-11-13	4	
-linkedin.com/jobs/view/4489089694	groundcover	Technical Product Marketing Manager	https://www.linkedin.com/jobs/view/4489089694	jd_extracted		2026-11-13	2026-11-13	3	
-linkedin.com/jobs/view/4490520730	Strella	Product Marketing Manager	https://www.linkedin.com/jobs/view/4490520730	jd_extracted		2026-11-13	2026-11-13	3	
+linkedin.com/jobs/view/4489089694	groundcover	Technical Product Marketing Manager	https://www.linkedin.com/jobs/view/4489089694	dropped	DROP:below-3.0	2026-11-13	2026-11-13	4	
+linkedin.com/jobs/view/4490520730	Strella	Product Marketing Manager	https://www.linkedin.com/jobs/view/4490520730	queued		2026-11-13	2026-11-13	4	
 linkedin.com/jobs/view/4489289448	Haystack	Marketing Manager	https://www.linkedin.com/jobs/view/4489289448	shortlisted		2026-11-13	2026-11-13	1	
 linkedin.com/jobs/view/4489268629	Pilotbase	Product Marketing Manager, Pilot Products	https://www.linkedin.com/jobs/view/4489268629	shortlisted		2026-11-13	2026-11-13	1	
 linkedin.com/jobs/view/4489292358	ScaleOps	Product Marketing Manager - US	https://www.linkedin.com/jobs/view/4489292358	shortlisted		2026-11-13	2026-11-13	1	
@@ -630,35 +630,36 @@ linkedin.com/jobs/view/4490374618	Cisco	Director, Pricing Strategy and Monetizat
 linkedin.com/jobs/view/4490365949	Cisco	Director, Pricing Strategy and Monetization (Remote)	https://www.linkedin.com/jobs/view/4490365949	dropped	DROP:seniority-out-of-band	2026-11-13	2026-11-13	1	
 linkedin.com/jobs/view/4489097700	Reynolds American Inc.	Lead Manager - Consumer & Market Analytics	https://www.linkedin.com/jobs/view/4489097700	dropped	DROP:no-target-role-match	2026-11-13	2026-11-13	1	
 linkedin.com/jobs/view/4452795310	EMD Serono, Inc.	Associate Director, Market Insights, Oncology and HIV	https://www.linkedin.com/jobs/view/4452795310	dropped	DROP:no-target-role-match	2026-11-13	2026-11-13	1	
-jobs.ashbyhq.com/perplexity/f4312e0a-7d39-4af9-9a7d-b0fe041a228a	Perplexity	Product Manager, Legal	https://jobs.ashbyhq.com/Perplexity/f4312e0a-7d39-4af9-9a7d-b0fe041a228a	queued		2026-11-12	2026-11-13	6	
-zapply.jobs/l/d/greenhouse-ixllearning-8936808002	IXL Learning	IXL Associate Product Manager	https://zapply.jobs/l/d/greenhouse-ixllearning-8936808002?s=gh-new-grad-jobs-2027	jd_extracted		2026-11-12	2026-11-13	4	
-zapply.jobs/l/d/apple-200618437	Apple	Product Manager, Siri AI	https://zapply.jobs/l/d/apple-200618437?s=gh-new-grad-jobs-2027	queued		2026-11-11	2026-11-13	16	
-jobs.ashbyhq.com/perplexity/be6ffac6-5d72-4768-9f88-d1231a710ec9	Perplexity	Deal Desk Lead	https://jobs.ashbyhq.com/Perplexity/be6ffac6-5d72-4768-9f88-d1231a710ec9	queued		2026-11-11	2026-11-13	15	
-apply.workable.com/bask-health-1/j/10419258c9/apply	Bask Health	Associate Product Manager New Grad	https://apply.workable.com/bask-health-1/j/10419258C9/apply	jd_extracted		2026-11-11	2026-11-13	12	
-apply.workable.com/bask-health-1/j/e3ba07b52a/apply	Bask Health	Associate Product Manager	https://apply.workable.com/bask-health-1/j/E3BA07B52A/apply	jd_extracted		2026-11-11	2026-11-13	12	
-apply.workable.com/bask-health-1/j/eb2c2d9268/apply	Bask Health	Junior Product Manager - Intakes & Conversion	https://apply.workable.com/bask-health-1/j/EB2C2D9268/apply	jd_extracted		2026-11-11	2026-11-13	12	
-jobs.ashbyhq.com/perplexity/a5316915-559e-4839-8ea7-cb3b16b090ed	Perplexity	Go-To-Market Compensation Lead	https://jobs.ashbyhq.com/Perplexity/a5316915-559e-4839-8ea7-cb3b16b090ed	queued		2026-11-11	2026-11-13	12	
-jobs.ashbyhq.com/baseten/9b71cb02-d82c-421c-b73b-4b783076409e	Baseten	Product Manager, Grid	https://jobs.ashbyhq.com/baseten/9b71cb02-d82c-421c-b73b-4b783076409e	queued		2026-11-11	2026-11-13	12	
-coinbase.com/careers/positions/8374607?gh_jid=8374607	Coinbase	Senior Product Manager, Simple Trading	https://www.coinbase.com/careers/positions/8374607?gh_jid=8374607	queued		2026-11-11	2026-11-13	12	
-instacart.careers/job?gh_jid=8373034	Instacart	Senior Product Manager, Instacart Business - Growth	https://instacart.careers/job/?gh_jid=8373034	queued		2026-11-11	2026-11-13	12	
-fivetran.com/careers/job?gh_jid=8200741003	Fivetran	Senior Marketing Manager, Commercial	https://www.fivetran.com/careers/job?gh_jid=8200741003	queued		2026-11-11	2026-11-13	9	
-jobs.ashbyhq.com/snowflake/8e88251e-e77e-428e-bccf-dc1ccadc22ef	Snowflake	Senior Product Manager - AI Migrations	https://jobs.ashbyhq.com/snowflake/8e88251e-e77e-428e-bccf-dc1ccadc22ef	jd_extracted		2026-11-11	2026-11-13	5	
-jobs.ashbyhq.com/snowflake/5ee9f5f0-2942-4c17-81bf-f2ffec3a64b9	Snowflake	Senior Product Manager - Enterprise AI	https://jobs.ashbyhq.com/snowflake/5ee9f5f0-2942-4c17-81bf-f2ffec3a64b9	jd_extracted		2026-11-11	2026-11-13	5	
+jobs.ashbyhq.com/perplexity/f4312e0a-7d39-4af9-9a7d-b0fe041a228a	Perplexity	Product Manager, Legal	https://jobs.ashbyhq.com/Perplexity/f4312e0a-7d39-4af9-9a7d-b0fe041a228a	queued		2026-11-12	2026-11-13	7	
+zapply.jobs/l/d/greenhouse-ixllearning-8936808002	IXL Learning	IXL Associate Product Manager	https://zapply.jobs/l/d/greenhouse-ixllearning-8936808002?s=gh-new-grad-jobs-2027	dropped	SKIP:duplicate-existing-tracker-row	2026-11-12	2026-11-13	5	
+zapply.jobs/l/d/apple-200618437	Apple	Product Manager, Siri AI	https://zapply.jobs/l/d/apple-200618437?s=gh-new-grad-jobs-2027	dropped	SKIP:duplicate-existing-tracker-row	2026-11-11	2026-11-13	17	
+jobs.ashbyhq.com/perplexity/be6ffac6-5d72-4768-9f88-d1231a710ec9	Perplexity	Deal Desk Lead	https://jobs.ashbyhq.com/Perplexity/be6ffac6-5d72-4768-9f88-d1231a710ec9	dropped	SKIP:duplicate-existing-tracker-row	2026-11-11	2026-11-13	16	
+apply.workable.com/bask-health-1/j/10419258c9/apply	Bask Health	Associate Product Manager New Grad	https://apply.workable.com/bask-health-1/j/10419258C9/apply	dropped	DROP:below-3.0	2026-11-11	2026-11-13	13	
+apply.workable.com/bask-health-1/j/e3ba07b52a/apply	Bask Health	Associate Product Manager	https://apply.workable.com/bask-health-1/j/E3BA07B52A/apply	dropped	DROP:below-3.0	2026-11-11	2026-11-13	13	
+apply.workable.com/bask-health-1/j/eb2c2d9268/apply	Bask Health	Junior Product Manager - Intakes & Conversion	https://apply.workable.com/bask-health-1/j/EB2C2D9268/apply	dropped	DROP:below-3.0	2026-11-11	2026-11-13	13	
+jobs.ashbyhq.com/perplexity/a5316915-559e-4839-8ea7-cb3b16b090ed	Perplexity	Go-To-Market Compensation Lead	https://jobs.ashbyhq.com/Perplexity/a5316915-559e-4839-8ea7-cb3b16b090ed	dropped	DROP:below-3.0	2026-11-11	2026-11-13	13	
+jobs.ashbyhq.com/baseten/9b71cb02-d82c-421c-b73b-4b783076409e	Baseten	Product Manager, Grid	https://jobs.ashbyhq.com/baseten/9b71cb02-d82c-421c-b73b-4b783076409e	dropped	SKIP:duplicate-existing-tracker-row	2026-11-11	2026-11-13	13	
+coinbase.com/careers/positions/8374607?gh_jid=8374607	Coinbase	Senior Product Manager, Simple Trading	https://www.coinbase.com/careers/positions/8374607?gh_jid=8374607	dropped	SKIP:duplicate-existing-tracker-row	2026-11-11	2026-11-13	13	
+instacart.careers/job?gh_jid=8373034	Instacart	Senior Product Manager, Instacart Business - Growth	https://instacart.careers/job/?gh_jid=8373034	dropped	SKIP:duplicate-existing-tracker-row	2026-11-11	2026-11-13	13	
+fivetran.com/careers/job?gh_jid=8200741003	Fivetran	Senior Marketing Manager, Commercial	https://www.fivetran.com/careers/job?gh_jid=8200741003	queued		2026-11-11	2026-11-13	10	
+jobs.ashbyhq.com/snowflake/8e88251e-e77e-428e-bccf-dc1ccadc22ef	Snowflake	Senior Product Manager - AI Migrations	https://jobs.ashbyhq.com/snowflake/8e88251e-e77e-428e-bccf-dc1ccadc22ef	dropped	DROP:below-3.0	2026-11-11	2026-11-13	6	
+jobs.ashbyhq.com/snowflake/5ee9f5f0-2942-4c17-81bf-f2ffec3a64b9	Snowflake	Senior Product Manager - Enterprise AI	https://jobs.ashbyhq.com/snowflake/5ee9f5f0-2942-4c17-81bf-f2ffec3a64b9	queued		2026-11-11	2026-11-13	6	
 workingnomads.com/jobs/chief-of-staff-india-elevenlabs	ElevenLabs	Chief of Staff	https://www.workingnomads.com/jobs/chief-of-staff-india-elevenlabs	jd_extracted		2026-11-12	2026-11-13	4	
 coinbase.com/careers/positions/8017607?gh_jid=8017607	Coinbase	Group Product Manager, Developer Infrastructure	https://www.coinbase.com/careers/positions/8017607?gh_jid=8017607	dropped	DROP:over-cap	2026-11-11	2026-11-13	5	
-coinbase.com/careers/positions/7997785?gh_jid=7997785	Coinbase	Group Product Manager, Core Infrastructure & Reliability	https://www.coinbase.com/careers/positions/7997785?gh_jid=7997785	jd_extracted		2026-11-11	2026-11-13	4	
-sofi.com/careers/job/8004952003?gh_jid=8004952003	SoFi	Direct Mail Marketing Manager, Credit Card (Contract)	https://sofi.com/careers/job/8004952003?gh_jid=8004952003	jd_extracted		2026-11-12	2026-11-13	4	
-linkedin.com/jobs/view/4471793406	DoorDash	Associate, New Verticals - Grocery Revenue Strategy & Operations	https://www.linkedin.com/jobs/view/4471793406	queued		2026-11-12	2026-11-13	6	
-linkedin.com/jobs/view/4470122703	Change.org	Chief of Staff to the COO	https://www.linkedin.com/jobs/view/4470122703	jd_extracted		2026-11-12	2026-11-13	3	
+coinbase.com/careers/positions/7997785?gh_jid=7997785	Coinbase	Group Product Manager, Core Infrastructure & Reliability	https://www.coinbase.com/careers/positions/7997785?gh_jid=7997785	dropped	DROP:below-3.0	2026-11-11	2026-11-13	5	
+sofi.com/careers/job/8004952003?gh_jid=8004952003	SoFi	Direct Mail Marketing Manager, Credit Card (Contract)	https://sofi.com/careers/job/8004952003?gh_jid=8004952003	dropped	SKIP:duplicate-existing-tracker-row	2026-11-12	2026-11-13	5	
+linkedin.com/jobs/view/4471793406	DoorDash	Associate, New Verticals - Grocery Revenue Strategy & Operations	https://www.linkedin.com/jobs/view/4471793406	queued		2026-11-12	2026-11-13	7	
+linkedin.com/jobs/view/4470122703	Change.org	Chief of Staff to the COO	https://www.linkedin.com/jobs/view/4470122703	dropped	DROP:below-3.0	2026-11-12	2026-11-13	4	
 mongodb.com/careers/job?gh_jid=8157127	MongoDB	Revenue Operations Manager	https://www.mongodb.com/careers/job/?gh_jid=8157127	dropped	DROP:over-cap	2026-11-12	2026-11-13	4	
-mongodb.com/careers/job?gh_jid=8128356	MongoDB	Senior Product Manager	https://www.mongodb.com/careers/job/?gh_jid=8128356	jd_extracted		2026-11-12	2026-11-13	3	
+mongodb.com/careers/job?gh_jid=8128356	MongoDB	Senior Product Manager	https://www.mongodb.com/careers/job/?gh_jid=8128356	dropped	DROP:below-3.0	2026-11-12	2026-11-13	4	
 mongodb.com/careers/job?gh_jid=8082623	MongoDB	Senior Product Manager, Order to Cash	https://www.mongodb.com/careers/job/?gh_jid=8082623	dropped	DROP:over-cap	2026-11-12	2026-11-13	4	
-job-boards.greenhouse.io/vercel/jobs/6205772004	Vercel	Product Manager, Dashboard	https://job-boards.greenhouse.io/vercel/jobs/6205772004	jd_extracted		2026-11-12	2026-11-13	3	
-jobs.ashbyhq.com/drata/cf5e1a06-8720-4e5c-93c6-5494c39c862c	Drata	Senior Product Manager 2, Assurance	https://jobs.ashbyhq.com/drata/cf5e1a06-8720-4e5c-93c6-5494c39c862c	jd_extracted		2026-11-12	2026-11-13	3	
-jobs.ashbyhq.com/replit/234c9a82-2857-4691-af83-308100806df3	Replit	Senior/Product Marketing Manager	https://jobs.ashbyhq.com/replit/234c9a82-2857-4691-af83-308100806df3	jd_extracted		2026-11-12	2026-11-13	3	
-jobs.ashbyhq.com/sierra/effd7cd2-8a28-4bae-a3b8-40720ba09717	Sierra	Product Manager, Agent Development	https://jobs.ashbyhq.com/Sierra/effd7cd2-8a28-4bae-a3b8-40720ba09717	jd_extracted		2026-11-12	2026-11-13	3	
+job-boards.greenhouse.io/vercel/jobs/6205772004	Vercel	Product Manager, Dashboard	https://job-boards.greenhouse.io/vercel/jobs/6205772004	dropped	DROP:below-3.0	2026-11-12	2026-11-13	4	
+jobs.ashbyhq.com/drata/cf5e1a06-8720-4e5c-93c6-5494c39c862c	Drata	Senior Product Manager 2, Assurance	https://jobs.ashbyhq.com/drata/cf5e1a06-8720-4e5c-93c6-5494c39c862c	dropped	DROP:below-3.0	2026-11-12	2026-11-13	4	
+jobs.ashbyhq.com/replit/234c9a82-2857-4691-af83-308100806df3	Replit	Senior/Product Marketing Manager	https://jobs.ashbyhq.com/replit/234c9a82-2857-4691-af83-308100806df3	queued		2026-11-12	2026-11-13	4	
+jobs.ashbyhq.com/sierra/effd7cd2-8a28-4bae-a3b8-40720ba09717	Sierra	Product Manager, Agent Development	https://jobs.ashbyhq.com/Sierra/effd7cd2-8a28-4bae-a3b8-40720ba09717	dropped	DROP:below-3.0	2026-11-12	2026-11-13	4	
 talent.gloroots.com/form/apply/b524592f-cdc1-4820-adb9-ea73be2bcb89	Gloroots	Head of Growth	https://talent.gloroots.com/form/apply/b524592f-cdc1-4820-adb9-ea73be2bcb89	jd_extracted		2026-11-12	2026-11-13	3	
-lenskartcareers.recruitee.com/o/ceos-office-4	Lenskart	General Manager, CEO Office	https://lenskartcareers.recruitee.com/o/ceos-office-4	queued		2026-11-11	2026-11-13	5	
+lenskartcareers.recruitee.com/o/ceos-office-4	Lenskart	General Manager, CEO Office	https://lenskartcareers.recruitee.com/o/ceos-office-4	dropped	SKIP:duplicate-existing-tracker-row	2026-11-11	2026-11-13	6	
+linkedin.com/jobs/view/4478113020	LatentView Analytics	Senior Market Researcher, AI & Research Ecosystem	https://www.linkedin.com/jobs/view/4478113020	dropped	DROP:below-3.0	2026-10-14	2026-11-13	4	
 linkedin.com/jobs/view/4489904855	Stemz Healthcare	Entrepreneur in Residence (EIR)	https://www.linkedin.com/jobs/view/4489904855	built	BUILT	2026-11-11	2026-11-12	6	
 linkedin.com/jobs/view/4489081111	AiSteth	Chief of Staff	https://www.linkedin.com/jobs/view/4489081111	built	BUILT	2026-11-12	2026-11-12	8	
 linkedin.com/jobs/view/4490073454	Sia Experience	Partner Marketing Manager, AI Products & Strategic Technology Partnerships (Contract)	https://www.linkedin.com/jobs/view/4490073454	shortlisted		2026-11-12	2026-11-12	1	
@@ -30285,7 +30286,6 @@ linkedin.com/jobs/view/4478762594	Gap	Manager - Pricing Strategy & Analytics	htt
 linkedin.com/jobs/view/4479231127	Plaid	Product Marketing Manager - Onboarding	https://www.linkedin.com/jobs/view/4479231127	dropped	DROP:duplicate-req	2026-10-14	2026-10-14	7	
 linkedin.com/jobs/view/4469999702	Avathon	Product Manager, Supply Chain & Operations	https://www.linkedin.com/jobs/view/4469999702	dropped	DROP:below-3.0	2026-10-14	2026-10-14	4	
 jobs.ashbyhq.com/snowflake/3c565761-4ce8-40f4-a346-1997b117afbc	Snowflake	Senior Product Manager – Agent Marketplace	https://jobs.ashbyhq.com/snowflake/3c565761-4ce8-40f4-a346-1997b117afbc	dropped	DROP:below-3.0	2026-10-14	2026-10-14	4	
-linkedin.com/jobs/view/4478113020	LatentView Analytics	Senior Market Researcher, AI & Research Ecosystem	https://www.linkedin.com/jobs/view/4478113020	jd_extracted		2026-10-14	2026-10-14	3	
 zapply.jobs/l/d/apple-200688812	Apple	Product Manager, Apple Pay	https://zapply.jobs/l/d/apple-200688812?s=gh-new-grad-jobs-2027	dropped	DROP:over-cap	2026-10-14	2026-10-14	7	
 linkedin.com/jobs/view/4477980527	Haystack	Product Marketing Manager	https://www.linkedin.com/jobs/view/4477980527	jd_extracted		2026-10-14	2026-10-14	3	
 linkedin.com/jobs/view/4476491880	Code Red Partners	Product Marketing Manager	https://www.linkedin.com/jobs/view/4476491880	dropped	SKIP:hidden-employer-no-build	2026-10-14	2026-10-14	7	
