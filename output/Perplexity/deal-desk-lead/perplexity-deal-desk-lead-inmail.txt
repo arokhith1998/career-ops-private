@@ -1,0 +1,16 @@
+Subject: AI's take on quote-to-order, from someone building it
+
+Hi {Recruiter or Hiring Manager, Revenue Operations},
+
+Your posting asks for a strong perspective on how AI is changing quote-to-order workflows. I'm building that answer at PriceKeel: a guardrail engine that reads live discount exceptions and recommends approval limits learned from a company's own closed-won and closed-lost deals, with an audit trail Finance and Legal can act on before signature. Before founding it I ran the other side of the desk at Sensata, recovering $700K+ in margin in two quarters and raising distributor channel-partner margins from 53% to 61% through repricing.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/perplexity
+
+Built a 6-slide deck mapping this to the req. Worth 15 minutes if useful.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

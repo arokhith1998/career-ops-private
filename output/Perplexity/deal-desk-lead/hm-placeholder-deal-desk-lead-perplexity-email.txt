@@ -1,0 +1,21 @@
+Subject: Quote-to-order is the problem I'm already solving
+
+Hi {Hiring Manager, Revenue Operations},
+
+Your posting's line about ensuring quotes, order forms and CRM records reflect agreed terms before signature is the exact problem PriceKeel exists to solve, so I had to write in before applying.
+
+Founded PriceKeel: it owns the business requirements and acceptance testing for its own quote-to-order workflow instead of inheriting someone else's CRM and CPQ stack, with an audit trail that gives Finance and Legal a clean handoff before signature.
+Recovered $700K+ in margin in two quarters at Sensata running deal-exception reviews, and raised distributor margins from 53% to 61%.
+Automate recurring pricing analysis with Claude-built AI agents at Applied Materials, the same lens your posting asks for on AI and quote-to-order.
+Hired and managed an 8-person team at Pixis, so scaling a Deal Desk function here is not a new muscle.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/perplexity
+
+Built a 6-slide deck mapping PriceKeel to this req, happy to walk through it. Worth 15 minutes if useful, and no worries if this sits with someone else on your team.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
