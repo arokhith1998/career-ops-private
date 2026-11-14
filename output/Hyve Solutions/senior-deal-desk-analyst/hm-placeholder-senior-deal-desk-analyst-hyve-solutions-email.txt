@@ -1,0 +1,22 @@
+Subject: The RFQ margin problem under a server hardware req
+
+Hi {Hiring Manager, Deal Desk},
+
+I do not normally reach out before applying, but a seat that spans RFQ pricing, cross-functional cost validation, and margin approval all at once is the same role I ran at Sensata's industrial business, just with a different bill of materials.
+
+Built you a 6-slide pitch deck so the proof fits on one read.
+
+I rebuilt deal-level pricing governance there and recovered $700K+ in two quarters, tracked through a dashboard I built that ranked 1,200 opportunities against a $627M target and surfaced $433M in margin gaps.
+I partnered with sales, finance, and engineering to reprice a distributor relationship from 53% to 61% margin on multimillion-dollar quotes.
+Outside that work, I am building PriceKeel, a pricing-guardrail engine, which is close to what "improve deal desk tools and processes with AI and automation" is asking for.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/hyve-solutions
+
+Worth 15 minutes if you own this req, no worries if someone else does.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

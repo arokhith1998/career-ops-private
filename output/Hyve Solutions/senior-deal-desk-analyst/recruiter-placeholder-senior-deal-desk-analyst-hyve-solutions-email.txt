@@ -1,0 +1,22 @@
+Subject: A pricing dashboard that found $433M in margin gaps
+
+Hi {Recruiter, Deal Desk},
+
+I do not normally reach out before applying, but a req that explicitly asks for AI and automation inside deal desk tooling is one I have already built, not one I am hoping to grow into.
+
+Built you a 6-slide pitch deck so the proof fits on one read.
+
+At Sensata I ran a margin-recovery program that pulled $700K+ back in two quarters by rebuilding deal-level pricing governance.
+I also built the dashboard behind it, ranking 1,200 opportunities against a $627M target and surfacing $433M in gaps.
+Separately, I repriced a distributor relationship from 53% to 61% margin on multimillion-dollar quotes.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/hyve-solutions
+
+Worth 15 minutes if this is your req, no worries if it already has an owner.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
