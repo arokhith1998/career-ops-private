@@ -1,0 +1,19 @@
+Subject: Hands-on paid search at scale, not an agency recap review
+
+Hi {Recruiter, Performance Marketing},
+
+Your posting draws a hard line between reviewing an agency's recap deck and setting the bids yourself; that is the half of this req I can speak to directly.
+
+At Plug Power I owned $100K/month in paid search and social budgets across Google Ads, Microsoft Ads, Meta and LinkedIn; bid optimization paired with structured A/B testing took CPA down 25%.
+At Pixis I ran the budget side of 8 client accounts ($15K-$90K each monthly), the closest analog I have to sitting across the table from an agency and pushing on a test plan instead of approving spend, and used Amplitude and Tableau there to push ROAS up 40% across 30+ campaigns.
+
+Here's the portfolio: https://adhi-growth.vercel.app/ref/checkr
+
+Worth 15 minutes if this req is still open; no worries if it is already past that stage.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

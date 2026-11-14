@@ -1,0 +1,20 @@
+Subject: A repeatable testing framework, not a string of one-off wins
+
+Hi {Hiring Manager, Growth Marketing},
+
+Your posting asks for a repeatable experimentation framework across SMB and Commercial, not another round of one-off channel wins, and that framing is why I am writing before applying.
+
+At Pixis I ran the full-funnel version of that problem for a fashion brand: shopping feed cleanup, smart bidding and a creative and lookalike refresh together took it from a flat quarter to 3x ROAS in one month, repeatable across an 8-client, $15K-$90K-per-client portfolio.
+At Plug Power I owned $100K/month in paid search and social across Google Ads, Microsoft Ads, Meta and LinkedIn, and tied SEM performance to MQL quality and stage 1 pipeline, the funnel-data habit your req wants pointed at Finance and Sales.
+At Applied Materials I build the forecasting models a budget owner uses to defend spend, automated with Claude agents instead of rebuilt by hand each cycle.
+
+Here's the portfolio: https://adhi-growth.vercel.app/ref/checkr
+
+Open to 20 minutes on where the SMB and Commercial funnels diverge most?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
