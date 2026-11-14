@@ -1,0 +1,30 @@
+Subject: Pricing and Packaging Manager: one seat for the model and the room
+
+Hi {Recruiter, Pricing and Packaging},
+
+Most pricing postings split the job in two: a model builder who hands a recommendation to someone else, or a committee operator who defends work they did not build. Yours asks one person to design subscription, seat based, usage based, outcome based and hybrid pricing, then carry it through Finance, Sales, RevOps and Product without a handoff in the middle.
+
+That combination is specific enough that a generic application felt wrong, so this is a direct note instead.
+
+I built a 6 slide pitch deck around exactly that combination, because the proof splits across two kinds of work a resume tends to flatten into one line.
+
+At Sensata I ran the Bleeders and Leakers program end to end: reading competitive gaps and customer willingness to pay into pricing moves that recovered $700K+ in margin in two quarters and raised distributor margins from 53% to 61%.
+
+The FY2026 Power BI dashboard behind that work tracked 1,200 pricing opportunities against a $627M target across 3 regions and surfaced $433M in margin gaps for leadership to prioritize by product line.
+
+I have since built the packaging side of the same discipline at my own company, PriceKeel, where I set up the CRM and CPQ myself and designed a discount guardrail engine learned from a company's own closed won and closed lost deals.
+
+At Applied Materials I build the financial models and forecasts that a pricing recommendation rests on, then present them to senior leadership directly, which is the same loop your committee runs.
+
+The deck's first slide lays the model work and the committee work side by side, so the fit does not need explaining twice.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/agiloft
+
+Worth 20 minutes to see whether this req is still open? If it sits with someone else on your team, a pointer their way would help just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

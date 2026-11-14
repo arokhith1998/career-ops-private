@@ -1,0 +1,30 @@
+Subject: Outcome based pricing for CLM is a legal result, not a usage event
+
+Hi {Director, Product GTM},
+
+Outcome based pricing is easy to promise and hard to model, because for contract lifecycle management the outcome is usually a negotiated legal result, not a clean usage event like a seat or an API call. Most teams default back to seats because modeling the real outcome is harder than selling the idea of it.
+
+Your posting asking for outcome based pricing alongside subscription, seat and usage models reads like a team that already knows this and wants someone who has built the harder version.
+
+I built a 6 slide pitch deck walking through how I would approach that model for Agiloft specifically, rather than describing the company back to you.
+
+At Sensata I led the Bleeders and Leakers program, turning competitive gaps and customer willingness to pay into pricing moves that recovered $700K+ in margin in two quarters and raised distributor margins from 53% to 61%.
+
+The Power BI dashboard behind that program tracked 1,200 pricing opportunities against a $627M target and surfaced $433M in margin gaps by product line.
+
+I am also building the outcome side of this problem directly. PriceKeel, my own company, reads a live discount exception inside the deal platform and recommends a guardrail learned from a company's own closed won and closed lost history, with an audit trail Finance can actually check.
+
+At Applied Materials I build the forecasting models and market sizing that sit underneath a pricing recommendation before it ever reaches a committee, and I carry P&L and revenue targets against that work.
+
+The deck's last slide maps the first month owning this model specifically, not a generic 30 day plan.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/agiloft
+
+Could we find 20 minutes to talk through how you are modeling the outcome side today? Happy to be pointed to whoever owns this if it is not you.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
