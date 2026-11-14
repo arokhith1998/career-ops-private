@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Databricks Deal Desk Transformation Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #0d5c8c; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 26pt; font-weight: 800; color: #0f172a; line-height: 1.14; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 20pt; font-weight: 800; color: #0f172a; line-height: 1.12; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #0d5c8c; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.6in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d6e8f3 100%); }
+  .cover h1 { font-size: 24pt; max-width: 11.5in; }
+  .cover .sub { font-size: 13pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; max-width: 11in; }
+  .cover .tags { margin-top: 16pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.1pt; font-weight: 500; }
+  .tag strong { color: #0d5c8c; font-weight: 700; }
+  .cover .who { margin-top: 16pt; padding-top: 10pt; border-top: 1.5pt solid #0d5c8c; max-width: 9.8in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #0d5c8c; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.2pt; color: #334155; line-height: 1.44; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #0d5c8c; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.4pt; color: #334155; line-height: 1.46; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #e8f1f8; border-left: 4pt solid #0d5c8c; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.3pt; color: #0d5c8c; line-height: 1.44; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0d5c8c; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 23pt; font-weight: 800; color: #0d5c8c; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.4pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.6pt; color: #64748b; line-height: 1.4; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0d5c8c; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #0d5c8c; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.8pt; color: #334155; line-height: 1.42; margin-bottom: 7pt; }
+  .card .why { font-size: 8.3pt; color: #64748b; line-height: 1.42; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #0d5c8c; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d6e8f3 100%); }
+  .close h2 { font-size: 22pt; max-width: 10.6in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.3pt; color: #334155; line-height: 1.52; max-width: 10.9in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #0d5c8c; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.7pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Databricks Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Databricks Strategy &amp; Execution Manager, Deal Desk Transformation</div>
+  <h1>A Quote-to-Order transformation that has to hold up for Deal Desk, GTM, Legal, Finance and IT at once needs someone who already runs that same deal-to-booking reconciliation loop today.</h1>
+  <div class="sub">CRM/CPQ ownership, deal approvals, audit-trail design, and the Power BI systems that keep a multi-hundred-million pipeline reconciled to one number.</div>
+  <div class="tags">
+    <div class="tag"><strong>$700K+</strong> in margin recovered in 2 quarters at Sensata</div>
+    <div class="tag"><strong>53% to 61%</strong> distributor margin lift through process reengineering</div>
+    <div class="tag"><strong>$627M</strong> pipeline, 1,200 opportunities reconciled to one target</div>
+    <div class="tag"><strong>Builds and runs</strong> CRM/CPQ, deal approvals and audit trails as a founder</div>
+    <div class="tag"><strong>Claude AI agents</strong> automating recurring forecasting and analysis</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-pricing-ai.vercel.app/ref/databricks</div>
+  </div>
+  <div class="brand">DATABRICKS DEAL DESK TRANSFORMATION</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>A Quote-to-Order transformation does not fail on strategy. It fails when Deal Desk, GTM, Legal, Finance and IT each <span class="accent">trust a different number.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What this program runs into</h4>
+      <div class="line">A new operating model for a Private Offer lifecycle only holds if the KPI definitions and the automation roadmap are built together, not handed to IT after the strategy is already set.</div>
+      <div class="line">An intake-to-billing handoff only survives UAT if someone has already reconciled live deal data against a target end to end, not just diagrammed the process.</div>
+      <div class="line">A QtO prioritization process only produces a usable roadmap if the same person owns the stakeholder enablement and the system change together.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run, at comparable scale</h4>
+      <div class="line">At <b>Sensata</b>, turned deal-level terms and pricing data into negotiation playbooks and deal-desk guidance that recovered $700K+ in margin in 2 quarters.</div>
+      <div class="line">As founder of <b>PriceKeel</b>, built the audit trail, CRM/CPQ and deal-approval workflow behind every pricing decision end to end.</div>
+      <div class="line">At <b>Sensata</b>, built the Power BI system reconciling 1,200 pricing opportunities against a $627M target across 3 regions and 20 product lines.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">This req asks for Quote-to-Order strategy, Private Offer operating-model and automation-roadmap ownership, KPI definition, stakeholder enablement and UAT/go-live support. That is the reconciliation-to-committee loop above, already run end to end, on a different deal-desk system.</div>
+  </div>
+  <div class="brand">DATABRICKS DEAL DESK TRANSFORMATION</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What the Deal Desk Transformation opening asks for, and where the proof sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="proof"><div class="p">Defines Quote-to-Order strategy and owns the operating model and automation roadmap for cloud marketplace Private Offers.</div></div>
+      <div class="proof"><div class="p">Manages the Private Offer lifecycle from intake through billing handoff, reconciling marketplace transactions against bookings.</div></div>
+      <div class="proof"><div class="p">Defines Private Offer KPIs and sets the QtO prioritization process.</div></div>
+      <div class="proof"><div class="p">Enables Deal Desk, GTM, Legal, Finance and IT on new processes, and supports UAT, go-live and post-release.</div></div>
+    </div>
+    <div class="col">
+      <h3>My Proof</h3>
+      <div class="proof"><div class="p"><b>PriceKeel CRM/CPQ build:</b> set up and run the company's own CRM, CPQ, deal-approval workflow and audit trail end to end.</div></div>
+      <div class="proof"><div class="p"><b>FY2026 Power BI dashboard:</b> reconciled 1,200 opportunities against a $627M target across 3 regions, 4 product families and 20 product lines.</div></div>
+      <div class="proof"><div class="p"><b>Bleeders and Leakers playbooks:</b> deal-desk guidance that recovered $700K+ in margin in 2 quarters, built for cross-functional review.</div></div>
+      <div class="proof"><div class="p"><b>Claude AI-agent automation:</b> automates recurring pricing and forecasting analysis at Applied Materials today.</div></div>
+    </div>
+  </div>
+  <div class="brand">DATABRICKS DEAL DESK TRANSFORMATION</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The Sensata proof, in depth</div>
+  <h2>Bleeders and Leakers: <span class="accent">a cross-product reconciliation program built so Finance, Sales and leadership trust the same number.</span></h2>
+  <div class="lede">Built as a Power BI system covering 1,200 pricing opportunities against a $627M target across 3 regions, 4 product families and 20 product lines, with pipeline funnel, win rate and stage distribution by salesperson and product line.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$433M</div>
+      <div class="lbl">Margin Gaps Surfaced</div>
+      <div class="desc">Ranked every pricing risk into one cross-product view instead of chasing anecdotes line by line.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$700K+</div>
+      <div class="lbl">Margin Recovered in 2 Quarters</div>
+      <div class="desc">Closed through negotiation playbooks and deal-desk guidance built for cross-functional review.</div>
+    </div>
+    <div class="stat">
+      <div class="n">53% to 61%</div>
+      <div class="lbl">Distributor Margin Lift</div>
+      <div class="desc">A repricing program run through distribution, then documented for governance review.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">The same seat carried AP26 revenue models and multimillion-dollar customer quotes directly with senior executives. Every case started from deal-level evidence and ended in a number Finance and Sales both signed off on, the same discipline a Quote-to-Order transformation runs on at Databricks' scale.</div>
+  <div class="brand">DATABRICKS DEAL DESK TRANSFORMATION</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month on Databricks' Deal Desk Transformation team looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Learn the current Quote-to-Order path and where it breaks</div>
+      <div class="body">Sit with Deal Desk, GTM, Legal, Finance and IT to map how a Private Offer moves from intake to billing handoff today, and pull the reconciliation gaps between marketplace transactions and bookings.</div>
+      <div class="why"><strong>Why first:</strong> a new operating model only holds if it is built on the actual reconciliation gap, not the assumed one.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Draft the first KPI set and automation roadmap</div>
+      <div class="body">Define the Private Offer KPIs and QtO prioritization criteria, and scope the first automation that removes one manual reconciliation step, the same habit that keeps Claude agents running recurring analysis at Applied Materials today.</div>
+      <div class="why"><strong>Why now:</strong> committing to KPIs and automation together is what kept the $627M Sensata pipeline reconciled to one number instead of three.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Run the first UAT cycle and enable the field</div>
+      <div class="body">Take the first process change through UAT with Deal Desk and IT, then train GTM and Finance on the new workflow before go-live and post-release follow-up.</div>
+      <div class="why"><strong>Why this fast:</strong> a transformation program loses trust the moment a trained team hits a step nobody enabled them on.</div>
+    </div>
+  </div>
+  <div class="brand">DATABRICKS DEAL DESK TRANSFORMATION</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to own the Quote-to-Order operating model, the KPIs and the stakeholder enablement together. I have already built and run that combination, on a different deal-desk system.</h2>
+  <div class="body">
+    <p>The core proof is Sensata: <strong>$700K+ recovered in 2 quarters</strong> and a <strong>53% to 61% distributor margin lift</strong>, both run through deal-desk guidance built for cross-functional review, backed by a $627M pipeline reconciled in Power BI.</p>
+    <p>What is harder to find is someone who also owns the CRM/CPQ and audit-trail side: as founder of <strong>PriceKeel</strong>, I run that stack end to end, and at <strong>Applied Materials</strong> I automate recurring forecasting and analysis with Claude AI agents, the automation habit this program is explicitly looking for.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-pricing-ai.vercel.app/ref/databricks</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">DATABRICKS DEAL DESK TRANSFORMATION</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
