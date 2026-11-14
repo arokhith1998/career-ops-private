@@ -1,22 +1,6 @@
 {
-  "cursor": 9,
+  "cursor": 2,
   "runs": [
-    {
-      "at": "2026-11-05T06:11:53.518Z",
-      "terms": [
-        "india:Entrepreneur in Residence",
-        "us:Product Marketing Manager",
-        "us:Pricing Manager",
-        "us:Pricing Strategy",
-        "us:Revenue Operations",
-        "us:Product Manager",
-        "us:Strategic Marketing",
-        "us:Market Strategy"
-      ],
-      "queries": 30,
-      "rows": 253,
-      "health": "ok"
-    },
     {
       "at": "2026-11-05T11:05:45.861Z",
       "terms": [
@@ -319,6 +303,22 @@
       ],
       "queries": 32,
       "rows": 275,
+      "health": "ok"
+    },
+    {
+      "at": "2026-11-14T11:04:07.465Z",
+      "terms": [
+        "us:Deal Desk",
+        "india:Chief of Staff",
+        "india:Head of Growth",
+        "india:Founder's Office",
+        "india:CEO Office",
+        "india:Entrepreneur in Residence",
+        "us:Product Marketing Manager",
+        "us:Pricing Manager"
+      ],
+      "queries": 22,
+      "rows": 190,
       "health": "ok"
     }
   ]
