@@ -1,0 +1,22 @@
+Subject: The CRM as source of truth, not a system of record
+
+Hi {Recruiter, Talent},
+
+I do not normally message before applying, but a first dedicated GTM-ops hire, where every deal roll call ends with a named next step for a Deployment Strategist or a founder, is work I already run day to day, not work I would be learning on this job.
+
+Built you a 6-slide pitch deck so the proof fits on one read.
+
+At PriceKeel I set up our CRM and CPQ from scratch, running the forecast and pipeline reviews and deal approvals myself.
+At Applied Materials I automate the repetitive analysis behind every pricing model with Claude agents instead of running it by hand.
+At Sensata I built the Power BI pipeline model that ranked 1,200 opportunities against a $627M target and helped drive +12% YoY revenue.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/david-ai
+
+Worth 15 minutes if this is your req, no worries if it already has an owner.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

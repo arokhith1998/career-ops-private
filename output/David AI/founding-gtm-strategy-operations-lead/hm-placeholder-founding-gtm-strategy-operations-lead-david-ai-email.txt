@@ -1,0 +1,22 @@
+Subject: An AI-native GTM system, not a dashboarded version of the old one
+
+Hi {Hiring Manager, GTM Operations},
+
+I do not normally cold-email, but a first GTM-ops hire who also gets to design how the operation scales, not just run the CRM, is close to the seat I already hold at PriceKeel, so I wanted to reach out directly.
+
+Built a 6-slide pitch deck mapping that work to David AI's brief.
+
+At PriceKeel I set up the CRM, CPQ, forecast and pipeline reviews from scratch, the same build-from-zero mandate this role calls out.
+At Applied Materials I automate repetitive forecasting and sizing work with Claude agents rather than running it by hand.
+At Sensata I built the pipeline model that surfaced $433M in margin gaps and helped drive +8% market share, the kind of pipeline-risk flag this seat owes leadership for planning.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/david-ai
+
+Worth 15 minutes on how the GTM operating system is taking shape?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
