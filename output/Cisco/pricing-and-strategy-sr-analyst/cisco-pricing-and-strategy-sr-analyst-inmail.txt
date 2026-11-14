@@ -1,0 +1,22 @@
+Subject: AI-assisted pricing logic, tested before this req existed
+
+Hi {Hiring Manager, Pricing Strategy and Monetization},
+
+I do not normally send an InMail before applying, but your preferred list calls out AI/ML pricing experience, and I am already running that loop daily, not reading about it.
+
+Built a 6-slide pitch deck mapping that work to this brief.
+
+At Applied Materials I hand the recurring pricing and market-sizing analysis to AI agents built on Claude, freeing time for the actual pricing decision.
+At Sensata that same test-and-refine discipline ranked 1,200 pricing opportunities against a $627M target and closed $700K+ in two quarters on elasticity data.
+PriceKeel, the pricing product I am building now, is the subscription and consumption tier of that same logic, built and tested from scratch.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/cisco
+
+Worth 15 minutes on how the team is scoping this work?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
