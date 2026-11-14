@@ -1,0 +1,18 @@
+Subject: Deal Desk at Tekion: the audit-trail line in your posting is a habit I already run
+
+Hi {Hiring Manager, Deal Desk / Revenue Operations},
+
+I do not normally message a hiring manager before applying, but your posting asks for deal summaries with "clear rationale and an audit trail" for leadership review, and that is the exact habit I have built a company around, not a skill I would pick up on the job.
+
+At PriceKeel I designed the guardrail engine and the audit trail itself: it records the human pricing decision with evidence Finance can audit before a discount exception reaches approval. Before founding it, I ran that same discipline live at Sensata as the Bleeders and Leakers program lead, recovering $700K+ in margin in two quarters and raising distributor margins from 53% to 61% by correcting the approval logic, not granting overrides, while shaping multimillion-dollar customer quotes directly with senior executives.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/tekion-corp
+
+If you are scoping this seat, I would like 15 minutes to hear what the highest-friction deal type looks like right now. A pointer elsewhere would help just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

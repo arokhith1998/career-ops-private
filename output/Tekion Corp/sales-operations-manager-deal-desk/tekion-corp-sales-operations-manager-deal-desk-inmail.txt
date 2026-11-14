@@ -1,0 +1,18 @@
+Subject: Deal Desk at Tekion: quote-to-cash is already the loop I automate
+
+Hi {Director, Revenue Operations},
+
+Your req asks the Deal Desk seat to improve quote-to-cash workflows and quoting rules with Business Systems, not just enforce them, and that is the half of the job I already treat as its own project.
+
+At Applied Materials I build forecasting and pricing models across multiple product groups and automate the repetitive analysis with AI agents built on Claude. At PriceKeel I run the company's own CRM, CPQ configuration, forecast reviews and deal approvals end to end, with an audit trail Finance can act on directly.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/tekion-corp
+
+Worth 15 minutes to see if the fit is real?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
