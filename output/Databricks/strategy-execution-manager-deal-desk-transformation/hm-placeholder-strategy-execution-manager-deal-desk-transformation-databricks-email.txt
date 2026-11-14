@@ -1,0 +1,20 @@
+Subject: Owning the operating model, KPIs and automation as one seat
+
+Hi {Hiring Manager, Deal Desk Transformation},
+
+I do not normally cold-email before applying, but owning the Private Offer operating model, the KPIs and the automation roadmap together, instead of handing them to three different owners, is the exact shape of work I already run.
+
+At Sensata I designed the Bleeders and Leakers Power BI system from scratch: 1,200 pricing opportunities tracked against a $627M target across 3 regions, 4 product families and 20 product lines, surfacing $433M in gaps and recovering $700K+ in margin in two quarters. I also shaped multimillion-dollar customer quotes with senior executives, the deal-level rigor a Private Offer lifecycle needs. At PriceKeel I run our own CRM and CPQ, deal approvals and the audit trail Finance uses to trust a discount decision; at Applied Materials I automate forecasting work with Claude AI agents instead of rebuilding models by hand.
+
+Built a 6-slide pitch deck mapping that system to Quote-to-Order.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/databricks
+
+Worth 15 minutes on where the reconciliation gap actually sits today?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
