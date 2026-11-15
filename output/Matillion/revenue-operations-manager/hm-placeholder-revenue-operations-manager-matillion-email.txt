@@ -1,0 +1,20 @@
+Subject: Analyzing GTM data for growth opportunities is the Sensata dashboard I built
+
+Hi {Hiring Manager, Matillion Revenue Operations},
+
+I do not normally message before applying, but turning raw GTM and sales data into the growth opportunities your team acts on is work I already run, not a new skill to pick up on the job.
+
+At Sensata I built the FY2026 Bleeders and Leakers Power BI dashboard, ranking 1,200 pricing opportunities against a $627M target by win rate, average dollar per win and stage, broken out by territory and product line, the same operational model a forecasting and pipeline-planning seat needs.
+I raised distributor and channel-partner margins from 53% to 61% by rebuilding the pricing logic behind recurring deal questions instead of patching one at a time, the instinct a RevOps helpdesk runs on.
+At Applied Materials I automate repetitive analysis with Claude AI agents and partner daily across Sales, Engineering and Accounts, the same cross-functional range this seat needs with Sales, Marketing, Customer Success and Finance.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/matillion
+
+Worth 15 minutes on how the team is scoping this seat?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
