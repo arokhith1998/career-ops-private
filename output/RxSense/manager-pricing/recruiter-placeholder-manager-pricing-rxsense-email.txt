@@ -1,0 +1,22 @@
+Subject: A $433M margin-gap dashboard, built before anyone asked for one
+
+Hi {Recruiter, RxSense},
+
+I don't normally reach out before applying, but a MAC factor adjustment that skips a quality check and lands wrong on a client or pharmacy bill is exactly the failure mode I've spent years building guardrails against.
+
+Built you a 6-slide pitch deck so the proof fits on one read.
+
+At Sensata I ran the Bleeders and Leakers program: rebuilt list-to-net discount logic across 1,200 opportunities in 3 regions, surfaced $433M in margin gaps against a $627M target, and recovered $700K+ in margin in two quarters.
+That work lifted distributor margins from 53% to 61%, negotiated directly with senior executives on the contract terms behind it.
+As founder of PriceKeel I built the audit trail Finance can review for every pricing exception, the same discipline a MAC program needs before a factor adjustment touches a bill.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/rxsense
+
+Worth 15 minutes if this is your req, no worries if it already has an owner.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

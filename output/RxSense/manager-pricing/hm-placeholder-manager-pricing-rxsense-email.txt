@@ -1,0 +1,22 @@
+Subject: Coaching a pricing team through MAC escalations is management work
+
+Hi {Hiring Manager, Pricing},
+
+I don't normally reach out before applying, but leading a pricing team through MAC escalations, client guarantee drift, and a push toward AI-enabled pricing tools all at once is the kind of pricing-ops work I already run day to day.
+
+Built you a 6-slide pitch deck so the proof fits on one read.
+
+At Sensata I led global pricing for a multi-$100M industrial business, turning competitive and willingness-to-pay data into a dashboard that surfaced $433M in margin gaps against a $627M target, the material leadership reviewed every quarter.
+At Pixis I hired and managed an 8-person team carrying P&L across 8 client accounts and cut client churn 50% by catching account drift before renewal, the same early-warning instinct a pricing-guarantee review needs.
+At Applied Materials I run Claude-built AI agents to keep recurring pricing analysis from eating the week, the habit that would carry straight into whatever automated pricing tools your team is standing up.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/rxsense
+
+Worth 15 minutes on how the team is splitting MAC ownership versus escalations? Happy to be pointed elsewhere if this isn't your req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
