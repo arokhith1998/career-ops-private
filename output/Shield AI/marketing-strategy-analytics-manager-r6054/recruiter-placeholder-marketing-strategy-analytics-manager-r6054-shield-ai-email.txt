@@ -2,11 +2,11 @@ Subject: Already run the QBR loop this Growth Division req describes
 
 Hi {Recruiter, Shield AI},
 
-I don't normally reach out before applying, but a req that owns strategic planning, cross-functional alignment across Marketing, BD, Product and Finance, and QBR-ready decision materials in one seat is close to what I run today.
+I don't normally reach out before applying, but a req that owns strategic planning, cross-functional alignment across Marketing, BD, Product and Finance, and QBR-ready materials in one seat is close to what I run today.
 
-At Sensata I built the FY2026 Bleeders and Leakers Power BI dashboard, 1,200 pricing opportunities tracked against a $627M target in SQL and Salesforce-fed views, surfacing $433M in margin gaps that drove weekly and quarterly business reviews.
+At Sensata I built the FY2026 Bleeders and Leakers Power BI dashboard, 1,200 opportunities tracked against a $627M target in SQL and Salesforce-fed views, surfacing $433M in margin gaps that drove weekly and quarterly business reviews.
 At Applied Materials I build the annual and quarterly operating plans for semiconductor markets, pulling Sales, Engineering and Accounts input into one leadership view, the same operating-plan motion this role runs for Marketing.
-I also automate the repetitive parts of that analysis with Claude AI agents, a habit a fast-growing defense-tech marketing org would want built in now rather than bolted on later.
+I also automate that analysis with Claude AI agents, a habit a fast-growing defense-tech marketing org would want now, not later.
 
 Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/shield-ai
 
