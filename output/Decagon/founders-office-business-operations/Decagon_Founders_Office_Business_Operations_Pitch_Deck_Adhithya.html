@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Decagon Founders' Office, Business Operations Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #0f766e; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 24pt; font-weight: 800; color: #0f172a; line-height: 1.16; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 20pt; font-weight: 800; color: #0f172a; line-height: 1.12; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #0f766e; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.8in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d5efec 100%); }
+  .cover h1 { font-size: 21.5pt; max-width: 11.6in; }
+  .cover .sub { font-size: 13pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; max-width: 11in; }
+  .cover .tags { margin-top: 15pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9pt; font-weight: 500; }
+  .tag strong { color: #0f766e; font-weight: 700; }
+  .cover .who { margin-top: 15pt; padding-top: 10pt; border-top: 1.5pt solid #0f766e; max-width: 9.5in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #0f766e; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #e6f5f3; border-left: 3pt solid #0f766e; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.3pt; color: #0a5a53; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.2pt; color: #334155; line-height: 1.44; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #0f766e; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #e6f5f3; border-left: 4pt solid #0f766e; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #0a5a53; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0f766e; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 21pt; font-weight: 800; color: #0f766e; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0f766e; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #0f766e; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #0f766e; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d5efec 100%); }
+  .close h2 { font-size: 22pt; max-width: 11in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.9in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #0f766e; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Decagon Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Decagon Founders' Office, Business Operations</div>
+  <h1>One seat is being asked to accelerate enterprise GTM, revamp pricing strategy, set company OKRs, and build the internal tooling that holds all three together. I already run that exact combination, for a company I founded.</h1>
+  <div class="sub">Not four separate hires in one generalist costume: a strategy-to-process-to-tool loop I have run at a multi-$100M industrial BU, a semiconductor equipment maker, and my own startup.</div>
+  <div class="tags">
+    <div class="tag"><strong>$700K+</strong> margin recovered in 2 quarters leading Sensata's Bleeders &amp; Leakers pricing program</div>
+    <div class="tag"><strong>$627M target, 1,200 deals</strong> tracked in the internal tool I built across 3 regions, 4 product families</div>
+    <div class="tag"><strong>Company OKRs</strong> built and run with weekly and quarterly reviews at every employer since 2022</div>
+    <div class="tag"><strong>CRM + CPQ + deal approvals</strong> set up and run end to end, founder of PriceKeel</div>
+    <div class="tag"><strong>Claude AI agents</strong> automating recurring analysis at Applied Materials</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhithyabhaskar.vercel.app/ref/decagon</div>
+  </div>
+  <div class="brand">DECAGON FOUNDER'S OFFICE PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>Enterprise GTM, pricing strategy, company OKRs and internal tooling are four jobs that fail apart and work as <span class="accent">one connected loop.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What breaks when they stay separate</h4>
+      <div class="line">A pricing strategy revamp with no tool behind it becomes a slide deck nobody updates past the first quarter.</div>
+      <div class="line">OKRs set without touching the GTM motion they are supposed to measure become a reporting exercise, not a steering wheel.</div>
+      <div class="line">Internal tooling built without the strategy behind it becomes a dashboard nobody trusts enough to act on.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run as one loop</h4>
+      <div class="line">At <b>Sensata</b>, I built the pricing strategy, the tool that tracked it, and the quarterly review that used it, as one piece of work.</div>
+      <div class="line">At <b>Applied Materials</b>, I turn Sales, Engineering and Accounts input into one GTM view, then run the OKRs that measure it.</div>
+      <div class="line">At <b>PriceKeel</b>, the company I founded, I built the strategy, the CRM/CPQ system, and the deal-approval process myself, with nobody to hand any piece off to.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">A Founder's Office seat whose scope shifts between GTM, pricing, OKRs and tooling based on company needs is describing a generalist who treats all four as one loop, not four separate specialists in a trench coat.</div>
+  </div>
+  <div class="brand">DECAGON FOUNDER'S OFFICE PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What the Business Operations &amp; Strategy seat asks for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">Accelerating and streamlining our enterprise go-to-market motion.</div></div>
+      <div class="quote"><div class="q">Revamping enterprise pricing strategy.</div></div>
+      <div class="quote"><div class="q">Setting company-wide OKRs.</div></div>
+      <div class="quote"><div class="q">Building internal platforms and tooling, owned end to end with extremely high ownership.</div></div>
+    </div>
+    <div class="col">
+      <h3>My Proof</h3>
+      <div class="proof"><div class="p"><b>Enterprise GTM:</b> owned GTM for new sensing products across North America and Europe at Sensata (positioning, pricing, channel, launch); turn Sales, Engineering and Accounts input into one market view at Applied Materials today.</div></div>
+      <div class="proof"><div class="p"><b>Pricing strategy revamp:</b> led global pricing strategy for Sensata's Industrial BU, a multi-$100M business, recovering $700K+ in margin in 2 quarters and lifting distributor margins 53% to 61%.</div></div>
+      <div class="proof"><div class="p"><b>Company OKRs:</b> built and ran OKRs with weekly and quarterly business reviews at Sensata, Applied Materials, Plug Power and Pixis, carrying P&amp;L and revenue targets alongside them.</div></div>
+      <div class="proof"><div class="p"><b>Internal platforms and tooling:</b> built the FY2026 Power BI pricing dashboard at Sensata; set up PriceKeel's own CRM, CPQ and deal-approvals system from zero, as its founder.</div></div>
+    </div>
+  </div>
+  <div class="brand">DECAGON FOUNDER'S OFFICE PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>Bleeders and Leakers: <span class="accent">a pricing strategy, an internal tool, and an operating cadence, built as one piece of work.</span></h2>
+  <div class="lede">Sensata's Industrial BU needed a pricing strategy revamp, not a one-time discount cleanup. I built the strategy, the Power BI tool that tracked it, and the quarterly review cadence that used it to reset targets, together.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$700K+</div>
+      <div class="lbl">Margin Recovered, 2 Quarters</div>
+      <div class="desc">Deal-by-deal negotiation built on competitive gaps and each customer's own willingness to pay, not a rate-card markdown.</div>
+    </div>
+    <div class="stat">
+      <div class="n">1,200 Deals</div>
+      <div class="lbl">Tracked Against a $627M Target</div>
+      <div class="desc">3 regions, 4 product families, 20 product lines, with $433M in margin gaps surfaced for leadership to prioritize.</div>
+    </div>
+    <div class="stat">
+      <div class="n">53% to 61%</div>
+      <div class="lbl">Distributor Margin Lift</div>
+      <div class="desc">Repriced channel logic, documented as a process, and reviewed it on the same OKR cadence I ran every quarter.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">At PriceKeel that same instinct became the operating model: I build the pricing strategy, the system that tracks it, and the review that acts on it, because splitting those three across different people is exactly where this kind of work goes stale.</div>
+  <div class="brand">DECAGON FOUNDER'S OFFICE PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month inside Decagon's Founder's Office could look like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Map the current GTM, pricing and OKR loop</div>
+      <div class="body">Sit with the Founder's Office and the GTM team to trace how the current pricing strategy, enterprise GTM motion and company OKRs connect today, and where one of the three is flying blind on the other two.</div>
+      <div class="why"><strong>Why first:</strong> the same mapping instinct that had me trace PriceKeel's own deal flow before building the guardrail engine on top of it.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Ship one piece of internal tooling against a real gap</div>
+      <div class="body">Pick the one disconnected piece from Week 1, most likely pricing strategy without a tool behind it, and build the internal tool or process that closes it, the way the Bleeders and Leakers dashboard closed that same gap at Sensata.</div>
+      <div class="why"><strong>Why now:</strong> a tool proves itself by getting used in the next business review, not by living in a deck.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Run it through one full OKR review</div>
+      <div class="body">Put the new tool or process in front of the next OKR review, so the loop from strategy to tool to cadence is proven end to end, not just assembled.</div>
+      <div class="why"><strong>Why this fast:</strong> a process only earns its keep once it survives a real review, run by someone other than the person who built it.</div>
+    </div>
+  </div>
+  <div class="brand">DECAGON FOUNDER'S OFFICE PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring a generalist to connect enterprise GTM, pricing strategy, company OKRs and internal tooling into one loop. I have already built that loop, twice, including for a company I run myself.</h2>
+  <div class="body">
+    <p>The core proof is Sensata: a pricing strategy revamp, the Power BI tool that tracked <strong>1,200 opportunities against a $627M target</strong>, and the quarterly OKR review that used it, recovering <strong>$700K+ in margin</strong> and lifting distributor margins <strong>53% to 61%</strong> along the way.</p>
+    <p>What is harder to find is someone who has also spent the last several months running that same loop with nobody to hand any piece to. <strong>I built that at PriceKeel</strong>, so connecting GTM, pricing, OKRs and tooling into one system is not something I would need to learn on the job.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhithyabhaskar.vercel.app/ref/decagon</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">DECAGON FOUNDER'S OFFICE PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
