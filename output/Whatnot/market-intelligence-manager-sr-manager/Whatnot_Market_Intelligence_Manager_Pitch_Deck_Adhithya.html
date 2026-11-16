@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Whatnot Market Intelligence Manager Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #0f766e; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 24pt; font-weight: 800; color: #0f172a; line-height: 1.16; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 20pt; font-weight: 800; color: #0f172a; line-height: 1.12; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #0f766e; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.8in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d5efec 100%); }
+  .cover h1 { font-size: 22pt; max-width: 11.5in; }
+  .cover .sub { font-size: 13pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 15pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9pt; font-weight: 500; }
+  .tag strong { color: #0f766e; font-weight: 700; }
+  .cover .who { margin-top: 15pt; padding-top: 10pt; border-top: 1.5pt solid #0f766e; max-width: 9.5in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #0f766e; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #e6f5f3; border-left: 3pt solid #0f766e; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.3pt; color: #0a5a53; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.2pt; color: #334155; line-height: 1.44; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #0f766e; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #e6f5f3; border-left: 4pt solid #0f766e; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #0a5a53; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0f766e; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 23pt; font-weight: 800; color: #0f766e; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0f766e; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #0f766e; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #0f766e; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d5efec 100%); }
+  .close h2 { font-size: 23pt; max-width: 10.8in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.9in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #0f766e; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Whatnot Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Whatnot Market Intelligence Manager / Sr Manager</div>
+  <h1>Whatnot needs one trusted picture of the livestream shopping market before a pricing or policy shift becomes urgent. I have already built that exact picture for markets that move just as fast, with the vendor relationships and dashboards to back it.</h1>
+  <div class="sub">Market sizing, competitive benchmarking, vendor and data-quality management, and exec-facing dashboards from someone who already runs this loop on two different fast-moving markets.</div>
+  <div class="tags">
+    <div class="tag"><strong>$627M target, 1,200 deals</strong> tracked across 3 regions, 4 product families, 20 lines in one Power BI system</div>
+    <div class="tag"><strong>10+ competitors</strong> benchmarked to separate real market movement from noise, driving +8% share</div>
+    <div class="tag"><strong>Vendor + data-quality ownership</strong> across retail-media and attribution channels (Amazon Ads, Criteo, Appsflyer, Adjust)</div>
+    <div class="tag"><strong>Semiconductor market sizing</strong> turning Sales, Engineering and Account input into one trusted view</div>
+    <div class="tag"><strong>Claude AI agents</strong> automating recurring market analysis at Applied Materials</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhithyabhaskar.vercel.app/ref/whatnot</div>
+  </div>
+  <div class="brand">WHATNOT MARKET INTEL PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>Understanding a market that changes weekly is really two jobs held by one person, <span class="accent">not a report that ships once a quarter.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What losing that connection runs into</h4>
+      <div class="line">Market intelligence that is not tied to a trusted data pipeline becomes a deck nobody double-checks before the next launch decision.</div>
+      <div class="line">Vendor and data-source relationships that are not actively quality-managed quietly go stale, and the dashboard built on top of them looks fine right up until it is wrong.</div>
+      <div class="line">The fix is not another market report. It is one person who owns the vendor relationship, the data quality and the point of view as a single connected loop.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run</h4>
+      <div class="line">At <b>Sensata</b>, I built the FY2026 Power BI system myself: pipeline funnel, regional scorecards and win rate, all tied back to a $627M target, not handed to me already built.</div>
+      <div class="line">At <b>Pixis</b>, I owned the vendor relationships and data quality for every retail-media and attribution channel an 8-client portfolio ran on, not just the dashboard sitting on top.</div>
+      <div class="line">At <b>Applied Materials</b>, I turn noisy field input from three different functions into one market view leadership can act on without re-checking it first.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">A Market Intelligence Manager who owns vendor relationships through to data quality, then turns that into dashboards leadership trusts, is describing this exact loop, already run at two different companies.</div>
+  </div>
+  <div class="brand">WHATNOT MARKET INTEL PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What the Market Intelligence seat asks for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">Own data source and vendor relationships, from evaluation and acquisition through ongoing quality management.</div></div>
+      <div class="quote"><div class="q">Build and maintain the dashboards and reporting that make this data usable and trustworthy for stakeholders across the business, including senior leaders.</div></div>
+      <div class="quote"><div class="q">Spot patterns and changes in market pricing, promotions, product and policy, and build a point of view on whether and how Whatnot should respond.</div></div>
+      <div class="quote"><div class="q">Translate imperfect, incomplete external data into clear, decision-ready recommendations.</div></div>
+    </div>
+    <div class="col">
+      <h3>My Proof</h3>
+      <div class="proof"><div class="p"><b>Vendor and data-source ownership:</b> managed retail-media (Amazon Ads, Criteo) and attribution (Appsflyer, Adjust) vendor relationships and their data quality for an 8-client portfolio at Pixis.</div></div>
+      <div class="proof"><div class="p"><b>Dashboards leadership trusts:</b> built the FY2026 Bleeders and Leakers Power BI dashboard at Sensata that regional leadership used weekly to prioritize $433M in margin gaps.</div></div>
+      <div class="proof"><div class="p"><b>Pattern-spotting on pricing and policy:</b> benchmarked 10+ competitors at Sensata to catch real pricing moves early, driving +8% market share through price realignment.</div></div>
+      <div class="proof"><div class="p"><b>Decision-ready recommendations from messy data:</b> size the semiconductor market at Applied Materials from scattered Sales, Engineering and Account input, forecasting inflection points before they hit the P&amp;L.</div></div>
+    </div>
+  </div>
+  <div class="brand">WHATNOT MARKET INTEL PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>Bleeders and Leakers: <span class="accent">turn 1,200 scattered opportunities into one number leadership could act on.</span></h2>
+  <div class="lede">Built as a BU-wide Power BI system covering 1,200 pricing opportunities against a $627M target across 3 regions, 4 product families and 20 product lines, with pipeline funnel, win rate and regional scorecards checked weekly by leadership.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$433M</div>
+      <div class="lbl">Margin Gaps Surfaced</div>
+      <div class="desc">Every gap traced to a specific deal by salesperson and product line, the segment-level detail a market-intelligence dashboard has to hold.</div>
+    </div>
+    <div class="stat">
+      <div class="n">10+</div>
+      <div class="lbl">Competitors Benchmarked</div>
+      <div class="desc">Catching real pricing and policy moves early enough to build a point of view before the shift becomes urgent.</div>
+    </div>
+    <div class="stat">
+      <div class="n">+8%</div>
+      <div class="lbl">Market Share Gained</div>
+      <div class="desc">From price realignment informed by that benchmarking, the output a market-intelligence read has to drive, not just describe.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">At Pixis that same discipline ran on the vendor side: I managed the retail-media and attribution vendor relationships myself, so the data quality behind the dashboard was never someone else's problem to catch late.</div>
+  <div class="brand">WHATNOT MARKET INTEL PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month inside Whatnot's market intelligence seat could look like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Map the vendor and data landscape</div>
+      <div class="body">Sit with the team to inventory which data sources and vendors feed today's market view, and where the quality gaps already sit before building anything new on top.</div>
+      <div class="why"><strong>Why first:</strong> the same vendor-and-data-quality audit I ran before building Sensata's own pricing dashboard.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Stand up one leading indicator</div>
+      <div class="body">Pick one livestream-shopping or adjacent-marketplace signal moving fast right now, and build the dashboard and escalation path that turns it into a decision before it is urgent.</div>
+      <div class="why"><strong>Why now:</strong> the same inflection-point forecasting that keeps Applied Materials' pricing ahead of its own market.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Turn one report into a tool</div>
+      <div class="body">Document the first recurring market-intelligence report as a repeatable process the next analyst can run, and flag one vendor relationship worth renegotiating.</div>
+      <div class="why"><strong>Why this fast:</strong> a market-intelligence read only earns leadership's trust once it survives being run by someone other than the person who built it.</div>
+    </div>
+  </div>
+  <div class="brand">WHATNOT MARKET INTEL PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to own the vendor relationships, the data quality, and the dashboard that turns both into a decision. I have already run that loop twice, at two different scales.</h2>
+  <div class="body">
+    <p>The core proof is Sensata: a Power BI system tracking <strong>1,200 pricing opportunities against a $627M target</strong>, <strong>$433M in margin gaps</strong> surfaced for leadership, and a 10+ competitor benchmark that drove <strong>+8% market share</strong>.</p>
+    <p>What is harder to find is someone who has also owned the vendor relationships and data quality underneath that kind of dashboard, not just the dashboard itself. <strong>I built that at Pixis</strong>, so the vendor-to-dashboard loop this role runs is not something I would need to learn on the job.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhithyabhaskar.vercel.app/ref/whatnot</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">WHATNOT MARKET INTEL PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
