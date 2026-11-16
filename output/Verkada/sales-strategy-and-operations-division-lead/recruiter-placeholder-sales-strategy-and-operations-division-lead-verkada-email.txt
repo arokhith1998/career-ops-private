@@ -1,0 +1,18 @@
+Subject: Sales Strategy and Operations Division Lead - the workflow-fixes line caught me
+
+Hi {Recruiter, Sales Strategy & Operations},
+
+I don't normally reach out before applying, but the line about finding workflow pain points and fixing them directly, or pairing with engineers on automation, is not how most strategy-and-ops postings describe the job. Most dress it up as "process improvement." This read like it came from inside a real backlog.
+
+At Sensata I built the Bleeders and Leakers Power BI dashboard across 1,200 pricing opportunities, turning a vague "something is off in pipeline" into a ranked list leadership could act on, which helped raise distributor margins from 53% to 61%. At PriceKeel, the company I founded, I built the CRM, CPQ and deal-approval flow from scratch. At Applied Materials I now use Claude agents to automate the repetitive side of that same analysis.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/verkada
+
+If this req is still open, I would value 15 minutes on what is actually breaking in the sales workflow today. If it is not yours, a pointer to the right person would help.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
