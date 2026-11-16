@@ -2,7 +2,7 @@ job_key	company	title	url	stage	verdict	first_seen	last_seen	times_seen	note
 zapply.jobs/l/d/google-134484035622576838	Google	Product Manager I, Ads	https://zapply.jobs/l/d/google-134484035622576838?s=gh-new-grad-jobs-2027	queued		2026-11-13	2026-11-16	16	
 zapply.jobs/l/d/workday-paloaltonetworks-panwexternalcareers-jr-024824	Palo Alto Networks	Associate IT Product Manager	https://zapply.jobs/l/d/workday-paloaltonetworks-panwexternalcareers-JR-024824?s=gh-new-grad-jobs-2027	queued	DROP:below-3.0	2026-11-14	2026-11-16	16	nightly discover 2026-11-16, Agent 4 score+queue
 linkedin.com/jobs/view/4438522291	Supermicro	Product Marketing Manager	https://www.linkedin.com/jobs/view/4438522291	queued		2026-10-05	2026-11-16	30	
-linkedin.com/jobs/view/4465180381	Whatnot	Market Intelligence Manager / Sr Manager	https://www.linkedin.com/jobs/view/4465180381	queued		2026-10-04	2026-11-16	8	nightly discover 2026-11-16, Agent 4 score+queue
+linkedin.com/jobs/view/4465180381	Whatnot	Market Intelligence Manager / Sr Manager	https://www.linkedin.com/jobs/view/4465180381	built	BUILT	2026-10-04	2026-11-16	9	nightly discover 2026-11-16, Agent 4 score+queue
 linkedin.com/jobs/view/4454166500	FuriosaAI	Product Marketing Manager - US	https://www.linkedin.com/jobs/view/4454166500	jd_extracted		2026-10-03	2026-11-16	4	
 linkedin.com/jobs/view/4454143147	Robinhood	Staff Product Manager, Banking	https://www.linkedin.com/jobs/view/4454143147	jd_extracted		2026-10-02	2026-11-16	4	
 linkedin.com/jobs/view/4464248545	Analog Devices	Staff Product Manager, Physical AI	https://www.linkedin.com/jobs/view/4464248545	queued	DROP:below-3.0	2026-11-16	2026-11-16	4	nightly discover 2026-11-16, Agent 4 score+queue

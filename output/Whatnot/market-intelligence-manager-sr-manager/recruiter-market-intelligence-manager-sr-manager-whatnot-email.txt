@@ -1,0 +1,31 @@
+Subject: Market Intelligence Manager/Sr Manager - a dashboard already built for this
+
+Hi {Recruiter, Market Intelligence},
+
+I do not normally reach out before applying, but one line in the posting stopped me: building leading
+indicators so teams have runway to act pre-emptively instead of reactively. That is the exact job I
+already do inside a market that re-prices on inflection points rather than quarters, and the pattern maps cleanly onto livestream shopping.
+
+Built you a 6-slide pitch deck so the proof fits in one read.
+
+A few anchors from it:
+- At Sensata I built the FY2026 Bleeders and Leakers Power BI dashboard: 1,200 pricing opportunities
+  against a $627M target across 3 regions, 4 product families and 20 product lines; it surfaced $433M in gaps leadership used to prioritize.
+- The price realignment that dashboard informed, built on competitive benchmarking across 10+ players,
+  drove +12% YoY revenue and +8% market share.
+- At Applied Materials I sit inside Sales, Engineering and Accounts to size a semiconductor market that
+  shifts on inflection points, and automate the repetitive analysis layer with Claude-built AI agents.
+- As founder of PriceKeel I am building the audit trail that turns a messy pricing decision into evidence Finance can trust, the same translation from noisy data to a decision-ready call this seat is built around.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/whatnot
+
+If this req sits with someone else on your team, a pointer in the right direction would help. If it is
+yours, I would like 20 minutes to walk through how the dashboard work above maps to Whatnot's market
+intelligence seat, and the deck is there if a first read works better on your side.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

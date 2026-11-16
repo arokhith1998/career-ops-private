@@ -1,0 +1,30 @@
+Subject: Turning noisy external data into a trusted market view for Whatnot
+
+Hi {Hiring Manager, Market Intelligence},
+
+I do not normally reach out before applying, but one phrase in the posting stopped me: turning
+fragmented and noisy data into a trusted picture of the market before a shift becomes urgent. That
+is the job I already run inside a market that re-prices on inflection points instead of quarters, and the same loop, vendor and data quality included, transfers cleanly to livestream shopping.
+
+Built you a 6-slide pitch deck so the proof fits in one read.
+
+A few anchors from it:
+- At Sensata I built the FY2026 Bleeders and Leakers Power BI dashboard: 1,200 pricing opportunities
+  against a $627M target across 3 regions, 4 product families and 20 product lines; it surfaced $433M in margin gaps for leadership instead of a spreadsheet.
+- That dashboard fed a price realignment, informed by competitive benchmarking across 10+ players,
+  that drove +12% YoY revenue and +8% market share, a leading indicator caught before it went reactive.
+- At Applied Materials I sit inside Sales, Engineering and Accounts to size a semiconductor market that shifts on inflection points, then turn that into forecasting models the business acts on.
+- As founder of PriceKeel I am building the audit trail that gives Finance and RevOps an explainable, evidence-backed pricing call instead of a gut one, the exact translation layer this seat owns.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/whatnot
+
+If 20 minutes works, I would like to walk through how that dashboard and vendor-facing discipline
+maps onto the buyer and seller experience you are trying to protect, with the deck as the one-read
+version if that is easier on your side. If this is not your req, a pointer toward whoever owns it would help.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
