@@ -1,33 +1,33 @@
 job_key	company	title	url	stage	verdict	first_seen	last_seen	times_seen	note
 zapply.jobs/l/d/google-134484035622576838	Google	Product Manager I, Ads	https://zapply.jobs/l/d/google-134484035622576838?s=gh-new-grad-jobs-2027	queued		2026-11-13	2026-11-16	13	
-zapply.jobs/l/d/workday-paloaltonetworks-panwexternalcareers-jr-024824	Palo Alto Networks	Associate IT Product Manager	https://zapply.jobs/l/d/workday-paloaltonetworks-panwexternalcareers-JR-024824?s=gh-new-grad-jobs-2027	jd_extracted		2026-11-14	2026-11-16	15	
+zapply.jobs/l/d/workday-paloaltonetworks-panwexternalcareers-jr-024824	Palo Alto Networks	Associate IT Product Manager	https://zapply.jobs/l/d/workday-paloaltonetworks-panwexternalcareers-JR-024824?s=gh-new-grad-jobs-2027	queued	DROP:below-3.0	2026-11-14	2026-11-16	16	nightly discover 2026-11-16, Agent 4 score+queue
 linkedin.com/jobs/view/4438522291	Supermicro	Product Marketing Manager	https://www.linkedin.com/jobs/view/4438522291	queued		2026-10-05	2026-11-16	30	
-linkedin.com/jobs/view/4465180381	Whatnot	Market Intelligence Manager / Sr Manager	https://www.linkedin.com/jobs/view/4465180381	jd_extracted		2026-10-04	2026-11-16	4	
+linkedin.com/jobs/view/4465180381	Whatnot	Market Intelligence Manager / Sr Manager	https://www.linkedin.com/jobs/view/4465180381	queued		2026-10-04	2026-11-16	5	nightly discover 2026-11-16, Agent 4 score+queue
 linkedin.com/jobs/view/4454166500	FuriosaAI	Product Marketing Manager - US	https://www.linkedin.com/jobs/view/4454166500	jd_extracted		2026-10-03	2026-11-16	4	
 linkedin.com/jobs/view/4454143147	Robinhood	Staff Product Manager, Banking	https://www.linkedin.com/jobs/view/4454143147	jd_extracted		2026-10-02	2026-11-16	4	
-linkedin.com/jobs/view/4464248545	Analog Devices	Staff Product Manager, Physical AI	https://www.linkedin.com/jobs/view/4464248545	jd_extracted		2026-11-16	2026-11-16	3	
+linkedin.com/jobs/view/4464248545	Analog Devices	Staff Product Manager, Physical AI	https://www.linkedin.com/jobs/view/4464248545	queued	DROP:below-3.0	2026-11-16	2026-11-16	4	nightly discover 2026-11-16, Agent 4 score+queue
 linkedin.com/jobs/view/4489378832	Meta	Product Marketing Leader, Facebook Monetization	https://www.linkedin.com/jobs/view/4489378832	jd_extracted		2026-11-16	2026-11-16	3	
-linkedin.com/jobs/view/4491263934	Visa	Senior Product Manager – Global Authentication Product Solutioning	https://www.linkedin.com/jobs/view/4491263934	jd_extracted		2026-11-16	2026-11-16	3	
-linkedin.com/jobs/view/4489705458	Applied Materials	Senior Product Manager, Applied Global Services	https://www.linkedin.com/jobs/view/4489705458	jd_extracted		2026-11-16	2026-11-16	3	
-linkedin.com/jobs/view/4491283715	Hewlett Packard Enterprise	Associate Brand Marketing Manager	https://www.linkedin.com/jobs/view/4491283715	jd_extracted		2026-11-16	2026-11-16	3	
+linkedin.com/jobs/view/4491263934	Visa	Senior Product Manager – Global Authentication Product Solutioning	https://www.linkedin.com/jobs/view/4491263934	queued	DROP:below-3.0	2026-11-16	2026-11-16	4	nightly discover 2026-11-16, Agent 4 score+queue
+linkedin.com/jobs/view/4489705458	Applied Materials	Senior Product Manager, Applied Global Services	https://www.linkedin.com/jobs/view/4489705458	queued	DROP:below-3.0	2026-11-16	2026-11-16	4	nightly discover 2026-11-16, Agent 4 score+queue
+linkedin.com/jobs/view/4491283715	Hewlett Packard Enterprise	Associate Brand Marketing Manager	https://www.linkedin.com/jobs/view/4491283715	queued		2026-11-16	2026-11-16	4	nightly discover 2026-11-16, Agent 4 score+queue
 linkedin.com/jobs/view/4491289580	Torentify	Digital Marketing Manager - Remote	https://www.linkedin.com/jobs/view/4491289580	dropped	NO-BUILD:unidentifiable-employer-after-4-lookups	2026-11-16	2026-11-16	4	
 linkedin.com/jobs/view/4490272279	Jobgether	Growth Marketing Lead	https://www.linkedin.com/jobs/view/4490272279	dropped	NO-BUILD:hidden-employer-partner-company-unnamed	2026-11-16	2026-11-16	4	
-linkedin.com/jobs/view/4489704534	AgileGrid Solutions	Digital Marketing Manager	https://www.linkedin.com/jobs/view/4489704534	jd_extracted		2026-11-16	2026-11-16	3	
-linkedin.com/jobs/view/4475079561	Factory	Business Operations	https://www.linkedin.com/jobs/view/4475079561	jd_extracted		2026-11-16	2026-11-16	3	
+linkedin.com/jobs/view/4489704534	AgileGrid Solutions	Digital Marketing Manager	https://www.linkedin.com/jobs/view/4489704534	queued		2026-11-16	2026-11-16	4	nightly discover 2026-11-16, Agent 4 score+queue
+linkedin.com/jobs/view/4475079561	Factory	Business Operations	https://www.linkedin.com/jobs/view/4475079561	queued		2026-11-16	2026-11-16	4	nightly discover 2026-11-16, Agent 4 score+queue
 linkedin.com/jobs/view/4490203945	NVIDIA	Senior Product Manager - NVIDIA Sentry and DOCA Security	https://www.linkedin.com/jobs/view/4490203945	jd_extracted		2026-11-16	2026-11-16	3	
-linkedin.com/jobs/view/4447212695	Brex	Staff Product Manager, Card	https://www.linkedin.com/jobs/view/4447212695	jd_extracted		2026-11-16	2026-11-16	3	
-linkedin.com/jobs/view/4447094836	Brex	Staff Product Manager, Embedded	https://www.linkedin.com/jobs/view/4447094836	jd_extracted		2026-11-16	2026-11-16	3	
-linkedin.com/jobs/view/4438527110	Supermicro	Sr. Product Manager	https://www.linkedin.com/jobs/view/4438527110	jd_extracted		2026-11-16	2026-11-16	3	
+linkedin.com/jobs/view/4447212695	Brex	Staff Product Manager, Card	https://www.linkedin.com/jobs/view/4447212695	dropped	SKIP:duplicate-of-tracked-rows-832-833-2026-10-06	2026-11-16	2026-11-16	4	same req (brex.com 8659220002 Card / 8659204002 Embedded) already scored and tracked at #832 (2.9) and #833 (2.6); no new report or tracker row created tonight
+linkedin.com/jobs/view/4447094836	Brex	Staff Product Manager, Embedded	https://www.linkedin.com/jobs/view/4447094836	dropped	SKIP:duplicate-of-tracked-rows-832-833-2026-10-06	2026-11-16	2026-11-16	4	same req (brex.com 8659220002 Card / 8659204002 Embedded) already scored and tracked at #832 (2.9) and #833 (2.6); no new report or tracker row created tonight
+linkedin.com/jobs/view/4438527110	Supermicro	Sr. Product Manager	https://www.linkedin.com/jobs/view/4438527110	queued	DROP:below-3.0	2026-11-16	2026-11-16	4	nightly discover 2026-11-16, Agent 4 score+queue
 linkedin.com/jobs/view/4438543264	Scale	Product Manager, Enterprise Core Platform	https://www.linkedin.com/jobs/view/4438543264	jd_extracted		2026-11-16	2026-11-16	3	
-linkedin.com/jobs/view/4491275183	Arceus	Founding Growth Marketing Lead	https://www.linkedin.com/jobs/view/4491275183	jd_extracted		2026-11-16	2026-11-16	3	
+linkedin.com/jobs/view/4491275183	Arceus	Founding Growth Marketing Lead	https://www.linkedin.com/jobs/view/4491275183	queued		2026-11-16	2026-11-16	4	nightly discover 2026-11-16, Agent 4 score+queue
 linkedin.com/jobs/view/4473190252	KLA	Senior Product Marketing Manager	https://www.linkedin.com/jobs/view/4473190252	jd_extracted		2026-11-16	2026-11-16	3	
 linkedin.com/jobs/view/4466259138	Meta	Business Operations Manager, Ads Sales	https://www.linkedin.com/jobs/view/4466259138	jd_extracted		2026-11-16	2026-11-16	3	
-linkedin.com/jobs/view/4266221802	Decagon	Founders' Office, Business Operations	https://www.linkedin.com/jobs/view/4266221802	jd_extracted		2026-11-16	2026-11-16	3	
+linkedin.com/jobs/view/4266221802	Decagon	Founders' Office, Business Operations	https://www.linkedin.com/jobs/view/4266221802	queued		2026-11-16	2026-11-16	4	nightly discover 2026-11-16, Agent 4 score+queue
 linkedin.com/jobs/view/4473192242	KLA	Senior Field Marketing Manager	https://www.linkedin.com/jobs/view/4473192242	jd_extracted		2026-11-16	2026-11-16	3	
-linkedin.com/jobs/view/4490227757	Diamond Peak Recruiting	Growth Marketing Manager	https://www.linkedin.com/jobs/view/4490227757	jd_extracted		2026-11-16	2026-11-16	3	
-linkedin.com/jobs/view/4490251118	Haystack	Junior Revenue Operations Analyst	https://www.linkedin.com/jobs/view/4490251118	jd_extracted		2026-11-16	2026-11-16	3	
-linkedin.com/jobs/view/4489518115	TransferX	Founders Office Associate	https://www.linkedin.com/jobs/view/4489518115	jd_extracted		2026-11-16	2026-11-16	3	
-linkedin.com/jobs/view/4475040403	G2	Senior Sales Strategy & Operations Manager	https://www.linkedin.com/jobs/view/4475040403	jd_extracted		2026-11-16	2026-11-16	3	
+linkedin.com/jobs/view/4490227757	Diamond Peak Recruiting	Growth Marketing Manager	https://www.linkedin.com/jobs/view/4490227757	queued		2026-11-16	2026-11-16	4	nightly discover 2026-11-16, Agent 4 score+queue
+linkedin.com/jobs/view/4490251118	Haystack	Junior Revenue Operations Analyst	https://www.linkedin.com/jobs/view/4490251118	queued	DROP:below-3.0	2026-11-16	2026-11-16	4	nightly discover 2026-11-16, Agent 4 score+queue
+linkedin.com/jobs/view/4489518115	TransferX	Founders Office Associate	https://www.linkedin.com/jobs/view/4489518115	queued		2026-11-16	2026-11-16	4	nightly discover 2026-11-16, Agent 4 score+queue
+linkedin.com/jobs/view/4475040403	G2	Senior Sales Strategy & Operations Manager	https://www.linkedin.com/jobs/view/4475040403	queued		2026-11-16	2026-11-16	4	nightly discover 2026-11-16, Agent 4 score+queue
 zapply.jobs/l/d/workday-jj-jj-r-110704	Johnson & Johnson	Account Executive Wound Closure (Hanover/Burlington) – Johnson & Johnson MedTech – Surgery	https://zapply.jobs/l/d/workday-jj-jj-R-110704?s=gh-new-grad-jobs-2027	dropped	DROP:no-target-role-match	2026-11-16	2026-11-16	1	
 zapply.jobs/l/d/workday-jj-jj-r-110699	Johnson & Johnson	Account Executive, Biosurgery (Los Angeles, CA) - Johnson & Johnson MedTech, Surgery	https://zapply.jobs/l/d/workday-jj-jj-R-110699?s=gh-new-grad-jobs-2027	dropped	DROP:no-target-role-match	2026-11-16	2026-11-16	1	
 zapply.jobs/l/d/workday-cae-career-124261	CAE	Supporting Crew Member	https://zapply.jobs/l/d/workday-cae-career-124261?s=gh-new-grad-jobs-2027	dropped	DROP:no-target-role-match	2026-11-16	2026-11-16	1	
@@ -248,6 +248,8 @@ jobs.weekday.works/wkdyy0caza	KNR Management Consultants	Chief of Staff (Chairma
 workatastartup.com/jobs/83448	Enerjazz	Chief of Staff	https://www.workatastartup.com/jobs/83448	jd_extracted		2026-11-16	2026-11-16	2	
 jobs.weekday.works/wkdy5g84yi	National Skill Development Corporation	Chief of Staff	https://jobs.weekday.works/wkdy5g84yi	jd_extracted		2026-11-16	2026-11-16	2	
 jobs.weekday.works/wkdya33b6k	Welspun World	Chief of Staff	https://jobs.weekday.works/wkdya33b6k	jd_extracted		2026-11-16	2026-11-16	2	
+boards.greenhouse.io/robinhood/jobs/8044746?gh_jid=8044746	Robinhood	Staff Product Manager, Banking	https://boards.greenhouse.io/robinhood/jobs/8044746?t=gh_src=&gh_jid=8044746	dropped	DROP:below-3.0	2026-11-05	2026-11-16	8	nightly discover 2026-11-16, Agent 4 score+queue
+job-boards.greenhouse.io/scaleai/jobs/4699779005	ScaleAI	Product Manager, Enterprise Core Platform	https://job-boards.greenhouse.io/scaleai/jobs/4699779005	dropped	DROP:below-3.0	2026-11-04	2026-11-16	5	nightly discover 2026-11-16, Agent 4 score+queue
 jobs.ashbyhq.com/perplexity/f4312e0a-7d39-4af9-9a7d-b0fe041a228a	Perplexity	Product Manager, Legal	https://jobs.ashbyhq.com/Perplexity/f4312e0a-7d39-4af9-9a7d-b0fe041a228a	dropped	DROP:below-3.0	2026-11-12	2026-11-15	16	
 zapply.jobs/l/d/workday-cisco-cisco-careers-2030278	Cisco	Software Platforms Product Manager Cloud Hybrid California	https://zapply.jobs/l/d/workday-cisco-cisco-careers-2030278?s=gh-new-grad-jobs-2027	dropped	DROP:below-3.0	2026-11-13	2026-11-15	13	
 jobs.ashbyhq.com/plaid/d085d50f-c375-4977-84c7-a387023ae42c	Plaid	Staff Product Manager - Data Supply Expansion	https://jobs.ashbyhq.com/plaid/d085d50f-c375-4977-84c7-a387023ae42c	dropped	DROP:below-3.0	2026-11-13	2026-11-15	7	
@@ -8903,7 +8905,6 @@ linkedin.com/jobs/view/4477013405	Marvell Technology	Sr. Staff Manager, Market I
 linkedin.com/jobs/view/4485854520	FedSavvy Strategies	Senior Associate, Market and Competitive Intelligence	https://www.linkedin.com/jobs/view/4485854520	dropped	DROP:outside-target-metro	2026-11-06	2026-11-06	1	
 linkedin.com/jobs/view/4485812717	Ladders	Vice President, Commercial Strategy	https://www.linkedin.com/jobs/view/4485812717	dropped	DROP:no-target-role-match	2026-11-06	2026-11-06	1	
 linkedin.com/jobs/view/4411774771	Boston Consulting Group (BCG)	Senior Analyst - BCG Vantage, B2B SaaS (Topic Activation Track)	https://www.linkedin.com/jobs/view/4411774771	dropped	DROP:no-target-role-match	2026-11-06	2026-11-06	1	
-boards.greenhouse.io/robinhood/jobs/8044746?gh_jid=8044746	Robinhood	Staff Product Manager, Banking	https://boards.greenhouse.io/robinhood/jobs/8044746?t=gh_src=&gh_jid=8044746	dropped	DROP:below-3.0	2026-11-05	2026-11-06	7	
 jobs.ashbyhq.com/airwallex/2fd283e7-a736-46b0-ba17-5fd3a5cefe17	Airwallex	Staff Product Manager, Card Schemes	https://jobs.ashbyhq.com/airwallex/2fd283e7-a736-46b0-ba17-5fd3a5cefe17	dropped	DROP:over-cap	2026-11-05	2026-11-06	4	
 jobs.ashbyhq.com/airwallex/d18f4a94-34a8-4548-b3e4-85589f2c620d	Airwallex	Staff Product Manager, Embedded Finance	https://jobs.ashbyhq.com/airwallex/d18f4a94-34a8-4548-b3e4-85589f2c620d	dropped	DROP:below-3.0	2026-11-05	2026-11-06	5	
 jobs.ashbyhq.com/airwallex/9f8b52f7-cad6-40d1-9f98-2f2ed0cb3905	Airwallex	Staff Product Manager, T:0 (Agentic) Finance	https://jobs.ashbyhq.com/airwallex/9f8b52f7-cad6-40d1-9f98-2f2ed0cb3905	dropped	DROP:over-cap	2026-11-05	2026-11-06	4	
@@ -10030,7 +10031,6 @@ linkedin.com/jobs/view/4485587394	Medline	Director Marketing, Product Marketing	
 zapply.jobs/l/d/workday-snapchat-snap-r0047422	Snap	Product Manager, Ads Product - Brand	https://zapply.jobs/l/d/workday-snapchat-snap-R0047422?s=gh-new-grad-jobs-2027	jd_extracted		2026-11-03	2026-11-05	11	
 jobs.ashbyhq.com/demandbase/67ada533-3bd1-4127-94ed-1d0ca0bf75eb	Demandbase	Lead Product Manager, Platform (Orchestration & AI)	https://jobs.ashbyhq.com/demandbase/67ada533-3bd1-4127-94ed-1d0ca0bf75eb	dropped	DROP:below-3.0	2026-11-04	2026-11-05	4	
 workato.com/careers?gh_jid=8676108002	Workato	Senior Product Manager (Enterprise MCP/AI Control Plane)	https://www.workato.com/careers?gh_jid=8676108002#open-roles	dropped	DROP:below-3.0	2026-11-04	2026-11-05	4	
-job-boards.greenhouse.io/scaleai/jobs/4699779005	ScaleAI	Product Manager, Enterprise Core Platform	https://job-boards.greenhouse.io/scaleai/jobs/4699779005	dropped	DROP:below-3.0	2026-11-04	2026-11-05	4	
 job-boards.greenhouse.io/scaleai/jobs/4720501005	ScaleAI	Senior AI Product Manager	https://job-boards.greenhouse.io/scaleai/jobs/4720501005	dropped	DROP:below-3.0	2026-11-04	2026-11-05	4	
 databricks.com/company/careers/open-positions/job?gh_jid=8560772002	Databricks	Staff Product Manager, Agentic AI Applications	https://databricks.com/company/careers/open-positions/job?gh_jid=8560772002	dropped	DROP:below-3.0	2026-11-04	2026-11-05	4	
 boards.greenhouse.io/robinhood/jobs/8204521?gh_jid=8204521	Robinhood	Senior Product Manager, Capital Markets	https://boards.greenhouse.io/robinhood/jobs/8204521?t=gh_src=&gh_jid=8204521	dropped	DROP:below-3.0	2026-11-04	2026-11-05	4	
