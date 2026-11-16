@@ -1,0 +1,20 @@
+Subject: A budget-pacing audit that catches the exception before it ships
+
+Hi {Hiring Manager, Deals Strategy and Operations},
+
+Your posting asks for someone who audits incentive workflows across the Video Incentive, Media Trials and Media Readiness programs, tracks budgets across funding pools and geo-sectors, and recommends reallocations before a cap gets breached. That is close to the Bleeders and Leakers work I run today, why I am reaching out before applying.
+
+At Sensata I built a BU-wide Power BI dashboard tracking 1,200 opportunities against a $627M target across 3 regions, flagging any line item pushing profitability past a 50% cap. At Plug Power I owned a $100K monthly budget end to end; at Pixis I ran budgets from $15K to $90K across 8 clients at once. At Applied Materials I write the forecasting models setting budget assumptions, and automate recurring audit work with Claude AI agents.
+
+I've attached my resume and cover letter.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/google
+
+Would you have 15 minutes to talk through which of the three programs is under the most budget pressure right now?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
