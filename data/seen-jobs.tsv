@@ -2,7 +2,7 @@ job_key	company	title	url	stage	verdict	first_seen	last_seen	times_seen	note
 zapply.jobs/l/d/google-134484035622576838	Google	Product Manager I, Ads	https://zapply.jobs/l/d/google-134484035622576838?s=gh-new-grad-jobs-2027	queued		2026-11-13	2026-11-16	16	
 zapply.jobs/l/d/workday-paloaltonetworks-panwexternalcareers-jr-024824	Palo Alto Networks	Associate IT Product Manager	https://zapply.jobs/l/d/workday-paloaltonetworks-panwexternalcareers-JR-024824?s=gh-new-grad-jobs-2027	queued	DROP:below-3.0	2026-11-14	2026-11-16	16	nightly discover 2026-11-16, Agent 4 score+queue
 linkedin.com/jobs/view/4438522291	Supermicro	Product Marketing Manager	https://www.linkedin.com/jobs/view/4438522291	queued		2026-10-05	2026-11-16	30	
-linkedin.com/jobs/view/4465180381	Whatnot	Market Intelligence Manager / Sr Manager	https://www.linkedin.com/jobs/view/4465180381	built	BUILT	2026-10-04	2026-11-16	9	nightly discover 2026-11-16, Agent 4 score+queue
+linkedin.com/jobs/view/4465180381	Whatnot	Market Intelligence Manager / Sr Manager	https://www.linkedin.com/jobs/view/4465180381	built	BUILT	2026-10-04	2026-11-16	10	nightly discover 2026-11-16, Agent 4 score+queue
 linkedin.com/jobs/view/4454166500	FuriosaAI	Product Marketing Manager - US	https://www.linkedin.com/jobs/view/4454166500	jd_extracted		2026-10-03	2026-11-16	4	
 linkedin.com/jobs/view/4454143147	Robinhood	Staff Product Manager, Banking	https://www.linkedin.com/jobs/view/4454143147	jd_extracted		2026-10-02	2026-11-16	4	
 linkedin.com/jobs/view/4464248545	Analog Devices	Staff Product Manager, Physical AI	https://www.linkedin.com/jobs/view/4464248545	queued	DROP:below-3.0	2026-11-16	2026-11-16	4	nightly discover 2026-11-16, Agent 4 score+queue
@@ -19,10 +19,10 @@ linkedin.com/jobs/view/4447212695	Brex	Staff Product Manager, Card	https://www.l
 linkedin.com/jobs/view/4447094836	Brex	Staff Product Manager, Embedded	https://www.linkedin.com/jobs/view/4447094836	dropped	SKIP:duplicate-of-tracked-rows-832-833-2026-10-06	2026-11-16	2026-11-16	4	same req (brex.com 8659220002 Card / 8659204002 Embedded) already scored and tracked at #832 (2.9) and #833 (2.6); no new report or tracker row created tonight
 linkedin.com/jobs/view/4438527110	Supermicro	Sr. Product Manager	https://www.linkedin.com/jobs/view/4438527110	queued	DROP:below-3.0	2026-11-16	2026-11-16	4	nightly discover 2026-11-16, Agent 4 score+queue
 linkedin.com/jobs/view/4438543264	Scale	Product Manager, Enterprise Core Platform	https://www.linkedin.com/jobs/view/4438543264	jd_extracted		2026-11-16	2026-11-16	3	
-linkedin.com/jobs/view/4491275183	Arceus	Founding Growth Marketing Lead	https://www.linkedin.com/jobs/view/4491275183	built	BUILT	2026-11-16	2026-11-16	5	nightly discover 2026-11-16, Agent 4 score+queue
+linkedin.com/jobs/view/4491275183	Arceus	Founding Growth Marketing Lead	https://www.linkedin.com/jobs/view/4491275183	built	BUILT	2026-11-16	2026-11-16	6	nightly discover 2026-11-16, Agent 4 score+queue
 linkedin.com/jobs/view/4473190252	KLA	Senior Product Marketing Manager	https://www.linkedin.com/jobs/view/4473190252	dropped	DROP:over-cap JD states 8+ years semiconductor industry experience, over us track cap of 6	2026-11-16	2026-11-16	7	
 linkedin.com/jobs/view/4466259138	Meta	Business Operations Manager, Ads Sales	https://www.linkedin.com/jobs/view/4466259138	jd_extracted		2026-11-16	2026-11-16	3	
-linkedin.com/jobs/view/4266221802	Decagon	Founders' Office, Business Operations	https://www.linkedin.com/jobs/view/4266221802	built	BUILT	2026-11-16	2026-11-16	5	nightly discover 2026-11-16, Agent 4 score+queue
+linkedin.com/jobs/view/4266221802	Decagon	Founders' Office, Business Operations	https://www.linkedin.com/jobs/view/4266221802	built	BUILT	2026-11-16	2026-11-16	6	nightly discover 2026-11-16, Agent 4 score+queue
 linkedin.com/jobs/view/4473192242	KLA	Senior Field Marketing Manager	https://www.linkedin.com/jobs/view/4473192242	jd_extracted		2026-11-16	2026-11-16	3	
 linkedin.com/jobs/view/4490227757	Diamond Peak Recruiting	Growth Marketing Manager	https://www.linkedin.com/jobs/view/4490227757	queued		2026-11-16	2026-11-16	4	nightly discover 2026-11-16, Agent 4 score+queue
 linkedin.com/jobs/view/4490251118	Haystack	Junior Revenue Operations Analyst	https://www.linkedin.com/jobs/view/4490251118	queued	DROP:below-3.0	2026-11-16	2026-11-16	4	nightly discover 2026-11-16, Agent 4 score+queue
@@ -261,7 +261,7 @@ linkedin.com/jobs/view/4490268908	Optimum Solutions Pte Ltd	Chief of Staff	https
 linkedin.com/jobs/view/4489724678	InfrOS	Product Marketing Manager	https://www.linkedin.com/jobs/view/4489724678	queued		2026-11-16	2026-11-16	4	
 mongodb.com/careers/job?gh_jid=8367109	MongoDB	Revenue Marketing Manager	https://www.mongodb.com/careers/job/?gh_jid=8367109	queued		2026-11-16	2026-11-16	4	
 linkedin.com/jobs/view/4490266886	Soch Street	Founder's Office - Growth	https://www.linkedin.com/jobs/view/4490266886	dropped	DROP:below-comp-floor JD-stated comp band verbatim "15 - 25 LPA"; top of range 25 LPA is below the 35 LPA floor	2026-11-16	2026-11-16	4	
-linkedin.com/jobs/view/4475094204	1Password	Senior Product Marketing Manager, Agentic Identity Security (Apono)	https://www.linkedin.com/jobs/view/4475094204	built	BUILT	2026-11-16	2026-11-16	5	
+linkedin.com/jobs/view/4475094204	1Password	Senior Product Marketing Manager, Agentic Identity Security (Apono)	https://www.linkedin.com/jobs/view/4475094204	built	BUILT	2026-11-16	2026-11-16	6	
 linkedin.com/jobs/view/4417662697	SHI International Corp.	Sr. Solutions Marketing Manager - Cybersecurity	https://www.linkedin.com/jobs/view/4417662697	queued		2026-11-16	2026-11-16	4	
 linkedin.com/jobs/view/4483259370	ACI Worldwide	Sr Pricing Manager	https://www.linkedin.com/jobs/view/4483259370	dropped	DROP:over-cap JD states 8y minimum, over us track cap of 6 (also carries an explicit no-sponsorship-ever hard wall)	2026-11-16	2026-11-16	4	
 linkedin.com/jobs/view/4490264862	Google	Deals Strategy and Operations Senior Associate	https://www.linkedin.com/jobs/view/4490264862	queued		2026-11-16	2026-11-16	4	
@@ -535,6 +535,11 @@ linkedin.com/jobs/view/4491501276	Meriplex	Director of Sales Strategy and Operat
 linkedin.com/jobs/view/4437925312	Rivian	Staff Program Manager, Sales Performance	https://www.linkedin.com/jobs/view/4437925312	dropped	DROP:no-target-role-match	2026-11-16	2026-11-16	1	
 linkedin.com/jobs/view/4490282247	Jobgether	Senior Sales Systems Manager, New Construction	https://www.linkedin.com/jobs/view/4490282247	dropped	DROP:no-target-role-match	2026-11-16	2026-11-16	1	
 linkedin.com/jobs/view/4456763606	Verkada	Sales Strategy and Operations Division Lead	https://www.linkedin.com/jobs/view/4456763606	built	BUILT	2026-11-15	2026-11-16	5	
+jobs.lever.co/onehouse/a3f089cf-4717-4556-96bb-754611a94314	Onehouse	Chief of Staff	https://jobs.lever.co/Onehouse/a3f089cf-4717-4556-96bb-754611a94314	built	BUILT	2026-11-12	2026-11-16	5	
+linkedin.com/jobs/view/4490504038	Blacksmith Agency	Growth Marketing Manager (Remote, Washington)	https://www.linkedin.com/jobs/view/4490504038	dropped	SKIP:templated-repost-13-city-variants-2-already-built	2026-11-13	2026-11-16	6	
+linkedin.com/jobs/view/4489637218	Blacksmith Agency	Growth Marketing Manager (Remote, San Diego)	https://www.linkedin.com/jobs/view/4489637218	dropped	SKIP:templated-repost-13-city-variants-2-already-built	2026-11-11	2026-11-16	7	
+linkedin.com/jobs/view/4489615913	Blacksmith Agency	Growth Marketing Manager (Remote, San Antonio)	https://www.linkedin.com/jobs/view/4489615913	dropped	SKIP:templated-repost-13-city-variants-2-already-built	2026-11-11	2026-11-16	7	
+linkedin.com/jobs/view/4480916234	Blacksmith Agency	Demand Generation Manager (Remote, Denver)	https://www.linkedin.com/jobs/view/4480916234	dropped	SKIP:templated-repost-13-city-variants-2-already-built	2026-10-19	2026-11-16	24	
 jobs.ashbyhq.com/perplexity/f4312e0a-7d39-4af9-9a7d-b0fe041a228a	Perplexity	Product Manager, Legal	https://jobs.ashbyhq.com/Perplexity/f4312e0a-7d39-4af9-9a7d-b0fe041a228a	dropped	DROP:below-3.0	2026-11-12	2026-11-15	16	
 zapply.jobs/l/d/workday-cisco-cisco-careers-2030278	Cisco	Software Platforms Product Manager Cloud Hybrid California	https://zapply.jobs/l/d/workday-cisco-cisco-careers-2030278?s=gh-new-grad-jobs-2027	dropped	DROP:below-3.0	2026-11-13	2026-11-15	13	
 jobs.ashbyhq.com/plaid/d085d50f-c375-4977-84c7-a387023ae42c	Plaid	Staff Product Manager - Data Supply Expansion	https://jobs.ashbyhq.com/plaid/d085d50f-c375-4977-84c7-a387023ae42c	dropped	DROP:below-3.0	2026-11-13	2026-11-15	7	
@@ -2703,7 +2708,6 @@ linkedin.com/jobs/view/4488585008	Nclusion	Marketing Manager, Gaming & Sports Be
 linkedin.com/jobs/view/4489282463	Haystack	Digital Marketing Manager	https://www.linkedin.com/jobs/view/4489282463	queued		2026-11-13	2026-11-13	5	
 linkedin.com/jobs/view/4489502050	Google	Marketing Manager, YouTube Music and Premium GTM	https://www.linkedin.com/jobs/view/4489502050	dropped	DROP:below-3.0 (2.6/5 - consumer brand activations and affiliate/creator program launch minimum quals unsupported)	2026-11-13	2026-11-13	5	
 linkedin.com/jobs/view/4489297168	Haystack	Growth Marketing Manager	https://www.linkedin.com/jobs/view/4489297168	dropped	DROP:over-cap	2026-11-13	2026-11-13	4	
-linkedin.com/jobs/view/4490504038	Blacksmith Agency	Growth Marketing Manager (Remote, Washington)	https://www.linkedin.com/jobs/view/4490504038	queued		2026-11-13	2026-11-13	5	
 linkedin.com/jobs/view/4489205466	Superworq	Digital Marketing Manager, Operations	https://www.linkedin.com/jobs/view/4489205466	dropped	DROP:below-3.0 (2.2/5 - posted as Superworq, real employer Stryker; 8+yr plus 4+yr UX/design and ECM/DXP systems required, not on file)	2026-11-13	2026-11-13	5	
 linkedin.com/jobs/view/4490512057	Blacksmith Agency	Growth Marketing Manager (Remote, Chicago)	https://www.linkedin.com/jobs/view/4490512057	dropped	DROP:duplicate-existing-opening (templated repost of #2538/#2660, same role posted under 13+ city labels)	2026-11-13	2026-11-13	5	
 linkedin.com/jobs/view/4482719553	Blackboard	Senior Growth Marketing Manager - Business & Government	https://www.linkedin.com/jobs/view/4482719553	dropped	DROP:over-cap	2026-11-13	2026-11-13	4	
@@ -4022,7 +4026,6 @@ linkedin.com/jobs/view/4489089776	Novonesis	Senior Specialist - Market Developme
 jobs.lever.co/levelai/547c0e23-c994-418b-b256-3e44333a75b6	Level AI	Revenue Operations Architect (GTM Systems Builder)	https://jobs.lever.co/levelai/547c0e23-c994-418b-b256-3e44333a75b6	built	BUILT	2026-11-12	2026-11-12	4	
 job-boards.greenhouse.io/faire/jobs/8786049002	Faire	Strategy & Operations Senior Lead, Brand Growth	https://job-boards.greenhouse.io/faire/jobs/8786049002	dropped	DROP:over-experience-cap	2026-11-12	2026-11-12	3	
 jobs.weekday.works/chief-of-staff-at-resultflow-wkdysmtxkq	Resultflow	Chief of Staff	https://jobs.weekday.works/chief-of-staff-at-resultflow-wkdysmtxkq	built	BUILT	2026-11-12	2026-11-12	4	
-jobs.lever.co/onehouse/a3f089cf-4717-4556-96bb-754611a94314	Onehouse	Chief of Staff	https://jobs.lever.co/Onehouse/a3f089cf-4717-4556-96bb-754611a94314	built	BUILT	2026-11-12	2026-11-12	4	
 job-boards.greenhouse.io/gleanwork/jobs/4661658005	Glean	Senior Product Marketing Manager, Pricing & Packaging	https://job-boards.greenhouse.io/gleanwork/jobs/4661658005	dropped	DROP:liveness-dead	2026-11-12	2026-11-12	2	
 job-boards.greenhouse.io/fictiv/jobs/8125105002	Fictiv	Pricing Manager	https://job-boards.greenhouse.io/fictiv/jobs/8125105002	dropped	DROP:liveness-dead	2026-11-12	2026-11-12	2	
 job-boards.greenhouse.io/vercel/jobs/5979660004	Vercel	Pricing Product Manager	https://job-boards.greenhouse.io/vercel/jobs/5979660004	dropped	DROP:liveness-dead	2026-11-12	2026-11-12	2	
@@ -4053,8 +4056,6 @@ linkedin.com/jobs/view/4488601375	Haystack	Digital Marketing Manager	https://www
 linkedin.com/jobs/view/4487819826	Sanmina	Manager, Product Marketing	https://www.linkedin.com/jobs/view/4487819826	dropped	DROP:over-cap	2026-11-11	2026-11-11	4	
 linkedin.com/jobs/view/4488384845	Haystack	Growth Marketing Manager	https://www.linkedin.com/jobs/view/4488384845	dropped	DROP:over-cap	2026-11-11	2026-11-11	4	
 linkedin.com/jobs/view/4487466437	TalentHop	Senior Digital Marketing Manager	https://www.linkedin.com/jobs/view/4487466437	dropped	SKIP:employer-hidden	2026-11-11	2026-11-11	4	
-linkedin.com/jobs/view/4489637218	Blacksmith Agency	Growth Marketing Manager (Remote, San Diego)	https://www.linkedin.com/jobs/view/4489637218	queued		2026-11-11	2026-11-11	6	
-linkedin.com/jobs/view/4489615913	Blacksmith Agency	Growth Marketing Manager (Remote, San Antonio)	https://www.linkedin.com/jobs/view/4489615913	queued		2026-11-11	2026-11-11	6	
 linkedin.com/jobs/view/4489622239	Numerator	Sales Operations Associate	https://www.linkedin.com/jobs/view/4489622239	queued		2026-11-11	2026-11-11	6	
 linkedin.com/jobs/view/4487874050	Fastly	Sales Strategy & Operations Analyst	https://www.linkedin.com/jobs/view/4487874050	shortlisted		2026-11-11	2026-11-11	1	
 linkedin.com/jobs/view/4488622062	Cube	Founder's Office Associate	https://www.linkedin.com/jobs/view/4488622062	queued		2026-11-11	2026-11-11	8	
@@ -4879,7 +4880,6 @@ linkedin.com/jobs/view/4476908987	General Medicine	Product Manager, Consumer	htt
 linkedin.com/jobs/view/4476793338	Fours (formerly Suger)	Growth Marketing Manager	https://www.linkedin.com/jobs/view/4476793338	queued		2026-10-08	2026-11-11	26	
 linkedin.com/jobs/view/4467917170	Amazon Web Services (AWS)	Sr. Partner Marketing Manager, Public Sector Strategy, AWS Industry Partner Marketing	https://www.linkedin.com/jobs/view/4467917170	queued		2026-10-08	2026-11-11	26	
 linkedin.com/jobs/view/4479948697	FINAGG Technologies Private Limited	Chief of Staff to the Co-Founder & CEO	https://www.linkedin.com/jobs/view/4479948697	queued		2026-10-19	2026-11-11	26	
-linkedin.com/jobs/view/4480916234	Blacksmith Agency	Demand Generation Manager (Remote, Denver)	https://www.linkedin.com/jobs/view/4480916234	queued		2026-10-19	2026-11-11	23	
 linkedin.com/jobs/view/4471827670	SambaNova	Partner Marketing Manager	https://www.linkedin.com/jobs/view/4471827670	queued		2026-10-18	2026-11-11	26	
 linkedin.com/jobs/view/4369297333	Anrok	Product Manager, Activation	https://www.linkedin.com/jobs/view/4369297333	queued		2026-09-28	2026-11-11	24	
 linkedin.com/jobs/view/4365601610	OVERJET	Lead Product Manager, New Products	https://www.linkedin.com/jobs/view/4365601610	queued		2026-10-19	2026-11-11	23	
