@@ -1,44 +1,23 @@
-# Vitalpro Consumer Pvt Ltd - Executive Assistant, Founder's Office
+# Vitalpro Consumer Pvt Ltd - Executive Assistant - Founder's Office
 
-**Company:** Vitalpro Consumer Pvt Ltd
-**Title:** Executive Assistant - Founder's Office
-**URL:** https://www.linkedin.com/jobs/view/4490745037
-**Req/Posting ID:** Not stated (LinkedIn job id 4490745037)
-**Posted Date:** Fetched 2026-11-14; LinkedIn relative tag "19 hours ago"
+**Company:** Vitalpro Consumer Pvt Ltd (fuller legal name not stated on page)
+**URL:** https://www.linkedin.com/jobs/view/4489385819
+**Posted:** "21 hours ago" (relative, fetched 2026-11-16), 166 applicants at capture
 **Location(s):** Mumbai Metropolitan Region
-**Employment Type:** Full-time
-**Seniority (LinkedIn tag):** Executive
-**Industries (LinkedIn tag):** Food and Beverage Manufacturing
-**Comp Band Stated:** Not stated
+**Employment Type:** Full-time. Seniority: Executive. Reports to Founder/CEO.
+**Industry:** Food and Beverage Manufacturing
+**Experience required:** 3-10 years
+**Comp band (stated):** Not stated in posting
 **Track:** india | **Visa gate:** not-applicable
-**Source:** LinkedIn guest API (linkedin.com/jobs-guest/jobs/api/jobPosting/4490745037)
 
-## Work authorization / sponsorship / citizenship / clearance / degree / grad-year sentences (verbatim)
-- None found. No statement on work authorization, visa sponsorship, citizenship, security clearance, or graduation year.
-- Degree requirement (paraphrase): graduate or postgraduate in Business Administration, Commerce, or a related discipline.
-- Experience band stated: 3-10 years.
+## Work authorization / sponsorship / citizenship / clearance / degree / grad-year language (verbatim)
+None stated. Degree requirement: Graduate or Postgraduate degree in Business Administration, Commerce, or related discipline. No graduation year stated.
 
-## Full JD Text
-NOTE ON SOURCE FIDELITY: The extraction tool available for this run (WebFetch) enforces a hard verbatim-quote cap (observed ~125 characters per response) on fetched third-party page content, so the full posting could not be pulled as literal running text. What follows is a complete, faithful, section-by-section paraphrase of every part of the posting (nothing omitted).
+## Job Description (summary - source quoting limited to short excerpts)
+Supports the Founder across four areas:
+- **Executive and administrative management:** calendar, meetings, travel, correspondence.
+- **Business coordination:** tracking action points/deadlines, following up with functional heads.
+- **MIS and reporting:** consolidating function updates, preparing dashboards and leadership presentations.
+- **Stakeholder communication and special projects:** working with investors, partners, vendors; research and strategic assignments.
 
-Applicants at time of fetch: 105. Reports to: Founder / CEO.
-
-Role overview: The Executive Assistant supports the Founder across executive management, business coordination, and strategic initiatives, acting as a link between the Founder and internal and external stakeholders.
-
-Responsibilities:
-1. Executive and administrative management: Handle the Founder's calendar, travel, meeting preparation, correspondence, and prioritization.
-2. Business coordination: Track action items and deadlines, follow up with functional heads, maintain project trackers, and flag bottlenecks needing the Founder's attention.
-3. MIS and reporting: Consolidate function updates, prepare periodic reports and dashboards, and track business metrics.
-4. Stakeholder management: Coordinate with investors, partners, vendors, and customers, and handle confidential information.
-5. Research and special projects: Conduct market research and benchmarking, and support strategic initiatives and cross-functional projects.
-
-Candidate profile:
-- Graduate or postgraduate in Business Administration, Commerce, or a related discipline.
-- 3-10 years in an Executive Assistant, Founder's Office, or management coordination role.
-- Strong written and verbal communication.
-- Proficiency in MS Excel, PowerPoint, and Word.
-- Analytical, organizational, and follow-up skills.
-- Ability to manage multiple priorities under pressure.
-
-## Liveness check
-Live at time of fetch (2026-11-14). 105 applicants shown, Apply button present. No closed/expired/redirect tells.
+**Key Skills:** Strong communication, MS Excel/PowerPoint/Word proficiency, analytical ability, managing multiple priorities in a fast-paced setting. Role offers exposure to the Founder, leadership, and business functions (strategy, sales, marketing, finance).

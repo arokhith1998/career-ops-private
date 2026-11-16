@@ -1,12 +1,6 @@
 source	sources	company	title	location	url	posted_ts	age_days	sponsorship_hint	salary	category
-websearch-agent	websearch-agent	Clinikally	Chief of Staff	Gurugram, India	https://www.ycombinator.com/companies/clinikally/jobs/bq21ts8-chief-of-staff
-websearch-agent	websearch-agent	Enerjazz	Chief of Staff	Delhi NCR, India	https://www.workatastartup.com/jobs/83448
-websearch-agent	websearch-agent	ElevenLabs	Chief of Staff - India	India	https://www.workingnomads.com/jobs/chief-of-staff-india-elevenlabs
-websearch-agent	websearch-agent	TalentXO	Founder's Office (Growth, Revenue)	Bengaluru, India	https://cutshort.io/job/Founder-s-Office-Growth-Revenue-Bengaluru-Bangalore-TalentXO-YB6gOCtc
-websearch-agent	websearch-agent	Zamp	Founder's Office, Strategy & Operations	Bengaluru, India	https://careers.kula.ai/zamp-ai/14858/
-websearch-agent	websearch-agent	KNR Management Consultants	Chief of Staff (Chairman's Office)	Delhi, India	https://jobs.weekday.works/wkdyy0caza
-websearch-agent	websearch-agent	National Skill Development Corporation	Chief of Staff	Delhi, India	https://jobs.weekday.works/wkdy5g84yi
-websearch-agent	websearch-agent	Welspun World	Chief of Staff	India	https://jobs.weekday.works/wkdya33b6k
-websearch-agent	websearch-agent	Windfall Data	Product Marketing Manager	San Francisco, CA	https://jobs.lever.co/windfalldata/d64fdf52-6821-4dd1-b3dd-745ffd018eed
-websearch-agent	websearch-agent	Finch	Product Marketing Manager	San Francisco, CA	https://jobs.lever.co/finch/5085ce27-f2e7-4863-b16c-e3b36ae8ae35
-websearch-agent	websearch-agent	Tracktik	Product Marketing Manager	Remote, United States	https://jobs.lever.co/tracktik/f920742e-2c5d-477f-97a3-b8670892ae7c
+websearch-agent	websearch-agent	Clinikally	Chief of Staff	Gurugram, India	https://www.ycombinator.com/companies/clinikally/jobs/bq21ts8-chief-of-staff					chief_of_staff
+websearch-agent	websearch-agent	Zamp	Founder's Office, Strategy & Operations	Bengaluru, India	https://careers.kula.ai/zamp-ai/14858/					founders_office
+websearch-agent	websearch-agent	Snapmint	Manager, Founders Office	India	https://jobs.weekday.works/manager-founders-office-at-snapmint-4409157639					founders_office
+websearch-agent	websearch-agent	Ness	Head - Strategic Initiatives (CEO's Office)	Bangalore, India	https://jobs.jobvite.com/ness/job/oqBWzfwg					ceo_office
+websearch-agent	websearch-agent	ElevenLabs	Chief of Staff	India	https://www.workingnomads.com/jobs/chief-of-staff-india-elevenlabs					chief_of_staff
