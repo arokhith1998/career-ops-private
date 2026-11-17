@@ -25,6 +25,15 @@ underlying posting under yet another new LinkedIn listing ID, part of
 Mintive's recurring repost pattern already tracked across this file family.
 No new JD file created.
 
+**DUPLICATE FLAG (2026-11-17 run):** Shortlist row this run,
+`https://www.linkedin.com/jobs/view/4489785776` (titled "Founding RevOps Lead",
+San Francisco, CA, rank_score 65.6), fetched via the LinkedIn guest API: same
+company, title, location, comp language ("Competitive base and significant
+equity"), and 4+ years RevOps requirement as the body below. Same underlying
+posting under yet another new LinkedIn listing ID, part of Mintive's
+recurring repost pattern already tracked across this file family. No new JD
+file created; jd_path for this URL in data/extracted.tsv points here.
+
 ---
 
 ## Full JD text (verbatim, scraped via LinkedIn jobs-guest API)
