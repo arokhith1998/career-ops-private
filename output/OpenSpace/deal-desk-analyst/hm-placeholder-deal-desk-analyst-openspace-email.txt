@@ -1,0 +1,20 @@
+Subject: Finding the problem behind the quote, not just filing it
+
+Hi {Hiring Manager, Deal Desk},
+
+Your posting asks for someone who clarifies the sales request and finds the underlying problem before routing it to Finance or Legal, not just processing what lands in the queue. That's the job I built at PriceKeel: a guardrail engine that explains every discount exception using a company's own closed-won and closed-lost deals, with an audit trail Finance can actually review instead of taking on faith.
+
+At Sensata I ran the deal desk side of pricing directly, recovering $700K+ in margin in two quarters and moving distributor margins from 53% to 61% by finding the real problem behind each request, not just negotiating the number in front of me.
+
+Order forms, standard terms, and approved fallbacks only hold up if someone owns the ticket until it closes, which is how I ran CRM, CPQ, and deal approvals at PriceKeel and how I ran Sensata's queue before that.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/openspace
+
+Open to 15 minutes on how approval escalation is scoped on your team?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
