@@ -1,0 +1,20 @@
+Subject: Your Deal Desk req reads like a system I already run
+
+Hi {Hiring Manager, Deal Desk},
+
+I came across the Senior Deal Desk Analyst posting, and the pairing of "draft custom order forms for non-standard terms" with "maintain a clause library" reads like one workflow, not two separate tasks. It is the workflow I already run, which is why I am writing before applying.
+
+Built you a 6-slide pitch deck so the proof fits on one read.
+
+At Sensata I ran the Bleeders and Leakers program: an investigation into prior deal terms and quotation approaches across 1,200 pricing opportunities against a $627M target, recovering $700K+ in margin in 2 quarters and raising distributor margins from 53% to 61%. At PriceKeel I built the CRM, CPQ, and the escalation and audit-trail logic behind every discount exception, the clause-library discipline this req is scaling toward. At Applied Materials I automate the recurring pricing analysis behind that same guidance with Claude agents.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/liveramp
+
+Worth 15 minutes to see if this is the escalation loop you are hiring for? Happy to be pointed elsewhere if not.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
