@@ -1,0 +1,18 @@
+Subject: Turning one-off account-move requests into a repeatable process, already built
+
+Hi {Recruiter, GTM Strategy & Operations - Strategic Planning},
+
+I don't normally cold-email before applying, but your posting's line about turning one-off account-move requests into a repeatable process named something I already built, not something to learn on this job.
+
+At PriceKeel, the company I founded, the product reads a live discount exception and turns it into an explainable guardrail learned from the account's closed-won and closed-lost history, the same one-off-to-rule shift behind your account moves. At Sensata I built the Power BI system scoring 1,200 pricing opportunities across 3 regions, 4 product families and 20 product lines against a $627M target. At Applied Materials I pull Sales, Engineering and Accounts data into one model and point Claude-built automations at the repetitive part.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/anthropic
+
+Worth 15 minutes if this req is yours, no worries if it sits with someone else.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

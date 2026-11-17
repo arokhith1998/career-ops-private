@@ -1,0 +1,18 @@
+Subject: Post-launch breakage feeding back into the next territory design
+
+Hi {Hiring Manager, GTM Strategy & Operations - Strategic Planning},
+
+I don't usually reach out before applying, but the line about catching patterns in post-launch territory breakage and feeding them into the next plan's design describes a loop I already run, not a new skill.
+
+At Sensata I built and maintained a Power BI system tracking 1,200 pricing opportunities against a $627M target across 3 regions, 4 product families and 20 product lines, then fed what it surfaced back into the next quarter's account rules. At PriceKeel, the company I founded, the core engine takes one-off discount exceptions and turns them into explainable guardrails learned from each account's closed-won and closed-lost history, the same one-off-to-repeatable-rule shift your account-moves process runs on. At Applied Materials I pull Sales, Engineering and Accounts data into one forecasting model and point Claude-built automations at the manual parts of it.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/anthropic
+
+If this seat is still open, I'd like 15 minutes on where account data breaks down today. A pointer to whoever owns it would help just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
