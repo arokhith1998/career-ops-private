@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Valley Head of Growth Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #0f766e; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 24pt; font-weight: 800; color: #0f172a; line-height: 1.16; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 20pt; font-weight: 800; color: #0f172a; line-height: 1.12; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #0f766e; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.7in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #ccfbf1 100%); }
+  .cover h1 { font-size: 21.5pt; max-width: 11.6in; }
+  .cover .sub { font-size: 13.5pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 15pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #0f766e; font-weight: 700; }
+  .cover .who { margin-top: 15pt; padding-top: 11pt; border-top: 1.5pt solid #0f766e; max-width: 9.4in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #0f766e; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #ecfdf7; border-left: 3pt solid #0f766e; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #115e59; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #0f766e; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #ecfdf7; border-left: 4pt solid #0f766e; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #115e59; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0f766e; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 20pt; font-weight: 800; color: #0f766e; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0f766e; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #0f766e; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #0f766e; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #ccfbf1 100%); }
+  .close h2 { font-size: 22.5pt; max-width: 11in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.8in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #0f766e; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Valley Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Valley Head of Growth</div>
+  <h1>Valley needs one person running content, SEO, outbound, paid, email and creator programs as a single agent-driven loop pointed at 300 qualified demos a month, not six specialists reporting six different numbers. I have already built and run that kind of system, more than once.</h1>
+  <div class="sub">A multi-channel, multi-account growth book and a zero-to-one AI startup GTM, on the same resume.</div>
+  <div class="tags">
+    <div class="tag"><strong>$100K/month budgets</strong> owned across paid, SEO and lifecycle email at Plug Power</div>
+    <div class="tag"><strong>8-person team, 8 accounts</strong> hired and managed at Pixis, agencies included</div>
+    <div class="tag"><strong>-50% cost per lead</strong> from an automated WordPress-to-Pardot flow</div>
+    <div class="tag"><strong>+35% organic visibility</strong> from SEO partnerships built from zero</div>
+    <div class="tag"><strong>AI agents built on Claude</strong> running my own recurring reporting today</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-growth-ai.vercel.app/ref/valley</div>
+  </div>
+  <div class="brand">GROWTH PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>The role is not "run more ads." It is building a self-improving, agent-driven loop across content, SEO, outbound, paid, email and creator programs, with <span class="accent">no inherited playbook.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What that actually requires</h4>
+      <div class="line">A channel mix, content, SEO, outbound, paid, email, short-form video and creator programs, running as one system pointed at a single qualified-demo number, not six disconnected owners.</div>
+      <div class="line">A four-person core team plus outside agencies and vendors run tightly enough that the budget and the channel mix stay one person's call.</div>
+      <div class="line">Self-improving, agent-driven loops for reporting, content, SEO and outbound, so the team's time goes to the calls that move the demo number.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run</h4>
+      <div class="line">At <b>Pixis</b>, hired and managed an 8-person team running 8 client accounts (agencies and vendors included) with budgets of $15K-$90K a month, carrying P&amp;L targets on every one.</div>
+      <div class="line">At <b>Plug Power</b>, owned $100K/month budgets across paid search, paid social and lifecycle email as one coordinated mix, then automated the WordPress-to-Pardot lead flow to cut cost per lead 50%.</div>
+      <div class="line">At <b>Applied Materials</b>, I automate my own recurring reporting with AI agents built on Claude today, the same agent-driven loop this role is asking for.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">The through-line: every channel mix I have run reported to one number, and the reporting on top of it was built to run itself.</div>
+  </div>
+  <div class="brand">GROWTH PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The mandate, mapped</div>
+  <h2>What the posting asks for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Own every channel that brings buyers to Valley...and the number of qualified demos we produce."</div></div>
+      <div class="quote"><div class="q">"Build self-improving, agent-driven loops for content, SEO, outbound, and reporting."</div></div>
+      <div class="quote"><div class="q">"Manage a team of four...plus external agencies and vendors, and the growth budget."</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>Pixis, channel and team ownership:</b> hired and managed an 8-person team across 8 client accounts, agencies and vendors included, each running its own paid, SEO and lifecycle mix against a P&amp;L target.</div></div>
+      <div class="proof"><div class="p"><b>Applied Materials, agent-driven reporting:</b> automate recurring analysis with AI agents built on Claude, the habit a self-improving reporting loop depends on.</div></div>
+      <div class="proof"><div class="p"><b>Plug Power, budget and team ownership:</b> owned $100K/month budgets across multiple business units, hired and managed the team, and raised organic search visibility 35% alongside paid.</div></div>
+    </div>
+  </div>
+  <div class="brand">GROWTH PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>Map the channel mix, automate the loop, then <span class="accent">put a number on it.</span></h2>
+  <div class="lede">Same pattern across two companies: map the channel mix, fix the weakest link first, then automate the reporting cycle so the next fix comes faster, not slower.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">-50% Cost Per Lead</div>
+      <div class="lbl">Paid + Lifecycle Automation at Plug Power</div>
+      <div class="desc">Automated the WordPress-to-Pardot lead flow end to end while cutting CPA 25% across Google, Meta and LinkedIn.</div>
+    </div>
+    <div class="stat">
+      <div class="n">+35% Organic Visibility</div>
+      <div class="lbl">SEO Partnerships Built From Zero</div>
+      <div class="desc">Closed keyword-strategy gaps and built SEO partnerships at Plug Power, the content-plus-SEO motion behind a page-one ranking target.</div>
+    </div>
+    <div class="stat">
+      <div class="n">-50% Client Churn</div>
+      <div class="lbl">8-Person Team, 8 Accounts at Pixis</div>
+      <div class="desc">Hired and managed the team and the agencies, carrying P&amp;L targets across every account's channel mix.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">None of these was one channel run in isolation. Each one reported to the same budget and the same number leadership was accountable for.</div>
+  <div class="brand">GROWTH PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month building Valley's growth loop looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Map the channel mix end to end</div>
+      <div class="body">Build the first content, SEO, outbound, paid and email breakdown against the demo and traffic targets, so week one starts from where Valley actually stands, not a guess.</div>
+      <div class="why"><strong>Why first:</strong> the same first move behind the SEO-plus-paid rebuild at Plug Power, map before you optimize.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Ship the first agent-driven reporting loop</div>
+      <div class="body">Stand up the first self-improving AI-agent loop for channel and demo reporting, directly with the four-person team and the agencies, versioned once as a system instead of a weekly manual pull.</div>
+      <div class="why"><strong>Why now:</strong> the same automation habit running at Applied Materials today, built on Claude, not a plan for someday.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Tighten the highest-leverage channel first</div>
+      <div class="body">Apply the same fix-before-spend discipline that cut cost per lead 50% at Plug Power to whichever channel is furthest from its demo target, content, SEO, outbound or paid.</div>
+      <div class="why"><strong>Why this fast:</strong> the same discipline that moved the churn number at Pixis before a single bid changed.</div>
+    </div>
+  </div>
+  <div class="brand">GROWTH PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring one person to turn content, SEO, outbound, paid, email and creator programs into a single number, qualified demos. I have already run that kind of system, with a number on every channel in it.</h2>
+  <div class="body">
+    <p>The channel-and-team half: <strong>8-person team and 8 client accounts</strong> hired and managed at Pixis, churn cut 50%, each account carrying its own paid, SEO and lifecycle mix against a P&amp;L target.</p>
+    <p>The automation half: <strong>$100K/month budgets</strong> owned across paid, SEO and lifecycle at Plug Power, cost per lead cut 50% by automating the lead flow end to end, and AI agents built on Claude now running my own recurring reporting at Applied Materials, the same agent-driven loop this role is asking for.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-growth-ai.vercel.app/ref/valley</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">GROWTH PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
