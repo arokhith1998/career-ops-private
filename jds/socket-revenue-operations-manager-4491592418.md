@@ -1,0 +1,27 @@
+# Revenue Operations Manager
+
+**Company:** Socket
+**Title:** Revenue Operations Manager
+**URL:** https://www.linkedin.com/jobs/view/4491592418
+**Req ID:** Not shown
+**Posted:** age_days=1.26 as of extraction (2026-11-18)
+**Location:** United States
+**Comp band:** $140,000.00/yr - $170,000.00/yr (found in JD body)
+**Track:** us
+**Visa gate:** required
+
+## Work authorization / sponsorship / citizenship / clearance / degree / graduation year (verbatim)
+
+No sentence found in the JD body matching work authorization, sponsorship, citizenship, clearance, degree-field, or graduation-year language.
+
+## Full JD text
+
+Socket provided pay range
+This range is provided by Socket. Your actual pay will be based on your skills and experience — talk with your recruiter to learn more.
+Base pay range
+$140,000.00/yr - $170,000.00/yr
+About UsSocket helps devs and security teams ship faster by cutting out security busywork. Thousands of orgs use Socket to safely find, audit, and manage open source code. Our customers - from Anthropic to xAI, and Figma to Vercel - love Socket (just check out their tweets to see for yourself!)Founded by Feross Aboukhadijeh, a long-time open source maintainer with software downloaded over a billion times a month, Socket has raised $125M in funding from top angels, operators, and security leaders.About The RoleSocket is hiring its first dedicated Revenue Operations Manager. You'll own and improve our existing HubSpot setup, Clay and the rest of our GTM stack, the data in them, and the territories and target account lists our reps work from. We expect to move to Salesforce, and you'd lead that move. It's a hands-on role. You'll work side by side with reps, spot problems and opportunities before anyone asks, and turn them into fixes and automation that drive revenue. You'll report to our Head of Enablement and work closely with our VP of Sales, sales leaders and IT.What You'll DoSpend time with reps to see where the CRM and our process slow them down, and fix itTrack conversion at every stage of the funnel, spot where deals stall or where we're missing a signal, and turn what you find into fixes and automationOwn the day-to-day health of HubSpot and the rest of the GTM stack (Clay, Lusha, Orum, Gong): fields, permissions, workflows, integrations and reportsPlan and run our expected move from HubSpot to Salesforce, from data mapping through cutover and adoptionSet data quality standards, run a deduplication audit every quarter, and keep our Clay enrichment landing in the CRM complete and cleanKeep pipeline stages and exit criteria consistent, and build the pipeline and forecast reporting sales leadership uses every weekOwn target account lists and territories: refresh them each quarter, assign them to reps, and have a list ready for every new hireKeep the rules of engagement current and fix routing problems at the sourceSupport commissions with clean data: crediting, reconciling bookings to the CRM, and answering rep questionsWhat You'll BringRequired:5+ years in Revenue Operations, Sales Operations or GTM Systems at a growing B2B SaaS companyDeep hands-on Salesforce admin (flows, custom objects, permissions, integrations and reporting), plus working experience with HubSpotYou've led a CRM migration or major rebuild, including getting the team to use itYou've built territories, routing and pipeline reporting that sales leaders used to run their businessYou've worked directly with reps and built things they actually wanted to usePreferred:You use AI tools (Claude or similar) to automate operational workYou've been an early RevOps hireExperience with Clay and a commissions tool (CaptivateIQ, Spiff or similar)Our Interview ProcessPhone Screen with our Talent TeamVirtual f2f with the Hiring ManagerVirtual f2f with a few members of the teamPresentationFinal call with our FounderDebriefReferencesOfferHiring is a big decision on both sides. Read more about our Hiring Philosophy and how we approach the process at Socket.Benefits: Our benefits are crafted to support you and your family, so you can take care of what matters most and thrive in and outside of work. We offer:Market competitive salary bandsMeaningful equity programComprehensive health benefits for you and your family (99% coverage)Flexible time-off, holidays, and winter shutdown to rest & rechargePaid parental leaveRemote-first, with quarterly team off-sites At Socket, wePursue Excellence: We set ourselves apart by consistently delivering work of exceptional quality and distinction. Move with urgency and focus: We prioritize swift, decisive action. Think rigorously: We care about being right and it often takes reasoning from first principles to get there. We value alternative perspectives and have constructive discussions. Trust and amplify: We overtrust, always assume good intent, and give specific feedback to help each other improve. Feel a strong sense of ownership: We wear many hats and feel a strong sense of overall ownership of the company and we're non-territorial regarding our nominal domains. Are customer obsessed: We relentlessly prioritize the needs of our customers, striving to exceed their expectations and delight them at every interaction. Compensation Range: $140K - $170K
+
+## Liveness
+
+Confirmed live via headless browser extraction (browser-extract.mjs) of https://www.linkedin.com/jobs/view/4491592418; page returned full JD body content including title "Revenue Operations Manager" (not a redirect/placeholder/closed shell).

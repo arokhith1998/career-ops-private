@@ -1,0 +1,23 @@
+# Associate / Member - Founder's Office
+
+**Company:** Zinier
+**Title:** Associate / Member - Founder's Office
+**URL:** https://www.linkedin.com/jobs/view/4491496205
+**Req ID:** Not shown
+**Posted:** age_days=0.26 as of extraction (2026-11-18)
+**Location:** Bengaluru, Karnataka, India
+**Comp band:** Not stated in posting metadata or JD body
+**Track:** india
+**Visa gate:** not-applicable
+
+## Work authorization / sponsorship / citizenship / clearance / degree / graduation year (verbatim)
+
+No sentence found in the JD body matching work authorization, sponsorship, citizenship, clearance, degree-field, or graduation-year language.
+
+## Full JD text
+
+About Zinier80% of the workers across the globe are Deskless. These are the people who keep our lights on and gas flowing, build roads and bridges, run our manufacturing factories, ensure that we get healthcare service, and provide us with reliable phone and internet connectivity. As entrepreneurs, have we considered solving their problems and making them more productive?Zinier is a company on a mission to empower frontline workers - and the people supporting them - to achieve greater things for themselves and the world around them. With the majority of workers worldwide being deskless, Zinier recognizes the need for Technology Equity to improve the lives and productivity of these workers who keep the world up and running.We have global team headquartered in Silicon Valley, with a hybrid workforce across the United States, Canada, Europe, Latin America, Singapore, and Bangalore, India, with leading investors that include Accel, ICONIQ Capital, Founders Fund, Newfund Capital, NGP Capital, Tiger Global Management, and Qualcomm Ventures LLC.What We Are Looking ForZinier is searching for a deeply technical, execution-obsessed Product Lead to shape our data and AI strategy. You'll own the roadmap for how Zinier captures, structures, and activates data to power agentic, AI-driven field service products — and you'll be equally comfortable writing epics and stories with engineering as you are challenging architecture decisions on data pipelines and LLM interfaces.This is a hands-on, technical PM role. You'll define what data is needed and translate it into clear requirements for the teams building our solutions, own the lifecycle of data and AI initiatives from intent recognition through execution, and partner across Platform, Data Platform, Product Engineering, Design, Security, and Legal to build a scalable, compliant, and highly intuitive solutions.What The Role OffersShape the data & AI strategy: Define and execute the roadmap — plan, execute, self-correct, and learn.Treat data as the fuel: Define what data is needed and translate that into clear requirements for the teams building the solutions.Own projects end to end: Define, execute, measure, and iterate — owning the full lifecycle from initial intent recognition and planning frameworks through execution and coordination.Lead cross-functionally: Partner with cross functional teams like Platform , Data Platform, Product Engineering, Product Designers, Security, and Legal to build a scalable, compliant, and highly intuitive solutions.Write epics and stories: Translate strategy into engineering-ready epics and stories, working in Scrum with clear acceptance criteria.Define and own data products: Set up and define data products, including data warehouse and data lake requirements.Drive analytics maturity: Define how usage and outcomes are captured and analyzed, including analytics for LLM/agent interfaces.Must-haveWhat you'll bring to the roleStrong B2B experience.Proficiency in Scrum and Jira, with hands-on experience writing epics and stories.Proficient in English.Technical fluency — able to credibly challenge engineering teams on architecture, data models, and trade-offs.You have built or maintained data products.Strongly PreferredExperience building AI-driven products.Understanding of analytics: how it's captured, and how to capture and analyze it, including LLM interfaces.Direct experience working with AI and Claude specifically, including having built agents.Experience setting up and defining data products (data warehouse, data lake).Scrum of Scrums experience.Experience working as part of a globally distributed team of Product Leads.Be Hungry. Be Humble. Be Honest. And Hustle.Shape the data. Power the agents. Own the strategy.
+
+## Liveness
+
+Confirmed live via headless browser extraction (browser-extract.mjs) of https://www.linkedin.com/jobs/view/4491496205; page returned full JD body content including title "Associate / Member - Founder's Office" (not a redirect/placeholder/closed shell).
