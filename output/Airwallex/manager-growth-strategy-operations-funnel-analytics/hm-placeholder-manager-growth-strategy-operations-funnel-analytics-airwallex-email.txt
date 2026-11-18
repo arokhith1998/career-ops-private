@@ -1,0 +1,21 @@
+Subject: An operating-systems role wearing an analytics title
+
+Hi {Hiring Manager, Funnel & Analytics},
+
+I do not normally cold-email before applying, but this seat reads like an operator role that owns the systems, not just the dashboards on top of them, and most growth-ops postings blur that line.
+
+At Sensata I owned a Power BI dashboard end to end, running the weekly cadence with sales and finance that recovered $700K+ in margin in two quarters and raised distributor margins 53% to 61%.
+I built SQL and GA4 KPI frameworks across 50K+ connected devices that lifted feature adoption 18% and conversion 15%.
+At PriceKeel I run the CRM, deal approvals and an audit trail that gives Finance evidence for every pricing call, the same operating-system muscle, just pointed at pricing instead of growth.
+At Applied Materials I already automate recurring analysis with Claude AI agents, the same responsible use of AI this JD calls out for CRM and reporting work.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/airwallex
+
+Worth 15 minutes on how the team is scoping funnel ownership across payments versus product adoption?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: github.com/arokhith1998

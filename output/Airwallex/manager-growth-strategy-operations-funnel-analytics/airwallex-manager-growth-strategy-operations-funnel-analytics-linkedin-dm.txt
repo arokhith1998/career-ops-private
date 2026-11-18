@@ -1,0 +1,2 @@
+Hi, saw the Funnel & Analytics req splits payment funnels from product-adoption funnels. I built a Power BI funnel dashboard at Sensata that recovered $700K+ in margin and ran SQL/GA4 KPI frameworks lifting adoption 18%. Worth 15 minutes?
+adhithyabhaskar.vercel.app/ref/airwallex
