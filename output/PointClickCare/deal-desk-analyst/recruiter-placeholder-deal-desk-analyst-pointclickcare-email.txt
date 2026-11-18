@@ -1,0 +1,20 @@
+Subject: Deal Desk analyst who already runs the full loop
+
+Hi {Recruiter, PointClickCare Deal Desk},
+
+I do not normally reach out before applying, but the posting's intake-to-approval loop, validate, classify, route, document, is work I already do today, not a skill I would be learning on the job.
+
+At Sensata I ran that loop across 1,200 pricing-exception requests against a $627M target, recovering $700K+ in margin in 2 quarters and raising distributor margins from 53% to 61%, with monthly reporting on request volume, concession type and outcome built alongside it.
+At PriceKeel I built the audit trail behind every discount exception and run the CRM/CPQ and approval workflow myself.
+At Applied Materials I automate recurring pricing analysis with Claude agents, the AI-assisted-workflow line in your posting.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/pointclickcare
+
+Worth 15 minutes to confirm this is your req? Happy to be pointed elsewhere if not.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
