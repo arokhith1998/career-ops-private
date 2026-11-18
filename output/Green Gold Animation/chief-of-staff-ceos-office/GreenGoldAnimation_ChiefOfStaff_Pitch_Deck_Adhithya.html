@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Green Gold Animation Chief of Staff Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #1a56db; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 25pt; font-weight: 800; color: #0f172a; line-height: 1.17; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 19pt; font-weight: 800; color: #0f172a; line-height: 1.16; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #1a56db; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.8in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbeafe 100%); }
+  .cover h1 { font-size: 21.5pt; max-width: 11.3in; }
+  .cover .sub { font-size: 13pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; max-width: 10.8in; }
+  .cover .tags { margin-top: 16pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.6in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9pt; font-weight: 500; }
+  .tag strong { color: #1a56db; font-weight: 700; }
+  .cover .who { margin-top: 16pt; padding-top: 10pt; border-top: 1.5pt solid #1a56db; max-width: 9.4in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #1a56db; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #eff6ff; border-left: 3pt solid #1a56db; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #1e3a8a; font-style: normal; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #1a56db; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.4pt; color: #334155; line-height: 1.46; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 13pt; background: #eff6ff; border-left: 4pt solid #1a56db; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #1e3a8a; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 20pt; font-weight: 800; color: #1a56db; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.3pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.6pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #1a56db; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.3pt; font-weight: 800; color: #0f172a; line-height: 1.18; margin-bottom: 7pt; }
+  .card .body { font-size: 8.8pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.3pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #1a56db; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbeafe 100%); }
+  .close h2 { font-size: 22pt; max-width: 10.9in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.8in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #1a56db; font-weight: 700; }
+  .close .contact { margin-top: 15pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Green Gold Animation Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Green Gold Animation Chief of Staff</div>
+  <h1>Investor decks, data rooms and board-ready forecasts for a CEO's office are a financial-modeling problem wearing a scheduling title. I already build that system today.</h1>
+  <div class="sub">A record of turning scattered numbers into a deck, a plan and a KPI tracker that a board, an investor, a lender or a partner can act on, on a fast turnaround.</div>
+  <div class="tags">
+    <div class="tag"><strong>PriceKeel</strong> - built the investor deck and data-room materials for the company's first fundraising round</div>
+    <div class="tag"><strong>$700K+ / 2 quarters</strong> - Bleeders &amp; Leakers margin recovery, from a scattered dataset to a negotiated number</div>
+    <div class="tag"><strong>1,200 / $433M</strong> - pricing opportunities tracked against plan and synthesized into one leadership shortlist</div>
+    <div class="tag"><strong>AP26 revenue models</strong> - built with senior executives at Sensata, feeding multimillion-dollar customer quotes</div>
+    <div class="tag"><strong>5-consultant team</strong> - led market sizing and competitive benchmarking, presented to Safran leadership</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhithyabhaskar.vercel.app/ref/green-gold-animation</div>
+  </div>
+  <div class="brand">GREEN GOLD ANIMATION CHIEF OF STAFF PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>A CEO's office that is fundraising and scaling needs one thing more than a calendar manager: <span class="accent">someone who can turn a loose ask into a board-ready number fast.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What that actually requires</h4>
+      <div class="line">Building investor decks and data-room materials that hold up when a board, an investor, a lender or a partner starts asking diligence questions.</div>
+      <div class="line">Building business plans, operating models, forecasts and scenario analyses that can be defended line by line, not just presented once.</div>
+      <div class="line">Tracking KPIs against plan and flagging risk early, so ad hoc requests from the CEO turn into board-ready analysis on a fast turnaround.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already built at that layer</h4>
+      <div class="line">Built the <b>investor deck and data-room backup</b> for PriceKeel's first fundraising round, from a blank narrative to a pitch investors could diligence.</div>
+      <div class="line">Built <b>AP26 revenue models and forecasting models</b> with senior executives at Sensata and Applied Materials, feeding real customer and leadership decisions.</div>
+      <div class="line">Built the <b>Bleeders &amp; Leakers KPI dashboard</b>, tracking 1,200 opportunities against a $627M target and turning it into a negotiated outcome.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">The through-line: I have already built the investor-facing materials and the KPI discipline this seat needs, just before anyone called it a Chief of Staff job.</div>
+  </div>
+  <div class="brand">GREEN GOLD ANIMATION CHIEF OF STAFF PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The mandate, mapped</div>
+  <h2>What the posting is asking for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">Build investor decks, data-room and diligence materials for the CEO's fundraising and board conversations.</div></div>
+      <div class="quote"><div class="q">Build business plans, operating models, forecasts and scenario analyses that hold up under investor, lender and partner questions.</div></div>
+      <div class="quote"><div class="q">Track KPIs against plan, flag risk early, and turn ad hoc asks into board-ready analysis on a fast turnaround.</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>Investor materials, built:</b> designed the investor deck and data-room backup for PriceKeel's first fundraising round from zero.</div></div>
+      <div class="proof"><div class="p"><b>Forecasts and scenario models, built:</b> AP26 revenue models and semiconductor market-sizing models built directly with senior executives.</div></div>
+      <div class="proof"><div class="p"><b>KPI tracking against plan:</b> built the Bleeders &amp; Leakers Power BI dashboard tracking 1,200 opportunities against a $627M target across 3 regions.</div></div>
+      <div class="proof"><div class="p"><b>Ad hoc to board-ready, fast:</b> took a market-sizing ask from 170 facilities to a SAM of 28 with a 5-consultant team, presented straight to Safran leadership.</div></div>
+    </div>
+  </div>
+  <div class="brand">GREEN GOLD ANIMATION CHIEF OF STAFF PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>Bleeders and Leakers: a scattered dataset turned into a <span class="accent">negotiated number, with the KPI mechanism that kept producing it.</span></h2>
+  <div class="lede">Built as the owner of a program with no existing dashboard, no existing owner list and no existing cadence, the same starting point a CEO's "figure this out and bring me a number" ask usually looks like.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$700K+ / 2Q</div>
+      <div class="lbl">Margin Recovered</div>
+      <div class="desc">Negotiated from competitive benchmarking and customer willingness to pay, against a $627M target.</div>
+    </div>
+    <div class="stat">
+      <div class="n">1,200 / $433M</div>
+      <div class="lbl">Opportunities Tracked Against Plan</div>
+      <div class="desc">Scattered signal across 3 regions and 20 product lines, turned into one leadership-ready shortlist.</div>
+    </div>
+    <div class="stat">
+      <div class="n">53% to 61%</div>
+      <div class="lbl">Distributor Margin Lift</div>
+      <div class="desc">Repriced parts sold through a distribution partner network in under 2 quarters once the decision was made.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">The same instinct runs through PriceKeel and Applied Materials: build the model and the KPI tracker first, so the board or the investor gets a number that still holds up a quarter later.</div>
+  <div class="brand">GREEN GOLD ANIMATION CHIEF OF STAFF PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month inside Green Gold's CEO's office would look like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Audit the existing materials</div>
+      <div class="body">Go through the current investor decks, data-room files and KPI reports to find where the numbers are stale, the narrative is inconsistent, or a diligence question has no ready answer.</div>
+      <div class="why"><strong>Why first:</strong> a new deck built on last quarter's assumptions is the fastest way to lose a room's trust.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Ship the first forecast or scenario model</div>
+      <div class="body">Pick the highest-stakes open question (an investor ask, a lender covenant, a partner negotiation) and build the operating model and scenario analysis behind it, the same discipline behind the AP26 models at Sensata.</div>
+      <div class="why"><strong>Why now:</strong> one model that survives a tough question beats a week-one slide of ideas.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Stand up the KPI-against-plan cadence</div>
+      <div class="body">Turn the first model into a recurring KPI tracker, flagging risk against plan before it becomes a surprise in the next board or investor meeting.</div>
+      <div class="why"><strong>Why this fast:</strong> a tracking cadence only earns trust once it has already caught something real.</div>
+    </div>
+  </div>
+  <div class="brand">GREEN GOLD ANIMATION CHIEF OF STAFF PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>Green Gold's CEO's office needs a financial-modeling and diligence engine, not a scheduler. I have already built that engine, more than once.</h2>
+  <div class="body">
+    <p>The core proof is Sensata and PriceKeel together: a <strong>$700K+ margin program</strong> that started as a scattered dataset and ended as a tracked, negotiated outcome, and an <strong>investor deck and data-room build</strong> I owned myself for a founder who needed the pitch and the backup numbers ready before the next call.</p>
+    <p>What is harder to find is someone who has built that inside a multi-region, multi-$100M business <strong>and</strong> built it again from zero for their own fundraise, while still carrying the forecasting and scenario-modeling work that feeds board and investor decks today. That combination is what this seat needs most.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhithyabhaskar.vercel.app/ref/green-gold-animation</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">GREEN GOLD ANIMATION CHIEF OF STAFF PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
