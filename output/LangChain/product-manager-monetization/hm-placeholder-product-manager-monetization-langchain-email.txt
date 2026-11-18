@@ -1,0 +1,28 @@
+Subject: The entitlement logic breaks before the price does
+
+Hi {Hiring Manager, Monetization},
+
+I do not normally write in before applying, but your team description puts pricing and billing infrastructure in the same sentence, usage metering, plan enforcement, trial mechanics and enterprise contract support, where most monetization PM postings treat the price list as the product and leave entitlement enforcement as an engineering afterthought. I have shipped both sides of that line enough times to have an opinion on it: the break usually happens in entitlement enforcement, the moment Sales cuts a one-off deal term and nobody owns updating the system meant to enforce it.
+
+That is close to the problem PriceKeel, the company I founded, is built to catch. It reads a live discount exception inside the deal platform and recommends a guardrail learned from a company's own closed-won and closed-lost deals, with the audit trail Finance needs to sign off on the number. I set up and run its CRM and CPQ, deal approvals and pipeline reviews myself, so plan-enforcement logic is not theoretical to me.
+
+At Sensata I owned global pricing strategy for a multi-$100M business, building the FY2026 Bleeders & Leakers dashboard against a $627M target and recovering $700K+ in margin in 2 quarters.
+
+I also raised distributor and channel-partner margins from 53% to 61% in under 2 quarters by repricing parts sold through distribution.
+
+I modeled 3 subscription pricing tiers for SwipeHire, an AI job-matching platform I built zero to one, from competitor teardowns and willingness-to-pay research, the packaging-options work your posting asks for before a recommendation reaches engineering.
+
+At Applied Materials I carry P&L and revenue targets and automate the recurring pricing analysis with Claude agents instead of waiting on a perfect model before moving.
+
+I have not worked inside an LLM infrastructure company yet, and the usage-based mechanics for agent workloads are not identical to parts pricing or SaaS seats. What transfers is treating the number Finance audits, the number Sales sells and the number a founder stands behind as one decision, not three separate conversations.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/langchain
+
+I built a 6-slide deck mapping this work to LangSmith's monetization surface if 20 minutes is useful for seeing whether the fit is real. If this sits with someone else on the team, a pointer their way would help just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

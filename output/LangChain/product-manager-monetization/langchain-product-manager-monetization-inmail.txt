@@ -1,0 +1,10 @@
+Hi, I do not normally message before applying, but your Monetization PM posting puts pricing, packaging and billing infrastructure in one req instead of splitting them, and that is closer to how I already work than most pricing titles I see.
+
+At Sensata I built the FY2026 Bleeders & Leakers dashboard from scratch, ranking 1,200 opportunities against a $627M target and surfacing $433M in margin gaps, recovering $700K+ in 2 quarters. PriceKeel, the company I founded, reads a live discount exception inside the deal platform and recommends a guardrail learned from a company's own closed-won and closed-lost deals.
+
+Here's the portfolio: adhi-pricing-ai.vercel.app/ref/langchain
+
+I built a 6-slide deck mapping that work to LangSmith's monetization surface. Worth 20 minutes to see if the fit is real?
+
+Thank you,
+Adhithya

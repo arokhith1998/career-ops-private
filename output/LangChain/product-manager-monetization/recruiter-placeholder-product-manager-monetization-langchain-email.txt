@@ -1,0 +1,28 @@
+Subject: One job, not two: pricing and billing infrastructure in the same req
+
+Hi {Recruiter, Monetization/Product},
+
+I do not normally reach out before applying, but your posting draws monetization as a single surface, pricing pages, upgrade flows, usage dashboards and billing management, instead of splitting it into a pricing analyst req and a separate growth PM req the way most B2B SaaS postings do. That framing is close to how I already work, not a new seat I would be learning into.
+
+My read on usage-based pricing for a platform moving this fast is that the packaging breaks before the price does. The guardrail a team sets in week one usually cannot keep pace with how quickly an enterprise account's usage pattern changes, so the real early win is instrumenting where that drift shows up, not shipping a cleaner price list.
+
+At Sensata I built the FY2026 Bleeders & Leakers dashboard from scratch, ranking 1,200 pricing opportunities against a $627M target across 3 regions, 4 product families and 20 product lines, surfacing $433M in margin gaps for leadership to prioritize.
+
+That program recovered $700K+ in margin in 2 quarters and raised distributor and channel-partner margins from 53% to 61%.
+
+PriceKeel, the company I founded, reads a live discount exception inside the deal platform and recommends a guardrail learned from a company's own closed-won and closed-lost deals, with the audit trail Finance needs to trust it.
+
+At Applied Materials I partner with Sales, Engineering and Accounts to turn scattered pricing input into one view, and I automate the repetitive analysis with Claude agents.
+
+I also modeled 3 subscription pricing tiers for SwipeHire, an AI job-matching platform I built zero to one, using competitor teardowns and willingness-to-pay research.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/langchain
+
+I built a 6-slide deck mapping that proof directly to LangSmith's monetization surface, so 20 minutes should be enough to tell whether it is a real fit. If this req sits with someone else on your team, a pointer their way would help just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
