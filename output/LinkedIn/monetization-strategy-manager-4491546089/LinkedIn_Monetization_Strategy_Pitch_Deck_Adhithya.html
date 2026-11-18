@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>LinkedIn Monetization Strategy Manager Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #0f766e; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 27pt; font-weight: 800; color: #0f172a; line-height: 1.14; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 20pt; font-weight: 800; color: #0f172a; line-height: 1.12; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #0f766e; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.8in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d5efec 100%); }
+  .cover h1 { font-size: 22pt; max-width: 11.4in; }
+  .cover .sub { font-size: 13.5pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 16pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.1pt; font-weight: 500; }
+  .tag strong { color: #0f766e; font-weight: 700; }
+  .cover .who { margin-top: 16pt; padding-top: 10pt; border-top: 1.5pt solid #0f766e; max-width: 9.5in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #0f766e; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #e6f5f3; border-left: 3pt solid #0f766e; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.1pt; color: #0a5a53; font-style: italic; line-height: 1.38; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.0pt; color: #334155; line-height: 1.4; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #0f766e; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #e6f5f3; border-left: 4pt solid #0f766e; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #0a5a53; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0f766e; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 23pt; font-weight: 800; color: #0f766e; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0f766e; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #0f766e; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #0f766e; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d5efec 100%); }
+  .close h2 { font-size: 24pt; max-width: 10.8in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.9in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #0f766e; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the LinkedIn Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | LinkedIn Monetization Strategy Manager</div>
+  <h1>This role is three jobs running at once: member researcher, pricing modeler, and governance owner who keeps a packaging change honest after it ships. I have already run every piece, just not all under one subscription product yet.</h1>
+  <div class="sub">Willingness-to-pay research, analytical pricing models, and price-governance tracking from someone who has priced the deal, built the dashboard, and run the audit trail.</div>
+  <div class="tags">
+    <div class="tag"><strong>$700K+</strong> margin recovered in 2 quarters via research-backed deal pricing at Sensata</div>
+    <div class="tag"><strong>53% to 61%</strong> distributor margin lift from repriced packaging logic</div>
+    <div class="tag"><strong>1,200 opportunities</strong> tracked end to end in a $627M price-governance dashboard</div>
+    <div class="tag"><strong>3 subscription tiers</strong> modeled from willingness-to-pay signals, SwipeHire</div>
+    <div class="tag"><strong>Claude AI agents</strong> automating recurring pricing analysis at Applied Materials</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-pricing-ai.vercel.app/ref/linkedin</div>
+  </div>
+  <div class="brand">LINKEDIN MONETIZATION STRATEGY PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>Pricing a new AI Premium feature and governing it after launch are <span class="accent">one connected job, not two.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What losing that discipline runs into</h4>
+      <div class="line">A new AI-based Premium feature can ship with a price set on intuition instead of member willingness-to-pay signal, because the research, MaxDiff, conjoint, concept testing, never got built into the launch timeline.</div>
+      <div class="line">Product, Marketing, Finance, Commerce and Engineering all touch the same packaging call, so a gap in price governance becomes everyone's guessing game once performance tracking finally flags the miss, usually a quarter too late.</div>
+      <div class="line">The fix is not another spreadsheet. It is someone who treats member research, pricing modeling and governance tracking as one connected loop instead of three separate handoffs.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run</h4>
+      <div class="line">At <b>Sensata</b>, I built the willingness-to-pay and competitive-gap case behind the Bleeders and Leakers program and the $627M dashboard that tracked 1,200 pricing opportunities by segment, the same price-governance discipline a subscription business runs across every member tier.</div>
+      <div class="line">At <b>PriceKeel</b>, I set up and run the CRM, CPQ configuration and the audit trail myself, so Finance gets an auditable record of every pricing decision, not a story reconstructed after the fact.</div>
+      <div class="line">At <b>SwipeHire</b>, I modeled 3 subscription pricing tiers from competitor benchmarks and willingness-to-pay signals, so I have already stood on the research side of a consumer packaging decision, not just the deal side.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">A Monetization Strategy Manager who advises on go-to-market for new AI-based Premium features, builds analytical and pricing models, runs member research, and sets up price governance and performance tracking is describing this exact loop: research the member, model the price, keep it honest after launch.</div>
+  </div>
+  <div class="brand">LINKEDIN MONETIZATION STRATEGY PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What the Monetization Strategy Manager opening asks for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">Lead strategic initiatives to grow LinkedIn's Online/Consumer Subscriptions business globally, advising on go-to-market and monetization strategy including new AI-based Premium features and pricing for creators and entrepreneurs.</div></div>
+      <div class="quote"><div class="q">Build analytical and pricing models, and run member research such as MaxDiff, conjoint, and concept tests.</div></div>
+      <div class="quote"><div class="q">Coordinate with Commerce and Engineering on pricing implementation across 2-3 initiatives at once.</div></div>
+      <div class="quote"><div class="q">Set up price governance and performance tracking once a pricing or packaging change ships.</div></div>
+    </div>
+    <div class="col">
+      <h3>My Proof</h3>
+      <div class="proof"><div class="p"><b>GTM and monetization strategy:</b> led global pricing strategy for a multi-$100M Industrial BU at Sensata and now found PriceKeel, a B2B SaaS pricing-governance layer in pilots, the strategic-initiative ownership this role runs for consumer subscriptions.</div></div>
+      <div class="proof"><div class="p"><b>Analytical models and member research:</b> modeled 3 subscription pricing tiers at SwipeHire from willingness-to-pay signals and built R-based elasticity models identifying profit-maximizing price points, the same research-to-model translation MaxDiff and conjoint studies feed into.</div></div>
+      <div class="proof"><div class="p"><b>Coordination with Commerce and Engineering:</b> run PriceKeel's own CRM and CPQ configuration end to end and turn Sales, Engineering and Finance input into one pricing view at Applied Materials, the cross-functional implementation loop this role runs with Commerce and Engineering.</div></div>
+      <div class="proof"><div class="p"><b>Price governance and performance tracking:</b> built the Bleeders and Leakers dashboard tracking 1,200 pricing opportunities against a $627M target, and give Finance an auditable evidence trail for every pricing decision at PriceKeel.</div></div>
+    </div>
+  </div>
+  <div class="brand">LINKEDIN MONETIZATION STRATEGY PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>Bleeders and Leakers: <span class="accent">make every pricing decision auditable before it reaches a review.</span></h2>
+  <div class="lede">Built as a BU-wide Power BI system covering 1,200 pricing opportunities against a $627M target across 3 regions and 20 product lines, with win rate and margin tracked before leadership set the next quarter's price governance targets.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$700K+</div>
+      <div class="lbl">Margin Recovered, 2 Quarters</div>
+      <div class="desc">Deal-by-deal pricing review against competitive gaps and willingness-to-pay signal, the same research-to-decision loop a member pricing model needs before it reaches performance tracking.</div>
+    </div>
+    <div class="stat">
+      <div class="n">53% to 61%</div>
+      <div class="lbl">Distributor Margin Lift</div>
+      <div class="desc">Repriced the channel logic and documented it for Finance, so the new governance limits held past the first quarter, the discipline a global packaging rollout needs across every market.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$433M</div>
+      <div class="lbl">Margin Gaps Surfaced</div>
+      <div class="desc">Every gap traced to a specific deal by salesperson and product line, the same segment-level detail a performance-tracking dashboard needs across emerging and mature markets alike.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">At PriceKeel that same instinct became the operating model: I run the CRM, CPQ configuration and audit trail myself, so the pricing decision and the governance record are never two different stories.</div>
+  <div class="brand">LINKEDIN MONETIZATION STRATEGY PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month owning a monetization strategy initiative at LinkedIn looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Learn the Premium pricing and research stack</div>
+      <div class="body">Sit with Monetization, Product and Finance to walk the current Premium packaging, existing member research cadence (MaxDiff, conjoint, concept tests), and shadow one Commerce and Engineering implementation conversation end to end.</div>
+      <div class="why"><strong>Why first:</strong> the same instinct that had me learn PriceKeel's own CPQ configuration before building anything on top of it.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Own a member-research-driven pricing experiment</div>
+      <div class="body">Take ownership of one AI Premium feature or emerging-market pricing question end to end: design the research, confirm the willingness-to-pay model, and present the business case at the next review.</div>
+      <div class="why"><strong>Why now:</strong> the same segment-by-segment discipline that made the Bleeders and Leakers dashboard usable in a leadership review.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Stand up a price-governance checkpoint</div>
+      <div class="body">Pair with Commerce and Engineering on one pricing-implementation gap, document the performance-tracking logic behind it, and flag one packaging pattern worth revisiting before the next pricing cycle.</div>
+      <div class="why"><strong>Why this fast:</strong> a governance checkpoint only earns its keep if it gets re-checked every cycle instead of trusting last quarter's assumptions.</div>
+    </div>
+  </div>
+  <div class="brand">LINKEDIN MONETIZATION STRATEGY PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to research the member, model the price, and keep it honest once a new Premium feature ships. I have already built that discipline, from the deal side and the dashboard side.</h2>
+  <div class="body">
+    <p>The core proof is Sensata: a Power BI system tracking <strong>1,200 pricing opportunities against a $627M target</strong>, distributor margins lifted <strong>from 53% to 61%</strong>, and $700K+ in margin recovered in 2 quarters through research-backed pricing review.</p>
+    <p>What is harder to find is someone who has also modeled consumer subscription pricing tiers from willingness-to-pay signals, and who owns the CRM, CPQ and audit trail for his own company's deal flow. <strong>I built both at SwipeHire and PriceKeel</strong>, so the research-to-governance loop this role runs is not something I would need to learn on the job.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-pricing-ai.vercel.app/ref/linkedin</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">LINKEDIN MONETIZATION STRATEGY PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
