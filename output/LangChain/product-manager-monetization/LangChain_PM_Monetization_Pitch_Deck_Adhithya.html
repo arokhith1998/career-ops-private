@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>LangChain Product Manager, Monetization Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #0f766e; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 27pt; font-weight: 800; color: #0f172a; line-height: 1.14; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 20pt; font-weight: 800; color: #0f172a; line-height: 1.12; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #0f766e; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.8in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d5efec 100%); }
+  .cover h1 { font-size: 23pt; max-width: 11.4in; }
+  .cover .sub { font-size: 13.5pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 16pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.1pt; font-weight: 500; }
+  .tag strong { color: #0f766e; font-weight: 700; }
+  .cover .who { margin-top: 16pt; padding-top: 10pt; border-top: 1.5pt solid #0f766e; max-width: 9.5in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #0f766e; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #e6f5f3; border-left: 3pt solid #0f766e; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.3pt; color: #0a5a53; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.2pt; color: #334155; line-height: 1.44; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #0f766e; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #e6f5f3; border-left: 4pt solid #0f766e; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #0a5a53; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0f766e; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 23pt; font-weight: 800; color: #0f766e; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0f766e; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #0f766e; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #0f766e; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d5efec 100%); }
+  .close h2 { font-size: 24pt; max-width: 10.8in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.9in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #0f766e; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the LangChain Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | LangChain Product Manager, Monetization</div>
+  <h1>This role is five jobs in one: pricing and packaging owner, funnel analyst, billing and entitlement partner to engineering, enterprise packaging translator for Sales, and GTM voice in the room. I have already run every piece, just not all under one product yet.</h1>
+  <div class="sub">Pricing and packaging ownership, billing and entitlement system-building, and enterprise buying-motion fluency from someone who has priced the deal, built the CPQ, and shipped the PRD.</div>
+  <div class="tags">
+    <div class="tag"><strong>$700K+</strong> margin recovered in 2 quarters via deal-by-deal pricing at Sensata</div>
+    <div class="tag"><strong>53% to 61%</strong> distributor margin lift from repriced packaging logic</div>
+    <div class="tag"><strong>CRM + CPQ</strong> + audit trail owned end to end, founder of PriceKeel</div>
+    <div class="tag"><strong>PRD + MVP</strong> shipped zero to one with 3 subscription pricing tiers, SwipeHire</div>
+    <div class="tag"><strong>Claude AI agents</strong> automating recurring pricing analysis at Applied Materials</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-pricing-ai.vercel.app/ref/langchain</div>
+  </div>
+  <div class="brand">LANGCHAIN MONETIZATION PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>Pricing, packaging and billing for LangSmith are one connected product surface, <span class="accent">not three separate jobs.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What losing that discipline runs into</h4>
+      <div class="line">A monetization surface without one clear owner does not fail loudly. It fails as a pricing page that undersells usage, an upgrade flow nobody instrumented, and a billing edge case that only shows up once an enterprise contract hits a plan limit.</div>
+      <div class="line">Product, Engineering, Sales and Finance all touch the same packaging decision, so a gap in funnel instrumentation or entitlement logic becomes everyone's guessing game at renewal, not just one team's problem.</div>
+      <div class="line">The fix is not another dashboard. It is someone who treats pricing, packaging and billing as one connected discipline instead of three separate jobs.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run</h4>
+      <div class="line">At <b>PriceKeel</b>, I set up and run the CRM, CPQ configuration and the audit trail myself, the same system-ownership and plan-enforcement loop a billing and entitlements stack needs underneath usage-based pricing.</div>
+      <div class="line">At <b>Sensata</b>, I owned the Bleeders and Leakers program end to end and built the Power BI dashboard that made 1,200 pricing opportunities auditable by segment, the same funnel-level instrumentation a conversion and expansion analysis needs.</div>
+      <div class="line">At <b>SwipeHire</b>, I wrote the PRD and modeled 3 subscription pricing tiers myself, so I have already stood on the product side of a packaging decision, not just the pricing side.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">A Product Manager who owns pricing pages, upgrade flows, usage dashboards and billing management, defines usage-based and seat-based packaging, and partners with Sales on enterprise buying motions is describing this exact loop: price the value, instrument the funnel, keep billing honest.</div>
+  </div>
+  <div class="brand">LANGCHAIN MONETIZATION PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What the Monetization PM opening asks for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">Own the end-to-end monetization product surface: pricing pages, upgrade flows, usage dashboards, billing management, and the in-app signals that drive conversion and expansion.</div></div>
+      <div class="quote"><div class="q">Define and iterate on LangSmith's pricing and packaging, usage-based, seat-based, or hybrid, in close partnership with Finance, Sales and leadership.</div></div>
+      <div class="quote"><div class="q">Build the billing and entitlement infrastructure alongside engineering: usage metering, plan enforcement, trial mechanics and enterprise contract support.</div></div>
+      <div class="quote"><div class="q">Partner with Sales and Solutions Engineering to design packaging that maps cleanly to how large organizations buy software.</div></div>
+    </div>
+    <div class="col">
+      <h3>My Proof</h3>
+      <div class="proof"><div class="p"><b>Monetization product surface:</b> set up and run the CRM, CPQ configuration and audit trail end to end at PriceKeel, the same system-of-record ownership this seat holds for pricing pages, upgrade flows and billing management.</div></div>
+      <div class="proof"><div class="p"><b>Pricing and packaging:</b> raised distributor margins from 53% to 61% at Sensata and modeled 3 subscription pricing tiers at SwipeHire from competitor teardowns and willingness-to-pay signals, the usage-based and seat-based packaging work this role runs for LangSmith.</div></div>
+      <div class="proof"><div class="p"><b>Billing and entitlement infrastructure:</b> built the guardrail engine and plan-enforcement logic behind PriceKeel's discount exceptions, the same explainable, audit-ready logic a usage-metering and trial-mechanics system needs.</div></div>
+      <div class="proof"><div class="p"><b>Enterprise buying motion:</b> negotiated multimillion-dollar customer quotes and AP26 revenue models directly with senior executives at Sensata, the enterprise packaging fluency this role needs when mapping plans to how large organizations buy.</div></div>
+    </div>
+  </div>
+  <div class="brand">LANGCHAIN MONETIZATION PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>Bleeders and Leakers: <span class="accent">make every packaging decision auditable before it reaches a renewal.</span></h2>
+  <div class="lede">Built as a BU-wide Power BI system covering 1,200 pricing opportunities against a $627M target across 3 regions, 4 product families and 20 product lines, with pipeline funnel and win rate tracked before leadership set the next quarter's targets.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$700K+</div>
+      <div class="lbl">Margin Recovered, 2 Quarters</div>
+      <div class="desc">Deal-by-deal pricing review against competitive gaps and each customer's own deal history, the same signal-to-decision loop a usage dashboard needs to flag before a renewal.</div>
+    </div>
+    <div class="stat">
+      <div class="n">53% to 61%</div>
+      <div class="lbl">Distributor Margin Lift</div>
+      <div class="desc">Repriced the channel logic and documented it for Finance, so the new discount limits held past the first quarter, the plan-enforcement discipline a billing system needs.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$433M</div>
+      <div class="lbl">Margin Gaps Surfaced</div>
+      <div class="desc">Every gap traced to a specific deal record by salesperson and product line, the same funnel-level detail a conversion and expansion dashboard needs.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">At PriceKeel that same instinct became the operating model: I run the CRM, CPQ configuration and audit trail myself, so the packaging decision and the billing record are never two different stories.</div>
+  <div class="brand">LANGCHAIN MONETIZATION PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month owning monetization at LangChain looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Learn the pricing and billing stack</div>
+      <div class="body">Sit with Monetization and Engineering to walk the current pricing pages, upgrade flows, usage metering and plan-enforcement logic, and shadow one enterprise packaging conversation end to end.</div>
+      <div class="why"><strong>Why first:</strong> the same instinct that had me learn PriceKeel's own CPQ configuration before building anything on top of it.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Own a funnel-instrumentation experiment</div>
+      <div class="body">Take ownership of one upgrade-flow or usage-dashboard cycle end to end: confirm the conversion assumptions, ship the experiment, and present the activation and expansion read at the next review.</div>
+      <div class="why"><strong>Why now:</strong> the same segment-by-segment discipline that made the Bleeders and Leakers dashboard usable in a leadership review.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Tighten one billing or entitlement edge case</div>
+      <div class="body">Pair with engineering on one usage-metering or trial-mechanics gap, document the plan-enforcement logic behind it, and flag one enterprise contract pattern worth a packaging review before the next pricing cycle.</div>
+      <div class="why"><strong>Why this fast:</strong> a billing system only earns its keep if it gets re-checked every cycle instead of trusting last quarter's assumptions.</div>
+    </div>
+  </div>
+  <div class="brand">LANGCHAIN MONETIZATION PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to keep pricing, packaging and billing honest across every plan and every account. I have already built that discipline, from the deal side and the product side.</h2>
+  <div class="body">
+    <p>The core proof is Sensata: a Power BI system tracking <strong>1,200 pricing opportunities against a $627M target</strong>, distributor margins lifted <strong>from 53% to 61%</strong>, and $700K+ in margin recovered in 2 quarters through deal-by-deal pricing review.</p>
+    <p>What is harder to find is someone who has also written the PRD, scoped the MVP and modeled the pricing tiers for his own product, and who owns the CPQ and audit trail for his own company's deal flow. <strong>I built both at SwipeHire and PriceKeel</strong>, so the packaging-to-billing loop this role runs is not something I would need to learn on the job.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-pricing-ai.vercel.app/ref/langchain</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">LANGCHAIN MONETIZATION PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
