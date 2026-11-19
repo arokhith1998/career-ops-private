@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>NinjaTech AI Marketing Manager Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #1a56db; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 27pt; font-weight: 800; color: #0f172a; line-height: 1.15; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 19pt; font-weight: 800; color: #0f172a; line-height: 1.16; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #1a56db; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.8in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbeafe 100%); }
+  .cover h1 { font-size: 21pt; max-width: 11.6in; }
+  .cover .sub { font-size: 13pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; max-width: 10.8in; }
+  .cover .tags { margin-top: 16pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.6in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9pt; font-weight: 500; }
+  .tag strong { color: #1a56db; font-weight: 700; }
+  .cover .who { margin-top: 16pt; padding-top: 10pt; border-top: 1.5pt solid #1a56db; max-width: 9.6in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #1a56db; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #eff6ff; border-left: 3pt solid #1a56db; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #1e3a8a; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #1a56db; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.4pt; color: #334155; line-height: 1.46; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 13pt; background: #eff6ff; border-left: 4pt solid #1a56db; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #1e3a8a; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 21pt; font-weight: 800; color: #1a56db; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.3pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.6pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #1a56db; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.3pt; font-weight: 800; color: #0f172a; line-height: 1.18; margin-bottom: 7pt; }
+  .card .body { font-size: 8.8pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.3pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #1a56db; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbeafe 100%); }
+  .close h2 { font-size: 22pt; max-width: 11in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.8in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #1a56db; font-weight: 700; }
+  .close .contact { margin-top: 15pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the NinjaTech AI Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | NinjaTech AI Marketing Manager</div>
+  <h1>NinjaTech AI's first marketing hire needs someone who has already built a positioning, demand gen and content engine from zero, not someone assembling one for the first time on your dime.</h1>
+  <div class="sub">A zero-to-one GTM track record built across a founder role, an AI platform build, and a $2M+ enterprise product launch, paired with the agentic AI fluency this hire needs on day one.</div>
+  <div class="tags">
+    <div class="tag"><strong>PriceKeel founder</strong> - wrote the positioning, set up the CRM/CPQ, sold against legacy deal-desk tooling to RevOps and Finance</div>
+    <div class="tag"><strong>SwipeHire zero-to-one</strong> - AI platform: PRD to MVP to 50+ users, solo GTM, positioning and analytics</div>
+    <div class="tag"><strong>Sensata $2M+ launch</strong> - owned GTM end to end (positioning, pricing, channel, demand gen) for a new product line</div>
+    <div class="tag"><strong>Sales enablement</strong> - battlecards and case studies for 50+ reps, win rates +30%</div>
+    <div class="tag"><strong>AI agents on Claude</strong> - automating market and pricing analysis in production today</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-product-ai.vercel.app/ref/ninjatech-ai</div>
+  </div>
+  <div class="brand">NINJATECH AI MARKETING PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>A first marketing hire with no team and no playbook cannot afford a ramp-up. <span class="accent">The function has to work from week one, not quarter two.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What building marketing from zero actually requires</h4>
+      <div class="line">A narrative, ICP and positioning written by the person who will also run the channels, not handed off between a strategist and an executor.</div>
+      <div class="line">Paid and organic demand gen, content and sales enablement that all ship from a single owner, because there is no team to delegate pieces to yet.</div>
+      <div class="line">Enough fluency with the product itself, agentic AI, integrations, deployment models, to write about it without an engineer translating every line.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already built at that exact seam</h4>
+      <div class="line">Founded <b>PriceKeel</b> and built its positioning, CRM/CPQ and GTM from zero, selling against legacy deal-desk tooling directly to RevOps and Finance leaders.</div>
+      <div class="line">Built <b>SwipeHire</b> solo: PRD, MVP, ICP, positioning, GTM and the analytics stack for an AI job-matching platform, growing activation 25%.</div>
+      <div class="line">Automate market and pricing analysis today with <b>AI agents built on Claude</b> at Applied Materials, the same agentic-AI category NinjaTech sells into.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">The through-line: I have run the positioning-to-channel-to-content loop this role owns, alone, twice, on top of the AI fluency the job asks for.</div>
+  </div>
+  <div class="brand">NINJATECH AI MARKETING PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The mandate, mapped</div>
+  <h2>What the NinjaTech AI posting asks for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"You'll own marketing end to end, strategy and execution. There's no team to delegate to yet and no playbook to follow."</div></div>
+      <div class="quote"><div class="q">"Own paid acquisition end to end: Google Ads and other paid channels. Own SEO strategy and execution."</div></div>
+      <div class="quote"><div class="q">"Build the collateral our sales team needs: pitch decks, one-pagers, case studies, battlecards."</div></div>
+      <div class="quote"><div class="q">"Technically curious. You can get up to speed on agentic AI, integrations, deployment models and enterprise security."</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>Own it alone, no playbook:</b> founded PriceKeel and built its entire marketing function solo; built SwipeHire's GTM, positioning and analytics stack with no team either.</div></div>
+      <div class="proof"><div class="p"><b>Paid and organic end to end:</b> directed $100K/month in paid budgets at Plug Power across Google, Microsoft, Meta and LinkedIn (-25% CPA) and rebuilt the WordPress/Pardot lead flow, lifting organic 35%.</div></div>
+      <div class="proof"><div class="p"><b>Sales enablement:</b> built battlecards and case studies off EMEA/US competitive benchmarking for 50+ reps at Sensata, lifting win rates 30%.</div></div>
+      <div class="proof"><div class="p"><b>Agentic AI fluency:</b> automate repetitive market and pricing analysis with AI agents built on Claude at Applied Materials, selling pricing into enterprise technical buyers today.</div></div>
+    </div>
+  </div>
+  <div class="brand">NINJATECH AI MARKETING PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The launch proof, in depth</div>
+  <h2>The same positioning-to-demand-gen loop, <span class="accent">run solo, twice, before this hire was ever on the table.</span></h2>
+  <div class="lede">Built as the owner of GTM, positioning and channel execution for a new product line and a new product both, not handed a messaging doc to localize after launch.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$2M+</div>
+      <div class="lbl">First-Year Revenue, New Product Line</div>
+      <div class="desc">Owned positioning, pricing, channel and demand gen end to end at Sensata, the same single-owner launch motion a first marketing hire runs.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$100K/mo</div>
+      <div class="lbl">Paid Budget Directed Solo-Style</div>
+      <div class="desc">Planned, ran and reported paid search and paid social across four channels at Plug Power, cutting CPA 25% with no hand-off between strategy and execution.</div>
+    </div>
+    <div class="stat">
+      <div class="n">50+ / 30%</div>
+      <div class="lbl">Reps Enabled / Win-Rate Lift</div>
+      <div class="desc">A competitive battlecard and case-study library built from real benchmarking, the same enablement a sales-partnered first hire has to ship early.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">The agentic AI fluency behind it is live today at Applied Materials: automating market and pricing analysis with Claude-built AI agents, the exact category NinjaTech asks its marketer to speak fluently.</div>
+  <div class="brand">NINJATECH AI MARKETING PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month as NinjaTech AI's founding marketing hire would look like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Ship the ICP and positioning doc from the deals you already have</div>
+      <div class="body">Pull the last quarter of sales conversations and customer questions, then write the narrative and ICP from what buyers actually asked, the same move that grounded PriceKeel's positioning and the Sensata launch both.</div>
+      <div class="why"><strong>Why first:</strong> every page, deck, and ad written after this is downstream of it; writing it late means rewriting everything later.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Launch the first paid test and the first customer-facing asset</div>
+      <div class="body">Stand up one Google Ads campaign and one landing page test, and ship the single case study or one-pager most likely to move a live sales conversation this month, the same paired launch-plus-content motion that drove Sensata's first-year revenue.</div>
+      <div class="why"><strong>Why now:</strong> a channel test and a sales asset both in market beat a content calendar and a media plan nobody has used yet.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Set the reporting cadence and the next-hire recommendation</div>
+      <div class="body">Build the KPI and budget reporting leadership reviews weekly and quarterly, and bring a first recommendation on what the function hires next, PR, content, or a second demand-gen hand.</div>
+      <div class="why"><strong>Why this fast:</strong> a function with no playbook earns its next headcount by showing where the current owner is already maxed out.</div>
+    </div>
+  </div>
+  <div class="brand">NINJATECH AI MARKETING PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>NinjaTech AI needs a founding marketer who has already run positioning, demand gen and content alone. I have run that loop twice, with the agentic AI fluency built in.</h2>
+  <div class="body">
+    <p>The core proof is two zero-to-one builds and one enterprise launch: <strong>PriceKeel</strong>, where I am building the entire marketing function today with no team, and <strong>SwipeHire</strong>, an AI platform I built from a PRD to 50+ users solo, plus <strong>Sensata</strong>, where I owned a full product launch to $2M+ in first-year revenue.</p>
+    <p>What transfers immediately is the mechanics this role is built around: writing the narrative, running the paid and organic channels behind it, shipping the content and sales enablement, and doing all of it with the agentic AI fluency I already use daily on Claude.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-product-ai.vercel.app/ref/ninjatech-ai</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">NINJATECH AI MARKETING PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
