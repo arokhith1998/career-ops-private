@@ -1,0 +1,20 @@
+Subject: The exception-review call before it reaches the approver
+
+Hi {Manager, Commercial Operations - Pricing & Commercial Programs},
+
+I do not normally message before applying, but the posting pairs GPO roster administration with an exception-review call on rationale, precedent and customer value before it reaches an approver, and that second half is the control I already built as a product, not just a process I ran.
+
+I founded PriceKeel to be that exception review itself: it reads a live discount request and recommends a guardrail from a company's own closed-won and closed-lost deals, with an audit trail Finance can check without asking me to explain the call later.
+At Sensata I ran the Bleeders and Leakers program, recovered $700K+ in margin in two quarters, and built the FY2026 Power BI dashboard tracking 1,200 opportunities against a $627M target.
+At Applied Materials I automate recurring pricing analysis with Claude AI agents under human review, the same governed automation your posting asks for.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/nanosonics
+
+Open to 15 minutes on how the pricing-controls side of this role is scoped?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

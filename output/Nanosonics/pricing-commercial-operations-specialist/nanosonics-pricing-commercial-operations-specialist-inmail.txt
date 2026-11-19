@@ -1,0 +1,20 @@
+Subject: Built the exception-review control your posting describes
+
+Hi {Talent Acquisition, Nanosonics},
+
+I do not normally reach out cold, but your pricing req asks for someone who reviews a discount exception on rationale, precedent and customer value before it reaches an approver, and I have built that exact control, not just run it.
+
+At Sensata I led the Bleeders and Leakers program, recovering $700K+ in margin in two quarters and building the FY2026 Power BI dashboard that tracked 1,200 opportunities against a $627M target.
+I then founded PriceKeel, which automates that same exception review with a guardrail and audit trail.
+At Applied Materials I now run recurring pricing analysis through Claude AI agents under human review.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/nanosonics
+
+Worth 15 minutes if the pricing req is still open?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
