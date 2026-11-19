@@ -9,6 +9,10 @@
 
 # Dependencies and generated
 node_modules/
+# Cloud sandboxes sometimes provide node_modules as a symlink (e.g. to a
+# pre-installed cache dir) rather than a real directory; the trailing-slash
+# pattern above does not match a symlink, so list it bare as well.
+node_modules
 .resolved-prompt-*
 __pycache__/
 *.pyc
