@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Together AI Senior Digital Marketing Manager Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #0d5c8c; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 27pt; font-weight: 800; color: #0f172a; line-height: 1.12; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 21pt; font-weight: 800; color: #0f172a; line-height: 1.1; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #0d5c8c; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.6in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d6e8f3 100%); }
+  .cover h1 { font-size: 27pt; max-width: 11.5in; }
+  .cover .sub { font-size: 13.5pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; max-width: 11in; }
+  .cover .tags { margin-top: 18pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #0d5c8c; font-weight: 700; }
+  .cover .who { margin-top: 18pt; padding-top: 11pt; border-top: 1.5pt solid #0d5c8c; max-width: 9.5in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #0d5c8c; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #0d5c8c; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #e8f1f8; border-left: 4pt solid #0d5c8c; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #0d5c8c; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0d5c8c; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 24pt; font-weight: 800; color: #0d5c8c; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0d5c8c; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #0d5c8c; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #0d5c8c; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d6e8f3 100%); }
+  .close h2 { font-size: 24pt; max-width: 10.9in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.9in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #0d5c8c; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Together AI Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Together AI Senior Digital Marketing Manager</div>
+  <h1>A paid media seat that owns budget allocation, hands-on Google Ads and LinkedIn paid social, and attribution beyond last-click needs someone who already runs that loop, not three specialists.</h1>
+  <div class="sub">Channel strategy and agency-led execution across Google Ads, paid social, retargeting and display, with the GA4 and BI attribution work that measures impact on pipeline, not just clicks.</div>
+  <div class="tags">
+    <div class="tag"><strong>$100K/month</strong> paid media budgets owned across Google Ads, Meta and LinkedIn at Plug Power</div>
+    <div class="tag"><strong>-25% CPA</strong> and a 20% conversion lift through 15+ A/B tests and bid optimization</div>
+    <div class="tag"><strong>3x ROAS</strong> in a month via full-funnel restructuring at Pixis</div>
+    <div class="tag"><strong>KPI frameworks</strong> in SQL and GA4 surfacing attribution gaps at Sensata</div>
+    <div class="tag"><strong>Claude AI agents</strong> automating recurring reporting and analysis</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-growth-ai.vercel.app/ref/togetherai</div>
+  </div>
+  <div class="brand">TOGETHER AI SENIOR DIGITAL MARKETING MANAGER</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>A paid media program reaching AI engineers does not lack candidates who know Google Ads. It lacks <span class="accent">someone who has already owned budget allocation, hands-on execution and attribution in one seat, not split across three.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What this seat runs into</h4>
+      <div class="line">A channel mix only stays efficient if someone owns the forecast and pacing, not just the weekly spend report an agency sends back.</div>
+      <div class="line">Paid social on LinkedIn only converts engineers and enterprise buyers if account structure, targeting and creative get tested as fast as the channel mix changes.</div>
+      <div class="line">Attribution breaks the moment a deal touches more than one channel, so the real measurement gaps show up in GA4 and BI, not the ad platform's own dashboard.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run, at comparable scale</h4>
+      <div class="line">At <b>Plug Power</b>, I owned $100K/month across Google Ads, Microsoft Ads, Meta and LinkedIn, building the forecast and pacing plan that went to leadership before a dollar moved.</div>
+      <div class="line">At <b>Plug Power</b>, I ran account structure, bidding and creative testing myself, not just reviewed an agency's recommendations; 15+ A/B tests cut CPA 25%.</div>
+      <div class="line">At <b>Sensata</b>, I built KPI frameworks in SQL and GA4 across 50K+ connected devices to catch adoption signals direct attribution misses, then built the Power BI view leadership used to prioritize.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">This req asks for paid media strategy and budget allocation, hands-on Google Ads and paid social execution with agency support, forecasting and pacing, and attribution work that goes beyond direct attribution. That is the loop above, already run end to end.</div>
+  </div>
+  <div class="brand">TOGETHER AI SENIOR DIGITAL MARKETING MANAGER</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What the Senior Digital Marketing Manager opening asks for, and where the proof sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="proof"><div class="p">Paid media strategy and performance across paid search, paid social, retargeting, display and emerging channels.</div></div>
+      <div class="proof"><div class="p">Hands-on Google Ads expertise and paid social execution, particularly LinkedIn, with agency support.</div></div>
+      <div class="proof"><div class="p">Media investment planning: forecasting, budget allocation, pacing and performance targets across channels.</div></div>
+      <div class="proof"><div class="p">Measuring paid media's impact on pipeline and inbound beyond direct attribution, partnering with RevOps and Analytics.</div></div>
+    </div>
+    <div class="col">
+      <h3>My Proof</h3>
+      <div class="proof"><div class="p"><b>Plug Power:</b> owned $100K/month across Google Ads, Microsoft Ads, Meta and LinkedIn, the same channel set this role runs.</div></div>
+      <div class="proof"><div class="p"><b>Plug Power:</b> ran account structure, bidding and 15+ A/B tests myself, landing -25% CPA and a 20% conversion lift.</div></div>
+      <div class="proof"><div class="p"><b>Plug Power and Pixis:</b> built the forecasts and pacing plans leadership approved, then managed per-client budgets of $15K-$90K/month with full P&amp;L ownership.</div></div>
+      <div class="proof"><div class="p"><b>Sensata:</b> built KPI frameworks in SQL and GA4 across 50K+ devices, the attribution-gap work this role asks RevOps and Analytics partners to close together.</div></div>
+    </div>
+  </div>
+  <div class="brand">TOGETHER AI SENIOR DIGITAL MARKETING MANAGER</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The Plug Power proof, in depth</div>
+  <h2>$100K/month across four platforms, run as <span class="accent">one budget, not four separate line items.</span></h2>
+  <div class="lede">Owned paid search and paid social budgets across Google Ads, Microsoft Ads, Meta and LinkedIn for multiple business units, building the forecasts and pacing plans presented to leadership for approval, then running bid optimization and creative testing against them.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">-25%</div>
+      <div class="lbl">CPA Cut Through Testing</div>
+      <div class="desc">Bid optimization and 15+ A/B tests across Google Ads, Microsoft Ads, Meta and LinkedIn.</div>
+    </div>
+    <div class="stat">
+      <div class="n">+35%</div>
+      <div class="lbl">Organic Visibility Lift</div>
+      <div class="desc">Closed keyword-strategy gaps and built SEO partnerships to raise organic search visibility.</div>
+    </div>
+    <div class="stat">
+      <div class="n">-50%</div>
+      <div class="lbl">Cost Per Lead Cut</div>
+      <div class="desc">Automated the Mar-Tech stack (Salesforce, Adobe Analytics, GA, GTM) for closed-loop reporting.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">The same budget-ownership habit carried into Pixis, managing per-client paid media budgets of $15K-$90K/month across 8 accounts with full P&amp;L responsibility, and into Sensata, where SQL and GA4 KPI frameworks turned 50K+ device signals into the kind of attribution view a BI tool can act on.</div>
+  <div class="brand">TOGETHER AI SENIOR DIGITAL MARKETING MANAGER</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month owning Together AI's paid media channel mix looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Map the channel mix and agency relationship</div>
+      <div class="body">Sit with the agency partner and Demand Gen to pull the current Google Ads and LinkedIn account structure, spend pacing and the attribution gaps RevOps already flags, the same first move behind the Plug Power budget rebuild.</div>
+      <div class="why"><strong>Why first:</strong> a budget only reallocates well once the current pacing and account structure are visible in one place.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Run the first bidding and creative test cycle</div>
+      <div class="body">Launch A/B tests on bidding strategy and creative across the highest-spend Google Ads and LinkedIn campaigns, the same testing cadence that cut CPA 25% at Plug Power.</div>
+      <div class="why"><strong>Why now:</strong> testing early surfaces which levers move efficiency before the next budget cycle locks in.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Ship the first attribution view with RevOps and Analytics</div>
+      <div class="body">Build a GA4 and BI view connecting paid spend to pipeline and inbound beyond last-click, flagging the first measurement gaps for Analytics to close.</div>
+      <div class="why"><strong>Why this fast:</strong> the same habit that keeps Claude agents running recurring reporting at Applied Materials today.</div>
+    </div>
+  </div>
+  <div class="brand">TOGETHER AI SENIOR DIGITAL MARKETING MANAGER</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to own paid media strategy, run Google Ads and LinkedIn paid social hands-on, and close the attribution gap with RevOps and Analytics. I have already run that loop end to end.</h2>
+  <div class="body">
+    <p>The core proof is Plug Power: <strong>$100K/month</strong> across Google Ads, Microsoft Ads, Meta and LinkedIn, with 15+ A/B tests and bid optimization cutting CPA 25%, built on forecasts and pacing plans I presented to leadership myself.</p>
+    <p>What is harder to find is someone who also closes the loop on attribution: at <strong>Sensata</strong> I built KPI frameworks in SQL and GA4 to catch what direct attribution misses, and at <strong>Applied Materials</strong> I automate recurring reporting with Claude AI agents, the same operating habit a paid media program evaluating new tools and AI-powered workflows needs.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-growth-ai.vercel.app/ref/togetherai</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">TOGETHER AI SENIOR DIGITAL MARKETING MANAGER</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
