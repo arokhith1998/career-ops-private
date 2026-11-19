@@ -1,0 +1,20 @@
+Subject: 71,000 colleagues, one exception-approval call at a time
+
+Hi {Recruiter, Revenue Management},
+
+Running pricing exception approval across 333 distribution facilities is a scale problem, not a policy problem, and that is the half of this req I already run. I founded PriceKeel on exactly that call: a tool that reads a live discount exception and recommends an explainable guardrail, with the audit trail Finance needs later.
+
+Built a 6-slide pitch deck mapping that to the TRS/LCC scope here.
+
+At Sensata I closed $700K+ in margin in 2 quarters running exception-level pricing decisions, and moved distributor margins from 53% to 61%, the closest analog I have to funded-exception work at this scale.
+
+Here's the portfolio: adhi-pricing-ai.vercel.app/ref/sysco
+
+Worth 20 minutes if this is your req?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

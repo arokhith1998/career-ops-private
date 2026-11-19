@@ -1,0 +1,22 @@
+Subject: Revenue Management Manager - a note before I apply
+
+Hi {Recruiter, Revenue Management},
+
+I do not usually reach out before applying, but this posting names its Manager as the approval point for Sysco funded exceptions and customer investment above agreed thresholds. That is close to a job I already do. I founded PriceKeel on that exact call: a tool that reads a live discount exception and recommends an explainable guardrail, with the Finance audit trail behind it.
+
+Built a 6-slide pitch deck so the proof fits on one read.
+
+- Recovered $700K+ in margin in 2 quarters running Sensata's Bleeders and Leakers program, deal by deal.
+- Built the FY2026 Power BI dashboard behind it: 1,200 pricing opportunities against a $627M target.
+- Raised distributor margins from 53% to 61% repricing parts sold through distribution, the closest analog I have to TRS/LCC work.
+
+Here's the portfolio: adhi-pricing-ai.vercel.app/ref/sysco
+
+Worth 20 minutes if this is your req?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

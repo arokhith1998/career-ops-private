@@ -1,0 +1,22 @@
+Subject: Revenue Management Manager - the pivot-table line caught me
+
+Hi {Hiring Manager, Revenue Management},
+
+Your qualifications ask for someone who can quickly analyze reports and data to prioritize opportunities, with a deep understanding of Excel and pivot tables, and turn that into analytics Market and Region leadership acts on. That is the loop I ran at Sensata: build the pivot-table-level dashboard, walk it into the pricing meeting, leave with a decision made.
+
+Built a 6-slide pitch deck so the proof fits on one read.
+
+- Built the FY2026 Bleeders and Leakers Power BI dashboard: 1,200 pricing opportunities against a $627M target across 3 regions and 20 product lines, surfaced for leadership to prioritize by product line.
+- Turned that reporting into $700K+ of margin recovered in 2 quarters, and distributor margins moved from 53% to 61%.
+- At Applied Materials now, I automate the recurring parts of that same reporting with Claude AI agents, so the hour goes into the pricing call, not rebuilding the sheet.
+
+Here's the portfolio: adhi-pricing-ai.vercel.app/ref/sysco
+
+If you are the Director this role rolls up to, worth 20 minutes?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
