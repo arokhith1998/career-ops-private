@@ -1,0 +1,1 @@
+Hi, your Gist req treats Reddit, Threads and creator seeding as live tests, not roadmap items. I ran that at Pixis: 8 clients on Appsflyer/Adjust, 50% churn cut, 3x ROAS month. Portfolio: adhi-growth-ai.vercel.app/ref/applovin Open to 15 min?

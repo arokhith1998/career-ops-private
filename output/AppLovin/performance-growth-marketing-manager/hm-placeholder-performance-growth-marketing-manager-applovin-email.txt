@@ -1,0 +1,22 @@
+Subject: Treating Gist's channel list as 8 parallel tests, not 1 big bet
+
+Hi {Hiring Manager, Gist Growth},
+
+I don't normally reach out before applying, but this req lists Reddit, Threads, Pinterest and creator seeding as parallel experiments rather than one next channel, which is exactly how I ran growth across an 8-client portfolio at Pixis.
+
+Built you a 6-slide pitch deck so the proof fits on one read.
+
+At Pixis I ran iOS paid UA on Appsflyer and Adjust, the attribution tool this req names, across 8 clients at $15K-$90K/month each, cutting churn 50% and hitting a 3x ROAS month for one client by rebuilding the full funnel: feed, creative and bidding together.
+At Plug Power I owned $100K/month in paid budget across Google, Microsoft and Meta, cutting CPA 25% through structured A/B testing, the same test-and-scale cadence this role runs weekly.
+At Applied Materials I automate analysis with Claude AI agents, the habit behind the JD's own line about using AI tools to ship new concepts.
+
+Here's the portfolio: https://adhi-growth-ai.vercel.app/ref/applovin
+
+Worth 15 minutes on what is and isn't working in Gist's funnel right now? Happy to be pointed elsewhere if this isn't your req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

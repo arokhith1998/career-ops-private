@@ -1,0 +1,22 @@
+Subject: AppLovin building Gist from the inside out caught my eye
+
+Hi {Recruiter, AppLovin Talent Acquisition},
+
+I don't normally reach out before applying, but a $5.3B ad-tech company handing one growth hire the entire acquisition and retention loop for a brand-new consumer social app is not a generic req.
+
+Built you a 6-slide pitch deck so the proof fits on one read.
+
+At Pixis I ran iOS paid UA on Appsflyer and Adjust, the attribution tool this req names, across an 8-client, $15K-$90K/month portfolio, cutting churn 50% and landing a 3x ROAS month for one client.
+At Plug Power I owned $100K/month in paid budget across Google, Microsoft and Meta, cutting CPA 25%.
+At Applied Materials I automate repetitive analysis with Claude AI agents, the "use AI tools to ship new concepts" habit this seat asks for.
+
+Here's the portfolio: https://adhi-growth-ai.vercel.app/ref/applovin
+
+Worth 15 minutes to see if the Gist growth seat is still open? Happy to be pointed elsewhere if this isn't your req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
