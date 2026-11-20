@@ -1,0 +1,20 @@
+Subject: Already running the agency-and-attribution side of field programs
+
+Hi {Hiring Manager, Scaled Programs Marketing},
+
+Most of this req reads like a system I already operate: external agencies and budgets on one side, campaign ops and lead routing on the other, both feeding the same roadshow calendar.
+
+At Plug Power I owned $100K/month in marketing budgets and automated the Salesforce and Adobe Analytics stack behind them for closed-loop reporting.
+At Sensata I built sales enablement for 50 reps that lifted win rates 30%, the kind of material Sales actually uses in the room.
+At Applied Materials I run AI agents built on Claude against recurring forecasting work instead of rebuilding it by hand every cycle.
+
+Here's the portfolio: https://adhi-growth-ai.vercel.app/ref/google
+
+Worth 15 minutes to see if the fit is real?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
