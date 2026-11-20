@@ -2,11 +2,11 @@ Subject: Building the B2B narrative Consumer PMM does not already have
 
 Hi {Head of B2B Marketing, Genspark},
 
-I don't normally reach out before applying, but this role reports to you and asks for a foundational hire who builds B2B positioning from scratch while staying in lockstep with Consumer Product Marketing on a shared platform. One capability set, two buyer worlds: that split is the harder version of this job, and it is the one I want.
+I don't normally reach out before applying, but this role reports to you and asks for a foundational hire who builds B2B positioning from scratch while staying tied to Consumer Product Marketing on a shared platform. One capability set, two buyer worlds: that is the harder version of this job, and the one I want.
 
 Built you a 6-slide pitch deck so the proof fits on one read.
 
-At Sensata, I built the GTM that took a new sensing-product line to $2M+ first-year revenue, with positioning that lifted conversion 15% across OEM and distributor buyers. I armed 50+ reps with battlecards and objection-handling guides that moved win rates 30%, and 30+ customer interviews I ran fed straight back to Product and raised CSAT 22%. I also run AI agents on Claude at Applied Materials today to compress market and competitive research, the same AI-forward habit a 70-model platform needs from whoever builds this function.
+At Sensata, I built the GTM that took a new sensing-product line to $2M+ first-year revenue, with positioning that lifted conversion 15% across OEM and distributor buyers. I armed 50+ reps with battlecards that moved win rates 30%, and 30+ customer interviews I ran raised CSAT 22%. I run AI agents on Claude at Applied Materials today to compress research, the same AI-forward habit a 70-model platform needs from whoever builds this function.
 
 Here's the portfolio: https://adhi-product-ai.vercel.app/ref/genspark
 
