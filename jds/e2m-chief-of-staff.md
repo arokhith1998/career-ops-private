@@ -11,6 +11,17 @@
 **Comp Band Stated:** not stated in extracted text
 **Source:** LinkedIn jobs-guest public API (linkedin.com/jobs-guest/jobs/api/jobPosting/{id}), extracted 2026-10-30
 
+**REPOST CONFIRMED 2026-11-20 (cloud build run 2):** tracker row 2957 carries a
+different LinkedIn job id (4492435830, posted "1 day ago", 45 applicants, live)
+than this file's originally-extracted id (4485310019, 2026-10-30). Re-extracted
+the live posting at 4492435830 via browser-extract.mjs and it is byte-for-byte
+the same company/role/body text as below - a genuine repost of this exact req,
+not a different opening. Build and outreach for tracker row 2957 should use
+**https://www.linkedin.com/jobs/view/4492435830** as the application URL (not
+the id in this file's header above). Job poster on the current listing:
+**Kawaljeet Singh, Tech Talent Partner @ E2M Solutions** (named, not a
+placeholder) - use as the outreach contact.
+
 ## Work authorization / sponsorship / citizenship / clearance / degree / grad-year sentences (verbatim)
 No sentence about work authorization, sponsorship, citizenship, clearance, required degree field, or graduation year found in the extracted JD text.
 
