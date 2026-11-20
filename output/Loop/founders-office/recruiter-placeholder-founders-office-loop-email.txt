@@ -1,0 +1,20 @@
+Subject: Built AI tools to automate reporting, not just used them
+
+Hi {Recruiter, Loop Health Founder's Office},
+
+I do not normally reach out before applying, but the line asking for someone who has built AI tools to automate reporting, not only used them, matched my own work too closely to skip the note.
+
+At Applied Materials I built the Claude agents that pull repetitive reporting off my own plate, the automate-before-headcount bias this seat wants.
+At Sensata I built a pricing dashboard from messy data across 3 regions against a $627M target and recovered $700K plus in margin in two quarters, the variance-tracking instinct behind a working MIS.
+At PriceKeel I set up the CRM and pipeline tracker from scratch and run the finance side of my own raise, so board materials are not new territory.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/loop
+
+Worth 15 minutes if this is your req, no worries if someone else already owns it.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
