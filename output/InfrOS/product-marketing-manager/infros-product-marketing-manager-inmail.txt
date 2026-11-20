@@ -1,0 +1,18 @@
+Subject: The trust gap behind "validated architecture"
+
+Hi Naor,
+
+Your line about companies making $100 billion-plus infrastructure bets while building for AI is the trust gap InfrOS has to close in market: proving a generated architecture is production-ready to a buyer who verifies everything.
+
+I closed a similar gap at Sensata: built the ICP, personas and technical use-case content for a sensing line most buyers could not parse from a spec sheet, then armed 50+ reps with battlecards that lifted win rates 30%, backed by competitive intelligence from 30+ engineer interviews across EMEA and the US. At Applied Materials I now run Claude AI agents on the market-sizing behind our pricing story.
+
+Portfolio: adhi-product-ai.vercel.app/ref/infros
+
+Open to 15 minutes, or a pointer to whoever owns product marketing hiring at InfrOS.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

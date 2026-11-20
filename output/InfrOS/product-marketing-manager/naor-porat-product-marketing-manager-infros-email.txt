@@ -1,0 +1,20 @@
+Subject: The "validated architecture" problem is a positioning problem
+
+Hi Naor,
+
+I don't normally reach out before applying, but your line about companies making $100 billion-plus infrastructure bets while building for AI is the exact trust gap InfrOS has to close: proving a generated architecture is production-ready to a buyer who verifies everything.
+
+I closed that same gap at Sensata: built the ICP, personas and technical use-case content for a sensing line most buyers could not parse from a spec sheet, then armed 50+ reps with battlecards that lifted win rates 30%, backed by competitive intelligence from 30+ engineer interviews across EMEA and the US.
+
+At Applied Materials I run Claude AI agents on the market-sizing behind our pricing story, so marketing an AI-native product to a skeptical technical buyer is not new ground.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/infros
+
+Worth 15 minutes to see if this is the right seat, or if someone else on your team owns it?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
