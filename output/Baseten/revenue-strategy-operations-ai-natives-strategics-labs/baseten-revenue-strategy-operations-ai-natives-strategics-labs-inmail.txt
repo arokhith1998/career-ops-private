@@ -1,0 +1,16 @@
+Subject: A segment RevOps loop already running on a bigger book
+
+Hi {Hiring Manager, Revenue Strategy & Operations},
+
+Partnering with several sales leaders on one shared forecast gets harder when revenue moves with usage instead of a flat contract. I already run that loop: at Sensata I inspected a $627M pipeline weekly for stage risk and win rate, recovering $700K plus in two quarters by pressure-testing commits before close, not after. At PriceKeel I run CRM, CPQ, forecast and pipeline reviews, and deal approvals end to end as my own company's systems build, and at Applied Materials I run Claude AI agents weekly to keep forecast cycles current across product groups.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/baseten
+
+If you have 15 minutes this week, I would like to hear how the team is scoping its first segment analytics build.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
