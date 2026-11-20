@@ -2,11 +2,11 @@ Subject: Scaled Programs Marketing Manager, Google Cloud: the Salesforce/Marketo
 
 Hi {Recruiter, Google Cloud Marketing},
 
-I don't normally reach out before applying, but the line about owning campaign ops in Salesforce and Marketo underneath a calendar of roadshows and field programs, with data integrity, attribution and lead routing sitting on top, is a system I already run, not one I would be learning on this job.
+I don't normally reach out before applying, but the line about owning campaign ops in Salesforce and Marketo underneath a calendar of roadshows and field programs, with lead routing sitting on top, is a system I already run, not one I would be learning on this job.
 
-At Plug Power I owned $100K/month in marketing budgets across multiple business units and built the forecasts and sign-off process that cleared leadership review before a dollar moved.
-I automated the Salesforce, Adobe Analytics, GA and Google Tag Manager stack behind that budget for closed-loop reporting, and built a lead flow that cut cost per lead in half.
-At Applied Materials I now automate recurring forecasting work with AI agents built on Claude, instead of rebuilding the models by hand every cycle.
+At Plug Power I owned $100K/month in marketing budgets and built the forecasts and sign-off process that cleared leadership review before a dollar moved, then automated the Salesforce and Adobe Analytics stack behind it for closed-loop reporting.
+I also built a lead flow that cut cost per lead in half.
+At Applied Materials I automate recurring forecasting work with AI agents built on Claude, instead of rebuilding the models by hand every cycle.
 
 Here's the portfolio: https://adhi-growth-ai.vercel.app/ref/google
 

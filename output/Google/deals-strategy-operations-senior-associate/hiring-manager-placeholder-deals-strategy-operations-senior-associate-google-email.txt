@@ -1,0 +1,18 @@
+Subject: Budget pacing across funding pools, the daily audit this seat runs on
+
+Hi {Hiring Manager, Americas Deals},
+
+I do not normally cold email a hiring manager, but tracking budget allocations across funding pools and geo-sectors, then calling the reallocation before a pool runs dry, is the exact rhythm I already keep, not a new muscle to build.
+
+At Sensata I built the Bleeders and Leakers Power BI dashboard, ranking 1,200 opportunities against a $627M target, surfacing $433M in gaps and recovering $700K+ in margin in two quarters by fixing the underlying discount logic. At PriceKeel I run a guardrail engine that scores discount exceptions against explainable logic, the same pattern that keeps per-trial limits from drifting past their cap. At Applied Materials I partner with Sales and Finance on forecasting models and automate the recurring reporting with Claude based AI agents, the audit-and-automate loop this seat's agreement workflows ask for.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/google
+
+If the team is still scoping this seat, I would like 15 minutes to hear where the pacing audits are most manual right now. A pointer elsewhere would help just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

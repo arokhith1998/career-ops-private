@@ -1,0 +1,18 @@
+Subject: Deals Strategy and Operations Senior Associate: exception governance, already built
+
+Hi {Recruiter, GMP Commercials GTM},
+
+I do not normally reach out before applying, but owning the exception call on incentive nominations, checked against eligibility caps and per-trial limits, is a system I already run, not a new skill.
+
+At PriceKeel I run a guardrail engine scoring discount exceptions against explainable logic before approval, the same pattern this req runs for program nominations. At Sensata I built the Bleeders and Leakers Power BI dashboard, ranking 1,200 opportunities against a $627M target and surfacing $433M in gaps, then recovered $700K+ in margin in two quarters by fixing the discount logic. At Applied Materials I automate recurring forecasting with Claude based AI agents, the automation habit these audits ask for.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/google
+
+If this req is still open, I'd like 15 minutes on how exceptions get adjudicated across the funding pools. A pointer to the right person helps just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
