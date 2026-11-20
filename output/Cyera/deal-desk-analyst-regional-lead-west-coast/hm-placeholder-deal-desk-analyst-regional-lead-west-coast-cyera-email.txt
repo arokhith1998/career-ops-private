@@ -1,0 +1,23 @@
+Subject: Streamlining your deal review and approval process, not just running it
+
+Hi {Hiring Manager, Deal Desk / Revenue Operations},
+
+I do not normally email before applying, but a brief that asks someone to streamline the deal review and approval process itself, not just run it, is the exact problem I spend my time on.
+
+Built a 6-slide pitch deck mapping that work to this role.
+
+At Sensata I built the Bleeders and Leakers program that ranked 1,200 pricing opportunities against a $627M target, recovering $700K+ in margin in two quarters.
+I shaped AP26 revenue models and multimillion-dollar customer quotes alongside senior executives, structuring non-standard deal terms the same way a deal desk reviews them today.
+At PriceKeel I built a guardrail engine that scores discount exceptions against a company's own closed-won and closed-lost deals, with the audit trail Finance needs for every call.
+At Applied Materials I automate recurring pricing analysis with Claude AI agents, so the deal desk spends time on judgment calls, not spreadsheet upkeep.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/cyera
+
+Worth 15 minutes on how the West region team is scoping this, no worries if I have the wrong person.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
