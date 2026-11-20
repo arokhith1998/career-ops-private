@@ -1,0 +1,22 @@
+Subject: A $627M pricing dashboard built from scratch, for the Global Strategy req that just went up
+
+Hi {Recruiter, Global Strategy},
+
+I do not normally reach out before applying, but this req posted under an hour ago and already pairs raw financial files with new-business discovery work in one seat, that combination is rare enough to write about.
+
+Built you a 6-slide pitch deck so the proof fits on one read.
+
+At Sensata I built a Power BI dashboard from scratch, ranking 1,200 pricing opportunities against a $627M target and surfacing $433M in margin gaps for leadership to act on.
+I benchmarked 10+ competitors into a case that moved market share by 8 points.
+At Applied Materials I carry P&L targets while sizing a market with Sales, Engineering and Accounts, and I automate the recurring analysis with Claude AI agents.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/abbott
+
+Worth 15 minutes if this is your req, no worries if it already has an owner.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

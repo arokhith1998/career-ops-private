@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Abbott Manager Global Marketing Strategy and Market Intelligence Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #047857; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 29pt; font-weight: 800; color: #0f172a; line-height: 1.1; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 21pt; font-weight: 800; color: #0f172a; line-height: 1.1; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #047857; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.6in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d4ede1 100%); }
+  .cover h1 { font-size: 28pt; max-width: 11.1in; }
+  .cover .sub { font-size: 14pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 18pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #047857; font-weight: 700; }
+  .cover .who { margin-top: 18pt; padding-top: 11pt; border-top: 1.5pt solid #047857; max-width: 9.5in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #047857; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #e4f3ec; border-left: 3pt solid #047857; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #065f46; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #047857; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #e4f3ec; border-left: 4pt solid #047857; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #065f46; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #047857; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 24pt; font-weight: 800; color: #047857; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #047857; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #047857; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #047857; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d4ede1 100%); }
+  .close h2 { font-size: 25pt; max-width: 10.6in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.9in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #047857; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Abbott Structural Heart Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Abbott Manager, Global Marketing Strategy and Market Intelligence</div>
+  <h1>This seat does not stop at the dashboard. It has to carry the number into a negotiation, a proposal, or a roadmap decision. I have already closed deals on numbers I built myself.</h1>
+  <div class="sub">Market sizing and competitive intelligence that survive contact with a contract, a pricing table, and an executive who wants the number defended, not just presented.</div>
+  <div class="tags">
+    <div class="tag"><strong>$700K+</strong> recovered in 2 quarters through deal-level contract negotiation</div>
+    <div class="tag"><strong>53% to 61%</strong> distributor margin lift from repriced contract terms</div>
+    <div class="tag"><strong>10+</strong> competitors benchmarked to drive +8% market share and +12% YoY revenue</div>
+    <div class="tag"><strong>170 to 28</strong> facilities sized to a SAM, feasibility presented to leadership</div>
+    <div class="tag"><strong>Claude AI agents</strong> automating recurring market analysis at Applied Materials</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhithyabhaskar.vercel.app/ref/abbott</div>
+  </div>
+  <div class="brand">ABBOTT STRUCTURAL HEART STRATEGY</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>A market strategy seat that also chases new business cannot stop at analysis. <span class="accent">It has to hold up across a negotiation.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What this combination runs into</h4>
+      <div class="line">Opportunity assessments, competitor pipelines and financial files are the easy half. The harder half is carrying that same number into a discovery conversation, a proposal, or a contract term and having it still hold up when the other side pushes back.</div>
+      <div class="line">A market-sizing model that never meets a real deal stays theoretical. A proposal built without the underlying financial and competitive analysis gets picked apart in the room.</div>
+      <div class="line">The fix is one person who builds the number and is comfortable sitting across the table defending it, not two separate functions that hand off at the proposal stage.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run</h4>
+      <div class="line">At <b>Sensata</b>, I built the Bleeders and Leakers dashboard from raw sales and pricing files, then personally closed <b>$700K+ in 2 quarters</b> through negotiations grounded in that same competitive and financial analysis.</div>
+      <div class="line">I repriced distributor contract terms, lifting margins <b>53% to 61%</b>, and shaped multimillion-dollar customer contracts and AP26 revenue models directly alongside senior executives.</div>
+      <div class="line">At <b>Applied Materials</b> now, I size a fast-moving market and feed that view into pricing and the product roadmap, the same input a new-business pitch needs to be credible.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">This req pairs market intelligence with discovery conversations, proposals, contract negotiation and roadmap influence. That is the exact pairing above: build the number, then carry it into the room where it gets tested.</div>
+  </div>
+  <div class="brand">ABBOTT STRUCTURAL HEART STRATEGY</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What the Manager, Global Marketing Strategy and Market Intelligence opening asks for, and where the proof sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">Developing strategic plans, market insights, opportunity assessments and competitive analyses; building executive presentations and strategic narratives.</div></div>
+      <div class="quote"><div class="q">Analyzing financial data such as sales and pricing; managing dashboards and reporting tools.</div></div>
+      <div class="quote"><div class="q">Identifying and pursuing new business opportunities, including discovery conversations, proposals and contract negotiation.</div></div>
+      <div class="quote"><div class="q">Influencing product roadmaps based on customer and market feedback.</div></div>
+    </div>
+    <div class="col">
+      <h3>My Proof</h3>
+      <div class="proof"><div class="p"><b>Opportunity assessment and dashboards:</b> Bleeders and Leakers Power BI system ranking 1,200 deal opportunities against a $627M target, surfacing $433M in margin gaps for leadership.</div></div>
+      <div class="proof"><div class="p"><b>Financial data to decision:</b> raw sales and pricing files turned into AP26 revenue models and site-transition strategy with senior executives.</div></div>
+      <div class="proof"><div class="p"><b>New business and contract negotiation:</b> multimillion-dollar customer contracts closed and distributor terms repriced 53% to 61%, with $700K+ recovered through direct negotiation.</div></div>
+      <div class="proof"><div class="p"><b>Roadmap influence:</b> field and customer input at Applied Materials and Sensata (30+ OEM/distributor interviews) feeding pricing and product-roadmap decisions.</div></div>
+    </div>
+  </div>
+  <div class="brand">ABBOTT STRUCTURAL HEART STRATEGY</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>From dashboard to signed term: <span class="accent">the full loop, not just the analysis half.</span></h2>
+  <div class="lede">The Bleeders and Leakers program ranked 1,200 pricing opportunities against a $627M target across 3 regions, 4 product families and 20 product lines. The dashboard identified the gaps. Closing them meant sitting in the negotiation.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$433M</div>
+      <div class="lbl">Margin Gaps Identified</div>
+      <div class="desc">Every gap traced to a specific customer and product line, the opportunity list a discovery conversation starts from.</div>
+    </div>
+    <div class="stat">
+      <div class="n">53% to 61%</div>
+      <div class="lbl">Distributor Terms Repriced</div>
+      <div class="desc">Negotiated directly, using competitive benchmarks and documented customer willingness to pay as leverage.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$700K+</div>
+      <div class="lbl">Recovered in 2 Quarters</div>
+      <div class="desc">Closed, not just forecast: the dashboard's output converted into signed terms inside two quarters.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">The same instinct runs through the Safran project (170 facilities sized to a SAM of 28, feasibility presented to leadership) and today's work at Applied Materials, where recurring market analysis is automated with Claude AI agents so more time goes to the conversations that actually move a deal.</div>
+  <div class="brand">ABBOTT STRUCTURAL HEART STRATEGY</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month on the Structural Heart Global Strategy team looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Learn the current pipeline of opportunities</div>
+      <div class="body">Sit with Commercial, Regulatory, Clinical and Finance to map the competitor and financial data already flowing in, and review any open discovery conversations or proposals in progress.</div>
+      <div class="why"><strong>Why first:</strong> the same move that started the Bleeders and Leakers program, map what exists before proposing anything new.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Build one opportunity assessment end to end</div>
+      <div class="body">Take one new-business opportunity from raw competitive and financial data through to a proposal draft, pressure-tested against real deal terms, not a hypothetical model.</div>
+      <div class="why"><strong>Why now:</strong> the same build-it-against-a-real-deal discipline that made the 53% to 61% distributor terms hold past the first quarter.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Present the executive narrative</div>
+      <div class="body">Package the quarter's strongest opportunity assessment into the concise executive presentation the strategic goals process runs on, with feedback routed back into the product roadmap.</div>
+      <div class="why"><strong>Why this fast:</strong> a market-intelligence function earns its seat at the table once a deck leads to a decision, not a filed report.</div>
+    </div>
+  </div>
+  <div class="brand">ABBOTT STRUCTURAL HEART STRATEGY</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to carry a market number into a negotiation, not just a slide. I have already closed on numbers I built myself.</h2>
+  <div class="body">
+    <p>The core proof is Sensata: <strong>$700K+ recovered in 2 quarters</strong> and distributor terms repriced <strong>53% to 61%</strong>, both closed through direct negotiation grounded in the Bleeders and Leakers dashboard I built from raw sales and pricing files.</p>
+    <p>What is harder to find is someone who carries that same financial and competitive rigor into new-business discovery and market sizing, from the <strong>Safran feasibility study</strong> presented to leadership to the semiconductor market sizing I run today at Applied Materials, automated in part with Claude AI agents.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhithyabhaskar.vercel.app/ref/abbott</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">ABBOTT STRUCTURAL HEART STRATEGY</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
