@@ -1,0 +1,27 @@
+Subject: A demand gen hire who already runs the full funnel, not just the top of it
+
+Hi {Recruiter, Genspark},
+
+I do not normally reach out before applying, but your posting splits demand generation across SMB, mid-market and enterprise segments on one platform, and asks for someone who owns paid, lifecycle,
+ABM and the product-usage handoff to Sales all at once. That breadth is unusual to find in one person, and it is close to how I have worked across my last few roles.
+
+At Plug Power I owned $100K/month in paid-media budget across Google, Microsoft, Meta and LinkedIn, tested 15+ paid-search variants against 50+ inbound campaigns, and automated the WordPress-to-Pardot
+lead flow so SEM tied directly to MQL quality and stage-1 pipeline, cutting cost per lead 50% and CPA 25%.
+At Pixis I ran that same multi-channel mix, paid, retargeting and retail media, across an 8-client, $15K-90K/month portfolio in international, non-English markets, close to the global-with-local-adaptation
+model your posting describes for regional teams.
+
+On the PLG-to-SLG side, I built KPI frameworks in SQL and GA4 at Sensata across 50,000+ connected devices to flag which accounts were ready for a sales conversation based on usage, not guesswork, lifting
+qualified leads 35% and adoption 18%. I use HubSpot and Salesforce day to day, and I run AI agents on Claude at Applied Materials to automate recurring campaign and market analysis, the kind of
+workflow-building your posting flags as a plus rather than a nice-to-have.
+
+Here's the portfolio: https://adhi-growth-ai.vercel.app/ref/genspark
+
+If this req is yours, 15 minutes would help me understand where the team needs the most lift first.
+If it belongs to someone else on your team, a pointer their way is just as useful.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
