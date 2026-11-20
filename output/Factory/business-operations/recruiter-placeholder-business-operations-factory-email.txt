@@ -1,0 +1,22 @@
+Subject: The "report directly to bizops leadership" line in your posting
+
+Hi {Recruiter, Business Operations},
+
+I don't usually reach out before applying, but a seat built to sit across strategy, finance, operations and GTM with no fixed owner yet is the kind of blank page I already fill, not one I'd be learning on the job.
+
+A few anchors:
+- Built PriceKeel's financial model and guardrail engine from scratch, plus the CRM, CPQ, forecast and pipeline review process the company runs on today.
+- Built a Power BI dashboard scoring 1,200 pricing opportunities against a $627M target, surfacing $433M in margin gaps and recovering $700K+ in two quarters.
+- Automate forecasting and pricing analysis with Claude agents at Applied Materials today.
+- Built sales enablement that lifted win rates 30% at Sensata.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/factory
+
+Worth 15 minutes? A pointer to whoever owns this req would help just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

@@ -1,0 +1,22 @@
+Subject: Building the playbook before the enterprise logos outgrow it
+
+Hi {Hiring Manager, Business Operations},
+
+I don't normally write before applying, but running Nvidia, Blackstone and RBC without a shared process yet is the exact gap between fast growth and the operations that have to hold it, and that gap is where I already work, not where I'd start learning.
+
+A few anchors:
+- Designed PriceKeel's full operating process end to end: CRM, CPQ, forecast and pipeline review, built around a financial model and guardrail engine I own myself.
+- Turned a 1,200-opportunity Power BI dashboard against a $627M target into a weekly sales cadence, recovering $700K+ in margin in two quarters and raising distributor margins from 53% to 61%.
+- Built customer success playbooks and sales enablement that cut client churn 50% at Pixis and lifted win rates 30% at Sensata.
+- Automate forecasting and pricing analysis today with Claude agents, the same instinct this role points at Factory's own droids.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/factory
+
+If this isn't your req, 15 minutes or a pointer to whoever owns it would help just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
