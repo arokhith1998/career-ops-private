@@ -1,0 +1,20 @@
+Subject: Your North America order queue, from someone who builds this daily
+
+Hi {Director of Global Deal Desk, Horizon3.ai},
+
+I do not normally message a hiring manager before applying, but a deal desk that needs its own RFP and vendor risk workstream alongside order management is the system-building problem I spend my own time on, not a job description I am reading cold.
+
+At Sensata I partnered with senior executives on multimillion-dollar customer quotes and revenue models, then built the sales enablement materials 50+ reps used to sell inside approval policy, lifting win rates 30%.
+I also raised distributor and channel-partner margins from 53% to 61% by getting Sales, Finance and channel partners aligned on new terms in under two quarters.
+At PriceKeel the guardrail engine I designed reads a live discount exception inside the deal platform and checks it against approval policy before Finance ever sees it, with an audit trail for every decision across that same quote-to-cash flow.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/horizon3-ai
+
+Worth 15 minutes on how the North America order queue is scoped right now?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

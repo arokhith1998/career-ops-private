@@ -1,0 +1,19 @@
+Subject: Horizon3's North America order queue, from someone who builds this for a living
+
+Hi {Recruiter, Horizon3.ai},
+
+I do not normally send an InMail before applying, but a deal desk scaling into its own RFP and vendor risk workstream alongside order management is the kind of problem I already spend my own time solving, not just reading about.
+
+At Sensata I recovered $700K+ in margin in two quarters by scoring 1,200 pricing opportunities against a $627M target and structuring deal-by-deal exceptions against policy.
+At PriceKeel I run the CRM and CPQ myself, with a guardrail engine that checks every discount exception against approval policy before Finance ever sees it.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/horizon3-ai
+
+Worth 15 minutes if this req is still open?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
