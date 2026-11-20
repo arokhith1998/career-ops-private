@@ -1,0 +1,18 @@
+Subject: The self-serve to enterprise handoff is the modeling problem I like
+
+Hi {RevOps Lead, Browserbase},
+
+Segmenting a funnel that runs self-serve signups into PQLs and enterprise SQOs is a different problem than a single-motion pipeline, and it is the one I would want on day one. At PriceKeel I run my own forecast and pipeline review cadence end to end, from CRM and CPQ configuration through the deal-approval call, and built a discount guardrail engine that reads closed-won and closed-lost history before recommending the next move.
+
+That build habit sits on a GTM analytics track record: at Sensata I built the Bleeders and Leakers Power BI dashboard, 1,200 pricing opportunities against a $627M target across 3 regions and 20 product lines, with win rate and stage-distribution reporting that surfaced $433M in margin gaps for leadership to prioritize.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/browserbase
+
+If you have 15 minutes this week, I would like to hear how the team is thinking about segmentation and coverage for the enterprise motion.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
