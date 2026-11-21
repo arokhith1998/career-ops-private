@@ -1,0 +1,27 @@
+REBEL FOODS - FOUNDERS OFFICE - ASSOCIATE/MANAGER
+Do not submit this pack's cover letter as your required two-page write-up.
+
+The posting (Jaydeep Barman's LinkedIn post, verbatim) requires:
+"a two-page write-up" covering (1) who you are and what shaped you, (2) proof
+of curiosity/problem-solving/drive, (3) proof of aesthetic/design sensibility,
+(4) what makes you founder material - submitted through the Apply form by
+November 7, 2026.
+
+It also states, verbatim: "Any answer written by AI will be automatically
+rejected by an AI agent before a human sees it."
+
+What this pack is for:
+- Adhithya_Rokhith_RebelFoods_FoundersOffice.pdf - a resume, safe to attach to
+  the application form if it accepts one. This is a factual bullet document,
+  not a personal narrative answer, so it is not the thing the posting's
+  AI-rejection rule is aimed at.
+- CoverLetter_RebelFoods_FoundersOffice.pdf - built for your own ideation only.
+  Use it to see which proof points (PriceKeel, SwipeHire) land, then write the
+  actual two-page write-up yourself, in your own words. Do not copy, lightly
+  edit, or paste any of this cover letter into that submission.
+
+Also unresolved (from reports/1571-rebel-foods-2026-10-20.md, carried forward,
+not re-litigated here): the post states "must be in their twenties" as an
+eligibility criterion. Neither cv.md nor config/profile.yml carries a
+date-of-birth or age field, so this was not and cannot be confirmed either
+way by the pipeline. Self-assess before applying.
