@@ -1,0 +1,18 @@
+Subject: Repeat borrowing and cross-sell as one lifecycle problem, not two
+
+Hi {Hiring Manager, Lifecycle Marketing},
+
+I don't usually email a hiring manager directly, but a lifecycle team building push, in-app and logged-in journeys for repeat borrowing while standing up cross-sell at the same time is a two-sided problem I've already run, not one I'd be ramping into.
+
+At Pixis I cut client churn 50% through proactive, segment-specific account strategy across an 8-client portfolio, then used Amplitude and Tableau cohort analysis across 30+ campaigns to lift ROAS 40%. At Sensata I built SQL and GA4 KPI frameworks on 50K+ connected devices, finding the high-intent cohorts that lifted feature adoption 18%, the same behavior-to-journey work this role asks for. At Applied Materials I run forecasting on Claude agent workflows now, always with a human checking the output before it ships, the exact AI posture this JD states.
+
+Here's the portfolio: https://adhi-growth.vercel.app/ref/happen-bank
+
+Would 15 minutes work to walk through how I'd structure the first cross-sell experiment? Happy to be pointed elsewhere if this isn't your req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
