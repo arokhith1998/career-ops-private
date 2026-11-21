@@ -2,12 +2,12 @@ Subject: A PMM who runs the interviews before writing the positioning
 
 Hi {Recruiter, Product Marketing},
 
-I don't normally write in before applying, but Outset's own product exists to surface what users will not say in a form, and that is exactly how I build positioning, not from a feature list.
+I don't normally write in before applying, but Outset's product exists to surface what users won't say in a form, and that is how I build positioning too, not from a feature list.
 
-Owned GTM end to end for a new product line at Sensata, running 30+ structured interviews with OEMs and distributors to find pain points they would not raise in a sales call, driving $2M+ in first-year revenue.
+Owned GTM end to end for a new product line at Sensata, running 30+ structured interviews with OEMs and distributors to find pain points they wouldn't raise in a sales call, driving $2M+ in first-year revenue.
 Turned those interviews into value language that lifted conversion 15% on priority launches.
-Built sales and CS enablement, decks and case studies, for 50+ reps, lifting win rates 30%.
-Automate my own research synthesis with Claude AI agents at Applied Materials today, the same AI-in-the-workflow habit this posting asks for.
+Built sales and CS enablement for 50+ reps, lifting win rates 30%.
+Automate my own research synthesis with Claude AI agents at Applied Materials today, the habit this posting asks for.
 
 Here's the portfolio: https://adhi-product-ai.vercel.app/ref/outset
 
