@@ -1,0 +1,20 @@
+Subject: A product analytics function, not just a product manager seat
+
+Hi {Hiring Manager, MGT Insurance},
+
+I do not normally reach out before applying, but "lead the product analytics function" is not how most commercial lines PM postings phrase the job, and it reads closer to work I already run than a typical PM brief.
+
+At Sensata I built a Power BI dashboard from scratch, scoring 1,200 pricing opportunities against a $627M target across 3 regions and 20 product lines, surfacing $433M in margin gaps for leadership every week.
+I defined and executed Sensata's product roadmap end to end, running a 100+ feature backlog with engineering in Agile across 3 regions, which cut time to market 20%.
+At Applied Materials I build AI agents on Claude that automate the repetitive side of market analysis, the same instinct behind building product infrastructure that lets underwriting move faster without losing rigor.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/mgt-insurance
+
+Worth 15 minutes on how the analytics function is scoped? No worries if someone else already owns this req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

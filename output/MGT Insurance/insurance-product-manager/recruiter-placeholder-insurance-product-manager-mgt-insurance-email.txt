@@ -1,0 +1,20 @@
+Subject: Translating field feedback into coverage decisions, at scale
+
+Hi {Recruiter, MGT Insurance},
+
+I do not normally reach out before applying, but the line about turning competitor research and field feedback into actionable product decisions, then explaining the findings to both technical and non-technical audiences, is the exact loop I run today.
+
+At Sensata I built a Power BI dashboard from scratch, scoring 1,200 pricing opportunities against a $627M target across 3 regions and 20 product lines, surfacing $433M in margin gaps weekly.
+I built sales enablement decks and case studies for 50+ reps, translating technical detail into a story non-technical stakeholders could act on, which lifted win rates 30%.
+I also ran 30+ interviews with OEMs and distributors to pair that data with a roadmap, not just a dashboard.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/mgt-insurance
+
+Worth 15 minutes if this is your req? Happy to be pointed elsewhere if not.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
