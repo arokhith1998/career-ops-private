@@ -1,0 +1,22 @@
+Subject: Deal Desk Analyst - quote-to-cash background, 15 minutes?
+
+Hi {Recruiter, Deal Desk},
+
+Not my usual move, but the ask to own quote review and advise Global Sales on deal structure (not just process it) is close to what I run at PriceKeel: a guardrail engine that flags a discount exception and gives the rep evidence Finance can audit.
+
+Quick overlap with the req:
+- Own CRM/CPQ, deal approvals and forecast reviews daily at PriceKeel.
+- Recovered $700K+ margin in 2 quarters at Sensata on multimillion-dollar customer quotes and non-standard terms.
+- Repriced distributor contracts from 53% to 61% margin.
+- Automate pricing analysis with Claude AI agents at Applied Materials, in line with the AI-tools note in your posting.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/mixpanel
+
+Open to 15 minutes, or a pointer to whoever owns this req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

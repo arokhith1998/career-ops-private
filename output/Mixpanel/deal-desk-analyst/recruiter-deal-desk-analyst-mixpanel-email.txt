@@ -1,0 +1,21 @@
+Subject: Deal Desk Analyst - quote review and CPQ background
+
+Hi {Recruiter, Deal Desk},
+
+I do not normally reach out before applying, but the line about owning non-standard contract terms and running Salesforce CPQ daily stopped me: I am building PriceKeel right now, a tool that reads a live discount exception inside the deal platform, so this is already my day job.
+
+A few things map directly to the req:
+- Run CRM/CPQ, deal approvals, and forecast reviews daily at PriceKeel, selling against legacy deal-desk tooling.
+- Recovered $700K+ in margin in 2 quarters at Sensata negotiating multimillion-dollar customer quotes and non-standard terms.
+- Repriced distributor contracts from 53% to 61% margin, the same call a Deal Desk Analyst makes on every quote.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/mixpanel
+
+If this is not your req, just point me to whoever owns it. Open to 15 minutes if it is.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
