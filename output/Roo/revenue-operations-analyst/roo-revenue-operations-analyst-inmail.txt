@@ -1,0 +1,16 @@
+Subject: Reading a holdout test before the cohort is old enough to trust
+
+Hi {Director of Revenue Operations, Roo},
+
+Running a fee or outreach test with a pre-defined holdout only works if someone is disciplined about not reading the result early, and that discipline is what I would bring to Relief-to-Hire's experiment list. At Plug Power I ran 15 plus A/B tests across paid channels and learned the hard way which cohorts were still too new to call. At PriceKeel I built a guardrail engine that only trusts a pattern once there is enough closed-won and closed-lost history behind it, the same bar a fee or terms experiment needs before it changes a process.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/roo
+
+If 15 minutes works, I would like to hear how the Canada extension is shaping the test list. No worries if this is not your req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
