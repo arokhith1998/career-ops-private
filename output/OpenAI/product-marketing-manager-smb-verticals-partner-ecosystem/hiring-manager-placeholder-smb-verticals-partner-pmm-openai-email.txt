@@ -1,0 +1,18 @@
+Subject: Flagging launch risk before it reaches an SMB customer
+
+Hi {Hiring Manager, SMB Marketing},
+
+I joined Applied Materials recently and was not looking, but a posting that asks someone to flag performance, safety, policy and trust risk on every SMB launch, without formal authority over the teams that own those pieces, is specific enough that I wanted to write in anyway.
+
+Built a 6-slide pitch deck around that exact tension: moving fast on partner launches while catching the risk that would otherwise surface downstream.
+
+At Sensata, I built the dashboard that surfaced $433M in margin-gap risk across 20 product lines so leadership could prioritize fixes before they hit the P&L, then ran GTM for new sensing products end to end, positioning through partner rollout, across North America and Europe, for $2M+ in first-year revenue. At Applied Materials, I run that same cross-functional work today with Sales, Engineering and Accounts, no formal authority, automating the analysis itself with Claude agents.
+
+Would you have 15 minutes to compare notes on where the SMB launch backlog needs the most help right now? Happy to be pointed elsewhere otherwise.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
