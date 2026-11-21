@@ -1,0 +1,22 @@
+Subject: Senior PM, AI Pricing - the lifecycle framing caught my eye
+
+Hi {Group Product Manager, Operations AI, The RealReal},
+
+I joined Applied Materials earlier this year and was not looking, but a req to own AI pricing from first estimate through final sale, with a product team under it, made me reach out anyway.
+
+A few things that map to that build:
+- At Sensata, built the FY26 Bleeders and Leakers model, 1,200 pricing opportunities against a $627M target, surfacing $433M in margin gaps for leadership to prioritize.
+- Carried P&L and revenue targets while running that pricing program end to end.
+- At Applied Materials now, I automate pricing and forecasting analysis with Claude-based agents, the habit a 6-month AI roadmap depends on.
+- Founder of PriceKeel, a pricing guardrail engine with an audit trail Finance can read, the same build-with-data-science motion this role runs.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/the-realreal
+
+Would value 15 minutes on how I would sequence the first two quarters. Graceful out if this sits with a different team.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
