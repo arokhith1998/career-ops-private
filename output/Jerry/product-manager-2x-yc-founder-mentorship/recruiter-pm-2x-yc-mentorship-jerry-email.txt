@@ -1,0 +1,20 @@
+Subject: Mentorship from a 2x YC founder is the test I'd want anyway
+
+Hi {Recruiter, Jerry},
+
+I don't normally reach out before applying, but a posting that hands a new hire a vertical before any team exists, mentored directly by a founder who's done YC twice, is rare.
+
+I've already run that loop: SwipeHire, an AI job-matching app, went from blank page to 50 early users because I wrote the PRD, scoped the MVP, and shipped it myself. At Sensata I carried a 100+ feature backlog through PRDs with engineering across 3 regions, and the GTM I built off those findings drove $2M+ in first-year revenue. At Applied Materials I build the forecasting models that decide what gets engineering time, and automate the repetitive parts with Claude agents.
+
+I've attached my resume and cover letter.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/jerry
+
+Could we spend 15 minutes on this? If it sits with someone else, a pointer would help just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

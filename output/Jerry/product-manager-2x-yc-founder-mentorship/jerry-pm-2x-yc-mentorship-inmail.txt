@@ -1,0 +1,11 @@
+Hi {Hiring Manager, Product},
+
+The posting is built around time with a founder who has already done YC twice, which only pays off if the new hire can own an ambiguous problem without a team to lean on yet. I've already run that: SwipeHire, an AI job-matching app, went from a blank page to 50 early users because I wrote the PRD, scoped the MVP and shipped it alone.
+
+Inside a bigger company I ran the same loop with more at stake: carried a 100+ feature backlog through PRDs with engineering across 3 regions at Sensata, then used what 30+ customer interviews taught me to launch GTM for a new product line that drove $2M+ in first-year revenue.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/jerry
+
+Open to 15 minutes on which vertical needs the most hands right now. Happy to be redirected if this isn't your req.
+
+Adhithya

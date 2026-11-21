@@ -1,0 +1,20 @@
+Subject: The part where there's no team to hand this off to
+
+Hi {Hiring Manager, Product},
+
+A rotation built around direct time with a 2x YC founder only pays off if the new hire can own an ambiguous problem with no team to lean on yet. That's the one project I've run start to finish alone: SwipeHire, an AI job-matching app I took from blank page to 50 early users, writing the PRD, scoping the MVP, and shipping it myself.
+
+I've run that same ownership loop with more at stake. At Sensata I carried a 100+ feature backlog through PRDs with engineering across 3 regions, ran 30+ customer interviews to find what was worth building, then launched GTM for a new product line that drove $2M+ in first-year revenue. At Applied Materials I decide what gets engineering time before anyone commits to it, and automate the repetitive parts with Claude agents.
+
+I've attached my resume and cover letter.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/jerry
+
+Would you have 15 minutes to talk through which vertical needs the most hands right now? Happy to be pointed elsewhere if this isn't your req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
