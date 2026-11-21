@@ -1,0 +1,22 @@
+Subject: Senior Pricing Enablement Manager - the single enablement timeline problem
+
+Hi {Hiring Manager, Pricing Strategy & Enablement},
+
+I joined Applied Materials recently and wasn't looking, but owning one enablement timeline across Pricing, Product, Deal Desk and Product Marketing instead of four, plus running PriceKeel, made me reach out. Fivetran absorbing dbt Labs mid-overhaul is when that timeline holds or breaks for sellers.
+
+Built you a 6-slide pitch deck so the proof fits on one read.
+
+- Led Sensata's Bleeders and Leakers program: recovered $700K+ in margin in 2 quarters by turning pricing policy into field-ready guardrails.
+- Raised distributor margins from 53% to 61% by repricing through channel partners, then retrained the field on the new quoting logic.
+- Founded PriceKeel, a guardrail engine that reads live discount exceptions inside the deal platform and logs an audit trail Finance can review, the same CPQ-to-policy gap this role is built to close.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/fivetran
+
+The deck sketches how I'd structure that single timeline in the first 90 days. Worth 15 minutes, even if just to tell me I have the wrong read on the req?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
