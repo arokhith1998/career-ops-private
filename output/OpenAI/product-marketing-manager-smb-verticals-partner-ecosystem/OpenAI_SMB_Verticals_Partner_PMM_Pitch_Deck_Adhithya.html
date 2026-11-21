@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>OpenAI Product Marketing Manager, SMB, Verticals and Partner Ecosystem Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #1a56db; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 27pt; font-weight: 800; color: #0f172a; line-height: 1.15; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 19pt; font-weight: 800; color: #0f172a; line-height: 1.16; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #1a56db; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.8in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbeafe 100%); }
+  .cover h1 { font-size: 19pt; max-width: 11.4in; }
+  .cover .sub { font-size: 12pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; max-width: 10.9in; }
+  .cover .tags { margin-top: 15pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.6in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9pt; font-weight: 500; }
+  .tag strong { color: #1a56db; font-weight: 700; }
+  .cover .who { margin-top: 15pt; padding-top: 9pt; border-top: 1.5pt solid #1a56db; max-width: 9.8in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #1a56db; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #eff6ff; border-left: 3pt solid #1a56db; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #1e3a8a; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #1a56db; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.4pt; color: #334155; line-height: 1.46; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 13pt; background: #eff6ff; border-left: 4pt solid #1a56db; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #1e3a8a; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 15pt; font-weight: 800; color: #1a56db; line-height: 1.15; margin-bottom: 4pt; letter-spacing: -0.5pt; }
+  .stat .lbl { font-size: 9.3pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.6pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #1a56db; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.3pt; font-weight: 800; color: #0f172a; line-height: 1.18; margin-bottom: 7pt; }
+  .card .body { font-size: 8.8pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.3pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #1a56db; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbeafe 100%); }
+  .close h2 { font-size: 20pt; max-width: 10.9in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.9in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #1a56db; font-weight: 700; }
+  .close .contact { margin-top: 15pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the OpenAI Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | OpenAI Product Marketing Manager, SMB, Verticals &amp; Partner Ecosystem</div>
+  <h1>An SMB buyer will not trust a new AI tool with their workflow until they see their own vertical reflected back at them. I have already built that translation layer twice, once on sensors, once on your own API.</h1>
+  <div class="sub">Built from $2M+ in first-year GTM revenue at Sensata, 30+ structured partner interviews run before every launch, and SwipeHire, a product shipped directly on the OpenAI API.</div>
+  <div class="tags">
+    <div class="tag"><strong>$2M+ First-Year Revenue</strong> - Sensata sensing-product GTM launch, positioning through partner rollout</div>
+    <div class="tag"><strong>30+ Partner Interviews</strong> - run before every launch to map buying behavior and workflow</div>
+    <div class="tag"><strong>50+ Reps Enabled</strong> - field playbooks and case studies, +30% win rate</div>
+    <div class="tag"><strong>Built on the OpenAI API</strong> - SwipeHire, shipped zero-to-one to 50+ users</div>
+    <div class="tag"><strong>Claude AI Agents</strong> - automating recurring research and analysis today</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-product-ai.vercel.app/ref/openai</div>
+  </div>
+  <div class="brand">OPENAI SMB PMM PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>Positioning a general-purpose AI product for a specific SMB vertical is a research and translation problem. <span class="accent">It is not a slogan, and it does not scale from one playbook.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What that actually requires</h4>
+      <div class="line">Researching how a specific SMB segment actually buys and works today, then writing positioning and messaging that speaks to that workflow, not a generic buyer.</div>
+      <div class="line">Running go-to-market launches that depend on partner integrations landing on time, with no formal authority over the partner or the integration team's roadmap.</div>
+      <div class="line">Flagging where a launch's performance, safety, policy or trust risk shows up before it reaches a customer, not after.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already built at that layer</h4>
+      <div class="line">Owned <b>GTM for new sensing products</b> end to end at Sensata, positioning, pricing, channel and partner rollout, across North America and Europe.</div>
+      <div class="line">Ran <b>30+ structured interviews</b> with OEMs and distributors before launch to map real buying behavior, then built the enablement 50+ reps used to sell it.</div>
+      <div class="line">Built the dashboard that <b>surfaced $433M in margin-gap risk</b> across 20 product lines so leadership could act before it hit the P&amp;L.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">The through-line: vertical research, partner-dependent launches, and flagging risk early are not a gap to grow into here. They are the system I already run.</div>
+  </div>
+  <div class="brand">OPENAI SMB PMM PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The mandate, mapped</div>
+  <h2>What the role covers, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">Research SMB segments, buying behavior, and workflows, and own positioning and messaging across industries and business functions.</div></div>
+      <div class="quote"><div class="q">Plan and execute go-to-market launches, including partner integrations, and define success metrics with Product Growth, Partnerships, and Data Science.</div></div>
+      <div class="quote"><div class="q">Flag launch risks related to performance, safety, policy, and trust, and build repeatable launch and enablement processes.</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>Sensata launch:</b> positioning and messaging that turned sensor-level technical features into value for automotive and industrial buyers, +15% conversion on priority launches.</div></div>
+      <div class="proof"><div class="p"><b>Partner-dependent GTM:</b> owned channel and partner rollout end to end, driving $2M+ first-year revenue with no single team controlling the whole launch.</div></div>
+      <div class="proof"><div class="p"><b>Repeatable process:</b> built field playbooks and case studies 50+ reps reused launch after launch, lifting win rates 30%.</div></div>
+    </div>
+  </div>
+  <div class="brand">OPENAI SMB PMM PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The closed-loop proof, in depth</div>
+  <h2>SwipeHire: built directly on the OpenAI API, <span class="accent">from an SMB buyer's seat, not a vendor's.</span></h2>
+  <div class="lede">Shipped zero-to-one on the same API this role's SMB customers adopt: scoped the MVP, wrote the positioning, and onboarded 50+ early users who had to trust an unfamiliar AI tool with their job search.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">Built on the OpenAI API</div>
+      <div class="lbl">SwipeHire, Zero-to-One</div>
+      <div class="desc">PRD, MVP scope, and GTM for an AI product, the same adoption curve this role's SMB customers climb.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$2M+ First-Year Revenue</div>
+      <div class="lbl">Sensata Sensing-Product GTM</div>
+      <div class="desc">Positioning through partner and channel rollout, across North America and Europe, with no single owner of the full launch.</div>
+    </div>
+    <div class="stat">
+      <div class="n">30+ Interviews, 50+ Reps</div>
+      <div class="lbl">Research to Enablement, Closed Loop</div>
+      <div class="desc">Buying-behavior research that became field playbooks, not a report that sat in a drive.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">The same discipline carries into Applied Materials, where I automate recurring research and analysis with Claude AI agents while carrying P&amp;L and revenue targets today.</div>
+  <div class="brand">OPENAI SMB PMM PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month inside this SMB, verticals and partner-ecosystem seat would look like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Map two SMB verticals by workflow, not by headcount</div>
+      <div class="body">Run structured interviews on how each segment actually buys and works today, the same first step that shaped Sensata's automotive and industrial positioning before a single launch asset got written.</div>
+      <div class="why"><strong>Why first:</strong> positioning written before the workflow is mapped gets rewritten after launch, not before.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Pressure-test one partner-integration launch plan</div>
+      <div class="body">Walk the launch dependency chain end to end with Product Growth, Partnerships and Data Science, flagging performance, safety, policy or trust risk early, the same discipline that surfaced $433M in margin-gap risk at Sensata before it hit the P&amp;L.</div>
+      <div class="why"><strong>Why now:</strong> a partner-dependent launch date without a risk owner slips quietly, then slips loudly.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Turn the first launch into a repeatable playbook</div>
+      <div class="body">Package positioning, demos, FAQs and enablement into a template the next vertical launch reuses, the same habit that took one Sensata launch to a 50-rep enablement motion with a 30% win-rate lift.</div>
+      <div class="why"><strong>Why this fast:</strong> a playbook built once scales to the next vertical without a rebuild.</div>
+    </div>
+  </div>
+  <div class="brand">OPENAI SMB PMM PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>SMB adoption of a general-purpose AI product needs someone who has already translated a hard capability into a vertical-specific buy, with no formal authority to force it. I have.</h2>
+  <div class="body">
+    <p>The core proof is Sensata: GTM for new sensing products end to end, positioning through partner and channel rollout across North America and Europe, drove <strong>$2M+ in first-year revenue</strong> and a 15% conversion lift, built on 30+ structured interviews and enablement that lifted win rates 30% across 50+ reps.</p>
+    <p>What is harder to find is someone who has also adopted an AI product as an SMB buyer would: SwipeHire, built directly on the <strong>OpenAI API</strong>, from blank page to 50+ users. I keep building with AI tools today, automating recurring research with <strong>Claude agents</strong> at Applied Materials.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-product-ai.vercel.app/ref/openai</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">OPENAI SMB PMM PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
