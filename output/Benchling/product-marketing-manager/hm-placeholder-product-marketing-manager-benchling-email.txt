@@ -1,0 +1,21 @@
+Subject: You said work led matters more than title. Here's both.
+
+Hi {Hiring Manager, Product Marketing},
+
+I do not normally reach out before applying, but a posting that values the work someone has led over their title, then asks that person to also own pricing and packaging, not just position the thing, is unusual enough to write in before I apply.
+
+- At Sensata I owned GTM and positioning for a new sensing product line where the buyer was an engineer, not a marketer: $2M+ in first-year revenue.
+- I moved into Pricing Lead on the same BU and built the discount-governance and deal-approval guardrails that recovered $700K+ in margin in two quarters, raising distributor margins from 53% to 61%.
+- 30+ structured interviews with OEM and distributor engineers kept that positioning grounded in what the technical buyer actually said, the same instinct your JD asks for around scientists and engineers.
+- At Applied Materials I partner directly with Engineering on value-based pricing and automate the analysis with Claude agents.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/benchling
+
+Worth 15 minutes on how you're scoping this, no worries if the timing is off.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
