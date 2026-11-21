@@ -1,0 +1,18 @@
+Subject: A founder's eye on how startups actually use Stripe
+
+Hi {Recruiter, Startup Products},
+
+Reading that this role mines how startups use Stripe and turns it into both an internal roadmap and an external narrative is easier to picture when you have run that loop yourself, not just analyzed someone else's data story. Running PriceKeel, my own startup, I live the usage patterns this team is trying to surface.
+
+That build habit sits on a sizing and narrative track record: at Sensata I built the FY2026 Power BI dashboard that turned 1,200 pricing opportunities into a $433M margin story leadership acted on, and at Applied Materials I size the semiconductor market directly with Sales, Engineering and Accounts.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/stripe
+
+If you have 15 minutes this week, I would like to hear how the team scopes its first startup-data deep dive.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
