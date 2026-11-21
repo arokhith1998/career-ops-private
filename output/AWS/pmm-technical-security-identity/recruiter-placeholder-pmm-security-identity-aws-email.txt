@@ -1,0 +1,20 @@
+Subject: AWS Security and Identity Tech PMM req, Bay Area/Santa Clara
+
+Hi {Recruiter, AWS Security and Identity PMM},
+
+This req asks someone to position securing AI applications and the human and non-human identities behind them, and I run a version of that exact question on myself daily: Claude agents do real analysis work for me at Applied Materials, and the first thing I check before trusting their output is whether the identity behind it holds up.
+
+I've attached my resume and cover letter.
+
+At Sensata, I built positioning straight from the engineering spec for a new connected-sensor line, driving $2M+ in first-year revenue and +35% qualified leads, grounded in a KPI framework (SQL, GA4) across 50K+ connected devices and 30+ customer interviews. I also built the enablement that armed 50+ reps with technical content, lifting win rates 30%.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/aws
+
+Would 15 minutes this week work? If this sits with someone else on your team, a pointer would help.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
