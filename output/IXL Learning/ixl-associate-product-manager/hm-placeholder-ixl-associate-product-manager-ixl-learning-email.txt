@@ -1,0 +1,18 @@
+Subject: IXL Associate Product Manager (req 3773) - a question about the roadmap, not just an application
+
+Hi {Hiring Manager, IXL Product},
+
+Your JD draws a hard line between this req and the New Grad track: recent grads go there, this one wants someone who has already fought through a scope disagreement with Engineering and come out with a shipped feature, not a theory. I have, more than once.
+
+At Sensata I co-owned the sensor roadmap with Engineering across 3 regions and a 100+ feature backlog, running 30+ customer interviews with OEM and distributor users that cut time to market 20% and lifted CSAT 22%. I also wrote the PRD, scoped the MVP and shipped SwipeHire to 50+ users solo, then ran 8+ A/B tests and 12+ interviews that lifted activation 25%. I run Claude AI agents daily at Applied Materials to turn research and competitive signal into decisions faster, the habit I would bring to IXL's roadmap calls.
+
+Here's the portfolio: https://adhi-product.vercel.app/ref/ixl-learning
+
+Could I get 15 minutes to talk through how this maps to your team? If you are not the right person for this req, I would welcome a point toward whoever is.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
