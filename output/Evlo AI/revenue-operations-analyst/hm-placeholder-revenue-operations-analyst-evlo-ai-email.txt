@@ -1,0 +1,18 @@
+Subject: One source of truth across sales, marketing and finance
+
+Hi {Hiring Manager, Revenue Operations},
+
+Your posting asks one person to own CRM architecture, pipeline analytics and the operational process that keeps sales, marketing and finance looking at the same numbers, which is closer to how I have actually worked than most analyst scopes are. At PriceKeel I set up and run the company's own CRM and CPQ, plus the forecast and pipeline reviews and deal approvals that feed it.
+
+At Sensata I built the FY26 Bleeders and Leakers Power BI dashboard: 1,200 pricing opportunities tracked against a $627M target across 3 regions, with pipeline funnel, win rate and stage distribution in one view, surfacing $433M in margin gaps for leadership to prioritize. That same pipeline data drove distributor margins from 53% to 61% in under 2 quarters. Earlier, I built KPI frameworks in SQL and GA4 across 50K+ connected devices to separate real adoption signal from noise, the instinct your posting calls diagnosing the funnel end to end.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/evlo-ai
+
+Open to 15 minutes on how this seat is scoped?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
