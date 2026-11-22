@@ -1,0 +1,20 @@
+Subject: The part of cloud data protection PMM that breaks first
+
+Hi {Hiring Manager, Product Marketing},
+
+My read on this req: the positioning itself is the easy half. The hard half is keeping it true across three different cloud buyers and an analyst audience that will test it, while still shipping sales plays on schedule, and that is the part I would push back on if someone called it simple.
+
+At Sensata and Plug Power I ran that exact loop: structured customer interviews before every positioning call, competitor tracking across EMEA and the US, benchmarking across 10+ players, feeding a price realignment that moved revenue 12% and share 8%, not just a launch deck. On production, I built the battlecards that got 50+ reps live on day one, and at Applied Materials I now automate that recurring analysis with Claude agents instead of rebuilding it each cycle, the same AI-assisted habit your posting asks PMMs to bring to collateral and sales plays.
+
+Resume and cover letter are attached.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/rubrik
+
+Open to 15 minutes on where the cloud data protection story is hardest to keep current right now?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
