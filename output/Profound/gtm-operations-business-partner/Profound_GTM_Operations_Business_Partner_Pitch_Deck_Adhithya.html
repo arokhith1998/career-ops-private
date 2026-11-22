@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Profound GTM Operations Business Partner Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #0f766e; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 24pt; font-weight: 800; color: #0f172a; line-height: 1.16; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 20pt; font-weight: 800; color: #0f172a; line-height: 1.12; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #0f766e; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.7in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #ccfbf1 100%); }
+  .cover h1 { font-size: 22pt; max-width: 11.6in; }
+  .cover .sub { font-size: 13.5pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 15pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #0f766e; font-weight: 700; }
+  .cover .who { margin-top: 15pt; padding-top: 11pt; border-top: 1.5pt solid #0f766e; max-width: 9.6in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #0f766e; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #f0fdfa; border-left: 3pt solid #0f766e; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #115e59; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #0f766e; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #f0fdfa; border-left: 4pt solid #0f766e; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #115e59; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0f766e; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 20pt; font-weight: 800; color: #0f766e; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0f766e; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #0f766e; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #0f766e; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #ccfbf1 100%); }
+  .close h2 { font-size: 23pt; max-width: 10.8in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.6in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #0f766e; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Profound Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Profound GTM Operations Business Partner</div>
+  <h1>Territory coverage breaks the moment account data goes stale. I have already built the regional scorecard that catches it before a rep has to ask.</h1>
+  <div class="sub">A 3-region territory-style reporting program built from scratch at Sensata, and a CRM/CPQ system built from zero at my own company, on the same resume.</div>
+  <div class="tags">
+    <div class="tag"><strong>1,200 opportunities</strong> tracked by win rate, stage and salesperson across 3 regions and 4 product families</div>
+    <div class="tag"><strong>$433M in gaps</strong> surfaced for leadership to prioritize by salesperson and product line</div>
+    <div class="tag"><strong>CRM, CPQ and deal approvals</strong> built from zero as Founder, PriceKeel, audit trail included</div>
+    <div class="tag"><strong>Lead-routing stack rebuilt</strong> at Plug Power, cutting cost per lead 50%</div>
+    <div class="tag"><strong>AI agents built on Claude</strong> automating my own recurring reporting today</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhithyabhaskar.vercel.app/ref/profound</div>
+  </div>
+  <div class="brand">GTM OPERATIONS PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>Territory design is not a one-time map. It is a system that has to stay accurate <span class="accent">while the sales team keeps growing underneath it.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What that actually requires</h4>
+      <div class="line">A coverage model and whitespace analysis that stays current as new accounts enter the book, not a map that goes stale the week after it ships.</div>
+      <div class="line">CRM workflows, account routing and lead-assignment logic clean enough that Revenue Systems and GTM Engineering can build on top of them without re-checking the data first.</div>
+      <div class="line">A reporting layer that gives sales leaders territory health, ownership and engagement visibility on demand, so ownership disputes get resolved in minutes, not escalations.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run</h4>
+      <div class="line">At <b>Sensata</b>, I built a territory-style regional scorecard program that tracked 1,200 opportunities across 3 regions, by win rate, stage and salesperson.</div>
+      <div class="line">At <b>PriceKeel</b>, the company I am building now, I own the CRM and CPQ, the account data and the deal-approval workflow end to end, with an audit trail built in.</div>
+      <div class="line">At <b>Plug Power</b>, I rebuilt the lead-routing and reporting stack (Salesforce, Pardot, Adobe Analytics) that fed MQLs into the right pipeline stage.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">The through-line: every operations system I have run was built to stay accurate as volume grew, not a one-time setup that needed a rebuild six months later.</div>
+  </div>
+  <div class="brand">GTM OPERATIONS PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The mandate, mapped</div>
+  <h2>What the posting asks for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Own territory design and coverage, building whitespace analysis and coverage models that keep reps focused on the right accounts."</div></div>
+      <div class="quote"><div class="q">"Improve CRM workflows, account routing, and lead assignment logic."</div></div>
+      <div class="quote"><div class="q">"Build and maintain the reporting and dashboards that give sales leaders visibility into territory health, ownership, and engagement."</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>Sensata, coverage and whitespace:</b> the Bleeders and Leakers program scored 1,200 opportunities by win rate, stage distribution and salesperson across 3 regions and 4 product families.</div></div>
+      <div class="proof"><div class="p"><b>PriceKeel, CRM and routing logic:</b> set up and runs the CRM, CPQ and deal-approval workflow from zero, with an audit trail Finance can check on demand.</div></div>
+      <div class="proof"><div class="p"><b>Plug Power, account routing at volume:</b> automated the WordPress, Pardot and Salesforce lead flow, tying routing quality to MQL and stage 1 pipeline across 50+ campaigns.</div></div>
+      <div class="proof"><div class="p"><b>Applied Materials, reporting cadence:</b> automates recurring forecasting and reporting with AI agents built on Claude, the hands-on automation habit this role needs day one.</div></div>
+    </div>
+  </div>
+  <div class="brand">GTM OPERATIONS PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>Build the coverage model, keep the CRM data clean behind it, then give sales leaders <span class="accent">a number they trust without asking twice.</span></h2>
+  <div class="lede">Same pattern at two companies and a solo startup: build a reporting system that reps check on their own, keep the account data clean enough to route on, then measure whether the business actually moved because of it.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">1,200 Opps</div>
+      <div class="lbl">Scored by Salesperson</div>
+      <div class="desc">Bleeders and Leakers regional scorecard at Sensata: win rate, average dollar-per-win and stage distribution across 3 regions, 4 product families and 20 product lines.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$433M Surfaced</div>
+      <div class="lbl">In Margin Gaps for Leadership</div>
+      <div class="desc">Prioritized by salesperson and product line, then closed into a $700K+ margin recovery in 2 quarters by acting on the highest-confidence gaps first.</div>
+    </div>
+    <div class="stat">
+      <div class="n">50% Lower CPL</div>
+      <div class="lbl">Through Rebuilt Lead Routing</div>
+      <div class="desc">Automated the WordPress, Pardot and Salesforce lead flow at Plug Power, tying routing quality to MQL and stage 1 pipeline across 50+ campaigns.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">None of these stayed a one-time build. Each one kept giving sales leaders a number they could check themselves, months after the first dashboard shipped.</div>
+  <div class="brand">GTM OPERATIONS PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month on Profound's territory and GTM operations build looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Audit the territory and account data</div>
+      <div class="body">Pull the current book, coverage model and routing rules into one whitespace view, the same regional-scorecard sequence that grounded the Bleeders and Leakers program before a single change shipped.</div>
+      <div class="why"><strong>Why first:</strong> a routing fix on top of dirty account data just moves the problem, it does not solve it.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Operationalize the territory playbook</div>
+      <div class="body">Draft the rules of engagement with Sales leadership, then partner with Revenue Systems and GTM Engineering to wire account-adds and lead-assignment logic into the CRM, the same build-from-zero workflow PriceKeel's CRM and deal-approval system runs on today.</div>
+      <div class="why"><strong>Why now:</strong> ownership questions get resolved by a rule everyone can see, not a Slack thread.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Ship the territory-health dashboard</div>
+      <div class="body">Stand up the reporting layer sales leaders check on their own, then institute the operating cadence that keeps GTM teams aligned, and automate the recurring refresh with an AI agent the way Applied Materials' reporting runs today.</div>
+      <div class="why"><strong>Why this fast:</strong> a dashboard nobody opens is worse than no dashboard, so adoption gets built in from day one.</div>
+    </div>
+  </div>
+  <div class="brand">GTM OPERATIONS PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>Profound's sales team is scaling fast enough that territory ops needs a business partner who has already run this exact system, twice.</h2>
+  <div class="body">
+    <p>The coverage and reporting half: a <strong>3-region, 4-product-family regional scorecard</strong> tracking 1,200 opportunities by win rate and stage, surfacing <strong>$433M in gaps</strong> for leadership to act on, built at Sensata.</p>
+    <p>The systems half: <strong>CRM, CPQ and deal approvals built from zero</strong> at PriceKeel, with the audit trail Finance can check, plus a lead-routing stack rebuilt at Plug Power that cut cost per lead 50%. At Applied Materials I automate my own recurring reporting with agents built on Claude, because the next territory refresh should not wait on a rebuilt report.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhithyabhaskar.vercel.app/ref/profound</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">GTM OPERATIONS PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
