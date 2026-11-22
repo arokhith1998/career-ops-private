@@ -1,0 +1,23 @@
+Subject: Identity's fastest-growing line needs an operator, not a researcher
+
+Hi {Hiring Manager, Product Growth for Security},
+
+I don't normally write in before applying, but you're asking one person to be the business partner for the Identity product leader on Rubrik's fastest-growing line, then operationalize that model across Product, Sales, Engineering, Marketing and Finance. That handoff is where monetization strategy usually dies, and it's the part I've already run twice.
+
+Built a 6-slide pitch deck so the proof fits one read.
+
+At Sensata I built the pricing model behind a $627M target across 3 regions and 20 product lines, then recovered $700K+ in margin in two quarters.
+Repriced through distribution on willingness to pay and competitive gaps, lifting distributor margins 53% to 61%.
+At Applied Materials I build the value-based pricing and market-sizing models leadership uses to set P&L targets for a fast-growing market.
+I run a live pricing guardrail engine as founder of PriceKeel, built for exactly this kind of decision.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/rubrik
+
+Open to 15 minutes on how the Identity PnP work is scoped today? Happy to send the deck either way.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

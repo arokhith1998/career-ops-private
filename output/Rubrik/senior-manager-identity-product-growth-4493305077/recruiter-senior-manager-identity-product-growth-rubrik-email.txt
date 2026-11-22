@@ -1,0 +1,22 @@
+Subject: Determine optimal PnP for Identity, not refresh an existing one
+
+Hi {Recruiter, Product Growth & Monetization},
+
+I don't normally write in before applying, but your posting's own line, "determine optimal PnP strategy w/ competitive, willingness to pay and margins," for a line with no existing playbook, is the brief I already run.
+
+Built a 6-slide pitch deck so the proof fits one read.
+
+At Sensata I built the pricing model behind a $627M target across 3 regions and 20 product lines, then recovered $700K+ in margin in two quarters.
+Raised distributor margins 53% to 61% by repricing on willingness to pay and competitive gaps, not a blanket increase.
+I run a live pricing guardrail engine today as founder of PriceKeel, built for exactly this kind of monetization call.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/rubrik
+
+If this req sits with your desk, 15 minutes would help. If not, a pointer to whoever owns Identity monetization helps just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
