@@ -1,0 +1,20 @@
+Subject: Measured outcomes, not features shipped, is a bar I already hold myself to
+
+Hi {Recruiter, Guardant Health Digital Products},
+
+I do not normally reach out before applying, but your line that this seat is accountable for adoption and measured outcomes, not features shipped, is a standard I already work to, not one I would learn on the job.
+
+At Sensata I managed a 100+ feature backlog with Engineering in Agile across 3 regions, built from 30+ OEM and distributor interviews, cutting time to market 20% and lifting CSAT 22%.
+I built SQL and GA4 KPI frameworks across 50K+ connected devices, defining the metric tree up front to lift feature adoption 18%.
+At Applied Materials I run Claude-built AI agents against forecasting work, spending as much time on where the output is wrong as where it is right.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/guardant-health
+
+Worth 15 minutes to see if this is your req? Happy to be pointed elsewhere if it is not.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

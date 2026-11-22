@@ -1,0 +1,20 @@
+Subject: A multi-year platform view that still argues about one screen
+
+Hi {Hiring Manager, Guardant Health Digital Products},
+
+I do not normally reach out before applying, but your line about a systems thinker who holds a multi-year platform view and still argues about a single screen describes how I already work.
+
+At Sensata I defined the product roadmap for sensor solutions, owned a 100+ feature backlog with Engineering across 3 regions, and built the SQL and GA4 metric tree that lifted feature adoption 18%.
+I shipped SwipeHire zero to one, wireframes through an MVP, and ran 8+ A/B tests on the activation funnel to lift activation 25%, the growth loop language your posting uses.
+At Applied Materials I run Claude-built AI agents for forecasting and market sizing, checking where the model is wrong before trusting the output, close to the evaluation bar you want for AI enabled, physician and patient facing work.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/guardant-health
+
+Worth 15 minutes if the digital products roadmap is still open? No worries if this already has an owner.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
