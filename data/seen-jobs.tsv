@@ -7,7 +7,7 @@ brex.com/careers/8949361002?gh_jid=8949361002	Brex	Customer Marketing Manager	ht
 api.smartrecruiters.com/v1/companies/freshworks/postings/744000162318104	Freshworks	GTM Engineer, Revenue Operations	https://api.smartrecruiters.com/v1/companies/freshworks/postings/744000162318104	queued	DUP:already-tracked	2026-11-19	2026-11-22	25	
 job-boards.greenhouse.io/sigmacomputing/jobs/7767898003	SigmaComputing	Senior/Group Product Manager, AI Ecosystem & Semantic Layer	https://job-boards.greenhouse.io/sigmacomputing/jobs/7767898003	queued	DUP:already-tracked	2026-11-20	2026-11-22	11	
 fivetran.com/careers/job?gh_jid=8211025003	Fivetran	Senior Pricing Enablement Manager	https://www.fivetran.com/careers/job?gh_jid=8211025003	jd_extracted		2026-11-21	2026-11-22	9	
-fivetran.com/careers/job?gh_jid=8210997003	Fivetran	Senior Pricing Enablement Manager	https://www.fivetran.com/careers/job?gh_jid=8210997003	jd_extracted		2026-11-21	2026-11-22	9	
+fivetran.com/careers/job?gh_jid=8210997003	Fivetran	Senior Pricing Enablement Manager	https://www.fivetran.com/careers/job?gh_jid=8210997003	dropped	DROP:duplicate-duplicate cross-post of same req (TX location variant already scored)	2026-11-21	2026-11-22	10	
 linkedin.com/jobs/view/4466895958	Resonate	Senior Demand Generation Manager	https://www.linkedin.com/jobs/view/4466895958	queued		2026-10-31	2026-11-22	23	
 linkedin.com/jobs/view/4484887050	KQED	Business Operations Analyst	https://www.linkedin.com/jobs/view/4484887050	queued		2026-10-31	2026-11-22	23	
 linkedin.com/jobs/view/4474869343	DoorDash	Senior Associate, Finance & Strategy - Deal Desk	https://www.linkedin.com/jobs/view/4474869343	queued		2026-10-09	2026-11-22	14	
@@ -19,7 +19,7 @@ linkedin.com/jobs/view/4485642248	Acrisure	Demand Generation Manager	https://www
 linkedin.com/jobs/view/4485619817	Elastic Path	Marketing Manager	https://www.linkedin.com/jobs/view/4485619817	jd_extracted		2026-10-31	2026-11-22	4	
 linkedin.com/jobs/view/4485645356	Cursor	Customer Success Strategy & Operations Manager	https://www.linkedin.com/jobs/view/4485645356	jd_extracted		2026-10-31	2026-11-22	4	
 linkedin.com/jobs/view/4458042334	Superhuman	Senior Product Manager, Data Platform	https://www.linkedin.com/jobs/view/4458042334	jd_extracted		2026-10-11	2026-11-22	4	
-linkedin.com/jobs/view/4476855525	Google	Strategy and Operations Lead	https://www.linkedin.com/jobs/view/4476855525	jd_extracted		2026-10-10	2026-11-22	4	
+linkedin.com/jobs/view/4476855525	Google	Strategy and Operations Lead	https://www.linkedin.com/jobs/view/4476855525	dropped	DROP:duplicate-duplicate cross-post of same req (other LinkedIn ID already scored)	2026-10-10	2026-11-22	5	
 linkedin.com/jobs/view/4476853667	Google	Strategy and Operations Lead	https://www.linkedin.com/jobs/view/4476853667	jd_extracted		2026-10-10	2026-11-22	4	
 linkedin.com/jobs/view/4476845552	BetterUp	Senior Product and Go-to-Market Strategist	https://www.linkedin.com/jobs/view/4476845552	dropped	DROP:over-experience-cap	2026-10-10	2026-11-22	5	
 linkedin.com/jobs/view/4493305077	Rubrik	Senior Manager, Identity, Product Growth & Monetization	https://www.linkedin.com/jobs/view/4493305077	jd_extracted		2026-11-22	2026-11-22	3	
@@ -30,7 +30,7 @@ linkedin.com/jobs/view/4493276146	OpusClip	AI Product Manager	https://www.linked
 linkedin.com/jobs/view/4469239986	Dutch Vet	Senior Product Manager, Ecommerce	https://www.linkedin.com/jobs/view/4469239986	dropped	DROP:over-experience-cap	2026-11-22	2026-11-22	4	
 linkedin.com/jobs/view/4477475716	Zipline	Marketplace Strategy & Operations Manager	https://www.linkedin.com/jobs/view/4477475716	jd_extracted		2026-11-22	2026-11-22	3	
 linkedin.com/jobs/view/4482158962	Stripe	Product Manager, Radar - Fraud and Abuse Prevention	https://www.linkedin.com/jobs/view/4482158962	dropped	DROP:over-experience-cap	2026-11-22	2026-11-22	4	
-linkedin.com/jobs/view/4493148991	Major Scale	Senior Product Manager - San Francisco	https://www.linkedin.com/jobs/view/4493148991	jd_extracted		2026-11-22	2026-11-22	3	
+linkedin.com/jobs/view/4493148991	Major Scale	Senior Product Manager - San Francisco	https://www.linkedin.com/jobs/view/4493148991	dropped	DROP:NO-BUILD: agency, end employer hidden (fast-growing venture-backed fintech startup, unnamed)	2026-11-22	2026-11-22	4	
 zapply.jobs/l/d/workday-baxter-baxter-jr-211097	Baxter International	Tech IV, MNF Primary Packaging 4:00am - 12:30pm	https://zapply.jobs/l/d/workday-baxter-baxter-JR-211097?s=gh-new-grad-jobs-2027	dropped	DROP:role-family-mismatch (manufacturing packaging technician, not pricing)	2026-11-22	2026-11-22	4	
 linkedin.com/jobs/view/4493301067	Intuit	Money Revenue Strategy & Operations	https://www.linkedin.com/jobs/view/4493301067	jd_extracted		2026-11-22	2026-11-22	3	
 linkedin.com/jobs/view/4477435091	SolarWinds	Lead Product Manager, Salesforce, Sales Cloud and PRM	https://www.linkedin.com/jobs/view/4477435091	jd_extracted		2026-11-22	2026-11-22	3	
@@ -39,11 +39,11 @@ linkedin.com/jobs/view/4483648959	Clipboard	Senior Product Manager	https://www.l
 linkedin.com/jobs/view/4484860701	Google	Product Manager I	https://www.linkedin.com/jobs/view/4484860701	jd_extracted		2026-11-22	2026-11-22	3	
 linkedin.com/jobs/view/4492890797	Stryker	Manager, Product Marketing Communications (remote)	https://www.linkedin.com/jobs/view/4492890797	jd_extracted		2026-11-22	2026-11-22	3	
 linkedin.com/jobs/view/4493279919	Shield	Marketing Strategy and Operations Manager	https://www.linkedin.com/jobs/view/4493279919	jd_extracted		2026-11-22	2026-11-22	3	
-linkedin.com/jobs/view/4475219649	Scientific Search	Product Manager	https://www.linkedin.com/jobs/view/4475219649	jd_extracted		2026-11-22	2026-11-22	3	
+linkedin.com/jobs/view/4475219649	Scientific Search	Product Manager	https://www.linkedin.com/jobs/view/4475219649	dropped	DROP:NO-BUILD: staffing agency, end employer hidden (My client is seeking...)	2026-11-22	2026-11-22	4	
 linkedin.com/jobs/view/4468285731	Notion	Business Operations & Strategy	https://www.linkedin.com/jobs/view/4468285731	jd_extracted		2026-11-22	2026-11-22	3	
 linkedin.com/jobs/view/4493105119	Eight Sleep	Growth Marketing Manager	https://www.linkedin.com/jobs/view/4493105119	jd_extracted		2026-11-22	2026-11-22	3	
 linkedin.com/jobs/view/4493273481	Rippling	Field Marketing Manager	https://www.linkedin.com/jobs/view/4493273481	jd_extracted		2026-11-22	2026-11-22	3	
-linkedin.com/jobs/view/4493300415	B2BMarketing.com	Brand Marketing Manager, Facebook	https://www.linkedin.com/jobs/view/4493300415	jd_extracted		2026-11-22	2026-11-22	3	
+linkedin.com/jobs/view/4493300415	B2BMarketing.com	Brand Marketing Manager, Facebook	https://www.linkedin.com/jobs/view/4493300415	dropped	DROP:NO-BUILD: mismatched/scraped listing, JD body is verbatim Meta content attributed to unverifiable entity	2026-11-22	2026-11-22	4	
 linkedin.com/jobs/view/4492313916	TalentHop	Digital Media Marketing Manager	https://www.linkedin.com/jobs/view/4492313916	dropped	DROP:NO-BUILD (cached, agency posting, true employer withheld)	2026-11-22	2026-11-22	4	
 linkedin.com/jobs/view/4493273534	Intuit	Staff Sales Strategy & Operations, Emerging Mid-Market	https://www.linkedin.com/jobs/view/4493273534	dropped	DROP:over-experience-cap	2026-11-22	2026-11-22	4	
 zapply.jobs/l/d/workday-asmglobal-careers-r100126615	ASM Global	Security Officer - The Moscone Center (Onsite)	https://zapply.jobs/l/d/workday-asmglobal-careers-R100126615?s=gh-new-grad-jobs-2027	dropped	DROP:no-target-role-match	2026-11-22	2026-11-22	1	
