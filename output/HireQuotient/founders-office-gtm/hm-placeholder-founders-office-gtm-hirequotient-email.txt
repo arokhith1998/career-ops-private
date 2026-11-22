@@ -1,0 +1,20 @@
+Subject: Fragmented tools break decisions before people do
+
+Hi {Hiring Manager, Founder's Office},
+
+I do not normally reach out before applying, but "recruiting should work like an intelligent system, not a set of disconnected tools" is the same bet I am making with PriceKeel: that decision quality breaks down when the system is fragmented, not when the people are.
+
+At PriceKeel I built and run the CRM, CPQ and deal approval workflows myself and iterate the pricing engine against live deal data every cycle, before any team exists to inherit it.
+At Applied Materials I run the OKR cadence behind weekly and quarterly business reviews and automate the recurring analysis with Claude agents, the same less manual synthesis habit a system of intelligence is built around.
+At Sensata I turned a research question into $700K plus in recovered margin across two quarters.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/hirequotient
+
+Open to 15 minutes if the timing works, and no hard feelings if this is not your seat to fill.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

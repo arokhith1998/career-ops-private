@@ -2,12 +2,11 @@ Subject: What "no fixed hierarchy" actually asks for
 
 Hi {Hiring Manager, Founder's Office},
 
-I do not normally message before applying, but a seat with no defined responsibilities, built around problem-solving and ownership over designation, is the environment I have already chosen to work in, not one I would be adjusting to.
+I do not normally message before applying, but a seat built around problem-solving and ownership over designation is one I already work inside, not one I would be adjusting to.
 
 I founded PriceKeel from zero: built its CRM, forecast reviews and deal-approval process, designed its guardrail engine, and I am running pilots and raising its first round in the same stretch of days I am closing deals.
-At Sensata I built a dashboard ranking 1,200 pricing opportunities against a $627M target, then used it to recover $700K+ in margin in two quarters and move distributor margins from 53% to 61%, work no one had scoped for me.
+At Sensata I built a dashboard ranking 1,200 pricing opportunities against a $627M target, then recovered $700K+ in margin in two quarters and moved distributor margins from 53% to 61%, work no one had scoped for me.
 At Pixis I hired and ran an 8-person team carrying its own P&L, cutting churn 50% through account strategy I built myself.
-At Applied Materials I now automate repetitive analysis with Claude agents rather than wait for someone to assign the fix.
 
 Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/iqon-age
 
