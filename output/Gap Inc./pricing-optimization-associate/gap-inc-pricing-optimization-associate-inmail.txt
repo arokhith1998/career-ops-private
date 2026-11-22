@@ -1,0 +1,19 @@
+Subject: Pricing Optimization Associate, Gap Inc.: the decision log is the real ask here
+
+Hi {Recruiter, Gap Inc. Pricing Optimization},
+
+Your posting asks whoever fills this seat to check AI-enabled pricing outputs against source data and record the assumption behind every number before it moves into a decision. That is the audit-trail habit I already run, not a process I would be learning on the job.
+
+At PriceKeel I built the guardrail engine that flags a discount exception and documents exactly where the AI recommendation falls short.
+At Sensata I raised distributor margins from 53% to 61% by reconciling pricing scenarios against competitive gaps and willingness to pay.
+
+Portfolio: adhi-pricing-ai.vercel.app/ref/gap-inc
+
+Open to 15 minutes, or a pointer to whoever owns this req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

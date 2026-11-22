@@ -1,0 +1,22 @@
+Subject: Pricing Optimization Associate, Gap Inc.: turning signals into one clean recommendation
+
+Hi {Hiring Manager, Pricing Optimization Associate},
+
+I do not normally email a hiring manager before applying, but a seat that has to turn elasticity, competitive, category, channel, and customer signals into one recommendation that planners and Finance can act on, while coordinating with GMM, Merchandising, and Inventory Optimization, is the exact loop I already run.
+
+No deck here, the resume and cover letter carry the proof trail.
+
+At PriceKeel I built the guardrail engine that reads live discount exceptions and recommends an explainable guardrail learned from each company's own closed-won and closed-lost deals.
+At Sensata I built the FY2026 Bleeders and Leakers Power BI dashboard, reconciling 1,200 pricing opportunities against a $627M target and surfacing $433M in margin gaps for leadership to prioritize.
+At Applied Materials I partner with Sales on forecasting models and automate the repetitive analysis with Claude AI agents, checking every output before it moves downstream.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/gap-inc
+
+If the team is still scoping this seat, I would like 15 minutes on which signal is hardest to reconcile right now.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
