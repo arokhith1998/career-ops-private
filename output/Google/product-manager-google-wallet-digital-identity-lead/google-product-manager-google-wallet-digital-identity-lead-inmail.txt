@@ -1,0 +1,17 @@
+Hi {Recruiter, Google Wallet},
+
+Reaching out here since I could not find a mutual connection. The Digital Identity Lead req asks for someone who has already taken a product from conception to launch, and for someone already integrating generative AI into daily work, both of which I run now, not skills I would be picking up.
+
+Quick proof:
+- Wrote the PRD, scoped the MVP, and shipped a 100+ feature backlog with engineering across 3 regions, cutting time-to-market 20%.
+- Built the audit trail at PriceKeel that gives Finance evidence behind every pricing call, the governance habit a credential needs before anyone trusts it.
+- Automate recurring analysis at Applied Materials with AI agents built on Claude.
+
+Portfolio: https://adhi-product-ai.vercel.app/ref/google
+
+Open to 15 minutes on how the first hero use cases are getting scoped? Happy to redirect if this is not your req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com

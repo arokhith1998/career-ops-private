@@ -1,0 +1,21 @@
+Subject: Product Manager, Google Wallet Digital Identity Lead - Adhithya Rokhith Bhaskar
+
+Hi {Recruiter, Google Wallet},
+
+I don't normally reach out before applying, but the minimum qualification on integrating generative AI tools into daily workflows is already how I work, not something to pick up later.
+
+Quick fit:
+- Wrote the PRD, scoped the MVP, and shipped a 100+ feature backlog with engineering across 3 regions, cutting time-to-market 20%, the conception-to-launch rep this role wants.
+- Built the audit trail at PriceKeel that gives Finance evidence behind every pricing call, the governance habit a credential needs before anyone trusts it.
+- Automate recurring analysis at Applied Materials with AI agents built on Claude, the exact integration this posting lists as a minimum qualification.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/google
+
+If you have 15 minutes, I would like to hear how the team is scoping the first hero use cases for digital IDs. A pointer to whoever owns the req would help just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
