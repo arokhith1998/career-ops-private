@@ -1,0 +1,22 @@
+Subject: The territory system this role will own
+
+Hi {Hiring Manager, GTM Operations},
+
+I do not normally write in before applying, but you call this "a generalist role that will shape itself around the needs of the business," and that kind of 0-to-1 operating work is what I keep ending up doing.
+
+Built a 6-slide pitch deck mapping that work to this brief.
+
+At Sensata I built a Power BI scorecard across 3 regions and 4 product families, broken out by win rate, dollar-per-win and stage per rep, the whitespace and coverage view your reps need as the team scales.
+At PriceKeel I built the CRM, CPQ and deal-approval workflow from scratch, with an audit trail Finance can pull anytime, the same clean account data that keeps territory routing trustworthy.
+I run Claude agents on my own recurring analysis at Applied Materials, the same automation instinct behind Profound's AI Marketer.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/profound
+
+Worth 15 minutes to see where the territory system needs to go next?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
