@@ -1,0 +1,20 @@
+Subject: Turning prospects into qualified pipeline is a motion I already rebuilt
+
+Hi {Recruiter, Haystack Talent},
+
+I do not normally reach out before applying, but the line about running lifecycle marketing across email, SMS and in-app to turn prospects into qualified pipeline, then handing scored leads to sales and CS, is close to the exact flow I rebuilt at Plug Power.
+
+At Plug Power I automated the WordPress and Pardot lead flow end to end, cutting cost per lead 50%.
+At Sensata I built the lead-scoring and SQL handoff framework that let reps trust which leads were ready, supporting a 30% lift in win rates.
+At Plug Power I also ran 15+ A/B tests and analyzed 50+ campaigns, tying results back to MQL quality and stage-1 pipeline.
+
+Here's the portfolio: https://adhi-growth-ai.vercel.app/ref/haystack
+
+Worth 15 minutes if this is your req, no worries if it already has an owner.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
