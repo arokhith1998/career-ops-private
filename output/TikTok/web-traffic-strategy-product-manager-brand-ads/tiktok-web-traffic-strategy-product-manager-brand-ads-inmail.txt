@@ -1,0 +1,20 @@
+Subject: Built on Claude agents, now looking at your Brand Search roadmap
+
+Hi {Hiring Manager, Brand Ads},
+
+I do not normally message before applying, but a role that pairs product planning with R&D, algorithm, ops and sales delivery, and expects comfort with the generative AI landscape, is close to how I already work.
+
+At Applied Materials I run market research with Claude AI agents handling the repetitive half, and outside that role I built an AI job-matching product end to end, PRD through GTM, with 50+ early users.
+At Sensata I shipped a product roadmap and KPI framework from 30+ customer interviews and GA4 cohort data on 50K+ connected devices, working daily with engineering, and lifted feature adoption 18%.
+At Pixis I rebuilt a client's full funnel on user intent before spend, for 3x ROAS in a month.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/tiktok
+
+Worth 15 minutes to see if the fit holds?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
