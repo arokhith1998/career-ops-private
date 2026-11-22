@@ -1,50 +1,29 @@
 source	sources	company	title	location	url	posted_ts	age_days	sponsorship_hint	salary	category
-zapply-ng	zapply-ng	Baxter International	Tech IV, MNF Primary Packaging 4:00am - 12:30pm	Hayward, California	https://zapply.jobs/l/d/workday-baxter-baxter-JR-211097?s=gh-new-grad-jobs-2027	1795241620	1.00			New Grad
-board:smartrecruiters	board:smartrecruiters	Freshworks	GTM Engineer, Revenue Operations	San Mateo, CA, us	https://api.smartrecruiters.com/v1/companies/freshworks/postings/744000162318104	2026-11-18	4.3			
-board:greenhouse	board:greenhouse	MongoDB	Revenue Marketing Manager	San Francisco	https://www.mongodb.com/careers/job/?gh_jid=8367109	2026-11-16	6.3			
-board:greenhouse	board:greenhouse	Fivetran	Senior Pricing Enablement Manager	Remote, Texas, United States, AMER	https://www.fivetran.com/careers/job?gh_jid=8211025003	2026-11-20	2.3			
-board:greenhouse	board:greenhouse	Fivetran	Senior Pricing Enablement Manager	Remote, Colorado, United States, AMER	https://www.fivetran.com/careers/job?gh_jid=8210997003	2026-11-20	2.3			
-board:greenhouse	board:greenhouse	SigmaComputing	Senior/Group Product Manager, AI Ecosystem & Semantic Layer	San Francisco, CA	https://job-boards.greenhouse.io/sigmacomputing/jobs/7767898003	2026-08-20	94.3			
-board:ashby	board:ashby	Baseten	Revenue Strategy & Operations Manager (Solutions Architects)	San Francisco	https://jobs.ashbyhq.com/baseten/daaaa311-600a-4cb5-a21b-35614a4ba282	2026-11-19	3.3			
-board:greenhouse	board:greenhouse	Brex	Customer Marketing Manager	San Francisco, California, United States	https://www.brex.com/careers/8949361002?gh_jid=8949361002	2026-11-19	3.3			
-board:ashby	board:ashby	Plaid	Lifecycle Marketing Specialist	San Francisco HQ	https://jobs.ashbyhq.com/plaid/61b376cf-3449-48d3-b85d-38c139f94b4a	2026-11-19	3.3			
-board:ashby	board:ashby	Plaid	Lifecycle Marketing Manager, Consumer	San Francisco HQ	https://jobs.ashbyhq.com/plaid/b5b792fb-3d27-4c23-8a09-e13518a21640	2026-11-19	3.3			
-linkedin	linkedin	Rubrik	Senior Manager, Identity, Product Growth & Monetization	Palo Alto, CA	https://www.linkedin.com/jobs/view/4493305077	2026-11-21	1.26			
-linkedin	linkedin	DoorDash	Senior Associate, Finance & Strategy - Deal Desk	San Francisco, CA	https://www.linkedin.com/jobs/view/4474869343	2026-11-21	1.26			
-linkedin	linkedin	TikTok	Web Traffic Strategy Product Manager, Brand Ads - Global Monetization Product and Technology	San Jose, CA	https://www.linkedin.com/jobs/view/4492894918	2026-11-21	1.26			
-linkedin	linkedin	Lumen Technologies	Consumption Pricing Monetization Lead	United States	https://www.linkedin.com/jobs/view/4477611063	2026-11-21	1.26			
-linkedin	linkedin	Intuit	Money Revenue Strategy & Operations	Mountain View, CA	https://www.linkedin.com/jobs/view/4493301067	2026-11-21	1.26			
-linkedin	linkedin	KQED	Business Operations Analyst	San Francisco, CA	https://www.linkedin.com/jobs/view/4484887050	2026-11-21	1.26			
-linkedin	linkedin	Profound	GTM Operations Business Partner	San Francisco, CA	https://www.linkedin.com/jobs/view/4474848325	2026-11-21	1.26			
-linkedin	linkedin	Google	Strategy and Operations Lead	San Francisco, CA	https://www.linkedin.com/jobs/view/4476853667	2026-11-21	1.26			
-linkedin	linkedin	Cursor	Customer Success Strategy & Operations Manager	San Francisco, CA	https://www.linkedin.com/jobs/view/4485645356	2026-11-21	1.26			
-linkedin	linkedin	SolarWinds	Lead Product Manager, Salesforce, Sales Cloud and PRM	San Francisco, CA	https://www.linkedin.com/jobs/view/4477435091	2026-11-21	1.26			
-linkedin	linkedin	Zipline	Marketplace Strategy & Operations Manager	South San Francisco, CA	https://www.linkedin.com/jobs/view/4477475716	2026-11-21	1.26			
-linkedin	linkedin	Stripe	Product Manager, Radar - Fraud and Abuse Prevention	San Francisco, CA	https://www.linkedin.com/jobs/view/4482158962	2026-11-22	0.26			
-linkedin	linkedin	Superhuman	Senior Product Manager, Data Platform	San Francisco, CA	https://www.linkedin.com/jobs/view/4458042334	2026-11-21	1.26			
-linkedin	linkedin	Walmart	(USA) Staff, Product Manager	Sunnyvale, CA	https://www.linkedin.com/jobs/view/4474895027	2026-11-21	1.26			
-linkedin	linkedin	Clipboard	Senior Product Manager	San Francisco Bay Area	https://www.linkedin.com/jobs/view/4483648959	2026-11-21	1.26			
-linkedin	linkedin	Crusoe	Staff Product Manager, AI Infrastructure (Fleet Management)	San Francisco, CA	https://www.linkedin.com/jobs/view/4478019701	2026-11-21	1.26			
-linkedin	linkedin	Google	Product Manager I	Mountain View, CA	https://www.linkedin.com/jobs/view/4484860701	2026-11-21	1.26			
-linkedin	linkedin	Major Scale	Senior Product Manager - San Francisco	San Francisco, CA	https://www.linkedin.com/jobs/view/4493148991	2026-11-22	0.26			
-linkedin	linkedin	OpusClip	AI Product Manager	Mountain View, CA	https://www.linkedin.com/jobs/view/4493276146	2026-11-21	1.26			
-linkedin	linkedin	Google	Product Marketing Manager, Google Labs, Gemini and AI Marketing	Mountain View, CA	https://www.linkedin.com/jobs/view/4484871728	2026-11-21	1.26			
-linkedin	linkedin	Stryker	Manager, Product Marketing Communications (remote)	San Francisco, CA	https://www.linkedin.com/jobs/view/4492890797	2026-11-21	1.26			
-linkedin	linkedin	Shield	Marketing Strategy and Operations Manager	San Francisco, CA	https://www.linkedin.com/jobs/view/4493279919	2026-11-21	1.26			
-linkedin	linkedin	Intuit	Staff Sales Strategy & Operations, Emerging Mid-Market	Mountain View, CA	https://www.linkedin.com/jobs/view/4493273534	2026-11-21	1.26			
-linkedin	linkedin	Scientific Search	Product Manager	Newark, CA	https://www.linkedin.com/jobs/view/4475219649	2026-11-21	1.26			
-linkedin	linkedin	BetterUp	Senior Product and Go-to-Market Strategist	San Francisco, CA	https://www.linkedin.com/jobs/view/4476845552	2026-11-21	1.26			
-linkedin	linkedin	Notion	Business Operations & Strategy	San Francisco, CA	https://www.linkedin.com/jobs/view/4468285731	2026-11-21	1.26			
-linkedin	linkedin	Google	Strategy and Operations Lead	Mountain View, CA	https://www.linkedin.com/jobs/view/4476855525	2026-11-21	1.26			
-linkedin	linkedin	Eight Sleep	Growth Marketing Manager	San Francisco, CA	https://www.linkedin.com/jobs/view/4493105119	2026-11-21	1.26			
-linkedin	linkedin	Acrisure	Demand Generation Manager	San Jose, CA	https://www.linkedin.com/jobs/view/4485642248	2026-11-21	1.26			
-linkedin	linkedin	Acrisure	Senior Integrated Marketing Manager	San Jose, CA	https://www.linkedin.com/jobs/view/4485627517	2026-11-21	1.26			
-linkedin	linkedin	Rippling	Field Marketing Manager	San Francisco, CA	https://www.linkedin.com/jobs/view/4493273481	2026-11-21	1.26			
-linkedin	linkedin	B2BMarketing.com	Brand Marketing Manager, Facebook	Menlo Park, CA	https://www.linkedin.com/jobs/view/4493300415	2026-11-21	1.26			
-linkedin	linkedin	Dutch Vet	Senior Product Manager, Ecommerce	Oakland, CA	https://www.linkedin.com/jobs/view/4469239986	2026-11-21	1.26			
-linkedin	linkedin	MongoDB	Growth Marketing Manager	United States	https://www.linkedin.com/jobs/view/4477601160	2026-11-21	1.26			
-linkedin	linkedin	TalentHop	Digital Media Marketing Manager	United States	https://www.linkedin.com/jobs/view/4492313916	2026-11-21	1.26			
-linkedin	linkedin	Elastic Path	Marketing Manager	United States	https://www.linkedin.com/jobs/view/4485619817	2026-11-21	1.26			
-linkedin	linkedin	Resonate	Senior Demand Generation Manager	United States	https://www.linkedin.com/jobs/view/4466895958	2026-11-21	1.26			
-websearch-agent	websearch-agent	Docket AI India	Founder's Office - Business Operations	India	https://revpath.dealhub.io/jobs/662355952-founder-s-office-business-operations					
-websearch-agent	websearch-agent	Confidential (Michael Page)	Chief of Staff to the Co-Founder	Hyderabad, India	https://www.michaelpage.co.in/job-detail/chief-staff-co-founder-hyderabad-hr-tech/ref/jn-112026-7144583					
+board:greenhouse	board:greenhouse	Databricks	Sr. Partner Marketing Manager, AWS & AI Partners	United States	https://databricks.com/company/careers/open-positions/job?gh_jid=8860665002	2026-11-19	3.5			
+board:greenhouse	board:greenhouse	Databricks	Sr. Product Manager, Lakebase/Lakehouse	San Francisco, California	https://databricks.com/company/careers/open-positions/job?gh_jid=8811265002	2026-11-19	3.5			
+board:smartrecruiters	board:smartrecruiters	Freshworks	GTM Engineer, Revenue Operations	San Mateo, CA, us	https://api.smartrecruiters.com/v1/companies/freshworks/postings/744000162318104	2026-11-18	4.5			
+board:greenhouse	board:greenhouse	Fivetran	Senior Pricing Enablement Manager	Remote, Texas, United States, AMER	https://www.fivetran.com/careers/job?gh_jid=8211025003	2026-11-20	2.5			
+board:greenhouse	board:greenhouse	MongoDB	Revenue Marketing Manager	San Francisco	https://www.mongodb.com/careers/job/?gh_jid=8367109	2026-11-16	6.5			
+board:ashby	board:ashby	Baseten	Revenue Strategy & Operations Manager (Solutions Architects)	San Francisco	https://jobs.ashbyhq.com/baseten/daaaa311-600a-4cb5-a21b-35614a4ba282	2026-11-19	3.5			
+board:greenhouse	board:greenhouse	Brex	Customer Marketing Manager	San Francisco, California, United States	https://www.brex.com/careers/8949361002?gh_jid=8949361002	2026-11-19	3.5			
+board:ashby	board:ashby	Plaid	Lifecycle Marketing Specialist	San Francisco HQ	https://jobs.ashbyhq.com/plaid/61b376cf-3449-48d3-b85d-38c139f94b4a	2026-11-19	3.5			
+board:ashby	board:ashby	Plaid	Lifecycle Marketing Manager, Consumer	San Francisco HQ	https://jobs.ashbyhq.com/plaid/b5b792fb-3d27-4c23-8a09-e13518a21640	2026-11-19	3.5			
+board:greenhouse	board:greenhouse	Coinbase	Product Manager II, DeFi Borrow	Remote - USA	https://www.coinbase.com/careers/positions/8259870?gh_jid=8259870	2026-10-30	23.5			
+board:ashby	board:ashby	Airwallex	Product Marketing Manager, AMER	US - San Francisco	https://jobs.ashbyhq.com/airwallex/048d8368-e609-45a5-9a9d-c88170397253	2026-10-28	25.5			
+linkedin	linkedin	99Yellow	Founder's Office- Growth Strategy and Transformation	Delhi, India	https://www.linkedin.com/jobs/view/4460241082	2026-11-21	1.46			
+linkedin	linkedin	Discovr AI	Founder's Office – Investor Relations & Strategy	Mumbai, Maharashtra, India	https://www.linkedin.com/jobs/view/4492353216	2026-11-22	0.46			
+linkedin	linkedin	Hub Of Creators	Founder's Office Executive	Indore, Madhya Pradesh, India	https://www.linkedin.com/jobs/view/4491609760	2026-11-21	1.46			
+linkedin	linkedin	Neuraleap Group	Founder's Office Executive (Multi-Role)	Coimbatore, Tamil Nadu, India	https://www.linkedin.com/jobs/view/4493106195	2026-11-21	1.46			
+linkedin	linkedin	Google	Product Marketing Manager, Google Labs, Gemini and AI Marketing	Mountain View, CA	https://www.linkedin.com/jobs/view/4484871728	2026-11-21	1.46			
+linkedin	linkedin	Snap Inc.	Lead, Product Marketing Manager - Measurement	Palo Alto, CA	https://www.linkedin.com/jobs/view/4485656124	2026-11-21	1.46			
+linkedin	linkedin	Serval	Product Marketing Manager	San Francisco, CA	https://www.linkedin.com/jobs/view/4466887500	2026-11-21	1.46			
+linkedin	linkedin	Rubrik	Sr Product Marketing Manager, Cloud Data Protection	United States	https://www.linkedin.com/jobs/view/4485650257	2026-11-21	1.46			
+linkedin	linkedin	Rubrik	Senior Manager, Identity, Product Growth & Monetization	Palo Alto, CA	https://www.linkedin.com/jobs/view/4493305077	2026-11-21	1.46			
+linkedin	linkedin	Cursor	Customer Success Strategy & Operations Manager	San Francisco, CA	https://www.linkedin.com/jobs/view/4485645356	2026-11-21	1.46			
+linkedin	linkedin	TikTok	Web Traffic Strategy Product Manager, Brand Ads - Global Monetization Product and Technology	San Jose, CA	https://www.linkedin.com/jobs/view/4492894918	2026-11-21	1.46			
+linkedin	linkedin	Zipline	Marketplace Strategy & Operations Manager	South San Francisco, CA	https://www.linkedin.com/jobs/view/4477475716	2026-11-21	1.46			
+linkedin	linkedin	Mudflap	Senior Product Manager, Merchant	Palo Alto, CA	https://www.linkedin.com/jobs/view/4469502723	2026-11-21	1.46			
+linkedin	linkedin	TalentHop	Pricing Analyst - REMOTE	United States	https://www.linkedin.com/jobs/view/4492314892	2026-11-21	1.46			
+websearch-agent	websearch-agent	Leo Berwick	Chief of Staff	India (unconfirmed)	https://ats.rippling.com/leoberwick/jobs/b746a21c-5cdc-4bd3-9b7f-cd2d1e856c17					
+websearch-agent	websearch-agent	NeoSigma	Chief of Staff	India (unconfirmed)	https://ats.rippling.com/neosigma/jobs/7ea0bc2c-c9c7-40e2-b27e-51cdf3845eb7					
+websearch-agent	websearch-agent	PanScience Innovations (PSI)	Entrepreneur in Residence (EIR)	New Delhi, India	https://career.io/job/entrepreneur-in-residence-eir-new-delhi-panscience-innovations-psi-b9595d128e6ab7656b7bad842f429bdf					
