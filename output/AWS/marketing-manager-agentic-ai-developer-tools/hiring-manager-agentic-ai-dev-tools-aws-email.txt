@@ -1,0 +1,18 @@
+Subject: Agentic AI Developer Tools, Marketing Manager (Job ID A10486668) - Adhithya Rokhith Bhaskar
+
+Dear {Hiring Manager, AWS Developer Marketing},
+
+Your team has to translate agentic AI into language developers trust, and most marketers on that beat have never shipped anything developers actually use. I have: SwipeHire is an AI job-matching tool I built myself, Python and React on the OpenAI API, from a blank PRD to 50+ onboarded users, running my own A/B tests along the way. I would rather walk in having built on the same APIs than having only written about them.
+
+The lifecycle side is familiar too. At Plug Power I rebuilt the WordPress to Pardot lead flow end to end and cut cost per lead by 50% with no added headcount. At Sensata I built KPI frameworks in SQL and GA4 across 50,000+ connected devices, found where cohorts dropped off the funnel, and feature adoption rose 18%, the product-usage-to-sales handoff your JD names directly. At Applied Materials, I run Claude based agent workflows in my own marketing work.
+
+Here's the portfolio: https://adhi-growth-ai.vercel.app/ref/aws
+
+If the team has 20 minutes, I would value hearing how the early roadmap is shaping up.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
