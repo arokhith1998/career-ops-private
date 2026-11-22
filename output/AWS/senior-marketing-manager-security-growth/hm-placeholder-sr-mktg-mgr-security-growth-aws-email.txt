@@ -1,0 +1,22 @@
+Subject: Portfolio prioritization for AWS Security and Observability (Job ID A10564240)
+
+Hi {Hiring Manager, AWS Security and Growth},
+
+I joined Applied Materials recently and was not looking, but PriceKeel, the pricing decision layer I am building on the side, is exactly the muscle this req asks for: diagnose what is moving the business, then recommend where to double down or stop.
+
+Where this overlaps with work I have already run:
+- Built Sensata's Bleeders and Leakers Power BI dashboard, 1,200 opportunities against a $627M target, surfacing $433M in margin gaps by owner.
+- Partnered with Finance and senior executives on revenue models and quotes, the kind of cross-functional view this role builds with product, finance, GTM and sales.
+- Ran 30+ direct customer interviews to validate what was working before acting on it, not after.
+- At Applied Materials, automate that diagnostic work with Claude AI agents while carrying the P&L result myself.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/aws
+
+Worth 15 minutes on how you are prioritizing this portfolio? Happy to be redirected if this isn't your team.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
