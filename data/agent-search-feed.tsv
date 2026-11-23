@@ -1,14 +1,3 @@
 source	sources	company	title	location	url	posted_ts	age_days	sponsorship_hint	salary	category
-websearch-agent		Gushwork	Chief of Staff	Bengaluru, India	https://jobs.lever.co/gushwork/d9e8217c-24f8-41d9-bef1-5af93bb65685				chief_of_staff
-websearch-agent		Clinikally	Chief of Staff	Gurugram, India	https://www.workatastartup.com/jobs/76808				chief_of_staff
-websearch-agent		Enerjazz	Chief of Staff	Delhi NCR, India	https://www.workatastartup.com/jobs/83448				chief_of_staff
-websearch-agent		Qureos (Hub71 client)	Head of Growth	India	https://jobs.hub71.com/companies/qureos-2/jobs/72432558-head-of-growth				head_of_growth
-websearch-agent		Gushwork	Founder's Office (New Products)	Bengaluru, India	https://jobs.lever.co/gushwork/bdcb4767-be80-428a-8455-b9eddc0008c4				founders_office
-websearch-agent		Michael Page (client)	CEO's Office, Strategy Manager	Delhi, India	https://www.michaelpage.co.in/job-detail/ceos-office-strategy-manager-delhi/ref/jn-082026-7076458				ceo_office
-websearch-agent		Unknown (Workable)	Founders Office	India	https://jobs.workable.com/jobs/466cff98-e9f4-4c98-97e6-9b896a2fd0ac.md				founders_office
-websearch-agent		Inspektlabs	Founder's Office	India	https://jobs.techstars.com/companies/inspektlabs/jobs/65640295-founder-s-office				founders_office
-websearch-agent		Unknown (Workable)	Entrepreneur In Residence	India	https://jobs.workable.com/jobs/0e9d9107-bd54-4340-a752-88ba66df1c2a.md				entrepreneur_in_residence
-websearch-agent		ElevenLabs	Chief of Staff, India	India	https://www.workingnomads.com/jobs/chief-of-staff-india-elevenlabs				chief_of_staff
-websearch-agent		Hive	Chief of Staff	San Francisco, CA	https://jobs.lever.co/hive/2a9865a6-7673-46ee-807c-113b1eac78f3				chief_of_staff
-websearch-agent		Inkitt	Chief of Staff to the CEO	San Francisco, CA	https://jobs.lever.co/inkitt/2dcbe3e8-ac90-4fd2-94fd-95acd5740f5c				chief_of_staff
-websearch-agent		Consiglieri (client)	Product Marketing Manager	Bay Area, CA	https://arc.dev/remote-jobs/j/consiglieri-product-marketing-manager-bay-area-mhw844bhtc				marketing
+websearch-agent		Michael Page (for client)	Head of Growth Marketing, FinTech	Bengaluru, India	https://www.michaelpage.co.in/job-detail/head-growth-marketing-fintech-bengaluru/ref/jn-072026-7067569				head_of_growth
+websearch-agent		Checkr	Senior Pricing Strategy Manager	San Francisco, CA	https://job-boards.greenhouse.io/checkr/jobs/8384206				pricing
