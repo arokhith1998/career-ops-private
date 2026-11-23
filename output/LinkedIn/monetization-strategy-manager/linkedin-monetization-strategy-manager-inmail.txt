@@ -9,7 +9,7 @@ Built a 6-slide pitch deck mapping that work to this brief.
 At Sensata I built the willingness-to-pay case behind a distributor repricing program, $700K+ in margin recovered, channel margins 53% to 61%, then designed a $627M-target pricing dashboard from scratch, surfacing $433M in gaps.
 At Applied Materials I turn pricing and forecasting analysis into one model, automated with Claude agents.
 
-Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/linkedin
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/linkedin
 
 Worth 15 minutes to see if the fit is real?
 

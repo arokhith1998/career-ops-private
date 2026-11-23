@@ -10,7 +10,7 @@ At Sensata I built the willingness-to-pay case behind a distributor repricing pr
 I designed the FY2026 pricing dashboard from scratch, ranking 1,200 opportunities against a $627M target across 20 product lines.
 As founder of PriceKeel I build the discount-guardrail engine and audit trail Finance reviews for every pricing decision.
 
-Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/linkedin
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/linkedin
 
 Worth 15 minutes on how the team is sizing the next packaging decision?
 
