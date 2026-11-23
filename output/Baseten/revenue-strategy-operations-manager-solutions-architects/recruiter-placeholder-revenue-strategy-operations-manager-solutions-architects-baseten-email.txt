@@ -1,0 +1,19 @@
+Subject: Writing my own SQL instead of asking Claude for it, already the default
+
+Hi {Recruiter, Baseten},
+
+I don't usually reach out before applying, but the line about writing your own SQL instead of relying on Claude for it caught me, since that is already how I work, not a new habit to build here.
+
+At Sensata I built the FY2026 Bleeders and Leakers Power BI dashboard myself: 1,200 opportunities against a $627M target across 3 regions and 20 product lines, win rate and stage distribution broken out by salesperson, the same segment-and-stage shape your posting describes for SA win-rate and utilization analytics.
+At PriceKeel I run my own CRM and CPQ configuration, forecast and pipeline reviews, and deal approvals, with a SQL-built audit trail Finance can check line by line, close to the engagement-model-into-Salesforce work this role owns.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/baseten
+
+Worth 20 minutes if the SA ops seat is yours, no worries if it already has an owner.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

@@ -1,0 +1,20 @@
+Subject: Capacity models for SA coverage, a familiar build
+
+Hi {Recruiter, Baseten},
+
+I don't usually send a note before applying, but the plan to build SA headcount and coverage models with RevOps and Finance is work I already do, not a new skill to pick up.
+
+At Applied Materials I build forecasting and market-sizing models across multiple product groups that Sales and Engineering feed into one view against P&L targets, the same allocation logic a coverage model runs on.
+At Sensata I built a BU-wide price-increase model flagging where small changes moved profitability more than 50%, the kind of modeling work that turns a capacity plan into a number leadership trusts.
+At PriceKeel I run my own CRM and CPQ configuration end to end, with a SQL-built audit trail Finance can check line by line.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/baseten
+
+Worth 15 minutes if this req is yours?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
