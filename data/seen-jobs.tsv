@@ -1,13 +1,13 @@
 job_key	company	title	url	stage	verdict	first_seen	last_seen	times_seen	note
-jobs.ashbyhq.com/plaid/61b376cf-3449-48d3-b85d-38c139f94b4a	Plaid	Lifecycle Marketing Specialist	https://jobs.ashbyhq.com/plaid/61b376cf-3449-48d3-b85d-38c139f94b4a	queued	DUP:same-night-already-queued	2026-11-20	2026-11-23	25	
-jobs.ashbyhq.com/plaid/b5b792fb-3d27-4c23-8a09-e13518a21640	Plaid	Lifecycle Marketing Manager, Consumer	https://jobs.ashbyhq.com/plaid/b5b792fb-3d27-4c23-8a09-e13518a21640	queued	DUP:same-night-already-queued	2026-11-20	2026-11-23	25	
-jobs.ashbyhq.com/baseten/daaaa311-600a-4cb5-a21b-35614a4ba282	Baseten	Revenue Strategy & Operations Manager (Solutions Architects)	https://jobs.ashbyhq.com/baseten/daaaa311-600a-4cb5-a21b-35614a4ba282	queued		2026-11-20	2026-11-23	22	
-mongodb.com/careers/job?gh_jid=8367109	MongoDB	Revenue Marketing Manager	https://www.mongodb.com/careers/job/?gh_jid=8367109	queued	DUP:already-tracked	2026-11-16	2026-11-23	42	
-brex.com/careers/8949361002?gh_jid=8949361002	Brex	Customer Marketing Manager	https://www.brex.com/careers/8949361002?gh_jid=8949361002	queued	DUP:already-tracked	2026-11-18	2026-11-23	37	
+jobs.ashbyhq.com/plaid/61b376cf-3449-48d3-b85d-38c139f94b4a	Plaid	Lifecycle Marketing Specialist	https://jobs.ashbyhq.com/plaid/61b376cf-3449-48d3-b85d-38c139f94b4a	queued	DUP:same-night-already-queued	2026-11-20	2026-11-23	26	
+jobs.ashbyhq.com/plaid/b5b792fb-3d27-4c23-8a09-e13518a21640	Plaid	Lifecycle Marketing Manager, Consumer	https://jobs.ashbyhq.com/plaid/b5b792fb-3d27-4c23-8a09-e13518a21640	queued	DUP:same-night-already-queued	2026-11-20	2026-11-23	26	
+jobs.ashbyhq.com/baseten/daaaa311-600a-4cb5-a21b-35614a4ba282	Baseten	Revenue Strategy & Operations Manager (Solutions Architects)	https://jobs.ashbyhq.com/baseten/daaaa311-600a-4cb5-a21b-35614a4ba282	queued		2026-11-20	2026-11-23	23	
+mongodb.com/careers/job?gh_jid=8367109	MongoDB	Revenue Marketing Manager	https://www.mongodb.com/careers/job/?gh_jid=8367109	queued	DUP:already-tracked	2026-11-16	2026-11-23	43	
+brex.com/careers/8949361002?gh_jid=8949361002	Brex	Customer Marketing Manager	https://www.brex.com/careers/8949361002?gh_jid=8949361002	queued	DUP:already-tracked	2026-11-18	2026-11-23	38	
 api.smartrecruiters.com/v1/companies/freshworks/postings/744000162318104	Freshworks	GTM Engineer, Revenue Operations	https://api.smartrecruiters.com/v1/companies/freshworks/postings/744000162318104	dropped	DROP:DROP:duplicate-already-tracked - same title already tracked and BUILT at row #381 (score 3.6, equal), merge-tracker.mjs skipped; this req (P102948) has higher comp ($202K-$250K) - candidate may want to re-verify with recruiter if applying	2026-11-19	2026-11-23	30	
-fivetran.com/careers/job?gh_jid=8211025003	Fivetran	Senior Pricing Enablement Manager	https://www.fivetran.com/careers/job?gh_jid=8211025003	queued		2026-11-21	2026-11-23	16	
-linkedin.com/jobs/view/4478000140	Amazon Music	Sr. Product Marketing Manager, Amazon Music Audiobooks, Amazon Music Spoken Word	https://www.linkedin.com/jobs/view/4478000140	queued		2026-10-10	2026-11-23	42	
-jobs.ashbyhq.com/airwallex/048d8368-e609-45a5-9a9d-c88170397253	Airwallex	Product Marketing Manager, AMER	https://jobs.ashbyhq.com/airwallex/048d8368-e609-45a5-9a9d-c88170397253	queued		2026-11-22	2026-11-23	8	
+fivetran.com/careers/job?gh_jid=8211025003	Fivetran	Senior Pricing Enablement Manager	https://www.fivetran.com/careers/job?gh_jid=8211025003	queued		2026-11-21	2026-11-23	17	
+linkedin.com/jobs/view/4478000140	Amazon Music	Sr. Product Marketing Manager, Amazon Music Audiobooks, Amazon Music Spoken Word	https://www.linkedin.com/jobs/view/4478000140	queued		2026-10-10	2026-11-23	43	
+jobs.ashbyhq.com/airwallex/048d8368-e609-45a5-9a9d-c88170397253	Airwallex	Product Marketing Manager, AMER	https://jobs.ashbyhq.com/airwallex/048d8368-e609-45a5-9a9d-c88170397253	dropped	SKIP:duplicate-of-tracker-row-3046	2026-11-22	2026-11-23	10	
 linkedin.com/jobs/view/4471850133	Vercel	Product Manager, Dashboard	https://www.linkedin.com/jobs/view/4471850133	dropped	DROP:DROP:duplicate-already-evaluated - repost of tracker row #484 (2026-09-27, score 2.9, digest_only, same comp band $172K-$258K); no material change	2026-11-07	2026-11-23	4	
 linkedin.com/jobs/view/4412936784	Whatnot	Category Marketing Manager	https://www.linkedin.com/jobs/view/4412936784	dropped	DROP:DROP:duplicate-already-tracked - same employer+title already tracked and BUILT at row #347 (score 3.6), merge-tracker.mjs skipped this lower score	2026-10-11	2026-11-23	8	
 linkedin.com/jobs/view/4433022955	Fivetran	Product Manager - Integrations	https://www.linkedin.com/jobs/view/4433022955	dropped	DROP:DROP:below-3.0 - score 2.6, no formal PM title, data-connector/ETL domain has no direct analog	2026-09-19	2026-11-23	25	
@@ -239,23 +239,23 @@ jobs.workable.com/jobs/466cff98-e9f4-4c98-97e6-9b896a2fd0ac.md	Unknown (Workable
 jobs.workable.com/jobs/0e9d9107-bd54-4340-a752-88ba66df1c2a.md	Unknown (Workable)	Entrepreneur In Residence	https://jobs.workable.com/jobs/0e9d9107-bd54-4340-a752-88ba66df1c2a.md	shortlisted		2026-11-23	2026-11-23	1	
 apply.workable.com/xponentiate/jobs/view/a20372f19b.md	BeatO	Entrepreneur In Residence	https://apply.workable.com/xponentiate/jobs/view/A20372F19B.md	dropped	DROP:DROP:duplicate-already-tracked - same employer+title already tracked and BUILT at row #2569 (score 4.3), merge-tracker.mjs skipped this lower score	2026-11-23	2026-11-23	1	
 apply.workable.com/origin-10x/jobs/view/4baa78538d.md	Origin	Founder's Office	https://apply.workable.com/origin-10x/jobs/view/4BAA78538D.md	queued	QUEUED	2026-11-17	2026-11-23	2	
-linkedin.com/jobs/view/4492399195	VRT Management Group, LLC.	Junior Chief of Staff	https://www.linkedin.com/jobs/view/4492399195	shortlisted		2026-11-23	2026-11-23	2	
-linkedin.com/jobs/view/4493586090	ParetoHealth	Product Marketing Manager	https://www.linkedin.com/jobs/view/4493586090	shortlisted		2026-11-23	2026-11-23	2	
-linkedin.com/jobs/view/4493768104	Superworq	Product Marketing Manager - Remote	https://www.linkedin.com/jobs/view/4493768104	shortlisted		2026-11-23	2026-11-23	2	
-linkedin.com/jobs/view/4492379955	LUZO	Founder's Office	https://www.linkedin.com/jobs/view/4492379955	shortlisted		2026-11-23	2026-11-23	2	
-linkedin.com/jobs/view/4493500435	Muditam Ayurveda	Founder’s Office Associate	https://www.linkedin.com/jobs/view/4493500435	shortlisted		2026-11-23	2026-11-23	2	
-linkedin.com/jobs/view/4493708170	The Sleep Company	Founder's Office - Strategic Initiatives	https://www.linkedin.com/jobs/view/4493708170	shortlisted		2026-11-23	2026-11-23	2	
-linkedin.com/jobs/view/4492392368	Opintu	Founder Office Associate	https://www.linkedin.com/jobs/view/4492392368	shortlisted		2026-11-23	2026-11-23	2	
-linkedin.com/jobs/view/4493750271	Career Shifts Consulting	Associate, Founder’s Office	https://www.linkedin.com/jobs/view/4493750271	shortlisted		2026-11-23	2026-11-23	2	
-linkedin.com/jobs/view/4493710274	Triloke	Executive Assistant Founder office	https://www.linkedin.com/jobs/view/4493710274	shortlisted		2026-11-23	2026-11-23	2	
-linkedin.com/jobs/view/4493381263	SourcingXPress	Head of Growth	https://www.linkedin.com/jobs/view/4493381263	shortlisted		2026-11-23	2026-11-23	2	
-linkedin.com/jobs/view/4356590478	Palo Alto Networks	Transfer Pricing Economist Manager	https://www.linkedin.com/jobs/view/4356590478	shortlisted		2026-11-23	2026-11-23	2	
-linkedin.com/jobs/view/4433425307	ERGO NEXT Insurance	Insurance Product Manager	https://www.linkedin.com/jobs/view/4433425307	shortlisted		2026-11-23	2026-11-23	2	
-linkedin.com/jobs/view/4480274972	Devoted Health	Commercial Pricing Actuary	https://www.linkedin.com/jobs/view/4480274972	shortlisted		2026-11-23	2026-11-23	2	
-linkedin.com/jobs/view/4492360215	CAR101	Founders office	https://www.linkedin.com/jobs/view/4492360215	shortlisted		2026-11-23	2026-11-23	2	
-workato.com/careers?gh_jid=8860927002	Workato	Senior Field Marketing Manager	https://www.workato.com/careers?gh_jid=8860927002#open-roles	shortlisted		2026-11-23	2026-11-23	2	
-zapply.jobs/l/d/google-111418132802740934	Google	Associate Product Marketing Manager (APMM), 2027 Start	https://zapply.jobs/l/d/google-111418132802740934?s=gh-new-grad-jobs-2027	shortlisted		2026-11-23	2026-11-23	2	
-jobs.ashbyhq.com/snowflake/6eb0df45-4bbf-430f-9ef3-a5ae82bf978b	Snowflake	Sales Operations Manager, Planning	https://jobs.ashbyhq.com/snowflake/6eb0df45-4bbf-430f-9ef3-a5ae82bf978b	shortlisted		2026-11-23	2026-11-23	2	
+linkedin.com/jobs/view/4492399195	VRT Management Group, LLC.	Junior Chief of Staff	https://www.linkedin.com/jobs/view/4492399195	jd_extracted		2026-11-23	2026-11-23	3	
+linkedin.com/jobs/view/4493586090	ParetoHealth	Product Marketing Manager	https://www.linkedin.com/jobs/view/4493586090	dropped	SKIP:no-sponsorship-this-req	2026-11-23	2026-11-23	4	
+linkedin.com/jobs/view/4493768104	Superworq	Product Marketing Manager - Remote	https://www.linkedin.com/jobs/view/4493768104	jd_extracted		2026-11-23	2026-11-23	3	
+linkedin.com/jobs/view/4492379955	LUZO	Founder's Office	https://www.linkedin.com/jobs/view/4492379955	jd_extracted		2026-11-23	2026-11-23	3	
+linkedin.com/jobs/view/4493500435	Muditam Ayurveda	Founder’s Office Associate	https://www.linkedin.com/jobs/view/4493500435	jd_extracted		2026-11-23	2026-11-23	3	
+linkedin.com/jobs/view/4493708170	The Sleep Company	Founder's Office - Strategic Initiatives	https://www.linkedin.com/jobs/view/4493708170	jd_extracted		2026-11-23	2026-11-23	3	
+linkedin.com/jobs/view/4492392368	Opintu	Founder Office Associate	https://www.linkedin.com/jobs/view/4492392368	jd_extracted		2026-11-23	2026-11-23	3	
+linkedin.com/jobs/view/4493750271	Career Shifts Consulting	Associate, Founder’s Office	https://www.linkedin.com/jobs/view/4493750271	jd_extracted		2026-11-23	2026-11-23	3	
+linkedin.com/jobs/view/4493710274	Triloke	Executive Assistant Founder office	https://www.linkedin.com/jobs/view/4493710274	jd_extracted		2026-11-23	2026-11-23	3	
+linkedin.com/jobs/view/4493381263	SourcingXPress	Head of Growth	https://www.linkedin.com/jobs/view/4493381263	jd_extracted		2026-11-23	2026-11-23	3	
+linkedin.com/jobs/view/4356590478	Palo Alto Networks	Transfer Pricing Economist Manager	https://www.linkedin.com/jobs/view/4356590478	dropped	DROP:over-cap-8y-vs-6	2026-11-23	2026-11-23	4	
+linkedin.com/jobs/view/4433425307	ERGO NEXT Insurance	Insurance Product Manager	https://www.linkedin.com/jobs/view/4433425307	jd_extracted		2026-11-23	2026-11-23	3	
+linkedin.com/jobs/view/4480274972	Devoted Health	Commercial Pricing Actuary	https://www.linkedin.com/jobs/view/4480274972	dropped	DROP:over-cap-8y-vs-6	2026-11-23	2026-11-23	4	
+linkedin.com/jobs/view/4492360215	CAR101	Founders office	https://www.linkedin.com/jobs/view/4492360215	jd_extracted		2026-11-23	2026-11-23	3	
+workato.com/careers?gh_jid=8860927002	Workato	Senior Field Marketing Manager	https://www.workato.com/careers?gh_jid=8860927002#open-roles	jd_extracted		2026-11-23	2026-11-23	3	
+zapply.jobs/l/d/google-111418132802740934	Google	Associate Product Marketing Manager (APMM), 2027 Start	https://zapply.jobs/l/d/google-111418132802740934?s=gh-new-grad-jobs-2027	dropped	SKIP:no-sponsorship-this-req	2026-11-23	2026-11-23	4	
+jobs.ashbyhq.com/snowflake/6eb0df45-4bbf-430f-9ef3-a5ae82bf978b	Snowflake	Sales Operations Manager, Planning	https://jobs.ashbyhq.com/snowflake/6eb0df45-4bbf-430f-9ef3-a5ae82bf978b	jd_extracted		2026-11-23	2026-11-23	3	
 zapply.jobs/l/d/workday-stryker-strykercareers-r574832	Stryker	Sales Representative - Newport News/Williamsburg, VA - Surgical Technologies	https://zapply.jobs/l/d/workday-stryker-strykercareers-R574832?s=gh-new-grad-jobs-2027	dropped	DROP:no-target-role-match	2026-11-23	2026-11-23	1	
 zapply.jobs/l/d/workday-wf-wellsfargojobs-r-582851	Wells Fargo	Teller Part Time Cottage Hill	https://zapply.jobs/l/d/workday-wf-wellsfargojobs-R-582851?s=gh-new-grad-jobs-2027	dropped	DROP:no-target-role-match	2026-11-23	2026-11-23	1	
 zapply.jobs/l/d/workday-wf-wellsfargojobs-r-582690	Wells Fargo	Teller Part Time Edgewater	https://zapply.jobs/l/d/workday-wf-wellsfargojobs-R-582690?s=gh-new-grad-jobs-2027	dropped	DROP:no-target-role-match	2026-11-23	2026-11-23	1	
@@ -489,8 +489,8 @@ linkedin.com/jobs/view/4434050768	Tailored Brands, Inc.	Sr Data Analyst - Store 
 linkedin.com/jobs/view/4441631792	Salesforce	Deployment Strategist - Public Sector, Nonprofit & Education	https://www.linkedin.com/jobs/view/4441631792	dropped	DROP:no-target-role-match	2026-11-23	2026-11-23	1	
 linkedin.com/jobs/view/4430664827	PitchBook	GTM Analyst	https://www.linkedin.com/jobs/view/4430664827	dropped	DROP:no-target-role-match	2026-11-23	2026-11-23	1	
 linkedin.com/jobs/view/4493738012	Jobgether	Principal Revenue Operations Manager	https://www.linkedin.com/jobs/view/4493738012	dropped	DROP:seniority-out-of-band	2026-11-23	2026-11-23	1	
-michaelpage.co.in/job-detail/head-growth-marketing-fintech-bengaluru/ref/jn-072026-7067569	Michael Page (for client)	Head of Growth Marketing, FinTech	https://www.michaelpage.co.in/job-detail/head-growth-marketing-fintech-bengaluru/ref/jn-072026-7067569	shortlisted		2026-11-23	2026-11-23	1	
-job-boards.greenhouse.io/checkr/jobs/8384206	Checkr	Senior Pricing Strategy Manager	https://job-boards.greenhouse.io/checkr/jobs/8384206	shortlisted		2026-11-23	2026-11-23	1	
+michaelpage.co.in/job-detail/head-growth-marketing-fintech-bengaluru/ref/jn-072026-7067569	Michael Page (for client)	Head of Growth Marketing, FinTech	https://www.michaelpage.co.in/job-detail/head-growth-marketing-fintech-bengaluru/ref/jn-072026-7067569	dropped	DROP:over-cap-10y-vs-8	2026-11-23	2026-11-23	3	
+job-boards.greenhouse.io/checkr/jobs/8384206	Checkr	Senior Pricing Strategy Manager	https://job-boards.greenhouse.io/checkr/jobs/8384206	dropped	DROP:over-cap-10y-vs-6	2026-11-23	2026-11-23	3	
 job-boards.greenhouse.io/sigmacomputing/jobs/7767898003	SigmaComputing	Senior/Group Product Manager, AI Ecosystem & Semantic Layer	https://job-boards.greenhouse.io/sigmacomputing/jobs/7767898003	dropped	DROP:below-3.0 (scored 2.6)	2026-11-20	2026-11-22	12	
 fivetran.com/careers/job?gh_jid=8210997003	Fivetran	Senior Pricing Enablement Manager	https://www.fivetran.com/careers/job?gh_jid=8210997003	dropped	DROP:duplicate-duplicate cross-post of same req (TX location variant already scored)	2026-11-21	2026-11-22	10	
 linkedin.com/jobs/view/4466895958	Resonate	Senior Demand Generation Manager	https://www.linkedin.com/jobs/view/4466895958	queued		2026-10-31	2026-11-22	24	
