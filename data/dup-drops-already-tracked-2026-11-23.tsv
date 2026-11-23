@@ -1,0 +1,4 @@
+company	title	url	drop_reason
+BeatO	Entrepreneur In Residence	https://apply.workable.com/xponentiate/jobs/view/A20372F19B.md	DROP:duplicate-already-tracked - same employer+title already tracked and BUILT at row #2569 (score 4.3), merge-tracker.mjs skipped this lower score
+Whatnot	Category Marketing Manager	https://www.linkedin.com/jobs/view/4412936784	DROP:duplicate-already-tracked - same employer+title already tracked and BUILT at row #347 (score 3.6), merge-tracker.mjs skipped this lower score
+Freshworks	GTM Engineer, Revenue Operations	https://api.smartrecruiters.com/v1/companies/freshworks/postings/744000162318104	DROP:duplicate-already-tracked - same title already tracked and BUILT at row #381 (score 3.6, equal), merge-tracker.mjs skipped; this req (P102948) has higher comp ($202K-$250K) - candidate may want to re-verify with recruiter if applying
