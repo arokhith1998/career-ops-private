@@ -1,0 +1,20 @@
+Subject: A/B testing ad formats and reporting on SQLs, not just CPL
+
+Hi {Recruiter, Hopper HTS},
+
+I don't usually message before applying, but the line about testing ad formats and reporting on SQLs rather than raw CPL is close to how I already run paid.
+
+At Plug Power I led Paid Search and Paid Social across Google, Microsoft, Meta and LinkedIn, ran the A/B tests behind a 25% CPA cut, then automated the lead handoff to cut cost per lead 50%.
+I run Salesforce hands on, I'm HubSpot certified, and GA4 plus SQL are how I build the KPI frameworks behind most of those numbers.
+At Applied Materials I automate that same kind of reporting with Claude agents, so a weekly SQL and CPL readout is not a manual rebuild each time.
+
+Here's the portfolio: https://adhi-growth-ai.vercel.app/ref/hopper
+
+Worth 15 minutes if this req is yours?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
