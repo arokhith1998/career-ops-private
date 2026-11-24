@@ -1,53 +1,53 @@
 job_key	company	title	url	stage	verdict	first_seen	last_seen	times_seen	note
-jobs.ashbyhq.com/plaid/61b376cf-3449-48d3-b85d-38c139f94b4a	Plaid	Lifecycle Marketing Specialist	https://jobs.ashbyhq.com/plaid/61b376cf-3449-48d3-b85d-38c139f94b4a	queued	DUP:same-night-already-queued	2026-11-20	2026-11-24	32	
-jobs.ashbyhq.com/plaid/b5b792fb-3d27-4c23-8a09-e13518a21640	Plaid	Lifecycle Marketing Manager, Consumer	https://jobs.ashbyhq.com/plaid/b5b792fb-3d27-4c23-8a09-e13518a21640	queued	DUP:same-night-already-queued	2026-11-20	2026-11-24	32	
-mongodb.com/careers/job?gh_jid=8367109	MongoDB	Revenue Marketing Manager	https://www.mongodb.com/careers/job/?gh_jid=8367109	queued	DUP:already-tracked	2026-11-16	2026-11-24	49	
-brex.com/careers/8949361002?gh_jid=8949361002	Brex	Customer Marketing Manager	https://www.brex.com/careers/8949361002?gh_jid=8949361002	queued	DUP:already-tracked	2026-11-18	2026-11-24	44	
-jobs.ashbyhq.com/snowflake/6eb0df45-4bbf-430f-9ef3-a5ae82bf978b	Snowflake	Sales Operations Manager, Planning	https://jobs.ashbyhq.com/snowflake/6eb0df45-4bbf-430f-9ef3-a5ae82bf978b	queued		2026-11-23	2026-11-24	9	
-linkedin.com/jobs/view/4480703050	Ascendion	Marketing Manager	https://www.linkedin.com/jobs/view/4480703050	queued		2026-10-22	2026-11-24	36	
-linkedin.com/jobs/view/4353972378	Netic	Agent Product Manager	https://www.linkedin.com/jobs/view/4353972378	jd_extracted		2026-11-03	2026-11-24	6	
-linkedin.com/jobs/view/4377295797	Veeva Systems	Senior Product Manager - Vault CRM - Med Tech	https://www.linkedin.com/jobs/view/4377295797	jd_extracted		2026-09-21	2026-11-24	10	
+jobs.ashbyhq.com/plaid/61b376cf-3449-48d3-b85d-38c139f94b4a	Plaid	Lifecycle Marketing Specialist	https://jobs.ashbyhq.com/plaid/61b376cf-3449-48d3-b85d-38c139f94b4a	queued	DUP:same-night-already-queued	2026-11-20	2026-11-24	33	
+jobs.ashbyhq.com/plaid/b5b792fb-3d27-4c23-8a09-e13518a21640	Plaid	Lifecycle Marketing Manager, Consumer	https://jobs.ashbyhq.com/plaid/b5b792fb-3d27-4c23-8a09-e13518a21640	queued	DUP:same-night-already-queued	2026-11-20	2026-11-24	33	
+mongodb.com/careers/job?gh_jid=8367109	MongoDB	Revenue Marketing Manager	https://www.mongodb.com/careers/job/?gh_jid=8367109	dropped	DROP:below-3.0	2026-11-16	2026-11-24	50	
+brex.com/careers/8949361002?gh_jid=8949361002	Brex	Customer Marketing Manager	https://www.brex.com/careers/8949361002?gh_jid=8949361002	queued	DUP:already-tracked	2026-11-18	2026-11-24	45	
+jobs.ashbyhq.com/snowflake/6eb0df45-4bbf-430f-9ef3-a5ae82bf978b	Snowflake	Sales Operations Manager, Planning	https://jobs.ashbyhq.com/snowflake/6eb0df45-4bbf-430f-9ef3-a5ae82bf978b	queued		2026-11-23	2026-11-24	10	
+linkedin.com/jobs/view/4480703050	Ascendion	Marketing Manager	https://www.linkedin.com/jobs/view/4480703050	queued		2026-10-22	2026-11-24	37	
+linkedin.com/jobs/view/4353972378	Netic	Agent Product Manager	https://www.linkedin.com/jobs/view/4353972378	dropped	DROP:below-3.0	2026-11-03	2026-11-24	7	
+linkedin.com/jobs/view/4377295797	Veeva Systems	Senior Product Manager - Vault CRM - Med Tech	https://www.linkedin.com/jobs/view/4377295797	queued		2026-09-21	2026-11-24	11	
 linkedin.com/jobs/view/4493917340	Mixpanel	Senior Product Manager - AI Engine	https://www.linkedin.com/jobs/view/4493917340	jd_extracted		2026-11-24	2026-11-24	3	
 linkedin.com/jobs/view/4493924781	Stripe	Marketing Strategy & Operations Lead, Global Demand, Campaigns, Field Marketing	https://www.linkedin.com/jobs/view/4493924781	dropped	DROP:over-cap	2026-11-24	2026-11-24	4	
-linkedin.com/jobs/view/4493923337	Verizon	Senior Pricing Manager - GPUaaS & AI Cloud Infrastructure	https://www.linkedin.com/jobs/view/4493923337	jd_extracted		2026-11-24	2026-11-24	4	
-job-boards.greenhouse.io/mixpanel/jobs/8406662	Mixpanel	Senior Product Manager - AI Engine	https://job-boards.greenhouse.io/mixpanel/jobs/8406662	jd_extracted		2026-11-24	2026-11-24	5	
-linkedin.com/jobs/view/4494096920	Autodesk	AI Market and Competitive Intelligence Analyst	https://www.linkedin.com/jobs/view/4494096920	jd_extracted		2026-11-24	2026-11-24	5	
+linkedin.com/jobs/view/4493923337	Verizon	Senior Pricing Manager - GPUaaS & AI Cloud Infrastructure	https://www.linkedin.com/jobs/view/4493923337	queued		2026-11-24	2026-11-24	5	
+job-boards.greenhouse.io/mixpanel/jobs/8406662	Mixpanel	Senior Product Manager - AI Engine	https://job-boards.greenhouse.io/mixpanel/jobs/8406662	dropped	DROP:below-3.0	2026-11-24	2026-11-24	6	
+linkedin.com/jobs/view/4494096920	Autodesk	AI Market and Competitive Intelligence Analyst	https://www.linkedin.com/jobs/view/4494096920	queued		2026-11-24	2026-11-24	6	
 linkedin.com/jobs/view/4493998009	PayPal	Senior Product Manager	https://www.linkedin.com/jobs/view/4493998009	dropped	DROP:visa-hard-wall	2026-11-24	2026-11-24	4	
 linkedin.com/jobs/view/4493986440	Brex	Senior Product Manager, Expenses	https://www.linkedin.com/jobs/view/4493986440	jd_extracted		2026-11-24	2026-11-24	3	
 linkedin.com/jobs/view/4493984390	PayPal	Sr Lead Product Manager	https://www.linkedin.com/jobs/view/4493984390	dropped	DROP:over-cap	2026-11-24	2026-11-24	4	
 linkedin.com/jobs/view/4494305125	Haystack	Digital Marketing Manager	https://www.linkedin.com/jobs/view/4494305125	dropped	DROP:over-cap	2026-11-24	2026-11-24	4	
 linkedin.com/jobs/view/4493936713	Brex	Senior Lifecycle Marketing Manager, Customer	https://www.linkedin.com/jobs/view/4493936713	jd_extracted		2026-11-24	2026-11-24	3	
-linkedin.com/jobs/view/4494101141	HCLTech	Senior Sales Operations Analyst	https://www.linkedin.com/jobs/view/4494101141	jd_extracted		2026-11-24	2026-11-24	4	
-linkedin.com/jobs/view/4493991371	Cisco	Sales Operations Manager- GVSE USC	https://www.linkedin.com/jobs/view/4493991371	jd_extracted		2026-11-24	2026-11-24	5	
-fivetran.com/careers/job?gh_jid=7818210003	Fivetran	Senior Product Manager, Orchestration	https://www.fivetran.com/careers/job?gh_jid=7818210003	jd_extracted		2026-11-24	2026-11-24	5	
-brex.com/careers/8959593002?gh_jid=8959593002	Brex	Senior Product Manager, Expenses	https://www.brex.com/careers/8959593002?gh_jid=8959593002	jd_extracted		2026-11-24	2026-11-24	5	
-linkedin.com/jobs/view/4493664881	Urban Vault	Founder's Office	https://www.linkedin.com/jobs/view/4493664881	jd_extracted		2026-11-24	2026-11-24	5	
+linkedin.com/jobs/view/4494101141	HCLTech	Senior Sales Operations Analyst	https://www.linkedin.com/jobs/view/4494101141	queued		2026-11-24	2026-11-24	5	
+linkedin.com/jobs/view/4493991371	Cisco	Sales Operations Manager- GVSE USC	https://www.linkedin.com/jobs/view/4493991371	queued		2026-11-24	2026-11-24	6	
+fivetran.com/careers/job?gh_jid=7818210003	Fivetran	Senior Product Manager, Orchestration	https://www.fivetran.com/careers/job?gh_jid=7818210003	dropped	DROP:below-3.0	2026-11-24	2026-11-24	6	
+brex.com/careers/8959593002?gh_jid=8959593002	Brex	Senior Product Manager, Expenses	https://www.brex.com/careers/8959593002?gh_jid=8959593002	queued		2026-11-24	2026-11-24	6	
+linkedin.com/jobs/view/4493664881	Urban Vault	Founder's Office	https://www.linkedin.com/jobs/view/4493664881	queued		2026-11-24	2026-11-24	6	
 zapply.jobs/l/d/oracle-oracle-349896	Oracle	Product Manager - Federal EHR Solutions	https://zapply.jobs/l/d/oracle-oracle-349896?s=gh-new-grad-jobs-2027	dropped	DROP:dead-posting	2026-11-24	2026-11-24	4	
 linkedin.com/jobs/view/4492655470	Robinhood	Senior Product Manager, Brokerage Platform	https://www.linkedin.com/jobs/view/4492655470	jd_extracted		2026-11-24	2026-11-24	3	
-linkedin.com/jobs/view/4493747850	Google	Senior Product Manager, Shopping on Gemini	https://www.linkedin.com/jobs/view/4493747850	jd_extracted		2026-11-24	2026-11-24	5	
-linkedin.com/jobs/view/4478372206	Verkada	Lead Product Manager, Users & Permissions	https://www.linkedin.com/jobs/view/4478372206	jd_extracted		2026-11-24	2026-11-24	5	
+linkedin.com/jobs/view/4493747850	Google	Senior Product Manager, Shopping on Gemini	https://www.linkedin.com/jobs/view/4493747850	dropped	DROP:below-3.0	2026-11-24	2026-11-24	6	
+linkedin.com/jobs/view/4478372206	Verkada	Lead Product Manager, Users & Permissions	https://www.linkedin.com/jobs/view/4478372206	dropped	DROP:below-3.0	2026-11-24	2026-11-24	6	
 linkedin.com/jobs/view/4469535861	Intuit	Senior Staff Product Manager, Authentication	https://www.linkedin.com/jobs/view/4469535861	dropped	DROP:over-cap	2026-11-24	2026-11-24	4	
-linkedin.com/jobs/view/4494012623	DigiCert	RAS Senior Product Manager	https://www.linkedin.com/jobs/view/4494012623	jd_extracted		2026-11-24	2026-11-24	5	
-linkedin.com/jobs/view/4494036616	Zipher	Product Marketing Manager (US)	https://www.linkedin.com/jobs/view/4494036616	jd_extracted		2026-11-24	2026-11-24	4	
+linkedin.com/jobs/view/4494012623	DigiCert	RAS Senior Product Manager	https://www.linkedin.com/jobs/view/4494012623	dropped	DROP:below-3.0	2026-11-24	2026-11-24	6	
+linkedin.com/jobs/view/4494036616	Zipher	Product Marketing Manager (US)	https://www.linkedin.com/jobs/view/4494036616	dropped	DROP:below-3.0	2026-11-24	2026-11-24	5	
 linkedin.com/jobs/view/4493684387	Abbott	Product Marketing Manager, INR	https://www.linkedin.com/jobs/view/4493684387	dropped	DROP:over-cap	2026-11-24	2026-11-24	4	
-linkedin.com/jobs/view/4424253534	Winbond Electronics Corporation America	Segment Marketing Manager	https://www.linkedin.com/jobs/view/4424253534	jd_extracted		2026-11-24	2026-11-24	5	
-linkedin.com/jobs/view/4492643881	Retell	Senior Product Marketing Manager	https://www.linkedin.com/jobs/view/4492643881	jd_extracted		2026-11-24	2026-11-24	5	
-linkedin.com/jobs/view/4493922313	Productboard	Senior Product Marketing Manager	https://www.linkedin.com/jobs/view/4493922313	jd_extracted		2026-11-24	2026-11-24	4	
-linkedin.com/jobs/view/4494080653	Ascendion	Growth Marketing Manager	https://www.linkedin.com/jobs/view/4494080653	jd_extracted		2026-11-24	2026-11-24	5	
-linkedin.com/jobs/view/4492392443	Alcatraz	Growth Marketing Manager	https://www.linkedin.com/jobs/view/4492392443	jd_extracted		2026-11-24	2026-11-24	4	
+linkedin.com/jobs/view/4424253534	Winbond Electronics Corporation America	Segment Marketing Manager	https://www.linkedin.com/jobs/view/4424253534	dropped	DROP:below-3.0	2026-11-24	2026-11-24	6	
+linkedin.com/jobs/view/4492643881	Retell	Senior Product Marketing Manager	https://www.linkedin.com/jobs/view/4492643881	queued		2026-11-24	2026-11-24	6	
+linkedin.com/jobs/view/4493922313	Productboard	Senior Product Marketing Manager	https://www.linkedin.com/jobs/view/4493922313	queued		2026-11-24	2026-11-24	5	
+linkedin.com/jobs/view/4494080653	Ascendion	Growth Marketing Manager	https://www.linkedin.com/jobs/view/4494080653	queued		2026-11-24	2026-11-24	6	
+linkedin.com/jobs/view/4492392443	Alcatraz	Growth Marketing Manager	https://www.linkedin.com/jobs/view/4492392443	queued		2026-11-24	2026-11-24	5	
 linkedin.com/jobs/view/4493934107	OneCrew	Marketing Manager	https://www.linkedin.com/jobs/view/4493934107	dropped	SKIP: JD states verbatim "Authorized to work in the US without employer sponsorship, now or in the future." - hard wall, no sponsorship now or in the future (nightly-rules.md section 2)	2026-11-24	2026-11-24	4	
 linkedin.com/jobs/view/4493687444	Growth & Company	Founding Product Marketing Manager	https://www.linkedin.com/jobs/view/4493687444	dropped	DROP:hidden-employer-no-build	2026-11-24	2026-11-24	5	
-linkedin.com/jobs/view/4494016870	Autodesk	Marketing Manager	https://www.linkedin.com/jobs/view/4494016870	jd_extracted		2026-11-24	2026-11-24	5	
+linkedin.com/jobs/view/4494016870	Autodesk	Marketing Manager	https://www.linkedin.com/jobs/view/4494016870	dropped	DROP:over-cap: JD body's actual role is "Senior Manager, Brand Management" and states a binding minimum of "7+ years in brand management, brand marketing, or campaign management at a high-growth product or SaaS technology company" -- exceeds the US-track <=6-year ceiling per nightly-rules.md section 2; title field (LinkedIn "Marketing Manager") undersells the real seniority of the req	2026-11-24	2026-11-24	6	
 linkedin.com/jobs/view/4429890799	Meta	Product Marketing Manager	https://www.linkedin.com/jobs/view/4429890799	dropped	DROP:over-cap	2026-11-24	2026-11-24	4	
-linkedin.com/jobs/view/4492645804	Retell	GTM operations, Pricing	https://www.linkedin.com/jobs/view/4492645804	jd_extracted		2026-11-24	2026-11-24	5	
-linkedin.com/jobs/view/4493928211	Verizon	Senior Pricing Manager - Dark Fiber & Infrastructure	https://www.linkedin.com/jobs/view/4493928211	jd_extracted		2026-11-24	2026-11-24	4	
-linkedin.com/jobs/view/4492629906	Applied Materials	Chief of Staff ( Role to be based in India)	https://www.linkedin.com/jobs/view/4492629906	jd_extracted		2026-11-24	2026-11-24	5	
-linkedin.com/jobs/view/4492608636	Hey Recruiting Agency	Chief Of Staff- Engagement Manager/ Strategy Consultant | Ex-MBB | US- Remote	https://www.linkedin.com/jobs/view/4492608636	jd_extracted		2026-11-24	2026-11-24	5	
-linkedin.com/jobs/view/4493651238	DaMENSCH	Chief of Staff — Brand and Growth	https://www.linkedin.com/jobs/view/4493651238	jd_extracted		2026-11-24	2026-11-24	5	
+linkedin.com/jobs/view/4492645804	Retell	GTM operations, Pricing	https://www.linkedin.com/jobs/view/4492645804	queued		2026-11-24	2026-11-24	6	
+linkedin.com/jobs/view/4493928211	Verizon	Senior Pricing Manager - Dark Fiber & Infrastructure	https://www.linkedin.com/jobs/view/4493928211	queued		2026-11-24	2026-11-24	5	
+linkedin.com/jobs/view/4492629906	Applied Materials	Chief of Staff ( Role to be based in India)	https://www.linkedin.com/jobs/view/4492629906	dropped	DROP:below-3.0	2026-11-24	2026-11-24	6	
+linkedin.com/jobs/view/4492608636	Hey Recruiting Agency	Chief Of Staff- Engagement Manager/ Strategy Consultant | Ex-MBB | US- Remote	https://www.linkedin.com/jobs/view/4492608636	dropped	DROP:hidden-employer-no-build: posting names only "Hey Recruiting Agency" as the LinkedIn poster; JD body never names the real employer, saying only "a fast-growing US-based business"; no end employer identifiable, so the work-authorization/comp gate cannot run; per hidden-employer rule, not scored or queued	2026-11-24	2026-11-24	6	
+linkedin.com/jobs/view/4493651238	DaMENSCH	Chief of Staff — Brand and Growth	https://www.linkedin.com/jobs/view/4493651238	queued		2026-11-24	2026-11-24	6	
 jobs.ashbyhq.com/sierra/a5acd2ec-af8b-49e3-b01f-1b6bd5e93337	Sierra	Revenue Operations Lead	https://jobs.ashbyhq.com/Sierra/a5acd2ec-af8b-49e3-b01f-1b6bd5e93337	dropped	DROP:over-cap	2026-11-24	2026-11-24	4	
-brex.com/careers/8959110002?gh_jid=8959110002	Brex	Senior Lifecycle Marketing Manager, Customer	https://www.brex.com/careers/8959110002?gh_jid=8959110002	jd_extracted		2026-11-24	2026-11-24	5	
-boards.greenhouse.io/robinhood/jobs/8346658?gh_jid=8346658	Robinhood	Senior Product Manager, Brokerage Platform	https://boards.greenhouse.io/robinhood/jobs/8346658?t=gh_src=&gh_jid=8346658	jd_extracted		2026-11-24	2026-11-24	5	
-linkedin.com/jobs/view/4492387573	Open Network For Digital Commerce (ONDC)	Program Manager - MD & CEO’s Office	https://www.linkedin.com/jobs/view/4492387573	jd_extracted		2026-11-24	2026-11-24	5	
+brex.com/careers/8959110002?gh_jid=8959110002	Brex	Senior Lifecycle Marketing Manager, Customer	https://www.brex.com/careers/8959110002?gh_jid=8959110002	queued		2026-11-24	2026-11-24	6	
+boards.greenhouse.io/robinhood/jobs/8346658?gh_jid=8346658	Robinhood	Senior Product Manager, Brokerage Platform	https://boards.greenhouse.io/robinhood/jobs/8346658?t=gh_src=&gh_jid=8346658	dropped	DROP:below-3.0	2026-11-24	2026-11-24	6	
+linkedin.com/jobs/view/4492387573	Open Network For Digital Commerce (ONDC)	Program Manager - MD & CEO’s Office	https://www.linkedin.com/jobs/view/4492387573	dropped	DROP:below-comp-floor: Glassdoor India Program Manager average INR 21.1L (25th-75th percentile INR 11L-28.485L) and Payscale India Program Manager 90th percentile ~INR 20L; no ONDC-specific salary data found; top of credible range (~INR 28.5L) sits below the 35 LPA floor; ONDC is a DPIIT-backed digital-public-infrastructure nonprofit initiative, consistent with below-market nonprofit/government compensation reliability	2026-11-24	2026-11-24	6	
 zapply.jobs/l/d/workday-philips-jobs-and-careers-594989	Philips	Intern – AI-Agentic Embedded Software Development - Bothell, WA - Summer 2027	https://zapply.jobs/l/d/workday-philips-jobs-and-careers-594989?s=gh-new-grad-jobs-2027	dropped	DROP:intern-coop-phd	2026-11-24	2026-11-24	1	
 zapply.jobs/l/d/workday-cadence-external-careers-r57251	Cadence	Software Engineering Intern - Circuit Simulation	https://zapply.jobs/l/d/workday-cadence-external-careers-R57251?s=gh-new-grad-jobs-2027	dropped	DROP:intern-coop-phd	2026-11-24	2026-11-24	1	
 zapply.jobs/l/d/workday-analogdevices-external-r269503	Analog Devices	Associate Engineer, Industrial Engineering	https://zapply.jobs/l/d/workday-analogdevices-external-R269503?s=gh-new-grad-jobs-2027	dropped	DROP:no-target-role-match	2026-11-24	2026-11-24	1	
@@ -591,9 +591,9 @@ linkedin.com/jobs/view/4493788300	Pragya Tek Solutions	Head of Business Developm
 linkedin.com/jobs/view/4492662321	Bradford Consultants LLP	Head – Corporate Strategy & Transformation (IT Services)	https://www.linkedin.com/jobs/view/4492662321	dropped	DROP:no-target-role-match	2026-11-24	2026-11-24	1	
 linkedin.com/jobs/view/4492633596	U2opia	General Manager	https://www.linkedin.com/jobs/view/4492633596	dropped	DROP:no-target-role-match	2026-11-24	2026-11-24	1	
 linkedin.com/jobs/view/4492385091	Nairobi Health Scientific Conference	Owner	https://www.linkedin.com/jobs/view/4492385091	dropped	DROP:no-target-role-match	2026-11-24	2026-11-24	1	
-linkedin.com/jobs/view/4492399195	VRT Management Group, LLC.	Junior Chief of Staff	https://www.linkedin.com/jobs/view/4492399195	jd_extracted		2026-11-23	2026-11-24	5	
-linkedin.com/jobs/view/4493768104	Superworq	Product Marketing Manager - Remote	https://www.linkedin.com/jobs/view/4493768104	queued		2026-11-23	2026-11-24	6	
-linkedin.com/jobs/view/4493750271	Career Shifts Consulting	Associate, Founder’s Office	https://www.linkedin.com/jobs/view/4493750271	queued		2026-11-23	2026-11-24	6	
+linkedin.com/jobs/view/4492399195	VRT Management Group, LLC.	Junior Chief of Staff	https://www.linkedin.com/jobs/view/4492399195	dropped	DROP:below-3.0	2026-11-23	2026-11-24	6	
+linkedin.com/jobs/view/4493768104	Superworq	Product Marketing Manager - Remote	https://www.linkedin.com/jobs/view/4493768104	queued		2026-11-23	2026-11-24	7	
+linkedin.com/jobs/view/4493750271	Career Shifts Consulting	Associate, Founder’s Office	https://www.linkedin.com/jobs/view/4493750271	queued		2026-11-23	2026-11-24	7	
 jobs.ashbyhq.com/baseten/daaaa311-600a-4cb5-a21b-35614a4ba282	Baseten	Revenue Strategy & Operations Manager (Solutions Architects)	https://jobs.ashbyhq.com/baseten/daaaa311-600a-4cb5-a21b-35614a4ba282	built	BUILT	2026-11-20	2026-11-23	25	
 api.smartrecruiters.com/v1/companies/freshworks/postings/744000162318104	Freshworks	GTM Engineer, Revenue Operations	https://api.smartrecruiters.com/v1/companies/freshworks/postings/744000162318104	dropped	DROP:DROP:duplicate-already-tracked - same title already tracked and BUILT at row #381 (score 3.6, equal), merge-tracker.mjs skipped; this req (P102948) has higher comp ($202K-$250K) - candidate may want to re-verify with recruiter if applying	2026-11-19	2026-11-23	30	
 fivetran.com/careers/job?gh_jid=8211025003	Fivetran	Senior Pricing Enablement Manager	https://www.fivetran.com/careers/job?gh_jid=8211025003	built	BUILT	2026-11-21	2026-11-23	19	
