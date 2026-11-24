@@ -1,0 +1,20 @@
+Subject: Business Operations Manager: decisions with incomplete data, not after the fact
+
+Hi {Hiring Manager, Business Operations},
+
+Your posting calls out making decisions with incomplete data as a requirement, not a risk to manage around, which is close to how I started PriceKeel: no existing playbook for B2B SaaS deal pricing decision support, so the model got built while running live pilots and raising the company's first round.
+
+At Sensata I owned pricing strategy pulled from raw SQL queries, not secondhand reports, then carried the result from frontline reps to leadership deciding P&L targets. At Applied Materials I build value-based pricing and forecasting models across Product, Engineering and GTM teams with no reporting line into any of them, the same cross-functional range this seat runs on. Market and competitive research at Plug Power and Sensata trained me to read organizational dynamics before proposing a fix.
+
+Resume and cover letter are attached.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/rippling
+
+Could we find 15 minutes to talk through where the operational gaps are showing up most right now? Happy to be pointed elsewhere if this sits with a different team.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

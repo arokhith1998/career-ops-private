@@ -1,0 +1,20 @@
+Subject: Business Operations Manager: pricing, packaging and SQL in one req
+
+Hi {Recruiter, Business Operations},
+
+Your posting asks candidates to dig into raw databases and build custom SQL queries, then turn that into pricing and packaging strategy, which is a rarer pairing than most BizOps reqs ask for.
+
+At Sensata I built a pricing dashboard from scratch, ranking 1,200 opportunities against a $627M target and surfacing $433M in gaps, then took the model to Finance and leadership to standardize how we tracked it. I now run PriceKeel, a decision layer for B2B SaaS deal pricing, so packaging and discount logic is daily work, not a project. At Applied Materials I build value-based pricing and forecasting models that tie directly to P&L targets across teams I do not manage.
+
+Resume and cover letter are attached.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/rippling
+
+Would you have 15 minutes this week? If this req sits with someone else on your team, a pointer their way would help.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
