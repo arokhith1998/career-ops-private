@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Campfire Business Operations Manager Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #1a56db; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 32pt; font-weight: 800; color: #0f172a; line-height: 1.08; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 21pt; font-weight: 800; color: #0f172a; line-height: 1.1; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #1a56db; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.5in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbe7fb 100%); }
+  .cover h1 { font-size: 24pt; max-width: 11.4in; }
+  .cover .sub { font-size: 14pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 18pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #1a56db; font-weight: 700; }
+  .cover .who { margin-top: 18pt; padding-top: 11pt; border-top: 1.5pt solid #1a56db; max-width: 9in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #1a56db; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #eef3fc; border-left: 3pt solid #1a56db; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #123a91; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #1a56db; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #eef3fc; border-left: 4pt solid #1a56db; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #123a91; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 24pt; font-weight: 800; color: #1a56db; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #1a56db; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #1a56db; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbe7fb 100%); }
+  .close h2 { font-size: 26pt; max-width: 10.5in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.5in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #1a56db; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Campfire Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Campfire Business Operations Manager</div>
+  <h1>An operations seat is only as good as the systems its owner has already built from zero. I have built the CRM, the deal approvals, and the forecast reviews this role asks for, end to end.</h1>
+  <div class="sub">Revenue systems built from scratch, vendor contracts renegotiated under pressure, and AI tooling as a daily habit, not a pilot.</div>
+  <div class="tags">
+    <div class="tag"><strong>CRM + CPQ</strong> built from zero as founder of PriceKeel, with deal approvals and forecast reviews</div>
+    <div class="tag"><strong>$700K+</strong> in margin recovered in 2 quarters by renegotiating distributor contracts at Sensata</div>
+    <div class="tag"><strong>53% to 61%</strong> distributor and channel-partner margins raised through direct vendor renegotiation</div>
+    <div class="tag"><strong>Claude AI agents</strong> automate recurring analysis today, at Applied Materials</div>
+    <div class="tag"><strong>$100K/month + $90K/month</strong> vendor and media budgets owned across Plug Power and Pixis</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhithyabhaskar.vercel.app/ref/campfire</div>
+  </div>
+  <div class="brand">CAMPFIRE BUSINESS OPERATIONS</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>The risk in a broad operations seat is not finding someone who can talk about CRM, vendors and metrics. It is finding <span class="accent">someone who has already built and owned all three.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What a fast-growing company's ops seat runs into</h4>
+      <div class="line">CRM and deal-approval workflows get adopted from whatever tool was closest at hand, so nobody owns the data model when Sales, Finance and RevOps each need a different cut of it.</div>
+      <div class="line">Vendor contracts renew on autopilot because nobody is assigned to actually renegotiate them, so margin erodes quietly until someone finally audits the spend.</div>
+      <div class="line">The fix is not another dashboard. It is one operator who owns the system, renegotiates the terms, and automates the reporting so it does not re-break every quarter.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run, hands on</h4>
+      <div class="line">At <b>PriceKeel</b>, I set up and run the company's own CRM and CPQ software, deal approvals, and forecast and pipeline reviews, from zero, with an audit trail Finance can act on.</div>
+      <div class="line">At <b>Sensata</b>, I renegotiated distributor and channel-partner contracts directly, recovering $700K+ in margin in two quarters and raising those margins from 53% to 61%.</div>
+      <div class="line">At <b>Applied Materials</b>, I automate the recurring part of that analysis with AI agents built on Claude, writing the code behind each refresh.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">Operating rhythm, core metrics, vendor negotiations, sales and GTM operations, and automation: this is describing the exact set of systems I already build and own.</div>
+  </div>
+  <div class="brand">CAMPFIRE BUSINESS OPERATIONS</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What the Business Operations Manager opening asks for, and where the proof sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Sales and GTM operations: CRM, territory/quota planning, rep compensation mechanics."</div></div>
+      <div class="quote"><div class="q">"Vendor negotiations, renewals, and contract lifecycle with legal."</div></div>
+      <div class="quote"><div class="q">"Automation: replacing spreadsheet-based processes with code, AI, and tools."</div></div>
+      <div class="quote"><div class="q">"Experience using AI tools such as Claude Code."</div></div>
+    </div>
+    <div class="col">
+      <h3>My Proof</h3>
+      <div class="proof"><div class="p"><b>PriceKeel CRM and CPQ build:</b> set up and run the company's own CRM, CPQ, deal approvals and forecast and pipeline reviews from zero.</div></div>
+      <div class="proof"><div class="p"><b>Sensata vendor renegotiation:</b> recovered $700K+ in margin in 2 quarters, raising distributor margins from 53% to 61%, plus multimillion-dollar customer quotes.</div></div>
+      <div class="proof"><div class="p"><b>Applied Materials automation:</b> recurring analysis automated with AI agents built on Claude, writing the code behind each refresh myself.</div></div>
+      <div class="proof"><div class="p"><b>AI tools as a daily habit:</b> this is not a pilot I am proposing to run. It is how I already work, every week.</div></div>
+    </div>
+  </div>
+  <div class="brand">CAMPFIRE BUSINESS OPERATIONS</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>One revenue system built from zero, one vendor-margin program, <span class="accent">one habit of automating the manual work away.</span></h2>
+  <div class="lede">PriceKeel's CRM and CPQ were not adopted off the shelf: I built the data model, the deal-approval workflow and the forecast and pipeline reviews, then added an audit trail that gives Finance evidence for every pricing decision. At Sensata, the same operating discipline applied to vendor contracts instead of CRM data, turning a line-item cost into a recovered-margin program.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">CRM+CPQ</div>
+      <div class="lbl">Built From Zero</div>
+      <div class="desc">PriceKeel's own CRM, CPQ, deal approvals and forecast and pipeline reviews, with a Finance-facing audit trail.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$700K+</div>
+      <div class="lbl">Margin Recovered in 2 Quarters</div>
+      <div class="desc">Recovered at Sensata by renegotiating distributor and channel-partner contracts directly.</div>
+    </div>
+    <div class="stat">
+      <div class="n">53% to 61%</div>
+      <div class="lbl">Distributor Margins Raised</div>
+      <div class="desc">The result of repricing parts sold through distribution, not a one-time concession.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">The common thread: own the system end to end, renegotiate the terms that matter, and automate the parts that would otherwise eat a week every cycle. That is the same loop I would bring to Campfire's operating rhythm.</div>
+  <div class="brand">CAMPFIRE BUSINESS OPERATIONS</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">How I would approach the first stretch</div>
+  <h2>The role spans finance, sales, legal and ops in one seat. Here is how I would sequence it.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">First Stretch</div>
+      <div class="ttl">Learn the systems, audit the spend</div>
+      <div class="body">Map the current CRM, metric definitions and vendor contract calendar, and flag the first renegotiation and automation targets, the same way I audited PriceKeel's own data model before building on top of it.</div>
+      <div class="why"><strong>Why this is realistic:</strong> it is the same opening move behind the Sensata margin-recovery program: audit first, then act on what the audit finds.</div>
+    </div>
+    <div class="card">
+      <div class="label">Next Stretch</div>
+      <div class="ttl">Ship the first automated view and the first renegotiated contract</div>
+      <div class="body">Replace at least one spreadsheet-based process with an AI-assisted, code-backed workflow, and close the first vendor renegotiation identified in the audit.</div>
+      <div class="why"><strong>Why now:</strong> the same automate-then-act sequence that let Claude agents take recurring analysis off my plate at Applied Materials.</div>
+    </div>
+    <div class="card">
+      <div class="label">Ongoing</div>
+      <div class="ttl">Own the operating rhythm end to end</div>
+      <div class="body">Run the planning, goal-setting and metrics cadence directly, with vendor contracts, CRM data and automation all routing through one owner instead of three.</div>
+      <div class="why"><strong>Why this sticks:</strong> the same ownership that made PriceKeel's CRM and CPQ the system of record Finance actually trusts.</div>
+    </div>
+  </div>
+  <div class="brand">CAMPFIRE BUSINESS OPERATIONS</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to own operations end to end. I have already built the CRM, renegotiated the vendor contracts, and automated the reporting that this role asks for.</h2>
+  <div class="body">
+    <p>The core proof is two systems, not one slide: <strong>PriceKeel's CRM and CPQ</strong>, built from zero with its own audit trail, and <strong>Sensata's vendor-margin program</strong>, which recovered $700K+ in two quarters and raised distributor margins from 53% to 61%.</p>
+    <p>What is harder to find is someone who already automates the recurring part of that work with the same AI coding tools your posting names. I run that today at Applied Materials, which means the habit this role asks for is not something I would need to build on the job.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhithyabhaskar.vercel.app/ref/campfire</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">CAMPFIRE BUSINESS OPERATIONS</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
