@@ -2,12 +2,12 @@ Subject: The 80/20 split in your Senior PMM req caught my eye
 
 Hi {Recruiter, Product Marketing},
 
-I do not normally reach out before applying, but a req that spells out 80% core PMM and 20% creative campaigns, instead of burying the creative scope in a bullet, told me exactly what the first six months look like.
+I do not normally reach out before applying, but a req that spells out an 80/20 split between core PMM and creative campaigns told me exactly what the first six months look like.
 
-At Sensata I owned GTM for a new sensing product end to end, positioning, pricing, channel and launch, closing year one at $2M+ in revenue, with messaging that moved conversion 15% on priority launches.
-I built sales enablement from zero for 50+ reps and watched win rates move 30%, the same "from scratch" ask in this req.
-I ran 30+ customer interviews with OEMs and distributors and turned the findings straight into the next round of positioning calls.
-I am automating competitive and market analysis with Claude AI agents at Applied Materials now, so turning a technical product into buyer language is a daily habit, not a stretch.
+At Sensata I owned GTM for a new sensing product end to end, positioning, pricing, channel and launch, closing year one at $2M+ in revenue.
+I built sales enablement from zero for 50+ reps, moving win rates 30%, the same "from scratch" ask in this req.
+I ran 30+ customer interviews with OEMs and distributors, feeding findings straight into the next round of positioning.
+I am automating competitive analysis with Claude AI agents at Applied Materials now.
 
 Here's the portfolio: https://adhi-product-ai.vercel.app/ref/retell
 
