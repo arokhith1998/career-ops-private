@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Sam's Club Connect Yield and Monetization Manager Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #1a56db; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 30pt; font-weight: 800; color: #0f172a; line-height: 1.1; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 21pt; font-weight: 800; color: #0f172a; line-height: 1.1; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #1a56db; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.5in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbe7fb 100%); }
+  .cover h1 { font-size: 22pt; max-width: 11.4in; }
+  .cover .sub { font-size: 13pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 16pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9pt; font-weight: 500; }
+  .tag strong { color: #1a56db; font-weight: 700; }
+  .cover .who { margin-top: 16pt; padding-top: 10pt; border-top: 1.5pt solid #1a56db; max-width: 9.5in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #1a56db; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #eef3fc; border-left: 3pt solid #1a56db; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.3pt; color: #123a91; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.2pt; color: #334155; line-height: 1.44; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #1a56db; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.4pt; color: #334155; line-height: 1.46; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #eef3fc; border-left: 4pt solid #1a56db; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.3pt; color: #123a91; line-height: 1.44; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 22pt; font-weight: 800; color: #1a56db; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.4pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.6pt; color: #64748b; line-height: 1.4; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #1a56db; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.3pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.8pt; color: #334155; line-height: 1.42; margin-bottom: 7pt; }
+  .card .why { font-size: 8.3pt; color: #64748b; line-height: 1.42; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #1a56db; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbe7fb 100%); }
+  .close h2 { font-size: 24pt; max-width: 10.5in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.3pt; color: #334155; line-height: 1.52; max-width: 10.5in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #1a56db; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.7pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Sam's Club Connect Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Sam's Club Connect Manager, Advanced Analytics Yield &amp; Monetization</div>
+  <h1>Your yield seat needs someone who has already turned inventory volume into a rate-card decision at $627M scale, and has stood on the other side of that same rate card buying media.</h1>
+  <div class="sub">A margin-recovery program built on evaluating inventory, not guessing at it, plus a retail-media buying seat that makes the advertiser's side of the table familiar.</div>
+  <div class="tags">
+    <div class="tag"><strong>$627M-target dashboard</strong> at Sensata, evaluating inventory volume across 1,200 pricing opportunities</div>
+    <div class="tag"><strong>$700K+</strong> in margin recovered in 2 quarters by reallocating toward the highest-sell-through segments</div>
+    <div class="tag"><strong>53% to 61%</strong> distributor margins raised by correcting underpriced inventory sold through channel</div>
+    <div class="tag"><strong>8-client retail media portfolio</strong> run at Pixis on Amazon Ads, Criteo and Walmart Ads</div>
+    <div class="tag"><strong>Claude AI agents</strong> automate pricing analysis today, at Applied Materials</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-pricing-ai.vercel.app/ref/sams-club</div>
+  </div>
+  <div class="brand">SAM'S CLUB CONNECT YIELD &amp; MONETIZATION</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>The risk in this seat is not finding someone who can discuss CPMs and sell-through. It is finding <span class="accent">someone who has already corrected underpriced inventory at scale and bought media against someone else's rate card.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What a yield and monetization seat usually runs into</h4>
+      <div class="line">Inventory gets valued off last quarter's assumptions, so sell-through and CPM targets drift from what the portfolio can actually deliver until a scorecard forces the question.</div>
+      <div class="line">Revenue-optimization recommendations stall without a shared KPI model that Sales, Finance and Product all trust the same numbers from.</div>
+      <div class="line">New ad products and formats get proposed in isolation, so the cross-functional case for them never gets built before the next quarter starts.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run, hands on</h4>
+      <div class="line">At <b>Sensata</b>, I built the inventory-evaluation and rate-card discipline behind the Bleeders and Leakers program: 1,200 opportunities tracked against a $627M target, reallocated toward the highest-sell-through segments.</div>
+      <div class="line">At <b>Pixis</b>, I ran the buy-side mirror of this seat: an 8-client retail media portfolio on Amazon Ads, Criteo and Walmart Ads, with the KPI models leadership used to judge performance.</div>
+      <div class="line">At <b>Applied Materials</b>, I forecast demand inflection points for a fast-growing market and automate the recurring analysis with Claude AI agents.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">Rate-card discipline, inventory evaluation, KPI modeling and cross-functional ad-product collaboration: this is the exact set of systems I already build and run.</div>
+  </div>
+  <div class="brand">SAM'S CLUB CONNECT YIELD &amp; MONETIZATION</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What this yield and monetization seat covers, and where the proof sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Manage day-to-day yield decisions, including the rate card, inventory volume evaluation, and performance analysis across the advertising portfolio."</div></div>
+      <div class="quote"><div class="q">"Maximize ad revenue by improving sell-through rate, CPMs, and inventory allocation."</div></div>
+      <div class="quote"><div class="q">"Build KPI models to show the impact of yield strategies."</div></div>
+      <div class="quote"><div class="q">"Cross-functional collaboration on new ad products and formats."</div></div>
+    </div>
+    <div class="col">
+      <h3>My Proof</h3>
+      <div class="proof"><div class="p"><b>Sensata rate-card and inventory evaluation:</b> the Bleeders and Leakers dashboard, 1,200 opportunities against a $627M target, with regional scorecards and win-rate KPI models.</div></div>
+      <div class="proof"><div class="p"><b>Sensata revenue optimization:</b> $700K+ recovered in 2 quarters and distributor margins raised 53% to 61%, both from reallocating toward higher-sell-through segments.</div></div>
+      <div class="proof"><div class="p"><b>Pixis KPI modeling:</b> built the KPI models that judged ad-revenue performance across 30+ campaigns and an 8-client, $15K-$90K/month retail media portfolio.</div></div>
+      <div class="proof"><div class="p"><b>Pixis cross-functional ad-product work:</b> partnered with Product on voice-of-customer feedback that shaped new ad formats.</div></div>
+    </div>
+  </div>
+  <div class="brand">SAM'S CLUB CONNECT YIELD &amp; MONETIZATION</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>One $627M inventory-evaluation program, one margin-recovery result, <span class="accent">one retail-media portfolio run from the buy side.</span></h2>
+  <div class="lede">The Bleeders and Leakers dashboard was not a reporting exercise: it turned 1,200 scattered pricing opportunities into one rate-card view with win rate, stage distribution and regional scorecards, so leadership could see exactly where inventory was underpriced and reallocate toward the segments with the best sell-through. The Pixis portfolio applies the same elasticity logic from the other side of the transaction, on real ad spend across Amazon Ads, Criteo and Walmart Ads.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$627M</div>
+      <div class="lbl">Inventory Evaluated, Sensata</div>
+      <div class="desc">1,200 pricing opportunities across 3 regions and 20 product lines, scored and reallocated by sell-through.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$700K+</div>
+      <div class="lbl">Margin Recovered in 2 Quarters</div>
+      <div class="desc">Recovered by reallocating the portfolio toward its highest-margin, highest-sell-through segments.</div>
+    </div>
+    <div class="stat">
+      <div class="n">53% to 61%</div>
+      <div class="lbl">Distributor Margins Raised</div>
+      <div class="desc">The result of correcting underpriced inventory sold through distribution, not a one-time concession.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">The common thread: evaluate the inventory honestly first, build the KPI model that makes the yield strategy visible, then reallocate toward what the portfolio can actually sell through. That is the same loop I would bring to Sam's Club Connect's advertising portfolio.</div>
+  <div class="brand">SAM'S CLUB CONNECT YIELD &amp; MONETIZATION</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">How I would approach the build</div>
+  <h2>One advertising portfolio, one rate card. Here is how I would sequence the first stretch.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">First Stretch</div>
+      <div class="ttl">Audit inventory volume against the current rate card</div>
+      <div class="body">Map where sell-through and CPMs are drifting from the rate card by vertical and advertiser, the same audit-first move that opened the Sensata margin-recovery program before a single reprice happened.</div>
+      <div class="why"><strong>Why this is realistic:</strong> it is the same opening move behind a $627M inventory-evaluation program, not a new muscle to build.</div>
+    </div>
+    <div class="card">
+      <div class="label">Next Stretch</div>
+      <div class="ttl">Ship a v1 KPI model for yield strategy</div>
+      <div class="body">Ship a v1 KPI model showing which inventory segments and ad formats are over- or under-monetized, then put it in front of Sales, Client Success and Finance for one shared number.</div>
+      <div class="why"><strong>Why now:</strong> the same ship-a-v1-and-iterate instinct behind the Bleeders and Leakers dashboard and PriceKeel's guardrail engine.</div>
+    </div>
+    <div class="card">
+      <div class="label">Ongoing</div>
+      <div class="ttl">Own revenue optimization across the portfolio</div>
+      <div class="body">Run inventory allocation, sell-through and CPM optimization as one system, reallocating toward the segments that earn it, the same way the Sensata dashboard gave leadership one place to look.</div>
+      <div class="why"><strong>Why this sticks:</strong> having bought retail media at Pixis means I already know what an advertiser expects to see on the other side of this rate card.</div>
+    </div>
+  </div>
+  <div class="brand">SAM'S CLUB CONNECT YIELD &amp; MONETIZATION</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You need a yield seat who has already evaluated inventory honestly at scale and bought retail media from the other side of a rate card.</h2>
+  <div class="body">
+    <p>The core proof is two systems, not one slide: <strong>Sensata's $627M inventory-evaluation and rate-card program</strong>, which recovered $700K+ in margin in two quarters and raised distributor margins from 53% to 61%, and <strong>Pixis's retail-media portfolio</strong>, an 8-client, $15K-$90K/month buy-side seat on Amazon Ads, Criteo and Walmart Ads with its own KPI models for judging performance.</p>
+    <p>What is harder to find is someone who already treats AI tooling as part of the pricing workflow, not a separate project. I run that today at Applied Materials, automating the recurring part of pricing analysis with agents built on Claude.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-pricing-ai.vercel.app/ref/sams-club</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">SAM'S CLUB CONNECT YIELD &amp; MONETIZATION</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
