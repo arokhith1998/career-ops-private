@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Retell GTM Operations, Pricing Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #1a56db; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 30pt; font-weight: 800; color: #0f172a; line-height: 1.1; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 21pt; font-weight: 800; color: #0f172a; line-height: 1.1; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #1a56db; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.5in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbe7fb 100%); }
+  .cover h1 { font-size: 23pt; max-width: 11.4in; }
+  .cover .sub { font-size: 13.5pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 17pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.1pt; font-weight: 500; }
+  .tag strong { color: #1a56db; font-weight: 700; }
+  .cover .who { margin-top: 17pt; padding-top: 10pt; border-top: 1.5pt solid #1a56db; max-width: 9.5in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #1a56db; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #eef3fc; border-left: 3pt solid #1a56db; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.3pt; color: #123a91; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.2pt; color: #334155; line-height: 1.44; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #1a56db; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.4pt; color: #334155; line-height: 1.46; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #eef3fc; border-left: 4pt solid #1a56db; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.3pt; color: #123a91; line-height: 1.44; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 22pt; font-weight: 800; color: #1a56db; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.4pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.6pt; color: #64748b; line-height: 1.4; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #1a56db; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.3pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.8pt; color: #334155; line-height: 1.42; margin-bottom: 7pt; }
+  .card .why { font-size: 8.3pt; color: #64748b; line-height: 1.42; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #1a56db; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbe7fb 100%); }
+  .close h2 { font-size: 25pt; max-width: 10.5in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.3pt; color: #334155; line-height: 1.52; max-width: 10.5in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #1a56db; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.7pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Retell Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Retell GTM Operations, Pricing</div>
+  <h1>Retell's first pricing hire needs someone who has already built a pricing data foundation from scratch and recovered real margin with it. I have done both, at a $627M-target scale.</h1>
+  <div class="sub">Discount governance built from zero, enterprise deals priced and closed, and a pricing data foundation that gave leadership one place to look.</div>
+  <div class="tags">
+    <div class="tag"><strong>$627M-target dashboard</strong> built at Sensata, tracking 1,200 pricing opportunities and surfacing $433M in margin gaps</div>
+    <div class="tag"><strong>$700K+</strong> in margin recovered in 2 quarters leading the Bleeders and Leakers program</div>
+    <div class="tag"><strong>53% to 61%</strong> distributor and channel-partner margins raised through direct repricing</div>
+    <div class="tag"><strong>Discount-guardrail engine</strong> founded at PriceKeel, built from zero with a Finance-auditable trail</div>
+    <div class="tag"><strong>Claude AI agents</strong> automate pricing analysis today, at Applied Materials</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-pricing-ai.vercel.app/ref/retell</div>
+  </div>
+  <div class="brand">RETELL GTM OPERATIONS, PRICING</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>The risk in a first pricing hire is not finding someone who can discuss usage-based pricing. It is finding <span class="accent">someone who has already built the governance a pricing model needs once real deals show up.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What a company's first pricing hire usually runs into</h4>
+      <div class="line">Discount exceptions and order forms get handled case by case, so by the time deal volume scales there is no audit trail for why a quote looked the way it did.</div>
+      <div class="line">Enterprise deals get negotiated one at a time with no shared framework, so every rep reinvents commits, volume tiers and discount thresholds from scratch.</div>
+      <div class="line">The fix is not a pricing committee. It is one owner who builds the data foundation, the guardrails and the deal desk before the gaps compound.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run, hands on</h4>
+      <div class="line">At <b>PriceKeel</b>, I founded a discount-guardrail engine and the audit trail that gives Finance evidence for every pricing decision, built from zero.</div>
+      <div class="line">At <b>Sensata</b>, I built the pricing data foundation behind the Bleeders and Leakers program: 1,200 opportunities tracked against a $627M target, surfacing $433M in margin gaps.</div>
+      <div class="line">At <b>Applied Materials</b>, I price a fast-growing market with value-based pricing and forecast its inflection points, automating the recurring analysis with Claude AI agents.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">Pricing data foundation, discount governance, deal desk, enterprise deal structuring and financial modeling: this is the exact set of systems I already build and own.</div>
+  </div>
+  <div class="brand">RETELL GTM OPERATIONS, PRICING</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What Retell's first pricing hire covers, and where the proof sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Build the pricing data foundation: price realization, discount leakage, usage versus revenue, margin by customer."</div></div>
+      <div class="quote"><div class="q">"Set up a model for deal desk: discount guidelines, approval thresholds, order form templates, and quoting."</div></div>
+      <div class="quote"><div class="q">"Build Retell's first enterprise pricing framework and structure large deals with Sales."</div></div>
+      <div class="quote"><div class="q">"Strong financial modeling. You can model unit economics and gross margin yourself."</div></div>
+    </div>
+    <div class="col">
+      <h3>My Proof</h3>
+      <div class="proof"><div class="p"><b>Sensata pricing data foundation:</b> the Bleeders and Leakers dashboard, 1,200 opportunities against a $627M target, surfacing $433M in margin gaps for leadership.</div></div>
+      <div class="proof"><div class="p"><b>PriceKeel discount-guardrail engine:</b> discount guidelines, approval thresholds and a Finance-auditable trail, built from zero.</div></div>
+      <div class="proof"><div class="p"><b>Sensata enterprise deals:</b> structured and priced large, multimillion-dollar enterprise deals through to close, shaping AP26 revenue models with senior executives.</div></div>
+      <div class="proof"><div class="p"><b>Sensata margin modeling:</b> a BU-wide price-increase model, plus distributor margins raised 53% to 61% through direct repricing.</div></div>
+    </div>
+  </div>
+  <div class="brand">RETELL GTM OPERATIONS, PRICING</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>One pricing data foundation built from zero, one margin-recovery program, <span class="accent">one discount-guardrail engine already shipped.</span></h2>
+  <div class="lede">The Bleeders and Leakers dashboard was not a reporting exercise: it turned 1,200 scattered pricing opportunities into one view with pipeline funnel, regional scorecards, win rate and stage distribution, so leadership could see exactly where $433M in margin was leaking and by whom. PriceKeel's discount-guardrail engine applies that same discipline on the deal side, learning its guardrail from each company's own closed-won and closed-lost data.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$627M</div>
+      <div class="lbl">Pricing Data Foundation, Sensata</div>
+      <div class="desc">1,200 opportunities across 3 regions, 4 product families and 20 product lines, surfacing $433M in margin gaps.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$700K+</div>
+      <div class="lbl">Margin Recovered in 2 Quarters</div>
+      <div class="desc">Recovered leading the Bleeders and Leakers program, negotiating from competitive gaps and willingness to pay.</div>
+    </div>
+    <div class="stat">
+      <div class="n">53% to 61%</div>
+      <div class="lbl">Distributor Margins Raised</div>
+      <div class="desc">The result of repricing parts sold through distribution, not a one-time concession.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">The common thread: build the data foundation first, put real guardrails under the discount exceptions, and close the large deals directly with Sales. That is the same loop I would bring to Retell's self-serve and enterprise motions alike.</div>
+  <div class="brand">RETELL GTM OPERATIONS, PRICING</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">How I would approach the build</div>
+  <h2>Two pricing motions, one data foundation. Here is how I would sequence it.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">First Stretch</div>
+      <div class="ttl">Audit the data, map the deal desk gap</div>
+      <div class="body">Map current discount exceptions, order-form variance and self-serve plan structure, the same way I audited PriceKeel's own deal data before building the guardrail engine on top of it.</div>
+      <div class="why"><strong>Why this is realistic:</strong> it is the same opening move behind the Sensata margin-recovery program: audit first, then act on what the audit finds.</div>
+    </div>
+    <div class="card">
+      <div class="label">Next Stretch</div>
+      <div class="ttl">Ship a v1 discount policy and enterprise framework draft</div>
+      <div class="body">Ship a v1 discount-approval threshold and an enterprise pricing framework draft (commits, volume tiers) fast, then put it in front of a live deal with Sales.</div>
+      <div class="why"><strong>Why now:</strong> the same ship-a-v1-and-iterate instinct that built PriceKeel's guardrail engine in weeks, not a quarter.</div>
+    </div>
+    <div class="card">
+      <div class="label">Ongoing</div>
+      <div class="ttl">Own the pricing data foundation end to end</div>
+      <div class="body">Run price realization, discount leakage and margin-by-customer reporting as one system, the same way the Bleeders and Leakers dashboard gave Sensata leadership one place to look.</div>
+      <div class="why"><strong>Why this sticks:</strong> the same ownership that makes a pricing data foundation something Finance and Sales both trust.</div>
+    </div>
+  </div>
+  <div class="brand">RETELL GTM OPERATIONS, PRICING</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring your first pricing owner. I have already built the data foundation, the discount guardrails and the enterprise deal experience this seat asks for.</h2>
+  <div class="body">
+    <p>The core proof is two systems, not one slide: <strong>PriceKeel's discount-guardrail engine</strong>, built from zero with its own Finance-auditable trail, and <strong>Sensata's pricing data foundation</strong>, which tracked $627M in opportunities and recovered $700K+ in margin in two quarters while raising distributor margins from 53% to 61%.</p>
+    <p>What is harder to find is someone who already treats AI tooling as part of the pricing workflow, not a separate project. I run that today at Applied Materials, automating the recurring part of pricing analysis with agents built on Claude.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-pricing-ai.vercel.app/ref/retell</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">RETELL GTM OPERATIONS, PRICING</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+Subject: On knowing what a minute of voice AI should cost
+
+Hi {Hiring Manager, GTM Operations and Pricing},
+
+I do not normally cold-email before applying, but grading candidates on pricing judgment when the data is incomplete, instead of a checklist of tools, is exactly how I like to be evaluated.
+
+Built a 6-slide pitch deck mapping that judgment to this brief.
+
+At Sensata I recovered $700K+ in margin in two quarters and raised distributor margins from 53% to 61%, then shaped multimillion-dollar enterprise quotes directly with senior executives through to close.
+At PriceKeel, which I founded, I built a discount-guardrail engine that learns explainable thresholds from a company's own closed-won and closed-lost deals, plus the audit trail Finance can act on.
+I also built Sensata's pricing data foundation: 1,200 opportunities tracked against a $627M target, surfacing $433M in margin gaps for leadership.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/retell
+
+Worth 15 minutes on how you're scoping the deal desk build, no worries if the timing is off.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

@@ -1,0 +1,22 @@
+Subject: Retell's first pricing hire, built from zero twice already
+
+Hi {Recruiter, GTM Operations and Pricing},
+
+I do not normally reach out before applying, but a role that owns pricing from zero across both self-serve and enterprise, reporting straight to a founder, is work I already run, not a new skill.
+
+Built you a 6-slide pitch deck so the proof fits on one read.
+
+At Sensata I built the pricing data foundation this req asks for: a dashboard tracking 1,200 opportunities against a $627M target, surfacing $433M in margin gaps for leadership by rep and product line.
+At PriceKeel, which I founded, I built the discount-guardrail engine and the audit trail a deal desk needs, from scratch.
+I also structured multimillion-dollar enterprise quotes directly with senior executives through to close.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/retell
+
+Worth 15 minutes if this is your req, no worries if it already has an owner.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
