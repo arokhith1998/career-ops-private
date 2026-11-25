@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>EBSCO Senior Product Marketing Manager Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #7c3aed; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 24pt; font-weight: 800; color: #0f172a; line-height: 1.16; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 20pt; font-weight: 800; color: #0f172a; line-height: 1.12; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #7c3aed; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.7in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #ede9fe 100%); }
+  .cover h1 { font-size: 20.5pt; max-width: 11.6in; }
+  .cover .sub { font-size: 13.5pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 15pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #7c3aed; font-weight: 700; }
+  .cover .who { margin-top: 15pt; padding-top: 11pt; border-top: 1.5pt solid #7c3aed; max-width: 9.6in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #7c3aed; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .pt { background: #f3effe; border-left: 3pt solid #7c3aed; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .pt .q { font-size: 9.5pt; color: #5b21b6; font-style: normal; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #7c3aed; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #f3effe; border-left: 4pt solid #7c3aed; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #5b21b6; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #7c3aed; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 20pt; font-weight: 800; color: #7c3aed; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #7c3aed; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #7c3aed; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #7c3aed; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #ede9fe 100%); }
+  .close h2 { font-size: 23pt; max-width: 10.8in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.6in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #7c3aed; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the EBSCO Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | EBSCO Sr Product Marketing Manager, Corporate Research Content</div>
+  <h1>EBSCO needs someone who segments corporate buyers into personas, builds positioning around them, and runs the inbound engine that turns that positioning into pipeline. I have already built that exact chain twice, with a number on each link.</h1>
+  <div class="sub">A persona-led GTM launch and an inbound lead-flow engine, both built from scratch, on the same resume.</div>
+  <div class="tags">
+    <div class="tag"><strong>50% lower cost per lead</strong> from an inbound lead-flow engine built from scratch at Plug Power</div>
+    <div class="tag"><strong>15% conversion lift</strong> from persona-specific positioning built for OEM and distributor buyers</div>
+    <div class="tag"><strong>$2M+ first-year revenue</strong> from an end-to-end GTM launch at Sensata</div>
+    <div class="tag"><strong>30+ buyer-journey interviews</strong> behind that same positioning</div>
+    <div class="tag"><strong>AI agents built on Claude</strong> automating my own recurring analysis at Applied Materials</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-product.vercel.app/ref/ebsco</div>
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>The mandate is not "describe the content library." It is segmenting three distinct corporate buyer types, then building <span class="accent">positioning and an inbound engine</span> that turns that work into pipeline.</h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What that actually requires</h4>
+      <div class="line">A segmentation model that treats Corporate Learning, Business and Finance Research, and STEM buyers as different personas with different value propositions, not one message stretched across three audiences.</div>
+      <div class="line">An inbound marketing motion, lead capture, nurture, scoring, handoff to Sales, that runs on its own instead of depending on manual follow-up per lead.</div>
+      <div class="line">Generative AI used as a working tool inside the GTM process, not a slide about AI, plus the data discipline to show which positioning and which channel actually moved pipeline.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run</h4>
+      <div class="line">At <b>Sensata</b>, I segmented OEM and distributor buyers into personas and built the positioning around each one, validated with 30+ buyer-journey interviews, for a 15% conversion lift.</div>
+      <div class="line">At <b>Plug Power</b>, I built the inbound lead-flow engine itself, automating the WordPress and Pardot handoff, and cut cost per lead 50%.</div>
+      <div class="line">At <b>Applied Materials</b> today, I run recurring competitive and market analysis through AI agents built on Claude instead of rebuilding the same report by hand.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">The through-line: segmentation and inbound are not two separate projects for me. Every launch I have owned started with the persona work and ended with the pipeline engine that fed off it.</div>
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The mandate, mapped</div>
+  <h2>What the posting asks for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="pt"><div class="q">Segment corporate research buyers (Corporate Learning, Business and Finance Research, STEM) into personas, then build positioning and messaging around each one.</div></div>
+      <div class="pt"><div class="q">Own go-to-market and inbound marketing end to end, working across Product, Sales and Marketing, and track the results with data.</div></div>
+      <div class="pt"><div class="q">Use generative AI tools as part of the regular workflow, with comfort across the B2B buyer journey.</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>Sensata, persona-specific positioning:</b> segmented OEM and distributor buyers, then built messaging for each, validated with 30+ buyer-journey interviews, lifting conversion 15%.</div></div>
+      <div class="proof"><div class="p"><b>Plug Power, the inbound engine:</b> automated the WordPress and Pardot lead flow from scratch, cutting cost per lead 50%.</div></div>
+      <div class="proof"><div class="p"><b>Applied Materials and SwipeHire, the AI-tools half:</b> run recurring competitive analysis through Claude agents today, and built an AI platform (Python, OpenAI API) end to end, modeling its own subscription pricing tiers.</div></div>
+      <div class="proof"><div class="p"><b>Sensata, cross-functional seat:</b> ran that GTM launch across Product, Sales and Marketing at once, arming 50+ reps with battlecards and case studies.</div></div>
+    </div>
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>Segment the buyer, build the inbound engine, then <span class="accent">put a number on both.</span></h2>
+  <div class="lede">Same pattern across a Sensata launch and a Plug Power rebuild: define the persona, ship the engine that reaches it, then measure whether the pipeline number moved.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">-50% Cost Per Lead</div>
+      <div class="lbl">Inbound Lead-Flow Engine, Built From Scratch</div>
+      <div class="desc">Automated the WordPress and Pardot handoff at Plug Power into a repeatable nurture-to-pipeline motion.</div>
+    </div>
+    <div class="stat">
+      <div class="n">15% Conversion Lift</div>
+      <div class="lbl">Persona-Specific Positioning, Validated</div>
+      <div class="desc">30+ buyer-journey interviews with OEM and distributor buyers shaped the messaging before launch at Sensata.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$2M+ Revenue</div>
+      <div class="lbl">First-Year Revenue From One GTM Launch</div>
+      <div class="desc">Positioning, channel and launch content owned end to end for a new Sensata product line.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">Neither half sat still after launch. The positioning kept getting re-tested against buyer feedback, and the inbound engine kept running without me rebuilding it each quarter.</div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month segmenting EBSCO's corporate buyers and standing up the inbound engine looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Map the three corporate personas</div>
+      <div class="body">Interview recent closed-won and closed-lost deals across Corporate Learning, Business and Finance Research, and STEM to separate what each persona actually values, the same buyer-journey discipline behind the 30+-interview program at Sensata.</div>
+      <div class="why"><strong>Why first:</strong> positioning before the inbound engine, not after.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Stand up the inbound-to-nurture motion</div>
+      <div class="body">Build lead scoring and the MQL/SQL handoff directly with Sales, versioned once as a repeatable engine instead of a campaign that gets rebuilt every quarter, the same rebuild that cut cost per lead 50% at Plug Power.</div>
+      <div class="why"><strong>Why now:</strong> inbound volume compounds the sooner the handoff is automated, not manual.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Automate the GTM reporting loop</div>
+      <div class="body">Stand up the first AI agent, built on Claude, against the new inbound and launch data so the GTM results EBSCO tracks ship every cycle instead of once a quarter, the same habit already running at Applied Materials.</div>
+      <div class="why"><strong>Why this fast:</strong> a working habit today, not a plan for someday.</div>
+    </div>
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to segment three corporate buyer types and build the inbound engine that turns that work into pipeline. I have already built both, with a number on each one.</h2>
+  <div class="body">
+    <p>The segmentation half: <strong>15% conversion lift</strong> from persona-specific positioning validated with 30+ buyer-journey interviews, built with no existing playbook.</p>
+    <p>The inbound half: <strong>50% lower cost per lead</strong> from an engine I automated from scratch, feeding a GTM launch that drove <strong>$2M+ in first-year revenue</strong>. At Applied Materials I now run my own recurring competitive analysis through agents built on Claude, because rebuilding the same report every cycle is time that should go into the next launch.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-product.vercel.app/ref/ebsco</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
