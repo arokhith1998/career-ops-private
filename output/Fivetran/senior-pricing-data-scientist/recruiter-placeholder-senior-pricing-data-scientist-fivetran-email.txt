@@ -1,0 +1,20 @@
+Subject: Senior Pricing Data Scientist - usage-based pricing background
+
+Hi {Recruiter, Fivetran Pricing},
+
+I do not normally reach out before applying, but the line about the combined Fivetran and dbt Labs platform still having open usage-based packaging questions, not inherited from an old deck, is exactly the kind of blank page I look for.
+
+At Sensata I built a Power BI price-increase model across 1,200+ line items, flagging where a change would lift profitability over 50%, feeding a program that recovered $700K in margin in two quarters and moved distributor margins from 53% to 61%.
+On the data side I run SQL and GA4 KPI frameworks and Python models, including pricing tiers built from competitor benchmarks for a product I shipped myself.
+I am also building PriceKeel, a guardrail engine that turns a company's own deal data into an explainable pricing recommendation.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/fivetran
+
+Worth 15 minutes if this is your req, no worries if it already has an owner.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
