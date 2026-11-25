@@ -1,0 +1,18 @@
+Subject: CRM integrity for assets that live in a vault, not a spreadsheet
+
+Hi {Director of Operations, Alt},
+
+I do not normally reach out before applying, but the Revenue Operations Associate req describes a sales team selling, financing, and vaulting physical assets, where the CRM record is the only proof of a deal behind a door. That is a data-integrity problem I already work on, not one I would need a ramp quarter for.
+
+Three things map directly: Salesforce administration and CRM data integrity from Plug Power, where I also rebuilt the Pardot lead flow and cut cost per lead 50%; lead scoring and the MQL to SQL handoff from that same build; and retention and churn reporting from Pixis, where account-level playbooks cut churn 50% across an 8-client portfolio. At PriceKeel I run CPQ, deal approvals, and pipeline reviews solo, so documentation that outlives one person is already a habit.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/alt
+
+Would 15 minutes work to talk through how that maps to what the sales team needs most right now? No worries if this already sits with someone else on your team.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
