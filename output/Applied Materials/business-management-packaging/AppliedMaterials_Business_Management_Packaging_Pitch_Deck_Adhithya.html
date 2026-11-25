@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Applied Materials Business Management Packaging Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #1a56db; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 27pt; font-weight: 800; color: #0f172a; line-height: 1.14; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 20pt; font-weight: 800; color: #0f172a; line-height: 1.12; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #1a56db; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.7in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbeafe 100%); }
+  .cover h1 { font-size: 23pt; max-width: 11.3in; }
+  .cover .sub { font-size: 14pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 16pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #1a56db; font-weight: 700; }
+  .cover .who { margin-top: 16pt; padding-top: 11pt; border-top: 1.5pt solid #1a56db; max-width: 9.6in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #1a56db; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #eff6ff; border-left: 3pt solid #1a56db; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #1e40af; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #1a56db; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #eff6ff; border-left: 4pt solid #1a56db; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #1e40af; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 21pt; font-weight: 800; color: #1a56db; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #1a56db; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #1a56db; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbeafe 100%); }
+  .close h2 { font-size: 24pt; max-width: 10.6in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.6in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #1a56db; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Applied Materials Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Applied Materials Business Management - Packaging</div>
+  <h1>This req asks for one person to run value-pricing analysis, close customer quotes, and hold account financial targets, all at once. I already run that loop, just on a different set of product groups.</h1>
+  <div class="sub">A margin-recovery program, a multimillion-dollar quote book, and a bookings-and-billings dashboard, on the same calendar as everything else.</div>
+  <div class="tags">
+    <div class="tag"><strong>$700K+ margin recovered</strong> in 2 quarters leading Sensata's Bleeders and Leakers exception-review program</div>
+    <div class="tag"><strong>$627M bookings target</strong> tracked across 1,200 pricing opportunities, 3 regions and 20 product lines</div>
+    <div class="tag"><strong>Multimillion-dollar customer quotes</strong> closed with senior executives on AP26 revenue models</div>
+    <div class="tag"><strong>53% to 61% margin</strong> on distributor and channel-partner pricing in under 2 quarters</div>
+    <div class="tag"><strong>Guardrail engine built at PriceKeel</strong> giving Finance an audit trail on every pricing exception</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-pricing-ai.vercel.app/ref/applied-materials</div>
+  </div>
+  <div class="brand">BUSINESS MANAGEMENT PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>The req reads as one title. It is really <span class="accent">three jobs running on the same clock: price it, quote it, own the number.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What the role actually requires</h4>
+      <div class="line">Analyze data, run value-pricing analysis, and recommend pricing that helps Sales close orders, product line by product line.</div>
+      <div class="line">Own purchase and configuration responses and close hardware and process specifications, the RFQ side of the job.</div>
+      <div class="line">Meet account and division financial targets, gross margin, opex, bookings and billings, while managing program timelines against evaluation-tool milestones.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run</h4>
+      <div class="line">At <b>Sensata</b>, I led the Bleeders and Leakers program, recovering $700K+ in margin in 2 quarters through deal-by-deal pricing exception review, then raising distributor margins from 53% to 61%.</div>
+      <div class="line">I advised senior executives on <b>multimillion-dollar customer quotes</b> and AP26 revenue models, closing pricing and configuration responses for a multi-$100M business unit.</div>
+      <div class="line">I built the <b>FY2026 Power BI dashboard</b> tracking 1,200 pricing opportunities and bookings against a $627M target across 3 regions and 20 product lines.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">The through-line: every quote I have closed and every margin target I have hit started with a pricing exception I analyzed myself, not a number handed to me by someone else.</div>
+  </div>
+  <div class="brand">BUSINESS MANAGEMENT PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The mandate, mapped</div>
+  <h2>What the posting asks for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Analyzes data, performs value pricing analysis, recommends pricing and helps Sales close customer orders."</div></div>
+      <div class="quote"><div class="q">"Owns purchase and configuration responses and closes hardware and process specifications."</div></div>
+      <div class="quote"><div class="q">"Meets account and division financial targets including gross margin, opex, bookings and billings."</div></div>
+      <div class="quote"><div class="q">"Manages program timelines, including evaluation tool milestones."</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>Sensata, value-pricing analysis:</b> led the Bleeders and Leakers program to $700K+ margin recovered in 2 quarters, then raised distributor margins from 53% to 61% through the same pricing-exception review.</div></div>
+      <div class="proof"><div class="p"><b>Sensata, quotes and configuration:</b> advised senior executives on multimillion-dollar customer quotes and AP26 revenue models, closing pricing and configuration responses for a multi-$100M business unit.</div></div>
+      <div class="proof"><div class="p"><b>Sensata, account and division targets:</b> carried P&L and revenue targets, drove +12% YoY revenue and +8% market share, and tracked bookings against a $627M target across 3 regions.</div></div>
+      <div class="proof"><div class="p"><b>Current role and PriceKeel, program discipline:</b> run forecasting and market-sizing models across multiple product groups at Applied Materials today, and built the guardrail engine and audit trail PriceKeel runs on.</div></div>
+    </div>
+  </div>
+  <div class="brand">BUSINESS MANAGEMENT PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>Price the exception first, then let the quote and the <span class="accent">financial target follow it, not the other way around.</span></h2>
+  <div class="lede">Same pattern across every stop: find the margin gap, make the pricing call on it, then carry that call through the quote and the bookings number it drives.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$700K+</div>
+      <div class="lbl">Margin Recovered in 2 Quarters</div>
+      <div class="desc">Led the Bleeders and Leakers pricing-exception program at Sensata, then raised distributor and channel-partner margins from 53% to 61% on top of it.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$627M Target</div>
+      <div class="lbl">Bookings Tracked, 3 Regions, 20 Product Lines</div>
+      <div class="desc">Built the FY2026 Power BI dashboard against 1,200 pricing opportunities, surfacing $433M in margin gaps for leadership to prioritize.</div>
+    </div>
+    <div class="stat">
+      <div class="n">+12% / +8%</div>
+      <div class="lbl">YoY Revenue and Market Share</div>
+      <div class="desc">Price realignment built on competitive benchmarking across 10+ key players, the same intelligence this req runs customer-order close on.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">None of these were a number handed down from Finance. Each one started with me running the pricing analysis, then making the call Sales closed on.</div>
+  <div class="brand">BUSINESS MANAGEMENT PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month owning this mandate looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Map the current quote and margin picture</div>
+      <div class="body">Pull the existing customer roadmaps, configuration responses and pricing exceptions for the assigned accounts, and find where the gross-margin and bookings data is thin or stale.</div>
+      <div class="why"><strong>Why first:</strong> the same first move behind the Sensata Bleeders and Leakers refresh, know the exception before recommending a price.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Close one RFQ-style quote end to end</div>
+      <div class="body">Pick the highest-stakes purchase response, run the value-pricing analysis against competitive intelligence, and recommend the price that helps Sales close it.</div>
+      <div class="why"><strong>Why now:</strong> the same build that closed multimillion-dollar customer quotes and AP26 revenue models at Sensata.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Stand up the bookings-and-billings reporting loop</div>
+      <div class="body">Automate the repetitive side of account and division financial tracking with the first AI agent, built on Claude, so program timelines and evaluation-tool milestones refresh every cycle.</div>
+      <div class="why"><strong>Why this fast:</strong> the same habit that keeps my own pricing and market reporting moving today.</div>
+    </div>
+  </div>
+  <div class="brand">BUSINESS MANAGEMENT PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>This req is three jobs stitched into one title: value-pricing analysis, RFQ-style quote ownership, and account financial targets. I have already put a number on each one.</h2>
+  <div class="body">
+    <p>The pricing half: <strong>$700K+ in margin recovered</strong> in two quarters leading the Bleeders and Leakers program, plus distributor margins raised from 53% to 61%.</p>
+    <p>The quote half: <strong>multimillion-dollar customer quotes</strong> closed with senior executives on AP26 revenue models. The account-target half: a <strong>$627M bookings target</strong> tracked across 1,200 pricing opportunities and 3 regions, plus a guardrail engine at PriceKeel that gives Finance an audit trail on every pricing exception.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-pricing-ai.vercel.app/ref/applied-materials</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">BUSINESS MANAGEMENT PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
