@@ -1,0 +1,20 @@
+Subject: Most people have met Plaid for ten seconds, this role changes that
+
+Hi {Recruiter, Lifecycle Marketing},
+
+I do not normally reach out before applying, but building the first owned-channel relationship most people will ever have with Plaid, past the one bank-connection screen they already trust you with, is a different problem than most lifecycle reqs, and it's one I want in on.
+
+At Pixis I owned retention across an 8-client, $15K-$90K/month portfolio and cut churn 50% by rebuilding account strategy around where users actually dropped off.
+I used Amplitude and Tableau on behavioral data across 30+ live campaigns to lift ROAS 40%.
+At Sensata I built SQL and GA4 KPI frameworks on 50K+ connected devices to find the adoption signal worth triggering on, lifting feature adoption 18%.
+
+Here's the portfolio: https://adhi-growth-ai.vercel.app/ref/plaid
+
+Worth 15 minutes if this is your req, no worries if it already has an owner.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
