@@ -1,0 +1,22 @@
+Subject: Value-pricing and RFQs: the loop this req runs
+
+Hi {Recruiter, Business Management},
+
+I was not actively looking while PriceKeel's pilots run, but this req's own ask, analyze data, run value-pricing analysis, and recommend pricing to help sales close orders on packaging deals, is what made me reach out.
+
+Built a 6-slide pitch deck so the proof fits in one read.
+
+I led Sensata's Bleeders and Leakers program: $700K+ margin recovered in 2 quarters, distributor margins up from 53% to 61%, and a Power BI dashboard against a $627M bookings target.
+I'm building PriceKeel's guardrail engine, recommending explainable discount guardrails from closed-won and closed-lost deals, the same pricing-recommendation habit this req runs.
+I automate repetitive pricing analysis with Claude AI agents, the volume this role's RFQs and configuration responses create.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/applied-materials
+
+Worth 15 minutes to see if this is your req, happy to be redirected if not.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

@@ -1,0 +1,22 @@
+Subject: The sales-to-division bridge, not just the pricing math
+
+Hi {Hiring Manager, Business Management},
+
+I was not actively looking while PriceKeel's pilots are running, but this req's description of the job, the main link between sales and the business unit, carrying value-pricing analysis and RFQ hardware and process specs through to account financial targets, is what made me reach out.
+
+Built a 6-slide pitch deck so the proof fits in one read.
+
+I led the Bleeders and Leakers program at Sensata, recovering $700K+ in margin in 2 quarters, raising distributor and channel-partner margins from 53% to 61%, and building a Power BI dashboard tracking 1,200 opportunities against a $627M bookings target across 3 regions and 20 product lines.
+I am building PriceKeel's guardrail engine, which recommends explainable discount guardrails from a company's own closed-won and closed-lost deals, the same pricing-recommendation habit this req runs.
+I automate repetitive pricing and quote analysis with Claude AI agents, the kind of RFQ and configuration-response volume this seat carries.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/applied-materials
+
+Worth 15 minutes to see if the fit holds, happy to be redirected if this is not your req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
