@@ -1,0 +1,19 @@
+Subject: AI Product Manager, Atlas, Gainsight: the ROI case renewals need
+
+Hi {Recruiter, Atlas Product Team},
+
+I don't normally reach out before applying, but "construct ROI models and value narratives tailored to each account" paired with owning the renewal review is close to a loop I've already run from the pricing side, so I'm flagging myself directly.
+
+Built the FY2026 Power BI margin model that surfaced $433M in margin gaps and recovered $700K+ in two quarters at Sensata.
+Automate forecasting and pricing analysis with Claude AI agents at Applied Materials.
+Built an AI job-matching product zero to one solo (Python, OpenAI API), from PRD to 50+ onboarded users, at SwipeHire.
+Cut client churn 50% running an 8-client book at Pixis, the account-side mirror of a renewal.
+
+If this req is still open, I would like 15 minutes to hear how Atlas deployments get scoped into an ROI case today. A pointer to the right person would help just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

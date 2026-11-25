@@ -1,0 +1,16 @@
+Subject: AI Product Manager, Atlas, Gainsight: the go or no-go call I'd want to own
+
+Hi {Hiring Manager, Atlas Product Team},
+
+I don't normally cold-email a hiring manager, but "run go or no-go reviews on new opportunities, weighing business cases against effort and upside" describes a call I've made from the numbers side more than once.
+
+At Sensata I built the FY2026 Bleeders and Leakers Power BI dashboard across 3 regions and 20 product lines, surfaced $433M in margin gaps, and recovered $700K+ in two quarters by prioritizing the opportunities worth the fight. At Applied Materials I automate forecasting and pricing analysis with Claude AI agents so the model stays current between reviews. At Pixis I owned an 8-client, 8-person book and cut churn 50% by catching account risk before the renewal conversation, not during it. Solo, I also built SwipeHire, an AI job-matching product (Python, OpenAI API), end to end from PRD to 50+ onboarded users.
+
+If the team is still scoping this seat, I would like 15 minutes to hear what makes an Atlas deployment a go versus a pass right now. A pointer elsewhere would help just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
