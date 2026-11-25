@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Innovaccer Manager, CEO's Office Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #1a56db; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 25pt; font-weight: 800; color: #0f172a; line-height: 1.17; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 19pt; font-weight: 800; color: #0f172a; line-height: 1.16; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #1a56db; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.8in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbeafe 100%); }
+  .cover h1 { font-size: 22pt; max-width: 11.3in; }
+  .cover .sub { font-size: 13pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; max-width: 10.8in; }
+  .cover .tags { margin-top: 16pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.6in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9pt; font-weight: 500; }
+  .tag strong { color: #1a56db; font-weight: 700; }
+  .cover .who { margin-top: 16pt; padding-top: 10pt; border-top: 1.5pt solid #1a56db; max-width: 9.4in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #1a56db; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #eff6ff; border-left: 3pt solid #1a56db; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #1e3a8a; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #1a56db; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.4pt; color: #334155; line-height: 1.46; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 13pt; background: #eff6ff; border-left: 4pt solid #1a56db; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #1e3a8a; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 20pt; font-weight: 800; color: #1a56db; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.3pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.6pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #1a56db; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.3pt; font-weight: 800; color: #0f172a; line-height: 1.18; margin-bottom: 7pt; }
+  .card .body { font-size: 8.8pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.3pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #1a56db; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbeafe 100%); }
+  .close h2 { font-size: 22pt; max-width: 10.9in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.8in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #1a56db; font-weight: 700; }
+  .close .contact { margin-top: 15pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Innovaccer Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Innovaccer Manager, CEO's Office</div>
+  <h1>A CEO's office needs an operating cadence that already exists on day one, not one that gets built during the first quarter.</h1>
+  <div class="sub">A record of running the exact cadence this seat asks for: OKRs tracked, leadership decks built, cross-functional input turned into one brief, before anyone called it a CEO's office job.</div>
+  <div class="tags">
+    <div class="tag"><strong>$700K+ / 2 quarters</strong> margin recovered by building the leadership decks and OKR cadence behind it</div>
+    <div class="tag"><strong>CRM + CPQ</strong> built and run solo as the operating backbone of a company of one</div>
+    <div class="tag"><strong>5-consultant team</strong> led end to end on a market assessment, presented to leadership</div>
+    <div class="tag"><strong>Weekly + quarterly</strong> OKR reviews run at every stop since 2022</div>
+    <div class="tag"><strong>Sales, Engineering, Accounts</strong> turned into one market view every week today</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhithyabhaskar.vercel.app/ref/innovaccer</div>
+  </div>
+  <div class="brand">INNOVACCER CEO'S OFFICE PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>A CEO's office is judged on a cadence, not a to-do list: the same briefing, the same decks, <span class="accent">the same OKR rhythm, every single week.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What that actually requires</h4>
+      <div class="line">Acting as an extension of the CEO: briefings prepared in advance, blockers flagged before they reach the leadership table, not after.</div>
+      <div class="line">Running the operating cadence itself, leadership reviews, all-hands, board prep and stakeholder meetings, so the rhythm holds even on a busy week.</div>
+      <div class="line">Liaising between the CEO and functional leaders on special projects, market assessments and executive communications, then writing them up.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run, at that exact layer</h4>
+      <div class="line">Built and still run <b>PriceKeel's CRM, CPQ and deal-approval process</b> from zero, the operating backbone a company of one depends on daily.</div>
+      <div class="line">Ran the <b>leadership decks and OKR cadence</b> behind weekly and quarterly reviews at Sensata and Applied Materials, the same rhythm a CEO's office owns.</div>
+      <div class="line">Led a <b>5-consultant market assessment</b> for Safran and now turn Sales, Engineering and Accounts input into one brief for Applied Materials leadership.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">The through-line: the briefing, the cadence and the cross-functional brief are not new disciplines for this seat to teach me, they are the ones I already run every week.</div>
+  </div>
+  <div class="brand">INNOVACCER CEO'S OFFICE PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What the Innovaccer Manager, CEO's Office opening asks for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Act as an extension of the CEO, keeping them decision-ready; run the CEO's operating cadence (leadership reviews, all-hands, board prep, stakeholder meetings)."</div></div>
+      <div class="quote"><div class="q">"Track OKRs and cross-functional priorities, flag blockers; lead special projects (market assessments, M&amp;A diligence support, org redesign)."</div></div>
+      <div class="quote"><div class="q">"Draft executive communications (board materials, investor updates, memos); liaise between the CEO and functional leaders."</div></div>
+      <div class="quote"><div class="q">"Research competitors and industry trends; work across Excel/Sheets, Salesforce, HubSpot, Power BI/Tableau, funnel and pipeline metrics."</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>Decision-ready, operating cadence:</b> built and run PriceKeel's CRM, CPQ and deal-approval process solo, and run the weekly/quarterly OKR cadence behind leadership decks at Sensata and Applied Materials.</div></div>
+      <div class="proof"><div class="p"><b>Special projects, market assessments:</b> led a 5-consultant team sizing a market from 170 facilities to a SAM of 28, presenting the recommendation directly to Safran's leadership.</div></div>
+      <div class="proof"><div class="p"><b>Executive communications, liaison work:</b> turn input from Sales, Engineering and Accounts into one market view and leadership brief every week at Applied Materials.</div></div>
+      <div class="proof"><div class="p"><b>Tools and metrics:</b> Salesforce, HubSpot, Power BI, Tableau and Excel running day to day, plus sales enablement work tied to win-rate and pipeline metrics at Sensata.</div></div>
+    </div>
+  </div>
+  <div class="brand">INNOVACCER CEO'S OFFICE PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>Bleeders and Leakers: a vague margin mandate turned into a <span class="accent">negotiated number, run on the same cadence this seat needs.</span></h2>
+  <div class="lede">Built as the owner of a program with no existing dashboard, no existing owner and no existing cadence, the same starting point most of a CEO's "figure this out" priorities look like.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$700K+ / 2Q</div>
+      <div class="lbl">Margin Recovered</div>
+      <div class="desc">Negotiated with senior executives on AP26 models, run on the leadership decks and OKR cadence built for it.</div>
+    </div>
+    <div class="stat">
+      <div class="n">5-Consultant Team</div>
+      <div class="lbl">Market Assessment, Led End to End</div>
+      <div class="desc">170 facilities sized to a SAM of 28, recommendation presented directly to Safran's leadership team.</div>
+    </div>
+    <div class="stat">
+      <div class="n">CRM + CPQ</div>
+      <div class="lbl">Built and Run Solo</div>
+      <div class="desc">PriceKeel's full operating backbone, deal approvals included, with no one else to hand it to.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">The same instinct carries into a CEO's office: build the cadence and the brief first, so the business keeps producing the number without someone rebuilding the process every quarter.</div>
+  <div class="brand">INNOVACCER CEO'S OFFICE PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month inside Innovaccer's CEO's office would look like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Sit inside the real cadence</div>
+      <div class="body">Shadow the leadership reviews, all-hands and stakeholder meetings already running, and map where OKRs and cross-functional priorities are tracked today, the same audit that grounded the Bleeders and Leakers program before a dashboard existed.</div>
+      <div class="why"><strong>Why first:</strong> a CEO's office built on assumptions instead of the real cadence is the fastest way to add noise instead of removing it.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Ship the first brief</div>
+      <div class="body">Take one live cross-functional priority, whether a market assessment, a board memo or a blocker between functional leaders, and deliver a decision-ready brief, the same move that turned 1,200 scattered opportunities into one shortlist at Sensata.</div>
+      <div class="why"><strong>Why now:</strong> one brief that moves a real decision earns more trust than a week-one list of ideas.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Turn the first win into the cadence</div>
+      <div class="body">Use what the first brief proved to set the recurring rhythm, be it an OKR tracker, an executive-communications calendar or a stakeholder-meeting cadence, that keeps running without being rebuilt from scratch every cycle.</div>
+      <div class="why"><strong>Why this fast:</strong> a cadence only earns the CEO's trust once it has already kept one real decision on time.</div>
+    </div>
+  </div>
+  <div class="brand">INNOVACCER CEO'S OFFICE PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>Innovaccer's CEO's office needs someone who already runs the cadence, not someone who will learn it on the job. I already run it.</h2>
+  <div class="body">
+    <p>The core proof is Sensata and PriceKeel together: a <strong>$700K+ margin program</strong> built on a leadership-deck and OKR cadence I ran myself, and a company of my own where I built and still run the CRM, CPQ and deal-approval process with no one else to hand it to.</p>
+    <p>What is harder to find is someone who has run that cadence inside a large, multi-region business <strong>and</strong> built it from zero as a founder, with the market-assessment and cross-functional liaison work to make it stick. That combination is what keeps a CEO decision-ready every week, not just in the first quarter.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhithyabhaskar.vercel.app/ref/innovaccer</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">INNOVACCER CEO'S OFFICE PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
