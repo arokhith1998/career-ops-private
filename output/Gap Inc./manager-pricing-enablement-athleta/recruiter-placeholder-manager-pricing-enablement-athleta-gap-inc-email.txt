@@ -2,11 +2,11 @@ Subject: Manager, Pricing Enablement: the root-cause line is basically my last p
 
 Hi {Recruiter, Pricing Enablement},
 
-I do not usually write in before applying, but "resolve pricing exceptions and execution issues, and identify root causes so they do not repeat" reads like a direct description of the Bleeders and Leakers program I ran at Sensata.
+I do not usually write in before applying, but "resolve pricing exceptions and execution issues, and identify root causes so they do not repeat" reads like a description of the Bleeders and Leakers program I ran at Sensata.
 
-That program recovered $700K+ in margin in two quarters and took distributor margins from 53% to 61%, by tracing each pricing exception back to its cause instead of just closing the ticket. I also built the Power BI dashboard that tracked 1,200 of those opportunities against a $627M target, so the business could see where margin was leaking without me explaining it live.
+That program recovered $700K+ in margin in two quarters and took distributor margins from 53% to 61%, by tracing each exception back to its cause instead of closing the ticket. I also built the Power BI dashboard tracking 1,200 of those opportunities against a $627M target.
 
-At Applied Materials, I use Claude agents on the repetitive side of pricing analysis, the kind of AI-partnership mindset the posting calls for.
+At Applied Materials, Claude agents now handle the repetitive side of my pricing analysis, the AI-partnership mindset the posting calls for.
 
 Resume and cover letter are attached.
 
