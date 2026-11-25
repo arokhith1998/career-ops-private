@@ -1,0 +1,21 @@
+Subject: Price realization across segments, the build I already ran
+
+Hi {Manager, Pricing & Monetization, Fivetran},
+
+I do not normally reach out before applying, but the line about designing frameworks to assess willingness to pay and price realization across customer segments and product lines is close to the exact brief I ran at Sensata, on industrial parts instead of consumption data.
+
+At Sensata I built a Power BI dashboard tracking 1,200 pricing opportunities against a $627M target across 3 regions and 20 product lines, surfacing $433M in margin gaps for leadership to prioritize.
+That fed a program that recovered $700K in margin in two quarters and moved distributor margins from 53% to 61%.
+On the modeling side I lean on SQL and GA4 for KPI frameworks and Python for pricing-tier models built from competitor and willingness-to-pay data.
+I am also building PriceKeel, a guardrail engine that reads a company's own closed-won and closed-lost deals, the same instinct this role needs for usage data.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/fivetran
+
+Would 15 minutes be useful to see if this maps to your team, happy to be pointed elsewhere if it does not.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
