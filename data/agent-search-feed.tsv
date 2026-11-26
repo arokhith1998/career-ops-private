@@ -1,24 +1,46 @@
 source	sources	company	title	location	url	posted_ts	age_days	sponsorship_hint	salary	category
-websearch-agent	websearch-agent	Elevation Capital portfolio	Chief of Staff	Bengaluru, India	https://apply.workable.com/elevation-capital-3/jobs/view/EE64345893.md
-websearch-agent	websearch-agent	Michael Page client	Chief of Staff (GTM, AI)	Bangalore, India	https://www.michaelpage.co.in/job-detail/chief-staff-gtm-ai-bangalore-5-day-wfo/ref/jn-072026-7072727
-websearch-agent	websearch-agent	Confidential (Workable)	Head of Growth and Marketing	India	https://jobs.workable.com/jobs/a855f1e9-1ef6-4563-af7d-95ea4938e3ff.md
-websearch-agent	websearch-agent	Qureos	Growth Manager (Head of Growth)	Remote, India	https://jobs.hub71.com/companies/qureos-2/jobs/72432576-growth-manager
-websearch-agent	websearch-agent	Clinikally	VP of Growth	Gurugram, India	https://www.workatastartup.com/jobs/77216
-websearch-agent	websearch-agent	Gushwork	Founder's Office (New Products)	India	https://jobs.lever.co/gushwork/bdcb4767-be80-428a-8455-b9eddc0008c4/apply
-websearch-agent	websearch-agent	Michael Page client (fintech)	CEO's Office	Bengaluru, India	https://www.michaelpage.co.in/job-detail/ceos-office-fintech-bengaluru/ref/jn-082026-7079489
-websearch-agent	websearch-agent	Michael Page client	CEO's Office Strategy Manager	Delhi, India	https://www.michaelpage.co.in/job-detail/ceos-office-strategy-manager-delhi/ref/jn-082026-7076458
-websearch-agent	websearch-agent	Innovaccer	Manager, CEO's Office	Noida, India	https://jobs.workable.com/jobs/0d37eef0-1a93-49d4-a777-f2625d48b379.md
-websearch-agent	websearch-agent	Weekday AI client	Chief of Staff, Office of CEO	India	https://apply.workable.com/weekday-1/jobs/view/134D9F6B8F.md
-websearch-agent	websearch-agent	Xponentiate	Entrepreneur in Residence	India	https://apply.workable.com/xponentiate/jobs/view/73516A398B.md
-websearch-agent	websearch-agent	Cognitensor	Technical Entrepreneur in Residence	Delhi, India	https://jobs.techstars.com/companies/cognitensor-2/jobs/68905929-technical-entrepreneur-in-residence-eir
-websearch-agent	websearch-agent	Karya	Entrepreneur in Residence	Bengaluru, India	https://job-boards.greenhouse.io/karya/jobs/5193321008
-websearch-agent	websearch-agent	MidChains	Entrepreneur in Residence (Agentic/GenAI)	Chandigarh, India	https://jobs.hub71.com/companies/midchains-2/jobs/82880394-entrepreneur-in-residence-eir-agentic-generative-ai
-websearch-agent	websearch-agent	Lenskart	Entrepreneur in Residence	Bangalore, India	https://lenskartcareers.recruitee.com/o/2rd9whnlf8
-websearch-agent	websearch-agent	Clinikally	Chief of Staff	Gurugram, India	https://www.ycombinator.com/companies/clinikally/jobs/bq21ts8-chief-of-staff
-websearch-agent	websearch-agent	Xane AI	Founder's Office	India	https://wellfound.com/jobs/2717902-founder-s-office
-websearch-agent	websearch-agent	Spenza	Chief of Staff (Founder's Office)	India	https://wellfound.com/jobs/3084935-chief-of-staff-founder-s-office
-websearch-agent	websearch-agent	Cypherock Wallet	Founder's Office	India	https://wellfound.com/jobs/2053436-founder-s-office
-websearch-agent	websearch-agent	Bolna	Entrepreneur in Residence	India	https://jobs.generalcatalyst.com/companies/bolna-2-b823d889-50fe-4a6b-8bb0-c1fbbce7cbf8/jobs/68988757-entrepreneur-in-residence-eir
-websearch-agent	websearch-agent	ElevenLabs	Chief of Staff	India	https://www.workingnomads.com/jobs/chief-of-staff-india-elevenlabs
-websearch-agent	websearch-agent	Windfall Data	Product Marketing Manager	San Francisco, CA	https://jobs.lever.co/windfalldata/d64fdf52-6821-4dd1-b3dd-745ffd018eed/apply
-websearch-agent	websearch-agent	TrackTik	Product Marketing Manager	Remote, US	https://jobs.lever.co/tracktik/f920742e-2c5d-477f-97a3-b8670892ae7c/apply
+websearch-agent	websearch-agent	Elevation Capital portfolio co	Chief of Staff	Bengaluru, India	https://apply.workable.com/elevation-capital-3/jobs/view/EE64345893.md					
+websearch-agent	websearch-agent	Raydar	Chief of Staff	San Francisco, CA	https://apply.workable.com/raydar/jobs/view/C613C50612.md					
+websearch-agent	websearch-agent	Weekday client	Founder's Office	Bengaluru, India	https://apply.workable.com/weekday-1/jobs/view/0D7E4172B7.md					
+websearch-agent	websearch-agent	Weekday client	Chief of Staff, Office of CEO	Hyderabad, India	https://apply.workable.com/weekday-1/jobs/view/134D9F6B8F.md					
+websearch-agent	websearch-agent	Xponentiate	Chief of Staff	India	https://apply.workable.com/xponentiate/jobs/view/A20372F19B.md					
+websearch-agent	websearch-agent	Asana	Pricing Strategy Director	San Francisco, CA	https://asana.com/jobs/apply/8214906.md					
+websearch-agent	websearch-agent	RudderStack	Revenue Operations and GTM Systems Lead	Remote - US	https://ats.rippling.com/rudderstack-careers/jobs/409632b3-0626-4fc4-a33d-584d2bbdc29b					
+websearch-agent	websearch-agent	PanScience Innovations	Entrepreneur in Residence	New Delhi, India	https://career.io/job/entrepreneur-in-residence-eir-new-delhi-panscience-innovations-psi-b9595d128e6ab7656b7bad842f429bdf					
+websearch-agent	websearch-agent	Peak XV Partners portfolio co	Head of Growth	Delhi, India	https://getmereferred.com/job-listing/head-of-growth-earlystage-fintech-portfolio-company-peak-xv-partners-delhi-5-to-7-years-experience-0a556f30-f800-4c25-b9fe-44415c6fade9					
+websearch-agent	websearch-agent	Hireveda client	Chief of Staff	Bengaluru, India	https://hireveda.com/job/COS					
+websearch-agent	websearch-agent	Checkr	Head of Pricing Strategy	San Francisco, CA	https://job-boards.greenhouse.io/checkr/jobs/8384206					
+websearch-agent	websearch-agent	Quicksell	Head of Growth	India	https://jobera.com/job/quicksell-head-of-growth-9c6067fe/					
+websearch-agent	websearch-agent	Lever	Senior Product Marketing Manager	EU	https://jobs.eu.lever.co/lever/f7237109-6ebd-42aa-b55d-45e24252923b					
+websearch-agent	websearch-agent	Qureos	Head of Growth	Remote, India	https://jobs.hub71.com/companies/qureos-2/jobs/72432558-head-of-growth					
+websearch-agent	websearch-agent	Qureos	Growth Manager	Remote, India	https://jobs.hub71.com/companies/qureos-2/jobs/72432576-growth-manager					
+websearch-agent	websearch-agent	Ness	Manager/Senior Manager, Strategic Initiatives (CEO Office)	Bengaluru, India	https://jobs.jobvite.com/ness/job/opBWzfwf					
+websearch-agent	websearch-agent	Ness	Head, Strategic Initiatives (CEO's Office)	Bengaluru, India	https://jobs.jobvite.com/ness/job/oqBWzfwg					
+websearch-agent	websearch-agent	Finch	Product Marketing Manager	San Francisco, CA	https://jobs.lever.co/finch/5085ce27-f2e7-4863-b16c-e3b36ae8ae35					
+websearch-agent	websearch-agent	Gushwork	Founder's Office (New Products)	India	https://jobs.lever.co/gushwork/bdcb4767-be80-428a-8455-b9eddc0008c4/apply					
+websearch-agent	websearch-agent	Gushwork	Chief of Staff	India (hybrid)	https://jobs.lever.co/gushwork/d9e8217c-24f8-41d9-bef1-5af93bb65685					
+websearch-agent	websearch-agent	TrackTik	Product Marketing Manager	Remote - US	https://jobs.lever.co/tracktik/f920742e-2c5d-477f-97a3-b8670892ae7c/apply					
+websearch-agent	websearch-agent	Windfall Data	Product Marketing Manager	San Francisco, CA	https://jobs.lever.co/windfalldata/d64fdf52-6821-4dd1-b3dd-745ffd018eed/apply					
+websearch-agent	websearch-agent	Innovaccer	Manager, CEO's Office	Noida, India	https://jobs.workable.com/jobs/0d37eef0-1a93-49d4-a777-f2625d48b379.md					
+websearch-agent	websearch-agent	Unnamed startup	Entrepreneur in Residence	India	https://jobs.workable.com/jobs/0e9d9107-bd54-4340-a752-88ba66df1c2a.md					
+websearch-agent	websearch-agent	Unnamed startup	Chief of Staff	India	https://jobs.workable.com/jobs/a76052e5-a074-456a-97e9-d581df39646b.md					
+websearch-agent	websearch-agent	Lenskart	CEO's Office (General Manager)	Gurugram, India	https://lenskartcareers.recruitee.com/o/ceos-office-4					
+websearch-agent	websearch-agent	OpenAI	Competitive Intelligence Lead	San Francisco, CA	https://openai.com/careers/competitive-intelligence-lead-san-francisco/					
+websearch-agent	websearch-agent	Vercel	Senior Deal Desk Analyst	San Francisco, CA	https://vercel.com/careers/senior-deal-desk-analyst-6142959004					
+websearch-agent	websearch-agent	New Relic	Pricing Manager	San Francisco, CA	https://www.builtinsf.com/job/pricing-manager/9076308					
+websearch-agent	websearch-agent	Unnamed startup	Chief of Staff / Executive Assistance to CEO	India	https://www.iimjobs.com/j/chief-of-staff-executive-assistance-to-ceo-startup-iit-iim-bits-isb-3-8-yrs-846431.html					
+websearch-agent	websearch-agent	Unnamed company	Head Growth	India	https://www.iimjobs.com/j/head-growth-1645427					
+websearch-agent	websearch-agent	Unnamed company	Head Growth Advertising	India	https://www.iimjobs.com/j/head-growth-advertising-1720899					
+websearch-agent	websearch-agent	Unnamed company	Head Growth and Digital Marketing	Mumbai, India	https://www.iimjobs.com/j/head-growth-and-digital-marketing-1619052					
+websearch-agent	websearch-agent	Unnamed company	Head Growth, EdTech/ConsumerTech/D2C	Mumbai, India	https://www.iimjobs.com/j/head-growth-edtech-consumertech-d2c-1654565					
+websearch-agent	websearch-agent	Monarch Networth Capital	Head, CEO Office and Strategy	Mumbai, India	https://www.iimjobs.com/j/monarch-networth-capital-head-ceo-office-and-strategy-iim-1742244					
+websearch-agent	websearch-agent	Niveshak AI	Head Growth Marketing	India	https://www.iimjobs.com/j/niveshak-ai-head-growth-marketing-iit-iim-bits-nit-isb-1697470					
+websearch-agent	websearch-agent	Pedalstart	Entrepreneur in Residence	India	https://www.iimjobs.com/j/pedalstart-entrepreneur-in-residence-1-4-yrs-1198133.html					
+websearch-agent	websearch-agent	Veranda HigherEd	Project Manager, Strategy (CEO Office)	India	https://www.iimjobs.com/j/veranda-highered-project-manager-strategy-ceo-office-1619218					
+websearch-agent	websearch-agent	Michael Page client (fintech)	CEO's Office	Bengaluru, India	https://www.michaelpage.co.in/job-detail/ceos-office-fintech-bengaluru/ref/jn-082026-7079489					
+websearch-agent	websearch-agent	Michael Page client	CEO's Office Strategy Manager	Delhi, India	https://www.michaelpage.co.in/job-detail/ceos-office-strategy-manager-delhi/ref/jn-082026-7076458					
+websearch-agent	websearch-agent	Michael Page client (AI)	Chief of Staff (GTM)	Bengaluru, India	https://www.michaelpage.co.in/job-detail/chief-staff-gtm-ai-bangalore-5-day-wfo/ref/jn-072026-7072727					
+websearch-agent	websearch-agent	Michael Page client (fintech)	Head of Growth Marketing	Bengaluru, India	https://www.michaelpage.co.in/job-detail/head-growth-marketing-fintech-bengaluru/ref/jn-072026-7067569					
+websearch-agent	websearch-agent	US Healthcare company (via Talentmate)	Chief of Staff, Office of the CEO	Gurugram, India	https://www.talentmate.com/jobs/india/Gurugram/chief-of-staff-office-of-the-ceo-us-healthcare/2606-38215-20					
+websearch-agent	websearch-agent	Clinikally (YC S22)	Chief of Staff	Gurugram, India	https://www.workatastartup.com/jobs/76808					
+websearch-agent	websearch-agent	Enerjazz (YC S21)	Chief of Staff	Delhi NCR, India	https://www.workatastartup.com/jobs/83448					
