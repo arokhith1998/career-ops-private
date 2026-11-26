@@ -1,0 +1,14 @@
+Subject: Zuora Payments: quote-to-cash is the translation work I already do
+
+Hi {Recruiter or Hiring Manager, Payments},
+
+The req's line about translating payment provider, bank and partner needs into feature sets is the same translation I already run upstream of payments: turning policy into a number.
+
+At Sensata I shaped revenue models and multimillion-dollar customer quotes with senior executives, then repriced parts sold through distribution to raise channel-partner margins from 53% to 61% in under two quarters. I also run AI agents built on Claude daily at Applied Materials to automate recurring analysis, and defined a 100+ feature roadmap with engineering across 3 regions, cutting time-to-market 20%.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/zuora
+
+Open to 15 minutes if useful, and happy to be pointed elsewhere if this is not your req.
+
+Thank you,
+Adhithya

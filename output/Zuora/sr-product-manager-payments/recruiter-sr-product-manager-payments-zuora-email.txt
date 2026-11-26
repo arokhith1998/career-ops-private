@@ -1,0 +1,21 @@
+Subject: Sr Product Manager, Payments (req P105639) - Adhithya Rokhith Bhaskar
+
+Hi {Recruiter, Payments},
+
+I do not normally write in before applying, but the line about turning payment provider, bank and partner needs into feature sets caught me, since that is work I already do one layer up: shaping the revenue model itself.
+
+- At Sensata I shaped revenue models and multimillion-dollar customer quotes with execs, raising channel-partner margins from 53% to 61% in two quarters.
+- At Applied Materials I run AI agents built on Claude daily, the agentic habit this req's AI strategy charter wants.
+- I defined the roadmap and ran a 100+ feature backlog across 3 regions, cutting time-to-market 20%.
+- I built a chatbot pairing R-based analysis with automated interaction, a small version of the reasoning-driven systems this role is chartered to ship.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/zuora
+
+If the Payments req is yours to route, 15 minutes this week? A quick pointer helps too.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

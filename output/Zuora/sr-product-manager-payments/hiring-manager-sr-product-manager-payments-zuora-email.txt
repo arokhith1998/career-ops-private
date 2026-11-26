@@ -1,0 +1,21 @@
+Subject: Zuora Payments: "capture every dollar" is the line that got me
+
+Hi {Hiring Manager, Payments Product and Technology},
+
+Most payments postings talk fees and rails. Yours talks about abstracting the complexity of the payments ecosystem so a business captures every dollar flowing through it, and that framing is what made me write in rather than just apply.
+
+- At Sensata I ran 30+ discovery interviews with OEMs and distributors to find where multi-step workflows broke, then shipped a 100+ feature backlog across 3 regions, cutting time-to-market 20%.
+- I built sales enablement content that got 50+ reps selling a new launch inside weeks, the same distill-to-simple-narrative work this role needs with partners and analysts.
+- At Applied Materials I carry P&L targets and run the OKRs and cross-functional reviews keeping Sales, Engineering and Accounts aligned, the same matrixed stakeholder set this role spans.
+- I built a chatbot pairing R-based analysis with automated interaction, a small-scale version of the reasoning-driven agents your team is chartered to ship.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/zuora
+
+If someone else owns this req, a two-line redirect helps. Otherwise, 15 minutes on where the payments complexity hides?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
