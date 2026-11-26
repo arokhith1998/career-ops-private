@@ -1,0 +1,23 @@
+Subject: A pricing narrative built for the room that signs off, not just the deck
+
+Hi {Hiring Manager, Pricing & Packaging},
+
+I don't normally write in before applying, but your posting's ask to assess the commercial impact of pricing decisions is the exact discipline I am building from scratch at PriceKeel right now, after running it inside a multi-$100M industrial BU at Sensata.
+
+Built you a 6-slide pitch deck so the proof fits on one read.
+
+Led pricing and packaging strategy for a multi-$100M Industrial BU at Sensata, recovering $700K+ in margin in two quarters through the Bleeders and Leakers program.
+Presented AP26 revenue models and multimillion-dollar customer quotes directly to senior executives, carrying the commercial-impact case Finance needed before sign-off.
+Built PriceKeel's audit trail so every discount exception carries a line-by-line case instead of a number nobody can defend in review.
+Run AI-assisted adoption and discounting analysis with Claude agents at Applied Materials today, turning usage data into pricing calls for leadership decks.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/sovos
+
+Open to 15 minutes on how the pricing and packaging roadmap is scoped this quarter?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

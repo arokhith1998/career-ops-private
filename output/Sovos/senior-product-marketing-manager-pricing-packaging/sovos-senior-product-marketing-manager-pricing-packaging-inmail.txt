@@ -1,0 +1,18 @@
+Subject: Packaging tiers that still make sense to the executives signing off
+
+Hi {Recruiter or Hiring Manager, Pricing & Packaging},
+
+Your posting asks for someone who builds pricing models and packaging tiers with Product, Finance, Sales and Strategy, then carries the story into the room that signs off. That is the shape of two quarters at Sensata: repackaged channel and distributor pricing, raised partner margins from 53% to 61%, and presented the resulting AP26 revenue models and customer quotes straight to senior executives.
+
+Built a 6-slide pitch deck so the proof fits on one read. At Applied Materials I run that same packaging math through Claude agents today, turning adoption and discount-pattern data into the quarterly calls leadership acts on, a habit I am scaling into decision-integrity tooling at PriceKeel for other B2B pricing teams.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/sovos
+
+Worth 15 minutes to see where the pricing and packaging roadmap stands right now?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
