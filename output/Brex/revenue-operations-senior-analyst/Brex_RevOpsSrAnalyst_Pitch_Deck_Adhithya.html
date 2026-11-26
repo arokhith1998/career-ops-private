@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Brex Revenue Operations Senior Analyst Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #0f766e; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 27pt; font-weight: 800; color: #0f172a; line-height: 1.14; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 20pt; font-weight: 800; color: #0f172a; line-height: 1.12; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #0f766e; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.7in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d7f3ec 100%); }
+  .cover h1 { font-size: 25pt; max-width: 11.3in; }
+  .cover .sub { font-size: 13.5pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 16pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.2pt; font-weight: 500; }
+  .tag strong { color: #0f766e; font-weight: 700; }
+  .cover .who { margin-top: 16pt; padding-top: 10pt; border-top: 1.5pt solid #0f766e; max-width: 9.4in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #0f766e; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #e6f7f2; border-left: 3pt solid #0f766e; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #0b5a4f; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #0f766e; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #e6f7f2; border-left: 4pt solid #0f766e; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #0b5a4f; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0f766e; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 20pt; font-weight: 800; color: #0f766e; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0f766e; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #0f766e; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #0f766e; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d7f3ec 100%); }
+  .close h2 { font-size: 24pt; max-width: 10.6in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.6in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #0f766e; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Brex Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Brex Revenue Operations Senior Analyst</div>
+  <h1>You are hiring someone to build the dashboards and models revenue leaders actually run the business on, then own the Post Sales process behind them. I have already built that stack, twice, once as the operator and once as the founder who had to make it work alone.</h1>
+  <div class="sub">CRM and CPQ ownership, forecast and pipeline reviews, deal approvals, and the dashboard discipline that turns 1,200 opportunities into a prioritized action list.</div>
+  <div class="tags">
+    <div class="tag"><strong>$627M target</strong> dashboard: 1,200 opportunities, 3 regions, 20 product lines</div>
+    <div class="tag"><strong>$433M</strong> in margin gaps surfaced for leadership to prioritize</div>
+    <div class="tag"><strong>$700K+</strong> in margin recovered in 2 quarters off that dashboard</div>
+    <div class="tag"><strong>CRM, CPQ, deal approvals</strong> run end to end as a founder, with an audit trail</div>
+    <div class="tag"><strong>53% to 61%</strong> distributor margin lift via a BU-wide price model</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhithyabhaskar.vercel.app/ref/brex</div>
+  </div>
+  <div class="brand">REVOPS PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>The mandate is not "keep the CRM tidy." It is <span class="accent">deep dive analysis, capacity modeling, and a dashboard revenue leaders trust enough to run the business on.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What that actually requires</h4>
+      <div class="line">Dashboards and reporting have to answer the next question before a revenue leader asks it, not just restate the pipeline total.</div>
+      <div class="line">Capacity and funnel models for annual planning have to hold up under a scenario change, not just one forecast line.</div>
+      <div class="line">Owning Post Sales RevOps processes, intake, forecasting maintenance, onboarding, routing and coverage, means the process survives without someone chasing it every week.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run</h4>
+      <div class="line">At <b>Sensata</b>, I built a Power BI dashboard tracking 1,200 opportunities against a $627M target, and it surfaced $433M in margin gaps leadership acted on within the quarter.</div>
+      <div class="line">At <b>PriceKeel</b>, I set up and run CRM, CPQ, forecast and pipeline reviews, and deal approvals myself, with an audit trail Finance can check without asking me first.</div>
+      <div class="line">At <b>Sensata</b> again, I built a BU-wide price-increase model that flagged where a change could lift profitability past 50%, the same scenario-modeling habit annual planning needs.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">The through-line: every dashboard and model I have built got used to make a real pricing or capacity decision, not filed away after the review meeting.</div>
+  </div>
+  <div class="brand">REVOPS PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The mandate, mapped</div>
+  <h2>What the posting asks for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Create and update dashboards to give revenue leaders and operations partners the data they need to run their businesses."</div></div>
+      <div class="quote"><div class="q">"Run deep dive analyses to identify challenges and opportunities within the business."</div></div>
+      <div class="quote"><div class="q">"Build complex capacity and funnel models for annual planning and scenario evaluation."</div></div>
+      <div class="quote"><div class="q">"Own Revenue Operations processes for Post Sales, including intake, forecasting maintenance, onboarding, routing, and coverage models."</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>Sensata, the dashboard itself:</b> Bleeders and Leakers Power BI build covering 1,200 pricing opportunities, pipeline funnel, regional scorecards, win rate, avg $/win and stage distribution by salesperson.</div></div>
+      <div class="proof"><div class="p"><b>Sensata, the deep dive:</b> that same build surfaced $433M in margin gaps for leadership to prioritize, and $700K+ was recovered in 2 quarters once they acted on it.</div></div>
+      <div class="proof"><div class="p"><b>Sensata, capacity modeling:</b> BU-wide Power BI price-increase model flagging line items where a change could lift profitability more than 50%.</div></div>
+      <div class="proof"><div class="p"><b>PriceKeel, process ownership:</b> run CRM, CPQ, forecast and pipeline reviews, and deal approvals end to end, with a Finance-auditable decision trail.</div></div>
+    </div>
+  </div>
+  <div class="brand">REVOPS PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The Sensata proof, in depth</div>
+  <h2>Find the margin leak, prioritize it for leadership, then <span class="accent">show the dollars recovered once they acted.</span></h2>
+  <div class="lede">One dataset, three outputs: the dashboard that made the problem visible, the prioritized list leadership used, and the margin that came back once the fix shipped.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">1,200 opps</div>
+      <div class="lbl">Bleeders &amp; Leakers Dashboard, $627M Target</div>
+      <div class="desc">Power BI build across 3 regions, 4 product families and 20 product lines, with pipeline funnel, regional scorecards, win rate and avg $/win.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$433M</div>
+      <div class="lbl">Margin Gaps Surfaced for Leadership</div>
+      <div class="desc">Ranked by salesperson and product line so leadership could prioritize negotiations instead of reviewing the whole dataset.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$700K+</div>
+      <div class="lbl">Margin Recovered in 2 Quarters</div>
+      <div class="desc">Negotiations built on the dashboard's competitive gaps and customer willingness-to-pay data, not a general price increase.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">The same habit runs at PriceKeel today: a decision trail that records every pricing call with evidence Finance can audit, so a dashboard is never the end of the story, just the start of the fix.</div>
+  <div class="brand">REVOPS PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month owning Brex's Post Sales Revenue Operations seat looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Map the current dashboards and process gaps</div>
+      <div class="body">Sit with Revenue Operations business partners and post-sales revenue leaders to find where current dashboards stop short, and where intake, routing or coverage models break down before anyone names it.</div>
+      <div class="why"><strong>Why first:</strong> the same first move behind the Sensata dashboard. The gap shows up in the data before anyone flags it.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Ship the first deep dive and a capacity model draft</div>
+      <div class="body">Run a deep dive analysis on the highest-friction process named in week 1, and build the first pass of a capacity or funnel model for the next scenario planning cycle.</div>
+      <div class="why"><strong>Why now:</strong> the same pattern that found $433M in margin gaps at Sensata, applied to this team's own data.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Hand revenue leaders a dashboard they trust</div>
+      <div class="body">Deliver a working dashboard or model revenue leaders and operations partners can run their business on, with the data-precision bar this req names, and a backlog of the next reporting gaps already prioritized.</div>
+      <div class="why"><strong>Why this fast:</strong> a dashboard someone actually opens beats a roadmap of ones that might get built.</div>
+    </div>
+  </div>
+  <div class="brand">REVOPS PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to build the reporting and models revenue leaders run the business on. I have already built that exact stack and watched the dollars come back once leadership acted on it.</h2>
+  <div class="body">
+    <p>The core proof is the Sensata dashboard and PriceKeel together: a <strong>$627M-target Power BI build</strong> that surfaced <strong>$433M in margin gaps</strong> and helped recover <strong>$700K+ in 2 quarters</strong>, and a RevOps stack, CRM, CPQ, forecast reviews, deal approvals, that I now run myself end to end with a Finance-auditable decision trail.</p>
+    <p>What is harder to find is someone who has owned the full loop, from the dashboard to the decision to the dollars recovered, rather than just one piece of it. That is the habit I would bring to Post Sales RevOps at Brex.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhithyabhaskar.vercel.app/ref/brex</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">REVOPS PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
