@@ -1,0 +1,18 @@
+Subject: GPUaaS pricing: capacity commits are rebate logic with a different noun
+
+Hi {Director, GPUaaS Pricing & Deal Desk},
+
+I do not normally cold-email a hiring manager, but "ensure Verizon captures a greater portion of the value created by the assets made available to partners and customers" is the same math I ran on distributor margins, just with GPU racks instead of parts bins.
+
+At Sensata I rebuilt the rebate logic behind a multi-$100M book, raising distributor margins from 53% to 61% and recovering $700K+ in two quarters, then built the Power BI model flagging line items where a price change could lift profitability over 50%. At PriceKeel I run the guardrail engine and audit trail that turns a discount exception into an explainable, Finance-ready decision, the same structure a 1-year or 3-year reserved-instance commit needs at the DOA table.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/verizon
+
+Open to 15 minutes on how the team is thinking about reserved versus burst pricing right now. A pointer elsewhere helps just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

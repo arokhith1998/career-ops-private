@@ -1,0 +1,18 @@
+Subject: Senior Pricing Manager, GPUaaS and AI Cloud Infrastructure: the governance half of this req
+
+Hi {Recruiter, Pricing & Deal Desk},
+
+I do not normally cold-email before applying, but "facilitate formal pricing committee reviews and executive approval briefs for non-standard transactions" reads like a line from my own build log, not just the job post.
+
+At PriceKeel I run the guardrail engine and audit trail that scores every discount exception against a company's own closed-won and closed-lost data, the same DOA problem a committee-reviewed GPUaaS deal creates. At Sensata I built the Power BI system ranking 1,200 pricing opportunities against a $627M target, then raised distributor margins from 53% to 61% by rebuilding the rebate logic, the value-capture math this req wants applied to GPU capacity and partners.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/verizon
+
+If this req is still open, I would like 15 minutes to hear what the current approval bottleneck looks like. A pointer to the right person would help just as much.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
