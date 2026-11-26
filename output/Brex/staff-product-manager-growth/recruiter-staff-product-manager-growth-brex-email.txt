@@ -1,0 +1,21 @@
+Subject: Staff Product Manager, Growth - Adhithya Bhaskar
+
+Hi {Recruiter, Growth},
+
+I do not normally reach out before applying, but the line about leading "0-to-1 and 1-to-N initiatives that re-architect Brex's GTM infrastructure" is closer to work I already own than most growth PM titles get.
+
+A few numbers:
+- At Sensata I instrumented a SQL and GA4 funnel across 50K+ connected devices, found where adoption stalled between activation and habitual use, and fixed it for an 18% lift.
+- At Plug Power I ran 15+ A/B tests across Google, Microsoft, Meta and LinkedIn for a 25% CPA cut.
+- At Pixis I carried an 8-client, $15K-$90K/month portfolio and cut churn 50% with a full-funnel rebuild that hit 3x ROAS for one client.
+
+Here's the portfolio: https://adhi-product.vercel.app/ref/brex
+
+If this is not your req, a pointer would help. Otherwise, 15 minutes this week or next?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

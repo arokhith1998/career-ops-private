@@ -1,0 +1,21 @@
+Subject: Staff Product Manager, Growth - Adhithya Bhaskar
+
+Hi {Hiring Manager, Growth},
+
+I do not normally reach out before applying, but your posting asks for someone who can identify structural bottlenecks across revenue funnels before touching the roadmap, and that is the move I keep making in growth roles.
+
+A few examples:
+- At Sensata I instrumented a SQL and GA4 funnel across 50K+ connected devices first, traced the stall point between activation and habitual use, and fixed it for an 18% adoption lift.
+- At Pixis I carried an 8-client, $15K-$90K/month portfolio, found one blanket playbook was the real leak, and rebuilt account strategy around where clients actually lost users for a 50% churn cut and 3x ROAS on one client.
+- At Plug Power I ran 15+ A/B tests across Google, Microsoft, Meta and LinkedIn, treating creative and bid strategy as variables to test, for a 25% CPA cut.
+
+Here's the portfolio: https://adhi-product.vercel.app/ref/brex
+
+If someone else owns this scope, a pointer would help. Otherwise, 15 minutes to compare notes on Brex's funnel bottlenecks?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

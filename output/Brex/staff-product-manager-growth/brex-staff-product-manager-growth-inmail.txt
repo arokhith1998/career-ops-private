@@ -1,0 +1,12 @@
+Hi {Recruiter, Growth},
+
+I do not usually message before applying, but a Staff PM req that spells out "ability to identify leverage points across systems" instead of generic ownership language is rare, and systems-first is already how I work.
+
+At Sensata I mapped a SQL and GA4 funnel across 50K+ connected devices before touching the roadmap, found the exact stall point between activation and habitual use, and fixed it for an 18% lift. At Pixis I ran an 8-client, $15K-$90K/month portfolio and rebuilt account strategy around where clients actually leaked, cutting churn 50% and hitting 3x ROAS for one client in a month. At Plug Power I ran 15+ A/B tests across Google, Microsoft, Meta and LinkedIn for a 25% CPA cut.
+
+Here's the portfolio: https://adhi-product.vercel.app/ref/brex
+
+If this is not your req, a pointer to whoever owns it would help. Otherwise, 15 minutes this week or next?
+
+Thank you,
+Adhithya Rokhith Bhaskar
