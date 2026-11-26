@@ -1,0 +1,21 @@
+Subject: Public Sector RFx - the knowledge base is the hard part
+
+Hi {RFP Team Lead, Sierra},
+
+Most RFP postings stop at "coordinate SMEs." Yours goes further: own the content infrastructure, find where the knowledge base falls short, and close that with Security, Legal, Pricing and Product instead of running the file as-is. That is the part I would want to own.
+
+A few places I have run exactly that:
+- Built the audit trail at PriceKeel that records a pricing decision with evidence Finance can interrogate later, not a static file but one built to survive a challenge.
+- Held 1,200 pricing opportunities to a $627M target across 3 regions and 20 product lines at Sensata, getting stakeholders who did not report to me to one accurate answer before a deadline.
+- Shaped multimillion-dollar customer quotes directly with senior executives at Sensata, the same accuracy bar a solicitation has to clear regardless of volume.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/sierra
+
+If you are not the right person for this req, a redirect would help. If you are, 15 minutes would too.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
