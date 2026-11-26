@@ -1,0 +1,21 @@
+Subject: The data-structures line in this req is the part I actually built
+
+Hi {Recruiter, Gemini Growth Marketing},
+
+I don't normally reach out before applying, but "maintain and manage data structures across systems" is the unglamorous half of this req most candidates skip, and it's the half I've built.
+
+At Plug Power I built the WordPress-to-Pardot lead flow end to end, the CRM data structure that cut cost per lead 50%.
+At Sensata I built KPI frameworks in SQL and GA4 across 50,000+ connected devices, turning benchmarks into an 18% feature-adoption lift.
+I closed the loop on a Mar-Tech stack across Salesforce, Adobe Analytics, GA and Google Tag Manager, feeding campaign data into one pipeline.
+At GenY Medium I liaised between regional marketing, localization and analytics teams across time zones, the global-team work this posting flags as preferred.
+
+Here's the portfolio: https://adhi-growth-ai.vercel.app/ref/google
+
+Worth 15 minutes if this is your req, no worries if it already has an owner.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
