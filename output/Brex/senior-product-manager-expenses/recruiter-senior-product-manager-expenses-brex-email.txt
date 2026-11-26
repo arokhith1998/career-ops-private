@@ -1,0 +1,21 @@
+Subject: Senior Product Manager, Expenses - Adhithya Bhaskar
+
+Hi {Recruiter, Expenses},
+
+I don't normally reach out before applying, but the line about turning policy, approvals, substantiation and audit into one system instead of a pile of exceptions is the exact problem I already build for, on the pricing side.
+
+A few numbers:
+- I built PriceKeel's guardrail and audit-trail engine: an explainable discount boundary learned from a company's own closed-won and closed-lost deals, with the trail Finance needs to clear an exception.
+- At Sensata I built a Power BI control system tracking 1,200 pricing opportunities against a $627M target across 3 regions, recovering $700K+ in margin in two quarters.
+- I also ran a 100+ feature roadmap with Engineering across 3 regions and raised CSAT 22% from 30+ OEM and distributor interviews.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/brex
+
+If this is not your req, a pointer would help. Otherwise, 15 minutes this week or next?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

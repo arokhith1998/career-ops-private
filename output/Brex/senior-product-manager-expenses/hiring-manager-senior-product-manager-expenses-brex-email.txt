@@ -1,0 +1,22 @@
+Subject: Senior Product Manager, Expenses - Adhithya Bhaskar
+
+Hi {Hiring Manager, Expenses},
+
+I don't normally reach out before applying, but the way your posting draws the line between work AI should absorb and exceptions that still need a person is exactly the split I run at Applied Materials and built standalone at PriceKeel.
+
+A few examples:
+- At PriceKeel I set up the CRM, CPQ and deal-approval workflow myself, then layered an explainable discount guardrail and audit trail on top so Finance can clear an exception without re-litigating it.
+- At Sensata I ran a structured exception-review program across 1,200 pricing opportunities and a $627M target, recovering $700K+ in margin in two quarters and raising distributor margins from 53% to 61%.
+- I managed a 100+ feature roadmap with Engineering across 3 regions while running 30+ interviews with OEMs and distributors to find where their workflows actually broke.
+- At Applied Materials I run forecasting work through Claude agents so judgment calls stay with people, the same split your Expenses system needs.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/brex
+
+If someone else owns this scope, a pointer would help. Otherwise, 15 minutes to compare notes on where expense substantiation breaks down today?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

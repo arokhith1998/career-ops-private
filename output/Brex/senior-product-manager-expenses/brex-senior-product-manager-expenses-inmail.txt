@@ -1,0 +1,12 @@
+Hi {Hiring Manager, Expenses},
+
+I don't usually message before applying, but a Senior PM req that spells out documentation, policy, compliance, approvals, substantiation, audit and ERP readiness as one system, not six separate problems, is rare, and systems-first is already how I work.
+
+At PriceKeel I built the guardrail and audit-trail engine behind deal-pricing approvals myself, set up the CRM, CPQ and approval workflow underneath it, and sell it against legacy deal-desk tools. At Sensata I ran a structured exception-review program across 1,200 pricing opportunities and a $627M target that recovered $700K+ in margin in two quarters and raised distributor margins from 53% to 61%, while managing a 100+ feature roadmap with Engineering across 3 regions.
+
+Here's the portfolio: adhi-product-ai.vercel.app/ref/brex
+
+If this is not your req, a pointer to whoever owns it would help. Otherwise, 15 minutes this week or next?
+
+Thank you,
+Adhithya Rokhith Bhaskar
