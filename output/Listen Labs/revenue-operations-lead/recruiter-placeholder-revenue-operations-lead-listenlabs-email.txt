@@ -1,0 +1,18 @@
+Subject: The Salesforce stack now sits inside Salesforce itself
+
+Hi {Recruiter, Listen Labs},
+
+I don't normally reach out before applying, but this req asks someone to own a Salesforce-anchored revenue stack for a company that just moved inside Salesforce AI Labs, and that specific loop is one I already run.
+
+At Sensata I built and ran the Bleeders and Leakers Power BI pipeline myself: 1,200 opportunities tracked against a $627M target, surfacing $433M in margin gaps that leadership used to recover $700K+ in two quarters. I carried P&L and revenue targets while raising distributor margins from 53% to 61% across the Industrial BU. As founder of PriceKeel I run the CRM and CPQ, forecast reviews and deal approvals myself. At Plug Power I automated the Salesforce, Adobe Analytics, GA and GTM stack for closed-loop reporting.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/listen-labs
+
+Worth 15 minutes if this is your req, no worries if it already has an owner.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

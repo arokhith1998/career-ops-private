@@ -1,0 +1,18 @@
+Subject: Audits, dedup and governance before the Salesforce migration gets harder
+
+Hi {VP of Revenue, Listen Labs},
+
+I don't normally message before applying, but a RevOps seat that owns audits, dedup and governance on a stack now folding into Salesforce AI Labs is a different kind of pressure than most "own the CRM" reqs, and it is one I would want.
+
+At GenY Medium I ran the database audits and built the dashboards that raised data accessibility 30% across regional teams. At Sensata I built the Bleeders and Leakers Power BI dashboard against a $627M target, surfacing $433M in margin gaps for leadership to act on. As founder of PriceKeel I run CRM, CPQ and deal approvals myself, with an audit trail Finance can check on every call, which is the governance habit your posting is describing.
+
+Here's the portfolio: https://adhithyabhaskar.vercel.app/ref/listen-labs
+
+Open to 15 minutes if the timing works, and no worries if this sits with someone else on your team.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
