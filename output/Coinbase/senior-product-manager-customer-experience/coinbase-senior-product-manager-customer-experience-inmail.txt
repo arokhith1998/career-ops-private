@@ -1,0 +1,16 @@
+Subject: The evaluate-before-scale call on automation is one I already make
+
+Hi {Hiring Manager, Shared Platforms},
+
+I don't usually message before applying, but turning partner billing into a monthly close that Finance and Operations can both audit, while deciding where AI earns the right to run without a human watching every step, is work I am already doing at PriceKeel. I built a guardrail engine there that recommends a decision from a company's own deal history, flags anything judgment-heavy for a person to review, and logs every call in an audit trail Finance can open. At Sensata I carried that same discipline into a 100+ feature roadmap with Engineering across 3 regions, trading architecture and rollout risk against speed. At Applied Materials I run that evaluate-review-fallback loop on Claude agents today, with a human checking every output.
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/coinbase
+
+Open to 15 minutes on how you are drawing that human-review line as the system scales?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

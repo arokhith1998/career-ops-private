@@ -1,0 +1,20 @@
+Subject: A monthly close Finance can actually audit is what I build now
+
+Hi {Recruiter, Talent Acquisition},
+
+I don't normally reach out before applying, but the line about automating partner billing end to end into a monthly close that Finance and Operations can both audit is close to what I already run day to day.
+
+- Built a guardrail engine at PriceKeel that recommends a pricing decision from a company's own deal history, routes judgment calls to a human, and logs every decision in an audit trail Finance can open and trust
+- Owned a 100+ feature roadmap with Engineering across 3 regions at Sensata, carrying the architecture and phased-rollout trade-offs that decide whether a release holds up
+- Carried P&L for an 8-client vendor portfolio at Pixis, the point of contact partners escalated to when something broke
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/coinbase
+
+Worth 15 minutes this week? Happy to be pointed to whoever owns this req if it's not you.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

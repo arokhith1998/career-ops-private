@@ -1,0 +1,21 @@
+Subject: Deciding where automation earns the right to run unsupervised
+
+Hi {Hiring Manager, Shared Platforms},
+
+I don't normally reach out before applying, but the part of your posting about deciding where automation and AI earn their place, with evaluation, human review, and a fallback, is the exact discipline behind the product I'm building right now.
+
+- Designed PriceKeel's guardrail engine so it recommends a decision, routes judgment calls to a human, and writes an audit trail Finance can actually open, the same evaluate-review-fallback loop a workforce system needs before it makes real calls
+- Own a 100+ feature roadmap with Engineering across 3 regions at Sensata, carrying the data-quality and phased-rollout trade-offs that decide whether a launch holds
+- Built PriceKeel's own CRM, CPQ, and deal-approval flow from scratch instead of licensing one, the same buy-versus-build call this role makes
+- Carried vendor-facing P&L for an 8-client portfolio at Pixis, the person partners escalated to when something broke
+
+Here's the portfolio: https://adhi-product-ai.vercel.app/ref/coinbase
+
+Could I get 15 minutes on how you're thinking about the human-review layer as the system scales? No worries if this sits with someone else on the team.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
