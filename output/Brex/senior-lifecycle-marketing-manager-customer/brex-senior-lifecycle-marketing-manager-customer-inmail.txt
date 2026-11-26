@@ -1,0 +1,12 @@
+Hi {Recruiter, Lifecycle Marketing},
+
+I do not usually message before applying, but your posting holds lifecycle programs accountable for incremental lift in adoption, retention and revenue, not opens and clicks, which is a sharper bar than most CRM reqs set. I have owned that bar directly.
+
+At Sensata I built SQL and GA4 cohort frameworks across 50K+ connected devices, separating high-intent segments from noise and lifting feature adoption 18%. At Pixis I cut client churn 50% by replacing one blanket playbook with segment-specific account strategy across an 8-client, $15K to $90K per client portfolio, then used Amplitude and Tableau to lift blended ROAS 40%.
+
+Here's the portfolio: https://adhi-growth-ai.vercel.app/ref/brex
+
+If this is not your req, a pointer to whoever owns it would help. Otherwise, 15 minutes this week or next?
+
+Thank you,
+Adhithya Rokhith Bhaskar
