@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Stealth Startup Senior Product Marketing Manager Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #0f766e; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 25pt; font-weight: 800; color: #0f172a; line-height: 1.16; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 20pt; font-weight: 800; color: #0f172a; line-height: 1.12; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #0f766e; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.7in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #e6fffa 100%); }
+  .cover h1 { font-size: 22.5pt; max-width: 11.3in; }
+  .cover .sub { font-size: 13.5pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 15pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.1pt; font-weight: 500; }
+  .tag strong { color: #0f766e; font-weight: 700; }
+  .cover .who { margin-top: 15pt; padding-top: 10pt; border-top: 1.5pt solid #0f766e; max-width: 9.6in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #0f766e; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #ecfdf5; border-left: 3pt solid #0f766e; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #065f46; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #0f766e; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #ecfdf5; border-left: 4pt solid #0f766e; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #065f46; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0f766e; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 19pt; font-weight: 800; color: #0f766e; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0f766e; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #0f766e; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.3pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.8pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.3pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #0f766e; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #e6fffa 100%); }
+  .close h2 { font-size: 23pt; max-width: 10.6in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.6in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #0f766e; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Stealth Startup Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Stealth Startup Senior Product Marketing Manager</div>
+  <h1>An AI voice agent only earns a seat in healthcare, legal, insurance, utilities and logistics once each buyer trusts it with their riskiest conversation. That is six different trust arguments, not one slide.</h1>
+  <div class="sub">A segment-by-segment go-to-market case for an AI voice platform, built by someone who already runs the AI-agent-in-the-enterprise pattern on his own desk.</div>
+  <div class="tags">
+    <div class="tag"><strong>AI agents built on Claude</strong> automating real enterprise analysis at Applied Materials, today</div>
+    <div class="tag"><strong>$2M+ first-year revenue</strong> on an end-to-end GTM launch at Sensata</div>
+    <div class="tag"><strong>4-vertical persona work</strong>, healthcare included, built for Safran</div>
+    <div class="tag"><strong>+30% win rate</strong> from sales enablement built for 50+ reps</div>
+    <div class="tag"><strong>+15% conversion</strong> from positioning pressure-tested against 30+ customer interviews</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-product-ai.vercel.app/ref/stealth-startup</div>
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>Selling an AI voice platform into six industries is not one launch. It is <span class="accent">six different risk conversations run at once</span>, each with its own incumbent to replace.</h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What that actually requires</h4>
+      <div class="line">A narrative that does not describe "AI voice agents" once, but reframes risk differently for a hospital intake line, a law firm's client call and a utility's dispatch desk, without diluting into generic AI-trend language.</div>
+      <div class="line">Launch and sales enablement built for reps who are selling an unfamiliar category into compliance-heavy buyers, not a developer audience that already trusts AI tooling.</div>
+      <div class="line">A brand and social motion that builds category trust in parallel with the launches, so the message compounds instead of restarting every quarter.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run</h4>
+      <div class="line">At <b>Applied Materials</b> today, I automate my own recurring analysis with AI agents built on Claude, the exact enterprise-system-plus-agent pattern this platform needs a buyer to trust.</div>
+      <div class="line">At <b>Safran</b>, I built personas and positioning across 4 verticals, healthcare among them, for 3 B2B product lines entering markets the client had never sold into directly.</div>
+      <div class="line">At <b>Sensata</b>, I built the sales enablement that took 50+ reps to a 30% higher win rate on a product category their customers had never bought from that angle before.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">The through-line: every launch I have shipped had to earn trust in an unfamiliar category before it ever reached a buyer. That is this role's job across six verticals at once.</div>
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The mandate, mapped</div>
+  <h2>What the posting asks for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Create industry-specific marketing narratives for healthcare, legal, automotive, insurance, utilities, and logistics."</div></div>
+      <div class="quote"><div class="q">"Lead end-to-end product launches, including strategy, messaging, planning, and execution."</div></div>
+      <div class="quote"><div class="q">"Develop sales enablement materials ... conduct internal training sessions."</div></div>
+      <div class="quote"><div class="q">"Oversee creative brand and social media campaigns to strengthen market presence."</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>Safran, 4-vertical narrative work:</b> built personas and positioning across healthcare, aerospace, defense and scientific research, the same segment-by-segment translation this posting asks for across six industries.</div></div>
+      <div class="proof"><div class="p"><b>Sensata, end-to-end launch:</b> owned GTM (positioning, pricing, channel, launch) for a new sensing line across automotive and industrial segments, to $2M+ first-year revenue.</div></div>
+      <div class="proof"><div class="p"><b>Sensata, enablement and training:</b> built the decks, case studies and rep training that took 50+ reps to a 30% higher win rate on a new category.</div></div>
+      <div class="proof"><div class="p"><b>Pixis, brand and creative:</b> kept enterprise case studies and sales materials current across 8 clients while running the creative refreshes behind a 3x ROAS month.</div></div>
+    </div>
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>Size the real opportunity, write the positioning that names what it replaces, then <span class="accent">prove sales can carry it without me in the room.</span></h2>
+  <div class="lede">Same pattern across three companies: segment the market first, then make sure the story survives a live sales call, not just a slide review.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">4 Verticals</div>
+      <div class="lbl">Narrative Work, Safran</div>
+      <div class="desc">Built personas and positioning across healthcare, aerospace, defense and scientific research for 3 B2B product lines entering unfamiliar markets, presented to Safran leadership.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$2M+ Revenue</div>
+      <div class="lbl">End-to-End GTM Launch, Sensata</div>
+      <div class="desc">Positioning, pricing, channel and launch execution for a new sensing product line across automotive and industrial segments, first-year revenue proof the narrative converted.</div>
+    </div>
+    <div class="stat">
+      <div class="n">+30% Win Rate</div>
+      <div class="lbl">Sales Enablement, Sensata</div>
+      <div class="desc">Decks, case studies and rep training built for 50+ reps so the launch story survives a live sales conversation in an unfamiliar category.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">None of these launches had an established category to lean on. Each one had to earn a buyer's trust from zero, the same ground this platform is standing on in every one of its six verticals.</div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month on this platform's positioning and launch calendar looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Pressure-test the current narrative, vertical by vertical</div>
+      <div class="body">Run the same structured-interview discipline behind the 30+ OEM and distributor conversations at Sensata, this time against healthcare, legal, insurance, utilities and logistics buyers, to find where "AI voice agent" triggers a trust objection before launch, not after.</div>
+      <div class="why"><strong>Why first:</strong> the same first move behind the Safran persona work, find the real objection before writing a story around it.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Rebuild positioning that names what it replaces, per segment</div>
+      <div class="body">Write the version of the message that names the old world directly, the manual intake line, the paralegal call screen, the dispatcher's phone bank, so each vertical hears what it is losing and gaining, not a single generic AI pitch stretched six ways.</div>
+      <div class="why"><strong>Why now:</strong> the same replace-the-incumbent framing that shaped the Safran market-entry work and the Sensata launch positioning.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Ship enablement and a brand calendar sellers can run without me</div>
+      <div class="body">Build the decks, case studies and training that took 50+ reps to a 30% higher win rate at Sensata, scoped to each vertical, then set up a social and brand campaign cadence tied to launches, with the first recurring competitive read automated on a Claude agent.</div>
+      <div class="why"><strong>Why this fast:</strong> the same AI-agent automation habit running my own reporting at Applied Materials today, applied to keeping the field current.</div>
+    </div>
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to win six separate trust arguments at once. I have already built the market-entry case for categories that did not exist yet, and run the AI-agent pattern you are selling on my own desk today.</h2>
+  <div class="body">
+    <p>The lived half: <strong>AI agents built on Claude</strong> doing real, recurring enterprise work at Applied Materials today, not a slide about where AI agents are headed.</p>
+    <p>The segment-by-segment half: a 4-vertical narrative case built at <strong>Safran</strong>, an end-to-end GTM launch worth <strong>$2M+ first-year revenue</strong> at Sensata, and sales enablement that moved win rates <strong>+30%</strong> for 50+ reps on a brand-new category.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-product-ai.vercel.app/ref/stealth-startup</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">PRODUCT MARKETING PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
