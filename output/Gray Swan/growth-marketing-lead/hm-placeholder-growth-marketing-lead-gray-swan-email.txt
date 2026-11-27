@@ -1,0 +1,22 @@
+Subject: Repeat participation is a retention question, not an acquisition one
+
+Hi {Hiring Manager, Gray Swan Marketing},
+
+I do not normally reach out before applying, but splitting the question into acquisition and repeat participation, instead of one blended funnel metric, is the same shape of problem I already run, not a new one.
+
+Built you a 6-slide pitch deck so the proof fits on one read.
+
+At Pixis, Amplitude and Tableau told us which campaigns to scale and which to kill, lifting ROAS 40% and cutting churn 50% across an 8-client, 8-person team I hired and ran.
+At Sensata I built SQL and GA4 frameworks to segment 50K+ connected devices into cohorts instead of treating the base as one audience, the same split a repeat-participation program needs per challenge.
+At Applied Materials I run my own reporting through Claude agents instead of rebuilding dashboards every cycle, time that goes straight into the next experiment instead of the tooling.
+
+Here's the portfolio: https://adhi-growth-ai.vercel.app/ref/gray-swan
+
+Worth 15 minutes to see if the scope lines up. Happy to be pointed elsewhere if it is not your req.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

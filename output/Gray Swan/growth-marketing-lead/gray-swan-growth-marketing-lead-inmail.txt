@@ -1,0 +1,18 @@
+Subject: The first-challenge-to-repeat gap is a community problem, not a funnel one
+
+Hi {Hiring Manager, Gray Swan Marketing},
+
+Arena asks people to come back for the next challenge, not just sign up for the first one, and that repeat-participation question is closer to a community retention problem than a standard acquisition funnel. I ran that exact shape at Pixis: hired and ran an 8-person team across an 8-client book, used Amplitude and Tableau to tell which campaigns to scale and which to kill, lifting ROAS 40% and cutting churn 50%.
+
+At Sensata I built SQL and GA4 frameworks to segment 50K+ connected devices into cohorts instead of one blended audience, the same split your lifecycle programs would run per channel and per challenge type.
+
+Here's the portfolio: https://adhi-growth-ai.vercel.app/ref/gray-swan
+
+If you have 15 minutes this week, I would like to hear how the team is thinking about the first-challenge-to-repeat gap.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
