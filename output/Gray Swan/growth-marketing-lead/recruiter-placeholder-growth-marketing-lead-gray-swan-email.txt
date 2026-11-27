@@ -8,7 +8,7 @@ Built you a 6-slide pitch deck so the proof fits on one read.
 
 At Pixis I hired and ran an 8-person team across an 8-client acquisition book, taking one client to 3x ROAS in a single month and cutting churn 50% through the same scale-then-retain loop Arena's funnel runs on.
 At Plug Power I ran paid search and social on $100K/month budgets across Google, Meta and LinkedIn, cutting CPA 25%.
-At Sensata I built SQL and GA4 frameworks to segment 50K+ connected devices into cohorts, the same segmentation lifecycle programs run against.
+At Sensata I built SQL and GA4 frameworks to segment 50K+ connected devices, the same segmentation lifecycle programs run against.
 
 Here's the portfolio: https://adhi-growth-ai.vercel.app/ref/gray-swan
 
