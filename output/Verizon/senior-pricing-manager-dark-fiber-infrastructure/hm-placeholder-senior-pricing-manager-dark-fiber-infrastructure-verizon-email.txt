@@ -1,0 +1,18 @@
+Subject: Treating dark fiber deals like a deal-approval problem, not a rate card
+
+Hi {Hiring Manager, Dark Fiber & Infrastructure Pricing},
+
+I don't normally reach out before applying, but your posting asks for someone who can model IRU, lease and overbuild economics against return thresholds for hyperscale buyers, then build the approval package an executive signs. That's the shape of work I already do, just on a different capital base.
+
+At Sensata I built and ran a pricing-governance program tracking 1,200 opportunities against a $627M target, surfacing $433M in margin gaps and recovering $700K+ in two quarters. I carried P&L and return targets leading global pricing for a multi-$100M, capital-intensive business, so pricing against a hard return threshold, not a list price, is already how I think. I've since built PriceKeel, a deal-approval layer that catches a discount exception before a deal closes with a full audit trail, the same approval-package rigor this role needs.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/verizon
+
+Would you have 15 minutes to talk through how this maps to the hyperscale and neocloud pipeline you're pricing for? Happy to be redirected if there's a better-fit contact on your team.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998

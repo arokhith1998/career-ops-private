@@ -1,0 +1,21 @@
+Subject: Pricing hyperscale fiber deals like a deal-approval problem, not a rate card
+
+Hi {Recruiter, Dark Fiber & Infrastructure Pricing},
+
+I don't normally reach out before applying, but pricing IRU and long-haul dark fiber deals against return thresholds, not a rate card, is the exact problem I've spent the last few years solving on the commercial software side.
+
+A few numbers that map directly:
+- Built and ran a pricing-governance program at Sensata tracking 1,200 deals against a $627M target, surfacing $433M in margin gaps and recovering $700K+ in two quarters.
+- Led global pricing for a multi-$100M, capital-intensive industrial business, carrying P&L and return targets.
+- Founded PriceKeel, a deal-approval layer that flags discount exceptions before a deal closes, the same approval-package discipline this role needs.
+
+Here's the portfolio: https://adhi-pricing-ai.vercel.app/ref/verizon
+
+If you're the right contact for this req, I'd value 15 minutes. If not, a pointer to whoever owns Dark Fiber & Infrastructure pricing would help.
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
