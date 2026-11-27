@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>iCIMS Competitive Intelligence Program Manager Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #1a56db; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 32pt; font-weight: 800; color: #0f172a; line-height: 1.08; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 21pt; font-weight: 800; color: #0f172a; line-height: 1.1; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #1a56db; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.5in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbe7fb 100%); }
+  .cover h1 { font-size: 23pt; max-width: 11.4in; }
+  .cover .sub { font-size: 14pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 18pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #1a56db; font-weight: 700; }
+  .cover .who { margin-top: 18pt; padding-top: 11pt; border-top: 1.5pt solid #1a56db; max-width: 9in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #1a56db; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .pt { background: #eef3fc; border-left: 3pt solid #1a56db; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .pt .q { font-size: 9.5pt; color: #123a91; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #1a56db; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #eef3fc; border-left: 4pt solid #1a56db; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #123a91; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 22pt; font-weight: 800; color: #1a56db; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #1a56db; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #1a56db; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbe7fb 100%); }
+  .close h2 { font-size: 25pt; max-width: 10.5in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.5in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #1a56db; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the iCIMS Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | iCIMS Competitive Intelligence Program Manager</div>
+  <h1>A competitive-intelligence program stops paying off the day nobody owns getting it in front of Sales, Customer Success, Product and Marketing on the same cadence. I already run that distribution loop, today, with AI agents doing the repetitive part.</h1>
+  <div class="sub">Benchmarking, win/loss-informed positioning, and a live Customer Success retention partnership, already running as a daily habit, not a pitch.</div>
+  <div class="tags">
+    <div class="tag"><strong>10+ competitors</strong> benchmarked at Sensata, driving +8% market share</div>
+    <div class="tag"><strong>50% churn cut</strong> at Pixis through a direct Customer Success retention partnership</div>
+    <div class="tag"><strong>Claude AI agents</strong> automate my recurring market-monitoring work today, at Applied Materials</div>
+    <div class="tag"><strong>50+ reps</strong> armed with sales-enablement and battlecard-style materials I built from scratch</div>
+    <div class="tag"><strong>30+ interviews</strong> sourced and fact-checked with OEMs and distributors before shipping as positioning</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-product-ai.vercel.app/ref/icims</div>
+  </div>
+  <div class="brand">ICIMS COMPETITIVE INTELLIGENCE PM</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>A CI program's hardest part is not the first battlecard. It is keeping sourcing, fact-checking and distribution to four different teams running <span class="accent">every single cycle.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What a CI program runs into</h4>
+      <div class="line">A battlecard lands well once, then goes stale within a quarter because nobody owns the refresh cadence and the vendor/source list behind it.</div>
+      <div class="line">Win/loss signal, pricing moves and retention risk arrive from Sales, Customer Success, Product and Marketing separately, and rarely get synthesized into one view before a deal needs it.</div>
+      <div class="line">The fix is not one more report. It is one owner who sources it, fact-checks it, and automates the refresh so the next battlecard is a review, not a rebuild.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run, hands on</h4>
+      <div class="line">At <b>Sensata</b>, I ran the competitive benchmarking program against 10+ players, turned competitive gaps into a price realignment, and built the sales-enablement and battlecard-style materials 50+ reps used to win.</div>
+      <div class="line">At <b>Pixis</b>, I ran the Customer Success side directly: proactive retention playbooks across an 8-client portfolio that cut churn 50%, the same CI-to-CS handoff this program is built to run.</div>
+      <div class="line">At <b>Applied Materials</b>, I automate the recurring part of my own market-monitoring and competitive research with AI agents built on Claude, so a refresh is a review, not a rebuild.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">Collect it, source and fact-check it, distribute it to Sales, CS, Product and Marketing, then automate the part that repeats: this is the exact loop I already run.</div>
+  </div>
+  <div class="brand">ICIMS COMPETITIVE INTELLIGENCE PM</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What the Competitive Intelligence Program Manager opening asks for, and where the proof sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="pt"><div class="q">Collects, analyzes and distributes competitive intelligence to Sales, Customer Success, Product and Marketing.</div></div>
+      <div class="pt"><div class="q">Runs AI-driven market monitoring and automation, with sourcing and fact-checking built in.</div></div>
+      <div class="pt"><div class="q">Owns win/loss analysis, competitive battlecards and positioning.</div></div>
+      <div class="pt"><div class="q">Runs proactive retention work with Customer Success and manages the vendors behind the program.</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>Sales enablement and battlecards:</b> built from scratch for 50+ reps at Sensata, moving win rates 30%.</div></div>
+      <div class="proof"><div class="p"><b>AI-driven monitoring:</b> automate my own recurring market-monitoring and competitive research with Claude agents at Applied Materials, today.</div></div>
+      <div class="proof"><div class="p"><b>Win/loss and positioning:</b> 10+-player benchmarking behind a price realignment and +8% market share at Sensata.</div></div>
+      <div class="proof"><div class="p"><b>CS retention and vendor work:</b> ran the Customer Success retention side directly at Pixis (churn -50%) and negotiated channel-partner repricing at Sensata.</div></div>
+    </div>
+  </div>
+  <div class="brand">ICIMS COMPETITIVE INTELLIGENCE PM</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>One benchmarking program, one retention partnership, <span class="accent">one automated research cycle.</span></h2>
+  <div class="lede">The common thread across all three: source the signal, fact-check it, hand it to the team that needs it next, then automate whatever repeats.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">10+ Competitors</div>
+      <div class="lbl">Benchmarked at Sensata</div>
+      <div class="desc">Fed a win/loss-informed price realignment that drove +12% YoY revenue and +8% market share.</div>
+    </div>
+    <div class="stat">
+      <div class="n">50% Churn Cut</div>
+      <div class="lbl">Customer Success Retention, Pixis</div>
+      <div class="desc">Proactive account strategy and vertical playbooks across an 8-client portfolio, run with the account teams directly.</div>
+    </div>
+    <div class="stat">
+      <div class="n">30+ Interviews</div>
+      <div class="lbl">OEM and Distributor Signal, Sourced</div>
+      <div class="desc">Fact-checked buyer-level signal on adoption blockers and objections before it shipped as positioning.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">Benchmark the field, hand the signal to Sales and Customer Success, automate the part that repeats: that is the loop I would bring to iCIMS.</div>
+  <div class="brand">ICIMS COMPETITIVE INTELLIGENCE PM</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 90 days</div>
+  <h2>How I would ramp into sourcing, distribution and the Customer Success retention handoff.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Days 1-30</div>
+      <div class="ttl">Map the competitive and vendor source list</div>
+      <div class="body">Build the first fact-checked source map across Sales, Customer Success, Product and Marketing, and ship the first battlecard from it rather than a slide nobody reuses.</div>
+      <div class="why"><strong>Why first:</strong> the same opening move behind the 10+-player benchmarking at Sensata, map the field before the first battlecard ships.</div>
+    </div>
+    <div class="card">
+      <div class="label">Days 30-60</div>
+      <div class="ttl">Ship the first win/loss readout and CS handoff</div>
+      <div class="body">Build the first win/loss readout and the first direct retention handoff with Customer Success, run the way I ran Pixis's 8-client retention program, not a report CS receives secondhand.</div>
+      <div class="why"><strong>Why now:</strong> the same build that cut churn 50% at Pixis.</div>
+    </div>
+    <div class="card">
+      <div class="label">Days 60-90</div>
+      <div class="ttl">Automate the recurring monitoring cycle</div>
+      <div class="body">Stand up the first AI agent against the recurring part of the monitoring cycle, the same Claude-agent habit already running at Applied Materials.</div>
+      <div class="why"><strong>Why this fast:</strong> the exact hands-on AI-agent experience this program is built to run on, not a plan for someday.</div>
+    </div>
+  </div>
+  <div class="brand">ICIMS COMPETITIVE INTELLIGENCE PM</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to source, fact-check and distribute competitive intelligence to four teams, then automate the part that repeats. I already run that loop.</h2>
+  <div class="body">
+    <p>The core proof: <strong>10+ competitors benchmarked</strong> at Sensata driving +8% market share, <strong>50% churn cut</strong> through a direct Customer Success retention partnership at Pixis, and <strong>50+ reps</strong> armed with battlecard-style sales enablement that moved win rates 30%.</p>
+    <p>What is harder to find is someone who already automates the recurring half of that work with the same AI-agent habit this program asks for. I run that today at Applied Materials, so the hands-on AI-tooling experience the program wants is not something I would build on the job, it is the one I would bring to the interview.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-product-ai.vercel.app/ref/icims</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">ICIMS COMPETITIVE INTELLIGENCE PM</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
