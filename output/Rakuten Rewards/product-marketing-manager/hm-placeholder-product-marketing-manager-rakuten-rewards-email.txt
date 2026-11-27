@@ -1,0 +1,20 @@
+Subject: Building the RAF brief once, reusing it across every tentpole
+
+Hi {Hiring Manager, Product Marketing},
+
+Your posting asks for someone who thinks in systems, building repeatable assets rather than one-offs, specifically so the creative brief for Big Give Week does not get rebuilt from scratch for Cyber Week and the holiday run. That is the habit I built rebuilding Sensata's new-product positioning once, then reusing the same message architecture across every regional launch instead of writing it three times, which drove $2M+ in first-year revenue.
+
+The retention half of RAF, getting a referred member to a second and third purchase, is the same problem I solved at Pixis: proactive account strategy and channel-specific playbooks, built as a repeatable framework rather than a one-time save, cut client churn 50% across an 8-client portfolio. At Plug Power I turned raw customer research straight into lifecycle messaging changes, lifting conversion 20% and cutting CPA 15%.
+
+At Applied Materials I automate my own recurring market analysis with Claude AI agents today, the same instinct toward repeatable systems your posting names.
+
+Here's the portfolio: https://adhi-product.vercel.app/ref/rakuten-rewards
+
+Open to 15 minutes on how the RAF roadmap is scoped?
+
+Thank you,
+
+Adhithya Rokhith Bhaskar
+arokhith@gmail.com
+LinkedIn: https://www.linkedin.com/in/adhithyarokhith/
+GitHub: https://github.com/arokhith1998
