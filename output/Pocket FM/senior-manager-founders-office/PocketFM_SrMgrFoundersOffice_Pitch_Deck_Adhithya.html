@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Pocket FM Senior Manager Founder's Office Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #1a56db; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 25pt; font-weight: 800; color: #0f172a; line-height: 1.17; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 19pt; font-weight: 800; color: #0f172a; line-height: 1.16; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #1a56db; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.8in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbeafe 100%); }
+  .cover h1 { font-size: 21pt; max-width: 11.3in; }
+  .cover .sub { font-size: 13pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; max-width: 10.8in; }
+  .cover .tags { margin-top: 16pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.6in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9pt; font-weight: 500; }
+  .tag strong { color: #1a56db; font-weight: 700; }
+  .cover .who { margin-top: 16pt; padding-top: 10pt; border-top: 1.5pt solid #1a56db; max-width: 9.4in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #1a56db; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #eff6ff; border-left: 3pt solid #1a56db; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #1e3a8a; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #1a56db; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.4pt; color: #334155; line-height: 1.46; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 13pt; background: #eff6ff; border-left: 4pt solid #1a56db; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #1e3a8a; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 20pt; font-weight: 800; color: #1a56db; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.3pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.6pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1a56db; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #1a56db; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.3pt; font-weight: 800; color: #0f172a; line-height: 1.18; margin-bottom: 7pt; }
+  .card .body { font-size: 8.8pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.3pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #1a56db; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #dbeafe 100%); }
+  .close h2 { font-size: 22pt; max-width: 10.9in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.8in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #1a56db; font-weight: 700; }
+  .close .contact { margin-top: 15pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Pocket FM Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Pocket FM Senior Manager, Founder's Office</div>
+  <h1>A Founder's Office that has to turn AI capability into shipped business impact needs someone who has already automated their own operating cadence with AI agents, not someone who will learn to.</h1>
+  <div class="sub">A record of running the operating rhythm underneath a leadership team, closing cross-functional bottlenecks with a negotiated number, and building the strategic narrative with no one else to hand it to.</div>
+  <div class="tags">
+    <div class="tag"><strong>Claude AI agents</strong> automating recurring research and reporting at Applied Materials today</div>
+    <div class="tag"><strong>$700K+ / 2 quarters</strong> margin recovered off a whitespace shortlist built at Sensata, promoted in 10 months</div>
+    <div class="tag"><strong>Founder &amp; CEO</strong> of PriceKeel, running investor narrative, pilots and operating cadence myself</div>
+    <div class="tag"><strong>8-person team / 8 accounts</strong> hired, managed and turned around at Pixis across multiple time zones</div>
+    <div class="tag"><strong>$100K/month budgets</strong> owned and presented to the leadership team for approval at Plug Power</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhithyabhaskar.vercel.app/ref/pocket-fm</div>
+  </div>
+  <div class="brand">POCKET FM FOUNDER'S OFFICE PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>A Founder's Office seat at an AI-native storytelling company is not a biography fit. It is proof of <span class="accent">already running the operating rhythm and automating it with AI, at scale.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What that actually requires</h4>
+      <div class="line">Taking ambiguous, high-impact initiatives, special projects, global expansion, new category creation, from idea to shipped outcome with no fixed scope.</div>
+      <div class="line">Finding AI-led opportunities across the business and turning them into real automation of how the company operates, not a slide that names the opportunity.</div>
+      <div class="line">Running the operating rhythm itself: business reviews, dashboards, leadership communication and the meeting systems that keep decisions sequenced.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run, at that exact layer</h4>
+      <div class="line">Automate recurring research and analysis with <b>AI agents built on Claude</b> at Applied Materials, freeing hours each week for the decisions that actually need a person.</div>
+      <div class="line">Took the <b>Bleeders and Leakers program</b> at Sensata from a vague margin mandate to a $433M shortlist and $700K+ negotiated, promoted into the seat in 10 months.</div>
+      <div class="line">Founded <b>PriceKeel</b> and run its investor narrative, pilots and operating cadence myself, with no team to hand any of it off to.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">The through-line: I have already turned AI capability into operating leverage and a cross-functional program into a negotiated number, before anyone called it a Founder's Office job.</div>
+  </div>
+  <div class="brand">POCKET FM FOUNDER'S OFFICE PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What Pocket FM's Founder's Office opening asks for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">Lead high-impact special projects across central initiatives, global expansion and new category creation, idea to shipped outcome.</div></div>
+      <div class="quote"><div class="q">Identify and drive AI-led opportunities, partnering with product, tech and content to automate how the company operates.</div></div>
+      <div class="quote"><div class="q">Build and run the operating rhythm: business reviews, dashboards, leadership communication, meeting systems.</div></div>
+      <div class="quote"><div class="q">Build and maintain the strategic narrative for investors, partners and global teams.</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>Ambiguous to shipped:</b> led the Bleeders and Leakers program end to end at Sensata, from an unowned margin mandate to a negotiated $700K+ outcome in 2 quarters.</div></div>
+      <div class="proof"><div class="p"><b>AI-led automation:</b> built and run Claude-based AI agents at Applied Materials that automate recurring research and analysis across multiple product groups today.</div></div>
+      <div class="proof"><div class="p"><b>Operating rhythm:</b> build the leadership decks and run the OKR cadence, weekly and quarterly reviews, at Applied Materials, Sensata and inside PriceKeel itself.</div></div>
+      <div class="proof"><div class="p"><b>Strategic narrative:</b> write PriceKeel's own investor updates and pricing narrative while carrying a multi-$100M P&amp;L conversation with Sensata's senior executives.</div></div>
+    </div>
+  </div>
+  <div class="brand">POCKET FM FOUNDER'S OFFICE PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>Bleeders and Leakers: an unowned margin mandate turned into a <span class="accent">whitespace shortlist and a negotiated number, on a 10-month promotion clock.</span></h2>
+  <div class="lede">Built as the owner of a program with no existing dashboard, no existing partner relationships and no precedent, the same starting point a founder's "figure out the AI opportunity" priority usually looks like.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$433M / 1,200</div>
+      <div class="lbl">Whitespace Shortlist Built</div>
+      <div class="desc">1,200 pricing opportunities ranked against a $627M target across 3 regions, surfaced for leadership to prioritize.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$700K+ / 2Q</div>
+      <div class="lbl">Margin Recovered</div>
+      <div class="desc">Negotiated from competitive gaps and customer willingness to pay, direct with senior executives.</div>
+    </div>
+    <div class="stat">
+      <div class="n">10 Months</div>
+      <div class="lbl">To Promotion</div>
+      <div class="desc">Product and Growth Marketing to Pricing Lead, on the strength of that program and the OKR cadence behind it.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">The automation instinct runs in parallel: the Claude-based agents at Applied Materials exist because the same research load that once ate hours of a cross-functional week is exactly what AI should be carrying instead, which is the gap this req names directly.</div>
+  <div class="brand">POCKET FM FOUNDER'S OFFICE PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month inside Pocket FM's Founder's Office would look like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Sit inside the real bottleneck</div>
+      <div class="body">Talk to product, tech and content leads to find where an AI-led opportunity, a business review or an information flow is actually stalling today, the same audit that grounded the Bleeders and Leakers program before a dashboard existed.</div>
+      <div class="why"><strong>Why first:</strong> an AI-automation mandate built on assumptions instead of real blockers is the fastest way to automate the wrong thing.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Ship the first AI-led win</div>
+      <div class="body">Take one recurring, high-friction workflow, a reporting cycle, a cross-team handoff or a dashboard refresh, and automate it the way the Claude agents at Applied Materials now carry recurring research, so the team feels the leverage inside a month.</div>
+      <div class="why"><strong>Why now:</strong> one shipped automation that frees real hours beats a week-one roadmap of ideas.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Turn the win into the operating rhythm</div>
+      <div class="body">Fold what that first automation proved into the recurring business-review and dashboard cadence, the same move that turned a one-off margin recovery at Sensata into a repeatable OKR cycle leadership could trust.</div>
+      <div class="why"><strong>Why this fast:</strong> a cadence only earns the Founder's trust once it has already moved one real decision.</div>
+    </div>
+  </div>
+  <div class="brand">POCKET FM FOUNDER'S OFFICE PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>Pocket FM's Founder's Office needs someone who treats AI-led automation, operating rhythm and the strategic narrative as one job, not three handoffs. I have already run all three, at scale.</h2>
+  <div class="body">
+    <p>The core proof is Sensata and Applied Materials together: a <strong>$700K+ margin program</strong> built on a whitespace shortlist, and <strong>Claude-based AI agents</strong> already carrying the recurring research load that a Founder's Office automation mandate is built to find more of.</p>
+    <p>What is harder to find is someone who has also carried that discipline as a founder: I run PriceKeel's investor narrative, pilots and operating cadence myself, with no team to hand any of it to, while still hiring and managing teams at Pixis and Plug Power. That combination, build the automation, run the rhythm, own the narrative, is what a Founder's Office needs most.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhithyabhaskar.vercel.app/ref/pocket-fm</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">POCKET FM FOUNDER'S OFFICE PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
