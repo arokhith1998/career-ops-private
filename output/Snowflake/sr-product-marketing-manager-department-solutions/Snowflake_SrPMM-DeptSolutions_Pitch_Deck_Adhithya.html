@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Snowflake Sr PMM, Department Solutions Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #1859c4; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 27pt; font-weight: 800; color: #0f172a; line-height: 1.14; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 20pt; font-weight: 800; color: #0f172a; line-height: 1.12; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #1859c4; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.8in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d7e6fa 100%); }
+  .cover h1 { font-size: 22pt; max-width: 11.5in; }
+  .cover .sub { font-size: 13.5pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 16pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.5in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.1pt; font-weight: 500; }
+  .tag strong { color: #1859c4; font-weight: 700; }
+  .cover .who { margin-top: 16pt; padding-top: 10pt; border-top: 1.5pt solid #1859c4; max-width: 9.5in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #1859c4; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #e8f0fc; border-left: 3pt solid #1859c4; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.3pt; color: #10407f; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.2pt; color: #334155; line-height: 1.44; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #1859c4; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #e8f0fc; border-left: 4pt solid #1859c4; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #10407f; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1859c4; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 23pt; font-weight: 800; color: #1859c4; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -1pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #1859c4; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #1859c4; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #1859c4; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #d7e6fa 100%); }
+  .close h2 { font-size: 23pt; max-width: 10.9in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.9in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #1859c4; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Snowflake Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Snowflake Sr. Product Marketing Manager, Department Solutions</div>
+  <h1>Turning technical capability into a business-value statement a Finance leader acts on, building field enablement 50+ reps use unchanged, and running the cross-functional loop between Account teams and Field Marketing: already one job, not three to learn on the way in.</h1>
+  <div class="sub">A margin model that reset how Finance leadership prioritized $433M in gaps, field enablement that lifted win rates 30%, and a Claude-run pricing practice built to scale decision-maker messaging without scaling headcount.</div>
+  <div class="tags">
+    <div class="tag"><strong>$433M</strong> in margin gaps surfaced for leadership via the Sensata Bleeders and Leakers model</div>
+    <div class="tag"><strong>50+ reps</strong> equipped with enablement material that lifted win rates 30% at Sensata</div>
+    <div class="tag"><strong>$2M+</strong> first-year revenue from a GTM launch aligned across North America and Europe</div>
+    <div class="tag"><strong>Claude AI agents</strong> acting on market analysis and forecasting at Applied Materials, not just reporting it</div>
+    <div class="tag"><strong>30+ customer interviews</strong> surfacing insight that reshaped a product roadmap</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-product-ai.vercel.app/ref/snowflake</div>
+  </div>
+  <div class="brand">SNOWFLAKE DEPT SOLUTIONS PMM PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>Your posting asks for one person who can co-own Finance persona strategy, run big-bet campaigns, enable the field at scale, and still make the message land with a CFO's office. <span class="accent">Most GTM careers only build one of those at a time.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>Where that breaks for most candidates</h4>
+      <div class="line">A GTM program built to scale globally usually loses the Finance-grade translation that makes a CFO's office actually act on it. A pricing or Finance specialist, in turn, rarely has the cross-functional reach to turn that translation into a field-wide sales play.</div>
+      <div class="line">Finance and CFO buyers notice fast when a platform pitch has been reframed into their numbers versus when it was never built in their language to begin with.</div>
+      <div class="line">The fix is not another slide. It is someone who already builds the margin model Finance reads from, not someone translating it for the first time on this role.</div>
+    </div>
+    <div class="panel">
+      <h4>What I already run</h4>
+      <div class="line">At <b>Sensata</b>, I built the Bleeders and Leakers model: a BU-wide dashboard that surfaced $433M in margin gaps across 1,200 pricing opportunities for leadership to prioritize, the exact business-value statement a Finance audience reads first.</div>
+      <div class="line">At <b>Applied Materials</b>, I now align market sizing across Sales, Engineering and Accounts and turn that technical input into value-based pricing views decision-makers act on, with AI agents built on Claude doing the analysis work.</div>
+      <div class="line">Both sides mean I have sat in the Finance-facing seat and the cross-functional field seat on the same program, not handed one to the other.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">Co-owning Finance persona strategy, running big-bet campaigns, enabling the field at scale, translating platform value into business value: that is one connected loop. Build the model, equip the team, prove the number.</div>
+  </div>
+  <div class="brand">SNOWFLAKE DEPT SOLUTIONS PMM PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The req, mapped</div>
+  <h2>What the Sr PMM, Department Solutions opening asks for, next to where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">Co-own and align marketing strategy for the Finance team personas, ensuring plans reflect customer insight and empower the field to execute with impact.</div></div>
+      <div class="quote"><div class="q">Develop and execute "big bets": net-new integrated campaigns and targeted sales plays that accelerate adoption.</div></div>
+      <div class="quote"><div class="q">Enable the field at scale with programs, sales plays and messaging that drive pipeline and revenue outcomes.</div></div>
+      <div class="quote"><div class="q">Translate platform value into business value statements that resonate with decision-makers across every industry vertical.</div></div>
+    </div>
+    <div class="col">
+      <h3>My Proof</h3>
+      <div class="proof"><div class="p"><b>Finance-fluent business value:</b> built the Sensata Bleeders and Leakers model surfacing $433M in margin gaps across 1,200 pricing opportunities against a $627M target, the kind of number a CFO's office reads without a translator.</div></div>
+      <div class="proof"><div class="p"><b>Big-bet campaigns:</b> drove GTM for new sensing-product launches across North America and Europe at Sensata, positioning, pricing and channel together, for $2M+ first-year revenue.</div></div>
+      <div class="proof"><div class="p"><b>Field enablement at scale:</b> equipped 50+ reps with decks, case studies and sales plays they used unchanged in the field, lifting win rates 30%.</div></div>
+      <div class="proof"><div class="p"><b>Translating value for decision-makers:</b> at Applied Materials, aligns market sizing across Sales, Engineering and Accounts, turning technical capability into value-based pricing and business-value statements, with Claude AI agents running the analysis.</div></div>
+    </div>
+  </div>
+  <div class="brand">SNOWFLAKE DEPT SOLUTIONS PMM PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>The Bleeders and Leakers model at Sensata: <span class="accent">margin gaps surfaced the way Finance already reads numbers, not reframed for a slide.</span></h2>
+  <div class="lede">A BU-wide Power BI dashboard tracking 1,200 pricing opportunities against a $627M target across 3 regions, 4 product families and 20 product lines, with pipeline funnel, regional scorecards, win rate, average dollars per win and stage distribution, so leadership could prioritize by salesperson and product line directly.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">$433M</div>
+      <div class="lbl">Margin Gaps Surfaced</div>
+      <div class="desc">Across 1,200 pricing opportunities, ranked for leadership by salesperson and product line, the decision-ready translation this role's Finance pillar asks for.</div>
+    </div>
+    <div class="stat">
+      <div class="n">$700K+</div>
+      <div class="lbl">Margin Recovered in 2 Quarters</div>
+      <div class="desc">Through the Bleeders and Leakers negotiation program, built on competitive gaps and customer willingness to pay.</div>
+    </div>
+    <div class="stat">
+      <div class="n">53% to 61%</div>
+      <div class="lbl">Distributor Margin Lift</div>
+      <div class="desc">Raised across channel partners in under 2 quarters by repricing parts sold through distribution, the same channel-economics fluency this role rewards.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">At Applied Materials, that same Finance-fluent discipline now runs on Claude AI agents acting directly on market and forecasting analysis, so the translation from technical capability to business-value statement happens faster, not slower, as the program scales across product groups.</div>
+  <div class="brand">SNOWFLAKE DEPT SOLUTIONS PMM PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month running Department Solutions GTM at Snowflake looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Map the Finance persona and account landscape</div>
+      <div class="body">Sit with Account teams, Field Marketing, Technical Sales and Industry specialists to learn the current Finance messaging, sales plays and the "big bets" already in flight, and shadow one live cross-functional working group end to end.</div>
+      <div class="why"><strong>Why first:</strong> the same groundwork behind the Bleeders and Leakers model before touching a single price.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Ship one field-enablement asset against a live sales play</div>
+      <div class="body">Take one Finance sales play already in motion and ship enablement (messaging, business-value statement, case study) a rep can use unchanged this quarter, then track it against pipeline and revenue outcomes.</div>
+      <div class="why"><strong>Why now:</strong> the same build-it-so-the-field-can-use-it-as-is discipline that lifted Sensata win rates 30%.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Scope one net-new "big bet" integrated campaign</div>
+      <div class="body">Identify one net-new campaign opportunity for a priority industry vertical, write the regional-to-global alignment plan, and bring cross-functional working groups in before execution starts.</div>
+      <div class="why"><strong>Why this fast:</strong> a big bet only earns its name if cross-functional alignment is set before launch, the same order Sensata's cross-region launches ran in.</div>
+    </div>
+  </div>
+  <div class="brand">SNOWFLAKE DEPT SOLUTIONS PMM PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to make Finance's own numbers the center of the pitch, not a slide added after the fact. I already build that model.</h2>
+  <div class="body">
+    <p>The core proof is Sensata: the Bleeders and Leakers model that surfaced <strong>$433M in margin gaps</strong> across 1,200 pricing opportunities, enablement <strong>50+ reps used unchanged</strong> to lift win rates <strong>30%</strong>, and a cross-region launch worth <strong>$2M+ in first-year revenue</strong>.</p>
+    <p>What is harder to find is someone who runs that same discipline through AI tooling instead of a quarterly cycle. <strong>I run that now at Applied Materials</strong> on AI agents built on Claude that act on market and forecasting analysis directly, the same speed advantage Department Solutions' big bets would get from day one.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-product-ai.vercel.app/ref/snowflake</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">SNOWFLAKE DEPT SOLUTIONS PMM PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>

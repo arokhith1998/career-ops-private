@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Glean Senior Demand Generation Manager Pitch Deck - Adhithya Rokhith Bhaskar</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; font-variant-ligatures: none; }
+  @page { size: 13.333in 7.5in; margin: 0; }
+  body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #1c1917; background: #f8fafc; font-size: 11pt; line-height: 1.45; -webkit-font-smoothing: antialiased; font-variant-ligatures: none; }
+  .slide { width: 13.333in; height: 7.5in; padding: 0.5in 0.7in 0.45in 0.7in; page-break-after: always; position: relative; overflow: hidden; background: #f8fafc; }
+  .slide:last-child { page-break-after: avoid; }
+  .num { position: absolute; bottom: 0.32in; right: 0.5in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 1.5pt; font-weight: 600; }
+  .brand { position: absolute; bottom: 0.32in; left: 0.7in; font-size: 8.5pt; color: #94a3b8; letter-spacing: 0.5pt; font-weight: 600; }
+  .eyebrow { font-size: 8.5pt; color: #0e7490; letter-spacing: 2pt; font-weight: 700; text-transform: uppercase; margin-bottom: 9pt; }
+  h1 { font-size: 27pt; font-weight: 800; color: #0f172a; line-height: 1.14; letter-spacing: -0.5pt; margin-bottom: 8pt; }
+  h2 { font-size: 20pt; font-weight: 800; color: #0f172a; line-height: 1.12; letter-spacing: -0.3pt; margin-bottom: 11pt; }
+  h2 .accent { color: #0e7490; }
+  .lede { font-size: 12pt; color: #475569; max-width: 10.7in; margin-bottom: 11pt; font-weight: 400; }
+
+  .cover { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #e0f2fe 100%); }
+  .cover h1 { font-size: 24pt; max-width: 11.3in; }
+  .cover .sub { font-size: 14pt; color: #475569; margin-top: 4pt; font-style: italic; font-weight: 400; }
+  .cover .tags { margin-top: 16pt; display: flex; gap: 7pt; flex-wrap: wrap; max-width: 11.4in; }
+  .tag { background: #fff; border: 1pt solid #cbd5e1; color: #334155; padding: 5pt 11pt; border-radius: 3pt; font-size: 9.3pt; font-weight: 500; }
+  .tag strong { color: #0e7490; font-weight: 700; }
+  .cover .who { margin-top: 16pt; padding-top: 11pt; border-top: 1.5pt solid #0e7490; max-width: 9.4in; }
+  .cover .who .nm { font-size: 11pt; color: #0f172a; font-weight: 700; }
+  .cover .who .ct { font-size: 9.3pt; color: #475569; margin-top: 3pt; }
+  .cover .prep { position: absolute; top: 0.5in; right: 0.7in; font-size: 9pt; color: #94a3b8; font-style: italic; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 22pt; margin-top: 4pt; }
+  .col { padding: 12pt 0 0 0; border-top: 2.5pt solid #0e7490; }
+  .col h3 { font-size: 12pt; font-weight: 800; color: #0f172a; margin-bottom: 10pt; letter-spacing: -0.2pt; }
+  .quote { background: #ecfeff; border-left: 3pt solid #0e7490; padding: 6pt 10pt; margin-bottom: 8pt; }
+  .quote .q { font-size: 9.5pt; color: #155e63; font-style: italic; line-height: 1.4; font-weight: 600; }
+  .proof { padding: 5pt 0 8pt 0; border-bottom: 1pt solid #e2e8f0; }
+  .proof .p { font-size: 9.3pt; color: #334155; line-height: 1.46; }
+  .proof .p b { color: #0f172a; font-weight: 700; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 24pt; margin-top: 8pt; }
+  .panel { background: #fff; border: 1pt solid #e2e8f0; border-top: 4pt solid #0e7490; padding: 14pt 16pt 12pt 16pt; }
+  .panel h4 { font-size: 11pt; font-weight: 800; color: #0f172a; margin-bottom: 8pt; }
+  .panel .line { font-size: 9.5pt; color: #334155; line-height: 1.48; margin-bottom: 7pt; }
+  .panel .line b { color: #0f172a; }
+  .bridge { margin-top: 14pt; background: #ecfeff; border-left: 4pt solid #0e7490; padding: 11pt 16pt; }
+  .bridge .t { font-size: 10.5pt; color: #155e63; line-height: 1.46; font-weight: 600; }
+
+  .stat-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16pt; margin-top: 12pt; }
+  .stat { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0e7490; padding: 13pt 13pt 11pt 13pt; }
+  .stat .n { font-size: 20pt; font-weight: 800; color: #0e7490; line-height: 1.0; margin-bottom: 4pt; letter-spacing: -0.5pt; }
+  .stat .lbl { font-size: 9.5pt; font-weight: 700; color: #0f172a; margin-bottom: 4pt; }
+  .stat .desc { font-size: 8.7pt; color: #64748b; line-height: 1.42; }
+
+  .week { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15pt; margin-top: 6pt; }
+  .card { background: #fff; border: 1pt solid #e2e8f0; border-left: 4pt solid #0e7490; padding: 13pt 13pt 11pt 13pt; }
+  .card .label { font-size: 8.3pt; color: #0e7490; letter-spacing: 1.4pt; font-weight: 700; text-transform: uppercase; margin-bottom: 4pt; }
+  .card .ttl { font-size: 11.5pt; font-weight: 800; color: #0f172a; line-height: 1.16; margin-bottom: 7pt; }
+  .card .body { font-size: 8.9pt; color: #334155; line-height: 1.44; margin-bottom: 7pt; }
+  .card .why { font-size: 8.4pt; color: #64748b; line-height: 1.44; padding-top: 7pt; border-top: 1pt dashed #cbd5e1; }
+  .card .why strong { color: #0e7490; font-weight: 700; }
+
+  .close { display: flex; flex-direction: column; justify-content: center; padding-left: 0.9in; padding-right: 0.9in; background: linear-gradient(135deg, #f8fafc 0%, #e0f2fe 100%); }
+  .close h2 { font-size: 24pt; max-width: 10.6in; margin-bottom: 13pt; }
+  .close .body { font-size: 10.5pt; color: #334155; line-height: 1.55; max-width: 10.6in; }
+  .close .body p { margin-bottom: 8pt; }
+  .close .body strong { color: #0e7490; font-weight: 700; }
+  .close .contact { margin-top: 16pt; font-size: 9.8pt; color: #475569; line-height: 1.6; }
+  .close .contact strong { color: #0f172a; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<div class="slide cover">
+  <div class="prep">Prepared for the Glean Hiring Team</div>
+  <div class="eyebrow">Pitch Deck | Glean Senior Demand Generation Manager</div>
+  <h1>Glean needs net new pipeline from a wide multi-channel net and a tight ABM motion on the accounts worth a direct-mail touch, both landing clean with BDRs. I have run both halves of that funnel, with a number on each side.</h1>
+  <div class="sub">A cost-per-lead automation that funded the channel mix, and an account-based retention system that moved ROAS and churn at the same time.</div>
+  <div class="tags">
+    <div class="tag"><strong>50% cost-per-lead cut</strong> from a lead-flow automation at Plug Power</div>
+    <div class="tag"><strong>35% qualified pipeline growth</strong> from multi-channel campaigns at Sensata</div>
+    <div class="tag"><strong>40% ROAS lift</strong> across an 8-client, $15K-$90K/month account portfolio at Pixis</div>
+    <div class="tag"><strong>16x ROAS</strong> from a feed and catalog rebuild at GenY Medium</div>
+    <div class="tag"><strong>AI agents built on Claude</strong> automating my own reporting cycle at Applied Materials</div>
+  </div>
+  <div class="who">
+    <div class="nm">Adhithya Rokhith Bhaskar</div>
+    <div class="ct">San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974 | adhi-growth-ai.vercel.app/ref/glean</div>
+  </div>
+  <div class="brand">DEMAND GEN PITCH</div>
+  <div class="num">01</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">Why this deck exists</div>
+  <h2>The role is not "run more campaigns." It is one system: a wide net for net-new leads and a <span class="accent">tight ABM motion for high-value accounts, feeding the same BDR queue.</span></h2>
+  <div class="split">
+    <div class="panel">
+      <h4>What that actually requires</h4>
+      <div class="line">A content syndication, nurture and webinar calendar that keeps producing net-new leads without the cost per lead creeping up as volume scales.</div>
+      <div class="line">An ABM track for the accounts big enough to earn a direct-mail or demo-program touch, built so BDRs trust where the lead came from instead of treating it as a cold handoff.</div>
+      <div class="line">A reporting layer that closes the loop from channel to opportunity, so budget and timeline decisions are made on real conversion data, not volume alone.</div>
+    </div>
+    <div class="panel">
+      <h4>What I have already run</h4>
+      <div class="line">At <b>Plug Power</b>, I automated the lead-flow pipeline end to end, cutting cost per lead 50% while growing the database, and closed the loop on Salesforce-connected reporting across the full stack.</div>
+      <div class="line">At <b>Pixis</b>, I ran an account-based retention strategy across an 8-client portfolio, the same segmented, account-level discipline an ABM program for high-value accounts runs on.</div>
+      <div class="line">At <b>Sensata</b>, I built the sales enablement and BDR-facing follow-through that lifted win rates 30%, so a campaign calendar does not stall at the handoff.</div>
+    </div>
+  </div>
+  <div class="bridge">
+    <div class="t">The through-line: every channel I have owned fed a number sales was accountable for, not a lead count that stopped at marketing's dashboard.</div>
+  </div>
+  <div class="brand">DEMAND GEN PITCH</div>
+  <div class="num">02</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The mandate, mapped</div>
+  <h2>What the posting asks for, and where the proof already sits.</h2>
+  <div class="grid2">
+    <div class="col">
+      <h3>What the role covers</h3>
+      <div class="quote"><div class="q">"Develop and execute multi-channel demand generation campaigns...including content syndication, paid newsletters, email nurtures, direct mail, referral programs, demo programs."</div></div>
+      <div class="quote"><div class="q">"Manage the webinar program from concept through promotion, logistics, and follow-up."</div></div>
+      <div class="quote"><div class="q">"Collaborate closely with BDRs and sales counterparts to efficiently operationalize campaigns."</div></div>
+      <div class="quote"><div class="q">"Execute targeted ABM strategies for high-value accounts."</div></div>
+    </div>
+    <div class="col">
+      <h3>My proof</h3>
+      <div class="proof"><div class="p"><b>Plug Power, lead-flow automation:</b> automated the WordPress-to-Pardot pipeline, cutting cost per lead 50% while growing the database across channels on a $100K/month budget.</div></div>
+      <div class="proof"><div class="p"><b>Sensata, multi-channel execution:</b> ran email and paid campaigns across North America and Europe, growing the qualified lead database 35% for the sales team to work.</div></div>
+      <div class="proof"><div class="p"><b>Sensata, BDR and sales partnership:</b> equipped 50+ reps with enablement decks and case studies, partnering on follow-up and positioning that lifted win rates 30%.</div></div>
+      <div class="proof"><div class="p"><b>Pixis, account-based retention:</b> ran a proactive, account-level strategy across an 8-client, $15K-$90K-per-client-per-month portfolio, cutting churn 50% and lifting ROAS 40%.</div></div>
+    </div>
+  </div>
+  <div class="brand">DEMAND GEN PITCH</div>
+  <div class="num">03</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">The proof, in depth</div>
+  <h2>Cut the cost of a lead, grow the channel it came from, then keep <span class="accent">testing the account strategy against ROAS and churn.</span></h2>
+  <div class="lede">Same pattern across three companies: build or automate the channel, segment the accounts that matter, then measure whether the number moved for marketing and for sales.</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="n">50% Cost-Per-Lead Cut</div>
+      <div class="lbl">Lead-Flow Automation</div>
+      <div class="desc">WordPress-to-Pardot pipeline automated at Plug Power, growing the database without added spend, on a $100K/month omni-channel budget.</div>
+    </div>
+    <div class="stat">
+      <div class="n">35% Qualified Pipeline Growth</div>
+      <div class="lbl">Multi-Channel Campaigns</div>
+      <div class="desc">Email and paid campaigns across North America and Europe at Sensata, plus the enablement work that lifted win rates 30% downstream.</div>
+    </div>
+    <div class="stat">
+      <div class="n">40% ROAS / 50% Churn Cut</div>
+      <div class="lbl">Account-Based Portfolio</div>
+      <div class="desc">8-client, $15K-$90K/month portfolio at Pixis, segmented and measured in Amplitude and Tableau across 30+ campaigns.</div>
+    </div>
+  </div>
+  <div class="lede" style="margin-top: 18pt;">The common thread: none of these were a campaign that shipped and stopped. Each one closed the loop from channel spend to a conversion number marketing and sales both owned.</div>
+  <div class="brand">DEMAND GEN PITCH</div>
+  <div class="num">04</div>
+</div>
+
+<div class="slide">
+  <div class="eyebrow">First 30 days</div>
+  <h2>What the first month owning demand generation and ABM at Glean looks like.</h2>
+  <div class="week">
+    <div class="card">
+      <div class="label">Week 1</div>
+      <div class="ttl">Map the channel-to-BDR handoff</div>
+      <div class="body">Trace the last 5-10 campaigns across content syndication, nurtures and webinars to find where lead quality drops before the BDR follow-up, and where the ABM track and the broad-net motion are competing for the same accounts instead of splitting the work.</div>
+      <div class="why"><strong>Why first:</strong> the same first move behind the Plug Power automation, find where the flow breaks before rebuilding it.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 2-3</div>
+      <div class="ttl">Stand up one webinar and one ABM pilot</div>
+      <div class="body">Ship a webinar end to end, concept through promotion and follow-up, alongside a direct-mail or demo-program pilot for a short list of high-value accounts, built with BDRs and sales from day one so the handoff is agreed before either program launches.</div>
+      <div class="why"><strong>Why now:</strong> the same cross-functional build that moved Sensata's win rate 30% instead of a program sales never adopted.</div>
+    </div>
+    <div class="card">
+      <div class="label">Week 4</div>
+      <div class="ttl">Close the loop on reporting</div>
+      <div class="body">Stand up the conversion and cost-effectiveness read behind the Pixis ROAS work for every active channel, then automate the recurring reporting step with an AI agent so budget and timeline calls are made on this cycle's data, not last quarter's.</div>
+      <div class="why"><strong>Why this fast:</strong> the same habit that keeps my own reporting moving at Applied Materials today, not a plan for someday.</div>
+    </div>
+  </div>
+  <div class="brand">DEMAND GEN PITCH</div>
+  <div class="num">05</div>
+</div>
+
+<div class="slide close">
+  <div class="eyebrow">Close</div>
+  <h2>You are hiring someone to run a broad demand-gen net and a tight ABM motion as one pipeline. I have already run both halves, with a number on each one.</h2>
+  <div class="body">
+    <p>The broad-net half: a <strong>50% cost-per-lead cut</strong> from a lead-flow automation at Plug Power, plus <strong>35% qualified pipeline growth</strong> from multi-channel campaigns and sales enablement at Sensata.</p>
+    <p>The ABM half: <strong>40% ROAS and a 50% churn cut</strong> across an 8-client account portfolio at Pixis, and a <strong>16x ROAS</strong> catalog rebuild at GenY Medium. At Applied Materials I now automate my own recurring reporting with agents built on Claude, because rebuilding the same report every cycle is time that should go into the next channel test.</p>
+  </div>
+  <div class="contact">
+    <strong>Adhithya Rokhith Bhaskar</strong> | San Francisco Bay Area, CA | arokhith@gmail.com | +1-929-563-9974<br>
+    Resume and portfolio: <strong>adhi-growth-ai.vercel.app/ref/glean</strong> | LinkedIn: linkedin.com/in/adhithyarokhith
+  </div>
+  <div class="brand">DEMAND GEN PITCH</div>
+  <div class="num">06</div>
+</div>
+
+</body>
+</html>
